@@ -14,7 +14,7 @@ pub struct IconProps {
     pub width: String,
     #[prop_or("24".to_string())]
     pub height: String,
-    pub on_click: Option<Callback<MouseEvent>>,
+    pub onclick: Option<Callback<MouseEvent>>,
 }
 
 #[cfg(not(feature = "generator"))]
@@ -24,7 +24,7 @@ pub fn icon(props: &IconProps) -> Html {
         props.icon_id,
         props.width.clone(),
         props.height.clone(),
-        props.on_click.clone(),
+        props.onclick.clone(),
     )
 }
 
@@ -41,7 +41,7 @@ mod test {
                 icon_id,
                 width: "2em".to_string(),
                 height: "3em".to_string(),
-                on_click: Some(Callback::from(|_e: MouseEvent| {})),
+                onclick: Some(Callback::from(|_e: MouseEvent| {})),
             });
 
             let rendered = renderer.render().await;

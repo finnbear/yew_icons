@@ -1,7 +1,54 @@
 # yew_icons
 
-This crate makes it easy to use SVG icons from the following sources:
+This crate makes it easy to use SVG icons from the following collection (more may be added in the future):
 
-- Feather
-- Font Awesome
-- Octicons
+- [Feather](https://github.com/feathericons/feather) - MIT License -
+- [Font Awesome](https://github.com/FortAwesome/Font-Awesome) - CC BY 4.0 License
+- [Octicons](https://github.com/primer/octicons) - MIT License
+
+## Usage
+
+```rust
+use yew::prelude::*;
+use yew_icons::{Icon, IconId};
+
+html!{
+    <>
+        <Icon icon_id={IconId::FeatherArrowLeftCircle}/>
+        <Icon icon_id={IconId::FeatherArrowUpCircle} width={"2em".to_owned()} height={"2em".to_owned()}/>
+        <Icon icon_id={IconId::FeatherArrowRightCircle} onclick={Callback::from(|_: MouseEvent| {})}/>
+    </>
+}
+```
+
+![example image](example.png)
+
+Note: The icons will inherit their parent's CSS `color`.
+
+## Feature Flags
+
+Each icon collection must be included with the corresponding feature flag, such as `feather` or `font_awesome_solid`.
+
+To save binary size, individual icons can also be included by feature flag, such as `feather_zoom_in` or `font_awesome_solid_atom`.
+
+## License
+
+Code is licensed under either of
+
+ * Apache License, Version 2.0
+   ([LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)
+ * MIT license
+   ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
+
+at your option.
+
+Icons are licensed by their respective creators (see above). An license summary is emitted to the DOM for each icon:
+```html
+<svg data-license="...original license...">
+```
+
+## Contribution
+
+Unless you explicitly state otherwise, any contribution intentionally submitted
+for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
+dual licensed as above, without any additional terms or conditions.

@@ -16,7 +16,7 @@ fn main() {
     let height_regex = Regex::new(r##"height="[0-9]*""##).unwrap();
     let comment_regex = Regex::new(r##"<!--(.*?)-->"##).unwrap();
 
-    let mut generate = |prefix: &str, dir: &str| {
+    let mut generate = |prefix: &str, dir: &str, license: &str| {
         let feature = prefix.to_case(Case::Snake);
 
         let result = read_dir(dir);
@@ -47,11 +47,14 @@ fn main() {
 
             let svg = width_regex.replace(svg, "").into_owned();
             let svg = height_regex.replace(&svg, "").into_owned();
+
+            // Yew's [`html!`] macro doesn't support comments.
             let svg = comment_regex.replace(&svg, "").into_owned();
 
-            let mut replacement =
-                r#"xmlns="http://www.w3.org/2000/svg" {width} {height} onclick={on_click}"#
-                    .to_string();
+            let mut replacement = format!(
+                r#"xmlns="http://www.w3.org/2000/svg" data-license="{}" {{width}} {{height}} onclick={{onclick}}"#,
+                license
+            );
 
             if !svg.contains("stroke") {
                 replacement += r#" stroke="currentColor" fill="currentColor""#;
@@ -65,7 +68,7 @@ fn main() {
 
             functions.push(quote! {
                 #[cfg(feature = #feature)]
-                fn #function_name(width: String, height: String, on_click: Option<Callback<MouseEvent>>) -> Html {
+                fn #function_name(width: String, height: String, onclick: Option<Callback<MouseEvent>>) -> Html {
                     yew::html! {
                         #svg_tokens
                     }
@@ -74,15 +77,33 @@ fn main() {
 
             cases.push(quote! {
                 #[cfg(feature = #feature)]
-                IconId::#variant => #function_name(width, height, on_click)
+                IconId::#variant => #function_name(width, height, onclick)
             });
         }
     };
 
-    generate("Feather", "feather/icons");
-    generate("FontAwesomeRegular", "Font-Awesome/svgs/regular");
-    generate("FontAwesomeSolid", "Font-Awesome/svgs/solid");
-    generate("Octicons", "octicons/icons");
+    let font_awesome_license = r##"Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc."##;
+
+    generate(
+        "Feather",
+        "feather/icons",
+        r##"From https://github.com/feathericons/feather - Licensed under MIT"##,
+    );
+    generate(
+        "FontAwesomeRegular",
+        "Font-Awesome/svgs/regular",
+        font_awesome_license,
+    );
+    generate(
+        "FontAwesomeSolid",
+        "Font-Awesome/svgs/solid",
+        font_awesome_license,
+    );
+    generate(
+        "Octicons",
+        "octicons/icons",
+        r##"From https://github.com/primer/octicons - (c) GitHub, Inc."##,
+    );
 
     let tokens = quote! {
         use yew::prelude::*;
@@ -96,7 +117,7 @@ fn main() {
 
         #(#functions)*
 
-        pub fn get_svg(icon_id: IconId, width: String, height: String, on_click: Option<Callback<MouseEvent>>) -> Html {
+        pub fn get_svg(icon_id: IconId, width: String, height: String, onclick: Option<Callback<MouseEvent>>) -> Html {
             match icon_id {
                 #(#cases),*
             }
