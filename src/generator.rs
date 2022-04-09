@@ -56,7 +56,7 @@ fn main() {
             let svg = comment_regex.replace(&svg, "").into_owned();
 
             let mut replacement = format!(
-                r#"xmlns="http://www.w3.org/2000/svg" data-license="{}" {{width}} {{height}} onclick={{onclick}}"#,
+                r#"xmlns="http://www.w3.org/2000/svg" data-license="{}" {{width}} {{height}} {{onclick}}"#,
                 license
             );
 
