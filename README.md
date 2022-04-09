@@ -1,6 +1,6 @@
 # yew_icons
 
-This crate makes it easy to use SVG icons from the following collection (more may be added in the future):
+This crate makes it easy to use SVG icons from the following collections (more may be added in the future):
 
 - [Feather](https://feathericons.com/) - MIT License
 - [Font Awesome](https://fontawesome.com/icons) - CC BY 4.0 License
