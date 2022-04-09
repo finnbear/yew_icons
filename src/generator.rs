@@ -22,7 +22,6 @@ fn main() {
     let height_regex = Regex::new(r##"height="[0-9]*""##).unwrap();
     let comment_regex = Regex::new(r##"<!--(.*?)-->"##).unwrap();
 
-
     let mut generate = |prefix: &str, dir: &str, license: &str| {
         let feature_name = prefix.to_case(Case::Snake);
         let mut collection_feature = Feature {
@@ -80,7 +79,7 @@ fn main() {
             });
 
             collection_feature.children.push(variant_name.clone());
-            features.push(Feature{
+            features.push(Feature {
                 name: variant_name.clone(),
                 children: Vec::new(),
             });
@@ -152,7 +151,16 @@ fn main() {
     features.sort_by_key(|feature| feature.name.clone());
 
     for feature in features {
-        println!(r##"{} = [{}]"##, feature.name, feature.children.into_iter().map(|c| format!(r##""{}""##, c)).collect::<Vec<_>>().join(", "))
+        println!(
+            r##"{} = [{}]"##,
+            feature.name,
+            feature
+                .children
+                .into_iter()
+                .map(|c| format!(r##""{}""##, c))
+                .collect::<Vec<_>>()
+                .join(", ")
+        )
     }
 }
 
