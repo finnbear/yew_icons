@@ -8,6 +8,11 @@ This crate makes it easy to use SVG icons from the following collection (more ma
 
 ## Usage
 
+```toml
+[dependencies]
+yew_icons = {path = "..", features = ["FeatherArrowLeftCircle", "FeatherArrowRightCircle", "FeatherArrowUpCircle"]}
+```
+
 ```rust
 use yew::prelude::*;
 use yew_icons::{Icon, IconId};
