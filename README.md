@@ -31,7 +31,8 @@ Each icon collection must be included with the corresponding feature flag, such 
 
 To save binary size, individual icons can also be included by feature flag, such as `FeatherZoomIn` or `FontAwesomeSolidAtom`.
 
-By default, no collections or icons are included.
+By default, no collections or icons are included. Be warned that including too many icons may result in a `.wasm` binary
+that some WebAssembly engines refuse to load (see https://github.com/rustwasm/wasm-pack/issues/981).
 
 ## License
 
