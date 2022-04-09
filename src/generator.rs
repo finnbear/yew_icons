@@ -8,16 +8,27 @@ use std::process::{Command, Stdio};
 use std::str::FromStr;
 
 fn main() {
+    struct Feature {
+        name: String,
+        children: Vec<String>,
+    }
+
     let mut variants = Vec::new();
     let mut functions = Vec::new();
     let mut cases = Vec::new();
+    let mut features = Vec::new();
 
     let width_regex = Regex::new(r##"width="[0-9]*""##).unwrap();
     let height_regex = Regex::new(r##"height="[0-9]*""##).unwrap();
     let comment_regex = Regex::new(r##"<!--(.*?)-->"##).unwrap();
 
+
     let mut generate = |prefix: &str, dir: &str, license: &str| {
-        let feature = prefix.to_case(Case::Snake);
+        let feature_name = prefix.to_case(Case::Snake);
+        let mut collection_feature = Feature {
+            name: feature_name.clone(),
+            children: Vec::new(),
+        };
 
         let result = read_dir(dir);
         let mut paths: Vec<_> = result
@@ -35,12 +46,6 @@ fn main() {
                 panic!("never happens?");
             }
             let name = prefix.to_owned() + "-" + file_name.split('.').next().unwrap();
-
-            let variant = to_ident(&name.to_case(Case::UpperCamel));
-            variants.push(quote! {
-                #[cfg(feature = #feature)]
-                #variant
-            });
 
             let contents = read(&path).expect(&path);
             let svg = std::str::from_utf8(&contents).unwrap();
@@ -64,11 +69,25 @@ fn main() {
 
             let svg_tokens = TokenStream::from_str(&svg).unwrap();
 
-            let function_name = to_ident(&name.to_case(Case::Snake));
+            let function_name = name.to_case(Case::Snake);
+            let function_ident = to_ident(&function_name);
+
+            let variant_name = name.to_case(Case::UpperCamel);
+            let variant = to_ident(&variant_name);
+            variants.push(quote! {
+                #[cfg(feature = #variant_name)]
+                #variant
+            });
+
+            collection_feature.children.push(variant_name.clone());
+            features.push(Feature{
+                name: variant_name.clone(),
+                children: Vec::new(),
+            });
 
             functions.push(quote! {
-                #[cfg(feature = #feature)]
-                fn #function_name(width: String, height: String, onclick: Option<Callback<MouseEvent>>) -> Html {
+                #[cfg(feature = #variant_name)]
+                fn #function_ident(width: String, height: String, onclick: Option<Callback<MouseEvent>>) -> Html {
                     yew::html! {
                         #svg_tokens
                     }
@@ -76,10 +95,12 @@ fn main() {
             });
 
             cases.push(quote! {
-                #[cfg(feature = #feature)]
-                IconId::#variant => #function_name(width, height, onclick)
+                #[cfg(feature = #variant_name)]
+                IconId::#variant => #function_ident(width, height, onclick)
             });
         }
+
+        features.push(collection_feature);
     };
 
     let font_awesome_license = r##"Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc."##;
@@ -127,6 +148,12 @@ fn main() {
     let output = reformat(tokens.to_string()).unwrap();
 
     write("src/generated.rs", output).unwrap();
+
+    features.sort_by_key(|feature| feature.name.clone());
+
+    for feature in features {
+        println!(r##"{} = [{}]"##, feature.name, feature.children.into_iter().map(|c| format!(r##""{}""##, c)).collect::<Vec<_>>().join(", "))
+    }
 }
 
 fn to_ident(string: &str) -> Ident {

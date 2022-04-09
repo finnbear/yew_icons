@@ -29,7 +29,9 @@ Note: The icons will inherit their parent's CSS `color`.
 
 Each icon collection must be included with the corresponding feature flag, such as `feather` or `font_awesome_solid`.
 
-To save binary size, individual icons can also be included by feature flag, such as `feather_zoom_in` or `font_awesome_solid_atom`.
+To save binary size, individual icons can also be included by feature flag, such as `FeatherZoomIn` or `FontAwesomeSolidAtom`.
+
+By default, no collections or icons are included.
 
 ## License
 
