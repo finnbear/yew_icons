@@ -1,8 +1,11 @@
 [package]
 name = "yew_icons"
+authors = ["Finn Bear"]
 license = "MIT"
 version = "0.1.0"
 edition = "2018"
+repository = "https://github.com/finnbear/yew_icons/"
+description = "Easily include a variety of svgs into your yew app"
 
 [[bin]]
 name = "generator"
