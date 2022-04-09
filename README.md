@@ -2,7 +2,7 @@
 
 This crate makes it easy to use SVG icons from the following collection (more may be added in the future):
 
-- [Feather](https://github.com/feathericons/feather) - MIT License -
+- [Feather](https://github.com/feathericons/feather) - MIT License
 - [Font Awesome](https://github.com/FortAwesome/Font-Awesome) - CC BY 4.0 License
 - [Octicons](https://github.com/primer/octicons) - MIT License
 
