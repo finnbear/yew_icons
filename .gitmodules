@@ -1,0 +1,9 @@
+[submodule "feather"]
+	path = feather
+	url = https://github.com/feathericons/feather
+[submodule "octicons"]
+	path = octicons
+	url = https://github.com/primer/octicons.git
+[submodule "Font-Awesome"]
+	path = Font-Awesome
+	url = git@github.com:FortAwesome/Font-Awesome.git

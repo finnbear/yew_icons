@@ -1,0 +1,9 @@
+[package]
+name = "test-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yew = {version = "0"}
+yew_icons = {path = "..", features = ["iterate_icon_id", "font_awesome_solid"]}
+enum-iterator = "0"
