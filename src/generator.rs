@@ -60,8 +60,16 @@ fn main() {
                 license
             );
 
-            if !svg.contains("stroke") {
-                replacement += r#" stroke="currentColor" fill="currentColor""#;
+            if !svg.contains("stroke=") && !svg.contains("fill=") {
+                replacement += r#" fill="currentColor""#;
+
+                /*
+                if svg.contains("fill-rule") || prefix == "Octicons" {
+                    replacement += r#" fill="currentColor""#;
+                } else {
+                    replacement += r#" stroke="currentColor""#;
+                }
+                 */
             }
 
             let svg = svg.replace(r#"xmlns="http://www.w3.org/2000/svg""#, &replacement);
@@ -86,6 +94,7 @@ fn main() {
 
             functions.push(quote! {
                 #[cfg(feature = #variant_name)]
+                #[inline(never)]
                 fn #function_ident(width: String, height: String, onclick: Option<Callback<MouseEvent>>) -> Html {
                     yew::html! {
                         #svg_tokens
@@ -104,6 +113,11 @@ fn main() {
 
     let font_awesome_license = r##"Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc."##;
 
+    generate(
+        "Bootstrap",
+        "bootstrap/icons",
+        r##"From https://github.com/twbs/icons - Licensed under MIT"##,
+    );
     generate(
         "Feather",
         "feather/icons",
