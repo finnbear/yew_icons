@@ -19,17 +19,25 @@ fn gallery() -> Html {
 fn app() -> Html {
     html! {
         <>
+            <h1 style={"font-family: sans-serif; margin-top: 0;"}>{"yew_icons"}</h1>
+            <p>
+                <a href={"https://github.com/finnbear/yew_icons"}>{"GitHub"}</a>
+                {" - "}
+                <a href={"https://crates.io/crates/yew_icons"}>{"crates.io"}</a>
+                {" - Hover to get the feature flag/"}
+                <pre style="display: inline;">{"IconId"}</pre>
+            </p>
             <div style="display: none;">
                 <Icon icon_id={IconId::FeatherArrowLeftCircle}/>
                 <Icon icon_id={IconId::FeatherArrowUpCircle} width={"2em".to_owned()} height={"2em".to_owned()}/>
                 <Icon icon_id={IconId::FeatherArrowRightCircle} onclick={Callback::from(|_: MouseEvent| {})}/>
             </div>
             <div style="color: black; background-color: white; padding: 0.5em;">
-                <h1 style={"font-family: sans-serif; margin-top: 0;"}>{"Black on White"}</h1>
+                <h2 style={"font-family: sans-serif; margin-top: 0;"}>{"Black on White"}</h2>
                 <Gallery/>
             </div>
             <div style="color: white; background-color: black; padding: 0.5em;">
-                <h1 style={"font-family: sans-serif; margin-top: 0;"}>{"White on Black"}</h1>
+                <h2 style={"font-family: sans-serif; margin-top: 0;"}>{"White on Black"}</h2>
                 <Gallery/>
             </div>
         </>
