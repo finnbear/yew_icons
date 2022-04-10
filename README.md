@@ -1,6 +1,6 @@
 # yew_icons
 
-This crate makes it easy to use SVG icons from the following collections (more may be added in the future):
+This crate makes it easy to use [SVG icons](https://finnbear.github.io/yew_icons/) from the following collections (more may be added in the future):
 
 - [Bootstrap](https://icons.getbootstrap.com/) - MIT License
 - [Feather](https://feathericons.com/) - MIT License
@@ -11,10 +11,14 @@ This crate makes it easy to use SVG icons from the following collections (more m
 
 ## Usage
 
+Use the [gallery](https://finnbear.github.io/yew_icons/) to find icons you like, and add them as feature flags.
+
 ```toml
 [dependencies]
 yew_icons = {path = "..", features = ["FeatherArrowLeftCircle", "FeatherArrowRightCircle", "FeatherArrowUpCircle"]}
 ```
+
+Then, add an `<Icon>` component with the corresponding icon id, optionally specifying a `width`, `height`, and/or `onclick` callback.
 
 ```rust
 use yew::prelude::*;
