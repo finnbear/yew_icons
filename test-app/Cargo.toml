@@ -7,3 +7,4 @@ edition = "2021"
 yew = {version = "0"}
 yew_icons = {path = "..", features = ["iterate_icon_id", "bootstrap", "feather", "font_awesome_regular", "font_awesome_solid", "octicons", "FeatherArrowDownCircle", "FeatherArrowLeftCircle", "FeatherArrowRightCircle", "FeatherArrowUpCircle"]}
 enum-iterator = "0"
+web-sys = {version = "0", features=["HtmlInputElement"]}
