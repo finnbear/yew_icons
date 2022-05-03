@@ -5,6 +5,10 @@ edition = "2021"
 
 [dependencies]
 yew = {version = "0"}
-yew_icons = {path = "..", features = ["iterate_icon_id", "bootstrap", "feather", "font_awesome_regular", "font_awesome_solid", "octicons", "FeatherArrowDownCircle", "FeatherArrowLeftCircle", "FeatherArrowRightCircle", "FeatherArrowUpCircle"]}
 enum-iterator = "0"
 web-sys = {version = "0", features=["HtmlInputElement"]}
+
+# Note: This dependency is specific to the test app, because it contains the `path = ".."` attribute. In your own project,
+# you must omit that attribute e.g. import `yew_icons = {version = "0.1.1", features = ["FeatherArrowDownCircle"]}`.
+# That way, cargo will download the crate instead of looking in a directory where it doesn't exist.
+yew_icons = {path = "..", features = ["iterate_icon_id", "bootstrap", "feather", "font_awesome_regular", "font_awesome_solid", "octicons", "FeatherArrowDownCircle", "FeatherArrowLeftCircle", "FeatherArrowRightCircle", "FeatherArrowUpCircle"]}
