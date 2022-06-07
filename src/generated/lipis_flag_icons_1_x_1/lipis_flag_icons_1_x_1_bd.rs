@@ -1,0 +1,2 @@
+use yew :: { Callback , Html , MouseEvent } ; # [inline (never)] pub fn lipis_flag_icons_1_x_1_bd (width : String , height : String , onclick : Option < Callback < MouseEvent >>) -> Html { yew :: html ! { < svg xmlns = "http://www.w3.org/2000/svg" data - license = "From https://github.com/lipis/flag-icons - Licensed under MIT" { width } { height } { onclick } fill = "currentColor" id = "flag-icons-bd" viewBox = "0 0 512 512" > < path fill = "#006a4e" d = "M0 0h512v512H0z" /> { "
+  " } < circle cx = "230" cy = "256" r = "170.7" fill = "#f42a41" /> </ svg > } }

@@ -7,7 +7,10 @@ This crate makes it easy to use [SVG icons](https://finnbear.github.io/yew_icons
 - [Font Awesome](https://fontawesome.com/icons) - CC BY 4.0 License
   - Regular
   - Solid
+- [Lipis Flag Icons](https://github.com/lipis/flag-icons)* - MIT License
 - [Octicons](https://primer.style/octicons/) - MIT License
+
+*not all icons included in [gallery](https://finnbear.github.io/yew_icons/).
 
 ## Usage
 
