@@ -13,6 +13,3 @@
 [submodule "lipis-flag-icons"]
 	path = lipis-flag-icons
 	url = git@github.com:lipis/flag-icons.git
-[submodule "yammadev-flag-icons"]
-	path = yammadev-flag-icons
-	url = https://github.com/yammadev/flag-icons.git
