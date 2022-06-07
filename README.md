@@ -18,7 +18,7 @@ Use the [gallery](https://finnbear.github.io/yew_icons/) to find icons you like,
 
 ```toml
 [dependencies]
-yew_icons = {path = "..", features = ["FeatherArrowLeftCircle", "FeatherArrowRightCircle", "FeatherArrowUpCircle"]}
+yew_icons = {version = "0.1.x", features = ["FeatherArrowLeftCircle", "FeatherArrowRightCircle", "FeatherArrowUpCircle"]}
 ```
 
 Then, add an `<Icon>` component with the corresponding icon id, optionally specifying a `width`, `height`, and/or `onclick` callback.

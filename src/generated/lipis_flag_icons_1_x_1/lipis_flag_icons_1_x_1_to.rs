@@ -1,8 +1,1 @@
-use yew :: { Callback , Html , MouseEvent } ; # [inline (never)] pub fn lipis_flag_icons_1_x_1_to (width : String , height : String , onclick : Option < Callback < MouseEvent >>) -> Html { yew :: html ! { < svg xmlns = "http://www.w3.org/2000/svg" data - license = "From https://github.com/lipis/flag-icons - Licensed under MIT" { width } { height } { onclick } id = "flag-icons-to" viewBox = "0 0 512 512" > < g fill - rule = "evenodd" stroke - width = "1pt" > { "
-    " } < path fill = "#c10000" d = "M0 0h512v512H0z" /> { "
-    " } < path fill = "#fff" d = "M0 0h218.3v175H0z" /> { "
-    " } < g fill = "#c10000" > { "
-      " } < path d = "M89.8 27.3h34.8v121.9H89.8z" /> { "
-      " } < path d = "M168.2 70.8v34.8H46.3V70.8z" /> { "
-    " } </ g > { "
-  " } </ g > </ svg > } }
+use yew :: { Callback , Html , MouseEvent } ; # [inline (never)] pub fn lipis_flag_icons_1_x_1_to (width : String , height : String , onclick : Option < Callback < MouseEvent >>) -> Html { yew :: html ! { < svg xmlns = "http://www.w3.org/2000/svg" data - license = "From https://github.com/lipis/flag-icons - Licensed under MIT" { width } { height } { onclick } id = "flag-icons-to" viewBox = "0 0 512 512" > < g fill - rule = "evenodd" stroke - width = "1pt" > < path fill = "#c10000" d = "M0 0h512v512H0z" /> < path fill = "#fff" d = "M0 0h218.3v175H0z" /> < g fill = "#c10000" > < path d = "M89.8 27.3h34.8v121.9H89.8z" /> < path d = "M168.2 70.8v34.8H46.3V70.8z" /> </ g > </ g > </ svg > } }

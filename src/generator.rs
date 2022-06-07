@@ -20,7 +20,7 @@ fn main() {
 
     let width_regex = Regex::new(r##"[^-]width="[0-9a-z]*""##).unwrap();
     let height_regex = Regex::new(r##"[^-]height="[0-9a-z]*""##).unwrap();
-    let text_regex = Regex::new(r##">(\s?[a-zA-Z. \-]+\s?)<"##).unwrap();
+    let text_regex = Regex::new(r##">(\s*[a-zA-Z.\-]+[a-zA-Z. \-]*)<"##).unwrap();
     let title_regex = Regex::new(r##"<title>.+</title>"##).unwrap();
     let desc_regex = Regex::new(r##"<desc>.+</desc>"##).unwrap();
     let comment_regex = Regex::new(r##"<!--(.*?)-->"##).unwrap();
