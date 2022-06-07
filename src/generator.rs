@@ -102,7 +102,7 @@ fn main() {
                 license
             );
 
-            if !first_tag.contains("stroke=") && !first_tag.contains("fill=") {
+            if !svg.contains("stroke=") && !svg.contains("fill=") {
                 replacement += r#" fill="currentColor""#;
 
                 /*

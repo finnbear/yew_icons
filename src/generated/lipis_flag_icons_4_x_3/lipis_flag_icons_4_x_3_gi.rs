@@ -1,4 +1,4 @@
-use yew :: { Callback , Html , MouseEvent } ; # [inline (never)] pub fn lipis_flag_icons_4_x_3_gi (width : String , height : String , onclick : Option < Callback < MouseEvent >>) -> Html { yew :: html ! { < svg xmlns = "http://www.w3.org/2000/svg" data - license = "From https://github.com/lipis/flag-icons - Licensed under MIT" { width } { height } { onclick } fill = "currentColor" id = "flag-icons-gi" viewBox = "0 0 640 480" > < path fill = "#da000c" d = "M0 0h640v480H0z" /> { "
+use yew :: { Callback , Html , MouseEvent } ; # [inline (never)] pub fn lipis_flag_icons_4_x_3_gi (width : String , height : String , onclick : Option < Callback < MouseEvent >>) -> Html { yew :: html ! { < svg xmlns = "http://www.w3.org/2000/svg" data - license = "From https://github.com/lipis/flag-icons - Licensed under MIT" { width } { height } { onclick } id = "flag-icons-gi" viewBox = "0 0 640 480" > < path fill = "#da000c" d = "M0 0h640v480H0z" /> { "
   " } < path fill = "#fff" d = "M0 0h640v321.6H0z" /> { "
   " } < g stroke = "#000" transform = "translate(-160) scale(1.875)" > { "
     " } < g id = "a" fill = "#da000c" stroke - linecap = "square" > { "
