@@ -24,6 +24,7 @@ fn main() {
     let title_regex = Regex::new(r##"<title>.+</title>"##).unwrap();
     let desc_regex = Regex::new(r##"<desc>.+</desc>"##).unwrap();
     let comment_regex = Regex::new(r##"<!--(.*?)-->"##).unwrap();
+    let clip_path_regex = Regex::new(r##"clip-path="url\(#.+\)" "##).unwrap();
 
     remove_dir_all("src/generated").unwrap();
     create_dir_all("src/generated").unwrap();
@@ -60,6 +61,9 @@ fn main() {
 
             let contents = read(&path).expect(&path);
             let svg = std::str::from_utf8(&contents).unwrap();
+
+            // Ids not supported in HTML context.
+            let svg = clip_path_regex.replace_all(&svg, " ").into_owned();
 
             // https://github.com/yammadev/flag-icons/blob/bd4bcf4f4829002cd10416029e05ba89a7554af4/svg/AE.svg
             let svg = svg.replace(r##"<?xml version="1.0" encoding="UTF-8"?>"##, "");

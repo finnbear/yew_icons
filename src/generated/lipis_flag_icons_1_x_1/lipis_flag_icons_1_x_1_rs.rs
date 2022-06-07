@@ -3,7 +3,7 @@ use yew :: { Callback , Html , MouseEvent } ; # [inline (never)] pub fn lipis_fl
       " } < path d = "M54.3 32h480v480h-480z" /> { "
     " } </ clipPath > { "
   " } </ defs > { "
-  " } < g clip - path = "url(#rs-a)" transform = "translate(-57.9 -34.1) scale(1.06667)" > { "
+  " } < g transform = "translate(-57.9 -34.1) scale(1.06667)" > { "
     " } < path fill = "#fff" d = "M-32 32h720v480H-32z" /> { "
     " } < path fill = "#0c4076" d = "M-32 32h720v320H-32z" /> { "
     " } < path fill = "#c6363c" d = "M-32 32h720v160H-32z" /> { "

@@ -3,7 +3,7 @@ use yew :: { Callback , Html , MouseEvent } ; # [inline (never)] pub fn lipis_fl
       " } < path fill - opacity = ".7" d = "M0 0h682.7v512H0z" /> { "
     " } </ clipPath > { "
   " } </ defs > { "
-  " } < g fill - rule = "evenodd" clip - path = "url(#km-a)" transform = "scale(.9375)" > { "
+  " } < g fill - rule = "evenodd" transform = "scale(.9375)" > { "
     " } < path fill = "#ff0" d = "M0 0h768.8v128H0z" /> { "
     " } < path fill = "#fff" d = "M0 128h768.8v128H0z" /> { "
     " } < path fill = "#be0027" d = "M0 256h768.8v128H0z" /> { "

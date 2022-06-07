@@ -4,7 +4,7 @@ use yew :: { Callback , Html , MouseEvent } ; # [inline (never)] pub fn lipis_fl
     " } </ clipPath > { "
     " } < path id = "b" d = "m0-1 .2.7H1L.3 0l.2.7L0 .4l-.6.4.2-.7-.5-.4h.7z" /> { "
   " } </ defs > { "
-  " } < g clip - path = "url(#cw-a)" transform = "scale(.057)" > { "
+  " } < g transform = "scale(.057)" > { "
     " } < path fill = "#002b7f" d = "M0 0h13500v9000H0z" /> { "
     " } < path fill = "#f9e814" d = "M0 5625h13500v1125H0z" /> { "
     " } < use href = "#b" width = "13500" height = "9000" x = "2" y = "2" fill = "#fff" transform = "scale(750)" /> { "
