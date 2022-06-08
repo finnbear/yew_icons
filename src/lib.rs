@@ -7,13 +7,16 @@ pub use generated::{get_svg, IconId};
 use yew::prelude::*;
 
 #[cfg(not(feature = "generator"))]
+use yew::virtual_dom::AttrValue;
+
+#[cfg(not(feature = "generator"))]
 #[derive(Properties, PartialEq)]
 pub struct IconProps {
     pub icon_id: IconId,
-    #[prop_or("24".to_string())]
-    pub width: String,
-    #[prop_or("24".to_string())]
-    pub height: String,
+    #[prop_or("24".into())]
+    pub width: AttrValue,
+    #[prop_or("24".into())]
+    pub height: AttrValue,
     pub onclick: Option<Callback<MouseEvent>>,
 }
 
@@ -39,8 +42,8 @@ mod test {
         for icon_id in IconId::into_enum_iter() {
             let renderer = yew::ServerRenderer::<Icon>::with_props(IconProps {
                 icon_id,
-                width: "2em".to_string(),
-                height: "3em".to_string(),
+                width: "2em".into(),
+                height: "3em".into(),
                 onclick: Some(Callback::from(|_e: MouseEvent| {})),
             });
 

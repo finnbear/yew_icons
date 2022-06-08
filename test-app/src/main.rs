@@ -25,7 +25,7 @@ fn gallery(props: &GalleryProps) -> Html {
 
             html_nested! {
                 <span {title} style={format!("margin: 0.1em; display: {};", display)}>
-                    <Icon {icon_id}/>
+                    <Icon {icon_id} width={"24"} height={"24".to_string()}/>
                 </span>
             }
         }).collect::<Html>()

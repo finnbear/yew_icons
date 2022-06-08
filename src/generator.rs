@@ -137,10 +137,10 @@ fn main() {
 
             // Don't need when export separate mods #[cfg(feature = #variant_name)]
             let tokens = quote! {
-                use yew::{Callback, Html, MouseEvent};
+                use yew::{virtual_dom::AttrValue, Callback, Html, MouseEvent};
 
                 #[inline(never)]
-                pub fn #function_ident(width: String, height: String, onclick: Option<Callback<MouseEvent>>) -> Html {
+                pub fn #function_ident(width: AttrValue, height: AttrValue, onclick: Option<Callback<MouseEvent>>) -> Html {
                     yew::html! {
                         #svg_tokens
                     }
@@ -233,7 +233,7 @@ fn main() {
     );
 
     let tokens = quote! {
-        use yew::prelude::*;
+        use yew::{virtual_dom::AttrValue, Callback, Html, MouseEvent};
 
         #[derive(Copy, Clone, Eq, PartialEq, Debug)]
         #[cfg_attr(feature = "iterate_icon_id", derive(enum_iterator::IntoEnumIterator))]
@@ -242,7 +242,7 @@ fn main() {
             #(#variants),*
         }
 
-        pub fn get_svg(icon_id: IconId, width: String, height: String, onclick: Option<Callback<MouseEvent>>) -> Html {
+        pub fn get_svg(icon_id: IconId, width: AttrValue, height: AttrValue, onclick: Option<Callback<MouseEvent>>) -> Html {
             match icon_id {
                 #(#cases),*
             }

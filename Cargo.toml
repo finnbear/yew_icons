@@ -2,7 +2,7 @@
 name = "yew_icons"
 authors = ["Finn Bear"]
 license = "MIT"
-version = "0.1.6"
+version = "0.2.0"
 edition = "2018"
 repository = "https://github.com/finnbear/yew_icons/"
 description = "Easily include a variety of SVG icons into your yew app"
