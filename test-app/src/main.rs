@@ -24,9 +24,15 @@ fn gallery(props: &GalleryProps) -> Html {
             };
 
             html_nested! {
-                <span {title} style={format!("margin: 0.1em; display: {};", display)}>
-                    <Icon {icon_id} width={"24"} height={"24".to_string()}/>
-                </span>
+                <Icon
+                    {title}
+                    {icon_id}
+                    width={"24"}
+                    height={"24".to_string()}
+                    onclick={Callback::from(move |_| log::info!("{:?} click", icon_id))}
+                    oncontextmenu={Callback::from(move |_| log::info!("{:?} contextmenu", icon_id))}
+                    style={format!("margin: 0.1em; display: {};", display)}
+                />
             }
         }).collect::<Html>()
     }
@@ -72,5 +78,6 @@ fn app() -> Html {
 }
 
 fn main() {
+    wasm_logger::init(wasm_logger::Config::default());
     yew::start_app::<App>();
 }

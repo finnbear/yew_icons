@@ -12,23 +12,30 @@ use yew::virtual_dom::AttrValue;
 #[cfg(not(feature = "generator"))]
 #[derive(Properties, PartialEq)]
 pub struct IconProps {
+    /// Which icon to render. Enable icons with feature flags.
     pub icon_id: IconId,
+    /// Tooltip text.
+    pub title: Option<AttrValue>,
+    /// CSS width.
     #[prop_or("24".into())]
     pub width: AttrValue,
+    /// CSS height.
     #[prop_or("24".into())]
     pub height: AttrValue,
+    /// Callback when icon is clicked.
     pub onclick: Option<Callback<MouseEvent>>,
+    /// Callback when icon is subject to context menu (usually means it was right-clicked).
+    pub oncontextmenu: Option<Callback<MouseEvent>>,
+    /// For CSS.
+    pub class: Option<Classes>,
+    /// For inline CSS.
+    pub style: Option<AttrValue>,
 }
 
 #[cfg(not(feature = "generator"))]
 #[function_component(Icon)]
 pub fn icon(props: &IconProps) -> Html {
-    get_svg(
-        props.icon_id,
-        props.width.clone(),
-        props.height.clone(),
-        props.onclick.clone(),
-    )
+    get_svg(props)
 }
 
 #[cfg(test)]

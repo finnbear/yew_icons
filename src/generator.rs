@@ -20,6 +20,7 @@ fn main() {
 
     let width_regex = Regex::new(r##"[^-]width="[0-9a-z]*""##).unwrap();
     let height_regex = Regex::new(r##"[^-]height="[0-9a-z]*""##).unwrap();
+    let class_regex = Regex::new(r##"class="[A-Za-z0-9-_ ]*""##).unwrap();
     let text_regex = Regex::new(r##">(\s*[a-zA-Z.\-]+[a-zA-Z. \-]*)<"##).unwrap();
     let title_regex = Regex::new(r##"<title>.+</title>"##).unwrap();
     let desc_regex = Regex::new(r##"<desc>.+</desc>"##).unwrap();
@@ -62,6 +63,11 @@ fn main() {
             let contents = read(&path).expect(&path);
             let svg = std::str::from_utf8(&contents).unwrap();
 
+            let svg = class_regex.replace_all(&svg, "");
+
+            assert!(!svg.contains(r#"title="#), "already had title: {}", path);
+            assert!(!svg.contains(r#"class="#), "already had class despite regex: {}", path);
+
             // Ids not supported in HTML context.
             let svg = clip_path_regex.replace_all(&svg, " ").into_owned();
 
@@ -98,7 +104,7 @@ fn main() {
             let remainder = text_regex.replace_all(&remainder, r##">{"$1"}<"##).into_owned();
 
             let mut replacement = format!(
-                r#"xmlns="http://www.w3.org/2000/svg" data-license="{}" {{width}} {{height}} {{onclick}}"#,
+                r#"xmlns="http://www.w3.org/2000/svg" data-license="{}" width={{width.clone()}} height={{height.clone()}} onclick={{onclick.clone()}} oncontextmenu={{oncontextmenu.clone()}} class={{class.clone()}} style={{style.clone()}}"#,
                 license
             );
 
@@ -116,7 +122,7 @@ fn main() {
 
             first_tag = first_tag.replace(r#"xmlns="http://www.w3.org/2000/svg""#, &replacement);
 
-            let svg = first_tag + &remainder;
+            let svg = first_tag + "if let Some(title) = title.clone() { <title>{title}</title> }" + &remainder;
             let svg_tokens = TokenStream::from_str(&svg).expect(&path);
 
             let function_name = name.to_case(Case::Snake);
@@ -137,10 +143,10 @@ fn main() {
 
             // Don't need when export separate mods #[cfg(feature = #variant_name)]
             let tokens = quote! {
-                use yew::{virtual_dom::AttrValue, Callback, Html, MouseEvent};
+                use crate::IconProps;
 
                 #[inline(never)]
-                pub fn #function_ident(width: AttrValue, height: AttrValue, onclick: Option<Callback<MouseEvent>>) -> Html {
+                pub fn #function_ident(IconProps{icon_id: _, title, width, height, onclick, oncontextmenu, class, style}: &IconProps) -> yew::Html {
                     yew::html! {
                         #svg_tokens
                     }
@@ -157,7 +163,7 @@ fn main() {
 
             cases.push(quote! {
                 #[cfg(feature = #variant_name)]
-                IconId::#variant => #feature_ident::#function_ident::#function_ident(width, height, onclick)
+                IconId::#variant => #feature_ident::#function_ident::#function_ident(props)
             });
         }
 
@@ -233,8 +239,6 @@ fn main() {
     );
 
     let tokens = quote! {
-        use yew::{virtual_dom::AttrValue, Callback, Html, MouseEvent};
-
         #[derive(Copy, Clone, Eq, PartialEq, Debug)]
         #[cfg_attr(feature = "iterate_icon_id", derive(enum_iterator::IntoEnumIterator))]
         #[non_exhaustive]
@@ -242,8 +246,8 @@ fn main() {
             #(#variants),*
         }
 
-        pub fn get_svg(icon_id: IconId, width: AttrValue, height: AttrValue, onclick: Option<Callback<MouseEvent>>) -> Html {
-            match icon_id {
+        pub fn get_svg(props: &crate::IconProps) -> yew::Html {
+            match props.icon_id {
                 #(#cases),*
             }
         }
