@@ -27,7 +27,8 @@ pub struct IconProps {
     /// Callback when icon is subject to context menu (usually means it was right-clicked).
     pub oncontextmenu: Option<Callback<MouseEvent>>,
     /// For CSS.
-    pub class: Option<Classes>,
+    #[prop_or_default]
+    pub class: Classes,
     /// For inline CSS.
     pub style: Option<AttrValue>,
 }
