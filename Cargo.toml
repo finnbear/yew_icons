@@ -2,11 +2,11 @@
 name = "yew_icons"
 authors = ["Finn Bear"]
 license = "MIT"
-version = "0.4.0"
+version = "0.4.1"
 edition = "2018"
 repository = "https://github.com/finnbear/yew_icons/"
 description = "Easily include a variety of SVG icons into your yew app"
-exclude = ["bootstrap", "feather", "Font-Awesome", "octicons", "lipis-flag-icons", "docs", "test-app"]
+exclude = ["/bootstrap", "/feather", "/Font-Awesome", "/octicons", "/lipis-flag-icons", "/docs", "/test-app"]
 
 [[bin]]
 name = "generator"
