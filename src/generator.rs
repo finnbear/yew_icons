@@ -60,6 +60,22 @@ fn main() {
             let icon_name = file_name.split('.').next().unwrap();
             let name = prefix.to_owned() + "-" + icon_name;
 
+            let function_name = name.to_case(Case::Snake);
+            let function_ident = to_ident(&function_name);
+
+            let variant_name = name.to_case(Case::UpperCamel);
+            let variant = to_ident(&variant_name);
+            variants.push(quote! {
+                #[cfg(feature = #variant_name)]
+                #variant
+            });
+
+            collection_feature.children.push(variant_name.clone());
+            features.push(Feature {
+                name: variant_name.clone(),
+                children: Vec::new(),
+            });
+
             let contents = read(&path).expect(&path);
             let svg = std::str::from_utf8(&contents).unwrap();
 
@@ -77,12 +93,15 @@ fn main() {
             // https://github.com/yammadev/flag-icons/blob/bd4bcf4f4829002cd10416029e05ba89a7554af4/svg/CSA.svg
             let svg = svg.replace(r##"<?xml version="1.0" encoding="UTF-8" standalone="no"?>"##, "");
 
-            // https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href
+            assert!(!svg.contains("<?xml"), "already had <?xml... despite regex: {}", path);
+
+            // https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href no longer requires
+            // special xmlns.
             let svg = svg.replace("xlink:href", "href");
             let svg = svg.replace(r#"xmlns:xlink="http://www.w3.org/1999/xlink""#, "");
 
             let (first_tag, remainder) = svg.split_once('>').unwrap();
-            let mut first_tag = first_tag.to_owned() + ">";
+            let mut first_tag = format!("{}>", first_tag);
             let remainder = remainder.to_owned();
 
             assert!(first_tag.len() > 5, "{}", first_tag);
@@ -103,53 +122,52 @@ fn main() {
             // Yew's [`html!`] macro requires quoted, bracketed strings.
             let remainder = text_regex.replace_all(&remainder, r##">{"$1"}<"##).into_owned();
 
-            let mut replacement = format!(
-                r#"xmlns="http://www.w3.org/2000/svg" data-license="{}" width={{width.clone()}} height={{height.clone()}} onclick={{onclick.clone()}} oncontextmenu={{oncontextmenu.clone()}} class={{class.clone()}} style={{style.clone()}}"#,
+            let mut replacement = String::from(r#"xmlns="http://www.w3.org/2000/svg""#);
+            if !svg.contains("stroke=") && !svg.contains("fill=") {
+                replacement += r#" fill="currentColor""#;
+            }
+
+            let params = format!(
+                r#"data-license="{}" alt={{alt.clone()}} width={{width.clone()}} height={{height.clone()}} onclick={{onclick.clone()}} oncontextmenu={{oncontextmenu.clone()}} class={{class.clone()}} style={{style.clone()}}"#,
                 license
             );
 
-            if !svg.contains("stroke=") && !svg.contains("fill=") {
-                replacement += r#" fill="currentColor""#;
-
-                /*
-                if svg.contains("fill-rule") || prefix == "Octicons" {
-                    replacement += r#" fill="currentColor""#;
+            let make_svg_string = |data_uri: bool| -> String {
+                let replacement = if data_uri {
+                    replacement.clone()
                 } else {
-                    replacement += r#" stroke="currentColor""#;
+                    format!(r#"{} {}"#, replacement, params)
+                };
+                let mut first_tag = first_tag.replace(r#"xmlns="http://www.w3.org/2000/svg""#, &replacement);
+                if !data_uri {
+                    first_tag += "if let Some(title) = title.clone() { <title>{title}</title> }";
                 }
-                 */
-            }
+                first_tag + &remainder
+            };
 
-            first_tag = first_tag.replace(r#"xmlns="http://www.w3.org/2000/svg""#, &replacement);
+            let svg_tokens = TokenStream::from_str(&make_svg_string(false)).expect(&path);
 
-            let svg = first_tag + "if let Some(title) = title.clone() { <title>{title}</title> }" + &remainder;
-            let svg_tokens = TokenStream::from_str(&svg).expect(&path);
 
-            let function_name = name.to_case(Case::Snake);
-            let function_ident = to_ident(&function_name);
-
-            let variant_name = name.to_case(Case::UpperCamel);
-            let variant = to_ident(&variant_name);
-            variants.push(quote! {
-                #[cfg(feature = #variant_name)]
-                #variant
-            });
-
-            collection_feature.children.push(variant_name.clone());
-            features.push(Feature {
-                name: variant_name.clone(),
-                children: Vec::new(),
-            });
+            let data_uri_data = make_svg_string(true);
+            let data_uri = format!(r##"data:image/svg+xml;base64,{}"##, base64::encode(&data_uri_data));
+            let img = format!(r#"<img {params} title={{title.clone()}} src="{data_uri}"/>"#);
+            let img_tokens = TokenStream::from_str(&img).expect(&path);
 
             // Don't need when export separate mods #[cfg(feature = #variant_name)]
             let tokens = quote! {
                 use crate::IconProps;
 
                 #[inline(never)]
-                pub fn #function_ident(IconProps{icon_id: _, title, width, height, onclick, oncontextmenu, class, style}: &IconProps) -> yew::Html {
-                    yew::html! {
+                pub fn #function_ident(IconProps{icon_id: _, alt, title, width, height, onclick, oncontextmenu, class, style}: &IconProps) -> yew::Html {
+                    #[cfg(feature = "data_uri")]
+                    return yew::html! {
+                        #img_tokens
+                    };
+
+                    #[cfg(not(feature = "data_uri"))]
+                    return yew::html! {
                         #svg_tokens
-                    }
+                    };
                 }
             };
 

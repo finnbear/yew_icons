@@ -16,6 +16,8 @@ pub struct IconProps {
     pub icon_id: IconId,
     /// Tooltip text.
     pub title: Option<AttrValue>,
+    /// Alternative text.
+    pub alt: Option<AttrValue>,
     /// CSS width.
     #[prop_or("24".into())]
     pub width: AttrValue,
