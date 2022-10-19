@@ -233,6 +233,11 @@ fn main() {
         font_awesome_license,
     );
     generate(
+        "Lucide",
+        "lucide/icons",
+        r##"From https://github.com/lucide-icons/lucide - Licensed under ISC"##,
+    );
+    generate(
         "Octicons",
         "octicons/icons",
         r##"From https://github.com/primer/octicons - (c) GitHub, Inc."##,
