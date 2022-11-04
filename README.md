@@ -8,6 +8,10 @@ This crate makes it easy to use [SVG icons](https://finnbear.github.io/yew_icons
 - [Font Awesome](https://fontawesome.com/icons) - CC BY 4.0 License
   - Regular
   - Solid
+- [Heroicons](https://github.com/tailwindlabs/heroicons) - MIT License
+  - Solid
+  - Outline
+  - Mini Solid
 - [Lipis Flag Icons](https://github.com/lipis/flag-icons)* - MIT License
 - [Lucide](https://github.com/lucide-icons/lucide) - ISC License
   - This is a maintained fork of Feather
