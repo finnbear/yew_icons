@@ -1,3 +1,5 @@
+#![doc = include_str!("../README.md")]
+
 #[cfg(not(feature = "generator"))]
 mod generated;
 #[cfg(not(feature = "generator"))]
@@ -33,6 +35,22 @@ pub struct IconProps {
     pub style: Option<AttrValue>,
 }
 
+/// Renders a SVG icon. See [IconProps] for more information.
+///
+/// # Example
+///
+/// ```rust
+///use yew::prelude::*;
+// use yew_icons::{Icon, IconId};
+//
+// html!{
+//     <>
+//         <Icon icon_id={IconId::LucideArrowLeftCircle}/>
+//         <Icon icon_id={IconId::LucideArrowUpCircle} width={"2em".to_owned()} height={"2em".to_owned()}/>
+//         <Icon icon_id={IconId::LucideArrowRightCircle} onclick={Callback::from(|_: MouseEvent| {})}/>
+//     </>
+// }
+/// ```
 #[cfg(not(feature = "generator"))]
 #[function_component(Icon)]
 pub fn icon(props: &IconProps) -> Html {
