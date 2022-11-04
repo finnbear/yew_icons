@@ -4,7 +4,7 @@ This crate makes it easy to use [SVG icons](https://finnbear.github.io/yew_icons
 
 - [Bootstrap](https://icons.getbootstrap.com/) - MIT License
 - [Feather](https://feathericons.com/) - MIT License
-  - Deprectated (use Lucide)
+  - Deprecated (use Lucide)
 - [Font Awesome](https://fontawesome.com/icons) - CC BY 4.0 License
   - Regular
   - Solid
