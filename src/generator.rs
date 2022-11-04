@@ -282,6 +282,8 @@ fn main() {
     );
 
     let tokens = quote! {
+        /// Identifies which icon to render. Variants are all disabled by default, but can be
+        /// enabled by adding the feature flag of the same name.
         #[derive(Copy, Clone, Eq, PartialEq, Debug)]
         #[cfg_attr(feature = "iterate_icon_id", derive(enum_iterator::IntoEnumIterator))]
         #[non_exhaustive]
@@ -289,6 +291,8 @@ fn main() {
             #(#variants),*
         }
 
+        /// Helper function to get SVG HTML. Made public just in case you don't want the overhead
+        /// of a component.
         pub fn get_svg(props: &crate::IconProps) -> yew::Html {
             match props.icon_id {
                 #(#cases),*

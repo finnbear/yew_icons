@@ -11,6 +11,7 @@ use yew::prelude::*;
 #[cfg(not(feature = "generator"))]
 use yew::virtual_dom::AttrValue;
 
+/// For customizing icon rendering. Only `icon_id` is required.
 #[cfg(not(feature = "generator"))]
 #[derive(Properties, PartialEq)]
 pub struct IconProps {
@@ -40,16 +41,16 @@ pub struct IconProps {
 /// # Example
 ///
 /// ```rust
-///use yew::prelude::*;
-// use yew_icons::{Icon, IconId};
-//
-// html!{
-//     <>
-//         <Icon icon_id={IconId::LucideArrowLeftCircle}/>
-//         <Icon icon_id={IconId::LucideArrowUpCircle} width={"2em".to_owned()} height={"2em".to_owned()}/>
-//         <Icon icon_id={IconId::LucideArrowRightCircle} onclick={Callback::from(|_: MouseEvent| {})}/>
-//     </>
-// }
+/// use yew::prelude::*;
+/// use yew_icons::{Icon, IconId};
+///
+/// html!{
+///     <>
+///         <Icon icon_id={IconId::LucideArrowLeftCircle}/>
+///         <Icon icon_id={IconId::LucideArrowUpCircle} width={"2em".to_owned()} height={"2em".to_owned()}/>
+///         <Icon icon_id={IconId::LucideArrowRightCircle} onclick={Callback::from(|_: MouseEvent| {})}/>
+///     </>
+/// }
 /// ```
 #[cfg(not(feature = "generator"))]
 #[function_component(Icon)]
