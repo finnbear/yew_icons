@@ -23,14 +23,18 @@ fn gallery(props: &GalleryProps) -> Html {
                 "none"
             };
 
+            let onclick = web_sys::window().unwrap().navigator().clipboard().map(|clipboard| Callback::from(move |_: MouseEvent| {
+                log::info!("clicked {:?} {:?}", icon_id, clipboard.write_text(&format!("{:?}", icon_id)));
+            }));
+
             html_nested! {
                 <Icon
                     {title}
                     {icon_id}
                     width={"24"}
                     height={"24".to_string()}
-                    onclick={Callback::from(move |_| log::info!("{:?} click", icon_id))}
-                    oncontextmenu={Callback::from(move |_| log::info!("{:?} contextmenu", icon_id))}
+                    onclick={onclick.clone()}
+                    oncontextmenu={onclick}
                     style={format!("margin: 0.1em; display: {};", display)}
                 />
             }
@@ -56,7 +60,7 @@ fn app() -> Html {
                 <a href={"https://github.com/finnbear/yew_icons"}>{"GitHub"}</a>
                 {" - "}
                 <a href={"https://crates.io/crates/yew_icons"}>{"crates.io"}</a>
-                {" - Hover to get the feature flag/"}
+                {" - Hover/click to get the feature flag/"}
                 <pre style="display: inline;">{"IconId"}</pre>
             </p>
             <input type="text" placeholder="Search" {oninput}/>

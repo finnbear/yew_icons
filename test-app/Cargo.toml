@@ -6,7 +6,7 @@ edition = "2021"
 [dependencies]
 yew = {version = "0"}
 enum-iterator = "0"
-web-sys = {version = "0", features=["HtmlInputElement"]}
+web-sys = {version = "0", features=["Clipboard", "Navigator", "HtmlInputElement"]}
 log = "0.4"
 wasm-logger = "0.2"
 
