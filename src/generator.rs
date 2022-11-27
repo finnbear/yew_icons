@@ -88,6 +88,11 @@ fn main() {
             let svg = svg.replace("xlink:href", "href");
             let svg = svg.replace(r#"xmlns:xlink="http://www.w3.org/1999/xlink""#, "");
 
+            // warning: The tag 'clipPath' is not matching its normalized form 'clippath'. If you
+            // want to keep this form, change this to a dynamic tag `@{"clipPath"}`.
+            let svg = svg.replace("<clipPath ", "<clippath ");
+            let svg = svg.replace("</clipPath>", "</clippath>");
+
             let (first_tag, remainder) = svg.split_once('>').unwrap();
             let mut first_tag = first_tag.to_owned() + ">";
             let remainder = remainder.to_owned();

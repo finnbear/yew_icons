@@ -2,7 +2,7 @@
 name = "yew_icons"
 authors = ["Finn Bear"]
 license = "MIT"
-version = "0.6.1"
+version = "0.7.0"
 edition = "2021"
 repository = "https://github.com/finnbear/yew_icons/"
 description = "Easily include a variety of SVG icons into your Yew app"
@@ -14,7 +14,7 @@ path = "src/generator.rs"
 required-features = ["generator"]
 
 [dependencies]
-yew = {version = "0"} #git = "https://github.com/yewstack/yew"}
+yew = {version = "0.20", features = ["csr"]} #git = "https://github.com/yewstack/yew"}
 quote = {version = "1.0", optional = true}
 convert_case = {version = "0.5", optional = true}
 proc-macro2 = {version = "1.0", optional = true}

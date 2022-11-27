@@ -24,8 +24,10 @@ This crate makes it easy to use [SVG icons](https://finnbear.github.io/yew_icons
 Use the [gallery](https://finnbear.github.io/yew_icons/) to find icons you like, and add them as feature flags.
 
 ```toml
+# If still using yew 0.19, use yew_icons 0.6.1
+
 [dependencies]
-yew_icons = {version = "0.5", features = ["LucideArrowLeftCircle", "LucideArrowRightCircle", "LucideArrowUpCircle"]}
+yew_icons = {version = "0.7", features = ["LucideArrowLeftCircle", "LucideArrowRightCircle", "LucideArrowUpCircle"]}
 ```
 
 Then, add an `<Icon>` component with the corresponding icon id, optionally specifying a `width`, `height`, and/or `onclick` callback.
