@@ -16,6 +16,7 @@ This crate makes it easy to use [SVG icons](https://finnbear.github.io/yew_icons
 - [Lucide](https://github.com/lucide-icons/lucide) - ISC License
   - This is a maintained fork of Feather
 - [Octicons](https://primer.style/octicons/) - MIT License
+- [Simple Icons](https://github.com/simple-icons/simple-icons)* - CC0 License
 
 *not all icons included in [gallery](https://finnbear.github.io/yew_icons/).
 

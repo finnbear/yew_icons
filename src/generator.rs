@@ -285,6 +285,11 @@ fn main() {
         "octicons/icons",
         r##"From https://github.com/primer/octicons - (c) GitHub, Inc."##,
     );
+    generate(
+        "SimpleIcons",
+        "simple-icons/icons",
+        r##"From https://github.com/simple-icons/simple-icons - Licensed under CC0; check brand guidelines"##,
+    );
 
     let tokens = quote! {
         /// Identifies which icon to render. Variants are all disabled by default, but can be

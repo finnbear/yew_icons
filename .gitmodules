@@ -19,3 +19,6 @@
 [submodule "heroicons"]
 	path = heroicons
 	url = https://github.com/tailwindlabs/heroicons
+[submodule "simple-icons"]
+	path = simple-icons
+	url = https://github.com/simple-icons/simple-icons
