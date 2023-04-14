@@ -13,19 +13,32 @@ struct GalleryProps {
 
 #[function_component(Gallery)]
 fn gallery(props: &GalleryProps) -> Html {
+    let initial_icons = use_memo(|_| IconId::into_enum_iter().collect::<Vec<IconId>>(), ());
+    let icons = use_memo(
+        |query| {
+            initial_icons
+                .iter()
+                .filter(|icon_id| {
+                    let title = format!("{:?}", icon_id);
+                    query
+                        .to_ascii_lowercase()
+                        .split(' ')
+                        .all(|word| title.to_ascii_lowercase().contains(word))
+                })
+                .cloned()
+                .collect::<Vec<IconId>>()
+        },
+        props.query.clone(),
+    );
+
     html! {
-        IconId::into_enum_iter().map(|icon_id| {
-            let title = format!("{:?}", icon_id);
-
-            let display = if props.query.is_empty() || props.query.to_ascii_lowercase().split(' ').all(|word| title.to_ascii_lowercase().contains(word)) {
-                "initial"
-            } else {
-                "none"
-            };
-
+        icons.iter().cloned().map(|icon_id| {
             let onclick = web_sys::window().unwrap().navigator().clipboard().map(|clipboard| Callback::from(move |_: MouseEvent| {
                 log::info!("clicked {:?} {:?}", icon_id, clipboard.write_text(&format!("{:?}", icon_id)));
             }));
+
+            let title = format!("{:?}", icon_id);
+            let icon_name = title.clone();
 
             html_nested! {
                 <div class="icon">
@@ -36,8 +49,8 @@ fn gallery(props: &GalleryProps) -> Html {
                     height={"24"}
                     onclick={onclick.clone()}
                     oncontextmenu={onclick}
-                    style={format!("margin: 0.1em; display: {};", display)}
                 />
+                <p class="icon-name">{icon_name}</p>
                 </div>
             }
         }).collect::<Html>()
@@ -76,12 +89,6 @@ fn app() -> Html {
                     />
                 </div>
            </div>
-            <div style="display: none;">
-                <Icon icon_id={IconId::FeatherArrowLeftCircle}/>
-                <Icon icon_id={IconId::FeatherArrowUpCircle} width={"2em".to_owned()} height={"2em".to_owned()}/>
-                <Icon icon_id={IconId::FeatherArrowRightCircle} onclick={Callback::from(|_: MouseEvent| {})}/>
-            </div>
-            
             <div class="gallery">
                 <Gallery query={query.deref().clone()}/>
             </div>

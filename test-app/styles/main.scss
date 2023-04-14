@@ -12,7 +12,7 @@
   display: grid;
   grid-auto-rows: auto;
   grid-auto-columns: max-content;
-  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   grid-column-gap: 5px;
   grid-row-gap: 5px;
   text-align: center;
@@ -21,6 +21,23 @@
 }
 
 .icon {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 150px;
+  align-items: center;
+
+  .icon-name {
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+    color: gray;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 130px;
+  }
+
   svg {
     cursor: pointer;
     border: 3px solid rgb(232, 232, 232);
