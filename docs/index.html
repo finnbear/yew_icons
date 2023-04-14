@@ -1,7 +1,36 @@
 <!DOCTYPE html><html><head>
     <meta charset="utf-8">
     <title>Yew Icons Test App</title>
+    <link rel="stylesheet" href="/yew_icons/main-597d90855083f957.css">
+  
+<link rel="preload" href="/yew_icons/test-app-3bcd434714bc5fce_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+<link rel="modulepreload" href="/yew_icons/test-app-3bcd434714bc5fce.js"></head>
+<body>
+<script type="module">import init from '/yew_icons/test-app-3bcd434714bc5fce.js';init('/yew_icons/test-app-3bcd434714bc5fce_bg.wasm');</script><script>(function () {
+    var protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+    var url = protocol + '//' + window.location.host + '/_trunk/ws';
+    var poll_interval = 5000;
+    var reload_upon_connect = () => {
+        window.setTimeout(
+            () => {
+                // when we successfully reconnect, we'll force a
+                // reload (since we presumably lost connection to
+                // trunk due to it being killed, so it will have
+                // rebuilt on restart)
+                var ws = new WebSocket(url);
+                ws.onopen = () => window.location.reload();
+                ws.onclose = reload_upon_connect;
+            },
+            poll_interval);
+    };
 
-<link rel="preload" href="/yew_icons/test-app-18b15c0947515965_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
-<link rel="modulepreload" href="/yew_icons/test-app-18b15c0947515965.js"></head>
-<body><script type="module">import init from '/yew_icons/test-app-18b15c0947515965.js';init('/yew_icons/test-app-18b15c0947515965_bg.wasm');</script></body></html>
+    var ws = new WebSocket(url);
+    ws.onmessage = (ev) => {
+        const msg = JSON.parse(ev.data);
+        if (msg.reload) {
+            window.location.reload();
+        }
+    };
+    ws.onclose = reload_upon_connect;
+})()
+</script></body></html>

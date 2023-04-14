@@ -3,6 +3,10 @@ name = "test-app"
 version = "0.1.0"
 edition = "2021"
 
+[profile.dev]
+opt-level = 1
+incremental = true
+
 [dependencies]
 yew = { version = "0" }
 enum-iterator = "0.7"
@@ -20,13 +24,13 @@ wasm-logger = "0.2"
 yew_icons = { path = "..", features = [
     "iterate_icon_id",
     "bootstrap",
-    "font_awesome_regular",
-    "font_awesome_solid",
-    "heroicons_solid",
-    "heroicons_outline",
-    "heroicons_mini_solid",
-    "lucide",
-    "octicons",
+    # "font_awesome_regular",
+    # "font_awesome_solid",
+    # "heroicons_solid",
+    # "heroicons_outline",
+    # "heroicons_mini_solid",
+    # "lucide",
+    # "octicons",
     "FeatherArrowDownCircle",
     "FeatherArrowLeftCircle",
     "FeatherArrowRightCircle",
