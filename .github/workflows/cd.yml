@@ -1,0 +1,33 @@
+name: Build Gallery
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    # Download and install trunk
+    - name: Install trunk
+      run: cargo cargo install --locked trunk
+      
+    # Create an optimize build with trunk
+    - name: Build WASM
+      run: cd test-app && trunk --config Trunk.prod.toml build --release
+    
+    # Commit and push
+    - name: Push Changes
+      run: |
+        git config --global user.name 'Yew Icons'
+        git config --global user.email 'finnbearone@gmail.com'
+        git commit -am "Build icon gallery"
+        git push
