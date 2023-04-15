@@ -18,7 +18,7 @@ jobs:
     
     # Download and install trunk
     - name: Install trunk
-      run: cargo cargo install --locked trunk
+      run: cargo install --locked trunk
       
     # Create an optimize build with trunk
     - name: Build WASM
