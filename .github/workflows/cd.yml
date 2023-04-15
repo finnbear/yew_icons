@@ -2,9 +2,11 @@ name: Build Gallery
 
 on:
   push:
-    branches: [ "main" ]
+    paths:
+      - 'test-app/**'
   pull_request:
-    branches: [ "main" ]
+    paths:
+      - 'test-app/**'
   workflow_dispatch:
 
 env:

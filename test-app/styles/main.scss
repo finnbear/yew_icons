@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 .gallery {
@@ -29,7 +30,6 @@
 
   .icon-name {
     font-size: 12px;
-    font-family: sans-serif;
     text-align: center;
     color: gray;
     white-space: nowrap;
@@ -81,4 +81,54 @@
     transform: translateY(50%);
     opacity: 0.5;
   }
+}
+
+.no-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(50px + 1vw);
+  color: rgb(72, 72, 72);
+  padding: 30px;
+}
+
+header {
+  padding: 10px 12px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .header-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+  }
+
+  .header-links a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    transition: color 200ms;
+    
+    &:hover {
+      color: var(--main-color);
+    }
+
+    .github {
+      transition: transform 500ms;
+    }
+    
+    .github:hover {
+      transform: rotateZ(45deg);
+    }
+  }
+}
+
+body.dark {
+  background-color: rgb(20, 20, 20);
+  color: white;
 }
