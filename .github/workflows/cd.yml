@@ -2,17 +2,9 @@ name: Build Gallery
 
 on:
   push:
-<<<<<<< HEAD
     paths:
       - 'test-app/**'
   pull_request:
-=======
-    branches: [ "main" ]
-    paths:
-      - 'test-app/**'
-  pull_request:
-    branches: [ "main" ]
->>>>>>> origin
     paths:
       - 'test-app/**'
   workflow_dispatch:
