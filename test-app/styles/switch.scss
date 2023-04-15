@@ -37,6 +37,7 @@
   background-color: white;
   -webkit-transition: 200ms;
   transition: 200ms;
+  border-radius: 100%;
 }
 
 input:checked + .slider {
@@ -54,5 +55,5 @@ input:checked + .slider:before {
 }
 
 .slider.round {
-  border-radius: 34px;
+  border-radius: 100%;
 }
