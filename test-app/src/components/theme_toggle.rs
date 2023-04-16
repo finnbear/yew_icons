@@ -33,9 +33,9 @@ pub fn ThemeToggle() -> Html {
             <input type={"checkbox"} checked={is_dark} {onchange} />
             <span class="slider">
                 if is_dark {
-                    <Icon icon_id={IconId::BootstrapMoonFill} />
+                    <Icon class="icon" icon_id={IconId::BootstrapMoonFill} width={"26"} height={"26"} />
                 } else {
-                    <Icon icon_id={IconId::BootstrapSunFill} />
+                    <Icon class="icon" icon_id={IconId::BootstrapSunFill} width={"26"} height={"26"} />
                 }
             </span>
         </label>

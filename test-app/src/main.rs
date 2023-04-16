@@ -32,8 +32,10 @@ fn App() -> Html {
            </div>
 
            <>
-                <div>{"Hover/click to get the feature flag/"}
-                    <pre style="display: inline;">{"IconId"}</pre>
+                <div style="padding: 10px;">
+                    <div>{"Hover/click to get the feature flag/"}
+                        <pre style="display: inline;">{"IconId"}</pre>
+                    </div>
                 </div>
 
                 <Gallery query={query.deref().clone()}/>
