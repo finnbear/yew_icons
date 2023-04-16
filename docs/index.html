@@ -4,7 +4,6 @@
     <link rel="stylesheet" href="/yew_icons/main.css">
     <link rel="stylesheet" href="/yew_icons/switch.css">
     <link rel="stylesheet" href="/yew_icons/scroll_to_top.css">
-    
   
 <link rel="preload" href="/yew_icons/test-app_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
 <link rel="modulepreload" href="/yew_icons/test-app.js"></head>
@@ -13,7 +12,9 @@
     <div id="loading">
       <span>Loading...</span>
     </div>
-    <script src="/js/loadingIndicator.js"></script>
+
+    <!-- Trunk is not including this correctly, we need to add manually the static dir -->
+    <script data-trunk="" src="/yew_icons/js/loadingIndicator.js"></script>
 
     <!-- Script to manage dark mode -->
     <script>
