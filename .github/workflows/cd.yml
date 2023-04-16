@@ -23,7 +23,7 @@ jobs:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
 
-    # Ass WebAssembly target
+    # Add WebAssembly target
     - name: Add wasm32 target
       run: rustup target add wasm32-unknown-unknown
       
@@ -40,9 +40,10 @@ jobs:
     # Commit and push
     - name: Commit files
       run: |
+        ls docs -l
         git config user.name github-actions[bot]
         git config user.email github-actions[bot]@users.noreply.github.com
-        git add ../
+        git add .
         git commit -m "Build Gallery"
     - name: Push changes
       uses: ad-m/github-push-action@master
