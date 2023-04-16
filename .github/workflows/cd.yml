@@ -27,8 +27,8 @@ jobs:
     - name: Add wasm32 target
       run: rustup target add wasm32-unknown-unknown
       
-    # Download and install trunk
-    - name: Install cargo-hack
+    # Download and install Trunk
+    - name: Install Trunk
       uses: baptiste0928/cargo-install@v2
       with:
         crate: trunk
@@ -40,8 +40,8 @@ jobs:
     # Commit and push
     - name: Commit files
       run: |
-        git config --local user.email "finnbearone@gmail.com"
-        git config --local user.name "Yew Icons"
+        git config user.name github-actions[bot]
+        git config user.email github-actions[bot]@users.noreply.github.com
         git commit -a -m "Build Gallery"
     - name: Push changes
       uses: ad-m/github-push-action@master
