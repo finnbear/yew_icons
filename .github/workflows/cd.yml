@@ -47,7 +47,7 @@ jobs:
     - name: Optimize WASM
       continue-on-error: true
       run: |
-        wasm-opt docs/test-app_bg.wasm -o docs/test-app_bg.opt.wasm -O2
+        wasm-opt docs/test-app_bg.wasm -o docs/test-app_bg.opt.wasm -Os
         mv docs/test-app_bg.opt.wasm docs/test-app_bg.wasm
 
     # Commit and push
