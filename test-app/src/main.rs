@@ -1,7 +1,7 @@
 mod components;
 
 use std::ops::Deref;
-use web_sys::HtmlInputElement;
+use web_sys::{HtmlInputElement, window};
 use yew::prelude::*;
 use yew_icons::{Icon, IconId};
 pub use components::{Gallery, Header, ScrollToTop};
@@ -48,5 +48,7 @@ fn App() -> Html {
 
 fn main() {
     wasm_logger::init(wasm_logger::Config::default());
-    yew::Renderer::<App>::new().render();
+    let document = window().unwrap().document().unwrap();
+    let root = document.get_element_by_id("root").unwrap();
+    yew::Renderer::<App>::with_root(root).render();
 }

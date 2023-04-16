@@ -32,11 +32,24 @@ jobs:
       uses: baptiste0928/cargo-install@v2
       with:
         crate: trunk
+
+    # Install wasm-opt
+    - name: Install wasm-opt
+      uses: baptiste0928/cargo-install@v2
+      with:
+        crate: wasm-opt
       
-    # Create an optimize build with trunk
+    # Build wasm
     - name: Build WASM
-      run: cd test-app && trunk --config Trunk.prod.toml build --release
+      run: cd test-app && trunk --config Trunk.prod.toml build --release --filehash=false
     
+    # Optmize wasm
+    - name: Optimize WASM
+      continue-on-error: true
+      run: |
+        wasm-opt docs/test-app_bg.wasm -o docs/test-app_bg.opt.wasm -O2
+        mv docs/test-app_bg.opt.wasm docs/test-app_bg.wasm
+
     # Commit and push
     - name: Commit files
       run: |
