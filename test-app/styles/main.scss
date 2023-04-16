@@ -176,6 +176,10 @@ body.dark {
 
   .header-links a {
     color: white;
+
+    &:hover {
+      color: var(--main-color);
+    }
   }
 
   .icon-name {
