@@ -11,6 +11,7 @@ pub fn ThemeToggle() -> Html {
         let e: HtmlInputElement = event.target_dyn_into().unwrap();
         let checked = e.checked();
         dark.set(checked);
+        log::info!("toggle dark: {}", checked);
     });
 
     use_effect_with_deps(
@@ -30,6 +31,15 @@ pub fn ThemeToggle() -> Html {
 
 fn set_dark(is_dark: bool) {
     LocalStorage::set("dark", is_dark).unwrap();
+    let body = web_sys::window()
+        .unwrap()
+        .document()
+        .unwrap()
+        .body()
+        .unwrap();
+
+    let class_list = body.class_list();
+    class_list.toggle("dark").unwrap();
 }
 
 fn is_dark_mode() -> bool {
