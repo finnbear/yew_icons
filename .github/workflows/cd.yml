@@ -46,8 +46,10 @@ jobs:
     # Optmize wasm
     - name: Optimize WASM
       continue-on-error: true
+      timeout-minutes: 120
       run: |
-        wasm-opt docs/test-app_bg.wasm -o docs/test-app_bg.opt.wasm -Os
+        ls docs -l
+        wasm-opt docs/test-app_bg.wasm -o docs/test-app_bg.opt.wasm -Oz --debug --strip-dwarf --strip-debug
         mv docs/test-app_bg.opt.wasm docs/test-app_bg.wasm
 
     # Commit and push
