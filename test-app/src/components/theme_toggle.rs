@@ -1,5 +1,6 @@
 use gloo_storage::{LocalStorage, Storage};
 use web_sys::HtmlInputElement;
+use yew_icons::{Icon, IconId};
 use yew::prelude::*;
 
 #[function_component]
