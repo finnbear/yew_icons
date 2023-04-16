@@ -9,8 +9,11 @@
   </head>
   <body>
     <script>
-      const dark = localStorage.getItem("dark") === "true";
-      if (dark) {
+      const dark = localStorage.getItem("dark");
+      const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const useDarkMode = dark === 'true' || (dark == null && prefersDarkMode);
+
+      if (useDarkMode) {
         document.body.classList.add("dark");
       }
     </script>
