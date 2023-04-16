@@ -6,18 +6,32 @@
     <link data-trunk rel="scss" href="/styles/main.scss" />
     <link data-trunk rel="scss" href="/styles/switch.scss" />
     <link data-trunk rel="scss" href="/styles/scroll_to_top.scss" />
+    <link data-trunk rel="copy-dir" href="/js" />
   </head>
   <body>
+    <!-- Loading indicator -->
+    <div id="loading">
+      <span>Loading...</span>
+    </div>
+    <script src="/js/loadingIndicator.js"></script>
+
+    <!-- Script to manage dark mode -->
     <script>
       const dark = localStorage.getItem("dark");
-      const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      const useDarkMode = dark === 'true' || (dark == null && prefersDarkMode);
+      const prefersDarkMode = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+      ).matches;
+      const useDarkMode = dark === "true" || (dark == null && prefersDarkMode);
 
       if (useDarkMode) {
         document.body.classList.add("dark");
       }
     </script>
 
+    <!-- Entry point -->
     <div id="root"></div>
+
+    <!-- No JS? -->
+    <noscript>Enable Javascript to see this page</noscript>
   </body>
 </html>
