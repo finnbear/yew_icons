@@ -11,6 +11,9 @@ pub fn Header() -> Html {
                 <a title={"crates.io"} href={"https://crates.io/crates/yew_icons"} target="_blank" rel="noopener">
                     {"crates.io"}
                 </a>
+                <a title={"docs"} href={"https://docs.rs/yew_icons/latest/yew_icons"} target="_blank" rel="noopener">
+                    {"docs"}
+                </a>
                 {" • "}
                 <a title={"GitHub"} href={"https://github.com/finnbear/yew_icons"} target="_blank" rel="noopener">
                     <Icon
