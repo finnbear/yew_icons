@@ -9,7 +9,7 @@
 }
 
 body {
-  transition: background-color 500ms;
+  transition: background-color 200ms;
   padding-bottom: 60px;
 }
 
@@ -131,6 +131,13 @@ header {
       transform: rotateZ(45deg);
     }
   }
+}
+
+.help-text {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--main-color);
 }
 
 body.dark {

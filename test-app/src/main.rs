@@ -1,9 +1,10 @@
+mod components;
+
 use std::ops::Deref;
 use web_sys::HtmlInputElement;
 use yew::prelude::*;
 use yew_icons::{Icon, IconId};
-mod components;
-pub use components::{Gallery, Header};
+pub use components::{Gallery, Header, ScrollToTop};
 
 #[function_component]
 fn App() -> Html {
@@ -33,12 +34,13 @@ fn App() -> Html {
 
            <>
                 <div style="padding: 10px;">
-                    <div>{"Hover/click to get the feature flag/"}
-                        <pre style="display: inline;">{"IconId"}</pre>
+                    <div class="help-text">
+                        {"Hover/click to get the feature flag/IconId"}
                     </div>
                 </div>
 
                 <Gallery query={query.deref().clone()}/>
+                <ScrollToTop />
            </>
         </>
     }

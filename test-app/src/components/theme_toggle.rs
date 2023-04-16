@@ -21,13 +21,6 @@ pub fn ThemeToggle() -> Html {
         is_dark,
     );
 
-    // html! {
-    //     <label class="switch">
-    //         <input type={"checkbox"} checked={is_dark} {onchange} />
-    //         <span class="slider round"></span>
-    //     </label>
-    // }
-
     html! {
         <label class="switch">
             <input type={"checkbox"} checked={is_dark} {onchange} />
