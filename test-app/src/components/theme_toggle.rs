@@ -28,7 +28,7 @@ pub fn ThemeToggle() -> Html {
     //     </label>
     // }
 
-        html! {
+    html! {
         <label class="switch">
             <input type={"checkbox"} checked={is_dark} {onchange} />
             <span class="slider">
