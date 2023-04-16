@@ -1,18 +1,21 @@
 <!DOCTYPE html><html><head>
     <meta charset="utf-8">
     <title>Yew Icons</title>
-    <link rel="stylesheet" href="/yew_icons/main-32ce0388441b71ed.css">
-    <link rel="stylesheet" href="/yew_icons/switch-eb58325ab41d310d.css">
-    <link rel="stylesheet" href="/yew_icons/scroll_to_top-63c2f30e911c2da0.css">
-    <script type="module">import init from '/yew_icons/test-app-b279c6c33cbef472.js';init('/yew_icons/test-app-b279c6c33cbef472_bg.wasm');</script>
+    <link rel="stylesheet" href="/yew_icons/main.css">
+    <link rel="stylesheet" href="/yew_icons/switch.css">
+    <link rel="stylesheet" href="/yew_icons/scroll_to_top.css">
+  
+<link rel="preload" href="/yew_icons/test-app_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+<link rel="modulepreload" href="/yew_icons/test-app.js"></head>
+  <body>
     <script>
       const dark = localStorage.getItem("dark") === "true";
       if (dark) {
         document.body.classList.add("dark");
       }
     </script>
+
+    <div id="root"></div>
   
-<link rel="preload" href="/yew_icons/test-app-b279c6c33cbef472_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
-<link rel="modulepreload" href="/yew_icons/test-app-b279c6c33cbef472.js"></head>
-<body>
-</body></html>
+
+<script type="module">import init from '/yew_icons/test-app.js';init('/yew_icons/test-app_bg.wasm');</script></body></html>
