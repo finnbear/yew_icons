@@ -11,7 +11,6 @@ pub fn ThemeToggle() -> Html {
         let e: HtmlInputElement = event.target_dyn_into().unwrap();
         let checked = e.checked();
         dark.set(checked);
-        log::info!("toggle dark: {}", checked);
     });
 
     use_effect_with_deps(
@@ -21,10 +20,23 @@ pub fn ThemeToggle() -> Html {
         is_dark,
     );
 
-    html! {
+    // html! {
+    //     <label class="switch">
+    //         <input type={"checkbox"} checked={is_dark} {onchange} />
+    //         <span class="slider round"></span>
+    //     </label>
+    // }
+
+        html! {
         <label class="switch">
             <input type={"checkbox"} checked={is_dark} {onchange} />
-            <span class="slider round"></span>
+            <span class="slider">
+                if is_dark {
+                    <Icon icon_id={IconId::BootstrapMoonFill} />
+                } else {
+                    <Icon icon_id={IconId::BootstrapSunFill} />
+                }
+            </span>
         </label>
     }
 }
@@ -39,7 +51,12 @@ fn set_dark(is_dark: bool) {
         .unwrap();
 
     let class_list = body.class_list();
-    class_list.toggle("dark").unwrap();
+
+    if is_dark {
+        class_list.add_1("dark").unwrap();
+    } else {
+        class_list.remove_1("dark").unwrap();
+    }
 }
 
 fn is_dark_mode() -> bool {

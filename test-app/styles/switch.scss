@@ -27,18 +27,18 @@
   transition: 0.4s;
 }
 
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: 200ms;
-  transition: 200ms;
-  border-radius: 100%;
-}
+// .slider:before {
+//   position: absolute;
+//   content: "";
+//   height: 26px;
+//   width: 26px;
+//   left: 4px;
+//   bottom: 4px;
+//   background-color: white;
+//   -webkit-transition: 200ms;
+//   transition: 200ms;
+//   border-radius: 100%;
+// }
 
 input:checked + .slider {
   background-color: var(--main-color);

@@ -8,6 +8,10 @@
   font-family: sans-serif;
 }
 
+body {
+  transition: background-color 500ms;
+}
+
 .gallery {
   padding: 10px;
   display: grid;
@@ -113,7 +117,7 @@ header {
     text-decoration: none;
     color: black;
     transition: color 200ms;
-    
+
     &:hover {
       color: var(--main-color);
     }
@@ -121,7 +125,7 @@ header {
     .github {
       transition: transform 500ms;
     }
-    
+
     .github:hover {
       transform: rotateZ(45deg);
     }
@@ -131,4 +135,24 @@ header {
 body.dark {
   background-color: rgb(20, 20, 20);
   color: white;
+
+  .header-links a {
+    color: white;
+  }
+
+  .icon-name {
+    color: rgb(222, 222, 222);
+  }
+
+  .search-input {
+    input {
+      background-color: #252525;
+      color: white;
+    }
+
+    .search-icon {
+      position: absolute;
+      opacity: 0.9;
+    }
+  }
 }
