@@ -43,13 +43,13 @@ jobs:
     - name: Build WASM
       run: cd test-app && trunk --config Trunk.prod.toml build --release --filehash=false
     
-    # Optmize wasm
+    # Optmize wasm (We should use a higher level, but it never completes)
     - name: Optimize WASM
       continue-on-error: true
-      timeout-minutes: 120
+      timeout-minutes: 10
       run: |
         ls docs -l
-        wasm-opt docs/test-app_bg.wasm -o docs/test-app_bg.opt.wasm -Oz --debug --strip-dwarf --strip-debug
+        wasm-opt docs/test-app_bg.wasm -o docs/test-app_bg.opt.wasm -O1 --debug --strip-dwarf --strip-debug
         mv docs/test-app_bg.opt.wasm docs/test-app_bg.wasm
 
     # Commit and push
