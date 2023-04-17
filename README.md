@@ -22,7 +22,7 @@ This crate makes it easy to use [SVG icons](https://finnbear.github.io/yew_icons
 
 ## Gallery
 
-[![Gallery](/assets/gallery_1.jpg)](https://finnbear.github.io/yew_icons/)
+[![Gallery](assets/gallery_1.jpg)](https://finnbear.github.io/yew_icons/)
 
 <small>\*not all icons included in [gallery](https://finnbear.github.io/yew_icons/).</small>
 
@@ -52,7 +52,7 @@ html!{
 }
 ```
 
-![example image](example.png)
+![example image](assets/example.png)
 
 Note: The icons will inherit their parent's CSS `color`.
 
