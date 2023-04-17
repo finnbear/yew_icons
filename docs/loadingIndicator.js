@@ -45,15 +45,15 @@ async function main() {
   waitUntilVisible(".gallery").then(() => {
     visible = true;
     console.log("✅ wasm loaded");
+
+    if (!isLoading) {
+      return;
+    }
+  
+    // Remove loading indicator
+    showLoading(false);
+    isLoading = false;
   });
-
-  if (!isLoading) {
-    return;
-  }
-
-  // Remove loading indicator
-  showLoading(false);
-  isLoading = false;
 }
 
 main().catch(console.error);
