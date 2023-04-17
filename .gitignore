@@ -1,4 +1,5 @@
 Cargo.lock
 target/
+dist
 .idea
 *.xml

@@ -1,0 +1,67 @@
+name: Build Gallery
+
+on:
+  push:
+    paths:
+      - 'test-app/**'
+      - '.github/workflows/cd.yml'
+  pull_request:
+    paths:
+      - 'test-app/**'
+      - '.github/workflows/cd.yml'
+  workflow_dispatch:
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
+        fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
+
+    # Add WebAssembly target
+    - name: Add wasm32 target
+      run: rustup target add wasm32-unknown-unknown
+      
+    # Download and install Trunk
+    - name: Install Trunk
+      uses: baptiste0928/cargo-install@v2
+      with:
+        crate: trunk
+
+    # Install wasm-opt
+    - name: Install wasm-opt
+      uses: baptiste0928/cargo-install@v2
+      with:
+        crate: wasm-opt
+      
+    # Build wasm
+    - name: Build WASM
+      run: cd test-app && trunk --config Trunk.prod.toml build --release --filehash=false
+    
+    # Optmize wasm (We should use a higher level, but it never completes)
+    - name: Optimize WASM
+      continue-on-error: true
+      timeout-minutes: 10
+      run: |
+        ls docs -l
+        wasm-opt docs/test-app_bg.wasm -o docs/test-app_bg.opt.wasm -O1 --debug --strip-dwarf --strip-debug
+        mv docs/test-app_bg.opt.wasm docs/test-app_bg.wasm
+
+    # Commit and push
+    - name: Commit files
+      run: |
+        ls docs -l
+        git config user.name github-actions[bot]
+        git config user.email github-actions[bot]@users.noreply.github.com
+        git add .
+        git commit -m "Build Gallery"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}

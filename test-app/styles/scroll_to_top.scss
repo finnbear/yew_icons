@@ -1,0 +1,30 @@
+:root {
+  --main-color: rgb(166, 0, 255);
+}
+
+button.scroll-to-top-btn {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  transition: all 400ms;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+
+  svg {
+    width: 28px;
+    height: 28px;
+  }
+}

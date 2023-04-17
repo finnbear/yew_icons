@@ -1,49 +1,13 @@
-#![feature(stmt_expr_attributes)]
+mod components;
 
-use enum_iterator::IntoEnumIterator;
 use std::ops::Deref;
-use web_sys::HtmlInputElement;
+use web_sys::{HtmlInputElement, window};
 use yew::prelude::*;
-use yew_icons::*;
+use yew_icons::{Icon, IconId};
+pub use components::{Gallery, Header, ScrollToTop};
 
-#[derive(Properties, PartialEq)]
-struct GalleryProps {
-    query: String,
-}
-
-#[function_component(Gallery)]
-fn gallery(props: &GalleryProps) -> Html {
-    html! {
-        IconId::into_enum_iter().map(|icon_id| {
-            let title = format!("{:?}", icon_id);
-
-            let display = if props.query.is_empty() || props.query.to_ascii_lowercase().split(' ').all(|word| title.to_ascii_lowercase().contains(word)) {
-                "initial"
-            } else {
-                "none"
-            };
-
-            let onclick = web_sys::window().unwrap().navigator().clipboard().map(|clipboard| Callback::from(move |_: MouseEvent| {
-                log::info!("clicked {:?} {:?}", icon_id, clipboard.write_text(&format!("{:?}", icon_id)));
-            }));
-
-            html_nested! {
-                <Icon
-                    {title}
-                    {icon_id}
-                    width={"24"}
-                    height={"24".to_string()}
-                    onclick={onclick.clone()}
-                    oncontextmenu={onclick}
-                    style={format!("margin: 0.1em; display: {};", display)}
-                />
-            }
-        }).collect::<Html>()
-    }
-}
-
-#[function_component(App)]
-fn app() -> Html {
+#[function_component]
+fn App() -> Html {
     let query = use_state(|| String::new());
 
     let oninput = {
@@ -55,33 +19,36 @@ fn app() -> Html {
 
     html! {
         <>
-            <h1 style={"font-family: sans-serif; margin-top: 0;"}>{"yew_icons"}</h1>
-            <p>
-                <a href={"https://github.com/finnbear/yew_icons"}>{"GitHub"}</a>
-                {" - "}
-                <a href={"https://crates.io/crates/yew_icons"}>{"crates.io"}</a>
-                {" - Hover/click to get the feature flag/"}
-                <pre style="display: inline;">{"IconId"}</pre>
-            </p>
-            <input type="text" placeholder="Search" {oninput}/>
-            <div style="display: none;">
-                <Icon icon_id={IconId::FeatherArrowLeftCircle}/>
-                <Icon icon_id={IconId::FeatherArrowUpCircle} width={"2em".to_owned()} height={"2em".to_owned()}/>
-                <Icon icon_id={IconId::FeatherArrowRightCircle} onclick={Callback::from(|_: MouseEvent| {})}/>
-            </div>
-            <div style="color: black; background-color: white; padding: 0.5em;">
-                <h2 style={"font-family: sans-serif; margin-top: 0;"}>{"Black on White"}</h2>
+            <Header />
+            <div class="search-container">
+                <div class="search-input">
+                    <input type="text" placeholder="Search..." {oninput}/>
+                    <Icon
+                        class="search-icon"
+                        icon_id={IconId::BootstrapSearch}
+                        width={"20"}
+                        height={"20"}
+                    />
+                </div>
+           </div>
+
+           <>
+                <div style="padding: 10px;">
+                    <div class="help-text">
+                        {"Hover/click to get the feature flag/IconId"}
+                    </div>
+                </div>
+
                 <Gallery query={query.deref().clone()}/>
-            </div>
-            <div style="color: white; background-color: black; padding: 0.5em;">
-                <h2 style={"font-family: sans-serif; margin-top: 0;"}>{"White on Black"}</h2>
-                <Gallery query={query.deref().clone()}/>
-            </div>
+                <ScrollToTop />
+           </>
         </>
     }
 }
 
 fn main() {
     wasm_logger::init(wasm_logger::Config::default());
-    yew::Renderer::<App>::new().render();
+    let document = window().unwrap().document().unwrap();
+    let root = document.get_element_by_id("root").unwrap();
+    yew::Renderer::<App>::with_root(root).render();
 }

@@ -1,24 +1,30 @@
 # yew_icons
 
+[![Icons Gallery]][gallery] [![Latest Version]][crates.io]
+
+[icons gallery]: https://img.shields.io/badge/gallery-passing-brightgreen
+[gallery]: https://finnbear.github.io/yew_icons/
+[latest version]: https://img.shields.io/crates/v/yew_icons.svg
+[crates.io]: https://crates.io/crates/yew_icons
+
 This crate makes it easy to use [SVG icons](https://finnbear.github.io/yew_icons/) from the following collections (more may be added in the future):
 
-- [Bootstrap](https://icons.getbootstrap.com/) - MIT License
-- [Feather](https://feathericons.com/) - MIT License
-  - Deprecated (use Lucide)
-- [Font Awesome](https://fontawesome.com/icons) - CC BY 4.0 License
-  - Regular
-  - Solid
-- [Heroicons](https://github.com/tailwindlabs/heroicons) - MIT License
-  - Solid
-  - Outline
-  - Mini Solid
-- [Lipis Flag Icons](https://github.com/lipis/flag-icons)* - MIT License
-- [Lucide](https://github.com/lucide-icons/lucide) - ISC License
-  - This is a maintained fork of Feather
-- [Octicons](https://primer.style/octicons/) - MIT License
-- [Simple Icons](https://github.com/simple-icons/simple-icons)* - CC0 License
+| Icon Set             | License           | Variants                   |
+| -------------------- | ----------------- | -------------------------- |
+| **Bootstrap**        | MIT License       | -                          |
+| **Feather**          | MIT License       | Deprecated (use Lucide)    |
+| **Font Awesome**     | CC BY 4.0 License | Regular, Solid             |
+| **Heroicons**        | MIT License       | Solid, Outline, Mini Solid |
+| **Lipis Flag Icons** | MIT License       | -                          |
+| **Lucide**           | ISC License       | -                          |
+| **Octicons**         | MIT License       | -                          |
+| **Simple Icons**     | CC0 License       | -                          |
 
-*not all icons included in [gallery](https://finnbear.github.io/yew_icons/).
+## Gallery
+
+[![Gallery](assets/gallery_1.jpg)](https://finnbear.github.io/yew_icons/)
+
+<small>\*not all icons included in [gallery](https://finnbear.github.io/yew_icons/).</small>
 
 ## Usage
 
@@ -46,7 +52,7 @@ html!{
 }
 ```
 
-![example image](example.png)
+![example image](assets/example.png)
 
 Note: The icons will inherit their parent's CSS `color`.
 
@@ -57,22 +63,23 @@ Each icon collection must be included with the corresponding feature flag, such 
 To save binary size, individual icons can also be included by feature flag, such as `LucideZoomIn` or `FontAwesomeSolidAtom`.
 
 By default, no collections or icons are included. Be warned that including too many icons may result in a `.wasm` binary
-that some WebAssembly engines refuse to load, especially in debug mode (see https://github.com/rustwasm/wasm-pack/issues/981).
+that some WebAssembly engines refuse to load, especially in debug mode (see <https://github.com/rustwasm/wasm-pack/issues/981>).
 
 ## License
 
 Code is licensed under either of
 
- * Apache License, Version 2.0
-   ([LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)
- * MIT license
-   ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
+- Apache License, Version 2.0
+  ([LICENSE-APACHE](LICENSE-APACHE) or <http://www.apache.org/licenses/LICENSE-2.0>)
+- MIT license
+  ([LICENSE-MIT](LICENSE-MIT) or <http://opensource.org/licenses/MIT>)
 
 at your option.
 
 Icons are licensed by their respective creators (see above). An license summary is emitted to the DOM for each icon:
+
 ```html
-<svg data-license="...original license...">
+<svg data-license="...original license..."></svg>
 ```
 
 ## Contribution

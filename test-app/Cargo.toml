@@ -3,6 +3,13 @@ name = "test-app"
 version = "0.1.0"
 edition = "2021"
 
+[profile.dev]
+opt-level = 1
+incremental = true
+
+[profile.release]
+opt-level = "s"
+
 [dependencies]
 yew = { version = "0" }
 enum-iterator = "0.7"
@@ -10,9 +17,15 @@ web-sys = { version = "0", features = [
     "Clipboard",
     "Navigator",
     "HtmlInputElement",
+    "DomTokenList",
+    "Element",
+    "Window",
+    "ScrollToOptions",
+    "ScrollBehavior"
 ] }
 log = "0.4"
 wasm-logger = "0.2"
+gloo-storage = "0.2.2"
 
 # Note: This dependency is specific to the test app, because it contains the `path = ".."` attribute. In your own project,
 # you must omit that attribute e.g. import `yew_icons = {version = "0.1.1", features = ["FeatherArrowDownCircle"]}`.
@@ -48,3 +61,4 @@ yew_icons = { path = "..", features = [
     "SimpleIconsLinux",
     "SimpleIconsWebassembly",
 ] }
+wasm-bindgen = "0.2.84"
