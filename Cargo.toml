@@ -44,17 +44,66 @@ data_uri = []
 generator = ["quote", "convert_case", "proc-macro2", "regex", "base64"]
 iterate_icon_id = ["enum-iterator"]
 #testing = ["yew/ssr", "iterate_icon_id"]
+Bootstrap0Circle = []
+Bootstrap0CircleFill = []
+Bootstrap0Square = []
+Bootstrap0SquareFill = []
 Bootstrap123 = []
+Bootstrap1Circle = []
+Bootstrap1CircleFill = []
+Bootstrap1Square = []
+Bootstrap1SquareFill = []
+Bootstrap2Circle = []
+Bootstrap2CircleFill = []
+Bootstrap2Square = []
+Bootstrap2SquareFill = []
+Bootstrap3Circle = []
+Bootstrap3CircleFill = []
+Bootstrap3Square = []
+Bootstrap3SquareFill = []
+Bootstrap4Circle = []
+Bootstrap4CircleFill = []
+Bootstrap4Square = []
+Bootstrap4SquareFill = []
+Bootstrap5Circle = []
+Bootstrap5CircleFill = []
+Bootstrap5Square = []
+Bootstrap5SquareFill = []
+Bootstrap6Circle = []
+Bootstrap6CircleFill = []
+Bootstrap6Square = []
+Bootstrap6SquareFill = []
+Bootstrap7Circle = []
+Bootstrap7CircleFill = []
+Bootstrap7Square = []
+Bootstrap7SquareFill = []
+Bootstrap8Circle = []
+Bootstrap8CircleFill = []
+Bootstrap8Square = []
+Bootstrap8SquareFill = []
+Bootstrap9Circle = []
+Bootstrap9CircleFill = []
+Bootstrap9Square = []
+Bootstrap9SquareFill = []
 BootstrapActivity = []
+BootstrapAirplane = []
+BootstrapAirplaneEngines = []
+BootstrapAirplaneEnginesFill = []
+BootstrapAirplaneFill = []
 BootstrapAlarm = []
 BootstrapAlarmFill = []
+BootstrapAlexa = []
 BootstrapAlignBottom = []
 BootstrapAlignCenter = []
 BootstrapAlignEnd = []
 BootstrapAlignMiddle = []
 BootstrapAlignStart = []
 BootstrapAlignTop = []
+BootstrapAlipay = []
 BootstrapAlt = []
+BootstrapAmd = []
+BootstrapAndroid = []
+BootstrapAndroid2 = []
 BootstrapApp = []
 BootstrapAppIndicator = []
 BootstrapApple = []
@@ -271,7 +320,9 @@ BootstrapBoxArrowRight = []
 BootstrapBoxArrowUp = []
 BootstrapBoxArrowUpLeft = []
 BootstrapBoxArrowUpRight = []
+BootstrapBoxFill = []
 BootstrapBoxSeam = []
+BootstrapBoxSeamFill = []
 BootstrapBoxes = []
 BootstrapBraces = []
 BootstrapBracesAsterisk = []
@@ -288,6 +339,10 @@ BootstrapBrightnessLow = []
 BootstrapBrightnessLowFill = []
 BootstrapBroadcast = []
 BootstrapBroadcastPin = []
+BootstrapBrowserChrome = []
+BootstrapBrowserEdge = []
+BootstrapBrowserFirefox = []
+BootstrapBrowserSafari = []
 BootstrapBrush = []
 BootstrapBrushFill = []
 BootstrapBucket = []
@@ -295,7 +350,36 @@ BootstrapBucketFill = []
 BootstrapBug = []
 BootstrapBugFill = []
 BootstrapBuilding = []
+BootstrapBuildingAdd = []
+BootstrapBuildingCheck = []
+BootstrapBuildingDash = []
+BootstrapBuildingDown = []
+BootstrapBuildingExclamation = []
+BootstrapBuildingFill = []
+BootstrapBuildingFillAdd = []
+BootstrapBuildingFillCheck = []
+BootstrapBuildingFillDash = []
+BootstrapBuildingFillDown = []
+BootstrapBuildingFillExclamation = []
+BootstrapBuildingFillGear = []
+BootstrapBuildingFillLock = []
+BootstrapBuildingFillSlash = []
+BootstrapBuildingFillUp = []
+BootstrapBuildingFillX = []
+BootstrapBuildingGear = []
+BootstrapBuildingLock = []
+BootstrapBuildingSlash = []
+BootstrapBuildingUp = []
+BootstrapBuildingX = []
+BootstrapBuildings = []
+BootstrapBuildingsFill = []
 BootstrapBullseye = []
+BootstrapBusFront = []
+BootstrapBusFrontFill = []
+BootstrapCCircle = []
+BootstrapCCircleFill = []
+BootstrapCSquare = []
+BootstrapCSquareFill = []
 BootstrapCalculator = []
 BootstrapCalculatorFill = []
 BootstrapCalendar = []
@@ -369,6 +453,10 @@ BootstrapCameraVideoOff = []
 BootstrapCameraVideoOffFill = []
 BootstrapCapslock = []
 BootstrapCapslockFill = []
+BootstrapCapsule = []
+BootstrapCapsulePill = []
+BootstrapCarFront = []
+BootstrapCarFrontFill = []
 BootstrapCardChecklist = []
 BootstrapCardHeading = []
 BootstrapCardImage = []
@@ -406,7 +494,13 @@ BootstrapCartXFill = []
 BootstrapCash = []
 BootstrapCashCoin = []
 BootstrapCashStack = []
+BootstrapCassette = []
+BootstrapCassetteFill = []
 BootstrapCast = []
+BootstrapCcCircle = []
+BootstrapCcCircleFill = []
+BootstrapCcSquare = []
+BootstrapCcSquareFill = []
 BootstrapChat = []
 BootstrapChatDots = []
 BootstrapChatDotsFill = []
@@ -593,12 +687,15 @@ BootstrapCreditCardFill = []
 BootstrapCrop = []
 BootstrapCup = []
 BootstrapCupFill = []
+BootstrapCupHot = []
+BootstrapCupHotFill = []
 BootstrapCupStraw = []
 BootstrapCurrencyBitcoin = []
 BootstrapCurrencyDollar = []
 BootstrapCurrencyEuro = []
 BootstrapCurrencyExchange = []
 BootstrapCurrencyPound = []
+BootstrapCurrencyRupee = []
 BootstrapCurrencyYen = []
 BootstrapCursor = []
 BootstrapCursorFill = []
@@ -611,6 +708,28 @@ BootstrapDashLg = []
 BootstrapDashSquare = []
 BootstrapDashSquareDotted = []
 BootstrapDashSquareFill = []
+BootstrapDatabase = []
+BootstrapDatabaseAdd = []
+BootstrapDatabaseCheck = []
+BootstrapDatabaseDash = []
+BootstrapDatabaseDown = []
+BootstrapDatabaseExclamation = []
+BootstrapDatabaseFill = []
+BootstrapDatabaseFillAdd = []
+BootstrapDatabaseFillCheck = []
+BootstrapDatabaseFillDash = []
+BootstrapDatabaseFillDown = []
+BootstrapDatabaseFillExclamation = []
+BootstrapDatabaseFillGear = []
+BootstrapDatabaseFillLock = []
+BootstrapDatabaseFillSlash = []
+BootstrapDatabaseFillUp = []
+BootstrapDatabaseFillX = []
+BootstrapDatabaseGear = []
+BootstrapDatabaseLock = []
+BootstrapDatabaseSlash = []
+BootstrapDatabaseUp = []
+BootstrapDatabaseX = []
 BootstrapDeviceHdd = []
 BootstrapDeviceHddFill = []
 BootstrapDeviceSsd = []
@@ -652,6 +771,7 @@ BootstrapDownload = []
 BootstrapDpad = []
 BootstrapDpadFill = []
 BootstrapDribbble = []
+BootstrapDropbox = []
 BootstrapDroplet = []
 BootstrapDropletFill = []
 BootstrapDropletHalf = []
@@ -694,6 +814,8 @@ BootstrapEmojiSunglassesFill = []
 BootstrapEmojiWink = []
 BootstrapEmojiWinkFill = []
 BootstrapEnvelope = []
+BootstrapEnvelopeAt = []
+BootstrapEnvelopeAtFill = []
 BootstrapEnvelopeCheck = []
 BootstrapEnvelopeCheckFill = []
 BootstrapEnvelopeDash = []
@@ -719,7 +841,12 @@ BootstrapEnvelopeX = []
 BootstrapEnvelopeXFill = []
 BootstrapEraser = []
 BootstrapEraserFill = []
+BootstrapEscape = []
 BootstrapEthernet = []
+BootstrapEvFront = []
+BootstrapEvFrontFill = []
+BootstrapEvStation = []
+BootstrapEvStationFill = []
 BootstrapExclamation = []
 BootstrapExclamationCircle = []
 BootstrapExclamationCircleFill = []
@@ -743,6 +870,12 @@ BootstrapEyedropper = []
 BootstrapEyeglasses = []
 BootstrapFacebook = []
 BootstrapFan = []
+BootstrapFastForward = []
+BootstrapFastForwardBtn = []
+BootstrapFastForwardBtnFill = []
+BootstrapFastForwardCircle = []
+BootstrapFastForwardCircleFill = []
+BootstrapFastForwardFill = []
 BootstrapFile = []
 BootstrapFileArrowDown = []
 BootstrapFileArrowDownFill = []
@@ -910,6 +1043,7 @@ BootstrapFiletypeRb = []
 BootstrapFiletypeSass = []
 BootstrapFiletypeScss = []
 BootstrapFiletypeSh = []
+BootstrapFiletypeSql = []
 BootstrapFiletypeSvg = []
 BootstrapFiletypeTiff = []
 BootstrapFiletypeTsx = []
@@ -930,6 +1064,7 @@ BootstrapFilterRight = []
 BootstrapFilterSquare = []
 BootstrapFilterSquareFill = []
 BootstrapFingerprint = []
+BootstrapFire = []
 BootstrapFlag = []
 BootstrapFlagFill = []
 BootstrapFlower1 = []
@@ -949,6 +1084,10 @@ BootstrapFonts = []
 BootstrapForward = []
 BootstrapForwardFill = []
 BootstrapFront = []
+BootstrapFuelPump = []
+BootstrapFuelPumpDiesel = []
+BootstrapFuelPumpDieselFill = []
+BootstrapFuelPumpFill = []
 BootstrapFullscreen = []
 BootstrapFullscreenExit = []
 BootstrapFunnel = []
@@ -972,7 +1111,12 @@ BootstrapGit = []
 BootstrapGithub = []
 BootstrapGlobe = []
 BootstrapGlobe2 = []
+BootstrapGlobeAmericas = []
+BootstrapGlobeAsiaAustralia = []
+BootstrapGlobeCentralSouthAsia = []
+BootstrapGlobeEuropeAfrica = []
 BootstrapGoogle = []
+BootstrapGooglePlay = []
 BootstrapGpuCard = []
 BootstrapGraphDown = []
 BootstrapGraphDownArrow = []
@@ -990,6 +1134,10 @@ BootstrapGrid3X3GapFill = []
 BootstrapGridFill = []
 BootstrapGripHorizontal = []
 BootstrapGripVertical = []
+BootstrapHCircle = []
+BootstrapHCircleFill = []
+BootstrapHSquare = []
+BootstrapHSquareFill = []
 BootstrapHammer = []
 BootstrapHandIndex = []
 BootstrapHandIndexFill = []
@@ -1037,11 +1185,33 @@ BootstrapHourglassBottom = []
 BootstrapHourglassSplit = []
 BootstrapHourglassTop = []
 BootstrapHouse = []
+BootstrapHouseAdd = []
+BootstrapHouseAddFill = []
+BootstrapHouseCheck = []
+BootstrapHouseCheckFill = []
+BootstrapHouseDash = []
+BootstrapHouseDashFill = []
 BootstrapHouseDoor = []
 BootstrapHouseDoorFill = []
+BootstrapHouseDown = []
+BootstrapHouseDownFill = []
+BootstrapHouseExclamation = []
+BootstrapHouseExclamationFill = []
 BootstrapHouseFill = []
+BootstrapHouseGear = []
+BootstrapHouseGearFill = []
 BootstrapHouseHeart = []
 BootstrapHouseHeartFill = []
+BootstrapHouseLock = []
+BootstrapHouseLockFill = []
+BootstrapHouseSlash = []
+BootstrapHouseSlashFill = []
+BootstrapHouseUp = []
+BootstrapHouseUpFill = []
+BootstrapHouseX = []
+BootstrapHouseXFill = []
+BootstrapHouses = []
+BootstrapHousesFill = []
 BootstrapHr = []
 BootstrapHurricane = []
 BootstrapHypnotize = []
@@ -1054,6 +1224,7 @@ BootstrapInboxFill = []
 BootstrapInboxes = []
 BootstrapInboxesFill = []
 BootstrapIncognito = []
+BootstrapIndent = []
 BootstrapInfinity = []
 BootstrapInfo = []
 BootstrapInfoCircle = []
@@ -1135,6 +1306,8 @@ BootstrapListTask = []
 BootstrapListUl = []
 BootstrapLock = []
 BootstrapLockFill = []
+BootstrapLungs = []
+BootstrapLungsFill = []
 BootstrapMagic = []
 BootstrapMagnet = []
 BootstrapMagnetFill = []
@@ -1165,6 +1338,7 @@ BootstrapMicFill = []
 BootstrapMicMute = []
 BootstrapMicMuteFill = []
 BootstrapMicrosoft = []
+BootstrapMicrosoftTeams = []
 BootstrapMinecart = []
 BootstrapMinecartLoaded = []
 BootstrapModem = []
@@ -1197,6 +1371,7 @@ BootstrapNodePlus = []
 BootstrapNodePlusFill = []
 BootstrapNut = []
 BootstrapNutFill = []
+BootstrapNvidia = []
 BootstrapOctagon = []
 BootstrapOctagonFill = []
 BootstrapOctagonHalf = []
@@ -1204,12 +1379,18 @@ BootstrapOpticalAudio = []
 BootstrapOpticalAudioFill = []
 BootstrapOption = []
 BootstrapOutlet = []
+BootstrapPCircle = []
+BootstrapPCircleFill = []
+BootstrapPSquare = []
+BootstrapPSquareFill = []
 BootstrapPaintBucket = []
 BootstrapPalette = []
 BootstrapPalette2 = []
 BootstrapPaletteFill = []
 BootstrapPaperclip = []
 BootstrapParagraph = []
+BootstrapPass = []
+BootstrapPassFill = []
 BootstrapPatchCheck = []
 BootstrapPatchCheckFill = []
 BootstrapPatchExclamation = []
@@ -1246,6 +1427,7 @@ BootstrapPeople = []
 BootstrapPeopleFill = []
 BootstrapPercent = []
 BootstrapPerson = []
+BootstrapPersonAdd = []
 BootstrapPersonBadge = []
 BootstrapPersonBadgeFill = []
 BootstrapPersonBoundingBox = []
@@ -1254,14 +1436,32 @@ BootstrapPersonCheckFill = []
 BootstrapPersonCircle = []
 BootstrapPersonDash = []
 BootstrapPersonDashFill = []
+BootstrapPersonDown = []
+BootstrapPersonExclamation = []
 BootstrapPersonFill = []
+BootstrapPersonFillAdd = []
+BootstrapPersonFillCheck = []
+BootstrapPersonFillDash = []
+BootstrapPersonFillDown = []
+BootstrapPersonFillExclamation = []
+BootstrapPersonFillGear = []
+BootstrapPersonFillLock = []
+BootstrapPersonFillSlash = []
+BootstrapPersonFillUp = []
+BootstrapPersonFillX = []
+BootstrapPersonGear = []
 BootstrapPersonHeart = []
 BootstrapPersonHearts = []
 BootstrapPersonLinesFill = []
+BootstrapPersonLock = []
 BootstrapPersonPlus = []
 BootstrapPersonPlusFill = []
 BootstrapPersonRolodex = []
+BootstrapPersonSlash = []
 BootstrapPersonSquare = []
+BootstrapPersonUp = []
+BootstrapPersonVcard = []
+BootstrapPersonVcardFill = []
 BootstrapPersonVideo = []
 BootstrapPersonVideo2 = []
 BootstrapPersonVideo3 = []
@@ -1316,6 +1516,8 @@ BootstrapPostcardFill = []
 BootstrapPostcardHeart = []
 BootstrapPostcardHeartFill = []
 BootstrapPower = []
+BootstrapPrescription = []
+BootstrapPrescription2 = []
 BootstrapPrinter = []
 BootstrapPrinterFill = []
 BootstrapProjector = []
@@ -1336,6 +1538,10 @@ BootstrapQuestionSquare = []
 BootstrapQuestionSquareFill = []
 BootstrapQuora = []
 BootstrapQuote = []
+BootstrapRCircle = []
+BootstrapRCircleFill = []
+BootstrapRSquare = []
+BootstrapRSquareFill = []
 BootstrapRadioactive = []
 BootstrapRainbow = []
 BootstrapReceipt = []
@@ -1355,11 +1561,24 @@ BootstrapRecordCircleFill = []
 BootstrapRecordFill = []
 BootstrapRecycle = []
 BootstrapReddit = []
+BootstrapRegex = []
+BootstrapRepeat = []
+BootstrapRepeat1 = []
 BootstrapReply = []
 BootstrapReplyAll = []
 BootstrapReplyAllFill = []
 BootstrapReplyFill = []
+BootstrapRewind = []
+BootstrapRewindBtn = []
+BootstrapRewindBtnFill = []
+BootstrapRewindCircle = []
+BootstrapRewindCircleFill = []
+BootstrapRewindFill = []
 BootstrapRobot = []
+BootstrapRocket = []
+BootstrapRocketFill = []
+BootstrapRocketTakeoff = []
+BootstrapRocketTakeoffFill = []
 BootstrapRouter = []
 BootstrapRouterFill = []
 BootstrapRss = []
@@ -1374,6 +1593,7 @@ BootstrapSave2 = []
 BootstrapSave2Fill = []
 BootstrapSaveFill = []
 BootstrapScissors = []
+BootstrapScooter = []
 BootstrapScrewdriver = []
 BootstrapSdCard = []
 BootstrapSdCardFill = []
@@ -1420,6 +1640,44 @@ BootstrapShiftFill = []
 BootstrapShop = []
 BootstrapShopWindow = []
 BootstrapShuffle = []
+BootstrapSignDeadEnd = []
+BootstrapSignDeadEndFill = []
+BootstrapSignDoNotEnter = []
+BootstrapSignDoNotEnterFill = []
+BootstrapSignIntersection = []
+BootstrapSignIntersectionFill = []
+BootstrapSignIntersectionSide = []
+BootstrapSignIntersectionSideFill = []
+BootstrapSignIntersectionT = []
+BootstrapSignIntersectionTFill = []
+BootstrapSignIntersectionY = []
+BootstrapSignIntersectionYFill = []
+BootstrapSignMergeLeft = []
+BootstrapSignMergeLeftFill = []
+BootstrapSignMergeRight = []
+BootstrapSignMergeRightFill = []
+BootstrapSignNoLeftTurn = []
+BootstrapSignNoLeftTurnFill = []
+BootstrapSignNoParking = []
+BootstrapSignNoParkingFill = []
+BootstrapSignNoRightTurn = []
+BootstrapSignNoRightTurnFill = []
+BootstrapSignRailroad = []
+BootstrapSignRailroadFill = []
+BootstrapSignStop = []
+BootstrapSignStopFill = []
+BootstrapSignStopLights = []
+BootstrapSignStopLightsFill = []
+BootstrapSignTurnLeft = []
+BootstrapSignTurnLeftFill = []
+BootstrapSignTurnRight = []
+BootstrapSignTurnRightFill = []
+BootstrapSignTurnSlightLeft = []
+BootstrapSignTurnSlightLeftFill = []
+BootstrapSignTurnSlightRight = []
+BootstrapSignTurnSlightRightFill = []
+BootstrapSignYield = []
+BootstrapSignYieldFill = []
 BootstrapSignal = []
 BootstrapSignpost = []
 BootstrapSignpost2 = []
@@ -1429,6 +1687,7 @@ BootstrapSignpostSplit = []
 BootstrapSignpostSplitFill = []
 BootstrapSim = []
 BootstrapSimFill = []
+BootstrapSinaWeibo = []
 BootstrapSkipBackward = []
 BootstrapSkipBackwardBtn = []
 BootstrapSkipBackwardBtnFill = []
@@ -1513,6 +1772,8 @@ BootstrapStoplightsFill = []
 BootstrapStopwatch = []
 BootstrapStopwatchFill = []
 BootstrapStrava = []
+BootstrapStripe = []
+BootstrapSubscript = []
 BootstrapSubtract = []
 BootstrapSuitClub = []
 BootstrapSuitClubFill = []
@@ -1529,6 +1790,7 @@ BootstrapSunrise = []
 BootstrapSunriseFill = []
 BootstrapSunset = []
 BootstrapSunsetFill = []
+BootstrapSuperscript = []
 BootstrapSymmetryHorizontal = []
 BootstrapSymmetryVertical = []
 BootstrapTable = []
@@ -1540,6 +1802,8 @@ BootstrapTag = []
 BootstrapTagFill = []
 BootstrapTags = []
 BootstrapTagsFill = []
+BootstrapTaxiFront = []
+BootstrapTaxiFrontFill = []
 BootstrapTelegram = []
 BootstrapTelephone = []
 BootstrapTelephoneFill = []
@@ -1555,6 +1819,7 @@ BootstrapTelephonePlus = []
 BootstrapTelephonePlusFill = []
 BootstrapTelephoneX = []
 BootstrapTelephoneXFill = []
+BootstrapTencentQq = []
 BootstrapTerminal = []
 BootstrapTerminalDash = []
 BootstrapTerminalFill = []
@@ -1567,6 +1832,7 @@ BootstrapTextIndentRight = []
 BootstrapTextLeft = []
 BootstrapTextParagraph = []
 BootstrapTextRight = []
+BootstrapTextWrap = []
 BootstrapTextarea = []
 BootstrapTextareaResize = []
 BootstrapTextareaT = []
@@ -1595,6 +1861,12 @@ BootstrapToggles = []
 BootstrapToggles2 = []
 BootstrapTools = []
 BootstrapTornado = []
+BootstrapTrainFreightFront = []
+BootstrapTrainFreightFrontFill = []
+BootstrapTrainFront = []
+BootstrapTrainFrontFill = []
+BootstrapTrainLightrailFront = []
+BootstrapTrainLightrailFrontFill = []
 BootstrapTranslate = []
 BootstrapTrash = []
 BootstrapTrash2 = []
@@ -1604,6 +1876,7 @@ BootstrapTrash3Fill = []
 BootstrapTrashFill = []
 BootstrapTree = []
 BootstrapTreeFill = []
+BootstrapTrello = []
 BootstrapTriangle = []
 BootstrapTriangleFill = []
 BootstrapTriangleHalf = []
@@ -1612,6 +1885,8 @@ BootstrapTrophyFill = []
 BootstrapTropicalStorm = []
 BootstrapTruck = []
 BootstrapTruckFlatbed = []
+BootstrapTruckFront = []
+BootstrapTruckFrontFill = []
 BootstrapTsunami = []
 BootstrapTv = []
 BootstrapTvFill = []
@@ -1625,13 +1900,18 @@ BootstrapTypeH3 = []
 BootstrapTypeItalic = []
 BootstrapTypeStrikethrough = []
 BootstrapTypeUnderline = []
+BootstrapUbuntu = []
 BootstrapUiChecks = []
 BootstrapUiChecksGrid = []
 BootstrapUiRadios = []
 BootstrapUiRadiosGrid = []
 BootstrapUmbrella = []
 BootstrapUmbrellaFill = []
+BootstrapUnindent = []
 BootstrapUnion = []
+BootstrapUnity = []
+BootstrapUniversalAccess = []
+BootstrapUniversalAccessCircle = []
 BootstrapUnlock = []
 BootstrapUnlockFill = []
 BootstrapUpc = []
@@ -1658,6 +1938,8 @@ BootstrapViewStacked = []
 BootstrapVimeo = []
 BootstrapVinyl = []
 BootstrapVinylFill = []
+BootstrapVirus = []
+BootstrapVirus2 = []
 BootstrapVoicemail = []
 BootstrapVolumeDown = []
 BootstrapVolumeDownFill = []
@@ -1675,11 +1957,13 @@ BootstrapWatch = []
 BootstrapWater = []
 BootstrapWebcam = []
 BootstrapWebcamFill = []
+BootstrapWechat = []
 BootstrapWhatsapp = []
 BootstrapWifi = []
 BootstrapWifi1 = []
 BootstrapWifi2 = []
 BootstrapWifiOff = []
+BootstrapWikipedia = []
 BootstrapWind = []
 BootstrapWindow = []
 BootstrapWindowDash = []
@@ -1708,6 +1992,7 @@ BootstrapXOctagonFill = []
 BootstrapXSquare = []
 BootstrapXSquareFill = []
 BootstrapXbox = []
+BootstrapYelp = []
 BootstrapYinYang = []
 BootstrapYoutube = []
 BootstrapZoomIn = []
@@ -8729,17 +9014,66 @@ SimpleIconsZulip = []
 SimpleIconsZwave = []
 SimpleIconsZyte = []
 bootstrap = [
+    "Bootstrap0CircleFill",
+    "Bootstrap0Circle",
+    "Bootstrap0SquareFill",
+    "Bootstrap0Square",
+    "Bootstrap1CircleFill",
+    "Bootstrap1Circle",
+    "Bootstrap1SquareFill",
+    "Bootstrap1Square",
     "Bootstrap123",
+    "Bootstrap2CircleFill",
+    "Bootstrap2Circle",
+    "Bootstrap2SquareFill",
+    "Bootstrap2Square",
+    "Bootstrap3CircleFill",
+    "Bootstrap3Circle",
+    "Bootstrap3SquareFill",
+    "Bootstrap3Square",
+    "Bootstrap4CircleFill",
+    "Bootstrap4Circle",
+    "Bootstrap4SquareFill",
+    "Bootstrap4Square",
+    "Bootstrap5CircleFill",
+    "Bootstrap5Circle",
+    "Bootstrap5SquareFill",
+    "Bootstrap5Square",
+    "Bootstrap6CircleFill",
+    "Bootstrap6Circle",
+    "Bootstrap6SquareFill",
+    "Bootstrap6Square",
+    "Bootstrap7CircleFill",
+    "Bootstrap7Circle",
+    "Bootstrap7SquareFill",
+    "Bootstrap7Square",
+    "Bootstrap8CircleFill",
+    "Bootstrap8Circle",
+    "Bootstrap8SquareFill",
+    "Bootstrap8Square",
+    "Bootstrap9CircleFill",
+    "Bootstrap9Circle",
+    "Bootstrap9SquareFill",
+    "Bootstrap9Square",
     "BootstrapActivity",
+    "BootstrapAirplaneEnginesFill",
+    "BootstrapAirplaneEngines",
+    "BootstrapAirplaneFill",
+    "BootstrapAirplane",
     "BootstrapAlarmFill",
     "BootstrapAlarm",
+    "BootstrapAlexa",
     "BootstrapAlignBottom",
     "BootstrapAlignCenter",
     "BootstrapAlignEnd",
     "BootstrapAlignMiddle",
     "BootstrapAlignStart",
     "BootstrapAlignTop",
+    "BootstrapAlipay",
     "BootstrapAlt",
+    "BootstrapAmd",
+    "BootstrapAndroid",
+    "BootstrapAndroid2",
     "BootstrapAppIndicator",
     "BootstrapApp",
     "BootstrapApple",
@@ -8951,6 +9285,8 @@ bootstrap = [
     "BootstrapBoxArrowUpLeft",
     "BootstrapBoxArrowUpRight",
     "BootstrapBoxArrowUp",
+    "BootstrapBoxFill",
+    "BootstrapBoxSeamFill",
     "BootstrapBoxSeam",
     "BootstrapBox",
     "BootstrapBox2Fill",
@@ -8973,14 +9309,47 @@ bootstrap = [
     "BootstrapBrightnessLow",
     "BootstrapBroadcastPin",
     "BootstrapBroadcast",
+    "BootstrapBrowserChrome",
+    "BootstrapBrowserEdge",
+    "BootstrapBrowserFirefox",
+    "BootstrapBrowserSafari",
     "BootstrapBrushFill",
     "BootstrapBrush",
     "BootstrapBucketFill",
     "BootstrapBucket",
     "BootstrapBugFill",
     "BootstrapBug",
+    "BootstrapBuildingAdd",
+    "BootstrapBuildingCheck",
+    "BootstrapBuildingDash",
+    "BootstrapBuildingDown",
+    "BootstrapBuildingExclamation",
+    "BootstrapBuildingFillAdd",
+    "BootstrapBuildingFillCheck",
+    "BootstrapBuildingFillDash",
+    "BootstrapBuildingFillDown",
+    "BootstrapBuildingFillExclamation",
+    "BootstrapBuildingFillGear",
+    "BootstrapBuildingFillLock",
+    "BootstrapBuildingFillSlash",
+    "BootstrapBuildingFillUp",
+    "BootstrapBuildingFillX",
+    "BootstrapBuildingFill",
+    "BootstrapBuildingGear",
+    "BootstrapBuildingLock",
+    "BootstrapBuildingSlash",
+    "BootstrapBuildingUp",
+    "BootstrapBuildingX",
     "BootstrapBuilding",
+    "BootstrapBuildingsFill",
+    "BootstrapBuildings",
     "BootstrapBullseye",
+    "BootstrapBusFrontFill",
+    "BootstrapBusFront",
+    "BootstrapCCircleFill",
+    "BootstrapCCircle",
+    "BootstrapCSquareFill",
+    "BootstrapCSquare",
     "BootstrapCalculatorFill",
     "BootstrapCalculator",
     "BootstrapCalendarCheckFill",
@@ -9054,6 +9423,10 @@ bootstrap = [
     "BootstrapCamera2",
     "BootstrapCapslockFill",
     "BootstrapCapslock",
+    "BootstrapCapsulePill",
+    "BootstrapCapsule",
+    "BootstrapCarFrontFill",
+    "BootstrapCarFront",
     "BootstrapCardChecklist",
     "BootstrapCardHeading",
     "BootstrapCardImage",
@@ -9091,7 +9464,13 @@ bootstrap = [
     "BootstrapCashCoin",
     "BootstrapCashStack",
     "BootstrapCash",
+    "BootstrapCassetteFill",
+    "BootstrapCassette",
     "BootstrapCast",
+    "BootstrapCcCircleFill",
+    "BootstrapCcCircle",
+    "BootstrapCcSquareFill",
+    "BootstrapCcSquare",
     "BootstrapChatDotsFill",
     "BootstrapChatDots",
     "BootstrapChatFill",
@@ -9277,6 +9656,8 @@ bootstrap = [
     "BootstrapCreditCard",
     "BootstrapCrop",
     "BootstrapCupFill",
+    "BootstrapCupHotFill",
+    "BootstrapCupHot",
     "BootstrapCupStraw",
     "BootstrapCup",
     "BootstrapCurrencyBitcoin",
@@ -9284,6 +9665,7 @@ bootstrap = [
     "BootstrapCurrencyEuro",
     "BootstrapCurrencyExchange",
     "BootstrapCurrencyPound",
+    "BootstrapCurrencyRupee",
     "BootstrapCurrencyYen",
     "BootstrapCursorFill",
     "BootstrapCursorText",
@@ -9296,6 +9678,28 @@ bootstrap = [
     "BootstrapDashSquareFill",
     "BootstrapDashSquare",
     "BootstrapDash",
+    "BootstrapDatabaseAdd",
+    "BootstrapDatabaseCheck",
+    "BootstrapDatabaseDash",
+    "BootstrapDatabaseDown",
+    "BootstrapDatabaseExclamation",
+    "BootstrapDatabaseFillAdd",
+    "BootstrapDatabaseFillCheck",
+    "BootstrapDatabaseFillDash",
+    "BootstrapDatabaseFillDown",
+    "BootstrapDatabaseFillExclamation",
+    "BootstrapDatabaseFillGear",
+    "BootstrapDatabaseFillLock",
+    "BootstrapDatabaseFillSlash",
+    "BootstrapDatabaseFillUp",
+    "BootstrapDatabaseFillX",
+    "BootstrapDatabaseFill",
+    "BootstrapDatabaseGear",
+    "BootstrapDatabaseLock",
+    "BootstrapDatabaseSlash",
+    "BootstrapDatabaseUp",
+    "BootstrapDatabaseX",
+    "BootstrapDatabase",
     "BootstrapDeviceHddFill",
     "BootstrapDeviceHdd",
     "BootstrapDeviceSsdFill",
@@ -9337,6 +9741,7 @@ bootstrap = [
     "BootstrapDpadFill",
     "BootstrapDpad",
     "BootstrapDribbble",
+    "BootstrapDropbox",
     "BootstrapDropletFill",
     "BootstrapDropletHalf",
     "BootstrapDroplet",
@@ -9378,6 +9783,8 @@ bootstrap = [
     "BootstrapEmojiSunglasses",
     "BootstrapEmojiWinkFill",
     "BootstrapEmojiWink",
+    "BootstrapEnvelopeAtFill",
+    "BootstrapEnvelopeAt",
     "BootstrapEnvelopeCheckFill",
     "BootstrapEnvelopeCheck",
     "BootstrapEnvelopeDashFill",
@@ -9404,7 +9811,12 @@ bootstrap = [
     "BootstrapEnvelope",
     "BootstrapEraserFill",
     "BootstrapEraser",
+    "BootstrapEscape",
     "BootstrapEthernet",
+    "BootstrapEvFrontFill",
+    "BootstrapEvFront",
+    "BootstrapEvStationFill",
+    "BootstrapEvStation",
     "BootstrapExclamationCircleFill",
     "BootstrapExclamationCircle",
     "BootstrapExclamationDiamondFill",
@@ -9428,6 +9840,12 @@ bootstrap = [
     "BootstrapEyeglasses",
     "BootstrapFacebook",
     "BootstrapFan",
+    "BootstrapFastForwardBtnFill",
+    "BootstrapFastForwardBtn",
+    "BootstrapFastForwardCircleFill",
+    "BootstrapFastForwardCircle",
+    "BootstrapFastForwardFill",
+    "BootstrapFastForward",
     "BootstrapFileArrowDownFill",
     "BootstrapFileArrowDown",
     "BootstrapFileArrowUpFill",
@@ -9595,6 +10013,7 @@ bootstrap = [
     "BootstrapFiletypeSass",
     "BootstrapFiletypeScss",
     "BootstrapFiletypeSh",
+    "BootstrapFiletypeSql",
     "BootstrapFiletypeSvg",
     "BootstrapFiletypeTiff",
     "BootstrapFiletypeTsx",
@@ -9615,6 +10034,7 @@ bootstrap = [
     "BootstrapFilterSquare",
     "BootstrapFilter",
     "BootstrapFingerprint",
+    "BootstrapFire",
     "BootstrapFlagFill",
     "BootstrapFlag",
     "BootstrapFlower1",
@@ -9634,6 +10054,10 @@ bootstrap = [
     "BootstrapForwardFill",
     "BootstrapForward",
     "BootstrapFront",
+    "BootstrapFuelPumpDieselFill",
+    "BootstrapFuelPumpDiesel",
+    "BootstrapFuelPumpFill",
+    "BootstrapFuelPump",
     "BootstrapFullscreenExit",
     "BootstrapFullscreen",
     "BootstrapFunnelFill",
@@ -9655,8 +10079,13 @@ bootstrap = [
     "BootstrapGift",
     "BootstrapGit",
     "BootstrapGithub",
+    "BootstrapGlobeAmericas",
+    "BootstrapGlobeAsiaAustralia",
+    "BootstrapGlobeCentralSouthAsia",
+    "BootstrapGlobeEuropeAfrica",
     "BootstrapGlobe",
     "BootstrapGlobe2",
+    "BootstrapGooglePlay",
     "BootstrapGoogle",
     "BootstrapGpuCard",
     "BootstrapGraphDownArrow",
@@ -9675,6 +10104,10 @@ bootstrap = [
     "BootstrapGrid",
     "BootstrapGripHorizontal",
     "BootstrapGripVertical",
+    "BootstrapHCircleFill",
+    "BootstrapHCircle",
+    "BootstrapHSquareFill",
+    "BootstrapHSquare",
     "BootstrapHammer",
     "BootstrapHandIndexFill",
     "BootstrapHandIndexThumbFill",
@@ -9721,12 +10154,34 @@ bootstrap = [
     "BootstrapHourglassSplit",
     "BootstrapHourglassTop",
     "BootstrapHourglass",
+    "BootstrapHouseAddFill",
+    "BootstrapHouseAdd",
+    "BootstrapHouseCheckFill",
+    "BootstrapHouseCheck",
+    "BootstrapHouseDashFill",
+    "BootstrapHouseDash",
     "BootstrapHouseDoorFill",
     "BootstrapHouseDoor",
+    "BootstrapHouseDownFill",
+    "BootstrapHouseDown",
+    "BootstrapHouseExclamationFill",
+    "BootstrapHouseExclamation",
     "BootstrapHouseFill",
+    "BootstrapHouseGearFill",
+    "BootstrapHouseGear",
     "BootstrapHouseHeartFill",
     "BootstrapHouseHeart",
+    "BootstrapHouseLockFill",
+    "BootstrapHouseLock",
+    "BootstrapHouseSlashFill",
+    "BootstrapHouseSlash",
+    "BootstrapHouseUpFill",
+    "BootstrapHouseUp",
+    "BootstrapHouseXFill",
+    "BootstrapHouseX",
     "BootstrapHouse",
+    "BootstrapHousesFill",
+    "BootstrapHouses",
     "BootstrapHr",
     "BootstrapHurricane",
     "BootstrapHypnotize",
@@ -9739,6 +10194,7 @@ bootstrap = [
     "BootstrapInboxesFill",
     "BootstrapInboxes",
     "BootstrapIncognito",
+    "BootstrapIndent",
     "BootstrapInfinity",
     "BootstrapInfoCircleFill",
     "BootstrapInfoCircle",
@@ -9820,6 +10276,8 @@ bootstrap = [
     "BootstrapList",
     "BootstrapLockFill",
     "BootstrapLock",
+    "BootstrapLungsFill",
+    "BootstrapLungs",
     "BootstrapMagic",
     "BootstrapMagnetFill",
     "BootstrapMagnet",
@@ -9849,6 +10307,7 @@ bootstrap = [
     "BootstrapMicMuteFill",
     "BootstrapMicMute",
     "BootstrapMic",
+    "BootstrapMicrosoftTeams",
     "BootstrapMicrosoft",
     "BootstrapMinecartLoaded",
     "BootstrapMinecart",
@@ -9882,6 +10341,7 @@ bootstrap = [
     "BootstrapNodePlus",
     "BootstrapNutFill",
     "BootstrapNut",
+    "BootstrapNvidia",
     "BootstrapOctagonFill",
     "BootstrapOctagonHalf",
     "BootstrapOctagon",
@@ -9889,12 +10349,18 @@ bootstrap = [
     "BootstrapOpticalAudio",
     "BootstrapOption",
     "BootstrapOutlet",
+    "BootstrapPCircleFill",
+    "BootstrapPCircle",
+    "BootstrapPSquareFill",
+    "BootstrapPSquare",
     "BootstrapPaintBucket",
     "BootstrapPaletteFill",
     "BootstrapPalette",
     "BootstrapPalette2",
     "BootstrapPaperclip",
     "BootstrapParagraph",
+    "BootstrapPassFill",
+    "BootstrapPass",
     "BootstrapPatchCheckFill",
     "BootstrapPatchCheck",
     "BootstrapPatchExclamationFill",
@@ -9930,6 +10396,7 @@ bootstrap = [
     "BootstrapPeopleFill",
     "BootstrapPeople",
     "BootstrapPercent",
+    "BootstrapPersonAdd",
     "BootstrapPersonBadgeFill",
     "BootstrapPersonBadge",
     "BootstrapPersonBoundingBox",
@@ -9938,14 +10405,32 @@ bootstrap = [
     "BootstrapPersonCircle",
     "BootstrapPersonDashFill",
     "BootstrapPersonDash",
+    "BootstrapPersonDown",
+    "BootstrapPersonExclamation",
+    "BootstrapPersonFillAdd",
+    "BootstrapPersonFillCheck",
+    "BootstrapPersonFillDash",
+    "BootstrapPersonFillDown",
+    "BootstrapPersonFillExclamation",
+    "BootstrapPersonFillGear",
+    "BootstrapPersonFillLock",
+    "BootstrapPersonFillSlash",
+    "BootstrapPersonFillUp",
+    "BootstrapPersonFillX",
     "BootstrapPersonFill",
+    "BootstrapPersonGear",
     "BootstrapPersonHeart",
     "BootstrapPersonHearts",
     "BootstrapPersonLinesFill",
+    "BootstrapPersonLock",
     "BootstrapPersonPlusFill",
     "BootstrapPersonPlus",
     "BootstrapPersonRolodex",
+    "BootstrapPersonSlash",
     "BootstrapPersonSquare",
+    "BootstrapPersonUp",
+    "BootstrapPersonVcardFill",
+    "BootstrapPersonVcard",
     "BootstrapPersonVideo",
     "BootstrapPersonVideo2",
     "BootstrapPersonVideo3",
@@ -10001,6 +10486,8 @@ bootstrap = [
     "BootstrapPostcardHeart",
     "BootstrapPostcard",
     "BootstrapPower",
+    "BootstrapPrescription",
+    "BootstrapPrescription2",
     "BootstrapPrinterFill",
     "BootstrapPrinter",
     "BootstrapProjectorFill",
@@ -10021,6 +10508,10 @@ bootstrap = [
     "BootstrapQuestion",
     "BootstrapQuora",
     "BootstrapQuote",
+    "BootstrapRCircleFill",
+    "BootstrapRCircle",
+    "BootstrapRSquareFill",
+    "BootstrapRSquare",
     "BootstrapRadioactive",
     "BootstrapRainbow",
     "BootstrapReceiptCutoff",
@@ -10040,11 +10531,24 @@ bootstrap = [
     "BootstrapRecord2",
     "BootstrapRecycle",
     "BootstrapReddit",
+    "BootstrapRegex",
+    "BootstrapRepeat1",
+    "BootstrapRepeat",
     "BootstrapReplyAllFill",
     "BootstrapReplyAll",
     "BootstrapReplyFill",
     "BootstrapReply",
+    "BootstrapRewindBtnFill",
+    "BootstrapRewindBtn",
+    "BootstrapRewindCircleFill",
+    "BootstrapRewindCircle",
+    "BootstrapRewindFill",
+    "BootstrapRewind",
     "BootstrapRobot",
+    "BootstrapRocketFill",
+    "BootstrapRocketTakeoffFill",
+    "BootstrapRocketTakeoff",
+    "BootstrapRocket",
     "BootstrapRouterFill",
     "BootstrapRouter",
     "BootstrapRssFill",
@@ -10059,6 +10563,7 @@ bootstrap = [
     "BootstrapSave2Fill",
     "BootstrapSave2",
     "BootstrapScissors",
+    "BootstrapScooter",
     "BootstrapScrewdriver",
     "BootstrapSdCardFill",
     "BootstrapSdCard",
@@ -10105,6 +10610,44 @@ bootstrap = [
     "BootstrapShopWindow",
     "BootstrapShop",
     "BootstrapShuffle",
+    "BootstrapSignDeadEndFill",
+    "BootstrapSignDeadEnd",
+    "BootstrapSignDoNotEnterFill",
+    "BootstrapSignDoNotEnter",
+    "BootstrapSignIntersectionFill",
+    "BootstrapSignIntersectionSideFill",
+    "BootstrapSignIntersectionSide",
+    "BootstrapSignIntersectionTFill",
+    "BootstrapSignIntersectionT",
+    "BootstrapSignIntersectionYFill",
+    "BootstrapSignIntersectionY",
+    "BootstrapSignIntersection",
+    "BootstrapSignMergeLeftFill",
+    "BootstrapSignMergeLeft",
+    "BootstrapSignMergeRightFill",
+    "BootstrapSignMergeRight",
+    "BootstrapSignNoLeftTurnFill",
+    "BootstrapSignNoLeftTurn",
+    "BootstrapSignNoParkingFill",
+    "BootstrapSignNoParking",
+    "BootstrapSignNoRightTurnFill",
+    "BootstrapSignNoRightTurn",
+    "BootstrapSignRailroadFill",
+    "BootstrapSignRailroad",
+    "BootstrapSignStopFill",
+    "BootstrapSignStopLightsFill",
+    "BootstrapSignStopLights",
+    "BootstrapSignStop",
+    "BootstrapSignTurnLeftFill",
+    "BootstrapSignTurnLeft",
+    "BootstrapSignTurnRightFill",
+    "BootstrapSignTurnRight",
+    "BootstrapSignTurnSlightLeftFill",
+    "BootstrapSignTurnSlightLeft",
+    "BootstrapSignTurnSlightRightFill",
+    "BootstrapSignTurnSlightRight",
+    "BootstrapSignYieldFill",
+    "BootstrapSignYield",
     "BootstrapSignal",
     "BootstrapSignpost2Fill",
     "BootstrapSignpost2",
@@ -10114,6 +10657,7 @@ bootstrap = [
     "BootstrapSignpost",
     "BootstrapSimFill",
     "BootstrapSim",
+    "BootstrapSinaWeibo",
     "BootstrapSkipBackwardBtnFill",
     "BootstrapSkipBackwardBtn",
     "BootstrapSkipBackwardCircleFill",
@@ -10198,6 +10742,8 @@ bootstrap = [
     "BootstrapStopwatchFill",
     "BootstrapStopwatch",
     "BootstrapStrava",
+    "BootstrapStripe",
+    "BootstrapSubscript",
     "BootstrapSubtract",
     "BootstrapSuitClubFill",
     "BootstrapSuitClub",
@@ -10214,6 +10760,7 @@ bootstrap = [
     "BootstrapSunrise",
     "BootstrapSunsetFill",
     "BootstrapSunset",
+    "BootstrapSuperscript",
     "BootstrapSymmetryHorizontal",
     "BootstrapSymmetryVertical",
     "BootstrapTable",
@@ -10225,6 +10772,8 @@ bootstrap = [
     "BootstrapTag",
     "BootstrapTagsFill",
     "BootstrapTags",
+    "BootstrapTaxiFrontFill",
+    "BootstrapTaxiFront",
     "BootstrapTelegram",
     "BootstrapTelephoneFill",
     "BootstrapTelephoneForwardFill",
@@ -10240,6 +10789,7 @@ bootstrap = [
     "BootstrapTelephoneXFill",
     "BootstrapTelephoneX",
     "BootstrapTelephone",
+    "BootstrapTencentQq",
     "BootstrapTerminalDash",
     "BootstrapTerminalFill",
     "BootstrapTerminalPlus",
@@ -10252,6 +10802,7 @@ bootstrap = [
     "BootstrapTextLeft",
     "BootstrapTextParagraph",
     "BootstrapTextRight",
+    "BootstrapTextWrap",
     "BootstrapTextareaResize",
     "BootstrapTextareaT",
     "BootstrapTextarea",
@@ -10280,6 +10831,12 @@ bootstrap = [
     "BootstrapToggles2",
     "BootstrapTools",
     "BootstrapTornado",
+    "BootstrapTrainFreightFrontFill",
+    "BootstrapTrainFreightFront",
+    "BootstrapTrainFrontFill",
+    "BootstrapTrainFront",
+    "BootstrapTrainLightrailFrontFill",
+    "BootstrapTrainLightrailFront",
     "BootstrapTranslate",
     "BootstrapTrashFill",
     "BootstrapTrash",
@@ -10289,6 +10846,7 @@ bootstrap = [
     "BootstrapTrash3",
     "BootstrapTreeFill",
     "BootstrapTree",
+    "BootstrapTrello",
     "BootstrapTriangleFill",
     "BootstrapTriangleHalf",
     "BootstrapTriangle",
@@ -10296,6 +10854,8 @@ bootstrap = [
     "BootstrapTrophy",
     "BootstrapTropicalStorm",
     "BootstrapTruckFlatbed",
+    "BootstrapTruckFrontFill",
+    "BootstrapTruckFront",
     "BootstrapTruck",
     "BootstrapTsunami",
     "BootstrapTvFill",
@@ -10310,13 +10870,18 @@ bootstrap = [
     "BootstrapTypeStrikethrough",
     "BootstrapTypeUnderline",
     "BootstrapType",
+    "BootstrapUbuntu",
     "BootstrapUiChecksGrid",
     "BootstrapUiChecks",
     "BootstrapUiRadiosGrid",
     "BootstrapUiRadios",
     "BootstrapUmbrellaFill",
     "BootstrapUmbrella",
+    "BootstrapUnindent",
     "BootstrapUnion",
+    "BootstrapUnity",
+    "BootstrapUniversalAccessCircle",
+    "BootstrapUniversalAccess",
     "BootstrapUnlockFill",
     "BootstrapUnlock",
     "BootstrapUpcScan",
@@ -10343,6 +10908,8 @@ bootstrap = [
     "BootstrapVimeo",
     "BootstrapVinylFill",
     "BootstrapVinyl",
+    "BootstrapVirus",
+    "BootstrapVirus2",
     "BootstrapVoicemail",
     "BootstrapVolumeDownFill",
     "BootstrapVolumeDown",
@@ -10360,11 +10927,13 @@ bootstrap = [
     "BootstrapWater",
     "BootstrapWebcamFill",
     "BootstrapWebcam",
+    "BootstrapWechat",
     "BootstrapWhatsapp",
     "BootstrapWifi1",
     "BootstrapWifi2",
     "BootstrapWifiOff",
     "BootstrapWifi",
+    "BootstrapWikipedia",
     "BootstrapWind",
     "BootstrapWindowDash",
     "BootstrapWindowDesktop",
@@ -10393,6 +10962,7 @@ bootstrap = [
     "BootstrapXSquare",
     "BootstrapX",
     "BootstrapXbox",
+    "BootstrapYelp",
     "BootstrapYinYang",
     "BootstrapYoutube",
     "BootstrapZoomIn",
