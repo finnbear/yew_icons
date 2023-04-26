@@ -87,3 +87,32 @@ Icons are licensed by their respective creators (see above). An license summary 
 Unless you explicitly state otherwise, any contribution intentionally submitted
 for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
 dual licensed as above, without any additional terms or conditions.
+
+### Updating an Icon Collection
+
+```shell
+# 1. on first checkout, init submodules:
+git submodule update --init --recursive
+
+# 2. update a submodule to latest commit in remote branch:
+git submodule update --remote bootstrap
+
+# 3. generate the icons, writing the feature flags to a file:
+cargo run --features="generator" > generated_feature_flags.txt
+
+# 4. reformat the feature flags onto separate lines (choose your own adventure, e.g. vim macros)
+
+# 5. copy the feature flags from generated_feature_flags.txt to the Cargo.toml
+```
+
+### Running tests
+
+```shell
+# 1. uncomment the "testing" feature flag in Cargo.toml
+
+# 2. for each icon set to test, run:
+cargo test test --features "enum-iterator testing [icon collection to test]"
+# (the test name is "test", which we specify to skip the doc tests)
+# icon collection options are: bootstrap feather font_awesome_regular font_awesome_solid heroicons_mini_solid heroicons_outline heroicons_solid lipis_flag_icons_1_x_1 lipis_flag_icons_4_x_3 lucide octicons simple_icons
+# if testing all icon sets at once, the prokio-runtime-worker may overflow its stack
+```

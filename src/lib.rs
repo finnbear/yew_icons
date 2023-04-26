@@ -67,11 +67,17 @@ mod test {
     #[tokio::test]
     async fn test() {
         for icon_id in IconId::into_enum_iter() {
-            let renderer = yew::ServerRenderer::<Icon>::with_props(IconProps {
+            println!("rendering icon {:?}", icon_id);
+            let icon_id = icon_id.clone();
+            let renderer = yew::ServerRenderer::<Icon>::with_props(move || IconProps {
                 icon_id,
                 width: "2em".into(),
                 height: "3em".into(),
                 onclick: Some(Callback::from(|_e: MouseEvent| {})),
+                class: Classes::new(),
+                oncontextmenu: None,
+                style: None,
+                title: None,
             });
 
             let rendered = renderer.render().await;
