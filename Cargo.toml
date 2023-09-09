@@ -2,7 +2,7 @@
 name = "yew_icons"
 authors = ["Finn Bear"]
 license = "MIT"
-version = "0.7.2"
+version = "0.7.3"
 edition = "2021"
 repository = "https://github.com/finnbear/yew_icons/"
 description = "Easily include a variety of SVG icons into your Yew app"
@@ -1997,6 +1997,7 @@ BootstrapYinYang = []
 BootstrapYoutube = []
 BootstrapZoomIn = []
 BootstrapZoomOut = []
+ExtraGooglePlay = []
 FeatherActivity = []
 FeatherAirplay = []
 FeatherAlertCircle = []
@@ -10968,6 +10969,7 @@ bootstrap = [
     "BootstrapZoomIn",
     "BootstrapZoomOut",
 ]
+extra = ["ExtraGooglePlay"]
 feather = [
     "FeatherActivity",
     "FeatherAirplay",

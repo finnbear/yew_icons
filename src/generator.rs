@@ -290,6 +290,11 @@ fn main() {
         "simple-icons/icons",
         r##"From https://github.com/simple-icons/simple-icons - Licensed under CC0; check brand guidelines"##,
     );
+    generate(
+        "Extra",
+        "extra",
+        r##"Check brand guidelines"##,
+    );
 
     let tokens = quote! {
         /// Identifies which icon to render. Variants are all disabled by default, but can be

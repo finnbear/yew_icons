@@ -19,6 +19,7 @@ This crate makes it easy to use [SVG icons](https://finnbear.github.io/yew_icons
 | **Lucide**           | ISC License       | -                          |
 | **Octicons**         | MIT License       | -                          |
 | **Simple Icons**     | CC0 License       | -                          |
+| *Extra*              | Case-by-case      | -                          |
 
 ## Gallery
 
