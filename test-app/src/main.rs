@@ -1,10 +1,10 @@
 mod components;
 
+pub use components::{Gallery, Header, ScrollToTop};
 use std::ops::Deref;
-use web_sys::{HtmlInputElement, window};
+use web_sys::{window, HtmlInputElement};
 use yew::prelude::*;
 use yew_icons::{Icon, IconId};
-pub use components::{Gallery, Header, ScrollToTop};
 
 #[function_component]
 fn App() -> Html {

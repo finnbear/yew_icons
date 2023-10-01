@@ -18,6 +18,7 @@ pub struct IconProps {
     /// Which icon to render. Enable icons with feature flags.
     pub icon_id: IconId,
     /// Tooltip text.
+    #[prop_or(None)]
     pub title: Option<AttrValue>,
     /// CSS width.
     #[prop_or("24".into())]
@@ -26,13 +27,16 @@ pub struct IconProps {
     #[prop_or("24".into())]
     pub height: AttrValue,
     /// Callback when icon is clicked.
+    #[prop_or(None)]
     pub onclick: Option<Callback<MouseEvent>>,
     /// Callback when icon is subject to context menu (usually means it was right-clicked).
+    #[prop_or(None)]
     pub oncontextmenu: Option<Callback<MouseEvent>>,
     /// For CSS.
     #[prop_or_default]
     pub class: Classes,
     /// For inline CSS.
+    #[prop_or(None)]
     pub style: Option<AttrValue>,
 }
 

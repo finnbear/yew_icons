@@ -14,12 +14,9 @@ pub fn ThemeToggle() -> Html {
         dark.set(checked);
     });
 
-    use_effect_with_deps(
-        move |is_dark| {
-            set_dark(*is_dark);
-        },
-        is_dark,
-    );
+    use_effect_with(is_dark, move |is_dark| {
+        set_dark(*is_dark);
+    });
 
     html! {
         <label class="switch">

@@ -11,25 +11,22 @@ pub struct GalleryProps {
 
 #[function_component]
 pub fn Gallery(props: &GalleryProps) -> Html {
-    let initial_icons = use_memo(|_| IconId::into_enum_iter().collect::<Vec<IconId>>(), ());
-    let icons = use_memo(
-        |query| {
-            initial_icons
-                .iter()
-                .filter(|icon_id| {
-                    let title = format!("{:?}", icon_id);
+    let initial_icons = use_memo((), |_| IconId::into_enum_iter().collect::<Vec<IconId>>());
+    let icons = use_memo(props.query.clone(), |query| {
+        initial_icons
+            .iter()
+            .filter(|icon_id| {
+                let title = format!("{:?}", icon_id);
 
-                    query.to_ascii_lowercase().split(' ').all(|word| {
-                        title
-                            .to_ascii_lowercase()
-                            .contains(&word.to_ascii_lowercase())
-                    })
+                query.to_ascii_lowercase().split(' ').all(|word| {
+                    title
+                        .to_ascii_lowercase()
+                        .contains(&word.to_ascii_lowercase())
                 })
-                .cloned()
-                .collect::<Vec<IconId>>()
-        },
-        props.query.clone(),
-    );
+            })
+            .cloned()
+            .collect::<Vec<IconId>>()
+    });
 
     if icons.is_empty() {
         return html! {
@@ -75,36 +72,33 @@ fn GalleryItem(props: &GalleryItemProps) -> Html {
         })
     };
 
-    use_effect_with_deps(
-        {
-            let show_copied = show_copied.clone();
-            move |show| {
-                let window = window().unwrap();
-                if *show {
-                    let closure = Closure::<dyn FnMut()>::new(move || {
-                        show_copied.set(false);
-                    });
+    use_effect_with(*show_copied, {
+        let show_copied = show_copied.clone();
+        move |show| {
+            let window = window().unwrap();
+            if *show {
+                let closure = Closure::<dyn FnMut()>::new(move || {
+                    show_copied.set(false);
+                });
 
-                    let id = window
-                        .set_timeout_with_callback_and_timeout_and_arguments_0(
-                            closure.as_ref().unchecked_ref(),
-                            1000, // disappear after 1s
-                        )
-                        .unwrap();
+                let id = window
+                    .set_timeout_with_callback_and_timeout_and_arguments_0(
+                        closure.as_ref().unchecked_ref(),
+                        1000, // disappear after 1s
+                    )
+                    .unwrap();
 
-                    *timeout_ref.borrow_mut() = Some(id);
-                    closure.forget();
-                }
+                *timeout_ref.borrow_mut() = Some(id);
+                closure.forget();
+            }
 
-                move || {
-                    if let Some(id) = timeout_ref.borrow_mut().take() {
-                        window.clear_timeout_with_handle(id);
-                    }
+            move || {
+                if let Some(id) = timeout_ref.borrow_mut().take() {
+                    window.clear_timeout_with_handle(id);
                 }
             }
-        },
-        *show_copied,
-    );
+        }
+    });
 
     html! {
         <div class="icon">

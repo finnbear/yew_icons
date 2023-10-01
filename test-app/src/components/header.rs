@@ -1,6 +1,6 @@
+use crate::components::ThemeToggle;
 pub use yew::prelude::*;
 use yew_icons::{Icon, IconId};
-use crate::components::ThemeToggle;
 
 #[function_component]
 pub fn Header() -> Html {

@@ -33,9 +33,10 @@ Use the [gallery](https://finnbear.github.io/yew_icons/) to find icons you like,
 
 ```toml
 # If still using yew 0.19, use yew_icons 0.6.1
+# If still using yew 0.20, use yew_icons 0.7.3
 
 [dependencies]
-yew_icons = {version = "0.7", features = ["LucideArrowLeftCircle", "LucideArrowRightCircle", "LucideArrowUpCircle"]}
+yew_icons = {version = "0.8", features = ["LucideArrowLeftCircle", "LucideArrowRightCircle", "LucideArrowUpCircle"]}
 ```
 
 Then, add an `<Icon>` component with the corresponding icon id, optionally specifying a `width`, `height`, and/or `onclick` callback.
