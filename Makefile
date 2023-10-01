@@ -4,3 +4,6 @@ generate:
 submodules:
 	git submodule init
 	git submodule update
+
+test:
+	cargo test --features testing,lucide
