@@ -38,8 +38,6 @@ pub struct IconProps {
     /// For inline CSS.
     #[prop_or(None)]
     pub style: Option<AttrValue>,
-    #[prop_or(None)]
-    pub role: Option<AttrValue>,
 }
 
 /// Renders a SVG icon. See [IconProps] for more information.
@@ -84,7 +82,6 @@ mod test {
                 oncontextmenu: None,
                 style: None,
                 title: None,
-                role: "presentation".into()
             });
 
             let rendered = renderer.render().await;

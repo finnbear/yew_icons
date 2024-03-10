@@ -118,7 +118,7 @@ fn main() {
                 .into_owned();
 
             let mut replacement = format!(
-                r#"xmlns="http://www.w3.org/2000/svg" data-license="{}" width={{width.clone()}} height={{height.clone()}} onclick={{onclick.clone()}} oncontextmenu={{oncontextmenu.clone()}} class={{class.clone()}} style={{style.clone()}} role={{role.clone()}}"#,
+                r#"xmlns="http://www.w3.org/2000/svg" data-license="{}" width={{width.clone()}} height={{height.clone()}} onclick={{onclick.clone()}} oncontextmenu={{oncontextmenu.clone()}} class={{class.clone()}} style={{style.clone()}}"#,
                 license
             );
 
@@ -162,7 +162,7 @@ fn main() {
                 use crate::IconProps;
 
                 #[inline(never)]
-                pub fn #function_ident(IconProps{icon_id: _, title, width, height, onclick, oncontextmenu, class, style, role}: &IconProps) -> yew::Html {
+                pub fn #function_ident(IconProps{icon_id: _, title, width, height, onclick, oncontextmenu, class, style}: &IconProps) -> yew::Html {
                     yew::html! {
                         #svg_tokens
                     }
