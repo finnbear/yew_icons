@@ -42,7 +42,7 @@ jobs:
       
     # Build wasm
     - name: Build WASM
-      run: cd test-app && trunk --config Trunk.prod.toml build --release --filehash=false
+      run: mkdir docs && cd test-app && trunk --config Trunk.prod.toml build --release --filehash=false
     
     # Optmize wasm (We should use a higher level, but it never completes)
     - name: Optimize WASM
@@ -53,16 +53,13 @@ jobs:
         wasm-opt docs/test-app_bg.wasm -o docs/test-app_bg.opt.wasm -O1 --debug --strip-dwarf --strip-debug
         mv docs/test-app_bg.opt.wasm docs/test-app_bg.wasm
 
-    # Commit and push
-    - name: Commit files
-      run: |
-        ls docs -l
-        git config user.name github-actions[bot]
-        git config user.email github-actions[bot]@users.noreply.github.com
-        git add .
-        git commit -m "Build Gallery"
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+    # Deploy
+    - name: Setup Pages
+      uses: actions/configure-pages@v3
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v2
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+        path: './docs/'
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
