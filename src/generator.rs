@@ -20,6 +20,7 @@ fn main() {
 
     let width_regex = Regex::new(r##"[^-]width="[0-9a-z]*""##).unwrap();
     let height_regex = Regex::new(r##"[^-]height="[0-9a-z]*""##).unwrap();
+    let role_regex = Regex::new(r##"[^-]role="[a-z]*""##).unwrap();
     let class_regex = Regex::new(r##"class="[A-Za-z0-9-_ ]*""##).unwrap();
     let text_regex = Regex::new(r##">(\s*[a-zA-Z.\-]+[a-zA-Z. \-]*)<"##).unwrap();
     let title_regex = Regex::new(r##"<title>.+</title>"##).unwrap();
@@ -103,7 +104,10 @@ fn main() {
                 first_tag = width_regex.replace(&first_tag, "").into_owned();
             }
             if first_tag.contains(" height=") {
-                first_tag = height_regex.replace(&first_tag, "").into_owned()
+                first_tag = height_regex.replace(&first_tag, "").into_owned();
+            }
+            if first_tag.contains(" role=") {
+                first_tag = role_regex.replace(&first_tag, "").into_owned();
             }
 
             let remainder = title_regex.replace_all(&remainder, "").into_owned();
@@ -118,7 +122,7 @@ fn main() {
                 .into_owned();
 
             let mut replacement = format!(
-                r#"xmlns="http://www.w3.org/2000/svg" data-license="{}" width={{width.clone()}} height={{height.clone()}} onclick={{onclick.clone()}} oncontextmenu={{oncontextmenu.clone()}} class={{class.clone()}} style={{style.clone()}}"#,
+                r#"xmlns="http://www.w3.org/2000/svg" data-license="{}" width={{width.clone()}} height={{height.clone()}} onclick={{onclick.clone()}} oncontextmenu={{oncontextmenu.clone()}} class={{class.clone()}} style={{style.clone()}} role={{role.clone()}}"#,
                 license
             );
 
