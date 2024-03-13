@@ -107,6 +107,8 @@ cargo run --features="generator" > generated_feature_flags.txt
 # 5. copy the feature flags from generated_feature_flags.txt to the Cargo.toml
 ```
 
+PR's ideally shouldn't include non-trivial amounts of generated file diffs. Merging and then generating is much easier to review than thousands of generated files.
+
 ### Running tests
 
 ```shell

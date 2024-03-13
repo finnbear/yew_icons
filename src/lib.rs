@@ -84,7 +84,7 @@ mod test {
                 oncontextmenu: None,
                 style: None,
                 title: None,
-                role: "presentation".into(),
+                role: Some("presentation".into()),
             });
 
             let rendered = renderer.render().await;

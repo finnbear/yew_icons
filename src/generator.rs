@@ -166,7 +166,7 @@ fn main() {
                 use crate::IconProps;
 
                 #[inline(never)]
-                pub fn #function_ident(IconProps{icon_id: _, title, width, height, onclick, oncontextmenu, class, style}: &IconProps) -> yew::Html {
+                pub fn #function_ident(IconProps{icon_id: _, title, width, height, onclick, oncontextmenu, class, style, role}: &IconProps) -> yew::Html {
                     yew::html! {
                         #svg_tokens
                     }
