@@ -150,42 +150,17 @@ fn main() {
 
             let variant_name = name.to_case(Case::UpperCamel);
             let variant = to_ident(&variant_name);
-            variants.push(quote! {
-                #[cfg(feature = #variant_name)]
-                #variant
-            });
-
-            collection_feature.children.push(variant_name.clone());
-            features.push(Feature {
-                name: variant_name.clone(),
-                children: Vec::new(),
-            });
-
-            // Don't need when export separate mods #[cfg(feature = #variant_name)]
-            let tokens = quote! {
-                use crate::IconProps;
-
-                #[inline(never)]
-                pub fn #function_ident(IconProps{icon_id: _, title, width, height, onclick, oncontextmenu, class, style, role}: &IconProps) -> yew::Html {
-                    yew::html! {
-                        #svg_tokens
-                    }
-                }
-            };
-
-            let output = tokens.to_string(); // reformat(tokens.to_string(), true).unwrap();
-            write(
-                format!("src/generated/{}/{}.rs", feature_name, function_name),
-                output,
-            )
-            .unwrap();
-
-            function_mods.push(quote! {
-                #[cfg(feature = #variant_name)]
-                pub mod #function_ident;
-            });
 
             cases.push(quote! {
+                const #variant: IconData = IconData {
+                    name: #variant_name,
+                    html: #[inline(never)] |IconProps{icon_id: _, title, width, height, onclick, oncontextmenu, class, style, role}: &IconProps| -> yew::Html {
+                        yew::html! {
+                            #svg_tokens
+                        }
+                    },
+                };
+
                 #[cfg(feature = #variant_name)]
                 IconId::#variant => #feature_ident::#function_ident::#function_ident(props)
             });
@@ -294,11 +269,7 @@ fn main() {
         "simple-icons/icons",
         r##"From https://github.com/simple-icons/simple-icons - Licensed under CC0; check brand guidelines"##,
     );
-    generate(
-        "Extra",
-        "extra",
-        r##"Check brand guidelines"##,
-    );
+    generate("Extra", "extra", r##"Check brand guidelines"##);
 
     let tokens = quote! {
         /// Identifies which icon to render. Variants are all disabled by default, but can be
