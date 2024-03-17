@@ -21,7 +21,7 @@ web-sys = { version = "0", features = [
     "Element",
     "Window",
     "ScrollToOptions",
-    "ScrollBehavior"
+    "ScrollBehavior",
 ] }
 log = "0.4"
 wasm-logger = "0.2"
@@ -31,9 +31,10 @@ gloo-storage = "0.2.2"
 # you must omit that attribute e.g. import `yew_icons = {version = "0.1.1", features = ["FeatherArrowDownCircle"]}`.
 # That way, cargo will download the crate instead of looking in a directory where it doesn't exist.
 yew_icons = { path = "..", features = [
-    "iterate_icon_id",
+    "__enumerate_icon_data",
     "bootstrap",
     "extra",
+    "feather",
     "font_awesome_regular",
     "font_awesome_solid",
     "heroicons_solid",
@@ -41,25 +42,5 @@ yew_icons = { path = "..", features = [
     "heroicons_mini_solid",
     "lucide",
     "octicons",
-    "FeatherArrowDownCircle",
-    "FeatherArrowLeftCircle",
-    "FeatherArrowRightCircle",
-    "FeatherArrowUpCircle",
-    "LipisFlagIcons4X3Us",
-    "LipisFlagIcons4X3Ca",
-    "LipisFlagIcons4X3Gb",
-    "LipisFlagIcons4X3Cn",
-    "LipisFlagIcons4X3Es",
-    "LipisFlagIcons4X3Ru",
-    "LipisFlagIcons4X3Vn",
-    "LipisFlagIcons4X3De",
-    "LipisFlagIcons4X3Jp",
-    "LipisFlagIcons4X3Fr",
-    "LipisFlagIcons4X3In",
-    "LipisFlagIcons4X3Ee",
-    "LipisFlagIcons4X3It",
-    "SimpleIconsAskubuntu",
-    "SimpleIconsLinux",
-    "SimpleIconsWebassembly",
 ] }
 wasm-bindgen = "0.2.84"

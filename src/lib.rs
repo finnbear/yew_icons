@@ -17,18 +17,6 @@ pub struct IconData {
 }
 
 #[cfg(not(feature = "generator"))]
-impl IconData {
-    const HELLO_WORLD: IconData = IconData {
-        name: "HelloWorld",
-        html: |props: &IconProps| {
-            html! {
-                <p>{"Hello world"}</p>
-            }
-        },
-    };
-}
-
-#[cfg(not(feature = "generator"))]
 impl PartialEq for IconData {
     fn eq(&self, other: &Self) -> bool {
         self.name.eq(other.name)
@@ -38,18 +26,18 @@ impl PartialEq for IconData {
 impl Eq for IconData {}
 #[cfg(not(feature = "generator"))]
 impl Ord for IconData {
-    fn cmp(&self, other: &Self) -> Ordering {
+    fn cmp(&self, other: &Self) -> std::cmp::Ordering {
         self.name.cmp(other.name)
     }
 }
 #[cfg(not(feature = "generator"))]
 impl PartialOrd for IconData {
-    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
+    fn partial_cmp(&self, other: &Self) -> Option<std::cmp::Ordering> {
         Some(self.cmp(other))
     }
 }
 #[cfg(not(feature = "generator"))]
-impl Debug for IconData {
+impl std::fmt::Debug for IconData {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         f.write_str(self.name)
     }

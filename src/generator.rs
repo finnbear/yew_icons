@@ -10,6 +10,7 @@ use std::str::FromStr;
 fn main() {
     let mut features = Vec::new();
     let mut imports = Vec::new();
+    let mut enumerate: Vec<_> = Vec::new();
 
     let width_regex = Regex::new(r##"[^-]width="[0-9a-z]*""##).unwrap();
     let height_regex = Regex::new(r##"[^-]height="[0-9a-z]*""##).unwrap();
@@ -27,7 +28,7 @@ fn main() {
     let mut generate = |prefix: &str, dir: &str, license: &str| {
         let feature_name = prefix.to_case(Case::Snake);
         let feature_ident = to_ident(&feature_name);
-        let mut cases = Vec::new();
+        let mut icon_data = Vec::new();
 
         let result = read_dir(dir);
         let mut paths: Vec<_> = result
@@ -134,7 +135,7 @@ fn main() {
             let variant_name = name.to_case(Case::UpperCamel);
             let variant = to_ident(&variant_name);
 
-            cases.push(quote! {
+            icon_data.push(quote! {
                 const #variant: Self = Self {
                     name: #variant_name,
                     html: #[inline(never)] |crate::IconProps{icon_id: _, title, width, height, onclick, oncontextmenu, class, style, role}: &crate::IconProps| -> yew::Html {
@@ -143,6 +144,11 @@ fn main() {
                         }
                     },
                 };
+            });
+
+            enumerate.push(quote! {
+                #[cfg(feature = #feature_name)]
+                Self::#variant,
             });
         }
 
@@ -153,7 +159,7 @@ fn main() {
 
         let tokens = quote! {
             impl IconData {
-                #(#cases)*
+                #(#icon_data)*
             }
         };
 
@@ -243,6 +249,12 @@ fn main() {
 
     let tokens = quote! {
         #(#imports)*
+
+        #[cfg(feature = "_enumerate_icon_data")]
+        #[doc(hidden)]
+        const ENUMERATE : &[Self] = &[
+            #(#enumerate)*
+        ];
     };
 
     let output = reformat(tokens.to_string(), false).unwrap();
