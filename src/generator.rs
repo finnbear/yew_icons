@@ -8,13 +8,6 @@ use std::process::{Command, Stdio};
 use std::str::FromStr;
 
 fn main() {
-    struct Feature {
-        name: String,
-        children: Vec<String>,
-    }
-
-    let mut variants = Vec::new();
-    let mut cases = Vec::new();
     let mut features = Vec::new();
     let mut imports = Vec::new();
 
@@ -32,14 +25,9 @@ fn main() {
     create_dir_all("src/generated").unwrap();
 
     let mut generate = |prefix: &str, dir: &str, license: &str| {
-        let mut function_mods = Vec::new();
-
         let feature_name = prefix.to_case(Case::Snake);
         let feature_ident = to_ident(&feature_name);
-        let mut collection_feature = Feature {
-            name: feature_name.clone(),
-            children: Vec::new(),
-        };
+        let mut cases = Vec::new();
 
         let result = read_dir(dir);
         let mut paths: Vec<_> = result
@@ -50,8 +38,6 @@ fn main() {
             .collect();
 
         paths.sort();
-
-        create_dir_all(format!("src/generated/{}", feature_name)).unwrap();
 
         for path in paths {
             let file_name = path.split('/').last().unwrap();
@@ -145,52 +131,36 @@ fn main() {
                 + &remainder;
             let svg_tokens = TokenStream::from_str(&svg).expect(&path);
 
-            let function_name = name.to_case(Case::Snake);
-            let function_ident = to_ident(&function_name);
-
             let variant_name = name.to_case(Case::UpperCamel);
             let variant = to_ident(&variant_name);
 
             cases.push(quote! {
-                const #variant: IconData = IconData {
+                const #variant: Self = Self {
                     name: #variant_name,
-                    html: #[inline(never)] |IconProps{icon_id: _, title, width, height, onclick, oncontextmenu, class, style, role}: &IconProps| -> yew::Html {
+                    html: #[inline(never)] |crate::IconProps{icon_id: _, title, width, height, onclick, oncontextmenu, class, style, role}: &crate::IconProps| -> yew::Html {
                         yew::html! {
                             #svg_tokens
                         }
                     },
                 };
-
-                #[cfg(feature = #variant_name)]
-                IconId::#variant => #feature_ident::#function_ident::#function_ident(props)
             });
         }
 
-        let children: Vec<_> = collection_feature
-            .children
-            .iter()
-            .map(|f| {
-                quote! {
-                    feature = #f
-                }
-            })
-            .collect();
-
         imports.push(quote! {
-            #[cfg(any(
-                #(#children),*
-            ))]
+            #[cfg(feature = #feature_name)]
             mod #feature_ident;
         });
 
-        features.push(collection_feature);
-
         let tokens = quote! {
-            #(#function_mods)*
+            impl IconData {
+                #(#cases)*
+            }
         };
 
         let output = reformat(tokens.to_string(), true).unwrap();
         write(format!("src/generated/{}.rs", feature_name), output).unwrap();
+
+        features.push(feature_name);
     };
 
     let font_awesome_license = r##"Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc."##;
@@ -272,23 +242,6 @@ fn main() {
     generate("Extra", "extra", r##"Check brand guidelines"##);
 
     let tokens = quote! {
-        /// Identifies which icon to render. Variants are all disabled by default, but can be
-        /// enabled by adding the feature flag of the same name.
-        #[derive(Copy, Clone, Eq, PartialEq, Debug)]
-        #[cfg_attr(feature = "iterate_icon_id", derive(enum_iterator::IntoEnumIterator))]
-        #[non_exhaustive]
-        pub enum IconId {
-            #(#variants),*
-        }
-
-        /// Helper function to get SVG HTML. Made public just in case you don't want the overhead
-        /// of a component.
-        pub fn get_svg(props: &crate::IconProps) -> yew::Html {
-            match props.icon_id {
-                #(#cases),*
-            }
-        }
-
         #(#imports)*
     };
 
@@ -296,19 +249,10 @@ fn main() {
 
     write("src/generated.rs", output).unwrap();
 
-    features.sort_unstable_by_key(|feature| feature.name.clone());
+    features.sort_unstable_by_key(|feature| feature.clone());
 
     for feature in features {
-        println!(
-            r##"{} = [{}]"##,
-            feature.name,
-            feature
-                .children
-                .into_iter()
-                .map(|c| format!(r##""{}""##, c))
-                .collect::<Vec<_>>()
-                .join(", ")
-        )
+        println!(r##"{} = []"##, feature)
     }
 }
 

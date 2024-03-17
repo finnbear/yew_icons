@@ -3,9 +3,6 @@
 #[cfg(not(feature = "generator"))]
 mod generated;
 
-use std::cmp::Ordering;
-use std::fmt::Debug;
-
 #[cfg(not(feature = "generator"))]
 use yew::prelude::*;
 
@@ -13,11 +10,13 @@ use yew::prelude::*;
 use yew::virtual_dom::AttrValue;
 
 #[derive(Copy, Clone)]
+#[cfg(not(feature = "generator"))]
 pub struct IconData {
     name: &'static str,
     html: fn(props: &IconProps) -> Html,
 }
 
+#[cfg(not(feature = "generator"))]
 impl IconData {
     const HELLO_WORLD: IconData = IconData {
         name: "HelloWorld",
@@ -29,25 +28,27 @@ impl IconData {
     };
 }
 
+#[cfg(not(feature = "generator"))]
 impl PartialEq for IconData {
     fn eq(&self, other: &Self) -> bool {
         self.name.eq(other.name)
     }
 }
+#[cfg(not(feature = "generator"))]
 impl Eq for IconData {}
-
+#[cfg(not(feature = "generator"))]
 impl Ord for IconData {
     fn cmp(&self, other: &Self) -> Ordering {
         self.name.cmp(other.name)
     }
 }
-
+#[cfg(not(feature = "generator"))]
 impl PartialOrd for IconData {
     fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
         Some(self.cmp(other))
     }
 }
-
+#[cfg(not(feature = "generator"))]
 impl Debug for IconData {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         f.write_str(self.name)
