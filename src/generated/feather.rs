@@ -1,4 +1,4 @@
-git ad// Generated file, do not edit by hand, see `src/generator.rs`
+// Generated file, do not edit by hand, see `src/generator.rs`
 
 impl IconData {
     const FeatherActivity: Self = Self {
