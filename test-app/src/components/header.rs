@@ -19,7 +19,7 @@ pub fn Header() -> Html {
                     <Icon
                         class="github"
                         title={"GitHub"}
-                        icon_id={IconId::BootstrapGithub}
+                        data={IconData::BOOTSTRAP_GITHUB}
                         height={"30"}
                         width={"30"}
                     />

@@ -30,17373 +30,17373 @@ mod simple_icons;
 #[doc(hidden)]
 const ENUMERATE: &[Self] = &[
     #[cfg(feature = "bootstrap")]
-    Self::Bootstrap123,
+    BOOTSTRAP_123,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapActivity,
+    BOOTSTRAP_ACTIVITY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapAlarmFill,
+    BOOTSTRAP_ALARM_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapAlarm,
+    BOOTSTRAP_ALARM,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapAlignBottom,
+    BOOTSTRAP_ALIGN_BOTTOM,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapAlignCenter,
+    BOOTSTRAP_ALIGN_CENTER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapAlignEnd,
+    BOOTSTRAP_ALIGN_END,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapAlignMiddle,
+    BOOTSTRAP_ALIGN_MIDDLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapAlignStart,
+    BOOTSTRAP_ALIGN_START,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapAlignTop,
+    BOOTSTRAP_ALIGN_TOP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapAlt,
+    BOOTSTRAP_ALT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapAppIndicator,
+    BOOTSTRAP_APP_INDICATOR,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapApp,
+    BOOTSTRAP_APP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapApple,
+    BOOTSTRAP_APPLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArchiveFill,
+    BOOTSTRAP_ARCHIVE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArchive,
+    BOOTSTRAP_ARCHIVE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrow90DegDown,
+    BOOTSTRAP_ARROW_90_DEG_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrow90DegLeft,
+    BOOTSTRAP_ARROW_90_DEG_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrow90DegRight,
+    BOOTSTRAP_ARROW_90_DEG_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrow90DegUp,
+    BOOTSTRAP_ARROW_90_DEG_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowBarDown,
+    BOOTSTRAP_ARROW_BAR_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowBarLeft,
+    BOOTSTRAP_ARROW_BAR_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowBarRight,
+    BOOTSTRAP_ARROW_BAR_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowBarUp,
+    BOOTSTRAP_ARROW_BAR_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowClockwise,
+    BOOTSTRAP_ARROW_CLOCKWISE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowCounterclockwise,
+    BOOTSTRAP_ARROW_COUNTERCLOCKWISE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowDownCircleFill,
+    BOOTSTRAP_ARROW_DOWN_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowDownCircle,
+    BOOTSTRAP_ARROW_DOWN_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowDownLeftCircleFill,
+    BOOTSTRAP_ARROW_DOWN_LEFT_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowDownLeftCircle,
+    BOOTSTRAP_ARROW_DOWN_LEFT_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowDownLeftSquareFill,
+    BOOTSTRAP_ARROW_DOWN_LEFT_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowDownLeftSquare,
+    BOOTSTRAP_ARROW_DOWN_LEFT_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowDownLeft,
+    BOOTSTRAP_ARROW_DOWN_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowDownRightCircleFill,
+    BOOTSTRAP_ARROW_DOWN_RIGHT_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowDownRightCircle,
+    BOOTSTRAP_ARROW_DOWN_RIGHT_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowDownRightSquareFill,
+    BOOTSTRAP_ARROW_DOWN_RIGHT_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowDownRightSquare,
+    BOOTSTRAP_ARROW_DOWN_RIGHT_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowDownRight,
+    BOOTSTRAP_ARROW_DOWN_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowDownShort,
+    BOOTSTRAP_ARROW_DOWN_SHORT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowDownSquareFill,
+    BOOTSTRAP_ARROW_DOWN_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowDownSquare,
+    BOOTSTRAP_ARROW_DOWN_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowDownUp,
+    BOOTSTRAP_ARROW_DOWN_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowDown,
+    BOOTSTRAP_ARROW_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowLeftCircleFill,
+    BOOTSTRAP_ARROW_LEFT_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowLeftCircle,
+    BOOTSTRAP_ARROW_LEFT_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowLeftRight,
+    BOOTSTRAP_ARROW_LEFT_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowLeftShort,
+    BOOTSTRAP_ARROW_LEFT_SHORT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowLeftSquareFill,
+    BOOTSTRAP_ARROW_LEFT_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowLeftSquare,
+    BOOTSTRAP_ARROW_LEFT_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowLeft,
+    BOOTSTRAP_ARROW_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowRepeat,
+    BOOTSTRAP_ARROW_REPEAT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowReturnLeft,
+    BOOTSTRAP_ARROW_RETURN_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowReturnRight,
+    BOOTSTRAP_ARROW_RETURN_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowRightCircleFill,
+    BOOTSTRAP_ARROW_RIGHT_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowRightCircle,
+    BOOTSTRAP_ARROW_RIGHT_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowRightShort,
+    BOOTSTRAP_ARROW_RIGHT_SHORT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowRightSquareFill,
+    BOOTSTRAP_ARROW_RIGHT_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowRightSquare,
+    BOOTSTRAP_ARROW_RIGHT_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowRight,
+    BOOTSTRAP_ARROW_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowThroughHeartFill,
+    BOOTSTRAP_ARROW_THROUGH_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowThroughHeart,
+    BOOTSTRAP_ARROW_THROUGH_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowUpCircleFill,
+    BOOTSTRAP_ARROW_UP_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowUpCircle,
+    BOOTSTRAP_ARROW_UP_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowUpLeftCircleFill,
+    BOOTSTRAP_ARROW_UP_LEFT_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowUpLeftCircle,
+    BOOTSTRAP_ARROW_UP_LEFT_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowUpLeftSquareFill,
+    BOOTSTRAP_ARROW_UP_LEFT_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowUpLeftSquare,
+    BOOTSTRAP_ARROW_UP_LEFT_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowUpLeft,
+    BOOTSTRAP_ARROW_UP_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowUpRightCircleFill,
+    BOOTSTRAP_ARROW_UP_RIGHT_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowUpRightCircle,
+    BOOTSTRAP_ARROW_UP_RIGHT_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowUpRightSquareFill,
+    BOOTSTRAP_ARROW_UP_RIGHT_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowUpRightSquare,
+    BOOTSTRAP_ARROW_UP_RIGHT_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowUpRight,
+    BOOTSTRAP_ARROW_UP_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowUpShort,
+    BOOTSTRAP_ARROW_UP_SHORT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowUpSquareFill,
+    BOOTSTRAP_ARROW_UP_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowUpSquare,
+    BOOTSTRAP_ARROW_UP_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowUp,
+    BOOTSTRAP_ARROW_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowsAngleContract,
+    BOOTSTRAP_ARROWS_ANGLE_CONTRACT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowsAngleExpand,
+    BOOTSTRAP_ARROWS_ANGLE_EXPAND,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowsCollapse,
+    BOOTSTRAP_ARROWS_COLLAPSE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowsExpand,
+    BOOTSTRAP_ARROWS_EXPAND,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowsFullscreen,
+    BOOTSTRAP_ARROWS_FULLSCREEN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapArrowsMove,
+    BOOTSTRAP_ARROWS_MOVE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapAspectRatioFill,
+    BOOTSTRAP_ASPECT_RATIO_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapAspectRatio,
+    BOOTSTRAP_ASPECT_RATIO,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapAsterisk,
+    BOOTSTRAP_ASTERISK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapAt,
+    BOOTSTRAP_AT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapAwardFill,
+    BOOTSTRAP_AWARD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapAward,
+    BOOTSTRAP_AWARD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBack,
+    BOOTSTRAP_BACK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBackspaceFill,
+    BOOTSTRAP_BACKSPACE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBackspaceReverseFill,
+    BOOTSTRAP_BACKSPACE_REVERSE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBackspaceReverse,
+    BOOTSTRAP_BACKSPACE_REVERSE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBackspace,
+    BOOTSTRAP_BACKSPACE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadge3DFill,
+    BOOTSTRAP_BADGE_3_D_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadge3D,
+    BOOTSTRAP_BADGE_3_D,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadge4KFill,
+    BOOTSTRAP_BADGE_4_K_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadge4K,
+    BOOTSTRAP_BADGE_4_K,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadge8KFill,
+    BOOTSTRAP_BADGE_8_K_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadge8K,
+    BOOTSTRAP_BADGE_8_K,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadgeAdFill,
+    BOOTSTRAP_BADGE_AD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadgeAd,
+    BOOTSTRAP_BADGE_AD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadgeArFill,
+    BOOTSTRAP_BADGE_AR_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadgeAr,
+    BOOTSTRAP_BADGE_AR,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadgeCcFill,
+    BOOTSTRAP_BADGE_CC_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadgeCc,
+    BOOTSTRAP_BADGE_CC,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadgeHdFill,
+    BOOTSTRAP_BADGE_HD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadgeHd,
+    BOOTSTRAP_BADGE_HD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadgeSdFill,
+    BOOTSTRAP_BADGE_SD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadgeSd,
+    BOOTSTRAP_BADGE_SD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadgeTmFill,
+    BOOTSTRAP_BADGE_TM_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadgeTm,
+    BOOTSTRAP_BADGE_TM,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadgeVoFill,
+    BOOTSTRAP_BADGE_VO_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadgeVo,
+    BOOTSTRAP_BADGE_VO,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadgeVrFill,
+    BOOTSTRAP_BADGE_VR_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadgeVr,
+    BOOTSTRAP_BADGE_VR,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadgeWcFill,
+    BOOTSTRAP_BADGE_WC_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBadgeWc,
+    BOOTSTRAP_BADGE_WC,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBagCheckFill,
+    BOOTSTRAP_BAG_CHECK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBagCheck,
+    BOOTSTRAP_BAG_CHECK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBagDashFill,
+    BOOTSTRAP_BAG_DASH_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBagDash,
+    BOOTSTRAP_BAG_DASH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBagFill,
+    BOOTSTRAP_BAG_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBagHeartFill,
+    BOOTSTRAP_BAG_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBagHeart,
+    BOOTSTRAP_BAG_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBagPlusFill,
+    BOOTSTRAP_BAG_PLUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBagPlus,
+    BOOTSTRAP_BAG_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBagXFill,
+    BOOTSTRAP_BAG_X_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBagX,
+    BOOTSTRAP_BAG_X,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBag,
+    BOOTSTRAP_BAG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBalloonFill,
+    BOOTSTRAP_BALLOON_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBalloonHeartFill,
+    BOOTSTRAP_BALLOON_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBalloonHeart,
+    BOOTSTRAP_BALLOON_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBalloon,
+    BOOTSTRAP_BALLOON,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBandaidFill,
+    BOOTSTRAP_BANDAID_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBandaid,
+    BOOTSTRAP_BANDAID,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBank,
+    BOOTSTRAP_BANK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBank2,
+    BOOTSTRAP_BANK_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBarChartFill,
+    BOOTSTRAP_BAR_CHART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBarChartLineFill,
+    BOOTSTRAP_BAR_CHART_LINE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBarChartLine,
+    BOOTSTRAP_BAR_CHART_LINE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBarChartSteps,
+    BOOTSTRAP_BAR_CHART_STEPS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBarChart,
+    BOOTSTRAP_BAR_CHART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBasketFill,
+    BOOTSTRAP_BASKET_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBasket,
+    BOOTSTRAP_BASKET,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBasket2Fill,
+    BOOTSTRAP_BASKET_2_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBasket2,
+    BOOTSTRAP_BASKET_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBasket3Fill,
+    BOOTSTRAP_BASKET_3_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBasket3,
+    BOOTSTRAP_BASKET_3,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBatteryCharging,
+    BOOTSTRAP_BATTERY_CHARGING,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBatteryFull,
+    BOOTSTRAP_BATTERY_FULL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBatteryHalf,
+    BOOTSTRAP_BATTERY_HALF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBattery,
+    BOOTSTRAP_BATTERY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBehance,
+    BOOTSTRAP_BEHANCE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBellFill,
+    BOOTSTRAP_BELL_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBellSlashFill,
+    BOOTSTRAP_BELL_SLASH_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBellSlash,
+    BOOTSTRAP_BELL_SLASH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBell,
+    BOOTSTRAP_BELL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBezier,
+    BOOTSTRAP_BEZIER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBezier2,
+    BOOTSTRAP_BEZIER_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBicycle,
+    BOOTSTRAP_BICYCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBinocularsFill,
+    BOOTSTRAP_BINOCULARS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBinoculars,
+    BOOTSTRAP_BINOCULARS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBlockquoteLeft,
+    BOOTSTRAP_BLOCKQUOTE_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBlockquoteRight,
+    BOOTSTRAP_BLOCKQUOTE_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBluetooth,
+    BOOTSTRAP_BLUETOOTH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBodyText,
+    BOOTSTRAP_BODY_TEXT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBookFill,
+    BOOTSTRAP_BOOK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBookHalf,
+    BOOTSTRAP_BOOK_HALF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBook,
+    BOOTSTRAP_BOOK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBookmarkCheckFill,
+    BOOTSTRAP_BOOKMARK_CHECK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBookmarkCheck,
+    BOOTSTRAP_BOOKMARK_CHECK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBookmarkDashFill,
+    BOOTSTRAP_BOOKMARK_DASH_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBookmarkDash,
+    BOOTSTRAP_BOOKMARK_DASH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBookmarkFill,
+    BOOTSTRAP_BOOKMARK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBookmarkHeartFill,
+    BOOTSTRAP_BOOKMARK_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBookmarkHeart,
+    BOOTSTRAP_BOOKMARK_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBookmarkPlusFill,
+    BOOTSTRAP_BOOKMARK_PLUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBookmarkPlus,
+    BOOTSTRAP_BOOKMARK_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBookmarkStarFill,
+    BOOTSTRAP_BOOKMARK_STAR_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBookmarkStar,
+    BOOTSTRAP_BOOKMARK_STAR,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBookmarkXFill,
+    BOOTSTRAP_BOOKMARK_X_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBookmarkX,
+    BOOTSTRAP_BOOKMARK_X,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBookmark,
+    BOOTSTRAP_BOOKMARK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBookmarksFill,
+    BOOTSTRAP_BOOKMARKS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBookmarks,
+    BOOTSTRAP_BOOKMARKS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBookshelf,
+    BOOTSTRAP_BOOKSHELF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoomboxFill,
+    BOOTSTRAP_BOOMBOX_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoombox,
+    BOOTSTRAP_BOOMBOX,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBootstrapFill,
+    BOOTSTRAP_BOOTSTRAP_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBootstrapReboot,
+    BOOTSTRAP_BOOTSTRAP_REBOOT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBootstrap,
+    BOOTSTRAP_BOOTSTRAP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBorderAll,
+    BOOTSTRAP_BORDER_ALL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBorderBottom,
+    BOOTSTRAP_BORDER_BOTTOM,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBorderCenter,
+    BOOTSTRAP_BORDER_CENTER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBorderInner,
+    BOOTSTRAP_BORDER_INNER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBorderLeft,
+    BOOTSTRAP_BORDER_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBorderMiddle,
+    BOOTSTRAP_BORDER_MIDDLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBorderOuter,
+    BOOTSTRAP_BORDER_OUTER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBorderRight,
+    BOOTSTRAP_BORDER_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBorderStyle,
+    BOOTSTRAP_BORDER_STYLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBorderTop,
+    BOOTSTRAP_BORDER_TOP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBorderWidth,
+    BOOTSTRAP_BORDER_WIDTH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBorder,
+    BOOTSTRAP_BORDER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoundingBoxCircles,
+    BOOTSTRAP_BOUNDING_BOX_CIRCLES,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoundingBox,
+    BOOTSTRAP_BOUNDING_BOX,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoxArrowDownLeft,
+    BOOTSTRAP_BOX_ARROW_DOWN_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoxArrowDownRight,
+    BOOTSTRAP_BOX_ARROW_DOWN_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoxArrowDown,
+    BOOTSTRAP_BOX_ARROW_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoxArrowInDownLeft,
+    BOOTSTRAP_BOX_ARROW_IN_DOWN_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoxArrowInDownRight,
+    BOOTSTRAP_BOX_ARROW_IN_DOWN_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoxArrowInDown,
+    BOOTSTRAP_BOX_ARROW_IN_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoxArrowInLeft,
+    BOOTSTRAP_BOX_ARROW_IN_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoxArrowInRight,
+    BOOTSTRAP_BOX_ARROW_IN_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoxArrowInUpLeft,
+    BOOTSTRAP_BOX_ARROW_IN_UP_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoxArrowInUpRight,
+    BOOTSTRAP_BOX_ARROW_IN_UP_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoxArrowInUp,
+    BOOTSTRAP_BOX_ARROW_IN_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoxArrowLeft,
+    BOOTSTRAP_BOX_ARROW_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoxArrowRight,
+    BOOTSTRAP_BOX_ARROW_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoxArrowUpLeft,
+    BOOTSTRAP_BOX_ARROW_UP_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoxArrowUpRight,
+    BOOTSTRAP_BOX_ARROW_UP_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoxArrowUp,
+    BOOTSTRAP_BOX_ARROW_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoxSeam,
+    BOOTSTRAP_BOX_SEAM,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBox,
+    BOOTSTRAP_BOX,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBox2Fill,
+    BOOTSTRAP_BOX_2_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBox2HeartFill,
+    BOOTSTRAP_BOX_2_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBox2Heart,
+    BOOTSTRAP_BOX_2_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBox2,
+    BOOTSTRAP_BOX_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBoxes,
+    BOOTSTRAP_BOXES,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBracesAsterisk,
+    BOOTSTRAP_BRACES_ASTERISK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBraces,
+    BOOTSTRAP_BRACES,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBricks,
+    BOOTSTRAP_BRICKS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBriefcaseFill,
+    BOOTSTRAP_BRIEFCASE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBriefcase,
+    BOOTSTRAP_BRIEFCASE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBrightnessAltHighFill,
+    BOOTSTRAP_BRIGHTNESS_ALT_HIGH_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBrightnessAltHigh,
+    BOOTSTRAP_BRIGHTNESS_ALT_HIGH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBrightnessAltLowFill,
+    BOOTSTRAP_BRIGHTNESS_ALT_LOW_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBrightnessAltLow,
+    BOOTSTRAP_BRIGHTNESS_ALT_LOW,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBrightnessHighFill,
+    BOOTSTRAP_BRIGHTNESS_HIGH_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBrightnessHigh,
+    BOOTSTRAP_BRIGHTNESS_HIGH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBrightnessLowFill,
+    BOOTSTRAP_BRIGHTNESS_LOW_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBrightnessLow,
+    BOOTSTRAP_BRIGHTNESS_LOW,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBroadcastPin,
+    BOOTSTRAP_BROADCAST_PIN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBroadcast,
+    BOOTSTRAP_BROADCAST,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBrushFill,
+    BOOTSTRAP_BRUSH_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBrush,
+    BOOTSTRAP_BRUSH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBucketFill,
+    BOOTSTRAP_BUCKET_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBucket,
+    BOOTSTRAP_BUCKET,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBugFill,
+    BOOTSTRAP_BUG_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBug,
+    BOOTSTRAP_BUG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBuilding,
+    BOOTSTRAP_BUILDING,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapBullseye,
+    BOOTSTRAP_BULLSEYE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalculatorFill,
+    BOOTSTRAP_CALCULATOR_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalculator,
+    BOOTSTRAP_CALCULATOR,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarCheckFill,
+    BOOTSTRAP_CALENDAR_CHECK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarCheck,
+    BOOTSTRAP_CALENDAR_CHECK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarDateFill,
+    BOOTSTRAP_CALENDAR_DATE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarDate,
+    BOOTSTRAP_CALENDAR_DATE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarDayFill,
+    BOOTSTRAP_CALENDAR_DAY_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarDay,
+    BOOTSTRAP_CALENDAR_DAY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarEventFill,
+    BOOTSTRAP_CALENDAR_EVENT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarEvent,
+    BOOTSTRAP_CALENDAR_EVENT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarFill,
+    BOOTSTRAP_CALENDAR_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarHeartFill,
+    BOOTSTRAP_CALENDAR_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarHeart,
+    BOOTSTRAP_CALENDAR_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarMinusFill,
+    BOOTSTRAP_CALENDAR_MINUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarMinus,
+    BOOTSTRAP_CALENDAR_MINUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarMonthFill,
+    BOOTSTRAP_CALENDAR_MONTH_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarMonth,
+    BOOTSTRAP_CALENDAR_MONTH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarPlusFill,
+    BOOTSTRAP_CALENDAR_PLUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarPlus,
+    BOOTSTRAP_CALENDAR_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarRangeFill,
+    BOOTSTRAP_CALENDAR_RANGE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarRange,
+    BOOTSTRAP_CALENDAR_RANGE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarWeekFill,
+    BOOTSTRAP_CALENDAR_WEEK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarWeek,
+    BOOTSTRAP_CALENDAR_WEEK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarXFill,
+    BOOTSTRAP_CALENDAR_X_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendarX,
+    BOOTSTRAP_CALENDAR_X,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar,
+    BOOTSTRAP_CALENDAR,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2CheckFill,
+    BOOTSTRAP_CALENDAR_2_CHECK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2Check,
+    BOOTSTRAP_CALENDAR_2_CHECK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2DateFill,
+    BOOTSTRAP_CALENDAR_2_DATE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2Date,
+    BOOTSTRAP_CALENDAR_2_DATE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2DayFill,
+    BOOTSTRAP_CALENDAR_2_DAY_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2Day,
+    BOOTSTRAP_CALENDAR_2_DAY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2EventFill,
+    BOOTSTRAP_CALENDAR_2_EVENT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2Event,
+    BOOTSTRAP_CALENDAR_2_EVENT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2Fill,
+    BOOTSTRAP_CALENDAR_2_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2HeartFill,
+    BOOTSTRAP_CALENDAR_2_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2Heart,
+    BOOTSTRAP_CALENDAR_2_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2MinusFill,
+    BOOTSTRAP_CALENDAR_2_MINUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2Minus,
+    BOOTSTRAP_CALENDAR_2_MINUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2MonthFill,
+    BOOTSTRAP_CALENDAR_2_MONTH_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2Month,
+    BOOTSTRAP_CALENDAR_2_MONTH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2PlusFill,
+    BOOTSTRAP_CALENDAR_2_PLUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2Plus,
+    BOOTSTRAP_CALENDAR_2_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2RangeFill,
+    BOOTSTRAP_CALENDAR_2_RANGE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2Range,
+    BOOTSTRAP_CALENDAR_2_RANGE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2WeekFill,
+    BOOTSTRAP_CALENDAR_2_WEEK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2Week,
+    BOOTSTRAP_CALENDAR_2_WEEK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2XFill,
+    BOOTSTRAP_CALENDAR_2_X_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2X,
+    BOOTSTRAP_CALENDAR_2_X,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar2,
+    BOOTSTRAP_CALENDAR_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar3EventFill,
+    BOOTSTRAP_CALENDAR_3_EVENT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar3Event,
+    BOOTSTRAP_CALENDAR_3_EVENT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar3Fill,
+    BOOTSTRAP_CALENDAR_3_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar3RangeFill,
+    BOOTSTRAP_CALENDAR_3_RANGE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar3Range,
+    BOOTSTRAP_CALENDAR_3_RANGE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar3WeekFill,
+    BOOTSTRAP_CALENDAR_3_WEEK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar3Week,
+    BOOTSTRAP_CALENDAR_3_WEEK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar3,
+    BOOTSTRAP_CALENDAR_3,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar4Event,
+    BOOTSTRAP_CALENDAR_4_EVENT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar4Range,
+    BOOTSTRAP_CALENDAR_4_RANGE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar4Week,
+    BOOTSTRAP_CALENDAR_4_WEEK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCalendar4,
+    BOOTSTRAP_CALENDAR_4,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCameraFill,
+    BOOTSTRAP_CAMERA_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCameraReelsFill,
+    BOOTSTRAP_CAMERA_REELS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCameraReels,
+    BOOTSTRAP_CAMERA_REELS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCameraVideoFill,
+    BOOTSTRAP_CAMERA_VIDEO_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCameraVideoOffFill,
+    BOOTSTRAP_CAMERA_VIDEO_OFF_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCameraVideoOff,
+    BOOTSTRAP_CAMERA_VIDEO_OFF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCameraVideo,
+    BOOTSTRAP_CAMERA_VIDEO,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCamera,
+    BOOTSTRAP_CAMERA,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCamera2,
+    BOOTSTRAP_CAMERA_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCapslockFill,
+    BOOTSTRAP_CAPSLOCK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCapslock,
+    BOOTSTRAP_CAPSLOCK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCardChecklist,
+    BOOTSTRAP_CARD_CHECKLIST,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCardHeading,
+    BOOTSTRAP_CARD_HEADING,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCardImage,
+    BOOTSTRAP_CARD_IMAGE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCardList,
+    BOOTSTRAP_CARD_LIST,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCardText,
+    BOOTSTRAP_CARD_TEXT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCaretDownFill,
+    BOOTSTRAP_CARET_DOWN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCaretDownSquareFill,
+    BOOTSTRAP_CARET_DOWN_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCaretDownSquare,
+    BOOTSTRAP_CARET_DOWN_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCaretDown,
+    BOOTSTRAP_CARET_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCaretLeftFill,
+    BOOTSTRAP_CARET_LEFT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCaretLeftSquareFill,
+    BOOTSTRAP_CARET_LEFT_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCaretLeftSquare,
+    BOOTSTRAP_CARET_LEFT_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCaretLeft,
+    BOOTSTRAP_CARET_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCaretRightFill,
+    BOOTSTRAP_CARET_RIGHT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCaretRightSquareFill,
+    BOOTSTRAP_CARET_RIGHT_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCaretRightSquare,
+    BOOTSTRAP_CARET_RIGHT_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCaretRight,
+    BOOTSTRAP_CARET_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCaretUpFill,
+    BOOTSTRAP_CARET_UP_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCaretUpSquareFill,
+    BOOTSTRAP_CARET_UP_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCaretUpSquare,
+    BOOTSTRAP_CARET_UP_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCaretUp,
+    BOOTSTRAP_CARET_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCartCheckFill,
+    BOOTSTRAP_CART_CHECK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCartCheck,
+    BOOTSTRAP_CART_CHECK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCartDashFill,
+    BOOTSTRAP_CART_DASH_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCartDash,
+    BOOTSTRAP_CART_DASH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCartFill,
+    BOOTSTRAP_CART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCartPlusFill,
+    BOOTSTRAP_CART_PLUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCartPlus,
+    BOOTSTRAP_CART_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCartXFill,
+    BOOTSTRAP_CART_X_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCartX,
+    BOOTSTRAP_CART_X,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCart,
+    BOOTSTRAP_CART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCart2,
+    BOOTSTRAP_CART_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCart3,
+    BOOTSTRAP_CART_3,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCart4,
+    BOOTSTRAP_CART_4,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCashCoin,
+    BOOTSTRAP_CASH_COIN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCashStack,
+    BOOTSTRAP_CASH_STACK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCash,
+    BOOTSTRAP_CASH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCast,
+    BOOTSTRAP_CAST,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatDotsFill,
+    BOOTSTRAP_CHAT_DOTS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatDots,
+    BOOTSTRAP_CHAT_DOTS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatFill,
+    BOOTSTRAP_CHAT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatHeartFill,
+    BOOTSTRAP_CHAT_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatHeart,
+    BOOTSTRAP_CHAT_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatLeftDotsFill,
+    BOOTSTRAP_CHAT_LEFT_DOTS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatLeftDots,
+    BOOTSTRAP_CHAT_LEFT_DOTS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatLeftFill,
+    BOOTSTRAP_CHAT_LEFT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatLeftHeartFill,
+    BOOTSTRAP_CHAT_LEFT_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatLeftHeart,
+    BOOTSTRAP_CHAT_LEFT_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatLeftQuoteFill,
+    BOOTSTRAP_CHAT_LEFT_QUOTE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatLeftQuote,
+    BOOTSTRAP_CHAT_LEFT_QUOTE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatLeftTextFill,
+    BOOTSTRAP_CHAT_LEFT_TEXT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatLeftText,
+    BOOTSTRAP_CHAT_LEFT_TEXT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatLeft,
+    BOOTSTRAP_CHAT_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatQuoteFill,
+    BOOTSTRAP_CHAT_QUOTE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatQuote,
+    BOOTSTRAP_CHAT_QUOTE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatRightDotsFill,
+    BOOTSTRAP_CHAT_RIGHT_DOTS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatRightDots,
+    BOOTSTRAP_CHAT_RIGHT_DOTS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatRightFill,
+    BOOTSTRAP_CHAT_RIGHT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatRightHeartFill,
+    BOOTSTRAP_CHAT_RIGHT_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatRightHeart,
+    BOOTSTRAP_CHAT_RIGHT_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatRightQuoteFill,
+    BOOTSTRAP_CHAT_RIGHT_QUOTE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatRightQuote,
+    BOOTSTRAP_CHAT_RIGHT_QUOTE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatRightTextFill,
+    BOOTSTRAP_CHAT_RIGHT_TEXT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatRightText,
+    BOOTSTRAP_CHAT_RIGHT_TEXT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatRight,
+    BOOTSTRAP_CHAT_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatSquareDotsFill,
+    BOOTSTRAP_CHAT_SQUARE_DOTS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatSquareDots,
+    BOOTSTRAP_CHAT_SQUARE_DOTS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatSquareFill,
+    BOOTSTRAP_CHAT_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatSquareHeartFill,
+    BOOTSTRAP_CHAT_SQUARE_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatSquareHeart,
+    BOOTSTRAP_CHAT_SQUARE_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatSquareQuoteFill,
+    BOOTSTRAP_CHAT_SQUARE_QUOTE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatSquareQuote,
+    BOOTSTRAP_CHAT_SQUARE_QUOTE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatSquareTextFill,
+    BOOTSTRAP_CHAT_SQUARE_TEXT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatSquareText,
+    BOOTSTRAP_CHAT_SQUARE_TEXT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatSquare,
+    BOOTSTRAP_CHAT_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatTextFill,
+    BOOTSTRAP_CHAT_TEXT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChatText,
+    BOOTSTRAP_CHAT_TEXT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChat,
+    BOOTSTRAP_CHAT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCheckAll,
+    BOOTSTRAP_CHECK_ALL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCheckCircleFill,
+    BOOTSTRAP_CHECK_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCheckCircle,
+    BOOTSTRAP_CHECK_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCheckLg,
+    BOOTSTRAP_CHECK_LG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCheckSquareFill,
+    BOOTSTRAP_CHECK_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCheckSquare,
+    BOOTSTRAP_CHECK_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCheck,
+    BOOTSTRAP_CHECK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCheck2All,
+    BOOTSTRAP_CHECK_2_ALL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCheck2Circle,
+    BOOTSTRAP_CHECK_2_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCheck2Square,
+    BOOTSTRAP_CHECK_2_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCheck2,
+    BOOTSTRAP_CHECK_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChevronBarContract,
+    BOOTSTRAP_CHEVRON_BAR_CONTRACT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChevronBarDown,
+    BOOTSTRAP_CHEVRON_BAR_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChevronBarExpand,
+    BOOTSTRAP_CHEVRON_BAR_EXPAND,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChevronBarLeft,
+    BOOTSTRAP_CHEVRON_BAR_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChevronBarRight,
+    BOOTSTRAP_CHEVRON_BAR_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChevronBarUp,
+    BOOTSTRAP_CHEVRON_BAR_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChevronCompactDown,
+    BOOTSTRAP_CHEVRON_COMPACT_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChevronCompactLeft,
+    BOOTSTRAP_CHEVRON_COMPACT_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChevronCompactRight,
+    BOOTSTRAP_CHEVRON_COMPACT_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChevronCompactUp,
+    BOOTSTRAP_CHEVRON_COMPACT_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChevronContract,
+    BOOTSTRAP_CHEVRON_CONTRACT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChevronDoubleDown,
+    BOOTSTRAP_CHEVRON_DOUBLE_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChevronDoubleLeft,
+    BOOTSTRAP_CHEVRON_DOUBLE_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChevronDoubleRight,
+    BOOTSTRAP_CHEVRON_DOUBLE_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChevronDoubleUp,
+    BOOTSTRAP_CHEVRON_DOUBLE_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChevronDown,
+    BOOTSTRAP_CHEVRON_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChevronExpand,
+    BOOTSTRAP_CHEVRON_EXPAND,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChevronLeft,
+    BOOTSTRAP_CHEVRON_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChevronRight,
+    BOOTSTRAP_CHEVRON_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapChevronUp,
+    BOOTSTRAP_CHEVRON_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCircleFill,
+    BOOTSTRAP_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCircleHalf,
+    BOOTSTRAP_CIRCLE_HALF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCircleSquare,
+    BOOTSTRAP_CIRCLE_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCircle,
+    BOOTSTRAP_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboardCheckFill,
+    BOOTSTRAP_CLIPBOARD_CHECK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboardCheck,
+    BOOTSTRAP_CLIPBOARD_CHECK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboardDataFill,
+    BOOTSTRAP_CLIPBOARD_DATA_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboardData,
+    BOOTSTRAP_CLIPBOARD_DATA,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboardFill,
+    BOOTSTRAP_CLIPBOARD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboardHeartFill,
+    BOOTSTRAP_CLIPBOARD_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboardHeart,
+    BOOTSTRAP_CLIPBOARD_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboardMinusFill,
+    BOOTSTRAP_CLIPBOARD_MINUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboardMinus,
+    BOOTSTRAP_CLIPBOARD_MINUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboardPlusFill,
+    BOOTSTRAP_CLIPBOARD_PLUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboardPlus,
+    BOOTSTRAP_CLIPBOARD_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboardPulse,
+    BOOTSTRAP_CLIPBOARD_PULSE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboardXFill,
+    BOOTSTRAP_CLIPBOARD_X_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboardX,
+    BOOTSTRAP_CLIPBOARD_X,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboard,
+    BOOTSTRAP_CLIPBOARD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboard2CheckFill,
+    BOOTSTRAP_CLIPBOARD_2_CHECK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboard2Check,
+    BOOTSTRAP_CLIPBOARD_2_CHECK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboard2DataFill,
+    BOOTSTRAP_CLIPBOARD_2_DATA_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboard2Data,
+    BOOTSTRAP_CLIPBOARD_2_DATA,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboard2Fill,
+    BOOTSTRAP_CLIPBOARD_2_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboard2HeartFill,
+    BOOTSTRAP_CLIPBOARD_2_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboard2Heart,
+    BOOTSTRAP_CLIPBOARD_2_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboard2MinusFill,
+    BOOTSTRAP_CLIPBOARD_2_MINUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboard2Minus,
+    BOOTSTRAP_CLIPBOARD_2_MINUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboard2PlusFill,
+    BOOTSTRAP_CLIPBOARD_2_PLUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboard2Plus,
+    BOOTSTRAP_CLIPBOARD_2_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboard2PulseFill,
+    BOOTSTRAP_CLIPBOARD_2_PULSE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboard2Pulse,
+    BOOTSTRAP_CLIPBOARD_2_PULSE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboard2XFill,
+    BOOTSTRAP_CLIPBOARD_2_X_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboard2X,
+    BOOTSTRAP_CLIPBOARD_2_X,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClipboard2,
+    BOOTSTRAP_CLIPBOARD_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClockFill,
+    BOOTSTRAP_CLOCK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClockHistory,
+    BOOTSTRAP_CLOCK_HISTORY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClock,
+    BOOTSTRAP_CLOCK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudArrowDownFill,
+    BOOTSTRAP_CLOUD_ARROW_DOWN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudArrowDown,
+    BOOTSTRAP_CLOUD_ARROW_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudArrowUpFill,
+    BOOTSTRAP_CLOUD_ARROW_UP_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudArrowUp,
+    BOOTSTRAP_CLOUD_ARROW_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudCheckFill,
+    BOOTSTRAP_CLOUD_CHECK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudCheck,
+    BOOTSTRAP_CLOUD_CHECK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudDownloadFill,
+    BOOTSTRAP_CLOUD_DOWNLOAD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudDownload,
+    BOOTSTRAP_CLOUD_DOWNLOAD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudDrizzleFill,
+    BOOTSTRAP_CLOUD_DRIZZLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudDrizzle,
+    BOOTSTRAP_CLOUD_DRIZZLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudFill,
+    BOOTSTRAP_CLOUD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudFogFill,
+    BOOTSTRAP_CLOUD_FOG_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudFog,
+    BOOTSTRAP_CLOUD_FOG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudFog2Fill,
+    BOOTSTRAP_CLOUD_FOG_2_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudFog2,
+    BOOTSTRAP_CLOUD_FOG_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudHailFill,
+    BOOTSTRAP_CLOUD_HAIL_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudHail,
+    BOOTSTRAP_CLOUD_HAIL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudHazeFill,
+    BOOTSTRAP_CLOUD_HAZE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudHaze,
+    BOOTSTRAP_CLOUD_HAZE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudHaze2Fill,
+    BOOTSTRAP_CLOUD_HAZE_2_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudHaze2,
+    BOOTSTRAP_CLOUD_HAZE_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudLightningFill,
+    BOOTSTRAP_CLOUD_LIGHTNING_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudLightningRainFill,
+    BOOTSTRAP_CLOUD_LIGHTNING_RAIN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudLightningRain,
+    BOOTSTRAP_CLOUD_LIGHTNING_RAIN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudLightning,
+    BOOTSTRAP_CLOUD_LIGHTNING,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudMinusFill,
+    BOOTSTRAP_CLOUD_MINUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudMinus,
+    BOOTSTRAP_CLOUD_MINUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudMoonFill,
+    BOOTSTRAP_CLOUD_MOON_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudMoon,
+    BOOTSTRAP_CLOUD_MOON,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudPlusFill,
+    BOOTSTRAP_CLOUD_PLUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudPlus,
+    BOOTSTRAP_CLOUD_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudRainFill,
+    BOOTSTRAP_CLOUD_RAIN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudRainHeavyFill,
+    BOOTSTRAP_CLOUD_RAIN_HEAVY_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudRainHeavy,
+    BOOTSTRAP_CLOUD_RAIN_HEAVY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudRain,
+    BOOTSTRAP_CLOUD_RAIN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudSlashFill,
+    BOOTSTRAP_CLOUD_SLASH_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudSlash,
+    BOOTSTRAP_CLOUD_SLASH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudSleetFill,
+    BOOTSTRAP_CLOUD_SLEET_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudSleet,
+    BOOTSTRAP_CLOUD_SLEET,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudSnowFill,
+    BOOTSTRAP_CLOUD_SNOW_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudSnow,
+    BOOTSTRAP_CLOUD_SNOW,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudSunFill,
+    BOOTSTRAP_CLOUD_SUN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudSun,
+    BOOTSTRAP_CLOUD_SUN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudUploadFill,
+    BOOTSTRAP_CLOUD_UPLOAD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudUpload,
+    BOOTSTRAP_CLOUD_UPLOAD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloud,
+    BOOTSTRAP_CLOUD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudsFill,
+    BOOTSTRAP_CLOUDS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapClouds,
+    BOOTSTRAP_CLOUDS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudyFill,
+    BOOTSTRAP_CLOUDY_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCloudy,
+    BOOTSTRAP_CLOUDY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCodeSlash,
+    BOOTSTRAP_CODE_SLASH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCodeSquare,
+    BOOTSTRAP_CODE_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCode,
+    BOOTSTRAP_CODE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCoin,
+    BOOTSTRAP_COIN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCollectionFill,
+    BOOTSTRAP_COLLECTION_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCollectionPlayFill,
+    BOOTSTRAP_COLLECTION_PLAY_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCollectionPlay,
+    BOOTSTRAP_COLLECTION_PLAY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCollection,
+    BOOTSTRAP_COLLECTION,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapColumnsGap,
+    BOOTSTRAP_COLUMNS_GAP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapColumns,
+    BOOTSTRAP_COLUMNS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCommand,
+    BOOTSTRAP_COMMAND,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCompassFill,
+    BOOTSTRAP_COMPASS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCompass,
+    BOOTSTRAP_COMPASS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapConeStriped,
+    BOOTSTRAP_CONE_STRIPED,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCone,
+    BOOTSTRAP_CONE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapController,
+    BOOTSTRAP_CONTROLLER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCpuFill,
+    BOOTSTRAP_CPU_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCpu,
+    BOOTSTRAP_CPU,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCreditCard2BackFill,
+    BOOTSTRAP_CREDIT_CARD_2_BACK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCreditCard2Back,
+    BOOTSTRAP_CREDIT_CARD_2_BACK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCreditCard2FrontFill,
+    BOOTSTRAP_CREDIT_CARD_2_FRONT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCreditCard2Front,
+    BOOTSTRAP_CREDIT_CARD_2_FRONT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCreditCardFill,
+    BOOTSTRAP_CREDIT_CARD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCreditCard,
+    BOOTSTRAP_CREDIT_CARD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCrop,
+    BOOTSTRAP_CROP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCupFill,
+    BOOTSTRAP_CUP_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCupStraw,
+    BOOTSTRAP_CUP_STRAW,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCup,
+    BOOTSTRAP_CUP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCurrencyBitcoin,
+    BOOTSTRAP_CURRENCY_BITCOIN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCurrencyDollar,
+    BOOTSTRAP_CURRENCY_DOLLAR,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCurrencyEuro,
+    BOOTSTRAP_CURRENCY_EURO,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCurrencyExchange,
+    BOOTSTRAP_CURRENCY_EXCHANGE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCurrencyPound,
+    BOOTSTRAP_CURRENCY_POUND,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCurrencyYen,
+    BOOTSTRAP_CURRENCY_YEN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCursorFill,
+    BOOTSTRAP_CURSOR_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCursorText,
+    BOOTSTRAP_CURSOR_TEXT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapCursor,
+    BOOTSTRAP_CURSOR,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDashCircleDotted,
+    BOOTSTRAP_DASH_CIRCLE_DOTTED,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDashCircleFill,
+    BOOTSTRAP_DASH_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDashCircle,
+    BOOTSTRAP_DASH_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDashLg,
+    BOOTSTRAP_DASH_LG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDashSquareDotted,
+    BOOTSTRAP_DASH_SQUARE_DOTTED,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDashSquareFill,
+    BOOTSTRAP_DASH_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDashSquare,
+    BOOTSTRAP_DASH_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDash,
+    BOOTSTRAP_DASH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDeviceHddFill,
+    BOOTSTRAP_DEVICE_HDD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDeviceHdd,
+    BOOTSTRAP_DEVICE_HDD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDeviceSsdFill,
+    BOOTSTRAP_DEVICE_SSD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDeviceSsd,
+    BOOTSTRAP_DEVICE_SSD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDiagram2Fill,
+    BOOTSTRAP_DIAGRAM_2_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDiagram2,
+    BOOTSTRAP_DIAGRAM_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDiagram3Fill,
+    BOOTSTRAP_DIAGRAM_3_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDiagram3,
+    BOOTSTRAP_DIAGRAM_3,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDiamondFill,
+    BOOTSTRAP_DIAMOND_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDiamondHalf,
+    BOOTSTRAP_DIAMOND_HALF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDiamond,
+    BOOTSTRAP_DIAMOND,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDice1Fill,
+    BOOTSTRAP_DICE_1_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDice1,
+    BOOTSTRAP_DICE_1,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDice2Fill,
+    BOOTSTRAP_DICE_2_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDice2,
+    BOOTSTRAP_DICE_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDice3Fill,
+    BOOTSTRAP_DICE_3_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDice3,
+    BOOTSTRAP_DICE_3,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDice4Fill,
+    BOOTSTRAP_DICE_4_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDice4,
+    BOOTSTRAP_DICE_4,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDice5Fill,
+    BOOTSTRAP_DICE_5_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDice5,
+    BOOTSTRAP_DICE_5,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDice6Fill,
+    BOOTSTRAP_DICE_6_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDice6,
+    BOOTSTRAP_DICE_6,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDiscFill,
+    BOOTSTRAP_DISC_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDisc,
+    BOOTSTRAP_DISC,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDiscord,
+    BOOTSTRAP_DISCORD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDisplayFill,
+    BOOTSTRAP_DISPLAY_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDisplay,
+    BOOTSTRAP_DISPLAY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDisplayportFill,
+    BOOTSTRAP_DISPLAYPORT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDisplayport,
+    BOOTSTRAP_DISPLAYPORT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDistributeHorizontal,
+    BOOTSTRAP_DISTRIBUTE_HORIZONTAL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDistributeVertical,
+    BOOTSTRAP_DISTRIBUTE_VERTICAL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDoorClosedFill,
+    BOOTSTRAP_DOOR_CLOSED_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDoorClosed,
+    BOOTSTRAP_DOOR_CLOSED,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDoorOpenFill,
+    BOOTSTRAP_DOOR_OPEN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDoorOpen,
+    BOOTSTRAP_DOOR_OPEN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDot,
+    BOOTSTRAP_DOT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDownload,
+    BOOTSTRAP_DOWNLOAD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDpadFill,
+    BOOTSTRAP_DPAD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDpad,
+    BOOTSTRAP_DPAD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDribbble,
+    BOOTSTRAP_DRIBBBLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDropletFill,
+    BOOTSTRAP_DROPLET_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDropletHalf,
+    BOOTSTRAP_DROPLET_HALF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapDroplet,
+    BOOTSTRAP_DROPLET,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEarFill,
+    BOOTSTRAP_EAR_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEar,
+    BOOTSTRAP_EAR,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEarbuds,
+    BOOTSTRAP_EARBUDS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEaselFill,
+    BOOTSTRAP_EASEL_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEasel,
+    BOOTSTRAP_EASEL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEasel2Fill,
+    BOOTSTRAP_EASEL_2_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEasel2,
+    BOOTSTRAP_EASEL_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEasel3Fill,
+    BOOTSTRAP_EASEL_3_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEasel3,
+    BOOTSTRAP_EASEL_3,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEggFill,
+    BOOTSTRAP_EGG_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEggFried,
+    BOOTSTRAP_EGG_FRIED,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEgg,
+    BOOTSTRAP_EGG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEjectFill,
+    BOOTSTRAP_EJECT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEject,
+    BOOTSTRAP_EJECT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiAngryFill,
+    BOOTSTRAP_EMOJI_ANGRY_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiAngry,
+    BOOTSTRAP_EMOJI_ANGRY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiDizzyFill,
+    BOOTSTRAP_EMOJI_DIZZY_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiDizzy,
+    BOOTSTRAP_EMOJI_DIZZY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiExpressionlessFill,
+    BOOTSTRAP_EMOJI_EXPRESSIONLESS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiExpressionless,
+    BOOTSTRAP_EMOJI_EXPRESSIONLESS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiFrownFill,
+    BOOTSTRAP_EMOJI_FROWN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiFrown,
+    BOOTSTRAP_EMOJI_FROWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiHeartEyesFill,
+    BOOTSTRAP_EMOJI_HEART_EYES_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiHeartEyes,
+    BOOTSTRAP_EMOJI_HEART_EYES,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiKissFill,
+    BOOTSTRAP_EMOJI_KISS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiKiss,
+    BOOTSTRAP_EMOJI_KISS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiLaughingFill,
+    BOOTSTRAP_EMOJI_LAUGHING_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiLaughing,
+    BOOTSTRAP_EMOJI_LAUGHING,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiNeutralFill,
+    BOOTSTRAP_EMOJI_NEUTRAL_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiNeutral,
+    BOOTSTRAP_EMOJI_NEUTRAL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiSmileFill,
+    BOOTSTRAP_EMOJI_SMILE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiSmileUpsideDownFill,
+    BOOTSTRAP_EMOJI_SMILE_UPSIDE_DOWN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiSmileUpsideDown,
+    BOOTSTRAP_EMOJI_SMILE_UPSIDE_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiSmile,
+    BOOTSTRAP_EMOJI_SMILE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiSunglassesFill,
+    BOOTSTRAP_EMOJI_SUNGLASSES_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiSunglasses,
+    BOOTSTRAP_EMOJI_SUNGLASSES,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiWinkFill,
+    BOOTSTRAP_EMOJI_WINK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEmojiWink,
+    BOOTSTRAP_EMOJI_WINK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopeCheckFill,
+    BOOTSTRAP_ENVELOPE_CHECK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopeCheck,
+    BOOTSTRAP_ENVELOPE_CHECK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopeDashFill,
+    BOOTSTRAP_ENVELOPE_DASH_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopeDash,
+    BOOTSTRAP_ENVELOPE_DASH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopeExclamationFill,
+    BOOTSTRAP_ENVELOPE_EXCLAMATION_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopeExclamation,
+    BOOTSTRAP_ENVELOPE_EXCLAMATION,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopeFill,
+    BOOTSTRAP_ENVELOPE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopeHeartFill,
+    BOOTSTRAP_ENVELOPE_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopeHeart,
+    BOOTSTRAP_ENVELOPE_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopeOpenFill,
+    BOOTSTRAP_ENVELOPE_OPEN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopeOpenHeartFill,
+    BOOTSTRAP_ENVELOPE_OPEN_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopeOpenHeart,
+    BOOTSTRAP_ENVELOPE_OPEN_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopeOpen,
+    BOOTSTRAP_ENVELOPE_OPEN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopePaperFill,
+    BOOTSTRAP_ENVELOPE_PAPER_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopePaperHeartFill,
+    BOOTSTRAP_ENVELOPE_PAPER_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopePaperHeart,
+    BOOTSTRAP_ENVELOPE_PAPER_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopePaper,
+    BOOTSTRAP_ENVELOPE_PAPER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopePlusFill,
+    BOOTSTRAP_ENVELOPE_PLUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopePlus,
+    BOOTSTRAP_ENVELOPE_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopeSlashFill,
+    BOOTSTRAP_ENVELOPE_SLASH_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopeSlash,
+    BOOTSTRAP_ENVELOPE_SLASH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopeXFill,
+    BOOTSTRAP_ENVELOPE_X_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelopeX,
+    BOOTSTRAP_ENVELOPE_X,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEnvelope,
+    BOOTSTRAP_ENVELOPE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEraserFill,
+    BOOTSTRAP_ERASER_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEraser,
+    BOOTSTRAP_ERASER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEthernet,
+    BOOTSTRAP_ETHERNET,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapExclamationCircleFill,
+    BOOTSTRAP_EXCLAMATION_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapExclamationCircle,
+    BOOTSTRAP_EXCLAMATION_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapExclamationDiamondFill,
+    BOOTSTRAP_EXCLAMATION_DIAMOND_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapExclamationDiamond,
+    BOOTSTRAP_EXCLAMATION_DIAMOND,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapExclamationLg,
+    BOOTSTRAP_EXCLAMATION_LG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapExclamationOctagonFill,
+    BOOTSTRAP_EXCLAMATION_OCTAGON_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapExclamationOctagon,
+    BOOTSTRAP_EXCLAMATION_OCTAGON,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapExclamationSquareFill,
+    BOOTSTRAP_EXCLAMATION_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapExclamationSquare,
+    BOOTSTRAP_EXCLAMATION_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapExclamationTriangleFill,
+    BOOTSTRAP_EXCLAMATION_TRIANGLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapExclamationTriangle,
+    BOOTSTRAP_EXCLAMATION_TRIANGLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapExclamation,
+    BOOTSTRAP_EXCLAMATION,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapExclude,
+    BOOTSTRAP_EXCLUDE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapExplicitFill,
+    BOOTSTRAP_EXPLICIT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapExplicit,
+    BOOTSTRAP_EXPLICIT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEyeFill,
+    BOOTSTRAP_EYE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEyeSlashFill,
+    BOOTSTRAP_EYE_SLASH_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEyeSlash,
+    BOOTSTRAP_EYE_SLASH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEye,
+    BOOTSTRAP_EYE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEyedropper,
+    BOOTSTRAP_EYEDROPPER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapEyeglasses,
+    BOOTSTRAP_EYEGLASSES,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFacebook,
+    BOOTSTRAP_FACEBOOK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFan,
+    BOOTSTRAP_FAN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileArrowDownFill,
+    BOOTSTRAP_FILE_ARROW_DOWN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileArrowDown,
+    BOOTSTRAP_FILE_ARROW_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileArrowUpFill,
+    BOOTSTRAP_FILE_ARROW_UP_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileArrowUp,
+    BOOTSTRAP_FILE_ARROW_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileBarGraphFill,
+    BOOTSTRAP_FILE_BAR_GRAPH_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileBarGraph,
+    BOOTSTRAP_FILE_BAR_GRAPH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileBinaryFill,
+    BOOTSTRAP_FILE_BINARY_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileBinary,
+    BOOTSTRAP_FILE_BINARY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileBreakFill,
+    BOOTSTRAP_FILE_BREAK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileBreak,
+    BOOTSTRAP_FILE_BREAK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileCheckFill,
+    BOOTSTRAP_FILE_CHECK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileCheck,
+    BOOTSTRAP_FILE_CHECK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileCodeFill,
+    BOOTSTRAP_FILE_CODE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileCode,
+    BOOTSTRAP_FILE_CODE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileDiffFill,
+    BOOTSTRAP_FILE_DIFF_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileDiff,
+    BOOTSTRAP_FILE_DIFF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkArrowDownFill,
+    BOOTSTRAP_FILE_EARMARK_ARROW_DOWN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkArrowDown,
+    BOOTSTRAP_FILE_EARMARK_ARROW_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkArrowUpFill,
+    BOOTSTRAP_FILE_EARMARK_ARROW_UP_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkArrowUp,
+    BOOTSTRAP_FILE_EARMARK_ARROW_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkBarGraphFill,
+    BOOTSTRAP_FILE_EARMARK_BAR_GRAPH_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkBarGraph,
+    BOOTSTRAP_FILE_EARMARK_BAR_GRAPH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkBinaryFill,
+    BOOTSTRAP_FILE_EARMARK_BINARY_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkBinary,
+    BOOTSTRAP_FILE_EARMARK_BINARY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkBreakFill,
+    BOOTSTRAP_FILE_EARMARK_BREAK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkBreak,
+    BOOTSTRAP_FILE_EARMARK_BREAK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkCheckFill,
+    BOOTSTRAP_FILE_EARMARK_CHECK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkCheck,
+    BOOTSTRAP_FILE_EARMARK_CHECK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkCodeFill,
+    BOOTSTRAP_FILE_EARMARK_CODE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkCode,
+    BOOTSTRAP_FILE_EARMARK_CODE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkDiffFill,
+    BOOTSTRAP_FILE_EARMARK_DIFF_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkDiff,
+    BOOTSTRAP_FILE_EARMARK_DIFF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkEaselFill,
+    BOOTSTRAP_FILE_EARMARK_EASEL_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkEasel,
+    BOOTSTRAP_FILE_EARMARK_EASEL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkExcelFill,
+    BOOTSTRAP_FILE_EARMARK_EXCEL_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkExcel,
+    BOOTSTRAP_FILE_EARMARK_EXCEL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkFill,
+    BOOTSTRAP_FILE_EARMARK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkFontFill,
+    BOOTSTRAP_FILE_EARMARK_FONT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkFont,
+    BOOTSTRAP_FILE_EARMARK_FONT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkImageFill,
+    BOOTSTRAP_FILE_EARMARK_IMAGE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkImage,
+    BOOTSTRAP_FILE_EARMARK_IMAGE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkLockFill,
+    BOOTSTRAP_FILE_EARMARK_LOCK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkLock,
+    BOOTSTRAP_FILE_EARMARK_LOCK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkLock2Fill,
+    BOOTSTRAP_FILE_EARMARK_LOCK_2_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkLock2,
+    BOOTSTRAP_FILE_EARMARK_LOCK_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkMedicalFill,
+    BOOTSTRAP_FILE_EARMARK_MEDICAL_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkMedical,
+    BOOTSTRAP_FILE_EARMARK_MEDICAL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkMinusFill,
+    BOOTSTRAP_FILE_EARMARK_MINUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkMinus,
+    BOOTSTRAP_FILE_EARMARK_MINUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkMusicFill,
+    BOOTSTRAP_FILE_EARMARK_MUSIC_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkMusic,
+    BOOTSTRAP_FILE_EARMARK_MUSIC,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkPdfFill,
+    BOOTSTRAP_FILE_EARMARK_PDF_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkPdf,
+    BOOTSTRAP_FILE_EARMARK_PDF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkPersonFill,
+    BOOTSTRAP_FILE_EARMARK_PERSON_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkPerson,
+    BOOTSTRAP_FILE_EARMARK_PERSON,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkPlayFill,
+    BOOTSTRAP_FILE_EARMARK_PLAY_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkPlay,
+    BOOTSTRAP_FILE_EARMARK_PLAY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkPlusFill,
+    BOOTSTRAP_FILE_EARMARK_PLUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkPlus,
+    BOOTSTRAP_FILE_EARMARK_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkPostFill,
+    BOOTSTRAP_FILE_EARMARK_POST_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkPost,
+    BOOTSTRAP_FILE_EARMARK_POST,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkPptFill,
+    BOOTSTRAP_FILE_EARMARK_PPT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkPpt,
+    BOOTSTRAP_FILE_EARMARK_PPT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkRichtextFill,
+    BOOTSTRAP_FILE_EARMARK_RICHTEXT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkRichtext,
+    BOOTSTRAP_FILE_EARMARK_RICHTEXT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkRuledFill,
+    BOOTSTRAP_FILE_EARMARK_RULED_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkRuled,
+    BOOTSTRAP_FILE_EARMARK_RULED,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkSlidesFill,
+    BOOTSTRAP_FILE_EARMARK_SLIDES_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkSlides,
+    BOOTSTRAP_FILE_EARMARK_SLIDES,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkSpreadsheetFill,
+    BOOTSTRAP_FILE_EARMARK_SPREADSHEET_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkSpreadsheet,
+    BOOTSTRAP_FILE_EARMARK_SPREADSHEET,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkTextFill,
+    BOOTSTRAP_FILE_EARMARK_TEXT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkText,
+    BOOTSTRAP_FILE_EARMARK_TEXT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkWordFill,
+    BOOTSTRAP_FILE_EARMARK_WORD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkWord,
+    BOOTSTRAP_FILE_EARMARK_WORD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkXFill,
+    BOOTSTRAP_FILE_EARMARK_X_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkX,
+    BOOTSTRAP_FILE_EARMARK_X,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkZipFill,
+    BOOTSTRAP_FILE_EARMARK_ZIP_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmarkZip,
+    BOOTSTRAP_FILE_EARMARK_ZIP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEarmark,
+    BOOTSTRAP_FILE_EARMARK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEaselFill,
+    BOOTSTRAP_FILE_EASEL_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileEasel,
+    BOOTSTRAP_FILE_EASEL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileExcelFill,
+    BOOTSTRAP_FILE_EXCEL_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileExcel,
+    BOOTSTRAP_FILE_EXCEL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileFill,
+    BOOTSTRAP_FILE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileFontFill,
+    BOOTSTRAP_FILE_FONT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileFont,
+    BOOTSTRAP_FILE_FONT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileImageFill,
+    BOOTSTRAP_FILE_IMAGE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileImage,
+    BOOTSTRAP_FILE_IMAGE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileLockFill,
+    BOOTSTRAP_FILE_LOCK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileLock,
+    BOOTSTRAP_FILE_LOCK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileLock2Fill,
+    BOOTSTRAP_FILE_LOCK_2_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileLock2,
+    BOOTSTRAP_FILE_LOCK_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileMedicalFill,
+    BOOTSTRAP_FILE_MEDICAL_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileMedical,
+    BOOTSTRAP_FILE_MEDICAL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileMinusFill,
+    BOOTSTRAP_FILE_MINUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileMinus,
+    BOOTSTRAP_FILE_MINUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileMusicFill,
+    BOOTSTRAP_FILE_MUSIC_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileMusic,
+    BOOTSTRAP_FILE_MUSIC,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFilePdfFill,
+    BOOTSTRAP_FILE_PDF_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFilePdf,
+    BOOTSTRAP_FILE_PDF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFilePersonFill,
+    BOOTSTRAP_FILE_PERSON_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFilePerson,
+    BOOTSTRAP_FILE_PERSON,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFilePlayFill,
+    BOOTSTRAP_FILE_PLAY_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFilePlay,
+    BOOTSTRAP_FILE_PLAY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFilePlusFill,
+    BOOTSTRAP_FILE_PLUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFilePlus,
+    BOOTSTRAP_FILE_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFilePostFill,
+    BOOTSTRAP_FILE_POST_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFilePost,
+    BOOTSTRAP_FILE_POST,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFilePptFill,
+    BOOTSTRAP_FILE_PPT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFilePpt,
+    BOOTSTRAP_FILE_PPT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileRichtextFill,
+    BOOTSTRAP_FILE_RICHTEXT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileRichtext,
+    BOOTSTRAP_FILE_RICHTEXT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileRuledFill,
+    BOOTSTRAP_FILE_RULED_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileRuled,
+    BOOTSTRAP_FILE_RULED,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileSlidesFill,
+    BOOTSTRAP_FILE_SLIDES_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileSlides,
+    BOOTSTRAP_FILE_SLIDES,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileSpreadsheetFill,
+    BOOTSTRAP_FILE_SPREADSHEET_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileSpreadsheet,
+    BOOTSTRAP_FILE_SPREADSHEET,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileTextFill,
+    BOOTSTRAP_FILE_TEXT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileText,
+    BOOTSTRAP_FILE_TEXT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileWordFill,
+    BOOTSTRAP_FILE_WORD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileWord,
+    BOOTSTRAP_FILE_WORD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileXFill,
+    BOOTSTRAP_FILE_X_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileX,
+    BOOTSTRAP_FILE_X,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileZipFill,
+    BOOTSTRAP_FILE_ZIP_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFileZip,
+    BOOTSTRAP_FILE_ZIP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFile,
+    BOOTSTRAP_FILE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFilesAlt,
+    BOOTSTRAP_FILES_ALT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiles,
+    BOOTSTRAP_FILES,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeAac,
+    BOOTSTRAP_FILETYPE_AAC,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeAi,
+    BOOTSTRAP_FILETYPE_AI,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeBmp,
+    BOOTSTRAP_FILETYPE_BMP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeCs,
+    BOOTSTRAP_FILETYPE_CS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeCss,
+    BOOTSTRAP_FILETYPE_CSS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeCsv,
+    BOOTSTRAP_FILETYPE_CSV,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeDoc,
+    BOOTSTRAP_FILETYPE_DOC,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeDocx,
+    BOOTSTRAP_FILETYPE_DOCX,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeExe,
+    BOOTSTRAP_FILETYPE_EXE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeGif,
+    BOOTSTRAP_FILETYPE_GIF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeHeic,
+    BOOTSTRAP_FILETYPE_HEIC,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeHtml,
+    BOOTSTRAP_FILETYPE_HTML,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeJava,
+    BOOTSTRAP_FILETYPE_JAVA,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeJpg,
+    BOOTSTRAP_FILETYPE_JPG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeJs,
+    BOOTSTRAP_FILETYPE_JS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeJson,
+    BOOTSTRAP_FILETYPE_JSON,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeJsx,
+    BOOTSTRAP_FILETYPE_JSX,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeKey,
+    BOOTSTRAP_FILETYPE_KEY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeM4P,
+    BOOTSTRAP_FILETYPE_M_4_P,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeMd,
+    BOOTSTRAP_FILETYPE_MD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeMdx,
+    BOOTSTRAP_FILETYPE_MDX,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeMov,
+    BOOTSTRAP_FILETYPE_MOV,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeMp3,
+    BOOTSTRAP_FILETYPE_MP_3,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeMp4,
+    BOOTSTRAP_FILETYPE_MP_4,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeOtf,
+    BOOTSTRAP_FILETYPE_OTF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypePdf,
+    BOOTSTRAP_FILETYPE_PDF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypePhp,
+    BOOTSTRAP_FILETYPE_PHP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypePng,
+    BOOTSTRAP_FILETYPE_PNG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypePpt,
+    BOOTSTRAP_FILETYPE_PPT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypePptx,
+    BOOTSTRAP_FILETYPE_PPTX,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypePsd,
+    BOOTSTRAP_FILETYPE_PSD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypePy,
+    BOOTSTRAP_FILETYPE_PY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeRaw,
+    BOOTSTRAP_FILETYPE_RAW,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeRb,
+    BOOTSTRAP_FILETYPE_RB,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeSass,
+    BOOTSTRAP_FILETYPE_SASS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeScss,
+    BOOTSTRAP_FILETYPE_SCSS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeSh,
+    BOOTSTRAP_FILETYPE_SH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeSvg,
+    BOOTSTRAP_FILETYPE_SVG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeTiff,
+    BOOTSTRAP_FILETYPE_TIFF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeTsx,
+    BOOTSTRAP_FILETYPE_TSX,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeTtf,
+    BOOTSTRAP_FILETYPE_TTF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeTxt,
+    BOOTSTRAP_FILETYPE_TXT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeWav,
+    BOOTSTRAP_FILETYPE_WAV,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeWoff,
+    BOOTSTRAP_FILETYPE_WOFF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeXls,
+    BOOTSTRAP_FILETYPE_XLS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeXlsx,
+    BOOTSTRAP_FILETYPE_XLSX,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeXml,
+    BOOTSTRAP_FILETYPE_XML,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFiletypeYml,
+    BOOTSTRAP_FILETYPE_YML,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFilm,
+    BOOTSTRAP_FILM,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFilterCircleFill,
+    BOOTSTRAP_FILTER_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFilterCircle,
+    BOOTSTRAP_FILTER_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFilterLeft,
+    BOOTSTRAP_FILTER_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFilterRight,
+    BOOTSTRAP_FILTER_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFilterSquareFill,
+    BOOTSTRAP_FILTER_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFilterSquare,
+    BOOTSTRAP_FILTER_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFilter,
+    BOOTSTRAP_FILTER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFingerprint,
+    BOOTSTRAP_FINGERPRINT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFlagFill,
+    BOOTSTRAP_FLAG_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFlag,
+    BOOTSTRAP_FLAG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFlower1,
+    BOOTSTRAP_FLOWER_1,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFlower2,
+    BOOTSTRAP_FLOWER_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFlower3,
+    BOOTSTRAP_FLOWER_3,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFolderCheck,
+    BOOTSTRAP_FOLDER_CHECK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFolderFill,
+    BOOTSTRAP_FOLDER_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFolderMinus,
+    BOOTSTRAP_FOLDER_MINUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFolderPlus,
+    BOOTSTRAP_FOLDER_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFolderSymlinkFill,
+    BOOTSTRAP_FOLDER_SYMLINK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFolderSymlink,
+    BOOTSTRAP_FOLDER_SYMLINK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFolderX,
+    BOOTSTRAP_FOLDER_X,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFolder,
+    BOOTSTRAP_FOLDER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFolder2Open,
+    BOOTSTRAP_FOLDER_2_OPEN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFolder2,
+    BOOTSTRAP_FOLDER_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFonts,
+    BOOTSTRAP_FONTS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapForwardFill,
+    BOOTSTRAP_FORWARD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapForward,
+    BOOTSTRAP_FORWARD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFront,
+    BOOTSTRAP_FRONT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFullscreenExit,
+    BOOTSTRAP_FULLSCREEN_EXIT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFullscreen,
+    BOOTSTRAP_FULLSCREEN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFunnelFill,
+    BOOTSTRAP_FUNNEL_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapFunnel,
+    BOOTSTRAP_FUNNEL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGearFill,
+    BOOTSTRAP_GEAR_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGearWideConnected,
+    BOOTSTRAP_GEAR_WIDE_CONNECTED,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGearWide,
+    BOOTSTRAP_GEAR_WIDE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGear,
+    BOOTSTRAP_GEAR,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGem,
+    BOOTSTRAP_GEM,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGenderAmbiguous,
+    BOOTSTRAP_GENDER_AMBIGUOUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGenderFemale,
+    BOOTSTRAP_GENDER_FEMALE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGenderMale,
+    BOOTSTRAP_GENDER_MALE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGenderTrans,
+    BOOTSTRAP_GENDER_TRANS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGeoAltFill,
+    BOOTSTRAP_GEO_ALT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGeoAlt,
+    BOOTSTRAP_GEO_ALT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGeoFill,
+    BOOTSTRAP_GEO_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGeo,
+    BOOTSTRAP_GEO,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGiftFill,
+    BOOTSTRAP_GIFT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGift,
+    BOOTSTRAP_GIFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGit,
+    BOOTSTRAP_GIT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGithub,
+    BOOTSTRAP_GITHUB,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGlobe,
+    BOOTSTRAP_GLOBE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGlobe2,
+    BOOTSTRAP_GLOBE_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGoogle,
+    BOOTSTRAP_GOOGLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGpuCard,
+    BOOTSTRAP_GPU_CARD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGraphDownArrow,
+    BOOTSTRAP_GRAPH_DOWN_ARROW,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGraphDown,
+    BOOTSTRAP_GRAPH_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGraphUpArrow,
+    BOOTSTRAP_GRAPH_UP_ARROW,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGraphUp,
+    BOOTSTRAP_GRAPH_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGrid1X2Fill,
+    BOOTSTRAP_GRID_1_X_2_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGrid1X2,
+    BOOTSTRAP_GRID_1_X_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGrid3X2GapFill,
+    BOOTSTRAP_GRID_3_X_2_GAP_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGrid3X2Gap,
+    BOOTSTRAP_GRID_3_X_2_GAP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGrid3X2,
+    BOOTSTRAP_GRID_3_X_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGrid3X3GapFill,
+    BOOTSTRAP_GRID_3_X_3_GAP_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGrid3X3Gap,
+    BOOTSTRAP_GRID_3_X_3_GAP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGrid3X3,
+    BOOTSTRAP_GRID_3_X_3,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGridFill,
+    BOOTSTRAP_GRID_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGrid,
+    BOOTSTRAP_GRID,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGripHorizontal,
+    BOOTSTRAP_GRIP_HORIZONTAL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapGripVertical,
+    BOOTSTRAP_GRIP_VERTICAL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHammer,
+    BOOTSTRAP_HAMMER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHandIndexFill,
+    BOOTSTRAP_HAND_INDEX_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHandIndexThumbFill,
+    BOOTSTRAP_HAND_INDEX_THUMB_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHandIndexThumb,
+    BOOTSTRAP_HAND_INDEX_THUMB,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHandIndex,
+    BOOTSTRAP_HAND_INDEX,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHandThumbsDownFill,
+    BOOTSTRAP_HAND_THUMBS_DOWN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHandThumbsDown,
+    BOOTSTRAP_HAND_THUMBS_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHandThumbsUpFill,
+    BOOTSTRAP_HAND_THUMBS_UP_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHandThumbsUp,
+    BOOTSTRAP_HAND_THUMBS_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHandbagFill,
+    BOOTSTRAP_HANDBAG_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHandbag,
+    BOOTSTRAP_HANDBAG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHash,
+    BOOTSTRAP_HASH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHddFill,
+    BOOTSTRAP_HDD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHddNetworkFill,
+    BOOTSTRAP_HDD_NETWORK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHddNetwork,
+    BOOTSTRAP_HDD_NETWORK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHddRackFill,
+    BOOTSTRAP_HDD_RACK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHddRack,
+    BOOTSTRAP_HDD_RACK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHddStackFill,
+    BOOTSTRAP_HDD_STACK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHddStack,
+    BOOTSTRAP_HDD_STACK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHdd,
+    BOOTSTRAP_HDD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHdmiFill,
+    BOOTSTRAP_HDMI_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHdmi,
+    BOOTSTRAP_HDMI,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHeadphones,
+    BOOTSTRAP_HEADPHONES,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHeadsetVr,
+    BOOTSTRAP_HEADSET_VR,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHeadset,
+    BOOTSTRAP_HEADSET,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHeartArrow,
+    BOOTSTRAP_HEART_ARROW,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHeartFill,
+    BOOTSTRAP_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHeartHalf,
+    BOOTSTRAP_HEART_HALF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHeartPulseFill,
+    BOOTSTRAP_HEART_PULSE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHeartPulse,
+    BOOTSTRAP_HEART_PULSE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHeart,
+    BOOTSTRAP_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHeartbreakFill,
+    BOOTSTRAP_HEARTBREAK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHeartbreak,
+    BOOTSTRAP_HEARTBREAK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHearts,
+    BOOTSTRAP_HEARTS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHeptagonFill,
+    BOOTSTRAP_HEPTAGON_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHeptagonHalf,
+    BOOTSTRAP_HEPTAGON_HALF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHeptagon,
+    BOOTSTRAP_HEPTAGON,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHexagonFill,
+    BOOTSTRAP_HEXAGON_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHexagonHalf,
+    BOOTSTRAP_HEXAGON_HALF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHexagon,
+    BOOTSTRAP_HEXAGON,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHospitalFill,
+    BOOTSTRAP_HOSPITAL_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHospital,
+    BOOTSTRAP_HOSPITAL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHourglassBottom,
+    BOOTSTRAP_HOURGLASS_BOTTOM,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHourglassSplit,
+    BOOTSTRAP_HOURGLASS_SPLIT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHourglassTop,
+    BOOTSTRAP_HOURGLASS_TOP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHourglass,
+    BOOTSTRAP_HOURGLASS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHouseDoorFill,
+    BOOTSTRAP_HOUSE_DOOR_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHouseDoor,
+    BOOTSTRAP_HOUSE_DOOR,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHouseFill,
+    BOOTSTRAP_HOUSE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHouseHeartFill,
+    BOOTSTRAP_HOUSE_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHouseHeart,
+    BOOTSTRAP_HOUSE_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHouse,
+    BOOTSTRAP_HOUSE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHr,
+    BOOTSTRAP_HR,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHurricane,
+    BOOTSTRAP_HURRICANE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapHypnotize,
+    BOOTSTRAP_HYPNOTIZE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapImageAlt,
+    BOOTSTRAP_IMAGE_ALT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapImageFill,
+    BOOTSTRAP_IMAGE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapImage,
+    BOOTSTRAP_IMAGE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapImages,
+    BOOTSTRAP_IMAGES,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapInboxFill,
+    BOOTSTRAP_INBOX_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapInbox,
+    BOOTSTRAP_INBOX,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapInboxesFill,
+    BOOTSTRAP_INBOXES_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapInboxes,
+    BOOTSTRAP_INBOXES,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapIncognito,
+    BOOTSTRAP_INCOGNITO,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapInfinity,
+    BOOTSTRAP_INFINITY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapInfoCircleFill,
+    BOOTSTRAP_INFO_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapInfoCircle,
+    BOOTSTRAP_INFO_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapInfoLg,
+    BOOTSTRAP_INFO_LG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapInfoSquareFill,
+    BOOTSTRAP_INFO_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapInfoSquare,
+    BOOTSTRAP_INFO_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapInfo,
+    BOOTSTRAP_INFO,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapInputCursorText,
+    BOOTSTRAP_INPUT_CURSOR_TEXT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapInputCursor,
+    BOOTSTRAP_INPUT_CURSOR,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapInstagram,
+    BOOTSTRAP_INSTAGRAM,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapIntersect,
+    BOOTSTRAP_INTERSECT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapJournalAlbum,
+    BOOTSTRAP_JOURNAL_ALBUM,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapJournalArrowDown,
+    BOOTSTRAP_JOURNAL_ARROW_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapJournalArrowUp,
+    BOOTSTRAP_JOURNAL_ARROW_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapJournalBookmarkFill,
+    BOOTSTRAP_JOURNAL_BOOKMARK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapJournalBookmark,
+    BOOTSTRAP_JOURNAL_BOOKMARK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapJournalCheck,
+    BOOTSTRAP_JOURNAL_CHECK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapJournalCode,
+    BOOTSTRAP_JOURNAL_CODE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapJournalMedical,
+    BOOTSTRAP_JOURNAL_MEDICAL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapJournalMinus,
+    BOOTSTRAP_JOURNAL_MINUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapJournalPlus,
+    BOOTSTRAP_JOURNAL_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapJournalRichtext,
+    BOOTSTRAP_JOURNAL_RICHTEXT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapJournalText,
+    BOOTSTRAP_JOURNAL_TEXT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapJournalX,
+    BOOTSTRAP_JOURNAL_X,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapJournal,
+    BOOTSTRAP_JOURNAL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapJournals,
+    BOOTSTRAP_JOURNALS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapJoystick,
+    BOOTSTRAP_JOYSTICK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapJustifyLeft,
+    BOOTSTRAP_JUSTIFY_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapJustifyRight,
+    BOOTSTRAP_JUSTIFY_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapJustify,
+    BOOTSTRAP_JUSTIFY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapKanbanFill,
+    BOOTSTRAP_KANBAN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapKanban,
+    BOOTSTRAP_KANBAN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapKeyFill,
+    BOOTSTRAP_KEY_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapKey,
+    BOOTSTRAP_KEY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapKeyboardFill,
+    BOOTSTRAP_KEYBOARD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapKeyboard,
+    BOOTSTRAP_KEYBOARD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLadder,
+    BOOTSTRAP_LADDER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLampFill,
+    BOOTSTRAP_LAMP_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLamp,
+    BOOTSTRAP_LAMP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLaptopFill,
+    BOOTSTRAP_LAPTOP_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLaptop,
+    BOOTSTRAP_LAPTOP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLayerBackward,
+    BOOTSTRAP_LAYER_BACKWARD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLayerForward,
+    BOOTSTRAP_LAYER_FORWARD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLayersFill,
+    BOOTSTRAP_LAYERS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLayersHalf,
+    BOOTSTRAP_LAYERS_HALF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLayers,
+    BOOTSTRAP_LAYERS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLayoutSidebarInsetReverse,
+    BOOTSTRAP_LAYOUT_SIDEBAR_INSET_REVERSE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLayoutSidebarInset,
+    BOOTSTRAP_LAYOUT_SIDEBAR_INSET,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLayoutSidebarReverse,
+    BOOTSTRAP_LAYOUT_SIDEBAR_REVERSE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLayoutSidebar,
+    BOOTSTRAP_LAYOUT_SIDEBAR,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLayoutSplit,
+    BOOTSTRAP_LAYOUT_SPLIT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLayoutTextSidebarReverse,
+    BOOTSTRAP_LAYOUT_TEXT_SIDEBAR_REVERSE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLayoutTextSidebar,
+    BOOTSTRAP_LAYOUT_TEXT_SIDEBAR,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLayoutTextWindowReverse,
+    BOOTSTRAP_LAYOUT_TEXT_WINDOW_REVERSE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLayoutTextWindow,
+    BOOTSTRAP_LAYOUT_TEXT_WINDOW,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLayoutThreeColumns,
+    BOOTSTRAP_LAYOUT_THREE_COLUMNS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLayoutWtf,
+    BOOTSTRAP_LAYOUT_WTF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLifePreserver,
+    BOOTSTRAP_LIFE_PRESERVER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLightbulbFill,
+    BOOTSTRAP_LIGHTBULB_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLightbulbOffFill,
+    BOOTSTRAP_LIGHTBULB_OFF_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLightbulbOff,
+    BOOTSTRAP_LIGHTBULB_OFF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLightbulb,
+    BOOTSTRAP_LIGHTBULB,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLightningChargeFill,
+    BOOTSTRAP_LIGHTNING_CHARGE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLightningCharge,
+    BOOTSTRAP_LIGHTNING_CHARGE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLightningFill,
+    BOOTSTRAP_LIGHTNING_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLightning,
+    BOOTSTRAP_LIGHTNING,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLine,
+    BOOTSTRAP_LINE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLink45Deg,
+    BOOTSTRAP_LINK_45_DEG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLink,
+    BOOTSTRAP_LINK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLinkedin,
+    BOOTSTRAP_LINKEDIN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapListCheck,
+    BOOTSTRAP_LIST_CHECK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapListColumnsReverse,
+    BOOTSTRAP_LIST_COLUMNS_REVERSE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapListColumns,
+    BOOTSTRAP_LIST_COLUMNS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapListNested,
+    BOOTSTRAP_LIST_NESTED,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapListOl,
+    BOOTSTRAP_LIST_OL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapListStars,
+    BOOTSTRAP_LIST_STARS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapListTask,
+    BOOTSTRAP_LIST_TASK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapListUl,
+    BOOTSTRAP_LIST_UL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapList,
+    BOOTSTRAP_LIST,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLockFill,
+    BOOTSTRAP_LOCK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapLock,
+    BOOTSTRAP_LOCK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMagic,
+    BOOTSTRAP_MAGIC,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMagnetFill,
+    BOOTSTRAP_MAGNET_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMagnet,
+    BOOTSTRAP_MAGNET,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMailbox,
+    BOOTSTRAP_MAILBOX,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMailbox2,
+    BOOTSTRAP_MAILBOX_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMapFill,
+    BOOTSTRAP_MAP_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMap,
+    BOOTSTRAP_MAP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMarkdownFill,
+    BOOTSTRAP_MARKDOWN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMarkdown,
+    BOOTSTRAP_MARKDOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMask,
+    BOOTSTRAP_MASK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMastodon,
+    BOOTSTRAP_MASTODON,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMedium,
+    BOOTSTRAP_MEDIUM,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMegaphoneFill,
+    BOOTSTRAP_MEGAPHONE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMegaphone,
+    BOOTSTRAP_MEGAPHONE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMemory,
+    BOOTSTRAP_MEMORY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMenuAppFill,
+    BOOTSTRAP_MENU_APP_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMenuApp,
+    BOOTSTRAP_MENU_APP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMenuButtonFill,
+    BOOTSTRAP_MENU_BUTTON_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMenuButtonWideFill,
+    BOOTSTRAP_MENU_BUTTON_WIDE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMenuButtonWide,
+    BOOTSTRAP_MENU_BUTTON_WIDE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMenuButton,
+    BOOTSTRAP_MENU_BUTTON,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMenuDown,
+    BOOTSTRAP_MENU_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMenuUp,
+    BOOTSTRAP_MENU_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMessenger,
+    BOOTSTRAP_MESSENGER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMeta,
+    BOOTSTRAP_META,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMicFill,
+    BOOTSTRAP_MIC_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMicMuteFill,
+    BOOTSTRAP_MIC_MUTE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMicMute,
+    BOOTSTRAP_MIC_MUTE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMic,
+    BOOTSTRAP_MIC,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMicrosoft,
+    BOOTSTRAP_MICROSOFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMinecartLoaded,
+    BOOTSTRAP_MINECART_LOADED,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMinecart,
+    BOOTSTRAP_MINECART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapModemFill,
+    BOOTSTRAP_MODEM_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapModem,
+    BOOTSTRAP_MODEM,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMoisture,
+    BOOTSTRAP_MOISTURE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMoonFill,
+    BOOTSTRAP_MOON_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMoonStarsFill,
+    BOOTSTRAP_MOON_STARS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMoonStars,
+    BOOTSTRAP_MOON_STARS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMoon,
+    BOOTSTRAP_MOON,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMortarboardFill,
+    BOOTSTRAP_MORTARBOARD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMortarboard,
+    BOOTSTRAP_MORTARBOARD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMotherboardFill,
+    BOOTSTRAP_MOTHERBOARD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMotherboard,
+    BOOTSTRAP_MOTHERBOARD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMouseFill,
+    BOOTSTRAP_MOUSE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMouse,
+    BOOTSTRAP_MOUSE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMouse2Fill,
+    BOOTSTRAP_MOUSE_2_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMouse2,
+    BOOTSTRAP_MOUSE_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMouse3Fill,
+    BOOTSTRAP_MOUSE_3_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMouse3,
+    BOOTSTRAP_MOUSE_3,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMusicNoteBeamed,
+    BOOTSTRAP_MUSIC_NOTE_BEAMED,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMusicNoteList,
+    BOOTSTRAP_MUSIC_NOTE_LIST,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMusicNote,
+    BOOTSTRAP_MUSIC_NOTE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMusicPlayerFill,
+    BOOTSTRAP_MUSIC_PLAYER_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapMusicPlayer,
+    BOOTSTRAP_MUSIC_PLAYER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapNewspaper,
+    BOOTSTRAP_NEWSPAPER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapNintendoSwitch,
+    BOOTSTRAP_NINTENDO_SWITCH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapNodeMinusFill,
+    BOOTSTRAP_NODE_MINUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapNodeMinus,
+    BOOTSTRAP_NODE_MINUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapNodePlusFill,
+    BOOTSTRAP_NODE_PLUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapNodePlus,
+    BOOTSTRAP_NODE_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapNutFill,
+    BOOTSTRAP_NUT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapNut,
+    BOOTSTRAP_NUT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapOctagonFill,
+    BOOTSTRAP_OCTAGON_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapOctagonHalf,
+    BOOTSTRAP_OCTAGON_HALF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapOctagon,
+    BOOTSTRAP_OCTAGON,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapOpticalAudioFill,
+    BOOTSTRAP_OPTICAL_AUDIO_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapOpticalAudio,
+    BOOTSTRAP_OPTICAL_AUDIO,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapOption,
+    BOOTSTRAP_OPTION,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapOutlet,
+    BOOTSTRAP_OUTLET,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPaintBucket,
+    BOOTSTRAP_PAINT_BUCKET,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPaletteFill,
+    BOOTSTRAP_PALETTE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPalette,
+    BOOTSTRAP_PALETTE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPalette2,
+    BOOTSTRAP_PALETTE_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPaperclip,
+    BOOTSTRAP_PAPERCLIP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapParagraph,
+    BOOTSTRAP_PARAGRAPH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPatchCheckFill,
+    BOOTSTRAP_PATCH_CHECK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPatchCheck,
+    BOOTSTRAP_PATCH_CHECK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPatchExclamationFill,
+    BOOTSTRAP_PATCH_EXCLAMATION_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPatchExclamation,
+    BOOTSTRAP_PATCH_EXCLAMATION,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPatchMinusFill,
+    BOOTSTRAP_PATCH_MINUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPatchMinus,
+    BOOTSTRAP_PATCH_MINUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPatchPlusFill,
+    BOOTSTRAP_PATCH_PLUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPatchPlus,
+    BOOTSTRAP_PATCH_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPatchQuestionFill,
+    BOOTSTRAP_PATCH_QUESTION_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPatchQuestion,
+    BOOTSTRAP_PATCH_QUESTION,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPauseBtnFill,
+    BOOTSTRAP_PAUSE_BTN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPauseBtn,
+    BOOTSTRAP_PAUSE_BTN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPauseCircleFill,
+    BOOTSTRAP_PAUSE_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPauseCircle,
+    BOOTSTRAP_PAUSE_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPauseFill,
+    BOOTSTRAP_PAUSE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPause,
+    BOOTSTRAP_PAUSE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPaypal,
+    BOOTSTRAP_PAYPAL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPcDisplayHorizontal,
+    BOOTSTRAP_PC_DISPLAY_HORIZONTAL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPcDisplay,
+    BOOTSTRAP_PC_DISPLAY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPcHorizontal,
+    BOOTSTRAP_PC_HORIZONTAL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPc,
+    BOOTSTRAP_PC,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPciCard,
+    BOOTSTRAP_PCI_CARD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPeaceFill,
+    BOOTSTRAP_PEACE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPeace,
+    BOOTSTRAP_PEACE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPenFill,
+    BOOTSTRAP_PEN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPen,
+    BOOTSTRAP_PEN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPencilFill,
+    BOOTSTRAP_PENCIL_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPencilSquare,
+    BOOTSTRAP_PENCIL_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPencil,
+    BOOTSTRAP_PENCIL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPentagonFill,
+    BOOTSTRAP_PENTAGON_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPentagonHalf,
+    BOOTSTRAP_PENTAGON_HALF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPentagon,
+    BOOTSTRAP_PENTAGON,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPeopleFill,
+    BOOTSTRAP_PEOPLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPeople,
+    BOOTSTRAP_PEOPLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPercent,
+    BOOTSTRAP_PERCENT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonBadgeFill,
+    BOOTSTRAP_PERSON_BADGE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonBadge,
+    BOOTSTRAP_PERSON_BADGE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonBoundingBox,
+    BOOTSTRAP_PERSON_BOUNDING_BOX,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonCheckFill,
+    BOOTSTRAP_PERSON_CHECK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonCheck,
+    BOOTSTRAP_PERSON_CHECK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonCircle,
+    BOOTSTRAP_PERSON_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonDashFill,
+    BOOTSTRAP_PERSON_DASH_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonDash,
+    BOOTSTRAP_PERSON_DASH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonFill,
+    BOOTSTRAP_PERSON_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonHeart,
+    BOOTSTRAP_PERSON_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonHearts,
+    BOOTSTRAP_PERSON_HEARTS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonLinesFill,
+    BOOTSTRAP_PERSON_LINES_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonPlusFill,
+    BOOTSTRAP_PERSON_PLUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonPlus,
+    BOOTSTRAP_PERSON_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonRolodex,
+    BOOTSTRAP_PERSON_ROLODEX,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonSquare,
+    BOOTSTRAP_PERSON_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonVideo,
+    BOOTSTRAP_PERSON_VIDEO,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonVideo2,
+    BOOTSTRAP_PERSON_VIDEO_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonVideo3,
+    BOOTSTRAP_PERSON_VIDEO_3,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonWorkspace,
+    BOOTSTRAP_PERSON_WORKSPACE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonXFill,
+    BOOTSTRAP_PERSON_X_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPersonX,
+    BOOTSTRAP_PERSON_X,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPerson,
+    BOOTSTRAP_PERSON,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPhoneFill,
+    BOOTSTRAP_PHONE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPhoneFlip,
+    BOOTSTRAP_PHONE_FLIP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPhoneLandscapeFill,
+    BOOTSTRAP_PHONE_LANDSCAPE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPhoneLandscape,
+    BOOTSTRAP_PHONE_LANDSCAPE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPhoneVibrateFill,
+    BOOTSTRAP_PHONE_VIBRATE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPhoneVibrate,
+    BOOTSTRAP_PHONE_VIBRATE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPhone,
+    BOOTSTRAP_PHONE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPieChartFill,
+    BOOTSTRAP_PIE_CHART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPieChart,
+    BOOTSTRAP_PIE_CHART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPiggyBankFill,
+    BOOTSTRAP_PIGGY_BANK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPiggyBank,
+    BOOTSTRAP_PIGGY_BANK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPinAngleFill,
+    BOOTSTRAP_PIN_ANGLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPinAngle,
+    BOOTSTRAP_PIN_ANGLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPinFill,
+    BOOTSTRAP_PIN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPinMapFill,
+    BOOTSTRAP_PIN_MAP_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPinMap,
+    BOOTSTRAP_PIN_MAP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPin,
+    BOOTSTRAP_PIN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPinterest,
+    BOOTSTRAP_PINTEREST,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPipFill,
+    BOOTSTRAP_PIP_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPip,
+    BOOTSTRAP_PIP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPlayBtnFill,
+    BOOTSTRAP_PLAY_BTN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPlayBtn,
+    BOOTSTRAP_PLAY_BTN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPlayCircleFill,
+    BOOTSTRAP_PLAY_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPlayCircle,
+    BOOTSTRAP_PLAY_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPlayFill,
+    BOOTSTRAP_PLAY_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPlay,
+    BOOTSTRAP_PLAY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPlaystation,
+    BOOTSTRAP_PLAYSTATION,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPlugFill,
+    BOOTSTRAP_PLUG_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPlug,
+    BOOTSTRAP_PLUG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPlugin,
+    BOOTSTRAP_PLUGIN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPlusCircleDotted,
+    BOOTSTRAP_PLUS_CIRCLE_DOTTED,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPlusCircleFill,
+    BOOTSTRAP_PLUS_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPlusCircle,
+    BOOTSTRAP_PLUS_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPlusLg,
+    BOOTSTRAP_PLUS_LG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPlusSlashMinus,
+    BOOTSTRAP_PLUS_SLASH_MINUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPlusSquareDotted,
+    BOOTSTRAP_PLUS_SQUARE_DOTTED,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPlusSquareFill,
+    BOOTSTRAP_PLUS_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPlusSquare,
+    BOOTSTRAP_PLUS_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPlus,
+    BOOTSTRAP_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPostageFill,
+    BOOTSTRAP_POSTAGE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPostageHeartFill,
+    BOOTSTRAP_POSTAGE_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPostageHeart,
+    BOOTSTRAP_POSTAGE_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPostage,
+    BOOTSTRAP_POSTAGE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPostcardFill,
+    BOOTSTRAP_POSTCARD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPostcardHeartFill,
+    BOOTSTRAP_POSTCARD_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPostcardHeart,
+    BOOTSTRAP_POSTCARD_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPostcard,
+    BOOTSTRAP_POSTCARD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPower,
+    BOOTSTRAP_POWER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPrinterFill,
+    BOOTSTRAP_PRINTER_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPrinter,
+    BOOTSTRAP_PRINTER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapProjectorFill,
+    BOOTSTRAP_PROJECTOR_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapProjector,
+    BOOTSTRAP_PROJECTOR,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPuzzleFill,
+    BOOTSTRAP_PUZZLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapPuzzle,
+    BOOTSTRAP_PUZZLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapQrCodeScan,
+    BOOTSTRAP_QR_CODE_SCAN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapQrCode,
+    BOOTSTRAP_QR_CODE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapQuestionCircleFill,
+    BOOTSTRAP_QUESTION_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapQuestionCircle,
+    BOOTSTRAP_QUESTION_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapQuestionDiamondFill,
+    BOOTSTRAP_QUESTION_DIAMOND_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapQuestionDiamond,
+    BOOTSTRAP_QUESTION_DIAMOND,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapQuestionLg,
+    BOOTSTRAP_QUESTION_LG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapQuestionOctagonFill,
+    BOOTSTRAP_QUESTION_OCTAGON_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapQuestionOctagon,
+    BOOTSTRAP_QUESTION_OCTAGON,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapQuestionSquareFill,
+    BOOTSTRAP_QUESTION_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapQuestionSquare,
+    BOOTSTRAP_QUESTION_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapQuestion,
+    BOOTSTRAP_QUESTION,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapQuora,
+    BOOTSTRAP_QUORA,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapQuote,
+    BOOTSTRAP_QUOTE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapRadioactive,
+    BOOTSTRAP_RADIOACTIVE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapRainbow,
+    BOOTSTRAP_RAINBOW,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapReceiptCutoff,
+    BOOTSTRAP_RECEIPT_CUTOFF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapReceipt,
+    BOOTSTRAP_RECEIPT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapReception0,
+    BOOTSTRAP_RECEPTION_0,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapReception1,
+    BOOTSTRAP_RECEPTION_1,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapReception2,
+    BOOTSTRAP_RECEPTION_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapReception3,
+    BOOTSTRAP_RECEPTION_3,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapReception4,
+    BOOTSTRAP_RECEPTION_4,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapRecordBtnFill,
+    BOOTSTRAP_RECORD_BTN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapRecordBtn,
+    BOOTSTRAP_RECORD_BTN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapRecordCircleFill,
+    BOOTSTRAP_RECORD_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapRecordCircle,
+    BOOTSTRAP_RECORD_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapRecordFill,
+    BOOTSTRAP_RECORD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapRecord,
+    BOOTSTRAP_RECORD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapRecord2Fill,
+    BOOTSTRAP_RECORD_2_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapRecord2,
+    BOOTSTRAP_RECORD_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapRecycle,
+    BOOTSTRAP_RECYCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapReddit,
+    BOOTSTRAP_REDDIT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapReplyAllFill,
+    BOOTSTRAP_REPLY_ALL_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapReplyAll,
+    BOOTSTRAP_REPLY_ALL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapReplyFill,
+    BOOTSTRAP_REPLY_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapReply,
+    BOOTSTRAP_REPLY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapRobot,
+    BOOTSTRAP_ROBOT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapRouterFill,
+    BOOTSTRAP_ROUTER_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapRouter,
+    BOOTSTRAP_ROUTER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapRssFill,
+    BOOTSTRAP_RSS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapRss,
+    BOOTSTRAP_RSS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapRulers,
+    BOOTSTRAP_RULERS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSafeFill,
+    BOOTSTRAP_SAFE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSafe,
+    BOOTSTRAP_SAFE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSafe2Fill,
+    BOOTSTRAP_SAFE_2_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSafe2,
+    BOOTSTRAP_SAFE_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSaveFill,
+    BOOTSTRAP_SAVE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSave,
+    BOOTSTRAP_SAVE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSave2Fill,
+    BOOTSTRAP_SAVE_2_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSave2,
+    BOOTSTRAP_SAVE_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapScissors,
+    BOOTSTRAP_SCISSORS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapScrewdriver,
+    BOOTSTRAP_SCREWDRIVER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSdCardFill,
+    BOOTSTRAP_SD_CARD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSdCard,
+    BOOTSTRAP_SD_CARD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSearchHeartFill,
+    BOOTSTRAP_SEARCH_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSearchHeart,
+    BOOTSTRAP_SEARCH_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSearch,
+    BOOTSTRAP_SEARCH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSegmentedNav,
+    BOOTSTRAP_SEGMENTED_NAV,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSendCheckFill,
+    BOOTSTRAP_SEND_CHECK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSendCheck,
+    BOOTSTRAP_SEND_CHECK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSendDashFill,
+    BOOTSTRAP_SEND_DASH_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSendDash,
+    BOOTSTRAP_SEND_DASH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSendExclamationFill,
+    BOOTSTRAP_SEND_EXCLAMATION_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSendExclamation,
+    BOOTSTRAP_SEND_EXCLAMATION,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSendFill,
+    BOOTSTRAP_SEND_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSendPlusFill,
+    BOOTSTRAP_SEND_PLUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSendPlus,
+    BOOTSTRAP_SEND_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSendSlashFill,
+    BOOTSTRAP_SEND_SLASH_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSendSlash,
+    BOOTSTRAP_SEND_SLASH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSendXFill,
+    BOOTSTRAP_SEND_X_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSendX,
+    BOOTSTRAP_SEND_X,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSend,
+    BOOTSTRAP_SEND,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapServer,
+    BOOTSTRAP_SERVER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShareFill,
+    BOOTSTRAP_SHARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShare,
+    BOOTSTRAP_SHARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShieldCheck,
+    BOOTSTRAP_SHIELD_CHECK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShieldExclamation,
+    BOOTSTRAP_SHIELD_EXCLAMATION,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShieldFillCheck,
+    BOOTSTRAP_SHIELD_FILL_CHECK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShieldFillExclamation,
+    BOOTSTRAP_SHIELD_FILL_EXCLAMATION,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShieldFillMinus,
+    BOOTSTRAP_SHIELD_FILL_MINUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShieldFillPlus,
+    BOOTSTRAP_SHIELD_FILL_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShieldFillX,
+    BOOTSTRAP_SHIELD_FILL_X,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShieldFill,
+    BOOTSTRAP_SHIELD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShieldLockFill,
+    BOOTSTRAP_SHIELD_LOCK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShieldLock,
+    BOOTSTRAP_SHIELD_LOCK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShieldMinus,
+    BOOTSTRAP_SHIELD_MINUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShieldPlus,
+    BOOTSTRAP_SHIELD_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShieldShaded,
+    BOOTSTRAP_SHIELD_SHADED,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShieldSlashFill,
+    BOOTSTRAP_SHIELD_SLASH_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShieldSlash,
+    BOOTSTRAP_SHIELD_SLASH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShieldX,
+    BOOTSTRAP_SHIELD_X,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShield,
+    BOOTSTRAP_SHIELD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShiftFill,
+    BOOTSTRAP_SHIFT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShift,
+    BOOTSTRAP_SHIFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShopWindow,
+    BOOTSTRAP_SHOP_WINDOW,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShop,
+    BOOTSTRAP_SHOP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapShuffle,
+    BOOTSTRAP_SHUFFLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSignal,
+    BOOTSTRAP_SIGNAL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSignpost2Fill,
+    BOOTSTRAP_SIGNPOST_2_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSignpost2,
+    BOOTSTRAP_SIGNPOST_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSignpostFill,
+    BOOTSTRAP_SIGNPOST_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSignpostSplitFill,
+    BOOTSTRAP_SIGNPOST_SPLIT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSignpostSplit,
+    BOOTSTRAP_SIGNPOST_SPLIT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSignpost,
+    BOOTSTRAP_SIGNPOST,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSimFill,
+    BOOTSTRAP_SIM_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSim,
+    BOOTSTRAP_SIM,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipBackwardBtnFill,
+    BOOTSTRAP_SKIP_BACKWARD_BTN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipBackwardBtn,
+    BOOTSTRAP_SKIP_BACKWARD_BTN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipBackwardCircleFill,
+    BOOTSTRAP_SKIP_BACKWARD_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipBackwardCircle,
+    BOOTSTRAP_SKIP_BACKWARD_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipBackwardFill,
+    BOOTSTRAP_SKIP_BACKWARD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipBackward,
+    BOOTSTRAP_SKIP_BACKWARD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipEndBtnFill,
+    BOOTSTRAP_SKIP_END_BTN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipEndBtn,
+    BOOTSTRAP_SKIP_END_BTN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipEndCircleFill,
+    BOOTSTRAP_SKIP_END_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipEndCircle,
+    BOOTSTRAP_SKIP_END_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipEndFill,
+    BOOTSTRAP_SKIP_END_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipEnd,
+    BOOTSTRAP_SKIP_END,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipForwardBtnFill,
+    BOOTSTRAP_SKIP_FORWARD_BTN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipForwardBtn,
+    BOOTSTRAP_SKIP_FORWARD_BTN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipForwardCircleFill,
+    BOOTSTRAP_SKIP_FORWARD_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipForwardCircle,
+    BOOTSTRAP_SKIP_FORWARD_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipForwardFill,
+    BOOTSTRAP_SKIP_FORWARD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipForward,
+    BOOTSTRAP_SKIP_FORWARD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipStartBtnFill,
+    BOOTSTRAP_SKIP_START_BTN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipStartBtn,
+    BOOTSTRAP_SKIP_START_BTN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipStartCircleFill,
+    BOOTSTRAP_SKIP_START_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipStartCircle,
+    BOOTSTRAP_SKIP_START_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipStartFill,
+    BOOTSTRAP_SKIP_START_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkipStart,
+    BOOTSTRAP_SKIP_START,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSkype,
+    BOOTSTRAP_SKYPE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSlack,
+    BOOTSTRAP_SLACK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSlashCircleFill,
+    BOOTSTRAP_SLASH_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSlashCircle,
+    BOOTSTRAP_SLASH_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSlashLg,
+    BOOTSTRAP_SLASH_LG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSlashSquareFill,
+    BOOTSTRAP_SLASH_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSlashSquare,
+    BOOTSTRAP_SLASH_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSlash,
+    BOOTSTRAP_SLASH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSliders,
+    BOOTSTRAP_SLIDERS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSliders2Vertical,
+    BOOTSTRAP_SLIDERS_2_VERTICAL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSliders2,
+    BOOTSTRAP_SLIDERS_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSmartwatch,
+    BOOTSTRAP_SMARTWATCH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSnapchat,
+    BOOTSTRAP_SNAPCHAT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSnow,
+    BOOTSTRAP_SNOW,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSnow2,
+    BOOTSTRAP_SNOW_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSnow3,
+    BOOTSTRAP_SNOW_3,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSortAlphaDownAlt,
+    BOOTSTRAP_SORT_ALPHA_DOWN_ALT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSortAlphaDown,
+    BOOTSTRAP_SORT_ALPHA_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSortAlphaUpAlt,
+    BOOTSTRAP_SORT_ALPHA_UP_ALT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSortAlphaUp,
+    BOOTSTRAP_SORT_ALPHA_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSortDownAlt,
+    BOOTSTRAP_SORT_DOWN_ALT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSortDown,
+    BOOTSTRAP_SORT_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSortNumericDownAlt,
+    BOOTSTRAP_SORT_NUMERIC_DOWN_ALT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSortNumericDown,
+    BOOTSTRAP_SORT_NUMERIC_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSortNumericUpAlt,
+    BOOTSTRAP_SORT_NUMERIC_UP_ALT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSortNumericUp,
+    BOOTSTRAP_SORT_NUMERIC_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSortUpAlt,
+    BOOTSTRAP_SORT_UP_ALT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSortUp,
+    BOOTSTRAP_SORT_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSoundwave,
+    BOOTSTRAP_SOUNDWAVE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSpeakerFill,
+    BOOTSTRAP_SPEAKER_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSpeaker,
+    BOOTSTRAP_SPEAKER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSpeedometer,
+    BOOTSTRAP_SPEEDOMETER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSpeedometer2,
+    BOOTSTRAP_SPEEDOMETER_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSpellcheck,
+    BOOTSTRAP_SPELLCHECK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSpotify,
+    BOOTSTRAP_SPOTIFY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSquareFill,
+    BOOTSTRAP_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSquareHalf,
+    BOOTSTRAP_SQUARE_HALF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSquare,
+    BOOTSTRAP_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapStackOverflow,
+    BOOTSTRAP_STACK_OVERFLOW,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapStack,
+    BOOTSTRAP_STACK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapStarFill,
+    BOOTSTRAP_STAR_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapStarHalf,
+    BOOTSTRAP_STAR_HALF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapStar,
+    BOOTSTRAP_STAR,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapStars,
+    BOOTSTRAP_STARS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSteam,
+    BOOTSTRAP_STEAM,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapStickiesFill,
+    BOOTSTRAP_STICKIES_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapStickies,
+    BOOTSTRAP_STICKIES,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapStickyFill,
+    BOOTSTRAP_STICKY_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSticky,
+    BOOTSTRAP_STICKY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapStopBtnFill,
+    BOOTSTRAP_STOP_BTN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapStopBtn,
+    BOOTSTRAP_STOP_BTN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapStopCircleFill,
+    BOOTSTRAP_STOP_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapStopCircle,
+    BOOTSTRAP_STOP_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapStopFill,
+    BOOTSTRAP_STOP_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapStop,
+    BOOTSTRAP_STOP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapStoplightsFill,
+    BOOTSTRAP_STOPLIGHTS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapStoplights,
+    BOOTSTRAP_STOPLIGHTS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapStopwatchFill,
+    BOOTSTRAP_STOPWATCH_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapStopwatch,
+    BOOTSTRAP_STOPWATCH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapStrava,
+    BOOTSTRAP_STRAVA,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSubtract,
+    BOOTSTRAP_SUBTRACT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSuitClubFill,
+    BOOTSTRAP_SUIT_CLUB_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSuitClub,
+    BOOTSTRAP_SUIT_CLUB,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSuitDiamondFill,
+    BOOTSTRAP_SUIT_DIAMOND_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSuitDiamond,
+    BOOTSTRAP_SUIT_DIAMOND,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSuitHeartFill,
+    BOOTSTRAP_SUIT_HEART_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSuitHeart,
+    BOOTSTRAP_SUIT_HEART,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSuitSpadeFill,
+    BOOTSTRAP_SUIT_SPADE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSuitSpade,
+    BOOTSTRAP_SUIT_SPADE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSunFill,
+    BOOTSTRAP_SUN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSun,
+    BOOTSTRAP_SUN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSunglasses,
+    BOOTSTRAP_SUNGLASSES,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSunriseFill,
+    BOOTSTRAP_SUNRISE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSunrise,
+    BOOTSTRAP_SUNRISE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSunsetFill,
+    BOOTSTRAP_SUNSET_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSunset,
+    BOOTSTRAP_SUNSET,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSymmetryHorizontal,
+    BOOTSTRAP_SYMMETRY_HORIZONTAL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapSymmetryVertical,
+    BOOTSTRAP_SYMMETRY_VERTICAL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTable,
+    BOOTSTRAP_TABLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTabletFill,
+    BOOTSTRAP_TABLET_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTabletLandscapeFill,
+    BOOTSTRAP_TABLET_LANDSCAPE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTabletLandscape,
+    BOOTSTRAP_TABLET_LANDSCAPE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTablet,
+    BOOTSTRAP_TABLET,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTagFill,
+    BOOTSTRAP_TAG_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTag,
+    BOOTSTRAP_TAG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTagsFill,
+    BOOTSTRAP_TAGS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTags,
+    BOOTSTRAP_TAGS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTelegram,
+    BOOTSTRAP_TELEGRAM,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTelephoneFill,
+    BOOTSTRAP_TELEPHONE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTelephoneForwardFill,
+    BOOTSTRAP_TELEPHONE_FORWARD_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTelephoneForward,
+    BOOTSTRAP_TELEPHONE_FORWARD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTelephoneInboundFill,
+    BOOTSTRAP_TELEPHONE_INBOUND_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTelephoneInbound,
+    BOOTSTRAP_TELEPHONE_INBOUND,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTelephoneMinusFill,
+    BOOTSTRAP_TELEPHONE_MINUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTelephoneMinus,
+    BOOTSTRAP_TELEPHONE_MINUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTelephoneOutboundFill,
+    BOOTSTRAP_TELEPHONE_OUTBOUND_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTelephoneOutbound,
+    BOOTSTRAP_TELEPHONE_OUTBOUND,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTelephonePlusFill,
+    BOOTSTRAP_TELEPHONE_PLUS_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTelephonePlus,
+    BOOTSTRAP_TELEPHONE_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTelephoneXFill,
+    BOOTSTRAP_TELEPHONE_X_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTelephoneX,
+    BOOTSTRAP_TELEPHONE_X,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTelephone,
+    BOOTSTRAP_TELEPHONE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTerminalDash,
+    BOOTSTRAP_TERMINAL_DASH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTerminalFill,
+    BOOTSTRAP_TERMINAL_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTerminalPlus,
+    BOOTSTRAP_TERMINAL_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTerminalSplit,
+    BOOTSTRAP_TERMINAL_SPLIT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTerminalX,
+    BOOTSTRAP_TERMINAL_X,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTerminal,
+    BOOTSTRAP_TERMINAL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTextCenter,
+    BOOTSTRAP_TEXT_CENTER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTextIndentLeft,
+    BOOTSTRAP_TEXT_INDENT_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTextIndentRight,
+    BOOTSTRAP_TEXT_INDENT_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTextLeft,
+    BOOTSTRAP_TEXT_LEFT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTextParagraph,
+    BOOTSTRAP_TEXT_PARAGRAPH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTextRight,
+    BOOTSTRAP_TEXT_RIGHT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTextareaResize,
+    BOOTSTRAP_TEXTAREA_RESIZE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTextareaT,
+    BOOTSTRAP_TEXTAREA_T,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTextarea,
+    BOOTSTRAP_TEXTAREA,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapThermometerHalf,
+    BOOTSTRAP_THERMOMETER_HALF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapThermometerHigh,
+    BOOTSTRAP_THERMOMETER_HIGH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapThermometerLow,
+    BOOTSTRAP_THERMOMETER_LOW,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapThermometerSnow,
+    BOOTSTRAP_THERMOMETER_SNOW,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapThermometerSun,
+    BOOTSTRAP_THERMOMETER_SUN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapThermometer,
+    BOOTSTRAP_THERMOMETER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapThreeDotsVertical,
+    BOOTSTRAP_THREE_DOTS_VERTICAL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapThreeDots,
+    BOOTSTRAP_THREE_DOTS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapThunderboltFill,
+    BOOTSTRAP_THUNDERBOLT_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapThunderbolt,
+    BOOTSTRAP_THUNDERBOLT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTicketDetailedFill,
+    BOOTSTRAP_TICKET_DETAILED_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTicketDetailed,
+    BOOTSTRAP_TICKET_DETAILED,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTicketFill,
+    BOOTSTRAP_TICKET_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTicketPerforatedFill,
+    BOOTSTRAP_TICKET_PERFORATED_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTicketPerforated,
+    BOOTSTRAP_TICKET_PERFORATED,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTicket,
+    BOOTSTRAP_TICKET,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTiktok,
+    BOOTSTRAP_TIKTOK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapToggleOff,
+    BOOTSTRAP_TOGGLE_OFF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapToggleOn,
+    BOOTSTRAP_TOGGLE_ON,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapToggle2Off,
+    BOOTSTRAP_TOGGLE_2_OFF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapToggle2On,
+    BOOTSTRAP_TOGGLE_2_ON,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapToggles,
+    BOOTSTRAP_TOGGLES,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapToggles2,
+    BOOTSTRAP_TOGGLES_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTools,
+    BOOTSTRAP_TOOLS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTornado,
+    BOOTSTRAP_TORNADO,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTranslate,
+    BOOTSTRAP_TRANSLATE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTrashFill,
+    BOOTSTRAP_TRASH_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTrash,
+    BOOTSTRAP_TRASH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTrash2Fill,
+    BOOTSTRAP_TRASH_2_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTrash2,
+    BOOTSTRAP_TRASH_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTrash3Fill,
+    BOOTSTRAP_TRASH_3_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTrash3,
+    BOOTSTRAP_TRASH_3,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTreeFill,
+    BOOTSTRAP_TREE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTree,
+    BOOTSTRAP_TREE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTriangleFill,
+    BOOTSTRAP_TRIANGLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTriangleHalf,
+    BOOTSTRAP_TRIANGLE_HALF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTriangle,
+    BOOTSTRAP_TRIANGLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTrophyFill,
+    BOOTSTRAP_TROPHY_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTrophy,
+    BOOTSTRAP_TROPHY,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTropicalStorm,
+    BOOTSTRAP_TROPICAL_STORM,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTruckFlatbed,
+    BOOTSTRAP_TRUCK_FLATBED,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTruck,
+    BOOTSTRAP_TRUCK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTsunami,
+    BOOTSTRAP_TSUNAMI,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTvFill,
+    BOOTSTRAP_TV_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTv,
+    BOOTSTRAP_TV,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTwitch,
+    BOOTSTRAP_TWITCH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTwitter,
+    BOOTSTRAP_TWITTER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTypeBold,
+    BOOTSTRAP_TYPE_BOLD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTypeH1,
+    BOOTSTRAP_TYPE_H_1,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTypeH2,
+    BOOTSTRAP_TYPE_H_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTypeH3,
+    BOOTSTRAP_TYPE_H_3,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTypeItalic,
+    BOOTSTRAP_TYPE_ITALIC,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTypeStrikethrough,
+    BOOTSTRAP_TYPE_STRIKETHROUGH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapTypeUnderline,
+    BOOTSTRAP_TYPE_UNDERLINE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapType,
+    BOOTSTRAP_TYPE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUiChecksGrid,
+    BOOTSTRAP_UI_CHECKS_GRID,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUiChecks,
+    BOOTSTRAP_UI_CHECKS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUiRadiosGrid,
+    BOOTSTRAP_UI_RADIOS_GRID,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUiRadios,
+    BOOTSTRAP_UI_RADIOS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUmbrellaFill,
+    BOOTSTRAP_UMBRELLA_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUmbrella,
+    BOOTSTRAP_UMBRELLA,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUnion,
+    BOOTSTRAP_UNION,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUnlockFill,
+    BOOTSTRAP_UNLOCK_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUnlock,
+    BOOTSTRAP_UNLOCK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUpcScan,
+    BOOTSTRAP_UPC_SCAN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUpc,
+    BOOTSTRAP_UPC,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUpload,
+    BOOTSTRAP_UPLOAD,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUsbCFill,
+    BOOTSTRAP_USB_C_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUsbC,
+    BOOTSTRAP_USB_C,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUsbDriveFill,
+    BOOTSTRAP_USB_DRIVE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUsbDrive,
+    BOOTSTRAP_USB_DRIVE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUsbFill,
+    BOOTSTRAP_USB_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUsbMicroFill,
+    BOOTSTRAP_USB_MICRO_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUsbMicro,
+    BOOTSTRAP_USB_MICRO,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUsbMiniFill,
+    BOOTSTRAP_USB_MINI_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUsbMini,
+    BOOTSTRAP_USB_MINI,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUsbPlugFill,
+    BOOTSTRAP_USB_PLUG_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUsbPlug,
+    BOOTSTRAP_USB_PLUG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUsbSymbol,
+    BOOTSTRAP_USB_SYMBOL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapUsb,
+    BOOTSTRAP_USB,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapValentine,
+    BOOTSTRAP_VALENTINE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapValentine2,
+    BOOTSTRAP_VALENTINE_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapVectorPen,
+    BOOTSTRAP_VECTOR_PEN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapViewList,
+    BOOTSTRAP_VIEW_LIST,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapViewStacked,
+    BOOTSTRAP_VIEW_STACKED,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapVimeo,
+    BOOTSTRAP_VIMEO,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapVinylFill,
+    BOOTSTRAP_VINYL_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapVinyl,
+    BOOTSTRAP_VINYL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapVoicemail,
+    BOOTSTRAP_VOICEMAIL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapVolumeDownFill,
+    BOOTSTRAP_VOLUME_DOWN_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapVolumeDown,
+    BOOTSTRAP_VOLUME_DOWN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapVolumeMuteFill,
+    BOOTSTRAP_VOLUME_MUTE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapVolumeMute,
+    BOOTSTRAP_VOLUME_MUTE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapVolumeOffFill,
+    BOOTSTRAP_VOLUME_OFF_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapVolumeOff,
+    BOOTSTRAP_VOLUME_OFF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapVolumeUpFill,
+    BOOTSTRAP_VOLUME_UP_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapVolumeUp,
+    BOOTSTRAP_VOLUME_UP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapVr,
+    BOOTSTRAP_VR,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWalletFill,
+    BOOTSTRAP_WALLET_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWallet,
+    BOOTSTRAP_WALLET,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWallet2,
+    BOOTSTRAP_WALLET_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWatch,
+    BOOTSTRAP_WATCH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWater,
+    BOOTSTRAP_WATER,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWebcamFill,
+    BOOTSTRAP_WEBCAM_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWebcam,
+    BOOTSTRAP_WEBCAM,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWhatsapp,
+    BOOTSTRAP_WHATSAPP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWifi1,
+    BOOTSTRAP_WIFI_1,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWifi2,
+    BOOTSTRAP_WIFI_2,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWifiOff,
+    BOOTSTRAP_WIFI_OFF,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWifi,
+    BOOTSTRAP_WIFI,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWind,
+    BOOTSTRAP_WIND,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWindowDash,
+    BOOTSTRAP_WINDOW_DASH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWindowDesktop,
+    BOOTSTRAP_WINDOW_DESKTOP,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWindowDock,
+    BOOTSTRAP_WINDOW_DOCK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWindowFullscreen,
+    BOOTSTRAP_WINDOW_FULLSCREEN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWindowPlus,
+    BOOTSTRAP_WINDOW_PLUS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWindowSidebar,
+    BOOTSTRAP_WINDOW_SIDEBAR,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWindowSplit,
+    BOOTSTRAP_WINDOW_SPLIT,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWindowStack,
+    BOOTSTRAP_WINDOW_STACK,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWindowX,
+    BOOTSTRAP_WINDOW_X,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWindow,
+    BOOTSTRAP_WINDOW,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWindows,
+    BOOTSTRAP_WINDOWS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWordpress,
+    BOOTSTRAP_WORDPRESS,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWrenchAdjustableCircleFill,
+    BOOTSTRAP_WRENCH_ADJUSTABLE_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWrenchAdjustableCircle,
+    BOOTSTRAP_WRENCH_ADJUSTABLE_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWrenchAdjustable,
+    BOOTSTRAP_WRENCH_ADJUSTABLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapWrench,
+    BOOTSTRAP_WRENCH,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapXCircleFill,
+    BOOTSTRAP_X_CIRCLE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapXCircle,
+    BOOTSTRAP_X_CIRCLE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapXDiamondFill,
+    BOOTSTRAP_X_DIAMOND_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapXDiamond,
+    BOOTSTRAP_X_DIAMOND,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapXLg,
+    BOOTSTRAP_X_LG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapXOctagonFill,
+    BOOTSTRAP_X_OCTAGON_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapXOctagon,
+    BOOTSTRAP_X_OCTAGON,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapXSquareFill,
+    BOOTSTRAP_X_SQUARE_FILL,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapXSquare,
+    BOOTSTRAP_X_SQUARE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapX,
+    BOOTSTRAP_X,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapXbox,
+    BOOTSTRAP_XBOX,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapYinYang,
+    BOOTSTRAP_YIN_YANG,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapYoutube,
+    BOOTSTRAP_YOUTUBE,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapZoomIn,
+    BOOTSTRAP_ZOOM_IN,
     #[cfg(feature = "bootstrap")]
-    Self::BootstrapZoomOut,
+    BOOTSTRAP_ZOOM_OUT,
     #[cfg(feature = "feather")]
-    Self::FeatherActivity,
+    FEATHER_ACTIVITY,
     #[cfg(feature = "feather")]
-    Self::FeatherAirplay,
+    FEATHER_AIRPLAY,
     #[cfg(feature = "feather")]
-    Self::FeatherAlertCircle,
+    FEATHER_ALERT_CIRCLE,
     #[cfg(feature = "feather")]
-    Self::FeatherAlertOctagon,
+    FEATHER_ALERT_OCTAGON,
     #[cfg(feature = "feather")]
-    Self::FeatherAlertTriangle,
+    FEATHER_ALERT_TRIANGLE,
     #[cfg(feature = "feather")]
-    Self::FeatherAlignCenter,
+    FEATHER_ALIGN_CENTER,
     #[cfg(feature = "feather")]
-    Self::FeatherAlignJustify,
+    FEATHER_ALIGN_JUSTIFY,
     #[cfg(feature = "feather")]
-    Self::FeatherAlignLeft,
+    FEATHER_ALIGN_LEFT,
     #[cfg(feature = "feather")]
-    Self::FeatherAlignRight,
+    FEATHER_ALIGN_RIGHT,
     #[cfg(feature = "feather")]
-    Self::FeatherAnchor,
+    FEATHER_ANCHOR,
     #[cfg(feature = "feather")]
-    Self::FeatherAperture,
+    FEATHER_APERTURE,
     #[cfg(feature = "feather")]
-    Self::FeatherArchive,
+    FEATHER_ARCHIVE,
     #[cfg(feature = "feather")]
-    Self::FeatherArrowDownCircle,
+    FEATHER_ARROW_DOWN_CIRCLE,
     #[cfg(feature = "feather")]
-    Self::FeatherArrowDownLeft,
+    FEATHER_ARROW_DOWN_LEFT,
     #[cfg(feature = "feather")]
-    Self::FeatherArrowDownRight,
+    FEATHER_ARROW_DOWN_RIGHT,
     #[cfg(feature = "feather")]
-    Self::FeatherArrowDown,
+    FEATHER_ARROW_DOWN,
     #[cfg(feature = "feather")]
-    Self::FeatherArrowLeftCircle,
+    FEATHER_ARROW_LEFT_CIRCLE,
     #[cfg(feature = "feather")]
-    Self::FeatherArrowLeft,
+    FEATHER_ARROW_LEFT,
     #[cfg(feature = "feather")]
-    Self::FeatherArrowRightCircle,
+    FEATHER_ARROW_RIGHT_CIRCLE,
     #[cfg(feature = "feather")]
-    Self::FeatherArrowRight,
+    FEATHER_ARROW_RIGHT,
     #[cfg(feature = "feather")]
-    Self::FeatherArrowUpCircle,
+    FEATHER_ARROW_UP_CIRCLE,
     #[cfg(feature = "feather")]
-    Self::FeatherArrowUpLeft,
+    FEATHER_ARROW_UP_LEFT,
     #[cfg(feature = "feather")]
-    Self::FeatherArrowUpRight,
+    FEATHER_ARROW_UP_RIGHT,
     #[cfg(feature = "feather")]
-    Self::FeatherArrowUp,
+    FEATHER_ARROW_UP,
     #[cfg(feature = "feather")]
-    Self::FeatherAtSign,
+    FEATHER_AT_SIGN,
     #[cfg(feature = "feather")]
-    Self::FeatherAward,
+    FEATHER_AWARD,
     #[cfg(feature = "feather")]
-    Self::FeatherBarChart2,
+    FEATHER_BAR_CHART_2,
     #[cfg(feature = "feather")]
-    Self::FeatherBarChart,
+    FEATHER_BAR_CHART,
     #[cfg(feature = "feather")]
-    Self::FeatherBatteryCharging,
+    FEATHER_BATTERY_CHARGING,
     #[cfg(feature = "feather")]
-    Self::FeatherBattery,
+    FEATHER_BATTERY,
     #[cfg(feature = "feather")]
-    Self::FeatherBellOff,
+    FEATHER_BELL_OFF,
     #[cfg(feature = "feather")]
-    Self::FeatherBell,
+    FEATHER_BELL,
     #[cfg(feature = "feather")]
-    Self::FeatherBluetooth,
+    FEATHER_BLUETOOTH,
     #[cfg(feature = "feather")]
-    Self::FeatherBold,
+    FEATHER_BOLD,
     #[cfg(feature = "feather")]
-    Self::FeatherBookOpen,
+    FEATHER_BOOK_OPEN,
     #[cfg(feature = "feather")]
-    Self::FeatherBook,
+    FEATHER_BOOK,
     #[cfg(feature = "feather")]
-    Self::FeatherBookmark,
+    FEATHER_BOOKMARK,
     #[cfg(feature = "feather")]
-    Self::FeatherBox,
+    FEATHER_BOX,
     #[cfg(feature = "feather")]
-    Self::FeatherBriefcase,
+    FEATHER_BRIEFCASE,
     #[cfg(feature = "feather")]
-    Self::FeatherCalendar,
+    FEATHER_CALENDAR,
     #[cfg(feature = "feather")]
-    Self::FeatherCameraOff,
+    FEATHER_CAMERA_OFF,
     #[cfg(feature = "feather")]
-    Self::FeatherCamera,
+    FEATHER_CAMERA,
     #[cfg(feature = "feather")]
-    Self::FeatherCast,
+    FEATHER_CAST,
     #[cfg(feature = "feather")]
-    Self::FeatherCheckCircle,
+    FEATHER_CHECK_CIRCLE,
     #[cfg(feature = "feather")]
-    Self::FeatherCheckSquare,
+    FEATHER_CHECK_SQUARE,
     #[cfg(feature = "feather")]
-    Self::FeatherCheck,
+    FEATHER_CHECK,
     #[cfg(feature = "feather")]
-    Self::FeatherChevronDown,
+    FEATHER_CHEVRON_DOWN,
     #[cfg(feature = "feather")]
-    Self::FeatherChevronLeft,
+    FEATHER_CHEVRON_LEFT,
     #[cfg(feature = "feather")]
-    Self::FeatherChevronRight,
+    FEATHER_CHEVRON_RIGHT,
     #[cfg(feature = "feather")]
-    Self::FeatherChevronUp,
+    FEATHER_CHEVRON_UP,
     #[cfg(feature = "feather")]
-    Self::FeatherChevronsDown,
+    FEATHER_CHEVRONS_DOWN,
     #[cfg(feature = "feather")]
-    Self::FeatherChevronsLeft,
+    FEATHER_CHEVRONS_LEFT,
     #[cfg(feature = "feather")]
-    Self::FeatherChevronsRight,
+    FEATHER_CHEVRONS_RIGHT,
     #[cfg(feature = "feather")]
-    Self::FeatherChevronsUp,
+    FEATHER_CHEVRONS_UP,
     #[cfg(feature = "feather")]
-    Self::FeatherChrome,
+    FEATHER_CHROME,
     #[cfg(feature = "feather")]
-    Self::FeatherCircle,
+    FEATHER_CIRCLE,
     #[cfg(feature = "feather")]
-    Self::FeatherClipboard,
+    FEATHER_CLIPBOARD,
     #[cfg(feature = "feather")]
-    Self::FeatherClock,
+    FEATHER_CLOCK,
     #[cfg(feature = "feather")]
-    Self::FeatherCloudDrizzle,
+    FEATHER_CLOUD_DRIZZLE,
     #[cfg(feature = "feather")]
-    Self::FeatherCloudLightning,
+    FEATHER_CLOUD_LIGHTNING,
     #[cfg(feature = "feather")]
-    Self::FeatherCloudOff,
+    FEATHER_CLOUD_OFF,
     #[cfg(feature = "feather")]
-    Self::FeatherCloudRain,
+    FEATHER_CLOUD_RAIN,
     #[cfg(feature = "feather")]
-    Self::FeatherCloudSnow,
+    FEATHER_CLOUD_SNOW,
     #[cfg(feature = "feather")]
-    Self::FeatherCloud,
+    FEATHER_CLOUD,
     #[cfg(feature = "feather")]
-    Self::FeatherCode,
+    FEATHER_CODE,
     #[cfg(feature = "feather")]
-    Self::FeatherCodepen,
+    FEATHER_CODEPEN,
     #[cfg(feature = "feather")]
-    Self::FeatherCodesandbox,
+    FEATHER_CODESANDBOX,
     #[cfg(feature = "feather")]
-    Self::FeatherCoffee,
+    FEATHER_COFFEE,
     #[cfg(feature = "feather")]
-    Self::FeatherColumns,
+    FEATHER_COLUMNS,
     #[cfg(feature = "feather")]
-    Self::FeatherCommand,
+    FEATHER_COMMAND,
     #[cfg(feature = "feather")]
-    Self::FeatherCompass,
+    FEATHER_COMPASS,
     #[cfg(feature = "feather")]
-    Self::FeatherCopy,
+    FEATHER_COPY,
     #[cfg(feature = "feather")]
-    Self::FeatherCornerDownLeft,
+    FEATHER_CORNER_DOWN_LEFT,
     #[cfg(feature = "feather")]
-    Self::FeatherCornerDownRight,
+    FEATHER_CORNER_DOWN_RIGHT,
     #[cfg(feature = "feather")]
-    Self::FeatherCornerLeftDown,
+    FEATHER_CORNER_LEFT_DOWN,
     #[cfg(feature = "feather")]
-    Self::FeatherCornerLeftUp,
+    FEATHER_CORNER_LEFT_UP,
     #[cfg(feature = "feather")]
-    Self::FeatherCornerRightDown,
+    FEATHER_CORNER_RIGHT_DOWN,
     #[cfg(feature = "feather")]
-    Self::FeatherCornerRightUp,
+    FEATHER_CORNER_RIGHT_UP,
     #[cfg(feature = "feather")]
-    Self::FeatherCornerUpLeft,
+    FEATHER_CORNER_UP_LEFT,
     #[cfg(feature = "feather")]
-    Self::FeatherCornerUpRight,
+    FEATHER_CORNER_UP_RIGHT,
     #[cfg(feature = "feather")]
-    Self::FeatherCpu,
+    FEATHER_CPU,
     #[cfg(feature = "feather")]
-    Self::FeatherCreditCard,
+    FEATHER_CREDIT_CARD,
     #[cfg(feature = "feather")]
-    Self::FeatherCrop,
+    FEATHER_CROP,
     #[cfg(feature = "feather")]
-    Self::FeatherCrosshair,
+    FEATHER_CROSSHAIR,
     #[cfg(feature = "feather")]
-    Self::FeatherDatabase,
+    FEATHER_DATABASE,
     #[cfg(feature = "feather")]
-    Self::FeatherDelete,
+    FEATHER_DELETE,
     #[cfg(feature = "feather")]
-    Self::FeatherDisc,
+    FEATHER_DISC,
     #[cfg(feature = "feather")]
-    Self::FeatherDivideCircle,
+    FEATHER_DIVIDE_CIRCLE,
     #[cfg(feature = "feather")]
-    Self::FeatherDivideSquare,
+    FEATHER_DIVIDE_SQUARE,
     #[cfg(feature = "feather")]
-    Self::FeatherDivide,
+    FEATHER_DIVIDE,
     #[cfg(feature = "feather")]
-    Self::FeatherDollarSign,
+    FEATHER_DOLLAR_SIGN,
     #[cfg(feature = "feather")]
-    Self::FeatherDownloadCloud,
+    FEATHER_DOWNLOAD_CLOUD,
     #[cfg(feature = "feather")]
-    Self::FeatherDownload,
+    FEATHER_DOWNLOAD,
     #[cfg(feature = "feather")]
-    Self::FeatherDribbble,
+    FEATHER_DRIBBBLE,
     #[cfg(feature = "feather")]
-    Self::FeatherDroplet,
+    FEATHER_DROPLET,
     #[cfg(feature = "feather")]
-    Self::FeatherEdit2,
+    FEATHER_EDIT_2,
     #[cfg(feature = "feather")]
-    Self::FeatherEdit3,
+    FEATHER_EDIT_3,
     #[cfg(feature = "feather")]
-    Self::FeatherEdit,
+    FEATHER_EDIT,
     #[cfg(feature = "feather")]
-    Self::FeatherExternalLink,
+    FEATHER_EXTERNAL_LINK,
     #[cfg(feature = "feather")]
-    Self::FeatherEyeOff,
+    FEATHER_EYE_OFF,
     #[cfg(feature = "feather")]
-    Self::FeatherEye,
+    FEATHER_EYE,
     #[cfg(feature = "feather")]
-    Self::FeatherFacebook,
+    FEATHER_FACEBOOK,
     #[cfg(feature = "feather")]
-    Self::FeatherFastForward,
+    FEATHER_FAST_FORWARD,
     #[cfg(feature = "feather")]
-    Self::FeatherFeather,
+    FEATHER_FEATHER,
     #[cfg(feature = "feather")]
-    Self::FeatherFigma,
+    FEATHER_FIGMA,
     #[cfg(feature = "feather")]
-    Self::FeatherFileMinus,
+    FEATHER_FILE_MINUS,
     #[cfg(feature = "feather")]
-    Self::FeatherFilePlus,
+    FEATHER_FILE_PLUS,
     #[cfg(feature = "feather")]
-    Self::FeatherFileText,
+    FEATHER_FILE_TEXT,
     #[cfg(feature = "feather")]
-    Self::FeatherFile,
+    FEATHER_FILE,
     #[cfg(feature = "feather")]
-    Self::FeatherFilm,
+    FEATHER_FILM,
     #[cfg(feature = "feather")]
-    Self::FeatherFilter,
+    FEATHER_FILTER,
     #[cfg(feature = "feather")]
-    Self::FeatherFlag,
+    FEATHER_FLAG,
     #[cfg(feature = "feather")]
-    Self::FeatherFolderMinus,
+    FEATHER_FOLDER_MINUS,
     #[cfg(feature = "feather")]
-    Self::FeatherFolderPlus,
+    FEATHER_FOLDER_PLUS,
     #[cfg(feature = "feather")]
-    Self::FeatherFolder,
+    FEATHER_FOLDER,
     #[cfg(feature = "feather")]
-    Self::FeatherFramer,
+    FEATHER_FRAMER,
     #[cfg(feature = "feather")]
-    Self::FeatherFrown,
+    FEATHER_FROWN,
     #[cfg(feature = "feather")]
-    Self::FeatherGift,
+    FEATHER_GIFT,
     #[cfg(feature = "feather")]
-    Self::FeatherGitBranch,
+    FEATHER_GIT_BRANCH,
     #[cfg(feature = "feather")]
-    Self::FeatherGitCommit,
+    FEATHER_GIT_COMMIT,
     #[cfg(feature = "feather")]
-    Self::FeatherGitMerge,
+    FEATHER_GIT_MERGE,
     #[cfg(feature = "feather")]
-    Self::FeatherGitPullRequest,
+    FEATHER_GIT_PULL_REQUEST,
     #[cfg(feature = "feather")]
-    Self::FeatherGithub,
+    FEATHER_GITHUB,
     #[cfg(feature = "feather")]
-    Self::FeatherGitlab,
+    FEATHER_GITLAB,
     #[cfg(feature = "feather")]
-    Self::FeatherGlobe,
+    FEATHER_GLOBE,
     #[cfg(feature = "feather")]
-    Self::FeatherGrid,
+    FEATHER_GRID,
     #[cfg(feature = "feather")]
-    Self::FeatherHardDrive,
+    FEATHER_HARD_DRIVE,
     #[cfg(feature = "feather")]
-    Self::FeatherHash,
+    FEATHER_HASH,
     #[cfg(feature = "feather")]
-    Self::FeatherHeadphones,
+    FEATHER_HEADPHONES,
     #[cfg(feature = "feather")]
-    Self::FeatherHeart,
+    FEATHER_HEART,
     #[cfg(feature = "feather")]
-    Self::FeatherHelpCircle,
+    FEATHER_HELP_CIRCLE,
     #[cfg(feature = "feather")]
-    Self::FeatherHexagon,
+    FEATHER_HEXAGON,
     #[cfg(feature = "feather")]
-    Self::FeatherHome,
+    FEATHER_HOME,
     #[cfg(feature = "feather")]
-    Self::FeatherImage,
+    FEATHER_IMAGE,
     #[cfg(feature = "feather")]
-    Self::FeatherInbox,
+    FEATHER_INBOX,
     #[cfg(feature = "feather")]
-    Self::FeatherInfo,
+    FEATHER_INFO,
     #[cfg(feature = "feather")]
-    Self::FeatherInstagram,
+    FEATHER_INSTAGRAM,
     #[cfg(feature = "feather")]
-    Self::FeatherItalic,
+    FEATHER_ITALIC,
     #[cfg(feature = "feather")]
-    Self::FeatherKey,
+    FEATHER_KEY,
     #[cfg(feature = "feather")]
-    Self::FeatherLayers,
+    FEATHER_LAYERS,
     #[cfg(feature = "feather")]
-    Self::FeatherLayout,
+    FEATHER_LAYOUT,
     #[cfg(feature = "feather")]
-    Self::FeatherLifeBuoy,
+    FEATHER_LIFE_BUOY,
     #[cfg(feature = "feather")]
-    Self::FeatherLink2,
+    FEATHER_LINK_2,
     #[cfg(feature = "feather")]
-    Self::FeatherLink,
+    FEATHER_LINK,
     #[cfg(feature = "feather")]
-    Self::FeatherLinkedin,
+    FEATHER_LINKEDIN,
     #[cfg(feature = "feather")]
-    Self::FeatherList,
+    FEATHER_LIST,
     #[cfg(feature = "feather")]
-    Self::FeatherLoader,
+    FEATHER_LOADER,
     #[cfg(feature = "feather")]
-    Self::FeatherLock,
+    FEATHER_LOCK,
     #[cfg(feature = "feather")]
-    Self::FeatherLogIn,
+    FEATHER_LOG_IN,
     #[cfg(feature = "feather")]
-    Self::FeatherLogOut,
+    FEATHER_LOG_OUT,
     #[cfg(feature = "feather")]
-    Self::FeatherMail,
+    FEATHER_MAIL,
     #[cfg(feature = "feather")]
-    Self::FeatherMapPin,
+    FEATHER_MAP_PIN,
     #[cfg(feature = "feather")]
-    Self::FeatherMap,
+    FEATHER_MAP,
     #[cfg(feature = "feather")]
-    Self::FeatherMaximize2,
+    FEATHER_MAXIMIZE_2,
     #[cfg(feature = "feather")]
-    Self::FeatherMaximize,
+    FEATHER_MAXIMIZE,
     #[cfg(feature = "feather")]
-    Self::FeatherMeh,
+    FEATHER_MEH,
     #[cfg(feature = "feather")]
-    Self::FeatherMenu,
+    FEATHER_MENU,
     #[cfg(feature = "feather")]
-    Self::FeatherMessageCircle,
+    FEATHER_MESSAGE_CIRCLE,
     #[cfg(feature = "feather")]
-    Self::FeatherMessageSquare,
+    FEATHER_MESSAGE_SQUARE,
     #[cfg(feature = "feather")]
-    Self::FeatherMicOff,
+    FEATHER_MIC_OFF,
     #[cfg(feature = "feather")]
-    Self::FeatherMic,
+    FEATHER_MIC,
     #[cfg(feature = "feather")]
-    Self::FeatherMinimize2,
+    FEATHER_MINIMIZE_2,
     #[cfg(feature = "feather")]
-    Self::FeatherMinimize,
+    FEATHER_MINIMIZE,
     #[cfg(feature = "feather")]
-    Self::FeatherMinusCircle,
+    FEATHER_MINUS_CIRCLE,
     #[cfg(feature = "feather")]
-    Self::FeatherMinusSquare,
+    FEATHER_MINUS_SQUARE,
     #[cfg(feature = "feather")]
-    Self::FeatherMinus,
+    FEATHER_MINUS,
     #[cfg(feature = "feather")]
-    Self::FeatherMonitor,
+    FEATHER_MONITOR,
     #[cfg(feature = "feather")]
-    Self::FeatherMoon,
+    FEATHER_MOON,
     #[cfg(feature = "feather")]
-    Self::FeatherMoreHorizontal,
+    FEATHER_MORE_HORIZONTAL,
     #[cfg(feature = "feather")]
-    Self::FeatherMoreVertical,
+    FEATHER_MORE_VERTICAL,
     #[cfg(feature = "feather")]
-    Self::FeatherMousePointer,
+    FEATHER_MOUSE_POINTER,
     #[cfg(feature = "feather")]
-    Self::FeatherMove,
+    FEATHER_MOVE,
     #[cfg(feature = "feather")]
-    Self::FeatherMusic,
+    FEATHER_MUSIC,
     #[cfg(feature = "feather")]
-    Self::FeatherNavigation2,
+    FEATHER_NAVIGATION_2,
     #[cfg(feature = "feather")]
-    Self::FeatherNavigation,
+    FEATHER_NAVIGATION,
     #[cfg(feature = "feather")]
-    Self::FeatherOctagon,
+    FEATHER_OCTAGON,
     #[cfg(feature = "feather")]
-    Self::FeatherPackage,
+    FEATHER_PACKAGE,
     #[cfg(feature = "feather")]
-    Self::FeatherPaperclip,
+    FEATHER_PAPERCLIP,
     #[cfg(feature = "feather")]
-    Self::FeatherPauseCircle,
+    FEATHER_PAUSE_CIRCLE,
     #[cfg(feature = "feather")]
-    Self::FeatherPause,
+    FEATHER_PAUSE,
     #[cfg(feature = "feather")]
-    Self::FeatherPenTool,
+    FEATHER_PEN_TOOL,
     #[cfg(feature = "feather")]
-    Self::FeatherPercent,
+    FEATHER_PERCENT,
     #[cfg(feature = "feather")]
-    Self::FeatherPhoneCall,
+    FEATHER_PHONE_CALL,
     #[cfg(feature = "feather")]
-    Self::FeatherPhoneForwarded,
+    FEATHER_PHONE_FORWARDED,
     #[cfg(feature = "feather")]
-    Self::FeatherPhoneIncoming,
+    FEATHER_PHONE_INCOMING,
     #[cfg(feature = "feather")]
-    Self::FeatherPhoneMissed,
+    FEATHER_PHONE_MISSED,
     #[cfg(feature = "feather")]
-    Self::FeatherPhoneOff,
+    FEATHER_PHONE_OFF,
     #[cfg(feature = "feather")]
-    Self::FeatherPhoneOutgoing,
+    FEATHER_PHONE_OUTGOING,
     #[cfg(feature = "feather")]
-    Self::FeatherPhone,
+    FEATHER_PHONE,
     #[cfg(feature = "feather")]
-    Self::FeatherPieChart,
+    FEATHER_PIE_CHART,
     #[cfg(feature = "feather")]
-    Self::FeatherPlayCircle,
+    FEATHER_PLAY_CIRCLE,
     #[cfg(feature = "feather")]
-    Self::FeatherPlay,
+    FEATHER_PLAY,
     #[cfg(feature = "feather")]
-    Self::FeatherPlusCircle,
+    FEATHER_PLUS_CIRCLE,
     #[cfg(feature = "feather")]
-    Self::FeatherPlusSquare,
+    FEATHER_PLUS_SQUARE,
     #[cfg(feature = "feather")]
-    Self::FeatherPlus,
+    FEATHER_PLUS,
     #[cfg(feature = "feather")]
-    Self::FeatherPocket,
+    FEATHER_POCKET,
     #[cfg(feature = "feather")]
-    Self::FeatherPower,
+    FEATHER_POWER,
     #[cfg(feature = "feather")]
-    Self::FeatherPrinter,
+    FEATHER_PRINTER,
     #[cfg(feature = "feather")]
-    Self::FeatherRadio,
+    FEATHER_RADIO,
     #[cfg(feature = "feather")]
-    Self::FeatherRefreshCcw,
+    FEATHER_REFRESH_CCW,
     #[cfg(feature = "feather")]
-    Self::FeatherRefreshCw,
+    FEATHER_REFRESH_CW,
     #[cfg(feature = "feather")]
-    Self::FeatherRepeat,
+    FEATHER_REPEAT,
     #[cfg(feature = "feather")]
-    Self::FeatherRewind,
+    FEATHER_REWIND,
     #[cfg(feature = "feather")]
-    Self::FeatherRotateCcw,
+    FEATHER_ROTATE_CCW,
     #[cfg(feature = "feather")]
-    Self::FeatherRotateCw,
+    FEATHER_ROTATE_CW,
     #[cfg(feature = "feather")]
-    Self::FeatherRss,
+    FEATHER_RSS,
     #[cfg(feature = "feather")]
-    Self::FeatherSave,
+    FEATHER_SAVE,
     #[cfg(feature = "feather")]
-    Self::FeatherScissors,
+    FEATHER_SCISSORS,
     #[cfg(feature = "feather")]
-    Self::FeatherSearch,
+    FEATHER_SEARCH,
     #[cfg(feature = "feather")]
-    Self::FeatherSend,
+    FEATHER_SEND,
     #[cfg(feature = "feather")]
-    Self::FeatherServer,
+    FEATHER_SERVER,
     #[cfg(feature = "feather")]
-    Self::FeatherSettings,
+    FEATHER_SETTINGS,
     #[cfg(feature = "feather")]
-    Self::FeatherShare2,
+    FEATHER_SHARE_2,
     #[cfg(feature = "feather")]
-    Self::FeatherShare,
+    FEATHER_SHARE,
     #[cfg(feature = "feather")]
-    Self::FeatherShieldOff,
+    FEATHER_SHIELD_OFF,
     #[cfg(feature = "feather")]
-    Self::FeatherShield,
+    FEATHER_SHIELD,
     #[cfg(feature = "feather")]
-    Self::FeatherShoppingBag,
+    FEATHER_SHOPPING_BAG,
     #[cfg(feature = "feather")]
-    Self::FeatherShoppingCart,
+    FEATHER_SHOPPING_CART,
     #[cfg(feature = "feather")]
-    Self::FeatherShuffle,
+    FEATHER_SHUFFLE,
     #[cfg(feature = "feather")]
-    Self::FeatherSidebar,
+    FEATHER_SIDEBAR,
     #[cfg(feature = "feather")]
-    Self::FeatherSkipBack,
+    FEATHER_SKIP_BACK,
     #[cfg(feature = "feather")]
-    Self::FeatherSkipForward,
+    FEATHER_SKIP_FORWARD,
     #[cfg(feature = "feather")]
-    Self::FeatherSlack,
+    FEATHER_SLACK,
     #[cfg(feature = "feather")]
-    Self::FeatherSlash,
+    FEATHER_SLASH,
     #[cfg(feature = "feather")]
-    Self::FeatherSliders,
+    FEATHER_SLIDERS,
     #[cfg(feature = "feather")]
-    Self::FeatherSmartphone,
+    FEATHER_SMARTPHONE,
     #[cfg(feature = "feather")]
-    Self::FeatherSmile,
+    FEATHER_SMILE,
     #[cfg(feature = "feather")]
-    Self::FeatherSpeaker,
+    FEATHER_SPEAKER,
     #[cfg(feature = "feather")]
-    Self::FeatherSquare,
+    FEATHER_SQUARE,
     #[cfg(feature = "feather")]
-    Self::FeatherStar,
+    FEATHER_STAR,
     #[cfg(feature = "feather")]
-    Self::FeatherStopCircle,
+    FEATHER_STOP_CIRCLE,
     #[cfg(feature = "feather")]
-    Self::FeatherSun,
+    FEATHER_SUN,
     #[cfg(feature = "feather")]
-    Self::FeatherSunrise,
+    FEATHER_SUNRISE,
     #[cfg(feature = "feather")]
-    Self::FeatherSunset,
+    FEATHER_SUNSET,
     #[cfg(feature = "feather")]
-    Self::FeatherTable,
+    FEATHER_TABLE,
     #[cfg(feature = "feather")]
-    Self::FeatherTablet,
+    FEATHER_TABLET,
     #[cfg(feature = "feather")]
-    Self::FeatherTag,
+    FEATHER_TAG,
     #[cfg(feature = "feather")]
-    Self::FeatherTarget,
+    FEATHER_TARGET,
     #[cfg(feature = "feather")]
-    Self::FeatherTerminal,
+    FEATHER_TERMINAL,
     #[cfg(feature = "feather")]
-    Self::FeatherThermometer,
+    FEATHER_THERMOMETER,
     #[cfg(feature = "feather")]
-    Self::FeatherThumbsDown,
+    FEATHER_THUMBS_DOWN,
     #[cfg(feature = "feather")]
-    Self::FeatherThumbsUp,
+    FEATHER_THUMBS_UP,
     #[cfg(feature = "feather")]
-    Self::FeatherToggleLeft,
+    FEATHER_TOGGLE_LEFT,
     #[cfg(feature = "feather")]
-    Self::FeatherToggleRight,
+    FEATHER_TOGGLE_RIGHT,
     #[cfg(feature = "feather")]
-    Self::FeatherTool,
+    FEATHER_TOOL,
     #[cfg(feature = "feather")]
-    Self::FeatherTrash2,
+    FEATHER_TRASH_2,
     #[cfg(feature = "feather")]
-    Self::FeatherTrash,
+    FEATHER_TRASH,
     #[cfg(feature = "feather")]
-    Self::FeatherTrello,
+    FEATHER_TRELLO,
     #[cfg(feature = "feather")]
-    Self::FeatherTrendingDown,
+    FEATHER_TRENDING_DOWN,
     #[cfg(feature = "feather")]
-    Self::FeatherTrendingUp,
+    FEATHER_TRENDING_UP,
     #[cfg(feature = "feather")]
-    Self::FeatherTriangle,
+    FEATHER_TRIANGLE,
     #[cfg(feature = "feather")]
-    Self::FeatherTruck,
+    FEATHER_TRUCK,
     #[cfg(feature = "feather")]
-    Self::FeatherTv,
+    FEATHER_TV,
     #[cfg(feature = "feather")]
-    Self::FeatherTwitch,
+    FEATHER_TWITCH,
     #[cfg(feature = "feather")]
-    Self::FeatherTwitter,
+    FEATHER_TWITTER,
     #[cfg(feature = "feather")]
-    Self::FeatherType,
+    FEATHER_TYPE,
     #[cfg(feature = "feather")]
-    Self::FeatherUmbrella,
+    FEATHER_UMBRELLA,
     #[cfg(feature = "feather")]
-    Self::FeatherUnderline,
+    FEATHER_UNDERLINE,
     #[cfg(feature = "feather")]
-    Self::FeatherUnlock,
+    FEATHER_UNLOCK,
     #[cfg(feature = "feather")]
-    Self::FeatherUploadCloud,
+    FEATHER_UPLOAD_CLOUD,
     #[cfg(feature = "feather")]
-    Self::FeatherUpload,
+    FEATHER_UPLOAD,
     #[cfg(feature = "feather")]
-    Self::FeatherUserCheck,
+    FEATHER_USER_CHECK,
     #[cfg(feature = "feather")]
-    Self::FeatherUserMinus,
+    FEATHER_USER_MINUS,
     #[cfg(feature = "feather")]
-    Self::FeatherUserPlus,
+    FEATHER_USER_PLUS,
     #[cfg(feature = "feather")]
-    Self::FeatherUserX,
+    FEATHER_USER_X,
     #[cfg(feature = "feather")]
-    Self::FeatherUser,
+    FEATHER_USER,
     #[cfg(feature = "feather")]
-    Self::FeatherUsers,
+    FEATHER_USERS,
     #[cfg(feature = "feather")]
-    Self::FeatherVideoOff,
+    FEATHER_VIDEO_OFF,
     #[cfg(feature = "feather")]
-    Self::FeatherVideo,
+    FEATHER_VIDEO,
     #[cfg(feature = "feather")]
-    Self::FeatherVoicemail,
+    FEATHER_VOICEMAIL,
     #[cfg(feature = "feather")]
-    Self::FeatherVolume1,
+    FEATHER_VOLUME_1,
     #[cfg(feature = "feather")]
-    Self::FeatherVolume2,
+    FEATHER_VOLUME_2,
     #[cfg(feature = "feather")]
-    Self::FeatherVolumeX,
+    FEATHER_VOLUME_X,
     #[cfg(feature = "feather")]
-    Self::FeatherVolume,
+    FEATHER_VOLUME,
     #[cfg(feature = "feather")]
-    Self::FeatherWatch,
+    FEATHER_WATCH,
     #[cfg(feature = "feather")]
-    Self::FeatherWifiOff,
+    FEATHER_WIFI_OFF,
     #[cfg(feature = "feather")]
-    Self::FeatherWifi,
+    FEATHER_WIFI,
     #[cfg(feature = "feather")]
-    Self::FeatherWind,
+    FEATHER_WIND,
     #[cfg(feature = "feather")]
-    Self::FeatherXCircle,
+    FEATHER_X_CIRCLE,
     #[cfg(feature = "feather")]
-    Self::FeatherXOctagon,
+    FEATHER_X_OCTAGON,
     #[cfg(feature = "feather")]
-    Self::FeatherXSquare,
+    FEATHER_X_SQUARE,
     #[cfg(feature = "feather")]
-    Self::FeatherX,
+    FEATHER_X,
     #[cfg(feature = "feather")]
-    Self::FeatherYoutube,
+    FEATHER_YOUTUBE,
     #[cfg(feature = "feather")]
-    Self::FeatherZapOff,
+    FEATHER_ZAP_OFF,
     #[cfg(feature = "feather")]
-    Self::FeatherZap,
+    FEATHER_ZAP,
     #[cfg(feature = "feather")]
-    Self::FeatherZoomIn,
+    FEATHER_ZOOM_IN,
     #[cfg(feature = "feather")]
-    Self::FeatherZoomOut,
+    FEATHER_ZOOM_OUT,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ac,
+    LIPIS_FLAG_ICONS_1_X_1_AC,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ad,
+    LIPIS_FLAG_ICONS_1_X_1_AD,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ae,
+    LIPIS_FLAG_ICONS_1_X_1_AE,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Af,
+    LIPIS_FLAG_ICONS_1_X_1_AF,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ag,
+    LIPIS_FLAG_ICONS_1_X_1_AG,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ai,
+    LIPIS_FLAG_ICONS_1_X_1_AI,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Al,
+    LIPIS_FLAG_ICONS_1_X_1_AL,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Am,
+    LIPIS_FLAG_ICONS_1_X_1_AM,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ao,
+    LIPIS_FLAG_ICONS_1_X_1_AO,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Aq,
+    LIPIS_FLAG_ICONS_1_X_1_AQ,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ar,
+    LIPIS_FLAG_ICONS_1_X_1_AR,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1As,
+    LIPIS_FLAG_ICONS_1_X_1_AS,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1At,
+    LIPIS_FLAG_ICONS_1_X_1_AT,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Au,
+    LIPIS_FLAG_ICONS_1_X_1_AU,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Aw,
+    LIPIS_FLAG_ICONS_1_X_1_AW,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ax,
+    LIPIS_FLAG_ICONS_1_X_1_AX,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Az,
+    LIPIS_FLAG_ICONS_1_X_1_AZ,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ba,
+    LIPIS_FLAG_ICONS_1_X_1_BA,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Bb,
+    LIPIS_FLAG_ICONS_1_X_1_BB,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Bd,
+    LIPIS_FLAG_ICONS_1_X_1_BD,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Be,
+    LIPIS_FLAG_ICONS_1_X_1_BE,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Bf,
+    LIPIS_FLAG_ICONS_1_X_1_BF,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Bg,
+    LIPIS_FLAG_ICONS_1_X_1_BG,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Bh,
+    LIPIS_FLAG_ICONS_1_X_1_BH,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Bi,
+    LIPIS_FLAG_ICONS_1_X_1_BI,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Bj,
+    LIPIS_FLAG_ICONS_1_X_1_BJ,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Bl,
+    LIPIS_FLAG_ICONS_1_X_1_BL,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Bm,
+    LIPIS_FLAG_ICONS_1_X_1_BM,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Bn,
+    LIPIS_FLAG_ICONS_1_X_1_BN,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Bo,
+    LIPIS_FLAG_ICONS_1_X_1_BO,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Bq,
+    LIPIS_FLAG_ICONS_1_X_1_BQ,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Br,
+    LIPIS_FLAG_ICONS_1_X_1_BR,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Bs,
+    LIPIS_FLAG_ICONS_1_X_1_BS,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Bt,
+    LIPIS_FLAG_ICONS_1_X_1_BT,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Bv,
+    LIPIS_FLAG_ICONS_1_X_1_BV,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Bw,
+    LIPIS_FLAG_ICONS_1_X_1_BW,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1By,
+    LIPIS_FLAG_ICONS_1_X_1_BY,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Bz,
+    LIPIS_FLAG_ICONS_1_X_1_BZ,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ca,
+    LIPIS_FLAG_ICONS_1_X_1_CA,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Cc,
+    LIPIS_FLAG_ICONS_1_X_1_CC,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Cd,
+    LIPIS_FLAG_ICONS_1_X_1_CD,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Cefta,
+    LIPIS_FLAG_ICONS_1_X_1_CEFTA,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Cf,
+    LIPIS_FLAG_ICONS_1_X_1_CF,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Cg,
+    LIPIS_FLAG_ICONS_1_X_1_CG,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ch,
+    LIPIS_FLAG_ICONS_1_X_1_CH,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ci,
+    LIPIS_FLAG_ICONS_1_X_1_CI,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ck,
+    LIPIS_FLAG_ICONS_1_X_1_CK,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Cl,
+    LIPIS_FLAG_ICONS_1_X_1_CL,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Cm,
+    LIPIS_FLAG_ICONS_1_X_1_CM,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Cn,
+    LIPIS_FLAG_ICONS_1_X_1_CN,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Co,
+    LIPIS_FLAG_ICONS_1_X_1_CO,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Cp,
+    LIPIS_FLAG_ICONS_1_X_1_CP,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Cr,
+    LIPIS_FLAG_ICONS_1_X_1_CR,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Cu,
+    LIPIS_FLAG_ICONS_1_X_1_CU,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Cv,
+    LIPIS_FLAG_ICONS_1_X_1_CV,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Cw,
+    LIPIS_FLAG_ICONS_1_X_1_CW,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Cx,
+    LIPIS_FLAG_ICONS_1_X_1_CX,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Cy,
+    LIPIS_FLAG_ICONS_1_X_1_CY,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Cz,
+    LIPIS_FLAG_ICONS_1_X_1_CZ,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1De,
+    LIPIS_FLAG_ICONS_1_X_1_DE,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Dg,
+    LIPIS_FLAG_ICONS_1_X_1_DG,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Dj,
+    LIPIS_FLAG_ICONS_1_X_1_DJ,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Dk,
+    LIPIS_FLAG_ICONS_1_X_1_DK,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Dm,
+    LIPIS_FLAG_ICONS_1_X_1_DM,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Do,
+    LIPIS_FLAG_ICONS_1_X_1_DO,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Dz,
+    LIPIS_FLAG_ICONS_1_X_1_DZ,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ea,
+    LIPIS_FLAG_ICONS_1_X_1_EA,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ec,
+    LIPIS_FLAG_ICONS_1_X_1_EC,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ee,
+    LIPIS_FLAG_ICONS_1_X_1_EE,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Eg,
+    LIPIS_FLAG_ICONS_1_X_1_EG,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Eh,
+    LIPIS_FLAG_ICONS_1_X_1_EH,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Er,
+    LIPIS_FLAG_ICONS_1_X_1_ER,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1EsCt,
+    LIPIS_FLAG_ICONS_1_X_1_ES_CT,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1EsGa,
+    LIPIS_FLAG_ICONS_1_X_1_ES_GA,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Es,
+    LIPIS_FLAG_ICONS_1_X_1_ES,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Et,
+    LIPIS_FLAG_ICONS_1_X_1_ET,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Eu,
+    LIPIS_FLAG_ICONS_1_X_1_EU,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Fi,
+    LIPIS_FLAG_ICONS_1_X_1_FI,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Fj,
+    LIPIS_FLAG_ICONS_1_X_1_FJ,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Fk,
+    LIPIS_FLAG_ICONS_1_X_1_FK,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Fm,
+    LIPIS_FLAG_ICONS_1_X_1_FM,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Fo,
+    LIPIS_FLAG_ICONS_1_X_1_FO,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Fr,
+    LIPIS_FLAG_ICONS_1_X_1_FR,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ga,
+    LIPIS_FLAG_ICONS_1_X_1_GA,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1GbEng,
+    LIPIS_FLAG_ICONS_1_X_1_GB_ENG,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1GbNir,
+    LIPIS_FLAG_ICONS_1_X_1_GB_NIR,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1GbSct,
+    LIPIS_FLAG_ICONS_1_X_1_GB_SCT,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1GbWls,
+    LIPIS_FLAG_ICONS_1_X_1_GB_WLS,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Gb,
+    LIPIS_FLAG_ICONS_1_X_1_GB,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Gd,
+    LIPIS_FLAG_ICONS_1_X_1_GD,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ge,
+    LIPIS_FLAG_ICONS_1_X_1_GE,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Gf,
+    LIPIS_FLAG_ICONS_1_X_1_GF,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Gg,
+    LIPIS_FLAG_ICONS_1_X_1_GG,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Gh,
+    LIPIS_FLAG_ICONS_1_X_1_GH,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Gi,
+    LIPIS_FLAG_ICONS_1_X_1_GI,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Gl,
+    LIPIS_FLAG_ICONS_1_X_1_GL,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Gm,
+    LIPIS_FLAG_ICONS_1_X_1_GM,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Gn,
+    LIPIS_FLAG_ICONS_1_X_1_GN,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Gp,
+    LIPIS_FLAG_ICONS_1_X_1_GP,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Gq,
+    LIPIS_FLAG_ICONS_1_X_1_GQ,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Gr,
+    LIPIS_FLAG_ICONS_1_X_1_GR,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Gs,
+    LIPIS_FLAG_ICONS_1_X_1_GS,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Gt,
+    LIPIS_FLAG_ICONS_1_X_1_GT,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Gu,
+    LIPIS_FLAG_ICONS_1_X_1_GU,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Gw,
+    LIPIS_FLAG_ICONS_1_X_1_GW,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Gy,
+    LIPIS_FLAG_ICONS_1_X_1_GY,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Hk,
+    LIPIS_FLAG_ICONS_1_X_1_HK,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Hm,
+    LIPIS_FLAG_ICONS_1_X_1_HM,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Hn,
+    LIPIS_FLAG_ICONS_1_X_1_HN,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Hr,
+    LIPIS_FLAG_ICONS_1_X_1_HR,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ht,
+    LIPIS_FLAG_ICONS_1_X_1_HT,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Hu,
+    LIPIS_FLAG_ICONS_1_X_1_HU,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ic,
+    LIPIS_FLAG_ICONS_1_X_1_IC,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Id,
+    LIPIS_FLAG_ICONS_1_X_1_ID,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ie,
+    LIPIS_FLAG_ICONS_1_X_1_IE,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Il,
+    LIPIS_FLAG_ICONS_1_X_1_IL,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Im,
+    LIPIS_FLAG_ICONS_1_X_1_IM,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1In,
+    LIPIS_FLAG_ICONS_1_X_1_IN,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Io,
+    LIPIS_FLAG_ICONS_1_X_1_IO,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Iq,
+    LIPIS_FLAG_ICONS_1_X_1_IQ,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ir,
+    LIPIS_FLAG_ICONS_1_X_1_IR,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Is,
+    LIPIS_FLAG_ICONS_1_X_1_IS,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1It,
+    LIPIS_FLAG_ICONS_1_X_1_IT,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Je,
+    LIPIS_FLAG_ICONS_1_X_1_JE,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Jm,
+    LIPIS_FLAG_ICONS_1_X_1_JM,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Jo,
+    LIPIS_FLAG_ICONS_1_X_1_JO,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Jp,
+    LIPIS_FLAG_ICONS_1_X_1_JP,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ke,
+    LIPIS_FLAG_ICONS_1_X_1_KE,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Kg,
+    LIPIS_FLAG_ICONS_1_X_1_KG,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Kh,
+    LIPIS_FLAG_ICONS_1_X_1_KH,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ki,
+    LIPIS_FLAG_ICONS_1_X_1_KI,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Km,
+    LIPIS_FLAG_ICONS_1_X_1_KM,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Kn,
+    LIPIS_FLAG_ICONS_1_X_1_KN,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Kp,
+    LIPIS_FLAG_ICONS_1_X_1_KP,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Kr,
+    LIPIS_FLAG_ICONS_1_X_1_KR,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Kw,
+    LIPIS_FLAG_ICONS_1_X_1_KW,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ky,
+    LIPIS_FLAG_ICONS_1_X_1_KY,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Kz,
+    LIPIS_FLAG_ICONS_1_X_1_KZ,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1La,
+    LIPIS_FLAG_ICONS_1_X_1_LA,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Lb,
+    LIPIS_FLAG_ICONS_1_X_1_LB,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Lc,
+    LIPIS_FLAG_ICONS_1_X_1_LC,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Li,
+    LIPIS_FLAG_ICONS_1_X_1_LI,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Lk,
+    LIPIS_FLAG_ICONS_1_X_1_LK,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Lr,
+    LIPIS_FLAG_ICONS_1_X_1_LR,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ls,
+    LIPIS_FLAG_ICONS_1_X_1_LS,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Lt,
+    LIPIS_FLAG_ICONS_1_X_1_LT,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Lu,
+    LIPIS_FLAG_ICONS_1_X_1_LU,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Lv,
+    LIPIS_FLAG_ICONS_1_X_1_LV,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ly,
+    LIPIS_FLAG_ICONS_1_X_1_LY,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ma,
+    LIPIS_FLAG_ICONS_1_X_1_MA,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Mc,
+    LIPIS_FLAG_ICONS_1_X_1_MC,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Md,
+    LIPIS_FLAG_ICONS_1_X_1_MD,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Me,
+    LIPIS_FLAG_ICONS_1_X_1_ME,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Mf,
+    LIPIS_FLAG_ICONS_1_X_1_MF,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Mg,
+    LIPIS_FLAG_ICONS_1_X_1_MG,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Mh,
+    LIPIS_FLAG_ICONS_1_X_1_MH,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Mk,
+    LIPIS_FLAG_ICONS_1_X_1_MK,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ml,
+    LIPIS_FLAG_ICONS_1_X_1_ML,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Mm,
+    LIPIS_FLAG_ICONS_1_X_1_MM,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Mn,
+    LIPIS_FLAG_ICONS_1_X_1_MN,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Mo,
+    LIPIS_FLAG_ICONS_1_X_1_MO,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Mp,
+    LIPIS_FLAG_ICONS_1_X_1_MP,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Mq,
+    LIPIS_FLAG_ICONS_1_X_1_MQ,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Mr,
+    LIPIS_FLAG_ICONS_1_X_1_MR,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ms,
+    LIPIS_FLAG_ICONS_1_X_1_MS,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Mt,
+    LIPIS_FLAG_ICONS_1_X_1_MT,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Mu,
+    LIPIS_FLAG_ICONS_1_X_1_MU,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Mv,
+    LIPIS_FLAG_ICONS_1_X_1_MV,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Mw,
+    LIPIS_FLAG_ICONS_1_X_1_MW,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Mx,
+    LIPIS_FLAG_ICONS_1_X_1_MX,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1My,
+    LIPIS_FLAG_ICONS_1_X_1_MY,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Mz,
+    LIPIS_FLAG_ICONS_1_X_1_MZ,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Na,
+    LIPIS_FLAG_ICONS_1_X_1_NA,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Nc,
+    LIPIS_FLAG_ICONS_1_X_1_NC,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ne,
+    LIPIS_FLAG_ICONS_1_X_1_NE,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Nf,
+    LIPIS_FLAG_ICONS_1_X_1_NF,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ng,
+    LIPIS_FLAG_ICONS_1_X_1_NG,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ni,
+    LIPIS_FLAG_ICONS_1_X_1_NI,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Nl,
+    LIPIS_FLAG_ICONS_1_X_1_NL,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1No,
+    LIPIS_FLAG_ICONS_1_X_1_NO,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Np,
+    LIPIS_FLAG_ICONS_1_X_1_NP,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Nr,
+    LIPIS_FLAG_ICONS_1_X_1_NR,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Nu,
+    LIPIS_FLAG_ICONS_1_X_1_NU,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Nz,
+    LIPIS_FLAG_ICONS_1_X_1_NZ,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Om,
+    LIPIS_FLAG_ICONS_1_X_1_OM,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Pa,
+    LIPIS_FLAG_ICONS_1_X_1_PA,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Pe,
+    LIPIS_FLAG_ICONS_1_X_1_PE,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Pf,
+    LIPIS_FLAG_ICONS_1_X_1_PF,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Pg,
+    LIPIS_FLAG_ICONS_1_X_1_PG,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ph,
+    LIPIS_FLAG_ICONS_1_X_1_PH,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Pk,
+    LIPIS_FLAG_ICONS_1_X_1_PK,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Pl,
+    LIPIS_FLAG_ICONS_1_X_1_PL,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Pm,
+    LIPIS_FLAG_ICONS_1_X_1_PM,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Pn,
+    LIPIS_FLAG_ICONS_1_X_1_PN,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Pr,
+    LIPIS_FLAG_ICONS_1_X_1_PR,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ps,
+    LIPIS_FLAG_ICONS_1_X_1_PS,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Pt,
+    LIPIS_FLAG_ICONS_1_X_1_PT,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Pw,
+    LIPIS_FLAG_ICONS_1_X_1_PW,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Py,
+    LIPIS_FLAG_ICONS_1_X_1_PY,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Qa,
+    LIPIS_FLAG_ICONS_1_X_1_QA,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Re,
+    LIPIS_FLAG_ICONS_1_X_1_RE,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ro,
+    LIPIS_FLAG_ICONS_1_X_1_RO,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Rs,
+    LIPIS_FLAG_ICONS_1_X_1_RS,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ru,
+    LIPIS_FLAG_ICONS_1_X_1_RU,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Rw,
+    LIPIS_FLAG_ICONS_1_X_1_RW,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Sa,
+    LIPIS_FLAG_ICONS_1_X_1_SA,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Sb,
+    LIPIS_FLAG_ICONS_1_X_1_SB,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Sc,
+    LIPIS_FLAG_ICONS_1_X_1_SC,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Sd,
+    LIPIS_FLAG_ICONS_1_X_1_SD,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Se,
+    LIPIS_FLAG_ICONS_1_X_1_SE,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Sg,
+    LIPIS_FLAG_ICONS_1_X_1_SG,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Sh,
+    LIPIS_FLAG_ICONS_1_X_1_SH,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Si,
+    LIPIS_FLAG_ICONS_1_X_1_SI,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Sj,
+    LIPIS_FLAG_ICONS_1_X_1_SJ,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Sk,
+    LIPIS_FLAG_ICONS_1_X_1_SK,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Sl,
+    LIPIS_FLAG_ICONS_1_X_1_SL,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Sm,
+    LIPIS_FLAG_ICONS_1_X_1_SM,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Sn,
+    LIPIS_FLAG_ICONS_1_X_1_SN,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1So,
+    LIPIS_FLAG_ICONS_1_X_1_SO,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Sr,
+    LIPIS_FLAG_ICONS_1_X_1_SR,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ss,
+    LIPIS_FLAG_ICONS_1_X_1_SS,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1St,
+    LIPIS_FLAG_ICONS_1_X_1_ST,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Sv,
+    LIPIS_FLAG_ICONS_1_X_1_SV,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Sx,
+    LIPIS_FLAG_ICONS_1_X_1_SX,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Sy,
+    LIPIS_FLAG_ICONS_1_X_1_SY,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Sz,
+    LIPIS_FLAG_ICONS_1_X_1_SZ,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ta,
+    LIPIS_FLAG_ICONS_1_X_1_TA,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Tc,
+    LIPIS_FLAG_ICONS_1_X_1_TC,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Td,
+    LIPIS_FLAG_ICONS_1_X_1_TD,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Tf,
+    LIPIS_FLAG_ICONS_1_X_1_TF,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Tg,
+    LIPIS_FLAG_ICONS_1_X_1_TG,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Th,
+    LIPIS_FLAG_ICONS_1_X_1_TH,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Tj,
+    LIPIS_FLAG_ICONS_1_X_1_TJ,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Tk,
+    LIPIS_FLAG_ICONS_1_X_1_TK,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Tl,
+    LIPIS_FLAG_ICONS_1_X_1_TL,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Tm,
+    LIPIS_FLAG_ICONS_1_X_1_TM,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Tn,
+    LIPIS_FLAG_ICONS_1_X_1_TN,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1To,
+    LIPIS_FLAG_ICONS_1_X_1_TO,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Tr,
+    LIPIS_FLAG_ICONS_1_X_1_TR,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Tt,
+    LIPIS_FLAG_ICONS_1_X_1_TT,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Tv,
+    LIPIS_FLAG_ICONS_1_X_1_TV,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Tw,
+    LIPIS_FLAG_ICONS_1_X_1_TW,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Tz,
+    LIPIS_FLAG_ICONS_1_X_1_TZ,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ua,
+    LIPIS_FLAG_ICONS_1_X_1_UA,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ug,
+    LIPIS_FLAG_ICONS_1_X_1_UG,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Um,
+    LIPIS_FLAG_ICONS_1_X_1_UM,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Un,
+    LIPIS_FLAG_ICONS_1_X_1_UN,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Us,
+    LIPIS_FLAG_ICONS_1_X_1_US,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Uy,
+    LIPIS_FLAG_ICONS_1_X_1_UY,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Uz,
+    LIPIS_FLAG_ICONS_1_X_1_UZ,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Va,
+    LIPIS_FLAG_ICONS_1_X_1_VA,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Vc,
+    LIPIS_FLAG_ICONS_1_X_1_VC,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ve,
+    LIPIS_FLAG_ICONS_1_X_1_VE,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Vg,
+    LIPIS_FLAG_ICONS_1_X_1_VG,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Vi,
+    LIPIS_FLAG_ICONS_1_X_1_VI,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Vn,
+    LIPIS_FLAG_ICONS_1_X_1_VN,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Vu,
+    LIPIS_FLAG_ICONS_1_X_1_VU,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Wf,
+    LIPIS_FLAG_ICONS_1_X_1_WF,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ws,
+    LIPIS_FLAG_ICONS_1_X_1_WS,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Xk,
+    LIPIS_FLAG_ICONS_1_X_1_XK,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Xx,
+    LIPIS_FLAG_ICONS_1_X_1_XX,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Ye,
+    LIPIS_FLAG_ICONS_1_X_1_YE,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Yt,
+    LIPIS_FLAG_ICONS_1_X_1_YT,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Za,
+    LIPIS_FLAG_ICONS_1_X_1_ZA,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Zm,
+    LIPIS_FLAG_ICONS_1_X_1_ZM,
     #[cfg(feature = "lipis_flag_icons_1_x_1")]
-    Self::LipisFlagIcons1X1Zw,
+    LIPIS_FLAG_ICONS_1_X_1_ZW,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ac,
+    LIPIS_FLAG_ICONS_4_X_3_AC,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ad,
+    LIPIS_FLAG_ICONS_4_X_3_AD,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ae,
+    LIPIS_FLAG_ICONS_4_X_3_AE,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Af,
+    LIPIS_FLAG_ICONS_4_X_3_AF,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ag,
+    LIPIS_FLAG_ICONS_4_X_3_AG,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ai,
+    LIPIS_FLAG_ICONS_4_X_3_AI,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Al,
+    LIPIS_FLAG_ICONS_4_X_3_AL,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Am,
+    LIPIS_FLAG_ICONS_4_X_3_AM,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ao,
+    LIPIS_FLAG_ICONS_4_X_3_AO,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Aq,
+    LIPIS_FLAG_ICONS_4_X_3_AQ,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ar,
+    LIPIS_FLAG_ICONS_4_X_3_AR,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3As,
+    LIPIS_FLAG_ICONS_4_X_3_AS,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3At,
+    LIPIS_FLAG_ICONS_4_X_3_AT,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Au,
+    LIPIS_FLAG_ICONS_4_X_3_AU,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Aw,
+    LIPIS_FLAG_ICONS_4_X_3_AW,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ax,
+    LIPIS_FLAG_ICONS_4_X_3_AX,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Az,
+    LIPIS_FLAG_ICONS_4_X_3_AZ,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ba,
+    LIPIS_FLAG_ICONS_4_X_3_BA,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Bb,
+    LIPIS_FLAG_ICONS_4_X_3_BB,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Bd,
+    LIPIS_FLAG_ICONS_4_X_3_BD,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Be,
+    LIPIS_FLAG_ICONS_4_X_3_BE,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Bf,
+    LIPIS_FLAG_ICONS_4_X_3_BF,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Bg,
+    LIPIS_FLAG_ICONS_4_X_3_BG,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Bh,
+    LIPIS_FLAG_ICONS_4_X_3_BH,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Bi,
+    LIPIS_FLAG_ICONS_4_X_3_BI,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Bj,
+    LIPIS_FLAG_ICONS_4_X_3_BJ,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Bl,
+    LIPIS_FLAG_ICONS_4_X_3_BL,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Bm,
+    LIPIS_FLAG_ICONS_4_X_3_BM,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Bn,
+    LIPIS_FLAG_ICONS_4_X_3_BN,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Bo,
+    LIPIS_FLAG_ICONS_4_X_3_BO,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Bq,
+    LIPIS_FLAG_ICONS_4_X_3_BQ,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Br,
+    LIPIS_FLAG_ICONS_4_X_3_BR,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Bs,
+    LIPIS_FLAG_ICONS_4_X_3_BS,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Bt,
+    LIPIS_FLAG_ICONS_4_X_3_BT,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Bv,
+    LIPIS_FLAG_ICONS_4_X_3_BV,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Bw,
+    LIPIS_FLAG_ICONS_4_X_3_BW,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3By,
+    LIPIS_FLAG_ICONS_4_X_3_BY,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Bz,
+    LIPIS_FLAG_ICONS_4_X_3_BZ,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ca,
+    LIPIS_FLAG_ICONS_4_X_3_CA,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Cc,
+    LIPIS_FLAG_ICONS_4_X_3_CC,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Cd,
+    LIPIS_FLAG_ICONS_4_X_3_CD,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Cefta,
+    LIPIS_FLAG_ICONS_4_X_3_CEFTA,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Cf,
+    LIPIS_FLAG_ICONS_4_X_3_CF,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Cg,
+    LIPIS_FLAG_ICONS_4_X_3_CG,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ch,
+    LIPIS_FLAG_ICONS_4_X_3_CH,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ci,
+    LIPIS_FLAG_ICONS_4_X_3_CI,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ck,
+    LIPIS_FLAG_ICONS_4_X_3_CK,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Cl,
+    LIPIS_FLAG_ICONS_4_X_3_CL,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Cm,
+    LIPIS_FLAG_ICONS_4_X_3_CM,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Cn,
+    LIPIS_FLAG_ICONS_4_X_3_CN,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Co,
+    LIPIS_FLAG_ICONS_4_X_3_CO,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Cp,
+    LIPIS_FLAG_ICONS_4_X_3_CP,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Cr,
+    LIPIS_FLAG_ICONS_4_X_3_CR,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Cu,
+    LIPIS_FLAG_ICONS_4_X_3_CU,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Cv,
+    LIPIS_FLAG_ICONS_4_X_3_CV,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Cw,
+    LIPIS_FLAG_ICONS_4_X_3_CW,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Cx,
+    LIPIS_FLAG_ICONS_4_X_3_CX,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Cy,
+    LIPIS_FLAG_ICONS_4_X_3_CY,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Cz,
+    LIPIS_FLAG_ICONS_4_X_3_CZ,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3De,
+    LIPIS_FLAG_ICONS_4_X_3_DE,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Dg,
+    LIPIS_FLAG_ICONS_4_X_3_DG,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Dj,
+    LIPIS_FLAG_ICONS_4_X_3_DJ,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Dk,
+    LIPIS_FLAG_ICONS_4_X_3_DK,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Dm,
+    LIPIS_FLAG_ICONS_4_X_3_DM,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Do,
+    LIPIS_FLAG_ICONS_4_X_3_DO,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Dz,
+    LIPIS_FLAG_ICONS_4_X_3_DZ,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ea,
+    LIPIS_FLAG_ICONS_4_X_3_EA,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ec,
+    LIPIS_FLAG_ICONS_4_X_3_EC,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ee,
+    LIPIS_FLAG_ICONS_4_X_3_EE,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Eg,
+    LIPIS_FLAG_ICONS_4_X_3_EG,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Eh,
+    LIPIS_FLAG_ICONS_4_X_3_EH,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Er,
+    LIPIS_FLAG_ICONS_4_X_3_ER,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3EsCt,
+    LIPIS_FLAG_ICONS_4_X_3_ES_CT,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3EsGa,
+    LIPIS_FLAG_ICONS_4_X_3_ES_GA,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Es,
+    LIPIS_FLAG_ICONS_4_X_3_ES,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Et,
+    LIPIS_FLAG_ICONS_4_X_3_ET,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Eu,
+    LIPIS_FLAG_ICONS_4_X_3_EU,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Fi,
+    LIPIS_FLAG_ICONS_4_X_3_FI,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Fj,
+    LIPIS_FLAG_ICONS_4_X_3_FJ,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Fk,
+    LIPIS_FLAG_ICONS_4_X_3_FK,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Fm,
+    LIPIS_FLAG_ICONS_4_X_3_FM,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Fo,
+    LIPIS_FLAG_ICONS_4_X_3_FO,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Fr,
+    LIPIS_FLAG_ICONS_4_X_3_FR,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ga,
+    LIPIS_FLAG_ICONS_4_X_3_GA,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3GbEng,
+    LIPIS_FLAG_ICONS_4_X_3_GB_ENG,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3GbNir,
+    LIPIS_FLAG_ICONS_4_X_3_GB_NIR,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3GbSct,
+    LIPIS_FLAG_ICONS_4_X_3_GB_SCT,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3GbWls,
+    LIPIS_FLAG_ICONS_4_X_3_GB_WLS,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Gb,
+    LIPIS_FLAG_ICONS_4_X_3_GB,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Gd,
+    LIPIS_FLAG_ICONS_4_X_3_GD,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ge,
+    LIPIS_FLAG_ICONS_4_X_3_GE,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Gf,
+    LIPIS_FLAG_ICONS_4_X_3_GF,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Gg,
+    LIPIS_FLAG_ICONS_4_X_3_GG,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Gh,
+    LIPIS_FLAG_ICONS_4_X_3_GH,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Gi,
+    LIPIS_FLAG_ICONS_4_X_3_GI,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Gl,
+    LIPIS_FLAG_ICONS_4_X_3_GL,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Gm,
+    LIPIS_FLAG_ICONS_4_X_3_GM,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Gn,
+    LIPIS_FLAG_ICONS_4_X_3_GN,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Gp,
+    LIPIS_FLAG_ICONS_4_X_3_GP,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Gq,
+    LIPIS_FLAG_ICONS_4_X_3_GQ,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Gr,
+    LIPIS_FLAG_ICONS_4_X_3_GR,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Gs,
+    LIPIS_FLAG_ICONS_4_X_3_GS,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Gt,
+    LIPIS_FLAG_ICONS_4_X_3_GT,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Gu,
+    LIPIS_FLAG_ICONS_4_X_3_GU,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Gw,
+    LIPIS_FLAG_ICONS_4_X_3_GW,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Gy,
+    LIPIS_FLAG_ICONS_4_X_3_GY,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Hk,
+    LIPIS_FLAG_ICONS_4_X_3_HK,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Hm,
+    LIPIS_FLAG_ICONS_4_X_3_HM,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Hn,
+    LIPIS_FLAG_ICONS_4_X_3_HN,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Hr,
+    LIPIS_FLAG_ICONS_4_X_3_HR,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ht,
+    LIPIS_FLAG_ICONS_4_X_3_HT,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Hu,
+    LIPIS_FLAG_ICONS_4_X_3_HU,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ic,
+    LIPIS_FLAG_ICONS_4_X_3_IC,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Id,
+    LIPIS_FLAG_ICONS_4_X_3_ID,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ie,
+    LIPIS_FLAG_ICONS_4_X_3_IE,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Il,
+    LIPIS_FLAG_ICONS_4_X_3_IL,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Im,
+    LIPIS_FLAG_ICONS_4_X_3_IM,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3In,
+    LIPIS_FLAG_ICONS_4_X_3_IN,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Io,
+    LIPIS_FLAG_ICONS_4_X_3_IO,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Iq,
+    LIPIS_FLAG_ICONS_4_X_3_IQ,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ir,
+    LIPIS_FLAG_ICONS_4_X_3_IR,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Is,
+    LIPIS_FLAG_ICONS_4_X_3_IS,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3It,
+    LIPIS_FLAG_ICONS_4_X_3_IT,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Je,
+    LIPIS_FLAG_ICONS_4_X_3_JE,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Jm,
+    LIPIS_FLAG_ICONS_4_X_3_JM,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Jo,
+    LIPIS_FLAG_ICONS_4_X_3_JO,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Jp,
+    LIPIS_FLAG_ICONS_4_X_3_JP,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ke,
+    LIPIS_FLAG_ICONS_4_X_3_KE,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Kg,
+    LIPIS_FLAG_ICONS_4_X_3_KG,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Kh,
+    LIPIS_FLAG_ICONS_4_X_3_KH,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ki,
+    LIPIS_FLAG_ICONS_4_X_3_KI,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Km,
+    LIPIS_FLAG_ICONS_4_X_3_KM,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Kn,
+    LIPIS_FLAG_ICONS_4_X_3_KN,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Kp,
+    LIPIS_FLAG_ICONS_4_X_3_KP,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Kr,
+    LIPIS_FLAG_ICONS_4_X_3_KR,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Kw,
+    LIPIS_FLAG_ICONS_4_X_3_KW,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ky,
+    LIPIS_FLAG_ICONS_4_X_3_KY,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Kz,
+    LIPIS_FLAG_ICONS_4_X_3_KZ,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3La,
+    LIPIS_FLAG_ICONS_4_X_3_LA,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Lb,
+    LIPIS_FLAG_ICONS_4_X_3_LB,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Lc,
+    LIPIS_FLAG_ICONS_4_X_3_LC,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Li,
+    LIPIS_FLAG_ICONS_4_X_3_LI,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Lk,
+    LIPIS_FLAG_ICONS_4_X_3_LK,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Lr,
+    LIPIS_FLAG_ICONS_4_X_3_LR,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ls,
+    LIPIS_FLAG_ICONS_4_X_3_LS,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Lt,
+    LIPIS_FLAG_ICONS_4_X_3_LT,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Lu,
+    LIPIS_FLAG_ICONS_4_X_3_LU,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Lv,
+    LIPIS_FLAG_ICONS_4_X_3_LV,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ly,
+    LIPIS_FLAG_ICONS_4_X_3_LY,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ma,
+    LIPIS_FLAG_ICONS_4_X_3_MA,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Mc,
+    LIPIS_FLAG_ICONS_4_X_3_MC,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Md,
+    LIPIS_FLAG_ICONS_4_X_3_MD,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Me,
+    LIPIS_FLAG_ICONS_4_X_3_ME,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Mf,
+    LIPIS_FLAG_ICONS_4_X_3_MF,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Mg,
+    LIPIS_FLAG_ICONS_4_X_3_MG,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Mh,
+    LIPIS_FLAG_ICONS_4_X_3_MH,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Mk,
+    LIPIS_FLAG_ICONS_4_X_3_MK,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ml,
+    LIPIS_FLAG_ICONS_4_X_3_ML,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Mm,
+    LIPIS_FLAG_ICONS_4_X_3_MM,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Mn,
+    LIPIS_FLAG_ICONS_4_X_3_MN,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Mo,
+    LIPIS_FLAG_ICONS_4_X_3_MO,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Mp,
+    LIPIS_FLAG_ICONS_4_X_3_MP,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Mq,
+    LIPIS_FLAG_ICONS_4_X_3_MQ,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Mr,
+    LIPIS_FLAG_ICONS_4_X_3_MR,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ms,
+    LIPIS_FLAG_ICONS_4_X_3_MS,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Mt,
+    LIPIS_FLAG_ICONS_4_X_3_MT,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Mu,
+    LIPIS_FLAG_ICONS_4_X_3_MU,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Mv,
+    LIPIS_FLAG_ICONS_4_X_3_MV,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Mw,
+    LIPIS_FLAG_ICONS_4_X_3_MW,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Mx,
+    LIPIS_FLAG_ICONS_4_X_3_MX,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3My,
+    LIPIS_FLAG_ICONS_4_X_3_MY,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Mz,
+    LIPIS_FLAG_ICONS_4_X_3_MZ,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Na,
+    LIPIS_FLAG_ICONS_4_X_3_NA,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Nc,
+    LIPIS_FLAG_ICONS_4_X_3_NC,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ne,
+    LIPIS_FLAG_ICONS_4_X_3_NE,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Nf,
+    LIPIS_FLAG_ICONS_4_X_3_NF,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ng,
+    LIPIS_FLAG_ICONS_4_X_3_NG,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ni,
+    LIPIS_FLAG_ICONS_4_X_3_NI,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Nl,
+    LIPIS_FLAG_ICONS_4_X_3_NL,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3No,
+    LIPIS_FLAG_ICONS_4_X_3_NO,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Np,
+    LIPIS_FLAG_ICONS_4_X_3_NP,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Nr,
+    LIPIS_FLAG_ICONS_4_X_3_NR,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Nu,
+    LIPIS_FLAG_ICONS_4_X_3_NU,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Nz,
+    LIPIS_FLAG_ICONS_4_X_3_NZ,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Om,
+    LIPIS_FLAG_ICONS_4_X_3_OM,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Pa,
+    LIPIS_FLAG_ICONS_4_X_3_PA,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Pe,
+    LIPIS_FLAG_ICONS_4_X_3_PE,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Pf,
+    LIPIS_FLAG_ICONS_4_X_3_PF,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Pg,
+    LIPIS_FLAG_ICONS_4_X_3_PG,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ph,
+    LIPIS_FLAG_ICONS_4_X_3_PH,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Pk,
+    LIPIS_FLAG_ICONS_4_X_3_PK,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Pl,
+    LIPIS_FLAG_ICONS_4_X_3_PL,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Pm,
+    LIPIS_FLAG_ICONS_4_X_3_PM,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Pn,
+    LIPIS_FLAG_ICONS_4_X_3_PN,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Pr,
+    LIPIS_FLAG_ICONS_4_X_3_PR,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ps,
+    LIPIS_FLAG_ICONS_4_X_3_PS,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Pt,
+    LIPIS_FLAG_ICONS_4_X_3_PT,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Pw,
+    LIPIS_FLAG_ICONS_4_X_3_PW,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Py,
+    LIPIS_FLAG_ICONS_4_X_3_PY,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Qa,
+    LIPIS_FLAG_ICONS_4_X_3_QA,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Re,
+    LIPIS_FLAG_ICONS_4_X_3_RE,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ro,
+    LIPIS_FLAG_ICONS_4_X_3_RO,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Rs,
+    LIPIS_FLAG_ICONS_4_X_3_RS,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ru,
+    LIPIS_FLAG_ICONS_4_X_3_RU,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Rw,
+    LIPIS_FLAG_ICONS_4_X_3_RW,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Sa,
+    LIPIS_FLAG_ICONS_4_X_3_SA,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Sb,
+    LIPIS_FLAG_ICONS_4_X_3_SB,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Sc,
+    LIPIS_FLAG_ICONS_4_X_3_SC,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Sd,
+    LIPIS_FLAG_ICONS_4_X_3_SD,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Se,
+    LIPIS_FLAG_ICONS_4_X_3_SE,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Sg,
+    LIPIS_FLAG_ICONS_4_X_3_SG,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Sh,
+    LIPIS_FLAG_ICONS_4_X_3_SH,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Si,
+    LIPIS_FLAG_ICONS_4_X_3_SI,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Sj,
+    LIPIS_FLAG_ICONS_4_X_3_SJ,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Sk,
+    LIPIS_FLAG_ICONS_4_X_3_SK,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Sl,
+    LIPIS_FLAG_ICONS_4_X_3_SL,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Sm,
+    LIPIS_FLAG_ICONS_4_X_3_SM,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Sn,
+    LIPIS_FLAG_ICONS_4_X_3_SN,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3So,
+    LIPIS_FLAG_ICONS_4_X_3_SO,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Sr,
+    LIPIS_FLAG_ICONS_4_X_3_SR,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ss,
+    LIPIS_FLAG_ICONS_4_X_3_SS,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3St,
+    LIPIS_FLAG_ICONS_4_X_3_ST,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Sv,
+    LIPIS_FLAG_ICONS_4_X_3_SV,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Sx,
+    LIPIS_FLAG_ICONS_4_X_3_SX,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Sy,
+    LIPIS_FLAG_ICONS_4_X_3_SY,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Sz,
+    LIPIS_FLAG_ICONS_4_X_3_SZ,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ta,
+    LIPIS_FLAG_ICONS_4_X_3_TA,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Tc,
+    LIPIS_FLAG_ICONS_4_X_3_TC,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Td,
+    LIPIS_FLAG_ICONS_4_X_3_TD,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Tf,
+    LIPIS_FLAG_ICONS_4_X_3_TF,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Tg,
+    LIPIS_FLAG_ICONS_4_X_3_TG,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Th,
+    LIPIS_FLAG_ICONS_4_X_3_TH,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Tj,
+    LIPIS_FLAG_ICONS_4_X_3_TJ,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Tk,
+    LIPIS_FLAG_ICONS_4_X_3_TK,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Tl,
+    LIPIS_FLAG_ICONS_4_X_3_TL,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Tm,
+    LIPIS_FLAG_ICONS_4_X_3_TM,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Tn,
+    LIPIS_FLAG_ICONS_4_X_3_TN,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3To,
+    LIPIS_FLAG_ICONS_4_X_3_TO,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Tr,
+    LIPIS_FLAG_ICONS_4_X_3_TR,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Tt,
+    LIPIS_FLAG_ICONS_4_X_3_TT,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Tv,
+    LIPIS_FLAG_ICONS_4_X_3_TV,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Tw,
+    LIPIS_FLAG_ICONS_4_X_3_TW,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Tz,
+    LIPIS_FLAG_ICONS_4_X_3_TZ,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ua,
+    LIPIS_FLAG_ICONS_4_X_3_UA,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ug,
+    LIPIS_FLAG_ICONS_4_X_3_UG,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Um,
+    LIPIS_FLAG_ICONS_4_X_3_UM,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Un,
+    LIPIS_FLAG_ICONS_4_X_3_UN,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Us,
+    LIPIS_FLAG_ICONS_4_X_3_US,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Uy,
+    LIPIS_FLAG_ICONS_4_X_3_UY,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Uz,
+    LIPIS_FLAG_ICONS_4_X_3_UZ,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Va,
+    LIPIS_FLAG_ICONS_4_X_3_VA,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Vc,
+    LIPIS_FLAG_ICONS_4_X_3_VC,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ve,
+    LIPIS_FLAG_ICONS_4_X_3_VE,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Vg,
+    LIPIS_FLAG_ICONS_4_X_3_VG,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Vi,
+    LIPIS_FLAG_ICONS_4_X_3_VI,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Vn,
+    LIPIS_FLAG_ICONS_4_X_3_VN,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Vu,
+    LIPIS_FLAG_ICONS_4_X_3_VU,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Wf,
+    LIPIS_FLAG_ICONS_4_X_3_WF,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ws,
+    LIPIS_FLAG_ICONS_4_X_3_WS,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Xk,
+    LIPIS_FLAG_ICONS_4_X_3_XK,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Xx,
+    LIPIS_FLAG_ICONS_4_X_3_XX,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Ye,
+    LIPIS_FLAG_ICONS_4_X_3_YE,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Yt,
+    LIPIS_FLAG_ICONS_4_X_3_YT,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Za,
+    LIPIS_FLAG_ICONS_4_X_3_ZA,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Zm,
+    LIPIS_FLAG_ICONS_4_X_3_ZM,
     #[cfg(feature = "lipis_flag_icons_4_x_3")]
-    Self::LipisFlagIcons4X3Zw,
+    LIPIS_FLAG_ICONS_4_X_3_ZW,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularAddressBook,
+    FONT_AWESOME_REGULAR_ADDRESS_BOOK,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularAddressCard,
+    FONT_AWESOME_REGULAR_ADDRESS_CARD,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularBellSlash,
+    FONT_AWESOME_REGULAR_BELL_SLASH,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularBell,
+    FONT_AWESOME_REGULAR_BELL,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularBookmark,
+    FONT_AWESOME_REGULAR_BOOKMARK,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularBuilding,
+    FONT_AWESOME_REGULAR_BUILDING,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCalendarCheck,
+    FONT_AWESOME_REGULAR_CALENDAR_CHECK,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCalendarDays,
+    FONT_AWESOME_REGULAR_CALENDAR_DAYS,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCalendarMinus,
+    FONT_AWESOME_REGULAR_CALENDAR_MINUS,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCalendarPlus,
+    FONT_AWESOME_REGULAR_CALENDAR_PLUS,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCalendarXmark,
+    FONT_AWESOME_REGULAR_CALENDAR_XMARK,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCalendar,
+    FONT_AWESOME_REGULAR_CALENDAR,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularChartBar,
+    FONT_AWESOME_REGULAR_CHART_BAR,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularChessBishop,
+    FONT_AWESOME_REGULAR_CHESS_BISHOP,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularChessKing,
+    FONT_AWESOME_REGULAR_CHESS_KING,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularChessKnight,
+    FONT_AWESOME_REGULAR_CHESS_KNIGHT,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularChessPawn,
+    FONT_AWESOME_REGULAR_CHESS_PAWN,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularChessQueen,
+    FONT_AWESOME_REGULAR_CHESS_QUEEN,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularChessRook,
+    FONT_AWESOME_REGULAR_CHESS_ROOK,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCircleCheck,
+    FONT_AWESOME_REGULAR_CIRCLE_CHECK,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCircleDot,
+    FONT_AWESOME_REGULAR_CIRCLE_DOT,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCircleDown,
+    FONT_AWESOME_REGULAR_CIRCLE_DOWN,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCircleLeft,
+    FONT_AWESOME_REGULAR_CIRCLE_LEFT,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCirclePause,
+    FONT_AWESOME_REGULAR_CIRCLE_PAUSE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCirclePlay,
+    FONT_AWESOME_REGULAR_CIRCLE_PLAY,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCircleQuestion,
+    FONT_AWESOME_REGULAR_CIRCLE_QUESTION,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCircleRight,
+    FONT_AWESOME_REGULAR_CIRCLE_RIGHT,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCircleStop,
+    FONT_AWESOME_REGULAR_CIRCLE_STOP,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCircleUp,
+    FONT_AWESOME_REGULAR_CIRCLE_UP,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCircleUser,
+    FONT_AWESOME_REGULAR_CIRCLE_USER,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCircleXmark,
+    FONT_AWESOME_REGULAR_CIRCLE_XMARK,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCircle,
+    FONT_AWESOME_REGULAR_CIRCLE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularClipboard,
+    FONT_AWESOME_REGULAR_CLIPBOARD,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularClock,
+    FONT_AWESOME_REGULAR_CLOCK,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularClone,
+    FONT_AWESOME_REGULAR_CLONE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularClosedCaptioning,
+    FONT_AWESOME_REGULAR_CLOSED_CAPTIONING,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCommentDots,
+    FONT_AWESOME_REGULAR_COMMENT_DOTS,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularComment,
+    FONT_AWESOME_REGULAR_COMMENT,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularComments,
+    FONT_AWESOME_REGULAR_COMMENTS,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCompass,
+    FONT_AWESOME_REGULAR_COMPASS,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCopy,
+    FONT_AWESOME_REGULAR_COPY,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCopyright,
+    FONT_AWESOME_REGULAR_COPYRIGHT,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularCreditCard,
+    FONT_AWESOME_REGULAR_CREDIT_CARD,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularEnvelopeOpen,
+    FONT_AWESOME_REGULAR_ENVELOPE_OPEN,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularEnvelope,
+    FONT_AWESOME_REGULAR_ENVELOPE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularEyeSlash,
+    FONT_AWESOME_REGULAR_EYE_SLASH,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularEye,
+    FONT_AWESOME_REGULAR_EYE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceAngry,
+    FONT_AWESOME_REGULAR_FACE_ANGRY,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceDizzy,
+    FONT_AWESOME_REGULAR_FACE_DIZZY,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceFlushed,
+    FONT_AWESOME_REGULAR_FACE_FLUSHED,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceFrownOpen,
+    FONT_AWESOME_REGULAR_FACE_FROWN_OPEN,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceFrown,
+    FONT_AWESOME_REGULAR_FACE_FROWN,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceGrimace,
+    FONT_AWESOME_REGULAR_FACE_GRIMACE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceGrinBeamSweat,
+    FONT_AWESOME_REGULAR_FACE_GRIN_BEAM_SWEAT,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceGrinBeam,
+    FONT_AWESOME_REGULAR_FACE_GRIN_BEAM,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceGrinHearts,
+    FONT_AWESOME_REGULAR_FACE_GRIN_HEARTS,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceGrinSquintTears,
+    FONT_AWESOME_REGULAR_FACE_GRIN_SQUINT_TEARS,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceGrinSquint,
+    FONT_AWESOME_REGULAR_FACE_GRIN_SQUINT,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceGrinStars,
+    FONT_AWESOME_REGULAR_FACE_GRIN_STARS,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceGrinTears,
+    FONT_AWESOME_REGULAR_FACE_GRIN_TEARS,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceGrinTongueSquint,
+    FONT_AWESOME_REGULAR_FACE_GRIN_TONGUE_SQUINT,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceGrinTongueWink,
+    FONT_AWESOME_REGULAR_FACE_GRIN_TONGUE_WINK,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceGrinTongue,
+    FONT_AWESOME_REGULAR_FACE_GRIN_TONGUE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceGrinWide,
+    FONT_AWESOME_REGULAR_FACE_GRIN_WIDE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceGrinWink,
+    FONT_AWESOME_REGULAR_FACE_GRIN_WINK,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceGrin,
+    FONT_AWESOME_REGULAR_FACE_GRIN,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceKissBeam,
+    FONT_AWESOME_REGULAR_FACE_KISS_BEAM,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceKissWinkHeart,
+    FONT_AWESOME_REGULAR_FACE_KISS_WINK_HEART,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceKiss,
+    FONT_AWESOME_REGULAR_FACE_KISS,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceLaughBeam,
+    FONT_AWESOME_REGULAR_FACE_LAUGH_BEAM,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceLaughSquint,
+    FONT_AWESOME_REGULAR_FACE_LAUGH_SQUINT,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceLaughWink,
+    FONT_AWESOME_REGULAR_FACE_LAUGH_WINK,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceLaugh,
+    FONT_AWESOME_REGULAR_FACE_LAUGH,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceMehBlank,
+    FONT_AWESOME_REGULAR_FACE_MEH_BLANK,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceMeh,
+    FONT_AWESOME_REGULAR_FACE_MEH,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceRollingEyes,
+    FONT_AWESOME_REGULAR_FACE_ROLLING_EYES,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceSadCry,
+    FONT_AWESOME_REGULAR_FACE_SAD_CRY,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceSadTear,
+    FONT_AWESOME_REGULAR_FACE_SAD_TEAR,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceSmileBeam,
+    FONT_AWESOME_REGULAR_FACE_SMILE_BEAM,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceSmileWink,
+    FONT_AWESOME_REGULAR_FACE_SMILE_WINK,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceSmile,
+    FONT_AWESOME_REGULAR_FACE_SMILE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceSurprise,
+    FONT_AWESOME_REGULAR_FACE_SURPRISE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFaceTired,
+    FONT_AWESOME_REGULAR_FACE_TIRED,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFileAudio,
+    FONT_AWESOME_REGULAR_FILE_AUDIO,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFileCode,
+    FONT_AWESOME_REGULAR_FILE_CODE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFileExcel,
+    FONT_AWESOME_REGULAR_FILE_EXCEL,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFileImage,
+    FONT_AWESOME_REGULAR_FILE_IMAGE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFileLines,
+    FONT_AWESOME_REGULAR_FILE_LINES,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFilePdf,
+    FONT_AWESOME_REGULAR_FILE_PDF,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFilePowerpoint,
+    FONT_AWESOME_REGULAR_FILE_POWERPOINT,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFileVideo,
+    FONT_AWESOME_REGULAR_FILE_VIDEO,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFileWord,
+    FONT_AWESOME_REGULAR_FILE_WORD,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFileZipper,
+    FONT_AWESOME_REGULAR_FILE_ZIPPER,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFile,
+    FONT_AWESOME_REGULAR_FILE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFlag,
+    FONT_AWESOME_REGULAR_FLAG,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFloppyDisk,
+    FONT_AWESOME_REGULAR_FLOPPY_DISK,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFolderClosed,
+    FONT_AWESOME_REGULAR_FOLDER_CLOSED,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFolderOpen,
+    FONT_AWESOME_REGULAR_FOLDER_OPEN,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFolder,
+    FONT_AWESOME_REGULAR_FOLDER,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFontAwesome,
+    FONT_AWESOME_REGULAR_FONT_AWESOME,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularFutbol,
+    FONT_AWESOME_REGULAR_FUTBOL,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularGem,
+    FONT_AWESOME_REGULAR_GEM,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularHandBackFist,
+    FONT_AWESOME_REGULAR_HAND_BACK_FIST,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularHandLizard,
+    FONT_AWESOME_REGULAR_HAND_LIZARD,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularHandPeace,
+    FONT_AWESOME_REGULAR_HAND_PEACE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularHandPointDown,
+    FONT_AWESOME_REGULAR_HAND_POINT_DOWN,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularHandPointLeft,
+    FONT_AWESOME_REGULAR_HAND_POINT_LEFT,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularHandPointRight,
+    FONT_AWESOME_REGULAR_HAND_POINT_RIGHT,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularHandPointUp,
+    FONT_AWESOME_REGULAR_HAND_POINT_UP,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularHandPointer,
+    FONT_AWESOME_REGULAR_HAND_POINTER,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularHandScissors,
+    FONT_AWESOME_REGULAR_HAND_SCISSORS,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularHandSpock,
+    FONT_AWESOME_REGULAR_HAND_SPOCK,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularHand,
+    FONT_AWESOME_REGULAR_HAND,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularHandshake,
+    FONT_AWESOME_REGULAR_HANDSHAKE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularHardDrive,
+    FONT_AWESOME_REGULAR_HARD_DRIVE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularHeart,
+    FONT_AWESOME_REGULAR_HEART,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularHospital,
+    FONT_AWESOME_REGULAR_HOSPITAL,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularHourglass,
+    FONT_AWESOME_REGULAR_HOURGLASS,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularIdBadge,
+    FONT_AWESOME_REGULAR_ID_BADGE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularIdCard,
+    FONT_AWESOME_REGULAR_ID_CARD,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularImage,
+    FONT_AWESOME_REGULAR_IMAGE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularImages,
+    FONT_AWESOME_REGULAR_IMAGES,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularKeyboard,
+    FONT_AWESOME_REGULAR_KEYBOARD,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularLemon,
+    FONT_AWESOME_REGULAR_LEMON,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularLifeRing,
+    FONT_AWESOME_REGULAR_LIFE_RING,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularLightbulb,
+    FONT_AWESOME_REGULAR_LIGHTBULB,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularMap,
+    FONT_AWESOME_REGULAR_MAP,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularMessage,
+    FONT_AWESOME_REGULAR_MESSAGE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularMoneyBill1,
+    FONT_AWESOME_REGULAR_MONEY_BILL_1,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularMoon,
+    FONT_AWESOME_REGULAR_MOON,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularNewspaper,
+    FONT_AWESOME_REGULAR_NEWSPAPER,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularNoteSticky,
+    FONT_AWESOME_REGULAR_NOTE_STICKY,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularObjectGroup,
+    FONT_AWESOME_REGULAR_OBJECT_GROUP,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularObjectUngroup,
+    FONT_AWESOME_REGULAR_OBJECT_UNGROUP,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularPaperPlane,
+    FONT_AWESOME_REGULAR_PAPER_PLANE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularPaste,
+    FONT_AWESOME_REGULAR_PASTE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularPenToSquare,
+    FONT_AWESOME_REGULAR_PEN_TO_SQUARE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularRectangleList,
+    FONT_AWESOME_REGULAR_RECTANGLE_LIST,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularRectangleXmark,
+    FONT_AWESOME_REGULAR_RECTANGLE_XMARK,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularRegistered,
+    FONT_AWESOME_REGULAR_REGISTERED,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularShareFromSquare,
+    FONT_AWESOME_REGULAR_SHARE_FROM_SQUARE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularSnowflake,
+    FONT_AWESOME_REGULAR_SNOWFLAKE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularSquareCaretDown,
+    FONT_AWESOME_REGULAR_SQUARE_CARET_DOWN,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularSquareCaretLeft,
+    FONT_AWESOME_REGULAR_SQUARE_CARET_LEFT,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularSquareCaretRight,
+    FONT_AWESOME_REGULAR_SQUARE_CARET_RIGHT,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularSquareCaretUp,
+    FONT_AWESOME_REGULAR_SQUARE_CARET_UP,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularSquareCheck,
+    FONT_AWESOME_REGULAR_SQUARE_CHECK,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularSquareFull,
+    FONT_AWESOME_REGULAR_SQUARE_FULL,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularSquareMinus,
+    FONT_AWESOME_REGULAR_SQUARE_MINUS,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularSquarePlus,
+    FONT_AWESOME_REGULAR_SQUARE_PLUS,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularSquare,
+    FONT_AWESOME_REGULAR_SQUARE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularStarHalfStroke,
+    FONT_AWESOME_REGULAR_STAR_HALF_STROKE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularStarHalf,
+    FONT_AWESOME_REGULAR_STAR_HALF,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularStar,
+    FONT_AWESOME_REGULAR_STAR,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularSun,
+    FONT_AWESOME_REGULAR_SUN,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularThumbsDown,
+    FONT_AWESOME_REGULAR_THUMBS_DOWN,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularThumbsUp,
+    FONT_AWESOME_REGULAR_THUMBS_UP,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularTrashCan,
+    FONT_AWESOME_REGULAR_TRASH_CAN,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularUser,
+    FONT_AWESOME_REGULAR_USER,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularWindowMaximize,
+    FONT_AWESOME_REGULAR_WINDOW_MAXIMIZE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularWindowMinimize,
+    FONT_AWESOME_REGULAR_WINDOW_MINIMIZE,
     #[cfg(feature = "font_awesome_regular")]
-    Self::FontAwesomeRegularWindowRestore,
+    FONT_AWESOME_REGULAR_WINDOW_RESTORE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolid0,
+    FONT_AWESOME_SOLID_0,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolid1,
+    FONT_AWESOME_SOLID_1,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolid2,
+    FONT_AWESOME_SOLID_2,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolid3,
+    FONT_AWESOME_SOLID_3,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolid4,
+    FONT_AWESOME_SOLID_4,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolid5,
+    FONT_AWESOME_SOLID_5,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolid6,
+    FONT_AWESOME_SOLID_6,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolid7,
+    FONT_AWESOME_SOLID_7,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolid8,
+    FONT_AWESOME_SOLID_8,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolid9,
+    FONT_AWESOME_SOLID_9,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidA,
+    FONT_AWESOME_SOLID_A,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAddressBook,
+    FONT_AWESOME_SOLID_ADDRESS_BOOK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAddressCard,
+    FONT_AWESOME_SOLID_ADDRESS_CARD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAlignCenter,
+    FONT_AWESOME_SOLID_ALIGN_CENTER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAlignJustify,
+    FONT_AWESOME_SOLID_ALIGN_JUSTIFY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAlignLeft,
+    FONT_AWESOME_SOLID_ALIGN_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAlignRight,
+    FONT_AWESOME_SOLID_ALIGN_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAnchorCircleCheck,
+    FONT_AWESOME_SOLID_ANCHOR_CIRCLE_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAnchorCircleExclamation,
+    FONT_AWESOME_SOLID_ANCHOR_CIRCLE_EXCLAMATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAnchorCircleXmark,
+    FONT_AWESOME_SOLID_ANCHOR_CIRCLE_XMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAnchorLock,
+    FONT_AWESOME_SOLID_ANCHOR_LOCK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAnchor,
+    FONT_AWESOME_SOLID_ANCHOR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAngleDown,
+    FONT_AWESOME_SOLID_ANGLE_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAngleLeft,
+    FONT_AWESOME_SOLID_ANGLE_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAngleRight,
+    FONT_AWESOME_SOLID_ANGLE_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAngleUp,
+    FONT_AWESOME_SOLID_ANGLE_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAnglesDown,
+    FONT_AWESOME_SOLID_ANGLES_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAnglesLeft,
+    FONT_AWESOME_SOLID_ANGLES_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAnglesRight,
+    FONT_AWESOME_SOLID_ANGLES_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAnglesUp,
+    FONT_AWESOME_SOLID_ANGLES_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAnkh,
+    FONT_AWESOME_SOLID_ANKH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAppleWhole,
+    FONT_AWESOME_SOLID_APPLE_WHOLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArchway,
+    FONT_AWESOME_SOLID_ARCHWAY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowDown19,
+    FONT_AWESOME_SOLID_ARROW_DOWN_1_9,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowDown91,
+    FONT_AWESOME_SOLID_ARROW_DOWN_9_1,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowDownAZ,
+    FONT_AWESOME_SOLID_ARROW_DOWN_A_Z,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowDownLong,
+    FONT_AWESOME_SOLID_ARROW_DOWN_LONG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowDownShortWide,
+    FONT_AWESOME_SOLID_ARROW_DOWN_SHORT_WIDE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowDownUpAcrossLine,
+    FONT_AWESOME_SOLID_ARROW_DOWN_UP_ACROSS_LINE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowDownUpLock,
+    FONT_AWESOME_SOLID_ARROW_DOWN_UP_LOCK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowDownWideShort,
+    FONT_AWESOME_SOLID_ARROW_DOWN_WIDE_SHORT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowDownZA,
+    FONT_AWESOME_SOLID_ARROW_DOWN_Z_A,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowDown,
+    FONT_AWESOME_SOLID_ARROW_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowLeftLong,
+    FONT_AWESOME_SOLID_ARROW_LEFT_LONG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowLeft,
+    FONT_AWESOME_SOLID_ARROW_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowPointer,
+    FONT_AWESOME_SOLID_ARROW_POINTER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowRightArrowLeft,
+    FONT_AWESOME_SOLID_ARROW_RIGHT_ARROW_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowRightFromBracket,
+    FONT_AWESOME_SOLID_ARROW_RIGHT_FROM_BRACKET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowRightLong,
+    FONT_AWESOME_SOLID_ARROW_RIGHT_LONG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowRightToBracket,
+    FONT_AWESOME_SOLID_ARROW_RIGHT_TO_BRACKET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowRightToCity,
+    FONT_AWESOME_SOLID_ARROW_RIGHT_TO_CITY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowRight,
+    FONT_AWESOME_SOLID_ARROW_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowRotateLeft,
+    FONT_AWESOME_SOLID_ARROW_ROTATE_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowRotateRight,
+    FONT_AWESOME_SOLID_ARROW_ROTATE_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowTrendDown,
+    FONT_AWESOME_SOLID_ARROW_TREND_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowTrendUp,
+    FONT_AWESOME_SOLID_ARROW_TREND_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowTurnDown,
+    FONT_AWESOME_SOLID_ARROW_TURN_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowTurnUp,
+    FONT_AWESOME_SOLID_ARROW_TURN_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowUp19,
+    FONT_AWESOME_SOLID_ARROW_UP_1_9,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowUp91,
+    FONT_AWESOME_SOLID_ARROW_UP_9_1,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowUpAZ,
+    FONT_AWESOME_SOLID_ARROW_UP_A_Z,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowUpFromBracket,
+    FONT_AWESOME_SOLID_ARROW_UP_FROM_BRACKET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowUpFromGroundWater,
+    FONT_AWESOME_SOLID_ARROW_UP_FROM_GROUND_WATER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowUpFromWaterPump,
+    FONT_AWESOME_SOLID_ARROW_UP_FROM_WATER_PUMP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowUpLong,
+    FONT_AWESOME_SOLID_ARROW_UP_LONG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowUpRightDots,
+    FONT_AWESOME_SOLID_ARROW_UP_RIGHT_DOTS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowUpRightFromSquare,
+    FONT_AWESOME_SOLID_ARROW_UP_RIGHT_FROM_SQUARE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowUpShortWide,
+    FONT_AWESOME_SOLID_ARROW_UP_SHORT_WIDE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowUpWideShort,
+    FONT_AWESOME_SOLID_ARROW_UP_WIDE_SHORT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowUpZA,
+    FONT_AWESOME_SOLID_ARROW_UP_Z_A,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowUp,
+    FONT_AWESOME_SOLID_ARROW_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowsDownToLine,
+    FONT_AWESOME_SOLID_ARROWS_DOWN_TO_LINE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowsDownToPeople,
+    FONT_AWESOME_SOLID_ARROWS_DOWN_TO_PEOPLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowsLeftRightToLine,
+    FONT_AWESOME_SOLID_ARROWS_LEFT_RIGHT_TO_LINE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowsLeftRight,
+    FONT_AWESOME_SOLID_ARROWS_LEFT_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowsRotate,
+    FONT_AWESOME_SOLID_ARROWS_ROTATE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowsSpin,
+    FONT_AWESOME_SOLID_ARROWS_SPIN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowsSplitUpAndLeft,
+    FONT_AWESOME_SOLID_ARROWS_SPLIT_UP_AND_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowsToCircle,
+    FONT_AWESOME_SOLID_ARROWS_TO_CIRCLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowsToDot,
+    FONT_AWESOME_SOLID_ARROWS_TO_DOT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowsToEye,
+    FONT_AWESOME_SOLID_ARROWS_TO_EYE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowsTurnRight,
+    FONT_AWESOME_SOLID_ARROWS_TURN_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowsTurnToDots,
+    FONT_AWESOME_SOLID_ARROWS_TURN_TO_DOTS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowsUpDownLeftRight,
+    FONT_AWESOME_SOLID_ARROWS_UP_DOWN_LEFT_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowsUpDown,
+    FONT_AWESOME_SOLID_ARROWS_UP_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidArrowsUpToLine,
+    FONT_AWESOME_SOLID_ARROWS_UP_TO_LINE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAsterisk,
+    FONT_AWESOME_SOLID_ASTERISK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAt,
+    FONT_AWESOME_SOLID_AT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAtom,
+    FONT_AWESOME_SOLID_ATOM,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAudioDescription,
+    FONT_AWESOME_SOLID_AUDIO_DESCRIPTION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAustralSign,
+    FONT_AWESOME_SOLID_AUSTRAL_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidAward,
+    FONT_AWESOME_SOLID_AWARD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidB,
+    FONT_AWESOME_SOLID_B,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBabyCarriage,
+    FONT_AWESOME_SOLID_BABY_CARRIAGE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBaby,
+    FONT_AWESOME_SOLID_BABY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBackwardFast,
+    FONT_AWESOME_SOLID_BACKWARD_FAST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBackwardStep,
+    FONT_AWESOME_SOLID_BACKWARD_STEP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBackward,
+    FONT_AWESOME_SOLID_BACKWARD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBacon,
+    FONT_AWESOME_SOLID_BACON,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBacteria,
+    FONT_AWESOME_SOLID_BACTERIA,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBacterium,
+    FONT_AWESOME_SOLID_BACTERIUM,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBagShopping,
+    FONT_AWESOME_SOLID_BAG_SHOPPING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBahai,
+    FONT_AWESOME_SOLID_BAHAI,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBahtSign,
+    FONT_AWESOME_SOLID_BAHT_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBanSmoking,
+    FONT_AWESOME_SOLID_BAN_SMOKING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBan,
+    FONT_AWESOME_SOLID_BAN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBandage,
+    FONT_AWESOME_SOLID_BANDAGE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBarcode,
+    FONT_AWESOME_SOLID_BARCODE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBarsProgress,
+    FONT_AWESOME_SOLID_BARS_PROGRESS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBarsStaggered,
+    FONT_AWESOME_SOLID_BARS_STAGGERED,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBars,
+    FONT_AWESOME_SOLID_BARS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBaseballBatBall,
+    FONT_AWESOME_SOLID_BASEBALL_BAT_BALL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBaseball,
+    FONT_AWESOME_SOLID_BASEBALL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBasketShopping,
+    FONT_AWESOME_SOLID_BASKET_SHOPPING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBasketball,
+    FONT_AWESOME_SOLID_BASKETBALL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBath,
+    FONT_AWESOME_SOLID_BATH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBatteryEmpty,
+    FONT_AWESOME_SOLID_BATTERY_EMPTY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBatteryFull,
+    FONT_AWESOME_SOLID_BATTERY_FULL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBatteryHalf,
+    FONT_AWESOME_SOLID_BATTERY_HALF,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBatteryQuarter,
+    FONT_AWESOME_SOLID_BATTERY_QUARTER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBatteryThreeQuarters,
+    FONT_AWESOME_SOLID_BATTERY_THREE_QUARTERS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBedPulse,
+    FONT_AWESOME_SOLID_BED_PULSE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBed,
+    FONT_AWESOME_SOLID_BED,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBeerMugEmpty,
+    FONT_AWESOME_SOLID_BEER_MUG_EMPTY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBellConcierge,
+    FONT_AWESOME_SOLID_BELL_CONCIERGE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBellSlash,
+    FONT_AWESOME_SOLID_BELL_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBell,
+    FONT_AWESOME_SOLID_BELL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBezierCurve,
+    FONT_AWESOME_SOLID_BEZIER_CURVE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBicycle,
+    FONT_AWESOME_SOLID_BICYCLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBinoculars,
+    FONT_AWESOME_SOLID_BINOCULARS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBiohazard,
+    FONT_AWESOME_SOLID_BIOHAZARD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBitcoinSign,
+    FONT_AWESOME_SOLID_BITCOIN_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBlenderPhone,
+    FONT_AWESOME_SOLID_BLENDER_PHONE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBlender,
+    FONT_AWESOME_SOLID_BLENDER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBlog,
+    FONT_AWESOME_SOLID_BLOG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBold,
+    FONT_AWESOME_SOLID_BOLD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBoltLightning,
+    FONT_AWESOME_SOLID_BOLT_LIGHTNING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBolt,
+    FONT_AWESOME_SOLID_BOLT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBomb,
+    FONT_AWESOME_SOLID_BOMB,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBone,
+    FONT_AWESOME_SOLID_BONE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBong,
+    FONT_AWESOME_SOLID_BONG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBookAtlas,
+    FONT_AWESOME_SOLID_BOOK_ATLAS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBookBible,
+    FONT_AWESOME_SOLID_BOOK_BIBLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBookBookmark,
+    FONT_AWESOME_SOLID_BOOK_BOOKMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBookJournalWhills,
+    FONT_AWESOME_SOLID_BOOK_JOURNAL_WHILLS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBookMedical,
+    FONT_AWESOME_SOLID_BOOK_MEDICAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBookOpenReader,
+    FONT_AWESOME_SOLID_BOOK_OPEN_READER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBookOpen,
+    FONT_AWESOME_SOLID_BOOK_OPEN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBookQuran,
+    FONT_AWESOME_SOLID_BOOK_QURAN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBookSkull,
+    FONT_AWESOME_SOLID_BOOK_SKULL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBook,
+    FONT_AWESOME_SOLID_BOOK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBookmark,
+    FONT_AWESOME_SOLID_BOOKMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBorderAll,
+    FONT_AWESOME_SOLID_BORDER_ALL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBorderNone,
+    FONT_AWESOME_SOLID_BORDER_NONE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBorderTopLeft,
+    FONT_AWESOME_SOLID_BORDER_TOP_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBoreHole,
+    FONT_AWESOME_SOLID_BORE_HOLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBottleDroplet,
+    FONT_AWESOME_SOLID_BOTTLE_DROPLET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBottleWater,
+    FONT_AWESOME_SOLID_BOTTLE_WATER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBowlFood,
+    FONT_AWESOME_SOLID_BOWL_FOOD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBowlRice,
+    FONT_AWESOME_SOLID_BOWL_RICE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBowlingBall,
+    FONT_AWESOME_SOLID_BOWLING_BALL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBoxArchive,
+    FONT_AWESOME_SOLID_BOX_ARCHIVE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBoxOpen,
+    FONT_AWESOME_SOLID_BOX_OPEN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBoxTissue,
+    FONT_AWESOME_SOLID_BOX_TISSUE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBox,
+    FONT_AWESOME_SOLID_BOX,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBoxesPacking,
+    FONT_AWESOME_SOLID_BOXES_PACKING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBoxesStacked,
+    FONT_AWESOME_SOLID_BOXES_STACKED,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBraille,
+    FONT_AWESOME_SOLID_BRAILLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBrain,
+    FONT_AWESOME_SOLID_BRAIN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBrazilianRealSign,
+    FONT_AWESOME_SOLID_BRAZILIAN_REAL_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBreadSlice,
+    FONT_AWESOME_SOLID_BREAD_SLICE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBridgeCircleCheck,
+    FONT_AWESOME_SOLID_BRIDGE_CIRCLE_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBridgeCircleExclamation,
+    FONT_AWESOME_SOLID_BRIDGE_CIRCLE_EXCLAMATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBridgeCircleXmark,
+    FONT_AWESOME_SOLID_BRIDGE_CIRCLE_XMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBridgeLock,
+    FONT_AWESOME_SOLID_BRIDGE_LOCK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBridgeWater,
+    FONT_AWESOME_SOLID_BRIDGE_WATER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBridge,
+    FONT_AWESOME_SOLID_BRIDGE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBriefcaseMedical,
+    FONT_AWESOME_SOLID_BRIEFCASE_MEDICAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBriefcase,
+    FONT_AWESOME_SOLID_BRIEFCASE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBroomBall,
+    FONT_AWESOME_SOLID_BROOM_BALL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBroom,
+    FONT_AWESOME_SOLID_BROOM,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBrush,
+    FONT_AWESOME_SOLID_BRUSH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBucket,
+    FONT_AWESOME_SOLID_BUCKET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBugSlash,
+    FONT_AWESOME_SOLID_BUG_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBug,
+    FONT_AWESOME_SOLID_BUG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBugs,
+    FONT_AWESOME_SOLID_BUGS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBuildingCircleArrowRight,
+    FONT_AWESOME_SOLID_BUILDING_CIRCLE_ARROW_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBuildingCircleCheck,
+    FONT_AWESOME_SOLID_BUILDING_CIRCLE_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBuildingCircleExclamation,
+    FONT_AWESOME_SOLID_BUILDING_CIRCLE_EXCLAMATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBuildingCircleXmark,
+    FONT_AWESOME_SOLID_BUILDING_CIRCLE_XMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBuildingColumns,
+    FONT_AWESOME_SOLID_BUILDING_COLUMNS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBuildingFlag,
+    FONT_AWESOME_SOLID_BUILDING_FLAG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBuildingLock,
+    FONT_AWESOME_SOLID_BUILDING_LOCK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBuildingNgo,
+    FONT_AWESOME_SOLID_BUILDING_NGO,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBuildingShield,
+    FONT_AWESOME_SOLID_BUILDING_SHIELD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBuildingUn,
+    FONT_AWESOME_SOLID_BUILDING_UN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBuildingUser,
+    FONT_AWESOME_SOLID_BUILDING_USER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBuildingWheat,
+    FONT_AWESOME_SOLID_BUILDING_WHEAT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBuilding,
+    FONT_AWESOME_SOLID_BUILDING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBullhorn,
+    FONT_AWESOME_SOLID_BULLHORN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBullseye,
+    FONT_AWESOME_SOLID_BULLSEYE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBurger,
+    FONT_AWESOME_SOLID_BURGER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBurst,
+    FONT_AWESOME_SOLID_BURST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBusSimple,
+    FONT_AWESOME_SOLID_BUS_SIMPLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBus,
+    FONT_AWESOME_SOLID_BUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidBusinessTime,
+    FONT_AWESOME_SOLID_BUSINESS_TIME,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidC,
+    FONT_AWESOME_SOLID_C,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCakeCandles,
+    FONT_AWESOME_SOLID_CAKE_CANDLES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCalculator,
+    FONT_AWESOME_SOLID_CALCULATOR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCalendarCheck,
+    FONT_AWESOME_SOLID_CALENDAR_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCalendarDay,
+    FONT_AWESOME_SOLID_CALENDAR_DAY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCalendarDays,
+    FONT_AWESOME_SOLID_CALENDAR_DAYS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCalendarMinus,
+    FONT_AWESOME_SOLID_CALENDAR_MINUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCalendarPlus,
+    FONT_AWESOME_SOLID_CALENDAR_PLUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCalendarWeek,
+    FONT_AWESOME_SOLID_CALENDAR_WEEK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCalendarXmark,
+    FONT_AWESOME_SOLID_CALENDAR_XMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCalendar,
+    FONT_AWESOME_SOLID_CALENDAR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCameraRetro,
+    FONT_AWESOME_SOLID_CAMERA_RETRO,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCameraRotate,
+    FONT_AWESOME_SOLID_CAMERA_ROTATE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCamera,
+    FONT_AWESOME_SOLID_CAMERA,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCampground,
+    FONT_AWESOME_SOLID_CAMPGROUND,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCandyCane,
+    FONT_AWESOME_SOLID_CANDY_CANE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCannabis,
+    FONT_AWESOME_SOLID_CANNABIS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCapsules,
+    FONT_AWESOME_SOLID_CAPSULES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCarBattery,
+    FONT_AWESOME_SOLID_CAR_BATTERY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCarBurst,
+    FONT_AWESOME_SOLID_CAR_BURST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCarCrash,
+    FONT_AWESOME_SOLID_CAR_CRASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCarOn,
+    FONT_AWESOME_SOLID_CAR_ON,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCarRear,
+    FONT_AWESOME_SOLID_CAR_REAR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCarSide,
+    FONT_AWESOME_SOLID_CAR_SIDE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCarTunnel,
+    FONT_AWESOME_SOLID_CAR_TUNNEL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCar,
+    FONT_AWESOME_SOLID_CAR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCaravan,
+    FONT_AWESOME_SOLID_CARAVAN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCaretDown,
+    FONT_AWESOME_SOLID_CARET_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCaretLeft,
+    FONT_AWESOME_SOLID_CARET_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCaretRight,
+    FONT_AWESOME_SOLID_CARET_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCaretUp,
+    FONT_AWESOME_SOLID_CARET_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCarrot,
+    FONT_AWESOME_SOLID_CARROT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCartArrowDown,
+    FONT_AWESOME_SOLID_CART_ARROW_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCartFlatbedSuitcase,
+    FONT_AWESOME_SOLID_CART_FLATBED_SUITCASE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCartFlatbed,
+    FONT_AWESOME_SOLID_CART_FLATBED,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCartPlus,
+    FONT_AWESOME_SOLID_CART_PLUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCartShopping,
+    FONT_AWESOME_SOLID_CART_SHOPPING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCashRegister,
+    FONT_AWESOME_SOLID_CASH_REGISTER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCat,
+    FONT_AWESOME_SOLID_CAT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCediSign,
+    FONT_AWESOME_SOLID_CEDI_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCentSign,
+    FONT_AWESOME_SOLID_CENT_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCertificate,
+    FONT_AWESOME_SOLID_CERTIFICATE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChair,
+    FONT_AWESOME_SOLID_CHAIR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChalkboardUser,
+    FONT_AWESOME_SOLID_CHALKBOARD_USER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChalkboard,
+    FONT_AWESOME_SOLID_CHALKBOARD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChampagneGlasses,
+    FONT_AWESOME_SOLID_CHAMPAGNE_GLASSES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChargingStation,
+    FONT_AWESOME_SOLID_CHARGING_STATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChartArea,
+    FONT_AWESOME_SOLID_CHART_AREA,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChartBar,
+    FONT_AWESOME_SOLID_CHART_BAR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChartColumn,
+    FONT_AWESOME_SOLID_CHART_COLUMN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChartGantt,
+    FONT_AWESOME_SOLID_CHART_GANTT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChartLine,
+    FONT_AWESOME_SOLID_CHART_LINE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChartPie,
+    FONT_AWESOME_SOLID_CHART_PIE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChartSimple,
+    FONT_AWESOME_SOLID_CHART_SIMPLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCheckDouble,
+    FONT_AWESOME_SOLID_CHECK_DOUBLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCheckToSlot,
+    FONT_AWESOME_SOLID_CHECK_TO_SLOT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCheck,
+    FONT_AWESOME_SOLID_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCheese,
+    FONT_AWESOME_SOLID_CHEESE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChessBishop,
+    FONT_AWESOME_SOLID_CHESS_BISHOP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChessBoard,
+    FONT_AWESOME_SOLID_CHESS_BOARD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChessKing,
+    FONT_AWESOME_SOLID_CHESS_KING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChessKnight,
+    FONT_AWESOME_SOLID_CHESS_KNIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChessPawn,
+    FONT_AWESOME_SOLID_CHESS_PAWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChessQueen,
+    FONT_AWESOME_SOLID_CHESS_QUEEN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChessRook,
+    FONT_AWESOME_SOLID_CHESS_ROOK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChess,
+    FONT_AWESOME_SOLID_CHESS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChevronDown,
+    FONT_AWESOME_SOLID_CHEVRON_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChevronLeft,
+    FONT_AWESOME_SOLID_CHEVRON_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChevronRight,
+    FONT_AWESOME_SOLID_CHEVRON_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChevronUp,
+    FONT_AWESOME_SOLID_CHEVRON_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChildDress,
+    FONT_AWESOME_SOLID_CHILD_DRESS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChildReaching,
+    FONT_AWESOME_SOLID_CHILD_REACHING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChildRifle,
+    FONT_AWESOME_SOLID_CHILD_RIFLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChild,
+    FONT_AWESOME_SOLID_CHILD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChildren,
+    FONT_AWESOME_SOLID_CHILDREN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidChurch,
+    FONT_AWESOME_SOLID_CHURCH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleArrowDown,
+    FONT_AWESOME_SOLID_CIRCLE_ARROW_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleArrowLeft,
+    FONT_AWESOME_SOLID_CIRCLE_ARROW_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleArrowRight,
+    FONT_AWESOME_SOLID_CIRCLE_ARROW_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleArrowUp,
+    FONT_AWESOME_SOLID_CIRCLE_ARROW_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleCheck,
+    FONT_AWESOME_SOLID_CIRCLE_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleChevronDown,
+    FONT_AWESOME_SOLID_CIRCLE_CHEVRON_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleChevronLeft,
+    FONT_AWESOME_SOLID_CIRCLE_CHEVRON_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleChevronRight,
+    FONT_AWESOME_SOLID_CIRCLE_CHEVRON_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleChevronUp,
+    FONT_AWESOME_SOLID_CIRCLE_CHEVRON_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleDollarToSlot,
+    FONT_AWESOME_SOLID_CIRCLE_DOLLAR_TO_SLOT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleDot,
+    FONT_AWESOME_SOLID_CIRCLE_DOT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleDown,
+    FONT_AWESOME_SOLID_CIRCLE_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleExclamation,
+    FONT_AWESOME_SOLID_CIRCLE_EXCLAMATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleH,
+    FONT_AWESOME_SOLID_CIRCLE_H,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleHalfStroke,
+    FONT_AWESOME_SOLID_CIRCLE_HALF_STROKE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleInfo,
+    FONT_AWESOME_SOLID_CIRCLE_INFO,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleLeft,
+    FONT_AWESOME_SOLID_CIRCLE_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleMinus,
+    FONT_AWESOME_SOLID_CIRCLE_MINUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleNodes,
+    FONT_AWESOME_SOLID_CIRCLE_NODES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleNotch,
+    FONT_AWESOME_SOLID_CIRCLE_NOTCH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCirclePause,
+    FONT_AWESOME_SOLID_CIRCLE_PAUSE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCirclePlay,
+    FONT_AWESOME_SOLID_CIRCLE_PLAY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCirclePlus,
+    FONT_AWESOME_SOLID_CIRCLE_PLUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleQuestion,
+    FONT_AWESOME_SOLID_CIRCLE_QUESTION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleRadiation,
+    FONT_AWESOME_SOLID_CIRCLE_RADIATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleRight,
+    FONT_AWESOME_SOLID_CIRCLE_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleStop,
+    FONT_AWESOME_SOLID_CIRCLE_STOP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleUp,
+    FONT_AWESOME_SOLID_CIRCLE_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleUser,
+    FONT_AWESOME_SOLID_CIRCLE_USER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircleXmark,
+    FONT_AWESOME_SOLID_CIRCLE_XMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCircle,
+    FONT_AWESOME_SOLID_CIRCLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCity,
+    FONT_AWESOME_SOLID_CITY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidClapperboard,
+    FONT_AWESOME_SOLID_CLAPPERBOARD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidClipboardCheck,
+    FONT_AWESOME_SOLID_CLIPBOARD_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidClipboardList,
+    FONT_AWESOME_SOLID_CLIPBOARD_LIST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidClipboardQuestion,
+    FONT_AWESOME_SOLID_CLIPBOARD_QUESTION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidClipboardUser,
+    FONT_AWESOME_SOLID_CLIPBOARD_USER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidClipboard,
+    FONT_AWESOME_SOLID_CLIPBOARD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidClockRotateLeft,
+    FONT_AWESOME_SOLID_CLOCK_ROTATE_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidClock,
+    FONT_AWESOME_SOLID_CLOCK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidClone,
+    FONT_AWESOME_SOLID_CLONE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidClosedCaptioning,
+    FONT_AWESOME_SOLID_CLOSED_CAPTIONING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCloudArrowDown,
+    FONT_AWESOME_SOLID_CLOUD_ARROW_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCloudArrowUp,
+    FONT_AWESOME_SOLID_CLOUD_ARROW_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCloudBolt,
+    FONT_AWESOME_SOLID_CLOUD_BOLT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCloudMeatball,
+    FONT_AWESOME_SOLID_CLOUD_MEATBALL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCloudMoonRain,
+    FONT_AWESOME_SOLID_CLOUD_MOON_RAIN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCloudMoon,
+    FONT_AWESOME_SOLID_CLOUD_MOON,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCloudRain,
+    FONT_AWESOME_SOLID_CLOUD_RAIN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCloudShowersHeavy,
+    FONT_AWESOME_SOLID_CLOUD_SHOWERS_HEAVY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCloudShowersWater,
+    FONT_AWESOME_SOLID_CLOUD_SHOWERS_WATER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCloudSunRain,
+    FONT_AWESOME_SOLID_CLOUD_SUN_RAIN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCloudSun,
+    FONT_AWESOME_SOLID_CLOUD_SUN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCloud,
+    FONT_AWESOME_SOLID_CLOUD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidClover,
+    FONT_AWESOME_SOLID_CLOVER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCodeBranch,
+    FONT_AWESOME_SOLID_CODE_BRANCH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCodeCommit,
+    FONT_AWESOME_SOLID_CODE_COMMIT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCodeCompare,
+    FONT_AWESOME_SOLID_CODE_COMPARE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCodeFork,
+    FONT_AWESOME_SOLID_CODE_FORK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCodeMerge,
+    FONT_AWESOME_SOLID_CODE_MERGE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCodePullRequest,
+    FONT_AWESOME_SOLID_CODE_PULL_REQUEST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCode,
+    FONT_AWESOME_SOLID_CODE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCoins,
+    FONT_AWESOME_SOLID_COINS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidColonSign,
+    FONT_AWESOME_SOLID_COLON_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCommentDollar,
+    FONT_AWESOME_SOLID_COMMENT_DOLLAR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCommentDots,
+    FONT_AWESOME_SOLID_COMMENT_DOTS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCommentMedical,
+    FONT_AWESOME_SOLID_COMMENT_MEDICAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCommentSlash,
+    FONT_AWESOME_SOLID_COMMENT_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCommentSms,
+    FONT_AWESOME_SOLID_COMMENT_SMS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidComment,
+    FONT_AWESOME_SOLID_COMMENT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCommentsDollar,
+    FONT_AWESOME_SOLID_COMMENTS_DOLLAR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidComments,
+    FONT_AWESOME_SOLID_COMMENTS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCompactDisc,
+    FONT_AWESOME_SOLID_COMPACT_DISC,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCompassDrafting,
+    FONT_AWESOME_SOLID_COMPASS_DRAFTING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCompass,
+    FONT_AWESOME_SOLID_COMPASS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCompress,
+    FONT_AWESOME_SOLID_COMPRESS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidComputerMouse,
+    FONT_AWESOME_SOLID_COMPUTER_MOUSE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidComputer,
+    FONT_AWESOME_SOLID_COMPUTER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCookieBite,
+    FONT_AWESOME_SOLID_COOKIE_BITE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCookie,
+    FONT_AWESOME_SOLID_COOKIE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCopy,
+    FONT_AWESOME_SOLID_COPY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCopyright,
+    FONT_AWESOME_SOLID_COPYRIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCouch,
+    FONT_AWESOME_SOLID_COUCH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCow,
+    FONT_AWESOME_SOLID_COW,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCreditCard,
+    FONT_AWESOME_SOLID_CREDIT_CARD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCropSimple,
+    FONT_AWESOME_SOLID_CROP_SIMPLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCrop,
+    FONT_AWESOME_SOLID_CROP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCross,
+    FONT_AWESOME_SOLID_CROSS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCrosshairs,
+    FONT_AWESOME_SOLID_CROSSHAIRS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCrow,
+    FONT_AWESOME_SOLID_CROW,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCrown,
+    FONT_AWESOME_SOLID_CROWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCrutch,
+    FONT_AWESOME_SOLID_CRUTCH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCruzeiroSign,
+    FONT_AWESOME_SOLID_CRUZEIRO_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCube,
+    FONT_AWESOME_SOLID_CUBE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCubesStacked,
+    FONT_AWESOME_SOLID_CUBES_STACKED,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidCubes,
+    FONT_AWESOME_SOLID_CUBES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidD,
+    FONT_AWESOME_SOLID_D,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDatabase,
+    FONT_AWESOME_SOLID_DATABASE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDeleteLeft,
+    FONT_AWESOME_SOLID_DELETE_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDemocrat,
+    FONT_AWESOME_SOLID_DEMOCRAT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDesktop,
+    FONT_AWESOME_SOLID_DESKTOP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDharmachakra,
+    FONT_AWESOME_SOLID_DHARMACHAKRA,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDiagramNext,
+    FONT_AWESOME_SOLID_DIAGRAM_NEXT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDiagramPredecessor,
+    FONT_AWESOME_SOLID_DIAGRAM_PREDECESSOR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDiagramProject,
+    FONT_AWESOME_SOLID_DIAGRAM_PROJECT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDiagramSuccessor,
+    FONT_AWESOME_SOLID_DIAGRAM_SUCCESSOR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDiamondTurnRight,
+    FONT_AWESOME_SOLID_DIAMOND_TURN_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDiamond,
+    FONT_AWESOME_SOLID_DIAMOND,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDiceD20,
+    FONT_AWESOME_SOLID_DICE_D_20,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDiceD6,
+    FONT_AWESOME_SOLID_DICE_D_6,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDiceFive,
+    FONT_AWESOME_SOLID_DICE_FIVE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDiceFour,
+    FONT_AWESOME_SOLID_DICE_FOUR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDiceOne,
+    FONT_AWESOME_SOLID_DICE_ONE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDiceSix,
+    FONT_AWESOME_SOLID_DICE_SIX,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDiceThree,
+    FONT_AWESOME_SOLID_DICE_THREE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDiceTwo,
+    FONT_AWESOME_SOLID_DICE_TWO,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDice,
+    FONT_AWESOME_SOLID_DICE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDisease,
+    FONT_AWESOME_SOLID_DISEASE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDisplay,
+    FONT_AWESOME_SOLID_DISPLAY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDivide,
+    FONT_AWESOME_SOLID_DIVIDE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDna,
+    FONT_AWESOME_SOLID_DNA,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDog,
+    FONT_AWESOME_SOLID_DOG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDollarSign,
+    FONT_AWESOME_SOLID_DOLLAR_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDolly,
+    FONT_AWESOME_SOLID_DOLLY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDongSign,
+    FONT_AWESOME_SOLID_DONG_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDoorClosed,
+    FONT_AWESOME_SOLID_DOOR_CLOSED,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDoorOpen,
+    FONT_AWESOME_SOLID_DOOR_OPEN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDove,
+    FONT_AWESOME_SOLID_DOVE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDownLeftAndUpRightToCenter,
+    FONT_AWESOME_SOLID_DOWN_LEFT_AND_UP_RIGHT_TO_CENTER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDownLong,
+    FONT_AWESOME_SOLID_DOWN_LONG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDownload,
+    FONT_AWESOME_SOLID_DOWNLOAD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDragon,
+    FONT_AWESOME_SOLID_DRAGON,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDrawPolygon,
+    FONT_AWESOME_SOLID_DRAW_POLYGON,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDropletSlash,
+    FONT_AWESOME_SOLID_DROPLET_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDroplet,
+    FONT_AWESOME_SOLID_DROPLET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDrumSteelpan,
+    FONT_AWESOME_SOLID_DRUM_STEELPAN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDrum,
+    FONT_AWESOME_SOLID_DRUM,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDrumstickBite,
+    FONT_AWESOME_SOLID_DRUMSTICK_BITE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDumbbell,
+    FONT_AWESOME_SOLID_DUMBBELL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDumpsterFire,
+    FONT_AWESOME_SOLID_DUMPSTER_FIRE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDumpster,
+    FONT_AWESOME_SOLID_DUMPSTER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidDungeon,
+    FONT_AWESOME_SOLID_DUNGEON,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidE,
+    FONT_AWESOME_SOLID_E,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEarDeaf,
+    FONT_AWESOME_SOLID_EAR_DEAF,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEarListen,
+    FONT_AWESOME_SOLID_EAR_LISTEN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEarthAfrica,
+    FONT_AWESOME_SOLID_EARTH_AFRICA,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEarthAmericas,
+    FONT_AWESOME_SOLID_EARTH_AMERICAS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEarthAsia,
+    FONT_AWESOME_SOLID_EARTH_ASIA,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEarthEurope,
+    FONT_AWESOME_SOLID_EARTH_EUROPE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEarthOceania,
+    FONT_AWESOME_SOLID_EARTH_OCEANIA,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEgg,
+    FONT_AWESOME_SOLID_EGG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEject,
+    FONT_AWESOME_SOLID_EJECT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidElevator,
+    FONT_AWESOME_SOLID_ELEVATOR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEllipsisVertical,
+    FONT_AWESOME_SOLID_ELLIPSIS_VERTICAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEllipsis,
+    FONT_AWESOME_SOLID_ELLIPSIS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEnvelopeCircleCheck,
+    FONT_AWESOME_SOLID_ENVELOPE_CIRCLE_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEnvelopeOpenText,
+    FONT_AWESOME_SOLID_ENVELOPE_OPEN_TEXT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEnvelopeOpen,
+    FONT_AWESOME_SOLID_ENVELOPE_OPEN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEnvelope,
+    FONT_AWESOME_SOLID_ENVELOPE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEnvelopesBulk,
+    FONT_AWESOME_SOLID_ENVELOPES_BULK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEquals,
+    FONT_AWESOME_SOLID_EQUALS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEraser,
+    FONT_AWESOME_SOLID_ERASER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEthernet,
+    FONT_AWESOME_SOLID_ETHERNET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEuroSign,
+    FONT_AWESOME_SOLID_EURO_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidExclamation,
+    FONT_AWESOME_SOLID_EXCLAMATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidExpand,
+    FONT_AWESOME_SOLID_EXPAND,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidExplosion,
+    FONT_AWESOME_SOLID_EXPLOSION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEyeDropper,
+    FONT_AWESOME_SOLID_EYE_DROPPER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEyeLowVision,
+    FONT_AWESOME_SOLID_EYE_LOW_VISION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEyeSlash,
+    FONT_AWESOME_SOLID_EYE_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidEye,
+    FONT_AWESOME_SOLID_EYE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidF,
+    FONT_AWESOME_SOLID_F,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceAngry,
+    FONT_AWESOME_SOLID_FACE_ANGRY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceDizzy,
+    FONT_AWESOME_SOLID_FACE_DIZZY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceFlushed,
+    FONT_AWESOME_SOLID_FACE_FLUSHED,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceFrownOpen,
+    FONT_AWESOME_SOLID_FACE_FROWN_OPEN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceFrown,
+    FONT_AWESOME_SOLID_FACE_FROWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceGrimace,
+    FONT_AWESOME_SOLID_FACE_GRIMACE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceGrinBeamSweat,
+    FONT_AWESOME_SOLID_FACE_GRIN_BEAM_SWEAT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceGrinBeam,
+    FONT_AWESOME_SOLID_FACE_GRIN_BEAM,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceGrinHearts,
+    FONT_AWESOME_SOLID_FACE_GRIN_HEARTS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceGrinSquintTears,
+    FONT_AWESOME_SOLID_FACE_GRIN_SQUINT_TEARS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceGrinSquint,
+    FONT_AWESOME_SOLID_FACE_GRIN_SQUINT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceGrinStars,
+    FONT_AWESOME_SOLID_FACE_GRIN_STARS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceGrinTears,
+    FONT_AWESOME_SOLID_FACE_GRIN_TEARS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceGrinTongueSquint,
+    FONT_AWESOME_SOLID_FACE_GRIN_TONGUE_SQUINT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceGrinTongueWink,
+    FONT_AWESOME_SOLID_FACE_GRIN_TONGUE_WINK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceGrinTongue,
+    FONT_AWESOME_SOLID_FACE_GRIN_TONGUE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceGrinWide,
+    FONT_AWESOME_SOLID_FACE_GRIN_WIDE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceGrinWink,
+    FONT_AWESOME_SOLID_FACE_GRIN_WINK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceGrin,
+    FONT_AWESOME_SOLID_FACE_GRIN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceKissBeam,
+    FONT_AWESOME_SOLID_FACE_KISS_BEAM,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceKissWinkHeart,
+    FONT_AWESOME_SOLID_FACE_KISS_WINK_HEART,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceKiss,
+    FONT_AWESOME_SOLID_FACE_KISS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceLaughBeam,
+    FONT_AWESOME_SOLID_FACE_LAUGH_BEAM,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceLaughSquint,
+    FONT_AWESOME_SOLID_FACE_LAUGH_SQUINT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceLaughWink,
+    FONT_AWESOME_SOLID_FACE_LAUGH_WINK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceLaugh,
+    FONT_AWESOME_SOLID_FACE_LAUGH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceMehBlank,
+    FONT_AWESOME_SOLID_FACE_MEH_BLANK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceMeh,
+    FONT_AWESOME_SOLID_FACE_MEH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceRollingEyes,
+    FONT_AWESOME_SOLID_FACE_ROLLING_EYES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceSadCry,
+    FONT_AWESOME_SOLID_FACE_SAD_CRY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceSadTear,
+    FONT_AWESOME_SOLID_FACE_SAD_TEAR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceSmileBeam,
+    FONT_AWESOME_SOLID_FACE_SMILE_BEAM,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceSmileWink,
+    FONT_AWESOME_SOLID_FACE_SMILE_WINK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceSmile,
+    FONT_AWESOME_SOLID_FACE_SMILE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceSurprise,
+    FONT_AWESOME_SOLID_FACE_SURPRISE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaceTired,
+    FONT_AWESOME_SOLID_FACE_TIRED,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFan,
+    FONT_AWESOME_SOLID_FAN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaucetDrip,
+    FONT_AWESOME_SOLID_FAUCET_DRIP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFaucet,
+    FONT_AWESOME_SOLID_FAUCET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFax,
+    FONT_AWESOME_SOLID_FAX,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFeatherPointed,
+    FONT_AWESOME_SOLID_FEATHER_POINTED,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFeather,
+    FONT_AWESOME_SOLID_FEATHER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFerry,
+    FONT_AWESOME_SOLID_FERRY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileArrowDown,
+    FONT_AWESOME_SOLID_FILE_ARROW_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileArrowUp,
+    FONT_AWESOME_SOLID_FILE_ARROW_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileAudio,
+    FONT_AWESOME_SOLID_FILE_AUDIO,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileCircleCheck,
+    FONT_AWESOME_SOLID_FILE_CIRCLE_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileCircleExclamation,
+    FONT_AWESOME_SOLID_FILE_CIRCLE_EXCLAMATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileCircleMinus,
+    FONT_AWESOME_SOLID_FILE_CIRCLE_MINUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileCirclePlus,
+    FONT_AWESOME_SOLID_FILE_CIRCLE_PLUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileCircleQuestion,
+    FONT_AWESOME_SOLID_FILE_CIRCLE_QUESTION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileCircleXmark,
+    FONT_AWESOME_SOLID_FILE_CIRCLE_XMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileCode,
+    FONT_AWESOME_SOLID_FILE_CODE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileContract,
+    FONT_AWESOME_SOLID_FILE_CONTRACT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileCsv,
+    FONT_AWESOME_SOLID_FILE_CSV,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileExcel,
+    FONT_AWESOME_SOLID_FILE_EXCEL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileExport,
+    FONT_AWESOME_SOLID_FILE_EXPORT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileImage,
+    FONT_AWESOME_SOLID_FILE_IMAGE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileImport,
+    FONT_AWESOME_SOLID_FILE_IMPORT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileInvoiceDollar,
+    FONT_AWESOME_SOLID_FILE_INVOICE_DOLLAR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileInvoice,
+    FONT_AWESOME_SOLID_FILE_INVOICE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileLines,
+    FONT_AWESOME_SOLID_FILE_LINES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileMedical,
+    FONT_AWESOME_SOLID_FILE_MEDICAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFilePdf,
+    FONT_AWESOME_SOLID_FILE_PDF,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFilePen,
+    FONT_AWESOME_SOLID_FILE_PEN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFilePowerpoint,
+    FONT_AWESOME_SOLID_FILE_POWERPOINT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFilePrescription,
+    FONT_AWESOME_SOLID_FILE_PRESCRIPTION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileShield,
+    FONT_AWESOME_SOLID_FILE_SHIELD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileSignature,
+    FONT_AWESOME_SOLID_FILE_SIGNATURE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileVideo,
+    FONT_AWESOME_SOLID_FILE_VIDEO,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileWaveform,
+    FONT_AWESOME_SOLID_FILE_WAVEFORM,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileWord,
+    FONT_AWESOME_SOLID_FILE_WORD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFileZipper,
+    FONT_AWESOME_SOLID_FILE_ZIPPER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFile,
+    FONT_AWESOME_SOLID_FILE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFillDrip,
+    FONT_AWESOME_SOLID_FILL_DRIP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFill,
+    FONT_AWESOME_SOLID_FILL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFilm,
+    FONT_AWESOME_SOLID_FILM,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFilterCircleDollar,
+    FONT_AWESOME_SOLID_FILTER_CIRCLE_DOLLAR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFilterCircleXmark,
+    FONT_AWESOME_SOLID_FILTER_CIRCLE_XMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFilter,
+    FONT_AWESOME_SOLID_FILTER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFingerprint,
+    FONT_AWESOME_SOLID_FINGERPRINT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFireBurner,
+    FONT_AWESOME_SOLID_FIRE_BURNER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFireExtinguisher,
+    FONT_AWESOME_SOLID_FIRE_EXTINGUISHER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFireFlameCurved,
+    FONT_AWESOME_SOLID_FIRE_FLAME_CURVED,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFireFlameSimple,
+    FONT_AWESOME_SOLID_FIRE_FLAME_SIMPLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFire,
+    FONT_AWESOME_SOLID_FIRE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFishFins,
+    FONT_AWESOME_SOLID_FISH_FINS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFish,
+    FONT_AWESOME_SOLID_FISH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFlagCheckered,
+    FONT_AWESOME_SOLID_FLAG_CHECKERED,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFlagUsa,
+    FONT_AWESOME_SOLID_FLAG_USA,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFlag,
+    FONT_AWESOME_SOLID_FLAG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFlaskVial,
+    FONT_AWESOME_SOLID_FLASK_VIAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFlask,
+    FONT_AWESOME_SOLID_FLASK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFloppyDisk,
+    FONT_AWESOME_SOLID_FLOPPY_DISK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFlorinSign,
+    FONT_AWESOME_SOLID_FLORIN_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFolderClosed,
+    FONT_AWESOME_SOLID_FOLDER_CLOSED,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFolderMinus,
+    FONT_AWESOME_SOLID_FOLDER_MINUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFolderOpen,
+    FONT_AWESOME_SOLID_FOLDER_OPEN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFolderPlus,
+    FONT_AWESOME_SOLID_FOLDER_PLUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFolderTree,
+    FONT_AWESOME_SOLID_FOLDER_TREE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFolder,
+    FONT_AWESOME_SOLID_FOLDER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFontAwesome,
+    FONT_AWESOME_SOLID_FONT_AWESOME,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFont,
+    FONT_AWESOME_SOLID_FONT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFootball,
+    FONT_AWESOME_SOLID_FOOTBALL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidForwardFast,
+    FONT_AWESOME_SOLID_FORWARD_FAST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidForwardStep,
+    FONT_AWESOME_SOLID_FORWARD_STEP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidForward,
+    FONT_AWESOME_SOLID_FORWARD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFrancSign,
+    FONT_AWESOME_SOLID_FRANC_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFrog,
+    FONT_AWESOME_SOLID_FROG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidFutbol,
+    FONT_AWESOME_SOLID_FUTBOL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidG,
+    FONT_AWESOME_SOLID_G,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGamepad,
+    FONT_AWESOME_SOLID_GAMEPAD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGasPump,
+    FONT_AWESOME_SOLID_GAS_PUMP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGaugeHigh,
+    FONT_AWESOME_SOLID_GAUGE_HIGH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGaugeSimpleHigh,
+    FONT_AWESOME_SOLID_GAUGE_SIMPLE_HIGH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGaugeSimple,
+    FONT_AWESOME_SOLID_GAUGE_SIMPLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGauge,
+    FONT_AWESOME_SOLID_GAUGE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGavel,
+    FONT_AWESOME_SOLID_GAVEL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGear,
+    FONT_AWESOME_SOLID_GEAR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGears,
+    FONT_AWESOME_SOLID_GEARS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGem,
+    FONT_AWESOME_SOLID_GEM,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGenderless,
+    FONT_AWESOME_SOLID_GENDERLESS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGhost,
+    FONT_AWESOME_SOLID_GHOST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGift,
+    FONT_AWESOME_SOLID_GIFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGifts,
+    FONT_AWESOME_SOLID_GIFTS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGlassWaterDroplet,
+    FONT_AWESOME_SOLID_GLASS_WATER_DROPLET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGlassWater,
+    FONT_AWESOME_SOLID_GLASS_WATER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGlasses,
+    FONT_AWESOME_SOLID_GLASSES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGlobe,
+    FONT_AWESOME_SOLID_GLOBE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGolfBallTee,
+    FONT_AWESOME_SOLID_GOLF_BALL_TEE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGopuram,
+    FONT_AWESOME_SOLID_GOPURAM,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGraduationCap,
+    FONT_AWESOME_SOLID_GRADUATION_CAP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGreaterThanEqual,
+    FONT_AWESOME_SOLID_GREATER_THAN_EQUAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGreaterThan,
+    FONT_AWESOME_SOLID_GREATER_THAN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGripLinesVertical,
+    FONT_AWESOME_SOLID_GRIP_LINES_VERTICAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGripLines,
+    FONT_AWESOME_SOLID_GRIP_LINES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGripVertical,
+    FONT_AWESOME_SOLID_GRIP_VERTICAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGrip,
+    FONT_AWESOME_SOLID_GRIP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGroupArrowsRotate,
+    FONT_AWESOME_SOLID_GROUP_ARROWS_ROTATE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGuaraniSign,
+    FONT_AWESOME_SOLID_GUARANI_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGuitar,
+    FONT_AWESOME_SOLID_GUITAR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidGun,
+    FONT_AWESOME_SOLID_GUN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidH,
+    FONT_AWESOME_SOLID_H,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHammer,
+    FONT_AWESOME_SOLID_HAMMER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHamsa,
+    FONT_AWESOME_SOLID_HAMSA,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandBackFist,
+    FONT_AWESOME_SOLID_HAND_BACK_FIST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandDots,
+    FONT_AWESOME_SOLID_HAND_DOTS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandFist,
+    FONT_AWESOME_SOLID_HAND_FIST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandHoldingDollar,
+    FONT_AWESOME_SOLID_HAND_HOLDING_DOLLAR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandHoldingDroplet,
+    FONT_AWESOME_SOLID_HAND_HOLDING_DROPLET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandHoldingHand,
+    FONT_AWESOME_SOLID_HAND_HOLDING_HAND,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandHoldingHeart,
+    FONT_AWESOME_SOLID_HAND_HOLDING_HEART,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandHoldingMedical,
+    FONT_AWESOME_SOLID_HAND_HOLDING_MEDICAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandHolding,
+    FONT_AWESOME_SOLID_HAND_HOLDING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandLizard,
+    FONT_AWESOME_SOLID_HAND_LIZARD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandMiddleFinger,
+    FONT_AWESOME_SOLID_HAND_MIDDLE_FINGER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandPeace,
+    FONT_AWESOME_SOLID_HAND_PEACE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandPointDown,
+    FONT_AWESOME_SOLID_HAND_POINT_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandPointLeft,
+    FONT_AWESOME_SOLID_HAND_POINT_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandPointRight,
+    FONT_AWESOME_SOLID_HAND_POINT_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandPointUp,
+    FONT_AWESOME_SOLID_HAND_POINT_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandPointer,
+    FONT_AWESOME_SOLID_HAND_POINTER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandScissors,
+    FONT_AWESOME_SOLID_HAND_SCISSORS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandSparkles,
+    FONT_AWESOME_SOLID_HAND_SPARKLES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandSpock,
+    FONT_AWESOME_SOLID_HAND_SPOCK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHand,
+    FONT_AWESOME_SOLID_HAND,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandcuffs,
+    FONT_AWESOME_SOLID_HANDCUFFS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandsAslInterpreting,
+    FONT_AWESOME_SOLID_HANDS_ASL_INTERPRETING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandsBound,
+    FONT_AWESOME_SOLID_HANDS_BOUND,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandsBubbles,
+    FONT_AWESOME_SOLID_HANDS_BUBBLES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandsClapping,
+    FONT_AWESOME_SOLID_HANDS_CLAPPING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandsHoldingChild,
+    FONT_AWESOME_SOLID_HANDS_HOLDING_CHILD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandsHoldingCircle,
+    FONT_AWESOME_SOLID_HANDS_HOLDING_CIRCLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandsHolding,
+    FONT_AWESOME_SOLID_HANDS_HOLDING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandsPraying,
+    FONT_AWESOME_SOLID_HANDS_PRAYING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHands,
+    FONT_AWESOME_SOLID_HANDS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandshakeAngle,
+    FONT_AWESOME_SOLID_HANDSHAKE_ANGLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandshakeSimpleSlash,
+    FONT_AWESOME_SOLID_HANDSHAKE_SIMPLE_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandshakeSimple,
+    FONT_AWESOME_SOLID_HANDSHAKE_SIMPLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandshakeSlash,
+    FONT_AWESOME_SOLID_HANDSHAKE_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHandshake,
+    FONT_AWESOME_SOLID_HANDSHAKE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHanukiah,
+    FONT_AWESOME_SOLID_HANUKIAH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHardDrive,
+    FONT_AWESOME_SOLID_HARD_DRIVE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHashtag,
+    FONT_AWESOME_SOLID_HASHTAG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHatCowboySide,
+    FONT_AWESOME_SOLID_HAT_COWBOY_SIDE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHatCowboy,
+    FONT_AWESOME_SOLID_HAT_COWBOY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHatWizard,
+    FONT_AWESOME_SOLID_HAT_WIZARD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHeadSideCoughSlash,
+    FONT_AWESOME_SOLID_HEAD_SIDE_COUGH_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHeadSideCough,
+    FONT_AWESOME_SOLID_HEAD_SIDE_COUGH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHeadSideMask,
+    FONT_AWESOME_SOLID_HEAD_SIDE_MASK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHeadSideVirus,
+    FONT_AWESOME_SOLID_HEAD_SIDE_VIRUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHeading,
+    FONT_AWESOME_SOLID_HEADING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHeadphonesSimple,
+    FONT_AWESOME_SOLID_HEADPHONES_SIMPLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHeadphones,
+    FONT_AWESOME_SOLID_HEADPHONES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHeadset,
+    FONT_AWESOME_SOLID_HEADSET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHeartCircleBolt,
+    FONT_AWESOME_SOLID_HEART_CIRCLE_BOLT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHeartCircleCheck,
+    FONT_AWESOME_SOLID_HEART_CIRCLE_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHeartCircleExclamation,
+    FONT_AWESOME_SOLID_HEART_CIRCLE_EXCLAMATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHeartCircleMinus,
+    FONT_AWESOME_SOLID_HEART_CIRCLE_MINUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHeartCirclePlus,
+    FONT_AWESOME_SOLID_HEART_CIRCLE_PLUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHeartCircleXmark,
+    FONT_AWESOME_SOLID_HEART_CIRCLE_XMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHeartCrack,
+    FONT_AWESOME_SOLID_HEART_CRACK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHeartPulse,
+    FONT_AWESOME_SOLID_HEART_PULSE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHeart,
+    FONT_AWESOME_SOLID_HEART,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHelicopterSymbol,
+    FONT_AWESOME_SOLID_HELICOPTER_SYMBOL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHelicopter,
+    FONT_AWESOME_SOLID_HELICOPTER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHelmetSafety,
+    FONT_AWESOME_SOLID_HELMET_SAFETY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHelmetUn,
+    FONT_AWESOME_SOLID_HELMET_UN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHighlighter,
+    FONT_AWESOME_SOLID_HIGHLIGHTER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHillAvalanche,
+    FONT_AWESOME_SOLID_HILL_AVALANCHE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHillRockslide,
+    FONT_AWESOME_SOLID_HILL_ROCKSLIDE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHippo,
+    FONT_AWESOME_SOLID_HIPPO,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHockeyPuck,
+    FONT_AWESOME_SOLID_HOCKEY_PUCK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHollyBerry,
+    FONT_AWESOME_SOLID_HOLLY_BERRY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHorseHead,
+    FONT_AWESOME_SOLID_HORSE_HEAD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHorse,
+    FONT_AWESOME_SOLID_HORSE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHospitalUser,
+    FONT_AWESOME_SOLID_HOSPITAL_USER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHospital,
+    FONT_AWESOME_SOLID_HOSPITAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHotTubPerson,
+    FONT_AWESOME_SOLID_HOT_TUB_PERSON,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHotdog,
+    FONT_AWESOME_SOLID_HOTDOG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHotel,
+    FONT_AWESOME_SOLID_HOTEL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHourglassEmpty,
+    FONT_AWESOME_SOLID_HOURGLASS_EMPTY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHourglassEnd,
+    FONT_AWESOME_SOLID_HOURGLASS_END,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHourglassStart,
+    FONT_AWESOME_SOLID_HOURGLASS_START,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHourglass,
+    FONT_AWESOME_SOLID_HOURGLASS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseChimneyCrack,
+    FONT_AWESOME_SOLID_HOUSE_CHIMNEY_CRACK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseChimneyMedical,
+    FONT_AWESOME_SOLID_HOUSE_CHIMNEY_MEDICAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseChimneyUser,
+    FONT_AWESOME_SOLID_HOUSE_CHIMNEY_USER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseChimneyWindow,
+    FONT_AWESOME_SOLID_HOUSE_CHIMNEY_WINDOW,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseChimney,
+    FONT_AWESOME_SOLID_HOUSE_CHIMNEY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseCircleCheck,
+    FONT_AWESOME_SOLID_HOUSE_CIRCLE_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseCircleExclamation,
+    FONT_AWESOME_SOLID_HOUSE_CIRCLE_EXCLAMATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseCircleXmark,
+    FONT_AWESOME_SOLID_HOUSE_CIRCLE_XMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseCrack,
+    FONT_AWESOME_SOLID_HOUSE_CRACK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseFire,
+    FONT_AWESOME_SOLID_HOUSE_FIRE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseFlag,
+    FONT_AWESOME_SOLID_HOUSE_FLAG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseFloodWaterCircleArrowRight,
+    FONT_AWESOME_SOLID_HOUSE_FLOOD_WATER_CIRCLE_ARROW_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseFloodWater,
+    FONT_AWESOME_SOLID_HOUSE_FLOOD_WATER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseLaptop,
+    FONT_AWESOME_SOLID_HOUSE_LAPTOP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseLock,
+    FONT_AWESOME_SOLID_HOUSE_LOCK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseMedicalCircleCheck,
+    FONT_AWESOME_SOLID_HOUSE_MEDICAL_CIRCLE_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseMedicalCircleExclamation,
+    FONT_AWESOME_SOLID_HOUSE_MEDICAL_CIRCLE_EXCLAMATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseMedicalCircleXmark,
+    FONT_AWESOME_SOLID_HOUSE_MEDICAL_CIRCLE_XMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseMedicalFlag,
+    FONT_AWESOME_SOLID_HOUSE_MEDICAL_FLAG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseMedical,
+    FONT_AWESOME_SOLID_HOUSE_MEDICAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseSignal,
+    FONT_AWESOME_SOLID_HOUSE_SIGNAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseTsunami,
+    FONT_AWESOME_SOLID_HOUSE_TSUNAMI,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouseUser,
+    FONT_AWESOME_SOLID_HOUSE_USER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHouse,
+    FONT_AWESOME_SOLID_HOUSE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHryvniaSign,
+    FONT_AWESOME_SOLID_HRYVNIA_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidHurricane,
+    FONT_AWESOME_SOLID_HURRICANE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidICursor,
+    FONT_AWESOME_SOLID_I_CURSOR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidI,
+    FONT_AWESOME_SOLID_I,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidIceCream,
+    FONT_AWESOME_SOLID_ICE_CREAM,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidIcicles,
+    FONT_AWESOME_SOLID_ICICLES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidIcons,
+    FONT_AWESOME_SOLID_ICONS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidIdBadge,
+    FONT_AWESOME_SOLID_ID_BADGE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidIdCardClip,
+    FONT_AWESOME_SOLID_ID_CARD_CLIP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidIdCard,
+    FONT_AWESOME_SOLID_ID_CARD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidIgloo,
+    FONT_AWESOME_SOLID_IGLOO,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidImagePortrait,
+    FONT_AWESOME_SOLID_IMAGE_PORTRAIT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidImage,
+    FONT_AWESOME_SOLID_IMAGE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidImages,
+    FONT_AWESOME_SOLID_IMAGES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidInbox,
+    FONT_AWESOME_SOLID_INBOX,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidIndent,
+    FONT_AWESOME_SOLID_INDENT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidIndianRupeeSign,
+    FONT_AWESOME_SOLID_INDIAN_RUPEE_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidIndustry,
+    FONT_AWESOME_SOLID_INDUSTRY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidInfinity,
+    FONT_AWESOME_SOLID_INFINITY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidInfo,
+    FONT_AWESOME_SOLID_INFO,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidItalic,
+    FONT_AWESOME_SOLID_ITALIC,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidJ,
+    FONT_AWESOME_SOLID_J,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidJarWheat,
+    FONT_AWESOME_SOLID_JAR_WHEAT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidJar,
+    FONT_AWESOME_SOLID_JAR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidJedi,
+    FONT_AWESOME_SOLID_JEDI,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidJetFighterUp,
+    FONT_AWESOME_SOLID_JET_FIGHTER_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidJetFighter,
+    FONT_AWESOME_SOLID_JET_FIGHTER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidJoint,
+    FONT_AWESOME_SOLID_JOINT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidJugDetergent,
+    FONT_AWESOME_SOLID_JUG_DETERGENT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidK,
+    FONT_AWESOME_SOLID_K,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidKaaba,
+    FONT_AWESOME_SOLID_KAABA,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidKey,
+    FONT_AWESOME_SOLID_KEY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidKeyboard,
+    FONT_AWESOME_SOLID_KEYBOARD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidKhanda,
+    FONT_AWESOME_SOLID_KHANDA,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidKipSign,
+    FONT_AWESOME_SOLID_KIP_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidKitMedical,
+    FONT_AWESOME_SOLID_KIT_MEDICAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidKitchenSet,
+    FONT_AWESOME_SOLID_KITCHEN_SET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidKiwiBird,
+    FONT_AWESOME_SOLID_KIWI_BIRD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidL,
+    FONT_AWESOME_SOLID_L,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLandMineOn,
+    FONT_AWESOME_SOLID_LAND_MINE_ON,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLandmarkDome,
+    FONT_AWESOME_SOLID_LANDMARK_DOME,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLandmarkFlag,
+    FONT_AWESOME_SOLID_LANDMARK_FLAG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLandmark,
+    FONT_AWESOME_SOLID_LANDMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLanguage,
+    FONT_AWESOME_SOLID_LANGUAGE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLaptopCode,
+    FONT_AWESOME_SOLID_LAPTOP_CODE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLaptopFile,
+    FONT_AWESOME_SOLID_LAPTOP_FILE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLaptopMedical,
+    FONT_AWESOME_SOLID_LAPTOP_MEDICAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLaptop,
+    FONT_AWESOME_SOLID_LAPTOP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLariSign,
+    FONT_AWESOME_SOLID_LARI_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLayerGroup,
+    FONT_AWESOME_SOLID_LAYER_GROUP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLeaf,
+    FONT_AWESOME_SOLID_LEAF,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLeftLong,
+    FONT_AWESOME_SOLID_LEFT_LONG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLeftRight,
+    FONT_AWESOME_SOLID_LEFT_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLemon,
+    FONT_AWESOME_SOLID_LEMON,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLessThanEqual,
+    FONT_AWESOME_SOLID_LESS_THAN_EQUAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLessThan,
+    FONT_AWESOME_SOLID_LESS_THAN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLifeRing,
+    FONT_AWESOME_SOLID_LIFE_RING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLightbulb,
+    FONT_AWESOME_SOLID_LIGHTBULB,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLinesLeaning,
+    FONT_AWESOME_SOLID_LINES_LEANING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLinkSlash,
+    FONT_AWESOME_SOLID_LINK_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLink,
+    FONT_AWESOME_SOLID_LINK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLiraSign,
+    FONT_AWESOME_SOLID_LIRA_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidListCheck,
+    FONT_AWESOME_SOLID_LIST_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidListOl,
+    FONT_AWESOME_SOLID_LIST_OL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidListUl,
+    FONT_AWESOME_SOLID_LIST_UL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidList,
+    FONT_AWESOME_SOLID_LIST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLitecoinSign,
+    FONT_AWESOME_SOLID_LITECOIN_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLocationArrow,
+    FONT_AWESOME_SOLID_LOCATION_ARROW,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLocationCrosshairs,
+    FONT_AWESOME_SOLID_LOCATION_CROSSHAIRS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLocationDot,
+    FONT_AWESOME_SOLID_LOCATION_DOT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLocationPinLock,
+    FONT_AWESOME_SOLID_LOCATION_PIN_LOCK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLocationPin,
+    FONT_AWESOME_SOLID_LOCATION_PIN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLockOpen,
+    FONT_AWESOME_SOLID_LOCK_OPEN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLock,
+    FONT_AWESOME_SOLID_LOCK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLocust,
+    FONT_AWESOME_SOLID_LOCUST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLungsVirus,
+    FONT_AWESOME_SOLID_LUNGS_VIRUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidLungs,
+    FONT_AWESOME_SOLID_LUNGS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidM,
+    FONT_AWESOME_SOLID_M,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMagnet,
+    FONT_AWESOME_SOLID_MAGNET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMagnifyingGlassArrowRight,
+    FONT_AWESOME_SOLID_MAGNIFYING_GLASS_ARROW_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMagnifyingGlassChart,
+    FONT_AWESOME_SOLID_MAGNIFYING_GLASS_CHART,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMagnifyingGlassDollar,
+    FONT_AWESOME_SOLID_MAGNIFYING_GLASS_DOLLAR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMagnifyingGlassLocation,
+    FONT_AWESOME_SOLID_MAGNIFYING_GLASS_LOCATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMagnifyingGlassMinus,
+    FONT_AWESOME_SOLID_MAGNIFYING_GLASS_MINUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMagnifyingGlassPlus,
+    FONT_AWESOME_SOLID_MAGNIFYING_GLASS_PLUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMagnifyingGlass,
+    FONT_AWESOME_SOLID_MAGNIFYING_GLASS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidManatSign,
+    FONT_AWESOME_SOLID_MANAT_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMapLocationDot,
+    FONT_AWESOME_SOLID_MAP_LOCATION_DOT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMapLocation,
+    FONT_AWESOME_SOLID_MAP_LOCATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMapPin,
+    FONT_AWESOME_SOLID_MAP_PIN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMap,
+    FONT_AWESOME_SOLID_MAP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMarker,
+    FONT_AWESOME_SOLID_MARKER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMarsAndVenusBurst,
+    FONT_AWESOME_SOLID_MARS_AND_VENUS_BURST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMarsAndVenus,
+    FONT_AWESOME_SOLID_MARS_AND_VENUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMarsDouble,
+    FONT_AWESOME_SOLID_MARS_DOUBLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMarsStrokeRight,
+    FONT_AWESOME_SOLID_MARS_STROKE_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMarsStrokeUp,
+    FONT_AWESOME_SOLID_MARS_STROKE_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMarsStroke,
+    FONT_AWESOME_SOLID_MARS_STROKE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMars,
+    FONT_AWESOME_SOLID_MARS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMartiniGlassCitrus,
+    FONT_AWESOME_SOLID_MARTINI_GLASS_CITRUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMartiniGlassEmpty,
+    FONT_AWESOME_SOLID_MARTINI_GLASS_EMPTY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMartiniGlass,
+    FONT_AWESOME_SOLID_MARTINI_GLASS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMaskFace,
+    FONT_AWESOME_SOLID_MASK_FACE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMaskVentilator,
+    FONT_AWESOME_SOLID_MASK_VENTILATOR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMask,
+    FONT_AWESOME_SOLID_MASK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMasksTheater,
+    FONT_AWESOME_SOLID_MASKS_THEATER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMattressPillow,
+    FONT_AWESOME_SOLID_MATTRESS_PILLOW,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMaximize,
+    FONT_AWESOME_SOLID_MAXIMIZE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMedal,
+    FONT_AWESOME_SOLID_MEDAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMemory,
+    FONT_AWESOME_SOLID_MEMORY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMenorah,
+    FONT_AWESOME_SOLID_MENORAH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMercury,
+    FONT_AWESOME_SOLID_MERCURY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMessage,
+    FONT_AWESOME_SOLID_MESSAGE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMeteor,
+    FONT_AWESOME_SOLID_METEOR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMicrochip,
+    FONT_AWESOME_SOLID_MICROCHIP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMicrophoneLinesSlash,
+    FONT_AWESOME_SOLID_MICROPHONE_LINES_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMicrophoneLines,
+    FONT_AWESOME_SOLID_MICROPHONE_LINES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMicrophoneSlash,
+    FONT_AWESOME_SOLID_MICROPHONE_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMicrophone,
+    FONT_AWESOME_SOLID_MICROPHONE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMicroscope,
+    FONT_AWESOME_SOLID_MICROSCOPE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMillSign,
+    FONT_AWESOME_SOLID_MILL_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMinimize,
+    FONT_AWESOME_SOLID_MINIMIZE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMinus,
+    FONT_AWESOME_SOLID_MINUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMitten,
+    FONT_AWESOME_SOLID_MITTEN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMobileButton,
+    FONT_AWESOME_SOLID_MOBILE_BUTTON,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMobileRetro,
+    FONT_AWESOME_SOLID_MOBILE_RETRO,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMobileScreenButton,
+    FONT_AWESOME_SOLID_MOBILE_SCREEN_BUTTON,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMobileScreen,
+    FONT_AWESOME_SOLID_MOBILE_SCREEN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMobile,
+    FONT_AWESOME_SOLID_MOBILE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMoneyBill1Wave,
+    FONT_AWESOME_SOLID_MONEY_BILL_1_WAVE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMoneyBill1,
+    FONT_AWESOME_SOLID_MONEY_BILL_1,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMoneyBillTransfer,
+    FONT_AWESOME_SOLID_MONEY_BILL_TRANSFER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMoneyBillTrendUp,
+    FONT_AWESOME_SOLID_MONEY_BILL_TREND_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMoneyBillWave,
+    FONT_AWESOME_SOLID_MONEY_BILL_WAVE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMoneyBillWheat,
+    FONT_AWESOME_SOLID_MONEY_BILL_WHEAT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMoneyBill,
+    FONT_AWESOME_SOLID_MONEY_BILL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMoneyBills,
+    FONT_AWESOME_SOLID_MONEY_BILLS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMoneyCheckDollar,
+    FONT_AWESOME_SOLID_MONEY_CHECK_DOLLAR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMoneyCheck,
+    FONT_AWESOME_SOLID_MONEY_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMonument,
+    FONT_AWESOME_SOLID_MONUMENT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMoon,
+    FONT_AWESOME_SOLID_MOON,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMortarPestle,
+    FONT_AWESOME_SOLID_MORTAR_PESTLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMosque,
+    FONT_AWESOME_SOLID_MOSQUE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMosquitoNet,
+    FONT_AWESOME_SOLID_MOSQUITO_NET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMosquito,
+    FONT_AWESOME_SOLID_MOSQUITO,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMotorcycle,
+    FONT_AWESOME_SOLID_MOTORCYCLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMound,
+    FONT_AWESOME_SOLID_MOUND,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMountainCity,
+    FONT_AWESOME_SOLID_MOUNTAIN_CITY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMountainSun,
+    FONT_AWESOME_SOLID_MOUNTAIN_SUN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMountain,
+    FONT_AWESOME_SOLID_MOUNTAIN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMugHot,
+    FONT_AWESOME_SOLID_MUG_HOT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMugSaucer,
+    FONT_AWESOME_SOLID_MUG_SAUCER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidMusic,
+    FONT_AWESOME_SOLID_MUSIC,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidN,
+    FONT_AWESOME_SOLID_N,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidNairaSign,
+    FONT_AWESOME_SOLID_NAIRA_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidNetworkWired,
+    FONT_AWESOME_SOLID_NETWORK_WIRED,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidNeuter,
+    FONT_AWESOME_SOLID_NEUTER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidNewspaper,
+    FONT_AWESOME_SOLID_NEWSPAPER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidNotEqual,
+    FONT_AWESOME_SOLID_NOT_EQUAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidNoteSticky,
+    FONT_AWESOME_SOLID_NOTE_STICKY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidNotesMedical,
+    FONT_AWESOME_SOLID_NOTES_MEDICAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidO,
+    FONT_AWESOME_SOLID_O,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidObjectGroup,
+    FONT_AWESOME_SOLID_OBJECT_GROUP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidObjectUngroup,
+    FONT_AWESOME_SOLID_OBJECT_UNGROUP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidOilCan,
+    FONT_AWESOME_SOLID_OIL_CAN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidOilWell,
+    FONT_AWESOME_SOLID_OIL_WELL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidOm,
+    FONT_AWESOME_SOLID_OM,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidOtter,
+    FONT_AWESOME_SOLID_OTTER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidOutdent,
+    FONT_AWESOME_SOLID_OUTDENT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidP,
+    FONT_AWESOME_SOLID_P,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPager,
+    FONT_AWESOME_SOLID_PAGER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPaintRoller,
+    FONT_AWESOME_SOLID_PAINT_ROLLER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPaintbrush,
+    FONT_AWESOME_SOLID_PAINTBRUSH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPalette,
+    FONT_AWESOME_SOLID_PALETTE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPallet,
+    FONT_AWESOME_SOLID_PALLET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPanorama,
+    FONT_AWESOME_SOLID_PANORAMA,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPaperPlane,
+    FONT_AWESOME_SOLID_PAPER_PLANE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPaperclip,
+    FONT_AWESOME_SOLID_PAPERCLIP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidParachuteBox,
+    FONT_AWESOME_SOLID_PARACHUTE_BOX,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidParagraph,
+    FONT_AWESOME_SOLID_PARAGRAPH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPassport,
+    FONT_AWESOME_SOLID_PASSPORT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPaste,
+    FONT_AWESOME_SOLID_PASTE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPause,
+    FONT_AWESOME_SOLID_PAUSE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPaw,
+    FONT_AWESOME_SOLID_PAW,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPeace,
+    FONT_AWESOME_SOLID_PEACE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPenClip,
+    FONT_AWESOME_SOLID_PEN_CLIP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPenFancy,
+    FONT_AWESOME_SOLID_PEN_FANCY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPenNib,
+    FONT_AWESOME_SOLID_PEN_NIB,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPenRuler,
+    FONT_AWESOME_SOLID_PEN_RULER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPenToSquare,
+    FONT_AWESOME_SOLID_PEN_TO_SQUARE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPen,
+    FONT_AWESOME_SOLID_PEN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPencil,
+    FONT_AWESOME_SOLID_PENCIL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPeopleArrowsLeftRight,
+    FONT_AWESOME_SOLID_PEOPLE_ARROWS_LEFT_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPeopleCarryBox,
+    FONT_AWESOME_SOLID_PEOPLE_CARRY_BOX,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPeopleGroup,
+    FONT_AWESOME_SOLID_PEOPLE_GROUP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPeopleLine,
+    FONT_AWESOME_SOLID_PEOPLE_LINE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPeoplePulling,
+    FONT_AWESOME_SOLID_PEOPLE_PULLING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPeopleRobbery,
+    FONT_AWESOME_SOLID_PEOPLE_ROBBERY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPeopleRoof,
+    FONT_AWESOME_SOLID_PEOPLE_ROOF,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPepperHot,
+    FONT_AWESOME_SOLID_PEPPER_HOT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPercent,
+    FONT_AWESOME_SOLID_PERCENT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonArrowDownToLine,
+    FONT_AWESOME_SOLID_PERSON_ARROW_DOWN_TO_LINE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonArrowUpFromLine,
+    FONT_AWESOME_SOLID_PERSON_ARROW_UP_FROM_LINE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonBiking,
+    FONT_AWESOME_SOLID_PERSON_BIKING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonBooth,
+    FONT_AWESOME_SOLID_PERSON_BOOTH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonBreastfeeding,
+    FONT_AWESOME_SOLID_PERSON_BREASTFEEDING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonBurst,
+    FONT_AWESOME_SOLID_PERSON_BURST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonCane,
+    FONT_AWESOME_SOLID_PERSON_CANE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonChalkboard,
+    FONT_AWESOME_SOLID_PERSON_CHALKBOARD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonCircleCheck,
+    FONT_AWESOME_SOLID_PERSON_CIRCLE_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonCircleExclamation,
+    FONT_AWESOME_SOLID_PERSON_CIRCLE_EXCLAMATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonCircleMinus,
+    FONT_AWESOME_SOLID_PERSON_CIRCLE_MINUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonCirclePlus,
+    FONT_AWESOME_SOLID_PERSON_CIRCLE_PLUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonCircleQuestion,
+    FONT_AWESOME_SOLID_PERSON_CIRCLE_QUESTION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonCircleXmark,
+    FONT_AWESOME_SOLID_PERSON_CIRCLE_XMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonDigging,
+    FONT_AWESOME_SOLID_PERSON_DIGGING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonDotsFromLine,
+    FONT_AWESOME_SOLID_PERSON_DOTS_FROM_LINE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonDressBurst,
+    FONT_AWESOME_SOLID_PERSON_DRESS_BURST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonDress,
+    FONT_AWESOME_SOLID_PERSON_DRESS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonDrowning,
+    FONT_AWESOME_SOLID_PERSON_DROWNING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonFallingBurst,
+    FONT_AWESOME_SOLID_PERSON_FALLING_BURST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonFalling,
+    FONT_AWESOME_SOLID_PERSON_FALLING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonHalfDress,
+    FONT_AWESOME_SOLID_PERSON_HALF_DRESS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonHarassing,
+    FONT_AWESOME_SOLID_PERSON_HARASSING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonHiking,
+    FONT_AWESOME_SOLID_PERSON_HIKING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonMilitaryPointing,
+    FONT_AWESOME_SOLID_PERSON_MILITARY_POINTING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonMilitaryRifle,
+    FONT_AWESOME_SOLID_PERSON_MILITARY_RIFLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonMilitaryToPerson,
+    FONT_AWESOME_SOLID_PERSON_MILITARY_TO_PERSON,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonPraying,
+    FONT_AWESOME_SOLID_PERSON_PRAYING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonPregnant,
+    FONT_AWESOME_SOLID_PERSON_PREGNANT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonRays,
+    FONT_AWESOME_SOLID_PERSON_RAYS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonRifle,
+    FONT_AWESOME_SOLID_PERSON_RIFLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonRunning,
+    FONT_AWESOME_SOLID_PERSON_RUNNING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonShelter,
+    FONT_AWESOME_SOLID_PERSON_SHELTER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonSkating,
+    FONT_AWESOME_SOLID_PERSON_SKATING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonSkiingNordic,
+    FONT_AWESOME_SOLID_PERSON_SKIING_NORDIC,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonSkiing,
+    FONT_AWESOME_SOLID_PERSON_SKIING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonSnowboarding,
+    FONT_AWESOME_SOLID_PERSON_SNOWBOARDING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonSwimming,
+    FONT_AWESOME_SOLID_PERSON_SWIMMING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonThroughWindow,
+    FONT_AWESOME_SOLID_PERSON_THROUGH_WINDOW,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonWalkingArrowLoopLeft,
+    FONT_AWESOME_SOLID_PERSON_WALKING_ARROW_LOOP_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonWalkingArrowRight,
+    FONT_AWESOME_SOLID_PERSON_WALKING_ARROW_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonWalkingDashedLineArrowRight,
+    FONT_AWESOME_SOLID_PERSON_WALKING_DASHED_LINE_ARROW_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonWalkingLuggage,
+    FONT_AWESOME_SOLID_PERSON_WALKING_LUGGAGE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonWalkingWithCane,
+    FONT_AWESOME_SOLID_PERSON_WALKING_WITH_CANE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPersonWalking,
+    FONT_AWESOME_SOLID_PERSON_WALKING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPerson,
+    FONT_AWESOME_SOLID_PERSON,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPesetaSign,
+    FONT_AWESOME_SOLID_PESETA_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPesoSign,
+    FONT_AWESOME_SOLID_PESO_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPhoneFlip,
+    FONT_AWESOME_SOLID_PHONE_FLIP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPhoneSlash,
+    FONT_AWESOME_SOLID_PHONE_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPhoneVolume,
+    FONT_AWESOME_SOLID_PHONE_VOLUME,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPhone,
+    FONT_AWESOME_SOLID_PHONE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPhotoFilm,
+    FONT_AWESOME_SOLID_PHOTO_FILM,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPiggyBank,
+    FONT_AWESOME_SOLID_PIGGY_BANK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPills,
+    FONT_AWESOME_SOLID_PILLS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPizzaSlice,
+    FONT_AWESOME_SOLID_PIZZA_SLICE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlaceOfWorship,
+    FONT_AWESOME_SOLID_PLACE_OF_WORSHIP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlaneArrival,
+    FONT_AWESOME_SOLID_PLANE_ARRIVAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlaneCircleCheck,
+    FONT_AWESOME_SOLID_PLANE_CIRCLE_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlaneCircleExclamation,
+    FONT_AWESOME_SOLID_PLANE_CIRCLE_EXCLAMATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlaneCircleXmark,
+    FONT_AWESOME_SOLID_PLANE_CIRCLE_XMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlaneDeparture,
+    FONT_AWESOME_SOLID_PLANE_DEPARTURE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlaneLock,
+    FONT_AWESOME_SOLID_PLANE_LOCK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlaneSlash,
+    FONT_AWESOME_SOLID_PLANE_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlaneUp,
+    FONT_AWESOME_SOLID_PLANE_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlane,
+    FONT_AWESOME_SOLID_PLANE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlantWilt,
+    FONT_AWESOME_SOLID_PLANT_WILT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlateWheat,
+    FONT_AWESOME_SOLID_PLATE_WHEAT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlay,
+    FONT_AWESOME_SOLID_PLAY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlugCircleBolt,
+    FONT_AWESOME_SOLID_PLUG_CIRCLE_BOLT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlugCircleCheck,
+    FONT_AWESOME_SOLID_PLUG_CIRCLE_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlugCircleExclamation,
+    FONT_AWESOME_SOLID_PLUG_CIRCLE_EXCLAMATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlugCircleMinus,
+    FONT_AWESOME_SOLID_PLUG_CIRCLE_MINUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlugCirclePlus,
+    FONT_AWESOME_SOLID_PLUG_CIRCLE_PLUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlugCircleXmark,
+    FONT_AWESOME_SOLID_PLUG_CIRCLE_XMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlug,
+    FONT_AWESOME_SOLID_PLUG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlusMinus,
+    FONT_AWESOME_SOLID_PLUS_MINUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPlus,
+    FONT_AWESOME_SOLID_PLUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPodcast,
+    FONT_AWESOME_SOLID_PODCAST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPooStorm,
+    FONT_AWESOME_SOLID_POO_STORM,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPoo,
+    FONT_AWESOME_SOLID_POO,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPoop,
+    FONT_AWESOME_SOLID_POOP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPowerOff,
+    FONT_AWESOME_SOLID_POWER_OFF,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPrescriptionBottleMedical,
+    FONT_AWESOME_SOLID_PRESCRIPTION_BOTTLE_MEDICAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPrescriptionBottle,
+    FONT_AWESOME_SOLID_PRESCRIPTION_BOTTLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPrescription,
+    FONT_AWESOME_SOLID_PRESCRIPTION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPrint,
+    FONT_AWESOME_SOLID_PRINT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPumpMedical,
+    FONT_AWESOME_SOLID_PUMP_MEDICAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPumpSoap,
+    FONT_AWESOME_SOLID_PUMP_SOAP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidPuzzlePiece,
+    FONT_AWESOME_SOLID_PUZZLE_PIECE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidQ,
+    FONT_AWESOME_SOLID_Q,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidQrcode,
+    FONT_AWESOME_SOLID_QRCODE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidQuestion,
+    FONT_AWESOME_SOLID_QUESTION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidQuoteLeft,
+    FONT_AWESOME_SOLID_QUOTE_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidQuoteRight,
+    FONT_AWESOME_SOLID_QUOTE_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidR,
+    FONT_AWESOME_SOLID_R,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRadiation,
+    FONT_AWESOME_SOLID_RADIATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRadio,
+    FONT_AWESOME_SOLID_RADIO,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRainbow,
+    FONT_AWESOME_SOLID_RAINBOW,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRankingStar,
+    FONT_AWESOME_SOLID_RANKING_STAR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidReceipt,
+    FONT_AWESOME_SOLID_RECEIPT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRecordVinyl,
+    FONT_AWESOME_SOLID_RECORD_VINYL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRectangleAd,
+    FONT_AWESOME_SOLID_RECTANGLE_AD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRectangleList,
+    FONT_AWESOME_SOLID_RECTANGLE_LIST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRectangleXmark,
+    FONT_AWESOME_SOLID_RECTANGLE_XMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRecycle,
+    FONT_AWESOME_SOLID_RECYCLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRegistered,
+    FONT_AWESOME_SOLID_REGISTERED,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRepeat,
+    FONT_AWESOME_SOLID_REPEAT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidReplyAll,
+    FONT_AWESOME_SOLID_REPLY_ALL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidReply,
+    FONT_AWESOME_SOLID_REPLY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRepublican,
+    FONT_AWESOME_SOLID_REPUBLICAN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRestroom,
+    FONT_AWESOME_SOLID_RESTROOM,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRetweet,
+    FONT_AWESOME_SOLID_RETWEET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRibbon,
+    FONT_AWESOME_SOLID_RIBBON,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRightFromBracket,
+    FONT_AWESOME_SOLID_RIGHT_FROM_BRACKET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRightLeft,
+    FONT_AWESOME_SOLID_RIGHT_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRightLong,
+    FONT_AWESOME_SOLID_RIGHT_LONG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRightToBracket,
+    FONT_AWESOME_SOLID_RIGHT_TO_BRACKET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRing,
+    FONT_AWESOME_SOLID_RING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRoadBarrier,
+    FONT_AWESOME_SOLID_ROAD_BARRIER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRoadBridge,
+    FONT_AWESOME_SOLID_ROAD_BRIDGE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRoadCircleCheck,
+    FONT_AWESOME_SOLID_ROAD_CIRCLE_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRoadCircleExclamation,
+    FONT_AWESOME_SOLID_ROAD_CIRCLE_EXCLAMATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRoadCircleXmark,
+    FONT_AWESOME_SOLID_ROAD_CIRCLE_XMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRoadLock,
+    FONT_AWESOME_SOLID_ROAD_LOCK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRoadSpikes,
+    FONT_AWESOME_SOLID_ROAD_SPIKES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRoad,
+    FONT_AWESOME_SOLID_ROAD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRobot,
+    FONT_AWESOME_SOLID_ROBOT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRocket,
+    FONT_AWESOME_SOLID_ROCKET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRotateLeft,
+    FONT_AWESOME_SOLID_ROTATE_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRotateRight,
+    FONT_AWESOME_SOLID_ROTATE_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRotate,
+    FONT_AWESOME_SOLID_ROTATE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRoute,
+    FONT_AWESOME_SOLID_ROUTE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRss,
+    FONT_AWESOME_SOLID_RSS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRubleSign,
+    FONT_AWESOME_SOLID_RUBLE_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRug,
+    FONT_AWESOME_SOLID_RUG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRulerCombined,
+    FONT_AWESOME_SOLID_RULER_COMBINED,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRulerHorizontal,
+    FONT_AWESOME_SOLID_RULER_HORIZONTAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRulerVertical,
+    FONT_AWESOME_SOLID_RULER_VERTICAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRuler,
+    FONT_AWESOME_SOLID_RULER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRupeeSign,
+    FONT_AWESOME_SOLID_RUPEE_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidRupiahSign,
+    FONT_AWESOME_SOLID_RUPIAH_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidS,
+    FONT_AWESOME_SOLID_S,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSackDollar,
+    FONT_AWESOME_SOLID_SACK_DOLLAR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSackXmark,
+    FONT_AWESOME_SOLID_SACK_XMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSailboat,
+    FONT_AWESOME_SOLID_SAILBOAT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSatelliteDish,
+    FONT_AWESOME_SOLID_SATELLITE_DISH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSatellite,
+    FONT_AWESOME_SOLID_SATELLITE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidScaleBalanced,
+    FONT_AWESOME_SOLID_SCALE_BALANCED,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidScaleUnbalancedFlip,
+    FONT_AWESOME_SOLID_SCALE_UNBALANCED_FLIP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidScaleUnbalanced,
+    FONT_AWESOME_SOLID_SCALE_UNBALANCED,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSchoolCircleCheck,
+    FONT_AWESOME_SOLID_SCHOOL_CIRCLE_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSchoolCircleExclamation,
+    FONT_AWESOME_SOLID_SCHOOL_CIRCLE_EXCLAMATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSchoolCircleXmark,
+    FONT_AWESOME_SOLID_SCHOOL_CIRCLE_XMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSchoolFlag,
+    FONT_AWESOME_SOLID_SCHOOL_FLAG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSchoolLock,
+    FONT_AWESOME_SOLID_SCHOOL_LOCK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSchool,
+    FONT_AWESOME_SOLID_SCHOOL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidScissors,
+    FONT_AWESOME_SOLID_SCISSORS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidScrewdriverWrench,
+    FONT_AWESOME_SOLID_SCREWDRIVER_WRENCH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidScrewdriver,
+    FONT_AWESOME_SOLID_SCREWDRIVER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidScrollTorah,
+    FONT_AWESOME_SOLID_SCROLL_TORAH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidScroll,
+    FONT_AWESOME_SOLID_SCROLL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSdCard,
+    FONT_AWESOME_SOLID_SD_CARD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSection,
+    FONT_AWESOME_SOLID_SECTION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSeedling,
+    FONT_AWESOME_SOLID_SEEDLING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidServer,
+    FONT_AWESOME_SOLID_SERVER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShapes,
+    FONT_AWESOME_SOLID_SHAPES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShareFromSquare,
+    FONT_AWESOME_SOLID_SHARE_FROM_SQUARE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShareNodes,
+    FONT_AWESOME_SOLID_SHARE_NODES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShare,
+    FONT_AWESOME_SOLID_SHARE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSheetPlastic,
+    FONT_AWESOME_SOLID_SHEET_PLASTIC,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShekelSign,
+    FONT_AWESOME_SOLID_SHEKEL_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShieldBlank,
+    FONT_AWESOME_SOLID_SHIELD_BLANK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShieldCat,
+    FONT_AWESOME_SOLID_SHIELD_CAT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShieldDog,
+    FONT_AWESOME_SOLID_SHIELD_DOG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShieldHalved,
+    FONT_AWESOME_SOLID_SHIELD_HALVED,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShieldHeart,
+    FONT_AWESOME_SOLID_SHIELD_HEART,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShieldVirus,
+    FONT_AWESOME_SOLID_SHIELD_VIRUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShield,
+    FONT_AWESOME_SOLID_SHIELD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShip,
+    FONT_AWESOME_SOLID_SHIP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShirt,
+    FONT_AWESOME_SOLID_SHIRT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShoePrints,
+    FONT_AWESOME_SOLID_SHOE_PRINTS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShopLock,
+    FONT_AWESOME_SOLID_SHOP_LOCK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShopSlash,
+    FONT_AWESOME_SOLID_SHOP_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShop,
+    FONT_AWESOME_SOLID_SHOP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShower,
+    FONT_AWESOME_SOLID_SHOWER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShrimp,
+    FONT_AWESOME_SOLID_SHRIMP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShuffle,
+    FONT_AWESOME_SOLID_SHUFFLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidShuttleSpace,
+    FONT_AWESOME_SOLID_SHUTTLE_SPACE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSignHanging,
+    FONT_AWESOME_SOLID_SIGN_HANGING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSignal,
+    FONT_AWESOME_SOLID_SIGNAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSignature,
+    FONT_AWESOME_SOLID_SIGNATURE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSignsPost,
+    FONT_AWESOME_SOLID_SIGNS_POST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSimCard,
+    FONT_AWESOME_SOLID_SIM_CARD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSink,
+    FONT_AWESOME_SOLID_SINK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSitemap,
+    FONT_AWESOME_SOLID_SITEMAP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSkullCrossbones,
+    FONT_AWESOME_SOLID_SKULL_CROSSBONES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSkull,
+    FONT_AWESOME_SOLID_SKULL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSlash,
+    FONT_AWESOME_SOLID_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSleigh,
+    FONT_AWESOME_SOLID_SLEIGH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSliders,
+    FONT_AWESOME_SOLID_SLIDERS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSmog,
+    FONT_AWESOME_SOLID_SMOG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSmoking,
+    FONT_AWESOME_SOLID_SMOKING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSnowflake,
+    FONT_AWESOME_SOLID_SNOWFLAKE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSnowman,
+    FONT_AWESOME_SOLID_SNOWMAN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSnowplow,
+    FONT_AWESOME_SOLID_SNOWPLOW,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSoap,
+    FONT_AWESOME_SOLID_SOAP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSocks,
+    FONT_AWESOME_SOLID_SOCKS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSolarPanel,
+    FONT_AWESOME_SOLID_SOLAR_PANEL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSortDown,
+    FONT_AWESOME_SOLID_SORT_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSortUp,
+    FONT_AWESOME_SOLID_SORT_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSort,
+    FONT_AWESOME_SOLID_SORT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSpa,
+    FONT_AWESOME_SOLID_SPA,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSpaghettiMonsterFlying,
+    FONT_AWESOME_SOLID_SPAGHETTI_MONSTER_FLYING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSpellCheck,
+    FONT_AWESOME_SOLID_SPELL_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSpider,
+    FONT_AWESOME_SOLID_SPIDER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSpinner,
+    FONT_AWESOME_SOLID_SPINNER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSplotch,
+    FONT_AWESOME_SOLID_SPLOTCH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSpoon,
+    FONT_AWESOME_SOLID_SPOON,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSprayCanSparkles,
+    FONT_AWESOME_SOLID_SPRAY_CAN_SPARKLES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSprayCan,
+    FONT_AWESOME_SOLID_SPRAY_CAN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquareArrowUpRight,
+    FONT_AWESOME_SOLID_SQUARE_ARROW_UP_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquareCaretDown,
+    FONT_AWESOME_SOLID_SQUARE_CARET_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquareCaretLeft,
+    FONT_AWESOME_SOLID_SQUARE_CARET_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquareCaretRight,
+    FONT_AWESOME_SOLID_SQUARE_CARET_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquareCaretUp,
+    FONT_AWESOME_SOLID_SQUARE_CARET_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquareCheck,
+    FONT_AWESOME_SOLID_SQUARE_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquareEnvelope,
+    FONT_AWESOME_SOLID_SQUARE_ENVELOPE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquareFull,
+    FONT_AWESOME_SOLID_SQUARE_FULL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquareH,
+    FONT_AWESOME_SOLID_SQUARE_H,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquareMinus,
+    FONT_AWESOME_SOLID_SQUARE_MINUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquareNfi,
+    FONT_AWESOME_SOLID_SQUARE_NFI,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquareParking,
+    FONT_AWESOME_SOLID_SQUARE_PARKING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquarePen,
+    FONT_AWESOME_SOLID_SQUARE_PEN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquarePersonConfined,
+    FONT_AWESOME_SOLID_SQUARE_PERSON_CONFINED,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquarePhoneFlip,
+    FONT_AWESOME_SOLID_SQUARE_PHONE_FLIP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquarePhone,
+    FONT_AWESOME_SOLID_SQUARE_PHONE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquarePlus,
+    FONT_AWESOME_SOLID_SQUARE_PLUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquarePollHorizontal,
+    FONT_AWESOME_SOLID_SQUARE_POLL_HORIZONTAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquarePollVertical,
+    FONT_AWESOME_SOLID_SQUARE_POLL_VERTICAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquareRootVariable,
+    FONT_AWESOME_SOLID_SQUARE_ROOT_VARIABLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquareRss,
+    FONT_AWESOME_SOLID_SQUARE_RSS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquareShareNodes,
+    FONT_AWESOME_SOLID_SQUARE_SHARE_NODES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquareUpRight,
+    FONT_AWESOME_SOLID_SQUARE_UP_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquareVirus,
+    FONT_AWESOME_SOLID_SQUARE_VIRUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquareXmark,
+    FONT_AWESOME_SOLID_SQUARE_XMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSquare,
+    FONT_AWESOME_SOLID_SQUARE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidStaffAesculapius,
+    FONT_AWESOME_SOLID_STAFF_AESCULAPIUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidStairs,
+    FONT_AWESOME_SOLID_STAIRS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidStamp,
+    FONT_AWESOME_SOLID_STAMP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidStarAndCrescent,
+    FONT_AWESOME_SOLID_STAR_AND_CRESCENT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidStarHalfStroke,
+    FONT_AWESOME_SOLID_STAR_HALF_STROKE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidStarHalf,
+    FONT_AWESOME_SOLID_STAR_HALF,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidStarOfDavid,
+    FONT_AWESOME_SOLID_STAR_OF_DAVID,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidStarOfLife,
+    FONT_AWESOME_SOLID_STAR_OF_LIFE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidStar,
+    FONT_AWESOME_SOLID_STAR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSterlingSign,
+    FONT_AWESOME_SOLID_STERLING_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidStethoscope,
+    FONT_AWESOME_SOLID_STETHOSCOPE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidStop,
+    FONT_AWESOME_SOLID_STOP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidStopwatch20,
+    FONT_AWESOME_SOLID_STOPWATCH_20,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidStopwatch,
+    FONT_AWESOME_SOLID_STOPWATCH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidStoreSlash,
+    FONT_AWESOME_SOLID_STORE_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidStore,
+    FONT_AWESOME_SOLID_STORE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidStreetView,
+    FONT_AWESOME_SOLID_STREET_VIEW,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidStrikethrough,
+    FONT_AWESOME_SOLID_STRIKETHROUGH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidStroopwafel,
+    FONT_AWESOME_SOLID_STROOPWAFEL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSubscript,
+    FONT_AWESOME_SOLID_SUBSCRIPT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSuitcaseMedical,
+    FONT_AWESOME_SOLID_SUITCASE_MEDICAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSuitcaseRolling,
+    FONT_AWESOME_SOLID_SUITCASE_ROLLING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSuitcase,
+    FONT_AWESOME_SOLID_SUITCASE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSunPlantWilt,
+    FONT_AWESOME_SOLID_SUN_PLANT_WILT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSun,
+    FONT_AWESOME_SOLID_SUN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSuperscript,
+    FONT_AWESOME_SOLID_SUPERSCRIPT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSwatchbook,
+    FONT_AWESOME_SOLID_SWATCHBOOK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSynagogue,
+    FONT_AWESOME_SOLID_SYNAGOGUE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidSyringe,
+    FONT_AWESOME_SOLID_SYRINGE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidT,
+    FONT_AWESOME_SOLID_T,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTableCellsLarge,
+    FONT_AWESOME_SOLID_TABLE_CELLS_LARGE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTableCells,
+    FONT_AWESOME_SOLID_TABLE_CELLS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTableColumns,
+    FONT_AWESOME_SOLID_TABLE_COLUMNS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTableList,
+    FONT_AWESOME_SOLID_TABLE_LIST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTableTennisPaddleBall,
+    FONT_AWESOME_SOLID_TABLE_TENNIS_PADDLE_BALL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTable,
+    FONT_AWESOME_SOLID_TABLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTabletButton,
+    FONT_AWESOME_SOLID_TABLET_BUTTON,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTabletScreenButton,
+    FONT_AWESOME_SOLID_TABLET_SCREEN_BUTTON,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTablet,
+    FONT_AWESOME_SOLID_TABLET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTablets,
+    FONT_AWESOME_SOLID_TABLETS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTachographDigital,
+    FONT_AWESOME_SOLID_TACHOGRAPH_DIGITAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTag,
+    FONT_AWESOME_SOLID_TAG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTags,
+    FONT_AWESOME_SOLID_TAGS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTape,
+    FONT_AWESOME_SOLID_TAPE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTarpDroplet,
+    FONT_AWESOME_SOLID_TARP_DROPLET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTarp,
+    FONT_AWESOME_SOLID_TARP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTaxi,
+    FONT_AWESOME_SOLID_TAXI,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTeethOpen,
+    FONT_AWESOME_SOLID_TEETH_OPEN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTeeth,
+    FONT_AWESOME_SOLID_TEETH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTemperatureArrowDown,
+    FONT_AWESOME_SOLID_TEMPERATURE_ARROW_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTemperatureArrowUp,
+    FONT_AWESOME_SOLID_TEMPERATURE_ARROW_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTemperatureEmpty,
+    FONT_AWESOME_SOLID_TEMPERATURE_EMPTY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTemperatureFull,
+    FONT_AWESOME_SOLID_TEMPERATURE_FULL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTemperatureHalf,
+    FONT_AWESOME_SOLID_TEMPERATURE_HALF,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTemperatureHigh,
+    FONT_AWESOME_SOLID_TEMPERATURE_HIGH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTemperatureLow,
+    FONT_AWESOME_SOLID_TEMPERATURE_LOW,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTemperatureQuarter,
+    FONT_AWESOME_SOLID_TEMPERATURE_QUARTER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTemperatureThreeQuarters,
+    FONT_AWESOME_SOLID_TEMPERATURE_THREE_QUARTERS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTengeSign,
+    FONT_AWESOME_SOLID_TENGE_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTentArrowDownToLine,
+    FONT_AWESOME_SOLID_TENT_ARROW_DOWN_TO_LINE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTentArrowLeftRight,
+    FONT_AWESOME_SOLID_TENT_ARROW_LEFT_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTentArrowTurnLeft,
+    FONT_AWESOME_SOLID_TENT_ARROW_TURN_LEFT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTentArrowsDown,
+    FONT_AWESOME_SOLID_TENT_ARROWS_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTent,
+    FONT_AWESOME_SOLID_TENT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTents,
+    FONT_AWESOME_SOLID_TENTS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTerminal,
+    FONT_AWESOME_SOLID_TERMINAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTextHeight,
+    FONT_AWESOME_SOLID_TEXT_HEIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTextSlash,
+    FONT_AWESOME_SOLID_TEXT_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTextWidth,
+    FONT_AWESOME_SOLID_TEXT_WIDTH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidThermometer,
+    FONT_AWESOME_SOLID_THERMOMETER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidThumbsDown,
+    FONT_AWESOME_SOLID_THUMBS_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidThumbsUp,
+    FONT_AWESOME_SOLID_THUMBS_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidThumbtack,
+    FONT_AWESOME_SOLID_THUMBTACK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTicketSimple,
+    FONT_AWESOME_SOLID_TICKET_SIMPLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTicket,
+    FONT_AWESOME_SOLID_TICKET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTimeline,
+    FONT_AWESOME_SOLID_TIMELINE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidToggleOff,
+    FONT_AWESOME_SOLID_TOGGLE_OFF,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidToggleOn,
+    FONT_AWESOME_SOLID_TOGGLE_ON,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidToiletPaperSlash,
+    FONT_AWESOME_SOLID_TOILET_PAPER_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidToiletPaper,
+    FONT_AWESOME_SOLID_TOILET_PAPER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidToiletPortable,
+    FONT_AWESOME_SOLID_TOILET_PORTABLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidToilet,
+    FONT_AWESOME_SOLID_TOILET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidToiletsPortable,
+    FONT_AWESOME_SOLID_TOILETS_PORTABLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidToolbox,
+    FONT_AWESOME_SOLID_TOOLBOX,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTooth,
+    FONT_AWESOME_SOLID_TOOTH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidToriiGate,
+    FONT_AWESOME_SOLID_TORII_GATE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTornado,
+    FONT_AWESOME_SOLID_TORNADO,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTowerBroadcast,
+    FONT_AWESOME_SOLID_TOWER_BROADCAST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTowerCell,
+    FONT_AWESOME_SOLID_TOWER_CELL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTowerObservation,
+    FONT_AWESOME_SOLID_TOWER_OBSERVATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTractor,
+    FONT_AWESOME_SOLID_TRACTOR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTrademark,
+    FONT_AWESOME_SOLID_TRADEMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTrafficLight,
+    FONT_AWESOME_SOLID_TRAFFIC_LIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTrailer,
+    FONT_AWESOME_SOLID_TRAILER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTrainSubway,
+    FONT_AWESOME_SOLID_TRAIN_SUBWAY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTrainTram,
+    FONT_AWESOME_SOLID_TRAIN_TRAM,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTrain,
+    FONT_AWESOME_SOLID_TRAIN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTransgender,
+    FONT_AWESOME_SOLID_TRANSGENDER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTrashArrowUp,
+    FONT_AWESOME_SOLID_TRASH_ARROW_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTrashCanArrowUp,
+    FONT_AWESOME_SOLID_TRASH_CAN_ARROW_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTrashCan,
+    FONT_AWESOME_SOLID_TRASH_CAN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTrash,
+    FONT_AWESOME_SOLID_TRASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTreeCity,
+    FONT_AWESOME_SOLID_TREE_CITY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTree,
+    FONT_AWESOME_SOLID_TREE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTriangleExclamation,
+    FONT_AWESOME_SOLID_TRIANGLE_EXCLAMATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTrophy,
+    FONT_AWESOME_SOLID_TROPHY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTrowelBricks,
+    FONT_AWESOME_SOLID_TROWEL_BRICKS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTrowel,
+    FONT_AWESOME_SOLID_TROWEL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTruckArrowRight,
+    FONT_AWESOME_SOLID_TRUCK_ARROW_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTruckDroplet,
+    FONT_AWESOME_SOLID_TRUCK_DROPLET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTruckFast,
+    FONT_AWESOME_SOLID_TRUCK_FAST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTruckFieldUn,
+    FONT_AWESOME_SOLID_TRUCK_FIELD_UN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTruckField,
+    FONT_AWESOME_SOLID_TRUCK_FIELD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTruckFront,
+    FONT_AWESOME_SOLID_TRUCK_FRONT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTruckMedical,
+    FONT_AWESOME_SOLID_TRUCK_MEDICAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTruckMonster,
+    FONT_AWESOME_SOLID_TRUCK_MONSTER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTruckMoving,
+    FONT_AWESOME_SOLID_TRUCK_MOVING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTruckPickup,
+    FONT_AWESOME_SOLID_TRUCK_PICKUP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTruckPlane,
+    FONT_AWESOME_SOLID_TRUCK_PLANE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTruckRampBox,
+    FONT_AWESOME_SOLID_TRUCK_RAMP_BOX,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTruck,
+    FONT_AWESOME_SOLID_TRUCK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTty,
+    FONT_AWESOME_SOLID_TTY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTurkishLiraSign,
+    FONT_AWESOME_SOLID_TURKISH_LIRA_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTurnDown,
+    FONT_AWESOME_SOLID_TURN_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTurnUp,
+    FONT_AWESOME_SOLID_TURN_UP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidTv,
+    FONT_AWESOME_SOLID_TV,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidU,
+    FONT_AWESOME_SOLID_U,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUmbrellaBeach,
+    FONT_AWESOME_SOLID_UMBRELLA_BEACH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUmbrella,
+    FONT_AWESOME_SOLID_UMBRELLA,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUnderline,
+    FONT_AWESOME_SOLID_UNDERLINE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUniversalAccess,
+    FONT_AWESOME_SOLID_UNIVERSAL_ACCESS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUnlockKeyhole,
+    FONT_AWESOME_SOLID_UNLOCK_KEYHOLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUnlock,
+    FONT_AWESOME_SOLID_UNLOCK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUpDownLeftRight,
+    FONT_AWESOME_SOLID_UP_DOWN_LEFT_RIGHT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUpDown,
+    FONT_AWESOME_SOLID_UP_DOWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUpLong,
+    FONT_AWESOME_SOLID_UP_LONG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUpRightAndDownLeftFromCenter,
+    FONT_AWESOME_SOLID_UP_RIGHT_AND_DOWN_LEFT_FROM_CENTER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUpRightFromSquare,
+    FONT_AWESOME_SOLID_UP_RIGHT_FROM_SQUARE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUpload,
+    FONT_AWESOME_SOLID_UPLOAD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserAstronaut,
+    FONT_AWESOME_SOLID_USER_ASTRONAUT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserCheck,
+    FONT_AWESOME_SOLID_USER_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserClock,
+    FONT_AWESOME_SOLID_USER_CLOCK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserDoctor,
+    FONT_AWESOME_SOLID_USER_DOCTOR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserGear,
+    FONT_AWESOME_SOLID_USER_GEAR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserGraduate,
+    FONT_AWESOME_SOLID_USER_GRADUATE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserGroup,
+    FONT_AWESOME_SOLID_USER_GROUP,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserInjured,
+    FONT_AWESOME_SOLID_USER_INJURED,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserLargeSlash,
+    FONT_AWESOME_SOLID_USER_LARGE_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserLarge,
+    FONT_AWESOME_SOLID_USER_LARGE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserLock,
+    FONT_AWESOME_SOLID_USER_LOCK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserMinus,
+    FONT_AWESOME_SOLID_USER_MINUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserNinja,
+    FONT_AWESOME_SOLID_USER_NINJA,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserNurse,
+    FONT_AWESOME_SOLID_USER_NURSE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserPen,
+    FONT_AWESOME_SOLID_USER_PEN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserPlus,
+    FONT_AWESOME_SOLID_USER_PLUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserSecret,
+    FONT_AWESOME_SOLID_USER_SECRET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserShield,
+    FONT_AWESOME_SOLID_USER_SHIELD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserSlash,
+    FONT_AWESOME_SOLID_USER_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserTag,
+    FONT_AWESOME_SOLID_USER_TAG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserTie,
+    FONT_AWESOME_SOLID_USER_TIE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUserXmark,
+    FONT_AWESOME_SOLID_USER_XMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUser,
+    FONT_AWESOME_SOLID_USER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUsersBetweenLines,
+    FONT_AWESOME_SOLID_USERS_BETWEEN_LINES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUsersGear,
+    FONT_AWESOME_SOLID_USERS_GEAR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUsersLine,
+    FONT_AWESOME_SOLID_USERS_LINE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUsersRays,
+    FONT_AWESOME_SOLID_USERS_RAYS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUsersRectangle,
+    FONT_AWESOME_SOLID_USERS_RECTANGLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUsersSlash,
+    FONT_AWESOME_SOLID_USERS_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUsersViewfinder,
+    FONT_AWESOME_SOLID_USERS_VIEWFINDER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUsers,
+    FONT_AWESOME_SOLID_USERS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidUtensils,
+    FONT_AWESOME_SOLID_UTENSILS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidV,
+    FONT_AWESOME_SOLID_V,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVanShuttle,
+    FONT_AWESOME_SOLID_VAN_SHUTTLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVault,
+    FONT_AWESOME_SOLID_VAULT,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVectorSquare,
+    FONT_AWESOME_SOLID_VECTOR_SQUARE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVenusDouble,
+    FONT_AWESOME_SOLID_VENUS_DOUBLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVenusMars,
+    FONT_AWESOME_SOLID_VENUS_MARS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVenus,
+    FONT_AWESOME_SOLID_VENUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVestPatches,
+    FONT_AWESOME_SOLID_VEST_PATCHES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVest,
+    FONT_AWESOME_SOLID_VEST,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVialCircleCheck,
+    FONT_AWESOME_SOLID_VIAL_CIRCLE_CHECK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVialVirus,
+    FONT_AWESOME_SOLID_VIAL_VIRUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVial,
+    FONT_AWESOME_SOLID_VIAL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVials,
+    FONT_AWESOME_SOLID_VIALS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVideoSlash,
+    FONT_AWESOME_SOLID_VIDEO_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVideo,
+    FONT_AWESOME_SOLID_VIDEO,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVihara,
+    FONT_AWESOME_SOLID_VIHARA,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVirusCovidSlash,
+    FONT_AWESOME_SOLID_VIRUS_COVID_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVirusCovid,
+    FONT_AWESOME_SOLID_VIRUS_COVID,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVirusSlash,
+    FONT_AWESOME_SOLID_VIRUS_SLASH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVirus,
+    FONT_AWESOME_SOLID_VIRUS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidViruses,
+    FONT_AWESOME_SOLID_VIRUSES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVoicemail,
+    FONT_AWESOME_SOLID_VOICEMAIL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVolcano,
+    FONT_AWESOME_SOLID_VOLCANO,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVolleyball,
+    FONT_AWESOME_SOLID_VOLLEYBALL,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVolumeHigh,
+    FONT_AWESOME_SOLID_VOLUME_HIGH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVolumeLow,
+    FONT_AWESOME_SOLID_VOLUME_LOW,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVolumeOff,
+    FONT_AWESOME_SOLID_VOLUME_OFF,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVolumeXmark,
+    FONT_AWESOME_SOLID_VOLUME_XMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidVrCardboard,
+    FONT_AWESOME_SOLID_VR_CARDBOARD,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidW,
+    FONT_AWESOME_SOLID_W,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWalkieTalkie,
+    FONT_AWESOME_SOLID_WALKIE_TALKIE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWallet,
+    FONT_AWESOME_SOLID_WALLET,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWandMagicSparkles,
+    FONT_AWESOME_SOLID_WAND_MAGIC_SPARKLES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWandMagic,
+    FONT_AWESOME_SOLID_WAND_MAGIC,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWandSparkles,
+    FONT_AWESOME_SOLID_WAND_SPARKLES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWarehouse,
+    FONT_AWESOME_SOLID_WAREHOUSE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWaterLadder,
+    FONT_AWESOME_SOLID_WATER_LADDER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWater,
+    FONT_AWESOME_SOLID_WATER,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWaveSquare,
+    FONT_AWESOME_SOLID_WAVE_SQUARE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWeightHanging,
+    FONT_AWESOME_SOLID_WEIGHT_HANGING,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWeightScale,
+    FONT_AWESOME_SOLID_WEIGHT_SCALE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWheatAwnCircleExclamation,
+    FONT_AWESOME_SOLID_WHEAT_AWN_CIRCLE_EXCLAMATION,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWheatAwn,
+    FONT_AWESOME_SOLID_WHEAT_AWN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWheelchairMove,
+    FONT_AWESOME_SOLID_WHEELCHAIR_MOVE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWheelchair,
+    FONT_AWESOME_SOLID_WHEELCHAIR,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWhiskeyGlass,
+    FONT_AWESOME_SOLID_WHISKEY_GLASS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWifi,
+    FONT_AWESOME_SOLID_WIFI,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWind,
+    FONT_AWESOME_SOLID_WIND,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWindowMaximize,
+    FONT_AWESOME_SOLID_WINDOW_MAXIMIZE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWindowMinimize,
+    FONT_AWESOME_SOLID_WINDOW_MINIMIZE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWindowRestore,
+    FONT_AWESOME_SOLID_WINDOW_RESTORE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWineBottle,
+    FONT_AWESOME_SOLID_WINE_BOTTLE,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWineGlassEmpty,
+    FONT_AWESOME_SOLID_WINE_GLASS_EMPTY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWineGlass,
+    FONT_AWESOME_SOLID_WINE_GLASS,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWonSign,
+    FONT_AWESOME_SOLID_WON_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWorm,
+    FONT_AWESOME_SOLID_WORM,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidWrench,
+    FONT_AWESOME_SOLID_WRENCH,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidXRay,
+    FONT_AWESOME_SOLID_X_RAY,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidX,
+    FONT_AWESOME_SOLID_X,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidXmark,
+    FONT_AWESOME_SOLID_XMARK,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidXmarksLines,
+    FONT_AWESOME_SOLID_XMARKS_LINES,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidY,
+    FONT_AWESOME_SOLID_Y,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidYenSign,
+    FONT_AWESOME_SOLID_YEN_SIGN,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidYinYang,
+    FONT_AWESOME_SOLID_YIN_YANG,
     #[cfg(feature = "font_awesome_solid")]
-    Self::FontAwesomeSolidZ,
+    FONT_AWESOME_SOLID_Z,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineAcademicCap,
+    HEROICONS_OUTLINE_ACADEMIC_CAP,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineAdjustmentsHorizontal,
+    HEROICONS_OUTLINE_ADJUSTMENTS_HORIZONTAL,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineAdjustmentsVertical,
+    HEROICONS_OUTLINE_ADJUSTMENTS_VERTICAL,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArchiveBoxArrowDown,
+    HEROICONS_OUTLINE_ARCHIVE_BOX_ARROW_DOWN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArchiveBoxXMark,
+    HEROICONS_OUTLINE_ARCHIVE_BOX_X_MARK,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArchiveBox,
+    HEROICONS_OUTLINE_ARCHIVE_BOX,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowDownCircle,
+    HEROICONS_OUTLINE_ARROW_DOWN_CIRCLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowDownLeft,
+    HEROICONS_OUTLINE_ARROW_DOWN_LEFT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowDownOnSquareStack,
+    HEROICONS_OUTLINE_ARROW_DOWN_ON_SQUARE_STACK,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowDownOnSquare,
+    HEROICONS_OUTLINE_ARROW_DOWN_ON_SQUARE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowDownRight,
+    HEROICONS_OUTLINE_ARROW_DOWN_RIGHT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowDownTray,
+    HEROICONS_OUTLINE_ARROW_DOWN_TRAY,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowDown,
+    HEROICONS_OUTLINE_ARROW_DOWN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowLeftCircle,
+    HEROICONS_OUTLINE_ARROW_LEFT_CIRCLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowLeftOnRectangle,
+    HEROICONS_OUTLINE_ARROW_LEFT_ON_RECTANGLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowLeft,
+    HEROICONS_OUTLINE_ARROW_LEFT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowLongDown,
+    HEROICONS_OUTLINE_ARROW_LONG_DOWN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowLongLeft,
+    HEROICONS_OUTLINE_ARROW_LONG_LEFT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowLongRight,
+    HEROICONS_OUTLINE_ARROW_LONG_RIGHT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowLongUp,
+    HEROICONS_OUTLINE_ARROW_LONG_UP,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowPathRoundedSquare,
+    HEROICONS_OUTLINE_ARROW_PATH_ROUNDED_SQUARE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowPath,
+    HEROICONS_OUTLINE_ARROW_PATH,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowRightCircle,
+    HEROICONS_OUTLINE_ARROW_RIGHT_CIRCLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowRightOnRectangle,
+    HEROICONS_OUTLINE_ARROW_RIGHT_ON_RECTANGLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowRight,
+    HEROICONS_OUTLINE_ARROW_RIGHT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowSmallDown,
+    HEROICONS_OUTLINE_ARROW_SMALL_DOWN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowSmallLeft,
+    HEROICONS_OUTLINE_ARROW_SMALL_LEFT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowSmallRight,
+    HEROICONS_OUTLINE_ARROW_SMALL_RIGHT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowSmallUp,
+    HEROICONS_OUTLINE_ARROW_SMALL_UP,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowTopRightOnSquare,
+    HEROICONS_OUTLINE_ARROW_TOP_RIGHT_ON_SQUARE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowTrendingDown,
+    HEROICONS_OUTLINE_ARROW_TRENDING_DOWN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowTrendingUp,
+    HEROICONS_OUTLINE_ARROW_TRENDING_UP,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowUpCircle,
+    HEROICONS_OUTLINE_ARROW_UP_CIRCLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowUpLeft,
+    HEROICONS_OUTLINE_ARROW_UP_LEFT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowUpOnSquareStack,
+    HEROICONS_OUTLINE_ARROW_UP_ON_SQUARE_STACK,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowUpOnSquare,
+    HEROICONS_OUTLINE_ARROW_UP_ON_SQUARE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowUpRight,
+    HEROICONS_OUTLINE_ARROW_UP_RIGHT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowUpTray,
+    HEROICONS_OUTLINE_ARROW_UP_TRAY,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowUp,
+    HEROICONS_OUTLINE_ARROW_UP,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowUturnDown,
+    HEROICONS_OUTLINE_ARROW_UTURN_DOWN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowUturnLeft,
+    HEROICONS_OUTLINE_ARROW_UTURN_LEFT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowUturnRight,
+    HEROICONS_OUTLINE_ARROW_UTURN_RIGHT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowUturnUp,
+    HEROICONS_OUTLINE_ARROW_UTURN_UP,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowsPointingIn,
+    HEROICONS_OUTLINE_ARROWS_POINTING_IN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowsPointingOut,
+    HEROICONS_OUTLINE_ARROWS_POINTING_OUT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowsRightLeft,
+    HEROICONS_OUTLINE_ARROWS_RIGHT_LEFT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineArrowsUpDown,
+    HEROICONS_OUTLINE_ARROWS_UP_DOWN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineAtSymbol,
+    HEROICONS_OUTLINE_AT_SYMBOL,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBackspace,
+    HEROICONS_OUTLINE_BACKSPACE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBackward,
+    HEROICONS_OUTLINE_BACKWARD,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBanknotes,
+    HEROICONS_OUTLINE_BANKNOTES,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBars2,
+    HEROICONS_OUTLINE_BARS_2,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBars3BottomLeft,
+    HEROICONS_OUTLINE_BARS_3_BOTTOM_LEFT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBars3BottomRight,
+    HEROICONS_OUTLINE_BARS_3_BOTTOM_RIGHT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBars3CenterLeft,
+    HEROICONS_OUTLINE_BARS_3_CENTER_LEFT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBars3,
+    HEROICONS_OUTLINE_BARS_3,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBars4,
+    HEROICONS_OUTLINE_BARS_4,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBarsArrowDown,
+    HEROICONS_OUTLINE_BARS_ARROW_DOWN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBarsArrowUp,
+    HEROICONS_OUTLINE_BARS_ARROW_UP,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBattery0,
+    HEROICONS_OUTLINE_BATTERY_0,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBattery100,
+    HEROICONS_OUTLINE_BATTERY_100,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBattery50,
+    HEROICONS_OUTLINE_BATTERY_50,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBeaker,
+    HEROICONS_OUTLINE_BEAKER,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBellAlert,
+    HEROICONS_OUTLINE_BELL_ALERT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBellSlash,
+    HEROICONS_OUTLINE_BELL_SLASH,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBellSnooze,
+    HEROICONS_OUTLINE_BELL_SNOOZE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBell,
+    HEROICONS_OUTLINE_BELL,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBoltSlash,
+    HEROICONS_OUTLINE_BOLT_SLASH,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBolt,
+    HEROICONS_OUTLINE_BOLT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBookOpen,
+    HEROICONS_OUTLINE_BOOK_OPEN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBookmarkSlash,
+    HEROICONS_OUTLINE_BOOKMARK_SLASH,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBookmarkSquare,
+    HEROICONS_OUTLINE_BOOKMARK_SQUARE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBookmark,
+    HEROICONS_OUTLINE_BOOKMARK,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBriefcase,
+    HEROICONS_OUTLINE_BRIEFCASE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBugAnt,
+    HEROICONS_OUTLINE_BUG_ANT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBuildingLibrary,
+    HEROICONS_OUTLINE_BUILDING_LIBRARY,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBuildingOffice2,
+    HEROICONS_OUTLINE_BUILDING_OFFICE_2,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBuildingOffice,
+    HEROICONS_OUTLINE_BUILDING_OFFICE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineBuildingStorefront,
+    HEROICONS_OUTLINE_BUILDING_STOREFRONT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCake,
+    HEROICONS_OUTLINE_CAKE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCalculator,
+    HEROICONS_OUTLINE_CALCULATOR,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCalendarDays,
+    HEROICONS_OUTLINE_CALENDAR_DAYS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCalendar,
+    HEROICONS_OUTLINE_CALENDAR,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCamera,
+    HEROICONS_OUTLINE_CAMERA,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineChartBarSquare,
+    HEROICONS_OUTLINE_CHART_BAR_SQUARE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineChartBar,
+    HEROICONS_OUTLINE_CHART_BAR,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineChartPie,
+    HEROICONS_OUTLINE_CHART_PIE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineChatBubbleBottomCenterText,
+    HEROICONS_OUTLINE_CHAT_BUBBLE_BOTTOM_CENTER_TEXT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineChatBubbleBottomCenter,
+    HEROICONS_OUTLINE_CHAT_BUBBLE_BOTTOM_CENTER,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineChatBubbleLeftEllipsis,
+    HEROICONS_OUTLINE_CHAT_BUBBLE_LEFT_ELLIPSIS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineChatBubbleLeftRight,
+    HEROICONS_OUTLINE_CHAT_BUBBLE_LEFT_RIGHT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineChatBubbleLeft,
+    HEROICONS_OUTLINE_CHAT_BUBBLE_LEFT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineChatBubbleOvalLeftEllipsis,
+    HEROICONS_OUTLINE_CHAT_BUBBLE_OVAL_LEFT_ELLIPSIS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineChatBubbleOvalLeft,
+    HEROICONS_OUTLINE_CHAT_BUBBLE_OVAL_LEFT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCheckBadge,
+    HEROICONS_OUTLINE_CHECK_BADGE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCheckCircle,
+    HEROICONS_OUTLINE_CHECK_CIRCLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCheck,
+    HEROICONS_OUTLINE_CHECK,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineChevronDoubleDown,
+    HEROICONS_OUTLINE_CHEVRON_DOUBLE_DOWN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineChevronDoubleLeft,
+    HEROICONS_OUTLINE_CHEVRON_DOUBLE_LEFT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineChevronDoubleRight,
+    HEROICONS_OUTLINE_CHEVRON_DOUBLE_RIGHT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineChevronDoubleUp,
+    HEROICONS_OUTLINE_CHEVRON_DOUBLE_UP,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineChevronDown,
+    HEROICONS_OUTLINE_CHEVRON_DOWN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineChevronLeft,
+    HEROICONS_OUTLINE_CHEVRON_LEFT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineChevronRight,
+    HEROICONS_OUTLINE_CHEVRON_RIGHT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineChevronUpDown,
+    HEROICONS_OUTLINE_CHEVRON_UP_DOWN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineChevronUp,
+    HEROICONS_OUTLINE_CHEVRON_UP,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCircleStack,
+    HEROICONS_OUTLINE_CIRCLE_STACK,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineClipboardDocumentCheck,
+    HEROICONS_OUTLINE_CLIPBOARD_DOCUMENT_CHECK,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineClipboardDocumentList,
+    HEROICONS_OUTLINE_CLIPBOARD_DOCUMENT_LIST,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineClipboardDocument,
+    HEROICONS_OUTLINE_CLIPBOARD_DOCUMENT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineClipboard,
+    HEROICONS_OUTLINE_CLIPBOARD,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineClock,
+    HEROICONS_OUTLINE_CLOCK,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCloudArrowDown,
+    HEROICONS_OUTLINE_CLOUD_ARROW_DOWN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCloudArrowUp,
+    HEROICONS_OUTLINE_CLOUD_ARROW_UP,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCloud,
+    HEROICONS_OUTLINE_CLOUD,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCodeBracketSquare,
+    HEROICONS_OUTLINE_CODE_BRACKET_SQUARE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCodeBracket,
+    HEROICONS_OUTLINE_CODE_BRACKET,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCog6Tooth,
+    HEROICONS_OUTLINE_COG_6_TOOTH,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCog8Tooth,
+    HEROICONS_OUTLINE_COG_8_TOOTH,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCog,
+    HEROICONS_OUTLINE_COG,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCommandLine,
+    HEROICONS_OUTLINE_COMMAND_LINE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineComputerDesktop,
+    HEROICONS_OUTLINE_COMPUTER_DESKTOP,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCpuChip,
+    HEROICONS_OUTLINE_CPU_CHIP,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCreditCard,
+    HEROICONS_OUTLINE_CREDIT_CARD,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCubeTransparent,
+    HEROICONS_OUTLINE_CUBE_TRANSPARENT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCube,
+    HEROICONS_OUTLINE_CUBE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCurrencyBangladeshi,
+    HEROICONS_OUTLINE_CURRENCY_BANGLADESHI,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCurrencyDollar,
+    HEROICONS_OUTLINE_CURRENCY_DOLLAR,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCurrencyEuro,
+    HEROICONS_OUTLINE_CURRENCY_EURO,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCurrencyPound,
+    HEROICONS_OUTLINE_CURRENCY_POUND,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCurrencyRupee,
+    HEROICONS_OUTLINE_CURRENCY_RUPEE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCurrencyYen,
+    HEROICONS_OUTLINE_CURRENCY_YEN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCursorArrowRays,
+    HEROICONS_OUTLINE_CURSOR_ARROW_RAYS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineCursorArrowRipple,
+    HEROICONS_OUTLINE_CURSOR_ARROW_RIPPLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineDevicePhoneMobile,
+    HEROICONS_OUTLINE_DEVICE_PHONE_MOBILE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineDeviceTablet,
+    HEROICONS_OUTLINE_DEVICE_TABLET,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineDocumentArrowDown,
+    HEROICONS_OUTLINE_DOCUMENT_ARROW_DOWN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineDocumentArrowUp,
+    HEROICONS_OUTLINE_DOCUMENT_ARROW_UP,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineDocumentChartBar,
+    HEROICONS_OUTLINE_DOCUMENT_CHART_BAR,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineDocumentCheck,
+    HEROICONS_OUTLINE_DOCUMENT_CHECK,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineDocumentDuplicate,
+    HEROICONS_OUTLINE_DOCUMENT_DUPLICATE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineDocumentMagnifyingGlass,
+    HEROICONS_OUTLINE_DOCUMENT_MAGNIFYING_GLASS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineDocumentMinus,
+    HEROICONS_OUTLINE_DOCUMENT_MINUS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineDocumentPlus,
+    HEROICONS_OUTLINE_DOCUMENT_PLUS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineDocumentText,
+    HEROICONS_OUTLINE_DOCUMENT_TEXT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineDocument,
+    HEROICONS_OUTLINE_DOCUMENT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineEllipsisHorizontalCircle,
+    HEROICONS_OUTLINE_ELLIPSIS_HORIZONTAL_CIRCLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineEllipsisHorizontal,
+    HEROICONS_OUTLINE_ELLIPSIS_HORIZONTAL,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineEllipsisVertical,
+    HEROICONS_OUTLINE_ELLIPSIS_VERTICAL,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineEnvelopeOpen,
+    HEROICONS_OUTLINE_ENVELOPE_OPEN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineEnvelope,
+    HEROICONS_OUTLINE_ENVELOPE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineExclamationCircle,
+    HEROICONS_OUTLINE_EXCLAMATION_CIRCLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineExclamationTriangle,
+    HEROICONS_OUTLINE_EXCLAMATION_TRIANGLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineEyeDropper,
+    HEROICONS_OUTLINE_EYE_DROPPER,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineEyeSlash,
+    HEROICONS_OUTLINE_EYE_SLASH,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineEye,
+    HEROICONS_OUTLINE_EYE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineFaceFrown,
+    HEROICONS_OUTLINE_FACE_FROWN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineFaceSmile,
+    HEROICONS_OUTLINE_FACE_SMILE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineFilm,
+    HEROICONS_OUTLINE_FILM,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineFingerPrint,
+    HEROICONS_OUTLINE_FINGER_PRINT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineFire,
+    HEROICONS_OUTLINE_FIRE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineFlag,
+    HEROICONS_OUTLINE_FLAG,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineFolderArrowDown,
+    HEROICONS_OUTLINE_FOLDER_ARROW_DOWN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineFolderMinus,
+    HEROICONS_OUTLINE_FOLDER_MINUS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineFolderOpen,
+    HEROICONS_OUTLINE_FOLDER_OPEN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineFolderPlus,
+    HEROICONS_OUTLINE_FOLDER_PLUS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineFolder,
+    HEROICONS_OUTLINE_FOLDER,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineForward,
+    HEROICONS_OUTLINE_FORWARD,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineFunnel,
+    HEROICONS_OUTLINE_FUNNEL,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineGif,
+    HEROICONS_OUTLINE_GIF,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineGiftTop,
+    HEROICONS_OUTLINE_GIFT_TOP,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineGift,
+    HEROICONS_OUTLINE_GIFT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineGlobeAlt,
+    HEROICONS_OUTLINE_GLOBE_ALT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineGlobeAmericas,
+    HEROICONS_OUTLINE_GLOBE_AMERICAS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineGlobeAsiaAustralia,
+    HEROICONS_OUTLINE_GLOBE_ASIA_AUSTRALIA,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineGlobeEuropeAfrica,
+    HEROICONS_OUTLINE_GLOBE_EUROPE_AFRICA,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineHandRaised,
+    HEROICONS_OUTLINE_HAND_RAISED,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineHandThumbDown,
+    HEROICONS_OUTLINE_HAND_THUMB_DOWN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineHandThumbUp,
+    HEROICONS_OUTLINE_HAND_THUMB_UP,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineHashtag,
+    HEROICONS_OUTLINE_HASHTAG,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineHeart,
+    HEROICONS_OUTLINE_HEART,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineHomeModern,
+    HEROICONS_OUTLINE_HOME_MODERN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineHome,
+    HEROICONS_OUTLINE_HOME,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineIdentification,
+    HEROICONS_OUTLINE_IDENTIFICATION,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineInboxArrowDown,
+    HEROICONS_OUTLINE_INBOX_ARROW_DOWN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineInboxStack,
+    HEROICONS_OUTLINE_INBOX_STACK,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineInbox,
+    HEROICONS_OUTLINE_INBOX,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineInformationCircle,
+    HEROICONS_OUTLINE_INFORMATION_CIRCLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineKey,
+    HEROICONS_OUTLINE_KEY,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineLanguage,
+    HEROICONS_OUTLINE_LANGUAGE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineLifebuoy,
+    HEROICONS_OUTLINE_LIFEBUOY,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineLightBulb,
+    HEROICONS_OUTLINE_LIGHT_BULB,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineLink,
+    HEROICONS_OUTLINE_LINK,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineListBullet,
+    HEROICONS_OUTLINE_LIST_BULLET,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineLockClosed,
+    HEROICONS_OUTLINE_LOCK_CLOSED,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineLockOpen,
+    HEROICONS_OUTLINE_LOCK_OPEN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineMagnifyingGlassCircle,
+    HEROICONS_OUTLINE_MAGNIFYING_GLASS_CIRCLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineMagnifyingGlassMinus,
+    HEROICONS_OUTLINE_MAGNIFYING_GLASS_MINUS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineMagnifyingGlassPlus,
+    HEROICONS_OUTLINE_MAGNIFYING_GLASS_PLUS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineMagnifyingGlass,
+    HEROICONS_OUTLINE_MAGNIFYING_GLASS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineMapPin,
+    HEROICONS_OUTLINE_MAP_PIN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineMap,
+    HEROICONS_OUTLINE_MAP,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineMegaphone,
+    HEROICONS_OUTLINE_MEGAPHONE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineMicrophone,
+    HEROICONS_OUTLINE_MICROPHONE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineMinusCircle,
+    HEROICONS_OUTLINE_MINUS_CIRCLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineMinusSmall,
+    HEROICONS_OUTLINE_MINUS_SMALL,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineMinus,
+    HEROICONS_OUTLINE_MINUS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineMoon,
+    HEROICONS_OUTLINE_MOON,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineMusicalNote,
+    HEROICONS_OUTLINE_MUSICAL_NOTE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineNewspaper,
+    HEROICONS_OUTLINE_NEWSPAPER,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineNoSymbol,
+    HEROICONS_OUTLINE_NO_SYMBOL,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePaintBrush,
+    HEROICONS_OUTLINE_PAINT_BRUSH,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePaperAirplane,
+    HEROICONS_OUTLINE_PAPER_AIRPLANE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePaperClip,
+    HEROICONS_OUTLINE_PAPER_CLIP,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePauseCircle,
+    HEROICONS_OUTLINE_PAUSE_CIRCLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePause,
+    HEROICONS_OUTLINE_PAUSE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePencilSquare,
+    HEROICONS_OUTLINE_PENCIL_SQUARE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePencil,
+    HEROICONS_OUTLINE_PENCIL,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePhoneArrowDownLeft,
+    HEROICONS_OUTLINE_PHONE_ARROW_DOWN_LEFT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePhoneArrowUpRight,
+    HEROICONS_OUTLINE_PHONE_ARROW_UP_RIGHT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePhoneXMark,
+    HEROICONS_OUTLINE_PHONE_X_MARK,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePhone,
+    HEROICONS_OUTLINE_PHONE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePhoto,
+    HEROICONS_OUTLINE_PHOTO,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePlayCircle,
+    HEROICONS_OUTLINE_PLAY_CIRCLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePlayPause,
+    HEROICONS_OUTLINE_PLAY_PAUSE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePlay,
+    HEROICONS_OUTLINE_PLAY,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePlusCircle,
+    HEROICONS_OUTLINE_PLUS_CIRCLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePlusSmall,
+    HEROICONS_OUTLINE_PLUS_SMALL,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePlus,
+    HEROICONS_OUTLINE_PLUS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePower,
+    HEROICONS_OUTLINE_POWER,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePresentationChartBar,
+    HEROICONS_OUTLINE_PRESENTATION_CHART_BAR,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePresentationChartLine,
+    HEROICONS_OUTLINE_PRESENTATION_CHART_LINE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePrinter,
+    HEROICONS_OUTLINE_PRINTER,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlinePuzzlePiece,
+    HEROICONS_OUTLINE_PUZZLE_PIECE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineQrCode,
+    HEROICONS_OUTLINE_QR_CODE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineQuestionMarkCircle,
+    HEROICONS_OUTLINE_QUESTION_MARK_CIRCLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineQueueList,
+    HEROICONS_OUTLINE_QUEUE_LIST,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineRadio,
+    HEROICONS_OUTLINE_RADIO,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineReceiptPercent,
+    HEROICONS_OUTLINE_RECEIPT_PERCENT,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineReceiptRefund,
+    HEROICONS_OUTLINE_RECEIPT_REFUND,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineRectangleGroup,
+    HEROICONS_OUTLINE_RECTANGLE_GROUP,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineRectangleStack,
+    HEROICONS_OUTLINE_RECTANGLE_STACK,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineRocketLaunch,
+    HEROICONS_OUTLINE_ROCKET_LAUNCH,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineRss,
+    HEROICONS_OUTLINE_RSS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineScale,
+    HEROICONS_OUTLINE_SCALE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineScissors,
+    HEROICONS_OUTLINE_SCISSORS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineServerStack,
+    HEROICONS_OUTLINE_SERVER_STACK,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineServer,
+    HEROICONS_OUTLINE_SERVER,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineShare,
+    HEROICONS_OUTLINE_SHARE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineShieldCheck,
+    HEROICONS_OUTLINE_SHIELD_CHECK,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineShieldExclamation,
+    HEROICONS_OUTLINE_SHIELD_EXCLAMATION,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineShoppingBag,
+    HEROICONS_OUTLINE_SHOPPING_BAG,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineShoppingCart,
+    HEROICONS_OUTLINE_SHOPPING_CART,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineSignalSlash,
+    HEROICONS_OUTLINE_SIGNAL_SLASH,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineSignal,
+    HEROICONS_OUTLINE_SIGNAL,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineSparkles,
+    HEROICONS_OUTLINE_SPARKLES,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineSpeakerWave,
+    HEROICONS_OUTLINE_SPEAKER_WAVE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineSpeakerXMark,
+    HEROICONS_OUTLINE_SPEAKER_X_MARK,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineSquare2Stack,
+    HEROICONS_OUTLINE_SQUARE_2_STACK,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineSquare3Stack3D,
+    HEROICONS_OUTLINE_SQUARE_3_STACK_3_D,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineSquares2X2,
+    HEROICONS_OUTLINE_SQUARES_2_X_2,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineSquaresPlus,
+    HEROICONS_OUTLINE_SQUARES_PLUS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineStar,
+    HEROICONS_OUTLINE_STAR,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineStopCircle,
+    HEROICONS_OUTLINE_STOP_CIRCLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineStop,
+    HEROICONS_OUTLINE_STOP,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineSun,
+    HEROICONS_OUTLINE_SUN,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineSwatch,
+    HEROICONS_OUTLINE_SWATCH,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineTableCells,
+    HEROICONS_OUTLINE_TABLE_CELLS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineTag,
+    HEROICONS_OUTLINE_TAG,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineTicket,
+    HEROICONS_OUTLINE_TICKET,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineTrash,
+    HEROICONS_OUTLINE_TRASH,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineTrophy,
+    HEROICONS_OUTLINE_TROPHY,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineTruck,
+    HEROICONS_OUTLINE_TRUCK,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineTv,
+    HEROICONS_OUTLINE_TV,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineUserCircle,
+    HEROICONS_OUTLINE_USER_CIRCLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineUserGroup,
+    HEROICONS_OUTLINE_USER_GROUP,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineUserMinus,
+    HEROICONS_OUTLINE_USER_MINUS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineUserPlus,
+    HEROICONS_OUTLINE_USER_PLUS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineUser,
+    HEROICONS_OUTLINE_USER,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineUsers,
+    HEROICONS_OUTLINE_USERS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineVariable,
+    HEROICONS_OUTLINE_VARIABLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineVideoCameraSlash,
+    HEROICONS_OUTLINE_VIDEO_CAMERA_SLASH,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineVideoCamera,
+    HEROICONS_OUTLINE_VIDEO_CAMERA,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineViewColumns,
+    HEROICONS_OUTLINE_VIEW_COLUMNS,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineViewfinderCircle,
+    HEROICONS_OUTLINE_VIEWFINDER_CIRCLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineWallet,
+    HEROICONS_OUTLINE_WALLET,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineWifi,
+    HEROICONS_OUTLINE_WIFI,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineWindow,
+    HEROICONS_OUTLINE_WINDOW,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineWrenchScrewdriver,
+    HEROICONS_OUTLINE_WRENCH_SCREWDRIVER,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineWrench,
+    HEROICONS_OUTLINE_WRENCH,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineXCircle,
+    HEROICONS_OUTLINE_X_CIRCLE,
     #[cfg(feature = "heroicons_outline")]
-    Self::HeroiconsOutlineXMark,
+    HEROICONS_OUTLINE_X_MARK,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidAcademicCap,
+    HEROICONS_SOLID_ACADEMIC_CAP,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidAdjustmentsHorizontal,
+    HEROICONS_SOLID_ADJUSTMENTS_HORIZONTAL,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidAdjustmentsVertical,
+    HEROICONS_SOLID_ADJUSTMENTS_VERTICAL,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArchiveBoxArrowDown,
+    HEROICONS_SOLID_ARCHIVE_BOX_ARROW_DOWN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArchiveBoxXMark,
+    HEROICONS_SOLID_ARCHIVE_BOX_X_MARK,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArchiveBox,
+    HEROICONS_SOLID_ARCHIVE_BOX,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowDownCircle,
+    HEROICONS_SOLID_ARROW_DOWN_CIRCLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowDownLeft,
+    HEROICONS_SOLID_ARROW_DOWN_LEFT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowDownOnSquareStack,
+    HEROICONS_SOLID_ARROW_DOWN_ON_SQUARE_STACK,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowDownOnSquare,
+    HEROICONS_SOLID_ARROW_DOWN_ON_SQUARE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowDownRight,
+    HEROICONS_SOLID_ARROW_DOWN_RIGHT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowDownTray,
+    HEROICONS_SOLID_ARROW_DOWN_TRAY,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowDown,
+    HEROICONS_SOLID_ARROW_DOWN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowLeftCircle,
+    HEROICONS_SOLID_ARROW_LEFT_CIRCLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowLeftOnRectangle,
+    HEROICONS_SOLID_ARROW_LEFT_ON_RECTANGLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowLeft,
+    HEROICONS_SOLID_ARROW_LEFT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowLongDown,
+    HEROICONS_SOLID_ARROW_LONG_DOWN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowLongLeft,
+    HEROICONS_SOLID_ARROW_LONG_LEFT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowLongRight,
+    HEROICONS_SOLID_ARROW_LONG_RIGHT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowLongUp,
+    HEROICONS_SOLID_ARROW_LONG_UP,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowPathRoundedSquare,
+    HEROICONS_SOLID_ARROW_PATH_ROUNDED_SQUARE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowPath,
+    HEROICONS_SOLID_ARROW_PATH,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowRightCircle,
+    HEROICONS_SOLID_ARROW_RIGHT_CIRCLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowRightOnRectangle,
+    HEROICONS_SOLID_ARROW_RIGHT_ON_RECTANGLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowRight,
+    HEROICONS_SOLID_ARROW_RIGHT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowSmallDown,
+    HEROICONS_SOLID_ARROW_SMALL_DOWN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowSmallLeft,
+    HEROICONS_SOLID_ARROW_SMALL_LEFT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowSmallRight,
+    HEROICONS_SOLID_ARROW_SMALL_RIGHT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowSmallUp,
+    HEROICONS_SOLID_ARROW_SMALL_UP,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowTopRightOnSquare,
+    HEROICONS_SOLID_ARROW_TOP_RIGHT_ON_SQUARE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowTrendingDown,
+    HEROICONS_SOLID_ARROW_TRENDING_DOWN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowTrendingUp,
+    HEROICONS_SOLID_ARROW_TRENDING_UP,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowUpCircle,
+    HEROICONS_SOLID_ARROW_UP_CIRCLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowUpLeft,
+    HEROICONS_SOLID_ARROW_UP_LEFT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowUpOnSquareStack,
+    HEROICONS_SOLID_ARROW_UP_ON_SQUARE_STACK,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowUpOnSquare,
+    HEROICONS_SOLID_ARROW_UP_ON_SQUARE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowUpRight,
+    HEROICONS_SOLID_ARROW_UP_RIGHT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowUpTray,
+    HEROICONS_SOLID_ARROW_UP_TRAY,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowUp,
+    HEROICONS_SOLID_ARROW_UP,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowUturnDown,
+    HEROICONS_SOLID_ARROW_UTURN_DOWN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowUturnLeft,
+    HEROICONS_SOLID_ARROW_UTURN_LEFT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowUturnRight,
+    HEROICONS_SOLID_ARROW_UTURN_RIGHT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowUturnUp,
+    HEROICONS_SOLID_ARROW_UTURN_UP,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowsPointingIn,
+    HEROICONS_SOLID_ARROWS_POINTING_IN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowsPointingOut,
+    HEROICONS_SOLID_ARROWS_POINTING_OUT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowsRightLeft,
+    HEROICONS_SOLID_ARROWS_RIGHT_LEFT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidArrowsUpDown,
+    HEROICONS_SOLID_ARROWS_UP_DOWN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidAtSymbol,
+    HEROICONS_SOLID_AT_SYMBOL,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBackspace,
+    HEROICONS_SOLID_BACKSPACE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBackward,
+    HEROICONS_SOLID_BACKWARD,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBanknotes,
+    HEROICONS_SOLID_BANKNOTES,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBars2,
+    HEROICONS_SOLID_BARS_2,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBars3BottomLeft,
+    HEROICONS_SOLID_BARS_3_BOTTOM_LEFT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBars3BottomRight,
+    HEROICONS_SOLID_BARS_3_BOTTOM_RIGHT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBars3CenterLeft,
+    HEROICONS_SOLID_BARS_3_CENTER_LEFT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBars3,
+    HEROICONS_SOLID_BARS_3,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBars4,
+    HEROICONS_SOLID_BARS_4,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBarsArrowDown,
+    HEROICONS_SOLID_BARS_ARROW_DOWN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBarsArrowUp,
+    HEROICONS_SOLID_BARS_ARROW_UP,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBattery0,
+    HEROICONS_SOLID_BATTERY_0,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBattery100,
+    HEROICONS_SOLID_BATTERY_100,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBattery50,
+    HEROICONS_SOLID_BATTERY_50,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBeaker,
+    HEROICONS_SOLID_BEAKER,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBellAlert,
+    HEROICONS_SOLID_BELL_ALERT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBellSlash,
+    HEROICONS_SOLID_BELL_SLASH,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBellSnooze,
+    HEROICONS_SOLID_BELL_SNOOZE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBell,
+    HEROICONS_SOLID_BELL,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBoltSlash,
+    HEROICONS_SOLID_BOLT_SLASH,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBolt,
+    HEROICONS_SOLID_BOLT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBookOpen,
+    HEROICONS_SOLID_BOOK_OPEN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBookmarkSlash,
+    HEROICONS_SOLID_BOOKMARK_SLASH,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBookmarkSquare,
+    HEROICONS_SOLID_BOOKMARK_SQUARE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBookmark,
+    HEROICONS_SOLID_BOOKMARK,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBriefcase,
+    HEROICONS_SOLID_BRIEFCASE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBugAnt,
+    HEROICONS_SOLID_BUG_ANT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBuildingLibrary,
+    HEROICONS_SOLID_BUILDING_LIBRARY,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBuildingOffice2,
+    HEROICONS_SOLID_BUILDING_OFFICE_2,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBuildingOffice,
+    HEROICONS_SOLID_BUILDING_OFFICE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidBuildingStorefront,
+    HEROICONS_SOLID_BUILDING_STOREFRONT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCake,
+    HEROICONS_SOLID_CAKE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCalculator,
+    HEROICONS_SOLID_CALCULATOR,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCalendarDays,
+    HEROICONS_SOLID_CALENDAR_DAYS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCalendar,
+    HEROICONS_SOLID_CALENDAR,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCamera,
+    HEROICONS_SOLID_CAMERA,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidChartBarSquare,
+    HEROICONS_SOLID_CHART_BAR_SQUARE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidChartBar,
+    HEROICONS_SOLID_CHART_BAR,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidChartPie,
+    HEROICONS_SOLID_CHART_PIE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidChatBubbleBottomCenterText,
+    HEROICONS_SOLID_CHAT_BUBBLE_BOTTOM_CENTER_TEXT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidChatBubbleBottomCenter,
+    HEROICONS_SOLID_CHAT_BUBBLE_BOTTOM_CENTER,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidChatBubbleLeftEllipsis,
+    HEROICONS_SOLID_CHAT_BUBBLE_LEFT_ELLIPSIS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidChatBubbleLeftRight,
+    HEROICONS_SOLID_CHAT_BUBBLE_LEFT_RIGHT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidChatBubbleLeft,
+    HEROICONS_SOLID_CHAT_BUBBLE_LEFT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidChatBubbleOvalLeftEllipsis,
+    HEROICONS_SOLID_CHAT_BUBBLE_OVAL_LEFT_ELLIPSIS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidChatBubbleOvalLeft,
+    HEROICONS_SOLID_CHAT_BUBBLE_OVAL_LEFT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCheckBadge,
+    HEROICONS_SOLID_CHECK_BADGE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCheckCircle,
+    HEROICONS_SOLID_CHECK_CIRCLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCheck,
+    HEROICONS_SOLID_CHECK,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidChevronDoubleDown,
+    HEROICONS_SOLID_CHEVRON_DOUBLE_DOWN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidChevronDoubleLeft,
+    HEROICONS_SOLID_CHEVRON_DOUBLE_LEFT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidChevronDoubleRight,
+    HEROICONS_SOLID_CHEVRON_DOUBLE_RIGHT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidChevronDoubleUp,
+    HEROICONS_SOLID_CHEVRON_DOUBLE_UP,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidChevronDown,
+    HEROICONS_SOLID_CHEVRON_DOWN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidChevronLeft,
+    HEROICONS_SOLID_CHEVRON_LEFT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidChevronRight,
+    HEROICONS_SOLID_CHEVRON_RIGHT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidChevronUpDown,
+    HEROICONS_SOLID_CHEVRON_UP_DOWN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidChevronUp,
+    HEROICONS_SOLID_CHEVRON_UP,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCircleStack,
+    HEROICONS_SOLID_CIRCLE_STACK,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidClipboardDocumentCheck,
+    HEROICONS_SOLID_CLIPBOARD_DOCUMENT_CHECK,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidClipboardDocumentList,
+    HEROICONS_SOLID_CLIPBOARD_DOCUMENT_LIST,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidClipboardDocument,
+    HEROICONS_SOLID_CLIPBOARD_DOCUMENT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidClipboard,
+    HEROICONS_SOLID_CLIPBOARD,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidClock,
+    HEROICONS_SOLID_CLOCK,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCloudArrowDown,
+    HEROICONS_SOLID_CLOUD_ARROW_DOWN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCloudArrowUp,
+    HEROICONS_SOLID_CLOUD_ARROW_UP,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCloud,
+    HEROICONS_SOLID_CLOUD,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCodeBracketSquare,
+    HEROICONS_SOLID_CODE_BRACKET_SQUARE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCodeBracket,
+    HEROICONS_SOLID_CODE_BRACKET,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCog6Tooth,
+    HEROICONS_SOLID_COG_6_TOOTH,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCog8Tooth,
+    HEROICONS_SOLID_COG_8_TOOTH,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCog,
+    HEROICONS_SOLID_COG,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCommandLine,
+    HEROICONS_SOLID_COMMAND_LINE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidComputerDesktop,
+    HEROICONS_SOLID_COMPUTER_DESKTOP,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCpuChip,
+    HEROICONS_SOLID_CPU_CHIP,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCreditCard,
+    HEROICONS_SOLID_CREDIT_CARD,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCubeTransparent,
+    HEROICONS_SOLID_CUBE_TRANSPARENT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCube,
+    HEROICONS_SOLID_CUBE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCurrencyBangladeshi,
+    HEROICONS_SOLID_CURRENCY_BANGLADESHI,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCurrencyDollar,
+    HEROICONS_SOLID_CURRENCY_DOLLAR,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCurrencyEuro,
+    HEROICONS_SOLID_CURRENCY_EURO,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCurrencyPound,
+    HEROICONS_SOLID_CURRENCY_POUND,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCurrencyRupee,
+    HEROICONS_SOLID_CURRENCY_RUPEE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCurrencyYen,
+    HEROICONS_SOLID_CURRENCY_YEN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCursorArrowRays,
+    HEROICONS_SOLID_CURSOR_ARROW_RAYS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidCursorArrowRipple,
+    HEROICONS_SOLID_CURSOR_ARROW_RIPPLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidDevicePhoneMobile,
+    HEROICONS_SOLID_DEVICE_PHONE_MOBILE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidDeviceTablet,
+    HEROICONS_SOLID_DEVICE_TABLET,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidDocumentArrowDown,
+    HEROICONS_SOLID_DOCUMENT_ARROW_DOWN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidDocumentArrowUp,
+    HEROICONS_SOLID_DOCUMENT_ARROW_UP,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidDocumentChartBar,
+    HEROICONS_SOLID_DOCUMENT_CHART_BAR,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidDocumentCheck,
+    HEROICONS_SOLID_DOCUMENT_CHECK,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidDocumentDuplicate,
+    HEROICONS_SOLID_DOCUMENT_DUPLICATE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidDocumentMagnifyingGlass,
+    HEROICONS_SOLID_DOCUMENT_MAGNIFYING_GLASS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidDocumentMinus,
+    HEROICONS_SOLID_DOCUMENT_MINUS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidDocumentPlus,
+    HEROICONS_SOLID_DOCUMENT_PLUS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidDocumentText,
+    HEROICONS_SOLID_DOCUMENT_TEXT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidDocument,
+    HEROICONS_SOLID_DOCUMENT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidEllipsisHorizontalCircle,
+    HEROICONS_SOLID_ELLIPSIS_HORIZONTAL_CIRCLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidEllipsisHorizontal,
+    HEROICONS_SOLID_ELLIPSIS_HORIZONTAL,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidEllipsisVertical,
+    HEROICONS_SOLID_ELLIPSIS_VERTICAL,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidEnvelopeOpen,
+    HEROICONS_SOLID_ENVELOPE_OPEN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidEnvelope,
+    HEROICONS_SOLID_ENVELOPE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidExclamationCircle,
+    HEROICONS_SOLID_EXCLAMATION_CIRCLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidExclamationTriangle,
+    HEROICONS_SOLID_EXCLAMATION_TRIANGLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidEyeDropper,
+    HEROICONS_SOLID_EYE_DROPPER,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidEyeSlash,
+    HEROICONS_SOLID_EYE_SLASH,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidEye,
+    HEROICONS_SOLID_EYE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidFaceFrown,
+    HEROICONS_SOLID_FACE_FROWN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidFaceSmile,
+    HEROICONS_SOLID_FACE_SMILE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidFilm,
+    HEROICONS_SOLID_FILM,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidFingerPrint,
+    HEROICONS_SOLID_FINGER_PRINT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidFire,
+    HEROICONS_SOLID_FIRE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidFlag,
+    HEROICONS_SOLID_FLAG,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidFolderArrowDown,
+    HEROICONS_SOLID_FOLDER_ARROW_DOWN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidFolderMinus,
+    HEROICONS_SOLID_FOLDER_MINUS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidFolderOpen,
+    HEROICONS_SOLID_FOLDER_OPEN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidFolderPlus,
+    HEROICONS_SOLID_FOLDER_PLUS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidFolder,
+    HEROICONS_SOLID_FOLDER,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidForward,
+    HEROICONS_SOLID_FORWARD,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidFunnel,
+    HEROICONS_SOLID_FUNNEL,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidGif,
+    HEROICONS_SOLID_GIF,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidGiftTop,
+    HEROICONS_SOLID_GIFT_TOP,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidGift,
+    HEROICONS_SOLID_GIFT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidGlobeAlt,
+    HEROICONS_SOLID_GLOBE_ALT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidGlobeAmericas,
+    HEROICONS_SOLID_GLOBE_AMERICAS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidGlobeAsiaAustralia,
+    HEROICONS_SOLID_GLOBE_ASIA_AUSTRALIA,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidGlobeEuropeAfrica,
+    HEROICONS_SOLID_GLOBE_EUROPE_AFRICA,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidHandRaised,
+    HEROICONS_SOLID_HAND_RAISED,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidHandThumbDown,
+    HEROICONS_SOLID_HAND_THUMB_DOWN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidHandThumbUp,
+    HEROICONS_SOLID_HAND_THUMB_UP,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidHashtag,
+    HEROICONS_SOLID_HASHTAG,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidHeart,
+    HEROICONS_SOLID_HEART,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidHomeModern,
+    HEROICONS_SOLID_HOME_MODERN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidHome,
+    HEROICONS_SOLID_HOME,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidIdentification,
+    HEROICONS_SOLID_IDENTIFICATION,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidInboxArrowDown,
+    HEROICONS_SOLID_INBOX_ARROW_DOWN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidInboxStack,
+    HEROICONS_SOLID_INBOX_STACK,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidInbox,
+    HEROICONS_SOLID_INBOX,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidInformationCircle,
+    HEROICONS_SOLID_INFORMATION_CIRCLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidKey,
+    HEROICONS_SOLID_KEY,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidLanguage,
+    HEROICONS_SOLID_LANGUAGE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidLifebuoy,
+    HEROICONS_SOLID_LIFEBUOY,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidLightBulb,
+    HEROICONS_SOLID_LIGHT_BULB,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidLink,
+    HEROICONS_SOLID_LINK,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidListBullet,
+    HEROICONS_SOLID_LIST_BULLET,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidLockClosed,
+    HEROICONS_SOLID_LOCK_CLOSED,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidLockOpen,
+    HEROICONS_SOLID_LOCK_OPEN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidMagnifyingGlassCircle,
+    HEROICONS_SOLID_MAGNIFYING_GLASS_CIRCLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidMagnifyingGlassMinus,
+    HEROICONS_SOLID_MAGNIFYING_GLASS_MINUS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidMagnifyingGlassPlus,
+    HEROICONS_SOLID_MAGNIFYING_GLASS_PLUS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidMagnifyingGlass,
+    HEROICONS_SOLID_MAGNIFYING_GLASS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidMapPin,
+    HEROICONS_SOLID_MAP_PIN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidMap,
+    HEROICONS_SOLID_MAP,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidMegaphone,
+    HEROICONS_SOLID_MEGAPHONE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidMicrophone,
+    HEROICONS_SOLID_MICROPHONE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidMinusCircle,
+    HEROICONS_SOLID_MINUS_CIRCLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidMinusSmall,
+    HEROICONS_SOLID_MINUS_SMALL,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidMinus,
+    HEROICONS_SOLID_MINUS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidMoon,
+    HEROICONS_SOLID_MOON,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidMusicalNote,
+    HEROICONS_SOLID_MUSICAL_NOTE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidNewspaper,
+    HEROICONS_SOLID_NEWSPAPER,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidNoSymbol,
+    HEROICONS_SOLID_NO_SYMBOL,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPaintBrush,
+    HEROICONS_SOLID_PAINT_BRUSH,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPaperAirplane,
+    HEROICONS_SOLID_PAPER_AIRPLANE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPaperClip,
+    HEROICONS_SOLID_PAPER_CLIP,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPauseCircle,
+    HEROICONS_SOLID_PAUSE_CIRCLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPause,
+    HEROICONS_SOLID_PAUSE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPencilSquare,
+    HEROICONS_SOLID_PENCIL_SQUARE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPencil,
+    HEROICONS_SOLID_PENCIL,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPhoneArrowDownLeft,
+    HEROICONS_SOLID_PHONE_ARROW_DOWN_LEFT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPhoneArrowUpRight,
+    HEROICONS_SOLID_PHONE_ARROW_UP_RIGHT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPhoneXMark,
+    HEROICONS_SOLID_PHONE_X_MARK,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPhone,
+    HEROICONS_SOLID_PHONE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPhoto,
+    HEROICONS_SOLID_PHOTO,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPlayCircle,
+    HEROICONS_SOLID_PLAY_CIRCLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPlayPause,
+    HEROICONS_SOLID_PLAY_PAUSE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPlay,
+    HEROICONS_SOLID_PLAY,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPlusCircle,
+    HEROICONS_SOLID_PLUS_CIRCLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPlusSmall,
+    HEROICONS_SOLID_PLUS_SMALL,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPlus,
+    HEROICONS_SOLID_PLUS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPower,
+    HEROICONS_SOLID_POWER,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPresentationChartBar,
+    HEROICONS_SOLID_PRESENTATION_CHART_BAR,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPresentationChartLine,
+    HEROICONS_SOLID_PRESENTATION_CHART_LINE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPrinter,
+    HEROICONS_SOLID_PRINTER,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidPuzzlePiece,
+    HEROICONS_SOLID_PUZZLE_PIECE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidQrCode,
+    HEROICONS_SOLID_QR_CODE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidQuestionMarkCircle,
+    HEROICONS_SOLID_QUESTION_MARK_CIRCLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidQueueList,
+    HEROICONS_SOLID_QUEUE_LIST,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidRadio,
+    HEROICONS_SOLID_RADIO,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidReceiptPercent,
+    HEROICONS_SOLID_RECEIPT_PERCENT,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidReceiptRefund,
+    HEROICONS_SOLID_RECEIPT_REFUND,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidRectangleGroup,
+    HEROICONS_SOLID_RECTANGLE_GROUP,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidRectangleStack,
+    HEROICONS_SOLID_RECTANGLE_STACK,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidRocketLaunch,
+    HEROICONS_SOLID_ROCKET_LAUNCH,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidRss,
+    HEROICONS_SOLID_RSS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidScale,
+    HEROICONS_SOLID_SCALE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidScissors,
+    HEROICONS_SOLID_SCISSORS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidServerStack,
+    HEROICONS_SOLID_SERVER_STACK,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidServer,
+    HEROICONS_SOLID_SERVER,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidShare,
+    HEROICONS_SOLID_SHARE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidShieldCheck,
+    HEROICONS_SOLID_SHIELD_CHECK,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidShieldExclamation,
+    HEROICONS_SOLID_SHIELD_EXCLAMATION,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidShoppingBag,
+    HEROICONS_SOLID_SHOPPING_BAG,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidShoppingCart,
+    HEROICONS_SOLID_SHOPPING_CART,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidSignalSlash,
+    HEROICONS_SOLID_SIGNAL_SLASH,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidSignal,
+    HEROICONS_SOLID_SIGNAL,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidSparkles,
+    HEROICONS_SOLID_SPARKLES,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidSpeakerWave,
+    HEROICONS_SOLID_SPEAKER_WAVE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidSpeakerXMark,
+    HEROICONS_SOLID_SPEAKER_X_MARK,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidSquare2Stack,
+    HEROICONS_SOLID_SQUARE_2_STACK,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidSquare3Stack3D,
+    HEROICONS_SOLID_SQUARE_3_STACK_3_D,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidSquares2X2,
+    HEROICONS_SOLID_SQUARES_2_X_2,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidSquaresPlus,
+    HEROICONS_SOLID_SQUARES_PLUS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidStar,
+    HEROICONS_SOLID_STAR,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidStopCircle,
+    HEROICONS_SOLID_STOP_CIRCLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidStop,
+    HEROICONS_SOLID_STOP,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidSun,
+    HEROICONS_SOLID_SUN,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidSwatch,
+    HEROICONS_SOLID_SWATCH,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidTableCells,
+    HEROICONS_SOLID_TABLE_CELLS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidTag,
+    HEROICONS_SOLID_TAG,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidTicket,
+    HEROICONS_SOLID_TICKET,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidTrash,
+    HEROICONS_SOLID_TRASH,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidTrophy,
+    HEROICONS_SOLID_TROPHY,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidTruck,
+    HEROICONS_SOLID_TRUCK,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidTv,
+    HEROICONS_SOLID_TV,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidUserCircle,
+    HEROICONS_SOLID_USER_CIRCLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidUserGroup,
+    HEROICONS_SOLID_USER_GROUP,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidUserMinus,
+    HEROICONS_SOLID_USER_MINUS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidUserPlus,
+    HEROICONS_SOLID_USER_PLUS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidUser,
+    HEROICONS_SOLID_USER,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidUsers,
+    HEROICONS_SOLID_USERS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidVariable,
+    HEROICONS_SOLID_VARIABLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidVideoCameraSlash,
+    HEROICONS_SOLID_VIDEO_CAMERA_SLASH,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidVideoCamera,
+    HEROICONS_SOLID_VIDEO_CAMERA,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidViewColumns,
+    HEROICONS_SOLID_VIEW_COLUMNS,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidViewfinderCircle,
+    HEROICONS_SOLID_VIEWFINDER_CIRCLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidWallet,
+    HEROICONS_SOLID_WALLET,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidWifi,
+    HEROICONS_SOLID_WIFI,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidWindow,
+    HEROICONS_SOLID_WINDOW,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidWrenchScrewdriver,
+    HEROICONS_SOLID_WRENCH_SCREWDRIVER,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidWrench,
+    HEROICONS_SOLID_WRENCH,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidXCircle,
+    HEROICONS_SOLID_X_CIRCLE,
     #[cfg(feature = "heroicons_solid")]
-    Self::HeroiconsSolidXMark,
+    HEROICONS_SOLID_X_MARK,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidAcademicCap,
+    HEROICONS_MINI_SOLID_ACADEMIC_CAP,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidAdjustmentsHorizontal,
+    HEROICONS_MINI_SOLID_ADJUSTMENTS_HORIZONTAL,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidAdjustmentsVertical,
+    HEROICONS_MINI_SOLID_ADJUSTMENTS_VERTICAL,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArchiveBoxArrowDown,
+    HEROICONS_MINI_SOLID_ARCHIVE_BOX_ARROW_DOWN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArchiveBoxXMark,
+    HEROICONS_MINI_SOLID_ARCHIVE_BOX_X_MARK,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArchiveBox,
+    HEROICONS_MINI_SOLID_ARCHIVE_BOX,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowDownCircle,
+    HEROICONS_MINI_SOLID_ARROW_DOWN_CIRCLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowDownLeft,
+    HEROICONS_MINI_SOLID_ARROW_DOWN_LEFT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowDownOnSquareStack,
+    HEROICONS_MINI_SOLID_ARROW_DOWN_ON_SQUARE_STACK,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowDownOnSquare,
+    HEROICONS_MINI_SOLID_ARROW_DOWN_ON_SQUARE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowDownRight,
+    HEROICONS_MINI_SOLID_ARROW_DOWN_RIGHT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowDownTray,
+    HEROICONS_MINI_SOLID_ARROW_DOWN_TRAY,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowDown,
+    HEROICONS_MINI_SOLID_ARROW_DOWN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowLeftCircle,
+    HEROICONS_MINI_SOLID_ARROW_LEFT_CIRCLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowLeftOnRectangle,
+    HEROICONS_MINI_SOLID_ARROW_LEFT_ON_RECTANGLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowLeft,
+    HEROICONS_MINI_SOLID_ARROW_LEFT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowLongDown,
+    HEROICONS_MINI_SOLID_ARROW_LONG_DOWN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowLongLeft,
+    HEROICONS_MINI_SOLID_ARROW_LONG_LEFT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowLongRight,
+    HEROICONS_MINI_SOLID_ARROW_LONG_RIGHT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowLongUp,
+    HEROICONS_MINI_SOLID_ARROW_LONG_UP,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowPathRoundedSquare,
+    HEROICONS_MINI_SOLID_ARROW_PATH_ROUNDED_SQUARE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowPath,
+    HEROICONS_MINI_SOLID_ARROW_PATH,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowRightCircle,
+    HEROICONS_MINI_SOLID_ARROW_RIGHT_CIRCLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowRightOnRectangle,
+    HEROICONS_MINI_SOLID_ARROW_RIGHT_ON_RECTANGLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowRight,
+    HEROICONS_MINI_SOLID_ARROW_RIGHT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowSmallDown,
+    HEROICONS_MINI_SOLID_ARROW_SMALL_DOWN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowSmallLeft,
+    HEROICONS_MINI_SOLID_ARROW_SMALL_LEFT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowSmallRight,
+    HEROICONS_MINI_SOLID_ARROW_SMALL_RIGHT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowSmallUp,
+    HEROICONS_MINI_SOLID_ARROW_SMALL_UP,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowTopRightOnSquare,
+    HEROICONS_MINI_SOLID_ARROW_TOP_RIGHT_ON_SQUARE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowTrendingDown,
+    HEROICONS_MINI_SOLID_ARROW_TRENDING_DOWN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowTrendingUp,
+    HEROICONS_MINI_SOLID_ARROW_TRENDING_UP,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowUpCircle,
+    HEROICONS_MINI_SOLID_ARROW_UP_CIRCLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowUpLeft,
+    HEROICONS_MINI_SOLID_ARROW_UP_LEFT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowUpOnSquareStack,
+    HEROICONS_MINI_SOLID_ARROW_UP_ON_SQUARE_STACK,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowUpOnSquare,
+    HEROICONS_MINI_SOLID_ARROW_UP_ON_SQUARE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowUpRight,
+    HEROICONS_MINI_SOLID_ARROW_UP_RIGHT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowUpTray,
+    HEROICONS_MINI_SOLID_ARROW_UP_TRAY,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowUp,
+    HEROICONS_MINI_SOLID_ARROW_UP,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowUturnDown,
+    HEROICONS_MINI_SOLID_ARROW_UTURN_DOWN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowUturnLeft,
+    HEROICONS_MINI_SOLID_ARROW_UTURN_LEFT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowUturnRight,
+    HEROICONS_MINI_SOLID_ARROW_UTURN_RIGHT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowUturnUp,
+    HEROICONS_MINI_SOLID_ARROW_UTURN_UP,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowsPointingIn,
+    HEROICONS_MINI_SOLID_ARROWS_POINTING_IN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowsPointingOut,
+    HEROICONS_MINI_SOLID_ARROWS_POINTING_OUT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowsRightLeft,
+    HEROICONS_MINI_SOLID_ARROWS_RIGHT_LEFT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidArrowsUpDown,
+    HEROICONS_MINI_SOLID_ARROWS_UP_DOWN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidAtSymbol,
+    HEROICONS_MINI_SOLID_AT_SYMBOL,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBackspace,
+    HEROICONS_MINI_SOLID_BACKSPACE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBackward,
+    HEROICONS_MINI_SOLID_BACKWARD,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBanknotes,
+    HEROICONS_MINI_SOLID_BANKNOTES,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBars2,
+    HEROICONS_MINI_SOLID_BARS_2,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBars3BottomLeft,
+    HEROICONS_MINI_SOLID_BARS_3_BOTTOM_LEFT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBars3BottomRight,
+    HEROICONS_MINI_SOLID_BARS_3_BOTTOM_RIGHT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBars3CenterLeft,
+    HEROICONS_MINI_SOLID_BARS_3_CENTER_LEFT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBars3,
+    HEROICONS_MINI_SOLID_BARS_3,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBars4,
+    HEROICONS_MINI_SOLID_BARS_4,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBarsArrowDown,
+    HEROICONS_MINI_SOLID_BARS_ARROW_DOWN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBarsArrowUp,
+    HEROICONS_MINI_SOLID_BARS_ARROW_UP,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBattery0,
+    HEROICONS_MINI_SOLID_BATTERY_0,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBattery100,
+    HEROICONS_MINI_SOLID_BATTERY_100,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBattery50,
+    HEROICONS_MINI_SOLID_BATTERY_50,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBeaker,
+    HEROICONS_MINI_SOLID_BEAKER,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBellAlert,
+    HEROICONS_MINI_SOLID_BELL_ALERT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBellSlash,
+    HEROICONS_MINI_SOLID_BELL_SLASH,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBellSnooze,
+    HEROICONS_MINI_SOLID_BELL_SNOOZE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBell,
+    HEROICONS_MINI_SOLID_BELL,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBoltSlash,
+    HEROICONS_MINI_SOLID_BOLT_SLASH,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBolt,
+    HEROICONS_MINI_SOLID_BOLT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBookOpen,
+    HEROICONS_MINI_SOLID_BOOK_OPEN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBookmarkSlash,
+    HEROICONS_MINI_SOLID_BOOKMARK_SLASH,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBookmarkSquare,
+    HEROICONS_MINI_SOLID_BOOKMARK_SQUARE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBookmark,
+    HEROICONS_MINI_SOLID_BOOKMARK,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBriefcase,
+    HEROICONS_MINI_SOLID_BRIEFCASE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBugAnt,
+    HEROICONS_MINI_SOLID_BUG_ANT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBuildingLibrary,
+    HEROICONS_MINI_SOLID_BUILDING_LIBRARY,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBuildingOffice2,
+    HEROICONS_MINI_SOLID_BUILDING_OFFICE_2,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBuildingOffice,
+    HEROICONS_MINI_SOLID_BUILDING_OFFICE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidBuildingStorefront,
+    HEROICONS_MINI_SOLID_BUILDING_STOREFRONT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCake,
+    HEROICONS_MINI_SOLID_CAKE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCalculator,
+    HEROICONS_MINI_SOLID_CALCULATOR,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCalendarDays,
+    HEROICONS_MINI_SOLID_CALENDAR_DAYS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCalendar,
+    HEROICONS_MINI_SOLID_CALENDAR,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCamera,
+    HEROICONS_MINI_SOLID_CAMERA,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidChartBarSquare,
+    HEROICONS_MINI_SOLID_CHART_BAR_SQUARE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidChartBar,
+    HEROICONS_MINI_SOLID_CHART_BAR,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidChartPie,
+    HEROICONS_MINI_SOLID_CHART_PIE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidChatBubbleBottomCenterText,
+    HEROICONS_MINI_SOLID_CHAT_BUBBLE_BOTTOM_CENTER_TEXT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidChatBubbleBottomCenter,
+    HEROICONS_MINI_SOLID_CHAT_BUBBLE_BOTTOM_CENTER,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidChatBubbleLeftEllipsis,
+    HEROICONS_MINI_SOLID_CHAT_BUBBLE_LEFT_ELLIPSIS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidChatBubbleLeftRight,
+    HEROICONS_MINI_SOLID_CHAT_BUBBLE_LEFT_RIGHT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidChatBubbleLeft,
+    HEROICONS_MINI_SOLID_CHAT_BUBBLE_LEFT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidChatBubbleOvalLeftEllipsis,
+    HEROICONS_MINI_SOLID_CHAT_BUBBLE_OVAL_LEFT_ELLIPSIS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidChatBubbleOvalLeft,
+    HEROICONS_MINI_SOLID_CHAT_BUBBLE_OVAL_LEFT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCheckBadge,
+    HEROICONS_MINI_SOLID_CHECK_BADGE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCheckCircle,
+    HEROICONS_MINI_SOLID_CHECK_CIRCLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCheck,
+    HEROICONS_MINI_SOLID_CHECK,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidChevronDoubleDown,
+    HEROICONS_MINI_SOLID_CHEVRON_DOUBLE_DOWN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidChevronDoubleLeft,
+    HEROICONS_MINI_SOLID_CHEVRON_DOUBLE_LEFT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidChevronDoubleRight,
+    HEROICONS_MINI_SOLID_CHEVRON_DOUBLE_RIGHT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidChevronDoubleUp,
+    HEROICONS_MINI_SOLID_CHEVRON_DOUBLE_UP,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidChevronDown,
+    HEROICONS_MINI_SOLID_CHEVRON_DOWN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidChevronLeft,
+    HEROICONS_MINI_SOLID_CHEVRON_LEFT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidChevronRight,
+    HEROICONS_MINI_SOLID_CHEVRON_RIGHT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidChevronUpDown,
+    HEROICONS_MINI_SOLID_CHEVRON_UP_DOWN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidChevronUp,
+    HEROICONS_MINI_SOLID_CHEVRON_UP,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCircleStack,
+    HEROICONS_MINI_SOLID_CIRCLE_STACK,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidClipboardDocumentCheck,
+    HEROICONS_MINI_SOLID_CLIPBOARD_DOCUMENT_CHECK,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidClipboardDocumentList,
+    HEROICONS_MINI_SOLID_CLIPBOARD_DOCUMENT_LIST,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidClipboardDocument,
+    HEROICONS_MINI_SOLID_CLIPBOARD_DOCUMENT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidClipboard,
+    HEROICONS_MINI_SOLID_CLIPBOARD,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidClock,
+    HEROICONS_MINI_SOLID_CLOCK,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCloudArrowDown,
+    HEROICONS_MINI_SOLID_CLOUD_ARROW_DOWN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCloudArrowUp,
+    HEROICONS_MINI_SOLID_CLOUD_ARROW_UP,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCloud,
+    HEROICONS_MINI_SOLID_CLOUD,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCodeBracketSquare,
+    HEROICONS_MINI_SOLID_CODE_BRACKET_SQUARE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCodeBracket,
+    HEROICONS_MINI_SOLID_CODE_BRACKET,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCog6Tooth,
+    HEROICONS_MINI_SOLID_COG_6_TOOTH,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCog8Tooth,
+    HEROICONS_MINI_SOLID_COG_8_TOOTH,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCog,
+    HEROICONS_MINI_SOLID_COG,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCommandLine,
+    HEROICONS_MINI_SOLID_COMMAND_LINE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidComputerDesktop,
+    HEROICONS_MINI_SOLID_COMPUTER_DESKTOP,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCpuChip,
+    HEROICONS_MINI_SOLID_CPU_CHIP,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCreditCard,
+    HEROICONS_MINI_SOLID_CREDIT_CARD,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCubeTransparent,
+    HEROICONS_MINI_SOLID_CUBE_TRANSPARENT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCube,
+    HEROICONS_MINI_SOLID_CUBE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCurrencyBangladeshi,
+    HEROICONS_MINI_SOLID_CURRENCY_BANGLADESHI,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCurrencyDollar,
+    HEROICONS_MINI_SOLID_CURRENCY_DOLLAR,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCurrencyEuro,
+    HEROICONS_MINI_SOLID_CURRENCY_EURO,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCurrencyPound,
+    HEROICONS_MINI_SOLID_CURRENCY_POUND,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCurrencyRupee,
+    HEROICONS_MINI_SOLID_CURRENCY_RUPEE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCurrencyYen,
+    HEROICONS_MINI_SOLID_CURRENCY_YEN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCursorArrowRays,
+    HEROICONS_MINI_SOLID_CURSOR_ARROW_RAYS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidCursorArrowRipple,
+    HEROICONS_MINI_SOLID_CURSOR_ARROW_RIPPLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidDevicePhoneMobile,
+    HEROICONS_MINI_SOLID_DEVICE_PHONE_MOBILE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidDeviceTablet,
+    HEROICONS_MINI_SOLID_DEVICE_TABLET,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidDocumentArrowDown,
+    HEROICONS_MINI_SOLID_DOCUMENT_ARROW_DOWN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidDocumentArrowUp,
+    HEROICONS_MINI_SOLID_DOCUMENT_ARROW_UP,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidDocumentChartBar,
+    HEROICONS_MINI_SOLID_DOCUMENT_CHART_BAR,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidDocumentCheck,
+    HEROICONS_MINI_SOLID_DOCUMENT_CHECK,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidDocumentDuplicate,
+    HEROICONS_MINI_SOLID_DOCUMENT_DUPLICATE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidDocumentMagnifyingGlass,
+    HEROICONS_MINI_SOLID_DOCUMENT_MAGNIFYING_GLASS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidDocumentMinus,
+    HEROICONS_MINI_SOLID_DOCUMENT_MINUS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidDocumentPlus,
+    HEROICONS_MINI_SOLID_DOCUMENT_PLUS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidDocumentText,
+    HEROICONS_MINI_SOLID_DOCUMENT_TEXT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidDocument,
+    HEROICONS_MINI_SOLID_DOCUMENT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidEllipsisHorizontalCircle,
+    HEROICONS_MINI_SOLID_ELLIPSIS_HORIZONTAL_CIRCLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidEllipsisHorizontal,
+    HEROICONS_MINI_SOLID_ELLIPSIS_HORIZONTAL,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidEllipsisVertical,
+    HEROICONS_MINI_SOLID_ELLIPSIS_VERTICAL,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidEnvelopeOpen,
+    HEROICONS_MINI_SOLID_ENVELOPE_OPEN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidEnvelope,
+    HEROICONS_MINI_SOLID_ENVELOPE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidExclamationCircle,
+    HEROICONS_MINI_SOLID_EXCLAMATION_CIRCLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidExclamationTriangle,
+    HEROICONS_MINI_SOLID_EXCLAMATION_TRIANGLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidEyeDropper,
+    HEROICONS_MINI_SOLID_EYE_DROPPER,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidEyeSlash,
+    HEROICONS_MINI_SOLID_EYE_SLASH,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidEye,
+    HEROICONS_MINI_SOLID_EYE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidFaceFrown,
+    HEROICONS_MINI_SOLID_FACE_FROWN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidFaceSmile,
+    HEROICONS_MINI_SOLID_FACE_SMILE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidFilm,
+    HEROICONS_MINI_SOLID_FILM,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidFingerPrint,
+    HEROICONS_MINI_SOLID_FINGER_PRINT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidFire,
+    HEROICONS_MINI_SOLID_FIRE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidFlag,
+    HEROICONS_MINI_SOLID_FLAG,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidFolderArrowDown,
+    HEROICONS_MINI_SOLID_FOLDER_ARROW_DOWN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidFolderMinus,
+    HEROICONS_MINI_SOLID_FOLDER_MINUS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidFolderOpen,
+    HEROICONS_MINI_SOLID_FOLDER_OPEN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidFolderPlus,
+    HEROICONS_MINI_SOLID_FOLDER_PLUS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidFolder,
+    HEROICONS_MINI_SOLID_FOLDER,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidForward,
+    HEROICONS_MINI_SOLID_FORWARD,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidFunnel,
+    HEROICONS_MINI_SOLID_FUNNEL,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidGif,
+    HEROICONS_MINI_SOLID_GIF,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidGiftTop,
+    HEROICONS_MINI_SOLID_GIFT_TOP,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidGift,
+    HEROICONS_MINI_SOLID_GIFT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidGlobeAlt,
+    HEROICONS_MINI_SOLID_GLOBE_ALT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidGlobeAmericas,
+    HEROICONS_MINI_SOLID_GLOBE_AMERICAS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidGlobeAsiaAustralia,
+    HEROICONS_MINI_SOLID_GLOBE_ASIA_AUSTRALIA,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidGlobeEuropeAfrica,
+    HEROICONS_MINI_SOLID_GLOBE_EUROPE_AFRICA,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidHandRaised,
+    HEROICONS_MINI_SOLID_HAND_RAISED,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidHandThumbDown,
+    HEROICONS_MINI_SOLID_HAND_THUMB_DOWN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidHandThumbUp,
+    HEROICONS_MINI_SOLID_HAND_THUMB_UP,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidHashtag,
+    HEROICONS_MINI_SOLID_HASHTAG,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidHeart,
+    HEROICONS_MINI_SOLID_HEART,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidHomeModern,
+    HEROICONS_MINI_SOLID_HOME_MODERN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidHome,
+    HEROICONS_MINI_SOLID_HOME,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidIdentification,
+    HEROICONS_MINI_SOLID_IDENTIFICATION,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidInboxArrowDown,
+    HEROICONS_MINI_SOLID_INBOX_ARROW_DOWN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidInboxStack,
+    HEROICONS_MINI_SOLID_INBOX_STACK,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidInbox,
+    HEROICONS_MINI_SOLID_INBOX,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidInformationCircle,
+    HEROICONS_MINI_SOLID_INFORMATION_CIRCLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidKey,
+    HEROICONS_MINI_SOLID_KEY,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidLanguage,
+    HEROICONS_MINI_SOLID_LANGUAGE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidLifebuoy,
+    HEROICONS_MINI_SOLID_LIFEBUOY,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidLightBulb,
+    HEROICONS_MINI_SOLID_LIGHT_BULB,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidLink,
+    HEROICONS_MINI_SOLID_LINK,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidListBullet,
+    HEROICONS_MINI_SOLID_LIST_BULLET,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidLockClosed,
+    HEROICONS_MINI_SOLID_LOCK_CLOSED,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidLockOpen,
+    HEROICONS_MINI_SOLID_LOCK_OPEN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidMagnifyingGlassCircle,
+    HEROICONS_MINI_SOLID_MAGNIFYING_GLASS_CIRCLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidMagnifyingGlassMinus,
+    HEROICONS_MINI_SOLID_MAGNIFYING_GLASS_MINUS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidMagnifyingGlassPlus,
+    HEROICONS_MINI_SOLID_MAGNIFYING_GLASS_PLUS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidMagnifyingGlass,
+    HEROICONS_MINI_SOLID_MAGNIFYING_GLASS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidMapPin,
+    HEROICONS_MINI_SOLID_MAP_PIN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidMap,
+    HEROICONS_MINI_SOLID_MAP,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidMegaphone,
+    HEROICONS_MINI_SOLID_MEGAPHONE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidMicrophone,
+    HEROICONS_MINI_SOLID_MICROPHONE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidMinusCircle,
+    HEROICONS_MINI_SOLID_MINUS_CIRCLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidMinusSmall,
+    HEROICONS_MINI_SOLID_MINUS_SMALL,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidMinus,
+    HEROICONS_MINI_SOLID_MINUS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidMoon,
+    HEROICONS_MINI_SOLID_MOON,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidMusicalNote,
+    HEROICONS_MINI_SOLID_MUSICAL_NOTE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidNewspaper,
+    HEROICONS_MINI_SOLID_NEWSPAPER,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidNoSymbol,
+    HEROICONS_MINI_SOLID_NO_SYMBOL,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPaintBrush,
+    HEROICONS_MINI_SOLID_PAINT_BRUSH,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPaperAirplane,
+    HEROICONS_MINI_SOLID_PAPER_AIRPLANE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPaperClip,
+    HEROICONS_MINI_SOLID_PAPER_CLIP,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPauseCircle,
+    HEROICONS_MINI_SOLID_PAUSE_CIRCLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPause,
+    HEROICONS_MINI_SOLID_PAUSE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPencilSquare,
+    HEROICONS_MINI_SOLID_PENCIL_SQUARE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPencil,
+    HEROICONS_MINI_SOLID_PENCIL,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPhoneArrowDownLeft,
+    HEROICONS_MINI_SOLID_PHONE_ARROW_DOWN_LEFT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPhoneArrowUpRight,
+    HEROICONS_MINI_SOLID_PHONE_ARROW_UP_RIGHT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPhoneXMark,
+    HEROICONS_MINI_SOLID_PHONE_X_MARK,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPhone,
+    HEROICONS_MINI_SOLID_PHONE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPhoto,
+    HEROICONS_MINI_SOLID_PHOTO,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPlayCircle,
+    HEROICONS_MINI_SOLID_PLAY_CIRCLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPlayPause,
+    HEROICONS_MINI_SOLID_PLAY_PAUSE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPlay,
+    HEROICONS_MINI_SOLID_PLAY,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPlusCircle,
+    HEROICONS_MINI_SOLID_PLUS_CIRCLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPlusSmall,
+    HEROICONS_MINI_SOLID_PLUS_SMALL,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPlus,
+    HEROICONS_MINI_SOLID_PLUS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPower,
+    HEROICONS_MINI_SOLID_POWER,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPresentationChartBar,
+    HEROICONS_MINI_SOLID_PRESENTATION_CHART_BAR,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPresentationChartLine,
+    HEROICONS_MINI_SOLID_PRESENTATION_CHART_LINE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPrinter,
+    HEROICONS_MINI_SOLID_PRINTER,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidPuzzlePiece,
+    HEROICONS_MINI_SOLID_PUZZLE_PIECE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidQrCode,
+    HEROICONS_MINI_SOLID_QR_CODE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidQuestionMarkCircle,
+    HEROICONS_MINI_SOLID_QUESTION_MARK_CIRCLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidQueueList,
+    HEROICONS_MINI_SOLID_QUEUE_LIST,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidRadio,
+    HEROICONS_MINI_SOLID_RADIO,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidReceiptPercent,
+    HEROICONS_MINI_SOLID_RECEIPT_PERCENT,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidReceiptRefund,
+    HEROICONS_MINI_SOLID_RECEIPT_REFUND,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidRectangleGroup,
+    HEROICONS_MINI_SOLID_RECTANGLE_GROUP,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidRectangleStack,
+    HEROICONS_MINI_SOLID_RECTANGLE_STACK,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidRocketLaunch,
+    HEROICONS_MINI_SOLID_ROCKET_LAUNCH,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidRss,
+    HEROICONS_MINI_SOLID_RSS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidScale,
+    HEROICONS_MINI_SOLID_SCALE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidScissors,
+    HEROICONS_MINI_SOLID_SCISSORS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidServerStack,
+    HEROICONS_MINI_SOLID_SERVER_STACK,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidServer,
+    HEROICONS_MINI_SOLID_SERVER,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidShare,
+    HEROICONS_MINI_SOLID_SHARE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidShieldCheck,
+    HEROICONS_MINI_SOLID_SHIELD_CHECK,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidShieldExclamation,
+    HEROICONS_MINI_SOLID_SHIELD_EXCLAMATION,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidShoppingBag,
+    HEROICONS_MINI_SOLID_SHOPPING_BAG,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidShoppingCart,
+    HEROICONS_MINI_SOLID_SHOPPING_CART,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidSignalSlash,
+    HEROICONS_MINI_SOLID_SIGNAL_SLASH,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidSignal,
+    HEROICONS_MINI_SOLID_SIGNAL,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidSparkles,
+    HEROICONS_MINI_SOLID_SPARKLES,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidSpeakerWave,
+    HEROICONS_MINI_SOLID_SPEAKER_WAVE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidSpeakerXMark,
+    HEROICONS_MINI_SOLID_SPEAKER_X_MARK,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidSquare2Stack,
+    HEROICONS_MINI_SOLID_SQUARE_2_STACK,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidSquare3Stack3D,
+    HEROICONS_MINI_SOLID_SQUARE_3_STACK_3_D,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidSquares2X2,
+    HEROICONS_MINI_SOLID_SQUARES_2_X_2,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidSquaresPlus,
+    HEROICONS_MINI_SOLID_SQUARES_PLUS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidStar,
+    HEROICONS_MINI_SOLID_STAR,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidStopCircle,
+    HEROICONS_MINI_SOLID_STOP_CIRCLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidStop,
+    HEROICONS_MINI_SOLID_STOP,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidSun,
+    HEROICONS_MINI_SOLID_SUN,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidSwatch,
+    HEROICONS_MINI_SOLID_SWATCH,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidTableCells,
+    HEROICONS_MINI_SOLID_TABLE_CELLS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidTag,
+    HEROICONS_MINI_SOLID_TAG,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidTicket,
+    HEROICONS_MINI_SOLID_TICKET,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidTrash,
+    HEROICONS_MINI_SOLID_TRASH,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidTrophy,
+    HEROICONS_MINI_SOLID_TROPHY,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidTruck,
+    HEROICONS_MINI_SOLID_TRUCK,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidTv,
+    HEROICONS_MINI_SOLID_TV,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidUserCircle,
+    HEROICONS_MINI_SOLID_USER_CIRCLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidUserGroup,
+    HEROICONS_MINI_SOLID_USER_GROUP,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidUserMinus,
+    HEROICONS_MINI_SOLID_USER_MINUS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidUserPlus,
+    HEROICONS_MINI_SOLID_USER_PLUS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidUser,
+    HEROICONS_MINI_SOLID_USER,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidUsers,
+    HEROICONS_MINI_SOLID_USERS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidVariable,
+    HEROICONS_MINI_SOLID_VARIABLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidVideoCameraSlash,
+    HEROICONS_MINI_SOLID_VIDEO_CAMERA_SLASH,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidVideoCamera,
+    HEROICONS_MINI_SOLID_VIDEO_CAMERA,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidViewColumns,
+    HEROICONS_MINI_SOLID_VIEW_COLUMNS,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidViewfinderCircle,
+    HEROICONS_MINI_SOLID_VIEWFINDER_CIRCLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidWallet,
+    HEROICONS_MINI_SOLID_WALLET,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidWifi,
+    HEROICONS_MINI_SOLID_WIFI,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidWindow,
+    HEROICONS_MINI_SOLID_WINDOW,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidWrenchScrewdriver,
+    HEROICONS_MINI_SOLID_WRENCH_SCREWDRIVER,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidWrench,
+    HEROICONS_MINI_SOLID_WRENCH,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidXCircle,
+    HEROICONS_MINI_SOLID_X_CIRCLE,
     #[cfg(feature = "heroicons_mini_solid")]
-    Self::HeroiconsMiniSolidXMark,
+    HEROICONS_MINI_SOLID_X_MARK,
     #[cfg(feature = "lucide")]
-    Self::LucideAccessibility,
+    LUCIDE_ACCESSIBILITY,
     #[cfg(feature = "lucide")]
-    Self::LucideActivity,
+    LUCIDE_ACTIVITY,
     #[cfg(feature = "lucide")]
-    Self::LucideAirVent,
+    LUCIDE_AIR_VENT,
     #[cfg(feature = "lucide")]
-    Self::LucideAirplay,
+    LUCIDE_AIRPLAY,
     #[cfg(feature = "lucide")]
-    Self::LucideAlarmCheck,
+    LUCIDE_ALARM_CHECK,
     #[cfg(feature = "lucide")]
-    Self::LucideAlarmClockOff,
+    LUCIDE_ALARM_CLOCK_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideAlarmClock,
+    LUCIDE_ALARM_CLOCK,
     #[cfg(feature = "lucide")]
-    Self::LucideAlarmMinus,
+    LUCIDE_ALARM_MINUS,
     #[cfg(feature = "lucide")]
-    Self::LucideAlarmPlus,
+    LUCIDE_ALARM_PLUS,
     #[cfg(feature = "lucide")]
-    Self::LucideAlbum,
+    LUCIDE_ALBUM,
     #[cfg(feature = "lucide")]
-    Self::LucideAlertCircle,
+    LUCIDE_ALERT_CIRCLE,
     #[cfg(feature = "lucide")]
-    Self::LucideAlertOctagon,
+    LUCIDE_ALERT_OCTAGON,
     #[cfg(feature = "lucide")]
-    Self::LucideAlertTriangle,
+    LUCIDE_ALERT_TRIANGLE,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignCenterHorizontal,
+    LUCIDE_ALIGN_CENTER_HORIZONTAL,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignCenterVertical,
+    LUCIDE_ALIGN_CENTER_VERTICAL,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignCenter,
+    LUCIDE_ALIGN_CENTER,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignEndHorizontal,
+    LUCIDE_ALIGN_END_HORIZONTAL,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignEndVertical,
+    LUCIDE_ALIGN_END_VERTICAL,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignHorizontalDistributeCenter,
+    LUCIDE_ALIGN_HORIZONTAL_DISTRIBUTE_CENTER,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignHorizontalDistributeEnd,
+    LUCIDE_ALIGN_HORIZONTAL_DISTRIBUTE_END,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignHorizontalDistributeStart,
+    LUCIDE_ALIGN_HORIZONTAL_DISTRIBUTE_START,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignHorizontalJustifyCenter,
+    LUCIDE_ALIGN_HORIZONTAL_JUSTIFY_CENTER,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignHorizontalJustifyEnd,
+    LUCIDE_ALIGN_HORIZONTAL_JUSTIFY_END,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignHorizontalJustifyStart,
+    LUCIDE_ALIGN_HORIZONTAL_JUSTIFY_START,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignHorizontalSpaceAround,
+    LUCIDE_ALIGN_HORIZONTAL_SPACE_AROUND,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignHorizontalSpaceBetween,
+    LUCIDE_ALIGN_HORIZONTAL_SPACE_BETWEEN,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignJustify,
+    LUCIDE_ALIGN_JUSTIFY,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignLeft,
+    LUCIDE_ALIGN_LEFT,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignRight,
+    LUCIDE_ALIGN_RIGHT,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignStartHorizontal,
+    LUCIDE_ALIGN_START_HORIZONTAL,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignStartVertical,
+    LUCIDE_ALIGN_START_VERTICAL,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignVerticalDistributeCenter,
+    LUCIDE_ALIGN_VERTICAL_DISTRIBUTE_CENTER,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignVerticalDistributeEnd,
+    LUCIDE_ALIGN_VERTICAL_DISTRIBUTE_END,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignVerticalDistributeStart,
+    LUCIDE_ALIGN_VERTICAL_DISTRIBUTE_START,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignVerticalJustifyCenter,
+    LUCIDE_ALIGN_VERTICAL_JUSTIFY_CENTER,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignVerticalJustifyEnd,
+    LUCIDE_ALIGN_VERTICAL_JUSTIFY_END,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignVerticalJustifyStart,
+    LUCIDE_ALIGN_VERTICAL_JUSTIFY_START,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignVerticalSpaceAround,
+    LUCIDE_ALIGN_VERTICAL_SPACE_AROUND,
     #[cfg(feature = "lucide")]
-    Self::LucideAlignVerticalSpaceBetween,
+    LUCIDE_ALIGN_VERTICAL_SPACE_BETWEEN,
     #[cfg(feature = "lucide")]
-    Self::LucideAnchor,
+    LUCIDE_ANCHOR,
     #[cfg(feature = "lucide")]
-    Self::LucideAngry,
+    LUCIDE_ANGRY,
     #[cfg(feature = "lucide")]
-    Self::LucideAnnoyed,
+    LUCIDE_ANNOYED,
     #[cfg(feature = "lucide")]
-    Self::LucideAperture,
+    LUCIDE_APERTURE,
     #[cfg(feature = "lucide")]
-    Self::LucideApple,
+    LUCIDE_APPLE,
     #[cfg(feature = "lucide")]
-    Self::LucideArchiveRestore,
+    LUCIDE_ARCHIVE_RESTORE,
     #[cfg(feature = "lucide")]
-    Self::LucideArchive,
+    LUCIDE_ARCHIVE,
     #[cfg(feature = "lucide")]
-    Self::LucideArmchair,
+    LUCIDE_ARMCHAIR,
     #[cfg(feature = "lucide")]
-    Self::LucideArrowBigDown,
+    LUCIDE_ARROW_BIG_DOWN,
     #[cfg(feature = "lucide")]
-    Self::LucideArrowBigLeft,
+    LUCIDE_ARROW_BIG_LEFT,
     #[cfg(feature = "lucide")]
-    Self::LucideArrowBigRight,
+    LUCIDE_ARROW_BIG_RIGHT,
     #[cfg(feature = "lucide")]
-    Self::LucideArrowBigUp,
+    LUCIDE_ARROW_BIG_UP,
     #[cfg(feature = "lucide")]
-    Self::LucideArrowDownCircle,
+    LUCIDE_ARROW_DOWN_CIRCLE,
     #[cfg(feature = "lucide")]
-    Self::LucideArrowDownLeft,
+    LUCIDE_ARROW_DOWN_LEFT,
     #[cfg(feature = "lucide")]
-    Self::LucideArrowDownRight,
+    LUCIDE_ARROW_DOWN_RIGHT,
     #[cfg(feature = "lucide")]
-    Self::LucideArrowDown,
+    LUCIDE_ARROW_DOWN,
     #[cfg(feature = "lucide")]
-    Self::LucideArrowLeftCircle,
+    LUCIDE_ARROW_LEFT_CIRCLE,
     #[cfg(feature = "lucide")]
-    Self::LucideArrowLeftRight,
+    LUCIDE_ARROW_LEFT_RIGHT,
     #[cfg(feature = "lucide")]
-    Self::LucideArrowLeft,
+    LUCIDE_ARROW_LEFT,
     #[cfg(feature = "lucide")]
-    Self::LucideArrowRightCircle,
+    LUCIDE_ARROW_RIGHT_CIRCLE,
     #[cfg(feature = "lucide")]
-    Self::LucideArrowRight,
+    LUCIDE_ARROW_RIGHT,
     #[cfg(feature = "lucide")]
-    Self::LucideArrowUpCircle,
+    LUCIDE_ARROW_UP_CIRCLE,
     #[cfg(feature = "lucide")]
-    Self::LucideArrowUpDown,
+    LUCIDE_ARROW_UP_DOWN,
     #[cfg(feature = "lucide")]
-    Self::LucideArrowUpLeft,
+    LUCIDE_ARROW_UP_LEFT,
     #[cfg(feature = "lucide")]
-    Self::LucideArrowUpRight,
+    LUCIDE_ARROW_UP_RIGHT,
     #[cfg(feature = "lucide")]
-    Self::LucideArrowUp,
+    LUCIDE_ARROW_UP,
     #[cfg(feature = "lucide")]
-    Self::LucideAsterisk,
+    LUCIDE_ASTERISK,
     #[cfg(feature = "lucide")]
-    Self::LucideAtSign,
+    LUCIDE_AT_SIGN,
     #[cfg(feature = "lucide")]
-    Self::LucideAward,
+    LUCIDE_AWARD,
     #[cfg(feature = "lucide")]
-    Self::LucideAxe,
+    LUCIDE_AXE,
     #[cfg(feature = "lucide")]
-    Self::LucideAxis3D,
+    LUCIDE_AXIS_3_D,
     #[cfg(feature = "lucide")]
-    Self::LucideBaby,
+    LUCIDE_BABY,
     #[cfg(feature = "lucide")]
-    Self::LucideBackpack,
+    LUCIDE_BACKPACK,
     #[cfg(feature = "lucide")]
-    Self::LucideBaggageClaim,
+    LUCIDE_BAGGAGE_CLAIM,
     #[cfg(feature = "lucide")]
-    Self::LucideBanana,
+    LUCIDE_BANANA,
     #[cfg(feature = "lucide")]
-    Self::LucideBanknote,
+    LUCIDE_BANKNOTE,
     #[cfg(feature = "lucide")]
-    Self::LucideBarChart2,
+    LUCIDE_BAR_CHART_2,
     #[cfg(feature = "lucide")]
-    Self::LucideBarChart3,
+    LUCIDE_BAR_CHART_3,
     #[cfg(feature = "lucide")]
-    Self::LucideBarChart4,
+    LUCIDE_BAR_CHART_4,
     #[cfg(feature = "lucide")]
-    Self::LucideBarChartHorizontal,
+    LUCIDE_BAR_CHART_HORIZONTAL,
     #[cfg(feature = "lucide")]
-    Self::LucideBarChart,
+    LUCIDE_BAR_CHART,
     #[cfg(feature = "lucide")]
-    Self::LucideBaseline,
+    LUCIDE_BASELINE,
     #[cfg(feature = "lucide")]
-    Self::LucideBath,
+    LUCIDE_BATH,
     #[cfg(feature = "lucide")]
-    Self::LucideBatteryCharging,
+    LUCIDE_BATTERY_CHARGING,
     #[cfg(feature = "lucide")]
-    Self::LucideBatteryFull,
+    LUCIDE_BATTERY_FULL,
     #[cfg(feature = "lucide")]
-    Self::LucideBatteryLow,
+    LUCIDE_BATTERY_LOW,
     #[cfg(feature = "lucide")]
-    Self::LucideBatteryMedium,
+    LUCIDE_BATTERY_MEDIUM,
     #[cfg(feature = "lucide")]
-    Self::LucideBattery,
+    LUCIDE_BATTERY,
     #[cfg(feature = "lucide")]
-    Self::LucideBeaker,
+    LUCIDE_BEAKER,
     #[cfg(feature = "lucide")]
-    Self::LucideBedDouble,
+    LUCIDE_BED_DOUBLE,
     #[cfg(feature = "lucide")]
-    Self::LucideBedSingle,
+    LUCIDE_BED_SINGLE,
     #[cfg(feature = "lucide")]
-    Self::LucideBed,
+    LUCIDE_BED,
     #[cfg(feature = "lucide")]
-    Self::LucideBeer,
+    LUCIDE_BEER,
     #[cfg(feature = "lucide")]
-    Self::LucideBellMinus,
+    LUCIDE_BELL_MINUS,
     #[cfg(feature = "lucide")]
-    Self::LucideBellOff,
+    LUCIDE_BELL_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideBellPlus,
+    LUCIDE_BELL_PLUS,
     #[cfg(feature = "lucide")]
-    Self::LucideBellRing,
+    LUCIDE_BELL_RING,
     #[cfg(feature = "lucide")]
-    Self::LucideBell,
+    LUCIDE_BELL,
     #[cfg(feature = "lucide")]
-    Self::LucideBike,
+    LUCIDE_BIKE,
     #[cfg(feature = "lucide")]
-    Self::LucideBinary,
+    LUCIDE_BINARY,
     #[cfg(feature = "lucide")]
-    Self::LucideBitcoin,
+    LUCIDE_BITCOIN,
     #[cfg(feature = "lucide")]
-    Self::LucideBluetoothConnected,
+    LUCIDE_BLUETOOTH_CONNECTED,
     #[cfg(feature = "lucide")]
-    Self::LucideBluetoothOff,
+    LUCIDE_BLUETOOTH_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideBluetoothSearching,
+    LUCIDE_BLUETOOTH_SEARCHING,
     #[cfg(feature = "lucide")]
-    Self::LucideBluetooth,
+    LUCIDE_BLUETOOTH,
     #[cfg(feature = "lucide")]
-    Self::LucideBold,
+    LUCIDE_BOLD,
     #[cfg(feature = "lucide")]
-    Self::LucideBomb,
+    LUCIDE_BOMB,
     #[cfg(feature = "lucide")]
-    Self::LucideBone,
+    LUCIDE_BONE,
     #[cfg(feature = "lucide")]
-    Self::LucideBookOpenCheck,
+    LUCIDE_BOOK_OPEN_CHECK,
     #[cfg(feature = "lucide")]
-    Self::LucideBookOpen,
+    LUCIDE_BOOK_OPEN,
     #[cfg(feature = "lucide")]
-    Self::LucideBook,
+    LUCIDE_BOOK,
     #[cfg(feature = "lucide")]
-    Self::LucideBookmarkMinus,
+    LUCIDE_BOOKMARK_MINUS,
     #[cfg(feature = "lucide")]
-    Self::LucideBookmarkPlus,
+    LUCIDE_BOOKMARK_PLUS,
     #[cfg(feature = "lucide")]
-    Self::LucideBookmark,
+    LUCIDE_BOOKMARK,
     #[cfg(feature = "lucide")]
-    Self::LucideBot,
+    LUCIDE_BOT,
     #[cfg(feature = "lucide")]
-    Self::LucideBoxSelect,
+    LUCIDE_BOX_SELECT,
     #[cfg(feature = "lucide")]
-    Self::LucideBox,
+    LUCIDE_BOX,
     #[cfg(feature = "lucide")]
-    Self::LucideBoxes,
+    LUCIDE_BOXES,
     #[cfg(feature = "lucide")]
-    Self::LucideBriefcase,
+    LUCIDE_BRIEFCASE,
     #[cfg(feature = "lucide")]
-    Self::LucideBrush,
+    LUCIDE_BRUSH,
     #[cfg(feature = "lucide")]
-    Self::LucideBug,
+    LUCIDE_BUG,
     #[cfg(feature = "lucide")]
-    Self::LucideBuilding2,
+    LUCIDE_BUILDING_2,
     #[cfg(feature = "lucide")]
-    Self::LucideBuilding,
+    LUCIDE_BUILDING,
     #[cfg(feature = "lucide")]
-    Self::LucideBus,
+    LUCIDE_BUS,
     #[cfg(feature = "lucide")]
-    Self::LucideCake,
+    LUCIDE_CAKE,
     #[cfg(feature = "lucide")]
-    Self::LucideCalculator,
+    LUCIDE_CALCULATOR,
     #[cfg(feature = "lucide")]
-    Self::LucideCalendarCheck2,
+    LUCIDE_CALENDAR_CHECK_2,
     #[cfg(feature = "lucide")]
-    Self::LucideCalendarCheck,
+    LUCIDE_CALENDAR_CHECK,
     #[cfg(feature = "lucide")]
-    Self::LucideCalendarClock,
+    LUCIDE_CALENDAR_CLOCK,
     #[cfg(feature = "lucide")]
-    Self::LucideCalendarDays,
+    LUCIDE_CALENDAR_DAYS,
     #[cfg(feature = "lucide")]
-    Self::LucideCalendarHeart,
+    LUCIDE_CALENDAR_HEART,
     #[cfg(feature = "lucide")]
-    Self::LucideCalendarMinus,
+    LUCIDE_CALENDAR_MINUS,
     #[cfg(feature = "lucide")]
-    Self::LucideCalendarOff,
+    LUCIDE_CALENDAR_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideCalendarPlus,
+    LUCIDE_CALENDAR_PLUS,
     #[cfg(feature = "lucide")]
-    Self::LucideCalendarRange,
+    LUCIDE_CALENDAR_RANGE,
     #[cfg(feature = "lucide")]
-    Self::LucideCalendarSearch,
+    LUCIDE_CALENDAR_SEARCH,
     #[cfg(feature = "lucide")]
-    Self::LucideCalendarX2,
+    LUCIDE_CALENDAR_X_2,
     #[cfg(feature = "lucide")]
-    Self::LucideCalendarX,
+    LUCIDE_CALENDAR_X,
     #[cfg(feature = "lucide")]
-    Self::LucideCalendar,
+    LUCIDE_CALENDAR,
     #[cfg(feature = "lucide")]
-    Self::LucideCameraOff,
+    LUCIDE_CAMERA_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideCamera,
+    LUCIDE_CAMERA,
     #[cfg(feature = "lucide")]
-    Self::LucideCar,
+    LUCIDE_CAR,
     #[cfg(feature = "lucide")]
-    Self::LucideCarrot,
+    LUCIDE_CARROT,
     #[cfg(feature = "lucide")]
-    Self::LucideCast,
+    LUCIDE_CAST,
     #[cfg(feature = "lucide")]
-    Self::LucideCheckCircle2,
+    LUCIDE_CHECK_CIRCLE_2,
     #[cfg(feature = "lucide")]
-    Self::LucideCheckCircle,
+    LUCIDE_CHECK_CIRCLE,
     #[cfg(feature = "lucide")]
-    Self::LucideCheckSquare,
+    LUCIDE_CHECK_SQUARE,
     #[cfg(feature = "lucide")]
-    Self::LucideCheck,
+    LUCIDE_CHECK,
     #[cfg(feature = "lucide")]
-    Self::LucideChefHat,
+    LUCIDE_CHEF_HAT,
     #[cfg(feature = "lucide")]
-    Self::LucideCherry,
+    LUCIDE_CHERRY,
     #[cfg(feature = "lucide")]
-    Self::LucideChevronDown,
+    LUCIDE_CHEVRON_DOWN,
     #[cfg(feature = "lucide")]
-    Self::LucideChevronFirst,
+    LUCIDE_CHEVRON_FIRST,
     #[cfg(feature = "lucide")]
-    Self::LucideChevronLast,
+    LUCIDE_CHEVRON_LAST,
     #[cfg(feature = "lucide")]
-    Self::LucideChevronLeft,
+    LUCIDE_CHEVRON_LEFT,
     #[cfg(feature = "lucide")]
-    Self::LucideChevronRight,
+    LUCIDE_CHEVRON_RIGHT,
     #[cfg(feature = "lucide")]
-    Self::LucideChevronUp,
+    LUCIDE_CHEVRON_UP,
     #[cfg(feature = "lucide")]
-    Self::LucideChevronsDownUp,
+    LUCIDE_CHEVRONS_DOWN_UP,
     #[cfg(feature = "lucide")]
-    Self::LucideChevronsDown,
+    LUCIDE_CHEVRONS_DOWN,
     #[cfg(feature = "lucide")]
-    Self::LucideChevronsLeftRight,
+    LUCIDE_CHEVRONS_LEFT_RIGHT,
     #[cfg(feature = "lucide")]
-    Self::LucideChevronsLeft,
+    LUCIDE_CHEVRONS_LEFT,
     #[cfg(feature = "lucide")]
-    Self::LucideChevronsRightLeft,
+    LUCIDE_CHEVRONS_RIGHT_LEFT,
     #[cfg(feature = "lucide")]
-    Self::LucideChevronsRight,
+    LUCIDE_CHEVRONS_RIGHT,
     #[cfg(feature = "lucide")]
-    Self::LucideChevronsUpDown,
+    LUCIDE_CHEVRONS_UP_DOWN,
     #[cfg(feature = "lucide")]
-    Self::LucideChevronsUp,
+    LUCIDE_CHEVRONS_UP,
     #[cfg(feature = "lucide")]
-    Self::LucideChrome,
+    LUCIDE_CHROME,
     #[cfg(feature = "lucide")]
-    Self::LucideCigaretteOff,
+    LUCIDE_CIGARETTE_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideCigarette,
+    LUCIDE_CIGARETTE,
     #[cfg(feature = "lucide")]
-    Self::LucideCircleDot,
+    LUCIDE_CIRCLE_DOT,
     #[cfg(feature = "lucide")]
-    Self::LucideCircleEllipsis,
+    LUCIDE_CIRCLE_ELLIPSIS,
     #[cfg(feature = "lucide")]
-    Self::LucideCircleSlashed,
+    LUCIDE_CIRCLE_SLASHED,
     #[cfg(feature = "lucide")]
-    Self::LucideCircle,
+    LUCIDE_CIRCLE,
     #[cfg(feature = "lucide")]
-    Self::LucideCitrus,
+    LUCIDE_CITRUS,
     #[cfg(feature = "lucide")]
-    Self::LucideClapperboard,
+    LUCIDE_CLAPPERBOARD,
     #[cfg(feature = "lucide")]
-    Self::LucideClipboardCheck,
+    LUCIDE_CLIPBOARD_CHECK,
     #[cfg(feature = "lucide")]
-    Self::LucideClipboardCopy,
+    LUCIDE_CLIPBOARD_COPY,
     #[cfg(feature = "lucide")]
-    Self::LucideClipboardEdit,
+    LUCIDE_CLIPBOARD_EDIT,
     #[cfg(feature = "lucide")]
-    Self::LucideClipboardList,
+    LUCIDE_CLIPBOARD_LIST,
     #[cfg(feature = "lucide")]
-    Self::LucideClipboardSignature,
+    LUCIDE_CLIPBOARD_SIGNATURE,
     #[cfg(feature = "lucide")]
-    Self::LucideClipboardType,
+    LUCIDE_CLIPBOARD_TYPE,
     #[cfg(feature = "lucide")]
-    Self::LucideClipboardX,
+    LUCIDE_CLIPBOARD_X,
     #[cfg(feature = "lucide")]
-    Self::LucideClipboard,
+    LUCIDE_CLIPBOARD,
     #[cfg(feature = "lucide")]
-    Self::LucideClock1,
+    LUCIDE_CLOCK_1,
     #[cfg(feature = "lucide")]
-    Self::LucideClock10,
+    LUCIDE_CLOCK_10,
     #[cfg(feature = "lucide")]
-    Self::LucideClock11,
+    LUCIDE_CLOCK_11,
     #[cfg(feature = "lucide")]
-    Self::LucideClock12,
+    LUCIDE_CLOCK_12,
     #[cfg(feature = "lucide")]
-    Self::LucideClock2,
+    LUCIDE_CLOCK_2,
     #[cfg(feature = "lucide")]
-    Self::LucideClock3,
+    LUCIDE_CLOCK_3,
     #[cfg(feature = "lucide")]
-    Self::LucideClock4,
+    LUCIDE_CLOCK_4,
     #[cfg(feature = "lucide")]
-    Self::LucideClock5,
+    LUCIDE_CLOCK_5,
     #[cfg(feature = "lucide")]
-    Self::LucideClock6,
+    LUCIDE_CLOCK_6,
     #[cfg(feature = "lucide")]
-    Self::LucideClock7,
+    LUCIDE_CLOCK_7,
     #[cfg(feature = "lucide")]
-    Self::LucideClock8,
+    LUCIDE_CLOCK_8,
     #[cfg(feature = "lucide")]
-    Self::LucideClock9,
+    LUCIDE_CLOCK_9,
     #[cfg(feature = "lucide")]
-    Self::LucideClock,
+    LUCIDE_CLOCK,
     #[cfg(feature = "lucide")]
-    Self::LucideCloudCog,
+    LUCIDE_CLOUD_COG,
     #[cfg(feature = "lucide")]
-    Self::LucideCloudDrizzle,
+    LUCIDE_CLOUD_DRIZZLE,
     #[cfg(feature = "lucide")]
-    Self::LucideCloudFog,
+    LUCIDE_CLOUD_FOG,
     #[cfg(feature = "lucide")]
-    Self::LucideCloudHail,
+    LUCIDE_CLOUD_HAIL,
     #[cfg(feature = "lucide")]
-    Self::LucideCloudLightning,
+    LUCIDE_CLOUD_LIGHTNING,
     #[cfg(feature = "lucide")]
-    Self::LucideCloudMoonRain,
+    LUCIDE_CLOUD_MOON_RAIN,
     #[cfg(feature = "lucide")]
-    Self::LucideCloudMoon,
+    LUCIDE_CLOUD_MOON,
     #[cfg(feature = "lucide")]
-    Self::LucideCloudOff,
+    LUCIDE_CLOUD_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideCloudRainWind,
+    LUCIDE_CLOUD_RAIN_WIND,
     #[cfg(feature = "lucide")]
-    Self::LucideCloudRain,
+    LUCIDE_CLOUD_RAIN,
     #[cfg(feature = "lucide")]
-    Self::LucideCloudSnow,
+    LUCIDE_CLOUD_SNOW,
     #[cfg(feature = "lucide")]
-    Self::LucideCloudSunRain,
+    LUCIDE_CLOUD_SUN_RAIN,
     #[cfg(feature = "lucide")]
-    Self::LucideCloudSun,
+    LUCIDE_CLOUD_SUN,
     #[cfg(feature = "lucide")]
-    Self::LucideCloud,
+    LUCIDE_CLOUD,
     #[cfg(feature = "lucide")]
-    Self::LucideCloudy,
+    LUCIDE_CLOUDY,
     #[cfg(feature = "lucide")]
-    Self::LucideClover,
+    LUCIDE_CLOVER,
     #[cfg(feature = "lucide")]
-    Self::LucideCode2,
+    LUCIDE_CODE_2,
     #[cfg(feature = "lucide")]
-    Self::LucideCode,
+    LUCIDE_CODE,
     #[cfg(feature = "lucide")]
-    Self::LucideCodepen,
+    LUCIDE_CODEPEN,
     #[cfg(feature = "lucide")]
-    Self::LucideCodesandbox,
+    LUCIDE_CODESANDBOX,
     #[cfg(feature = "lucide")]
-    Self::LucideCoffee,
+    LUCIDE_COFFEE,
     #[cfg(feature = "lucide")]
-    Self::LucideCog,
+    LUCIDE_COG,
     #[cfg(feature = "lucide")]
-    Self::LucideCoins,
+    LUCIDE_COINS,
     #[cfg(feature = "lucide")]
-    Self::LucideColumns,
+    LUCIDE_COLUMNS,
     #[cfg(feature = "lucide")]
-    Self::LucideCommand,
+    LUCIDE_COMMAND,
     #[cfg(feature = "lucide")]
-    Self::LucideCompass,
+    LUCIDE_COMPASS,
     #[cfg(feature = "lucide")]
-    Self::LucideComponent,
+    LUCIDE_COMPONENT,
     #[cfg(feature = "lucide")]
-    Self::LucideConciergeBell,
+    LUCIDE_CONCIERGE_BELL,
     #[cfg(feature = "lucide")]
-    Self::LucideContact,
+    LUCIDE_CONTACT,
     #[cfg(feature = "lucide")]
-    Self::LucideContrast,
+    LUCIDE_CONTRAST,
     #[cfg(feature = "lucide")]
-    Self::LucideCookie,
+    LUCIDE_COOKIE,
     #[cfg(feature = "lucide")]
-    Self::LucideCopy,
+    LUCIDE_COPY,
     #[cfg(feature = "lucide")]
-    Self::LucideCopyleft,
+    LUCIDE_COPYLEFT,
     #[cfg(feature = "lucide")]
-    Self::LucideCopyright,
+    LUCIDE_COPYRIGHT,
     #[cfg(feature = "lucide")]
-    Self::LucideCornerDownLeft,
+    LUCIDE_CORNER_DOWN_LEFT,
     #[cfg(feature = "lucide")]
-    Self::LucideCornerDownRight,
+    LUCIDE_CORNER_DOWN_RIGHT,
     #[cfg(feature = "lucide")]
-    Self::LucideCornerLeftDown,
+    LUCIDE_CORNER_LEFT_DOWN,
     #[cfg(feature = "lucide")]
-    Self::LucideCornerLeftUp,
+    LUCIDE_CORNER_LEFT_UP,
     #[cfg(feature = "lucide")]
-    Self::LucideCornerRightDown,
+    LUCIDE_CORNER_RIGHT_DOWN,
     #[cfg(feature = "lucide")]
-    Self::LucideCornerRightUp,
+    LUCIDE_CORNER_RIGHT_UP,
     #[cfg(feature = "lucide")]
-    Self::LucideCornerUpLeft,
+    LUCIDE_CORNER_UP_LEFT,
     #[cfg(feature = "lucide")]
-    Self::LucideCornerUpRight,
+    LUCIDE_CORNER_UP_RIGHT,
     #[cfg(feature = "lucide")]
-    Self::LucideCpu,
+    LUCIDE_CPU,
     #[cfg(feature = "lucide")]
-    Self::LucideCreditCard,
+    LUCIDE_CREDIT_CARD,
     #[cfg(feature = "lucide")]
-    Self::LucideCroissant,
+    LUCIDE_CROISSANT,
     #[cfg(feature = "lucide")]
-    Self::LucideCrop,
+    LUCIDE_CROP,
     #[cfg(feature = "lucide")]
-    Self::LucideCross,
+    LUCIDE_CROSS,
     #[cfg(feature = "lucide")]
-    Self::LucideCrosshair,
+    LUCIDE_CROSSHAIR,
     #[cfg(feature = "lucide")]
-    Self::LucideCrown,
+    LUCIDE_CROWN,
     #[cfg(feature = "lucide")]
-    Self::LucideCupSoda,
+    LUCIDE_CUP_SODA,
     #[cfg(feature = "lucide")]
-    Self::LucideCurlyBraces,
+    LUCIDE_CURLY_BRACES,
     #[cfg(feature = "lucide")]
-    Self::LucideCurrency,
+    LUCIDE_CURRENCY,
     #[cfg(feature = "lucide")]
-    Self::LucideDatabase,
+    LUCIDE_DATABASE,
     #[cfg(feature = "lucide")]
-    Self::LucideDelete,
+    LUCIDE_DELETE,
     #[cfg(feature = "lucide")]
-    Self::LucideDiamond,
+    LUCIDE_DIAMOND,
     #[cfg(feature = "lucide")]
-    Self::LucideDice1,
+    LUCIDE_DICE_1,
     #[cfg(feature = "lucide")]
-    Self::LucideDice2,
+    LUCIDE_DICE_2,
     #[cfg(feature = "lucide")]
-    Self::LucideDice3,
+    LUCIDE_DICE_3,
     #[cfg(feature = "lucide")]
-    Self::LucideDice4,
+    LUCIDE_DICE_4,
     #[cfg(feature = "lucide")]
-    Self::LucideDice5,
+    LUCIDE_DICE_5,
     #[cfg(feature = "lucide")]
-    Self::LucideDice6,
+    LUCIDE_DICE_6,
     #[cfg(feature = "lucide")]
-    Self::LucideDices,
+    LUCIDE_DICES,
     #[cfg(feature = "lucide")]
-    Self::LucideDiff,
+    LUCIDE_DIFF,
     #[cfg(feature = "lucide")]
-    Self::LucideDisc,
+    LUCIDE_DISC,
     #[cfg(feature = "lucide")]
-    Self::LucideDivideCircle,
+    LUCIDE_DIVIDE_CIRCLE,
     #[cfg(feature = "lucide")]
-    Self::LucideDivideSquare,
+    LUCIDE_DIVIDE_SQUARE,
     #[cfg(feature = "lucide")]
-    Self::LucideDivide,
+    LUCIDE_DIVIDE,
     #[cfg(feature = "lucide")]
-    Self::LucideDollarSign,
+    LUCIDE_DOLLAR_SIGN,
     #[cfg(feature = "lucide")]
-    Self::LucideDownloadCloud,
+    LUCIDE_DOWNLOAD_CLOUD,
     #[cfg(feature = "lucide")]
-    Self::LucideDownload,
+    LUCIDE_DOWNLOAD,
     #[cfg(feature = "lucide")]
-    Self::LucideDribbble,
+    LUCIDE_DRIBBBLE,
     #[cfg(feature = "lucide")]
-    Self::LucideDroplet,
+    LUCIDE_DROPLET,
     #[cfg(feature = "lucide")]
-    Self::LucideDroplets,
+    LUCIDE_DROPLETS,
     #[cfg(feature = "lucide")]
-    Self::LucideDrumstick,
+    LUCIDE_DRUMSTICK,
     #[cfg(feature = "lucide")]
-    Self::LucideEarOff,
+    LUCIDE_EAR_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideEar,
+    LUCIDE_EAR,
     #[cfg(feature = "lucide")]
-    Self::LucideEdit2,
+    LUCIDE_EDIT_2,
     #[cfg(feature = "lucide")]
-    Self::LucideEdit3,
+    LUCIDE_EDIT_3,
     #[cfg(feature = "lucide")]
-    Self::LucideEdit,
+    LUCIDE_EDIT,
     #[cfg(feature = "lucide")]
-    Self::LucideEggFried,
+    LUCIDE_EGG_FRIED,
     #[cfg(feature = "lucide")]
-    Self::LucideEgg,
+    LUCIDE_EGG,
     #[cfg(feature = "lucide")]
-    Self::LucideEqualNot,
+    LUCIDE_EQUAL_NOT,
     #[cfg(feature = "lucide")]
-    Self::LucideEqual,
+    LUCIDE_EQUAL,
     #[cfg(feature = "lucide")]
-    Self::LucideEraser,
+    LUCIDE_ERASER,
     #[cfg(feature = "lucide")]
-    Self::LucideEuro,
+    LUCIDE_EURO,
     #[cfg(feature = "lucide")]
-    Self::LucideExpand,
+    LUCIDE_EXPAND,
     #[cfg(feature = "lucide")]
-    Self::LucideExternalLink,
+    LUCIDE_EXTERNAL_LINK,
     #[cfg(feature = "lucide")]
-    Self::LucideEyeOff,
+    LUCIDE_EYE_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideEye,
+    LUCIDE_EYE,
     #[cfg(feature = "lucide")]
-    Self::LucideFacebook,
+    LUCIDE_FACEBOOK,
     #[cfg(feature = "lucide")]
-    Self::LucideFactory,
+    LUCIDE_FACTORY,
     #[cfg(feature = "lucide")]
-    Self::LucideFan,
+    LUCIDE_FAN,
     #[cfg(feature = "lucide")]
-    Self::LucideFastForward,
+    LUCIDE_FAST_FORWARD,
     #[cfg(feature = "lucide")]
-    Self::LucideFeather,
+    LUCIDE_FEATHER,
     #[cfg(feature = "lucide")]
-    Self::LucideFigma,
+    LUCIDE_FIGMA,
     #[cfg(feature = "lucide")]
-    Self::LucideFileArchive,
+    LUCIDE_FILE_ARCHIVE,
     #[cfg(feature = "lucide")]
-    Self::LucideFileAudio2,
+    LUCIDE_FILE_AUDIO_2,
     #[cfg(feature = "lucide")]
-    Self::LucideFileAudio,
+    LUCIDE_FILE_AUDIO,
     #[cfg(feature = "lucide")]
-    Self::LucideFileAxis3D,
+    LUCIDE_FILE_AXIS_3_D,
     #[cfg(feature = "lucide")]
-    Self::LucideFileBadge2,
+    LUCIDE_FILE_BADGE_2,
     #[cfg(feature = "lucide")]
-    Self::LucideFileBadge,
+    LUCIDE_FILE_BADGE,
     #[cfg(feature = "lucide")]
-    Self::LucideFileBarChart2,
+    LUCIDE_FILE_BAR_CHART_2,
     #[cfg(feature = "lucide")]
-    Self::LucideFileBarChart,
+    LUCIDE_FILE_BAR_CHART,
     #[cfg(feature = "lucide")]
-    Self::LucideFileBox,
+    LUCIDE_FILE_BOX,
     #[cfg(feature = "lucide")]
-    Self::LucideFileCheck2,
+    LUCIDE_FILE_CHECK_2,
     #[cfg(feature = "lucide")]
-    Self::LucideFileCheck,
+    LUCIDE_FILE_CHECK,
     #[cfg(feature = "lucide")]
-    Self::LucideFileClock,
+    LUCIDE_FILE_CLOCK,
     #[cfg(feature = "lucide")]
-    Self::LucideFileCode,
+    LUCIDE_FILE_CODE,
     #[cfg(feature = "lucide")]
-    Self::LucideFileCog2,
+    LUCIDE_FILE_COG_2,
     #[cfg(feature = "lucide")]
-    Self::LucideFileCog,
+    LUCIDE_FILE_COG,
     #[cfg(feature = "lucide")]
-    Self::LucideFileDiff,
+    LUCIDE_FILE_DIFF,
     #[cfg(feature = "lucide")]
-    Self::LucideFileDigit,
+    LUCIDE_FILE_DIGIT,
     #[cfg(feature = "lucide")]
-    Self::LucideFileDown,
+    LUCIDE_FILE_DOWN,
     #[cfg(feature = "lucide")]
-    Self::LucideFileEdit,
+    LUCIDE_FILE_EDIT,
     #[cfg(feature = "lucide")]
-    Self::LucideFileHeart,
+    LUCIDE_FILE_HEART,
     #[cfg(feature = "lucide")]
-    Self::LucideFileImage,
+    LUCIDE_FILE_IMAGE,
     #[cfg(feature = "lucide")]
-    Self::LucideFileInput,
+    LUCIDE_FILE_INPUT,
     #[cfg(feature = "lucide")]
-    Self::LucideFileJson2,
+    LUCIDE_FILE_JSON_2,
     #[cfg(feature = "lucide")]
-    Self::LucideFileJson,
+    LUCIDE_FILE_JSON,
     #[cfg(feature = "lucide")]
-    Self::LucideFileKey2,
+    LUCIDE_FILE_KEY_2,
     #[cfg(feature = "lucide")]
-    Self::LucideFileKey,
+    LUCIDE_FILE_KEY,
     #[cfg(feature = "lucide")]
-    Self::LucideFileLineChart,
+    LUCIDE_FILE_LINE_CHART,
     #[cfg(feature = "lucide")]
-    Self::LucideFileLock2,
+    LUCIDE_FILE_LOCK_2,
     #[cfg(feature = "lucide")]
-    Self::LucideFileLock,
+    LUCIDE_FILE_LOCK,
     #[cfg(feature = "lucide")]
-    Self::LucideFileMinus2,
+    LUCIDE_FILE_MINUS_2,
     #[cfg(feature = "lucide")]
-    Self::LucideFileMinus,
+    LUCIDE_FILE_MINUS,
     #[cfg(feature = "lucide")]
-    Self::LucideFileOutput,
+    LUCIDE_FILE_OUTPUT,
     #[cfg(feature = "lucide")]
-    Self::LucideFilePieChart,
+    LUCIDE_FILE_PIE_CHART,
     #[cfg(feature = "lucide")]
-    Self::LucideFilePlus2,
+    LUCIDE_FILE_PLUS_2,
     #[cfg(feature = "lucide")]
-    Self::LucideFilePlus,
+    LUCIDE_FILE_PLUS,
     #[cfg(feature = "lucide")]
-    Self::LucideFileQuestion,
+    LUCIDE_FILE_QUESTION,
     #[cfg(feature = "lucide")]
-    Self::LucideFileScan,
+    LUCIDE_FILE_SCAN,
     #[cfg(feature = "lucide")]
-    Self::LucideFileSearch2,
+    LUCIDE_FILE_SEARCH_2,
     #[cfg(feature = "lucide")]
-    Self::LucideFileSearch,
+    LUCIDE_FILE_SEARCH,
     #[cfg(feature = "lucide")]
-    Self::LucideFileSignature,
+    LUCIDE_FILE_SIGNATURE,
     #[cfg(feature = "lucide")]
-    Self::LucideFileSpreadsheet,
+    LUCIDE_FILE_SPREADSHEET,
     #[cfg(feature = "lucide")]
-    Self::LucideFileSymlink,
+    LUCIDE_FILE_SYMLINK,
     #[cfg(feature = "lucide")]
-    Self::LucideFileTerminal,
+    LUCIDE_FILE_TERMINAL,
     #[cfg(feature = "lucide")]
-    Self::LucideFileText,
+    LUCIDE_FILE_TEXT,
     #[cfg(feature = "lucide")]
-    Self::LucideFileType2,
+    LUCIDE_FILE_TYPE_2,
     #[cfg(feature = "lucide")]
-    Self::LucideFileType,
+    LUCIDE_FILE_TYPE,
     #[cfg(feature = "lucide")]
-    Self::LucideFileUp,
+    LUCIDE_FILE_UP,
     #[cfg(feature = "lucide")]
-    Self::LucideFileVideo2,
+    LUCIDE_FILE_VIDEO_2,
     #[cfg(feature = "lucide")]
-    Self::LucideFileVideo,
+    LUCIDE_FILE_VIDEO,
     #[cfg(feature = "lucide")]
-    Self::LucideFileVolume2,
+    LUCIDE_FILE_VOLUME_2,
     #[cfg(feature = "lucide")]
-    Self::LucideFileVolume,
+    LUCIDE_FILE_VOLUME,
     #[cfg(feature = "lucide")]
-    Self::LucideFileWarning,
+    LUCIDE_FILE_WARNING,
     #[cfg(feature = "lucide")]
-    Self::LucideFileX2,
+    LUCIDE_FILE_X_2,
     #[cfg(feature = "lucide")]
-    Self::LucideFileX,
+    LUCIDE_FILE_X,
     #[cfg(feature = "lucide")]
-    Self::LucideFile,
+    LUCIDE_FILE,
     #[cfg(feature = "lucide")]
-    Self::LucideFiles,
+    LUCIDE_FILES,
     #[cfg(feature = "lucide")]
-    Self::LucideFilm,
+    LUCIDE_FILM,
     #[cfg(feature = "lucide")]
-    Self::LucideFilter,
+    LUCIDE_FILTER,
     #[cfg(feature = "lucide")]
-    Self::LucideFingerprint,
+    LUCIDE_FINGERPRINT,
     #[cfg(feature = "lucide")]
-    Self::LucideFlagOff,
+    LUCIDE_FLAG_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideFlagTriangleLeft,
+    LUCIDE_FLAG_TRIANGLE_LEFT,
     #[cfg(feature = "lucide")]
-    Self::LucideFlagTriangleRight,
+    LUCIDE_FLAG_TRIANGLE_RIGHT,
     #[cfg(feature = "lucide")]
-    Self::LucideFlag,
+    LUCIDE_FLAG,
     #[cfg(feature = "lucide")]
-    Self::LucideFlame,
+    LUCIDE_FLAME,
     #[cfg(feature = "lucide")]
-    Self::LucideFlashlightOff,
+    LUCIDE_FLASHLIGHT_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideFlashlight,
+    LUCIDE_FLASHLIGHT,
     #[cfg(feature = "lucide")]
-    Self::LucideFlaskConical,
+    LUCIDE_FLASK_CONICAL,
     #[cfg(feature = "lucide")]
-    Self::LucideFlaskRound,
+    LUCIDE_FLASK_ROUND,
     #[cfg(feature = "lucide")]
-    Self::LucideFlipHorizontal2,
+    LUCIDE_FLIP_HORIZONTAL_2,
     #[cfg(feature = "lucide")]
-    Self::LucideFlipHorizontal,
+    LUCIDE_FLIP_HORIZONTAL,
     #[cfg(feature = "lucide")]
-    Self::LucideFlipVertical2,
+    LUCIDE_FLIP_VERTICAL_2,
     #[cfg(feature = "lucide")]
-    Self::LucideFlipVertical,
+    LUCIDE_FLIP_VERTICAL,
     #[cfg(feature = "lucide")]
-    Self::LucideFlower2,
+    LUCIDE_FLOWER_2,
     #[cfg(feature = "lucide")]
-    Self::LucideFlower,
+    LUCIDE_FLOWER,
     #[cfg(feature = "lucide")]
-    Self::LucideFocus,
+    LUCIDE_FOCUS,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderArchive,
+    LUCIDE_FOLDER_ARCHIVE,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderCheck,
+    LUCIDE_FOLDER_CHECK,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderClock,
+    LUCIDE_FOLDER_CLOCK,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderClosed,
+    LUCIDE_FOLDER_CLOSED,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderCog2,
+    LUCIDE_FOLDER_COG_2,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderCog,
+    LUCIDE_FOLDER_COG,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderDown,
+    LUCIDE_FOLDER_DOWN,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderEdit,
+    LUCIDE_FOLDER_EDIT,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderHeart,
+    LUCIDE_FOLDER_HEART,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderInput,
+    LUCIDE_FOLDER_INPUT,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderKey,
+    LUCIDE_FOLDER_KEY,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderLock,
+    LUCIDE_FOLDER_LOCK,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderMinus,
+    LUCIDE_FOLDER_MINUS,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderOpen,
+    LUCIDE_FOLDER_OPEN,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderOutput,
+    LUCIDE_FOLDER_OUTPUT,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderPlus,
+    LUCIDE_FOLDER_PLUS,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderSearch2,
+    LUCIDE_FOLDER_SEARCH_2,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderSearch,
+    LUCIDE_FOLDER_SEARCH,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderSymlink,
+    LUCIDE_FOLDER_SYMLINK,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderTree,
+    LUCIDE_FOLDER_TREE,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderUp,
+    LUCIDE_FOLDER_UP,
     #[cfg(feature = "lucide")]
-    Self::LucideFolderX,
+    LUCIDE_FOLDER_X,
     #[cfg(feature = "lucide")]
-    Self::LucideFolder,
+    LUCIDE_FOLDER,
     #[cfg(feature = "lucide")]
-    Self::LucideFolders,
+    LUCIDE_FOLDERS,
     #[cfg(feature = "lucide")]
-    Self::LucideFormInput,
+    LUCIDE_FORM_INPUT,
     #[cfg(feature = "lucide")]
-    Self::LucideForward,
+    LUCIDE_FORWARD,
     #[cfg(feature = "lucide")]
-    Self::LucideFrame,
+    LUCIDE_FRAME,
     #[cfg(feature = "lucide")]
-    Self::LucideFramer,
+    LUCIDE_FRAMER,
     #[cfg(feature = "lucide")]
-    Self::LucideFrown,
+    LUCIDE_FROWN,
     #[cfg(feature = "lucide")]
-    Self::LucideFuel,
+    LUCIDE_FUEL,
     #[cfg(feature = "lucide")]
-    Self::LucideFunctionSquare,
+    LUCIDE_FUNCTION_SQUARE,
     #[cfg(feature = "lucide")]
-    Self::LucideGamepad2,
+    LUCIDE_GAMEPAD_2,
     #[cfg(feature = "lucide")]
-    Self::LucideGamepad,
+    LUCIDE_GAMEPAD,
     #[cfg(feature = "lucide")]
-    Self::LucideGauge,
+    LUCIDE_GAUGE,
     #[cfg(feature = "lucide")]
-    Self::LucideGavel,
+    LUCIDE_GAVEL,
     #[cfg(feature = "lucide")]
-    Self::LucideGem,
+    LUCIDE_GEM,
     #[cfg(feature = "lucide")]
-    Self::LucideGhost,
+    LUCIDE_GHOST,
     #[cfg(feature = "lucide")]
-    Self::LucideGift,
+    LUCIDE_GIFT,
     #[cfg(feature = "lucide")]
-    Self::LucideGitBranchPlus,
+    LUCIDE_GIT_BRANCH_PLUS,
     #[cfg(feature = "lucide")]
-    Self::LucideGitBranch,
+    LUCIDE_GIT_BRANCH,
     #[cfg(feature = "lucide")]
-    Self::LucideGitCommit,
+    LUCIDE_GIT_COMMIT,
     #[cfg(feature = "lucide")]
-    Self::LucideGitCompare,
+    LUCIDE_GIT_COMPARE,
     #[cfg(feature = "lucide")]
-    Self::LucideGitFork,
+    LUCIDE_GIT_FORK,
     #[cfg(feature = "lucide")]
-    Self::LucideGitMerge,
+    LUCIDE_GIT_MERGE,
     #[cfg(feature = "lucide")]
-    Self::LucideGitPullRequestClosed,
+    LUCIDE_GIT_PULL_REQUEST_CLOSED,
     #[cfg(feature = "lucide")]
-    Self::LucideGitPullRequestDraft,
+    LUCIDE_GIT_PULL_REQUEST_DRAFT,
     #[cfg(feature = "lucide")]
-    Self::LucideGitPullRequest,
+    LUCIDE_GIT_PULL_REQUEST,
     #[cfg(feature = "lucide")]
-    Self::LucideGithub,
+    LUCIDE_GITHUB,
     #[cfg(feature = "lucide")]
-    Self::LucideGitlab,
+    LUCIDE_GITLAB,
     #[cfg(feature = "lucide")]
-    Self::LucideGlassWater,
+    LUCIDE_GLASS_WATER,
     #[cfg(feature = "lucide")]
-    Self::LucideGlasses,
+    LUCIDE_GLASSES,
     #[cfg(feature = "lucide")]
-    Self::LucideGlobe2,
+    LUCIDE_GLOBE_2,
     #[cfg(feature = "lucide")]
-    Self::LucideGlobe,
+    LUCIDE_GLOBE,
     #[cfg(feature = "lucide")]
-    Self::LucideGrab,
+    LUCIDE_GRAB,
     #[cfg(feature = "lucide")]
-    Self::LucideGraduationCap,
+    LUCIDE_GRADUATION_CAP,
     #[cfg(feature = "lucide")]
-    Self::LucideGrape,
+    LUCIDE_GRAPE,
     #[cfg(feature = "lucide")]
-    Self::LucideGrid,
+    LUCIDE_GRID,
     #[cfg(feature = "lucide")]
-    Self::LucideGripHorizontal,
+    LUCIDE_GRIP_HORIZONTAL,
     #[cfg(feature = "lucide")]
-    Self::LucideGripVertical,
+    LUCIDE_GRIP_VERTICAL,
     #[cfg(feature = "lucide")]
-    Self::LucideHammer,
+    LUCIDE_HAMMER,
     #[cfg(feature = "lucide")]
-    Self::LucideHandMetal,
+    LUCIDE_HAND_METAL,
     #[cfg(feature = "lucide")]
-    Self::LucideHand,
+    LUCIDE_HAND,
     #[cfg(feature = "lucide")]
-    Self::LucideHardDrive,
+    LUCIDE_HARD_DRIVE,
     #[cfg(feature = "lucide")]
-    Self::LucideHardHat,
+    LUCIDE_HARD_HAT,
     #[cfg(feature = "lucide")]
-    Self::LucideHash,
+    LUCIDE_HASH,
     #[cfg(feature = "lucide")]
-    Self::LucideHaze,
+    LUCIDE_HAZE,
     #[cfg(feature = "lucide")]
-    Self::LucideHeadphones,
+    LUCIDE_HEADPHONES,
     #[cfg(feature = "lucide")]
-    Self::LucideHeartCrack,
+    LUCIDE_HEART_CRACK,
     #[cfg(feature = "lucide")]
-    Self::LucideHeartHandshake,
+    LUCIDE_HEART_HANDSHAKE,
     #[cfg(feature = "lucide")]
-    Self::LucideHeartOff,
+    LUCIDE_HEART_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideHeartPulse,
+    LUCIDE_HEART_PULSE,
     #[cfg(feature = "lucide")]
-    Self::LucideHeart,
+    LUCIDE_HEART,
     #[cfg(feature = "lucide")]
-    Self::LucideHelpCircle,
+    LUCIDE_HELP_CIRCLE,
     #[cfg(feature = "lucide")]
-    Self::LucideHexagon,
+    LUCIDE_HEXAGON,
     #[cfg(feature = "lucide")]
-    Self::LucideHighlighter,
+    LUCIDE_HIGHLIGHTER,
     #[cfg(feature = "lucide")]
-    Self::LucideHistory,
+    LUCIDE_HISTORY,
     #[cfg(feature = "lucide")]
-    Self::LucideHome,
+    LUCIDE_HOME,
     #[cfg(feature = "lucide")]
-    Self::LucideHourglass,
+    LUCIDE_HOURGLASS,
     #[cfg(feature = "lucide")]
-    Self::LucideIceCream,
+    LUCIDE_ICE_CREAM,
     #[cfg(feature = "lucide")]
-    Self::LucideImageMinus,
+    LUCIDE_IMAGE_MINUS,
     #[cfg(feature = "lucide")]
-    Self::LucideImageOff,
+    LUCIDE_IMAGE_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideImagePlus,
+    LUCIDE_IMAGE_PLUS,
     #[cfg(feature = "lucide")]
-    Self::LucideImage,
+    LUCIDE_IMAGE,
     #[cfg(feature = "lucide")]
-    Self::LucideImport,
+    LUCIDE_IMPORT,
     #[cfg(feature = "lucide")]
-    Self::LucideInbox,
+    LUCIDE_INBOX,
     #[cfg(feature = "lucide")]
-    Self::LucideIndent,
+    LUCIDE_INDENT,
     #[cfg(feature = "lucide")]
-    Self::LucideIndianRupee,
+    LUCIDE_INDIAN_RUPEE,
     #[cfg(feature = "lucide")]
-    Self::LucideInfinity,
+    LUCIDE_INFINITY,
     #[cfg(feature = "lucide")]
-    Self::LucideInfo,
+    LUCIDE_INFO,
     #[cfg(feature = "lucide")]
-    Self::LucideInspect,
+    LUCIDE_INSPECT,
     #[cfg(feature = "lucide")]
-    Self::LucideInstagram,
+    LUCIDE_INSTAGRAM,
     #[cfg(feature = "lucide")]
-    Self::LucideItalic,
+    LUCIDE_ITALIC,
     #[cfg(feature = "lucide")]
-    Self::LucideJapaneseYen,
+    LUCIDE_JAPANESE_YEN,
     #[cfg(feature = "lucide")]
-    Self::LucideJoystick,
+    LUCIDE_JOYSTICK,
     #[cfg(feature = "lucide")]
-    Self::LucideKey,
+    LUCIDE_KEY,
     #[cfg(feature = "lucide")]
-    Self::LucideKeyboard,
+    LUCIDE_KEYBOARD,
     #[cfg(feature = "lucide")]
-    Self::LucideLampCeiling,
+    LUCIDE_LAMP_CEILING,
     #[cfg(feature = "lucide")]
-    Self::LucideLampDesk,
+    LUCIDE_LAMP_DESK,
     #[cfg(feature = "lucide")]
-    Self::LucideLampFloor,
+    LUCIDE_LAMP_FLOOR,
     #[cfg(feature = "lucide")]
-    Self::LucideLampWallDown,
+    LUCIDE_LAMP_WALL_DOWN,
     #[cfg(feature = "lucide")]
-    Self::LucideLampWallUp,
+    LUCIDE_LAMP_WALL_UP,
     #[cfg(feature = "lucide")]
-    Self::LucideLamp,
+    LUCIDE_LAMP,
     #[cfg(feature = "lucide")]
-    Self::LucideLandmark,
+    LUCIDE_LANDMARK,
     #[cfg(feature = "lucide")]
-    Self::LucideLanguages,
+    LUCIDE_LANGUAGES,
     #[cfg(feature = "lucide")]
-    Self::LucideLaptop2,
+    LUCIDE_LAPTOP_2,
     #[cfg(feature = "lucide")]
-    Self::LucideLaptop,
+    LUCIDE_LAPTOP,
     #[cfg(feature = "lucide")]
-    Self::LucideLassoSelect,
+    LUCIDE_LASSO_SELECT,
     #[cfg(feature = "lucide")]
-    Self::LucideLasso,
+    LUCIDE_LASSO,
     #[cfg(feature = "lucide")]
-    Self::LucideLaugh,
+    LUCIDE_LAUGH,
     #[cfg(feature = "lucide")]
-    Self::LucideLayers,
+    LUCIDE_LAYERS,
     #[cfg(feature = "lucide")]
-    Self::LucideLayoutDashboard,
+    LUCIDE_LAYOUT_DASHBOARD,
     #[cfg(feature = "lucide")]
-    Self::LucideLayoutGrid,
+    LUCIDE_LAYOUT_GRID,
     #[cfg(feature = "lucide")]
-    Self::LucideLayoutList,
+    LUCIDE_LAYOUT_LIST,
     #[cfg(feature = "lucide")]
-    Self::LucideLayoutTemplate,
+    LUCIDE_LAYOUT_TEMPLATE,
     #[cfg(feature = "lucide")]
-    Self::LucideLayout,
+    LUCIDE_LAYOUT,
     #[cfg(feature = "lucide")]
-    Self::LucideLeaf,
+    LUCIDE_LEAF,
     #[cfg(feature = "lucide")]
-    Self::LucideLibrary,
+    LUCIDE_LIBRARY,
     #[cfg(feature = "lucide")]
-    Self::LucideLifeBuoy,
+    LUCIDE_LIFE_BUOY,
     #[cfg(feature = "lucide")]
-    Self::LucideLightbulbOff,
+    LUCIDE_LIGHTBULB_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideLightbulb,
+    LUCIDE_LIGHTBULB,
     #[cfg(feature = "lucide")]
-    Self::LucideLineChart,
+    LUCIDE_LINE_CHART,
     #[cfg(feature = "lucide")]
-    Self::LucideLink2Off,
+    LUCIDE_LINK_2_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideLink2,
+    LUCIDE_LINK_2,
     #[cfg(feature = "lucide")]
-    Self::LucideLink,
+    LUCIDE_LINK,
     #[cfg(feature = "lucide")]
-    Self::LucideLinkedin,
+    LUCIDE_LINKEDIN,
     #[cfg(feature = "lucide")]
-    Self::LucideListChecks,
+    LUCIDE_LIST_CHECKS,
     #[cfg(feature = "lucide")]
-    Self::LucideListEnd,
+    LUCIDE_LIST_END,
     #[cfg(feature = "lucide")]
-    Self::LucideListMinus,
+    LUCIDE_LIST_MINUS,
     #[cfg(feature = "lucide")]
-    Self::LucideListMusic,
+    LUCIDE_LIST_MUSIC,
     #[cfg(feature = "lucide")]
-    Self::LucideListOrdered,
+    LUCIDE_LIST_ORDERED,
     #[cfg(feature = "lucide")]
-    Self::LucideListPlus,
+    LUCIDE_LIST_PLUS,
     #[cfg(feature = "lucide")]
-    Self::LucideListStart,
+    LUCIDE_LIST_START,
     #[cfg(feature = "lucide")]
-    Self::LucideListVideo,
+    LUCIDE_LIST_VIDEO,
     #[cfg(feature = "lucide")]
-    Self::LucideListX,
+    LUCIDE_LIST_X,
     #[cfg(feature = "lucide")]
-    Self::LucideList,
+    LUCIDE_LIST,
     #[cfg(feature = "lucide")]
-    Self::LucideLoader2,
+    LUCIDE_LOADER_2,
     #[cfg(feature = "lucide")]
-    Self::LucideLoader,
+    LUCIDE_LOADER,
     #[cfg(feature = "lucide")]
-    Self::LucideLocateFixed,
+    LUCIDE_LOCATE_FIXED,
     #[cfg(feature = "lucide")]
-    Self::LucideLocateOff,
+    LUCIDE_LOCATE_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideLocate,
+    LUCIDE_LOCATE,
     #[cfg(feature = "lucide")]
-    Self::LucideLock,
+    LUCIDE_LOCK,
     #[cfg(feature = "lucide")]
-    Self::LucideLogIn,
+    LUCIDE_LOG_IN,
     #[cfg(feature = "lucide")]
-    Self::LucideLogOut,
+    LUCIDE_LOG_OUT,
     #[cfg(feature = "lucide")]
-    Self::LucideLuggage,
+    LUCIDE_LUGGAGE,
     #[cfg(feature = "lucide")]
-    Self::LucideMagnet,
+    LUCIDE_MAGNET,
     #[cfg(feature = "lucide")]
-    Self::LucideMailCheck,
+    LUCIDE_MAIL_CHECK,
     #[cfg(feature = "lucide")]
-    Self::LucideMailMinus,
+    LUCIDE_MAIL_MINUS,
     #[cfg(feature = "lucide")]
-    Self::LucideMailOpen,
+    LUCIDE_MAIL_OPEN,
     #[cfg(feature = "lucide")]
-    Self::LucideMailPlus,
+    LUCIDE_MAIL_PLUS,
     #[cfg(feature = "lucide")]
-    Self::LucideMailQuestion,
+    LUCIDE_MAIL_QUESTION,
     #[cfg(feature = "lucide")]
-    Self::LucideMailSearch,
+    LUCIDE_MAIL_SEARCH,
     #[cfg(feature = "lucide")]
-    Self::LucideMailWarning,
+    LUCIDE_MAIL_WARNING,
     #[cfg(feature = "lucide")]
-    Self::LucideMailX,
+    LUCIDE_MAIL_X,
     #[cfg(feature = "lucide")]
-    Self::LucideMail,
+    LUCIDE_MAIL,
     #[cfg(feature = "lucide")]
-    Self::LucideMails,
+    LUCIDE_MAILS,
     #[cfg(feature = "lucide")]
-    Self::LucideMapPinOff,
+    LUCIDE_MAP_PIN_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideMapPin,
+    LUCIDE_MAP_PIN,
     #[cfg(feature = "lucide")]
-    Self::LucideMap,
+    LUCIDE_MAP,
     #[cfg(feature = "lucide")]
-    Self::LucideMartini,
+    LUCIDE_MARTINI,
     #[cfg(feature = "lucide")]
-    Self::LucideMaximize2,
+    LUCIDE_MAXIMIZE_2,
     #[cfg(feature = "lucide")]
-    Self::LucideMaximize,
+    LUCIDE_MAXIMIZE,
     #[cfg(feature = "lucide")]
-    Self::LucideMedal,
+    LUCIDE_MEDAL,
     #[cfg(feature = "lucide")]
-    Self::LucideMegaphoneOff,
+    LUCIDE_MEGAPHONE_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideMegaphone,
+    LUCIDE_MEGAPHONE,
     #[cfg(feature = "lucide")]
-    Self::LucideMeh,
+    LUCIDE_MEH,
     #[cfg(feature = "lucide")]
-    Self::LucideMenu,
+    LUCIDE_MENU,
     #[cfg(feature = "lucide")]
-    Self::LucideMessageCircle,
+    LUCIDE_MESSAGE_CIRCLE,
     #[cfg(feature = "lucide")]
-    Self::LucideMessageSquare,
+    LUCIDE_MESSAGE_SQUARE,
     #[cfg(feature = "lucide")]
-    Self::LucideMic2,
+    LUCIDE_MIC_2,
     #[cfg(feature = "lucide")]
-    Self::LucideMicOff,
+    LUCIDE_MIC_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideMic,
+    LUCIDE_MIC,
     #[cfg(feature = "lucide")]
-    Self::LucideMicroscope,
+    LUCIDE_MICROSCOPE,
     #[cfg(feature = "lucide")]
-    Self::LucideMicrowave,
+    LUCIDE_MICROWAVE,
     #[cfg(feature = "lucide")]
-    Self::LucideMilestone,
+    LUCIDE_MILESTONE,
     #[cfg(feature = "lucide")]
-    Self::LucideMinimize2,
+    LUCIDE_MINIMIZE_2,
     #[cfg(feature = "lucide")]
-    Self::LucideMinimize,
+    LUCIDE_MINIMIZE,
     #[cfg(feature = "lucide")]
-    Self::LucideMinusCircle,
+    LUCIDE_MINUS_CIRCLE,
     #[cfg(feature = "lucide")]
-    Self::LucideMinusSquare,
+    LUCIDE_MINUS_SQUARE,
     #[cfg(feature = "lucide")]
-    Self::LucideMinus,
+    LUCIDE_MINUS,
     #[cfg(feature = "lucide")]
-    Self::LucideMonitorOff,
+    LUCIDE_MONITOR_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideMonitorSpeaker,
+    LUCIDE_MONITOR_SPEAKER,
     #[cfg(feature = "lucide")]
-    Self::LucideMonitor,
+    LUCIDE_MONITOR,
     #[cfg(feature = "lucide")]
-    Self::LucideMoon,
+    LUCIDE_MOON,
     #[cfg(feature = "lucide")]
-    Self::LucideMoreHorizontal,
+    LUCIDE_MORE_HORIZONTAL,
     #[cfg(feature = "lucide")]
-    Self::LucideMoreVertical,
+    LUCIDE_MORE_VERTICAL,
     #[cfg(feature = "lucide")]
-    Self::LucideMountainSnow,
+    LUCIDE_MOUNTAIN_SNOW,
     #[cfg(feature = "lucide")]
-    Self::LucideMountain,
+    LUCIDE_MOUNTAIN,
     #[cfg(feature = "lucide")]
-    Self::LucideMousePointer2,
+    LUCIDE_MOUSE_POINTER_2,
     #[cfg(feature = "lucide")]
-    Self::LucideMousePointerClick,
+    LUCIDE_MOUSE_POINTER_CLICK,
     #[cfg(feature = "lucide")]
-    Self::LucideMousePointer,
+    LUCIDE_MOUSE_POINTER,
     #[cfg(feature = "lucide")]
-    Self::LucideMouse,
+    LUCIDE_MOUSE,
     #[cfg(feature = "lucide")]
-    Self::LucideMove3D,
+    LUCIDE_MOVE_3_D,
     #[cfg(feature = "lucide")]
-    Self::LucideMoveDiagonal2,
+    LUCIDE_MOVE_DIAGONAL_2,
     #[cfg(feature = "lucide")]
-    Self::LucideMoveDiagonal,
+    LUCIDE_MOVE_DIAGONAL,
     #[cfg(feature = "lucide")]
-    Self::LucideMoveHorizontal,
+    LUCIDE_MOVE_HORIZONTAL,
     #[cfg(feature = "lucide")]
-    Self::LucideMoveVertical,
+    LUCIDE_MOVE_VERTICAL,
     #[cfg(feature = "lucide")]
-    Self::LucideMove,
+    LUCIDE_MOVE,
     #[cfg(feature = "lucide")]
-    Self::LucideMusic2,
+    LUCIDE_MUSIC_2,
     #[cfg(feature = "lucide")]
-    Self::LucideMusic3,
+    LUCIDE_MUSIC_3,
     #[cfg(feature = "lucide")]
-    Self::LucideMusic4,
+    LUCIDE_MUSIC_4,
     #[cfg(feature = "lucide")]
-    Self::LucideMusic,
+    LUCIDE_MUSIC,
     #[cfg(feature = "lucide")]
-    Self::LucideNavigation2Off,
+    LUCIDE_NAVIGATION_2_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideNavigation2,
+    LUCIDE_NAVIGATION_2,
     #[cfg(feature = "lucide")]
-    Self::LucideNavigationOff,
+    LUCIDE_NAVIGATION_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideNavigation,
+    LUCIDE_NAVIGATION,
     #[cfg(feature = "lucide")]
-    Self::LucideNetwork,
+    LUCIDE_NETWORK,
     #[cfg(feature = "lucide")]
-    Self::LucideNewspaper,
+    LUCIDE_NEWSPAPER,
     #[cfg(feature = "lucide")]
-    Self::LucideOctagon,
+    LUCIDE_OCTAGON,
     #[cfg(feature = "lucide")]
-    Self::LucideOption,
+    LUCIDE_OPTION,
     #[cfg(feature = "lucide")]
-    Self::LucideOutdent,
+    LUCIDE_OUTDENT,
     #[cfg(feature = "lucide")]
-    Self::LucidePackage2,
+    LUCIDE_PACKAGE_2,
     #[cfg(feature = "lucide")]
-    Self::LucidePackageCheck,
+    LUCIDE_PACKAGE_CHECK,
     #[cfg(feature = "lucide")]
-    Self::LucidePackageMinus,
+    LUCIDE_PACKAGE_MINUS,
     #[cfg(feature = "lucide")]
-    Self::LucidePackageOpen,
+    LUCIDE_PACKAGE_OPEN,
     #[cfg(feature = "lucide")]
-    Self::LucidePackagePlus,
+    LUCIDE_PACKAGE_PLUS,
     #[cfg(feature = "lucide")]
-    Self::LucidePackageSearch,
+    LUCIDE_PACKAGE_SEARCH,
     #[cfg(feature = "lucide")]
-    Self::LucidePackageX,
+    LUCIDE_PACKAGE_X,
     #[cfg(feature = "lucide")]
-    Self::LucidePackage,
+    LUCIDE_PACKAGE,
     #[cfg(feature = "lucide")]
-    Self::LucidePaintBucket,
+    LUCIDE_PAINT_BUCKET,
     #[cfg(feature = "lucide")]
-    Self::LucidePaintbrush2,
+    LUCIDE_PAINTBRUSH_2,
     #[cfg(feature = "lucide")]
-    Self::LucidePaintbrush,
+    LUCIDE_PAINTBRUSH,
     #[cfg(feature = "lucide")]
-    Self::LucidePalette,
+    LUCIDE_PALETTE,
     #[cfg(feature = "lucide")]
-    Self::LucidePalmtree,
+    LUCIDE_PALMTREE,
     #[cfg(feature = "lucide")]
-    Self::LucidePaperclip,
+    LUCIDE_PAPERCLIP,
     #[cfg(feature = "lucide")]
-    Self::LucidePartyPopper,
+    LUCIDE_PARTY_POPPER,
     #[cfg(feature = "lucide")]
-    Self::LucidePauseCircle,
+    LUCIDE_PAUSE_CIRCLE,
     #[cfg(feature = "lucide")]
-    Self::LucidePauseOctagon,
+    LUCIDE_PAUSE_OCTAGON,
     #[cfg(feature = "lucide")]
-    Self::LucidePause,
+    LUCIDE_PAUSE,
     #[cfg(feature = "lucide")]
-    Self::LucidePenTool,
+    LUCIDE_PEN_TOOL,
     #[cfg(feature = "lucide")]
-    Self::LucidePencil,
+    LUCIDE_PENCIL,
     #[cfg(feature = "lucide")]
-    Self::LucidePercent,
+    LUCIDE_PERCENT,
     #[cfg(feature = "lucide")]
-    Self::LucidePersonStanding,
+    LUCIDE_PERSON_STANDING,
     #[cfg(feature = "lucide")]
-    Self::LucidePhoneCall,
+    LUCIDE_PHONE_CALL,
     #[cfg(feature = "lucide")]
-    Self::LucidePhoneForwarded,
+    LUCIDE_PHONE_FORWARDED,
     #[cfg(feature = "lucide")]
-    Self::LucidePhoneIncoming,
+    LUCIDE_PHONE_INCOMING,
     #[cfg(feature = "lucide")]
-    Self::LucidePhoneMissed,
+    LUCIDE_PHONE_MISSED,
     #[cfg(feature = "lucide")]
-    Self::LucidePhoneOff,
+    LUCIDE_PHONE_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucidePhoneOutgoing,
+    LUCIDE_PHONE_OUTGOING,
     #[cfg(feature = "lucide")]
-    Self::LucidePhone,
+    LUCIDE_PHONE,
     #[cfg(feature = "lucide")]
-    Self::LucidePieChart,
+    LUCIDE_PIE_CHART,
     #[cfg(feature = "lucide")]
-    Self::LucidePiggyBank,
+    LUCIDE_PIGGY_BANK,
     #[cfg(feature = "lucide")]
-    Self::LucidePinOff,
+    LUCIDE_PIN_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucidePin,
+    LUCIDE_PIN,
     #[cfg(feature = "lucide")]
-    Self::LucidePipette,
+    LUCIDE_PIPETTE,
     #[cfg(feature = "lucide")]
-    Self::LucidePizza,
+    LUCIDE_PIZZA,
     #[cfg(feature = "lucide")]
-    Self::LucidePlane,
+    LUCIDE_PLANE,
     #[cfg(feature = "lucide")]
-    Self::LucidePlayCircle,
+    LUCIDE_PLAY_CIRCLE,
     #[cfg(feature = "lucide")]
-    Self::LucidePlay,
+    LUCIDE_PLAY,
     #[cfg(feature = "lucide")]
-    Self::LucidePlug2,
+    LUCIDE_PLUG_2,
     #[cfg(feature = "lucide")]
-    Self::LucidePlugZap,
+    LUCIDE_PLUG_ZAP,
     #[cfg(feature = "lucide")]
-    Self::LucidePlug,
+    LUCIDE_PLUG,
     #[cfg(feature = "lucide")]
-    Self::LucidePlusCircle,
+    LUCIDE_PLUS_CIRCLE,
     #[cfg(feature = "lucide")]
-    Self::LucidePlusSquare,
+    LUCIDE_PLUS_SQUARE,
     #[cfg(feature = "lucide")]
-    Self::LucidePlus,
+    LUCIDE_PLUS,
     #[cfg(feature = "lucide")]
-    Self::LucidePocket,
+    LUCIDE_POCKET,
     #[cfg(feature = "lucide")]
-    Self::LucidePodcast,
+    LUCIDE_PODCAST,
     #[cfg(feature = "lucide")]
-    Self::LucidePointer,
+    LUCIDE_POINTER,
     #[cfg(feature = "lucide")]
-    Self::LucidePoundSterling,
+    LUCIDE_POUND_STERLING,
     #[cfg(feature = "lucide")]
-    Self::LucidePowerOff,
+    LUCIDE_POWER_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucidePower,
+    LUCIDE_POWER,
     #[cfg(feature = "lucide")]
-    Self::LucidePrinter,
+    LUCIDE_PRINTER,
     #[cfg(feature = "lucide")]
-    Self::LucidePuzzle,
+    LUCIDE_PUZZLE,
     #[cfg(feature = "lucide")]
-    Self::LucideQrCode,
+    LUCIDE_QR_CODE,
     #[cfg(feature = "lucide")]
-    Self::LucideQuote,
+    LUCIDE_QUOTE,
     #[cfg(feature = "lucide")]
-    Self::LucideRadioReceiver,
+    LUCIDE_RADIO_RECEIVER,
     #[cfg(feature = "lucide")]
-    Self::LucideRadio,
+    LUCIDE_RADIO,
     #[cfg(feature = "lucide")]
-    Self::LucideRectangleHorizontal,
+    LUCIDE_RECTANGLE_HORIZONTAL,
     #[cfg(feature = "lucide")]
-    Self::LucideRectangleVertical,
+    LUCIDE_RECTANGLE_VERTICAL,
     #[cfg(feature = "lucide")]
-    Self::LucideRecycle,
+    LUCIDE_RECYCLE,
     #[cfg(feature = "lucide")]
-    Self::LucideRedo2,
+    LUCIDE_REDO_2,
     #[cfg(feature = "lucide")]
-    Self::LucideRedo,
+    LUCIDE_REDO,
     #[cfg(feature = "lucide")]
-    Self::LucideRefreshCcw,
+    LUCIDE_REFRESH_CCW,
     #[cfg(feature = "lucide")]
-    Self::LucideRefreshCw,
+    LUCIDE_REFRESH_CW,
     #[cfg(feature = "lucide")]
-    Self::LucideRefrigerator,
+    LUCIDE_REFRIGERATOR,
     #[cfg(feature = "lucide")]
-    Self::LucideRegex,
+    LUCIDE_REGEX,
     #[cfg(feature = "lucide")]
-    Self::LucideRepeat1,
+    LUCIDE_REPEAT_1,
     #[cfg(feature = "lucide")]
-    Self::LucideRepeat,
+    LUCIDE_REPEAT,
     #[cfg(feature = "lucide")]
-    Self::LucideReplyAll,
+    LUCIDE_REPLY_ALL,
     #[cfg(feature = "lucide")]
-    Self::LucideReply,
+    LUCIDE_REPLY,
     #[cfg(feature = "lucide")]
-    Self::LucideRewind,
+    LUCIDE_REWIND,
     #[cfg(feature = "lucide")]
-    Self::LucideRocket,
+    LUCIDE_ROCKET,
     #[cfg(feature = "lucide")]
-    Self::LucideRockingChair,
+    LUCIDE_ROCKING_CHAIR,
     #[cfg(feature = "lucide")]
-    Self::LucideRotate3D,
+    LUCIDE_ROTATE_3_D,
     #[cfg(feature = "lucide")]
-    Self::LucideRotateCcw,
+    LUCIDE_ROTATE_CCW,
     #[cfg(feature = "lucide")]
-    Self::LucideRotateCw,
+    LUCIDE_ROTATE_CW,
     #[cfg(feature = "lucide")]
-    Self::LucideRss,
+    LUCIDE_RSS,
     #[cfg(feature = "lucide")]
-    Self::LucideRuler,
+    LUCIDE_RULER,
     #[cfg(feature = "lucide")]
-    Self::LucideRussianRuble,
+    LUCIDE_RUSSIAN_RUBLE,
     #[cfg(feature = "lucide")]
-    Self::LucideSailboat,
+    LUCIDE_SAILBOAT,
     #[cfg(feature = "lucide")]
-    Self::LucideSave,
+    LUCIDE_SAVE,
     #[cfg(feature = "lucide")]
-    Self::LucideScale3D,
+    LUCIDE_SCALE_3_D,
     #[cfg(feature = "lucide")]
-    Self::LucideScale,
+    LUCIDE_SCALE,
     #[cfg(feature = "lucide")]
-    Self::LucideScaling,
+    LUCIDE_SCALING,
     #[cfg(feature = "lucide")]
-    Self::LucideScanFace,
+    LUCIDE_SCAN_FACE,
     #[cfg(feature = "lucide")]
-    Self::LucideScanLine,
+    LUCIDE_SCAN_LINE,
     #[cfg(feature = "lucide")]
-    Self::LucideScan,
+    LUCIDE_SCAN,
     #[cfg(feature = "lucide")]
-    Self::LucideScissors,
+    LUCIDE_SCISSORS,
     #[cfg(feature = "lucide")]
-    Self::LucideScreenShareOff,
+    LUCIDE_SCREEN_SHARE_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideScreenShare,
+    LUCIDE_SCREEN_SHARE,
     #[cfg(feature = "lucide")]
-    Self::LucideScroll,
+    LUCIDE_SCROLL,
     #[cfg(feature = "lucide")]
-    Self::LucideSearch,
+    LUCIDE_SEARCH,
     #[cfg(feature = "lucide")]
-    Self::LucideSend,
+    LUCIDE_SEND,
     #[cfg(feature = "lucide")]
-    Self::LucideSeparatorHorizontal,
+    LUCIDE_SEPARATOR_HORIZONTAL,
     #[cfg(feature = "lucide")]
-    Self::LucideSeparatorVertical,
+    LUCIDE_SEPARATOR_VERTICAL,
     #[cfg(feature = "lucide")]
-    Self::LucideServerCog,
+    LUCIDE_SERVER_COG,
     #[cfg(feature = "lucide")]
-    Self::LucideServerCrash,
+    LUCIDE_SERVER_CRASH,
     #[cfg(feature = "lucide")]
-    Self::LucideServerOff,
+    LUCIDE_SERVER_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideServer,
+    LUCIDE_SERVER,
     #[cfg(feature = "lucide")]
-    Self::LucideSettings2,
+    LUCIDE_SETTINGS_2,
     #[cfg(feature = "lucide")]
-    Self::LucideSettings,
+    LUCIDE_SETTINGS,
     #[cfg(feature = "lucide")]
-    Self::LucideShare2,
+    LUCIDE_SHARE_2,
     #[cfg(feature = "lucide")]
-    Self::LucideShare,
+    LUCIDE_SHARE,
     #[cfg(feature = "lucide")]
-    Self::LucideSheet,
+    LUCIDE_SHEET,
     #[cfg(feature = "lucide")]
-    Self::LucideShieldAlert,
+    LUCIDE_SHIELD_ALERT,
     #[cfg(feature = "lucide")]
-    Self::LucideShieldCheck,
+    LUCIDE_SHIELD_CHECK,
     #[cfg(feature = "lucide")]
-    Self::LucideShieldClose,
+    LUCIDE_SHIELD_CLOSE,
     #[cfg(feature = "lucide")]
-    Self::LucideShieldOff,
+    LUCIDE_SHIELD_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideShield,
+    LUCIDE_SHIELD,
     #[cfg(feature = "lucide")]
-    Self::LucideShirt,
+    LUCIDE_SHIRT,
     #[cfg(feature = "lucide")]
-    Self::LucideShoppingBag,
+    LUCIDE_SHOPPING_BAG,
     #[cfg(feature = "lucide")]
-    Self::LucideShoppingCart,
+    LUCIDE_SHOPPING_CART,
     #[cfg(feature = "lucide")]
-    Self::LucideShovel,
+    LUCIDE_SHOVEL,
     #[cfg(feature = "lucide")]
-    Self::LucideShowerHead,
+    LUCIDE_SHOWER_HEAD,
     #[cfg(feature = "lucide")]
-    Self::LucideShrink,
+    LUCIDE_SHRINK,
     #[cfg(feature = "lucide")]
-    Self::LucideShrub,
+    LUCIDE_SHRUB,
     #[cfg(feature = "lucide")]
-    Self::LucideShuffle,
+    LUCIDE_SHUFFLE,
     #[cfg(feature = "lucide")]
-    Self::LucideSidebarClose,
+    LUCIDE_SIDEBAR_CLOSE,
     #[cfg(feature = "lucide")]
-    Self::LucideSidebarOpen,
+    LUCIDE_SIDEBAR_OPEN,
     #[cfg(feature = "lucide")]
-    Self::LucideSidebar,
+    LUCIDE_SIDEBAR,
     #[cfg(feature = "lucide")]
-    Self::LucideSigma,
+    LUCIDE_SIGMA,
     #[cfg(feature = "lucide")]
-    Self::LucideSignalHigh,
+    LUCIDE_SIGNAL_HIGH,
     #[cfg(feature = "lucide")]
-    Self::LucideSignalLow,
+    LUCIDE_SIGNAL_LOW,
     #[cfg(feature = "lucide")]
-    Self::LucideSignalMedium,
+    LUCIDE_SIGNAL_MEDIUM,
     #[cfg(feature = "lucide")]
-    Self::LucideSignalZero,
+    LUCIDE_SIGNAL_ZERO,
     #[cfg(feature = "lucide")]
-    Self::LucideSignal,
+    LUCIDE_SIGNAL,
     #[cfg(feature = "lucide")]
-    Self::LucideSiren,
+    LUCIDE_SIREN,
     #[cfg(feature = "lucide")]
-    Self::LucideSkipBack,
+    LUCIDE_SKIP_BACK,
     #[cfg(feature = "lucide")]
-    Self::LucideSkipForward,
+    LUCIDE_SKIP_FORWARD,
     #[cfg(feature = "lucide")]
-    Self::LucideSkull,
+    LUCIDE_SKULL,
     #[cfg(feature = "lucide")]
-    Self::LucideSlack,
+    LUCIDE_SLACK,
     #[cfg(feature = "lucide")]
-    Self::LucideSlash,
+    LUCIDE_SLASH,
     #[cfg(feature = "lucide")]
-    Self::LucideSlice,
+    LUCIDE_SLICE,
     #[cfg(feature = "lucide")]
-    Self::LucideSlidersHorizontal,
+    LUCIDE_SLIDERS_HORIZONTAL,
     #[cfg(feature = "lucide")]
-    Self::LucideSliders,
+    LUCIDE_SLIDERS,
     #[cfg(feature = "lucide")]
-    Self::LucideSmartphoneCharging,
+    LUCIDE_SMARTPHONE_CHARGING,
     #[cfg(feature = "lucide")]
-    Self::LucideSmartphone,
+    LUCIDE_SMARTPHONE,
     #[cfg(feature = "lucide")]
-    Self::LucideSmilePlus,
+    LUCIDE_SMILE_PLUS,
     #[cfg(feature = "lucide")]
-    Self::LucideSmile,
+    LUCIDE_SMILE,
     #[cfg(feature = "lucide")]
-    Self::LucideSnowflake,
+    LUCIDE_SNOWFLAKE,
     #[cfg(feature = "lucide")]
-    Self::LucideSofa,
+    LUCIDE_SOFA,
     #[cfg(feature = "lucide")]
-    Self::LucideSortAsc,
+    LUCIDE_SORT_ASC,
     #[cfg(feature = "lucide")]
-    Self::LucideSortDesc,
+    LUCIDE_SORT_DESC,
     #[cfg(feature = "lucide")]
-    Self::LucideSpeaker,
+    LUCIDE_SPEAKER,
     #[cfg(feature = "lucide")]
-    Self::LucideSprout,
+    LUCIDE_SPROUT,
     #[cfg(feature = "lucide")]
-    Self::LucideSquare,
+    LUCIDE_SQUARE,
     #[cfg(feature = "lucide")]
-    Self::LucideStarHalf,
+    LUCIDE_STAR_HALF,
     #[cfg(feature = "lucide")]
-    Self::LucideStarOff,
+    LUCIDE_STAR_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideStar,
+    LUCIDE_STAR,
     #[cfg(feature = "lucide")]
-    Self::LucideStethoscope,
+    LUCIDE_STETHOSCOPE,
     #[cfg(feature = "lucide")]
-    Self::LucideSticker,
+    LUCIDE_STICKER,
     #[cfg(feature = "lucide")]
-    Self::LucideStickyNote,
+    LUCIDE_STICKY_NOTE,
     #[cfg(feature = "lucide")]
-    Self::LucideStopCircle,
+    LUCIDE_STOP_CIRCLE,
     #[cfg(feature = "lucide")]
-    Self::LucideStretchHorizontal,
+    LUCIDE_STRETCH_HORIZONTAL,
     #[cfg(feature = "lucide")]
-    Self::LucideStretchVertical,
+    LUCIDE_STRETCH_VERTICAL,
     #[cfg(feature = "lucide")]
-    Self::LucideStrikethrough,
+    LUCIDE_STRIKETHROUGH,
     #[cfg(feature = "lucide")]
-    Self::LucideSubscript,
+    LUCIDE_SUBSCRIPT,
     #[cfg(feature = "lucide")]
-    Self::LucideSunDim,
+    LUCIDE_SUN_DIM,
     #[cfg(feature = "lucide")]
-    Self::LucideSunMedium,
+    LUCIDE_SUN_MEDIUM,
     #[cfg(feature = "lucide")]
-    Self::LucideSunMoon,
+    LUCIDE_SUN_MOON,
     #[cfg(feature = "lucide")]
-    Self::LucideSunSnow,
+    LUCIDE_SUN_SNOW,
     #[cfg(feature = "lucide")]
-    Self::LucideSun,
+    LUCIDE_SUN,
     #[cfg(feature = "lucide")]
-    Self::LucideSunrise,
+    LUCIDE_SUNRISE,
     #[cfg(feature = "lucide")]
-    Self::LucideSunset,
+    LUCIDE_SUNSET,
     #[cfg(feature = "lucide")]
-    Self::LucideSuperscript,
+    LUCIDE_SUPERSCRIPT,
     #[cfg(feature = "lucide")]
-    Self::LucideSwissFranc,
+    LUCIDE_SWISS_FRANC,
     #[cfg(feature = "lucide")]
-    Self::LucideSwitchCamera,
+    LUCIDE_SWITCH_CAMERA,
     #[cfg(feature = "lucide")]
-    Self::LucideSword,
+    LUCIDE_SWORD,
     #[cfg(feature = "lucide")]
-    Self::LucideSwords,
+    LUCIDE_SWORDS,
     #[cfg(feature = "lucide")]
-    Self::LucideSyringe,
+    LUCIDE_SYRINGE,
     #[cfg(feature = "lucide")]
-    Self::LucideTable2,
+    LUCIDE_TABLE_2,
     #[cfg(feature = "lucide")]
-    Self::LucideTable,
+    LUCIDE_TABLE,
     #[cfg(feature = "lucide")]
-    Self::LucideTablet,
+    LUCIDE_TABLET,
     #[cfg(feature = "lucide")]
-    Self::LucideTag,
+    LUCIDE_TAG,
     #[cfg(feature = "lucide")]
-    Self::LucideTags,
+    LUCIDE_TAGS,
     #[cfg(feature = "lucide")]
-    Self::LucideTarget,
+    LUCIDE_TARGET,
     #[cfg(feature = "lucide")]
-    Self::LucideTent,
+    LUCIDE_TENT,
     #[cfg(feature = "lucide")]
-    Self::LucideTerminalSquare,
+    LUCIDE_TERMINAL_SQUARE,
     #[cfg(feature = "lucide")]
-    Self::LucideTerminal,
+    LUCIDE_TERMINAL,
     #[cfg(feature = "lucide")]
-    Self::LucideTextCursorInput,
+    LUCIDE_TEXT_CURSOR_INPUT,
     #[cfg(feature = "lucide")]
-    Self::LucideTextCursor,
+    LUCIDE_TEXT_CURSOR,
     #[cfg(feature = "lucide")]
-    Self::LucideThermometerSnowflake,
+    LUCIDE_THERMOMETER_SNOWFLAKE,
     #[cfg(feature = "lucide")]
-    Self::LucideThermometerSun,
+    LUCIDE_THERMOMETER_SUN,
     #[cfg(feature = "lucide")]
-    Self::LucideThermometer,
+    LUCIDE_THERMOMETER,
     #[cfg(feature = "lucide")]
-    Self::LucideThumbsDown,
+    LUCIDE_THUMBS_DOWN,
     #[cfg(feature = "lucide")]
-    Self::LucideThumbsUp,
+    LUCIDE_THUMBS_UP,
     #[cfg(feature = "lucide")]
-    Self::LucideTicket,
+    LUCIDE_TICKET,
     #[cfg(feature = "lucide")]
-    Self::LucideTimerOff,
+    LUCIDE_TIMER_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideTimerReset,
+    LUCIDE_TIMER_RESET,
     #[cfg(feature = "lucide")]
-    Self::LucideTimer,
+    LUCIDE_TIMER,
     #[cfg(feature = "lucide")]
-    Self::LucideToggleLeft,
+    LUCIDE_TOGGLE_LEFT,
     #[cfg(feature = "lucide")]
-    Self::LucideToggleRight,
+    LUCIDE_TOGGLE_RIGHT,
     #[cfg(feature = "lucide")]
-    Self::LucideTornado,
+    LUCIDE_TORNADO,
     #[cfg(feature = "lucide")]
-    Self::LucideToyBrick,
+    LUCIDE_TOY_BRICK,
     #[cfg(feature = "lucide")]
-    Self::LucideTrain,
+    LUCIDE_TRAIN,
     #[cfg(feature = "lucide")]
-    Self::LucideTrash2,
+    LUCIDE_TRASH_2,
     #[cfg(feature = "lucide")]
-    Self::LucideTrash,
+    LUCIDE_TRASH,
     #[cfg(feature = "lucide")]
-    Self::LucideTreeDeciduous,
+    LUCIDE_TREE_DECIDUOUS,
     #[cfg(feature = "lucide")]
-    Self::LucideTreePine,
+    LUCIDE_TREE_PINE,
     #[cfg(feature = "lucide")]
-    Self::LucideTrees,
+    LUCIDE_TREES,
     #[cfg(feature = "lucide")]
-    Self::LucideTrello,
+    LUCIDE_TRELLO,
     #[cfg(feature = "lucide")]
-    Self::LucideTrendingDown,
+    LUCIDE_TRENDING_DOWN,
     #[cfg(feature = "lucide")]
-    Self::LucideTrendingUp,
+    LUCIDE_TRENDING_UP,
     #[cfg(feature = "lucide")]
-    Self::LucideTriangle,
+    LUCIDE_TRIANGLE,
     #[cfg(feature = "lucide")]
-    Self::LucideTrophy,
+    LUCIDE_TROPHY,
     #[cfg(feature = "lucide")]
-    Self::LucideTruck,
+    LUCIDE_TRUCK,
     #[cfg(feature = "lucide")]
-    Self::LucideTv2,
+    LUCIDE_TV_2,
     #[cfg(feature = "lucide")]
-    Self::LucideTv,
+    LUCIDE_TV,
     #[cfg(feature = "lucide")]
-    Self::LucideTwitch,
+    LUCIDE_TWITCH,
     #[cfg(feature = "lucide")]
-    Self::LucideTwitter,
+    LUCIDE_TWITTER,
     #[cfg(feature = "lucide")]
-    Self::LucideType,
+    LUCIDE_TYPE,
     #[cfg(feature = "lucide")]
-    Self::LucideUmbrella,
+    LUCIDE_UMBRELLA,
     #[cfg(feature = "lucide")]
-    Self::LucideUnderline,
+    LUCIDE_UNDERLINE,
     #[cfg(feature = "lucide")]
-    Self::LucideUndo2,
+    LUCIDE_UNDO_2,
     #[cfg(feature = "lucide")]
-    Self::LucideUndo,
+    LUCIDE_UNDO,
     #[cfg(feature = "lucide")]
-    Self::LucideUnlink2,
+    LUCIDE_UNLINK_2,
     #[cfg(feature = "lucide")]
-    Self::LucideUnlink,
+    LUCIDE_UNLINK,
     #[cfg(feature = "lucide")]
-    Self::LucideUnlock,
+    LUCIDE_UNLOCK,
     #[cfg(feature = "lucide")]
-    Self::LucideUploadCloud,
+    LUCIDE_UPLOAD_CLOUD,
     #[cfg(feature = "lucide")]
-    Self::LucideUpload,
+    LUCIDE_UPLOAD,
     #[cfg(feature = "lucide")]
-    Self::LucideUsb,
+    LUCIDE_USB,
     #[cfg(feature = "lucide")]
-    Self::LucideUserCheck,
+    LUCIDE_USER_CHECK,
     #[cfg(feature = "lucide")]
-    Self::LucideUserCog,
+    LUCIDE_USER_COG,
     #[cfg(feature = "lucide")]
-    Self::LucideUserMinus,
+    LUCIDE_USER_MINUS,
     #[cfg(feature = "lucide")]
-    Self::LucideUserPlus,
+    LUCIDE_USER_PLUS,
     #[cfg(feature = "lucide")]
-    Self::LucideUserX,
+    LUCIDE_USER_X,
     #[cfg(feature = "lucide")]
-    Self::LucideUser,
+    LUCIDE_USER,
     #[cfg(feature = "lucide")]
-    Self::LucideUsers,
+    LUCIDE_USERS,
     #[cfg(feature = "lucide")]
-    Self::LucideUtensilsCrossed,
+    LUCIDE_UTENSILS_CROSSED,
     #[cfg(feature = "lucide")]
-    Self::LucideUtensils,
+    LUCIDE_UTENSILS,
     #[cfg(feature = "lucide")]
-    Self::LucideVenetianMask,
+    LUCIDE_VENETIAN_MASK,
     #[cfg(feature = "lucide")]
-    Self::LucideVerified,
+    LUCIDE_VERIFIED,
     #[cfg(feature = "lucide")]
-    Self::LucideVibrateOff,
+    LUCIDE_VIBRATE_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideVibrate,
+    LUCIDE_VIBRATE,
     #[cfg(feature = "lucide")]
-    Self::LucideVideoOff,
+    LUCIDE_VIDEO_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideVideo,
+    LUCIDE_VIDEO,
     #[cfg(feature = "lucide")]
-    Self::LucideView,
+    LUCIDE_VIEW,
     #[cfg(feature = "lucide")]
-    Self::LucideVoicemail,
+    LUCIDE_VOICEMAIL,
     #[cfg(feature = "lucide")]
-    Self::LucideVolume1,
+    LUCIDE_VOLUME_1,
     #[cfg(feature = "lucide")]
-    Self::LucideVolume2,
+    LUCIDE_VOLUME_2,
     #[cfg(feature = "lucide")]
-    Self::LucideVolumeX,
+    LUCIDE_VOLUME_X,
     #[cfg(feature = "lucide")]
-    Self::LucideVolume,
+    LUCIDE_VOLUME,
     #[cfg(feature = "lucide")]
-    Self::LucideWallet,
+    LUCIDE_WALLET,
     #[cfg(feature = "lucide")]
-    Self::LucideWand2,
+    LUCIDE_WAND_2,
     #[cfg(feature = "lucide")]
-    Self::LucideWand,
+    LUCIDE_WAND,
     #[cfg(feature = "lucide")]
-    Self::LucideWatch,
+    LUCIDE_WATCH,
     #[cfg(feature = "lucide")]
-    Self::LucideWaves,
+    LUCIDE_WAVES,
     #[cfg(feature = "lucide")]
-    Self::LucideWebcam,
+    LUCIDE_WEBCAM,
     #[cfg(feature = "lucide")]
-    Self::LucideWebhook,
+    LUCIDE_WEBHOOK,
     #[cfg(feature = "lucide")]
-    Self::LucideWifiOff,
+    LUCIDE_WIFI_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideWifi,
+    LUCIDE_WIFI,
     #[cfg(feature = "lucide")]
-    Self::LucideWind,
+    LUCIDE_WIND,
     #[cfg(feature = "lucide")]
-    Self::LucideWine,
+    LUCIDE_WINE,
     #[cfg(feature = "lucide")]
-    Self::LucideWrapText,
+    LUCIDE_WRAP_TEXT,
     #[cfg(feature = "lucide")]
-    Self::LucideWrench,
+    LUCIDE_WRENCH,
     #[cfg(feature = "lucide")]
-    Self::LucideXCircle,
+    LUCIDE_X_CIRCLE,
     #[cfg(feature = "lucide")]
-    Self::LucideXOctagon,
+    LUCIDE_X_OCTAGON,
     #[cfg(feature = "lucide")]
-    Self::LucideXSquare,
+    LUCIDE_X_SQUARE,
     #[cfg(feature = "lucide")]
-    Self::LucideX,
+    LUCIDE_X,
     #[cfg(feature = "lucide")]
-    Self::LucideYoutube,
+    LUCIDE_YOUTUBE,
     #[cfg(feature = "lucide")]
-    Self::LucideZapOff,
+    LUCIDE_ZAP_OFF,
     #[cfg(feature = "lucide")]
-    Self::LucideZap,
+    LUCIDE_ZAP,
     #[cfg(feature = "lucide")]
-    Self::LucideZoomIn,
+    LUCIDE_ZOOM_IN,
     #[cfg(feature = "lucide")]
-    Self::LucideZoomOut,
+    LUCIDE_ZOOM_OUT,
     #[cfg(feature = "octicons")]
-    Self::OcticonsAccessibility16,
+    OCTICONS_ACCESSIBILITY_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsAlert16,
+    OCTICONS_ALERT_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsAlert24,
+    OCTICONS_ALERT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsAlertFill12,
+    OCTICONS_ALERT_FILL_12,
     #[cfg(feature = "octicons")]
-    Self::OcticonsApps16,
+    OCTICONS_APPS_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsArchive16,
+    OCTICONS_ARCHIVE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsArchive24,
+    OCTICONS_ARCHIVE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsArrowBoth16,
+    OCTICONS_ARROW_BOTH_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsArrowBoth24,
+    OCTICONS_ARROW_BOTH_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsArrowDown16,
+    OCTICONS_ARROW_DOWN_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsArrowDown24,
+    OCTICONS_ARROW_DOWN_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsArrowDownLeft24,
+    OCTICONS_ARROW_DOWN_LEFT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsArrowDownRight24,
+    OCTICONS_ARROW_DOWN_RIGHT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsArrowLeft16,
+    OCTICONS_ARROW_LEFT_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsArrowLeft24,
+    OCTICONS_ARROW_LEFT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsArrowRight16,
+    OCTICONS_ARROW_RIGHT_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsArrowRight24,
+    OCTICONS_ARROW_RIGHT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsArrowSwitch16,
+    OCTICONS_ARROW_SWITCH_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsArrowSwitch24,
+    OCTICONS_ARROW_SWITCH_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsArrowUp16,
+    OCTICONS_ARROW_UP_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsArrowUp24,
+    OCTICONS_ARROW_UP_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsArrowUpLeft24,
+    OCTICONS_ARROW_UP_LEFT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsArrowUpRight24,
+    OCTICONS_ARROW_UP_RIGHT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBeaker16,
+    OCTICONS_BEAKER_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBeaker24,
+    OCTICONS_BEAKER_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBell16,
+    OCTICONS_BELL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBell24,
+    OCTICONS_BELL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBellFill16,
+    OCTICONS_BELL_FILL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBellFill24,
+    OCTICONS_BELL_FILL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBellSlash16,
+    OCTICONS_BELL_SLASH_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBellSlash24,
+    OCTICONS_BELL_SLASH_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBlocked16,
+    OCTICONS_BLOCKED_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBlocked24,
+    OCTICONS_BLOCKED_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBold16,
+    OCTICONS_BOLD_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBold24,
+    OCTICONS_BOLD_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBook16,
+    OCTICONS_BOOK_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBook24,
+    OCTICONS_BOOK_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBookmark16,
+    OCTICONS_BOOKMARK_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBookmark24,
+    OCTICONS_BOOKMARK_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBookmarkFill24,
+    OCTICONS_BOOKMARK_FILL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBookmarkSlash16,
+    OCTICONS_BOOKMARK_SLASH_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBookmarkSlash24,
+    OCTICONS_BOOKMARK_SLASH_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBookmarkSlashFill24,
+    OCTICONS_BOOKMARK_SLASH_FILL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBriefcase16,
+    OCTICONS_BRIEFCASE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBriefcase24,
+    OCTICONS_BRIEFCASE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBroadcast16,
+    OCTICONS_BROADCAST_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBroadcast24,
+    OCTICONS_BROADCAST_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBrowser16,
+    OCTICONS_BROWSER_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBrowser24,
+    OCTICONS_BROWSER_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBug16,
+    OCTICONS_BUG_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsBug24,
+    OCTICONS_BUG_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCalendar16,
+    OCTICONS_CALENDAR_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCalendar24,
+    OCTICONS_CALENDAR_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCheck16,
+    OCTICONS_CHECK_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCheck24,
+    OCTICONS_CHECK_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCheckCircle16,
+    OCTICONS_CHECK_CIRCLE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCheckCircle24,
+    OCTICONS_CHECK_CIRCLE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCheckCircleFill12,
+    OCTICONS_CHECK_CIRCLE_FILL_12,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCheckCircleFill16,
+    OCTICONS_CHECK_CIRCLE_FILL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCheckCircleFill24,
+    OCTICONS_CHECK_CIRCLE_FILL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsChecklist16,
+    OCTICONS_CHECKLIST_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsChecklist24,
+    OCTICONS_CHECKLIST_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsChevronDown16,
+    OCTICONS_CHEVRON_DOWN_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsChevronDown24,
+    OCTICONS_CHEVRON_DOWN_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsChevronLeft16,
+    OCTICONS_CHEVRON_LEFT_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsChevronLeft24,
+    OCTICONS_CHEVRON_LEFT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsChevronRight16,
+    OCTICONS_CHEVRON_RIGHT_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsChevronRight24,
+    OCTICONS_CHEVRON_RIGHT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsChevronUp16,
+    OCTICONS_CHEVRON_UP_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsChevronUp24,
+    OCTICONS_CHEVRON_UP_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCircle16,
+    OCTICONS_CIRCLE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCircle24,
+    OCTICONS_CIRCLE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCircleSlash16,
+    OCTICONS_CIRCLE_SLASH_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCircleSlash24,
+    OCTICONS_CIRCLE_SLASH_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsClock16,
+    OCTICONS_CLOCK_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsClock24,
+    OCTICONS_CLOCK_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCloud16,
+    OCTICONS_CLOUD_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCloud24,
+    OCTICONS_CLOUD_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCloudOffline16,
+    OCTICONS_CLOUD_OFFLINE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCloudOffline24,
+    OCTICONS_CLOUD_OFFLINE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCode16,
+    OCTICONS_CODE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCode24,
+    OCTICONS_CODE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCodeOfConduct16,
+    OCTICONS_CODE_OF_CONDUCT_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCodeOfConduct24,
+    OCTICONS_CODE_OF_CONDUCT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCodeReview16,
+    OCTICONS_CODE_REVIEW_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCodeReview24,
+    OCTICONS_CODE_REVIEW_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCodeSquare16,
+    OCTICONS_CODE_SQUARE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCodeSquare24,
+    OCTICONS_CODE_SQUARE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCodescan16,
+    OCTICONS_CODESCAN_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCodescan24,
+    OCTICONS_CODESCAN_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCodescanCheckmark16,
+    OCTICONS_CODESCAN_CHECKMARK_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCodescanCheckmark24,
+    OCTICONS_CODESCAN_CHECKMARK_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCodespaces16,
+    OCTICONS_CODESPACES_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCodespaces24,
+    OCTICONS_CODESPACES_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsColumns16,
+    OCTICONS_COLUMNS_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsColumns24,
+    OCTICONS_COLUMNS_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsComment16,
+    OCTICONS_COMMENT_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsComment24,
+    OCTICONS_COMMENT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCommentDiscussion16,
+    OCTICONS_COMMENT_DISCUSSION_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCommentDiscussion24,
+    OCTICONS_COMMENT_DISCUSSION_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCommit24,
+    OCTICONS_COMMIT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsContainer16,
+    OCTICONS_CONTAINER_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsContainer24,
+    OCTICONS_CONTAINER_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCopy16,
+    OCTICONS_COPY_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCopy24,
+    OCTICONS_COPY_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCpu16,
+    OCTICONS_CPU_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCpu24,
+    OCTICONS_CPU_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCreditCard16,
+    OCTICONS_CREDIT_CARD_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCreditCard24,
+    OCTICONS_CREDIT_CARD_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCrossReference16,
+    OCTICONS_CROSS_REFERENCE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsCrossReference24,
+    OCTICONS_CROSS_REFERENCE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDash16,
+    OCTICONS_DASH_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDash24,
+    OCTICONS_DASH_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDatabase16,
+    OCTICONS_DATABASE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDatabase24,
+    OCTICONS_DATABASE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDependabot16,
+    OCTICONS_DEPENDABOT_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDependabot24,
+    OCTICONS_DEPENDABOT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDesktopDownload16,
+    OCTICONS_DESKTOP_DOWNLOAD_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDesktopDownload24,
+    OCTICONS_DESKTOP_DOWNLOAD_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDeviceCamera16,
+    OCTICONS_DEVICE_CAMERA_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDeviceCameraVideo16,
+    OCTICONS_DEVICE_CAMERA_VIDEO_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDeviceCameraVideo24,
+    OCTICONS_DEVICE_CAMERA_VIDEO_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDeviceDesktop16,
+    OCTICONS_DEVICE_DESKTOP_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDeviceDesktop24,
+    OCTICONS_DEVICE_DESKTOP_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDeviceMobile16,
+    OCTICONS_DEVICE_MOBILE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDeviceMobile24,
+    OCTICONS_DEVICE_MOBILE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDiamond16,
+    OCTICONS_DIAMOND_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDiamond24,
+    OCTICONS_DIAMOND_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDiff16,
+    OCTICONS_DIFF_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDiff24,
+    OCTICONS_DIFF_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDiffAdded16,
+    OCTICONS_DIFF_ADDED_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDiffIgnored16,
+    OCTICONS_DIFF_IGNORED_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDiffModified16,
+    OCTICONS_DIFF_MODIFIED_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDiffRemoved16,
+    OCTICONS_DIFF_REMOVED_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDiffRenamed16,
+    OCTICONS_DIFF_RENAMED_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDot16,
+    OCTICONS_DOT_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDot24,
+    OCTICONS_DOT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDotFill16,
+    OCTICONS_DOT_FILL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDotFill24,
+    OCTICONS_DOT_FILL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDownload16,
+    OCTICONS_DOWNLOAD_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDownload24,
+    OCTICONS_DOWNLOAD_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDuplicate16,
+    OCTICONS_DUPLICATE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsDuplicate24,
+    OCTICONS_DUPLICATE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsEllipsis16,
+    OCTICONS_ELLIPSIS_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsEye16,
+    OCTICONS_EYE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsEye24,
+    OCTICONS_EYE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsEyeClosed16,
+    OCTICONS_EYE_CLOSED_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsEyeClosed24,
+    OCTICONS_EYE_CLOSED_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFeedDiscussion16,
+    OCTICONS_FEED_DISCUSSION_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFeedForked16,
+    OCTICONS_FEED_FORKED_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFeedHeart16,
+    OCTICONS_FEED_HEART_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFeedMerged16,
+    OCTICONS_FEED_MERGED_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFeedPerson16,
+    OCTICONS_FEED_PERSON_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFeedRepo16,
+    OCTICONS_FEED_REPO_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFeedRocket16,
+    OCTICONS_FEED_ROCKET_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFeedStar16,
+    OCTICONS_FEED_STAR_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFeedTag16,
+    OCTICONS_FEED_TAG_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFeedTrophy16,
+    OCTICONS_FEED_TROPHY_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFile16,
+    OCTICONS_FILE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFile24,
+    OCTICONS_FILE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFileBadge16,
+    OCTICONS_FILE_BADGE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFileBinary16,
+    OCTICONS_FILE_BINARY_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFileBinary24,
+    OCTICONS_FILE_BINARY_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFileCode16,
+    OCTICONS_FILE_CODE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFileCode24,
+    OCTICONS_FILE_CODE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFileDiff16,
+    OCTICONS_FILE_DIFF_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFileDiff24,
+    OCTICONS_FILE_DIFF_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFileDirectory16,
+    OCTICONS_FILE_DIRECTORY_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFileDirectory24,
+    OCTICONS_FILE_DIRECTORY_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFileDirectoryFill16,
+    OCTICONS_FILE_DIRECTORY_FILL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFileDirectoryFill24,
+    OCTICONS_FILE_DIRECTORY_FILL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFileDirectoryOpenFill16,
+    OCTICONS_FILE_DIRECTORY_OPEN_FILL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFileMedia24,
+    OCTICONS_FILE_MEDIA_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFileSubmodule16,
+    OCTICONS_FILE_SUBMODULE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFileSubmodule24,
+    OCTICONS_FILE_SUBMODULE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFileSymlinkFile16,
+    OCTICONS_FILE_SYMLINK_FILE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFileSymlinkFile24,
+    OCTICONS_FILE_SYMLINK_FILE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFileZip16,
+    OCTICONS_FILE_ZIP_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFileZip24,
+    OCTICONS_FILE_ZIP_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFilter16,
+    OCTICONS_FILTER_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFilter24,
+    OCTICONS_FILTER_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFlame16,
+    OCTICONS_FLAME_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFlame24,
+    OCTICONS_FLAME_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFold16,
+    OCTICONS_FOLD_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFold24,
+    OCTICONS_FOLD_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFoldDown16,
+    OCTICONS_FOLD_DOWN_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFoldDown24,
+    OCTICONS_FOLD_DOWN_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFoldUp16,
+    OCTICONS_FOLD_UP_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsFoldUp24,
+    OCTICONS_FOLD_UP_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGear16,
+    OCTICONS_GEAR_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGear24,
+    OCTICONS_GEAR_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGift16,
+    OCTICONS_GIFT_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGift24,
+    OCTICONS_GIFT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGitBranch16,
+    OCTICONS_GIT_BRANCH_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGitBranch24,
+    OCTICONS_GIT_BRANCH_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGitCommit16,
+    OCTICONS_GIT_COMMIT_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGitCommit24,
+    OCTICONS_GIT_COMMIT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGitCompare16,
+    OCTICONS_GIT_COMPARE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGitCompare24,
+    OCTICONS_GIT_COMPARE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGitMerge16,
+    OCTICONS_GIT_MERGE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGitMerge24,
+    OCTICONS_GIT_MERGE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGitPullRequest16,
+    OCTICONS_GIT_PULL_REQUEST_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGitPullRequest24,
+    OCTICONS_GIT_PULL_REQUEST_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGitPullRequestClosed16,
+    OCTICONS_GIT_PULL_REQUEST_CLOSED_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGitPullRequestClosed24,
+    OCTICONS_GIT_PULL_REQUEST_CLOSED_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGitPullRequestDraft16,
+    OCTICONS_GIT_PULL_REQUEST_DRAFT_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGitPullRequestDraft24,
+    OCTICONS_GIT_PULL_REQUEST_DRAFT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGlobe16,
+    OCTICONS_GLOBE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGlobe24,
+    OCTICONS_GLOBE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGrabber16,
+    OCTICONS_GRABBER_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGrabber24,
+    OCTICONS_GRABBER_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGraph16,
+    OCTICONS_GRAPH_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsGraph24,
+    OCTICONS_GRAPH_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsHash16,
+    OCTICONS_HASH_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsHash24,
+    OCTICONS_HASH_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsHeading16,
+    OCTICONS_HEADING_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsHeading24,
+    OCTICONS_HEADING_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsHeart16,
+    OCTICONS_HEART_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsHeart24,
+    OCTICONS_HEART_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsHeartFill16,
+    OCTICONS_HEART_FILL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsHeartFill24,
+    OCTICONS_HEART_FILL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsHistory16,
+    OCTICONS_HISTORY_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsHistory24,
+    OCTICONS_HISTORY_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsHome16,
+    OCTICONS_HOME_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsHome24,
+    OCTICONS_HOME_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsHomeFill24,
+    OCTICONS_HOME_FILL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsHorizontalRule16,
+    OCTICONS_HORIZONTAL_RULE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsHorizontalRule24,
+    OCTICONS_HORIZONTAL_RULE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsHourglass16,
+    OCTICONS_HOURGLASS_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsHourglass24,
+    OCTICONS_HOURGLASS_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsHubot16,
+    OCTICONS_HUBOT_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsHubot24,
+    OCTICONS_HUBOT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsIdBadge16,
+    OCTICONS_ID_BADGE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsImage16,
+    OCTICONS_IMAGE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsImage24,
+    OCTICONS_IMAGE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsInbox16,
+    OCTICONS_INBOX_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsInbox24,
+    OCTICONS_INBOX_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsInfinity16,
+    OCTICONS_INFINITY_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsInfinity24,
+    OCTICONS_INFINITY_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsInfo16,
+    OCTICONS_INFO_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsInfo24,
+    OCTICONS_INFO_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsIssueClosed16,
+    OCTICONS_ISSUE_CLOSED_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsIssueClosed24,
+    OCTICONS_ISSUE_CLOSED_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsIssueDraft16,
+    OCTICONS_ISSUE_DRAFT_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsIssueDraft24,
+    OCTICONS_ISSUE_DRAFT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsIssueOpened16,
+    OCTICONS_ISSUE_OPENED_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsIssueOpened24,
+    OCTICONS_ISSUE_OPENED_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsIssueReopened16,
+    OCTICONS_ISSUE_REOPENED_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsIssueReopened24,
+    OCTICONS_ISSUE_REOPENED_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsItalic16,
+    OCTICONS_ITALIC_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsItalic24,
+    OCTICONS_ITALIC_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsIterations16,
+    OCTICONS_ITERATIONS_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsIterations24,
+    OCTICONS_ITERATIONS_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsKebabHorizontal16,
+    OCTICONS_KEBAB_HORIZONTAL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsKebabHorizontal24,
+    OCTICONS_KEBAB_HORIZONTAL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsKey16,
+    OCTICONS_KEY_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsKey24,
+    OCTICONS_KEY_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsKeyAsterisk16,
+    OCTICONS_KEY_ASTERISK_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsLaw16,
+    OCTICONS_LAW_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsLaw24,
+    OCTICONS_LAW_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsLightBulb16,
+    OCTICONS_LIGHT_BULB_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsLightBulb24,
+    OCTICONS_LIGHT_BULB_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsLink16,
+    OCTICONS_LINK_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsLink24,
+    OCTICONS_LINK_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsLinkExternal16,
+    OCTICONS_LINK_EXTERNAL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsLinkExternal24,
+    OCTICONS_LINK_EXTERNAL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsListOrdered16,
+    OCTICONS_LIST_ORDERED_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsListOrdered24,
+    OCTICONS_LIST_ORDERED_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsListUnordered16,
+    OCTICONS_LIST_UNORDERED_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsListUnordered24,
+    OCTICONS_LIST_UNORDERED_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsLocation16,
+    OCTICONS_LOCATION_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsLocation24,
+    OCTICONS_LOCATION_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsLock16,
+    OCTICONS_LOCK_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsLock24,
+    OCTICONS_LOCK_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsLog16,
+    OCTICONS_LOG_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsLogoGist16,
+    OCTICONS_LOGO_GIST_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsLogoGithub16,
+    OCTICONS_LOGO_GITHUB_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsMail16,
+    OCTICONS_MAIL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsMail24,
+    OCTICONS_MAIL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsMarkGithub16,
+    OCTICONS_MARK_GITHUB_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsMarkdown16,
+    OCTICONS_MARKDOWN_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsMegaphone16,
+    OCTICONS_MEGAPHONE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsMegaphone24,
+    OCTICONS_MEGAPHONE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsMention16,
+    OCTICONS_MENTION_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsMention24,
+    OCTICONS_MENTION_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsMeter16,
+    OCTICONS_METER_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsMilestone16,
+    OCTICONS_MILESTONE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsMilestone24,
+    OCTICONS_MILESTONE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsMirror16,
+    OCTICONS_MIRROR_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsMirror24,
+    OCTICONS_MIRROR_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsMoon16,
+    OCTICONS_MOON_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsMoon24,
+    OCTICONS_MOON_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsMortarBoard16,
+    OCTICONS_MORTAR_BOARD_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsMortarBoard24,
+    OCTICONS_MORTAR_BOARD_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsMultiSelect16,
+    OCTICONS_MULTI_SELECT_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsMultiSelect24,
+    OCTICONS_MULTI_SELECT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsMute16,
+    OCTICONS_MUTE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsMute24,
+    OCTICONS_MUTE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsNoEntry16,
+    OCTICONS_NO_ENTRY_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsNoEntry24,
+    OCTICONS_NO_ENTRY_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsNoEntryFill12,
+    OCTICONS_NO_ENTRY_FILL_12,
     #[cfg(feature = "octicons")]
-    Self::OcticonsNorthStar16,
+    OCTICONS_NORTH_STAR_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsNorthStar24,
+    OCTICONS_NORTH_STAR_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsNote16,
+    OCTICONS_NOTE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsNote24,
+    OCTICONS_NOTE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsNumber16,
+    OCTICONS_NUMBER_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsNumber24,
+    OCTICONS_NUMBER_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsOrganization16,
+    OCTICONS_ORGANIZATION_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsOrganization24,
+    OCTICONS_ORGANIZATION_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPackage16,
+    OCTICONS_PACKAGE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPackage24,
+    OCTICONS_PACKAGE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPackageDependencies16,
+    OCTICONS_PACKAGE_DEPENDENCIES_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPackageDependencies24,
+    OCTICONS_PACKAGE_DEPENDENCIES_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPackageDependents16,
+    OCTICONS_PACKAGE_DEPENDENTS_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPackageDependents24,
+    OCTICONS_PACKAGE_DEPENDENTS_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPaintbrush16,
+    OCTICONS_PAINTBRUSH_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPaperAirplane16,
+    OCTICONS_PAPER_AIRPLANE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPaperAirplane24,
+    OCTICONS_PAPER_AIRPLANE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPaste16,
+    OCTICONS_PASTE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPaste24,
+    OCTICONS_PASTE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPencil16,
+    OCTICONS_PENCIL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPencil24,
+    OCTICONS_PENCIL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPeople16,
+    OCTICONS_PEOPLE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPeople24,
+    OCTICONS_PEOPLE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPerson16,
+    OCTICONS_PERSON_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPerson24,
+    OCTICONS_PERSON_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPersonAdd16,
+    OCTICONS_PERSON_ADD_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPersonAdd24,
+    OCTICONS_PERSON_ADD_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPersonFill16,
+    OCTICONS_PERSON_FILL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPersonFill24,
+    OCTICONS_PERSON_FILL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPin16,
+    OCTICONS_PIN_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPin24,
+    OCTICONS_PIN_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPlay16,
+    OCTICONS_PLAY_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPlay24,
+    OCTICONS_PLAY_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPlug16,
+    OCTICONS_PLUG_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPlug24,
+    OCTICONS_PLUG_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPlus16,
+    OCTICONS_PLUS_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPlus24,
+    OCTICONS_PLUS_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPlusCircle16,
+    OCTICONS_PLUS_CIRCLE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPlusCircle24,
+    OCTICONS_PLUS_CIRCLE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsProject16,
+    OCTICONS_PROJECT_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsProject24,
+    OCTICONS_PROJECT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPulse16,
+    OCTICONS_PULSE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsPulse24,
+    OCTICONS_PULSE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsQuestion16,
+    OCTICONS_QUESTION_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsQuestion24,
+    OCTICONS_QUESTION_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsQuote16,
+    OCTICONS_QUOTE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsQuote24,
+    OCTICONS_QUOTE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsReply16,
+    OCTICONS_REPLY_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsReply24,
+    OCTICONS_REPLY_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsRepo16,
+    OCTICONS_REPO_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsRepo24,
+    OCTICONS_REPO_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsRepoClone16,
+    OCTICONS_REPO_CLONE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsRepoDeleted16,
+    OCTICONS_REPO_DELETED_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsRepoForked16,
+    OCTICONS_REPO_FORKED_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsRepoForked24,
+    OCTICONS_REPO_FORKED_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsRepoLocked16,
+    OCTICONS_REPO_LOCKED_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsRepoPull16,
+    OCTICONS_REPO_PULL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsRepoPush16,
+    OCTICONS_REPO_PUSH_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsRepoPush24,
+    OCTICONS_REPO_PUSH_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsRepoTemplate16,
+    OCTICONS_REPO_TEMPLATE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsRepoTemplate24,
+    OCTICONS_REPO_TEMPLATE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsReport16,
+    OCTICONS_REPORT_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsReport24,
+    OCTICONS_REPORT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsRocket16,
+    OCTICONS_ROCKET_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsRocket24,
+    OCTICONS_ROCKET_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsRows16,
+    OCTICONS_ROWS_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsRows24,
+    OCTICONS_ROWS_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsRss16,
+    OCTICONS_RSS_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsRss24,
+    OCTICONS_RSS_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsRuby16,
+    OCTICONS_RUBY_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsRuby24,
+    OCTICONS_RUBY_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsScreenFull16,
+    OCTICONS_SCREEN_FULL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsScreenFull24,
+    OCTICONS_SCREEN_FULL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsScreenNormal16,
+    OCTICONS_SCREEN_NORMAL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsScreenNormal24,
+    OCTICONS_SCREEN_NORMAL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSearch16,
+    OCTICONS_SEARCH_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSearch24,
+    OCTICONS_SEARCH_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsServer16,
+    OCTICONS_SERVER_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsServer24,
+    OCTICONS_SERVER_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsShare16,
+    OCTICONS_SHARE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsShare24,
+    OCTICONS_SHARE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsShareAndroid16,
+    OCTICONS_SHARE_ANDROID_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsShareAndroid24,
+    OCTICONS_SHARE_ANDROID_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsShield16,
+    OCTICONS_SHIELD_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsShield24,
+    OCTICONS_SHIELD_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsShieldCheck16,
+    OCTICONS_SHIELD_CHECK_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsShieldCheck24,
+    OCTICONS_SHIELD_CHECK_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsShieldLock16,
+    OCTICONS_SHIELD_LOCK_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsShieldLock24,
+    OCTICONS_SHIELD_LOCK_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsShieldX16,
+    OCTICONS_SHIELD_X_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsShieldX24,
+    OCTICONS_SHIELD_X_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSidebarCollapse16,
+    OCTICONS_SIDEBAR_COLLAPSE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSidebarCollapse24,
+    OCTICONS_SIDEBAR_COLLAPSE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSidebarExpand16,
+    OCTICONS_SIDEBAR_EXPAND_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSidebarExpand24,
+    OCTICONS_SIDEBAR_EXPAND_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSignIn16,
+    OCTICONS_SIGN_IN_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSignIn24,
+    OCTICONS_SIGN_IN_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSignOut16,
+    OCTICONS_SIGN_OUT_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSignOut24,
+    OCTICONS_SIGN_OUT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSingleSelect16,
+    OCTICONS_SINGLE_SELECT_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSingleSelect24,
+    OCTICONS_SINGLE_SELECT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSkip16,
+    OCTICONS_SKIP_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSkip24,
+    OCTICONS_SKIP_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSmiley16,
+    OCTICONS_SMILEY_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSmiley24,
+    OCTICONS_SMILEY_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSortAsc16,
+    OCTICONS_SORT_ASC_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSortAsc24,
+    OCTICONS_SORT_ASC_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSortDesc16,
+    OCTICONS_SORT_DESC_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSortDesc24,
+    OCTICONS_SORT_DESC_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSquare16,
+    OCTICONS_SQUARE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSquare24,
+    OCTICONS_SQUARE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSquareFill16,
+    OCTICONS_SQUARE_FILL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSquareFill24,
+    OCTICONS_SQUARE_FILL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSquirrel16,
+    OCTICONS_SQUIRREL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSquirrel24,
+    OCTICONS_SQUIRREL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsStack16,
+    OCTICONS_STACK_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsStack24,
+    OCTICONS_STACK_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsStar16,
+    OCTICONS_STAR_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsStar24,
+    OCTICONS_STAR_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsStarFill16,
+    OCTICONS_STAR_FILL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsStarFill24,
+    OCTICONS_STAR_FILL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsStop16,
+    OCTICONS_STOP_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsStop24,
+    OCTICONS_STOP_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsStopwatch16,
+    OCTICONS_STOPWATCH_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsStopwatch24,
+    OCTICONS_STOPWATCH_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsStrikethrough16,
+    OCTICONS_STRIKETHROUGH_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsStrikethrough24,
+    OCTICONS_STRIKETHROUGH_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSun16,
+    OCTICONS_SUN_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSun24,
+    OCTICONS_SUN_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSync16,
+    OCTICONS_SYNC_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsSync24,
+    OCTICONS_SYNC_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTab24,
+    OCTICONS_TAB_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTabExternal16,
+    OCTICONS_TAB_EXTERNAL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTable16,
+    OCTICONS_TABLE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTable24,
+    OCTICONS_TABLE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTag16,
+    OCTICONS_TAG_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTag24,
+    OCTICONS_TAG_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTasklist16,
+    OCTICONS_TASKLIST_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTasklist24,
+    OCTICONS_TASKLIST_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTelescope16,
+    OCTICONS_TELESCOPE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTelescope24,
+    OCTICONS_TELESCOPE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTelescopeFill16,
+    OCTICONS_TELESCOPE_FILL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTelescopeFill24,
+    OCTICONS_TELESCOPE_FILL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTerminal16,
+    OCTICONS_TERMINAL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTerminal24,
+    OCTICONS_TERMINAL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsThreeBars16,
+    OCTICONS_THREE_BARS_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsThumbsdown16,
+    OCTICONS_THUMBSDOWN_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsThumbsdown24,
+    OCTICONS_THUMBSDOWN_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsThumbsup16,
+    OCTICONS_THUMBSUP_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsThumbsup24,
+    OCTICONS_THUMBSUP_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTools16,
+    OCTICONS_TOOLS_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTools24,
+    OCTICONS_TOOLS_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTrash16,
+    OCTICONS_TRASH_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTrash24,
+    OCTICONS_TRASH_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTriangleDown16,
+    OCTICONS_TRIANGLE_DOWN_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTriangleDown24,
+    OCTICONS_TRIANGLE_DOWN_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTriangleLeft16,
+    OCTICONS_TRIANGLE_LEFT_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTriangleLeft24,
+    OCTICONS_TRIANGLE_LEFT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTriangleRight16,
+    OCTICONS_TRIANGLE_RIGHT_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTriangleRight24,
+    OCTICONS_TRIANGLE_RIGHT_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTriangleUp16,
+    OCTICONS_TRIANGLE_UP_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTriangleUp24,
+    OCTICONS_TRIANGLE_UP_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTrophy16,
+    OCTICONS_TROPHY_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTrophy24,
+    OCTICONS_TROPHY_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTypography16,
+    OCTICONS_TYPOGRAPHY_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsTypography24,
+    OCTICONS_TYPOGRAPHY_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsUnfold16,
+    OCTICONS_UNFOLD_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsUnfold24,
+    OCTICONS_UNFOLD_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsUnlock16,
+    OCTICONS_UNLOCK_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsUnlock24,
+    OCTICONS_UNLOCK_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsUnmute16,
+    OCTICONS_UNMUTE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsUnmute24,
+    OCTICONS_UNMUTE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsUnverified16,
+    OCTICONS_UNVERIFIED_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsUnverified24,
+    OCTICONS_UNVERIFIED_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsUpload16,
+    OCTICONS_UPLOAD_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsUpload24,
+    OCTICONS_UPLOAD_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsVerified16,
+    OCTICONS_VERIFIED_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsVerified24,
+    OCTICONS_VERIFIED_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsVersions16,
+    OCTICONS_VERSIONS_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsVersions24,
+    OCTICONS_VERSIONS_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsVideo16,
+    OCTICONS_VIDEO_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsVideo24,
+    OCTICONS_VIDEO_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsWebhook16,
+    OCTICONS_WEBHOOK_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsWorkflow16,
+    OCTICONS_WORKFLOW_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsWorkflow24,
+    OCTICONS_WORKFLOW_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsX16,
+    OCTICONS_X_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsX24,
+    OCTICONS_X_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsXCircle16,
+    OCTICONS_X_CIRCLE_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsXCircle24,
+    OCTICONS_X_CIRCLE_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsXCircleFill12,
+    OCTICONS_X_CIRCLE_FILL_12,
     #[cfg(feature = "octicons")]
-    Self::OcticonsXCircleFill16,
+    OCTICONS_X_CIRCLE_FILL_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsXCircleFill24,
+    OCTICONS_X_CIRCLE_FILL_24,
     #[cfg(feature = "octicons")]
-    Self::OcticonsZap16,
+    OCTICONS_ZAP_16,
     #[cfg(feature = "octicons")]
-    Self::OcticonsZap24,
+    OCTICONS_ZAP_24,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIcons1001Tracklists,
+    SIMPLE_ICONS_1001_TRACKLISTS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIcons1Password,
+    SIMPLE_ICONS_1_PASSWORD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIcons3M,
+    SIMPLE_ICONS_3_M,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIcons42,
+    SIMPLE_ICONS_42,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIcons4Chan,
+    SIMPLE_ICONS_4_CHAN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIcons4D,
+    SIMPLE_ICONS_4_D,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIcons500Px,
+    SIMPLE_ICONS_500_PX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAbbott,
+    SIMPLE_ICONS_ABBOTT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAbbrobotstudio,
+    SIMPLE_ICONS_ABBROBOTSTUDIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAbbvie,
+    SIMPLE_ICONS_ABBVIE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAbletonlive,
+    SIMPLE_ICONS_ABLETONLIVE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAboutdotme,
+    SIMPLE_ICONS_ABOUTDOTME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAbstract,
+    SIMPLE_ICONS_ABSTRACT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAcademia,
+    SIMPLE_ICONS_ACADEMIA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAccenture,
+    SIMPLE_ICONS_ACCENTURE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAcclaim,
+    SIMPLE_ICONS_ACCLAIM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAccusoft,
+    SIMPLE_ICONS_ACCUSOFT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAcer,
+    SIMPLE_ICONS_ACER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAcm,
+    SIMPLE_ICONS_ACM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsActigraph,
+    SIMPLE_ICONS_ACTIGRAPH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsActivision,
+    SIMPLE_ICONS_ACTIVISION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdafruit,
+    SIMPLE_ICONS_ADAFRUIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdblock,
+    SIMPLE_ICONS_ADBLOCK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdblockplus,
+    SIMPLE_ICONS_ADBLOCKPLUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAddthis,
+    SIMPLE_ICONS_ADDTHIS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdguard,
+    SIMPLE_ICONS_ADGUARD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdidas,
+    SIMPLE_ICONS_ADIDAS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdminer,
+    SIMPLE_ICONS_ADMINER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdobe,
+    SIMPLE_ICONS_ADOBE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdobeacrobatreader,
+    SIMPLE_ICONS_ADOBEACROBATREADER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdobeaftereffects,
+    SIMPLE_ICONS_ADOBEAFTEREFFECTS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdobeaudition,
+    SIMPLE_ICONS_ADOBEAUDITION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdobecreativecloud,
+    SIMPLE_ICONS_ADOBECREATIVECLOUD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdobedreamweaver,
+    SIMPLE_ICONS_ADOBEDREAMWEAVER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdobefonts,
+    SIMPLE_ICONS_ADOBEFONTS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdobeillustrator,
+    SIMPLE_ICONS_ADOBEILLUSTRATOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdobeindesign,
+    SIMPLE_ICONS_ADOBEINDESIGN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdobelightroom,
+    SIMPLE_ICONS_ADOBELIGHTROOM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdobelightroomclassic,
+    SIMPLE_ICONS_ADOBELIGHTROOMCLASSIC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdobephotoshop,
+    SIMPLE_ICONS_ADOBEPHOTOSHOP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdobepremierepro,
+    SIMPLE_ICONS_ADOBEPREMIEREPRO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdobexd,
+    SIMPLE_ICONS_ADOBEXD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdonisjs,
+    SIMPLE_ICONS_ADONISJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdp,
+    SIMPLE_ICONS_ADP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAdyen,
+    SIMPLE_ICONS_ADYEN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAerlingus,
+    SIMPLE_ICONS_AERLINGUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAeroflot,
+    SIMPLE_ICONS_AEROFLOT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAeromexico,
+    SIMPLE_ICONS_AEROMEXICO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAerospike,
+    SIMPLE_ICONS_AEROSPIKE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAew,
+    SIMPLE_ICONS_AEW,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAffinity,
+    SIMPLE_ICONS_AFFINITY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAffinitydesigner,
+    SIMPLE_ICONS_AFFINITYDESIGNER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAffinityphoto,
+    SIMPLE_ICONS_AFFINITYPHOTO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAffinitypublisher,
+    SIMPLE_ICONS_AFFINITYPUBLISHER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAframe,
+    SIMPLE_ICONS_AFRAME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAgora,
+    SIMPLE_ICONS_AGORA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAib,
+    SIMPLE_ICONS_AIB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAidungeon,
+    SIMPLE_ICONS_AIDUNGEON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAiohttp,
+    SIMPLE_ICONS_AIOHTTP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAiqfome,
+    SIMPLE_ICONS_AIQFOME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAirasia,
+    SIMPLE_ICONS_AIRASIA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAirbnb,
+    SIMPLE_ICONS_AIRBNB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAirbus,
+    SIMPLE_ICONS_AIRBUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAirbyte,
+    SIMPLE_ICONS_AIRBYTE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAircall,
+    SIMPLE_ICONS_AIRCALL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAircanada,
+    SIMPLE_ICONS_AIRCANADA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAirchina,
+    SIMPLE_ICONS_AIRCHINA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAirfrance,
+    SIMPLE_ICONS_AIRFRANCE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAirplayaudio,
+    SIMPLE_ICONS_AIRPLAYAUDIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAirplayvideo,
+    SIMPLE_ICONS_AIRPLAYVIDEO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAirtable,
+    SIMPLE_ICONS_AIRTABLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAjv,
+    SIMPLE_ICONS_AJV,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAkamai,
+    SIMPLE_ICONS_AKAMAI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAlacritty,
+    SIMPLE_ICONS_ALACRITTY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAlbertheijn,
+    SIMPLE_ICONS_ALBERTHEIJN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAlchemy,
+    SIMPLE_ICONS_ALCHEMY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAldinord,
+    SIMPLE_ICONS_ALDINORD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAldisud,
+    SIMPLE_ICONS_ALDISUD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAlfaromeo,
+    SIMPLE_ICONS_ALFAROMEO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAlfred,
+    SIMPLE_ICONS_ALFRED,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAlgolia,
+    SIMPLE_ICONS_ALGOLIA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAlgorand,
+    SIMPLE_ICONS_ALGORAND,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAlibabacloud,
+    SIMPLE_ICONS_ALIBABACLOUD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAlibabadotcom,
+    SIMPLE_ICONS_ALIBABADOTCOM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAliexpress,
+    SIMPLE_ICONS_ALIEXPRESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAlipay,
+    SIMPLE_ICONS_ALIPAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAlitalia,
+    SIMPLE_ICONS_ALITALIA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAllegro,
+    SIMPLE_ICONS_ALLEGRO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAlliedmodders,
+    SIMPLE_ICONS_ALLIEDMODDERS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAllocine,
+    SIMPLE_ICONS_ALLOCINE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAlltrails,
+    SIMPLE_ICONS_ALLTRAILS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAlpinedotjs,
+    SIMPLE_ICONS_ALPINEDOTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAlpinelinux,
+    SIMPLE_ICONS_ALPINELINUX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAltiumdesigner,
+    SIMPLE_ICONS_ALTIUMDESIGNER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAlwaysdata,
+    SIMPLE_ICONS_ALWAYSDATA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmazon,
+    SIMPLE_ICONS_AMAZON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmazonalexa,
+    SIMPLE_ICONS_AMAZONALEXA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmazonapigateway,
+    SIMPLE_ICONS_AMAZONAPIGATEWAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmazonaws,
+    SIMPLE_ICONS_AMAZONAWS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmazoncloudwatch,
+    SIMPLE_ICONS_AMAZONCLOUDWATCH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmazondynamodb,
+    SIMPLE_ICONS_AMAZONDYNAMODB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmazonec2,
+    SIMPLE_ICONS_AMAZONEC_2,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmazonecs,
+    SIMPLE_ICONS_AMAZONECS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmazoneks,
+    SIMPLE_ICONS_AMAZONEKS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmazonfiretv,
+    SIMPLE_ICONS_AMAZONFIRETV,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmazongames,
+    SIMPLE_ICONS_AMAZONGAMES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmazonlumberyard,
+    SIMPLE_ICONS_AMAZONLUMBERYARD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmazonpay,
+    SIMPLE_ICONS_AMAZONPAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmazonprime,
+    SIMPLE_ICONS_AMAZONPRIME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmazonrds,
+    SIMPLE_ICONS_AMAZONRDS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmazons3,
+    SIMPLE_ICONS_AMAZONS_3,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmazonsqs,
+    SIMPLE_ICONS_AMAZONSQS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmd,
+    SIMPLE_ICONS_AMD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmericanairlines,
+    SIMPLE_ICONS_AMERICANAIRLINES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmericanexpress,
+    SIMPLE_ICONS_AMERICANEXPRESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmg,
+    SIMPLE_ICONS_AMG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmp,
+    SIMPLE_ICONS_AMP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAmul,
+    SIMPLE_ICONS_AMUL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAna,
+    SIMPLE_ICONS_ANA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAnaconda,
+    SIMPLE_ICONS_ANACONDA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAnalogue,
+    SIMPLE_ICONS_ANALOGUE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAnchor,
+    SIMPLE_ICONS_ANCHOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAndela,
+    SIMPLE_ICONS_ANDELA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAndroid,
+    SIMPLE_ICONS_ANDROID,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAndroidauto,
+    SIMPLE_ICONS_ANDROIDAUTO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAndroidstudio,
+    SIMPLE_ICONS_ANDROIDSTUDIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAngellist,
+    SIMPLE_ICONS_ANGELLIST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAngular,
+    SIMPLE_ICONS_ANGULAR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAngularjs,
+    SIMPLE_ICONS_ANGULARJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAngularuniversal,
+    SIMPLE_ICONS_ANGULARUNIVERSAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAnilist,
+    SIMPLE_ICONS_ANILIST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAnsible,
+    SIMPLE_ICONS_ANSIBLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAnswer,
+    SIMPLE_ICONS_ANSWER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAnsys,
+    SIMPLE_ICONS_ANSYS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAnta,
+    SIMPLE_ICONS_ANTA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAntdesign,
+    SIMPLE_ICONS_ANTDESIGN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAntena3,
+    SIMPLE_ICONS_ANTENA_3,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAnydesk,
+    SIMPLE_ICONS_ANYDESK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAol,
+    SIMPLE_ICONS_AOL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApache,
+    SIMPLE_ICONS_APACHE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApacheairflow,
+    SIMPLE_ICONS_APACHEAIRFLOW,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApacheant,
+    SIMPLE_ICONS_APACHEANT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApachecassandra,
+    SIMPLE_ICONS_APACHECASSANDRA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApachecloudstack,
+    SIMPLE_ICONS_APACHECLOUDSTACK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApachecordova,
+    SIMPLE_ICONS_APACHECORDOVA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApachecouchdb,
+    SIMPLE_ICONS_APACHECOUCHDB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApachedruid,
+    SIMPLE_ICONS_APACHEDRUID,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApacheecharts,
+    SIMPLE_ICONS_APACHEECHARTS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApacheflink,
+    SIMPLE_ICONS_APACHEFLINK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApachegroovy,
+    SIMPLE_ICONS_APACHEGROOVY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApachehadoop,
+    SIMPLE_ICONS_APACHEHADOOP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApachehive,
+    SIMPLE_ICONS_APACHEHIVE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApachejmeter,
+    SIMPLE_ICONS_APACHEJMETER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApachekafka,
+    SIMPLE_ICONS_APACHEKAFKA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApachekylin,
+    SIMPLE_ICONS_APACHEKYLIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApachemaven,
+    SIMPLE_ICONS_APACHEMAVEN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApachenetbeanside,
+    SIMPLE_ICONS_APACHENETBEANSIDE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApacheopenoffice,
+    SIMPLE_ICONS_APACHEOPENOFFICE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApachepulsar,
+    SIMPLE_ICONS_APACHEPULSAR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApacherocketmq,
+    SIMPLE_ICONS_APACHEROCKETMQ,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApachesolr,
+    SIMPLE_ICONS_APACHESOLR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApachespark,
+    SIMPLE_ICONS_APACHESPARK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApachetomcat,
+    SIMPLE_ICONS_APACHETOMCAT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAparat,
+    SIMPLE_ICONS_APARAT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApollographql,
+    SIMPLE_ICONS_APOLLOGRAPHQL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApostrophe,
+    SIMPLE_ICONS_APOSTROPHE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAppian,
+    SIMPLE_ICONS_APPIAN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApple,
+    SIMPLE_ICONS_APPLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApplearcade,
+    SIMPLE_ICONS_APPLEARCADE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApplemusic,
+    SIMPLE_ICONS_APPLEMUSIC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApplenews,
+    SIMPLE_ICONS_APPLENEWS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApplepay,
+    SIMPLE_ICONS_APPLEPAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsApplepodcasts,
+    SIMPLE_ICONS_APPLEPODCASTS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAppletv,
+    SIMPLE_ICONS_APPLETV,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAppsignal,
+    SIMPLE_ICONS_APPSIGNAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAppstore,
+    SIMPLE_ICONS_APPSTORE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAppveyor,
+    SIMPLE_ICONS_APPVEYOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAppwrite,
+    SIMPLE_ICONS_APPWRITE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAqua,
+    SIMPLE_ICONS_AQUA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAral,
+    SIMPLE_ICONS_ARAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsArangodb,
+    SIMPLE_ICONS_ARANGODB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsArchicad,
+    SIMPLE_ICONS_ARCHICAD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsArchiveofourown,
+    SIMPLE_ICONS_ARCHIVEOFOUROWN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsArchlinux,
+    SIMPLE_ICONS_ARCHLINUX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsArdour,
+    SIMPLE_ICONS_ARDOUR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsArduino,
+    SIMPLE_ICONS_ARDUINO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsArgo,
+    SIMPLE_ICONS_ARGO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsArgos,
+    SIMPLE_ICONS_ARGOS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsArkecosystem,
+    SIMPLE_ICONS_ARKECOSYSTEM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsArlo,
+    SIMPLE_ICONS_ARLO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsArm,
+    SIMPLE_ICONS_ARM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsArtifacthub,
+    SIMPLE_ICONS_ARTIFACTHUB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsArtixlinux,
+    SIMPLE_ICONS_ARTIXLINUX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsArtstation,
+    SIMPLE_ICONS_ARTSTATION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsArxiv,
+    SIMPLE_ICONS_ARXIV,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAsana,
+    SIMPLE_ICONS_ASANA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAsciidoctor,
+    SIMPLE_ICONS_ASCIIDOCTOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAsciinema,
+    SIMPLE_ICONS_ASCIINEMA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAsda,
+    SIMPLE_ICONS_ASDA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAseprite,
+    SIMPLE_ICONS_ASEPRITE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAskfm,
+    SIMPLE_ICONS_ASKFM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAskubuntu,
+    SIMPLE_ICONS_ASKUBUNTU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAssemblyscript,
+    SIMPLE_ICONS_ASSEMBLYSCRIPT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAstonmartin,
+    SIMPLE_ICONS_ASTONMARTIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAstro,
+    SIMPLE_ICONS_ASTRO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAsus,
+    SIMPLE_ICONS_ASUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAtandt,
+    SIMPLE_ICONS_ATANDT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAtari,
+    SIMPLE_ICONS_ATARI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAtlassian,
+    SIMPLE_ICONS_ATLASSIAN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAtom,
+    SIMPLE_ICONS_ATOM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAuchan,
+    SIMPLE_ICONS_AUCHAN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAudacity,
+    SIMPLE_ICONS_AUDACITY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAudi,
+    SIMPLE_ICONS_AUDI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAudible,
+    SIMPLE_ICONS_AUDIBLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAudioboom,
+    SIMPLE_ICONS_AUDIOBOOM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAudiomack,
+    SIMPLE_ICONS_AUDIOMACK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAudiotechnica,
+    SIMPLE_ICONS_AUDIOTECHNICA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAurelia,
+    SIMPLE_ICONS_AURELIA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAuth0,
+    SIMPLE_ICONS_AUTH_0,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAuthy,
+    SIMPLE_ICONS_AUTHY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAutodesk,
+    SIMPLE_ICONS_AUTODESK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAutohotkey,
+    SIMPLE_ICONS_AUTOHOTKEY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAutomattic,
+    SIMPLE_ICONS_AUTOMATTIC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAutoprefixer,
+    SIMPLE_ICONS_AUTOPREFIXER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAvajs,
+    SIMPLE_ICONS_AVAJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAvast,
+    SIMPLE_ICONS_AVAST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAwesomelists,
+    SIMPLE_ICONS_AWESOMELISTS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAwesomewm,
+    SIMPLE_ICONS_AWESOMEWM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAwsamplify,
+    SIMPLE_ICONS_AWSAMPLIFY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAwsfargate,
+    SIMPLE_ICONS_AWSFARGATE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAwslambda,
+    SIMPLE_ICONS_AWSLAMBDA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAxios,
+    SIMPLE_ICONS_AXIOS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAzureartifacts,
+    SIMPLE_ICONS_AZUREARTIFACTS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAzuredataexplorer,
+    SIMPLE_ICONS_AZUREDATAEXPLORER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAzuredevops,
+    SIMPLE_ICONS_AZUREDEVOPS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAzurefunctions,
+    SIMPLE_ICONS_AZUREFUNCTIONS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsAzurepipelines,
+    SIMPLE_ICONS_AZUREPIPELINES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBabel,
+    SIMPLE_ICONS_BABEL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBackblaze,
+    SIMPLE_ICONS_BACKBLAZE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBackbonedotjs,
+    SIMPLE_ICONS_BACKBONEDOTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBackendless,
+    SIMPLE_ICONS_BACKENDLESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBackstage,
+    SIMPLE_ICONS_BACKSTAGE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBadgr,
+    SIMPLE_ICONS_BADGR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBadoo,
+    SIMPLE_ICONS_BADOO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBaidu,
+    SIMPLE_ICONS_BAIDU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBamboo,
+    SIMPLE_ICONS_BAMBOO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBandcamp,
+    SIMPLE_ICONS_BANDCAMP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBandlab,
+    SIMPLE_ICONS_BANDLAB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBandrautomation,
+    SIMPLE_ICONS_BANDRAUTOMATION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBandsintown,
+    SIMPLE_ICONS_BANDSINTOWN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBankofamerica,
+    SIMPLE_ICONS_BANKOFAMERICA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBarclays,
+    SIMPLE_ICONS_BARCLAYS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBaremetrics,
+    SIMPLE_ICONS_BAREMETRICS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBasecamp,
+    SIMPLE_ICONS_BASECAMP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBastyon,
+    SIMPLE_ICONS_BASTYON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBata,
+    SIMPLE_ICONS_BATA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBathasu,
+    SIMPLE_ICONS_BATHASU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBattledotnet,
+    SIMPLE_ICONS_BATTLEDOTNET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBbc,
+    SIMPLE_ICONS_BBC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBbciplayer,
+    SIMPLE_ICONS_BBCIPLAYER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBeatport,
+    SIMPLE_ICONS_BEATPORT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBeats,
+    SIMPLE_ICONS_BEATS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBeatsbydre,
+    SIMPLE_ICONS_BEATSBYDRE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBehance,
+    SIMPLE_ICONS_BEHANCE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBeijingsubway,
+    SIMPLE_ICONS_BEIJINGSUBWAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBem,
+    SIMPLE_ICONS_BEM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBentley,
+    SIMPLE_ICONS_BENTLEY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBetfair,
+    SIMPLE_ICONS_BETFAIR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBigbasket,
+    SIMPLE_ICONS_BIGBASKET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBigbluebutton,
+    SIMPLE_ICONS_BIGBLUEBUTTON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBigcartel,
+    SIMPLE_ICONS_BIGCARTEL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBigcommerce,
+    SIMPLE_ICONS_BIGCOMMERCE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBilibili,
+    SIMPLE_ICONS_BILIBILI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBillboard,
+    SIMPLE_ICONS_BILLBOARD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBim,
+    SIMPLE_ICONS_BIM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBinance,
+    SIMPLE_ICONS_BINANCE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBiolink,
+    SIMPLE_ICONS_BIOLINK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBit,
+    SIMPLE_ICONS_BIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBitbucket,
+    SIMPLE_ICONS_BITBUCKET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBitcoin,
+    SIMPLE_ICONS_BITCOIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBitcoincash,
+    SIMPLE_ICONS_BITCOINCASH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBitcoinsv,
+    SIMPLE_ICONS_BITCOINSV,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBitdefender,
+    SIMPLE_ICONS_BITDEFENDER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBitly,
+    SIMPLE_ICONS_BITLY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBitrise,
+    SIMPLE_ICONS_BITRISE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBitwarden,
+    SIMPLE_ICONS_BITWARDEN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBitwig,
+    SIMPLE_ICONS_BITWIG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBlackberry,
+    SIMPLE_ICONS_BLACKBERRY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBlazemeter,
+    SIMPLE_ICONS_BLAZEMETER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBlazor,
+    SIMPLE_ICONS_BLAZOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBlender,
+    SIMPLE_ICONS_BLENDER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBlockchaindotcom,
+    SIMPLE_ICONS_BLOCKCHAINDOTCOM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBlogger,
+    SIMPLE_ICONS_BLOGGER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBloglovin,
+    SIMPLE_ICONS_BLOGLOVIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBlueprint,
+    SIMPLE_ICONS_BLUEPRINT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBluetooth,
+    SIMPLE_ICONS_BLUETOOTH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBmcsoftware,
+    SIMPLE_ICONS_BMCSOFTWARE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBmw,
+    SIMPLE_ICONS_BMW,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBoardgamegeek,
+    SIMPLE_ICONS_BOARDGAMEGEEK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBoehringeringelheim,
+    SIMPLE_ICONS_BOEHRINGERINGELHEIM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBoeing,
+    SIMPLE_ICONS_BOEING,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBookalope,
+    SIMPLE_ICONS_BOOKALOPE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBookbub,
+    SIMPLE_ICONS_BOOKBUB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBookmeter,
+    SIMPLE_ICONS_BOOKMETER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBookmyshow,
+    SIMPLE_ICONS_BOOKMYSHOW,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBookstack,
+    SIMPLE_ICONS_BOOKSTACK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBoost,
+    SIMPLE_ICONS_BOOST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBoots,
+    SIMPLE_ICONS_BOOTS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBootstrap,
+    SIMPLE_ICONS_BOOTSTRAP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBorgbackup,
+    SIMPLE_ICONS_BORGBACKUP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBosch,
+    SIMPLE_ICONS_BOSCH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBose,
+    SIMPLE_ICONS_BOSE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBoulanger,
+    SIMPLE_ICONS_BOULANGER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBower,
+    SIMPLE_ICONS_BOWER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBox,
+    SIMPLE_ICONS_BOX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBoxysvg,
+    SIMPLE_ICONS_BOXYSVG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBrandfolder,
+    SIMPLE_ICONS_BRANDFOLDER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBrave,
+    SIMPLE_ICONS_BRAVE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBreaker,
+    SIMPLE_ICONS_BREAKER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBritishairways,
+    SIMPLE_ICONS_BRITISHAIRWAYS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBroadcom,
+    SIMPLE_ICONS_BROADCOM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBt,
+    SIMPLE_ICONS_BT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBuddy,
+    SIMPLE_ICONS_BUDDY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBudibase,
+    SIMPLE_ICONS_BUDIBASE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBuefy,
+    SIMPLE_ICONS_BUEFY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBuffer,
+    SIMPLE_ICONS_BUFFER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBugatti,
+    SIMPLE_ICONS_BUGATTI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBugcrowd,
+    SIMPLE_ICONS_BUGCROWD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBugsnag,
+    SIMPLE_ICONS_BUGSNAG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBuildkite,
+    SIMPLE_ICONS_BUILDKITE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBukalapak,
+    SIMPLE_ICONS_BUKALAPAK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBulma,
+    SIMPLE_ICONS_BULMA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBun,
+    SIMPLE_ICONS_BUN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBunq,
+    SIMPLE_ICONS_BUNQ,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBurgerking,
+    SIMPLE_ICONS_BURGERKING,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBurton,
+    SIMPLE_ICONS_BURTON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBuymeacoffee,
+    SIMPLE_ICONS_BUYMEACOFFEE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBuzzfeed,
+    SIMPLE_ICONS_BUZZFEED,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBvg,
+    SIMPLE_ICONS_BVG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsByjus,
+    SIMPLE_ICONS_BYJUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsByte,
+    SIMPLE_ICONS_BYTE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsBytedance,
+    SIMPLE_ICONS_BYTEDANCE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsC,
+    SIMPLE_ICONS_C,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCachet,
+    SIMPLE_ICONS_CACHET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCafepress,
+    SIMPLE_ICONS_CAFEPRESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCaffeine,
+    SIMPLE_ICONS_CAFFEINE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCairographics,
+    SIMPLE_ICONS_CAIROGRAPHICS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCairometro,
+    SIMPLE_ICONS_CAIROMETRO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCakephp,
+    SIMPLE_ICONS_CAKEPHP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCampaignmonitor,
+    SIMPLE_ICONS_CAMPAIGNMONITOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCanonical,
+    SIMPLE_ICONS_CANONICAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCanva,
+    SIMPLE_ICONS_CANVA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCapacitor,
+    SIMPLE_ICONS_CAPACITOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCarrefour,
+    SIMPLE_ICONS_CARREFOUR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCarthrottle,
+    SIMPLE_ICONS_CARTHROTTLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCarto,
+    SIMPLE_ICONS_CARTO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCashapp,
+    SIMPLE_ICONS_CASHAPP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCastbox,
+    SIMPLE_ICONS_CASTBOX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCastorama,
+    SIMPLE_ICONS_CASTORAMA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCastro,
+    SIMPLE_ICONS_CASTRO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCaterpillar,
+    SIMPLE_ICONS_CATERPILLAR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCbs,
+    SIMPLE_ICONS_CBS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCdprojekt,
+    SIMPLE_ICONS_CDPROJEKT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCelery,
+    SIMPLE_ICONS_CELERY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCentos,
+    SIMPLE_ICONS_CENTOS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCeph,
+    SIMPLE_ICONS_CEPH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCesium,
+    SIMPLE_ICONS_CESIUM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsChai,
+    SIMPLE_ICONS_CHAI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsChainguard,
+    SIMPLE_ICONS_CHAINGUARD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsChainlink,
+    SIMPLE_ICONS_CHAINLINK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsChakraui,
+    SIMPLE_ICONS_CHAKRAUI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsChartdotjs,
+    SIMPLE_ICONS_CHARTDOTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsChartmogul,
+    SIMPLE_ICONS_CHARTMOGUL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsChase,
+    SIMPLE_ICONS_CHASE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsChatbot,
+    SIMPLE_ICONS_CHATBOT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCheckio,
+    SIMPLE_ICONS_CHECKIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCheckmarx,
+    SIMPLE_ICONS_CHECKMARX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsChef,
+    SIMPLE_ICONS_CHEF,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsChemex,
+    SIMPLE_ICONS_CHEMEX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsChevrolet,
+    SIMPLE_ICONS_CHEVROLET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsChinaeasternairlines,
+    SIMPLE_ICONS_CHINAEASTERNAIRLINES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsChinasouthernairlines,
+    SIMPLE_ICONS_CHINASOUTHERNAIRLINES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsChocolatey,
+    SIMPLE_ICONS_CHOCOLATEY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsChromecast,
+    SIMPLE_ICONS_CHROMECAST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsChrysler,
+    SIMPLE_ICONS_CHRYSLER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsChupachups,
+    SIMPLE_ICONS_CHUPACHUPS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCilium,
+    SIMPLE_ICONS_CILIUM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCinema4D,
+    SIMPLE_ICONS_CINEMA_4_D,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCircle,
+    SIMPLE_ICONS_CIRCLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCircleci,
+    SIMPLE_ICONS_CIRCLECI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCirrusci,
+    SIMPLE_ICONS_CIRRUSCI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCisco,
+    SIMPLE_ICONS_CISCO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCitrix,
+    SIMPLE_ICONS_CITRIX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCitroen,
+    SIMPLE_ICONS_CITROEN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCivicrm,
+    SIMPLE_ICONS_CIVICRM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCivo,
+    SIMPLE_ICONS_CIVO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCkeditor4,
+    SIMPLE_ICONS_CKEDITOR_4,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsClaris,
+    SIMPLE_ICONS_CLARIS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsClickhouse,
+    SIMPLE_ICONS_CLICKHOUSE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsClickup,
+    SIMPLE_ICONS_CLICKUP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsClion,
+    SIMPLE_ICONS_CLION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCliqz,
+    SIMPLE_ICONS_CLIQZ,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsClockify,
+    SIMPLE_ICONS_CLOCKIFY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsClojure,
+    SIMPLE_ICONS_CLOJURE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCloud66,
+    SIMPLE_ICONS_CLOUD_66,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCloudbees,
+    SIMPLE_ICONS_CLOUDBEES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCloudcannon,
+    SIMPLE_ICONS_CLOUDCANNON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCloudera,
+    SIMPLE_ICONS_CLOUDERA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCloudflare,
+    SIMPLE_ICONS_CLOUDFLARE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCloudflarepages,
+    SIMPLE_ICONS_CLOUDFLAREPAGES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCloudfoundry,
+    SIMPLE_ICONS_CLOUDFOUNDRY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCloudsmith,
+    SIMPLE_ICONS_CLOUDSMITH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCloudways,
+    SIMPLE_ICONS_CLOUDWAYS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsClubhouse,
+    SIMPLE_ICONS_CLUBHOUSE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsClyp,
+    SIMPLE_ICONS_CLYP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCmake,
+    SIMPLE_ICONS_CMAKE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCncf,
+    SIMPLE_ICONS_CNCF,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCnn,
+    SIMPLE_ICONS_CNN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCockpit,
+    SIMPLE_ICONS_COCKPIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCockroachlabs,
+    SIMPLE_ICONS_COCKROACHLABS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCocoapods,
+    SIMPLE_ICONS_COCOAPODS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCocos,
+    SIMPLE_ICONS_COCOS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCoda,
+    SIMPLE_ICONS_CODA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodacy,
+    SIMPLE_ICONS_CODACY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodeberg,
+    SIMPLE_ICONS_CODEBERG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodecademy,
+    SIMPLE_ICONS_CODECADEMY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodeceptjs,
+    SIMPLE_ICONS_CODECEPTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodechef,
+    SIMPLE_ICONS_CODECHEF,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodeclimate,
+    SIMPLE_ICONS_CODECLIMATE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodecov,
+    SIMPLE_ICONS_CODECOV,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodefactor,
+    SIMPLE_ICONS_CODEFACTOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodeforces,
+    SIMPLE_ICONS_CODEFORCES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodeigniter,
+    SIMPLE_ICONS_CODEIGNITER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodemagic,
+    SIMPLE_ICONS_CODEMAGIC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodemirror,
+    SIMPLE_ICONS_CODEMIRROR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodenewbie,
+    SIMPLE_ICONS_CODENEWBIE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodepen,
+    SIMPLE_ICONS_CODEPEN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodeproject,
+    SIMPLE_ICONS_CODEPROJECT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodereview,
+    SIMPLE_ICONS_CODEREVIEW,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodersrank,
+    SIMPLE_ICONS_CODERSRANK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCoderwall,
+    SIMPLE_ICONS_CODERWALL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodesandbox,
+    SIMPLE_ICONS_CODESANDBOX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodeship,
+    SIMPLE_ICONS_CODESHIP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodewars,
+    SIMPLE_ICONS_CODEWARS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodingame,
+    SIMPLE_ICONS_CODINGAME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodingninjas,
+    SIMPLE_ICONS_CODINGNINJAS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCodio,
+    SIMPLE_ICONS_CODIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCoffeescript,
+    SIMPLE_ICONS_COFFEESCRIPT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCognizant,
+    SIMPLE_ICONS_COGNIZANT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCoil,
+    SIMPLE_ICONS_COIL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCoinbase,
+    SIMPLE_ICONS_COINBASE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCoinmarketcap,
+    SIMPLE_ICONS_COINMARKETCAP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCommerzbank,
+    SIMPLE_ICONS_COMMERZBANK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCommitlint,
+    SIMPLE_ICONS_COMMITLINT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCommodore,
+    SIMPLE_ICONS_COMMODORE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCommonworkflowlanguage,
+    SIMPLE_ICONS_COMMONWORKFLOWLANGUAGE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsComposer,
+    SIMPLE_ICONS_COMPOSER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsComsol,
+    SIMPLE_ICONS_COMSOL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsConan,
+    SIMPLE_ICONS_CONAN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsConcourse,
+    SIMPLE_ICONS_CONCOURSE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCondaforge,
+    SIMPLE_ICONS_CONDAFORGE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsConekta,
+    SIMPLE_ICONS_CONEKTA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsConfluence,
+    SIMPLE_ICONS_CONFLUENCE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsConstruct3,
+    SIMPLE_ICONS_CONSTRUCT_3,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsConsul,
+    SIMPLE_ICONS_CONSUL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsContactlesspayment,
+    SIMPLE_ICONS_CONTACTLESSPAYMENT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsContainerd,
+    SIMPLE_ICONS_CONTAINERD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsContentful,
+    SIMPLE_ICONS_CONTENTFUL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsConventionalcommits,
+    SIMPLE_ICONS_CONVENTIONALCOMMITS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsConvertio,
+    SIMPLE_ICONS_CONVERTIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCookiecutter,
+    SIMPLE_ICONS_COOKIECUTTER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCoop,
+    SIMPLE_ICONS_COOP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCora,
+    SIMPLE_ICONS_CORA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCoronaengine,
+    SIMPLE_ICONS_CORONAENGINE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCoronarenderer,
+    SIMPLE_ICONS_CORONARENDERER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCorsair,
+    SIMPLE_ICONS_CORSAIR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCouchbase,
+    SIMPLE_ICONS_COUCHBASE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCounterstrike,
+    SIMPLE_ICONS_COUNTERSTRIKE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCountingworkspro,
+    SIMPLE_ICONS_COUNTINGWORKSPRO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCoursera,
+    SIMPLE_ICONS_COURSERA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCoveralls,
+    SIMPLE_ICONS_COVERALLS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCpanel,
+    SIMPLE_ICONS_CPANEL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCplusplus,
+    SIMPLE_ICONS_CPLUSPLUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCraftcms,
+    SIMPLE_ICONS_CRAFTCMS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCratedb,
+    SIMPLE_ICONS_CRATEDB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCrayon,
+    SIMPLE_ICONS_CRAYON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCreatereactapp,
+    SIMPLE_ICONS_CREATEREACTAPP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCreativecommons,
+    SIMPLE_ICONS_CREATIVECOMMONS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCreativetechnology,
+    SIMPLE_ICONS_CREATIVETECHNOLOGY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCredly,
+    SIMPLE_ICONS_CREDLY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCrehana,
+    SIMPLE_ICONS_CREHANA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCriticalrole,
+    SIMPLE_ICONS_CRITICALROLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCrowdin,
+    SIMPLE_ICONS_CROWDIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCrowdsource,
+    SIMPLE_ICONS_CROWDSOURCE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCrunchbase,
+    SIMPLE_ICONS_CRUNCHBASE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCrunchyroll,
+    SIMPLE_ICONS_CRUNCHYROLL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCryengine,
+    SIMPLE_ICONS_CRYENGINE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCrystal,
+    SIMPLE_ICONS_CRYSTAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCsharp,
+    SIMPLE_ICONS_CSHARP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCss3,
+    SIMPLE_ICONS_CSS_3,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCssmodules,
+    SIMPLE_ICONS_CSSMODULES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCsswizardry,
+    SIMPLE_ICONS_CSSWIZARDRY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCts,
+    SIMPLE_ICONS_CTS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCucumber,
+    SIMPLE_ICONS_CUCUMBER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCultura,
+    SIMPLE_ICONS_CULTURA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCurl,
+    SIMPLE_ICONS_CURL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCurseforge,
+    SIMPLE_ICONS_CURSEFORGE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCycling74,
+    SIMPLE_ICONS_CYCLING_74,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCypress,
+    SIMPLE_ICONS_CYPRESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsCytoscapedotjs,
+    SIMPLE_ICONS_CYTOSCAPEDOTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsD,
+    SIMPLE_ICONS_D,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsD3Dotjs,
+    SIMPLE_ICONS_D_3_DOTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDacia,
+    SIMPLE_ICONS_DACIA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDaf,
+    SIMPLE_ICONS_DAF,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDailymotion,
+    SIMPLE_ICONS_DAILYMOTION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDaimler,
+    SIMPLE_ICONS_DAIMLER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDaisyui,
+    SIMPLE_ICONS_DAISYUI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDapr,
+    SIMPLE_ICONS_DAPR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDarkreader,
+    SIMPLE_ICONS_DARKREADER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDart,
+    SIMPLE_ICONS_DART,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDarty,
+    SIMPLE_ICONS_DARTY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDaserste,
+    SIMPLE_ICONS_DASERSTE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDash,
+    SIMPLE_ICONS_DASH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDashlane,
+    SIMPLE_ICONS_DASHLANE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDask,
+    SIMPLE_ICONS_DASK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDassaultsystemes,
+    SIMPLE_ICONS_DASSAULTSYSTEMES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDatabricks,
+    SIMPLE_ICONS_DATABRICKS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDatacamp,
+    SIMPLE_ICONS_DATACAMP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDatadog,
+    SIMPLE_ICONS_DATADOG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDatadotai,
+    SIMPLE_ICONS_DATADOTAI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDatagrip,
+    SIMPLE_ICONS_DATAGRIP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDataiku,
+    SIMPLE_ICONS_DATAIKU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDatastax,
+    SIMPLE_ICONS_DATASTAX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDataverse,
+    SIMPLE_ICONS_DATAVERSE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDatocms,
+    SIMPLE_ICONS_DATOCMS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDatto,
+    SIMPLE_ICONS_DATTO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDazn,
+    SIMPLE_ICONS_DAZN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDblp,
+    SIMPLE_ICONS_DBLP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDbt,
+    SIMPLE_ICONS_DBT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDcentertainment,
+    SIMPLE_ICONS_DCENTERTAINMENT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDebian,
+    SIMPLE_ICONS_DEBIAN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDedge,
+    SIMPLE_ICONS_DEDGE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDeepin,
+    SIMPLE_ICONS_DEEPIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDeepnote,
+    SIMPLE_ICONS_DEEPNOTE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDeezer,
+    SIMPLE_ICONS_DEEZER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDelicious,
+    SIMPLE_ICONS_DELICIOUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDeliveroo,
+    SIMPLE_ICONS_DELIVEROO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDell,
+    SIMPLE_ICONS_DELL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDelonghi,
+    SIMPLE_ICONS_DELONGHI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDelphi,
+    SIMPLE_ICONS_DELPHI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDelta,
+    SIMPLE_ICONS_DELTA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDeno,
+    SIMPLE_ICONS_DENO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDependabot,
+    SIMPLE_ICONS_DEPENDABOT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDerspiegel,
+    SIMPLE_ICONS_DERSPIEGEL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDesignernews,
+    SIMPLE_ICONS_DESIGNERNEWS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDeutschebahn,
+    SIMPLE_ICONS_DEUTSCHEBAHN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDeutschebank,
+    SIMPLE_ICONS_DEUTSCHEBANK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDevdotto,
+    SIMPLE_ICONS_DEVDOTTO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDevexpress,
+    SIMPLE_ICONS_DEVEXPRESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDeviantart,
+    SIMPLE_ICONS_DEVIANTART,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDevpost,
+    SIMPLE_ICONS_DEVPOST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDevrant,
+    SIMPLE_ICONS_DEVRANT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDgraph,
+    SIMPLE_ICONS_DGRAPH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDhl,
+    SIMPLE_ICONS_DHL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDiagramsdotnet,
+    SIMPLE_ICONS_DIAGRAMSDOTNET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDialogflow,
+    SIMPLE_ICONS_DIALOGFLOW,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDiaspora,
+    SIMPLE_ICONS_DIASPORA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDigg,
+    SIMPLE_ICONS_DIGG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDigikeyelectronics,
+    SIMPLE_ICONS_DIGIKEYELECTRONICS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDigitalocean,
+    SIMPLE_ICONS_DIGITALOCEAN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDior,
+    SIMPLE_ICONS_DIOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDirectus,
+    SIMPLE_ICONS_DIRECTUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDiscogs,
+    SIMPLE_ICONS_DISCOGS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDiscord,
+    SIMPLE_ICONS_DISCORD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDiscourse,
+    SIMPLE_ICONS_DISCOURSE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDiscover,
+    SIMPLE_ICONS_DISCOVER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDisqus,
+    SIMPLE_ICONS_DISQUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDisroot,
+    SIMPLE_ICONS_DISROOT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDjango,
+    SIMPLE_ICONS_DJANGO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDlib,
+    SIMPLE_ICONS_DLIB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDlna,
+    SIMPLE_ICONS_DLNA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDm,
+    SIMPLE_ICONS_DM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDocker,
+    SIMPLE_ICONS_DOCKER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDocsdotrs,
+    SIMPLE_ICONS_DOCSDOTRS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDocusign,
+    SIMPLE_ICONS_DOCUSIGN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDogecoin,
+    SIMPLE_ICONS_DOGECOIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDolby,
+    SIMPLE_ICONS_DOLBY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDoordash,
+    SIMPLE_ICONS_DOORDASH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDotenv,
+    SIMPLE_ICONS_DOTENV,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDotnet,
+    SIMPLE_ICONS_DOTNET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDouban,
+    SIMPLE_ICONS_DOUBAN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDoubanread,
+    SIMPLE_ICONS_DOUBANREAD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDovecot,
+    SIMPLE_ICONS_DOVECOT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDpd,
+    SIMPLE_ICONS_DPD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDragonframe,
+    SIMPLE_ICONS_DRAGONFRAME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDraugiemdotlv,
+    SIMPLE_ICONS_DRAUGIEMDOTLV,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDribbble,
+    SIMPLE_ICONS_DRIBBBLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDrone,
+    SIMPLE_ICONS_DRONE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDrooble,
+    SIMPLE_ICONS_DROOBLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDropbox,
+    SIMPLE_ICONS_DROPBOX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDrupal,
+    SIMPLE_ICONS_DRUPAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDsautomobiles,
+    SIMPLE_ICONS_DSAUTOMOBILES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDtube,
+    SIMPLE_ICONS_DTUBE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDucati,
+    SIMPLE_ICONS_DUCATI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDuckdb,
+    SIMPLE_ICONS_DUCKDB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDuckduckgo,
+    SIMPLE_ICONS_DUCKDUCKGO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDungeonsanddragons,
+    SIMPLE_ICONS_DUNGEONSANDDRAGONS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDunked,
+    SIMPLE_ICONS_DUNKED,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDuolingo,
+    SIMPLE_ICONS_DUOLINGO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDvc,
+    SIMPLE_ICONS_DVC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDwavesystems,
+    SIMPLE_ICONS_DWAVESYSTEMS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDwm,
+    SIMPLE_ICONS_DWM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDynamics365,
+    SIMPLE_ICONS_DYNAMICS_365,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsDynatrace,
+    SIMPLE_ICONS_DYNATRACE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsE,
+    SIMPLE_ICONS_E,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsE3,
+    SIMPLE_ICONS_E_3,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEa,
+    SIMPLE_ICONS_EA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEagle,
+    SIMPLE_ICONS_EAGLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEasyjet,
+    SIMPLE_ICONS_EASYJET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEbay,
+    SIMPLE_ICONS_EBAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEclipseche,
+    SIMPLE_ICONS_ECLIPSECHE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEclipseide,
+    SIMPLE_ICONS_ECLIPSEIDE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEclipsejetty,
+    SIMPLE_ICONS_ECLIPSEJETTY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEclipsemosquitto,
+    SIMPLE_ICONS_ECLIPSEMOSQUITTO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEclipsevertdotx,
+    SIMPLE_ICONS_ECLIPSEVERTDOTX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEdeka,
+    SIMPLE_ICONS_EDEKA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEditorconfig,
+    SIMPLE_ICONS_EDITORCONFIG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEdotleclerc,
+    SIMPLE_ICONS_EDOTLECLERC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEdx,
+    SIMPLE_ICONS_EDX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEgghead,
+    SIMPLE_ICONS_EGGHEAD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEgnyte,
+    SIMPLE_ICONS_EGNYTE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEightsleep,
+    SIMPLE_ICONS_EIGHTSLEEP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsElastic,
+    SIMPLE_ICONS_ELASTIC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsElasticcloud,
+    SIMPLE_ICONS_ELASTICCLOUD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsElasticsearch,
+    SIMPLE_ICONS_ELASTICSEARCH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsElasticstack,
+    SIMPLE_ICONS_ELASTICSTACK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsElectron,
+    SIMPLE_ICONS_ELECTRON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsElectronbuilder,
+    SIMPLE_ICONS_ELECTRONBUILDER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsElectronfiddle,
+    SIMPLE_ICONS_ELECTRONFIDDLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsElement,
+    SIMPLE_ICONS_ELEMENT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsElementary,
+    SIMPLE_ICONS_ELEMENTARY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsElementor,
+    SIMPLE_ICONS_ELEMENTOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEleventy,
+    SIMPLE_ICONS_ELEVENTY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsElgato,
+    SIMPLE_ICONS_ELGATO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsElixir,
+    SIMPLE_ICONS_ELIXIR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEljueves,
+    SIMPLE_ICONS_ELJUEVES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEllo,
+    SIMPLE_ICONS_ELLO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsElm,
+    SIMPLE_ICONS_ELM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsElsevier,
+    SIMPLE_ICONS_ELSEVIER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEmbarcadero,
+    SIMPLE_ICONS_EMBARCADERO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEmberdotjs,
+    SIMPLE_ICONS_EMBERDOTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEmby,
+    SIMPLE_ICONS_EMBY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEmirates,
+    SIMPLE_ICONS_EMIRATES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEmlakjet,
+    SIMPLE_ICONS_EMLAKJET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEmpirekred,
+    SIMPLE_ICONS_EMPIREKRED,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEngadget,
+    SIMPLE_ICONS_ENGADGET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEnpass,
+    SIMPLE_ICONS_ENPASS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEnterprisedb,
+    SIMPLE_ICONS_ENTERPRISEDB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEnvato,
+    SIMPLE_ICONS_ENVATO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEnvoyproxy,
+    SIMPLE_ICONS_ENVOYPROXY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEpel,
+    SIMPLE_ICONS_EPEL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEpicgames,
+    SIMPLE_ICONS_EPICGAMES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEpson,
+    SIMPLE_ICONS_EPSON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEquinixmetal,
+    SIMPLE_ICONS_EQUINIXMETAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsErlang,
+    SIMPLE_ICONS_ERLANG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEsbuild,
+    SIMPLE_ICONS_ESBUILD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEsea,
+    SIMPLE_ICONS_ESEA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEslgaming,
+    SIMPLE_ICONS_ESLGAMING,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEslint,
+    SIMPLE_ICONS_ESLINT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEsphome,
+    SIMPLE_ICONS_ESPHOME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEspressif,
+    SIMPLE_ICONS_ESPRESSIF,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEtcd,
+    SIMPLE_ICONS_ETCD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEthereum,
+    SIMPLE_ICONS_ETHEREUM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEthiopianairlines,
+    SIMPLE_ICONS_ETHIOPIANAIRLINES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEtihadairways,
+    SIMPLE_ICONS_ETIHADAIRWAYS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEtsy,
+    SIMPLE_ICONS_ETSY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEventbrite,
+    SIMPLE_ICONS_EVENTBRITE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEventstore,
+    SIMPLE_ICONS_EVENTSTORE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEvernote,
+    SIMPLE_ICONS_EVERNOTE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsExercism,
+    SIMPLE_ICONS_EXERCISM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsExordo,
+    SIMPLE_ICONS_EXORDO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsExoscale,
+    SIMPLE_ICONS_EXOSCALE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsExpensify,
+    SIMPLE_ICONS_EXPENSIFY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsExpertsexchange,
+    SIMPLE_ICONS_EXPERTSEXCHANGE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsExpo,
+    SIMPLE_ICONS_EXPO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsExpress,
+    SIMPLE_ICONS_EXPRESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsExpressvpn,
+    SIMPLE_ICONS_EXPRESSVPN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsEyeem,
+    SIMPLE_ICONS_EYEEM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsF1,
+    SIMPLE_ICONS_F_1,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsF5,
+    SIMPLE_ICONS_F_5,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFacebook,
+    SIMPLE_ICONS_FACEBOOK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFacebookgaming,
+    SIMPLE_ICONS_FACEBOOKGAMING,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFacebooklive,
+    SIMPLE_ICONS_FACEBOOKLIVE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFaceit,
+    SIMPLE_ICONS_FACEIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFacepunch,
+    SIMPLE_ICONS_FACEPUNCH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFalcon,
+    SIMPLE_ICONS_FALCON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFampay,
+    SIMPLE_ICONS_FAMPAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFandango,
+    SIMPLE_ICONS_FANDANGO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFandom,
+    SIMPLE_ICONS_FANDOM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFanfou,
+    SIMPLE_ICONS_FANFOU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFantom,
+    SIMPLE_ICONS_FANTOM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFarfetch,
+    SIMPLE_ICONS_FARFETCH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFastapi,
+    SIMPLE_ICONS_FASTAPI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFastify,
+    SIMPLE_ICONS_FASTIFY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFastlane,
+    SIMPLE_ICONS_FASTLANE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFastly,
+    SIMPLE_ICONS_FASTLY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFathom,
+    SIMPLE_ICONS_FATHOM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFauna,
+    SIMPLE_ICONS_FAUNA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFavro,
+    SIMPLE_ICONS_FAVRO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFdroid,
+    SIMPLE_ICONS_FDROID,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFeathub,
+    SIMPLE_ICONS_FEATHUB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFedex,
+    SIMPLE_ICONS_FEDEX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFedora,
+    SIMPLE_ICONS_FEDORA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFeedly,
+    SIMPLE_ICONS_FEEDLY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFerrari,
+    SIMPLE_ICONS_FERRARI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFerrarinv,
+    SIMPLE_ICONS_FERRARINV,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFfmpeg,
+    SIMPLE_ICONS_FFMPEG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFiat,
+    SIMPLE_ICONS_FIAT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFidoalliance,
+    SIMPLE_ICONS_FIDOALLIANCE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFifa,
+    SIMPLE_ICONS_FIFA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFig,
+    SIMPLE_ICONS_FIG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFigma,
+    SIMPLE_ICONS_FIGMA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFigshare,
+    SIMPLE_ICONS_FIGSHARE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFila,
+    SIMPLE_ICONS_FILA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFiles,
+    SIMPLE_ICONS_FILES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFilezilla,
+    SIMPLE_ICONS_FILEZILLA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFing,
+    SIMPLE_ICONS_FING,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFirebase,
+    SIMPLE_ICONS_FIREBASE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFirefox,
+    SIMPLE_ICONS_FIREFOX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFirefoxbrowser,
+    SIMPLE_ICONS_FIREFOXBROWSER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFireship,
+    SIMPLE_ICONS_FIRESHIP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFirewalla,
+    SIMPLE_ICONS_FIREWALLA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFirst,
+    SIMPLE_ICONS_FIRST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFitbit,
+    SIMPLE_ICONS_FITBIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFite,
+    SIMPLE_ICONS_FITE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFivem,
+    SIMPLE_ICONS_FIVEM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFiverr,
+    SIMPLE_ICONS_FIVERR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFlask,
+    SIMPLE_ICONS_FLASK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFlat,
+    SIMPLE_ICONS_FLAT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFlathub,
+    SIMPLE_ICONS_FLATHUB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFlatpak,
+    SIMPLE_ICONS_FLATPAK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFlattr,
+    SIMPLE_ICONS_FLATTR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFlickr,
+    SIMPLE_ICONS_FLICKR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFlipboard,
+    SIMPLE_ICONS_FLIPBOARD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFlipkart,
+    SIMPLE_ICONS_FLIPKART,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFloatplane,
+    SIMPLE_ICONS_FLOATPLANE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFlood,
+    SIMPLE_ICONS_FLOOD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFluentbit,
+    SIMPLE_ICONS_FLUENTBIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFluentd,
+    SIMPLE_ICONS_FLUENTD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFlutter,
+    SIMPLE_ICONS_FLUTTER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFluxus,
+    SIMPLE_ICONS_FLUXUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFlyway,
+    SIMPLE_ICONS_FLYWAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFmod,
+    SIMPLE_ICONS_FMOD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFnac,
+    SIMPLE_ICONS_FNAC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFolium,
+    SIMPLE_ICONS_FOLIUM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFonoma,
+    SIMPLE_ICONS_FONOMA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFontawesome,
+    SIMPLE_ICONS_FONTAWESOME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFontbase,
+    SIMPLE_ICONS_FONTBASE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFontforge,
+    SIMPLE_ICONS_FONTFORGE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFoodpanda,
+    SIMPLE_ICONS_FOODPANDA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFord,
+    SIMPLE_ICONS_FORD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsForestry,
+    SIMPLE_ICONS_FORESTRY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFormstack,
+    SIMPLE_ICONS_FORMSTACK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFortinet,
+    SIMPLE_ICONS_FORTINET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFortran,
+    SIMPLE_ICONS_FORTRAN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFossa,
+    SIMPLE_ICONS_FOSSA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFossilscm,
+    SIMPLE_ICONS_FOSSILSCM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFoursquare,
+    SIMPLE_ICONS_FOURSQUARE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFoursquarecityguide,
+    SIMPLE_ICONS_FOURSQUARECITYGUIDE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFox,
+    SIMPLE_ICONS_FOX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFoxtel,
+    SIMPLE_ICONS_FOXTEL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFozzy,
+    SIMPLE_ICONS_FOZZY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFramer,
+    SIMPLE_ICONS_FRAMER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFramework7,
+    SIMPLE_ICONS_FRAMEWORK_7,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFranprix,
+    SIMPLE_ICONS_FRANPRIX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFraunhofergesellschaft,
+    SIMPLE_ICONS_FRAUNHOFERGESELLSCHAFT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFreebsd,
+    SIMPLE_ICONS_FREEBSD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFreecodecamp,
+    SIMPLE_ICONS_FREECODECAMP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFreedesktopdotorg,
+    SIMPLE_ICONS_FREEDESKTOPDOTORG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFreelancer,
+    SIMPLE_ICONS_FREELANCER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFreenas,
+    SIMPLE_ICONS_FREENAS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFrontendmentor,
+    SIMPLE_ICONS_FRONTENDMENTOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFsecure,
+    SIMPLE_ICONS_FSECURE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFugacloud,
+    SIMPLE_ICONS_FUGACLOUD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFujifilm,
+    SIMPLE_ICONS_FUJIFILM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFujitsu,
+    SIMPLE_ICONS_FUJITSU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFunimation,
+    SIMPLE_ICONS_FUNIMATION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFuraffinity,
+    SIMPLE_ICONS_FURAFFINITY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFurrynetwork,
+    SIMPLE_ICONS_FURRYNETWORK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsFuturelearn,
+    SIMPLE_ICONS_FUTURELEARN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsG2,
+    SIMPLE_ICONS_G_2,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsG2A,
+    SIMPLE_ICONS_G_2_A,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGameandwatch,
+    SIMPLE_ICONS_GAMEANDWATCH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGamedeveloper,
+    SIMPLE_ICONS_GAMEDEVELOPER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGamejolt,
+    SIMPLE_ICONS_GAMEJOLT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGarmin,
+    SIMPLE_ICONS_GARMIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGatling,
+    SIMPLE_ICONS_GATLING,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGatsby,
+    SIMPLE_ICONS_GATSBY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGeant,
+    SIMPLE_ICONS_GEANT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGeeksforgeeks,
+    SIMPLE_ICONS_GEEKSFORGEEKS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGeneralelectric,
+    SIMPLE_ICONS_GENERALELECTRIC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGeneralmotors,
+    SIMPLE_ICONS_GENERALMOTORS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGenius,
+    SIMPLE_ICONS_GENIUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGentoo,
+    SIMPLE_ICONS_GENTOO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGeocaching,
+    SIMPLE_ICONS_GEOCACHING,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGerrit,
+    SIMPLE_ICONS_GERRIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGhost,
+    SIMPLE_ICONS_GHOST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGhostery,
+    SIMPLE_ICONS_GHOSTERY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGimp,
+    SIMPLE_ICONS_GIMP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGiphy,
+    SIMPLE_ICONS_GIPHY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGit,
+    SIMPLE_ICONS_GIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGitbook,
+    SIMPLE_ICONS_GITBOOK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGitea,
+    SIMPLE_ICONS_GITEA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGitee,
+    SIMPLE_ICONS_GITEE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGitextensions,
+    SIMPLE_ICONS_GITEXTENSIONS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGithub,
+    SIMPLE_ICONS_GITHUB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGithubactions,
+    SIMPLE_ICONS_GITHUBACTIONS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGithubpages,
+    SIMPLE_ICONS_GITHUBPAGES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGithubsponsors,
+    SIMPLE_ICONS_GITHUBSPONSORS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGitignoredotio,
+    SIMPLE_ICONS_GITIGNOREDOTIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGitkraken,
+    SIMPLE_ICONS_GITKRAKEN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGitlab,
+    SIMPLE_ICONS_GITLAB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGitlfs,
+    SIMPLE_ICONS_GITLFS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGitpod,
+    SIMPLE_ICONS_GITPOD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGitter,
+    SIMPLE_ICONS_GITTER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGlassdoor,
+    SIMPLE_ICONS_GLASSDOOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGlitch,
+    SIMPLE_ICONS_GLITCH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGlobus,
+    SIMPLE_ICONS_GLOBUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGmail,
+    SIMPLE_ICONS_GMAIL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGnome,
+    SIMPLE_ICONS_GNOME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGnometerminal,
+    SIMPLE_ICONS_GNOMETERMINAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGnu,
+    SIMPLE_ICONS_GNU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGnubash,
+    SIMPLE_ICONS_GNUBASH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGnuemacs,
+    SIMPLE_ICONS_GNUEMACS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGnuicecat,
+    SIMPLE_ICONS_GNUICECAT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGnuprivacyguard,
+    SIMPLE_ICONS_GNUPRIVACYGUARD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGnusocial,
+    SIMPLE_ICONS_GNUSOCIAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGo,
+    SIMPLE_ICONS_GO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGocd,
+    SIMPLE_ICONS_GOCD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGodaddy,
+    SIMPLE_ICONS_GODADDY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGodotengine,
+    SIMPLE_ICONS_GODOTENGINE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGofundme,
+    SIMPLE_ICONS_GOFUNDME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGogdotcom,
+    SIMPLE_ICONS_GOGDOTCOM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGoland,
+    SIMPLE_ICONS_GOLAND,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGoldenline,
+    SIMPLE_ICONS_GOLDENLINE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGoodreads,
+    SIMPLE_ICONS_GOODREADS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGoogle,
+    SIMPLE_ICONS_GOOGLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGoogleadmob,
+    SIMPLE_ICONS_GOOGLEADMOB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGoogleads,
+    SIMPLE_ICONS_GOOGLEADS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGoogleadsense,
+    SIMPLE_ICONS_GOOGLEADSENSE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGoogleanalytics,
+    SIMPLE_ICONS_GOOGLEANALYTICS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGoogleassistant,
+    SIMPLE_ICONS_GOOGLEASSISTANT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglecalendar,
+    SIMPLE_ICONS_GOOGLECALENDAR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglecardboard,
+    SIMPLE_ICONS_GOOGLECARDBOARD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglechat,
+    SIMPLE_ICONS_GOOGLECHAT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglechrome,
+    SIMPLE_ICONS_GOOGLECHROME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGoogleclassroom,
+    SIMPLE_ICONS_GOOGLECLASSROOM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglecloud,
+    SIMPLE_ICONS_GOOGLECLOUD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglecolab,
+    SIMPLE_ICONS_GOOGLECOLAB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGoogledomains,
+    SIMPLE_ICONS_GOOGLEDOMAINS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGoogledrive,
+    SIMPLE_ICONS_GOOGLEDRIVE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGoogleearth,
+    SIMPLE_ICONS_GOOGLEEARTH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglefit,
+    SIMPLE_ICONS_GOOGLEFIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglefonts,
+    SIMPLE_ICONS_GOOGLEFONTS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglehangouts,
+    SIMPLE_ICONS_GOOGLEHANGOUTS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglehome,
+    SIMPLE_ICONS_GOOGLEHOME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglekeep,
+    SIMPLE_ICONS_GOOGLEKEEP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglelens,
+    SIMPLE_ICONS_GOOGLELENS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglemaps,
+    SIMPLE_ICONS_GOOGLEMAPS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglemarketingplatform,
+    SIMPLE_ICONS_GOOGLEMARKETINGPLATFORM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglemeet,
+    SIMPLE_ICONS_GOOGLEMEET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglemessages,
+    SIMPLE_ICONS_GOOGLEMESSAGES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglemybusiness,
+    SIMPLE_ICONS_GOOGLEMYBUSINESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglenearby,
+    SIMPLE_ICONS_GOOGLENEARBY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglenews,
+    SIMPLE_ICONS_GOOGLENEWS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGoogleoptimize,
+    SIMPLE_ICONS_GOOGLEOPTIMIZE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglepay,
+    SIMPLE_ICONS_GOOGLEPAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglephotos,
+    SIMPLE_ICONS_GOOGLEPHOTOS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGoogleplay,
+    SIMPLE_ICONS_GOOGLEPLAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglepodcasts,
+    SIMPLE_ICONS_GOOGLEPODCASTS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglescholar,
+    SIMPLE_ICONS_GOOGLESCHOLAR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglesearchconsole,
+    SIMPLE_ICONS_GOOGLESEARCHCONSOLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglesheets,
+    SIMPLE_ICONS_GOOGLESHEETS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGooglestreetview,
+    SIMPLE_ICONS_GOOGLESTREETVIEW,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGoogletagmanager,
+    SIMPLE_ICONS_GOOGLETAGMANAGER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGoogletranslate,
+    SIMPLE_ICONS_GOOGLETRANSLATE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGotomeeting,
+    SIMPLE_ICONS_GOTOMEETING,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGrab,
+    SIMPLE_ICONS_GRAB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGradle,
+    SIMPLE_ICONS_GRADLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGrafana,
+    SIMPLE_ICONS_GRAFANA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGrammarly,
+    SIMPLE_ICONS_GRAMMARLY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGrandfrais,
+    SIMPLE_ICONS_GRANDFRAIS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGraphql,
+    SIMPLE_ICONS_GRAPHQL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGrav,
+    SIMPLE_ICONS_GRAV,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGravatar,
+    SIMPLE_ICONS_GRAVATAR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGraylog,
+    SIMPLE_ICONS_GRAYLOG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGreenhouse,
+    SIMPLE_ICONS_GREENHOUSE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGreensock,
+    SIMPLE_ICONS_GREENSOCK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGriddotai,
+    SIMPLE_ICONS_GRIDDOTAI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGridsome,
+    SIMPLE_ICONS_GRIDSOME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGroupme,
+    SIMPLE_ICONS_GROUPME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGroupon,
+    SIMPLE_ICONS_GROUPON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGrubhub,
+    SIMPLE_ICONS_GRUBHUB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGrunt,
+    SIMPLE_ICONS_GRUNT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGsk,
+    SIMPLE_ICONS_GSK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGtk,
+    SIMPLE_ICONS_GTK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGuangzhoumetro,
+    SIMPLE_ICONS_GUANGZHOUMETRO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGuilded,
+    SIMPLE_ICONS_GUILDED,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGulp,
+    SIMPLE_ICONS_GULP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGumroad,
+    SIMPLE_ICONS_GUMROAD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGumtree,
+    SIMPLE_ICONS_GUMTREE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGunicorn,
+    SIMPLE_ICONS_GUNICORN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGurobi,
+    SIMPLE_ICONS_GUROBI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsGutenberg,
+    SIMPLE_ICONS_GUTENBERG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHabr,
+    SIMPLE_ICONS_HABR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHackaday,
+    SIMPLE_ICONS_HACKADAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHackclub,
+    SIMPLE_ICONS_HACKCLUB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHackerearth,
+    SIMPLE_ICONS_HACKEREARTH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHackernoon,
+    SIMPLE_ICONS_HACKERNOON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHackerone,
+    SIMPLE_ICONS_HACKERONE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHackerrank,
+    SIMPLE_ICONS_HACKERRANK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHackster,
+    SIMPLE_ICONS_HACKSTER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHackthebox,
+    SIMPLE_ICONS_HACKTHEBOX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHandlebarsdotjs,
+    SIMPLE_ICONS_HANDLEBARSDOTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHandshake,
+    SIMPLE_ICONS_HANDSHAKE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHandshakeProtocol,
+    SIMPLE_ICONS_HANDSHAKE_PROTOCOL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHappycow,
+    SIMPLE_ICONS_HAPPYCOW,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHarbor,
+    SIMPLE_ICONS_HARBOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHarmonyos,
+    SIMPLE_ICONS_HARMONYOS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHashnode,
+    SIMPLE_ICONS_HASHNODE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHaskell,
+    SIMPLE_ICONS_HASKELL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHasura,
+    SIMPLE_ICONS_HASURA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHatenabookmark,
+    SIMPLE_ICONS_HATENABOOKMARK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHaveibeenpwned,
+    SIMPLE_ICONS_HAVEIBEENPWNED,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHaxe,
+    SIMPLE_ICONS_HAXE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHbo,
+    SIMPLE_ICONS_HBO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHcl,
+    SIMPLE_ICONS_HCL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHeadlessui,
+    SIMPLE_ICONS_HEADLESSUI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHeadspace,
+    SIMPLE_ICONS_HEADSPACE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHedera,
+    SIMPLE_ICONS_HEDERA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHellofresh,
+    SIMPLE_ICONS_HELLOFRESH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHellyhansen,
+    SIMPLE_ICONS_HELLYHANSEN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHelm,
+    SIMPLE_ICONS_HELM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHelpdesk,
+    SIMPLE_ICONS_HELPDESK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHelpscout,
+    SIMPLE_ICONS_HELPSCOUT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHere,
+    SIMPLE_ICONS_HERE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHeroku,
+    SIMPLE_ICONS_HEROKU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHetzner,
+    SIMPLE_ICONS_HETZNER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHexo,
+    SIMPLE_ICONS_HEXO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHey,
+    SIMPLE_ICONS_HEY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHibernate,
+    SIMPLE_ICONS_HIBERNATE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHibob,
+    SIMPLE_ICONS_HIBOB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHilton,
+    SIMPLE_ICONS_HILTON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHitachi,
+    SIMPLE_ICONS_HITACHI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHive,
+    SIMPLE_ICONS_HIVE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHiveBlockchain,
+    SIMPLE_ICONS_HIVE_BLOCKCHAIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHomeadvisor,
+    SIMPLE_ICONS_HOMEADVISOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHomeassistant,
+    SIMPLE_ICONS_HOMEASSISTANT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHomeassistantcommunitystore,
+    SIMPLE_ICONS_HOMEASSISTANTCOMMUNITYSTORE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHomebrew,
+    SIMPLE_ICONS_HOMEBREW,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHomebridge,
+    SIMPLE_ICONS_HOMEBRIDGE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHomify,
+    SIMPLE_ICONS_HOMIFY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHonda,
+    SIMPLE_ICONS_HONDA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHoney,
+    SIMPLE_ICONS_HONEY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHootsuite,
+    SIMPLE_ICONS_HOOTSUITE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHoppscotch,
+    SIMPLE_ICONS_HOPPSCOTCH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHotelsdotcom,
+    SIMPLE_ICONS_HOTELSDOTCOM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHotjar,
+    SIMPLE_ICONS_HOTJAR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHoudini,
+    SIMPLE_ICONS_HOUDINI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHouzz,
+    SIMPLE_ICONS_HOUZZ,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHp,
+    SIMPLE_ICONS_HP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHtml5,
+    SIMPLE_ICONS_HTML_5,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHtmlacademy,
+    SIMPLE_ICONS_HTMLACADEMY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHttpie,
+    SIMPLE_ICONS_HTTPIE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHuawei,
+    SIMPLE_ICONS_HUAWEI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHubspot,
+    SIMPLE_ICONS_HUBSPOT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHugo,
+    SIMPLE_ICONS_HUGO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHulu,
+    SIMPLE_ICONS_HULU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHumblebundle,
+    SIMPLE_ICONS_HUMBLEBUNDLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHungryjacks,
+    SIMPLE_ICONS_HUNGRYJACKS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHurriyetemlak,
+    SIMPLE_ICONS_HURRIYETEMLAK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHusqvarna,
+    SIMPLE_ICONS_HUSQVARNA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHyper,
+    SIMPLE_ICONS_HYPER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHyperledger,
+    SIMPLE_ICONS_HYPERLEDGER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHypothesis,
+    SIMPLE_ICONS_HYPOTHESIS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsHyundai,
+    SIMPLE_ICONS_HYUNDAI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsI18Next,
+    SIMPLE_ICONS_I_18_NEXT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIata,
+    SIMPLE_ICONS_IATA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIbeacon,
+    SIMPLE_ICONS_IBEACON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIbm,
+    SIMPLE_ICONS_IBM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIbmcloud,
+    SIMPLE_ICONS_IBMCLOUD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIbmwatson,
+    SIMPLE_ICONS_IBMWATSON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIced,
+    SIMPLE_ICONS_ICED,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIceland,
+    SIMPLE_ICONS_ICELAND,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIcinga,
+    SIMPLE_ICONS_ICINGA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIcloud,
+    SIMPLE_ICONS_ICLOUD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIcomoon,
+    SIMPLE_ICONS_ICOMOON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIcon,
+    SIMPLE_ICONS_ICON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIconfinder,
+    SIMPLE_ICONS_ICONFINDER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIconify,
+    SIMPLE_ICONS_ICONIFY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIconjar,
+    SIMPLE_ICONS_ICONJAR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIcons8,
+    SIMPLE_ICONS_ICONS_8,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIcq,
+    SIMPLE_ICONS_ICQ,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIeee,
+    SIMPLE_ICONS_IEEE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIfixit,
+    SIMPLE_ICONS_IFIXIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIfood,
+    SIMPLE_ICONS_IFOOD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIfttt,
+    SIMPLE_ICONS_IFTTT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIheartradio,
+    SIMPLE_ICONS_IHEARTRADIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIkea,
+    SIMPLE_ICONS_IKEA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIledefrancemobilites,
+    SIMPLE_ICONS_ILEDEFRANCEMOBILITES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsImagej,
+    SIMPLE_ICONS_IMAGEJ,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsImdb,
+    SIMPLE_ICONS_IMDB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsImgur,
+    SIMPLE_ICONS_IMGUR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsImmer,
+    SIMPLE_ICONS_IMMER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsImou,
+    SIMPLE_ICONS_IMOU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIndeed,
+    SIMPLE_ICONS_INDEED,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsInfiniti,
+    SIMPLE_ICONS_INFINITI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsInfluxdb,
+    SIMPLE_ICONS_INFLUXDB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsInformatica,
+    SIMPLE_ICONS_INFORMATICA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsInfosys,
+    SIMPLE_ICONS_INFOSYS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsInfracost,
+    SIMPLE_ICONS_INFRACOST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIngress,
+    SIMPLE_ICONS_INGRESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsInkdrop,
+    SIMPLE_ICONS_INKDROP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsInkscape,
+    SIMPLE_ICONS_INKSCAPE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsInsomnia,
+    SIMPLE_ICONS_INSOMNIA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsInstacart,
+    SIMPLE_ICONS_INSTACART,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsInstagram,
+    SIMPLE_ICONS_INSTAGRAM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsInstapaper,
+    SIMPLE_ICONS_INSTAPAPER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsInstatus,
+    SIMPLE_ICONS_INSTATUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsInstructables,
+    SIMPLE_ICONS_INSTRUCTABLES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsInstructure,
+    SIMPLE_ICONS_INSTRUCTURE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIntegromat,
+    SIMPLE_ICONS_INTEGROMAT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIntel,
+    SIMPLE_ICONS_INTEL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIntellijidea,
+    SIMPLE_ICONS_INTELLIJIDEA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsInteractiondesignfoundation,
+    SIMPLE_ICONS_INTERACTIONDESIGNFOUNDATION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsInteractjs,
+    SIMPLE_ICONS_INTERACTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIntercom,
+    SIMPLE_ICONS_INTERCOM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIntermarche,
+    SIMPLE_ICONS_INTERMARCHE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsInternetarchive,
+    SIMPLE_ICONS_INTERNETARCHIVE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsInternetexplorer,
+    SIMPLE_ICONS_INTERNETEXPLORER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIntigriti,
+    SIMPLE_ICONS_INTIGRITI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsInvision,
+    SIMPLE_ICONS_INVISION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsInvoiceninja,
+    SIMPLE_ICONS_INVOICENINJA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIobroker,
+    SIMPLE_ICONS_IOBROKER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIonic,
+    SIMPLE_ICONS_IONIC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIonos,
+    SIMPLE_ICONS_IONOS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIos,
+    SIMPLE_ICONS_IOS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIota,
+    SIMPLE_ICONS_IOTA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIpfs,
+    SIMPLE_ICONS_IPFS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIssuu,
+    SIMPLE_ICONS_ISSUU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIstio,
+    SIMPLE_ICONS_ISTIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsItchdotio,
+    SIMPLE_ICONS_ITCHDOTIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIterm2,
+    SIMPLE_ICONS_ITERM_2,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsItunes,
+    SIMPLE_ICONS_ITUNES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsItvx,
+    SIMPLE_ICONS_ITVX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsIveco,
+    SIMPLE_ICONS_IVECO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJabber,
+    SIMPLE_ICONS_JABBER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJaguar,
+    SIMPLE_ICONS_JAGUAR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJamboard,
+    SIMPLE_ICONS_JAMBOARD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJameson,
+    SIMPLE_ICONS_JAMESON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJamstack,
+    SIMPLE_ICONS_JAMSTACK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJasmine,
+    SIMPLE_ICONS_JASMINE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJavascript,
+    SIMPLE_ICONS_JAVASCRIPT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJbl,
+    SIMPLE_ICONS_JBL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJcb,
+    SIMPLE_ICONS_JCB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJeep,
+    SIMPLE_ICONS_JEEP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJekyll,
+    SIMPLE_ICONS_JEKYLL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJellyfin,
+    SIMPLE_ICONS_JELLYFIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJenkins,
+    SIMPLE_ICONS_JENKINS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJenkinsx,
+    SIMPLE_ICONS_JENKINSX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJest,
+    SIMPLE_ICONS_JEST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJet,
+    SIMPLE_ICONS_JET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJetbrains,
+    SIMPLE_ICONS_JETBRAINS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJetpackcompose,
+    SIMPLE_ICONS_JETPACKCOMPOSE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJfrog,
+    SIMPLE_ICONS_JFROG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJfrogbintray,
+    SIMPLE_ICONS_JFROGBINTRAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJinja,
+    SIMPLE_ICONS_JINJA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJira,
+    SIMPLE_ICONS_JIRA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJirasoftware,
+    SIMPLE_ICONS_JIRASOFTWARE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJitsi,
+    SIMPLE_ICONS_JITSI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJohndeere,
+    SIMPLE_ICONS_JOHNDEERE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJoomla,
+    SIMPLE_ICONS_JOOMLA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJoplin,
+    SIMPLE_ICONS_JOPLIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJordan,
+    SIMPLE_ICONS_JORDAN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJpeg,
+    SIMPLE_ICONS_JPEG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJquery,
+    SIMPLE_ICONS_JQUERY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJrgroup,
+    SIMPLE_ICONS_JRGROUP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJsdelivr,
+    SIMPLE_ICONS_JSDELIVR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJsfiddle,
+    SIMPLE_ICONS_JSFIDDLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJson,
+    SIMPLE_ICONS_JSON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJsonwebtokens,
+    SIMPLE_ICONS_JSONWEBTOKENS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJss,
+    SIMPLE_ICONS_JSS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJuke,
+    SIMPLE_ICONS_JUKE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJulia,
+    SIMPLE_ICONS_JULIA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJunipernetworks,
+    SIMPLE_ICONS_JUNIPERNETWORKS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJunit5,
+    SIMPLE_ICONS_JUNIT_5,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJupyter,
+    SIMPLE_ICONS_JUPYTER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJusteat,
+    SIMPLE_ICONS_JUSTEAT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsJustgiving,
+    SIMPLE_ICONS_JUSTGIVING,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsK3S,
+    SIMPLE_ICONS_K_3_S,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsK6,
+    SIMPLE_ICONS_K_6,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKaggle,
+    SIMPLE_ICONS_KAGGLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKahoot,
+    SIMPLE_ICONS_KAHOOT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKaios,
+    SIMPLE_ICONS_KAIOS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKakao,
+    SIMPLE_ICONS_KAKAO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKakaotalk,
+    SIMPLE_ICONS_KAKAOTALK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKalilinux,
+    SIMPLE_ICONS_KALILINUX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKaniko,
+    SIMPLE_ICONS_KANIKO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKarlsruherverkehrsverbund,
+    SIMPLE_ICONS_KARLSRUHERVERKEHRSVERBUND,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKasasmart,
+    SIMPLE_ICONS_KASASMART,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKashflow,
+    SIMPLE_ICONS_KASHFLOW,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKaspersky,
+    SIMPLE_ICONS_KASPERSKY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKatacoda,
+    SIMPLE_ICONS_KATACODA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKatana,
+    SIMPLE_ICONS_KATANA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKaufland,
+    SIMPLE_ICONS_KAUFLAND,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKde,
+    SIMPLE_ICONS_KDE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKdenlive,
+    SIMPLE_ICONS_KDENLIVE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKeepachangelog,
+    SIMPLE_ICONS_KEEPACHANGELOG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKeepassxc,
+    SIMPLE_ICONS_KEEPASSXC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKentico,
+    SIMPLE_ICONS_KENTICO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKeras,
+    SIMPLE_ICONS_KERAS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKeybase,
+    SIMPLE_ICONS_KEYBASE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKeycdn,
+    SIMPLE_ICONS_KEYCDN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKeystone,
+    SIMPLE_ICONS_KEYSTONE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKfc,
+    SIMPLE_ICONS_KFC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKhanacademy,
+    SIMPLE_ICONS_KHANACADEMY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKhronosgroup,
+    SIMPLE_ICONS_KHRONOSGROUP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKia,
+    SIMPLE_ICONS_KIA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKibana,
+    SIMPLE_ICONS_KIBANA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKicad,
+    SIMPLE_ICONS_KICAD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKickstarter,
+    SIMPLE_ICONS_KICKSTARTER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKik,
+    SIMPLE_ICONS_KIK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKingstontechnology,
+    SIMPLE_ICONS_KINGSTONTECHNOLOGY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKinopoisk,
+    SIMPLE_ICONS_KINOPOISK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKirby,
+    SIMPLE_ICONS_KIRBY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKitsu,
+    SIMPLE_ICONS_KITSU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKlarna,
+    SIMPLE_ICONS_KLARNA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKlm,
+    SIMPLE_ICONS_KLM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKlook,
+    SIMPLE_ICONS_KLOOK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKnative,
+    SIMPLE_ICONS_KNATIVE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKnowledgebase,
+    SIMPLE_ICONS_KNOWLEDGEBASE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKnown,
+    SIMPLE_ICONS_KNOWN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKoa,
+    SIMPLE_ICONS_KOA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKoc,
+    SIMPLE_ICONS_KOC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKodi,
+    SIMPLE_ICONS_KODI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKofax,
+    SIMPLE_ICONS_KOFAX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKofi,
+    SIMPLE_ICONS_KOFI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKomoot,
+    SIMPLE_ICONS_KOMOOT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKonami,
+    SIMPLE_ICONS_KONAMI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKong,
+    SIMPLE_ICONS_KONG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKongregate,
+    SIMPLE_ICONS_KONGREGATE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKonva,
+    SIMPLE_ICONS_KONVA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKotlin,
+    SIMPLE_ICONS_KOTLIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKoyeb,
+    SIMPLE_ICONS_KOYEB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKrita,
+    SIMPLE_ICONS_KRITA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKtm,
+    SIMPLE_ICONS_KTM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKuaishou,
+    SIMPLE_ICONS_KUAISHOU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKubernetes,
+    SIMPLE_ICONS_KUBERNETES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKubuntu,
+    SIMPLE_ICONS_KUBUNTU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKuma,
+    SIMPLE_ICONS_KUMA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKuula,
+    SIMPLE_ICONS_KUULA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsKyocera,
+    SIMPLE_ICONS_KYOCERA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLabview,
+    SIMPLE_ICONS_LABVIEW,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLada,
+    SIMPLE_ICONS_LADA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLamborghini,
+    SIMPLE_ICONS_LAMBORGHINI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLandrover,
+    SIMPLE_ICONS_LANDROVER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLapce,
+    SIMPLE_ICONS_LAPCE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLaragon,
+    SIMPLE_ICONS_LARAGON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLaravel,
+    SIMPLE_ICONS_LARAVEL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLaravelhorizon,
+    SIMPLE_ICONS_LARAVELHORIZON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLaravelnova,
+    SIMPLE_ICONS_LARAVELNOVA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLastdotfm,
+    SIMPLE_ICONS_LASTDOTFM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLastpass,
+    SIMPLE_ICONS_LASTPASS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLatex,
+    SIMPLE_ICONS_LATEX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLaunchpad,
+    SIMPLE_ICONS_LAUNCHPAD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLazarus,
+    SIMPLE_ICONS_LAZARUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLbry,
+    SIMPLE_ICONS_LBRY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLeaderprice,
+    SIMPLE_ICONS_LEADERPRICE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLeaflet,
+    SIMPLE_ICONS_LEAFLET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLeanpub,
+    SIMPLE_ICONS_LEANPUB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLeetcode,
+    SIMPLE_ICONS_LEETCODE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLegacygames,
+    SIMPLE_ICONS_LEGACYGAMES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLemmy,
+    SIMPLE_ICONS_LEMMY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLenovo,
+    SIMPLE_ICONS_LENOVO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLens,
+    SIMPLE_ICONS_LENS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLerna,
+    SIMPLE_ICONS_LERNA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLeroymerlin,
+    SIMPLE_ICONS_LEROYMERLIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLess,
+    SIMPLE_ICONS_LESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLetsencrypt,
+    SIMPLE_ICONS_LETSENCRYPT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLetterboxd,
+    SIMPLE_ICONS_LETTERBOXD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLevelsdotfyi,
+    SIMPLE_ICONS_LEVELSDOTFYI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLg,
+    SIMPLE_ICONS_LG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLgtm,
+    SIMPLE_ICONS_LGTM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLiberapay,
+    SIMPLE_ICONS_LIBERAPAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLibrariesdotio,
+    SIMPLE_ICONS_LIBRARIESDOTIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLibrarything,
+    SIMPLE_ICONS_LIBRARYTHING,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLibreoffice,
+    SIMPLE_ICONS_LIBREOFFICE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLibuv,
+    SIMPLE_ICONS_LIBUV,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLichess,
+    SIMPLE_ICONS_LICHESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLidl,
+    SIMPLE_ICONS_LIDL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLifx,
+    SIMPLE_ICONS_LIFX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLighthouse,
+    SIMPLE_ICONS_LIGHTHOUSE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLine,
+    SIMPLE_ICONS_LINE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLineageos,
+    SIMPLE_ICONS_LINEAGEOS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLinear,
+    SIMPLE_ICONS_LINEAR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLinkedin,
+    SIMPLE_ICONS_LINKEDIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLinkerd,
+    SIMPLE_ICONS_LINKERD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLinkfire,
+    SIMPLE_ICONS_LINKFIRE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLinktree,
+    SIMPLE_ICONS_LINKTREE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLinode,
+    SIMPLE_ICONS_LINODE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLinux,
+    SIMPLE_ICONS_LINUX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLinuxcontainers,
+    SIMPLE_ICONS_LINUXCONTAINERS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLinuxfoundation,
+    SIMPLE_ICONS_LINUXFOUNDATION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLinuxmint,
+    SIMPLE_ICONS_LINUXMINT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLionair,
+    SIMPLE_ICONS_LIONAIR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLiquibase,
+    SIMPLE_ICONS_LIQUIBASE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLit,
+    SIMPLE_ICONS_LIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLitecoin,
+    SIMPLE_ICONS_LITECOIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLitiengine,
+    SIMPLE_ICONS_LITIENGINE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLivechat,
+    SIMPLE_ICONS_LIVECHAT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLivejournal,
+    SIMPLE_ICONS_LIVEJOURNAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLivewire,
+    SIMPLE_ICONS_LIVEWIRE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLlvm,
+    SIMPLE_ICONS_LLVM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLmms,
+    SIMPLE_ICONS_LMMS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLodash,
+    SIMPLE_ICONS_LODASH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLogitech,
+    SIMPLE_ICONS_LOGITECH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLogmein,
+    SIMPLE_ICONS_LOGMEIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLogstash,
+    SIMPLE_ICONS_LOGSTASH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLooker,
+    SIMPLE_ICONS_LOOKER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLoom,
+    SIMPLE_ICONS_LOOM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLoop,
+    SIMPLE_ICONS_LOOP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLoopback,
+    SIMPLE_ICONS_LOOPBACK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLospec,
+    SIMPLE_ICONS_LOSPEC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLotpolishairlines,
+    SIMPLE_ICONS_LOTPOLISHAIRLINES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLua,
+    SIMPLE_ICONS_LUA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLubuntu,
+    SIMPLE_ICONS_LUBUNTU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLudwig,
+    SIMPLE_ICONS_LUDWIG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLufthansa,
+    SIMPLE_ICONS_LUFTHANSA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLumen,
+    SIMPLE_ICONS_LUMEN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLunacy,
+    SIMPLE_ICONS_LUNACY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLydia,
+    SIMPLE_ICONS_LYDIA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsLyft,
+    SIMPLE_ICONS_LYFT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMaas,
+    SIMPLE_ICONS_MAAS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMacos,
+    SIMPLE_ICONS_MACOS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMacpaw,
+    SIMPLE_ICONS_MACPAW,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMacys,
+    SIMPLE_ICONS_MACYS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMagasinsu,
+    SIMPLE_ICONS_MAGASINSU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMagento,
+    SIMPLE_ICONS_MAGENTO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMagisk,
+    SIMPLE_ICONS_MAGISK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMailchimp,
+    SIMPLE_ICONS_MAILCHIMP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMaildotru,
+    SIMPLE_ICONS_MAILDOTRU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMailgun,
+    SIMPLE_ICONS_MAILGUN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMajorleaguehacking,
+    SIMPLE_ICONS_MAJORLEAGUEHACKING,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMakerbot,
+    SIMPLE_ICONS_MAKERBOT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMamp,
+    SIMPLE_ICONS_MAMP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMan,
+    SIMPLE_ICONS_MAN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsManageiq,
+    SIMPLE_ICONS_MANAGEIQ,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsManjaro,
+    SIMPLE_ICONS_MANJARO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMapbox,
+    SIMPLE_ICONS_MAPBOX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMariadb,
+    SIMPLE_ICONS_MARIADB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMariadbfoundation,
+    SIMPLE_ICONS_MARIADBFOUNDATION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMarkdown,
+    SIMPLE_ICONS_MARKDOWN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMarketo,
+    SIMPLE_ICONS_MARKETO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMarko,
+    SIMPLE_ICONS_MARKO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMarriott,
+    SIMPLE_ICONS_MARRIOTT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMaserati,
+    SIMPLE_ICONS_MASERATI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMastercard,
+    SIMPLE_ICONS_MASTERCARD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMastercomfig,
+    SIMPLE_ICONS_MASTERCOMFIG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMastodon,
+    SIMPLE_ICONS_MASTODON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMaterialdesign,
+    SIMPLE_ICONS_MATERIALDESIGN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMaterialdesignicons,
+    SIMPLE_ICONS_MATERIALDESIGNICONS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMatomo,
+    SIMPLE_ICONS_MATOMO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMatrix,
+    SIMPLE_ICONS_MATRIX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMatterdotjs,
+    SIMPLE_ICONS_MATTERDOTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMattermost,
+    SIMPLE_ICONS_MATTERMOST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMatternet,
+    SIMPLE_ICONS_MATTERNET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMax,
+    SIMPLE_ICONS_MAX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMaxplanckgesellschaft,
+    SIMPLE_ICONS_MAXPLANCKGESELLSCHAFT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMaytag,
+    SIMPLE_ICONS_MAYTAG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMazda,
+    SIMPLE_ICONS_MAZDA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMcafee,
+    SIMPLE_ICONS_MCAFEE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMcdonalds,
+    SIMPLE_ICONS_MCDONALDS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMclaren,
+    SIMPLE_ICONS_MCLAREN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMdbook,
+    SIMPLE_ICONS_MDBOOK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMdnwebdocs,
+    SIMPLE_ICONS_MDNWEBDOCS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMdx,
+    SIMPLE_ICONS_MDX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMediafire,
+    SIMPLE_ICONS_MEDIAFIRE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMediamarkt,
+    SIMPLE_ICONS_MEDIAMARKT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMediatek,
+    SIMPLE_ICONS_MEDIATEK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMediatemple,
+    SIMPLE_ICONS_MEDIATEMPLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMedium,
+    SIMPLE_ICONS_MEDIUM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMeetup,
+    SIMPLE_ICONS_MEETUP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMega,
+    SIMPLE_ICONS_MEGA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMendeley,
+    SIMPLE_ICONS_MENDELEY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMercadopago,
+    SIMPLE_ICONS_MERCADOPAGO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMercedes,
+    SIMPLE_ICONS_MERCEDES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMerck,
+    SIMPLE_ICONS_MERCK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMercurial,
+    SIMPLE_ICONS_MERCURIAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMessenger,
+    SIMPLE_ICONS_MESSENGER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMeta,
+    SIMPLE_ICONS_META,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMetabase,
+    SIMPLE_ICONS_METABASE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMetafilter,
+    SIMPLE_ICONS_METAFILTER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMeteor,
+    SIMPLE_ICONS_METEOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMetro,
+    SIMPLE_ICONS_METRO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMetrodelaciudaddemexico,
+    SIMPLE_ICONS_METRODELACIUDADDEMEXICO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMetrodemadrid,
+    SIMPLE_ICONS_METRODEMADRID,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMetrodeparis,
+    SIMPLE_ICONS_METRODEPARIS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMewe,
+    SIMPLE_ICONS_MEWE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrobit,
+    SIMPLE_ICONS_MICROBIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrodotblog,
+    SIMPLE_ICONS_MICRODOTBLOG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrogenetics,
+    SIMPLE_ICONS_MICROGENETICS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicropython,
+    SIMPLE_ICONS_MICROPYTHON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrosoft,
+    SIMPLE_ICONS_MICROSOFT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrosoftacademic,
+    SIMPLE_ICONS_MICROSOFTACADEMIC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrosoftaccess,
+    SIMPLE_ICONS_MICROSOFTACCESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrosoftazure,
+    SIMPLE_ICONS_MICROSOFTAZURE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrosoftbing,
+    SIMPLE_ICONS_MICROSOFTBING,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrosoftedge,
+    SIMPLE_ICONS_MICROSOFTEDGE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrosoftexcel,
+    SIMPLE_ICONS_MICROSOFTEXCEL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrosoftexchange,
+    SIMPLE_ICONS_MICROSOFTEXCHANGE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrosoftoffice,
+    SIMPLE_ICONS_MICROSOFTOFFICE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrosoftonedrive,
+    SIMPLE_ICONS_MICROSOFTONEDRIVE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrosoftonenote,
+    SIMPLE_ICONS_MICROSOFTONENOTE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrosoftoutlook,
+    SIMPLE_ICONS_MICROSOFTOUTLOOK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrosoftpowerpoint,
+    SIMPLE_ICONS_MICROSOFTPOWERPOINT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrosoftsharepoint,
+    SIMPLE_ICONS_MICROSOFTSHAREPOINT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrosoftsqlserver,
+    SIMPLE_ICONS_MICROSOFTSQLSERVER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrosoftteams,
+    SIMPLE_ICONS_MICROSOFTTEAMS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrosofttranslator,
+    SIMPLE_ICONS_MICROSOFTTRANSLATOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrosoftvisio,
+    SIMPLE_ICONS_MICROSOFTVISIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrosoftword,
+    SIMPLE_ICONS_MICROSOFTWORD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMicrostrategy,
+    SIMPLE_ICONS_MICROSTRATEGY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMidi,
+    SIMPLE_ICONS_MIDI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMinds,
+    SIMPLE_ICONS_MINDS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMinecraft,
+    SIMPLE_ICONS_MINECRAFT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMinetest,
+    SIMPLE_ICONS_MINETEST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMini,
+    SIMPLE_ICONS_MINI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMinutemailer,
+    SIMPLE_ICONS_MINUTEMAILER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMiro,
+    SIMPLE_ICONS_MIRO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMitsubishi,
+    SIMPLE_ICONS_MITSUBISHI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMix,
+    SIMPLE_ICONS_MIX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMixcloud,
+    SIMPLE_ICONS_MIXCLOUD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMlb,
+    SIMPLE_ICONS_MLB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMlflow,
+    SIMPLE_ICONS_MLFLOW,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMobx,
+    SIMPLE_ICONS_MOBX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMobxstatetree,
+    SIMPLE_ICONS_MOBXSTATETREE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMocha,
+    SIMPLE_ICONS_MOCHA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsModin,
+    SIMPLE_ICONS_MODIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsModrinth,
+    SIMPLE_ICONS_MODRINTH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsModx,
+    SIMPLE_ICONS_MODX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMojangstudios,
+    SIMPLE_ICONS_MOJANGSTUDIOS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMoleculer,
+    SIMPLE_ICONS_MOLECULER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMomenteo,
+    SIMPLE_ICONS_MOMENTEO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMonero,
+    SIMPLE_ICONS_MONERO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMoneygram,
+    SIMPLE_ICONS_MONEYGRAM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMongodb,
+    SIMPLE_ICONS_MONGODB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMonica,
+    SIMPLE_ICONS_MONICA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMonkeytie,
+    SIMPLE_ICONS_MONKEYTIE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMonogames,
+    SIMPLE_ICONS_MONOGAMES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMonoprix,
+    SIMPLE_ICONS_MONOPRIX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMonster,
+    SIMPLE_ICONS_MONSTER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMonzo,
+    SIMPLE_ICONS_MONZO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMoo,
+    SIMPLE_ICONS_MOO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMoonrepo,
+    SIMPLE_ICONS_MOONREPO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMorrisons,
+    SIMPLE_ICONS_MORRISONS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMoscowmetro,
+    SIMPLE_ICONS_MOSCOWMETRO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMotorola,
+    SIMPLE_ICONS_MOTOROLA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMozilla,
+    SIMPLE_ICONS_MOZILLA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMqtt,
+    SIMPLE_ICONS_MQTT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMsi,
+    SIMPLE_ICONS_MSI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMsibusiness,
+    SIMPLE_ICONS_MSIBUSINESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMta,
+    SIMPLE_ICONS_MTA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMtr,
+    SIMPLE_ICONS_MTR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMui,
+    SIMPLE_ICONS_MUI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMulesoft,
+    SIMPLE_ICONS_MULESOFT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMuller,
+    SIMPLE_ICONS_MULLER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMumble,
+    SIMPLE_ICONS_MUMBLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMusescore,
+    SIMPLE_ICONS_MUSESCORE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMusicbrainz,
+    SIMPLE_ICONS_MUSICBRAINZ,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMxlinux,
+    SIMPLE_ICONS_MXLINUX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMyanimelist,
+    SIMPLE_ICONS_MYANIMELIST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMyob,
+    SIMPLE_ICONS_MYOB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMyspace,
+    SIMPLE_ICONS_MYSPACE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsMysql,
+    SIMPLE_ICONS_MYSQL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsN26,
+    SIMPLE_ICONS_N_26,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNamebase,
+    SIMPLE_ICONS_NAMEBASE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNamecheap,
+    SIMPLE_ICONS_NAMECHEAP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNano,
+    SIMPLE_ICONS_NANO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNasa,
+    SIMPLE_ICONS_NASA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNationalgrid,
+    SIMPLE_ICONS_NATIONALGRID,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNativescript,
+    SIMPLE_ICONS_NATIVESCRIPT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNaver,
+    SIMPLE_ICONS_NAVER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNba,
+    SIMPLE_ICONS_NBA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNbb,
+    SIMPLE_ICONS_NBB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNdr,
+    SIMPLE_ICONS_NDR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNec,
+    SIMPLE_ICONS_NEC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNeo4J,
+    SIMPLE_ICONS_NEO_4_J,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNeovim,
+    SIMPLE_ICONS_NEOVIM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNestjs,
+    SIMPLE_ICONS_NESTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNetapp,
+    SIMPLE_ICONS_NETAPP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNetbsd,
+    SIMPLE_ICONS_NETBSD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNetflix,
+    SIMPLE_ICONS_NETFLIX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNetlify,
+    SIMPLE_ICONS_NETLIFY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNette,
+    SIMPLE_ICONS_NETTE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNetto,
+    SIMPLE_ICONS_NETTO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNeutralinojs,
+    SIMPLE_ICONS_NEUTRALINOJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNewbalance,
+    SIMPLE_ICONS_NEWBALANCE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNewjapanprowrestling,
+    SIMPLE_ICONS_NEWJAPANPROWRESTLING,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNewrelic,
+    SIMPLE_ICONS_NEWRELIC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNewyorktimes,
+    SIMPLE_ICONS_NEWYORKTIMES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNextbilliondotai,
+    SIMPLE_ICONS_NEXTBILLIONDOTAI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNextcloud,
+    SIMPLE_ICONS_NEXTCLOUD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNextdoor,
+    SIMPLE_ICONS_NEXTDOOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNextdotjs,
+    SIMPLE_ICONS_NEXTDOTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNfc,
+    SIMPLE_ICONS_NFC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNginx,
+    SIMPLE_ICONS_NGINX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNgrok,
+    SIMPLE_ICONS_NGROK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNiconico,
+    SIMPLE_ICONS_NICONICO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNike,
+    SIMPLE_ICONS_NIKE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNim,
+    SIMPLE_ICONS_NIM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNintendo,
+    SIMPLE_ICONS_NINTENDO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNintendo3Ds,
+    SIMPLE_ICONS_NINTENDO_3_DS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNintendogamecube,
+    SIMPLE_ICONS_NINTENDOGAMECUBE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNintendonetwork,
+    SIMPLE_ICONS_NINTENDONETWORK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNintendoswitch,
+    SIMPLE_ICONS_NINTENDOSWITCH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNissan,
+    SIMPLE_ICONS_NISSAN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNixos,
+    SIMPLE_ICONS_NIXOS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNodedotjs,
+    SIMPLE_ICONS_NODEDOTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNodemon,
+    SIMPLE_ICONS_NODEMON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNodered,
+    SIMPLE_ICONS_NODERED,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNokia,
+    SIMPLE_ICONS_NOKIA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNorco,
+    SIMPLE_ICONS_NORCO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNordvpn,
+    SIMPLE_ICONS_NORDVPN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNorwegian,
+    SIMPLE_ICONS_NORWEGIAN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNotepadplusplus,
+    SIMPLE_ICONS_NOTEPADPLUSPLUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNotion,
+    SIMPLE_ICONS_NOTION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNotist,
+    SIMPLE_ICONS_NOTIST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNounproject,
+    SIMPLE_ICONS_NOUNPROJECT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNovu,
+    SIMPLE_ICONS_NOVU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNow,
+    SIMPLE_ICONS_NOW,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNpm,
+    SIMPLE_ICONS_NPM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNrwl,
+    SIMPLE_ICONS_NRWL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNubank,
+    SIMPLE_ICONS_NUBANK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNucleo,
+    SIMPLE_ICONS_NUCLEO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNuget,
+    SIMPLE_ICONS_NUGET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNuke,
+    SIMPLE_ICONS_NUKE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNumba,
+    SIMPLE_ICONS_NUMBA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNumpy,
+    SIMPLE_ICONS_NUMPY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNunjucks,
+    SIMPLE_ICONS_NUNJUCKS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNutanix,
+    SIMPLE_ICONS_NUTANIX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNuxtdotjs,
+    SIMPLE_ICONS_NUXTDOTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNvidia,
+    SIMPLE_ICONS_NVIDIA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNx,
+    SIMPLE_ICONS_NX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsNzxt,
+    SIMPLE_ICONS_NZXT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsObservable,
+    SIMPLE_ICONS_OBSERVABLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsObsidian,
+    SIMPLE_ICONS_OBSIDIAN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsObsstudio,
+    SIMPLE_ICONS_OBSSTUDIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOcaml,
+    SIMPLE_ICONS_OCAML,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOctanerender,
+    SIMPLE_ICONS_OCTANERENDER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOctave,
+    SIMPLE_ICONS_OCTAVE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOctoprint,
+    SIMPLE_ICONS_OCTOPRINT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOctopusdeploy,
+    SIMPLE_ICONS_OCTOPUSDEPLOY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOculus,
+    SIMPLE_ICONS_OCULUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOdnoklassniki,
+    SIMPLE_ICONS_ODNOKLASSNIKI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOdysee,
+    SIMPLE_ICONS_ODYSEE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOhdear,
+    SIMPLE_ICONS_OHDEAR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOkcupid,
+    SIMPLE_ICONS_OKCUPID,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOkta,
+    SIMPLE_ICONS_OKTA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOneplus,
+    SIMPLE_ICONS_ONEPLUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOnlyfans,
+    SIMPLE_ICONS_ONLYFANS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOnlyoffice,
+    SIMPLE_ICONS_ONLYOFFICE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOnnx,
+    SIMPLE_ICONS_ONNX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOnstar,
+    SIMPLE_ICONS_ONSTAR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpel,
+    SIMPLE_ICONS_OPEL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpenaccess,
+    SIMPLE_ICONS_OPENACCESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpenai,
+    SIMPLE_ICONS_OPENAI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpenaigym,
+    SIMPLE_ICONS_OPENAIGYM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpenapiinitiative,
+    SIMPLE_ICONS_OPENAPIINITIATIVE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpenbadges,
+    SIMPLE_ICONS_OPENBADGES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpenbsd,
+    SIMPLE_ICONS_OPENBSD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpenbugbounty,
+    SIMPLE_ICONS_OPENBUGBOUNTY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpencollective,
+    SIMPLE_ICONS_OPENCOLLECTIVE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpencontainersinitiative,
+    SIMPLE_ICONS_OPENCONTAINERSINITIATIVE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpencv,
+    SIMPLE_ICONS_OPENCV,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpenfaas,
+    SIMPLE_ICONS_OPENFAAS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpengl,
+    SIMPLE_ICONS_OPENGL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpenid,
+    SIMPLE_ICONS_OPENID,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpenjdk,
+    SIMPLE_ICONS_OPENJDK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpenlayers,
+    SIMPLE_ICONS_OPENLAYERS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpenmined,
+    SIMPLE_ICONS_OPENMINED,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpennebula,
+    SIMPLE_ICONS_OPENNEBULA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpenproject,
+    SIMPLE_ICONS_OPENPROJECT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpensea,
+    SIMPLE_ICONS_OPENSEA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpensearch,
+    SIMPLE_ICONS_OPENSEARCH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpensourceinitiative,
+    SIMPLE_ICONS_OPENSOURCEINITIATIVE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpenssl,
+    SIMPLE_ICONS_OPENSSL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpenstack,
+    SIMPLE_ICONS_OPENSTACK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpenstreetmap,
+    SIMPLE_ICONS_OPENSTREETMAP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpensuse,
+    SIMPLE_ICONS_OPENSUSE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpentelemetry,
+    SIMPLE_ICONS_OPENTELEMETRY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpenverse,
+    SIMPLE_ICONS_OPENVERSE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpenvpn,
+    SIMPLE_ICONS_OPENVPN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpenwrt,
+    SIMPLE_ICONS_OPENWRT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpenzeppelin,
+    SIMPLE_ICONS_OPENZEPPELIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpenzfs,
+    SIMPLE_ICONS_OPENZFS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpera,
+    SIMPLE_ICONS_OPERA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpnsense,
+    SIMPLE_ICONS_OPNSENSE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpsgenie,
+    SIMPLE_ICONS_OPSGENIE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOpslevel,
+    SIMPLE_ICONS_OPSLEVEL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOracle,
+    SIMPLE_ICONS_ORACLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOrcid,
+    SIMPLE_ICONS_ORCID,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOreilly,
+    SIMPLE_ICONS_OREILLY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOrg,
+    SIMPLE_ICONS_ORG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOrigin,
+    SIMPLE_ICONS_ORIGIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOsano,
+    SIMPLE_ICONS_OSANO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOshkosh,
+    SIMPLE_ICONS_OSHKOSH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOsmc,
+    SIMPLE_ICONS_OSMC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOsu,
+    SIMPLE_ICONS_OSU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOtto,
+    SIMPLE_ICONS_OTTO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOvercast,
+    SIMPLE_ICONS_OVERCAST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOverleaf,
+    SIMPLE_ICONS_OVERLEAF,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOvh,
+    SIMPLE_ICONS_OVH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOwasp,
+    SIMPLE_ICONS_OWASP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOxygen,
+    SIMPLE_ICONS_OXYGEN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsOyo,
+    SIMPLE_ICONS_OYO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsP5Dotjs,
+    SIMPLE_ICONS_P_5_DOTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPackagist,
+    SIMPLE_ICONS_PACKAGIST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPacker,
+    SIMPLE_ICONS_PACKER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPaddypower,
+    SIMPLE_ICONS_PADDYPOWER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPagekit,
+    SIMPLE_ICONS_PAGEKIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPagerduty,
+    SIMPLE_ICONS_PAGERDUTY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPagespeedinsights,
+    SIMPLE_ICONS_PAGESPEEDINSIGHTS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPagseguro,
+    SIMPLE_ICONS_PAGSEGURO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPalantir,
+    SIMPLE_ICONS_PALANTIR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPaloaltosoftware,
+    SIMPLE_ICONS_PALOALTOSOFTWARE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPandas,
+    SIMPLE_ICONS_PANDAS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPandora,
+    SIMPLE_ICONS_PANDORA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPantheon,
+    SIMPLE_ICONS_PANTHEON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPaperspace,
+    SIMPLE_ICONS_PAPERSPACE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsParitysubstrate,
+    SIMPLE_ICONS_PARITYSUBSTRATE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsParsedotly,
+    SIMPLE_ICONS_PARSEDOTLY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPassport,
+    SIMPLE_ICONS_PASSPORT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPastebin,
+    SIMPLE_ICONS_PASTEBIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPatreon,
+    SIMPLE_ICONS_PATREON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPayoneer,
+    SIMPLE_ICONS_PAYONEER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPaypal,
+    SIMPLE_ICONS_PAYPAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPaytm,
+    SIMPLE_ICONS_PAYTM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPcgamingwiki,
+    SIMPLE_ICONS_PCGAMINGWIKI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPeakdesign,
+    SIMPLE_ICONS_PEAKDESIGN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPeertube,
+    SIMPLE_ICONS_PEERTUBE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPegasusairlines,
+    SIMPLE_ICONS_PEGASUSAIRLINES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPelican,
+    SIMPLE_ICONS_PELICAN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPeloton,
+    SIMPLE_ICONS_PELOTON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPenny,
+    SIMPLE_ICONS_PENNY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPenpot,
+    SIMPLE_ICONS_PENPOT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPepsi,
+    SIMPLE_ICONS_PEPSI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPercy,
+    SIMPLE_ICONS_PERCY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPerforce,
+    SIMPLE_ICONS_PERFORCE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPerl,
+    SIMPLE_ICONS_PERL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPersistent,
+    SIMPLE_ICONS_PERSISTENT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPersonio,
+    SIMPLE_ICONS_PERSONIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPetsathome,
+    SIMPLE_ICONS_PETSATHOME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPeugeot,
+    SIMPLE_ICONS_PEUGEOT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPexels,
+    SIMPLE_ICONS_PEXELS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPfsense,
+    SIMPLE_ICONS_PFSENSE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPhabricator,
+    SIMPLE_ICONS_PHABRICATOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPhilipshue,
+    SIMPLE_ICONS_PHILIPSHUE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPhonepe,
+    SIMPLE_ICONS_PHONEPE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPhotobucket,
+    SIMPLE_ICONS_PHOTOBUCKET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPhotocrowd,
+    SIMPLE_ICONS_PHOTOCROWD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPhotopea,
+    SIMPLE_ICONS_PHOTOPEA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPhp,
+    SIMPLE_ICONS_PHP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPhpmyadmin,
+    SIMPLE_ICONS_PHPMYADMIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPhpstorm,
+    SIMPLE_ICONS_PHPSTORM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPicardsurgeles,
+    SIMPLE_ICONS_PICARDSURGELES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPicartodottv,
+    SIMPLE_ICONS_PICARTODOTTV,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPicnic,
+    SIMPLE_ICONS_PICNIC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPicpay,
+    SIMPLE_ICONS_PICPAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPihole,
+    SIMPLE_ICONS_PIHOLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPimcore,
+    SIMPLE_ICONS_PIMCORE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPinboard,
+    SIMPLE_ICONS_PINBOARD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPingdom,
+    SIMPLE_ICONS_PINGDOM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPinterest,
+    SIMPLE_ICONS_PINTEREST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPioneerdj,
+    SIMPLE_ICONS_PIONEERDJ,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPivotaltracker,
+    SIMPLE_ICONS_PIVOTALTRACKER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPiwigo,
+    SIMPLE_ICONS_PIWIGO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPix,
+    SIMPLE_ICONS_PIX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPixabay,
+    SIMPLE_ICONS_PIXABAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPixiv,
+    SIMPLE_ICONS_PIXIV,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPkgsrc,
+    SIMPLE_ICONS_PKGSRC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPlanet,
+    SIMPLE_ICONS_PLANET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPlanetscale,
+    SIMPLE_ICONS_PLANETSCALE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPlangrid,
+    SIMPLE_ICONS_PLANGRID,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPlatformdotsh,
+    SIMPLE_ICONS_PLATFORMDOTSH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPlatzi,
+    SIMPLE_ICONS_PLATZI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPlausibleanalytics,
+    SIMPLE_ICONS_PLAUSIBLEANALYTICS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPlaycanvas,
+    SIMPLE_ICONS_PLAYCANVAS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPlayerdotme,
+    SIMPLE_ICONS_PLAYERDOTME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPlayerfm,
+    SIMPLE_ICONS_PLAYERFM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPlaystation,
+    SIMPLE_ICONS_PLAYSTATION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPlaystation2,
+    SIMPLE_ICONS_PLAYSTATION_2,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPlaystation3,
+    SIMPLE_ICONS_PLAYSTATION_3,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPlaystation4,
+    SIMPLE_ICONS_PLAYSTATION_4,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPlaystation5,
+    SIMPLE_ICONS_PLAYSTATION_5,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPlaystationvita,
+    SIMPLE_ICONS_PLAYSTATIONVITA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPlaywright,
+    SIMPLE_ICONS_PLAYWRIGHT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPleroma,
+    SIMPLE_ICONS_PLEROMA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPlesk,
+    SIMPLE_ICONS_PLESK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPlex,
+    SIMPLE_ICONS_PLEX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPlotly,
+    SIMPLE_ICONS_PLOTLY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPluralsight,
+    SIMPLE_ICONS_PLURALSIGHT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPlurk,
+    SIMPLE_ICONS_PLURK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPluscodes,
+    SIMPLE_ICONS_PLUSCODES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPm2,
+    SIMPLE_ICONS_PM_2,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPnpm,
+    SIMPLE_ICONS_PNPM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPocket,
+    SIMPLE_ICONS_POCKET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPocketbase,
+    SIMPLE_ICONS_POCKETBASE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPocketcasts,
+    SIMPLE_ICONS_POCKETCASTS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPodcastaddict,
+    SIMPLE_ICONS_PODCASTADDICT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPodman,
+    SIMPLE_ICONS_PODMAN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPoetry,
+    SIMPLE_ICONS_POETRY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPointy,
+    SIMPLE_ICONS_POINTY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPokemon,
+    SIMPLE_ICONS_POKEMON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPolars,
+    SIMPLE_ICONS_POLARS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPolkadot,
+    SIMPLE_ICONS_POLKADOT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPoly,
+    SIMPLE_ICONS_POLY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPolymerproject,
+    SIMPLE_ICONS_POLYMERPROJECT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPolywork,
+    SIMPLE_ICONS_POLYWORK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPopos,
+    SIMPLE_ICONS_POPOS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPorsche,
+    SIMPLE_ICONS_PORSCHE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPortainer,
+    SIMPLE_ICONS_PORTAINER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPostcss,
+    SIMPLE_ICONS_POSTCSS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPostgresql,
+    SIMPLE_ICONS_POSTGRESQL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPostman,
+    SIMPLE_ICONS_POSTMAN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPostmates,
+    SIMPLE_ICONS_POSTMATES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPowerapps,
+    SIMPLE_ICONS_POWERAPPS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPowerautomate,
+    SIMPLE_ICONS_POWERAUTOMATE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPowerbi,
+    SIMPLE_ICONS_POWERBI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPowerfx,
+    SIMPLE_ICONS_POWERFX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPowerpages,
+    SIMPLE_ICONS_POWERPAGES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPowers,
+    SIMPLE_ICONS_POWERS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPowershell,
+    SIMPLE_ICONS_POWERSHELL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPowervirtualagents,
+    SIMPLE_ICONS_POWERVIRTUALAGENTS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPrdotco,
+    SIMPLE_ICONS_PRDOTCO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPreact,
+    SIMPLE_ICONS_PREACT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPrecommit,
+    SIMPLE_ICONS_PRECOMMIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPremierleague,
+    SIMPLE_ICONS_PREMIERLEAGUE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPrestashop,
+    SIMPLE_ICONS_PRESTASHOP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPresto,
+    SIMPLE_ICONS_PRESTO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPrettier,
+    SIMPLE_ICONS_PRETTIER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPrevention,
+    SIMPLE_ICONS_PREVENTION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPrezi,
+    SIMPLE_ICONS_PREZI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPrime,
+    SIMPLE_ICONS_PRIME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPrimevideo,
+    SIMPLE_ICONS_PRIMEVIDEO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPrisma,
+    SIMPLE_ICONS_PRISMA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPrismic,
+    SIMPLE_ICONS_PRISMIC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPrivateinternetaccess,
+    SIMPLE_ICONS_PRIVATEINTERNETACCESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsProbot,
+    SIMPLE_ICONS_PROBOT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsProcessingfoundation,
+    SIMPLE_ICONS_PROCESSINGFOUNDATION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsProcesswire,
+    SIMPLE_ICONS_PROCESSWIRE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsProducthunt,
+    SIMPLE_ICONS_PRODUCTHUNT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsProgate,
+    SIMPLE_ICONS_PROGATE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsProgress,
+    SIMPLE_ICONS_PROGRESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPrometheus,
+    SIMPLE_ICONS_PROMETHEUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsProsieben,
+    SIMPLE_ICONS_PROSIEBEN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsProtocolsdotio,
+    SIMPLE_ICONS_PROTOCOLSDOTIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsProtodotio,
+    SIMPLE_ICONS_PROTODOTIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsProtondb,
+    SIMPLE_ICONS_PROTONDB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsProtonmail,
+    SIMPLE_ICONS_PROTONMAIL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsProtonvpn,
+    SIMPLE_ICONS_PROTONVPN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsProtools,
+    SIMPLE_ICONS_PROTOOLS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsProtractor,
+    SIMPLE_ICONS_PROTRACTOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsProxmox,
+    SIMPLE_ICONS_PROXMOX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPubg,
+    SIMPLE_ICONS_PUBG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPublons,
+    SIMPLE_ICONS_PUBLONS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPubmed,
+    SIMPLE_ICONS_PUBMED,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPug,
+    SIMPLE_ICONS_PUG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPulumi,
+    SIMPLE_ICONS_PULUMI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPuma,
+    SIMPLE_ICONS_PUMA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPuppet,
+    SIMPLE_ICONS_PUPPET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPuppeteer,
+    SIMPLE_ICONS_PUPPETEER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPurescript,
+    SIMPLE_ICONS_PURESCRIPT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPurgecss,
+    SIMPLE_ICONS_PURGECSS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPurism,
+    SIMPLE_ICONS_PURISM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPusher,
+    SIMPLE_ICONS_PUSHER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPwa,
+    SIMPLE_ICONS_PWA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPycharm,
+    SIMPLE_ICONS_PYCHARM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPyg,
+    SIMPLE_ICONS_PYG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPypi,
+    SIMPLE_ICONS_PYPI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPypy,
+    SIMPLE_ICONS_PYPY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPyscaffold,
+    SIMPLE_ICONS_PYSCAFFOLD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPysyft,
+    SIMPLE_ICONS_PYSYFT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPytest,
+    SIMPLE_ICONS_PYTEST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPython,
+    SIMPLE_ICONS_PYTHON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPytorch,
+    SIMPLE_ICONS_PYTORCH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPytorchlightning,
+    SIMPLE_ICONS_PYTORCHLIGHTNING,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsPyup,
+    SIMPLE_ICONS_PYUP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQantas,
+    SIMPLE_ICONS_QANTAS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQatarairways,
+    SIMPLE_ICONS_QATARAIRWAYS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQemu,
+    SIMPLE_ICONS_QEMU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQgis,
+    SIMPLE_ICONS_QGIS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQi,
+    SIMPLE_ICONS_QI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQiita,
+    SIMPLE_ICONS_QIITA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQiskit,
+    SIMPLE_ICONS_QISKIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQiwi,
+    SIMPLE_ICONS_QIWI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQmk,
+    SIMPLE_ICONS_QMK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQt,
+    SIMPLE_ICONS_QT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQualcomm,
+    SIMPLE_ICONS_QUALCOMM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQualtrics,
+    SIMPLE_ICONS_QUALTRICS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQualys,
+    SIMPLE_ICONS_QUALYS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQuantcast,
+    SIMPLE_ICONS_QUANTCAST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQuantconnect,
+    SIMPLE_ICONS_QUANTCONNECT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQuarkus,
+    SIMPLE_ICONS_QUARKUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQuasar,
+    SIMPLE_ICONS_QUASAR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQubesos,
+    SIMPLE_ICONS_QUBESOS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQuest,
+    SIMPLE_ICONS_QUEST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQuickbooks,
+    SIMPLE_ICONS_QUICKBOOKS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQuicklook,
+    SIMPLE_ICONS_QUICKLOOK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQuicktime,
+    SIMPLE_ICONS_QUICKTIME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQuip,
+    SIMPLE_ICONS_QUIP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQuora,
+    SIMPLE_ICONS_QUORA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQwiklabs,
+    SIMPLE_ICONS_QWIKLABS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsQzone,
+    SIMPLE_ICONS_QZONE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsR,
+    SIMPLE_ICONS_R,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsR3,
+    SIMPLE_ICONS_R_3,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRabbitmq,
+    SIMPLE_ICONS_RABBITMQ,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRacket,
+    SIMPLE_ICONS_RACKET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRadar,
+    SIMPLE_ICONS_RADAR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRadiopublic,
+    SIMPLE_ICONS_RADIOPUBLIC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRailway,
+    SIMPLE_ICONS_RAILWAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRainmeter,
+    SIMPLE_ICONS_RAINMETER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRakuten,
+    SIMPLE_ICONS_RAKUTEN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRam,
+    SIMPLE_ICONS_RAM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRancher,
+    SIMPLE_ICONS_RANCHER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRarible,
+    SIMPLE_ICONS_RARIBLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRasa,
+    SIMPLE_ICONS_RASA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRaspberrypi,
+    SIMPLE_ICONS_RASPBERRYPI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRavelry,
+    SIMPLE_ICONS_RAVELRY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRay,
+    SIMPLE_ICONS_RAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRazer,
+    SIMPLE_ICONS_RAZER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRazorpay,
+    SIMPLE_ICONS_RAZORPAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsReact,
+    SIMPLE_ICONS_REACT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsReacthookform,
+    SIMPLE_ICONS_REACTHOOKFORM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsReactivex,
+    SIMPLE_ICONS_REACTIVEX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsReactos,
+    SIMPLE_ICONS_REACTOS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsReactquery,
+    SIMPLE_ICONS_REACTQUERY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsReactrouter,
+    SIMPLE_ICONS_REACTROUTER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsReacttable,
+    SIMPLE_ICONS_REACTTABLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsReadme,
+    SIMPLE_ICONS_README,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsReadthedocs,
+    SIMPLE_ICONS_READTHEDOCS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRealm,
+    SIMPLE_ICONS_REALM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsReason,
+    SIMPLE_ICONS_REASON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsReasonstudios,
+    SIMPLE_ICONS_REASONSTUDIOS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRed,
+    SIMPLE_ICONS_RED,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRedbubble,
+    SIMPLE_ICONS_REDBUBBLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsReddit,
+    SIMPLE_ICONS_REDDIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRedhat,
+    SIMPLE_ICONS_REDHAT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRedhatopenshift,
+    SIMPLE_ICONS_REDHATOPENSHIFT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRedis,
+    SIMPLE_ICONS_REDIS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRedmine,
+    SIMPLE_ICONS_REDMINE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRedox,
+    SIMPLE_ICONS_REDOX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRedux,
+    SIMPLE_ICONS_REDUX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsReduxsaga,
+    SIMPLE_ICONS_REDUXSAGA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRedwoodjs,
+    SIMPLE_ICONS_REDWOODJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsReebok,
+    SIMPLE_ICONS_REEBOK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRelay,
+    SIMPLE_ICONS_RELAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRelianceindustrieslimited,
+    SIMPLE_ICONS_RELIANCEINDUSTRIESLIMITED,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRemix,
+    SIMPLE_ICONS_REMIX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRenault,
+    SIMPLE_ICONS_RENAULT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRender,
+    SIMPLE_ICONS_RENDER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRenovatebot,
+    SIMPLE_ICONS_RENOVATEBOT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRenpy,
+    SIMPLE_ICONS_RENPY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRenren,
+    SIMPLE_ICONS_RENREN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsReplit,
+    SIMPLE_ICONS_REPLIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRepublicofgamers,
+    SIMPLE_ICONS_REPUBLICOFGAMERS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRescript,
+    SIMPLE_ICONS_RESCRIPT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRescuetime,
+    SIMPLE_ICONS_RESCUETIME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsResearchgate,
+    SIMPLE_ICONS_RESEARCHGATE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsResharper,
+    SIMPLE_ICONS_RESHARPER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsResurrectionremixos,
+    SIMPLE_ICONS_RESURRECTIONREMIXOS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRetroarch,
+    SIMPLE_ICONS_RETROARCH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRetropie,
+    SIMPLE_ICONS_RETROPIE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRevealdotjs,
+    SIMPLE_ICONS_REVEALDOTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsReverbnation,
+    SIMPLE_ICONS_REVERBNATION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRevoltdotchat,
+    SIMPLE_ICONS_REVOLTDOTCHAT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRevolut,
+    SIMPLE_ICONS_REVOLUT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRevue,
+    SIMPLE_ICONS_REVUE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRewe,
+    SIMPLE_ICONS_REWE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRezgo,
+    SIMPLE_ICONS_REZGO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRhinoceros,
+    SIMPLE_ICONS_RHINOCEROS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRider,
+    SIMPLE_ICONS_RIDER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRimacautomobili,
+    SIMPLE_ICONS_RIMACAUTOMOBILI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRing,
+    SIMPLE_ICONS_RING,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRiotgames,
+    SIMPLE_ICONS_RIOTGAMES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRipple,
+    SIMPLE_ICONS_RIPPLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRiseup,
+    SIMPLE_ICONS_RISEUP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRoamresearch,
+    SIMPLE_ICONS_ROAMRESEARCH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRoblox,
+    SIMPLE_ICONS_ROBLOX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRobotframework,
+    SIMPLE_ICONS_ROBOTFRAMEWORK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRocketdotchat,
+    SIMPLE_ICONS_ROCKETDOTCHAT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRocksdb,
+    SIMPLE_ICONS_ROCKSDB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRockylinux,
+    SIMPLE_ICONS_ROCKYLINUX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRoku,
+    SIMPLE_ICONS_ROKU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRollsroyce,
+    SIMPLE_ICONS_ROLLSROYCE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRollupdotjs,
+    SIMPLE_ICONS_ROLLUPDOTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRome,
+    SIMPLE_ICONS_ROME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRoots,
+    SIMPLE_ICONS_ROOTS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRootsbedrock,
+    SIMPLE_ICONS_ROOTSBEDROCK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRootssage,
+    SIMPLE_ICONS_ROOTSSAGE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRos,
+    SIMPLE_ICONS_ROS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRossmann,
+    SIMPLE_ICONS_ROSSMANN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRotaryinternational,
+    SIMPLE_ICONS_ROTARYINTERNATIONAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRottentomatoes,
+    SIMPLE_ICONS_ROTTENTOMATOES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRoundcube,
+    SIMPLE_ICONS_ROUNDCUBE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRsocket,
+    SIMPLE_ICONS_RSOCKET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRss,
+    SIMPLE_ICONS_RSS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRstudio,
+    SIMPLE_ICONS_RSTUDIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRte,
+    SIMPLE_ICONS_RTE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRtl,
+    SIMPLE_ICONS_RTL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRtlzwei,
+    SIMPLE_ICONS_RTLZWEI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRubocop,
+    SIMPLE_ICONS_RUBOCOP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRuby,
+    SIMPLE_ICONS_RUBY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRubygems,
+    SIMPLE_ICONS_RUBYGEMS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRubyonrails,
+    SIMPLE_ICONS_RUBYONRAILS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRubysinatra,
+    SIMPLE_ICONS_RUBYSINATRA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRunkeeper,
+    SIMPLE_ICONS_RUNKEEPER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRunkit,
+    SIMPLE_ICONS_RUNKIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRust,
+    SIMPLE_ICONS_RUST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRxdb,
+    SIMPLE_ICONS_RXDB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsRyanair,
+    SIMPLE_ICONS_RYANAIR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsS7Airlines,
+    SIMPLE_ICONS_S_7_AIRLINES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSabanci,
+    SIMPLE_ICONS_SABANCI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSafari,
+    SIMPLE_ICONS_SAFARI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSahibinden,
+    SIMPLE_ICONS_SAHIBINDEN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSailfishos,
+    SIMPLE_ICONS_SAILFISHOS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSalesforce,
+    SIMPLE_ICONS_SALESFORCE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSaltproject,
+    SIMPLE_ICONS_SALTPROJECT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSamsung,
+    SIMPLE_ICONS_SAMSUNG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSamsungpay,
+    SIMPLE_ICONS_SAMSUNGPAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSandisk,
+    SIMPLE_ICONS_SANDISK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSanfranciscomunicipalrailway,
+    SIMPLE_ICONS_SANFRANCISCOMUNICIPALRAILWAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSaopaulometro,
+    SIMPLE_ICONS_SAOPAULOMETRO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSap,
+    SIMPLE_ICONS_SAP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSass,
+    SIMPLE_ICONS_SASS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSat1,
+    SIMPLE_ICONS_SAT_1,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSaturn,
+    SIMPLE_ICONS_SATURN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSaucelabs,
+    SIMPLE_ICONS_SAUCELABS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsScala,
+    SIMPLE_ICONS_SCALA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsScaleway,
+    SIMPLE_ICONS_SCALEWAY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsScania,
+    SIMPLE_ICONS_SCANIA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSchneiderelectric,
+    SIMPLE_ICONS_SCHNEIDERELECTRIC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsScikitlearn,
+    SIMPLE_ICONS_SCIKITLEARN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsScipy,
+    SIMPLE_ICONS_SCIPY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsScopus,
+    SIMPLE_ICONS_SCOPUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsScpfoundation,
+    SIMPLE_ICONS_SCPFOUNDATION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsScratch,
+    SIMPLE_ICONS_SCRATCH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsScreencastify,
+    SIMPLE_ICONS_SCREENCASTIFY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsScribd,
+    SIMPLE_ICONS_SCRIBD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsScrimba,
+    SIMPLE_ICONS_SCRIMBA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsScrollreveal,
+    SIMPLE_ICONS_SCROLLREVEAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsScrumalliance,
+    SIMPLE_ICONS_SCRUMALLIANCE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsScrutinizerci,
+    SIMPLE_ICONS_SCRUTINIZERCI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSeagate,
+    SIMPLE_ICONS_SEAGATE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSeat,
+    SIMPLE_ICONS_SEAT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSecurityscorecard,
+    SIMPLE_ICONS_SECURITYSCORECARD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSefaria,
+    SIMPLE_ICONS_SEFARIA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSega,
+    SIMPLE_ICONS_SEGA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSelenium,
+    SIMPLE_ICONS_SELENIUM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSellfy,
+    SIMPLE_ICONS_SELLFY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSemanticrelease,
+    SIMPLE_ICONS_SEMANTICRELEASE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSemanticscholar,
+    SIMPLE_ICONS_SEMANTICSCHOLAR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSemanticuireact,
+    SIMPLE_ICONS_SEMANTICUIREACT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSemanticweb,
+    SIMPLE_ICONS_SEMANTICWEB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSemaphoreci,
+    SIMPLE_ICONS_SEMAPHORECI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSemver,
+    SIMPLE_ICONS_SEMVER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSencha,
+    SIMPLE_ICONS_SENCHA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSendinblue,
+    SIMPLE_ICONS_SENDINBLUE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSennheiser,
+    SIMPLE_ICONS_SENNHEISER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSensu,
+    SIMPLE_ICONS_SENSU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSentry,
+    SIMPLE_ICONS_SENTRY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSepa,
+    SIMPLE_ICONS_SEPA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSequelize,
+    SIMPLE_ICONS_SEQUELIZE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsServerfault,
+    SIMPLE_ICONS_SERVERFAULT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsServerless,
+    SIMPLE_ICONS_SERVERLESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSessionize,
+    SIMPLE_ICONS_SESSIONIZE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSetapp,
+    SIMPLE_ICONS_SETAPP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSfml,
+    SIMPLE_ICONS_SFML,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsShadow,
+    SIMPLE_ICONS_SHADOW,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsShanghaimetro,
+    SIMPLE_ICONS_SHANGHAIMETRO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSharp,
+    SIMPLE_ICONS_SHARP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsShazam,
+    SIMPLE_ICONS_SHAZAM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsShell,
+    SIMPLE_ICONS_SHELL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsShelly,
+    SIMPLE_ICONS_SHELLY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsShenzhenmetro,
+    SIMPLE_ICONS_SHENZHENMETRO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsShieldsdotio,
+    SIMPLE_ICONS_SHIELDSDOTIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsShikimori,
+    SIMPLE_ICONS_SHIKIMORI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsShopee,
+    SIMPLE_ICONS_SHOPEE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsShopify,
+    SIMPLE_ICONS_SHOPIFY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsShopware,
+    SIMPLE_ICONS_SHOPWARE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsShotcut,
+    SIMPLE_ICONS_SHOTCUT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsShowpad,
+    SIMPLE_ICONS_SHOWPAD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsShowtime,
+    SIMPLE_ICONS_SHOWTIME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsShutterstock,
+    SIMPLE_ICONS_SHUTTERSTOCK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSiemens,
+    SIMPLE_ICONS_SIEMENS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSignal,
+    SIMPLE_ICONS_SIGNAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSimilarweb,
+    SIMPLE_ICONS_SIMILARWEB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSimkl,
+    SIMPLE_ICONS_SIMKL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSimpleanalytics,
+    SIMPLE_ICONS_SIMPLEANALYTICS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSimpleicons,
+    SIMPLE_ICONS_SIMPLEICONS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSimplenote,
+    SIMPLE_ICONS_SIMPLENOTE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSinaweibo,
+    SIMPLE_ICONS_SINAWEIBO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSinglestore,
+    SIMPLE_ICONS_SINGLESTORE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSitepoint,
+    SIMPLE_ICONS_SITEPOINT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSketch,
+    SIMPLE_ICONS_SKETCH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSketchfab,
+    SIMPLE_ICONS_SKETCHFAB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSketchup,
+    SIMPLE_ICONS_SKETCHUP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSkillshare,
+    SIMPLE_ICONS_SKILLSHARE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSkoda,
+    SIMPLE_ICONS_SKODA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSky,
+    SIMPLE_ICONS_SKY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSkynet,
+    SIMPLE_ICONS_SKYNET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSkypack,
+    SIMPLE_ICONS_SKYPACK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSkype,
+    SIMPLE_ICONS_SKYPE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSkypeforbusiness,
+    SIMPLE_ICONS_SKYPEFORBUSINESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSlack,
+    SIMPLE_ICONS_SLACK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSlackware,
+    SIMPLE_ICONS_SLACKWARE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSlashdot,
+    SIMPLE_ICONS_SLASHDOT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSlickpic,
+    SIMPLE_ICONS_SLICKPIC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSlides,
+    SIMPLE_ICONS_SLIDES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSlideshare,
+    SIMPLE_ICONS_SLIDESHARE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSmart,
+    SIMPLE_ICONS_SMART,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSmartthings,
+    SIMPLE_ICONS_SMARTTHINGS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSmashdotgg,
+    SIMPLE_ICONS_SMASHDOTGG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSmashingmagazine,
+    SIMPLE_ICONS_SMASHINGMAGAZINE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSmrt,
+    SIMPLE_ICONS_SMRT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSmugmug,
+    SIMPLE_ICONS_SMUGMUG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSnapchat,
+    SIMPLE_ICONS_SNAPCHAT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSnapcraft,
+    SIMPLE_ICONS_SNAPCRAFT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSncf,
+    SIMPLE_ICONS_SNCF,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSnowflake,
+    SIMPLE_ICONS_SNOWFLAKE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSnowpack,
+    SIMPLE_ICONS_SNOWPACK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSnyk,
+    SIMPLE_ICONS_SNYK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSocialblade,
+    SIMPLE_ICONS_SOCIALBLADE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSociety6,
+    SIMPLE_ICONS_SOCIETY_6,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSocketdotio,
+    SIMPLE_ICONS_SOCKETDOTIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSogou,
+    SIMPLE_ICONS_SOGOU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSolid,
+    SIMPLE_ICONS_SOLID,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSolidity,
+    SIMPLE_ICONS_SOLIDITY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSololearn,
+    SIMPLE_ICONS_SOLOLEARN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSolus,
+    SIMPLE_ICONS_SOLUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSonar,
+    SIMPLE_ICONS_SONAR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSonarcloud,
+    SIMPLE_ICONS_SONARCLOUD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSonarlint,
+    SIMPLE_ICONS_SONARLINT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSonarqube,
+    SIMPLE_ICONS_SONARQUBE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSonarsource,
+    SIMPLE_ICONS_SONARSOURCE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSongkick,
+    SIMPLE_ICONS_SONGKICK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSongoda,
+    SIMPLE_ICONS_SONGODA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSonicwall,
+    SIMPLE_ICONS_SONICWALL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSonos,
+    SIMPLE_ICONS_SONOS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSony,
+    SIMPLE_ICONS_SONY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSoundcharts,
+    SIMPLE_ICONS_SOUNDCHARTS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSoundcloud,
+    SIMPLE_ICONS_SOUNDCLOUD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSourceengine,
+    SIMPLE_ICONS_SOURCEENGINE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSourceforge,
+    SIMPLE_ICONS_SOURCEFORGE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSourcegraph,
+    SIMPLE_ICONS_SOURCEGRAPH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSourcetree,
+    SIMPLE_ICONS_SOURCETREE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSouthwestairlines,
+    SIMPLE_ICONS_SOUTHWESTAIRLINES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSpacemacs,
+    SIMPLE_ICONS_SPACEMACS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSpacex,
+    SIMPLE_ICONS_SPACEX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSpacy,
+    SIMPLE_ICONS_SPACY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSparkar,
+    SIMPLE_ICONS_SPARKAR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSparkasse,
+    SIMPLE_ICONS_SPARKASSE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSparkfun,
+    SIMPLE_ICONS_SPARKFUN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSparkpost,
+    SIMPLE_ICONS_SPARKPOST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSpdx,
+    SIMPLE_ICONS_SPDX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSpeakerdeck,
+    SIMPLE_ICONS_SPEAKERDECK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSpectrum,
+    SIMPLE_ICONS_SPECTRUM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSpeedtest,
+    SIMPLE_ICONS_SPEEDTEST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSpinnaker,
+    SIMPLE_ICONS_SPINNAKER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSpinrilla,
+    SIMPLE_ICONS_SPINRILLA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSplunk,
+    SIMPLE_ICONS_SPLUNK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSpond,
+    SIMPLE_ICONS_SPOND,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSpotify,
+    SIMPLE_ICONS_SPOTIFY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSpotlight,
+    SIMPLE_ICONS_SPOTLIGHT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSpreadshirt,
+    SIMPLE_ICONS_SPREADSHIRT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSpreaker,
+    SIMPLE_ICONS_SPREAKER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSpring,
+    SIMPLE_ICONS_SPRING,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSpringCreators,
+    SIMPLE_ICONS_SPRING_CREATORS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSpringboot,
+    SIMPLE_ICONS_SPRINGBOOT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSpringsecurity,
+    SIMPLE_ICONS_SPRINGSECURITY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSpyderide,
+    SIMPLE_ICONS_SPYDERIDE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSqlite,
+    SIMPLE_ICONS_SQLITE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSquare,
+    SIMPLE_ICONS_SQUARE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSquareenix,
+    SIMPLE_ICONS_SQUAREENIX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSquarespace,
+    SIMPLE_ICONS_SQUARESPACE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSsrn,
+    SIMPLE_ICONS_SSRN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStackbit,
+    SIMPLE_ICONS_STACKBIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStackblitz,
+    SIMPLE_ICONS_STACKBLITZ,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStackedit,
+    SIMPLE_ICONS_STACKEDIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStackexchange,
+    SIMPLE_ICONS_STACKEXCHANGE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStackoverflow,
+    SIMPLE_ICONS_STACKOVERFLOW,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStackpath,
+    SIMPLE_ICONS_STACKPATH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStackshare,
+    SIMPLE_ICONS_STACKSHARE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStadia,
+    SIMPLE_ICONS_STADIA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStaffbase,
+    SIMPLE_ICONS_STAFFBASE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStandardjs,
+    SIMPLE_ICONS_STANDARDJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStarbucks,
+    SIMPLE_ICONS_STARBUCKS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStardock,
+    SIMPLE_ICONS_STARDOCK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStarlingbank,
+    SIMPLE_ICONS_STARLINGBANK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStarship,
+    SIMPLE_ICONS_STARSHIP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStartrek,
+    SIMPLE_ICONS_STARTREK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStarz,
+    SIMPLE_ICONS_STARZ,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStatamic,
+    SIMPLE_ICONS_STATAMIC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStatuspage,
+    SIMPLE_ICONS_STATUSPAGE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStatuspal,
+    SIMPLE_ICONS_STATUSPAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSteam,
+    SIMPLE_ICONS_STEAM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSteamdb,
+    SIMPLE_ICONS_STEAMDB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSteamdeck,
+    SIMPLE_ICONS_STEAMDECK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSteamworks,
+    SIMPLE_ICONS_STEAMWORKS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSteelseries,
+    SIMPLE_ICONS_STEELSERIES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSteem,
+    SIMPLE_ICONS_STEEM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSteemit,
+    SIMPLE_ICONS_STEEMIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSteinberg,
+    SIMPLE_ICONS_STEINBERG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStellar,
+    SIMPLE_ICONS_STELLAR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStencyl,
+    SIMPLE_ICONS_STENCYL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStimulus,
+    SIMPLE_ICONS_STIMULUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStitcher,
+    SIMPLE_ICONS_STITCHER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStmicroelectronics,
+    SIMPLE_ICONS_STMICROELECTRONICS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStopstalk,
+    SIMPLE_ICONS_STOPSTALK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStoryblok,
+    SIMPLE_ICONS_STORYBLOK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStorybook,
+    SIMPLE_ICONS_STORYBOOK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStrapi,
+    SIMPLE_ICONS_STRAPI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStrava,
+    SIMPLE_ICONS_STRAVA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStreamlit,
+    SIMPLE_ICONS_STREAMLIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStripe,
+    SIMPLE_ICONS_STRIPE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStrongswan,
+    SIMPLE_ICONS_STRONGSWAN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStubhub,
+    SIMPLE_ICONS_STUBHUB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStyledcomponents,
+    SIMPLE_ICONS_STYLEDCOMPONENTS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStylelint,
+    SIMPLE_ICONS_STYLELINT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStyleshare,
+    SIMPLE_ICONS_STYLESHARE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsStylus,
+    SIMPLE_ICONS_STYLUS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSubaru,
+    SIMPLE_ICONS_SUBARU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSublimetext,
+    SIMPLE_ICONS_SUBLIMETEXT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSubstack,
+    SIMPLE_ICONS_SUBSTACK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSubversion,
+    SIMPLE_ICONS_SUBVERSION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSuckless,
+    SIMPLE_ICONS_SUCKLESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSumologic,
+    SIMPLE_ICONS_SUMOLOGIC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSupabase,
+    SIMPLE_ICONS_SUPABASE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSupermicro,
+    SIMPLE_ICONS_SUPERMICRO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSuperuser,
+    SIMPLE_ICONS_SUPERUSER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSurrealdb,
+    SIMPLE_ICONS_SURREALDB,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSurveymonkey,
+    SIMPLE_ICONS_SURVEYMONKEY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSuse,
+    SIMPLE_ICONS_SUSE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSuzuki,
+    SIMPLE_ICONS_SUZUKI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSvelte,
+    SIMPLE_ICONS_SVELTE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSvg,
+    SIMPLE_ICONS_SVG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSvgo,
+    SIMPLE_ICONS_SVGO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSwagger,
+    SIMPLE_ICONS_SWAGGER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSwarm,
+    SIMPLE_ICONS_SWARM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSwc,
+    SIMPLE_ICONS_SWC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSwift,
+    SIMPLE_ICONS_SWIFT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSwiggy,
+    SIMPLE_ICONS_SWIGGY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSwiper,
+    SIMPLE_ICONS_SWIPER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSymantec,
+    SIMPLE_ICONS_SYMANTEC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSymfony,
+    SIMPLE_ICONS_SYMFONY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSymphony,
+    SIMPLE_ICONS_SYMPHONY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSympy,
+    SIMPLE_ICONS_SYMPY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSynology,
+    SIMPLE_ICONS_SYNOLOGY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsSystem76,
+    SIMPLE_ICONS_SYSTEM_76,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTableau,
+    SIMPLE_ICONS_TABLEAU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTablecheck,
+    SIMPLE_ICONS_TABLECHECK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTacobell,
+    SIMPLE_ICONS_TACOBELL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTado,
+    SIMPLE_ICONS_TADO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTaichigraphics,
+    SIMPLE_ICONS_TAICHIGRAPHICS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTaichilang,
+    SIMPLE_ICONS_TAICHILANG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTails,
+    SIMPLE_ICONS_TAILS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTailwindcss,
+    SIMPLE_ICONS_TAILWINDCSS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTalend,
+    SIMPLE_ICONS_TALEND,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTalenthouse,
+    SIMPLE_ICONS_TALENTHOUSE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTamiya,
+    SIMPLE_ICONS_TAMIYA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTampermonkey,
+    SIMPLE_ICONS_TAMPERMONKEY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTaobao,
+    SIMPLE_ICONS_TAOBAO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTapas,
+    SIMPLE_ICONS_TAPAS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTarget,
+    SIMPLE_ICONS_TARGET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTask,
+    SIMPLE_ICONS_TASK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTasmota,
+    SIMPLE_ICONS_TASMOTA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTata,
+    SIMPLE_ICONS_TATA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTauri,
+    SIMPLE_ICONS_TAURI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTaxbuzz,
+    SIMPLE_ICONS_TAXBUZZ,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTeamcity,
+    SIMPLE_ICONS_TEAMCITY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTeamspeak,
+    SIMPLE_ICONS_TEAMSPEAK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTeamviewer,
+    SIMPLE_ICONS_TEAMVIEWER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTed,
+    SIMPLE_ICONS_TED,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTeespring,
+    SIMPLE_ICONS_TEESPRING,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTekton,
+    SIMPLE_ICONS_TEKTON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTele5,
+    SIMPLE_ICONS_TELE_5,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTelegram,
+    SIMPLE_ICONS_TELEGRAM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTelegraph,
+    SIMPLE_ICONS_TELEGRAPH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTemporal,
+    SIMPLE_ICONS_TEMPORAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTencentqq,
+    SIMPLE_ICONS_TENCENTQQ,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTensorflow,
+    SIMPLE_ICONS_TENSORFLOW,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTeradata,
+    SIMPLE_ICONS_TERADATA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTeratail,
+    SIMPLE_ICONS_TERATAIL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTerraform,
+    SIMPLE_ICONS_TERRAFORM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTesco,
+    SIMPLE_ICONS_TESCO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTesla,
+    SIMPLE_ICONS_TESLA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTestcafe,
+    SIMPLE_ICONS_TESTCAFE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTestin,
+    SIMPLE_ICONS_TESTIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTestinglibrary,
+    SIMPLE_ICONS_TESTINGLIBRARY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTether,
+    SIMPLE_ICONS_TETHER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTextpattern,
+    SIMPLE_ICONS_TEXTPATTERN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTga,
+    SIMPLE_ICONS_TGA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsThealgorithms,
+    SIMPLE_ICONS_THEALGORITHMS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTheconversation,
+    SIMPLE_ICONS_THECONVERSATION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTheirishtimes,
+    SIMPLE_ICONS_THEIRISHTIMES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsThemighty,
+    SIMPLE_ICONS_THEMIGHTY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsThemodelsresource,
+    SIMPLE_ICONS_THEMODELSRESOURCE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsThemoviedatabase,
+    SIMPLE_ICONS_THEMOVIEDATABASE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsThenorthface,
+    SIMPLE_ICONS_THENORTHFACE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTheregister,
+    SIMPLE_ICONS_THEREGISTER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsThesoundsresource,
+    SIMPLE_ICONS_THESOUNDSRESOURCE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsThespritersresource,
+    SIMPLE_ICONS_THESPRITERSRESOURCE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsThewashingtonpost,
+    SIMPLE_ICONS_THEWASHINGTONPOST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsThingiverse,
+    SIMPLE_ICONS_THINGIVERSE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsThinkpad,
+    SIMPLE_ICONS_THINKPAD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsThreadless,
+    SIMPLE_ICONS_THREADLESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsThreedotjs,
+    SIMPLE_ICONS_THREEDOTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsThreema,
+    SIMPLE_ICONS_THREEMA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsThumbtack,
+    SIMPLE_ICONS_THUMBTACK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsThunderbird,
+    SIMPLE_ICONS_THUNDERBIRD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsThymeleaf,
+    SIMPLE_ICONS_THYMELEAF,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTicketmaster,
+    SIMPLE_ICONS_TICKETMASTER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTidal,
+    SIMPLE_ICONS_TIDAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTide,
+    SIMPLE_ICONS_TIDE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTidyverse,
+    SIMPLE_ICONS_TIDYVERSE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTietoevry,
+    SIMPLE_ICONS_TIETOEVRY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTiktok,
+    SIMPLE_ICONS_TIKTOK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTile,
+    SIMPLE_ICONS_TILE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTimescale,
+    SIMPLE_ICONS_TIMESCALE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTinder,
+    SIMPLE_ICONS_TINDER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTinyletter,
+    SIMPLE_ICONS_TINYLETTER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTistory,
+    SIMPLE_ICONS_TISTORY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTmobile,
+    SIMPLE_ICONS_TMOBILE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTmux,
+    SIMPLE_ICONS_TMUX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTnt,
+    SIMPLE_ICONS_TNT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTodoist,
+    SIMPLE_ICONS_TODOIST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsToggl,
+    SIMPLE_ICONS_TOGGL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTokyometro,
+    SIMPLE_ICONS_TOKYOMETRO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsToml,
+    SIMPLE_ICONS_TOML,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTomorrowland,
+    SIMPLE_ICONS_TOMORROWLAND,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTopcoder,
+    SIMPLE_ICONS_TOPCODER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsToptal,
+    SIMPLE_ICONS_TOPTAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTorbrowser,
+    SIMPLE_ICONS_TORBROWSER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTorproject,
+    SIMPLE_ICONS_TORPROJECT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsToshiba,
+    SIMPLE_ICONS_TOSHIBA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsToyota,
+    SIMPLE_ICONS_TOYOTA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTplink,
+    SIMPLE_ICONS_TPLINK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTqdm,
+    SIMPLE_ICONS_TQDM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTraefikmesh,
+    SIMPLE_ICONS_TRAEFIKMESH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTraefikproxy,
+    SIMPLE_ICONS_TRAEFIKPROXY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTrainerroad,
+    SIMPLE_ICONS_TRAINERROAD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTrakt,
+    SIMPLE_ICONS_TRAKT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTransportforireland,
+    SIMPLE_ICONS_TRANSPORTFORIRELAND,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTransportforlondon,
+    SIMPLE_ICONS_TRANSPORTFORLONDON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTravisci,
+    SIMPLE_ICONS_TRAVISCI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTreehouse,
+    SIMPLE_ICONS_TREEHOUSE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTrello,
+    SIMPLE_ICONS_TRELLO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTrendmicro,
+    SIMPLE_ICONS_TRENDMICRO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTreyarch,
+    SIMPLE_ICONS_TREYARCH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTriller,
+    SIMPLE_ICONS_TRILLER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTrino,
+    SIMPLE_ICONS_TRINO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTripadvisor,
+    SIMPLE_ICONS_TRIPADVISOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTripdotcom,
+    SIMPLE_ICONS_TRIPDOTCOM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTrove,
+    SIMPLE_ICONS_TROVE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTrpc,
+    SIMPLE_ICONS_TRPC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTruenas,
+    SIMPLE_ICONS_TRUENAS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTrulia,
+    SIMPLE_ICONS_TRULIA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTrustedshops,
+    SIMPLE_ICONS_TRUSTEDSHOPS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTrustpilot,
+    SIMPLE_ICONS_TRUSTPILOT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTryhackme,
+    SIMPLE_ICONS_TRYHACKME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTryitonline,
+    SIMPLE_ICONS_TRYITONLINE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTsnode,
+    SIMPLE_ICONS_TSNODE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTubi,
+    SIMPLE_ICONS_TUBI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTui,
+    SIMPLE_ICONS_TUI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTumblr,
+    SIMPLE_ICONS_TUMBLR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTunein,
+    SIMPLE_ICONS_TUNEIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTurborepo,
+    SIMPLE_ICONS_TURBOREPO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTurbosquid,
+    SIMPLE_ICONS_TURBOSQUID,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTurkishairlines,
+    SIMPLE_ICONS_TURKISHAIRLINES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTutanota,
+    SIMPLE_ICONS_TUTANOTA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTvtime,
+    SIMPLE_ICONS_TVTIME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTwilio,
+    SIMPLE_ICONS_TWILIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTwitch,
+    SIMPLE_ICONS_TWITCH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTwitter,
+    SIMPLE_ICONS_TWITTER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTwoo,
+    SIMPLE_ICONS_TWOO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTypeform,
+    SIMPLE_ICONS_TYPEFORM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTypescript,
+    SIMPLE_ICONS_TYPESCRIPT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsTypo3,
+    SIMPLE_ICONS_TYPO_3,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUber,
+    SIMPLE_ICONS_UBER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUbereats,
+    SIMPLE_ICONS_UBEREATS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUbiquiti,
+    SIMPLE_ICONS_UBIQUITI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUbisoft,
+    SIMPLE_ICONS_UBISOFT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUblockorigin,
+    SIMPLE_ICONS_UBLOCKORIGIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUbuntu,
+    SIMPLE_ICONS_UBUNTU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUdacity,
+    SIMPLE_ICONS_UDACITY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUdemy,
+    SIMPLE_ICONS_UDEMY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUfc,
+    SIMPLE_ICONS_UFC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUikit,
+    SIMPLE_ICONS_UIKIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUlule,
+    SIMPLE_ICONS_ULULE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUmbraco,
+    SIMPLE_ICONS_UMBRACO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUnacademy,
+    SIMPLE_ICONS_UNACADEMY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUnderarmour,
+    SIMPLE_ICONS_UNDERARMOUR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUnderscoredotjs,
+    SIMPLE_ICONS_UNDERSCOREDOTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUndertale,
+    SIMPLE_ICONS_UNDERTALE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUnicode,
+    SIMPLE_ICONS_UNICODE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUnilever,
+    SIMPLE_ICONS_UNILEVER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUnitedairlines,
+    SIMPLE_ICONS_UNITEDAIRLINES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUnity,
+    SIMPLE_ICONS_UNITY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUnlicense,
+    SIMPLE_ICONS_UNLICENSE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUnocss,
+    SIMPLE_ICONS_UNOCSS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUnraid,
+    SIMPLE_ICONS_UNRAID,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUnrealengine,
+    SIMPLE_ICONS_UNREALENGINE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUnsplash,
+    SIMPLE_ICONS_UNSPLASH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUntangle,
+    SIMPLE_ICONS_UNTANGLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUntappd,
+    SIMPLE_ICONS_UNTAPPD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUpcloud,
+    SIMPLE_ICONS_UPCLOUD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUplabs,
+    SIMPLE_ICONS_UPLABS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUploaded,
+    SIMPLE_ICONS_UPLOADED,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUps,
+    SIMPLE_ICONS_UPS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUpstash,
+    SIMPLE_ICONS_UPSTASH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUptimekuma,
+    SIMPLE_ICONS_UPTIMEKUMA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUptobox,
+    SIMPLE_ICONS_UPTOBOX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUpwork,
+    SIMPLE_ICONS_UPWORK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsUsps,
+    SIMPLE_ICONS_USPS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsV,
+    SIMPLE_ICONS_V,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsV2Ex,
+    SIMPLE_ICONS_V_2_EX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsV8,
+    SIMPLE_ICONS_V_8,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVaadin,
+    SIMPLE_ICONS_VAADIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVagrant,
+    SIMPLE_ICONS_VAGRANT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVala,
+    SIMPLE_ICONS_VALA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsValorant,
+    SIMPLE_ICONS_VALORANT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsValve,
+    SIMPLE_ICONS_VALVE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVapor,
+    SIMPLE_ICONS_VAPOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVault,
+    SIMPLE_ICONS_VAULT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVauxhall,
+    SIMPLE_ICONS_VAUXHALL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVbulletin,
+    SIMPLE_ICONS_VBULLETIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVectorlogozone,
+    SIMPLE_ICONS_VECTORLOGOZONE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVectorworks,
+    SIMPLE_ICONS_VECTORWORKS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVeeam,
+    SIMPLE_ICONS_VEEAM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVeepee,
+    SIMPLE_ICONS_VEEPEE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVelog,
+    SIMPLE_ICONS_VELOG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVenmo,
+    SIMPLE_ICONS_VENMO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVercel,
+    SIMPLE_ICONS_VERCEL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVerdaccio,
+    SIMPLE_ICONS_VERDACCIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVeritas,
+    SIMPLE_ICONS_VERITAS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVerizon,
+    SIMPLE_ICONS_VERIZON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVexxhost,
+    SIMPLE_ICONS_VEXXHOST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVfairs,
+    SIMPLE_ICONS_VFAIRS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsViadeo,
+    SIMPLE_ICONS_VIADEO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsViber,
+    SIMPLE_ICONS_VIBER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVim,
+    SIMPLE_ICONS_VIM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVimeo,
+    SIMPLE_ICONS_VIMEO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVimeolivestream,
+    SIMPLE_ICONS_VIMEOLIVESTREAM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVirgin,
+    SIMPLE_ICONS_VIRGIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVirginmedia,
+    SIMPLE_ICONS_VIRGINMEDIA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVirtualbox,
+    SIMPLE_ICONS_VIRTUALBOX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVirustotal,
+    SIMPLE_ICONS_VIRUSTOTAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVisa,
+    SIMPLE_ICONS_VISA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVisualstudio,
+    SIMPLE_ICONS_VISUALSTUDIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVisualstudiocode,
+    SIMPLE_ICONS_VISUALSTUDIOCODE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVite,
+    SIMPLE_ICONS_VITE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVitess,
+    SIMPLE_ICONS_VITESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVitest,
+    SIMPLE_ICONS_VITEST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVivaldi,
+    SIMPLE_ICONS_VIVALDI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVivino,
+    SIMPLE_ICONS_VIVINO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVk,
+    SIMPLE_ICONS_VK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVlcmediaplayer,
+    SIMPLE_ICONS_VLCMEDIAPLAYER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVmware,
+    SIMPLE_ICONS_VMWARE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVodafone,
+    SIMPLE_ICONS_VODAFONE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVolkswagen,
+    SIMPLE_ICONS_VOLKSWAGEN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVolvo,
+    SIMPLE_ICONS_VOLVO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVonage,
+    SIMPLE_ICONS_VONAGE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVowpalwabbit,
+    SIMPLE_ICONS_VOWPALWABBIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVox,
+    SIMPLE_ICONS_VOX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVsco,
+    SIMPLE_ICONS_VSCO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVscodium,
+    SIMPLE_ICONS_VSCODIUM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVtex,
+    SIMPLE_ICONS_VTEX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVuedotjs,
+    SIMPLE_ICONS_VUEDOTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVuetify,
+    SIMPLE_ICONS_VUETIFY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVulkan,
+    SIMPLE_ICONS_VULKAN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsVultr,
+    SIMPLE_ICONS_VULTR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsW3C,
+    SIMPLE_ICONS_W_3_C,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWacom,
+    SIMPLE_ICONS_WACOM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWagtail,
+    SIMPLE_ICONS_WAGTAIL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWails,
+    SIMPLE_ICONS_WAILS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWakatime,
+    SIMPLE_ICONS_WAKATIME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWalkman,
+    SIMPLE_ICONS_WALKMAN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWallabag,
+    SIMPLE_ICONS_WALLABAG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWalmart,
+    SIMPLE_ICONS_WALMART,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWantedly,
+    SIMPLE_ICONS_WANTEDLY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWappalyzer,
+    SIMPLE_ICONS_WAPPALYZER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWarnerbros,
+    SIMPLE_ICONS_WARNERBROS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWarp,
+    SIMPLE_ICONS_WARP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWasmcloud,
+    SIMPLE_ICONS_WASMCLOUD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWasmer,
+    SIMPLE_ICONS_WASMER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWattpad,
+    SIMPLE_ICONS_WATTPAD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWayland,
+    SIMPLE_ICONS_WAYLAND,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWaze,
+    SIMPLE_ICONS_WAZE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWearos,
+    SIMPLE_ICONS_WEAROS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWeasyl,
+    SIMPLE_ICONS_WEASYL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWeb3Dotjs,
+    SIMPLE_ICONS_WEB_3_DOTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWebassembly,
+    SIMPLE_ICONS_WEBASSEMBLY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWebauthn,
+    SIMPLE_ICONS_WEBAUTHN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWebcomponentsdotorg,
+    SIMPLE_ICONS_WEBCOMPONENTSDOTORG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWebdriverio,
+    SIMPLE_ICONS_WEBDRIVERIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWebflow,
+    SIMPLE_ICONS_WEBFLOW,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWebgl,
+    SIMPLE_ICONS_WEBGL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWebhint,
+    SIMPLE_ICONS_WEBHINT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWeblate,
+    SIMPLE_ICONS_WEBLATE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWebmin,
+    SIMPLE_ICONS_WEBMIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWebmoney,
+    SIMPLE_ICONS_WEBMONEY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWebpack,
+    SIMPLE_ICONS_WEBPACK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWebrtc,
+    SIMPLE_ICONS_WEBRTC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWebstorm,
+    SIMPLE_ICONS_WEBSTORM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWebtoon,
+    SIMPLE_ICONS_WEBTOON,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWechat,
+    SIMPLE_ICONS_WECHAT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWegame,
+    SIMPLE_ICONS_WEGAME,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWeightsandbiases,
+    SIMPLE_ICONS_WEIGHTSANDBIASES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWelcometothejungle,
+    SIMPLE_ICONS_WELCOMETOTHEJUNGLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWemo,
+    SIMPLE_ICONS_WEMO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWesterndigital,
+    SIMPLE_ICONS_WESTERNDIGITAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWetransfer,
+    SIMPLE_ICONS_WETRANSFER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWhatsapp,
+    SIMPLE_ICONS_WHATSAPP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWheniwork,
+    SIMPLE_ICONS_WHENIWORK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWhitesource,
+    SIMPLE_ICONS_WHITESOURCE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWii,
+    SIMPLE_ICONS_WII,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWiiu,
+    SIMPLE_ICONS_WIIU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWikidata,
+    SIMPLE_ICONS_WIKIDATA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWikidotjs,
+    SIMPLE_ICONS_WIKIDOTJS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWikimediacommons,
+    SIMPLE_ICONS_WIKIMEDIACOMMONS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWikipedia,
+    SIMPLE_ICONS_WIKIPEDIA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWikiquote,
+    SIMPLE_ICONS_WIKIQUOTE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWikivoyage,
+    SIMPLE_ICONS_WIKIVOYAGE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWinamp,
+    SIMPLE_ICONS_WINAMP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWindicss,
+    SIMPLE_ICONS_WINDICSS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWindows,
+    SIMPLE_ICONS_WINDOWS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWindows11,
+    SIMPLE_ICONS_WINDOWS_11,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWindows95,
+    SIMPLE_ICONS_WINDOWS_95,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWindowsterminal,
+    SIMPLE_ICONS_WINDOWSTERMINAL,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWindowsxp,
+    SIMPLE_ICONS_WINDOWSXP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWinmate,
+    SIMPLE_ICONS_WINMATE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWipro,
+    SIMPLE_ICONS_WIPRO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWire,
+    SIMPLE_ICONS_WIRE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWireguard,
+    SIMPLE_ICONS_WIREGUARD,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWireshark,
+    SIMPLE_ICONS_WIRESHARK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWise,
+    SIMPLE_ICONS_WISE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWish,
+    SIMPLE_ICONS_WISH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWistia,
+    SIMPLE_ICONS_WISTIA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWix,
+    SIMPLE_ICONS_WIX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWizzair,
+    SIMPLE_ICONS_WIZZAIR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWolfram,
+    SIMPLE_ICONS_WOLFRAM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWolframlanguage,
+    SIMPLE_ICONS_WOLFRAMLANGUAGE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWolframmathematica,
+    SIMPLE_ICONS_WOLFRAMMATHEMATICA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWoo,
+    SIMPLE_ICONS_WOO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWoocommerce,
+    SIMPLE_ICONS_WOOCOMMERCE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWordpress,
+    SIMPLE_ICONS_WORDPRESS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWorkplace,
+    SIMPLE_ICONS_WORKPLACE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWorldhealthorganization,
+    SIMPLE_ICONS_WORLDHEALTHORGANIZATION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWpengine,
+    SIMPLE_ICONS_WPENGINE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWpexplorer,
+    SIMPLE_ICONS_WPEXPLORER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWprocket,
+    SIMPLE_ICONS_WPROCKET,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWritedotas,
+    SIMPLE_ICONS_WRITEDOTAS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWwe,
+    SIMPLE_ICONS_WWE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsWwise,
+    SIMPLE_ICONS_WWISE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsXamarin,
+    SIMPLE_ICONS_XAMARIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsXaml,
+    SIMPLE_ICONS_XAML,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsXampp,
+    SIMPLE_ICONS_XAMPP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsXbox,
+    SIMPLE_ICONS_XBOX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsXcode,
+    SIMPLE_ICONS_XCODE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsXdadevelopers,
+    SIMPLE_ICONS_XDADEVELOPERS,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsXdotorg,
+    SIMPLE_ICONS_XDOTORG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsXero,
+    SIMPLE_ICONS_XERO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsXfce,
+    SIMPLE_ICONS_XFCE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsXiaomi,
+    SIMPLE_ICONS_XIAOMI,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsXilinx,
+    SIMPLE_ICONS_XILINX,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsXing,
+    SIMPLE_ICONS_XING,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsXmpp,
+    SIMPLE_ICONS_XMPP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsXo,
+    SIMPLE_ICONS_XO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsXrp,
+    SIMPLE_ICONS_XRP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsXsplit,
+    SIMPLE_ICONS_XSPLIT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsXstate,
+    SIMPLE_ICONS_XSTATE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsYahoo,
+    SIMPLE_ICONS_YAHOO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsYale,
+    SIMPLE_ICONS_YALE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsYamahacorporation,
+    SIMPLE_ICONS_YAMAHACORPORATION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsYamahamotorcorporation,
+    SIMPLE_ICONS_YAMAHAMOTORCORPORATION,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsYammer,
+    SIMPLE_ICONS_YAMMER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsYarn,
+    SIMPLE_ICONS_YARN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsYcombinator,
+    SIMPLE_ICONS_YCOMBINATOR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsYelp,
+    SIMPLE_ICONS_YELP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsYoast,
+    SIMPLE_ICONS_YOAST,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsYolo,
+    SIMPLE_ICONS_YOLO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsYourtraveldottv,
+    SIMPLE_ICONS_YOURTRAVELDOTTV,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsYoutube,
+    SIMPLE_ICONS_YOUTUBE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsYoutubegaming,
+    SIMPLE_ICONS_YOUTUBEGAMING,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsYoutubemusic,
+    SIMPLE_ICONS_YOUTUBEMUSIC,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsYoutubestudio,
+    SIMPLE_ICONS_YOUTUBESTUDIO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsYoutubetv,
+    SIMPLE_ICONS_YOUTUBETV,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsYubico,
+    SIMPLE_ICONS_YUBICO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZabka,
+    SIMPLE_ICONS_ZABKA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZalando,
+    SIMPLE_ICONS_ZALANDO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZalo,
+    SIMPLE_ICONS_ZALO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZapier,
+    SIMPLE_ICONS_ZAPIER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZara,
+    SIMPLE_ICONS_ZARA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZazzle,
+    SIMPLE_ICONS_ZAZZLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZcash,
+    SIMPLE_ICONS_ZCASH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZdf,
+    SIMPLE_ICONS_ZDF,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZebratechnologies,
+    SIMPLE_ICONS_ZEBRATECHNOLOGIES,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZelle,
+    SIMPLE_ICONS_ZELLE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZend,
+    SIMPLE_ICONS_ZEND,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZendesk,
+    SIMPLE_ICONS_ZENDESK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZendframework,
+    SIMPLE_ICONS_ZENDFRAMEWORK,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZenn,
+    SIMPLE_ICONS_ZENN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZenodo,
+    SIMPLE_ICONS_ZENODO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZerodha,
+    SIMPLE_ICONS_ZERODHA,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZeromq,
+    SIMPLE_ICONS_ZEROMQ,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZerply,
+    SIMPLE_ICONS_ZERPLY,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZettlr,
+    SIMPLE_ICONS_ZETTLR,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZhihu,
+    SIMPLE_ICONS_ZHIHU,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZig,
+    SIMPLE_ICONS_ZIG,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZigbee,
+    SIMPLE_ICONS_ZIGBEE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZillow,
+    SIMPLE_ICONS_ZILLOW,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZincsearch,
+    SIMPLE_ICONS_ZINCSEARCH,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZingat,
+    SIMPLE_ICONS_ZINGAT,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZoho,
+    SIMPLE_ICONS_ZOHO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZoiper,
+    SIMPLE_ICONS_ZOIPER,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZomato,
+    SIMPLE_ICONS_ZOMATO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZoom,
+    SIMPLE_ICONS_ZOOM,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZorin,
+    SIMPLE_ICONS_ZORIN,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZotero,
+    SIMPLE_ICONS_ZOTERO,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZulip,
+    SIMPLE_ICONS_ZULIP,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZwave,
+    SIMPLE_ICONS_ZWAVE,
     #[cfg(feature = "simple_icons")]
-    Self::SimpleIconsZyte,
+    SIMPLE_ICONS_ZYTE,
     #[cfg(feature = "extra")]
-    Self::ExtraGooglePlay,
+    EXTRA_GOOGLE_PLAY,
 ];

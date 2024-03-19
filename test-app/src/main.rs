@@ -25,7 +25,7 @@ fn App() -> Html {
                     <input type="text" placeholder="Search..." {oninput}/>
                     <Icon
                         class="search-icon"
-                        data={IconData::BootstrapSearch}
+                        data={IconData::BOOTSTRAP_SEARCH}
                         width={"20"}
                         height={"20"}
                     />

@@ -31,7 +31,7 @@ gloo-storage = "0.2.2"
 # you must omit that attribute e.g. import `yew_icons = {version = "0.1.1", features = ["FeatherArrowDownCircle"]}`.
 # That way, cargo will download the crate instead of looking in a directory where it doesn't exist.
 yew_icons = { path = "..", features = [
-    "__enumerate_icon_data",
+    "_enumerate_icon_data",
     "bootstrap",
     "extra",
     "feather",

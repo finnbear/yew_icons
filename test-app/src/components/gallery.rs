@@ -11,7 +11,7 @@ pub struct GalleryProps {
 
 #[function_component]
 pub fn Gallery(props: &GalleryProps) -> Html {
-    let initial_icons = use_memo((), |_| IconId::into_enum_iter().collect::<Vec<IconId>>());
+    let initial_icons = use_memo((), |_| IconData::ENUMERATE.iter()copied().collect::<Vec<IconData>>());
     let icons = use_memo(props.query.clone(), |query| {
         initial_icons
             .iter()
@@ -37,9 +37,9 @@ pub fn Gallery(props: &GalleryProps) -> Html {
     html! {
         <div class="gallery">
             <>
-                {icons.iter().cloned().map(|icon_id| {
+                {icons.iter().cloned().map(|icon_data| {
                 html_nested! {
-                    <GalleryItem {icon_id}/>
+                    <GalleryItem {icon_data}/>
                 }
             }).collect::<Html>()}
             </>
@@ -49,13 +49,13 @@ pub fn Gallery(props: &GalleryProps) -> Html {
 
 #[derive(PartialEq, Properties)]
 struct GalleryItemProps {
-    icon_id: IconId,
+    icon_data: IconData,
 }
 
 #[function_component]
 fn GalleryItem(props: &GalleryItemProps) -> Html {
-    let icon_id = props.icon_id;
-    let title = format!("{:?}", icon_id);
+    let icon_data = props.icon_data;
+    let title = format!("{:?}", icon_data);
     let icon_name = title.clone();
     let timeout_ref = use_mut_ref(|| None);
     let show_copied = use_state(|| false);
@@ -65,8 +65,8 @@ fn GalleryItem(props: &GalleryItemProps) -> Html {
         let window = window().unwrap();
         window.navigator().clipboard().map(|clipboard| {
             Callback::from(move |_: MouseEvent| {
-                log::info!("clicked {:?}", icon_id);
-                let _ = clipboard.write_text(&format!("{:?}", icon_id));
+                log::info!("clicked {:?}", icon_data);
+                let _ = clipboard.write_text(&format!("{:?}", icon_data));
                 show_copied.set(true);
             })
         })
@@ -103,11 +103,11 @@ fn GalleryItem(props: &GalleryItemProps) -> Html {
     html! {
         <div class="icon">
             <Icon
-            {title}
-            {icon_id}
-            width={"24"}
-            height={"24"}
-            onclick={onclick}
+                {title}
+                data={icon_data}
+                width={"24"}
+                height={"24"}
+                onclick={onclick}
             />
             <p class="icon-name">{icon_name}</p>
 

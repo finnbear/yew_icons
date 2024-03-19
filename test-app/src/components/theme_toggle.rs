@@ -22,11 +22,7 @@ pub fn ThemeToggle() -> Html {
         <label class="switch">
             <input type={"checkbox"} checked={is_dark} {onchange} />
             <span class="slider">
-                if is_dark {
-                    <Icon class="icon" icon_id={IconId::BootstrapMoonFill} width={"26"} height={"26"} />
-                } else {
-                    <Icon class="icon" icon_id={IconId::BootstrapSunFill} width={"26"} height={"26"} />
-                }
+                <Icon class="icon" data={if is_dark { IconData::BOOTSTRAP_MOON_FILL } else { IconData::BOOTSTRAP_SUN_FILL }} width={"26"} height={"26"} />
             </span>
         </label>
     }

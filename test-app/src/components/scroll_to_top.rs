@@ -59,7 +59,7 @@ pub fn ScrollToTop(props: &ScrollToTopProps) -> Html {
 
     html! {
         <button class="scroll-to-top-btn" onclick={scroll_to_top}>
-            <Icon icon_id={IconId::BootstrapArrowUpShort} />
+            <Icon data={IconData::BOOTSTRAP_ARROW_UP_SHORT} />
         </button>
     }
 }

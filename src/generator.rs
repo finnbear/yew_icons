@@ -132,23 +132,30 @@ fn main() {
                 + &remainder;
             let svg_tokens = TokenStream::from_str(&svg).expect(&path);
 
-            let variant_name = name.to_case(Case::UpperCamel);
-            let variant = to_ident(&variant_name);
+            let constant_name = name.to_case(Case::UpperSnake);
+            let constant = to_ident(&constant_name);
+            let function_name = name.to_case(Case::Snake);
+            let function = to_ident(&function_name);
 
             icon_data.push(quote! {
-                const #variant: Self = Self {
-                    name: #variant_name,
-                    html: #[inline(never)] |crate::IconProps{icon_id: _, title, width, height, onclick, oncontextmenu, class, style, role}: &crate::IconProps| -> yew::Html {
+                const #constant: Self = {
+                    #[inline(never)]
+                    fn #function(crate::IconProps{icon_id: _, title, width, height, onclick, oncontextmenu, class, style, role}: &crate::IconProps) -> yew::Html {
                         yew::html! {
                             #svg_tokens
                         }
-                    },
+                    }
+
+                    Self {
+                        name: #constant_name,
+                        html: #function,
+                    }
                 };
             });
 
             enumerate.push(quote! {
                 #[cfg(feature = #feature_name)]
-                Self::#variant,
+                #constant,
             });
         }
 
