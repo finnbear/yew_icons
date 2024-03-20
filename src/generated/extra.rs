@@ -1,7 +1,7 @@
 // Generated file, do not edit by hand, see `src/generator.rs`
 
-impl IconData {
-    const EXTRA_GOOGLE_PLAY: Self = {
+impl crate::IconData {
+    pub const EXTRA_GOOGLE_PLAY: Self = {
         #[inline(never)]
         fn extra_google_play(
             crate::IconProps {

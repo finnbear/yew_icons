@@ -1,7 +1,7 @@
 // Generated file, do not edit by hand, see `src/generator.rs`
 
-impl IconData {
-    const LIPIS_FLAG_ICONS_4_X_3_AC: Self = {
+impl crate::IconData {
+    pub const LIPIS_FLAG_ICONS_4_X_3_AC: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ac(
             crate::IconProps {
@@ -23,7 +23,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ac,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_AD: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_AD: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ad(
             crate::IconProps {
@@ -45,7 +45,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ad,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_AE: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_AE: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ae(
             crate::IconProps {
@@ -67,7 +67,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ae,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_AF: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_AF: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_af(
             crate::IconProps {
@@ -89,7 +89,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_af,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_AG: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_AG: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ag(
             crate::IconProps {
@@ -111,7 +111,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ag,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_AI: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_AI: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ai(
             crate::IconProps {
@@ -133,7 +133,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ai,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_AL: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_AL: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_al(
             crate::IconProps {
@@ -155,7 +155,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_al,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_AM: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_AM: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_am(
             crate::IconProps {
@@ -177,7 +177,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_am,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_AO: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_AO: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ao(
             crate::IconProps {
@@ -199,7 +199,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ao,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_AQ: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_AQ: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_aq(
             crate::IconProps {
@@ -221,7 +221,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_aq,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_AR: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_AR: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ar(
             crate::IconProps {
@@ -243,7 +243,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ar,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_AS: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_AS: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_as(
             crate::IconProps {
@@ -265,7 +265,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_as,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_AT: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_AT: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_at(
             crate::IconProps {
@@ -287,7 +287,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_at,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_AU: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_AU: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_au(
             crate::IconProps {
@@ -309,7 +309,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_au,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_AW: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_AW: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_aw(
             crate::IconProps {
@@ -331,7 +331,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_aw,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_AX: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_AX: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ax(
             crate::IconProps {
@@ -353,7 +353,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ax,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_AZ: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_AZ: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_az(
             crate::IconProps {
@@ -375,7 +375,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_az,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_BA: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_BA: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ba(
             crate::IconProps {
@@ -397,7 +397,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ba,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_BB: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_BB: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_bb(
             crate::IconProps {
@@ -419,7 +419,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_bb,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_BD: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_BD: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_bd(
             crate::IconProps {
@@ -441,7 +441,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_bd,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_BE: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_BE: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_be(
             crate::IconProps {
@@ -463,7 +463,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_be,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_BF: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_BF: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_bf(
             crate::IconProps {
@@ -485,7 +485,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_bf,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_BG: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_BG: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_bg(
             crate::IconProps {
@@ -507,7 +507,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_bg,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_BH: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_BH: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_bh(
             crate::IconProps {
@@ -529,7 +529,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_bh,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_BI: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_BI: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_bi(
             crate::IconProps {
@@ -551,7 +551,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_bi,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_BJ: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_BJ: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_bj(
             crate::IconProps {
@@ -573,7 +573,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_bj,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_BL: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_BL: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_bl(
             crate::IconProps {
@@ -595,7 +595,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_bl,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_BM: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_BM: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_bm(
             crate::IconProps {
@@ -617,7 +617,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_bm,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_BN: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_BN: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_bn(
             crate::IconProps {
@@ -639,7 +639,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_bn,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_BO: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_BO: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_bo(
             crate::IconProps {
@@ -661,7 +661,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_bo,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_BQ: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_BQ: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_bq(
             crate::IconProps {
@@ -683,7 +683,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_bq,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_BR: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_BR: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_br(
             crate::IconProps {
@@ -705,7 +705,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_br,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_BS: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_BS: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_bs(
             crate::IconProps {
@@ -727,7 +727,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_bs,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_BT: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_BT: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_bt(
             crate::IconProps {
@@ -749,7 +749,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_bt,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_BV: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_BV: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_bv(
             crate::IconProps {
@@ -771,7 +771,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_bv,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_BW: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_BW: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_bw(
             crate::IconProps {
@@ -793,7 +793,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_bw,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_BY: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_BY: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_by(
             crate::IconProps {
@@ -815,7 +815,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_by,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_BZ: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_BZ: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_bz(
             crate::IconProps {
@@ -837,7 +837,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_bz,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_CA: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_CA: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ca(
             crate::IconProps {
@@ -859,7 +859,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ca,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_CC: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_CC: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_cc(
             crate::IconProps {
@@ -881,7 +881,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_cc,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_CD: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_CD: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_cd(
             crate::IconProps {
@@ -903,7 +903,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_cd,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_CEFTA: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_CEFTA: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_cefta(
             crate::IconProps {
@@ -925,7 +925,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_cefta,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_CF: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_CF: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_cf(
             crate::IconProps {
@@ -947,7 +947,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_cf,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_CG: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_CG: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_cg(
             crate::IconProps {
@@ -969,7 +969,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_cg,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_CH: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_CH: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ch(
             crate::IconProps {
@@ -991,7 +991,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ch,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_CI: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_CI: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ci(
             crate::IconProps {
@@ -1013,7 +1013,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ci,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_CK: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_CK: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ck(
             crate::IconProps {
@@ -1035,7 +1035,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ck,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_CL: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_CL: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_cl(
             crate::IconProps {
@@ -1057,7 +1057,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_cl,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_CM: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_CM: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_cm(
             crate::IconProps {
@@ -1079,7 +1079,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_cm,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_CN: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_CN: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_cn(
             crate::IconProps {
@@ -1101,7 +1101,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_cn,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_CO: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_CO: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_co(
             crate::IconProps {
@@ -1123,7 +1123,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_co,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_CP: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_CP: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_cp(
             crate::IconProps {
@@ -1145,7 +1145,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_cp,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_CR: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_CR: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_cr(
             crate::IconProps {
@@ -1167,7 +1167,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_cr,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_CU: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_CU: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_cu(
             crate::IconProps {
@@ -1189,7 +1189,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_cu,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_CV: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_CV: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_cv(
             crate::IconProps {
@@ -1211,7 +1211,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_cv,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_CW: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_CW: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_cw(
             crate::IconProps {
@@ -1233,7 +1233,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_cw,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_CX: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_CX: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_cx(
             crate::IconProps {
@@ -1255,7 +1255,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_cx,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_CY: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_CY: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_cy(
             crate::IconProps {
@@ -1277,7 +1277,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_cy,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_CZ: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_CZ: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_cz(
             crate::IconProps {
@@ -1299,7 +1299,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_cz,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_DE: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_DE: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_de(
             crate::IconProps {
@@ -1321,7 +1321,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_de,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_DG: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_DG: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_dg(
             crate::IconProps {
@@ -1343,7 +1343,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_dg,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_DJ: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_DJ: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_dj(
             crate::IconProps {
@@ -1365,7 +1365,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_dj,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_DK: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_DK: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_dk(
             crate::IconProps {
@@ -1387,7 +1387,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_dk,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_DM: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_DM: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_dm(
             crate::IconProps {
@@ -1409,7 +1409,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_dm,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_DO: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_DO: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_do(
             crate::IconProps {
@@ -1431,7 +1431,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_do,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_DZ: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_DZ: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_dz(
             crate::IconProps {
@@ -1453,7 +1453,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_dz,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_EA: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_EA: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ea(
             crate::IconProps {
@@ -1475,7 +1475,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ea,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_EC: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_EC: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ec(
             crate::IconProps {
@@ -1497,7 +1497,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ec,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_EE: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_EE: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ee(
             crate::IconProps {
@@ -1519,7 +1519,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ee,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_EG: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_EG: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_eg(
             crate::IconProps {
@@ -1541,7 +1541,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_eg,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_EH: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_EH: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_eh(
             crate::IconProps {
@@ -1563,7 +1563,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_eh,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_ER: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_ER: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_er(
             crate::IconProps {
@@ -1585,7 +1585,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_er,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_ES_CT: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_ES_CT: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_es_ct(
             crate::IconProps {
@@ -1607,7 +1607,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_es_ct,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_ES_GA: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_ES_GA: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_es_ga(
             crate::IconProps {
@@ -1629,7 +1629,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_es_ga,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_ES: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_ES: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_es(
             crate::IconProps {
@@ -1651,7 +1651,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_es,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_ET: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_ET: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_et(
             crate::IconProps {
@@ -1673,7 +1673,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_et,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_EU: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_EU: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_eu(
             crate::IconProps {
@@ -1695,7 +1695,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_eu,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_FI: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_FI: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_fi(
             crate::IconProps {
@@ -1717,7 +1717,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_fi,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_FJ: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_FJ: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_fj(
             crate::IconProps {
@@ -1739,7 +1739,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_fj,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_FK: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_FK: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_fk(
             crate::IconProps {
@@ -1761,7 +1761,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_fk,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_FM: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_FM: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_fm(
             crate::IconProps {
@@ -1783,7 +1783,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_fm,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_FO: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_FO: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_fo(
             crate::IconProps {
@@ -1805,7 +1805,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_fo,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_FR: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_FR: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_fr(
             crate::IconProps {
@@ -1827,7 +1827,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_fr,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GA: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GA: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ga(
             crate::IconProps {
@@ -1849,7 +1849,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ga,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GB_ENG: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GB_ENG: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_gb_eng(
             crate::IconProps {
@@ -1871,7 +1871,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_gb_eng,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GB_NIR: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GB_NIR: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_gb_nir(
             crate::IconProps {
@@ -1893,7 +1893,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_gb_nir,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GB_SCT: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GB_SCT: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_gb_sct(
             crate::IconProps {
@@ -1915,7 +1915,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_gb_sct,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GB_WLS: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GB_WLS: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_gb_wls(
             crate::IconProps {
@@ -1937,7 +1937,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_gb_wls,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GB: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GB: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_gb(
             crate::IconProps {
@@ -1959,7 +1959,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_gb,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GD: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GD: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_gd(
             crate::IconProps {
@@ -1981,7 +1981,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_gd,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GE: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GE: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ge(
             crate::IconProps {
@@ -2003,7 +2003,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ge,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GF: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GF: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_gf(
             crate::IconProps {
@@ -2025,7 +2025,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_gf,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GG: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GG: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_gg(
             crate::IconProps {
@@ -2047,7 +2047,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_gg,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GH: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GH: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_gh(
             crate::IconProps {
@@ -2069,7 +2069,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_gh,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GI: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GI: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_gi(
             crate::IconProps {
@@ -2091,7 +2091,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_gi,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GL: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GL: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_gl(
             crate::IconProps {
@@ -2113,7 +2113,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_gl,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GM: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GM: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_gm(
             crate::IconProps {
@@ -2135,7 +2135,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_gm,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GN: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GN: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_gn(
             crate::IconProps {
@@ -2157,7 +2157,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_gn,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GP: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GP: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_gp(
             crate::IconProps {
@@ -2179,7 +2179,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_gp,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GQ: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GQ: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_gq(
             crate::IconProps {
@@ -2201,7 +2201,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_gq,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GR: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GR: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_gr(
             crate::IconProps {
@@ -2223,7 +2223,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_gr,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GS: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GS: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_gs(
             crate::IconProps {
@@ -2245,7 +2245,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_gs,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GT: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GT: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_gt(
             crate::IconProps {
@@ -2267,7 +2267,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_gt,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GU: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GU: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_gu(
             crate::IconProps {
@@ -2289,7 +2289,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_gu,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GW: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GW: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_gw(
             crate::IconProps {
@@ -2311,7 +2311,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_gw,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_GY: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_GY: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_gy(
             crate::IconProps {
@@ -2333,7 +2333,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_gy,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_HK: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_HK: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_hk(
             crate::IconProps {
@@ -2355,7 +2355,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_hk,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_HM: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_HM: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_hm(
             crate::IconProps {
@@ -2377,7 +2377,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_hm,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_HN: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_HN: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_hn(
             crate::IconProps {
@@ -2399,7 +2399,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_hn,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_HR: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_HR: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_hr(
             crate::IconProps {
@@ -2421,7 +2421,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_hr,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_HT: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_HT: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ht(
             crate::IconProps {
@@ -2443,7 +2443,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ht,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_HU: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_HU: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_hu(
             crate::IconProps {
@@ -2465,7 +2465,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_hu,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_IC: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_IC: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ic(
             crate::IconProps {
@@ -2487,7 +2487,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ic,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_ID: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_ID: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_id(
             crate::IconProps {
@@ -2509,7 +2509,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_id,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_IE: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_IE: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ie(
             crate::IconProps {
@@ -2531,7 +2531,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ie,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_IL: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_IL: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_il(
             crate::IconProps {
@@ -2553,7 +2553,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_il,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_IM: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_IM: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_im(
             crate::IconProps {
@@ -2575,7 +2575,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_im,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_IN: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_IN: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_in(
             crate::IconProps {
@@ -2597,7 +2597,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_in,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_IO: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_IO: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_io(
             crate::IconProps {
@@ -2619,7 +2619,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_io,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_IQ: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_IQ: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_iq(
             crate::IconProps {
@@ -2641,7 +2641,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_iq,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_IR: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_IR: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ir(
             crate::IconProps {
@@ -2663,7 +2663,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ir,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_IS: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_IS: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_is(
             crate::IconProps {
@@ -2685,7 +2685,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_is,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_IT: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_IT: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_it(
             crate::IconProps {
@@ -2707,7 +2707,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_it,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_JE: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_JE: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_je(
             crate::IconProps {
@@ -2729,7 +2729,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_je,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_JM: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_JM: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_jm(
             crate::IconProps {
@@ -2751,7 +2751,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_jm,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_JO: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_JO: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_jo(
             crate::IconProps {
@@ -2773,7 +2773,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_jo,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_JP: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_JP: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_jp(
             crate::IconProps {
@@ -2795,7 +2795,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_jp,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_KE: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_KE: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ke(
             crate::IconProps {
@@ -2817,7 +2817,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ke,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_KG: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_KG: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_kg(
             crate::IconProps {
@@ -2839,7 +2839,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_kg,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_KH: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_KH: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_kh(
             crate::IconProps {
@@ -2861,7 +2861,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_kh,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_KI: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_KI: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ki(
             crate::IconProps {
@@ -2883,7 +2883,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ki,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_KM: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_KM: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_km(
             crate::IconProps {
@@ -2905,7 +2905,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_km,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_KN: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_KN: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_kn(
             crate::IconProps {
@@ -2927,7 +2927,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_kn,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_KP: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_KP: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_kp(
             crate::IconProps {
@@ -2949,7 +2949,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_kp,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_KR: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_KR: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_kr(
             crate::IconProps {
@@ -2971,7 +2971,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_kr,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_KW: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_KW: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_kw(
             crate::IconProps {
@@ -2993,7 +2993,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_kw,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_KY: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_KY: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ky(
             crate::IconProps {
@@ -3015,7 +3015,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ky,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_KZ: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_KZ: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_kz(
             crate::IconProps {
@@ -3037,7 +3037,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_kz,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_LA: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_LA: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_la(
             crate::IconProps {
@@ -3059,7 +3059,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_la,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_LB: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_LB: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_lb(
             crate::IconProps {
@@ -3081,7 +3081,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_lb,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_LC: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_LC: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_lc(
             crate::IconProps {
@@ -3103,7 +3103,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_lc,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_LI: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_LI: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_li(
             crate::IconProps {
@@ -3125,7 +3125,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_li,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_LK: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_LK: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_lk(
             crate::IconProps {
@@ -3147,7 +3147,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_lk,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_LR: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_LR: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_lr(
             crate::IconProps {
@@ -3169,7 +3169,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_lr,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_LS: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_LS: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ls(
             crate::IconProps {
@@ -3191,7 +3191,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ls,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_LT: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_LT: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_lt(
             crate::IconProps {
@@ -3213,7 +3213,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_lt,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_LU: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_LU: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_lu(
             crate::IconProps {
@@ -3235,7 +3235,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_lu,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_LV: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_LV: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_lv(
             crate::IconProps {
@@ -3257,7 +3257,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_lv,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_LY: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_LY: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ly(
             crate::IconProps {
@@ -3279,7 +3279,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ly,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_MA: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_MA: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ma(
             crate::IconProps {
@@ -3301,7 +3301,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ma,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_MC: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_MC: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_mc(
             crate::IconProps {
@@ -3323,7 +3323,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_mc,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_MD: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_MD: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_md(
             crate::IconProps {
@@ -3345,7 +3345,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_md,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_ME: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_ME: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_me(
             crate::IconProps {
@@ -3367,7 +3367,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_me,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_MF: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_MF: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_mf(
             crate::IconProps {
@@ -3389,7 +3389,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_mf,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_MG: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_MG: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_mg(
             crate::IconProps {
@@ -3411,7 +3411,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_mg,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_MH: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_MH: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_mh(
             crate::IconProps {
@@ -3433,7 +3433,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_mh,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_MK: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_MK: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_mk(
             crate::IconProps {
@@ -3455,7 +3455,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_mk,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_ML: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_ML: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ml(
             crate::IconProps {
@@ -3477,7 +3477,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ml,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_MM: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_MM: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_mm(
             crate::IconProps {
@@ -3499,7 +3499,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_mm,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_MN: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_MN: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_mn(
             crate::IconProps {
@@ -3521,7 +3521,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_mn,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_MO: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_MO: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_mo(
             crate::IconProps {
@@ -3543,7 +3543,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_mo,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_MP: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_MP: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_mp(
             crate::IconProps {
@@ -3565,7 +3565,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_mp,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_MQ: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_MQ: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_mq(
             crate::IconProps {
@@ -3587,7 +3587,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_mq,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_MR: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_MR: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_mr(
             crate::IconProps {
@@ -3609,7 +3609,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_mr,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_MS: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_MS: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ms(
             crate::IconProps {
@@ -3631,7 +3631,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ms,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_MT: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_MT: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_mt(
             crate::IconProps {
@@ -3653,7 +3653,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_mt,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_MU: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_MU: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_mu(
             crate::IconProps {
@@ -3675,7 +3675,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_mu,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_MV: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_MV: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_mv(
             crate::IconProps {
@@ -3697,7 +3697,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_mv,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_MW: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_MW: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_mw(
             crate::IconProps {
@@ -3719,7 +3719,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_mw,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_MX: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_MX: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_mx(
             crate::IconProps {
@@ -3741,7 +3741,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_mx,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_MY: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_MY: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_my(
             crate::IconProps {
@@ -3763,7 +3763,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_my,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_MZ: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_MZ: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_mz(
             crate::IconProps {
@@ -3785,7 +3785,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_mz,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_NA: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_NA: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_na(
             crate::IconProps {
@@ -3807,7 +3807,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_na,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_NC: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_NC: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_nc(
             crate::IconProps {
@@ -3829,7 +3829,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_nc,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_NE: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_NE: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ne(
             crate::IconProps {
@@ -3851,7 +3851,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ne,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_NF: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_NF: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_nf(
             crate::IconProps {
@@ -3873,7 +3873,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_nf,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_NG: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_NG: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ng(
             crate::IconProps {
@@ -3895,7 +3895,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ng,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_NI: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_NI: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ni(
             crate::IconProps {
@@ -3917,7 +3917,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ni,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_NL: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_NL: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_nl(
             crate::IconProps {
@@ -3939,7 +3939,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_nl,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_NO: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_NO: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_no(
             crate::IconProps {
@@ -3961,7 +3961,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_no,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_NP: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_NP: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_np(
             crate::IconProps {
@@ -3983,7 +3983,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_np,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_NR: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_NR: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_nr(
             crate::IconProps {
@@ -4005,7 +4005,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_nr,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_NU: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_NU: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_nu(
             crate::IconProps {
@@ -4027,7 +4027,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_nu,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_NZ: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_NZ: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_nz(
             crate::IconProps {
@@ -4049,7 +4049,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_nz,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_OM: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_OM: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_om(
             crate::IconProps {
@@ -4071,7 +4071,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_om,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_PA: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_PA: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_pa(
             crate::IconProps {
@@ -4093,7 +4093,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_pa,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_PE: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_PE: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_pe(
             crate::IconProps {
@@ -4115,7 +4115,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_pe,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_PF: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_PF: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_pf(
             crate::IconProps {
@@ -4137,7 +4137,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_pf,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_PG: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_PG: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_pg(
             crate::IconProps {
@@ -4159,7 +4159,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_pg,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_PH: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_PH: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ph(
             crate::IconProps {
@@ -4181,7 +4181,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ph,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_PK: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_PK: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_pk(
             crate::IconProps {
@@ -4203,7 +4203,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_pk,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_PL: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_PL: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_pl(
             crate::IconProps {
@@ -4225,7 +4225,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_pl,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_PM: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_PM: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_pm(
             crate::IconProps {
@@ -4247,7 +4247,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_pm,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_PN: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_PN: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_pn(
             crate::IconProps {
@@ -4269,7 +4269,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_pn,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_PR: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_PR: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_pr(
             crate::IconProps {
@@ -4291,7 +4291,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_pr,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_PS: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_PS: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ps(
             crate::IconProps {
@@ -4313,7 +4313,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ps,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_PT: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_PT: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_pt(
             crate::IconProps {
@@ -4335,7 +4335,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_pt,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_PW: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_PW: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_pw(
             crate::IconProps {
@@ -4357,7 +4357,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_pw,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_PY: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_PY: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_py(
             crate::IconProps {
@@ -4379,7 +4379,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_py,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_QA: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_QA: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_qa(
             crate::IconProps {
@@ -4401,7 +4401,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_qa,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_RE: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_RE: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_re(
             crate::IconProps {
@@ -4423,7 +4423,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_re,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_RO: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_RO: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ro(
             crate::IconProps {
@@ -4445,7 +4445,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ro,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_RS: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_RS: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_rs(
             crate::IconProps {
@@ -4467,7 +4467,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_rs,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_RU: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_RU: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ru(
             crate::IconProps {
@@ -4489,7 +4489,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ru,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_RW: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_RW: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_rw(
             crate::IconProps {
@@ -4511,7 +4511,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_rw,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_SA: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_SA: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_sa(
             crate::IconProps {
@@ -4533,7 +4533,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_sa,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_SB: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_SB: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_sb(
             crate::IconProps {
@@ -4555,7 +4555,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_sb,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_SC: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_SC: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_sc(
             crate::IconProps {
@@ -4577,7 +4577,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_sc,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_SD: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_SD: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_sd(
             crate::IconProps {
@@ -4599,7 +4599,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_sd,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_SE: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_SE: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_se(
             crate::IconProps {
@@ -4621,7 +4621,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_se,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_SG: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_SG: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_sg(
             crate::IconProps {
@@ -4643,7 +4643,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_sg,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_SH: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_SH: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_sh(
             crate::IconProps {
@@ -4665,7 +4665,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_sh,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_SI: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_SI: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_si(
             crate::IconProps {
@@ -4687,7 +4687,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_si,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_SJ: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_SJ: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_sj(
             crate::IconProps {
@@ -4709,7 +4709,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_sj,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_SK: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_SK: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_sk(
             crate::IconProps {
@@ -4731,7 +4731,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_sk,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_SL: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_SL: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_sl(
             crate::IconProps {
@@ -4753,7 +4753,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_sl,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_SM: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_SM: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_sm(
             crate::IconProps {
@@ -4775,7 +4775,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_sm,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_SN: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_SN: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_sn(
             crate::IconProps {
@@ -4797,7 +4797,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_sn,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_SO: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_SO: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_so(
             crate::IconProps {
@@ -4819,7 +4819,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_so,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_SR: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_SR: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_sr(
             crate::IconProps {
@@ -4841,7 +4841,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_sr,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_SS: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_SS: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ss(
             crate::IconProps {
@@ -4863,7 +4863,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ss,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_ST: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_ST: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_st(
             crate::IconProps {
@@ -4885,7 +4885,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_st,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_SV: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_SV: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_sv(
             crate::IconProps {
@@ -4907,7 +4907,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_sv,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_SX: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_SX: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_sx(
             crate::IconProps {
@@ -4929,7 +4929,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_sx,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_SY: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_SY: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_sy(
             crate::IconProps {
@@ -4951,7 +4951,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_sy,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_SZ: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_SZ: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_sz(
             crate::IconProps {
@@ -4973,7 +4973,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_sz,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_TA: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_TA: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ta(
             crate::IconProps {
@@ -4995,7 +4995,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ta,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_TC: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_TC: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_tc(
             crate::IconProps {
@@ -5017,7 +5017,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_tc,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_TD: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_TD: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_td(
             crate::IconProps {
@@ -5039,7 +5039,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_td,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_TF: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_TF: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_tf(
             crate::IconProps {
@@ -5061,7 +5061,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_tf,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_TG: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_TG: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_tg(
             crate::IconProps {
@@ -5083,7 +5083,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_tg,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_TH: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_TH: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_th(
             crate::IconProps {
@@ -5105,7 +5105,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_th,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_TJ: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_TJ: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_tj(
             crate::IconProps {
@@ -5127,7 +5127,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_tj,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_TK: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_TK: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_tk(
             crate::IconProps {
@@ -5149,7 +5149,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_tk,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_TL: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_TL: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_tl(
             crate::IconProps {
@@ -5171,7 +5171,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_tl,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_TM: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_TM: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_tm(
             crate::IconProps {
@@ -5193,7 +5193,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_tm,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_TN: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_TN: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_tn(
             crate::IconProps {
@@ -5215,7 +5215,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_tn,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_TO: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_TO: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_to(
             crate::IconProps {
@@ -5237,7 +5237,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_to,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_TR: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_TR: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_tr(
             crate::IconProps {
@@ -5259,7 +5259,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_tr,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_TT: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_TT: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_tt(
             crate::IconProps {
@@ -5281,7 +5281,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_tt,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_TV: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_TV: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_tv(
             crate::IconProps {
@@ -5303,7 +5303,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_tv,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_TW: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_TW: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_tw(
             crate::IconProps {
@@ -5325,7 +5325,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_tw,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_TZ: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_TZ: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_tz(
             crate::IconProps {
@@ -5347,7 +5347,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_tz,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_UA: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_UA: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ua(
             crate::IconProps {
@@ -5369,7 +5369,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ua,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_UG: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_UG: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ug(
             crate::IconProps {
@@ -5391,7 +5391,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ug,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_UM: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_UM: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_um(
             crate::IconProps {
@@ -5413,7 +5413,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_um,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_UN: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_UN: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_un(
             crate::IconProps {
@@ -5435,7 +5435,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_un,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_US: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_US: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_us(
             crate::IconProps {
@@ -5457,7 +5457,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_us,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_UY: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_UY: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_uy(
             crate::IconProps {
@@ -5479,7 +5479,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_uy,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_UZ: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_UZ: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_uz(
             crate::IconProps {
@@ -5501,7 +5501,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_uz,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_VA: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_VA: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_va(
             crate::IconProps {
@@ -5523,7 +5523,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_va,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_VC: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_VC: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_vc(
             crate::IconProps {
@@ -5545,7 +5545,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_vc,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_VE: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_VE: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ve(
             crate::IconProps {
@@ -5567,7 +5567,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ve,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_VG: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_VG: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_vg(
             crate::IconProps {
@@ -5589,7 +5589,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_vg,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_VI: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_VI: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_vi(
             crate::IconProps {
@@ -5611,7 +5611,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_vi,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_VN: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_VN: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_vn(
             crate::IconProps {
@@ -5633,7 +5633,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_vn,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_VU: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_VU: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_vu(
             crate::IconProps {
@@ -5655,7 +5655,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_vu,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_WF: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_WF: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_wf(
             crate::IconProps {
@@ -5677,7 +5677,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_wf,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_WS: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_WS: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ws(
             crate::IconProps {
@@ -5699,7 +5699,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ws,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_XK: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_XK: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_xk(
             crate::IconProps {
@@ -5721,7 +5721,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_xk,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_XX: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_XX: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_xx(
             crate::IconProps {
@@ -5743,7 +5743,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_xx,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_YE: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_YE: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_ye(
             crate::IconProps {
@@ -5765,7 +5765,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_ye,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_YT: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_YT: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_yt(
             crate::IconProps {
@@ -5787,7 +5787,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_yt,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_ZA: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_ZA: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_za(
             crate::IconProps {
@@ -5809,7 +5809,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_za,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_ZM: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_ZM: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_zm(
             crate::IconProps {
@@ -5831,7 +5831,7 @@ impl IconData {
             html: lipis_flag_icons_4_x_3_zm,
         }
     };
-    const LIPIS_FLAG_ICONS_4_X_3_ZW: Self = {
+    pub const LIPIS_FLAG_ICONS_4_X_3_ZW: Self = {
         #[inline(never)]
         fn lipis_flag_icons_4_x_3_zw(
             crate::IconProps {

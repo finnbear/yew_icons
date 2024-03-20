@@ -1,8 +1,7 @@
-use enum_iterator::IntoEnumIterator;
 use wasm_bindgen::{prelude::Closure, JsCast};
 use web_sys::window;
 use yew::prelude::*;
-use yew_icons::{Icon, IconId};
+use yew_icons::{Icon, IconData};
 
 #[derive(Properties, PartialEq)]
 pub struct GalleryProps {
@@ -11,7 +10,12 @@ pub struct GalleryProps {
 
 #[function_component]
 pub fn Gallery(props: &GalleryProps) -> Html {
-    let initial_icons = use_memo((), |_| IconData::ENUMERATE.iter()copied().collect::<Vec<IconData>>());
+    let initial_icons = use_memo((), |_| {
+        IconData::ENUMERATE
+            .iter()
+            .copied()
+            .collect::<Vec<IconData>>()
+    });
     let icons = use_memo(props.query.clone(), |query| {
         initial_icons
             .iter()
@@ -25,7 +29,7 @@ pub fn Gallery(props: &GalleryProps) -> Html {
                 })
             })
             .cloned()
-            .collect::<Vec<IconId>>()
+            .collect::<Vec<IconData>>()
     });
 
     if icons.is_empty() {

@@ -4,7 +4,7 @@ pub use components::{Gallery, Header, ScrollToTop};
 use std::ops::Deref;
 use web_sys::{window, HtmlInputElement};
 use yew::prelude::*;
-use yew_icons::{Icon, IconId};
+use yew_icons::{Icon, IconData};
 
 #[function_component]
 fn App() -> Html {
@@ -35,7 +35,7 @@ fn App() -> Html {
            <>
                 <div style="padding: 10px;">
                     <div class="help-text">
-                        {"Hover/click to get the feature flag/IconId"}
+                        {"Hover/click to get the feature flag/IconData"}
                     </div>
                 </div>
 

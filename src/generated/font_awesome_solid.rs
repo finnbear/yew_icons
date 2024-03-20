@@ -1,7 +1,7 @@
 // Generated file, do not edit by hand, see `src/generator.rs`
 
-impl IconData {
-    const FONT_AWESOME_SOLID_0: Self = {
+impl crate::IconData {
+    pub const FONT_AWESOME_SOLID_0: Self = {
         #[inline(never)]
         fn font_awesome_solid_0(
             crate::IconProps {
@@ -23,7 +23,7 @@ impl IconData {
             html: font_awesome_solid_0,
         }
     };
-    const FONT_AWESOME_SOLID_1: Self = {
+    pub const FONT_AWESOME_SOLID_1: Self = {
         #[inline(never)]
         fn font_awesome_solid_1(
             crate::IconProps {
@@ -45,7 +45,7 @@ impl IconData {
             html: font_awesome_solid_1,
         }
     };
-    const FONT_AWESOME_SOLID_2: Self = {
+    pub const FONT_AWESOME_SOLID_2: Self = {
         #[inline(never)]
         fn font_awesome_solid_2(
             crate::IconProps {
@@ -67,7 +67,7 @@ impl IconData {
             html: font_awesome_solid_2,
         }
     };
-    const FONT_AWESOME_SOLID_3: Self = {
+    pub const FONT_AWESOME_SOLID_3: Self = {
         #[inline(never)]
         fn font_awesome_solid_3(
             crate::IconProps {
@@ -89,7 +89,7 @@ impl IconData {
             html: font_awesome_solid_3,
         }
     };
-    const FONT_AWESOME_SOLID_4: Self = {
+    pub const FONT_AWESOME_SOLID_4: Self = {
         #[inline(never)]
         fn font_awesome_solid_4(
             crate::IconProps {
@@ -111,7 +111,7 @@ impl IconData {
             html: font_awesome_solid_4,
         }
     };
-    const FONT_AWESOME_SOLID_5: Self = {
+    pub const FONT_AWESOME_SOLID_5: Self = {
         #[inline(never)]
         fn font_awesome_solid_5(
             crate::IconProps {
@@ -133,7 +133,7 @@ impl IconData {
             html: font_awesome_solid_5,
         }
     };
-    const FONT_AWESOME_SOLID_6: Self = {
+    pub const FONT_AWESOME_SOLID_6: Self = {
         #[inline(never)]
         fn font_awesome_solid_6(
             crate::IconProps {
@@ -155,7 +155,7 @@ impl IconData {
             html: font_awesome_solid_6,
         }
     };
-    const FONT_AWESOME_SOLID_7: Self = {
+    pub const FONT_AWESOME_SOLID_7: Self = {
         #[inline(never)]
         fn font_awesome_solid_7(
             crate::IconProps {
@@ -177,7 +177,7 @@ impl IconData {
             html: font_awesome_solid_7,
         }
     };
-    const FONT_AWESOME_SOLID_8: Self = {
+    pub const FONT_AWESOME_SOLID_8: Self = {
         #[inline(never)]
         fn font_awesome_solid_8(
             crate::IconProps {
@@ -199,7 +199,7 @@ impl IconData {
             html: font_awesome_solid_8,
         }
     };
-    const FONT_AWESOME_SOLID_9: Self = {
+    pub const FONT_AWESOME_SOLID_9: Self = {
         #[inline(never)]
         fn font_awesome_solid_9(
             crate::IconProps {
@@ -221,7 +221,7 @@ impl IconData {
             html: font_awesome_solid_9,
         }
     };
-    const FONT_AWESOME_SOLID_A: Self = {
+    pub const FONT_AWESOME_SOLID_A: Self = {
         #[inline(never)]
         fn font_awesome_solid_a(
             crate::IconProps {
@@ -243,7 +243,7 @@ impl IconData {
             html: font_awesome_solid_a,
         }
     };
-    const FONT_AWESOME_SOLID_ADDRESS_BOOK: Self = {
+    pub const FONT_AWESOME_SOLID_ADDRESS_BOOK: Self = {
         #[inline(never)]
         fn font_awesome_solid_address_book(
             crate::IconProps {
@@ -265,7 +265,7 @@ impl IconData {
             html: font_awesome_solid_address_book,
         }
     };
-    const FONT_AWESOME_SOLID_ADDRESS_CARD: Self = {
+    pub const FONT_AWESOME_SOLID_ADDRESS_CARD: Self = {
         #[inline(never)]
         fn font_awesome_solid_address_card(
             crate::IconProps {
@@ -287,7 +287,7 @@ impl IconData {
             html: font_awesome_solid_address_card,
         }
     };
-    const FONT_AWESOME_SOLID_ALIGN_CENTER: Self = {
+    pub const FONT_AWESOME_SOLID_ALIGN_CENTER: Self = {
         #[inline(never)]
         fn font_awesome_solid_align_center(
             crate::IconProps {
@@ -309,7 +309,7 @@ impl IconData {
             html: font_awesome_solid_align_center,
         }
     };
-    const FONT_AWESOME_SOLID_ALIGN_JUSTIFY: Self = {
+    pub const FONT_AWESOME_SOLID_ALIGN_JUSTIFY: Self = {
         #[inline(never)]
         fn font_awesome_solid_align_justify(
             crate::IconProps {
@@ -331,7 +331,7 @@ impl IconData {
             html: font_awesome_solid_align_justify,
         }
     };
-    const FONT_AWESOME_SOLID_ALIGN_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_ALIGN_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_align_left(
             crate::IconProps {
@@ -353,7 +353,7 @@ impl IconData {
             html: font_awesome_solid_align_left,
         }
     };
-    const FONT_AWESOME_SOLID_ALIGN_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_ALIGN_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_align_right(
             crate::IconProps {
@@ -375,7 +375,7 @@ impl IconData {
             html: font_awesome_solid_align_right,
         }
     };
-    const FONT_AWESOME_SOLID_ANCHOR_CIRCLE_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_ANCHOR_CIRCLE_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_anchor_circle_check(
             crate::IconProps {
@@ -397,7 +397,7 @@ impl IconData {
             html: font_awesome_solid_anchor_circle_check,
         }
     };
-    const FONT_AWESOME_SOLID_ANCHOR_CIRCLE_EXCLAMATION: Self = {
+    pub const FONT_AWESOME_SOLID_ANCHOR_CIRCLE_EXCLAMATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_anchor_circle_exclamation(
             crate::IconProps {
@@ -419,7 +419,7 @@ impl IconData {
             html: font_awesome_solid_anchor_circle_exclamation,
         }
     };
-    const FONT_AWESOME_SOLID_ANCHOR_CIRCLE_XMARK: Self = {
+    pub const FONT_AWESOME_SOLID_ANCHOR_CIRCLE_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_anchor_circle_xmark(
             crate::IconProps {
@@ -441,7 +441,7 @@ impl IconData {
             html: font_awesome_solid_anchor_circle_xmark,
         }
     };
-    const FONT_AWESOME_SOLID_ANCHOR_LOCK: Self = {
+    pub const FONT_AWESOME_SOLID_ANCHOR_LOCK: Self = {
         #[inline(never)]
         fn font_awesome_solid_anchor_lock(
             crate::IconProps {
@@ -463,7 +463,7 @@ impl IconData {
             html: font_awesome_solid_anchor_lock,
         }
     };
-    const FONT_AWESOME_SOLID_ANCHOR: Self = {
+    pub const FONT_AWESOME_SOLID_ANCHOR: Self = {
         #[inline(never)]
         fn font_awesome_solid_anchor(
             crate::IconProps {
@@ -485,7 +485,7 @@ impl IconData {
             html: font_awesome_solid_anchor,
         }
     };
-    const FONT_AWESOME_SOLID_ANGLE_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_ANGLE_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_angle_down(
             crate::IconProps {
@@ -507,7 +507,7 @@ impl IconData {
             html: font_awesome_solid_angle_down,
         }
     };
-    const FONT_AWESOME_SOLID_ANGLE_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_ANGLE_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_angle_left(
             crate::IconProps {
@@ -529,7 +529,7 @@ impl IconData {
             html: font_awesome_solid_angle_left,
         }
     };
-    const FONT_AWESOME_SOLID_ANGLE_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_ANGLE_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_angle_right(
             crate::IconProps {
@@ -551,7 +551,7 @@ impl IconData {
             html: font_awesome_solid_angle_right,
         }
     };
-    const FONT_AWESOME_SOLID_ANGLE_UP: Self = {
+    pub const FONT_AWESOME_SOLID_ANGLE_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_angle_up(
             crate::IconProps {
@@ -573,7 +573,7 @@ impl IconData {
             html: font_awesome_solid_angle_up,
         }
     };
-    const FONT_AWESOME_SOLID_ANGLES_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_ANGLES_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_angles_down(
             crate::IconProps {
@@ -595,7 +595,7 @@ impl IconData {
             html: font_awesome_solid_angles_down,
         }
     };
-    const FONT_AWESOME_SOLID_ANGLES_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_ANGLES_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_angles_left(
             crate::IconProps {
@@ -617,7 +617,7 @@ impl IconData {
             html: font_awesome_solid_angles_left,
         }
     };
-    const FONT_AWESOME_SOLID_ANGLES_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_ANGLES_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_angles_right(
             crate::IconProps {
@@ -639,7 +639,7 @@ impl IconData {
             html: font_awesome_solid_angles_right,
         }
     };
-    const FONT_AWESOME_SOLID_ANGLES_UP: Self = {
+    pub const FONT_AWESOME_SOLID_ANGLES_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_angles_up(
             crate::IconProps {
@@ -661,7 +661,7 @@ impl IconData {
             html: font_awesome_solid_angles_up,
         }
     };
-    const FONT_AWESOME_SOLID_ANKH: Self = {
+    pub const FONT_AWESOME_SOLID_ANKH: Self = {
         #[inline(never)]
         fn font_awesome_solid_ankh(
             crate::IconProps {
@@ -683,7 +683,7 @@ impl IconData {
             html: font_awesome_solid_ankh,
         }
     };
-    const FONT_AWESOME_SOLID_APPLE_WHOLE: Self = {
+    pub const FONT_AWESOME_SOLID_APPLE_WHOLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_apple_whole(
             crate::IconProps {
@@ -705,7 +705,7 @@ impl IconData {
             html: font_awesome_solid_apple_whole,
         }
     };
-    const FONT_AWESOME_SOLID_ARCHWAY: Self = {
+    pub const FONT_AWESOME_SOLID_ARCHWAY: Self = {
         #[inline(never)]
         fn font_awesome_solid_archway(
             crate::IconProps {
@@ -727,7 +727,7 @@ impl IconData {
             html: font_awesome_solid_archway,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_DOWN_1_9: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_DOWN_1_9: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_down_1_9(
             crate::IconProps {
@@ -749,7 +749,7 @@ impl IconData {
             html: font_awesome_solid_arrow_down_1_9,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_DOWN_9_1: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_DOWN_9_1: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_down_9_1(
             crate::IconProps {
@@ -771,7 +771,7 @@ impl IconData {
             html: font_awesome_solid_arrow_down_9_1,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_DOWN_A_Z: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_DOWN_A_Z: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_down_a_z(
             crate::IconProps {
@@ -793,7 +793,7 @@ impl IconData {
             html: font_awesome_solid_arrow_down_a_z,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_DOWN_LONG: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_DOWN_LONG: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_down_long(
             crate::IconProps {
@@ -815,7 +815,7 @@ impl IconData {
             html: font_awesome_solid_arrow_down_long,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_DOWN_SHORT_WIDE: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_DOWN_SHORT_WIDE: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_down_short_wide(
             crate::IconProps {
@@ -837,7 +837,7 @@ impl IconData {
             html: font_awesome_solid_arrow_down_short_wide,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_DOWN_UP_ACROSS_LINE: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_DOWN_UP_ACROSS_LINE: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_down_up_across_line(
             crate::IconProps {
@@ -859,7 +859,7 @@ impl IconData {
             html: font_awesome_solid_arrow_down_up_across_line,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_DOWN_UP_LOCK: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_DOWN_UP_LOCK: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_down_up_lock(
             crate::IconProps {
@@ -881,7 +881,7 @@ impl IconData {
             html: font_awesome_solid_arrow_down_up_lock,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_DOWN_WIDE_SHORT: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_DOWN_WIDE_SHORT: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_down_wide_short(
             crate::IconProps {
@@ -903,7 +903,7 @@ impl IconData {
             html: font_awesome_solid_arrow_down_wide_short,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_DOWN_Z_A: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_DOWN_Z_A: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_down_z_a(
             crate::IconProps {
@@ -925,7 +925,7 @@ impl IconData {
             html: font_awesome_solid_arrow_down_z_a,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_down(
             crate::IconProps {
@@ -947,7 +947,7 @@ impl IconData {
             html: font_awesome_solid_arrow_down,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_LEFT_LONG: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_LEFT_LONG: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_left_long(
             crate::IconProps {
@@ -969,7 +969,7 @@ impl IconData {
             html: font_awesome_solid_arrow_left_long,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_left(
             crate::IconProps {
@@ -991,7 +991,7 @@ impl IconData {
             html: font_awesome_solid_arrow_left,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_POINTER: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_POINTER: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_pointer(
             crate::IconProps {
@@ -1013,7 +1013,7 @@ impl IconData {
             html: font_awesome_solid_arrow_pointer,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_RIGHT_ARROW_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_RIGHT_ARROW_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_right_arrow_left(
             crate::IconProps {
@@ -1035,7 +1035,7 @@ impl IconData {
             html: font_awesome_solid_arrow_right_arrow_left,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_RIGHT_FROM_BRACKET: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_RIGHT_FROM_BRACKET: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_right_from_bracket(
             crate::IconProps {
@@ -1057,7 +1057,7 @@ impl IconData {
             html: font_awesome_solid_arrow_right_from_bracket,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_RIGHT_LONG: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_RIGHT_LONG: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_right_long(
             crate::IconProps {
@@ -1079,7 +1079,7 @@ impl IconData {
             html: font_awesome_solid_arrow_right_long,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_RIGHT_TO_BRACKET: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_RIGHT_TO_BRACKET: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_right_to_bracket(
             crate::IconProps {
@@ -1101,7 +1101,7 @@ impl IconData {
             html: font_awesome_solid_arrow_right_to_bracket,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_RIGHT_TO_CITY: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_RIGHT_TO_CITY: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_right_to_city(
             crate::IconProps {
@@ -1123,7 +1123,7 @@ impl IconData {
             html: font_awesome_solid_arrow_right_to_city,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_right(
             crate::IconProps {
@@ -1145,7 +1145,7 @@ impl IconData {
             html: font_awesome_solid_arrow_right,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_ROTATE_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_ROTATE_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_rotate_left(
             crate::IconProps {
@@ -1167,7 +1167,7 @@ impl IconData {
             html: font_awesome_solid_arrow_rotate_left,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_ROTATE_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_ROTATE_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_rotate_right(
             crate::IconProps {
@@ -1189,7 +1189,7 @@ impl IconData {
             html: font_awesome_solid_arrow_rotate_right,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_TREND_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_TREND_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_trend_down(
             crate::IconProps {
@@ -1211,7 +1211,7 @@ impl IconData {
             html: font_awesome_solid_arrow_trend_down,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_TREND_UP: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_TREND_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_trend_up(
             crate::IconProps {
@@ -1233,7 +1233,7 @@ impl IconData {
             html: font_awesome_solid_arrow_trend_up,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_TURN_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_TURN_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_turn_down(
             crate::IconProps {
@@ -1255,7 +1255,7 @@ impl IconData {
             html: font_awesome_solid_arrow_turn_down,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_TURN_UP: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_TURN_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_turn_up(
             crate::IconProps {
@@ -1277,7 +1277,7 @@ impl IconData {
             html: font_awesome_solid_arrow_turn_up,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_UP_1_9: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_UP_1_9: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_up_1_9(
             crate::IconProps {
@@ -1299,7 +1299,7 @@ impl IconData {
             html: font_awesome_solid_arrow_up_1_9,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_UP_9_1: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_UP_9_1: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_up_9_1(
             crate::IconProps {
@@ -1321,7 +1321,7 @@ impl IconData {
             html: font_awesome_solid_arrow_up_9_1,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_UP_A_Z: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_UP_A_Z: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_up_a_z(
             crate::IconProps {
@@ -1343,7 +1343,7 @@ impl IconData {
             html: font_awesome_solid_arrow_up_a_z,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_UP_FROM_BRACKET: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_UP_FROM_BRACKET: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_up_from_bracket(
             crate::IconProps {
@@ -1365,7 +1365,7 @@ impl IconData {
             html: font_awesome_solid_arrow_up_from_bracket,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_UP_FROM_GROUND_WATER: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_UP_FROM_GROUND_WATER: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_up_from_ground_water(
             crate::IconProps {
@@ -1387,7 +1387,7 @@ impl IconData {
             html: font_awesome_solid_arrow_up_from_ground_water,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_UP_FROM_WATER_PUMP: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_UP_FROM_WATER_PUMP: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_up_from_water_pump(
             crate::IconProps {
@@ -1409,7 +1409,7 @@ impl IconData {
             html: font_awesome_solid_arrow_up_from_water_pump,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_UP_LONG: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_UP_LONG: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_up_long(
             crate::IconProps {
@@ -1431,7 +1431,7 @@ impl IconData {
             html: font_awesome_solid_arrow_up_long,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_UP_RIGHT_DOTS: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_UP_RIGHT_DOTS: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_up_right_dots(
             crate::IconProps {
@@ -1453,7 +1453,7 @@ impl IconData {
             html: font_awesome_solid_arrow_up_right_dots,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_UP_RIGHT_FROM_SQUARE: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_UP_RIGHT_FROM_SQUARE: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_up_right_from_square(
             crate::IconProps {
@@ -1475,7 +1475,7 @@ impl IconData {
             html: font_awesome_solid_arrow_up_right_from_square,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_UP_SHORT_WIDE: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_UP_SHORT_WIDE: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_up_short_wide(
             crate::IconProps {
@@ -1497,7 +1497,7 @@ impl IconData {
             html: font_awesome_solid_arrow_up_short_wide,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_UP_WIDE_SHORT: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_UP_WIDE_SHORT: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_up_wide_short(
             crate::IconProps {
@@ -1519,7 +1519,7 @@ impl IconData {
             html: font_awesome_solid_arrow_up_wide_short,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_UP_Z_A: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_UP_Z_A: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_up_z_a(
             crate::IconProps {
@@ -1541,7 +1541,7 @@ impl IconData {
             html: font_awesome_solid_arrow_up_z_a,
         }
     };
-    const FONT_AWESOME_SOLID_ARROW_UP: Self = {
+    pub const FONT_AWESOME_SOLID_ARROW_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrow_up(
             crate::IconProps {
@@ -1563,7 +1563,7 @@ impl IconData {
             html: font_awesome_solid_arrow_up,
         }
     };
-    const FONT_AWESOME_SOLID_ARROWS_DOWN_TO_LINE: Self = {
+    pub const FONT_AWESOME_SOLID_ARROWS_DOWN_TO_LINE: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrows_down_to_line(
             crate::IconProps {
@@ -1585,7 +1585,7 @@ impl IconData {
             html: font_awesome_solid_arrows_down_to_line,
         }
     };
-    const FONT_AWESOME_SOLID_ARROWS_DOWN_TO_PEOPLE: Self = {
+    pub const FONT_AWESOME_SOLID_ARROWS_DOWN_TO_PEOPLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrows_down_to_people(
             crate::IconProps {
@@ -1607,7 +1607,7 @@ impl IconData {
             html: font_awesome_solid_arrows_down_to_people,
         }
     };
-    const FONT_AWESOME_SOLID_ARROWS_LEFT_RIGHT_TO_LINE: Self = {
+    pub const FONT_AWESOME_SOLID_ARROWS_LEFT_RIGHT_TO_LINE: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrows_left_right_to_line(
             crate::IconProps {
@@ -1629,7 +1629,7 @@ impl IconData {
             html: font_awesome_solid_arrows_left_right_to_line,
         }
     };
-    const FONT_AWESOME_SOLID_ARROWS_LEFT_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_ARROWS_LEFT_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrows_left_right(
             crate::IconProps {
@@ -1651,7 +1651,7 @@ impl IconData {
             html: font_awesome_solid_arrows_left_right,
         }
     };
-    const FONT_AWESOME_SOLID_ARROWS_ROTATE: Self = {
+    pub const FONT_AWESOME_SOLID_ARROWS_ROTATE: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrows_rotate(
             crate::IconProps {
@@ -1673,7 +1673,7 @@ impl IconData {
             html: font_awesome_solid_arrows_rotate,
         }
     };
-    const FONT_AWESOME_SOLID_ARROWS_SPIN: Self = {
+    pub const FONT_AWESOME_SOLID_ARROWS_SPIN: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrows_spin(
             crate::IconProps {
@@ -1695,7 +1695,7 @@ impl IconData {
             html: font_awesome_solid_arrows_spin,
         }
     };
-    const FONT_AWESOME_SOLID_ARROWS_SPLIT_UP_AND_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_ARROWS_SPLIT_UP_AND_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrows_split_up_and_left(
             crate::IconProps {
@@ -1717,7 +1717,7 @@ impl IconData {
             html: font_awesome_solid_arrows_split_up_and_left,
         }
     };
-    const FONT_AWESOME_SOLID_ARROWS_TO_CIRCLE: Self = {
+    pub const FONT_AWESOME_SOLID_ARROWS_TO_CIRCLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrows_to_circle(
             crate::IconProps {
@@ -1739,7 +1739,7 @@ impl IconData {
             html: font_awesome_solid_arrows_to_circle,
         }
     };
-    const FONT_AWESOME_SOLID_ARROWS_TO_DOT: Self = {
+    pub const FONT_AWESOME_SOLID_ARROWS_TO_DOT: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrows_to_dot(
             crate::IconProps {
@@ -1761,7 +1761,7 @@ impl IconData {
             html: font_awesome_solid_arrows_to_dot,
         }
     };
-    const FONT_AWESOME_SOLID_ARROWS_TO_EYE: Self = {
+    pub const FONT_AWESOME_SOLID_ARROWS_TO_EYE: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrows_to_eye(
             crate::IconProps {
@@ -1783,7 +1783,7 @@ impl IconData {
             html: font_awesome_solid_arrows_to_eye,
         }
     };
-    const FONT_AWESOME_SOLID_ARROWS_TURN_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_ARROWS_TURN_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrows_turn_right(
             crate::IconProps {
@@ -1805,7 +1805,7 @@ impl IconData {
             html: font_awesome_solid_arrows_turn_right,
         }
     };
-    const FONT_AWESOME_SOLID_ARROWS_TURN_TO_DOTS: Self = {
+    pub const FONT_AWESOME_SOLID_ARROWS_TURN_TO_DOTS: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrows_turn_to_dots(
             crate::IconProps {
@@ -1827,7 +1827,7 @@ impl IconData {
             html: font_awesome_solid_arrows_turn_to_dots,
         }
     };
-    const FONT_AWESOME_SOLID_ARROWS_UP_DOWN_LEFT_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_ARROWS_UP_DOWN_LEFT_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrows_up_down_left_right(
             crate::IconProps {
@@ -1849,7 +1849,7 @@ impl IconData {
             html: font_awesome_solid_arrows_up_down_left_right,
         }
     };
-    const FONT_AWESOME_SOLID_ARROWS_UP_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_ARROWS_UP_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrows_up_down(
             crate::IconProps {
@@ -1871,7 +1871,7 @@ impl IconData {
             html: font_awesome_solid_arrows_up_down,
         }
     };
-    const FONT_AWESOME_SOLID_ARROWS_UP_TO_LINE: Self = {
+    pub const FONT_AWESOME_SOLID_ARROWS_UP_TO_LINE: Self = {
         #[inline(never)]
         fn font_awesome_solid_arrows_up_to_line(
             crate::IconProps {
@@ -1893,7 +1893,7 @@ impl IconData {
             html: font_awesome_solid_arrows_up_to_line,
         }
     };
-    const FONT_AWESOME_SOLID_ASTERISK: Self = {
+    pub const FONT_AWESOME_SOLID_ASTERISK: Self = {
         #[inline(never)]
         fn font_awesome_solid_asterisk(
             crate::IconProps {
@@ -1915,7 +1915,7 @@ impl IconData {
             html: font_awesome_solid_asterisk,
         }
     };
-    const FONT_AWESOME_SOLID_AT: Self = {
+    pub const FONT_AWESOME_SOLID_AT: Self = {
         #[inline(never)]
         fn font_awesome_solid_at(
             crate::IconProps {
@@ -1937,7 +1937,7 @@ impl IconData {
             html: font_awesome_solid_at,
         }
     };
-    const FONT_AWESOME_SOLID_ATOM: Self = {
+    pub const FONT_AWESOME_SOLID_ATOM: Self = {
         #[inline(never)]
         fn font_awesome_solid_atom(
             crate::IconProps {
@@ -1959,7 +1959,7 @@ impl IconData {
             html: font_awesome_solid_atom,
         }
     };
-    const FONT_AWESOME_SOLID_AUDIO_DESCRIPTION: Self = {
+    pub const FONT_AWESOME_SOLID_AUDIO_DESCRIPTION: Self = {
         #[inline(never)]
         fn font_awesome_solid_audio_description(
             crate::IconProps {
@@ -1981,7 +1981,7 @@ impl IconData {
             html: font_awesome_solid_audio_description,
         }
     };
-    const FONT_AWESOME_SOLID_AUSTRAL_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_AUSTRAL_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_austral_sign(
             crate::IconProps {
@@ -2003,7 +2003,7 @@ impl IconData {
             html: font_awesome_solid_austral_sign,
         }
     };
-    const FONT_AWESOME_SOLID_AWARD: Self = {
+    pub const FONT_AWESOME_SOLID_AWARD: Self = {
         #[inline(never)]
         fn font_awesome_solid_award(
             crate::IconProps {
@@ -2025,7 +2025,7 @@ impl IconData {
             html: font_awesome_solid_award,
         }
     };
-    const FONT_AWESOME_SOLID_B: Self = {
+    pub const FONT_AWESOME_SOLID_B: Self = {
         #[inline(never)]
         fn font_awesome_solid_b(
             crate::IconProps {
@@ -2047,7 +2047,7 @@ impl IconData {
             html: font_awesome_solid_b,
         }
     };
-    const FONT_AWESOME_SOLID_BABY_CARRIAGE: Self = {
+    pub const FONT_AWESOME_SOLID_BABY_CARRIAGE: Self = {
         #[inline(never)]
         fn font_awesome_solid_baby_carriage(
             crate::IconProps {
@@ -2069,7 +2069,7 @@ impl IconData {
             html: font_awesome_solid_baby_carriage,
         }
     };
-    const FONT_AWESOME_SOLID_BABY: Self = {
+    pub const FONT_AWESOME_SOLID_BABY: Self = {
         #[inline(never)]
         fn font_awesome_solid_baby(
             crate::IconProps {
@@ -2091,7 +2091,7 @@ impl IconData {
             html: font_awesome_solid_baby,
         }
     };
-    const FONT_AWESOME_SOLID_BACKWARD_FAST: Self = {
+    pub const FONT_AWESOME_SOLID_BACKWARD_FAST: Self = {
         #[inline(never)]
         fn font_awesome_solid_backward_fast(
             crate::IconProps {
@@ -2113,7 +2113,7 @@ impl IconData {
             html: font_awesome_solid_backward_fast,
         }
     };
-    const FONT_AWESOME_SOLID_BACKWARD_STEP: Self = {
+    pub const FONT_AWESOME_SOLID_BACKWARD_STEP: Self = {
         #[inline(never)]
         fn font_awesome_solid_backward_step(
             crate::IconProps {
@@ -2135,7 +2135,7 @@ impl IconData {
             html: font_awesome_solid_backward_step,
         }
     };
-    const FONT_AWESOME_SOLID_BACKWARD: Self = {
+    pub const FONT_AWESOME_SOLID_BACKWARD: Self = {
         #[inline(never)]
         fn font_awesome_solid_backward(
             crate::IconProps {
@@ -2157,7 +2157,7 @@ impl IconData {
             html: font_awesome_solid_backward,
         }
     };
-    const FONT_AWESOME_SOLID_BACON: Self = {
+    pub const FONT_AWESOME_SOLID_BACON: Self = {
         #[inline(never)]
         fn font_awesome_solid_bacon(
             crate::IconProps {
@@ -2179,7 +2179,7 @@ impl IconData {
             html: font_awesome_solid_bacon,
         }
     };
-    const FONT_AWESOME_SOLID_BACTERIA: Self = {
+    pub const FONT_AWESOME_SOLID_BACTERIA: Self = {
         #[inline(never)]
         fn font_awesome_solid_bacteria(
             crate::IconProps {
@@ -2201,7 +2201,7 @@ impl IconData {
             html: font_awesome_solid_bacteria,
         }
     };
-    const FONT_AWESOME_SOLID_BACTERIUM: Self = {
+    pub const FONT_AWESOME_SOLID_BACTERIUM: Self = {
         #[inline(never)]
         fn font_awesome_solid_bacterium(
             crate::IconProps {
@@ -2223,7 +2223,7 @@ impl IconData {
             html: font_awesome_solid_bacterium,
         }
     };
-    const FONT_AWESOME_SOLID_BAG_SHOPPING: Self = {
+    pub const FONT_AWESOME_SOLID_BAG_SHOPPING: Self = {
         #[inline(never)]
         fn font_awesome_solid_bag_shopping(
             crate::IconProps {
@@ -2245,7 +2245,7 @@ impl IconData {
             html: font_awesome_solid_bag_shopping,
         }
     };
-    const FONT_AWESOME_SOLID_BAHAI: Self = {
+    pub const FONT_AWESOME_SOLID_BAHAI: Self = {
         #[inline(never)]
         fn font_awesome_solid_bahai(
             crate::IconProps {
@@ -2267,7 +2267,7 @@ impl IconData {
             html: font_awesome_solid_bahai,
         }
     };
-    const FONT_AWESOME_SOLID_BAHT_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_BAHT_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_baht_sign(
             crate::IconProps {
@@ -2289,7 +2289,7 @@ impl IconData {
             html: font_awesome_solid_baht_sign,
         }
     };
-    const FONT_AWESOME_SOLID_BAN_SMOKING: Self = {
+    pub const FONT_AWESOME_SOLID_BAN_SMOKING: Self = {
         #[inline(never)]
         fn font_awesome_solid_ban_smoking(
             crate::IconProps {
@@ -2311,7 +2311,7 @@ impl IconData {
             html: font_awesome_solid_ban_smoking,
         }
     };
-    const FONT_AWESOME_SOLID_BAN: Self = {
+    pub const FONT_AWESOME_SOLID_BAN: Self = {
         #[inline(never)]
         fn font_awesome_solid_ban(
             crate::IconProps {
@@ -2333,7 +2333,7 @@ impl IconData {
             html: font_awesome_solid_ban,
         }
     };
-    const FONT_AWESOME_SOLID_BANDAGE: Self = {
+    pub const FONT_AWESOME_SOLID_BANDAGE: Self = {
         #[inline(never)]
         fn font_awesome_solid_bandage(
             crate::IconProps {
@@ -2355,7 +2355,7 @@ impl IconData {
             html: font_awesome_solid_bandage,
         }
     };
-    const FONT_AWESOME_SOLID_BARCODE: Self = {
+    pub const FONT_AWESOME_SOLID_BARCODE: Self = {
         #[inline(never)]
         fn font_awesome_solid_barcode(
             crate::IconProps {
@@ -2377,7 +2377,7 @@ impl IconData {
             html: font_awesome_solid_barcode,
         }
     };
-    const FONT_AWESOME_SOLID_BARS_PROGRESS: Self = {
+    pub const FONT_AWESOME_SOLID_BARS_PROGRESS: Self = {
         #[inline(never)]
         fn font_awesome_solid_bars_progress(
             crate::IconProps {
@@ -2399,7 +2399,7 @@ impl IconData {
             html: font_awesome_solid_bars_progress,
         }
     };
-    const FONT_AWESOME_SOLID_BARS_STAGGERED: Self = {
+    pub const FONT_AWESOME_SOLID_BARS_STAGGERED: Self = {
         #[inline(never)]
         fn font_awesome_solid_bars_staggered(
             crate::IconProps {
@@ -2421,7 +2421,7 @@ impl IconData {
             html: font_awesome_solid_bars_staggered,
         }
     };
-    const FONT_AWESOME_SOLID_BARS: Self = {
+    pub const FONT_AWESOME_SOLID_BARS: Self = {
         #[inline(never)]
         fn font_awesome_solid_bars(
             crate::IconProps {
@@ -2443,7 +2443,7 @@ impl IconData {
             html: font_awesome_solid_bars,
         }
     };
-    const FONT_AWESOME_SOLID_BASEBALL_BAT_BALL: Self = {
+    pub const FONT_AWESOME_SOLID_BASEBALL_BAT_BALL: Self = {
         #[inline(never)]
         fn font_awesome_solid_baseball_bat_ball(
             crate::IconProps {
@@ -2465,7 +2465,7 @@ impl IconData {
             html: font_awesome_solid_baseball_bat_ball,
         }
     };
-    const FONT_AWESOME_SOLID_BASEBALL: Self = {
+    pub const FONT_AWESOME_SOLID_BASEBALL: Self = {
         #[inline(never)]
         fn font_awesome_solid_baseball(
             crate::IconProps {
@@ -2487,7 +2487,7 @@ impl IconData {
             html: font_awesome_solid_baseball,
         }
     };
-    const FONT_AWESOME_SOLID_BASKET_SHOPPING: Self = {
+    pub const FONT_AWESOME_SOLID_BASKET_SHOPPING: Self = {
         #[inline(never)]
         fn font_awesome_solid_basket_shopping(
             crate::IconProps {
@@ -2509,7 +2509,7 @@ impl IconData {
             html: font_awesome_solid_basket_shopping,
         }
     };
-    const FONT_AWESOME_SOLID_BASKETBALL: Self = {
+    pub const FONT_AWESOME_SOLID_BASKETBALL: Self = {
         #[inline(never)]
         fn font_awesome_solid_basketball(
             crate::IconProps {
@@ -2531,7 +2531,7 @@ impl IconData {
             html: font_awesome_solid_basketball,
         }
     };
-    const FONT_AWESOME_SOLID_BATH: Self = {
+    pub const FONT_AWESOME_SOLID_BATH: Self = {
         #[inline(never)]
         fn font_awesome_solid_bath(
             crate::IconProps {
@@ -2553,7 +2553,7 @@ impl IconData {
             html: font_awesome_solid_bath,
         }
     };
-    const FONT_AWESOME_SOLID_BATTERY_EMPTY: Self = {
+    pub const FONT_AWESOME_SOLID_BATTERY_EMPTY: Self = {
         #[inline(never)]
         fn font_awesome_solid_battery_empty(
             crate::IconProps {
@@ -2575,7 +2575,7 @@ impl IconData {
             html: font_awesome_solid_battery_empty,
         }
     };
-    const FONT_AWESOME_SOLID_BATTERY_FULL: Self = {
+    pub const FONT_AWESOME_SOLID_BATTERY_FULL: Self = {
         #[inline(never)]
         fn font_awesome_solid_battery_full(
             crate::IconProps {
@@ -2597,7 +2597,7 @@ impl IconData {
             html: font_awesome_solid_battery_full,
         }
     };
-    const FONT_AWESOME_SOLID_BATTERY_HALF: Self = {
+    pub const FONT_AWESOME_SOLID_BATTERY_HALF: Self = {
         #[inline(never)]
         fn font_awesome_solid_battery_half(
             crate::IconProps {
@@ -2619,7 +2619,7 @@ impl IconData {
             html: font_awesome_solid_battery_half,
         }
     };
-    const FONT_AWESOME_SOLID_BATTERY_QUARTER: Self = {
+    pub const FONT_AWESOME_SOLID_BATTERY_QUARTER: Self = {
         #[inline(never)]
         fn font_awesome_solid_battery_quarter(
             crate::IconProps {
@@ -2641,7 +2641,7 @@ impl IconData {
             html: font_awesome_solid_battery_quarter,
         }
     };
-    const FONT_AWESOME_SOLID_BATTERY_THREE_QUARTERS: Self = {
+    pub const FONT_AWESOME_SOLID_BATTERY_THREE_QUARTERS: Self = {
         #[inline(never)]
         fn font_awesome_solid_battery_three_quarters(
             crate::IconProps {
@@ -2663,7 +2663,7 @@ impl IconData {
             html: font_awesome_solid_battery_three_quarters,
         }
     };
-    const FONT_AWESOME_SOLID_BED_PULSE: Self = {
+    pub const FONT_AWESOME_SOLID_BED_PULSE: Self = {
         #[inline(never)]
         fn font_awesome_solid_bed_pulse(
             crate::IconProps {
@@ -2685,7 +2685,7 @@ impl IconData {
             html: font_awesome_solid_bed_pulse,
         }
     };
-    const FONT_AWESOME_SOLID_BED: Self = {
+    pub const FONT_AWESOME_SOLID_BED: Self = {
         #[inline(never)]
         fn font_awesome_solid_bed(
             crate::IconProps {
@@ -2707,7 +2707,7 @@ impl IconData {
             html: font_awesome_solid_bed,
         }
     };
-    const FONT_AWESOME_SOLID_BEER_MUG_EMPTY: Self = {
+    pub const FONT_AWESOME_SOLID_BEER_MUG_EMPTY: Self = {
         #[inline(never)]
         fn font_awesome_solid_beer_mug_empty(
             crate::IconProps {
@@ -2729,7 +2729,7 @@ impl IconData {
             html: font_awesome_solid_beer_mug_empty,
         }
     };
-    const FONT_AWESOME_SOLID_BELL_CONCIERGE: Self = {
+    pub const FONT_AWESOME_SOLID_BELL_CONCIERGE: Self = {
         #[inline(never)]
         fn font_awesome_solid_bell_concierge(
             crate::IconProps {
@@ -2751,7 +2751,7 @@ impl IconData {
             html: font_awesome_solid_bell_concierge,
         }
     };
-    const FONT_AWESOME_SOLID_BELL_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_BELL_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_bell_slash(
             crate::IconProps {
@@ -2773,7 +2773,7 @@ impl IconData {
             html: font_awesome_solid_bell_slash,
         }
     };
-    const FONT_AWESOME_SOLID_BELL: Self = {
+    pub const FONT_AWESOME_SOLID_BELL: Self = {
         #[inline(never)]
         fn font_awesome_solid_bell(
             crate::IconProps {
@@ -2795,7 +2795,7 @@ impl IconData {
             html: font_awesome_solid_bell,
         }
     };
-    const FONT_AWESOME_SOLID_BEZIER_CURVE: Self = {
+    pub const FONT_AWESOME_SOLID_BEZIER_CURVE: Self = {
         #[inline(never)]
         fn font_awesome_solid_bezier_curve(
             crate::IconProps {
@@ -2817,7 +2817,7 @@ impl IconData {
             html: font_awesome_solid_bezier_curve,
         }
     };
-    const FONT_AWESOME_SOLID_BICYCLE: Self = {
+    pub const FONT_AWESOME_SOLID_BICYCLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_bicycle(
             crate::IconProps {
@@ -2839,7 +2839,7 @@ impl IconData {
             html: font_awesome_solid_bicycle,
         }
     };
-    const FONT_AWESOME_SOLID_BINOCULARS: Self = {
+    pub const FONT_AWESOME_SOLID_BINOCULARS: Self = {
         #[inline(never)]
         fn font_awesome_solid_binoculars(
             crate::IconProps {
@@ -2861,7 +2861,7 @@ impl IconData {
             html: font_awesome_solid_binoculars,
         }
     };
-    const FONT_AWESOME_SOLID_BIOHAZARD: Self = {
+    pub const FONT_AWESOME_SOLID_BIOHAZARD: Self = {
         #[inline(never)]
         fn font_awesome_solid_biohazard(
             crate::IconProps {
@@ -2883,7 +2883,7 @@ impl IconData {
             html: font_awesome_solid_biohazard,
         }
     };
-    const FONT_AWESOME_SOLID_BITCOIN_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_BITCOIN_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_bitcoin_sign(
             crate::IconProps {
@@ -2905,7 +2905,7 @@ impl IconData {
             html: font_awesome_solid_bitcoin_sign,
         }
     };
-    const FONT_AWESOME_SOLID_BLENDER_PHONE: Self = {
+    pub const FONT_AWESOME_SOLID_BLENDER_PHONE: Self = {
         #[inline(never)]
         fn font_awesome_solid_blender_phone(
             crate::IconProps {
@@ -2927,7 +2927,7 @@ impl IconData {
             html: font_awesome_solid_blender_phone,
         }
     };
-    const FONT_AWESOME_SOLID_BLENDER: Self = {
+    pub const FONT_AWESOME_SOLID_BLENDER: Self = {
         #[inline(never)]
         fn font_awesome_solid_blender(
             crate::IconProps {
@@ -2949,7 +2949,7 @@ impl IconData {
             html: font_awesome_solid_blender,
         }
     };
-    const FONT_AWESOME_SOLID_BLOG: Self = {
+    pub const FONT_AWESOME_SOLID_BLOG: Self = {
         #[inline(never)]
         fn font_awesome_solid_blog(
             crate::IconProps {
@@ -2971,7 +2971,7 @@ impl IconData {
             html: font_awesome_solid_blog,
         }
     };
-    const FONT_AWESOME_SOLID_BOLD: Self = {
+    pub const FONT_AWESOME_SOLID_BOLD: Self = {
         #[inline(never)]
         fn font_awesome_solid_bold(
             crate::IconProps {
@@ -2993,7 +2993,7 @@ impl IconData {
             html: font_awesome_solid_bold,
         }
     };
-    const FONT_AWESOME_SOLID_BOLT_LIGHTNING: Self = {
+    pub const FONT_AWESOME_SOLID_BOLT_LIGHTNING: Self = {
         #[inline(never)]
         fn font_awesome_solid_bolt_lightning(
             crate::IconProps {
@@ -3015,7 +3015,7 @@ impl IconData {
             html: font_awesome_solid_bolt_lightning,
         }
     };
-    const FONT_AWESOME_SOLID_BOLT: Self = {
+    pub const FONT_AWESOME_SOLID_BOLT: Self = {
         #[inline(never)]
         fn font_awesome_solid_bolt(
             crate::IconProps {
@@ -3037,7 +3037,7 @@ impl IconData {
             html: font_awesome_solid_bolt,
         }
     };
-    const FONT_AWESOME_SOLID_BOMB: Self = {
+    pub const FONT_AWESOME_SOLID_BOMB: Self = {
         #[inline(never)]
         fn font_awesome_solid_bomb(
             crate::IconProps {
@@ -3059,7 +3059,7 @@ impl IconData {
             html: font_awesome_solid_bomb,
         }
     };
-    const FONT_AWESOME_SOLID_BONE: Self = {
+    pub const FONT_AWESOME_SOLID_BONE: Self = {
         #[inline(never)]
         fn font_awesome_solid_bone(
             crate::IconProps {
@@ -3081,7 +3081,7 @@ impl IconData {
             html: font_awesome_solid_bone,
         }
     };
-    const FONT_AWESOME_SOLID_BONG: Self = {
+    pub const FONT_AWESOME_SOLID_BONG: Self = {
         #[inline(never)]
         fn font_awesome_solid_bong(
             crate::IconProps {
@@ -3103,7 +3103,7 @@ impl IconData {
             html: font_awesome_solid_bong,
         }
     };
-    const FONT_AWESOME_SOLID_BOOK_ATLAS: Self = {
+    pub const FONT_AWESOME_SOLID_BOOK_ATLAS: Self = {
         #[inline(never)]
         fn font_awesome_solid_book_atlas(
             crate::IconProps {
@@ -3125,7 +3125,7 @@ impl IconData {
             html: font_awesome_solid_book_atlas,
         }
     };
-    const FONT_AWESOME_SOLID_BOOK_BIBLE: Self = {
+    pub const FONT_AWESOME_SOLID_BOOK_BIBLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_book_bible(
             crate::IconProps {
@@ -3147,7 +3147,7 @@ impl IconData {
             html: font_awesome_solid_book_bible,
         }
     };
-    const FONT_AWESOME_SOLID_BOOK_BOOKMARK: Self = {
+    pub const FONT_AWESOME_SOLID_BOOK_BOOKMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_book_bookmark(
             crate::IconProps {
@@ -3169,7 +3169,7 @@ impl IconData {
             html: font_awesome_solid_book_bookmark,
         }
     };
-    const FONT_AWESOME_SOLID_BOOK_JOURNAL_WHILLS: Self = {
+    pub const FONT_AWESOME_SOLID_BOOK_JOURNAL_WHILLS: Self = {
         #[inline(never)]
         fn font_awesome_solid_book_journal_whills(
             crate::IconProps {
@@ -3191,7 +3191,7 @@ impl IconData {
             html: font_awesome_solid_book_journal_whills,
         }
     };
-    const FONT_AWESOME_SOLID_BOOK_MEDICAL: Self = {
+    pub const FONT_AWESOME_SOLID_BOOK_MEDICAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_book_medical(
             crate::IconProps {
@@ -3213,7 +3213,7 @@ impl IconData {
             html: font_awesome_solid_book_medical,
         }
     };
-    const FONT_AWESOME_SOLID_BOOK_OPEN_READER: Self = {
+    pub const FONT_AWESOME_SOLID_BOOK_OPEN_READER: Self = {
         #[inline(never)]
         fn font_awesome_solid_book_open_reader(
             crate::IconProps {
@@ -3235,7 +3235,7 @@ impl IconData {
             html: font_awesome_solid_book_open_reader,
         }
     };
-    const FONT_AWESOME_SOLID_BOOK_OPEN: Self = {
+    pub const FONT_AWESOME_SOLID_BOOK_OPEN: Self = {
         #[inline(never)]
         fn font_awesome_solid_book_open(
             crate::IconProps {
@@ -3257,7 +3257,7 @@ impl IconData {
             html: font_awesome_solid_book_open,
         }
     };
-    const FONT_AWESOME_SOLID_BOOK_QURAN: Self = {
+    pub const FONT_AWESOME_SOLID_BOOK_QURAN: Self = {
         #[inline(never)]
         fn font_awesome_solid_book_quran(
             crate::IconProps {
@@ -3279,7 +3279,7 @@ impl IconData {
             html: font_awesome_solid_book_quran,
         }
     };
-    const FONT_AWESOME_SOLID_BOOK_SKULL: Self = {
+    pub const FONT_AWESOME_SOLID_BOOK_SKULL: Self = {
         #[inline(never)]
         fn font_awesome_solid_book_skull(
             crate::IconProps {
@@ -3301,7 +3301,7 @@ impl IconData {
             html: font_awesome_solid_book_skull,
         }
     };
-    const FONT_AWESOME_SOLID_BOOK: Self = {
+    pub const FONT_AWESOME_SOLID_BOOK: Self = {
         #[inline(never)]
         fn font_awesome_solid_book(
             crate::IconProps {
@@ -3323,7 +3323,7 @@ impl IconData {
             html: font_awesome_solid_book,
         }
     };
-    const FONT_AWESOME_SOLID_BOOKMARK: Self = {
+    pub const FONT_AWESOME_SOLID_BOOKMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_bookmark(
             crate::IconProps {
@@ -3345,7 +3345,7 @@ impl IconData {
             html: font_awesome_solid_bookmark,
         }
     };
-    const FONT_AWESOME_SOLID_BORDER_ALL: Self = {
+    pub const FONT_AWESOME_SOLID_BORDER_ALL: Self = {
         #[inline(never)]
         fn font_awesome_solid_border_all(
             crate::IconProps {
@@ -3367,7 +3367,7 @@ impl IconData {
             html: font_awesome_solid_border_all,
         }
     };
-    const FONT_AWESOME_SOLID_BORDER_NONE: Self = {
+    pub const FONT_AWESOME_SOLID_BORDER_NONE: Self = {
         #[inline(never)]
         fn font_awesome_solid_border_none(
             crate::IconProps {
@@ -3389,7 +3389,7 @@ impl IconData {
             html: font_awesome_solid_border_none,
         }
     };
-    const FONT_AWESOME_SOLID_BORDER_TOP_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_BORDER_TOP_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_border_top_left(
             crate::IconProps {
@@ -3411,7 +3411,7 @@ impl IconData {
             html: font_awesome_solid_border_top_left,
         }
     };
-    const FONT_AWESOME_SOLID_BORE_HOLE: Self = {
+    pub const FONT_AWESOME_SOLID_BORE_HOLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_bore_hole(
             crate::IconProps {
@@ -3433,7 +3433,7 @@ impl IconData {
             html: font_awesome_solid_bore_hole,
         }
     };
-    const FONT_AWESOME_SOLID_BOTTLE_DROPLET: Self = {
+    pub const FONT_AWESOME_SOLID_BOTTLE_DROPLET: Self = {
         #[inline(never)]
         fn font_awesome_solid_bottle_droplet(
             crate::IconProps {
@@ -3455,7 +3455,7 @@ impl IconData {
             html: font_awesome_solid_bottle_droplet,
         }
     };
-    const FONT_AWESOME_SOLID_BOTTLE_WATER: Self = {
+    pub const FONT_AWESOME_SOLID_BOTTLE_WATER: Self = {
         #[inline(never)]
         fn font_awesome_solid_bottle_water(
             crate::IconProps {
@@ -3477,7 +3477,7 @@ impl IconData {
             html: font_awesome_solid_bottle_water,
         }
     };
-    const FONT_AWESOME_SOLID_BOWL_FOOD: Self = {
+    pub const FONT_AWESOME_SOLID_BOWL_FOOD: Self = {
         #[inline(never)]
         fn font_awesome_solid_bowl_food(
             crate::IconProps {
@@ -3499,7 +3499,7 @@ impl IconData {
             html: font_awesome_solid_bowl_food,
         }
     };
-    const FONT_AWESOME_SOLID_BOWL_RICE: Self = {
+    pub const FONT_AWESOME_SOLID_BOWL_RICE: Self = {
         #[inline(never)]
         fn font_awesome_solid_bowl_rice(
             crate::IconProps {
@@ -3521,7 +3521,7 @@ impl IconData {
             html: font_awesome_solid_bowl_rice,
         }
     };
-    const FONT_AWESOME_SOLID_BOWLING_BALL: Self = {
+    pub const FONT_AWESOME_SOLID_BOWLING_BALL: Self = {
         #[inline(never)]
         fn font_awesome_solid_bowling_ball(
             crate::IconProps {
@@ -3543,7 +3543,7 @@ impl IconData {
             html: font_awesome_solid_bowling_ball,
         }
     };
-    const FONT_AWESOME_SOLID_BOX_ARCHIVE: Self = {
+    pub const FONT_AWESOME_SOLID_BOX_ARCHIVE: Self = {
         #[inline(never)]
         fn font_awesome_solid_box_archive(
             crate::IconProps {
@@ -3565,7 +3565,7 @@ impl IconData {
             html: font_awesome_solid_box_archive,
         }
     };
-    const FONT_AWESOME_SOLID_BOX_OPEN: Self = {
+    pub const FONT_AWESOME_SOLID_BOX_OPEN: Self = {
         #[inline(never)]
         fn font_awesome_solid_box_open(
             crate::IconProps {
@@ -3587,7 +3587,7 @@ impl IconData {
             html: font_awesome_solid_box_open,
         }
     };
-    const FONT_AWESOME_SOLID_BOX_TISSUE: Self = {
+    pub const FONT_AWESOME_SOLID_BOX_TISSUE: Self = {
         #[inline(never)]
         fn font_awesome_solid_box_tissue(
             crate::IconProps {
@@ -3609,7 +3609,7 @@ impl IconData {
             html: font_awesome_solid_box_tissue,
         }
     };
-    const FONT_AWESOME_SOLID_BOX: Self = {
+    pub const FONT_AWESOME_SOLID_BOX: Self = {
         #[inline(never)]
         fn font_awesome_solid_box(
             crate::IconProps {
@@ -3631,7 +3631,7 @@ impl IconData {
             html: font_awesome_solid_box,
         }
     };
-    const FONT_AWESOME_SOLID_BOXES_PACKING: Self = {
+    pub const FONT_AWESOME_SOLID_BOXES_PACKING: Self = {
         #[inline(never)]
         fn font_awesome_solid_boxes_packing(
             crate::IconProps {
@@ -3653,7 +3653,7 @@ impl IconData {
             html: font_awesome_solid_boxes_packing,
         }
     };
-    const FONT_AWESOME_SOLID_BOXES_STACKED: Self = {
+    pub const FONT_AWESOME_SOLID_BOXES_STACKED: Self = {
         #[inline(never)]
         fn font_awesome_solid_boxes_stacked(
             crate::IconProps {
@@ -3675,7 +3675,7 @@ impl IconData {
             html: font_awesome_solid_boxes_stacked,
         }
     };
-    const FONT_AWESOME_SOLID_BRAILLE: Self = {
+    pub const FONT_AWESOME_SOLID_BRAILLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_braille(
             crate::IconProps {
@@ -3697,7 +3697,7 @@ impl IconData {
             html: font_awesome_solid_braille,
         }
     };
-    const FONT_AWESOME_SOLID_BRAIN: Self = {
+    pub const FONT_AWESOME_SOLID_BRAIN: Self = {
         #[inline(never)]
         fn font_awesome_solid_brain(
             crate::IconProps {
@@ -3719,7 +3719,7 @@ impl IconData {
             html: font_awesome_solid_brain,
         }
     };
-    const FONT_AWESOME_SOLID_BRAZILIAN_REAL_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_BRAZILIAN_REAL_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_brazilian_real_sign(
             crate::IconProps {
@@ -3741,7 +3741,7 @@ impl IconData {
             html: font_awesome_solid_brazilian_real_sign,
         }
     };
-    const FONT_AWESOME_SOLID_BREAD_SLICE: Self = {
+    pub const FONT_AWESOME_SOLID_BREAD_SLICE: Self = {
         #[inline(never)]
         fn font_awesome_solid_bread_slice(
             crate::IconProps {
@@ -3763,7 +3763,7 @@ impl IconData {
             html: font_awesome_solid_bread_slice,
         }
     };
-    const FONT_AWESOME_SOLID_BRIDGE_CIRCLE_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_BRIDGE_CIRCLE_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_bridge_circle_check(
             crate::IconProps {
@@ -3785,7 +3785,7 @@ impl IconData {
             html: font_awesome_solid_bridge_circle_check,
         }
     };
-    const FONT_AWESOME_SOLID_BRIDGE_CIRCLE_EXCLAMATION: Self = {
+    pub const FONT_AWESOME_SOLID_BRIDGE_CIRCLE_EXCLAMATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_bridge_circle_exclamation(
             crate::IconProps {
@@ -3807,7 +3807,7 @@ impl IconData {
             html: font_awesome_solid_bridge_circle_exclamation,
         }
     };
-    const FONT_AWESOME_SOLID_BRIDGE_CIRCLE_XMARK: Self = {
+    pub const FONT_AWESOME_SOLID_BRIDGE_CIRCLE_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_bridge_circle_xmark(
             crate::IconProps {
@@ -3829,7 +3829,7 @@ impl IconData {
             html: font_awesome_solid_bridge_circle_xmark,
         }
     };
-    const FONT_AWESOME_SOLID_BRIDGE_LOCK: Self = {
+    pub const FONT_AWESOME_SOLID_BRIDGE_LOCK: Self = {
         #[inline(never)]
         fn font_awesome_solid_bridge_lock(
             crate::IconProps {
@@ -3851,7 +3851,7 @@ impl IconData {
             html: font_awesome_solid_bridge_lock,
         }
     };
-    const FONT_AWESOME_SOLID_BRIDGE_WATER: Self = {
+    pub const FONT_AWESOME_SOLID_BRIDGE_WATER: Self = {
         #[inline(never)]
         fn font_awesome_solid_bridge_water(
             crate::IconProps {
@@ -3873,7 +3873,7 @@ impl IconData {
             html: font_awesome_solid_bridge_water,
         }
     };
-    const FONT_AWESOME_SOLID_BRIDGE: Self = {
+    pub const FONT_AWESOME_SOLID_BRIDGE: Self = {
         #[inline(never)]
         fn font_awesome_solid_bridge(
             crate::IconProps {
@@ -3895,7 +3895,7 @@ impl IconData {
             html: font_awesome_solid_bridge,
         }
     };
-    const FONT_AWESOME_SOLID_BRIEFCASE_MEDICAL: Self = {
+    pub const FONT_AWESOME_SOLID_BRIEFCASE_MEDICAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_briefcase_medical(
             crate::IconProps {
@@ -3917,7 +3917,7 @@ impl IconData {
             html: font_awesome_solid_briefcase_medical,
         }
     };
-    const FONT_AWESOME_SOLID_BRIEFCASE: Self = {
+    pub const FONT_AWESOME_SOLID_BRIEFCASE: Self = {
         #[inline(never)]
         fn font_awesome_solid_briefcase(
             crate::IconProps {
@@ -3939,7 +3939,7 @@ impl IconData {
             html: font_awesome_solid_briefcase,
         }
     };
-    const FONT_AWESOME_SOLID_BROOM_BALL: Self = {
+    pub const FONT_AWESOME_SOLID_BROOM_BALL: Self = {
         #[inline(never)]
         fn font_awesome_solid_broom_ball(
             crate::IconProps {
@@ -3961,7 +3961,7 @@ impl IconData {
             html: font_awesome_solid_broom_ball,
         }
     };
-    const FONT_AWESOME_SOLID_BROOM: Self = {
+    pub const FONT_AWESOME_SOLID_BROOM: Self = {
         #[inline(never)]
         fn font_awesome_solid_broom(
             crate::IconProps {
@@ -3983,7 +3983,7 @@ impl IconData {
             html: font_awesome_solid_broom,
         }
     };
-    const FONT_AWESOME_SOLID_BRUSH: Self = {
+    pub const FONT_AWESOME_SOLID_BRUSH: Self = {
         #[inline(never)]
         fn font_awesome_solid_brush(
             crate::IconProps {
@@ -4005,7 +4005,7 @@ impl IconData {
             html: font_awesome_solid_brush,
         }
     };
-    const FONT_AWESOME_SOLID_BUCKET: Self = {
+    pub const FONT_AWESOME_SOLID_BUCKET: Self = {
         #[inline(never)]
         fn font_awesome_solid_bucket(
             crate::IconProps {
@@ -4027,7 +4027,7 @@ impl IconData {
             html: font_awesome_solid_bucket,
         }
     };
-    const FONT_AWESOME_SOLID_BUG_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_BUG_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_bug_slash(
             crate::IconProps {
@@ -4049,7 +4049,7 @@ impl IconData {
             html: font_awesome_solid_bug_slash,
         }
     };
-    const FONT_AWESOME_SOLID_BUG: Self = {
+    pub const FONT_AWESOME_SOLID_BUG: Self = {
         #[inline(never)]
         fn font_awesome_solid_bug(
             crate::IconProps {
@@ -4071,7 +4071,7 @@ impl IconData {
             html: font_awesome_solid_bug,
         }
     };
-    const FONT_AWESOME_SOLID_BUGS: Self = {
+    pub const FONT_AWESOME_SOLID_BUGS: Self = {
         #[inline(never)]
         fn font_awesome_solid_bugs(
             crate::IconProps {
@@ -4093,7 +4093,7 @@ impl IconData {
             html: font_awesome_solid_bugs,
         }
     };
-    const FONT_AWESOME_SOLID_BUILDING_CIRCLE_ARROW_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_BUILDING_CIRCLE_ARROW_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_building_circle_arrow_right(
             crate::IconProps {
@@ -4115,7 +4115,7 @@ impl IconData {
             html: font_awesome_solid_building_circle_arrow_right,
         }
     };
-    const FONT_AWESOME_SOLID_BUILDING_CIRCLE_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_BUILDING_CIRCLE_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_building_circle_check(
             crate::IconProps {
@@ -4137,7 +4137,7 @@ impl IconData {
             html: font_awesome_solid_building_circle_check,
         }
     };
-    const FONT_AWESOME_SOLID_BUILDING_CIRCLE_EXCLAMATION: Self = {
+    pub const FONT_AWESOME_SOLID_BUILDING_CIRCLE_EXCLAMATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_building_circle_exclamation(
             crate::IconProps {
@@ -4159,7 +4159,7 @@ impl IconData {
             html: font_awesome_solid_building_circle_exclamation,
         }
     };
-    const FONT_AWESOME_SOLID_BUILDING_CIRCLE_XMARK: Self = {
+    pub const FONT_AWESOME_SOLID_BUILDING_CIRCLE_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_building_circle_xmark(
             crate::IconProps {
@@ -4181,7 +4181,7 @@ impl IconData {
             html: font_awesome_solid_building_circle_xmark,
         }
     };
-    const FONT_AWESOME_SOLID_BUILDING_COLUMNS: Self = {
+    pub const FONT_AWESOME_SOLID_BUILDING_COLUMNS: Self = {
         #[inline(never)]
         fn font_awesome_solid_building_columns(
             crate::IconProps {
@@ -4203,7 +4203,7 @@ impl IconData {
             html: font_awesome_solid_building_columns,
         }
     };
-    const FONT_AWESOME_SOLID_BUILDING_FLAG: Self = {
+    pub const FONT_AWESOME_SOLID_BUILDING_FLAG: Self = {
         #[inline(never)]
         fn font_awesome_solid_building_flag(
             crate::IconProps {
@@ -4225,7 +4225,7 @@ impl IconData {
             html: font_awesome_solid_building_flag,
         }
     };
-    const FONT_AWESOME_SOLID_BUILDING_LOCK: Self = {
+    pub const FONT_AWESOME_SOLID_BUILDING_LOCK: Self = {
         #[inline(never)]
         fn font_awesome_solid_building_lock(
             crate::IconProps {
@@ -4247,7 +4247,7 @@ impl IconData {
             html: font_awesome_solid_building_lock,
         }
     };
-    const FONT_AWESOME_SOLID_BUILDING_NGO: Self = {
+    pub const FONT_AWESOME_SOLID_BUILDING_NGO: Self = {
         #[inline(never)]
         fn font_awesome_solid_building_ngo(
             crate::IconProps {
@@ -4269,7 +4269,7 @@ impl IconData {
             html: font_awesome_solid_building_ngo,
         }
     };
-    const FONT_AWESOME_SOLID_BUILDING_SHIELD: Self = {
+    pub const FONT_AWESOME_SOLID_BUILDING_SHIELD: Self = {
         #[inline(never)]
         fn font_awesome_solid_building_shield(
             crate::IconProps {
@@ -4291,7 +4291,7 @@ impl IconData {
             html: font_awesome_solid_building_shield,
         }
     };
-    const FONT_AWESOME_SOLID_BUILDING_UN: Self = {
+    pub const FONT_AWESOME_SOLID_BUILDING_UN: Self = {
         #[inline(never)]
         fn font_awesome_solid_building_un(
             crate::IconProps {
@@ -4313,7 +4313,7 @@ impl IconData {
             html: font_awesome_solid_building_un,
         }
     };
-    const FONT_AWESOME_SOLID_BUILDING_USER: Self = {
+    pub const FONT_AWESOME_SOLID_BUILDING_USER: Self = {
         #[inline(never)]
         fn font_awesome_solid_building_user(
             crate::IconProps {
@@ -4335,7 +4335,7 @@ impl IconData {
             html: font_awesome_solid_building_user,
         }
     };
-    const FONT_AWESOME_SOLID_BUILDING_WHEAT: Self = {
+    pub const FONT_AWESOME_SOLID_BUILDING_WHEAT: Self = {
         #[inline(never)]
         fn font_awesome_solid_building_wheat(
             crate::IconProps {
@@ -4357,7 +4357,7 @@ impl IconData {
             html: font_awesome_solid_building_wheat,
         }
     };
-    const FONT_AWESOME_SOLID_BUILDING: Self = {
+    pub const FONT_AWESOME_SOLID_BUILDING: Self = {
         #[inline(never)]
         fn font_awesome_solid_building(
             crate::IconProps {
@@ -4379,7 +4379,7 @@ impl IconData {
             html: font_awesome_solid_building,
         }
     };
-    const FONT_AWESOME_SOLID_BULLHORN: Self = {
+    pub const FONT_AWESOME_SOLID_BULLHORN: Self = {
         #[inline(never)]
         fn font_awesome_solid_bullhorn(
             crate::IconProps {
@@ -4401,7 +4401,7 @@ impl IconData {
             html: font_awesome_solid_bullhorn,
         }
     };
-    const FONT_AWESOME_SOLID_BULLSEYE: Self = {
+    pub const FONT_AWESOME_SOLID_BULLSEYE: Self = {
         #[inline(never)]
         fn font_awesome_solid_bullseye(
             crate::IconProps {
@@ -4423,7 +4423,7 @@ impl IconData {
             html: font_awesome_solid_bullseye,
         }
     };
-    const FONT_AWESOME_SOLID_BURGER: Self = {
+    pub const FONT_AWESOME_SOLID_BURGER: Self = {
         #[inline(never)]
         fn font_awesome_solid_burger(
             crate::IconProps {
@@ -4445,7 +4445,7 @@ impl IconData {
             html: font_awesome_solid_burger,
         }
     };
-    const FONT_AWESOME_SOLID_BURST: Self = {
+    pub const FONT_AWESOME_SOLID_BURST: Self = {
         #[inline(never)]
         fn font_awesome_solid_burst(
             crate::IconProps {
@@ -4467,7 +4467,7 @@ impl IconData {
             html: font_awesome_solid_burst,
         }
     };
-    const FONT_AWESOME_SOLID_BUS_SIMPLE: Self = {
+    pub const FONT_AWESOME_SOLID_BUS_SIMPLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_bus_simple(
             crate::IconProps {
@@ -4489,7 +4489,7 @@ impl IconData {
             html: font_awesome_solid_bus_simple,
         }
     };
-    const FONT_AWESOME_SOLID_BUS: Self = {
+    pub const FONT_AWESOME_SOLID_BUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_bus(
             crate::IconProps {
@@ -4511,7 +4511,7 @@ impl IconData {
             html: font_awesome_solid_bus,
         }
     };
-    const FONT_AWESOME_SOLID_BUSINESS_TIME: Self = {
+    pub const FONT_AWESOME_SOLID_BUSINESS_TIME: Self = {
         #[inline(never)]
         fn font_awesome_solid_business_time(
             crate::IconProps {
@@ -4533,7 +4533,7 @@ impl IconData {
             html: font_awesome_solid_business_time,
         }
     };
-    const FONT_AWESOME_SOLID_C: Self = {
+    pub const FONT_AWESOME_SOLID_C: Self = {
         #[inline(never)]
         fn font_awesome_solid_c(
             crate::IconProps {
@@ -4555,7 +4555,7 @@ impl IconData {
             html: font_awesome_solid_c,
         }
     };
-    const FONT_AWESOME_SOLID_CAKE_CANDLES: Self = {
+    pub const FONT_AWESOME_SOLID_CAKE_CANDLES: Self = {
         #[inline(never)]
         fn font_awesome_solid_cake_candles(
             crate::IconProps {
@@ -4577,7 +4577,7 @@ impl IconData {
             html: font_awesome_solid_cake_candles,
         }
     };
-    const FONT_AWESOME_SOLID_CALCULATOR: Self = {
+    pub const FONT_AWESOME_SOLID_CALCULATOR: Self = {
         #[inline(never)]
         fn font_awesome_solid_calculator(
             crate::IconProps {
@@ -4599,7 +4599,7 @@ impl IconData {
             html: font_awesome_solid_calculator,
         }
     };
-    const FONT_AWESOME_SOLID_CALENDAR_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_CALENDAR_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_calendar_check(
             crate::IconProps {
@@ -4621,7 +4621,7 @@ impl IconData {
             html: font_awesome_solid_calendar_check,
         }
     };
-    const FONT_AWESOME_SOLID_CALENDAR_DAY: Self = {
+    pub const FONT_AWESOME_SOLID_CALENDAR_DAY: Self = {
         #[inline(never)]
         fn font_awesome_solid_calendar_day(
             crate::IconProps {
@@ -4643,7 +4643,7 @@ impl IconData {
             html: font_awesome_solid_calendar_day,
         }
     };
-    const FONT_AWESOME_SOLID_CALENDAR_DAYS: Self = {
+    pub const FONT_AWESOME_SOLID_CALENDAR_DAYS: Self = {
         #[inline(never)]
         fn font_awesome_solid_calendar_days(
             crate::IconProps {
@@ -4665,7 +4665,7 @@ impl IconData {
             html: font_awesome_solid_calendar_days,
         }
     };
-    const FONT_AWESOME_SOLID_CALENDAR_MINUS: Self = {
+    pub const FONT_AWESOME_SOLID_CALENDAR_MINUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_calendar_minus(
             crate::IconProps {
@@ -4687,7 +4687,7 @@ impl IconData {
             html: font_awesome_solid_calendar_minus,
         }
     };
-    const FONT_AWESOME_SOLID_CALENDAR_PLUS: Self = {
+    pub const FONT_AWESOME_SOLID_CALENDAR_PLUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_calendar_plus(
             crate::IconProps {
@@ -4709,7 +4709,7 @@ impl IconData {
             html: font_awesome_solid_calendar_plus,
         }
     };
-    const FONT_AWESOME_SOLID_CALENDAR_WEEK: Self = {
+    pub const FONT_AWESOME_SOLID_CALENDAR_WEEK: Self = {
         #[inline(never)]
         fn font_awesome_solid_calendar_week(
             crate::IconProps {
@@ -4731,7 +4731,7 @@ impl IconData {
             html: font_awesome_solid_calendar_week,
         }
     };
-    const FONT_AWESOME_SOLID_CALENDAR_XMARK: Self = {
+    pub const FONT_AWESOME_SOLID_CALENDAR_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_calendar_xmark(
             crate::IconProps {
@@ -4753,7 +4753,7 @@ impl IconData {
             html: font_awesome_solid_calendar_xmark,
         }
     };
-    const FONT_AWESOME_SOLID_CALENDAR: Self = {
+    pub const FONT_AWESOME_SOLID_CALENDAR: Self = {
         #[inline(never)]
         fn font_awesome_solid_calendar(
             crate::IconProps {
@@ -4775,7 +4775,7 @@ impl IconData {
             html: font_awesome_solid_calendar,
         }
     };
-    const FONT_AWESOME_SOLID_CAMERA_RETRO: Self = {
+    pub const FONT_AWESOME_SOLID_CAMERA_RETRO: Self = {
         #[inline(never)]
         fn font_awesome_solid_camera_retro(
             crate::IconProps {
@@ -4797,7 +4797,7 @@ impl IconData {
             html: font_awesome_solid_camera_retro,
         }
     };
-    const FONT_AWESOME_SOLID_CAMERA_ROTATE: Self = {
+    pub const FONT_AWESOME_SOLID_CAMERA_ROTATE: Self = {
         #[inline(never)]
         fn font_awesome_solid_camera_rotate(
             crate::IconProps {
@@ -4819,7 +4819,7 @@ impl IconData {
             html: font_awesome_solid_camera_rotate,
         }
     };
-    const FONT_AWESOME_SOLID_CAMERA: Self = {
+    pub const FONT_AWESOME_SOLID_CAMERA: Self = {
         #[inline(never)]
         fn font_awesome_solid_camera(
             crate::IconProps {
@@ -4841,7 +4841,7 @@ impl IconData {
             html: font_awesome_solid_camera,
         }
     };
-    const FONT_AWESOME_SOLID_CAMPGROUND: Self = {
+    pub const FONT_AWESOME_SOLID_CAMPGROUND: Self = {
         #[inline(never)]
         fn font_awesome_solid_campground(
             crate::IconProps {
@@ -4863,7 +4863,7 @@ impl IconData {
             html: font_awesome_solid_campground,
         }
     };
-    const FONT_AWESOME_SOLID_CANDY_CANE: Self = {
+    pub const FONT_AWESOME_SOLID_CANDY_CANE: Self = {
         #[inline(never)]
         fn font_awesome_solid_candy_cane(
             crate::IconProps {
@@ -4885,7 +4885,7 @@ impl IconData {
             html: font_awesome_solid_candy_cane,
         }
     };
-    const FONT_AWESOME_SOLID_CANNABIS: Self = {
+    pub const FONT_AWESOME_SOLID_CANNABIS: Self = {
         #[inline(never)]
         fn font_awesome_solid_cannabis(
             crate::IconProps {
@@ -4907,7 +4907,7 @@ impl IconData {
             html: font_awesome_solid_cannabis,
         }
     };
-    const FONT_AWESOME_SOLID_CAPSULES: Self = {
+    pub const FONT_AWESOME_SOLID_CAPSULES: Self = {
         #[inline(never)]
         fn font_awesome_solid_capsules(
             crate::IconProps {
@@ -4929,7 +4929,7 @@ impl IconData {
             html: font_awesome_solid_capsules,
         }
     };
-    const FONT_AWESOME_SOLID_CAR_BATTERY: Self = {
+    pub const FONT_AWESOME_SOLID_CAR_BATTERY: Self = {
         #[inline(never)]
         fn font_awesome_solid_car_battery(
             crate::IconProps {
@@ -4951,7 +4951,7 @@ impl IconData {
             html: font_awesome_solid_car_battery,
         }
     };
-    const FONT_AWESOME_SOLID_CAR_BURST: Self = {
+    pub const FONT_AWESOME_SOLID_CAR_BURST: Self = {
         #[inline(never)]
         fn font_awesome_solid_car_burst(
             crate::IconProps {
@@ -4973,7 +4973,7 @@ impl IconData {
             html: font_awesome_solid_car_burst,
         }
     };
-    const FONT_AWESOME_SOLID_CAR_CRASH: Self = {
+    pub const FONT_AWESOME_SOLID_CAR_CRASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_car_crash(
             crate::IconProps {
@@ -4995,7 +4995,7 @@ impl IconData {
             html: font_awesome_solid_car_crash,
         }
     };
-    const FONT_AWESOME_SOLID_CAR_ON: Self = {
+    pub const FONT_AWESOME_SOLID_CAR_ON: Self = {
         #[inline(never)]
         fn font_awesome_solid_car_on(
             crate::IconProps {
@@ -5017,7 +5017,7 @@ impl IconData {
             html: font_awesome_solid_car_on,
         }
     };
-    const FONT_AWESOME_SOLID_CAR_REAR: Self = {
+    pub const FONT_AWESOME_SOLID_CAR_REAR: Self = {
         #[inline(never)]
         fn font_awesome_solid_car_rear(
             crate::IconProps {
@@ -5039,7 +5039,7 @@ impl IconData {
             html: font_awesome_solid_car_rear,
         }
     };
-    const FONT_AWESOME_SOLID_CAR_SIDE: Self = {
+    pub const FONT_AWESOME_SOLID_CAR_SIDE: Self = {
         #[inline(never)]
         fn font_awesome_solid_car_side(
             crate::IconProps {
@@ -5061,7 +5061,7 @@ impl IconData {
             html: font_awesome_solid_car_side,
         }
     };
-    const FONT_AWESOME_SOLID_CAR_TUNNEL: Self = {
+    pub const FONT_AWESOME_SOLID_CAR_TUNNEL: Self = {
         #[inline(never)]
         fn font_awesome_solid_car_tunnel(
             crate::IconProps {
@@ -5083,7 +5083,7 @@ impl IconData {
             html: font_awesome_solid_car_tunnel,
         }
     };
-    const FONT_AWESOME_SOLID_CAR: Self = {
+    pub const FONT_AWESOME_SOLID_CAR: Self = {
         #[inline(never)]
         fn font_awesome_solid_car(
             crate::IconProps {
@@ -5105,7 +5105,7 @@ impl IconData {
             html: font_awesome_solid_car,
         }
     };
-    const FONT_AWESOME_SOLID_CARAVAN: Self = {
+    pub const FONT_AWESOME_SOLID_CARAVAN: Self = {
         #[inline(never)]
         fn font_awesome_solid_caravan(
             crate::IconProps {
@@ -5127,7 +5127,7 @@ impl IconData {
             html: font_awesome_solid_caravan,
         }
     };
-    const FONT_AWESOME_SOLID_CARET_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_CARET_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_caret_down(
             crate::IconProps {
@@ -5149,7 +5149,7 @@ impl IconData {
             html: font_awesome_solid_caret_down,
         }
     };
-    const FONT_AWESOME_SOLID_CARET_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_CARET_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_caret_left(
             crate::IconProps {
@@ -5171,7 +5171,7 @@ impl IconData {
             html: font_awesome_solid_caret_left,
         }
     };
-    const FONT_AWESOME_SOLID_CARET_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_CARET_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_caret_right(
             crate::IconProps {
@@ -5193,7 +5193,7 @@ impl IconData {
             html: font_awesome_solid_caret_right,
         }
     };
-    const FONT_AWESOME_SOLID_CARET_UP: Self = {
+    pub const FONT_AWESOME_SOLID_CARET_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_caret_up(
             crate::IconProps {
@@ -5215,7 +5215,7 @@ impl IconData {
             html: font_awesome_solid_caret_up,
         }
     };
-    const FONT_AWESOME_SOLID_CARROT: Self = {
+    pub const FONT_AWESOME_SOLID_CARROT: Self = {
         #[inline(never)]
         fn font_awesome_solid_carrot(
             crate::IconProps {
@@ -5237,7 +5237,7 @@ impl IconData {
             html: font_awesome_solid_carrot,
         }
     };
-    const FONT_AWESOME_SOLID_CART_ARROW_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_CART_ARROW_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_cart_arrow_down(
             crate::IconProps {
@@ -5259,7 +5259,7 @@ impl IconData {
             html: font_awesome_solid_cart_arrow_down,
         }
     };
-    const FONT_AWESOME_SOLID_CART_FLATBED_SUITCASE: Self = {
+    pub const FONT_AWESOME_SOLID_CART_FLATBED_SUITCASE: Self = {
         #[inline(never)]
         fn font_awesome_solid_cart_flatbed_suitcase(
             crate::IconProps {
@@ -5281,7 +5281,7 @@ impl IconData {
             html: font_awesome_solid_cart_flatbed_suitcase,
         }
     };
-    const FONT_AWESOME_SOLID_CART_FLATBED: Self = {
+    pub const FONT_AWESOME_SOLID_CART_FLATBED: Self = {
         #[inline(never)]
         fn font_awesome_solid_cart_flatbed(
             crate::IconProps {
@@ -5303,7 +5303,7 @@ impl IconData {
             html: font_awesome_solid_cart_flatbed,
         }
     };
-    const FONT_AWESOME_SOLID_CART_PLUS: Self = {
+    pub const FONT_AWESOME_SOLID_CART_PLUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_cart_plus(
             crate::IconProps {
@@ -5325,7 +5325,7 @@ impl IconData {
             html: font_awesome_solid_cart_plus,
         }
     };
-    const FONT_AWESOME_SOLID_CART_SHOPPING: Self = {
+    pub const FONT_AWESOME_SOLID_CART_SHOPPING: Self = {
         #[inline(never)]
         fn font_awesome_solid_cart_shopping(
             crate::IconProps {
@@ -5347,7 +5347,7 @@ impl IconData {
             html: font_awesome_solid_cart_shopping,
         }
     };
-    const FONT_AWESOME_SOLID_CASH_REGISTER: Self = {
+    pub const FONT_AWESOME_SOLID_CASH_REGISTER: Self = {
         #[inline(never)]
         fn font_awesome_solid_cash_register(
             crate::IconProps {
@@ -5369,7 +5369,7 @@ impl IconData {
             html: font_awesome_solid_cash_register,
         }
     };
-    const FONT_AWESOME_SOLID_CAT: Self = {
+    pub const FONT_AWESOME_SOLID_CAT: Self = {
         #[inline(never)]
         fn font_awesome_solid_cat(
             crate::IconProps {
@@ -5391,7 +5391,7 @@ impl IconData {
             html: font_awesome_solid_cat,
         }
     };
-    const FONT_AWESOME_SOLID_CEDI_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_CEDI_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_cedi_sign(
             crate::IconProps {
@@ -5413,7 +5413,7 @@ impl IconData {
             html: font_awesome_solid_cedi_sign,
         }
     };
-    const FONT_AWESOME_SOLID_CENT_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_CENT_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_cent_sign(
             crate::IconProps {
@@ -5435,7 +5435,7 @@ impl IconData {
             html: font_awesome_solid_cent_sign,
         }
     };
-    const FONT_AWESOME_SOLID_CERTIFICATE: Self = {
+    pub const FONT_AWESOME_SOLID_CERTIFICATE: Self = {
         #[inline(never)]
         fn font_awesome_solid_certificate(
             crate::IconProps {
@@ -5457,7 +5457,7 @@ impl IconData {
             html: font_awesome_solid_certificate,
         }
     };
-    const FONT_AWESOME_SOLID_CHAIR: Self = {
+    pub const FONT_AWESOME_SOLID_CHAIR: Self = {
         #[inline(never)]
         fn font_awesome_solid_chair(
             crate::IconProps {
@@ -5479,7 +5479,7 @@ impl IconData {
             html: font_awesome_solid_chair,
         }
     };
-    const FONT_AWESOME_SOLID_CHALKBOARD_USER: Self = {
+    pub const FONT_AWESOME_SOLID_CHALKBOARD_USER: Self = {
         #[inline(never)]
         fn font_awesome_solid_chalkboard_user(
             crate::IconProps {
@@ -5501,7 +5501,7 @@ impl IconData {
             html: font_awesome_solid_chalkboard_user,
         }
     };
-    const FONT_AWESOME_SOLID_CHALKBOARD: Self = {
+    pub const FONT_AWESOME_SOLID_CHALKBOARD: Self = {
         #[inline(never)]
         fn font_awesome_solid_chalkboard(
             crate::IconProps {
@@ -5523,7 +5523,7 @@ impl IconData {
             html: font_awesome_solid_chalkboard,
         }
     };
-    const FONT_AWESOME_SOLID_CHAMPAGNE_GLASSES: Self = {
+    pub const FONT_AWESOME_SOLID_CHAMPAGNE_GLASSES: Self = {
         #[inline(never)]
         fn font_awesome_solid_champagne_glasses(
             crate::IconProps {
@@ -5545,7 +5545,7 @@ impl IconData {
             html: font_awesome_solid_champagne_glasses,
         }
     };
-    const FONT_AWESOME_SOLID_CHARGING_STATION: Self = {
+    pub const FONT_AWESOME_SOLID_CHARGING_STATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_charging_station(
             crate::IconProps {
@@ -5567,7 +5567,7 @@ impl IconData {
             html: font_awesome_solid_charging_station,
         }
     };
-    const FONT_AWESOME_SOLID_CHART_AREA: Self = {
+    pub const FONT_AWESOME_SOLID_CHART_AREA: Self = {
         #[inline(never)]
         fn font_awesome_solid_chart_area(
             crate::IconProps {
@@ -5589,7 +5589,7 @@ impl IconData {
             html: font_awesome_solid_chart_area,
         }
     };
-    const FONT_AWESOME_SOLID_CHART_BAR: Self = {
+    pub const FONT_AWESOME_SOLID_CHART_BAR: Self = {
         #[inline(never)]
         fn font_awesome_solid_chart_bar(
             crate::IconProps {
@@ -5611,7 +5611,7 @@ impl IconData {
             html: font_awesome_solid_chart_bar,
         }
     };
-    const FONT_AWESOME_SOLID_CHART_COLUMN: Self = {
+    pub const FONT_AWESOME_SOLID_CHART_COLUMN: Self = {
         #[inline(never)]
         fn font_awesome_solid_chart_column(
             crate::IconProps {
@@ -5633,7 +5633,7 @@ impl IconData {
             html: font_awesome_solid_chart_column,
         }
     };
-    const FONT_AWESOME_SOLID_CHART_GANTT: Self = {
+    pub const FONT_AWESOME_SOLID_CHART_GANTT: Self = {
         #[inline(never)]
         fn font_awesome_solid_chart_gantt(
             crate::IconProps {
@@ -5655,7 +5655,7 @@ impl IconData {
             html: font_awesome_solid_chart_gantt,
         }
     };
-    const FONT_AWESOME_SOLID_CHART_LINE: Self = {
+    pub const FONT_AWESOME_SOLID_CHART_LINE: Self = {
         #[inline(never)]
         fn font_awesome_solid_chart_line(
             crate::IconProps {
@@ -5677,7 +5677,7 @@ impl IconData {
             html: font_awesome_solid_chart_line,
         }
     };
-    const FONT_AWESOME_SOLID_CHART_PIE: Self = {
+    pub const FONT_AWESOME_SOLID_CHART_PIE: Self = {
         #[inline(never)]
         fn font_awesome_solid_chart_pie(
             crate::IconProps {
@@ -5699,7 +5699,7 @@ impl IconData {
             html: font_awesome_solid_chart_pie,
         }
     };
-    const FONT_AWESOME_SOLID_CHART_SIMPLE: Self = {
+    pub const FONT_AWESOME_SOLID_CHART_SIMPLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_chart_simple(
             crate::IconProps {
@@ -5721,7 +5721,7 @@ impl IconData {
             html: font_awesome_solid_chart_simple,
         }
     };
-    const FONT_AWESOME_SOLID_CHECK_DOUBLE: Self = {
+    pub const FONT_AWESOME_SOLID_CHECK_DOUBLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_check_double(
             crate::IconProps {
@@ -5743,7 +5743,7 @@ impl IconData {
             html: font_awesome_solid_check_double,
         }
     };
-    const FONT_AWESOME_SOLID_CHECK_TO_SLOT: Self = {
+    pub const FONT_AWESOME_SOLID_CHECK_TO_SLOT: Self = {
         #[inline(never)]
         fn font_awesome_solid_check_to_slot(
             crate::IconProps {
@@ -5765,7 +5765,7 @@ impl IconData {
             html: font_awesome_solid_check_to_slot,
         }
     };
-    const FONT_AWESOME_SOLID_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_check(
             crate::IconProps {
@@ -5787,7 +5787,7 @@ impl IconData {
             html: font_awesome_solid_check,
         }
     };
-    const FONT_AWESOME_SOLID_CHEESE: Self = {
+    pub const FONT_AWESOME_SOLID_CHEESE: Self = {
         #[inline(never)]
         fn font_awesome_solid_cheese(
             crate::IconProps {
@@ -5809,7 +5809,7 @@ impl IconData {
             html: font_awesome_solid_cheese,
         }
     };
-    const FONT_AWESOME_SOLID_CHESS_BISHOP: Self = {
+    pub const FONT_AWESOME_SOLID_CHESS_BISHOP: Self = {
         #[inline(never)]
         fn font_awesome_solid_chess_bishop(
             crate::IconProps {
@@ -5831,7 +5831,7 @@ impl IconData {
             html: font_awesome_solid_chess_bishop,
         }
     };
-    const FONT_AWESOME_SOLID_CHESS_BOARD: Self = {
+    pub const FONT_AWESOME_SOLID_CHESS_BOARD: Self = {
         #[inline(never)]
         fn font_awesome_solid_chess_board(
             crate::IconProps {
@@ -5853,7 +5853,7 @@ impl IconData {
             html: font_awesome_solid_chess_board,
         }
     };
-    const FONT_AWESOME_SOLID_CHESS_KING: Self = {
+    pub const FONT_AWESOME_SOLID_CHESS_KING: Self = {
         #[inline(never)]
         fn font_awesome_solid_chess_king(
             crate::IconProps {
@@ -5875,7 +5875,7 @@ impl IconData {
             html: font_awesome_solid_chess_king,
         }
     };
-    const FONT_AWESOME_SOLID_CHESS_KNIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_CHESS_KNIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_chess_knight(
             crate::IconProps {
@@ -5897,7 +5897,7 @@ impl IconData {
             html: font_awesome_solid_chess_knight,
         }
     };
-    const FONT_AWESOME_SOLID_CHESS_PAWN: Self = {
+    pub const FONT_AWESOME_SOLID_CHESS_PAWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_chess_pawn(
             crate::IconProps {
@@ -5919,7 +5919,7 @@ impl IconData {
             html: font_awesome_solid_chess_pawn,
         }
     };
-    const FONT_AWESOME_SOLID_CHESS_QUEEN: Self = {
+    pub const FONT_AWESOME_SOLID_CHESS_QUEEN: Self = {
         #[inline(never)]
         fn font_awesome_solid_chess_queen(
             crate::IconProps {
@@ -5941,7 +5941,7 @@ impl IconData {
             html: font_awesome_solid_chess_queen,
         }
     };
-    const FONT_AWESOME_SOLID_CHESS_ROOK: Self = {
+    pub const FONT_AWESOME_SOLID_CHESS_ROOK: Self = {
         #[inline(never)]
         fn font_awesome_solid_chess_rook(
             crate::IconProps {
@@ -5963,7 +5963,7 @@ impl IconData {
             html: font_awesome_solid_chess_rook,
         }
     };
-    const FONT_AWESOME_SOLID_CHESS: Self = {
+    pub const FONT_AWESOME_SOLID_CHESS: Self = {
         #[inline(never)]
         fn font_awesome_solid_chess(
             crate::IconProps {
@@ -5985,7 +5985,7 @@ impl IconData {
             html: font_awesome_solid_chess,
         }
     };
-    const FONT_AWESOME_SOLID_CHEVRON_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_CHEVRON_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_chevron_down(
             crate::IconProps {
@@ -6007,7 +6007,7 @@ impl IconData {
             html: font_awesome_solid_chevron_down,
         }
     };
-    const FONT_AWESOME_SOLID_CHEVRON_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_CHEVRON_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_chevron_left(
             crate::IconProps {
@@ -6029,7 +6029,7 @@ impl IconData {
             html: font_awesome_solid_chevron_left,
         }
     };
-    const FONT_AWESOME_SOLID_CHEVRON_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_CHEVRON_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_chevron_right(
             crate::IconProps {
@@ -6051,7 +6051,7 @@ impl IconData {
             html: font_awesome_solid_chevron_right,
         }
     };
-    const FONT_AWESOME_SOLID_CHEVRON_UP: Self = {
+    pub const FONT_AWESOME_SOLID_CHEVRON_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_chevron_up(
             crate::IconProps {
@@ -6073,7 +6073,7 @@ impl IconData {
             html: font_awesome_solid_chevron_up,
         }
     };
-    const FONT_AWESOME_SOLID_CHILD_DRESS: Self = {
+    pub const FONT_AWESOME_SOLID_CHILD_DRESS: Self = {
         #[inline(never)]
         fn font_awesome_solid_child_dress(
             crate::IconProps {
@@ -6095,7 +6095,7 @@ impl IconData {
             html: font_awesome_solid_child_dress,
         }
     };
-    const FONT_AWESOME_SOLID_CHILD_REACHING: Self = {
+    pub const FONT_AWESOME_SOLID_CHILD_REACHING: Self = {
         #[inline(never)]
         fn font_awesome_solid_child_reaching(
             crate::IconProps {
@@ -6117,7 +6117,7 @@ impl IconData {
             html: font_awesome_solid_child_reaching,
         }
     };
-    const FONT_AWESOME_SOLID_CHILD_RIFLE: Self = {
+    pub const FONT_AWESOME_SOLID_CHILD_RIFLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_child_rifle(
             crate::IconProps {
@@ -6139,7 +6139,7 @@ impl IconData {
             html: font_awesome_solid_child_rifle,
         }
     };
-    const FONT_AWESOME_SOLID_CHILD: Self = {
+    pub const FONT_AWESOME_SOLID_CHILD: Self = {
         #[inline(never)]
         fn font_awesome_solid_child(
             crate::IconProps {
@@ -6161,7 +6161,7 @@ impl IconData {
             html: font_awesome_solid_child,
         }
     };
-    const FONT_AWESOME_SOLID_CHILDREN: Self = {
+    pub const FONT_AWESOME_SOLID_CHILDREN: Self = {
         #[inline(never)]
         fn font_awesome_solid_children(
             crate::IconProps {
@@ -6183,7 +6183,7 @@ impl IconData {
             html: font_awesome_solid_children,
         }
     };
-    const FONT_AWESOME_SOLID_CHURCH: Self = {
+    pub const FONT_AWESOME_SOLID_CHURCH: Self = {
         #[inline(never)]
         fn font_awesome_solid_church(
             crate::IconProps {
@@ -6205,7 +6205,7 @@ impl IconData {
             html: font_awesome_solid_church,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_ARROW_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_ARROW_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_arrow_down(
             crate::IconProps {
@@ -6227,7 +6227,7 @@ impl IconData {
             html: font_awesome_solid_circle_arrow_down,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_ARROW_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_ARROW_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_arrow_left(
             crate::IconProps {
@@ -6249,7 +6249,7 @@ impl IconData {
             html: font_awesome_solid_circle_arrow_left,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_ARROW_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_ARROW_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_arrow_right(
             crate::IconProps {
@@ -6271,7 +6271,7 @@ impl IconData {
             html: font_awesome_solid_circle_arrow_right,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_ARROW_UP: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_ARROW_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_arrow_up(
             crate::IconProps {
@@ -6293,7 +6293,7 @@ impl IconData {
             html: font_awesome_solid_circle_arrow_up,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_check(
             crate::IconProps {
@@ -6315,7 +6315,7 @@ impl IconData {
             html: font_awesome_solid_circle_check,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_CHEVRON_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_CHEVRON_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_chevron_down(
             crate::IconProps {
@@ -6337,7 +6337,7 @@ impl IconData {
             html: font_awesome_solid_circle_chevron_down,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_CHEVRON_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_CHEVRON_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_chevron_left(
             crate::IconProps {
@@ -6359,7 +6359,7 @@ impl IconData {
             html: font_awesome_solid_circle_chevron_left,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_CHEVRON_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_CHEVRON_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_chevron_right(
             crate::IconProps {
@@ -6381,7 +6381,7 @@ impl IconData {
             html: font_awesome_solid_circle_chevron_right,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_CHEVRON_UP: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_CHEVRON_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_chevron_up(
             crate::IconProps {
@@ -6403,7 +6403,7 @@ impl IconData {
             html: font_awesome_solid_circle_chevron_up,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_DOLLAR_TO_SLOT: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_DOLLAR_TO_SLOT: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_dollar_to_slot(
             crate::IconProps {
@@ -6425,7 +6425,7 @@ impl IconData {
             html: font_awesome_solid_circle_dollar_to_slot,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_DOT: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_DOT: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_dot(
             crate::IconProps {
@@ -6447,7 +6447,7 @@ impl IconData {
             html: font_awesome_solid_circle_dot,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_down(
             crate::IconProps {
@@ -6469,7 +6469,7 @@ impl IconData {
             html: font_awesome_solid_circle_down,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_EXCLAMATION: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_EXCLAMATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_exclamation(
             crate::IconProps {
@@ -6491,7 +6491,7 @@ impl IconData {
             html: font_awesome_solid_circle_exclamation,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_H: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_H: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_h(
             crate::IconProps {
@@ -6513,7 +6513,7 @@ impl IconData {
             html: font_awesome_solid_circle_h,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_HALF_STROKE: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_HALF_STROKE: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_half_stroke(
             crate::IconProps {
@@ -6535,7 +6535,7 @@ impl IconData {
             html: font_awesome_solid_circle_half_stroke,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_INFO: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_INFO: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_info(
             crate::IconProps {
@@ -6557,7 +6557,7 @@ impl IconData {
             html: font_awesome_solid_circle_info,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_left(
             crate::IconProps {
@@ -6579,7 +6579,7 @@ impl IconData {
             html: font_awesome_solid_circle_left,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_MINUS: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_MINUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_minus(
             crate::IconProps {
@@ -6601,7 +6601,7 @@ impl IconData {
             html: font_awesome_solid_circle_minus,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_NODES: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_NODES: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_nodes(
             crate::IconProps {
@@ -6623,7 +6623,7 @@ impl IconData {
             html: font_awesome_solid_circle_nodes,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_NOTCH: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_NOTCH: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_notch(
             crate::IconProps {
@@ -6645,7 +6645,7 @@ impl IconData {
             html: font_awesome_solid_circle_notch,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_PAUSE: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_PAUSE: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_pause(
             crate::IconProps {
@@ -6667,7 +6667,7 @@ impl IconData {
             html: font_awesome_solid_circle_pause,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_PLAY: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_PLAY: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_play(
             crate::IconProps {
@@ -6689,7 +6689,7 @@ impl IconData {
             html: font_awesome_solid_circle_play,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_PLUS: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_PLUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_plus(
             crate::IconProps {
@@ -6711,7 +6711,7 @@ impl IconData {
             html: font_awesome_solid_circle_plus,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_QUESTION: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_QUESTION: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_question(
             crate::IconProps {
@@ -6733,7 +6733,7 @@ impl IconData {
             html: font_awesome_solid_circle_question,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_RADIATION: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_RADIATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_radiation(
             crate::IconProps {
@@ -6755,7 +6755,7 @@ impl IconData {
             html: font_awesome_solid_circle_radiation,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_right(
             crate::IconProps {
@@ -6777,7 +6777,7 @@ impl IconData {
             html: font_awesome_solid_circle_right,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_STOP: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_STOP: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_stop(
             crate::IconProps {
@@ -6799,7 +6799,7 @@ impl IconData {
             html: font_awesome_solid_circle_stop,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_UP: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_up(
             crate::IconProps {
@@ -6821,7 +6821,7 @@ impl IconData {
             html: font_awesome_solid_circle_up,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_USER: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_USER: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_user(
             crate::IconProps {
@@ -6843,7 +6843,7 @@ impl IconData {
             html: font_awesome_solid_circle_user,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE_XMARK: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle_xmark(
             crate::IconProps {
@@ -6865,7 +6865,7 @@ impl IconData {
             html: font_awesome_solid_circle_xmark,
         }
     };
-    const FONT_AWESOME_SOLID_CIRCLE: Self = {
+    pub const FONT_AWESOME_SOLID_CIRCLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_circle(
             crate::IconProps {
@@ -6887,7 +6887,7 @@ impl IconData {
             html: font_awesome_solid_circle,
         }
     };
-    const FONT_AWESOME_SOLID_CITY: Self = {
+    pub const FONT_AWESOME_SOLID_CITY: Self = {
         #[inline(never)]
         fn font_awesome_solid_city(
             crate::IconProps {
@@ -6909,7 +6909,7 @@ impl IconData {
             html: font_awesome_solid_city,
         }
     };
-    const FONT_AWESOME_SOLID_CLAPPERBOARD: Self = {
+    pub const FONT_AWESOME_SOLID_CLAPPERBOARD: Self = {
         #[inline(never)]
         fn font_awesome_solid_clapperboard(
             crate::IconProps {
@@ -6931,7 +6931,7 @@ impl IconData {
             html: font_awesome_solid_clapperboard,
         }
     };
-    const FONT_AWESOME_SOLID_CLIPBOARD_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_CLIPBOARD_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_clipboard_check(
             crate::IconProps {
@@ -6953,7 +6953,7 @@ impl IconData {
             html: font_awesome_solid_clipboard_check,
         }
     };
-    const FONT_AWESOME_SOLID_CLIPBOARD_LIST: Self = {
+    pub const FONT_AWESOME_SOLID_CLIPBOARD_LIST: Self = {
         #[inline(never)]
         fn font_awesome_solid_clipboard_list(
             crate::IconProps {
@@ -6975,7 +6975,7 @@ impl IconData {
             html: font_awesome_solid_clipboard_list,
         }
     };
-    const FONT_AWESOME_SOLID_CLIPBOARD_QUESTION: Self = {
+    pub const FONT_AWESOME_SOLID_CLIPBOARD_QUESTION: Self = {
         #[inline(never)]
         fn font_awesome_solid_clipboard_question(
             crate::IconProps {
@@ -6997,7 +6997,7 @@ impl IconData {
             html: font_awesome_solid_clipboard_question,
         }
     };
-    const FONT_AWESOME_SOLID_CLIPBOARD_USER: Self = {
+    pub const FONT_AWESOME_SOLID_CLIPBOARD_USER: Self = {
         #[inline(never)]
         fn font_awesome_solid_clipboard_user(
             crate::IconProps {
@@ -7019,7 +7019,7 @@ impl IconData {
             html: font_awesome_solid_clipboard_user,
         }
     };
-    const FONT_AWESOME_SOLID_CLIPBOARD: Self = {
+    pub const FONT_AWESOME_SOLID_CLIPBOARD: Self = {
         #[inline(never)]
         fn font_awesome_solid_clipboard(
             crate::IconProps {
@@ -7041,7 +7041,7 @@ impl IconData {
             html: font_awesome_solid_clipboard,
         }
     };
-    const FONT_AWESOME_SOLID_CLOCK_ROTATE_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_CLOCK_ROTATE_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_clock_rotate_left(
             crate::IconProps {
@@ -7063,7 +7063,7 @@ impl IconData {
             html: font_awesome_solid_clock_rotate_left,
         }
     };
-    const FONT_AWESOME_SOLID_CLOCK: Self = {
+    pub const FONT_AWESOME_SOLID_CLOCK: Self = {
         #[inline(never)]
         fn font_awesome_solid_clock(
             crate::IconProps {
@@ -7085,7 +7085,7 @@ impl IconData {
             html: font_awesome_solid_clock,
         }
     };
-    const FONT_AWESOME_SOLID_CLONE: Self = {
+    pub const FONT_AWESOME_SOLID_CLONE: Self = {
         #[inline(never)]
         fn font_awesome_solid_clone(
             crate::IconProps {
@@ -7107,7 +7107,7 @@ impl IconData {
             html: font_awesome_solid_clone,
         }
     };
-    const FONT_AWESOME_SOLID_CLOSED_CAPTIONING: Self = {
+    pub const FONT_AWESOME_SOLID_CLOSED_CAPTIONING: Self = {
         #[inline(never)]
         fn font_awesome_solid_closed_captioning(
             crate::IconProps {
@@ -7129,7 +7129,7 @@ impl IconData {
             html: font_awesome_solid_closed_captioning,
         }
     };
-    const FONT_AWESOME_SOLID_CLOUD_ARROW_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_CLOUD_ARROW_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_cloud_arrow_down(
             crate::IconProps {
@@ -7151,7 +7151,7 @@ impl IconData {
             html: font_awesome_solid_cloud_arrow_down,
         }
     };
-    const FONT_AWESOME_SOLID_CLOUD_ARROW_UP: Self = {
+    pub const FONT_AWESOME_SOLID_CLOUD_ARROW_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_cloud_arrow_up(
             crate::IconProps {
@@ -7173,7 +7173,7 @@ impl IconData {
             html: font_awesome_solid_cloud_arrow_up,
         }
     };
-    const FONT_AWESOME_SOLID_CLOUD_BOLT: Self = {
+    pub const FONT_AWESOME_SOLID_CLOUD_BOLT: Self = {
         #[inline(never)]
         fn font_awesome_solid_cloud_bolt(
             crate::IconProps {
@@ -7195,7 +7195,7 @@ impl IconData {
             html: font_awesome_solid_cloud_bolt,
         }
     };
-    const FONT_AWESOME_SOLID_CLOUD_MEATBALL: Self = {
+    pub const FONT_AWESOME_SOLID_CLOUD_MEATBALL: Self = {
         #[inline(never)]
         fn font_awesome_solid_cloud_meatball(
             crate::IconProps {
@@ -7217,7 +7217,7 @@ impl IconData {
             html: font_awesome_solid_cloud_meatball,
         }
     };
-    const FONT_AWESOME_SOLID_CLOUD_MOON_RAIN: Self = {
+    pub const FONT_AWESOME_SOLID_CLOUD_MOON_RAIN: Self = {
         #[inline(never)]
         fn font_awesome_solid_cloud_moon_rain(
             crate::IconProps {
@@ -7239,7 +7239,7 @@ impl IconData {
             html: font_awesome_solid_cloud_moon_rain,
         }
     };
-    const FONT_AWESOME_SOLID_CLOUD_MOON: Self = {
+    pub const FONT_AWESOME_SOLID_CLOUD_MOON: Self = {
         #[inline(never)]
         fn font_awesome_solid_cloud_moon(
             crate::IconProps {
@@ -7261,7 +7261,7 @@ impl IconData {
             html: font_awesome_solid_cloud_moon,
         }
     };
-    const FONT_AWESOME_SOLID_CLOUD_RAIN: Self = {
+    pub const FONT_AWESOME_SOLID_CLOUD_RAIN: Self = {
         #[inline(never)]
         fn font_awesome_solid_cloud_rain(
             crate::IconProps {
@@ -7283,7 +7283,7 @@ impl IconData {
             html: font_awesome_solid_cloud_rain,
         }
     };
-    const FONT_AWESOME_SOLID_CLOUD_SHOWERS_HEAVY: Self = {
+    pub const FONT_AWESOME_SOLID_CLOUD_SHOWERS_HEAVY: Self = {
         #[inline(never)]
         fn font_awesome_solid_cloud_showers_heavy(
             crate::IconProps {
@@ -7305,7 +7305,7 @@ impl IconData {
             html: font_awesome_solid_cloud_showers_heavy,
         }
     };
-    const FONT_AWESOME_SOLID_CLOUD_SHOWERS_WATER: Self = {
+    pub const FONT_AWESOME_SOLID_CLOUD_SHOWERS_WATER: Self = {
         #[inline(never)]
         fn font_awesome_solid_cloud_showers_water(
             crate::IconProps {
@@ -7327,7 +7327,7 @@ impl IconData {
             html: font_awesome_solid_cloud_showers_water,
         }
     };
-    const FONT_AWESOME_SOLID_CLOUD_SUN_RAIN: Self = {
+    pub const FONT_AWESOME_SOLID_CLOUD_SUN_RAIN: Self = {
         #[inline(never)]
         fn font_awesome_solid_cloud_sun_rain(
             crate::IconProps {
@@ -7349,7 +7349,7 @@ impl IconData {
             html: font_awesome_solid_cloud_sun_rain,
         }
     };
-    const FONT_AWESOME_SOLID_CLOUD_SUN: Self = {
+    pub const FONT_AWESOME_SOLID_CLOUD_SUN: Self = {
         #[inline(never)]
         fn font_awesome_solid_cloud_sun(
             crate::IconProps {
@@ -7371,7 +7371,7 @@ impl IconData {
             html: font_awesome_solid_cloud_sun,
         }
     };
-    const FONT_AWESOME_SOLID_CLOUD: Self = {
+    pub const FONT_AWESOME_SOLID_CLOUD: Self = {
         #[inline(never)]
         fn font_awesome_solid_cloud(
             crate::IconProps {
@@ -7393,7 +7393,7 @@ impl IconData {
             html: font_awesome_solid_cloud,
         }
     };
-    const FONT_AWESOME_SOLID_CLOVER: Self = {
+    pub const FONT_AWESOME_SOLID_CLOVER: Self = {
         #[inline(never)]
         fn font_awesome_solid_clover(
             crate::IconProps {
@@ -7415,7 +7415,7 @@ impl IconData {
             html: font_awesome_solid_clover,
         }
     };
-    const FONT_AWESOME_SOLID_CODE_BRANCH: Self = {
+    pub const FONT_AWESOME_SOLID_CODE_BRANCH: Self = {
         #[inline(never)]
         fn font_awesome_solid_code_branch(
             crate::IconProps {
@@ -7437,7 +7437,7 @@ impl IconData {
             html: font_awesome_solid_code_branch,
         }
     };
-    const FONT_AWESOME_SOLID_CODE_COMMIT: Self = {
+    pub const FONT_AWESOME_SOLID_CODE_COMMIT: Self = {
         #[inline(never)]
         fn font_awesome_solid_code_commit(
             crate::IconProps {
@@ -7459,7 +7459,7 @@ impl IconData {
             html: font_awesome_solid_code_commit,
         }
     };
-    const FONT_AWESOME_SOLID_CODE_COMPARE: Self = {
+    pub const FONT_AWESOME_SOLID_CODE_COMPARE: Self = {
         #[inline(never)]
         fn font_awesome_solid_code_compare(
             crate::IconProps {
@@ -7481,7 +7481,7 @@ impl IconData {
             html: font_awesome_solid_code_compare,
         }
     };
-    const FONT_AWESOME_SOLID_CODE_FORK: Self = {
+    pub const FONT_AWESOME_SOLID_CODE_FORK: Self = {
         #[inline(never)]
         fn font_awesome_solid_code_fork(
             crate::IconProps {
@@ -7503,7 +7503,7 @@ impl IconData {
             html: font_awesome_solid_code_fork,
         }
     };
-    const FONT_AWESOME_SOLID_CODE_MERGE: Self = {
+    pub const FONT_AWESOME_SOLID_CODE_MERGE: Self = {
         #[inline(never)]
         fn font_awesome_solid_code_merge(
             crate::IconProps {
@@ -7525,7 +7525,7 @@ impl IconData {
             html: font_awesome_solid_code_merge,
         }
     };
-    const FONT_AWESOME_SOLID_CODE_PULL_REQUEST: Self = {
+    pub const FONT_AWESOME_SOLID_CODE_PULL_REQUEST: Self = {
         #[inline(never)]
         fn font_awesome_solid_code_pull_request(
             crate::IconProps {
@@ -7547,7 +7547,7 @@ impl IconData {
             html: font_awesome_solid_code_pull_request,
         }
     };
-    const FONT_AWESOME_SOLID_CODE: Self = {
+    pub const FONT_AWESOME_SOLID_CODE: Self = {
         #[inline(never)]
         fn font_awesome_solid_code(
             crate::IconProps {
@@ -7569,7 +7569,7 @@ impl IconData {
             html: font_awesome_solid_code,
         }
     };
-    const FONT_AWESOME_SOLID_COINS: Self = {
+    pub const FONT_AWESOME_SOLID_COINS: Self = {
         #[inline(never)]
         fn font_awesome_solid_coins(
             crate::IconProps {
@@ -7591,7 +7591,7 @@ impl IconData {
             html: font_awesome_solid_coins,
         }
     };
-    const FONT_AWESOME_SOLID_COLON_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_COLON_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_colon_sign(
             crate::IconProps {
@@ -7613,7 +7613,7 @@ impl IconData {
             html: font_awesome_solid_colon_sign,
         }
     };
-    const FONT_AWESOME_SOLID_COMMENT_DOLLAR: Self = {
+    pub const FONT_AWESOME_SOLID_COMMENT_DOLLAR: Self = {
         #[inline(never)]
         fn font_awesome_solid_comment_dollar(
             crate::IconProps {
@@ -7635,7 +7635,7 @@ impl IconData {
             html: font_awesome_solid_comment_dollar,
         }
     };
-    const FONT_AWESOME_SOLID_COMMENT_DOTS: Self = {
+    pub const FONT_AWESOME_SOLID_COMMENT_DOTS: Self = {
         #[inline(never)]
         fn font_awesome_solid_comment_dots(
             crate::IconProps {
@@ -7657,7 +7657,7 @@ impl IconData {
             html: font_awesome_solid_comment_dots,
         }
     };
-    const FONT_AWESOME_SOLID_COMMENT_MEDICAL: Self = {
+    pub const FONT_AWESOME_SOLID_COMMENT_MEDICAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_comment_medical(
             crate::IconProps {
@@ -7679,7 +7679,7 @@ impl IconData {
             html: font_awesome_solid_comment_medical,
         }
     };
-    const FONT_AWESOME_SOLID_COMMENT_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_COMMENT_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_comment_slash(
             crate::IconProps {
@@ -7701,7 +7701,7 @@ impl IconData {
             html: font_awesome_solid_comment_slash,
         }
     };
-    const FONT_AWESOME_SOLID_COMMENT_SMS: Self = {
+    pub const FONT_AWESOME_SOLID_COMMENT_SMS: Self = {
         #[inline(never)]
         fn font_awesome_solid_comment_sms(
             crate::IconProps {
@@ -7723,7 +7723,7 @@ impl IconData {
             html: font_awesome_solid_comment_sms,
         }
     };
-    const FONT_AWESOME_SOLID_COMMENT: Self = {
+    pub const FONT_AWESOME_SOLID_COMMENT: Self = {
         #[inline(never)]
         fn font_awesome_solid_comment(
             crate::IconProps {
@@ -7745,7 +7745,7 @@ impl IconData {
             html: font_awesome_solid_comment,
         }
     };
-    const FONT_AWESOME_SOLID_COMMENTS_DOLLAR: Self = {
+    pub const FONT_AWESOME_SOLID_COMMENTS_DOLLAR: Self = {
         #[inline(never)]
         fn font_awesome_solid_comments_dollar(
             crate::IconProps {
@@ -7767,7 +7767,7 @@ impl IconData {
             html: font_awesome_solid_comments_dollar,
         }
     };
-    const FONT_AWESOME_SOLID_COMMENTS: Self = {
+    pub const FONT_AWESOME_SOLID_COMMENTS: Self = {
         #[inline(never)]
         fn font_awesome_solid_comments(
             crate::IconProps {
@@ -7789,7 +7789,7 @@ impl IconData {
             html: font_awesome_solid_comments,
         }
     };
-    const FONT_AWESOME_SOLID_COMPACT_DISC: Self = {
+    pub const FONT_AWESOME_SOLID_COMPACT_DISC: Self = {
         #[inline(never)]
         fn font_awesome_solid_compact_disc(
             crate::IconProps {
@@ -7811,7 +7811,7 @@ impl IconData {
             html: font_awesome_solid_compact_disc,
         }
     };
-    const FONT_AWESOME_SOLID_COMPASS_DRAFTING: Self = {
+    pub const FONT_AWESOME_SOLID_COMPASS_DRAFTING: Self = {
         #[inline(never)]
         fn font_awesome_solid_compass_drafting(
             crate::IconProps {
@@ -7833,7 +7833,7 @@ impl IconData {
             html: font_awesome_solid_compass_drafting,
         }
     };
-    const FONT_AWESOME_SOLID_COMPASS: Self = {
+    pub const FONT_AWESOME_SOLID_COMPASS: Self = {
         #[inline(never)]
         fn font_awesome_solid_compass(
             crate::IconProps {
@@ -7855,7 +7855,7 @@ impl IconData {
             html: font_awesome_solid_compass,
         }
     };
-    const FONT_AWESOME_SOLID_COMPRESS: Self = {
+    pub const FONT_AWESOME_SOLID_COMPRESS: Self = {
         #[inline(never)]
         fn font_awesome_solid_compress(
             crate::IconProps {
@@ -7877,7 +7877,7 @@ impl IconData {
             html: font_awesome_solid_compress,
         }
     };
-    const FONT_AWESOME_SOLID_COMPUTER_MOUSE: Self = {
+    pub const FONT_AWESOME_SOLID_COMPUTER_MOUSE: Self = {
         #[inline(never)]
         fn font_awesome_solid_computer_mouse(
             crate::IconProps {
@@ -7899,7 +7899,7 @@ impl IconData {
             html: font_awesome_solid_computer_mouse,
         }
     };
-    const FONT_AWESOME_SOLID_COMPUTER: Self = {
+    pub const FONT_AWESOME_SOLID_COMPUTER: Self = {
         #[inline(never)]
         fn font_awesome_solid_computer(
             crate::IconProps {
@@ -7921,7 +7921,7 @@ impl IconData {
             html: font_awesome_solid_computer,
         }
     };
-    const FONT_AWESOME_SOLID_COOKIE_BITE: Self = {
+    pub const FONT_AWESOME_SOLID_COOKIE_BITE: Self = {
         #[inline(never)]
         fn font_awesome_solid_cookie_bite(
             crate::IconProps {
@@ -7943,7 +7943,7 @@ impl IconData {
             html: font_awesome_solid_cookie_bite,
         }
     };
-    const FONT_AWESOME_SOLID_COOKIE: Self = {
+    pub const FONT_AWESOME_SOLID_COOKIE: Self = {
         #[inline(never)]
         fn font_awesome_solid_cookie(
             crate::IconProps {
@@ -7965,7 +7965,7 @@ impl IconData {
             html: font_awesome_solid_cookie,
         }
     };
-    const FONT_AWESOME_SOLID_COPY: Self = {
+    pub const FONT_AWESOME_SOLID_COPY: Self = {
         #[inline(never)]
         fn font_awesome_solid_copy(
             crate::IconProps {
@@ -7987,7 +7987,7 @@ impl IconData {
             html: font_awesome_solid_copy,
         }
     };
-    const FONT_AWESOME_SOLID_COPYRIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_COPYRIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_copyright(
             crate::IconProps {
@@ -8009,7 +8009,7 @@ impl IconData {
             html: font_awesome_solid_copyright,
         }
     };
-    const FONT_AWESOME_SOLID_COUCH: Self = {
+    pub const FONT_AWESOME_SOLID_COUCH: Self = {
         #[inline(never)]
         fn font_awesome_solid_couch(
             crate::IconProps {
@@ -8031,7 +8031,7 @@ impl IconData {
             html: font_awesome_solid_couch,
         }
     };
-    const FONT_AWESOME_SOLID_COW: Self = {
+    pub const FONT_AWESOME_SOLID_COW: Self = {
         #[inline(never)]
         fn font_awesome_solid_cow(
             crate::IconProps {
@@ -8053,7 +8053,7 @@ impl IconData {
             html: font_awesome_solid_cow,
         }
     };
-    const FONT_AWESOME_SOLID_CREDIT_CARD: Self = {
+    pub const FONT_AWESOME_SOLID_CREDIT_CARD: Self = {
         #[inline(never)]
         fn font_awesome_solid_credit_card(
             crate::IconProps {
@@ -8075,7 +8075,7 @@ impl IconData {
             html: font_awesome_solid_credit_card,
         }
     };
-    const FONT_AWESOME_SOLID_CROP_SIMPLE: Self = {
+    pub const FONT_AWESOME_SOLID_CROP_SIMPLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_crop_simple(
             crate::IconProps {
@@ -8097,7 +8097,7 @@ impl IconData {
             html: font_awesome_solid_crop_simple,
         }
     };
-    const FONT_AWESOME_SOLID_CROP: Self = {
+    pub const FONT_AWESOME_SOLID_CROP: Self = {
         #[inline(never)]
         fn font_awesome_solid_crop(
             crate::IconProps {
@@ -8119,7 +8119,7 @@ impl IconData {
             html: font_awesome_solid_crop,
         }
     };
-    const FONT_AWESOME_SOLID_CROSS: Self = {
+    pub const FONT_AWESOME_SOLID_CROSS: Self = {
         #[inline(never)]
         fn font_awesome_solid_cross(
             crate::IconProps {
@@ -8141,7 +8141,7 @@ impl IconData {
             html: font_awesome_solid_cross,
         }
     };
-    const FONT_AWESOME_SOLID_CROSSHAIRS: Self = {
+    pub const FONT_AWESOME_SOLID_CROSSHAIRS: Self = {
         #[inline(never)]
         fn font_awesome_solid_crosshairs(
             crate::IconProps {
@@ -8163,7 +8163,7 @@ impl IconData {
             html: font_awesome_solid_crosshairs,
         }
     };
-    const FONT_AWESOME_SOLID_CROW: Self = {
+    pub const FONT_AWESOME_SOLID_CROW: Self = {
         #[inline(never)]
         fn font_awesome_solid_crow(
             crate::IconProps {
@@ -8185,7 +8185,7 @@ impl IconData {
             html: font_awesome_solid_crow,
         }
     };
-    const FONT_AWESOME_SOLID_CROWN: Self = {
+    pub const FONT_AWESOME_SOLID_CROWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_crown(
             crate::IconProps {
@@ -8207,7 +8207,7 @@ impl IconData {
             html: font_awesome_solid_crown,
         }
     };
-    const FONT_AWESOME_SOLID_CRUTCH: Self = {
+    pub const FONT_AWESOME_SOLID_CRUTCH: Self = {
         #[inline(never)]
         fn font_awesome_solid_crutch(
             crate::IconProps {
@@ -8229,7 +8229,7 @@ impl IconData {
             html: font_awesome_solid_crutch,
         }
     };
-    const FONT_AWESOME_SOLID_CRUZEIRO_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_CRUZEIRO_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_cruzeiro_sign(
             crate::IconProps {
@@ -8251,7 +8251,7 @@ impl IconData {
             html: font_awesome_solid_cruzeiro_sign,
         }
     };
-    const FONT_AWESOME_SOLID_CUBE: Self = {
+    pub const FONT_AWESOME_SOLID_CUBE: Self = {
         #[inline(never)]
         fn font_awesome_solid_cube(
             crate::IconProps {
@@ -8273,7 +8273,7 @@ impl IconData {
             html: font_awesome_solid_cube,
         }
     };
-    const FONT_AWESOME_SOLID_CUBES_STACKED: Self = {
+    pub const FONT_AWESOME_SOLID_CUBES_STACKED: Self = {
         #[inline(never)]
         fn font_awesome_solid_cubes_stacked(
             crate::IconProps {
@@ -8295,7 +8295,7 @@ impl IconData {
             html: font_awesome_solid_cubes_stacked,
         }
     };
-    const FONT_AWESOME_SOLID_CUBES: Self = {
+    pub const FONT_AWESOME_SOLID_CUBES: Self = {
         #[inline(never)]
         fn font_awesome_solid_cubes(
             crate::IconProps {
@@ -8317,7 +8317,7 @@ impl IconData {
             html: font_awesome_solid_cubes,
         }
     };
-    const FONT_AWESOME_SOLID_D: Self = {
+    pub const FONT_AWESOME_SOLID_D: Self = {
         #[inline(never)]
         fn font_awesome_solid_d(
             crate::IconProps {
@@ -8339,7 +8339,7 @@ impl IconData {
             html: font_awesome_solid_d,
         }
     };
-    const FONT_AWESOME_SOLID_DATABASE: Self = {
+    pub const FONT_AWESOME_SOLID_DATABASE: Self = {
         #[inline(never)]
         fn font_awesome_solid_database(
             crate::IconProps {
@@ -8361,7 +8361,7 @@ impl IconData {
             html: font_awesome_solid_database,
         }
     };
-    const FONT_AWESOME_SOLID_DELETE_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_DELETE_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_delete_left(
             crate::IconProps {
@@ -8383,7 +8383,7 @@ impl IconData {
             html: font_awesome_solid_delete_left,
         }
     };
-    const FONT_AWESOME_SOLID_DEMOCRAT: Self = {
+    pub const FONT_AWESOME_SOLID_DEMOCRAT: Self = {
         #[inline(never)]
         fn font_awesome_solid_democrat(
             crate::IconProps {
@@ -8405,7 +8405,7 @@ impl IconData {
             html: font_awesome_solid_democrat,
         }
     };
-    const FONT_AWESOME_SOLID_DESKTOP: Self = {
+    pub const FONT_AWESOME_SOLID_DESKTOP: Self = {
         #[inline(never)]
         fn font_awesome_solid_desktop(
             crate::IconProps {
@@ -8427,7 +8427,7 @@ impl IconData {
             html: font_awesome_solid_desktop,
         }
     };
-    const FONT_AWESOME_SOLID_DHARMACHAKRA: Self = {
+    pub const FONT_AWESOME_SOLID_DHARMACHAKRA: Self = {
         #[inline(never)]
         fn font_awesome_solid_dharmachakra(
             crate::IconProps {
@@ -8449,7 +8449,7 @@ impl IconData {
             html: font_awesome_solid_dharmachakra,
         }
     };
-    const FONT_AWESOME_SOLID_DIAGRAM_NEXT: Self = {
+    pub const FONT_AWESOME_SOLID_DIAGRAM_NEXT: Self = {
         #[inline(never)]
         fn font_awesome_solid_diagram_next(
             crate::IconProps {
@@ -8471,7 +8471,7 @@ impl IconData {
             html: font_awesome_solid_diagram_next,
         }
     };
-    const FONT_AWESOME_SOLID_DIAGRAM_PREDECESSOR: Self = {
+    pub const FONT_AWESOME_SOLID_DIAGRAM_PREDECESSOR: Self = {
         #[inline(never)]
         fn font_awesome_solid_diagram_predecessor(
             crate::IconProps {
@@ -8493,7 +8493,7 @@ impl IconData {
             html: font_awesome_solid_diagram_predecessor,
         }
     };
-    const FONT_AWESOME_SOLID_DIAGRAM_PROJECT: Self = {
+    pub const FONT_AWESOME_SOLID_DIAGRAM_PROJECT: Self = {
         #[inline(never)]
         fn font_awesome_solid_diagram_project(
             crate::IconProps {
@@ -8515,7 +8515,7 @@ impl IconData {
             html: font_awesome_solid_diagram_project,
         }
     };
-    const FONT_AWESOME_SOLID_DIAGRAM_SUCCESSOR: Self = {
+    pub const FONT_AWESOME_SOLID_DIAGRAM_SUCCESSOR: Self = {
         #[inline(never)]
         fn font_awesome_solid_diagram_successor(
             crate::IconProps {
@@ -8537,7 +8537,7 @@ impl IconData {
             html: font_awesome_solid_diagram_successor,
         }
     };
-    const FONT_AWESOME_SOLID_DIAMOND_TURN_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_DIAMOND_TURN_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_diamond_turn_right(
             crate::IconProps {
@@ -8559,7 +8559,7 @@ impl IconData {
             html: font_awesome_solid_diamond_turn_right,
         }
     };
-    const FONT_AWESOME_SOLID_DIAMOND: Self = {
+    pub const FONT_AWESOME_SOLID_DIAMOND: Self = {
         #[inline(never)]
         fn font_awesome_solid_diamond(
             crate::IconProps {
@@ -8581,7 +8581,7 @@ impl IconData {
             html: font_awesome_solid_diamond,
         }
     };
-    const FONT_AWESOME_SOLID_DICE_D_20: Self = {
+    pub const FONT_AWESOME_SOLID_DICE_D_20: Self = {
         #[inline(never)]
         fn font_awesome_solid_dice_d_20(
             crate::IconProps {
@@ -8603,7 +8603,7 @@ impl IconData {
             html: font_awesome_solid_dice_d_20,
         }
     };
-    const FONT_AWESOME_SOLID_DICE_D_6: Self = {
+    pub const FONT_AWESOME_SOLID_DICE_D_6: Self = {
         #[inline(never)]
         fn font_awesome_solid_dice_d_6(
             crate::IconProps {
@@ -8625,7 +8625,7 @@ impl IconData {
             html: font_awesome_solid_dice_d_6,
         }
     };
-    const FONT_AWESOME_SOLID_DICE_FIVE: Self = {
+    pub const FONT_AWESOME_SOLID_DICE_FIVE: Self = {
         #[inline(never)]
         fn font_awesome_solid_dice_five(
             crate::IconProps {
@@ -8647,7 +8647,7 @@ impl IconData {
             html: font_awesome_solid_dice_five,
         }
     };
-    const FONT_AWESOME_SOLID_DICE_FOUR: Self = {
+    pub const FONT_AWESOME_SOLID_DICE_FOUR: Self = {
         #[inline(never)]
         fn font_awesome_solid_dice_four(
             crate::IconProps {
@@ -8669,7 +8669,7 @@ impl IconData {
             html: font_awesome_solid_dice_four,
         }
     };
-    const FONT_AWESOME_SOLID_DICE_ONE: Self = {
+    pub const FONT_AWESOME_SOLID_DICE_ONE: Self = {
         #[inline(never)]
         fn font_awesome_solid_dice_one(
             crate::IconProps {
@@ -8691,7 +8691,7 @@ impl IconData {
             html: font_awesome_solid_dice_one,
         }
     };
-    const FONT_AWESOME_SOLID_DICE_SIX: Self = {
+    pub const FONT_AWESOME_SOLID_DICE_SIX: Self = {
         #[inline(never)]
         fn font_awesome_solid_dice_six(
             crate::IconProps {
@@ -8713,7 +8713,7 @@ impl IconData {
             html: font_awesome_solid_dice_six,
         }
     };
-    const FONT_AWESOME_SOLID_DICE_THREE: Self = {
+    pub const FONT_AWESOME_SOLID_DICE_THREE: Self = {
         #[inline(never)]
         fn font_awesome_solid_dice_three(
             crate::IconProps {
@@ -8735,7 +8735,7 @@ impl IconData {
             html: font_awesome_solid_dice_three,
         }
     };
-    const FONT_AWESOME_SOLID_DICE_TWO: Self = {
+    pub const FONT_AWESOME_SOLID_DICE_TWO: Self = {
         #[inline(never)]
         fn font_awesome_solid_dice_two(
             crate::IconProps {
@@ -8757,7 +8757,7 @@ impl IconData {
             html: font_awesome_solid_dice_two,
         }
     };
-    const FONT_AWESOME_SOLID_DICE: Self = {
+    pub const FONT_AWESOME_SOLID_DICE: Self = {
         #[inline(never)]
         fn font_awesome_solid_dice(
             crate::IconProps {
@@ -8779,7 +8779,7 @@ impl IconData {
             html: font_awesome_solid_dice,
         }
     };
-    const FONT_AWESOME_SOLID_DISEASE: Self = {
+    pub const FONT_AWESOME_SOLID_DISEASE: Self = {
         #[inline(never)]
         fn font_awesome_solid_disease(
             crate::IconProps {
@@ -8801,7 +8801,7 @@ impl IconData {
             html: font_awesome_solid_disease,
         }
     };
-    const FONT_AWESOME_SOLID_DISPLAY: Self = {
+    pub const FONT_AWESOME_SOLID_DISPLAY: Self = {
         #[inline(never)]
         fn font_awesome_solid_display(
             crate::IconProps {
@@ -8823,7 +8823,7 @@ impl IconData {
             html: font_awesome_solid_display,
         }
     };
-    const FONT_AWESOME_SOLID_DIVIDE: Self = {
+    pub const FONT_AWESOME_SOLID_DIVIDE: Self = {
         #[inline(never)]
         fn font_awesome_solid_divide(
             crate::IconProps {
@@ -8845,7 +8845,7 @@ impl IconData {
             html: font_awesome_solid_divide,
         }
     };
-    const FONT_AWESOME_SOLID_DNA: Self = {
+    pub const FONT_AWESOME_SOLID_DNA: Self = {
         #[inline(never)]
         fn font_awesome_solid_dna(
             crate::IconProps {
@@ -8867,7 +8867,7 @@ impl IconData {
             html: font_awesome_solid_dna,
         }
     };
-    const FONT_AWESOME_SOLID_DOG: Self = {
+    pub const FONT_AWESOME_SOLID_DOG: Self = {
         #[inline(never)]
         fn font_awesome_solid_dog(
             crate::IconProps {
@@ -8889,7 +8889,7 @@ impl IconData {
             html: font_awesome_solid_dog,
         }
     };
-    const FONT_AWESOME_SOLID_DOLLAR_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_DOLLAR_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_dollar_sign(
             crate::IconProps {
@@ -8911,7 +8911,7 @@ impl IconData {
             html: font_awesome_solid_dollar_sign,
         }
     };
-    const FONT_AWESOME_SOLID_DOLLY: Self = {
+    pub const FONT_AWESOME_SOLID_DOLLY: Self = {
         #[inline(never)]
         fn font_awesome_solid_dolly(
             crate::IconProps {
@@ -8933,7 +8933,7 @@ impl IconData {
             html: font_awesome_solid_dolly,
         }
     };
-    const FONT_AWESOME_SOLID_DONG_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_DONG_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_dong_sign(
             crate::IconProps {
@@ -8955,7 +8955,7 @@ impl IconData {
             html: font_awesome_solid_dong_sign,
         }
     };
-    const FONT_AWESOME_SOLID_DOOR_CLOSED: Self = {
+    pub const FONT_AWESOME_SOLID_DOOR_CLOSED: Self = {
         #[inline(never)]
         fn font_awesome_solid_door_closed(
             crate::IconProps {
@@ -8977,7 +8977,7 @@ impl IconData {
             html: font_awesome_solid_door_closed,
         }
     };
-    const FONT_AWESOME_SOLID_DOOR_OPEN: Self = {
+    pub const FONT_AWESOME_SOLID_DOOR_OPEN: Self = {
         #[inline(never)]
         fn font_awesome_solid_door_open(
             crate::IconProps {
@@ -8999,7 +8999,7 @@ impl IconData {
             html: font_awesome_solid_door_open,
         }
     };
-    const FONT_AWESOME_SOLID_DOVE: Self = {
+    pub const FONT_AWESOME_SOLID_DOVE: Self = {
         #[inline(never)]
         fn font_awesome_solid_dove(
             crate::IconProps {
@@ -9021,7 +9021,7 @@ impl IconData {
             html: font_awesome_solid_dove,
         }
     };
-    const FONT_AWESOME_SOLID_DOWN_LEFT_AND_UP_RIGHT_TO_CENTER: Self = {
+    pub const FONT_AWESOME_SOLID_DOWN_LEFT_AND_UP_RIGHT_TO_CENTER: Self = {
         #[inline(never)]
         fn font_awesome_solid_down_left_and_up_right_to_center(
             crate::IconProps {
@@ -9043,7 +9043,7 @@ impl IconData {
             html: font_awesome_solid_down_left_and_up_right_to_center,
         }
     };
-    const FONT_AWESOME_SOLID_DOWN_LONG: Self = {
+    pub const FONT_AWESOME_SOLID_DOWN_LONG: Self = {
         #[inline(never)]
         fn font_awesome_solid_down_long(
             crate::IconProps {
@@ -9065,7 +9065,7 @@ impl IconData {
             html: font_awesome_solid_down_long,
         }
     };
-    const FONT_AWESOME_SOLID_DOWNLOAD: Self = {
+    pub const FONT_AWESOME_SOLID_DOWNLOAD: Self = {
         #[inline(never)]
         fn font_awesome_solid_download(
             crate::IconProps {
@@ -9087,7 +9087,7 @@ impl IconData {
             html: font_awesome_solid_download,
         }
     };
-    const FONT_AWESOME_SOLID_DRAGON: Self = {
+    pub const FONT_AWESOME_SOLID_DRAGON: Self = {
         #[inline(never)]
         fn font_awesome_solid_dragon(
             crate::IconProps {
@@ -9109,7 +9109,7 @@ impl IconData {
             html: font_awesome_solid_dragon,
         }
     };
-    const FONT_AWESOME_SOLID_DRAW_POLYGON: Self = {
+    pub const FONT_AWESOME_SOLID_DRAW_POLYGON: Self = {
         #[inline(never)]
         fn font_awesome_solid_draw_polygon(
             crate::IconProps {
@@ -9131,7 +9131,7 @@ impl IconData {
             html: font_awesome_solid_draw_polygon,
         }
     };
-    const FONT_AWESOME_SOLID_DROPLET_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_DROPLET_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_droplet_slash(
             crate::IconProps {
@@ -9153,7 +9153,7 @@ impl IconData {
             html: font_awesome_solid_droplet_slash,
         }
     };
-    const FONT_AWESOME_SOLID_DROPLET: Self = {
+    pub const FONT_AWESOME_SOLID_DROPLET: Self = {
         #[inline(never)]
         fn font_awesome_solid_droplet(
             crate::IconProps {
@@ -9175,7 +9175,7 @@ impl IconData {
             html: font_awesome_solid_droplet,
         }
     };
-    const FONT_AWESOME_SOLID_DRUM_STEELPAN: Self = {
+    pub const FONT_AWESOME_SOLID_DRUM_STEELPAN: Self = {
         #[inline(never)]
         fn font_awesome_solid_drum_steelpan(
             crate::IconProps {
@@ -9197,7 +9197,7 @@ impl IconData {
             html: font_awesome_solid_drum_steelpan,
         }
     };
-    const FONT_AWESOME_SOLID_DRUM: Self = {
+    pub const FONT_AWESOME_SOLID_DRUM: Self = {
         #[inline(never)]
         fn font_awesome_solid_drum(
             crate::IconProps {
@@ -9219,7 +9219,7 @@ impl IconData {
             html: font_awesome_solid_drum,
         }
     };
-    const FONT_AWESOME_SOLID_DRUMSTICK_BITE: Self = {
+    pub const FONT_AWESOME_SOLID_DRUMSTICK_BITE: Self = {
         #[inline(never)]
         fn font_awesome_solid_drumstick_bite(
             crate::IconProps {
@@ -9241,7 +9241,7 @@ impl IconData {
             html: font_awesome_solid_drumstick_bite,
         }
     };
-    const FONT_AWESOME_SOLID_DUMBBELL: Self = {
+    pub const FONT_AWESOME_SOLID_DUMBBELL: Self = {
         #[inline(never)]
         fn font_awesome_solid_dumbbell(
             crate::IconProps {
@@ -9263,7 +9263,7 @@ impl IconData {
             html: font_awesome_solid_dumbbell,
         }
     };
-    const FONT_AWESOME_SOLID_DUMPSTER_FIRE: Self = {
+    pub const FONT_AWESOME_SOLID_DUMPSTER_FIRE: Self = {
         #[inline(never)]
         fn font_awesome_solid_dumpster_fire(
             crate::IconProps {
@@ -9285,7 +9285,7 @@ impl IconData {
             html: font_awesome_solid_dumpster_fire,
         }
     };
-    const FONT_AWESOME_SOLID_DUMPSTER: Self = {
+    pub const FONT_AWESOME_SOLID_DUMPSTER: Self = {
         #[inline(never)]
         fn font_awesome_solid_dumpster(
             crate::IconProps {
@@ -9307,7 +9307,7 @@ impl IconData {
             html: font_awesome_solid_dumpster,
         }
     };
-    const FONT_AWESOME_SOLID_DUNGEON: Self = {
+    pub const FONT_AWESOME_SOLID_DUNGEON: Self = {
         #[inline(never)]
         fn font_awesome_solid_dungeon(
             crate::IconProps {
@@ -9329,7 +9329,7 @@ impl IconData {
             html: font_awesome_solid_dungeon,
         }
     };
-    const FONT_AWESOME_SOLID_E: Self = {
+    pub const FONT_AWESOME_SOLID_E: Self = {
         #[inline(never)]
         fn font_awesome_solid_e(
             crate::IconProps {
@@ -9351,7 +9351,7 @@ impl IconData {
             html: font_awesome_solid_e,
         }
     };
-    const FONT_AWESOME_SOLID_EAR_DEAF: Self = {
+    pub const FONT_AWESOME_SOLID_EAR_DEAF: Self = {
         #[inline(never)]
         fn font_awesome_solid_ear_deaf(
             crate::IconProps {
@@ -9373,7 +9373,7 @@ impl IconData {
             html: font_awesome_solid_ear_deaf,
         }
     };
-    const FONT_AWESOME_SOLID_EAR_LISTEN: Self = {
+    pub const FONT_AWESOME_SOLID_EAR_LISTEN: Self = {
         #[inline(never)]
         fn font_awesome_solid_ear_listen(
             crate::IconProps {
@@ -9395,7 +9395,7 @@ impl IconData {
             html: font_awesome_solid_ear_listen,
         }
     };
-    const FONT_AWESOME_SOLID_EARTH_AFRICA: Self = {
+    pub const FONT_AWESOME_SOLID_EARTH_AFRICA: Self = {
         #[inline(never)]
         fn font_awesome_solid_earth_africa(
             crate::IconProps {
@@ -9417,7 +9417,7 @@ impl IconData {
             html: font_awesome_solid_earth_africa,
         }
     };
-    const FONT_AWESOME_SOLID_EARTH_AMERICAS: Self = {
+    pub const FONT_AWESOME_SOLID_EARTH_AMERICAS: Self = {
         #[inline(never)]
         fn font_awesome_solid_earth_americas(
             crate::IconProps {
@@ -9439,7 +9439,7 @@ impl IconData {
             html: font_awesome_solid_earth_americas,
         }
     };
-    const FONT_AWESOME_SOLID_EARTH_ASIA: Self = {
+    pub const FONT_AWESOME_SOLID_EARTH_ASIA: Self = {
         #[inline(never)]
         fn font_awesome_solid_earth_asia(
             crate::IconProps {
@@ -9461,7 +9461,7 @@ impl IconData {
             html: font_awesome_solid_earth_asia,
         }
     };
-    const FONT_AWESOME_SOLID_EARTH_EUROPE: Self = {
+    pub const FONT_AWESOME_SOLID_EARTH_EUROPE: Self = {
         #[inline(never)]
         fn font_awesome_solid_earth_europe(
             crate::IconProps {
@@ -9483,7 +9483,7 @@ impl IconData {
             html: font_awesome_solid_earth_europe,
         }
     };
-    const FONT_AWESOME_SOLID_EARTH_OCEANIA: Self = {
+    pub const FONT_AWESOME_SOLID_EARTH_OCEANIA: Self = {
         #[inline(never)]
         fn font_awesome_solid_earth_oceania(
             crate::IconProps {
@@ -9505,7 +9505,7 @@ impl IconData {
             html: font_awesome_solid_earth_oceania,
         }
     };
-    const FONT_AWESOME_SOLID_EGG: Self = {
+    pub const FONT_AWESOME_SOLID_EGG: Self = {
         #[inline(never)]
         fn font_awesome_solid_egg(
             crate::IconProps {
@@ -9527,7 +9527,7 @@ impl IconData {
             html: font_awesome_solid_egg,
         }
     };
-    const FONT_AWESOME_SOLID_EJECT: Self = {
+    pub const FONT_AWESOME_SOLID_EJECT: Self = {
         #[inline(never)]
         fn font_awesome_solid_eject(
             crate::IconProps {
@@ -9549,7 +9549,7 @@ impl IconData {
             html: font_awesome_solid_eject,
         }
     };
-    const FONT_AWESOME_SOLID_ELEVATOR: Self = {
+    pub const FONT_AWESOME_SOLID_ELEVATOR: Self = {
         #[inline(never)]
         fn font_awesome_solid_elevator(
             crate::IconProps {
@@ -9571,7 +9571,7 @@ impl IconData {
             html: font_awesome_solid_elevator,
         }
     };
-    const FONT_AWESOME_SOLID_ELLIPSIS_VERTICAL: Self = {
+    pub const FONT_AWESOME_SOLID_ELLIPSIS_VERTICAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_ellipsis_vertical(
             crate::IconProps {
@@ -9593,7 +9593,7 @@ impl IconData {
             html: font_awesome_solid_ellipsis_vertical,
         }
     };
-    const FONT_AWESOME_SOLID_ELLIPSIS: Self = {
+    pub const FONT_AWESOME_SOLID_ELLIPSIS: Self = {
         #[inline(never)]
         fn font_awesome_solid_ellipsis(
             crate::IconProps {
@@ -9615,7 +9615,7 @@ impl IconData {
             html: font_awesome_solid_ellipsis,
         }
     };
-    const FONT_AWESOME_SOLID_ENVELOPE_CIRCLE_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_ENVELOPE_CIRCLE_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_envelope_circle_check(
             crate::IconProps {
@@ -9637,7 +9637,7 @@ impl IconData {
             html: font_awesome_solid_envelope_circle_check,
         }
     };
-    const FONT_AWESOME_SOLID_ENVELOPE_OPEN_TEXT: Self = {
+    pub const FONT_AWESOME_SOLID_ENVELOPE_OPEN_TEXT: Self = {
         #[inline(never)]
         fn font_awesome_solid_envelope_open_text(
             crate::IconProps {
@@ -9659,7 +9659,7 @@ impl IconData {
             html: font_awesome_solid_envelope_open_text,
         }
     };
-    const FONT_AWESOME_SOLID_ENVELOPE_OPEN: Self = {
+    pub const FONT_AWESOME_SOLID_ENVELOPE_OPEN: Self = {
         #[inline(never)]
         fn font_awesome_solid_envelope_open(
             crate::IconProps {
@@ -9681,7 +9681,7 @@ impl IconData {
             html: font_awesome_solid_envelope_open,
         }
     };
-    const FONT_AWESOME_SOLID_ENVELOPE: Self = {
+    pub const FONT_AWESOME_SOLID_ENVELOPE: Self = {
         #[inline(never)]
         fn font_awesome_solid_envelope(
             crate::IconProps {
@@ -9703,7 +9703,7 @@ impl IconData {
             html: font_awesome_solid_envelope,
         }
     };
-    const FONT_AWESOME_SOLID_ENVELOPES_BULK: Self = {
+    pub const FONT_AWESOME_SOLID_ENVELOPES_BULK: Self = {
         #[inline(never)]
         fn font_awesome_solid_envelopes_bulk(
             crate::IconProps {
@@ -9725,7 +9725,7 @@ impl IconData {
             html: font_awesome_solid_envelopes_bulk,
         }
     };
-    const FONT_AWESOME_SOLID_EQUALS: Self = {
+    pub const FONT_AWESOME_SOLID_EQUALS: Self = {
         #[inline(never)]
         fn font_awesome_solid_equals(
             crate::IconProps {
@@ -9747,7 +9747,7 @@ impl IconData {
             html: font_awesome_solid_equals,
         }
     };
-    const FONT_AWESOME_SOLID_ERASER: Self = {
+    pub const FONT_AWESOME_SOLID_ERASER: Self = {
         #[inline(never)]
         fn font_awesome_solid_eraser(
             crate::IconProps {
@@ -9769,7 +9769,7 @@ impl IconData {
             html: font_awesome_solid_eraser,
         }
     };
-    const FONT_AWESOME_SOLID_ETHERNET: Self = {
+    pub const FONT_AWESOME_SOLID_ETHERNET: Self = {
         #[inline(never)]
         fn font_awesome_solid_ethernet(
             crate::IconProps {
@@ -9791,7 +9791,7 @@ impl IconData {
             html: font_awesome_solid_ethernet,
         }
     };
-    const FONT_AWESOME_SOLID_EURO_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_EURO_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_euro_sign(
             crate::IconProps {
@@ -9813,7 +9813,7 @@ impl IconData {
             html: font_awesome_solid_euro_sign,
         }
     };
-    const FONT_AWESOME_SOLID_EXCLAMATION: Self = {
+    pub const FONT_AWESOME_SOLID_EXCLAMATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_exclamation(
             crate::IconProps {
@@ -9835,7 +9835,7 @@ impl IconData {
             html: font_awesome_solid_exclamation,
         }
     };
-    const FONT_AWESOME_SOLID_EXPAND: Self = {
+    pub const FONT_AWESOME_SOLID_EXPAND: Self = {
         #[inline(never)]
         fn font_awesome_solid_expand(
             crate::IconProps {
@@ -9857,7 +9857,7 @@ impl IconData {
             html: font_awesome_solid_expand,
         }
     };
-    const FONT_AWESOME_SOLID_EXPLOSION: Self = {
+    pub const FONT_AWESOME_SOLID_EXPLOSION: Self = {
         #[inline(never)]
         fn font_awesome_solid_explosion(
             crate::IconProps {
@@ -9879,7 +9879,7 @@ impl IconData {
             html: font_awesome_solid_explosion,
         }
     };
-    const FONT_AWESOME_SOLID_EYE_DROPPER: Self = {
+    pub const FONT_AWESOME_SOLID_EYE_DROPPER: Self = {
         #[inline(never)]
         fn font_awesome_solid_eye_dropper(
             crate::IconProps {
@@ -9901,7 +9901,7 @@ impl IconData {
             html: font_awesome_solid_eye_dropper,
         }
     };
-    const FONT_AWESOME_SOLID_EYE_LOW_VISION: Self = {
+    pub const FONT_AWESOME_SOLID_EYE_LOW_VISION: Self = {
         #[inline(never)]
         fn font_awesome_solid_eye_low_vision(
             crate::IconProps {
@@ -9923,7 +9923,7 @@ impl IconData {
             html: font_awesome_solid_eye_low_vision,
         }
     };
-    const FONT_AWESOME_SOLID_EYE_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_EYE_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_eye_slash(
             crate::IconProps {
@@ -9945,7 +9945,7 @@ impl IconData {
             html: font_awesome_solid_eye_slash,
         }
     };
-    const FONT_AWESOME_SOLID_EYE: Self = {
+    pub const FONT_AWESOME_SOLID_EYE: Self = {
         #[inline(never)]
         fn font_awesome_solid_eye(
             crate::IconProps {
@@ -9967,7 +9967,7 @@ impl IconData {
             html: font_awesome_solid_eye,
         }
     };
-    const FONT_AWESOME_SOLID_F: Self = {
+    pub const FONT_AWESOME_SOLID_F: Self = {
         #[inline(never)]
         fn font_awesome_solid_f(
             crate::IconProps {
@@ -9989,7 +9989,7 @@ impl IconData {
             html: font_awesome_solid_f,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_ANGRY: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_ANGRY: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_angry(
             crate::IconProps {
@@ -10011,7 +10011,7 @@ impl IconData {
             html: font_awesome_solid_face_angry,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_DIZZY: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_DIZZY: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_dizzy(
             crate::IconProps {
@@ -10033,7 +10033,7 @@ impl IconData {
             html: font_awesome_solid_face_dizzy,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_FLUSHED: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_FLUSHED: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_flushed(
             crate::IconProps {
@@ -10055,7 +10055,7 @@ impl IconData {
             html: font_awesome_solid_face_flushed,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_FROWN_OPEN: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_FROWN_OPEN: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_frown_open(
             crate::IconProps {
@@ -10077,7 +10077,7 @@ impl IconData {
             html: font_awesome_solid_face_frown_open,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_FROWN: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_FROWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_frown(
             crate::IconProps {
@@ -10099,7 +10099,7 @@ impl IconData {
             html: font_awesome_solid_face_frown,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_GRIMACE: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_GRIMACE: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_grimace(
             crate::IconProps {
@@ -10121,7 +10121,7 @@ impl IconData {
             html: font_awesome_solid_face_grimace,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_GRIN_BEAM_SWEAT: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_GRIN_BEAM_SWEAT: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_grin_beam_sweat(
             crate::IconProps {
@@ -10143,7 +10143,7 @@ impl IconData {
             html: font_awesome_solid_face_grin_beam_sweat,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_GRIN_BEAM: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_GRIN_BEAM: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_grin_beam(
             crate::IconProps {
@@ -10165,7 +10165,7 @@ impl IconData {
             html: font_awesome_solid_face_grin_beam,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_GRIN_HEARTS: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_GRIN_HEARTS: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_grin_hearts(
             crate::IconProps {
@@ -10187,7 +10187,7 @@ impl IconData {
             html: font_awesome_solid_face_grin_hearts,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_GRIN_SQUINT_TEARS: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_GRIN_SQUINT_TEARS: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_grin_squint_tears(
             crate::IconProps {
@@ -10209,7 +10209,7 @@ impl IconData {
             html: font_awesome_solid_face_grin_squint_tears,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_GRIN_SQUINT: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_GRIN_SQUINT: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_grin_squint(
             crate::IconProps {
@@ -10231,7 +10231,7 @@ impl IconData {
             html: font_awesome_solid_face_grin_squint,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_GRIN_STARS: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_GRIN_STARS: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_grin_stars(
             crate::IconProps {
@@ -10253,7 +10253,7 @@ impl IconData {
             html: font_awesome_solid_face_grin_stars,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_GRIN_TEARS: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_GRIN_TEARS: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_grin_tears(
             crate::IconProps {
@@ -10275,7 +10275,7 @@ impl IconData {
             html: font_awesome_solid_face_grin_tears,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_GRIN_TONGUE_SQUINT: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_GRIN_TONGUE_SQUINT: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_grin_tongue_squint(
             crate::IconProps {
@@ -10297,7 +10297,7 @@ impl IconData {
             html: font_awesome_solid_face_grin_tongue_squint,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_GRIN_TONGUE_WINK: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_GRIN_TONGUE_WINK: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_grin_tongue_wink(
             crate::IconProps {
@@ -10319,7 +10319,7 @@ impl IconData {
             html: font_awesome_solid_face_grin_tongue_wink,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_GRIN_TONGUE: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_GRIN_TONGUE: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_grin_tongue(
             crate::IconProps {
@@ -10341,7 +10341,7 @@ impl IconData {
             html: font_awesome_solid_face_grin_tongue,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_GRIN_WIDE: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_GRIN_WIDE: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_grin_wide(
             crate::IconProps {
@@ -10363,7 +10363,7 @@ impl IconData {
             html: font_awesome_solid_face_grin_wide,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_GRIN_WINK: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_GRIN_WINK: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_grin_wink(
             crate::IconProps {
@@ -10385,7 +10385,7 @@ impl IconData {
             html: font_awesome_solid_face_grin_wink,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_GRIN: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_GRIN: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_grin(
             crate::IconProps {
@@ -10407,7 +10407,7 @@ impl IconData {
             html: font_awesome_solid_face_grin,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_KISS_BEAM: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_KISS_BEAM: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_kiss_beam(
             crate::IconProps {
@@ -10429,7 +10429,7 @@ impl IconData {
             html: font_awesome_solid_face_kiss_beam,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_KISS_WINK_HEART: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_KISS_WINK_HEART: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_kiss_wink_heart(
             crate::IconProps {
@@ -10451,7 +10451,7 @@ impl IconData {
             html: font_awesome_solid_face_kiss_wink_heart,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_KISS: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_KISS: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_kiss(
             crate::IconProps {
@@ -10473,7 +10473,7 @@ impl IconData {
             html: font_awesome_solid_face_kiss,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_LAUGH_BEAM: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_LAUGH_BEAM: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_laugh_beam(
             crate::IconProps {
@@ -10495,7 +10495,7 @@ impl IconData {
             html: font_awesome_solid_face_laugh_beam,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_LAUGH_SQUINT: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_LAUGH_SQUINT: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_laugh_squint(
             crate::IconProps {
@@ -10517,7 +10517,7 @@ impl IconData {
             html: font_awesome_solid_face_laugh_squint,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_LAUGH_WINK: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_LAUGH_WINK: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_laugh_wink(
             crate::IconProps {
@@ -10539,7 +10539,7 @@ impl IconData {
             html: font_awesome_solid_face_laugh_wink,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_LAUGH: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_LAUGH: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_laugh(
             crate::IconProps {
@@ -10561,7 +10561,7 @@ impl IconData {
             html: font_awesome_solid_face_laugh,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_MEH_BLANK: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_MEH_BLANK: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_meh_blank(
             crate::IconProps {
@@ -10583,7 +10583,7 @@ impl IconData {
             html: font_awesome_solid_face_meh_blank,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_MEH: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_MEH: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_meh(
             crate::IconProps {
@@ -10605,7 +10605,7 @@ impl IconData {
             html: font_awesome_solid_face_meh,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_ROLLING_EYES: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_ROLLING_EYES: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_rolling_eyes(
             crate::IconProps {
@@ -10627,7 +10627,7 @@ impl IconData {
             html: font_awesome_solid_face_rolling_eyes,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_SAD_CRY: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_SAD_CRY: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_sad_cry(
             crate::IconProps {
@@ -10649,7 +10649,7 @@ impl IconData {
             html: font_awesome_solid_face_sad_cry,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_SAD_TEAR: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_SAD_TEAR: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_sad_tear(
             crate::IconProps {
@@ -10671,7 +10671,7 @@ impl IconData {
             html: font_awesome_solid_face_sad_tear,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_SMILE_BEAM: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_SMILE_BEAM: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_smile_beam(
             crate::IconProps {
@@ -10693,7 +10693,7 @@ impl IconData {
             html: font_awesome_solid_face_smile_beam,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_SMILE_WINK: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_SMILE_WINK: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_smile_wink(
             crate::IconProps {
@@ -10715,7 +10715,7 @@ impl IconData {
             html: font_awesome_solid_face_smile_wink,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_SMILE: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_SMILE: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_smile(
             crate::IconProps {
@@ -10737,7 +10737,7 @@ impl IconData {
             html: font_awesome_solid_face_smile,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_SURPRISE: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_SURPRISE: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_surprise(
             crate::IconProps {
@@ -10759,7 +10759,7 @@ impl IconData {
             html: font_awesome_solid_face_surprise,
         }
     };
-    const FONT_AWESOME_SOLID_FACE_TIRED: Self = {
+    pub const FONT_AWESOME_SOLID_FACE_TIRED: Self = {
         #[inline(never)]
         fn font_awesome_solid_face_tired(
             crate::IconProps {
@@ -10781,7 +10781,7 @@ impl IconData {
             html: font_awesome_solid_face_tired,
         }
     };
-    const FONT_AWESOME_SOLID_FAN: Self = {
+    pub const FONT_AWESOME_SOLID_FAN: Self = {
         #[inline(never)]
         fn font_awesome_solid_fan(
             crate::IconProps {
@@ -10803,7 +10803,7 @@ impl IconData {
             html: font_awesome_solid_fan,
         }
     };
-    const FONT_AWESOME_SOLID_FAUCET_DRIP: Self = {
+    pub const FONT_AWESOME_SOLID_FAUCET_DRIP: Self = {
         #[inline(never)]
         fn font_awesome_solid_faucet_drip(
             crate::IconProps {
@@ -10825,7 +10825,7 @@ impl IconData {
             html: font_awesome_solid_faucet_drip,
         }
     };
-    const FONT_AWESOME_SOLID_FAUCET: Self = {
+    pub const FONT_AWESOME_SOLID_FAUCET: Self = {
         #[inline(never)]
         fn font_awesome_solid_faucet(
             crate::IconProps {
@@ -10847,7 +10847,7 @@ impl IconData {
             html: font_awesome_solid_faucet,
         }
     };
-    const FONT_AWESOME_SOLID_FAX: Self = {
+    pub const FONT_AWESOME_SOLID_FAX: Self = {
         #[inline(never)]
         fn font_awesome_solid_fax(
             crate::IconProps {
@@ -10869,7 +10869,7 @@ impl IconData {
             html: font_awesome_solid_fax,
         }
     };
-    const FONT_AWESOME_SOLID_FEATHER_POINTED: Self = {
+    pub const FONT_AWESOME_SOLID_FEATHER_POINTED: Self = {
         #[inline(never)]
         fn font_awesome_solid_feather_pointed(
             crate::IconProps {
@@ -10891,7 +10891,7 @@ impl IconData {
             html: font_awesome_solid_feather_pointed,
         }
     };
-    const FONT_AWESOME_SOLID_FEATHER: Self = {
+    pub const FONT_AWESOME_SOLID_FEATHER: Self = {
         #[inline(never)]
         fn font_awesome_solid_feather(
             crate::IconProps {
@@ -10913,7 +10913,7 @@ impl IconData {
             html: font_awesome_solid_feather,
         }
     };
-    const FONT_AWESOME_SOLID_FERRY: Self = {
+    pub const FONT_AWESOME_SOLID_FERRY: Self = {
         #[inline(never)]
         fn font_awesome_solid_ferry(
             crate::IconProps {
@@ -10935,7 +10935,7 @@ impl IconData {
             html: font_awesome_solid_ferry,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_ARROW_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_ARROW_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_arrow_down(
             crate::IconProps {
@@ -10957,7 +10957,7 @@ impl IconData {
             html: font_awesome_solid_file_arrow_down,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_ARROW_UP: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_ARROW_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_arrow_up(
             crate::IconProps {
@@ -10979,7 +10979,7 @@ impl IconData {
             html: font_awesome_solid_file_arrow_up,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_AUDIO: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_AUDIO: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_audio(
             crate::IconProps {
@@ -11001,7 +11001,7 @@ impl IconData {
             html: font_awesome_solid_file_audio,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_CIRCLE_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_CIRCLE_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_circle_check(
             crate::IconProps {
@@ -11023,7 +11023,7 @@ impl IconData {
             html: font_awesome_solid_file_circle_check,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_CIRCLE_EXCLAMATION: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_CIRCLE_EXCLAMATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_circle_exclamation(
             crate::IconProps {
@@ -11045,7 +11045,7 @@ impl IconData {
             html: font_awesome_solid_file_circle_exclamation,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_CIRCLE_MINUS: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_CIRCLE_MINUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_circle_minus(
             crate::IconProps {
@@ -11067,7 +11067,7 @@ impl IconData {
             html: font_awesome_solid_file_circle_minus,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_CIRCLE_PLUS: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_CIRCLE_PLUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_circle_plus(
             crate::IconProps {
@@ -11089,7 +11089,7 @@ impl IconData {
             html: font_awesome_solid_file_circle_plus,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_CIRCLE_QUESTION: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_CIRCLE_QUESTION: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_circle_question(
             crate::IconProps {
@@ -11111,7 +11111,7 @@ impl IconData {
             html: font_awesome_solid_file_circle_question,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_CIRCLE_XMARK: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_CIRCLE_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_circle_xmark(
             crate::IconProps {
@@ -11133,7 +11133,7 @@ impl IconData {
             html: font_awesome_solid_file_circle_xmark,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_CODE: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_CODE: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_code(
             crate::IconProps {
@@ -11155,7 +11155,7 @@ impl IconData {
             html: font_awesome_solid_file_code,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_CONTRACT: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_CONTRACT: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_contract(
             crate::IconProps {
@@ -11177,7 +11177,7 @@ impl IconData {
             html: font_awesome_solid_file_contract,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_CSV: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_CSV: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_csv(
             crate::IconProps {
@@ -11199,7 +11199,7 @@ impl IconData {
             html: font_awesome_solid_file_csv,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_EXCEL: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_EXCEL: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_excel(
             crate::IconProps {
@@ -11221,7 +11221,7 @@ impl IconData {
             html: font_awesome_solid_file_excel,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_EXPORT: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_EXPORT: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_export(
             crate::IconProps {
@@ -11243,7 +11243,7 @@ impl IconData {
             html: font_awesome_solid_file_export,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_IMAGE: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_IMAGE: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_image(
             crate::IconProps {
@@ -11265,7 +11265,7 @@ impl IconData {
             html: font_awesome_solid_file_image,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_IMPORT: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_IMPORT: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_import(
             crate::IconProps {
@@ -11287,7 +11287,7 @@ impl IconData {
             html: font_awesome_solid_file_import,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_INVOICE_DOLLAR: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_INVOICE_DOLLAR: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_invoice_dollar(
             crate::IconProps {
@@ -11309,7 +11309,7 @@ impl IconData {
             html: font_awesome_solid_file_invoice_dollar,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_INVOICE: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_INVOICE: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_invoice(
             crate::IconProps {
@@ -11331,7 +11331,7 @@ impl IconData {
             html: font_awesome_solid_file_invoice,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_LINES: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_LINES: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_lines(
             crate::IconProps {
@@ -11353,7 +11353,7 @@ impl IconData {
             html: font_awesome_solid_file_lines,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_MEDICAL: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_MEDICAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_medical(
             crate::IconProps {
@@ -11375,7 +11375,7 @@ impl IconData {
             html: font_awesome_solid_file_medical,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_PDF: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_PDF: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_pdf(
             crate::IconProps {
@@ -11397,7 +11397,7 @@ impl IconData {
             html: font_awesome_solid_file_pdf,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_PEN: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_PEN: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_pen(
             crate::IconProps {
@@ -11419,7 +11419,7 @@ impl IconData {
             html: font_awesome_solid_file_pen,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_POWERPOINT: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_POWERPOINT: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_powerpoint(
             crate::IconProps {
@@ -11441,7 +11441,7 @@ impl IconData {
             html: font_awesome_solid_file_powerpoint,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_PRESCRIPTION: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_PRESCRIPTION: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_prescription(
             crate::IconProps {
@@ -11463,7 +11463,7 @@ impl IconData {
             html: font_awesome_solid_file_prescription,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_SHIELD: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_SHIELD: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_shield(
             crate::IconProps {
@@ -11485,7 +11485,7 @@ impl IconData {
             html: font_awesome_solid_file_shield,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_SIGNATURE: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_SIGNATURE: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_signature(
             crate::IconProps {
@@ -11507,7 +11507,7 @@ impl IconData {
             html: font_awesome_solid_file_signature,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_VIDEO: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_VIDEO: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_video(
             crate::IconProps {
@@ -11529,7 +11529,7 @@ impl IconData {
             html: font_awesome_solid_file_video,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_WAVEFORM: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_WAVEFORM: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_waveform(
             crate::IconProps {
@@ -11551,7 +11551,7 @@ impl IconData {
             html: font_awesome_solid_file_waveform,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_WORD: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_WORD: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_word(
             crate::IconProps {
@@ -11573,7 +11573,7 @@ impl IconData {
             html: font_awesome_solid_file_word,
         }
     };
-    const FONT_AWESOME_SOLID_FILE_ZIPPER: Self = {
+    pub const FONT_AWESOME_SOLID_FILE_ZIPPER: Self = {
         #[inline(never)]
         fn font_awesome_solid_file_zipper(
             crate::IconProps {
@@ -11595,7 +11595,7 @@ impl IconData {
             html: font_awesome_solid_file_zipper,
         }
     };
-    const FONT_AWESOME_SOLID_FILE: Self = {
+    pub const FONT_AWESOME_SOLID_FILE: Self = {
         #[inline(never)]
         fn font_awesome_solid_file(
             crate::IconProps {
@@ -11617,7 +11617,7 @@ impl IconData {
             html: font_awesome_solid_file,
         }
     };
-    const FONT_AWESOME_SOLID_FILL_DRIP: Self = {
+    pub const FONT_AWESOME_SOLID_FILL_DRIP: Self = {
         #[inline(never)]
         fn font_awesome_solid_fill_drip(
             crate::IconProps {
@@ -11639,7 +11639,7 @@ impl IconData {
             html: font_awesome_solid_fill_drip,
         }
     };
-    const FONT_AWESOME_SOLID_FILL: Self = {
+    pub const FONT_AWESOME_SOLID_FILL: Self = {
         #[inline(never)]
         fn font_awesome_solid_fill(
             crate::IconProps {
@@ -11661,7 +11661,7 @@ impl IconData {
             html: font_awesome_solid_fill,
         }
     };
-    const FONT_AWESOME_SOLID_FILM: Self = {
+    pub const FONT_AWESOME_SOLID_FILM: Self = {
         #[inline(never)]
         fn font_awesome_solid_film(
             crate::IconProps {
@@ -11683,7 +11683,7 @@ impl IconData {
             html: font_awesome_solid_film,
         }
     };
-    const FONT_AWESOME_SOLID_FILTER_CIRCLE_DOLLAR: Self = {
+    pub const FONT_AWESOME_SOLID_FILTER_CIRCLE_DOLLAR: Self = {
         #[inline(never)]
         fn font_awesome_solid_filter_circle_dollar(
             crate::IconProps {
@@ -11705,7 +11705,7 @@ impl IconData {
             html: font_awesome_solid_filter_circle_dollar,
         }
     };
-    const FONT_AWESOME_SOLID_FILTER_CIRCLE_XMARK: Self = {
+    pub const FONT_AWESOME_SOLID_FILTER_CIRCLE_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_filter_circle_xmark(
             crate::IconProps {
@@ -11727,7 +11727,7 @@ impl IconData {
             html: font_awesome_solid_filter_circle_xmark,
         }
     };
-    const FONT_AWESOME_SOLID_FILTER: Self = {
+    pub const FONT_AWESOME_SOLID_FILTER: Self = {
         #[inline(never)]
         fn font_awesome_solid_filter(
             crate::IconProps {
@@ -11749,7 +11749,7 @@ impl IconData {
             html: font_awesome_solid_filter,
         }
     };
-    const FONT_AWESOME_SOLID_FINGERPRINT: Self = {
+    pub const FONT_AWESOME_SOLID_FINGERPRINT: Self = {
         #[inline(never)]
         fn font_awesome_solid_fingerprint(
             crate::IconProps {
@@ -11771,7 +11771,7 @@ impl IconData {
             html: font_awesome_solid_fingerprint,
         }
     };
-    const FONT_AWESOME_SOLID_FIRE_BURNER: Self = {
+    pub const FONT_AWESOME_SOLID_FIRE_BURNER: Self = {
         #[inline(never)]
         fn font_awesome_solid_fire_burner(
             crate::IconProps {
@@ -11793,7 +11793,7 @@ impl IconData {
             html: font_awesome_solid_fire_burner,
         }
     };
-    const FONT_AWESOME_SOLID_FIRE_EXTINGUISHER: Self = {
+    pub const FONT_AWESOME_SOLID_FIRE_EXTINGUISHER: Self = {
         #[inline(never)]
         fn font_awesome_solid_fire_extinguisher(
             crate::IconProps {
@@ -11815,7 +11815,7 @@ impl IconData {
             html: font_awesome_solid_fire_extinguisher,
         }
     };
-    const FONT_AWESOME_SOLID_FIRE_FLAME_CURVED: Self = {
+    pub const FONT_AWESOME_SOLID_FIRE_FLAME_CURVED: Self = {
         #[inline(never)]
         fn font_awesome_solid_fire_flame_curved(
             crate::IconProps {
@@ -11837,7 +11837,7 @@ impl IconData {
             html: font_awesome_solid_fire_flame_curved,
         }
     };
-    const FONT_AWESOME_SOLID_FIRE_FLAME_SIMPLE: Self = {
+    pub const FONT_AWESOME_SOLID_FIRE_FLAME_SIMPLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_fire_flame_simple(
             crate::IconProps {
@@ -11859,7 +11859,7 @@ impl IconData {
             html: font_awesome_solid_fire_flame_simple,
         }
     };
-    const FONT_AWESOME_SOLID_FIRE: Self = {
+    pub const FONT_AWESOME_SOLID_FIRE: Self = {
         #[inline(never)]
         fn font_awesome_solid_fire(
             crate::IconProps {
@@ -11881,7 +11881,7 @@ impl IconData {
             html: font_awesome_solid_fire,
         }
     };
-    const FONT_AWESOME_SOLID_FISH_FINS: Self = {
+    pub const FONT_AWESOME_SOLID_FISH_FINS: Self = {
         #[inline(never)]
         fn font_awesome_solid_fish_fins(
             crate::IconProps {
@@ -11903,7 +11903,7 @@ impl IconData {
             html: font_awesome_solid_fish_fins,
         }
     };
-    const FONT_AWESOME_SOLID_FISH: Self = {
+    pub const FONT_AWESOME_SOLID_FISH: Self = {
         #[inline(never)]
         fn font_awesome_solid_fish(
             crate::IconProps {
@@ -11925,7 +11925,7 @@ impl IconData {
             html: font_awesome_solid_fish,
         }
     };
-    const FONT_AWESOME_SOLID_FLAG_CHECKERED: Self = {
+    pub const FONT_AWESOME_SOLID_FLAG_CHECKERED: Self = {
         #[inline(never)]
         fn font_awesome_solid_flag_checkered(
             crate::IconProps {
@@ -11947,7 +11947,7 @@ impl IconData {
             html: font_awesome_solid_flag_checkered,
         }
     };
-    const FONT_AWESOME_SOLID_FLAG_USA: Self = {
+    pub const FONT_AWESOME_SOLID_FLAG_USA: Self = {
         #[inline(never)]
         fn font_awesome_solid_flag_usa(
             crate::IconProps {
@@ -11969,7 +11969,7 @@ impl IconData {
             html: font_awesome_solid_flag_usa,
         }
     };
-    const FONT_AWESOME_SOLID_FLAG: Self = {
+    pub const FONT_AWESOME_SOLID_FLAG: Self = {
         #[inline(never)]
         fn font_awesome_solid_flag(
             crate::IconProps {
@@ -11991,7 +11991,7 @@ impl IconData {
             html: font_awesome_solid_flag,
         }
     };
-    const FONT_AWESOME_SOLID_FLASK_VIAL: Self = {
+    pub const FONT_AWESOME_SOLID_FLASK_VIAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_flask_vial(
             crate::IconProps {
@@ -12013,7 +12013,7 @@ impl IconData {
             html: font_awesome_solid_flask_vial,
         }
     };
-    const FONT_AWESOME_SOLID_FLASK: Self = {
+    pub const FONT_AWESOME_SOLID_FLASK: Self = {
         #[inline(never)]
         fn font_awesome_solid_flask(
             crate::IconProps {
@@ -12035,7 +12035,7 @@ impl IconData {
             html: font_awesome_solid_flask,
         }
     };
-    const FONT_AWESOME_SOLID_FLOPPY_DISK: Self = {
+    pub const FONT_AWESOME_SOLID_FLOPPY_DISK: Self = {
         #[inline(never)]
         fn font_awesome_solid_floppy_disk(
             crate::IconProps {
@@ -12057,7 +12057,7 @@ impl IconData {
             html: font_awesome_solid_floppy_disk,
         }
     };
-    const FONT_AWESOME_SOLID_FLORIN_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_FLORIN_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_florin_sign(
             crate::IconProps {
@@ -12079,7 +12079,7 @@ impl IconData {
             html: font_awesome_solid_florin_sign,
         }
     };
-    const FONT_AWESOME_SOLID_FOLDER_CLOSED: Self = {
+    pub const FONT_AWESOME_SOLID_FOLDER_CLOSED: Self = {
         #[inline(never)]
         fn font_awesome_solid_folder_closed(
             crate::IconProps {
@@ -12101,7 +12101,7 @@ impl IconData {
             html: font_awesome_solid_folder_closed,
         }
     };
-    const FONT_AWESOME_SOLID_FOLDER_MINUS: Self = {
+    pub const FONT_AWESOME_SOLID_FOLDER_MINUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_folder_minus(
             crate::IconProps {
@@ -12123,7 +12123,7 @@ impl IconData {
             html: font_awesome_solid_folder_minus,
         }
     };
-    const FONT_AWESOME_SOLID_FOLDER_OPEN: Self = {
+    pub const FONT_AWESOME_SOLID_FOLDER_OPEN: Self = {
         #[inline(never)]
         fn font_awesome_solid_folder_open(
             crate::IconProps {
@@ -12145,7 +12145,7 @@ impl IconData {
             html: font_awesome_solid_folder_open,
         }
     };
-    const FONT_AWESOME_SOLID_FOLDER_PLUS: Self = {
+    pub const FONT_AWESOME_SOLID_FOLDER_PLUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_folder_plus(
             crate::IconProps {
@@ -12167,7 +12167,7 @@ impl IconData {
             html: font_awesome_solid_folder_plus,
         }
     };
-    const FONT_AWESOME_SOLID_FOLDER_TREE: Self = {
+    pub const FONT_AWESOME_SOLID_FOLDER_TREE: Self = {
         #[inline(never)]
         fn font_awesome_solid_folder_tree(
             crate::IconProps {
@@ -12189,7 +12189,7 @@ impl IconData {
             html: font_awesome_solid_folder_tree,
         }
     };
-    const FONT_AWESOME_SOLID_FOLDER: Self = {
+    pub const FONT_AWESOME_SOLID_FOLDER: Self = {
         #[inline(never)]
         fn font_awesome_solid_folder(
             crate::IconProps {
@@ -12211,7 +12211,7 @@ impl IconData {
             html: font_awesome_solid_folder,
         }
     };
-    const FONT_AWESOME_SOLID_FONT_AWESOME: Self = {
+    pub const FONT_AWESOME_SOLID_FONT_AWESOME: Self = {
         #[inline(never)]
         fn font_awesome_solid_font_awesome(
             crate::IconProps {
@@ -12233,7 +12233,7 @@ impl IconData {
             html: font_awesome_solid_font_awesome,
         }
     };
-    const FONT_AWESOME_SOLID_FONT: Self = {
+    pub const FONT_AWESOME_SOLID_FONT: Self = {
         #[inline(never)]
         fn font_awesome_solid_font(
             crate::IconProps {
@@ -12255,7 +12255,7 @@ impl IconData {
             html: font_awesome_solid_font,
         }
     };
-    const FONT_AWESOME_SOLID_FOOTBALL: Self = {
+    pub const FONT_AWESOME_SOLID_FOOTBALL: Self = {
         #[inline(never)]
         fn font_awesome_solid_football(
             crate::IconProps {
@@ -12277,7 +12277,7 @@ impl IconData {
             html: font_awesome_solid_football,
         }
     };
-    const FONT_AWESOME_SOLID_FORWARD_FAST: Self = {
+    pub const FONT_AWESOME_SOLID_FORWARD_FAST: Self = {
         #[inline(never)]
         fn font_awesome_solid_forward_fast(
             crate::IconProps {
@@ -12299,7 +12299,7 @@ impl IconData {
             html: font_awesome_solid_forward_fast,
         }
     };
-    const FONT_AWESOME_SOLID_FORWARD_STEP: Self = {
+    pub const FONT_AWESOME_SOLID_FORWARD_STEP: Self = {
         #[inline(never)]
         fn font_awesome_solid_forward_step(
             crate::IconProps {
@@ -12321,7 +12321,7 @@ impl IconData {
             html: font_awesome_solid_forward_step,
         }
     };
-    const FONT_AWESOME_SOLID_FORWARD: Self = {
+    pub const FONT_AWESOME_SOLID_FORWARD: Self = {
         #[inline(never)]
         fn font_awesome_solid_forward(
             crate::IconProps {
@@ -12343,7 +12343,7 @@ impl IconData {
             html: font_awesome_solid_forward,
         }
     };
-    const FONT_AWESOME_SOLID_FRANC_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_FRANC_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_franc_sign(
             crate::IconProps {
@@ -12365,7 +12365,7 @@ impl IconData {
             html: font_awesome_solid_franc_sign,
         }
     };
-    const FONT_AWESOME_SOLID_FROG: Self = {
+    pub const FONT_AWESOME_SOLID_FROG: Self = {
         #[inline(never)]
         fn font_awesome_solid_frog(
             crate::IconProps {
@@ -12387,7 +12387,7 @@ impl IconData {
             html: font_awesome_solid_frog,
         }
     };
-    const FONT_AWESOME_SOLID_FUTBOL: Self = {
+    pub const FONT_AWESOME_SOLID_FUTBOL: Self = {
         #[inline(never)]
         fn font_awesome_solid_futbol(
             crate::IconProps {
@@ -12409,7 +12409,7 @@ impl IconData {
             html: font_awesome_solid_futbol,
         }
     };
-    const FONT_AWESOME_SOLID_G: Self = {
+    pub const FONT_AWESOME_SOLID_G: Self = {
         #[inline(never)]
         fn font_awesome_solid_g(
             crate::IconProps {
@@ -12431,7 +12431,7 @@ impl IconData {
             html: font_awesome_solid_g,
         }
     };
-    const FONT_AWESOME_SOLID_GAMEPAD: Self = {
+    pub const FONT_AWESOME_SOLID_GAMEPAD: Self = {
         #[inline(never)]
         fn font_awesome_solid_gamepad(
             crate::IconProps {
@@ -12453,7 +12453,7 @@ impl IconData {
             html: font_awesome_solid_gamepad,
         }
     };
-    const FONT_AWESOME_SOLID_GAS_PUMP: Self = {
+    pub const FONT_AWESOME_SOLID_GAS_PUMP: Self = {
         #[inline(never)]
         fn font_awesome_solid_gas_pump(
             crate::IconProps {
@@ -12475,7 +12475,7 @@ impl IconData {
             html: font_awesome_solid_gas_pump,
         }
     };
-    const FONT_AWESOME_SOLID_GAUGE_HIGH: Self = {
+    pub const FONT_AWESOME_SOLID_GAUGE_HIGH: Self = {
         #[inline(never)]
         fn font_awesome_solid_gauge_high(
             crate::IconProps {
@@ -12497,7 +12497,7 @@ impl IconData {
             html: font_awesome_solid_gauge_high,
         }
     };
-    const FONT_AWESOME_SOLID_GAUGE_SIMPLE_HIGH: Self = {
+    pub const FONT_AWESOME_SOLID_GAUGE_SIMPLE_HIGH: Self = {
         #[inline(never)]
         fn font_awesome_solid_gauge_simple_high(
             crate::IconProps {
@@ -12519,7 +12519,7 @@ impl IconData {
             html: font_awesome_solid_gauge_simple_high,
         }
     };
-    const FONT_AWESOME_SOLID_GAUGE_SIMPLE: Self = {
+    pub const FONT_AWESOME_SOLID_GAUGE_SIMPLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_gauge_simple(
             crate::IconProps {
@@ -12541,7 +12541,7 @@ impl IconData {
             html: font_awesome_solid_gauge_simple,
         }
     };
-    const FONT_AWESOME_SOLID_GAUGE: Self = {
+    pub const FONT_AWESOME_SOLID_GAUGE: Self = {
         #[inline(never)]
         fn font_awesome_solid_gauge(
             crate::IconProps {
@@ -12563,7 +12563,7 @@ impl IconData {
             html: font_awesome_solid_gauge,
         }
     };
-    const FONT_AWESOME_SOLID_GAVEL: Self = {
+    pub const FONT_AWESOME_SOLID_GAVEL: Self = {
         #[inline(never)]
         fn font_awesome_solid_gavel(
             crate::IconProps {
@@ -12585,7 +12585,7 @@ impl IconData {
             html: font_awesome_solid_gavel,
         }
     };
-    const FONT_AWESOME_SOLID_GEAR: Self = {
+    pub const FONT_AWESOME_SOLID_GEAR: Self = {
         #[inline(never)]
         fn font_awesome_solid_gear(
             crate::IconProps {
@@ -12607,7 +12607,7 @@ impl IconData {
             html: font_awesome_solid_gear,
         }
     };
-    const FONT_AWESOME_SOLID_GEARS: Self = {
+    pub const FONT_AWESOME_SOLID_GEARS: Self = {
         #[inline(never)]
         fn font_awesome_solid_gears(
             crate::IconProps {
@@ -12629,7 +12629,7 @@ impl IconData {
             html: font_awesome_solid_gears,
         }
     };
-    const FONT_AWESOME_SOLID_GEM: Self = {
+    pub const FONT_AWESOME_SOLID_GEM: Self = {
         #[inline(never)]
         fn font_awesome_solid_gem(
             crate::IconProps {
@@ -12651,7 +12651,7 @@ impl IconData {
             html: font_awesome_solid_gem,
         }
     };
-    const FONT_AWESOME_SOLID_GENDERLESS: Self = {
+    pub const FONT_AWESOME_SOLID_GENDERLESS: Self = {
         #[inline(never)]
         fn font_awesome_solid_genderless(
             crate::IconProps {
@@ -12673,7 +12673,7 @@ impl IconData {
             html: font_awesome_solid_genderless,
         }
     };
-    const FONT_AWESOME_SOLID_GHOST: Self = {
+    pub const FONT_AWESOME_SOLID_GHOST: Self = {
         #[inline(never)]
         fn font_awesome_solid_ghost(
             crate::IconProps {
@@ -12695,7 +12695,7 @@ impl IconData {
             html: font_awesome_solid_ghost,
         }
     };
-    const FONT_AWESOME_SOLID_GIFT: Self = {
+    pub const FONT_AWESOME_SOLID_GIFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_gift(
             crate::IconProps {
@@ -12717,7 +12717,7 @@ impl IconData {
             html: font_awesome_solid_gift,
         }
     };
-    const FONT_AWESOME_SOLID_GIFTS: Self = {
+    pub const FONT_AWESOME_SOLID_GIFTS: Self = {
         #[inline(never)]
         fn font_awesome_solid_gifts(
             crate::IconProps {
@@ -12739,7 +12739,7 @@ impl IconData {
             html: font_awesome_solid_gifts,
         }
     };
-    const FONT_AWESOME_SOLID_GLASS_WATER_DROPLET: Self = {
+    pub const FONT_AWESOME_SOLID_GLASS_WATER_DROPLET: Self = {
         #[inline(never)]
         fn font_awesome_solid_glass_water_droplet(
             crate::IconProps {
@@ -12761,7 +12761,7 @@ impl IconData {
             html: font_awesome_solid_glass_water_droplet,
         }
     };
-    const FONT_AWESOME_SOLID_GLASS_WATER: Self = {
+    pub const FONT_AWESOME_SOLID_GLASS_WATER: Self = {
         #[inline(never)]
         fn font_awesome_solid_glass_water(
             crate::IconProps {
@@ -12783,7 +12783,7 @@ impl IconData {
             html: font_awesome_solid_glass_water,
         }
     };
-    const FONT_AWESOME_SOLID_GLASSES: Self = {
+    pub const FONT_AWESOME_SOLID_GLASSES: Self = {
         #[inline(never)]
         fn font_awesome_solid_glasses(
             crate::IconProps {
@@ -12805,7 +12805,7 @@ impl IconData {
             html: font_awesome_solid_glasses,
         }
     };
-    const FONT_AWESOME_SOLID_GLOBE: Self = {
+    pub const FONT_AWESOME_SOLID_GLOBE: Self = {
         #[inline(never)]
         fn font_awesome_solid_globe(
             crate::IconProps {
@@ -12827,7 +12827,7 @@ impl IconData {
             html: font_awesome_solid_globe,
         }
     };
-    const FONT_AWESOME_SOLID_GOLF_BALL_TEE: Self = {
+    pub const FONT_AWESOME_SOLID_GOLF_BALL_TEE: Self = {
         #[inline(never)]
         fn font_awesome_solid_golf_ball_tee(
             crate::IconProps {
@@ -12849,7 +12849,7 @@ impl IconData {
             html: font_awesome_solid_golf_ball_tee,
         }
     };
-    const FONT_AWESOME_SOLID_GOPURAM: Self = {
+    pub const FONT_AWESOME_SOLID_GOPURAM: Self = {
         #[inline(never)]
         fn font_awesome_solid_gopuram(
             crate::IconProps {
@@ -12871,7 +12871,7 @@ impl IconData {
             html: font_awesome_solid_gopuram,
         }
     };
-    const FONT_AWESOME_SOLID_GRADUATION_CAP: Self = {
+    pub const FONT_AWESOME_SOLID_GRADUATION_CAP: Self = {
         #[inline(never)]
         fn font_awesome_solid_graduation_cap(
             crate::IconProps {
@@ -12893,7 +12893,7 @@ impl IconData {
             html: font_awesome_solid_graduation_cap,
         }
     };
-    const FONT_AWESOME_SOLID_GREATER_THAN_EQUAL: Self = {
+    pub const FONT_AWESOME_SOLID_GREATER_THAN_EQUAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_greater_than_equal(
             crate::IconProps {
@@ -12915,7 +12915,7 @@ impl IconData {
             html: font_awesome_solid_greater_than_equal,
         }
     };
-    const FONT_AWESOME_SOLID_GREATER_THAN: Self = {
+    pub const FONT_AWESOME_SOLID_GREATER_THAN: Self = {
         #[inline(never)]
         fn font_awesome_solid_greater_than(
             crate::IconProps {
@@ -12937,7 +12937,7 @@ impl IconData {
             html: font_awesome_solid_greater_than,
         }
     };
-    const FONT_AWESOME_SOLID_GRIP_LINES_VERTICAL: Self = {
+    pub const FONT_AWESOME_SOLID_GRIP_LINES_VERTICAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_grip_lines_vertical(
             crate::IconProps {
@@ -12959,7 +12959,7 @@ impl IconData {
             html: font_awesome_solid_grip_lines_vertical,
         }
     };
-    const FONT_AWESOME_SOLID_GRIP_LINES: Self = {
+    pub const FONT_AWESOME_SOLID_GRIP_LINES: Self = {
         #[inline(never)]
         fn font_awesome_solid_grip_lines(
             crate::IconProps {
@@ -12981,7 +12981,7 @@ impl IconData {
             html: font_awesome_solid_grip_lines,
         }
     };
-    const FONT_AWESOME_SOLID_GRIP_VERTICAL: Self = {
+    pub const FONT_AWESOME_SOLID_GRIP_VERTICAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_grip_vertical(
             crate::IconProps {
@@ -13003,7 +13003,7 @@ impl IconData {
             html: font_awesome_solid_grip_vertical,
         }
     };
-    const FONT_AWESOME_SOLID_GRIP: Self = {
+    pub const FONT_AWESOME_SOLID_GRIP: Self = {
         #[inline(never)]
         fn font_awesome_solid_grip(
             crate::IconProps {
@@ -13025,7 +13025,7 @@ impl IconData {
             html: font_awesome_solid_grip,
         }
     };
-    const FONT_AWESOME_SOLID_GROUP_ARROWS_ROTATE: Self = {
+    pub const FONT_AWESOME_SOLID_GROUP_ARROWS_ROTATE: Self = {
         #[inline(never)]
         fn font_awesome_solid_group_arrows_rotate(
             crate::IconProps {
@@ -13047,7 +13047,7 @@ impl IconData {
             html: font_awesome_solid_group_arrows_rotate,
         }
     };
-    const FONT_AWESOME_SOLID_GUARANI_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_GUARANI_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_guarani_sign(
             crate::IconProps {
@@ -13069,7 +13069,7 @@ impl IconData {
             html: font_awesome_solid_guarani_sign,
         }
     };
-    const FONT_AWESOME_SOLID_GUITAR: Self = {
+    pub const FONT_AWESOME_SOLID_GUITAR: Self = {
         #[inline(never)]
         fn font_awesome_solid_guitar(
             crate::IconProps {
@@ -13091,7 +13091,7 @@ impl IconData {
             html: font_awesome_solid_guitar,
         }
     };
-    const FONT_AWESOME_SOLID_GUN: Self = {
+    pub const FONT_AWESOME_SOLID_GUN: Self = {
         #[inline(never)]
         fn font_awesome_solid_gun(
             crate::IconProps {
@@ -13113,7 +13113,7 @@ impl IconData {
             html: font_awesome_solid_gun,
         }
     };
-    const FONT_AWESOME_SOLID_H: Self = {
+    pub const FONT_AWESOME_SOLID_H: Self = {
         #[inline(never)]
         fn font_awesome_solid_h(
             crate::IconProps {
@@ -13135,7 +13135,7 @@ impl IconData {
             html: font_awesome_solid_h,
         }
     };
-    const FONT_AWESOME_SOLID_HAMMER: Self = {
+    pub const FONT_AWESOME_SOLID_HAMMER: Self = {
         #[inline(never)]
         fn font_awesome_solid_hammer(
             crate::IconProps {
@@ -13157,7 +13157,7 @@ impl IconData {
             html: font_awesome_solid_hammer,
         }
     };
-    const FONT_AWESOME_SOLID_HAMSA: Self = {
+    pub const FONT_AWESOME_SOLID_HAMSA: Self = {
         #[inline(never)]
         fn font_awesome_solid_hamsa(
             crate::IconProps {
@@ -13179,7 +13179,7 @@ impl IconData {
             html: font_awesome_solid_hamsa,
         }
     };
-    const FONT_AWESOME_SOLID_HAND_BACK_FIST: Self = {
+    pub const FONT_AWESOME_SOLID_HAND_BACK_FIST: Self = {
         #[inline(never)]
         fn font_awesome_solid_hand_back_fist(
             crate::IconProps {
@@ -13201,7 +13201,7 @@ impl IconData {
             html: font_awesome_solid_hand_back_fist,
         }
     };
-    const FONT_AWESOME_SOLID_HAND_DOTS: Self = {
+    pub const FONT_AWESOME_SOLID_HAND_DOTS: Self = {
         #[inline(never)]
         fn font_awesome_solid_hand_dots(
             crate::IconProps {
@@ -13223,7 +13223,7 @@ impl IconData {
             html: font_awesome_solid_hand_dots,
         }
     };
-    const FONT_AWESOME_SOLID_HAND_FIST: Self = {
+    pub const FONT_AWESOME_SOLID_HAND_FIST: Self = {
         #[inline(never)]
         fn font_awesome_solid_hand_fist(
             crate::IconProps {
@@ -13245,7 +13245,7 @@ impl IconData {
             html: font_awesome_solid_hand_fist,
         }
     };
-    const FONT_AWESOME_SOLID_HAND_HOLDING_DOLLAR: Self = {
+    pub const FONT_AWESOME_SOLID_HAND_HOLDING_DOLLAR: Self = {
         #[inline(never)]
         fn font_awesome_solid_hand_holding_dollar(
             crate::IconProps {
@@ -13267,7 +13267,7 @@ impl IconData {
             html: font_awesome_solid_hand_holding_dollar,
         }
     };
-    const FONT_AWESOME_SOLID_HAND_HOLDING_DROPLET: Self = {
+    pub const FONT_AWESOME_SOLID_HAND_HOLDING_DROPLET: Self = {
         #[inline(never)]
         fn font_awesome_solid_hand_holding_droplet(
             crate::IconProps {
@@ -13289,7 +13289,7 @@ impl IconData {
             html: font_awesome_solid_hand_holding_droplet,
         }
     };
-    const FONT_AWESOME_SOLID_HAND_HOLDING_HAND: Self = {
+    pub const FONT_AWESOME_SOLID_HAND_HOLDING_HAND: Self = {
         #[inline(never)]
         fn font_awesome_solid_hand_holding_hand(
             crate::IconProps {
@@ -13311,7 +13311,7 @@ impl IconData {
             html: font_awesome_solid_hand_holding_hand,
         }
     };
-    const FONT_AWESOME_SOLID_HAND_HOLDING_HEART: Self = {
+    pub const FONT_AWESOME_SOLID_HAND_HOLDING_HEART: Self = {
         #[inline(never)]
         fn font_awesome_solid_hand_holding_heart(
             crate::IconProps {
@@ -13333,7 +13333,7 @@ impl IconData {
             html: font_awesome_solid_hand_holding_heart,
         }
     };
-    const FONT_AWESOME_SOLID_HAND_HOLDING_MEDICAL: Self = {
+    pub const FONT_AWESOME_SOLID_HAND_HOLDING_MEDICAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_hand_holding_medical(
             crate::IconProps {
@@ -13355,7 +13355,7 @@ impl IconData {
             html: font_awesome_solid_hand_holding_medical,
         }
     };
-    const FONT_AWESOME_SOLID_HAND_HOLDING: Self = {
+    pub const FONT_AWESOME_SOLID_HAND_HOLDING: Self = {
         #[inline(never)]
         fn font_awesome_solid_hand_holding(
             crate::IconProps {
@@ -13377,7 +13377,7 @@ impl IconData {
             html: font_awesome_solid_hand_holding,
         }
     };
-    const FONT_AWESOME_SOLID_HAND_LIZARD: Self = {
+    pub const FONT_AWESOME_SOLID_HAND_LIZARD: Self = {
         #[inline(never)]
         fn font_awesome_solid_hand_lizard(
             crate::IconProps {
@@ -13399,7 +13399,7 @@ impl IconData {
             html: font_awesome_solid_hand_lizard,
         }
     };
-    const FONT_AWESOME_SOLID_HAND_MIDDLE_FINGER: Self = {
+    pub const FONT_AWESOME_SOLID_HAND_MIDDLE_FINGER: Self = {
         #[inline(never)]
         fn font_awesome_solid_hand_middle_finger(
             crate::IconProps {
@@ -13421,7 +13421,7 @@ impl IconData {
             html: font_awesome_solid_hand_middle_finger,
         }
     };
-    const FONT_AWESOME_SOLID_HAND_PEACE: Self = {
+    pub const FONT_AWESOME_SOLID_HAND_PEACE: Self = {
         #[inline(never)]
         fn font_awesome_solid_hand_peace(
             crate::IconProps {
@@ -13443,7 +13443,7 @@ impl IconData {
             html: font_awesome_solid_hand_peace,
         }
     };
-    const FONT_AWESOME_SOLID_HAND_POINT_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_HAND_POINT_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_hand_point_down(
             crate::IconProps {
@@ -13465,7 +13465,7 @@ impl IconData {
             html: font_awesome_solid_hand_point_down,
         }
     };
-    const FONT_AWESOME_SOLID_HAND_POINT_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_HAND_POINT_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_hand_point_left(
             crate::IconProps {
@@ -13487,7 +13487,7 @@ impl IconData {
             html: font_awesome_solid_hand_point_left,
         }
     };
-    const FONT_AWESOME_SOLID_HAND_POINT_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_HAND_POINT_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_hand_point_right(
             crate::IconProps {
@@ -13509,7 +13509,7 @@ impl IconData {
             html: font_awesome_solid_hand_point_right,
         }
     };
-    const FONT_AWESOME_SOLID_HAND_POINT_UP: Self = {
+    pub const FONT_AWESOME_SOLID_HAND_POINT_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_hand_point_up(
             crate::IconProps {
@@ -13531,7 +13531,7 @@ impl IconData {
             html: font_awesome_solid_hand_point_up,
         }
     };
-    const FONT_AWESOME_SOLID_HAND_POINTER: Self = {
+    pub const FONT_AWESOME_SOLID_HAND_POINTER: Self = {
         #[inline(never)]
         fn font_awesome_solid_hand_pointer(
             crate::IconProps {
@@ -13553,7 +13553,7 @@ impl IconData {
             html: font_awesome_solid_hand_pointer,
         }
     };
-    const FONT_AWESOME_SOLID_HAND_SCISSORS: Self = {
+    pub const FONT_AWESOME_SOLID_HAND_SCISSORS: Self = {
         #[inline(never)]
         fn font_awesome_solid_hand_scissors(
             crate::IconProps {
@@ -13575,7 +13575,7 @@ impl IconData {
             html: font_awesome_solid_hand_scissors,
         }
     };
-    const FONT_AWESOME_SOLID_HAND_SPARKLES: Self = {
+    pub const FONT_AWESOME_SOLID_HAND_SPARKLES: Self = {
         #[inline(never)]
         fn font_awesome_solid_hand_sparkles(
             crate::IconProps {
@@ -13597,7 +13597,7 @@ impl IconData {
             html: font_awesome_solid_hand_sparkles,
         }
     };
-    const FONT_AWESOME_SOLID_HAND_SPOCK: Self = {
+    pub const FONT_AWESOME_SOLID_HAND_SPOCK: Self = {
         #[inline(never)]
         fn font_awesome_solid_hand_spock(
             crate::IconProps {
@@ -13619,7 +13619,7 @@ impl IconData {
             html: font_awesome_solid_hand_spock,
         }
     };
-    const FONT_AWESOME_SOLID_HAND: Self = {
+    pub const FONT_AWESOME_SOLID_HAND: Self = {
         #[inline(never)]
         fn font_awesome_solid_hand(
             crate::IconProps {
@@ -13641,7 +13641,7 @@ impl IconData {
             html: font_awesome_solid_hand,
         }
     };
-    const FONT_AWESOME_SOLID_HANDCUFFS: Self = {
+    pub const FONT_AWESOME_SOLID_HANDCUFFS: Self = {
         #[inline(never)]
         fn font_awesome_solid_handcuffs(
             crate::IconProps {
@@ -13663,7 +13663,7 @@ impl IconData {
             html: font_awesome_solid_handcuffs,
         }
     };
-    const FONT_AWESOME_SOLID_HANDS_ASL_INTERPRETING: Self = {
+    pub const FONT_AWESOME_SOLID_HANDS_ASL_INTERPRETING: Self = {
         #[inline(never)]
         fn font_awesome_solid_hands_asl_interpreting(
             crate::IconProps {
@@ -13685,7 +13685,7 @@ impl IconData {
             html: font_awesome_solid_hands_asl_interpreting,
         }
     };
-    const FONT_AWESOME_SOLID_HANDS_BOUND: Self = {
+    pub const FONT_AWESOME_SOLID_HANDS_BOUND: Self = {
         #[inline(never)]
         fn font_awesome_solid_hands_bound(
             crate::IconProps {
@@ -13707,7 +13707,7 @@ impl IconData {
             html: font_awesome_solid_hands_bound,
         }
     };
-    const FONT_AWESOME_SOLID_HANDS_BUBBLES: Self = {
+    pub const FONT_AWESOME_SOLID_HANDS_BUBBLES: Self = {
         #[inline(never)]
         fn font_awesome_solid_hands_bubbles(
             crate::IconProps {
@@ -13729,7 +13729,7 @@ impl IconData {
             html: font_awesome_solid_hands_bubbles,
         }
     };
-    const FONT_AWESOME_SOLID_HANDS_CLAPPING: Self = {
+    pub const FONT_AWESOME_SOLID_HANDS_CLAPPING: Self = {
         #[inline(never)]
         fn font_awesome_solid_hands_clapping(
             crate::IconProps {
@@ -13751,7 +13751,7 @@ impl IconData {
             html: font_awesome_solid_hands_clapping,
         }
     };
-    const FONT_AWESOME_SOLID_HANDS_HOLDING_CHILD: Self = {
+    pub const FONT_AWESOME_SOLID_HANDS_HOLDING_CHILD: Self = {
         #[inline(never)]
         fn font_awesome_solid_hands_holding_child(
             crate::IconProps {
@@ -13773,7 +13773,7 @@ impl IconData {
             html: font_awesome_solid_hands_holding_child,
         }
     };
-    const FONT_AWESOME_SOLID_HANDS_HOLDING_CIRCLE: Self = {
+    pub const FONT_AWESOME_SOLID_HANDS_HOLDING_CIRCLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_hands_holding_circle(
             crate::IconProps {
@@ -13795,7 +13795,7 @@ impl IconData {
             html: font_awesome_solid_hands_holding_circle,
         }
     };
-    const FONT_AWESOME_SOLID_HANDS_HOLDING: Self = {
+    pub const FONT_AWESOME_SOLID_HANDS_HOLDING: Self = {
         #[inline(never)]
         fn font_awesome_solid_hands_holding(
             crate::IconProps {
@@ -13817,7 +13817,7 @@ impl IconData {
             html: font_awesome_solid_hands_holding,
         }
     };
-    const FONT_AWESOME_SOLID_HANDS_PRAYING: Self = {
+    pub const FONT_AWESOME_SOLID_HANDS_PRAYING: Self = {
         #[inline(never)]
         fn font_awesome_solid_hands_praying(
             crate::IconProps {
@@ -13839,7 +13839,7 @@ impl IconData {
             html: font_awesome_solid_hands_praying,
         }
     };
-    const FONT_AWESOME_SOLID_HANDS: Self = {
+    pub const FONT_AWESOME_SOLID_HANDS: Self = {
         #[inline(never)]
         fn font_awesome_solid_hands(
             crate::IconProps {
@@ -13861,7 +13861,7 @@ impl IconData {
             html: font_awesome_solid_hands,
         }
     };
-    const FONT_AWESOME_SOLID_HANDSHAKE_ANGLE: Self = {
+    pub const FONT_AWESOME_SOLID_HANDSHAKE_ANGLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_handshake_angle(
             crate::IconProps {
@@ -13883,7 +13883,7 @@ impl IconData {
             html: font_awesome_solid_handshake_angle,
         }
     };
-    const FONT_AWESOME_SOLID_HANDSHAKE_SIMPLE_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_HANDSHAKE_SIMPLE_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_handshake_simple_slash(
             crate::IconProps {
@@ -13905,7 +13905,7 @@ impl IconData {
             html: font_awesome_solid_handshake_simple_slash,
         }
     };
-    const FONT_AWESOME_SOLID_HANDSHAKE_SIMPLE: Self = {
+    pub const FONT_AWESOME_SOLID_HANDSHAKE_SIMPLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_handshake_simple(
             crate::IconProps {
@@ -13927,7 +13927,7 @@ impl IconData {
             html: font_awesome_solid_handshake_simple,
         }
     };
-    const FONT_AWESOME_SOLID_HANDSHAKE_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_HANDSHAKE_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_handshake_slash(
             crate::IconProps {
@@ -13949,7 +13949,7 @@ impl IconData {
             html: font_awesome_solid_handshake_slash,
         }
     };
-    const FONT_AWESOME_SOLID_HANDSHAKE: Self = {
+    pub const FONT_AWESOME_SOLID_HANDSHAKE: Self = {
         #[inline(never)]
         fn font_awesome_solid_handshake(
             crate::IconProps {
@@ -13971,7 +13971,7 @@ impl IconData {
             html: font_awesome_solid_handshake,
         }
     };
-    const FONT_AWESOME_SOLID_HANUKIAH: Self = {
+    pub const FONT_AWESOME_SOLID_HANUKIAH: Self = {
         #[inline(never)]
         fn font_awesome_solid_hanukiah(
             crate::IconProps {
@@ -13993,7 +13993,7 @@ impl IconData {
             html: font_awesome_solid_hanukiah,
         }
     };
-    const FONT_AWESOME_SOLID_HARD_DRIVE: Self = {
+    pub const FONT_AWESOME_SOLID_HARD_DRIVE: Self = {
         #[inline(never)]
         fn font_awesome_solid_hard_drive(
             crate::IconProps {
@@ -14015,7 +14015,7 @@ impl IconData {
             html: font_awesome_solid_hard_drive,
         }
     };
-    const FONT_AWESOME_SOLID_HASHTAG: Self = {
+    pub const FONT_AWESOME_SOLID_HASHTAG: Self = {
         #[inline(never)]
         fn font_awesome_solid_hashtag(
             crate::IconProps {
@@ -14037,7 +14037,7 @@ impl IconData {
             html: font_awesome_solid_hashtag,
         }
     };
-    const FONT_AWESOME_SOLID_HAT_COWBOY_SIDE: Self = {
+    pub const FONT_AWESOME_SOLID_HAT_COWBOY_SIDE: Self = {
         #[inline(never)]
         fn font_awesome_solid_hat_cowboy_side(
             crate::IconProps {
@@ -14059,7 +14059,7 @@ impl IconData {
             html: font_awesome_solid_hat_cowboy_side,
         }
     };
-    const FONT_AWESOME_SOLID_HAT_COWBOY: Self = {
+    pub const FONT_AWESOME_SOLID_HAT_COWBOY: Self = {
         #[inline(never)]
         fn font_awesome_solid_hat_cowboy(
             crate::IconProps {
@@ -14081,7 +14081,7 @@ impl IconData {
             html: font_awesome_solid_hat_cowboy,
         }
     };
-    const FONT_AWESOME_SOLID_HAT_WIZARD: Self = {
+    pub const FONT_AWESOME_SOLID_HAT_WIZARD: Self = {
         #[inline(never)]
         fn font_awesome_solid_hat_wizard(
             crate::IconProps {
@@ -14103,7 +14103,7 @@ impl IconData {
             html: font_awesome_solid_hat_wizard,
         }
     };
-    const FONT_AWESOME_SOLID_HEAD_SIDE_COUGH_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_HEAD_SIDE_COUGH_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_head_side_cough_slash(
             crate::IconProps {
@@ -14125,7 +14125,7 @@ impl IconData {
             html: font_awesome_solid_head_side_cough_slash,
         }
     };
-    const FONT_AWESOME_SOLID_HEAD_SIDE_COUGH: Self = {
+    pub const FONT_AWESOME_SOLID_HEAD_SIDE_COUGH: Self = {
         #[inline(never)]
         fn font_awesome_solid_head_side_cough(
             crate::IconProps {
@@ -14147,7 +14147,7 @@ impl IconData {
             html: font_awesome_solid_head_side_cough,
         }
     };
-    const FONT_AWESOME_SOLID_HEAD_SIDE_MASK: Self = {
+    pub const FONT_AWESOME_SOLID_HEAD_SIDE_MASK: Self = {
         #[inline(never)]
         fn font_awesome_solid_head_side_mask(
             crate::IconProps {
@@ -14169,7 +14169,7 @@ impl IconData {
             html: font_awesome_solid_head_side_mask,
         }
     };
-    const FONT_AWESOME_SOLID_HEAD_SIDE_VIRUS: Self = {
+    pub const FONT_AWESOME_SOLID_HEAD_SIDE_VIRUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_head_side_virus(
             crate::IconProps {
@@ -14191,7 +14191,7 @@ impl IconData {
             html: font_awesome_solid_head_side_virus,
         }
     };
-    const FONT_AWESOME_SOLID_HEADING: Self = {
+    pub const FONT_AWESOME_SOLID_HEADING: Self = {
         #[inline(never)]
         fn font_awesome_solid_heading(
             crate::IconProps {
@@ -14213,7 +14213,7 @@ impl IconData {
             html: font_awesome_solid_heading,
         }
     };
-    const FONT_AWESOME_SOLID_HEADPHONES_SIMPLE: Self = {
+    pub const FONT_AWESOME_SOLID_HEADPHONES_SIMPLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_headphones_simple(
             crate::IconProps {
@@ -14235,7 +14235,7 @@ impl IconData {
             html: font_awesome_solid_headphones_simple,
         }
     };
-    const FONT_AWESOME_SOLID_HEADPHONES: Self = {
+    pub const FONT_AWESOME_SOLID_HEADPHONES: Self = {
         #[inline(never)]
         fn font_awesome_solid_headphones(
             crate::IconProps {
@@ -14257,7 +14257,7 @@ impl IconData {
             html: font_awesome_solid_headphones,
         }
     };
-    const FONT_AWESOME_SOLID_HEADSET: Self = {
+    pub const FONT_AWESOME_SOLID_HEADSET: Self = {
         #[inline(never)]
         fn font_awesome_solid_headset(
             crate::IconProps {
@@ -14279,7 +14279,7 @@ impl IconData {
             html: font_awesome_solid_headset,
         }
     };
-    const FONT_AWESOME_SOLID_HEART_CIRCLE_BOLT: Self = {
+    pub const FONT_AWESOME_SOLID_HEART_CIRCLE_BOLT: Self = {
         #[inline(never)]
         fn font_awesome_solid_heart_circle_bolt(
             crate::IconProps {
@@ -14301,7 +14301,7 @@ impl IconData {
             html: font_awesome_solid_heart_circle_bolt,
         }
     };
-    const FONT_AWESOME_SOLID_HEART_CIRCLE_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_HEART_CIRCLE_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_heart_circle_check(
             crate::IconProps {
@@ -14323,7 +14323,7 @@ impl IconData {
             html: font_awesome_solid_heart_circle_check,
         }
     };
-    const FONT_AWESOME_SOLID_HEART_CIRCLE_EXCLAMATION: Self = {
+    pub const FONT_AWESOME_SOLID_HEART_CIRCLE_EXCLAMATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_heart_circle_exclamation(
             crate::IconProps {
@@ -14345,7 +14345,7 @@ impl IconData {
             html: font_awesome_solid_heart_circle_exclamation,
         }
     };
-    const FONT_AWESOME_SOLID_HEART_CIRCLE_MINUS: Self = {
+    pub const FONT_AWESOME_SOLID_HEART_CIRCLE_MINUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_heart_circle_minus(
             crate::IconProps {
@@ -14367,7 +14367,7 @@ impl IconData {
             html: font_awesome_solid_heart_circle_minus,
         }
     };
-    const FONT_AWESOME_SOLID_HEART_CIRCLE_PLUS: Self = {
+    pub const FONT_AWESOME_SOLID_HEART_CIRCLE_PLUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_heart_circle_plus(
             crate::IconProps {
@@ -14389,7 +14389,7 @@ impl IconData {
             html: font_awesome_solid_heart_circle_plus,
         }
     };
-    const FONT_AWESOME_SOLID_HEART_CIRCLE_XMARK: Self = {
+    pub const FONT_AWESOME_SOLID_HEART_CIRCLE_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_heart_circle_xmark(
             crate::IconProps {
@@ -14411,7 +14411,7 @@ impl IconData {
             html: font_awesome_solid_heart_circle_xmark,
         }
     };
-    const FONT_AWESOME_SOLID_HEART_CRACK: Self = {
+    pub const FONT_AWESOME_SOLID_HEART_CRACK: Self = {
         #[inline(never)]
         fn font_awesome_solid_heart_crack(
             crate::IconProps {
@@ -14433,7 +14433,7 @@ impl IconData {
             html: font_awesome_solid_heart_crack,
         }
     };
-    const FONT_AWESOME_SOLID_HEART_PULSE: Self = {
+    pub const FONT_AWESOME_SOLID_HEART_PULSE: Self = {
         #[inline(never)]
         fn font_awesome_solid_heart_pulse(
             crate::IconProps {
@@ -14455,7 +14455,7 @@ impl IconData {
             html: font_awesome_solid_heart_pulse,
         }
     };
-    const FONT_AWESOME_SOLID_HEART: Self = {
+    pub const FONT_AWESOME_SOLID_HEART: Self = {
         #[inline(never)]
         fn font_awesome_solid_heart(
             crate::IconProps {
@@ -14477,7 +14477,7 @@ impl IconData {
             html: font_awesome_solid_heart,
         }
     };
-    const FONT_AWESOME_SOLID_HELICOPTER_SYMBOL: Self = {
+    pub const FONT_AWESOME_SOLID_HELICOPTER_SYMBOL: Self = {
         #[inline(never)]
         fn font_awesome_solid_helicopter_symbol(
             crate::IconProps {
@@ -14499,7 +14499,7 @@ impl IconData {
             html: font_awesome_solid_helicopter_symbol,
         }
     };
-    const FONT_AWESOME_SOLID_HELICOPTER: Self = {
+    pub const FONT_AWESOME_SOLID_HELICOPTER: Self = {
         #[inline(never)]
         fn font_awesome_solid_helicopter(
             crate::IconProps {
@@ -14521,7 +14521,7 @@ impl IconData {
             html: font_awesome_solid_helicopter,
         }
     };
-    const FONT_AWESOME_SOLID_HELMET_SAFETY: Self = {
+    pub const FONT_AWESOME_SOLID_HELMET_SAFETY: Self = {
         #[inline(never)]
         fn font_awesome_solid_helmet_safety(
             crate::IconProps {
@@ -14543,7 +14543,7 @@ impl IconData {
             html: font_awesome_solid_helmet_safety,
         }
     };
-    const FONT_AWESOME_SOLID_HELMET_UN: Self = {
+    pub const FONT_AWESOME_SOLID_HELMET_UN: Self = {
         #[inline(never)]
         fn font_awesome_solid_helmet_un(
             crate::IconProps {
@@ -14565,7 +14565,7 @@ impl IconData {
             html: font_awesome_solid_helmet_un,
         }
     };
-    const FONT_AWESOME_SOLID_HIGHLIGHTER: Self = {
+    pub const FONT_AWESOME_SOLID_HIGHLIGHTER: Self = {
         #[inline(never)]
         fn font_awesome_solid_highlighter(
             crate::IconProps {
@@ -14587,7 +14587,7 @@ impl IconData {
             html: font_awesome_solid_highlighter,
         }
     };
-    const FONT_AWESOME_SOLID_HILL_AVALANCHE: Self = {
+    pub const FONT_AWESOME_SOLID_HILL_AVALANCHE: Self = {
         #[inline(never)]
         fn font_awesome_solid_hill_avalanche(
             crate::IconProps {
@@ -14609,7 +14609,7 @@ impl IconData {
             html: font_awesome_solid_hill_avalanche,
         }
     };
-    const FONT_AWESOME_SOLID_HILL_ROCKSLIDE: Self = {
+    pub const FONT_AWESOME_SOLID_HILL_ROCKSLIDE: Self = {
         #[inline(never)]
         fn font_awesome_solid_hill_rockslide(
             crate::IconProps {
@@ -14631,7 +14631,7 @@ impl IconData {
             html: font_awesome_solid_hill_rockslide,
         }
     };
-    const FONT_AWESOME_SOLID_HIPPO: Self = {
+    pub const FONT_AWESOME_SOLID_HIPPO: Self = {
         #[inline(never)]
         fn font_awesome_solid_hippo(
             crate::IconProps {
@@ -14653,7 +14653,7 @@ impl IconData {
             html: font_awesome_solid_hippo,
         }
     };
-    const FONT_AWESOME_SOLID_HOCKEY_PUCK: Self = {
+    pub const FONT_AWESOME_SOLID_HOCKEY_PUCK: Self = {
         #[inline(never)]
         fn font_awesome_solid_hockey_puck(
             crate::IconProps {
@@ -14675,7 +14675,7 @@ impl IconData {
             html: font_awesome_solid_hockey_puck,
         }
     };
-    const FONT_AWESOME_SOLID_HOLLY_BERRY: Self = {
+    pub const FONT_AWESOME_SOLID_HOLLY_BERRY: Self = {
         #[inline(never)]
         fn font_awesome_solid_holly_berry(
             crate::IconProps {
@@ -14697,7 +14697,7 @@ impl IconData {
             html: font_awesome_solid_holly_berry,
         }
     };
-    const FONT_AWESOME_SOLID_HORSE_HEAD: Self = {
+    pub const FONT_AWESOME_SOLID_HORSE_HEAD: Self = {
         #[inline(never)]
         fn font_awesome_solid_horse_head(
             crate::IconProps {
@@ -14719,7 +14719,7 @@ impl IconData {
             html: font_awesome_solid_horse_head,
         }
     };
-    const FONT_AWESOME_SOLID_HORSE: Self = {
+    pub const FONT_AWESOME_SOLID_HORSE: Self = {
         #[inline(never)]
         fn font_awesome_solid_horse(
             crate::IconProps {
@@ -14741,7 +14741,7 @@ impl IconData {
             html: font_awesome_solid_horse,
         }
     };
-    const FONT_AWESOME_SOLID_HOSPITAL_USER: Self = {
+    pub const FONT_AWESOME_SOLID_HOSPITAL_USER: Self = {
         #[inline(never)]
         fn font_awesome_solid_hospital_user(
             crate::IconProps {
@@ -14763,7 +14763,7 @@ impl IconData {
             html: font_awesome_solid_hospital_user,
         }
     };
-    const FONT_AWESOME_SOLID_HOSPITAL: Self = {
+    pub const FONT_AWESOME_SOLID_HOSPITAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_hospital(
             crate::IconProps {
@@ -14785,7 +14785,7 @@ impl IconData {
             html: font_awesome_solid_hospital,
         }
     };
-    const FONT_AWESOME_SOLID_HOT_TUB_PERSON: Self = {
+    pub const FONT_AWESOME_SOLID_HOT_TUB_PERSON: Self = {
         #[inline(never)]
         fn font_awesome_solid_hot_tub_person(
             crate::IconProps {
@@ -14807,7 +14807,7 @@ impl IconData {
             html: font_awesome_solid_hot_tub_person,
         }
     };
-    const FONT_AWESOME_SOLID_HOTDOG: Self = {
+    pub const FONT_AWESOME_SOLID_HOTDOG: Self = {
         #[inline(never)]
         fn font_awesome_solid_hotdog(
             crate::IconProps {
@@ -14829,7 +14829,7 @@ impl IconData {
             html: font_awesome_solid_hotdog,
         }
     };
-    const FONT_AWESOME_SOLID_HOTEL: Self = {
+    pub const FONT_AWESOME_SOLID_HOTEL: Self = {
         #[inline(never)]
         fn font_awesome_solid_hotel(
             crate::IconProps {
@@ -14851,7 +14851,7 @@ impl IconData {
             html: font_awesome_solid_hotel,
         }
     };
-    const FONT_AWESOME_SOLID_HOURGLASS_EMPTY: Self = {
+    pub const FONT_AWESOME_SOLID_HOURGLASS_EMPTY: Self = {
         #[inline(never)]
         fn font_awesome_solid_hourglass_empty(
             crate::IconProps {
@@ -14873,7 +14873,7 @@ impl IconData {
             html: font_awesome_solid_hourglass_empty,
         }
     };
-    const FONT_AWESOME_SOLID_HOURGLASS_END: Self = {
+    pub const FONT_AWESOME_SOLID_HOURGLASS_END: Self = {
         #[inline(never)]
         fn font_awesome_solid_hourglass_end(
             crate::IconProps {
@@ -14895,7 +14895,7 @@ impl IconData {
             html: font_awesome_solid_hourglass_end,
         }
     };
-    const FONT_AWESOME_SOLID_HOURGLASS_START: Self = {
+    pub const FONT_AWESOME_SOLID_HOURGLASS_START: Self = {
         #[inline(never)]
         fn font_awesome_solid_hourglass_start(
             crate::IconProps {
@@ -14917,7 +14917,7 @@ impl IconData {
             html: font_awesome_solid_hourglass_start,
         }
     };
-    const FONT_AWESOME_SOLID_HOURGLASS: Self = {
+    pub const FONT_AWESOME_SOLID_HOURGLASS: Self = {
         #[inline(never)]
         fn font_awesome_solid_hourglass(
             crate::IconProps {
@@ -14939,7 +14939,7 @@ impl IconData {
             html: font_awesome_solid_hourglass,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_CHIMNEY_CRACK: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_CHIMNEY_CRACK: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_chimney_crack(
             crate::IconProps {
@@ -14961,7 +14961,7 @@ impl IconData {
             html: font_awesome_solid_house_chimney_crack,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_CHIMNEY_MEDICAL: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_CHIMNEY_MEDICAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_chimney_medical(
             crate::IconProps {
@@ -14983,7 +14983,7 @@ impl IconData {
             html: font_awesome_solid_house_chimney_medical,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_CHIMNEY_USER: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_CHIMNEY_USER: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_chimney_user(
             crate::IconProps {
@@ -15005,7 +15005,7 @@ impl IconData {
             html: font_awesome_solid_house_chimney_user,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_CHIMNEY_WINDOW: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_CHIMNEY_WINDOW: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_chimney_window(
             crate::IconProps {
@@ -15027,7 +15027,7 @@ impl IconData {
             html: font_awesome_solid_house_chimney_window,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_CHIMNEY: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_CHIMNEY: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_chimney(
             crate::IconProps {
@@ -15049,7 +15049,7 @@ impl IconData {
             html: font_awesome_solid_house_chimney,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_CIRCLE_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_CIRCLE_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_circle_check(
             crate::IconProps {
@@ -15071,7 +15071,7 @@ impl IconData {
             html: font_awesome_solid_house_circle_check,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_CIRCLE_EXCLAMATION: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_CIRCLE_EXCLAMATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_circle_exclamation(
             crate::IconProps {
@@ -15093,7 +15093,7 @@ impl IconData {
             html: font_awesome_solid_house_circle_exclamation,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_CIRCLE_XMARK: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_CIRCLE_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_circle_xmark(
             crate::IconProps {
@@ -15115,7 +15115,7 @@ impl IconData {
             html: font_awesome_solid_house_circle_xmark,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_CRACK: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_CRACK: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_crack(
             crate::IconProps {
@@ -15137,7 +15137,7 @@ impl IconData {
             html: font_awesome_solid_house_crack,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_FIRE: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_FIRE: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_fire(
             crate::IconProps {
@@ -15159,7 +15159,7 @@ impl IconData {
             html: font_awesome_solid_house_fire,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_FLAG: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_FLAG: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_flag(
             crate::IconProps {
@@ -15181,7 +15181,7 @@ impl IconData {
             html: font_awesome_solid_house_flag,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_FLOOD_WATER_CIRCLE_ARROW_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_FLOOD_WATER_CIRCLE_ARROW_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_flood_water_circle_arrow_right(
             crate::IconProps {
@@ -15203,7 +15203,7 @@ impl IconData {
             html: font_awesome_solid_house_flood_water_circle_arrow_right,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_FLOOD_WATER: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_FLOOD_WATER: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_flood_water(
             crate::IconProps {
@@ -15225,7 +15225,7 @@ impl IconData {
             html: font_awesome_solid_house_flood_water,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_LAPTOP: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_LAPTOP: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_laptop(
             crate::IconProps {
@@ -15247,7 +15247,7 @@ impl IconData {
             html: font_awesome_solid_house_laptop,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_LOCK: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_LOCK: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_lock(
             crate::IconProps {
@@ -15269,7 +15269,7 @@ impl IconData {
             html: font_awesome_solid_house_lock,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_MEDICAL_CIRCLE_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_MEDICAL_CIRCLE_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_medical_circle_check(
             crate::IconProps {
@@ -15291,7 +15291,7 @@ impl IconData {
             html: font_awesome_solid_house_medical_circle_check,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_MEDICAL_CIRCLE_EXCLAMATION: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_MEDICAL_CIRCLE_EXCLAMATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_medical_circle_exclamation(
             crate::IconProps {
@@ -15313,7 +15313,7 @@ impl IconData {
             html: font_awesome_solid_house_medical_circle_exclamation,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_MEDICAL_CIRCLE_XMARK: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_MEDICAL_CIRCLE_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_medical_circle_xmark(
             crate::IconProps {
@@ -15335,7 +15335,7 @@ impl IconData {
             html: font_awesome_solid_house_medical_circle_xmark,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_MEDICAL_FLAG: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_MEDICAL_FLAG: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_medical_flag(
             crate::IconProps {
@@ -15357,7 +15357,7 @@ impl IconData {
             html: font_awesome_solid_house_medical_flag,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_MEDICAL: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_MEDICAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_medical(
             crate::IconProps {
@@ -15379,7 +15379,7 @@ impl IconData {
             html: font_awesome_solid_house_medical,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_SIGNAL: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_SIGNAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_signal(
             crate::IconProps {
@@ -15401,7 +15401,7 @@ impl IconData {
             html: font_awesome_solid_house_signal,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_TSUNAMI: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_TSUNAMI: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_tsunami(
             crate::IconProps {
@@ -15423,7 +15423,7 @@ impl IconData {
             html: font_awesome_solid_house_tsunami,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE_USER: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE_USER: Self = {
         #[inline(never)]
         fn font_awesome_solid_house_user(
             crate::IconProps {
@@ -15445,7 +15445,7 @@ impl IconData {
             html: font_awesome_solid_house_user,
         }
     };
-    const FONT_AWESOME_SOLID_HOUSE: Self = {
+    pub const FONT_AWESOME_SOLID_HOUSE: Self = {
         #[inline(never)]
         fn font_awesome_solid_house(
             crate::IconProps {
@@ -15467,7 +15467,7 @@ impl IconData {
             html: font_awesome_solid_house,
         }
     };
-    const FONT_AWESOME_SOLID_HRYVNIA_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_HRYVNIA_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_hryvnia_sign(
             crate::IconProps {
@@ -15489,7 +15489,7 @@ impl IconData {
             html: font_awesome_solid_hryvnia_sign,
         }
     };
-    const FONT_AWESOME_SOLID_HURRICANE: Self = {
+    pub const FONT_AWESOME_SOLID_HURRICANE: Self = {
         #[inline(never)]
         fn font_awesome_solid_hurricane(
             crate::IconProps {
@@ -15511,7 +15511,7 @@ impl IconData {
             html: font_awesome_solid_hurricane,
         }
     };
-    const FONT_AWESOME_SOLID_I_CURSOR: Self = {
+    pub const FONT_AWESOME_SOLID_I_CURSOR: Self = {
         #[inline(never)]
         fn font_awesome_solid_i_cursor(
             crate::IconProps {
@@ -15533,7 +15533,7 @@ impl IconData {
             html: font_awesome_solid_i_cursor,
         }
     };
-    const FONT_AWESOME_SOLID_I: Self = {
+    pub const FONT_AWESOME_SOLID_I: Self = {
         #[inline(never)]
         fn font_awesome_solid_i(
             crate::IconProps {
@@ -15555,7 +15555,7 @@ impl IconData {
             html: font_awesome_solid_i,
         }
     };
-    const FONT_AWESOME_SOLID_ICE_CREAM: Self = {
+    pub const FONT_AWESOME_SOLID_ICE_CREAM: Self = {
         #[inline(never)]
         fn font_awesome_solid_ice_cream(
             crate::IconProps {
@@ -15577,7 +15577,7 @@ impl IconData {
             html: font_awesome_solid_ice_cream,
         }
     };
-    const FONT_AWESOME_SOLID_ICICLES: Self = {
+    pub const FONT_AWESOME_SOLID_ICICLES: Self = {
         #[inline(never)]
         fn font_awesome_solid_icicles(
             crate::IconProps {
@@ -15599,7 +15599,7 @@ impl IconData {
             html: font_awesome_solid_icicles,
         }
     };
-    const FONT_AWESOME_SOLID_ICONS: Self = {
+    pub const FONT_AWESOME_SOLID_ICONS: Self = {
         #[inline(never)]
         fn font_awesome_solid_icons(
             crate::IconProps {
@@ -15621,7 +15621,7 @@ impl IconData {
             html: font_awesome_solid_icons,
         }
     };
-    const FONT_AWESOME_SOLID_ID_BADGE: Self = {
+    pub const FONT_AWESOME_SOLID_ID_BADGE: Self = {
         #[inline(never)]
         fn font_awesome_solid_id_badge(
             crate::IconProps {
@@ -15643,7 +15643,7 @@ impl IconData {
             html: font_awesome_solid_id_badge,
         }
     };
-    const FONT_AWESOME_SOLID_ID_CARD_CLIP: Self = {
+    pub const FONT_AWESOME_SOLID_ID_CARD_CLIP: Self = {
         #[inline(never)]
         fn font_awesome_solid_id_card_clip(
             crate::IconProps {
@@ -15665,7 +15665,7 @@ impl IconData {
             html: font_awesome_solid_id_card_clip,
         }
     };
-    const FONT_AWESOME_SOLID_ID_CARD: Self = {
+    pub const FONT_AWESOME_SOLID_ID_CARD: Self = {
         #[inline(never)]
         fn font_awesome_solid_id_card(
             crate::IconProps {
@@ -15687,7 +15687,7 @@ impl IconData {
             html: font_awesome_solid_id_card,
         }
     };
-    const FONT_AWESOME_SOLID_IGLOO: Self = {
+    pub const FONT_AWESOME_SOLID_IGLOO: Self = {
         #[inline(never)]
         fn font_awesome_solid_igloo(
             crate::IconProps {
@@ -15709,7 +15709,7 @@ impl IconData {
             html: font_awesome_solid_igloo,
         }
     };
-    const FONT_AWESOME_SOLID_IMAGE_PORTRAIT: Self = {
+    pub const FONT_AWESOME_SOLID_IMAGE_PORTRAIT: Self = {
         #[inline(never)]
         fn font_awesome_solid_image_portrait(
             crate::IconProps {
@@ -15731,7 +15731,7 @@ impl IconData {
             html: font_awesome_solid_image_portrait,
         }
     };
-    const FONT_AWESOME_SOLID_IMAGE: Self = {
+    pub const FONT_AWESOME_SOLID_IMAGE: Self = {
         #[inline(never)]
         fn font_awesome_solid_image(
             crate::IconProps {
@@ -15753,7 +15753,7 @@ impl IconData {
             html: font_awesome_solid_image,
         }
     };
-    const FONT_AWESOME_SOLID_IMAGES: Self = {
+    pub const FONT_AWESOME_SOLID_IMAGES: Self = {
         #[inline(never)]
         fn font_awesome_solid_images(
             crate::IconProps {
@@ -15775,7 +15775,7 @@ impl IconData {
             html: font_awesome_solid_images,
         }
     };
-    const FONT_AWESOME_SOLID_INBOX: Self = {
+    pub const FONT_AWESOME_SOLID_INBOX: Self = {
         #[inline(never)]
         fn font_awesome_solid_inbox(
             crate::IconProps {
@@ -15797,7 +15797,7 @@ impl IconData {
             html: font_awesome_solid_inbox,
         }
     };
-    const FONT_AWESOME_SOLID_INDENT: Self = {
+    pub const FONT_AWESOME_SOLID_INDENT: Self = {
         #[inline(never)]
         fn font_awesome_solid_indent(
             crate::IconProps {
@@ -15819,7 +15819,7 @@ impl IconData {
             html: font_awesome_solid_indent,
         }
     };
-    const FONT_AWESOME_SOLID_INDIAN_RUPEE_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_INDIAN_RUPEE_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_indian_rupee_sign(
             crate::IconProps {
@@ -15841,7 +15841,7 @@ impl IconData {
             html: font_awesome_solid_indian_rupee_sign,
         }
     };
-    const FONT_AWESOME_SOLID_INDUSTRY: Self = {
+    pub const FONT_AWESOME_SOLID_INDUSTRY: Self = {
         #[inline(never)]
         fn font_awesome_solid_industry(
             crate::IconProps {
@@ -15863,7 +15863,7 @@ impl IconData {
             html: font_awesome_solid_industry,
         }
     };
-    const FONT_AWESOME_SOLID_INFINITY: Self = {
+    pub const FONT_AWESOME_SOLID_INFINITY: Self = {
         #[inline(never)]
         fn font_awesome_solid_infinity(
             crate::IconProps {
@@ -15885,7 +15885,7 @@ impl IconData {
             html: font_awesome_solid_infinity,
         }
     };
-    const FONT_AWESOME_SOLID_INFO: Self = {
+    pub const FONT_AWESOME_SOLID_INFO: Self = {
         #[inline(never)]
         fn font_awesome_solid_info(
             crate::IconProps {
@@ -15907,7 +15907,7 @@ impl IconData {
             html: font_awesome_solid_info,
         }
     };
-    const FONT_AWESOME_SOLID_ITALIC: Self = {
+    pub const FONT_AWESOME_SOLID_ITALIC: Self = {
         #[inline(never)]
         fn font_awesome_solid_italic(
             crate::IconProps {
@@ -15929,7 +15929,7 @@ impl IconData {
             html: font_awesome_solid_italic,
         }
     };
-    const FONT_AWESOME_SOLID_J: Self = {
+    pub const FONT_AWESOME_SOLID_J: Self = {
         #[inline(never)]
         fn font_awesome_solid_j(
             crate::IconProps {
@@ -15951,7 +15951,7 @@ impl IconData {
             html: font_awesome_solid_j,
         }
     };
-    const FONT_AWESOME_SOLID_JAR_WHEAT: Self = {
+    pub const FONT_AWESOME_SOLID_JAR_WHEAT: Self = {
         #[inline(never)]
         fn font_awesome_solid_jar_wheat(
             crate::IconProps {
@@ -15973,7 +15973,7 @@ impl IconData {
             html: font_awesome_solid_jar_wheat,
         }
     };
-    const FONT_AWESOME_SOLID_JAR: Self = {
+    pub const FONT_AWESOME_SOLID_JAR: Self = {
         #[inline(never)]
         fn font_awesome_solid_jar(
             crate::IconProps {
@@ -15995,7 +15995,7 @@ impl IconData {
             html: font_awesome_solid_jar,
         }
     };
-    const FONT_AWESOME_SOLID_JEDI: Self = {
+    pub const FONT_AWESOME_SOLID_JEDI: Self = {
         #[inline(never)]
         fn font_awesome_solid_jedi(
             crate::IconProps {
@@ -16017,7 +16017,7 @@ impl IconData {
             html: font_awesome_solid_jedi,
         }
     };
-    const FONT_AWESOME_SOLID_JET_FIGHTER_UP: Self = {
+    pub const FONT_AWESOME_SOLID_JET_FIGHTER_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_jet_fighter_up(
             crate::IconProps {
@@ -16039,7 +16039,7 @@ impl IconData {
             html: font_awesome_solid_jet_fighter_up,
         }
     };
-    const FONT_AWESOME_SOLID_JET_FIGHTER: Self = {
+    pub const FONT_AWESOME_SOLID_JET_FIGHTER: Self = {
         #[inline(never)]
         fn font_awesome_solid_jet_fighter(
             crate::IconProps {
@@ -16061,7 +16061,7 @@ impl IconData {
             html: font_awesome_solid_jet_fighter,
         }
     };
-    const FONT_AWESOME_SOLID_JOINT: Self = {
+    pub const FONT_AWESOME_SOLID_JOINT: Self = {
         #[inline(never)]
         fn font_awesome_solid_joint(
             crate::IconProps {
@@ -16083,7 +16083,7 @@ impl IconData {
             html: font_awesome_solid_joint,
         }
     };
-    const FONT_AWESOME_SOLID_JUG_DETERGENT: Self = {
+    pub const FONT_AWESOME_SOLID_JUG_DETERGENT: Self = {
         #[inline(never)]
         fn font_awesome_solid_jug_detergent(
             crate::IconProps {
@@ -16105,7 +16105,7 @@ impl IconData {
             html: font_awesome_solid_jug_detergent,
         }
     };
-    const FONT_AWESOME_SOLID_K: Self = {
+    pub const FONT_AWESOME_SOLID_K: Self = {
         #[inline(never)]
         fn font_awesome_solid_k(
             crate::IconProps {
@@ -16127,7 +16127,7 @@ impl IconData {
             html: font_awesome_solid_k,
         }
     };
-    const FONT_AWESOME_SOLID_KAABA: Self = {
+    pub const FONT_AWESOME_SOLID_KAABA: Self = {
         #[inline(never)]
         fn font_awesome_solid_kaaba(
             crate::IconProps {
@@ -16149,7 +16149,7 @@ impl IconData {
             html: font_awesome_solid_kaaba,
         }
     };
-    const FONT_AWESOME_SOLID_KEY: Self = {
+    pub const FONT_AWESOME_SOLID_KEY: Self = {
         #[inline(never)]
         fn font_awesome_solid_key(
             crate::IconProps {
@@ -16171,7 +16171,7 @@ impl IconData {
             html: font_awesome_solid_key,
         }
     };
-    const FONT_AWESOME_SOLID_KEYBOARD: Self = {
+    pub const FONT_AWESOME_SOLID_KEYBOARD: Self = {
         #[inline(never)]
         fn font_awesome_solid_keyboard(
             crate::IconProps {
@@ -16193,7 +16193,7 @@ impl IconData {
             html: font_awesome_solid_keyboard,
         }
     };
-    const FONT_AWESOME_SOLID_KHANDA: Self = {
+    pub const FONT_AWESOME_SOLID_KHANDA: Self = {
         #[inline(never)]
         fn font_awesome_solid_khanda(
             crate::IconProps {
@@ -16215,7 +16215,7 @@ impl IconData {
             html: font_awesome_solid_khanda,
         }
     };
-    const FONT_AWESOME_SOLID_KIP_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_KIP_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_kip_sign(
             crate::IconProps {
@@ -16237,7 +16237,7 @@ impl IconData {
             html: font_awesome_solid_kip_sign,
         }
     };
-    const FONT_AWESOME_SOLID_KIT_MEDICAL: Self = {
+    pub const FONT_AWESOME_SOLID_KIT_MEDICAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_kit_medical(
             crate::IconProps {
@@ -16259,7 +16259,7 @@ impl IconData {
             html: font_awesome_solid_kit_medical,
         }
     };
-    const FONT_AWESOME_SOLID_KITCHEN_SET: Self = {
+    pub const FONT_AWESOME_SOLID_KITCHEN_SET: Self = {
         #[inline(never)]
         fn font_awesome_solid_kitchen_set(
             crate::IconProps {
@@ -16281,7 +16281,7 @@ impl IconData {
             html: font_awesome_solid_kitchen_set,
         }
     };
-    const FONT_AWESOME_SOLID_KIWI_BIRD: Self = {
+    pub const FONT_AWESOME_SOLID_KIWI_BIRD: Self = {
         #[inline(never)]
         fn font_awesome_solid_kiwi_bird(
             crate::IconProps {
@@ -16303,7 +16303,7 @@ impl IconData {
             html: font_awesome_solid_kiwi_bird,
         }
     };
-    const FONT_AWESOME_SOLID_L: Self = {
+    pub const FONT_AWESOME_SOLID_L: Self = {
         #[inline(never)]
         fn font_awesome_solid_l(
             crate::IconProps {
@@ -16325,7 +16325,7 @@ impl IconData {
             html: font_awesome_solid_l,
         }
     };
-    const FONT_AWESOME_SOLID_LAND_MINE_ON: Self = {
+    pub const FONT_AWESOME_SOLID_LAND_MINE_ON: Self = {
         #[inline(never)]
         fn font_awesome_solid_land_mine_on(
             crate::IconProps {
@@ -16347,7 +16347,7 @@ impl IconData {
             html: font_awesome_solid_land_mine_on,
         }
     };
-    const FONT_AWESOME_SOLID_LANDMARK_DOME: Self = {
+    pub const FONT_AWESOME_SOLID_LANDMARK_DOME: Self = {
         #[inline(never)]
         fn font_awesome_solid_landmark_dome(
             crate::IconProps {
@@ -16369,7 +16369,7 @@ impl IconData {
             html: font_awesome_solid_landmark_dome,
         }
     };
-    const FONT_AWESOME_SOLID_LANDMARK_FLAG: Self = {
+    pub const FONT_AWESOME_SOLID_LANDMARK_FLAG: Self = {
         #[inline(never)]
         fn font_awesome_solid_landmark_flag(
             crate::IconProps {
@@ -16391,7 +16391,7 @@ impl IconData {
             html: font_awesome_solid_landmark_flag,
         }
     };
-    const FONT_AWESOME_SOLID_LANDMARK: Self = {
+    pub const FONT_AWESOME_SOLID_LANDMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_landmark(
             crate::IconProps {
@@ -16413,7 +16413,7 @@ impl IconData {
             html: font_awesome_solid_landmark,
         }
     };
-    const FONT_AWESOME_SOLID_LANGUAGE: Self = {
+    pub const FONT_AWESOME_SOLID_LANGUAGE: Self = {
         #[inline(never)]
         fn font_awesome_solid_language(
             crate::IconProps {
@@ -16435,7 +16435,7 @@ impl IconData {
             html: font_awesome_solid_language,
         }
     };
-    const FONT_AWESOME_SOLID_LAPTOP_CODE: Self = {
+    pub const FONT_AWESOME_SOLID_LAPTOP_CODE: Self = {
         #[inline(never)]
         fn font_awesome_solid_laptop_code(
             crate::IconProps {
@@ -16457,7 +16457,7 @@ impl IconData {
             html: font_awesome_solid_laptop_code,
         }
     };
-    const FONT_AWESOME_SOLID_LAPTOP_FILE: Self = {
+    pub const FONT_AWESOME_SOLID_LAPTOP_FILE: Self = {
         #[inline(never)]
         fn font_awesome_solid_laptop_file(
             crate::IconProps {
@@ -16479,7 +16479,7 @@ impl IconData {
             html: font_awesome_solid_laptop_file,
         }
     };
-    const FONT_AWESOME_SOLID_LAPTOP_MEDICAL: Self = {
+    pub const FONT_AWESOME_SOLID_LAPTOP_MEDICAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_laptop_medical(
             crate::IconProps {
@@ -16501,7 +16501,7 @@ impl IconData {
             html: font_awesome_solid_laptop_medical,
         }
     };
-    const FONT_AWESOME_SOLID_LAPTOP: Self = {
+    pub const FONT_AWESOME_SOLID_LAPTOP: Self = {
         #[inline(never)]
         fn font_awesome_solid_laptop(
             crate::IconProps {
@@ -16523,7 +16523,7 @@ impl IconData {
             html: font_awesome_solid_laptop,
         }
     };
-    const FONT_AWESOME_SOLID_LARI_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_LARI_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_lari_sign(
             crate::IconProps {
@@ -16545,7 +16545,7 @@ impl IconData {
             html: font_awesome_solid_lari_sign,
         }
     };
-    const FONT_AWESOME_SOLID_LAYER_GROUP: Self = {
+    pub const FONT_AWESOME_SOLID_LAYER_GROUP: Self = {
         #[inline(never)]
         fn font_awesome_solid_layer_group(
             crate::IconProps {
@@ -16567,7 +16567,7 @@ impl IconData {
             html: font_awesome_solid_layer_group,
         }
     };
-    const FONT_AWESOME_SOLID_LEAF: Self = {
+    pub const FONT_AWESOME_SOLID_LEAF: Self = {
         #[inline(never)]
         fn font_awesome_solid_leaf(
             crate::IconProps {
@@ -16589,7 +16589,7 @@ impl IconData {
             html: font_awesome_solid_leaf,
         }
     };
-    const FONT_AWESOME_SOLID_LEFT_LONG: Self = {
+    pub const FONT_AWESOME_SOLID_LEFT_LONG: Self = {
         #[inline(never)]
         fn font_awesome_solid_left_long(
             crate::IconProps {
@@ -16611,7 +16611,7 @@ impl IconData {
             html: font_awesome_solid_left_long,
         }
     };
-    const FONT_AWESOME_SOLID_LEFT_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_LEFT_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_left_right(
             crate::IconProps {
@@ -16633,7 +16633,7 @@ impl IconData {
             html: font_awesome_solid_left_right,
         }
     };
-    const FONT_AWESOME_SOLID_LEMON: Self = {
+    pub const FONT_AWESOME_SOLID_LEMON: Self = {
         #[inline(never)]
         fn font_awesome_solid_lemon(
             crate::IconProps {
@@ -16655,7 +16655,7 @@ impl IconData {
             html: font_awesome_solid_lemon,
         }
     };
-    const FONT_AWESOME_SOLID_LESS_THAN_EQUAL: Self = {
+    pub const FONT_AWESOME_SOLID_LESS_THAN_EQUAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_less_than_equal(
             crate::IconProps {
@@ -16677,7 +16677,7 @@ impl IconData {
             html: font_awesome_solid_less_than_equal,
         }
     };
-    const FONT_AWESOME_SOLID_LESS_THAN: Self = {
+    pub const FONT_AWESOME_SOLID_LESS_THAN: Self = {
         #[inline(never)]
         fn font_awesome_solid_less_than(
             crate::IconProps {
@@ -16699,7 +16699,7 @@ impl IconData {
             html: font_awesome_solid_less_than,
         }
     };
-    const FONT_AWESOME_SOLID_LIFE_RING: Self = {
+    pub const FONT_AWESOME_SOLID_LIFE_RING: Self = {
         #[inline(never)]
         fn font_awesome_solid_life_ring(
             crate::IconProps {
@@ -16721,7 +16721,7 @@ impl IconData {
             html: font_awesome_solid_life_ring,
         }
     };
-    const FONT_AWESOME_SOLID_LIGHTBULB: Self = {
+    pub const FONT_AWESOME_SOLID_LIGHTBULB: Self = {
         #[inline(never)]
         fn font_awesome_solid_lightbulb(
             crate::IconProps {
@@ -16743,7 +16743,7 @@ impl IconData {
             html: font_awesome_solid_lightbulb,
         }
     };
-    const FONT_AWESOME_SOLID_LINES_LEANING: Self = {
+    pub const FONT_AWESOME_SOLID_LINES_LEANING: Self = {
         #[inline(never)]
         fn font_awesome_solid_lines_leaning(
             crate::IconProps {
@@ -16765,7 +16765,7 @@ impl IconData {
             html: font_awesome_solid_lines_leaning,
         }
     };
-    const FONT_AWESOME_SOLID_LINK_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_LINK_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_link_slash(
             crate::IconProps {
@@ -16787,7 +16787,7 @@ impl IconData {
             html: font_awesome_solid_link_slash,
         }
     };
-    const FONT_AWESOME_SOLID_LINK: Self = {
+    pub const FONT_AWESOME_SOLID_LINK: Self = {
         #[inline(never)]
         fn font_awesome_solid_link(
             crate::IconProps {
@@ -16809,7 +16809,7 @@ impl IconData {
             html: font_awesome_solid_link,
         }
     };
-    const FONT_AWESOME_SOLID_LIRA_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_LIRA_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_lira_sign(
             crate::IconProps {
@@ -16831,7 +16831,7 @@ impl IconData {
             html: font_awesome_solid_lira_sign,
         }
     };
-    const FONT_AWESOME_SOLID_LIST_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_LIST_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_list_check(
             crate::IconProps {
@@ -16853,7 +16853,7 @@ impl IconData {
             html: font_awesome_solid_list_check,
         }
     };
-    const FONT_AWESOME_SOLID_LIST_OL: Self = {
+    pub const FONT_AWESOME_SOLID_LIST_OL: Self = {
         #[inline(never)]
         fn font_awesome_solid_list_ol(
             crate::IconProps {
@@ -16875,7 +16875,7 @@ impl IconData {
             html: font_awesome_solid_list_ol,
         }
     };
-    const FONT_AWESOME_SOLID_LIST_UL: Self = {
+    pub const FONT_AWESOME_SOLID_LIST_UL: Self = {
         #[inline(never)]
         fn font_awesome_solid_list_ul(
             crate::IconProps {
@@ -16897,7 +16897,7 @@ impl IconData {
             html: font_awesome_solid_list_ul,
         }
     };
-    const FONT_AWESOME_SOLID_LIST: Self = {
+    pub const FONT_AWESOME_SOLID_LIST: Self = {
         #[inline(never)]
         fn font_awesome_solid_list(
             crate::IconProps {
@@ -16919,7 +16919,7 @@ impl IconData {
             html: font_awesome_solid_list,
         }
     };
-    const FONT_AWESOME_SOLID_LITECOIN_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_LITECOIN_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_litecoin_sign(
             crate::IconProps {
@@ -16941,7 +16941,7 @@ impl IconData {
             html: font_awesome_solid_litecoin_sign,
         }
     };
-    const FONT_AWESOME_SOLID_LOCATION_ARROW: Self = {
+    pub const FONT_AWESOME_SOLID_LOCATION_ARROW: Self = {
         #[inline(never)]
         fn font_awesome_solid_location_arrow(
             crate::IconProps {
@@ -16963,7 +16963,7 @@ impl IconData {
             html: font_awesome_solid_location_arrow,
         }
     };
-    const FONT_AWESOME_SOLID_LOCATION_CROSSHAIRS: Self = {
+    pub const FONT_AWESOME_SOLID_LOCATION_CROSSHAIRS: Self = {
         #[inline(never)]
         fn font_awesome_solid_location_crosshairs(
             crate::IconProps {
@@ -16985,7 +16985,7 @@ impl IconData {
             html: font_awesome_solid_location_crosshairs,
         }
     };
-    const FONT_AWESOME_SOLID_LOCATION_DOT: Self = {
+    pub const FONT_AWESOME_SOLID_LOCATION_DOT: Self = {
         #[inline(never)]
         fn font_awesome_solid_location_dot(
             crate::IconProps {
@@ -17007,7 +17007,7 @@ impl IconData {
             html: font_awesome_solid_location_dot,
         }
     };
-    const FONT_AWESOME_SOLID_LOCATION_PIN_LOCK: Self = {
+    pub const FONT_AWESOME_SOLID_LOCATION_PIN_LOCK: Self = {
         #[inline(never)]
         fn font_awesome_solid_location_pin_lock(
             crate::IconProps {
@@ -17029,7 +17029,7 @@ impl IconData {
             html: font_awesome_solid_location_pin_lock,
         }
     };
-    const FONT_AWESOME_SOLID_LOCATION_PIN: Self = {
+    pub const FONT_AWESOME_SOLID_LOCATION_PIN: Self = {
         #[inline(never)]
         fn font_awesome_solid_location_pin(
             crate::IconProps {
@@ -17051,7 +17051,7 @@ impl IconData {
             html: font_awesome_solid_location_pin,
         }
     };
-    const FONT_AWESOME_SOLID_LOCK_OPEN: Self = {
+    pub const FONT_AWESOME_SOLID_LOCK_OPEN: Self = {
         #[inline(never)]
         fn font_awesome_solid_lock_open(
             crate::IconProps {
@@ -17073,7 +17073,7 @@ impl IconData {
             html: font_awesome_solid_lock_open,
         }
     };
-    const FONT_AWESOME_SOLID_LOCK: Self = {
+    pub const FONT_AWESOME_SOLID_LOCK: Self = {
         #[inline(never)]
         fn font_awesome_solid_lock(
             crate::IconProps {
@@ -17095,7 +17095,7 @@ impl IconData {
             html: font_awesome_solid_lock,
         }
     };
-    const FONT_AWESOME_SOLID_LOCUST: Self = {
+    pub const FONT_AWESOME_SOLID_LOCUST: Self = {
         #[inline(never)]
         fn font_awesome_solid_locust(
             crate::IconProps {
@@ -17117,7 +17117,7 @@ impl IconData {
             html: font_awesome_solid_locust,
         }
     };
-    const FONT_AWESOME_SOLID_LUNGS_VIRUS: Self = {
+    pub const FONT_AWESOME_SOLID_LUNGS_VIRUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_lungs_virus(
             crate::IconProps {
@@ -17139,7 +17139,7 @@ impl IconData {
             html: font_awesome_solid_lungs_virus,
         }
     };
-    const FONT_AWESOME_SOLID_LUNGS: Self = {
+    pub const FONT_AWESOME_SOLID_LUNGS: Self = {
         #[inline(never)]
         fn font_awesome_solid_lungs(
             crate::IconProps {
@@ -17161,7 +17161,7 @@ impl IconData {
             html: font_awesome_solid_lungs,
         }
     };
-    const FONT_AWESOME_SOLID_M: Self = {
+    pub const FONT_AWESOME_SOLID_M: Self = {
         #[inline(never)]
         fn font_awesome_solid_m(
             crate::IconProps {
@@ -17183,7 +17183,7 @@ impl IconData {
             html: font_awesome_solid_m,
         }
     };
-    const FONT_AWESOME_SOLID_MAGNET: Self = {
+    pub const FONT_AWESOME_SOLID_MAGNET: Self = {
         #[inline(never)]
         fn font_awesome_solid_magnet(
             crate::IconProps {
@@ -17205,7 +17205,7 @@ impl IconData {
             html: font_awesome_solid_magnet,
         }
     };
-    const FONT_AWESOME_SOLID_MAGNIFYING_GLASS_ARROW_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_MAGNIFYING_GLASS_ARROW_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_magnifying_glass_arrow_right(
             crate::IconProps {
@@ -17227,7 +17227,7 @@ impl IconData {
             html: font_awesome_solid_magnifying_glass_arrow_right,
         }
     };
-    const FONT_AWESOME_SOLID_MAGNIFYING_GLASS_CHART: Self = {
+    pub const FONT_AWESOME_SOLID_MAGNIFYING_GLASS_CHART: Self = {
         #[inline(never)]
         fn font_awesome_solid_magnifying_glass_chart(
             crate::IconProps {
@@ -17249,7 +17249,7 @@ impl IconData {
             html: font_awesome_solid_magnifying_glass_chart,
         }
     };
-    const FONT_AWESOME_SOLID_MAGNIFYING_GLASS_DOLLAR: Self = {
+    pub const FONT_AWESOME_SOLID_MAGNIFYING_GLASS_DOLLAR: Self = {
         #[inline(never)]
         fn font_awesome_solid_magnifying_glass_dollar(
             crate::IconProps {
@@ -17271,7 +17271,7 @@ impl IconData {
             html: font_awesome_solid_magnifying_glass_dollar,
         }
     };
-    const FONT_AWESOME_SOLID_MAGNIFYING_GLASS_LOCATION: Self = {
+    pub const FONT_AWESOME_SOLID_MAGNIFYING_GLASS_LOCATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_magnifying_glass_location(
             crate::IconProps {
@@ -17293,7 +17293,7 @@ impl IconData {
             html: font_awesome_solid_magnifying_glass_location,
         }
     };
-    const FONT_AWESOME_SOLID_MAGNIFYING_GLASS_MINUS: Self = {
+    pub const FONT_AWESOME_SOLID_MAGNIFYING_GLASS_MINUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_magnifying_glass_minus(
             crate::IconProps {
@@ -17315,7 +17315,7 @@ impl IconData {
             html: font_awesome_solid_magnifying_glass_minus,
         }
     };
-    const FONT_AWESOME_SOLID_MAGNIFYING_GLASS_PLUS: Self = {
+    pub const FONT_AWESOME_SOLID_MAGNIFYING_GLASS_PLUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_magnifying_glass_plus(
             crate::IconProps {
@@ -17337,7 +17337,7 @@ impl IconData {
             html: font_awesome_solid_magnifying_glass_plus,
         }
     };
-    const FONT_AWESOME_SOLID_MAGNIFYING_GLASS: Self = {
+    pub const FONT_AWESOME_SOLID_MAGNIFYING_GLASS: Self = {
         #[inline(never)]
         fn font_awesome_solid_magnifying_glass(
             crate::IconProps {
@@ -17359,7 +17359,7 @@ impl IconData {
             html: font_awesome_solid_magnifying_glass,
         }
     };
-    const FONT_AWESOME_SOLID_MANAT_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_MANAT_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_manat_sign(
             crate::IconProps {
@@ -17381,7 +17381,7 @@ impl IconData {
             html: font_awesome_solid_manat_sign,
         }
     };
-    const FONT_AWESOME_SOLID_MAP_LOCATION_DOT: Self = {
+    pub const FONT_AWESOME_SOLID_MAP_LOCATION_DOT: Self = {
         #[inline(never)]
         fn font_awesome_solid_map_location_dot(
             crate::IconProps {
@@ -17403,7 +17403,7 @@ impl IconData {
             html: font_awesome_solid_map_location_dot,
         }
     };
-    const FONT_AWESOME_SOLID_MAP_LOCATION: Self = {
+    pub const FONT_AWESOME_SOLID_MAP_LOCATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_map_location(
             crate::IconProps {
@@ -17425,7 +17425,7 @@ impl IconData {
             html: font_awesome_solid_map_location,
         }
     };
-    const FONT_AWESOME_SOLID_MAP_PIN: Self = {
+    pub const FONT_AWESOME_SOLID_MAP_PIN: Self = {
         #[inline(never)]
         fn font_awesome_solid_map_pin(
             crate::IconProps {
@@ -17447,7 +17447,7 @@ impl IconData {
             html: font_awesome_solid_map_pin,
         }
     };
-    const FONT_AWESOME_SOLID_MAP: Self = {
+    pub const FONT_AWESOME_SOLID_MAP: Self = {
         #[inline(never)]
         fn font_awesome_solid_map(
             crate::IconProps {
@@ -17469,7 +17469,7 @@ impl IconData {
             html: font_awesome_solid_map,
         }
     };
-    const FONT_AWESOME_SOLID_MARKER: Self = {
+    pub const FONT_AWESOME_SOLID_MARKER: Self = {
         #[inline(never)]
         fn font_awesome_solid_marker(
             crate::IconProps {
@@ -17491,7 +17491,7 @@ impl IconData {
             html: font_awesome_solid_marker,
         }
     };
-    const FONT_AWESOME_SOLID_MARS_AND_VENUS_BURST: Self = {
+    pub const FONT_AWESOME_SOLID_MARS_AND_VENUS_BURST: Self = {
         #[inline(never)]
         fn font_awesome_solid_mars_and_venus_burst(
             crate::IconProps {
@@ -17513,7 +17513,7 @@ impl IconData {
             html: font_awesome_solid_mars_and_venus_burst,
         }
     };
-    const FONT_AWESOME_SOLID_MARS_AND_VENUS: Self = {
+    pub const FONT_AWESOME_SOLID_MARS_AND_VENUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_mars_and_venus(
             crate::IconProps {
@@ -17535,7 +17535,7 @@ impl IconData {
             html: font_awesome_solid_mars_and_venus,
         }
     };
-    const FONT_AWESOME_SOLID_MARS_DOUBLE: Self = {
+    pub const FONT_AWESOME_SOLID_MARS_DOUBLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_mars_double(
             crate::IconProps {
@@ -17557,7 +17557,7 @@ impl IconData {
             html: font_awesome_solid_mars_double,
         }
     };
-    const FONT_AWESOME_SOLID_MARS_STROKE_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_MARS_STROKE_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_mars_stroke_right(
             crate::IconProps {
@@ -17579,7 +17579,7 @@ impl IconData {
             html: font_awesome_solid_mars_stroke_right,
         }
     };
-    const FONT_AWESOME_SOLID_MARS_STROKE_UP: Self = {
+    pub const FONT_AWESOME_SOLID_MARS_STROKE_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_mars_stroke_up(
             crate::IconProps {
@@ -17601,7 +17601,7 @@ impl IconData {
             html: font_awesome_solid_mars_stroke_up,
         }
     };
-    const FONT_AWESOME_SOLID_MARS_STROKE: Self = {
+    pub const FONT_AWESOME_SOLID_MARS_STROKE: Self = {
         #[inline(never)]
         fn font_awesome_solid_mars_stroke(
             crate::IconProps {
@@ -17623,7 +17623,7 @@ impl IconData {
             html: font_awesome_solid_mars_stroke,
         }
     };
-    const FONT_AWESOME_SOLID_MARS: Self = {
+    pub const FONT_AWESOME_SOLID_MARS: Self = {
         #[inline(never)]
         fn font_awesome_solid_mars(
             crate::IconProps {
@@ -17645,7 +17645,7 @@ impl IconData {
             html: font_awesome_solid_mars,
         }
     };
-    const FONT_AWESOME_SOLID_MARTINI_GLASS_CITRUS: Self = {
+    pub const FONT_AWESOME_SOLID_MARTINI_GLASS_CITRUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_martini_glass_citrus(
             crate::IconProps {
@@ -17667,7 +17667,7 @@ impl IconData {
             html: font_awesome_solid_martini_glass_citrus,
         }
     };
-    const FONT_AWESOME_SOLID_MARTINI_GLASS_EMPTY: Self = {
+    pub const FONT_AWESOME_SOLID_MARTINI_GLASS_EMPTY: Self = {
         #[inline(never)]
         fn font_awesome_solid_martini_glass_empty(
             crate::IconProps {
@@ -17689,7 +17689,7 @@ impl IconData {
             html: font_awesome_solid_martini_glass_empty,
         }
     };
-    const FONT_AWESOME_SOLID_MARTINI_GLASS: Self = {
+    pub const FONT_AWESOME_SOLID_MARTINI_GLASS: Self = {
         #[inline(never)]
         fn font_awesome_solid_martini_glass(
             crate::IconProps {
@@ -17711,7 +17711,7 @@ impl IconData {
             html: font_awesome_solid_martini_glass,
         }
     };
-    const FONT_AWESOME_SOLID_MASK_FACE: Self = {
+    pub const FONT_AWESOME_SOLID_MASK_FACE: Self = {
         #[inline(never)]
         fn font_awesome_solid_mask_face(
             crate::IconProps {
@@ -17733,7 +17733,7 @@ impl IconData {
             html: font_awesome_solid_mask_face,
         }
     };
-    const FONT_AWESOME_SOLID_MASK_VENTILATOR: Self = {
+    pub const FONT_AWESOME_SOLID_MASK_VENTILATOR: Self = {
         #[inline(never)]
         fn font_awesome_solid_mask_ventilator(
             crate::IconProps {
@@ -17755,7 +17755,7 @@ impl IconData {
             html: font_awesome_solid_mask_ventilator,
         }
     };
-    const FONT_AWESOME_SOLID_MASK: Self = {
+    pub const FONT_AWESOME_SOLID_MASK: Self = {
         #[inline(never)]
         fn font_awesome_solid_mask(
             crate::IconProps {
@@ -17777,7 +17777,7 @@ impl IconData {
             html: font_awesome_solid_mask,
         }
     };
-    const FONT_AWESOME_SOLID_MASKS_THEATER: Self = {
+    pub const FONT_AWESOME_SOLID_MASKS_THEATER: Self = {
         #[inline(never)]
         fn font_awesome_solid_masks_theater(
             crate::IconProps {
@@ -17799,7 +17799,7 @@ impl IconData {
             html: font_awesome_solid_masks_theater,
         }
     };
-    const FONT_AWESOME_SOLID_MATTRESS_PILLOW: Self = {
+    pub const FONT_AWESOME_SOLID_MATTRESS_PILLOW: Self = {
         #[inline(never)]
         fn font_awesome_solid_mattress_pillow(
             crate::IconProps {
@@ -17821,7 +17821,7 @@ impl IconData {
             html: font_awesome_solid_mattress_pillow,
         }
     };
-    const FONT_AWESOME_SOLID_MAXIMIZE: Self = {
+    pub const FONT_AWESOME_SOLID_MAXIMIZE: Self = {
         #[inline(never)]
         fn font_awesome_solid_maximize(
             crate::IconProps {
@@ -17843,7 +17843,7 @@ impl IconData {
             html: font_awesome_solid_maximize,
         }
     };
-    const FONT_AWESOME_SOLID_MEDAL: Self = {
+    pub const FONT_AWESOME_SOLID_MEDAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_medal(
             crate::IconProps {
@@ -17865,7 +17865,7 @@ impl IconData {
             html: font_awesome_solid_medal,
         }
     };
-    const FONT_AWESOME_SOLID_MEMORY: Self = {
+    pub const FONT_AWESOME_SOLID_MEMORY: Self = {
         #[inline(never)]
         fn font_awesome_solid_memory(
             crate::IconProps {
@@ -17887,7 +17887,7 @@ impl IconData {
             html: font_awesome_solid_memory,
         }
     };
-    const FONT_AWESOME_SOLID_MENORAH: Self = {
+    pub const FONT_AWESOME_SOLID_MENORAH: Self = {
         #[inline(never)]
         fn font_awesome_solid_menorah(
             crate::IconProps {
@@ -17909,7 +17909,7 @@ impl IconData {
             html: font_awesome_solid_menorah,
         }
     };
-    const FONT_AWESOME_SOLID_MERCURY: Self = {
+    pub const FONT_AWESOME_SOLID_MERCURY: Self = {
         #[inline(never)]
         fn font_awesome_solid_mercury(
             crate::IconProps {
@@ -17931,7 +17931,7 @@ impl IconData {
             html: font_awesome_solid_mercury,
         }
     };
-    const FONT_AWESOME_SOLID_MESSAGE: Self = {
+    pub const FONT_AWESOME_SOLID_MESSAGE: Self = {
         #[inline(never)]
         fn font_awesome_solid_message(
             crate::IconProps {
@@ -17953,7 +17953,7 @@ impl IconData {
             html: font_awesome_solid_message,
         }
     };
-    const FONT_AWESOME_SOLID_METEOR: Self = {
+    pub const FONT_AWESOME_SOLID_METEOR: Self = {
         #[inline(never)]
         fn font_awesome_solid_meteor(
             crate::IconProps {
@@ -17975,7 +17975,7 @@ impl IconData {
             html: font_awesome_solid_meteor,
         }
     };
-    const FONT_AWESOME_SOLID_MICROCHIP: Self = {
+    pub const FONT_AWESOME_SOLID_MICROCHIP: Self = {
         #[inline(never)]
         fn font_awesome_solid_microchip(
             crate::IconProps {
@@ -17997,7 +17997,7 @@ impl IconData {
             html: font_awesome_solid_microchip,
         }
     };
-    const FONT_AWESOME_SOLID_MICROPHONE_LINES_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_MICROPHONE_LINES_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_microphone_lines_slash(
             crate::IconProps {
@@ -18019,7 +18019,7 @@ impl IconData {
             html: font_awesome_solid_microphone_lines_slash,
         }
     };
-    const FONT_AWESOME_SOLID_MICROPHONE_LINES: Self = {
+    pub const FONT_AWESOME_SOLID_MICROPHONE_LINES: Self = {
         #[inline(never)]
         fn font_awesome_solid_microphone_lines(
             crate::IconProps {
@@ -18041,7 +18041,7 @@ impl IconData {
             html: font_awesome_solid_microphone_lines,
         }
     };
-    const FONT_AWESOME_SOLID_MICROPHONE_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_MICROPHONE_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_microphone_slash(
             crate::IconProps {
@@ -18063,7 +18063,7 @@ impl IconData {
             html: font_awesome_solid_microphone_slash,
         }
     };
-    const FONT_AWESOME_SOLID_MICROPHONE: Self = {
+    pub const FONT_AWESOME_SOLID_MICROPHONE: Self = {
         #[inline(never)]
         fn font_awesome_solid_microphone(
             crate::IconProps {
@@ -18085,7 +18085,7 @@ impl IconData {
             html: font_awesome_solid_microphone,
         }
     };
-    const FONT_AWESOME_SOLID_MICROSCOPE: Self = {
+    pub const FONT_AWESOME_SOLID_MICROSCOPE: Self = {
         #[inline(never)]
         fn font_awesome_solid_microscope(
             crate::IconProps {
@@ -18107,7 +18107,7 @@ impl IconData {
             html: font_awesome_solid_microscope,
         }
     };
-    const FONT_AWESOME_SOLID_MILL_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_MILL_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_mill_sign(
             crate::IconProps {
@@ -18129,7 +18129,7 @@ impl IconData {
             html: font_awesome_solid_mill_sign,
         }
     };
-    const FONT_AWESOME_SOLID_MINIMIZE: Self = {
+    pub const FONT_AWESOME_SOLID_MINIMIZE: Self = {
         #[inline(never)]
         fn font_awesome_solid_minimize(
             crate::IconProps {
@@ -18151,7 +18151,7 @@ impl IconData {
             html: font_awesome_solid_minimize,
         }
     };
-    const FONT_AWESOME_SOLID_MINUS: Self = {
+    pub const FONT_AWESOME_SOLID_MINUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_minus(
             crate::IconProps {
@@ -18173,7 +18173,7 @@ impl IconData {
             html: font_awesome_solid_minus,
         }
     };
-    const FONT_AWESOME_SOLID_MITTEN: Self = {
+    pub const FONT_AWESOME_SOLID_MITTEN: Self = {
         #[inline(never)]
         fn font_awesome_solid_mitten(
             crate::IconProps {
@@ -18195,7 +18195,7 @@ impl IconData {
             html: font_awesome_solid_mitten,
         }
     };
-    const FONT_AWESOME_SOLID_MOBILE_BUTTON: Self = {
+    pub const FONT_AWESOME_SOLID_MOBILE_BUTTON: Self = {
         #[inline(never)]
         fn font_awesome_solid_mobile_button(
             crate::IconProps {
@@ -18217,7 +18217,7 @@ impl IconData {
             html: font_awesome_solid_mobile_button,
         }
     };
-    const FONT_AWESOME_SOLID_MOBILE_RETRO: Self = {
+    pub const FONT_AWESOME_SOLID_MOBILE_RETRO: Self = {
         #[inline(never)]
         fn font_awesome_solid_mobile_retro(
             crate::IconProps {
@@ -18239,7 +18239,7 @@ impl IconData {
             html: font_awesome_solid_mobile_retro,
         }
     };
-    const FONT_AWESOME_SOLID_MOBILE_SCREEN_BUTTON: Self = {
+    pub const FONT_AWESOME_SOLID_MOBILE_SCREEN_BUTTON: Self = {
         #[inline(never)]
         fn font_awesome_solid_mobile_screen_button(
             crate::IconProps {
@@ -18261,7 +18261,7 @@ impl IconData {
             html: font_awesome_solid_mobile_screen_button,
         }
     };
-    const FONT_AWESOME_SOLID_MOBILE_SCREEN: Self = {
+    pub const FONT_AWESOME_SOLID_MOBILE_SCREEN: Self = {
         #[inline(never)]
         fn font_awesome_solid_mobile_screen(
             crate::IconProps {
@@ -18283,7 +18283,7 @@ impl IconData {
             html: font_awesome_solid_mobile_screen,
         }
     };
-    const FONT_AWESOME_SOLID_MOBILE: Self = {
+    pub const FONT_AWESOME_SOLID_MOBILE: Self = {
         #[inline(never)]
         fn font_awesome_solid_mobile(
             crate::IconProps {
@@ -18305,7 +18305,7 @@ impl IconData {
             html: font_awesome_solid_mobile,
         }
     };
-    const FONT_AWESOME_SOLID_MONEY_BILL_1_WAVE: Self = {
+    pub const FONT_AWESOME_SOLID_MONEY_BILL_1_WAVE: Self = {
         #[inline(never)]
         fn font_awesome_solid_money_bill_1_wave(
             crate::IconProps {
@@ -18327,7 +18327,7 @@ impl IconData {
             html: font_awesome_solid_money_bill_1_wave,
         }
     };
-    const FONT_AWESOME_SOLID_MONEY_BILL_1: Self = {
+    pub const FONT_AWESOME_SOLID_MONEY_BILL_1: Self = {
         #[inline(never)]
         fn font_awesome_solid_money_bill_1(
             crate::IconProps {
@@ -18349,7 +18349,7 @@ impl IconData {
             html: font_awesome_solid_money_bill_1,
         }
     };
-    const FONT_AWESOME_SOLID_MONEY_BILL_TRANSFER: Self = {
+    pub const FONT_AWESOME_SOLID_MONEY_BILL_TRANSFER: Self = {
         #[inline(never)]
         fn font_awesome_solid_money_bill_transfer(
             crate::IconProps {
@@ -18371,7 +18371,7 @@ impl IconData {
             html: font_awesome_solid_money_bill_transfer,
         }
     };
-    const FONT_AWESOME_SOLID_MONEY_BILL_TREND_UP: Self = {
+    pub const FONT_AWESOME_SOLID_MONEY_BILL_TREND_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_money_bill_trend_up(
             crate::IconProps {
@@ -18393,7 +18393,7 @@ impl IconData {
             html: font_awesome_solid_money_bill_trend_up,
         }
     };
-    const FONT_AWESOME_SOLID_MONEY_BILL_WAVE: Self = {
+    pub const FONT_AWESOME_SOLID_MONEY_BILL_WAVE: Self = {
         #[inline(never)]
         fn font_awesome_solid_money_bill_wave(
             crate::IconProps {
@@ -18415,7 +18415,7 @@ impl IconData {
             html: font_awesome_solid_money_bill_wave,
         }
     };
-    const FONT_AWESOME_SOLID_MONEY_BILL_WHEAT: Self = {
+    pub const FONT_AWESOME_SOLID_MONEY_BILL_WHEAT: Self = {
         #[inline(never)]
         fn font_awesome_solid_money_bill_wheat(
             crate::IconProps {
@@ -18437,7 +18437,7 @@ impl IconData {
             html: font_awesome_solid_money_bill_wheat,
         }
     };
-    const FONT_AWESOME_SOLID_MONEY_BILL: Self = {
+    pub const FONT_AWESOME_SOLID_MONEY_BILL: Self = {
         #[inline(never)]
         fn font_awesome_solid_money_bill(
             crate::IconProps {
@@ -18459,7 +18459,7 @@ impl IconData {
             html: font_awesome_solid_money_bill,
         }
     };
-    const FONT_AWESOME_SOLID_MONEY_BILLS: Self = {
+    pub const FONT_AWESOME_SOLID_MONEY_BILLS: Self = {
         #[inline(never)]
         fn font_awesome_solid_money_bills(
             crate::IconProps {
@@ -18481,7 +18481,7 @@ impl IconData {
             html: font_awesome_solid_money_bills,
         }
     };
-    const FONT_AWESOME_SOLID_MONEY_CHECK_DOLLAR: Self = {
+    pub const FONT_AWESOME_SOLID_MONEY_CHECK_DOLLAR: Self = {
         #[inline(never)]
         fn font_awesome_solid_money_check_dollar(
             crate::IconProps {
@@ -18503,7 +18503,7 @@ impl IconData {
             html: font_awesome_solid_money_check_dollar,
         }
     };
-    const FONT_AWESOME_SOLID_MONEY_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_MONEY_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_money_check(
             crate::IconProps {
@@ -18525,7 +18525,7 @@ impl IconData {
             html: font_awesome_solid_money_check,
         }
     };
-    const FONT_AWESOME_SOLID_MONUMENT: Self = {
+    pub const FONT_AWESOME_SOLID_MONUMENT: Self = {
         #[inline(never)]
         fn font_awesome_solid_monument(
             crate::IconProps {
@@ -18547,7 +18547,7 @@ impl IconData {
             html: font_awesome_solid_monument,
         }
     };
-    const FONT_AWESOME_SOLID_MOON: Self = {
+    pub const FONT_AWESOME_SOLID_MOON: Self = {
         #[inline(never)]
         fn font_awesome_solid_moon(
             crate::IconProps {
@@ -18569,7 +18569,7 @@ impl IconData {
             html: font_awesome_solid_moon,
         }
     };
-    const FONT_AWESOME_SOLID_MORTAR_PESTLE: Self = {
+    pub const FONT_AWESOME_SOLID_MORTAR_PESTLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_mortar_pestle(
             crate::IconProps {
@@ -18591,7 +18591,7 @@ impl IconData {
             html: font_awesome_solid_mortar_pestle,
         }
     };
-    const FONT_AWESOME_SOLID_MOSQUE: Self = {
+    pub const FONT_AWESOME_SOLID_MOSQUE: Self = {
         #[inline(never)]
         fn font_awesome_solid_mosque(
             crate::IconProps {
@@ -18613,7 +18613,7 @@ impl IconData {
             html: font_awesome_solid_mosque,
         }
     };
-    const FONT_AWESOME_SOLID_MOSQUITO_NET: Self = {
+    pub const FONT_AWESOME_SOLID_MOSQUITO_NET: Self = {
         #[inline(never)]
         fn font_awesome_solid_mosquito_net(
             crate::IconProps {
@@ -18635,7 +18635,7 @@ impl IconData {
             html: font_awesome_solid_mosquito_net,
         }
     };
-    const FONT_AWESOME_SOLID_MOSQUITO: Self = {
+    pub const FONT_AWESOME_SOLID_MOSQUITO: Self = {
         #[inline(never)]
         fn font_awesome_solid_mosquito(
             crate::IconProps {
@@ -18657,7 +18657,7 @@ impl IconData {
             html: font_awesome_solid_mosquito,
         }
     };
-    const FONT_AWESOME_SOLID_MOTORCYCLE: Self = {
+    pub const FONT_AWESOME_SOLID_MOTORCYCLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_motorcycle(
             crate::IconProps {
@@ -18679,7 +18679,7 @@ impl IconData {
             html: font_awesome_solid_motorcycle,
         }
     };
-    const FONT_AWESOME_SOLID_MOUND: Self = {
+    pub const FONT_AWESOME_SOLID_MOUND: Self = {
         #[inline(never)]
         fn font_awesome_solid_mound(
             crate::IconProps {
@@ -18701,7 +18701,7 @@ impl IconData {
             html: font_awesome_solid_mound,
         }
     };
-    const FONT_AWESOME_SOLID_MOUNTAIN_CITY: Self = {
+    pub const FONT_AWESOME_SOLID_MOUNTAIN_CITY: Self = {
         #[inline(never)]
         fn font_awesome_solid_mountain_city(
             crate::IconProps {
@@ -18723,7 +18723,7 @@ impl IconData {
             html: font_awesome_solid_mountain_city,
         }
     };
-    const FONT_AWESOME_SOLID_MOUNTAIN_SUN: Self = {
+    pub const FONT_AWESOME_SOLID_MOUNTAIN_SUN: Self = {
         #[inline(never)]
         fn font_awesome_solid_mountain_sun(
             crate::IconProps {
@@ -18745,7 +18745,7 @@ impl IconData {
             html: font_awesome_solid_mountain_sun,
         }
     };
-    const FONT_AWESOME_SOLID_MOUNTAIN: Self = {
+    pub const FONT_AWESOME_SOLID_MOUNTAIN: Self = {
         #[inline(never)]
         fn font_awesome_solid_mountain(
             crate::IconProps {
@@ -18767,7 +18767,7 @@ impl IconData {
             html: font_awesome_solid_mountain,
         }
     };
-    const FONT_AWESOME_SOLID_MUG_HOT: Self = {
+    pub const FONT_AWESOME_SOLID_MUG_HOT: Self = {
         #[inline(never)]
         fn font_awesome_solid_mug_hot(
             crate::IconProps {
@@ -18789,7 +18789,7 @@ impl IconData {
             html: font_awesome_solid_mug_hot,
         }
     };
-    const FONT_AWESOME_SOLID_MUG_SAUCER: Self = {
+    pub const FONT_AWESOME_SOLID_MUG_SAUCER: Self = {
         #[inline(never)]
         fn font_awesome_solid_mug_saucer(
             crate::IconProps {
@@ -18811,7 +18811,7 @@ impl IconData {
             html: font_awesome_solid_mug_saucer,
         }
     };
-    const FONT_AWESOME_SOLID_MUSIC: Self = {
+    pub const FONT_AWESOME_SOLID_MUSIC: Self = {
         #[inline(never)]
         fn font_awesome_solid_music(
             crate::IconProps {
@@ -18833,7 +18833,7 @@ impl IconData {
             html: font_awesome_solid_music,
         }
     };
-    const FONT_AWESOME_SOLID_N: Self = {
+    pub const FONT_AWESOME_SOLID_N: Self = {
         #[inline(never)]
         fn font_awesome_solid_n(
             crate::IconProps {
@@ -18855,7 +18855,7 @@ impl IconData {
             html: font_awesome_solid_n,
         }
     };
-    const FONT_AWESOME_SOLID_NAIRA_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_NAIRA_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_naira_sign(
             crate::IconProps {
@@ -18877,7 +18877,7 @@ impl IconData {
             html: font_awesome_solid_naira_sign,
         }
     };
-    const FONT_AWESOME_SOLID_NETWORK_WIRED: Self = {
+    pub const FONT_AWESOME_SOLID_NETWORK_WIRED: Self = {
         #[inline(never)]
         fn font_awesome_solid_network_wired(
             crate::IconProps {
@@ -18899,7 +18899,7 @@ impl IconData {
             html: font_awesome_solid_network_wired,
         }
     };
-    const FONT_AWESOME_SOLID_NEUTER: Self = {
+    pub const FONT_AWESOME_SOLID_NEUTER: Self = {
         #[inline(never)]
         fn font_awesome_solid_neuter(
             crate::IconProps {
@@ -18921,7 +18921,7 @@ impl IconData {
             html: font_awesome_solid_neuter,
         }
     };
-    const FONT_AWESOME_SOLID_NEWSPAPER: Self = {
+    pub const FONT_AWESOME_SOLID_NEWSPAPER: Self = {
         #[inline(never)]
         fn font_awesome_solid_newspaper(
             crate::IconProps {
@@ -18943,7 +18943,7 @@ impl IconData {
             html: font_awesome_solid_newspaper,
         }
     };
-    const FONT_AWESOME_SOLID_NOT_EQUAL: Self = {
+    pub const FONT_AWESOME_SOLID_NOT_EQUAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_not_equal(
             crate::IconProps {
@@ -18965,7 +18965,7 @@ impl IconData {
             html: font_awesome_solid_not_equal,
         }
     };
-    const FONT_AWESOME_SOLID_NOTE_STICKY: Self = {
+    pub const FONT_AWESOME_SOLID_NOTE_STICKY: Self = {
         #[inline(never)]
         fn font_awesome_solid_note_sticky(
             crate::IconProps {
@@ -18987,7 +18987,7 @@ impl IconData {
             html: font_awesome_solid_note_sticky,
         }
     };
-    const FONT_AWESOME_SOLID_NOTES_MEDICAL: Self = {
+    pub const FONT_AWESOME_SOLID_NOTES_MEDICAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_notes_medical(
             crate::IconProps {
@@ -19009,7 +19009,7 @@ impl IconData {
             html: font_awesome_solid_notes_medical,
         }
     };
-    const FONT_AWESOME_SOLID_O: Self = {
+    pub const FONT_AWESOME_SOLID_O: Self = {
         #[inline(never)]
         fn font_awesome_solid_o(
             crate::IconProps {
@@ -19031,7 +19031,7 @@ impl IconData {
             html: font_awesome_solid_o,
         }
     };
-    const FONT_AWESOME_SOLID_OBJECT_GROUP: Self = {
+    pub const FONT_AWESOME_SOLID_OBJECT_GROUP: Self = {
         #[inline(never)]
         fn font_awesome_solid_object_group(
             crate::IconProps {
@@ -19053,7 +19053,7 @@ impl IconData {
             html: font_awesome_solid_object_group,
         }
     };
-    const FONT_AWESOME_SOLID_OBJECT_UNGROUP: Self = {
+    pub const FONT_AWESOME_SOLID_OBJECT_UNGROUP: Self = {
         #[inline(never)]
         fn font_awesome_solid_object_ungroup(
             crate::IconProps {
@@ -19075,7 +19075,7 @@ impl IconData {
             html: font_awesome_solid_object_ungroup,
         }
     };
-    const FONT_AWESOME_SOLID_OIL_CAN: Self = {
+    pub const FONT_AWESOME_SOLID_OIL_CAN: Self = {
         #[inline(never)]
         fn font_awesome_solid_oil_can(
             crate::IconProps {
@@ -19097,7 +19097,7 @@ impl IconData {
             html: font_awesome_solid_oil_can,
         }
     };
-    const FONT_AWESOME_SOLID_OIL_WELL: Self = {
+    pub const FONT_AWESOME_SOLID_OIL_WELL: Self = {
         #[inline(never)]
         fn font_awesome_solid_oil_well(
             crate::IconProps {
@@ -19119,7 +19119,7 @@ impl IconData {
             html: font_awesome_solid_oil_well,
         }
     };
-    const FONT_AWESOME_SOLID_OM: Self = {
+    pub const FONT_AWESOME_SOLID_OM: Self = {
         #[inline(never)]
         fn font_awesome_solid_om(
             crate::IconProps {
@@ -19141,7 +19141,7 @@ impl IconData {
             html: font_awesome_solid_om,
         }
     };
-    const FONT_AWESOME_SOLID_OTTER: Self = {
+    pub const FONT_AWESOME_SOLID_OTTER: Self = {
         #[inline(never)]
         fn font_awesome_solid_otter(
             crate::IconProps {
@@ -19163,7 +19163,7 @@ impl IconData {
             html: font_awesome_solid_otter,
         }
     };
-    const FONT_AWESOME_SOLID_OUTDENT: Self = {
+    pub const FONT_AWESOME_SOLID_OUTDENT: Self = {
         #[inline(never)]
         fn font_awesome_solid_outdent(
             crate::IconProps {
@@ -19185,7 +19185,7 @@ impl IconData {
             html: font_awesome_solid_outdent,
         }
     };
-    const FONT_AWESOME_SOLID_P: Self = {
+    pub const FONT_AWESOME_SOLID_P: Self = {
         #[inline(never)]
         fn font_awesome_solid_p(
             crate::IconProps {
@@ -19207,7 +19207,7 @@ impl IconData {
             html: font_awesome_solid_p,
         }
     };
-    const FONT_AWESOME_SOLID_PAGER: Self = {
+    pub const FONT_AWESOME_SOLID_PAGER: Self = {
         #[inline(never)]
         fn font_awesome_solid_pager(
             crate::IconProps {
@@ -19229,7 +19229,7 @@ impl IconData {
             html: font_awesome_solid_pager,
         }
     };
-    const FONT_AWESOME_SOLID_PAINT_ROLLER: Self = {
+    pub const FONT_AWESOME_SOLID_PAINT_ROLLER: Self = {
         #[inline(never)]
         fn font_awesome_solid_paint_roller(
             crate::IconProps {
@@ -19251,7 +19251,7 @@ impl IconData {
             html: font_awesome_solid_paint_roller,
         }
     };
-    const FONT_AWESOME_SOLID_PAINTBRUSH: Self = {
+    pub const FONT_AWESOME_SOLID_PAINTBRUSH: Self = {
         #[inline(never)]
         fn font_awesome_solid_paintbrush(
             crate::IconProps {
@@ -19273,7 +19273,7 @@ impl IconData {
             html: font_awesome_solid_paintbrush,
         }
     };
-    const FONT_AWESOME_SOLID_PALETTE: Self = {
+    pub const FONT_AWESOME_SOLID_PALETTE: Self = {
         #[inline(never)]
         fn font_awesome_solid_palette(
             crate::IconProps {
@@ -19295,7 +19295,7 @@ impl IconData {
             html: font_awesome_solid_palette,
         }
     };
-    const FONT_AWESOME_SOLID_PALLET: Self = {
+    pub const FONT_AWESOME_SOLID_PALLET: Self = {
         #[inline(never)]
         fn font_awesome_solid_pallet(
             crate::IconProps {
@@ -19317,7 +19317,7 @@ impl IconData {
             html: font_awesome_solid_pallet,
         }
     };
-    const FONT_AWESOME_SOLID_PANORAMA: Self = {
+    pub const FONT_AWESOME_SOLID_PANORAMA: Self = {
         #[inline(never)]
         fn font_awesome_solid_panorama(
             crate::IconProps {
@@ -19339,7 +19339,7 @@ impl IconData {
             html: font_awesome_solid_panorama,
         }
     };
-    const FONT_AWESOME_SOLID_PAPER_PLANE: Self = {
+    pub const FONT_AWESOME_SOLID_PAPER_PLANE: Self = {
         #[inline(never)]
         fn font_awesome_solid_paper_plane(
             crate::IconProps {
@@ -19361,7 +19361,7 @@ impl IconData {
             html: font_awesome_solid_paper_plane,
         }
     };
-    const FONT_AWESOME_SOLID_PAPERCLIP: Self = {
+    pub const FONT_AWESOME_SOLID_PAPERCLIP: Self = {
         #[inline(never)]
         fn font_awesome_solid_paperclip(
             crate::IconProps {
@@ -19383,7 +19383,7 @@ impl IconData {
             html: font_awesome_solid_paperclip,
         }
     };
-    const FONT_AWESOME_SOLID_PARACHUTE_BOX: Self = {
+    pub const FONT_AWESOME_SOLID_PARACHUTE_BOX: Self = {
         #[inline(never)]
         fn font_awesome_solid_parachute_box(
             crate::IconProps {
@@ -19405,7 +19405,7 @@ impl IconData {
             html: font_awesome_solid_parachute_box,
         }
     };
-    const FONT_AWESOME_SOLID_PARAGRAPH: Self = {
+    pub const FONT_AWESOME_SOLID_PARAGRAPH: Self = {
         #[inline(never)]
         fn font_awesome_solid_paragraph(
             crate::IconProps {
@@ -19427,7 +19427,7 @@ impl IconData {
             html: font_awesome_solid_paragraph,
         }
     };
-    const FONT_AWESOME_SOLID_PASSPORT: Self = {
+    pub const FONT_AWESOME_SOLID_PASSPORT: Self = {
         #[inline(never)]
         fn font_awesome_solid_passport(
             crate::IconProps {
@@ -19449,7 +19449,7 @@ impl IconData {
             html: font_awesome_solid_passport,
         }
     };
-    const FONT_AWESOME_SOLID_PASTE: Self = {
+    pub const FONT_AWESOME_SOLID_PASTE: Self = {
         #[inline(never)]
         fn font_awesome_solid_paste(
             crate::IconProps {
@@ -19471,7 +19471,7 @@ impl IconData {
             html: font_awesome_solid_paste,
         }
     };
-    const FONT_AWESOME_SOLID_PAUSE: Self = {
+    pub const FONT_AWESOME_SOLID_PAUSE: Self = {
         #[inline(never)]
         fn font_awesome_solid_pause(
             crate::IconProps {
@@ -19493,7 +19493,7 @@ impl IconData {
             html: font_awesome_solid_pause,
         }
     };
-    const FONT_AWESOME_SOLID_PAW: Self = {
+    pub const FONT_AWESOME_SOLID_PAW: Self = {
         #[inline(never)]
         fn font_awesome_solid_paw(
             crate::IconProps {
@@ -19515,7 +19515,7 @@ impl IconData {
             html: font_awesome_solid_paw,
         }
     };
-    const FONT_AWESOME_SOLID_PEACE: Self = {
+    pub const FONT_AWESOME_SOLID_PEACE: Self = {
         #[inline(never)]
         fn font_awesome_solid_peace(
             crate::IconProps {
@@ -19537,7 +19537,7 @@ impl IconData {
             html: font_awesome_solid_peace,
         }
     };
-    const FONT_AWESOME_SOLID_PEN_CLIP: Self = {
+    pub const FONT_AWESOME_SOLID_PEN_CLIP: Self = {
         #[inline(never)]
         fn font_awesome_solid_pen_clip(
             crate::IconProps {
@@ -19559,7 +19559,7 @@ impl IconData {
             html: font_awesome_solid_pen_clip,
         }
     };
-    const FONT_AWESOME_SOLID_PEN_FANCY: Self = {
+    pub const FONT_AWESOME_SOLID_PEN_FANCY: Self = {
         #[inline(never)]
         fn font_awesome_solid_pen_fancy(
             crate::IconProps {
@@ -19581,7 +19581,7 @@ impl IconData {
             html: font_awesome_solid_pen_fancy,
         }
     };
-    const FONT_AWESOME_SOLID_PEN_NIB: Self = {
+    pub const FONT_AWESOME_SOLID_PEN_NIB: Self = {
         #[inline(never)]
         fn font_awesome_solid_pen_nib(
             crate::IconProps {
@@ -19603,7 +19603,7 @@ impl IconData {
             html: font_awesome_solid_pen_nib,
         }
     };
-    const FONT_AWESOME_SOLID_PEN_RULER: Self = {
+    pub const FONT_AWESOME_SOLID_PEN_RULER: Self = {
         #[inline(never)]
         fn font_awesome_solid_pen_ruler(
             crate::IconProps {
@@ -19625,7 +19625,7 @@ impl IconData {
             html: font_awesome_solid_pen_ruler,
         }
     };
-    const FONT_AWESOME_SOLID_PEN_TO_SQUARE: Self = {
+    pub const FONT_AWESOME_SOLID_PEN_TO_SQUARE: Self = {
         #[inline(never)]
         fn font_awesome_solid_pen_to_square(
             crate::IconProps {
@@ -19647,7 +19647,7 @@ impl IconData {
             html: font_awesome_solid_pen_to_square,
         }
     };
-    const FONT_AWESOME_SOLID_PEN: Self = {
+    pub const FONT_AWESOME_SOLID_PEN: Self = {
         #[inline(never)]
         fn font_awesome_solid_pen(
             crate::IconProps {
@@ -19669,7 +19669,7 @@ impl IconData {
             html: font_awesome_solid_pen,
         }
     };
-    const FONT_AWESOME_SOLID_PENCIL: Self = {
+    pub const FONT_AWESOME_SOLID_PENCIL: Self = {
         #[inline(never)]
         fn font_awesome_solid_pencil(
             crate::IconProps {
@@ -19691,7 +19691,7 @@ impl IconData {
             html: font_awesome_solid_pencil,
         }
     };
-    const FONT_AWESOME_SOLID_PEOPLE_ARROWS_LEFT_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_PEOPLE_ARROWS_LEFT_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_people_arrows_left_right(
             crate::IconProps {
@@ -19713,7 +19713,7 @@ impl IconData {
             html: font_awesome_solid_people_arrows_left_right,
         }
     };
-    const FONT_AWESOME_SOLID_PEOPLE_CARRY_BOX: Self = {
+    pub const FONT_AWESOME_SOLID_PEOPLE_CARRY_BOX: Self = {
         #[inline(never)]
         fn font_awesome_solid_people_carry_box(
             crate::IconProps {
@@ -19735,7 +19735,7 @@ impl IconData {
             html: font_awesome_solid_people_carry_box,
         }
     };
-    const FONT_AWESOME_SOLID_PEOPLE_GROUP: Self = {
+    pub const FONT_AWESOME_SOLID_PEOPLE_GROUP: Self = {
         #[inline(never)]
         fn font_awesome_solid_people_group(
             crate::IconProps {
@@ -19757,7 +19757,7 @@ impl IconData {
             html: font_awesome_solid_people_group,
         }
     };
-    const FONT_AWESOME_SOLID_PEOPLE_LINE: Self = {
+    pub const FONT_AWESOME_SOLID_PEOPLE_LINE: Self = {
         #[inline(never)]
         fn font_awesome_solid_people_line(
             crate::IconProps {
@@ -19779,7 +19779,7 @@ impl IconData {
             html: font_awesome_solid_people_line,
         }
     };
-    const FONT_AWESOME_SOLID_PEOPLE_PULLING: Self = {
+    pub const FONT_AWESOME_SOLID_PEOPLE_PULLING: Self = {
         #[inline(never)]
         fn font_awesome_solid_people_pulling(
             crate::IconProps {
@@ -19801,7 +19801,7 @@ impl IconData {
             html: font_awesome_solid_people_pulling,
         }
     };
-    const FONT_AWESOME_SOLID_PEOPLE_ROBBERY: Self = {
+    pub const FONT_AWESOME_SOLID_PEOPLE_ROBBERY: Self = {
         #[inline(never)]
         fn font_awesome_solid_people_robbery(
             crate::IconProps {
@@ -19823,7 +19823,7 @@ impl IconData {
             html: font_awesome_solid_people_robbery,
         }
     };
-    const FONT_AWESOME_SOLID_PEOPLE_ROOF: Self = {
+    pub const FONT_AWESOME_SOLID_PEOPLE_ROOF: Self = {
         #[inline(never)]
         fn font_awesome_solid_people_roof(
             crate::IconProps {
@@ -19845,7 +19845,7 @@ impl IconData {
             html: font_awesome_solid_people_roof,
         }
     };
-    const FONT_AWESOME_SOLID_PEPPER_HOT: Self = {
+    pub const FONT_AWESOME_SOLID_PEPPER_HOT: Self = {
         #[inline(never)]
         fn font_awesome_solid_pepper_hot(
             crate::IconProps {
@@ -19867,7 +19867,7 @@ impl IconData {
             html: font_awesome_solid_pepper_hot,
         }
     };
-    const FONT_AWESOME_SOLID_PERCENT: Self = {
+    pub const FONT_AWESOME_SOLID_PERCENT: Self = {
         #[inline(never)]
         fn font_awesome_solid_percent(
             crate::IconProps {
@@ -19889,7 +19889,7 @@ impl IconData {
             html: font_awesome_solid_percent,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_ARROW_DOWN_TO_LINE: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_ARROW_DOWN_TO_LINE: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_arrow_down_to_line(
             crate::IconProps {
@@ -19911,7 +19911,7 @@ impl IconData {
             html: font_awesome_solid_person_arrow_down_to_line,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_ARROW_UP_FROM_LINE: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_ARROW_UP_FROM_LINE: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_arrow_up_from_line(
             crate::IconProps {
@@ -19933,7 +19933,7 @@ impl IconData {
             html: font_awesome_solid_person_arrow_up_from_line,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_BIKING: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_BIKING: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_biking(
             crate::IconProps {
@@ -19955,7 +19955,7 @@ impl IconData {
             html: font_awesome_solid_person_biking,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_BOOTH: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_BOOTH: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_booth(
             crate::IconProps {
@@ -19977,7 +19977,7 @@ impl IconData {
             html: font_awesome_solid_person_booth,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_BREASTFEEDING: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_BREASTFEEDING: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_breastfeeding(
             crate::IconProps {
@@ -19999,7 +19999,7 @@ impl IconData {
             html: font_awesome_solid_person_breastfeeding,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_BURST: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_BURST: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_burst(
             crate::IconProps {
@@ -20021,7 +20021,7 @@ impl IconData {
             html: font_awesome_solid_person_burst,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_CANE: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_CANE: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_cane(
             crate::IconProps {
@@ -20043,7 +20043,7 @@ impl IconData {
             html: font_awesome_solid_person_cane,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_CHALKBOARD: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_CHALKBOARD: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_chalkboard(
             crate::IconProps {
@@ -20065,7 +20065,7 @@ impl IconData {
             html: font_awesome_solid_person_chalkboard,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_CIRCLE_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_CIRCLE_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_circle_check(
             crate::IconProps {
@@ -20087,7 +20087,7 @@ impl IconData {
             html: font_awesome_solid_person_circle_check,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_CIRCLE_EXCLAMATION: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_CIRCLE_EXCLAMATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_circle_exclamation(
             crate::IconProps {
@@ -20109,7 +20109,7 @@ impl IconData {
             html: font_awesome_solid_person_circle_exclamation,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_CIRCLE_MINUS: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_CIRCLE_MINUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_circle_minus(
             crate::IconProps {
@@ -20131,7 +20131,7 @@ impl IconData {
             html: font_awesome_solid_person_circle_minus,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_CIRCLE_PLUS: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_CIRCLE_PLUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_circle_plus(
             crate::IconProps {
@@ -20153,7 +20153,7 @@ impl IconData {
             html: font_awesome_solid_person_circle_plus,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_CIRCLE_QUESTION: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_CIRCLE_QUESTION: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_circle_question(
             crate::IconProps {
@@ -20175,7 +20175,7 @@ impl IconData {
             html: font_awesome_solid_person_circle_question,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_CIRCLE_XMARK: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_CIRCLE_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_circle_xmark(
             crate::IconProps {
@@ -20197,7 +20197,7 @@ impl IconData {
             html: font_awesome_solid_person_circle_xmark,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_DIGGING: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_DIGGING: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_digging(
             crate::IconProps {
@@ -20219,7 +20219,7 @@ impl IconData {
             html: font_awesome_solid_person_digging,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_DOTS_FROM_LINE: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_DOTS_FROM_LINE: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_dots_from_line(
             crate::IconProps {
@@ -20241,7 +20241,7 @@ impl IconData {
             html: font_awesome_solid_person_dots_from_line,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_DRESS_BURST: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_DRESS_BURST: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_dress_burst(
             crate::IconProps {
@@ -20263,7 +20263,7 @@ impl IconData {
             html: font_awesome_solid_person_dress_burst,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_DRESS: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_DRESS: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_dress(
             crate::IconProps {
@@ -20285,7 +20285,7 @@ impl IconData {
             html: font_awesome_solid_person_dress,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_DROWNING: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_DROWNING: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_drowning(
             crate::IconProps {
@@ -20307,7 +20307,7 @@ impl IconData {
             html: font_awesome_solid_person_drowning,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_FALLING_BURST: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_FALLING_BURST: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_falling_burst(
             crate::IconProps {
@@ -20329,7 +20329,7 @@ impl IconData {
             html: font_awesome_solid_person_falling_burst,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_FALLING: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_FALLING: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_falling(
             crate::IconProps {
@@ -20351,7 +20351,7 @@ impl IconData {
             html: font_awesome_solid_person_falling,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_HALF_DRESS: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_HALF_DRESS: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_half_dress(
             crate::IconProps {
@@ -20373,7 +20373,7 @@ impl IconData {
             html: font_awesome_solid_person_half_dress,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_HARASSING: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_HARASSING: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_harassing(
             crate::IconProps {
@@ -20395,7 +20395,7 @@ impl IconData {
             html: font_awesome_solid_person_harassing,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_HIKING: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_HIKING: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_hiking(
             crate::IconProps {
@@ -20417,7 +20417,7 @@ impl IconData {
             html: font_awesome_solid_person_hiking,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_MILITARY_POINTING: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_MILITARY_POINTING: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_military_pointing(
             crate::IconProps {
@@ -20439,7 +20439,7 @@ impl IconData {
             html: font_awesome_solid_person_military_pointing,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_MILITARY_RIFLE: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_MILITARY_RIFLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_military_rifle(
             crate::IconProps {
@@ -20461,7 +20461,7 @@ impl IconData {
             html: font_awesome_solid_person_military_rifle,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_MILITARY_TO_PERSON: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_MILITARY_TO_PERSON: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_military_to_person(
             crate::IconProps {
@@ -20483,7 +20483,7 @@ impl IconData {
             html: font_awesome_solid_person_military_to_person,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_PRAYING: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_PRAYING: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_praying(
             crate::IconProps {
@@ -20505,7 +20505,7 @@ impl IconData {
             html: font_awesome_solid_person_praying,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_PREGNANT: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_PREGNANT: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_pregnant(
             crate::IconProps {
@@ -20527,7 +20527,7 @@ impl IconData {
             html: font_awesome_solid_person_pregnant,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_RAYS: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_RAYS: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_rays(
             crate::IconProps {
@@ -20549,7 +20549,7 @@ impl IconData {
             html: font_awesome_solid_person_rays,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_RIFLE: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_RIFLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_rifle(
             crate::IconProps {
@@ -20571,7 +20571,7 @@ impl IconData {
             html: font_awesome_solid_person_rifle,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_RUNNING: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_RUNNING: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_running(
             crate::IconProps {
@@ -20593,7 +20593,7 @@ impl IconData {
             html: font_awesome_solid_person_running,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_SHELTER: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_SHELTER: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_shelter(
             crate::IconProps {
@@ -20615,7 +20615,7 @@ impl IconData {
             html: font_awesome_solid_person_shelter,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_SKATING: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_SKATING: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_skating(
             crate::IconProps {
@@ -20637,7 +20637,7 @@ impl IconData {
             html: font_awesome_solid_person_skating,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_SKIING_NORDIC: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_SKIING_NORDIC: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_skiing_nordic(
             crate::IconProps {
@@ -20659,7 +20659,7 @@ impl IconData {
             html: font_awesome_solid_person_skiing_nordic,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_SKIING: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_SKIING: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_skiing(
             crate::IconProps {
@@ -20681,7 +20681,7 @@ impl IconData {
             html: font_awesome_solid_person_skiing,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_SNOWBOARDING: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_SNOWBOARDING: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_snowboarding(
             crate::IconProps {
@@ -20703,7 +20703,7 @@ impl IconData {
             html: font_awesome_solid_person_snowboarding,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_SWIMMING: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_SWIMMING: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_swimming(
             crate::IconProps {
@@ -20725,7 +20725,7 @@ impl IconData {
             html: font_awesome_solid_person_swimming,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_THROUGH_WINDOW: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_THROUGH_WINDOW: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_through_window(
             crate::IconProps {
@@ -20747,7 +20747,7 @@ impl IconData {
             html: font_awesome_solid_person_through_window,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_WALKING_ARROW_LOOP_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_WALKING_ARROW_LOOP_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_walking_arrow_loop_left(
             crate::IconProps {
@@ -20769,7 +20769,7 @@ impl IconData {
             html: font_awesome_solid_person_walking_arrow_loop_left,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_WALKING_ARROW_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_WALKING_ARROW_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_walking_arrow_right(
             crate::IconProps {
@@ -20791,7 +20791,7 @@ impl IconData {
             html: font_awesome_solid_person_walking_arrow_right,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_WALKING_DASHED_LINE_ARROW_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_WALKING_DASHED_LINE_ARROW_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_walking_dashed_line_arrow_right(
             crate::IconProps {
@@ -20813,7 +20813,7 @@ impl IconData {
             html: font_awesome_solid_person_walking_dashed_line_arrow_right,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_WALKING_LUGGAGE: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_WALKING_LUGGAGE: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_walking_luggage(
             crate::IconProps {
@@ -20835,7 +20835,7 @@ impl IconData {
             html: font_awesome_solid_person_walking_luggage,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_WALKING_WITH_CANE: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_WALKING_WITH_CANE: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_walking_with_cane(
             crate::IconProps {
@@ -20857,7 +20857,7 @@ impl IconData {
             html: font_awesome_solid_person_walking_with_cane,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON_WALKING: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON_WALKING: Self = {
         #[inline(never)]
         fn font_awesome_solid_person_walking(
             crate::IconProps {
@@ -20879,7 +20879,7 @@ impl IconData {
             html: font_awesome_solid_person_walking,
         }
     };
-    const FONT_AWESOME_SOLID_PERSON: Self = {
+    pub const FONT_AWESOME_SOLID_PERSON: Self = {
         #[inline(never)]
         fn font_awesome_solid_person(
             crate::IconProps {
@@ -20901,7 +20901,7 @@ impl IconData {
             html: font_awesome_solid_person,
         }
     };
-    const FONT_AWESOME_SOLID_PESETA_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_PESETA_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_peseta_sign(
             crate::IconProps {
@@ -20923,7 +20923,7 @@ impl IconData {
             html: font_awesome_solid_peseta_sign,
         }
     };
-    const FONT_AWESOME_SOLID_PESO_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_PESO_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_peso_sign(
             crate::IconProps {
@@ -20945,7 +20945,7 @@ impl IconData {
             html: font_awesome_solid_peso_sign,
         }
     };
-    const FONT_AWESOME_SOLID_PHONE_FLIP: Self = {
+    pub const FONT_AWESOME_SOLID_PHONE_FLIP: Self = {
         #[inline(never)]
         fn font_awesome_solid_phone_flip(
             crate::IconProps {
@@ -20967,7 +20967,7 @@ impl IconData {
             html: font_awesome_solid_phone_flip,
         }
     };
-    const FONT_AWESOME_SOLID_PHONE_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_PHONE_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_phone_slash(
             crate::IconProps {
@@ -20989,7 +20989,7 @@ impl IconData {
             html: font_awesome_solid_phone_slash,
         }
     };
-    const FONT_AWESOME_SOLID_PHONE_VOLUME: Self = {
+    pub const FONT_AWESOME_SOLID_PHONE_VOLUME: Self = {
         #[inline(never)]
         fn font_awesome_solid_phone_volume(
             crate::IconProps {
@@ -21011,7 +21011,7 @@ impl IconData {
             html: font_awesome_solid_phone_volume,
         }
     };
-    const FONT_AWESOME_SOLID_PHONE: Self = {
+    pub const FONT_AWESOME_SOLID_PHONE: Self = {
         #[inline(never)]
         fn font_awesome_solid_phone(
             crate::IconProps {
@@ -21033,7 +21033,7 @@ impl IconData {
             html: font_awesome_solid_phone,
         }
     };
-    const FONT_AWESOME_SOLID_PHOTO_FILM: Self = {
+    pub const FONT_AWESOME_SOLID_PHOTO_FILM: Self = {
         #[inline(never)]
         fn font_awesome_solid_photo_film(
             crate::IconProps {
@@ -21055,7 +21055,7 @@ impl IconData {
             html: font_awesome_solid_photo_film,
         }
     };
-    const FONT_AWESOME_SOLID_PIGGY_BANK: Self = {
+    pub const FONT_AWESOME_SOLID_PIGGY_BANK: Self = {
         #[inline(never)]
         fn font_awesome_solid_piggy_bank(
             crate::IconProps {
@@ -21077,7 +21077,7 @@ impl IconData {
             html: font_awesome_solid_piggy_bank,
         }
     };
-    const FONT_AWESOME_SOLID_PILLS: Self = {
+    pub const FONT_AWESOME_SOLID_PILLS: Self = {
         #[inline(never)]
         fn font_awesome_solid_pills(
             crate::IconProps {
@@ -21099,7 +21099,7 @@ impl IconData {
             html: font_awesome_solid_pills,
         }
     };
-    const FONT_AWESOME_SOLID_PIZZA_SLICE: Self = {
+    pub const FONT_AWESOME_SOLID_PIZZA_SLICE: Self = {
         #[inline(never)]
         fn font_awesome_solid_pizza_slice(
             crate::IconProps {
@@ -21121,7 +21121,7 @@ impl IconData {
             html: font_awesome_solid_pizza_slice,
         }
     };
-    const FONT_AWESOME_SOLID_PLACE_OF_WORSHIP: Self = {
+    pub const FONT_AWESOME_SOLID_PLACE_OF_WORSHIP: Self = {
         #[inline(never)]
         fn font_awesome_solid_place_of_worship(
             crate::IconProps {
@@ -21143,7 +21143,7 @@ impl IconData {
             html: font_awesome_solid_place_of_worship,
         }
     };
-    const FONT_AWESOME_SOLID_PLANE_ARRIVAL: Self = {
+    pub const FONT_AWESOME_SOLID_PLANE_ARRIVAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_plane_arrival(
             crate::IconProps {
@@ -21165,7 +21165,7 @@ impl IconData {
             html: font_awesome_solid_plane_arrival,
         }
     };
-    const FONT_AWESOME_SOLID_PLANE_CIRCLE_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_PLANE_CIRCLE_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_plane_circle_check(
             crate::IconProps {
@@ -21187,7 +21187,7 @@ impl IconData {
             html: font_awesome_solid_plane_circle_check,
         }
     };
-    const FONT_AWESOME_SOLID_PLANE_CIRCLE_EXCLAMATION: Self = {
+    pub const FONT_AWESOME_SOLID_PLANE_CIRCLE_EXCLAMATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_plane_circle_exclamation(
             crate::IconProps {
@@ -21209,7 +21209,7 @@ impl IconData {
             html: font_awesome_solid_plane_circle_exclamation,
         }
     };
-    const FONT_AWESOME_SOLID_PLANE_CIRCLE_XMARK: Self = {
+    pub const FONT_AWESOME_SOLID_PLANE_CIRCLE_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_plane_circle_xmark(
             crate::IconProps {
@@ -21231,7 +21231,7 @@ impl IconData {
             html: font_awesome_solid_plane_circle_xmark,
         }
     };
-    const FONT_AWESOME_SOLID_PLANE_DEPARTURE: Self = {
+    pub const FONT_AWESOME_SOLID_PLANE_DEPARTURE: Self = {
         #[inline(never)]
         fn font_awesome_solid_plane_departure(
             crate::IconProps {
@@ -21253,7 +21253,7 @@ impl IconData {
             html: font_awesome_solid_plane_departure,
         }
     };
-    const FONT_AWESOME_SOLID_PLANE_LOCK: Self = {
+    pub const FONT_AWESOME_SOLID_PLANE_LOCK: Self = {
         #[inline(never)]
         fn font_awesome_solid_plane_lock(
             crate::IconProps {
@@ -21275,7 +21275,7 @@ impl IconData {
             html: font_awesome_solid_plane_lock,
         }
     };
-    const FONT_AWESOME_SOLID_PLANE_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_PLANE_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_plane_slash(
             crate::IconProps {
@@ -21297,7 +21297,7 @@ impl IconData {
             html: font_awesome_solid_plane_slash,
         }
     };
-    const FONT_AWESOME_SOLID_PLANE_UP: Self = {
+    pub const FONT_AWESOME_SOLID_PLANE_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_plane_up(
             crate::IconProps {
@@ -21319,7 +21319,7 @@ impl IconData {
             html: font_awesome_solid_plane_up,
         }
     };
-    const FONT_AWESOME_SOLID_PLANE: Self = {
+    pub const FONT_AWESOME_SOLID_PLANE: Self = {
         #[inline(never)]
         fn font_awesome_solid_plane(
             crate::IconProps {
@@ -21341,7 +21341,7 @@ impl IconData {
             html: font_awesome_solid_plane,
         }
     };
-    const FONT_AWESOME_SOLID_PLANT_WILT: Self = {
+    pub const FONT_AWESOME_SOLID_PLANT_WILT: Self = {
         #[inline(never)]
         fn font_awesome_solid_plant_wilt(
             crate::IconProps {
@@ -21363,7 +21363,7 @@ impl IconData {
             html: font_awesome_solid_plant_wilt,
         }
     };
-    const FONT_AWESOME_SOLID_PLATE_WHEAT: Self = {
+    pub const FONT_AWESOME_SOLID_PLATE_WHEAT: Self = {
         #[inline(never)]
         fn font_awesome_solid_plate_wheat(
             crate::IconProps {
@@ -21385,7 +21385,7 @@ impl IconData {
             html: font_awesome_solid_plate_wheat,
         }
     };
-    const FONT_AWESOME_SOLID_PLAY: Self = {
+    pub const FONT_AWESOME_SOLID_PLAY: Self = {
         #[inline(never)]
         fn font_awesome_solid_play(
             crate::IconProps {
@@ -21407,7 +21407,7 @@ impl IconData {
             html: font_awesome_solid_play,
         }
     };
-    const FONT_AWESOME_SOLID_PLUG_CIRCLE_BOLT: Self = {
+    pub const FONT_AWESOME_SOLID_PLUG_CIRCLE_BOLT: Self = {
         #[inline(never)]
         fn font_awesome_solid_plug_circle_bolt(
             crate::IconProps {
@@ -21429,7 +21429,7 @@ impl IconData {
             html: font_awesome_solid_plug_circle_bolt,
         }
     };
-    const FONT_AWESOME_SOLID_PLUG_CIRCLE_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_PLUG_CIRCLE_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_plug_circle_check(
             crate::IconProps {
@@ -21451,7 +21451,7 @@ impl IconData {
             html: font_awesome_solid_plug_circle_check,
         }
     };
-    const FONT_AWESOME_SOLID_PLUG_CIRCLE_EXCLAMATION: Self = {
+    pub const FONT_AWESOME_SOLID_PLUG_CIRCLE_EXCLAMATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_plug_circle_exclamation(
             crate::IconProps {
@@ -21473,7 +21473,7 @@ impl IconData {
             html: font_awesome_solid_plug_circle_exclamation,
         }
     };
-    const FONT_AWESOME_SOLID_PLUG_CIRCLE_MINUS: Self = {
+    pub const FONT_AWESOME_SOLID_PLUG_CIRCLE_MINUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_plug_circle_minus(
             crate::IconProps {
@@ -21495,7 +21495,7 @@ impl IconData {
             html: font_awesome_solid_plug_circle_minus,
         }
     };
-    const FONT_AWESOME_SOLID_PLUG_CIRCLE_PLUS: Self = {
+    pub const FONT_AWESOME_SOLID_PLUG_CIRCLE_PLUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_plug_circle_plus(
             crate::IconProps {
@@ -21517,7 +21517,7 @@ impl IconData {
             html: font_awesome_solid_plug_circle_plus,
         }
     };
-    const FONT_AWESOME_SOLID_PLUG_CIRCLE_XMARK: Self = {
+    pub const FONT_AWESOME_SOLID_PLUG_CIRCLE_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_plug_circle_xmark(
             crate::IconProps {
@@ -21539,7 +21539,7 @@ impl IconData {
             html: font_awesome_solid_plug_circle_xmark,
         }
     };
-    const FONT_AWESOME_SOLID_PLUG: Self = {
+    pub const FONT_AWESOME_SOLID_PLUG: Self = {
         #[inline(never)]
         fn font_awesome_solid_plug(
             crate::IconProps {
@@ -21561,7 +21561,7 @@ impl IconData {
             html: font_awesome_solid_plug,
         }
     };
-    const FONT_AWESOME_SOLID_PLUS_MINUS: Self = {
+    pub const FONT_AWESOME_SOLID_PLUS_MINUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_plus_minus(
             crate::IconProps {
@@ -21583,7 +21583,7 @@ impl IconData {
             html: font_awesome_solid_plus_minus,
         }
     };
-    const FONT_AWESOME_SOLID_PLUS: Self = {
+    pub const FONT_AWESOME_SOLID_PLUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_plus(
             crate::IconProps {
@@ -21605,7 +21605,7 @@ impl IconData {
             html: font_awesome_solid_plus,
         }
     };
-    const FONT_AWESOME_SOLID_PODCAST: Self = {
+    pub const FONT_AWESOME_SOLID_PODCAST: Self = {
         #[inline(never)]
         fn font_awesome_solid_podcast(
             crate::IconProps {
@@ -21627,7 +21627,7 @@ impl IconData {
             html: font_awesome_solid_podcast,
         }
     };
-    const FONT_AWESOME_SOLID_POO_STORM: Self = {
+    pub const FONT_AWESOME_SOLID_POO_STORM: Self = {
         #[inline(never)]
         fn font_awesome_solid_poo_storm(
             crate::IconProps {
@@ -21649,7 +21649,7 @@ impl IconData {
             html: font_awesome_solid_poo_storm,
         }
     };
-    const FONT_AWESOME_SOLID_POO: Self = {
+    pub const FONT_AWESOME_SOLID_POO: Self = {
         #[inline(never)]
         fn font_awesome_solid_poo(
             crate::IconProps {
@@ -21671,7 +21671,7 @@ impl IconData {
             html: font_awesome_solid_poo,
         }
     };
-    const FONT_AWESOME_SOLID_POOP: Self = {
+    pub const FONT_AWESOME_SOLID_POOP: Self = {
         #[inline(never)]
         fn font_awesome_solid_poop(
             crate::IconProps {
@@ -21693,7 +21693,7 @@ impl IconData {
             html: font_awesome_solid_poop,
         }
     };
-    const FONT_AWESOME_SOLID_POWER_OFF: Self = {
+    pub const FONT_AWESOME_SOLID_POWER_OFF: Self = {
         #[inline(never)]
         fn font_awesome_solid_power_off(
             crate::IconProps {
@@ -21715,7 +21715,7 @@ impl IconData {
             html: font_awesome_solid_power_off,
         }
     };
-    const FONT_AWESOME_SOLID_PRESCRIPTION_BOTTLE_MEDICAL: Self = {
+    pub const FONT_AWESOME_SOLID_PRESCRIPTION_BOTTLE_MEDICAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_prescription_bottle_medical(
             crate::IconProps {
@@ -21737,7 +21737,7 @@ impl IconData {
             html: font_awesome_solid_prescription_bottle_medical,
         }
     };
-    const FONT_AWESOME_SOLID_PRESCRIPTION_BOTTLE: Self = {
+    pub const FONT_AWESOME_SOLID_PRESCRIPTION_BOTTLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_prescription_bottle(
             crate::IconProps {
@@ -21759,7 +21759,7 @@ impl IconData {
             html: font_awesome_solid_prescription_bottle,
         }
     };
-    const FONT_AWESOME_SOLID_PRESCRIPTION: Self = {
+    pub const FONT_AWESOME_SOLID_PRESCRIPTION: Self = {
         #[inline(never)]
         fn font_awesome_solid_prescription(
             crate::IconProps {
@@ -21781,7 +21781,7 @@ impl IconData {
             html: font_awesome_solid_prescription,
         }
     };
-    const FONT_AWESOME_SOLID_PRINT: Self = {
+    pub const FONT_AWESOME_SOLID_PRINT: Self = {
         #[inline(never)]
         fn font_awesome_solid_print(
             crate::IconProps {
@@ -21803,7 +21803,7 @@ impl IconData {
             html: font_awesome_solid_print,
         }
     };
-    const FONT_AWESOME_SOLID_PUMP_MEDICAL: Self = {
+    pub const FONT_AWESOME_SOLID_PUMP_MEDICAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_pump_medical(
             crate::IconProps {
@@ -21825,7 +21825,7 @@ impl IconData {
             html: font_awesome_solid_pump_medical,
         }
     };
-    const FONT_AWESOME_SOLID_PUMP_SOAP: Self = {
+    pub const FONT_AWESOME_SOLID_PUMP_SOAP: Self = {
         #[inline(never)]
         fn font_awesome_solid_pump_soap(
             crate::IconProps {
@@ -21847,7 +21847,7 @@ impl IconData {
             html: font_awesome_solid_pump_soap,
         }
     };
-    const FONT_AWESOME_SOLID_PUZZLE_PIECE: Self = {
+    pub const FONT_AWESOME_SOLID_PUZZLE_PIECE: Self = {
         #[inline(never)]
         fn font_awesome_solid_puzzle_piece(
             crate::IconProps {
@@ -21869,7 +21869,7 @@ impl IconData {
             html: font_awesome_solid_puzzle_piece,
         }
     };
-    const FONT_AWESOME_SOLID_Q: Self = {
+    pub const FONT_AWESOME_SOLID_Q: Self = {
         #[inline(never)]
         fn font_awesome_solid_q(
             crate::IconProps {
@@ -21891,7 +21891,7 @@ impl IconData {
             html: font_awesome_solid_q,
         }
     };
-    const FONT_AWESOME_SOLID_QRCODE: Self = {
+    pub const FONT_AWESOME_SOLID_QRCODE: Self = {
         #[inline(never)]
         fn font_awesome_solid_qrcode(
             crate::IconProps {
@@ -21913,7 +21913,7 @@ impl IconData {
             html: font_awesome_solid_qrcode,
         }
     };
-    const FONT_AWESOME_SOLID_QUESTION: Self = {
+    pub const FONT_AWESOME_SOLID_QUESTION: Self = {
         #[inline(never)]
         fn font_awesome_solid_question(
             crate::IconProps {
@@ -21935,7 +21935,7 @@ impl IconData {
             html: font_awesome_solid_question,
         }
     };
-    const FONT_AWESOME_SOLID_QUOTE_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_QUOTE_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_quote_left(
             crate::IconProps {
@@ -21957,7 +21957,7 @@ impl IconData {
             html: font_awesome_solid_quote_left,
         }
     };
-    const FONT_AWESOME_SOLID_QUOTE_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_QUOTE_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_quote_right(
             crate::IconProps {
@@ -21979,7 +21979,7 @@ impl IconData {
             html: font_awesome_solid_quote_right,
         }
     };
-    const FONT_AWESOME_SOLID_R: Self = {
+    pub const FONT_AWESOME_SOLID_R: Self = {
         #[inline(never)]
         fn font_awesome_solid_r(
             crate::IconProps {
@@ -22001,7 +22001,7 @@ impl IconData {
             html: font_awesome_solid_r,
         }
     };
-    const FONT_AWESOME_SOLID_RADIATION: Self = {
+    pub const FONT_AWESOME_SOLID_RADIATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_radiation(
             crate::IconProps {
@@ -22023,7 +22023,7 @@ impl IconData {
             html: font_awesome_solid_radiation,
         }
     };
-    const FONT_AWESOME_SOLID_RADIO: Self = {
+    pub const FONT_AWESOME_SOLID_RADIO: Self = {
         #[inline(never)]
         fn font_awesome_solid_radio(
             crate::IconProps {
@@ -22045,7 +22045,7 @@ impl IconData {
             html: font_awesome_solid_radio,
         }
     };
-    const FONT_AWESOME_SOLID_RAINBOW: Self = {
+    pub const FONT_AWESOME_SOLID_RAINBOW: Self = {
         #[inline(never)]
         fn font_awesome_solid_rainbow(
             crate::IconProps {
@@ -22067,7 +22067,7 @@ impl IconData {
             html: font_awesome_solid_rainbow,
         }
     };
-    const FONT_AWESOME_SOLID_RANKING_STAR: Self = {
+    pub const FONT_AWESOME_SOLID_RANKING_STAR: Self = {
         #[inline(never)]
         fn font_awesome_solid_ranking_star(
             crate::IconProps {
@@ -22089,7 +22089,7 @@ impl IconData {
             html: font_awesome_solid_ranking_star,
         }
     };
-    const FONT_AWESOME_SOLID_RECEIPT: Self = {
+    pub const FONT_AWESOME_SOLID_RECEIPT: Self = {
         #[inline(never)]
         fn font_awesome_solid_receipt(
             crate::IconProps {
@@ -22111,7 +22111,7 @@ impl IconData {
             html: font_awesome_solid_receipt,
         }
     };
-    const FONT_AWESOME_SOLID_RECORD_VINYL: Self = {
+    pub const FONT_AWESOME_SOLID_RECORD_VINYL: Self = {
         #[inline(never)]
         fn font_awesome_solid_record_vinyl(
             crate::IconProps {
@@ -22133,7 +22133,7 @@ impl IconData {
             html: font_awesome_solid_record_vinyl,
         }
     };
-    const FONT_AWESOME_SOLID_RECTANGLE_AD: Self = {
+    pub const FONT_AWESOME_SOLID_RECTANGLE_AD: Self = {
         #[inline(never)]
         fn font_awesome_solid_rectangle_ad(
             crate::IconProps {
@@ -22155,7 +22155,7 @@ impl IconData {
             html: font_awesome_solid_rectangle_ad,
         }
     };
-    const FONT_AWESOME_SOLID_RECTANGLE_LIST: Self = {
+    pub const FONT_AWESOME_SOLID_RECTANGLE_LIST: Self = {
         #[inline(never)]
         fn font_awesome_solid_rectangle_list(
             crate::IconProps {
@@ -22177,7 +22177,7 @@ impl IconData {
             html: font_awesome_solid_rectangle_list,
         }
     };
-    const FONT_AWESOME_SOLID_RECTANGLE_XMARK: Self = {
+    pub const FONT_AWESOME_SOLID_RECTANGLE_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_rectangle_xmark(
             crate::IconProps {
@@ -22199,7 +22199,7 @@ impl IconData {
             html: font_awesome_solid_rectangle_xmark,
         }
     };
-    const FONT_AWESOME_SOLID_RECYCLE: Self = {
+    pub const FONT_AWESOME_SOLID_RECYCLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_recycle(
             crate::IconProps {
@@ -22221,7 +22221,7 @@ impl IconData {
             html: font_awesome_solid_recycle,
         }
     };
-    const FONT_AWESOME_SOLID_REGISTERED: Self = {
+    pub const FONT_AWESOME_SOLID_REGISTERED: Self = {
         #[inline(never)]
         fn font_awesome_solid_registered(
             crate::IconProps {
@@ -22243,7 +22243,7 @@ impl IconData {
             html: font_awesome_solid_registered,
         }
     };
-    const FONT_AWESOME_SOLID_REPEAT: Self = {
+    pub const FONT_AWESOME_SOLID_REPEAT: Self = {
         #[inline(never)]
         fn font_awesome_solid_repeat(
             crate::IconProps {
@@ -22265,7 +22265,7 @@ impl IconData {
             html: font_awesome_solid_repeat,
         }
     };
-    const FONT_AWESOME_SOLID_REPLY_ALL: Self = {
+    pub const FONT_AWESOME_SOLID_REPLY_ALL: Self = {
         #[inline(never)]
         fn font_awesome_solid_reply_all(
             crate::IconProps {
@@ -22287,7 +22287,7 @@ impl IconData {
             html: font_awesome_solid_reply_all,
         }
     };
-    const FONT_AWESOME_SOLID_REPLY: Self = {
+    pub const FONT_AWESOME_SOLID_REPLY: Self = {
         #[inline(never)]
         fn font_awesome_solid_reply(
             crate::IconProps {
@@ -22309,7 +22309,7 @@ impl IconData {
             html: font_awesome_solid_reply,
         }
     };
-    const FONT_AWESOME_SOLID_REPUBLICAN: Self = {
+    pub const FONT_AWESOME_SOLID_REPUBLICAN: Self = {
         #[inline(never)]
         fn font_awesome_solid_republican(
             crate::IconProps {
@@ -22331,7 +22331,7 @@ impl IconData {
             html: font_awesome_solid_republican,
         }
     };
-    const FONT_AWESOME_SOLID_RESTROOM: Self = {
+    pub const FONT_AWESOME_SOLID_RESTROOM: Self = {
         #[inline(never)]
         fn font_awesome_solid_restroom(
             crate::IconProps {
@@ -22353,7 +22353,7 @@ impl IconData {
             html: font_awesome_solid_restroom,
         }
     };
-    const FONT_AWESOME_SOLID_RETWEET: Self = {
+    pub const FONT_AWESOME_SOLID_RETWEET: Self = {
         #[inline(never)]
         fn font_awesome_solid_retweet(
             crate::IconProps {
@@ -22375,7 +22375,7 @@ impl IconData {
             html: font_awesome_solid_retweet,
         }
     };
-    const FONT_AWESOME_SOLID_RIBBON: Self = {
+    pub const FONT_AWESOME_SOLID_RIBBON: Self = {
         #[inline(never)]
         fn font_awesome_solid_ribbon(
             crate::IconProps {
@@ -22397,7 +22397,7 @@ impl IconData {
             html: font_awesome_solid_ribbon,
         }
     };
-    const FONT_AWESOME_SOLID_RIGHT_FROM_BRACKET: Self = {
+    pub const FONT_AWESOME_SOLID_RIGHT_FROM_BRACKET: Self = {
         #[inline(never)]
         fn font_awesome_solid_right_from_bracket(
             crate::IconProps {
@@ -22419,7 +22419,7 @@ impl IconData {
             html: font_awesome_solid_right_from_bracket,
         }
     };
-    const FONT_AWESOME_SOLID_RIGHT_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_RIGHT_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_right_left(
             crate::IconProps {
@@ -22441,7 +22441,7 @@ impl IconData {
             html: font_awesome_solid_right_left,
         }
     };
-    const FONT_AWESOME_SOLID_RIGHT_LONG: Self = {
+    pub const FONT_AWESOME_SOLID_RIGHT_LONG: Self = {
         #[inline(never)]
         fn font_awesome_solid_right_long(
             crate::IconProps {
@@ -22463,7 +22463,7 @@ impl IconData {
             html: font_awesome_solid_right_long,
         }
     };
-    const FONT_AWESOME_SOLID_RIGHT_TO_BRACKET: Self = {
+    pub const FONT_AWESOME_SOLID_RIGHT_TO_BRACKET: Self = {
         #[inline(never)]
         fn font_awesome_solid_right_to_bracket(
             crate::IconProps {
@@ -22485,7 +22485,7 @@ impl IconData {
             html: font_awesome_solid_right_to_bracket,
         }
     };
-    const FONT_AWESOME_SOLID_RING: Self = {
+    pub const FONT_AWESOME_SOLID_RING: Self = {
         #[inline(never)]
         fn font_awesome_solid_ring(
             crate::IconProps {
@@ -22507,7 +22507,7 @@ impl IconData {
             html: font_awesome_solid_ring,
         }
     };
-    const FONT_AWESOME_SOLID_ROAD_BARRIER: Self = {
+    pub const FONT_AWESOME_SOLID_ROAD_BARRIER: Self = {
         #[inline(never)]
         fn font_awesome_solid_road_barrier(
             crate::IconProps {
@@ -22529,7 +22529,7 @@ impl IconData {
             html: font_awesome_solid_road_barrier,
         }
     };
-    const FONT_AWESOME_SOLID_ROAD_BRIDGE: Self = {
+    pub const FONT_AWESOME_SOLID_ROAD_BRIDGE: Self = {
         #[inline(never)]
         fn font_awesome_solid_road_bridge(
             crate::IconProps {
@@ -22551,7 +22551,7 @@ impl IconData {
             html: font_awesome_solid_road_bridge,
         }
     };
-    const FONT_AWESOME_SOLID_ROAD_CIRCLE_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_ROAD_CIRCLE_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_road_circle_check(
             crate::IconProps {
@@ -22573,7 +22573,7 @@ impl IconData {
             html: font_awesome_solid_road_circle_check,
         }
     };
-    const FONT_AWESOME_SOLID_ROAD_CIRCLE_EXCLAMATION: Self = {
+    pub const FONT_AWESOME_SOLID_ROAD_CIRCLE_EXCLAMATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_road_circle_exclamation(
             crate::IconProps {
@@ -22595,7 +22595,7 @@ impl IconData {
             html: font_awesome_solid_road_circle_exclamation,
         }
     };
-    const FONT_AWESOME_SOLID_ROAD_CIRCLE_XMARK: Self = {
+    pub const FONT_AWESOME_SOLID_ROAD_CIRCLE_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_road_circle_xmark(
             crate::IconProps {
@@ -22617,7 +22617,7 @@ impl IconData {
             html: font_awesome_solid_road_circle_xmark,
         }
     };
-    const FONT_AWESOME_SOLID_ROAD_LOCK: Self = {
+    pub const FONT_AWESOME_SOLID_ROAD_LOCK: Self = {
         #[inline(never)]
         fn font_awesome_solid_road_lock(
             crate::IconProps {
@@ -22639,7 +22639,7 @@ impl IconData {
             html: font_awesome_solid_road_lock,
         }
     };
-    const FONT_AWESOME_SOLID_ROAD_SPIKES: Self = {
+    pub const FONT_AWESOME_SOLID_ROAD_SPIKES: Self = {
         #[inline(never)]
         fn font_awesome_solid_road_spikes(
             crate::IconProps {
@@ -22661,7 +22661,7 @@ impl IconData {
             html: font_awesome_solid_road_spikes,
         }
     };
-    const FONT_AWESOME_SOLID_ROAD: Self = {
+    pub const FONT_AWESOME_SOLID_ROAD: Self = {
         #[inline(never)]
         fn font_awesome_solid_road(
             crate::IconProps {
@@ -22683,7 +22683,7 @@ impl IconData {
             html: font_awesome_solid_road,
         }
     };
-    const FONT_AWESOME_SOLID_ROBOT: Self = {
+    pub const FONT_AWESOME_SOLID_ROBOT: Self = {
         #[inline(never)]
         fn font_awesome_solid_robot(
             crate::IconProps {
@@ -22705,7 +22705,7 @@ impl IconData {
             html: font_awesome_solid_robot,
         }
     };
-    const FONT_AWESOME_SOLID_ROCKET: Self = {
+    pub const FONT_AWESOME_SOLID_ROCKET: Self = {
         #[inline(never)]
         fn font_awesome_solid_rocket(
             crate::IconProps {
@@ -22727,7 +22727,7 @@ impl IconData {
             html: font_awesome_solid_rocket,
         }
     };
-    const FONT_AWESOME_SOLID_ROTATE_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_ROTATE_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_rotate_left(
             crate::IconProps {
@@ -22749,7 +22749,7 @@ impl IconData {
             html: font_awesome_solid_rotate_left,
         }
     };
-    const FONT_AWESOME_SOLID_ROTATE_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_ROTATE_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_rotate_right(
             crate::IconProps {
@@ -22771,7 +22771,7 @@ impl IconData {
             html: font_awesome_solid_rotate_right,
         }
     };
-    const FONT_AWESOME_SOLID_ROTATE: Self = {
+    pub const FONT_AWESOME_SOLID_ROTATE: Self = {
         #[inline(never)]
         fn font_awesome_solid_rotate(
             crate::IconProps {
@@ -22793,7 +22793,7 @@ impl IconData {
             html: font_awesome_solid_rotate,
         }
     };
-    const FONT_AWESOME_SOLID_ROUTE: Self = {
+    pub const FONT_AWESOME_SOLID_ROUTE: Self = {
         #[inline(never)]
         fn font_awesome_solid_route(
             crate::IconProps {
@@ -22815,7 +22815,7 @@ impl IconData {
             html: font_awesome_solid_route,
         }
     };
-    const FONT_AWESOME_SOLID_RSS: Self = {
+    pub const FONT_AWESOME_SOLID_RSS: Self = {
         #[inline(never)]
         fn font_awesome_solid_rss(
             crate::IconProps {
@@ -22837,7 +22837,7 @@ impl IconData {
             html: font_awesome_solid_rss,
         }
     };
-    const FONT_AWESOME_SOLID_RUBLE_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_RUBLE_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_ruble_sign(
             crate::IconProps {
@@ -22859,7 +22859,7 @@ impl IconData {
             html: font_awesome_solid_ruble_sign,
         }
     };
-    const FONT_AWESOME_SOLID_RUG: Self = {
+    pub const FONT_AWESOME_SOLID_RUG: Self = {
         #[inline(never)]
         fn font_awesome_solid_rug(
             crate::IconProps {
@@ -22881,7 +22881,7 @@ impl IconData {
             html: font_awesome_solid_rug,
         }
     };
-    const FONT_AWESOME_SOLID_RULER_COMBINED: Self = {
+    pub const FONT_AWESOME_SOLID_RULER_COMBINED: Self = {
         #[inline(never)]
         fn font_awesome_solid_ruler_combined(
             crate::IconProps {
@@ -22903,7 +22903,7 @@ impl IconData {
             html: font_awesome_solid_ruler_combined,
         }
     };
-    const FONT_AWESOME_SOLID_RULER_HORIZONTAL: Self = {
+    pub const FONT_AWESOME_SOLID_RULER_HORIZONTAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_ruler_horizontal(
             crate::IconProps {
@@ -22925,7 +22925,7 @@ impl IconData {
             html: font_awesome_solid_ruler_horizontal,
         }
     };
-    const FONT_AWESOME_SOLID_RULER_VERTICAL: Self = {
+    pub const FONT_AWESOME_SOLID_RULER_VERTICAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_ruler_vertical(
             crate::IconProps {
@@ -22947,7 +22947,7 @@ impl IconData {
             html: font_awesome_solid_ruler_vertical,
         }
     };
-    const FONT_AWESOME_SOLID_RULER: Self = {
+    pub const FONT_AWESOME_SOLID_RULER: Self = {
         #[inline(never)]
         fn font_awesome_solid_ruler(
             crate::IconProps {
@@ -22969,7 +22969,7 @@ impl IconData {
             html: font_awesome_solid_ruler,
         }
     };
-    const FONT_AWESOME_SOLID_RUPEE_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_RUPEE_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_rupee_sign(
             crate::IconProps {
@@ -22991,7 +22991,7 @@ impl IconData {
             html: font_awesome_solid_rupee_sign,
         }
     };
-    const FONT_AWESOME_SOLID_RUPIAH_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_RUPIAH_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_rupiah_sign(
             crate::IconProps {
@@ -23013,7 +23013,7 @@ impl IconData {
             html: font_awesome_solid_rupiah_sign,
         }
     };
-    const FONT_AWESOME_SOLID_S: Self = {
+    pub const FONT_AWESOME_SOLID_S: Self = {
         #[inline(never)]
         fn font_awesome_solid_s(
             crate::IconProps {
@@ -23035,7 +23035,7 @@ impl IconData {
             html: font_awesome_solid_s,
         }
     };
-    const FONT_AWESOME_SOLID_SACK_DOLLAR: Self = {
+    pub const FONT_AWESOME_SOLID_SACK_DOLLAR: Self = {
         #[inline(never)]
         fn font_awesome_solid_sack_dollar(
             crate::IconProps {
@@ -23057,7 +23057,7 @@ impl IconData {
             html: font_awesome_solid_sack_dollar,
         }
     };
-    const FONT_AWESOME_SOLID_SACK_XMARK: Self = {
+    pub const FONT_AWESOME_SOLID_SACK_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_sack_xmark(
             crate::IconProps {
@@ -23079,7 +23079,7 @@ impl IconData {
             html: font_awesome_solid_sack_xmark,
         }
     };
-    const FONT_AWESOME_SOLID_SAILBOAT: Self = {
+    pub const FONT_AWESOME_SOLID_SAILBOAT: Self = {
         #[inline(never)]
         fn font_awesome_solid_sailboat(
             crate::IconProps {
@@ -23101,7 +23101,7 @@ impl IconData {
             html: font_awesome_solid_sailboat,
         }
     };
-    const FONT_AWESOME_SOLID_SATELLITE_DISH: Self = {
+    pub const FONT_AWESOME_SOLID_SATELLITE_DISH: Self = {
         #[inline(never)]
         fn font_awesome_solid_satellite_dish(
             crate::IconProps {
@@ -23123,7 +23123,7 @@ impl IconData {
             html: font_awesome_solid_satellite_dish,
         }
     };
-    const FONT_AWESOME_SOLID_SATELLITE: Self = {
+    pub const FONT_AWESOME_SOLID_SATELLITE: Self = {
         #[inline(never)]
         fn font_awesome_solid_satellite(
             crate::IconProps {
@@ -23145,7 +23145,7 @@ impl IconData {
             html: font_awesome_solid_satellite,
         }
     };
-    const FONT_AWESOME_SOLID_SCALE_BALANCED: Self = {
+    pub const FONT_AWESOME_SOLID_SCALE_BALANCED: Self = {
         #[inline(never)]
         fn font_awesome_solid_scale_balanced(
             crate::IconProps {
@@ -23167,7 +23167,7 @@ impl IconData {
             html: font_awesome_solid_scale_balanced,
         }
     };
-    const FONT_AWESOME_SOLID_SCALE_UNBALANCED_FLIP: Self = {
+    pub const FONT_AWESOME_SOLID_SCALE_UNBALANCED_FLIP: Self = {
         #[inline(never)]
         fn font_awesome_solid_scale_unbalanced_flip(
             crate::IconProps {
@@ -23189,7 +23189,7 @@ impl IconData {
             html: font_awesome_solid_scale_unbalanced_flip,
         }
     };
-    const FONT_AWESOME_SOLID_SCALE_UNBALANCED: Self = {
+    pub const FONT_AWESOME_SOLID_SCALE_UNBALANCED: Self = {
         #[inline(never)]
         fn font_awesome_solid_scale_unbalanced(
             crate::IconProps {
@@ -23211,7 +23211,7 @@ impl IconData {
             html: font_awesome_solid_scale_unbalanced,
         }
     };
-    const FONT_AWESOME_SOLID_SCHOOL_CIRCLE_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_SCHOOL_CIRCLE_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_school_circle_check(
             crate::IconProps {
@@ -23233,7 +23233,7 @@ impl IconData {
             html: font_awesome_solid_school_circle_check,
         }
     };
-    const FONT_AWESOME_SOLID_SCHOOL_CIRCLE_EXCLAMATION: Self = {
+    pub const FONT_AWESOME_SOLID_SCHOOL_CIRCLE_EXCLAMATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_school_circle_exclamation(
             crate::IconProps {
@@ -23255,7 +23255,7 @@ impl IconData {
             html: font_awesome_solid_school_circle_exclamation,
         }
     };
-    const FONT_AWESOME_SOLID_SCHOOL_CIRCLE_XMARK: Self = {
+    pub const FONT_AWESOME_SOLID_SCHOOL_CIRCLE_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_school_circle_xmark(
             crate::IconProps {
@@ -23277,7 +23277,7 @@ impl IconData {
             html: font_awesome_solid_school_circle_xmark,
         }
     };
-    const FONT_AWESOME_SOLID_SCHOOL_FLAG: Self = {
+    pub const FONT_AWESOME_SOLID_SCHOOL_FLAG: Self = {
         #[inline(never)]
         fn font_awesome_solid_school_flag(
             crate::IconProps {
@@ -23299,7 +23299,7 @@ impl IconData {
             html: font_awesome_solid_school_flag,
         }
     };
-    const FONT_AWESOME_SOLID_SCHOOL_LOCK: Self = {
+    pub const FONT_AWESOME_SOLID_SCHOOL_LOCK: Self = {
         #[inline(never)]
         fn font_awesome_solid_school_lock(
             crate::IconProps {
@@ -23321,7 +23321,7 @@ impl IconData {
             html: font_awesome_solid_school_lock,
         }
     };
-    const FONT_AWESOME_SOLID_SCHOOL: Self = {
+    pub const FONT_AWESOME_SOLID_SCHOOL: Self = {
         #[inline(never)]
         fn font_awesome_solid_school(
             crate::IconProps {
@@ -23343,7 +23343,7 @@ impl IconData {
             html: font_awesome_solid_school,
         }
     };
-    const FONT_AWESOME_SOLID_SCISSORS: Self = {
+    pub const FONT_AWESOME_SOLID_SCISSORS: Self = {
         #[inline(never)]
         fn font_awesome_solid_scissors(
             crate::IconProps {
@@ -23365,7 +23365,7 @@ impl IconData {
             html: font_awesome_solid_scissors,
         }
     };
-    const FONT_AWESOME_SOLID_SCREWDRIVER_WRENCH: Self = {
+    pub const FONT_AWESOME_SOLID_SCREWDRIVER_WRENCH: Self = {
         #[inline(never)]
         fn font_awesome_solid_screwdriver_wrench(
             crate::IconProps {
@@ -23387,7 +23387,7 @@ impl IconData {
             html: font_awesome_solid_screwdriver_wrench,
         }
     };
-    const FONT_AWESOME_SOLID_SCREWDRIVER: Self = {
+    pub const FONT_AWESOME_SOLID_SCREWDRIVER: Self = {
         #[inline(never)]
         fn font_awesome_solid_screwdriver(
             crate::IconProps {
@@ -23409,7 +23409,7 @@ impl IconData {
             html: font_awesome_solid_screwdriver,
         }
     };
-    const FONT_AWESOME_SOLID_SCROLL_TORAH: Self = {
+    pub const FONT_AWESOME_SOLID_SCROLL_TORAH: Self = {
         #[inline(never)]
         fn font_awesome_solid_scroll_torah(
             crate::IconProps {
@@ -23431,7 +23431,7 @@ impl IconData {
             html: font_awesome_solid_scroll_torah,
         }
     };
-    const FONT_AWESOME_SOLID_SCROLL: Self = {
+    pub const FONT_AWESOME_SOLID_SCROLL: Self = {
         #[inline(never)]
         fn font_awesome_solid_scroll(
             crate::IconProps {
@@ -23453,7 +23453,7 @@ impl IconData {
             html: font_awesome_solid_scroll,
         }
     };
-    const FONT_AWESOME_SOLID_SD_CARD: Self = {
+    pub const FONT_AWESOME_SOLID_SD_CARD: Self = {
         #[inline(never)]
         fn font_awesome_solid_sd_card(
             crate::IconProps {
@@ -23475,7 +23475,7 @@ impl IconData {
             html: font_awesome_solid_sd_card,
         }
     };
-    const FONT_AWESOME_SOLID_SECTION: Self = {
+    pub const FONT_AWESOME_SOLID_SECTION: Self = {
         #[inline(never)]
         fn font_awesome_solid_section(
             crate::IconProps {
@@ -23497,7 +23497,7 @@ impl IconData {
             html: font_awesome_solid_section,
         }
     };
-    const FONT_AWESOME_SOLID_SEEDLING: Self = {
+    pub const FONT_AWESOME_SOLID_SEEDLING: Self = {
         #[inline(never)]
         fn font_awesome_solid_seedling(
             crate::IconProps {
@@ -23519,7 +23519,7 @@ impl IconData {
             html: font_awesome_solid_seedling,
         }
     };
-    const FONT_AWESOME_SOLID_SERVER: Self = {
+    pub const FONT_AWESOME_SOLID_SERVER: Self = {
         #[inline(never)]
         fn font_awesome_solid_server(
             crate::IconProps {
@@ -23541,7 +23541,7 @@ impl IconData {
             html: font_awesome_solid_server,
         }
     };
-    const FONT_AWESOME_SOLID_SHAPES: Self = {
+    pub const FONT_AWESOME_SOLID_SHAPES: Self = {
         #[inline(never)]
         fn font_awesome_solid_shapes(
             crate::IconProps {
@@ -23563,7 +23563,7 @@ impl IconData {
             html: font_awesome_solid_shapes,
         }
     };
-    const FONT_AWESOME_SOLID_SHARE_FROM_SQUARE: Self = {
+    pub const FONT_AWESOME_SOLID_SHARE_FROM_SQUARE: Self = {
         #[inline(never)]
         fn font_awesome_solid_share_from_square(
             crate::IconProps {
@@ -23585,7 +23585,7 @@ impl IconData {
             html: font_awesome_solid_share_from_square,
         }
     };
-    const FONT_AWESOME_SOLID_SHARE_NODES: Self = {
+    pub const FONT_AWESOME_SOLID_SHARE_NODES: Self = {
         #[inline(never)]
         fn font_awesome_solid_share_nodes(
             crate::IconProps {
@@ -23607,7 +23607,7 @@ impl IconData {
             html: font_awesome_solid_share_nodes,
         }
     };
-    const FONT_AWESOME_SOLID_SHARE: Self = {
+    pub const FONT_AWESOME_SOLID_SHARE: Self = {
         #[inline(never)]
         fn font_awesome_solid_share(
             crate::IconProps {
@@ -23629,7 +23629,7 @@ impl IconData {
             html: font_awesome_solid_share,
         }
     };
-    const FONT_AWESOME_SOLID_SHEET_PLASTIC: Self = {
+    pub const FONT_AWESOME_SOLID_SHEET_PLASTIC: Self = {
         #[inline(never)]
         fn font_awesome_solid_sheet_plastic(
             crate::IconProps {
@@ -23651,7 +23651,7 @@ impl IconData {
             html: font_awesome_solid_sheet_plastic,
         }
     };
-    const FONT_AWESOME_SOLID_SHEKEL_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_SHEKEL_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_shekel_sign(
             crate::IconProps {
@@ -23673,7 +23673,7 @@ impl IconData {
             html: font_awesome_solid_shekel_sign,
         }
     };
-    const FONT_AWESOME_SOLID_SHIELD_BLANK: Self = {
+    pub const FONT_AWESOME_SOLID_SHIELD_BLANK: Self = {
         #[inline(never)]
         fn font_awesome_solid_shield_blank(
             crate::IconProps {
@@ -23695,7 +23695,7 @@ impl IconData {
             html: font_awesome_solid_shield_blank,
         }
     };
-    const FONT_AWESOME_SOLID_SHIELD_CAT: Self = {
+    pub const FONT_AWESOME_SOLID_SHIELD_CAT: Self = {
         #[inline(never)]
         fn font_awesome_solid_shield_cat(
             crate::IconProps {
@@ -23717,7 +23717,7 @@ impl IconData {
             html: font_awesome_solid_shield_cat,
         }
     };
-    const FONT_AWESOME_SOLID_SHIELD_DOG: Self = {
+    pub const FONT_AWESOME_SOLID_SHIELD_DOG: Self = {
         #[inline(never)]
         fn font_awesome_solid_shield_dog(
             crate::IconProps {
@@ -23739,7 +23739,7 @@ impl IconData {
             html: font_awesome_solid_shield_dog,
         }
     };
-    const FONT_AWESOME_SOLID_SHIELD_HALVED: Self = {
+    pub const FONT_AWESOME_SOLID_SHIELD_HALVED: Self = {
         #[inline(never)]
         fn font_awesome_solid_shield_halved(
             crate::IconProps {
@@ -23761,7 +23761,7 @@ impl IconData {
             html: font_awesome_solid_shield_halved,
         }
     };
-    const FONT_AWESOME_SOLID_SHIELD_HEART: Self = {
+    pub const FONT_AWESOME_SOLID_SHIELD_HEART: Self = {
         #[inline(never)]
         fn font_awesome_solid_shield_heart(
             crate::IconProps {
@@ -23783,7 +23783,7 @@ impl IconData {
             html: font_awesome_solid_shield_heart,
         }
     };
-    const FONT_AWESOME_SOLID_SHIELD_VIRUS: Self = {
+    pub const FONT_AWESOME_SOLID_SHIELD_VIRUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_shield_virus(
             crate::IconProps {
@@ -23805,7 +23805,7 @@ impl IconData {
             html: font_awesome_solid_shield_virus,
         }
     };
-    const FONT_AWESOME_SOLID_SHIELD: Self = {
+    pub const FONT_AWESOME_SOLID_SHIELD: Self = {
         #[inline(never)]
         fn font_awesome_solid_shield(
             crate::IconProps {
@@ -23827,7 +23827,7 @@ impl IconData {
             html: font_awesome_solid_shield,
         }
     };
-    const FONT_AWESOME_SOLID_SHIP: Self = {
+    pub const FONT_AWESOME_SOLID_SHIP: Self = {
         #[inline(never)]
         fn font_awesome_solid_ship(
             crate::IconProps {
@@ -23849,7 +23849,7 @@ impl IconData {
             html: font_awesome_solid_ship,
         }
     };
-    const FONT_AWESOME_SOLID_SHIRT: Self = {
+    pub const FONT_AWESOME_SOLID_SHIRT: Self = {
         #[inline(never)]
         fn font_awesome_solid_shirt(
             crate::IconProps {
@@ -23871,7 +23871,7 @@ impl IconData {
             html: font_awesome_solid_shirt,
         }
     };
-    const FONT_AWESOME_SOLID_SHOE_PRINTS: Self = {
+    pub const FONT_AWESOME_SOLID_SHOE_PRINTS: Self = {
         #[inline(never)]
         fn font_awesome_solid_shoe_prints(
             crate::IconProps {
@@ -23893,7 +23893,7 @@ impl IconData {
             html: font_awesome_solid_shoe_prints,
         }
     };
-    const FONT_AWESOME_SOLID_SHOP_LOCK: Self = {
+    pub const FONT_AWESOME_SOLID_SHOP_LOCK: Self = {
         #[inline(never)]
         fn font_awesome_solid_shop_lock(
             crate::IconProps {
@@ -23915,7 +23915,7 @@ impl IconData {
             html: font_awesome_solid_shop_lock,
         }
     };
-    const FONT_AWESOME_SOLID_SHOP_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_SHOP_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_shop_slash(
             crate::IconProps {
@@ -23937,7 +23937,7 @@ impl IconData {
             html: font_awesome_solid_shop_slash,
         }
     };
-    const FONT_AWESOME_SOLID_SHOP: Self = {
+    pub const FONT_AWESOME_SOLID_SHOP: Self = {
         #[inline(never)]
         fn font_awesome_solid_shop(
             crate::IconProps {
@@ -23959,7 +23959,7 @@ impl IconData {
             html: font_awesome_solid_shop,
         }
     };
-    const FONT_AWESOME_SOLID_SHOWER: Self = {
+    pub const FONT_AWESOME_SOLID_SHOWER: Self = {
         #[inline(never)]
         fn font_awesome_solid_shower(
             crate::IconProps {
@@ -23981,7 +23981,7 @@ impl IconData {
             html: font_awesome_solid_shower,
         }
     };
-    const FONT_AWESOME_SOLID_SHRIMP: Self = {
+    pub const FONT_AWESOME_SOLID_SHRIMP: Self = {
         #[inline(never)]
         fn font_awesome_solid_shrimp(
             crate::IconProps {
@@ -24003,7 +24003,7 @@ impl IconData {
             html: font_awesome_solid_shrimp,
         }
     };
-    const FONT_AWESOME_SOLID_SHUFFLE: Self = {
+    pub const FONT_AWESOME_SOLID_SHUFFLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_shuffle(
             crate::IconProps {
@@ -24025,7 +24025,7 @@ impl IconData {
             html: font_awesome_solid_shuffle,
         }
     };
-    const FONT_AWESOME_SOLID_SHUTTLE_SPACE: Self = {
+    pub const FONT_AWESOME_SOLID_SHUTTLE_SPACE: Self = {
         #[inline(never)]
         fn font_awesome_solid_shuttle_space(
             crate::IconProps {
@@ -24047,7 +24047,7 @@ impl IconData {
             html: font_awesome_solid_shuttle_space,
         }
     };
-    const FONT_AWESOME_SOLID_SIGN_HANGING: Self = {
+    pub const FONT_AWESOME_SOLID_SIGN_HANGING: Self = {
         #[inline(never)]
         fn font_awesome_solid_sign_hanging(
             crate::IconProps {
@@ -24069,7 +24069,7 @@ impl IconData {
             html: font_awesome_solid_sign_hanging,
         }
     };
-    const FONT_AWESOME_SOLID_SIGNAL: Self = {
+    pub const FONT_AWESOME_SOLID_SIGNAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_signal(
             crate::IconProps {
@@ -24091,7 +24091,7 @@ impl IconData {
             html: font_awesome_solid_signal,
         }
     };
-    const FONT_AWESOME_SOLID_SIGNATURE: Self = {
+    pub const FONT_AWESOME_SOLID_SIGNATURE: Self = {
         #[inline(never)]
         fn font_awesome_solid_signature(
             crate::IconProps {
@@ -24113,7 +24113,7 @@ impl IconData {
             html: font_awesome_solid_signature,
         }
     };
-    const FONT_AWESOME_SOLID_SIGNS_POST: Self = {
+    pub const FONT_AWESOME_SOLID_SIGNS_POST: Self = {
         #[inline(never)]
         fn font_awesome_solid_signs_post(
             crate::IconProps {
@@ -24135,7 +24135,7 @@ impl IconData {
             html: font_awesome_solid_signs_post,
         }
     };
-    const FONT_AWESOME_SOLID_SIM_CARD: Self = {
+    pub const FONT_AWESOME_SOLID_SIM_CARD: Self = {
         #[inline(never)]
         fn font_awesome_solid_sim_card(
             crate::IconProps {
@@ -24157,7 +24157,7 @@ impl IconData {
             html: font_awesome_solid_sim_card,
         }
     };
-    const FONT_AWESOME_SOLID_SINK: Self = {
+    pub const FONT_AWESOME_SOLID_SINK: Self = {
         #[inline(never)]
         fn font_awesome_solid_sink(
             crate::IconProps {
@@ -24179,7 +24179,7 @@ impl IconData {
             html: font_awesome_solid_sink,
         }
     };
-    const FONT_AWESOME_SOLID_SITEMAP: Self = {
+    pub const FONT_AWESOME_SOLID_SITEMAP: Self = {
         #[inline(never)]
         fn font_awesome_solid_sitemap(
             crate::IconProps {
@@ -24201,7 +24201,7 @@ impl IconData {
             html: font_awesome_solid_sitemap,
         }
     };
-    const FONT_AWESOME_SOLID_SKULL_CROSSBONES: Self = {
+    pub const FONT_AWESOME_SOLID_SKULL_CROSSBONES: Self = {
         #[inline(never)]
         fn font_awesome_solid_skull_crossbones(
             crate::IconProps {
@@ -24223,7 +24223,7 @@ impl IconData {
             html: font_awesome_solid_skull_crossbones,
         }
     };
-    const FONT_AWESOME_SOLID_SKULL: Self = {
+    pub const FONT_AWESOME_SOLID_SKULL: Self = {
         #[inline(never)]
         fn font_awesome_solid_skull(
             crate::IconProps {
@@ -24245,7 +24245,7 @@ impl IconData {
             html: font_awesome_solid_skull,
         }
     };
-    const FONT_AWESOME_SOLID_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_slash(
             crate::IconProps {
@@ -24267,7 +24267,7 @@ impl IconData {
             html: font_awesome_solid_slash,
         }
     };
-    const FONT_AWESOME_SOLID_SLEIGH: Self = {
+    pub const FONT_AWESOME_SOLID_SLEIGH: Self = {
         #[inline(never)]
         fn font_awesome_solid_sleigh(
             crate::IconProps {
@@ -24289,7 +24289,7 @@ impl IconData {
             html: font_awesome_solid_sleigh,
         }
     };
-    const FONT_AWESOME_SOLID_SLIDERS: Self = {
+    pub const FONT_AWESOME_SOLID_SLIDERS: Self = {
         #[inline(never)]
         fn font_awesome_solid_sliders(
             crate::IconProps {
@@ -24311,7 +24311,7 @@ impl IconData {
             html: font_awesome_solid_sliders,
         }
     };
-    const FONT_AWESOME_SOLID_SMOG: Self = {
+    pub const FONT_AWESOME_SOLID_SMOG: Self = {
         #[inline(never)]
         fn font_awesome_solid_smog(
             crate::IconProps {
@@ -24333,7 +24333,7 @@ impl IconData {
             html: font_awesome_solid_smog,
         }
     };
-    const FONT_AWESOME_SOLID_SMOKING: Self = {
+    pub const FONT_AWESOME_SOLID_SMOKING: Self = {
         #[inline(never)]
         fn font_awesome_solid_smoking(
             crate::IconProps {
@@ -24355,7 +24355,7 @@ impl IconData {
             html: font_awesome_solid_smoking,
         }
     };
-    const FONT_AWESOME_SOLID_SNOWFLAKE: Self = {
+    pub const FONT_AWESOME_SOLID_SNOWFLAKE: Self = {
         #[inline(never)]
         fn font_awesome_solid_snowflake(
             crate::IconProps {
@@ -24377,7 +24377,7 @@ impl IconData {
             html: font_awesome_solid_snowflake,
         }
     };
-    const FONT_AWESOME_SOLID_SNOWMAN: Self = {
+    pub const FONT_AWESOME_SOLID_SNOWMAN: Self = {
         #[inline(never)]
         fn font_awesome_solid_snowman(
             crate::IconProps {
@@ -24399,7 +24399,7 @@ impl IconData {
             html: font_awesome_solid_snowman,
         }
     };
-    const FONT_AWESOME_SOLID_SNOWPLOW: Self = {
+    pub const FONT_AWESOME_SOLID_SNOWPLOW: Self = {
         #[inline(never)]
         fn font_awesome_solid_snowplow(
             crate::IconProps {
@@ -24421,7 +24421,7 @@ impl IconData {
             html: font_awesome_solid_snowplow,
         }
     };
-    const FONT_AWESOME_SOLID_SOAP: Self = {
+    pub const FONT_AWESOME_SOLID_SOAP: Self = {
         #[inline(never)]
         fn font_awesome_solid_soap(
             crate::IconProps {
@@ -24443,7 +24443,7 @@ impl IconData {
             html: font_awesome_solid_soap,
         }
     };
-    const FONT_AWESOME_SOLID_SOCKS: Self = {
+    pub const FONT_AWESOME_SOLID_SOCKS: Self = {
         #[inline(never)]
         fn font_awesome_solid_socks(
             crate::IconProps {
@@ -24465,7 +24465,7 @@ impl IconData {
             html: font_awesome_solid_socks,
         }
     };
-    const FONT_AWESOME_SOLID_SOLAR_PANEL: Self = {
+    pub const FONT_AWESOME_SOLID_SOLAR_PANEL: Self = {
         #[inline(never)]
         fn font_awesome_solid_solar_panel(
             crate::IconProps {
@@ -24487,7 +24487,7 @@ impl IconData {
             html: font_awesome_solid_solar_panel,
         }
     };
-    const FONT_AWESOME_SOLID_SORT_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_SORT_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_sort_down(
             crate::IconProps {
@@ -24509,7 +24509,7 @@ impl IconData {
             html: font_awesome_solid_sort_down,
         }
     };
-    const FONT_AWESOME_SOLID_SORT_UP: Self = {
+    pub const FONT_AWESOME_SOLID_SORT_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_sort_up(
             crate::IconProps {
@@ -24531,7 +24531,7 @@ impl IconData {
             html: font_awesome_solid_sort_up,
         }
     };
-    const FONT_AWESOME_SOLID_SORT: Self = {
+    pub const FONT_AWESOME_SOLID_SORT: Self = {
         #[inline(never)]
         fn font_awesome_solid_sort(
             crate::IconProps {
@@ -24553,7 +24553,7 @@ impl IconData {
             html: font_awesome_solid_sort,
         }
     };
-    const FONT_AWESOME_SOLID_SPA: Self = {
+    pub const FONT_AWESOME_SOLID_SPA: Self = {
         #[inline(never)]
         fn font_awesome_solid_spa(
             crate::IconProps {
@@ -24575,7 +24575,7 @@ impl IconData {
             html: font_awesome_solid_spa,
         }
     };
-    const FONT_AWESOME_SOLID_SPAGHETTI_MONSTER_FLYING: Self = {
+    pub const FONT_AWESOME_SOLID_SPAGHETTI_MONSTER_FLYING: Self = {
         #[inline(never)]
         fn font_awesome_solid_spaghetti_monster_flying(
             crate::IconProps {
@@ -24597,7 +24597,7 @@ impl IconData {
             html: font_awesome_solid_spaghetti_monster_flying,
         }
     };
-    const FONT_AWESOME_SOLID_SPELL_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_SPELL_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_spell_check(
             crate::IconProps {
@@ -24619,7 +24619,7 @@ impl IconData {
             html: font_awesome_solid_spell_check,
         }
     };
-    const FONT_AWESOME_SOLID_SPIDER: Self = {
+    pub const FONT_AWESOME_SOLID_SPIDER: Self = {
         #[inline(never)]
         fn font_awesome_solid_spider(
             crate::IconProps {
@@ -24641,7 +24641,7 @@ impl IconData {
             html: font_awesome_solid_spider,
         }
     };
-    const FONT_AWESOME_SOLID_SPINNER: Self = {
+    pub const FONT_AWESOME_SOLID_SPINNER: Self = {
         #[inline(never)]
         fn font_awesome_solid_spinner(
             crate::IconProps {
@@ -24663,7 +24663,7 @@ impl IconData {
             html: font_awesome_solid_spinner,
         }
     };
-    const FONT_AWESOME_SOLID_SPLOTCH: Self = {
+    pub const FONT_AWESOME_SOLID_SPLOTCH: Self = {
         #[inline(never)]
         fn font_awesome_solid_splotch(
             crate::IconProps {
@@ -24685,7 +24685,7 @@ impl IconData {
             html: font_awesome_solid_splotch,
         }
     };
-    const FONT_AWESOME_SOLID_SPOON: Self = {
+    pub const FONT_AWESOME_SOLID_SPOON: Self = {
         #[inline(never)]
         fn font_awesome_solid_spoon(
             crate::IconProps {
@@ -24707,7 +24707,7 @@ impl IconData {
             html: font_awesome_solid_spoon,
         }
     };
-    const FONT_AWESOME_SOLID_SPRAY_CAN_SPARKLES: Self = {
+    pub const FONT_AWESOME_SOLID_SPRAY_CAN_SPARKLES: Self = {
         #[inline(never)]
         fn font_awesome_solid_spray_can_sparkles(
             crate::IconProps {
@@ -24729,7 +24729,7 @@ impl IconData {
             html: font_awesome_solid_spray_can_sparkles,
         }
     };
-    const FONT_AWESOME_SOLID_SPRAY_CAN: Self = {
+    pub const FONT_AWESOME_SOLID_SPRAY_CAN: Self = {
         #[inline(never)]
         fn font_awesome_solid_spray_can(
             crate::IconProps {
@@ -24751,7 +24751,7 @@ impl IconData {
             html: font_awesome_solid_spray_can,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_ARROW_UP_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_ARROW_UP_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_arrow_up_right(
             crate::IconProps {
@@ -24773,7 +24773,7 @@ impl IconData {
             html: font_awesome_solid_square_arrow_up_right,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_CARET_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_CARET_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_caret_down(
             crate::IconProps {
@@ -24795,7 +24795,7 @@ impl IconData {
             html: font_awesome_solid_square_caret_down,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_CARET_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_CARET_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_caret_left(
             crate::IconProps {
@@ -24817,7 +24817,7 @@ impl IconData {
             html: font_awesome_solid_square_caret_left,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_CARET_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_CARET_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_caret_right(
             crate::IconProps {
@@ -24839,7 +24839,7 @@ impl IconData {
             html: font_awesome_solid_square_caret_right,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_CARET_UP: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_CARET_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_caret_up(
             crate::IconProps {
@@ -24861,7 +24861,7 @@ impl IconData {
             html: font_awesome_solid_square_caret_up,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_check(
             crate::IconProps {
@@ -24883,7 +24883,7 @@ impl IconData {
             html: font_awesome_solid_square_check,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_ENVELOPE: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_ENVELOPE: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_envelope(
             crate::IconProps {
@@ -24905,7 +24905,7 @@ impl IconData {
             html: font_awesome_solid_square_envelope,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_FULL: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_FULL: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_full(
             crate::IconProps {
@@ -24927,7 +24927,7 @@ impl IconData {
             html: font_awesome_solid_square_full,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_H: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_H: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_h(
             crate::IconProps {
@@ -24949,7 +24949,7 @@ impl IconData {
             html: font_awesome_solid_square_h,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_MINUS: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_MINUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_minus(
             crate::IconProps {
@@ -24971,7 +24971,7 @@ impl IconData {
             html: font_awesome_solid_square_minus,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_NFI: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_NFI: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_nfi(
             crate::IconProps {
@@ -24993,7 +24993,7 @@ impl IconData {
             html: font_awesome_solid_square_nfi,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_PARKING: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_PARKING: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_parking(
             crate::IconProps {
@@ -25015,7 +25015,7 @@ impl IconData {
             html: font_awesome_solid_square_parking,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_PEN: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_PEN: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_pen(
             crate::IconProps {
@@ -25037,7 +25037,7 @@ impl IconData {
             html: font_awesome_solid_square_pen,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_PERSON_CONFINED: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_PERSON_CONFINED: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_person_confined(
             crate::IconProps {
@@ -25059,7 +25059,7 @@ impl IconData {
             html: font_awesome_solid_square_person_confined,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_PHONE_FLIP: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_PHONE_FLIP: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_phone_flip(
             crate::IconProps {
@@ -25081,7 +25081,7 @@ impl IconData {
             html: font_awesome_solid_square_phone_flip,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_PHONE: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_PHONE: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_phone(
             crate::IconProps {
@@ -25103,7 +25103,7 @@ impl IconData {
             html: font_awesome_solid_square_phone,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_PLUS: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_PLUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_plus(
             crate::IconProps {
@@ -25125,7 +25125,7 @@ impl IconData {
             html: font_awesome_solid_square_plus,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_POLL_HORIZONTAL: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_POLL_HORIZONTAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_poll_horizontal(
             crate::IconProps {
@@ -25147,7 +25147,7 @@ impl IconData {
             html: font_awesome_solid_square_poll_horizontal,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_POLL_VERTICAL: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_POLL_VERTICAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_poll_vertical(
             crate::IconProps {
@@ -25169,7 +25169,7 @@ impl IconData {
             html: font_awesome_solid_square_poll_vertical,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_ROOT_VARIABLE: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_ROOT_VARIABLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_root_variable(
             crate::IconProps {
@@ -25191,7 +25191,7 @@ impl IconData {
             html: font_awesome_solid_square_root_variable,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_RSS: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_RSS: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_rss(
             crate::IconProps {
@@ -25213,7 +25213,7 @@ impl IconData {
             html: font_awesome_solid_square_rss,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_SHARE_NODES: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_SHARE_NODES: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_share_nodes(
             crate::IconProps {
@@ -25235,7 +25235,7 @@ impl IconData {
             html: font_awesome_solid_square_share_nodes,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_UP_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_UP_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_up_right(
             crate::IconProps {
@@ -25257,7 +25257,7 @@ impl IconData {
             html: font_awesome_solid_square_up_right,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_VIRUS: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_VIRUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_virus(
             crate::IconProps {
@@ -25279,7 +25279,7 @@ impl IconData {
             html: font_awesome_solid_square_virus,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE_XMARK: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_square_xmark(
             crate::IconProps {
@@ -25301,7 +25301,7 @@ impl IconData {
             html: font_awesome_solid_square_xmark,
         }
     };
-    const FONT_AWESOME_SOLID_SQUARE: Self = {
+    pub const FONT_AWESOME_SOLID_SQUARE: Self = {
         #[inline(never)]
         fn font_awesome_solid_square(
             crate::IconProps {
@@ -25323,7 +25323,7 @@ impl IconData {
             html: font_awesome_solid_square,
         }
     };
-    const FONT_AWESOME_SOLID_STAFF_AESCULAPIUS: Self = {
+    pub const FONT_AWESOME_SOLID_STAFF_AESCULAPIUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_staff_aesculapius(
             crate::IconProps {
@@ -25345,7 +25345,7 @@ impl IconData {
             html: font_awesome_solid_staff_aesculapius,
         }
     };
-    const FONT_AWESOME_SOLID_STAIRS: Self = {
+    pub const FONT_AWESOME_SOLID_STAIRS: Self = {
         #[inline(never)]
         fn font_awesome_solid_stairs(
             crate::IconProps {
@@ -25367,7 +25367,7 @@ impl IconData {
             html: font_awesome_solid_stairs,
         }
     };
-    const FONT_AWESOME_SOLID_STAMP: Self = {
+    pub const FONT_AWESOME_SOLID_STAMP: Self = {
         #[inline(never)]
         fn font_awesome_solid_stamp(
             crate::IconProps {
@@ -25389,7 +25389,7 @@ impl IconData {
             html: font_awesome_solid_stamp,
         }
     };
-    const FONT_AWESOME_SOLID_STAR_AND_CRESCENT: Self = {
+    pub const FONT_AWESOME_SOLID_STAR_AND_CRESCENT: Self = {
         #[inline(never)]
         fn font_awesome_solid_star_and_crescent(
             crate::IconProps {
@@ -25411,7 +25411,7 @@ impl IconData {
             html: font_awesome_solid_star_and_crescent,
         }
     };
-    const FONT_AWESOME_SOLID_STAR_HALF_STROKE: Self = {
+    pub const FONT_AWESOME_SOLID_STAR_HALF_STROKE: Self = {
         #[inline(never)]
         fn font_awesome_solid_star_half_stroke(
             crate::IconProps {
@@ -25433,7 +25433,7 @@ impl IconData {
             html: font_awesome_solid_star_half_stroke,
         }
     };
-    const FONT_AWESOME_SOLID_STAR_HALF: Self = {
+    pub const FONT_AWESOME_SOLID_STAR_HALF: Self = {
         #[inline(never)]
         fn font_awesome_solid_star_half(
             crate::IconProps {
@@ -25455,7 +25455,7 @@ impl IconData {
             html: font_awesome_solid_star_half,
         }
     };
-    const FONT_AWESOME_SOLID_STAR_OF_DAVID: Self = {
+    pub const FONT_AWESOME_SOLID_STAR_OF_DAVID: Self = {
         #[inline(never)]
         fn font_awesome_solid_star_of_david(
             crate::IconProps {
@@ -25477,7 +25477,7 @@ impl IconData {
             html: font_awesome_solid_star_of_david,
         }
     };
-    const FONT_AWESOME_SOLID_STAR_OF_LIFE: Self = {
+    pub const FONT_AWESOME_SOLID_STAR_OF_LIFE: Self = {
         #[inline(never)]
         fn font_awesome_solid_star_of_life(
             crate::IconProps {
@@ -25499,7 +25499,7 @@ impl IconData {
             html: font_awesome_solid_star_of_life,
         }
     };
-    const FONT_AWESOME_SOLID_STAR: Self = {
+    pub const FONT_AWESOME_SOLID_STAR: Self = {
         #[inline(never)]
         fn font_awesome_solid_star(
             crate::IconProps {
@@ -25521,7 +25521,7 @@ impl IconData {
             html: font_awesome_solid_star,
         }
     };
-    const FONT_AWESOME_SOLID_STERLING_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_STERLING_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_sterling_sign(
             crate::IconProps {
@@ -25543,7 +25543,7 @@ impl IconData {
             html: font_awesome_solid_sterling_sign,
         }
     };
-    const FONT_AWESOME_SOLID_STETHOSCOPE: Self = {
+    pub const FONT_AWESOME_SOLID_STETHOSCOPE: Self = {
         #[inline(never)]
         fn font_awesome_solid_stethoscope(
             crate::IconProps {
@@ -25565,7 +25565,7 @@ impl IconData {
             html: font_awesome_solid_stethoscope,
         }
     };
-    const FONT_AWESOME_SOLID_STOP: Self = {
+    pub const FONT_AWESOME_SOLID_STOP: Self = {
         #[inline(never)]
         fn font_awesome_solid_stop(
             crate::IconProps {
@@ -25587,7 +25587,7 @@ impl IconData {
             html: font_awesome_solid_stop,
         }
     };
-    const FONT_AWESOME_SOLID_STOPWATCH_20: Self = {
+    pub const FONT_AWESOME_SOLID_STOPWATCH_20: Self = {
         #[inline(never)]
         fn font_awesome_solid_stopwatch_20(
             crate::IconProps {
@@ -25609,7 +25609,7 @@ impl IconData {
             html: font_awesome_solid_stopwatch_20,
         }
     };
-    const FONT_AWESOME_SOLID_STOPWATCH: Self = {
+    pub const FONT_AWESOME_SOLID_STOPWATCH: Self = {
         #[inline(never)]
         fn font_awesome_solid_stopwatch(
             crate::IconProps {
@@ -25631,7 +25631,7 @@ impl IconData {
             html: font_awesome_solid_stopwatch,
         }
     };
-    const FONT_AWESOME_SOLID_STORE_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_STORE_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_store_slash(
             crate::IconProps {
@@ -25653,7 +25653,7 @@ impl IconData {
             html: font_awesome_solid_store_slash,
         }
     };
-    const FONT_AWESOME_SOLID_STORE: Self = {
+    pub const FONT_AWESOME_SOLID_STORE: Self = {
         #[inline(never)]
         fn font_awesome_solid_store(
             crate::IconProps {
@@ -25675,7 +25675,7 @@ impl IconData {
             html: font_awesome_solid_store,
         }
     };
-    const FONT_AWESOME_SOLID_STREET_VIEW: Self = {
+    pub const FONT_AWESOME_SOLID_STREET_VIEW: Self = {
         #[inline(never)]
         fn font_awesome_solid_street_view(
             crate::IconProps {
@@ -25697,7 +25697,7 @@ impl IconData {
             html: font_awesome_solid_street_view,
         }
     };
-    const FONT_AWESOME_SOLID_STRIKETHROUGH: Self = {
+    pub const FONT_AWESOME_SOLID_STRIKETHROUGH: Self = {
         #[inline(never)]
         fn font_awesome_solid_strikethrough(
             crate::IconProps {
@@ -25719,7 +25719,7 @@ impl IconData {
             html: font_awesome_solid_strikethrough,
         }
     };
-    const FONT_AWESOME_SOLID_STROOPWAFEL: Self = {
+    pub const FONT_AWESOME_SOLID_STROOPWAFEL: Self = {
         #[inline(never)]
         fn font_awesome_solid_stroopwafel(
             crate::IconProps {
@@ -25741,7 +25741,7 @@ impl IconData {
             html: font_awesome_solid_stroopwafel,
         }
     };
-    const FONT_AWESOME_SOLID_SUBSCRIPT: Self = {
+    pub const FONT_AWESOME_SOLID_SUBSCRIPT: Self = {
         #[inline(never)]
         fn font_awesome_solid_subscript(
             crate::IconProps {
@@ -25763,7 +25763,7 @@ impl IconData {
             html: font_awesome_solid_subscript,
         }
     };
-    const FONT_AWESOME_SOLID_SUITCASE_MEDICAL: Self = {
+    pub const FONT_AWESOME_SOLID_SUITCASE_MEDICAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_suitcase_medical(
             crate::IconProps {
@@ -25785,7 +25785,7 @@ impl IconData {
             html: font_awesome_solid_suitcase_medical,
         }
     };
-    const FONT_AWESOME_SOLID_SUITCASE_ROLLING: Self = {
+    pub const FONT_AWESOME_SOLID_SUITCASE_ROLLING: Self = {
         #[inline(never)]
         fn font_awesome_solid_suitcase_rolling(
             crate::IconProps {
@@ -25807,7 +25807,7 @@ impl IconData {
             html: font_awesome_solid_suitcase_rolling,
         }
     };
-    const FONT_AWESOME_SOLID_SUITCASE: Self = {
+    pub const FONT_AWESOME_SOLID_SUITCASE: Self = {
         #[inline(never)]
         fn font_awesome_solid_suitcase(
             crate::IconProps {
@@ -25829,7 +25829,7 @@ impl IconData {
             html: font_awesome_solid_suitcase,
         }
     };
-    const FONT_AWESOME_SOLID_SUN_PLANT_WILT: Self = {
+    pub const FONT_AWESOME_SOLID_SUN_PLANT_WILT: Self = {
         #[inline(never)]
         fn font_awesome_solid_sun_plant_wilt(
             crate::IconProps {
@@ -25851,7 +25851,7 @@ impl IconData {
             html: font_awesome_solid_sun_plant_wilt,
         }
     };
-    const FONT_AWESOME_SOLID_SUN: Self = {
+    pub const FONT_AWESOME_SOLID_SUN: Self = {
         #[inline(never)]
         fn font_awesome_solid_sun(
             crate::IconProps {
@@ -25873,7 +25873,7 @@ impl IconData {
             html: font_awesome_solid_sun,
         }
     };
-    const FONT_AWESOME_SOLID_SUPERSCRIPT: Self = {
+    pub const FONT_AWESOME_SOLID_SUPERSCRIPT: Self = {
         #[inline(never)]
         fn font_awesome_solid_superscript(
             crate::IconProps {
@@ -25895,7 +25895,7 @@ impl IconData {
             html: font_awesome_solid_superscript,
         }
     };
-    const FONT_AWESOME_SOLID_SWATCHBOOK: Self = {
+    pub const FONT_AWESOME_SOLID_SWATCHBOOK: Self = {
         #[inline(never)]
         fn font_awesome_solid_swatchbook(
             crate::IconProps {
@@ -25917,7 +25917,7 @@ impl IconData {
             html: font_awesome_solid_swatchbook,
         }
     };
-    const FONT_AWESOME_SOLID_SYNAGOGUE: Self = {
+    pub const FONT_AWESOME_SOLID_SYNAGOGUE: Self = {
         #[inline(never)]
         fn font_awesome_solid_synagogue(
             crate::IconProps {
@@ -25939,7 +25939,7 @@ impl IconData {
             html: font_awesome_solid_synagogue,
         }
     };
-    const FONT_AWESOME_SOLID_SYRINGE: Self = {
+    pub const FONT_AWESOME_SOLID_SYRINGE: Self = {
         #[inline(never)]
         fn font_awesome_solid_syringe(
             crate::IconProps {
@@ -25961,7 +25961,7 @@ impl IconData {
             html: font_awesome_solid_syringe,
         }
     };
-    const FONT_AWESOME_SOLID_T: Self = {
+    pub const FONT_AWESOME_SOLID_T: Self = {
         #[inline(never)]
         fn font_awesome_solid_t(
             crate::IconProps {
@@ -25983,7 +25983,7 @@ impl IconData {
             html: font_awesome_solid_t,
         }
     };
-    const FONT_AWESOME_SOLID_TABLE_CELLS_LARGE: Self = {
+    pub const FONT_AWESOME_SOLID_TABLE_CELLS_LARGE: Self = {
         #[inline(never)]
         fn font_awesome_solid_table_cells_large(
             crate::IconProps {
@@ -26005,7 +26005,7 @@ impl IconData {
             html: font_awesome_solid_table_cells_large,
         }
     };
-    const FONT_AWESOME_SOLID_TABLE_CELLS: Self = {
+    pub const FONT_AWESOME_SOLID_TABLE_CELLS: Self = {
         #[inline(never)]
         fn font_awesome_solid_table_cells(
             crate::IconProps {
@@ -26027,7 +26027,7 @@ impl IconData {
             html: font_awesome_solid_table_cells,
         }
     };
-    const FONT_AWESOME_SOLID_TABLE_COLUMNS: Self = {
+    pub const FONT_AWESOME_SOLID_TABLE_COLUMNS: Self = {
         #[inline(never)]
         fn font_awesome_solid_table_columns(
             crate::IconProps {
@@ -26049,7 +26049,7 @@ impl IconData {
             html: font_awesome_solid_table_columns,
         }
     };
-    const FONT_AWESOME_SOLID_TABLE_LIST: Self = {
+    pub const FONT_AWESOME_SOLID_TABLE_LIST: Self = {
         #[inline(never)]
         fn font_awesome_solid_table_list(
             crate::IconProps {
@@ -26071,7 +26071,7 @@ impl IconData {
             html: font_awesome_solid_table_list,
         }
     };
-    const FONT_AWESOME_SOLID_TABLE_TENNIS_PADDLE_BALL: Self = {
+    pub const FONT_AWESOME_SOLID_TABLE_TENNIS_PADDLE_BALL: Self = {
         #[inline(never)]
         fn font_awesome_solid_table_tennis_paddle_ball(
             crate::IconProps {
@@ -26093,7 +26093,7 @@ impl IconData {
             html: font_awesome_solid_table_tennis_paddle_ball,
         }
     };
-    const FONT_AWESOME_SOLID_TABLE: Self = {
+    pub const FONT_AWESOME_SOLID_TABLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_table(
             crate::IconProps {
@@ -26115,7 +26115,7 @@ impl IconData {
             html: font_awesome_solid_table,
         }
     };
-    const FONT_AWESOME_SOLID_TABLET_BUTTON: Self = {
+    pub const FONT_AWESOME_SOLID_TABLET_BUTTON: Self = {
         #[inline(never)]
         fn font_awesome_solid_tablet_button(
             crate::IconProps {
@@ -26137,7 +26137,7 @@ impl IconData {
             html: font_awesome_solid_tablet_button,
         }
     };
-    const FONT_AWESOME_SOLID_TABLET_SCREEN_BUTTON: Self = {
+    pub const FONT_AWESOME_SOLID_TABLET_SCREEN_BUTTON: Self = {
         #[inline(never)]
         fn font_awesome_solid_tablet_screen_button(
             crate::IconProps {
@@ -26159,7 +26159,7 @@ impl IconData {
             html: font_awesome_solid_tablet_screen_button,
         }
     };
-    const FONT_AWESOME_SOLID_TABLET: Self = {
+    pub const FONT_AWESOME_SOLID_TABLET: Self = {
         #[inline(never)]
         fn font_awesome_solid_tablet(
             crate::IconProps {
@@ -26181,7 +26181,7 @@ impl IconData {
             html: font_awesome_solid_tablet,
         }
     };
-    const FONT_AWESOME_SOLID_TABLETS: Self = {
+    pub const FONT_AWESOME_SOLID_TABLETS: Self = {
         #[inline(never)]
         fn font_awesome_solid_tablets(
             crate::IconProps {
@@ -26203,7 +26203,7 @@ impl IconData {
             html: font_awesome_solid_tablets,
         }
     };
-    const FONT_AWESOME_SOLID_TACHOGRAPH_DIGITAL: Self = {
+    pub const FONT_AWESOME_SOLID_TACHOGRAPH_DIGITAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_tachograph_digital(
             crate::IconProps {
@@ -26225,7 +26225,7 @@ impl IconData {
             html: font_awesome_solid_tachograph_digital,
         }
     };
-    const FONT_AWESOME_SOLID_TAG: Self = {
+    pub const FONT_AWESOME_SOLID_TAG: Self = {
         #[inline(never)]
         fn font_awesome_solid_tag(
             crate::IconProps {
@@ -26247,7 +26247,7 @@ impl IconData {
             html: font_awesome_solid_tag,
         }
     };
-    const FONT_AWESOME_SOLID_TAGS: Self = {
+    pub const FONT_AWESOME_SOLID_TAGS: Self = {
         #[inline(never)]
         fn font_awesome_solid_tags(
             crate::IconProps {
@@ -26269,7 +26269,7 @@ impl IconData {
             html: font_awesome_solid_tags,
         }
     };
-    const FONT_AWESOME_SOLID_TAPE: Self = {
+    pub const FONT_AWESOME_SOLID_TAPE: Self = {
         #[inline(never)]
         fn font_awesome_solid_tape(
             crate::IconProps {
@@ -26291,7 +26291,7 @@ impl IconData {
             html: font_awesome_solid_tape,
         }
     };
-    const FONT_AWESOME_SOLID_TARP_DROPLET: Self = {
+    pub const FONT_AWESOME_SOLID_TARP_DROPLET: Self = {
         #[inline(never)]
         fn font_awesome_solid_tarp_droplet(
             crate::IconProps {
@@ -26313,7 +26313,7 @@ impl IconData {
             html: font_awesome_solid_tarp_droplet,
         }
     };
-    const FONT_AWESOME_SOLID_TARP: Self = {
+    pub const FONT_AWESOME_SOLID_TARP: Self = {
         #[inline(never)]
         fn font_awesome_solid_tarp(
             crate::IconProps {
@@ -26335,7 +26335,7 @@ impl IconData {
             html: font_awesome_solid_tarp,
         }
     };
-    const FONT_AWESOME_SOLID_TAXI: Self = {
+    pub const FONT_AWESOME_SOLID_TAXI: Self = {
         #[inline(never)]
         fn font_awesome_solid_taxi(
             crate::IconProps {
@@ -26357,7 +26357,7 @@ impl IconData {
             html: font_awesome_solid_taxi,
         }
     };
-    const FONT_AWESOME_SOLID_TEETH_OPEN: Self = {
+    pub const FONT_AWESOME_SOLID_TEETH_OPEN: Self = {
         #[inline(never)]
         fn font_awesome_solid_teeth_open(
             crate::IconProps {
@@ -26379,7 +26379,7 @@ impl IconData {
             html: font_awesome_solid_teeth_open,
         }
     };
-    const FONT_AWESOME_SOLID_TEETH: Self = {
+    pub const FONT_AWESOME_SOLID_TEETH: Self = {
         #[inline(never)]
         fn font_awesome_solid_teeth(
             crate::IconProps {
@@ -26401,7 +26401,7 @@ impl IconData {
             html: font_awesome_solid_teeth,
         }
     };
-    const FONT_AWESOME_SOLID_TEMPERATURE_ARROW_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_TEMPERATURE_ARROW_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_temperature_arrow_down(
             crate::IconProps {
@@ -26423,7 +26423,7 @@ impl IconData {
             html: font_awesome_solid_temperature_arrow_down,
         }
     };
-    const FONT_AWESOME_SOLID_TEMPERATURE_ARROW_UP: Self = {
+    pub const FONT_AWESOME_SOLID_TEMPERATURE_ARROW_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_temperature_arrow_up(
             crate::IconProps {
@@ -26445,7 +26445,7 @@ impl IconData {
             html: font_awesome_solid_temperature_arrow_up,
         }
     };
-    const FONT_AWESOME_SOLID_TEMPERATURE_EMPTY: Self = {
+    pub const FONT_AWESOME_SOLID_TEMPERATURE_EMPTY: Self = {
         #[inline(never)]
         fn font_awesome_solid_temperature_empty(
             crate::IconProps {
@@ -26467,7 +26467,7 @@ impl IconData {
             html: font_awesome_solid_temperature_empty,
         }
     };
-    const FONT_AWESOME_SOLID_TEMPERATURE_FULL: Self = {
+    pub const FONT_AWESOME_SOLID_TEMPERATURE_FULL: Self = {
         #[inline(never)]
         fn font_awesome_solid_temperature_full(
             crate::IconProps {
@@ -26489,7 +26489,7 @@ impl IconData {
             html: font_awesome_solid_temperature_full,
         }
     };
-    const FONT_AWESOME_SOLID_TEMPERATURE_HALF: Self = {
+    pub const FONT_AWESOME_SOLID_TEMPERATURE_HALF: Self = {
         #[inline(never)]
         fn font_awesome_solid_temperature_half(
             crate::IconProps {
@@ -26511,7 +26511,7 @@ impl IconData {
             html: font_awesome_solid_temperature_half,
         }
     };
-    const FONT_AWESOME_SOLID_TEMPERATURE_HIGH: Self = {
+    pub const FONT_AWESOME_SOLID_TEMPERATURE_HIGH: Self = {
         #[inline(never)]
         fn font_awesome_solid_temperature_high(
             crate::IconProps {
@@ -26533,7 +26533,7 @@ impl IconData {
             html: font_awesome_solid_temperature_high,
         }
     };
-    const FONT_AWESOME_SOLID_TEMPERATURE_LOW: Self = {
+    pub const FONT_AWESOME_SOLID_TEMPERATURE_LOW: Self = {
         #[inline(never)]
         fn font_awesome_solid_temperature_low(
             crate::IconProps {
@@ -26555,7 +26555,7 @@ impl IconData {
             html: font_awesome_solid_temperature_low,
         }
     };
-    const FONT_AWESOME_SOLID_TEMPERATURE_QUARTER: Self = {
+    pub const FONT_AWESOME_SOLID_TEMPERATURE_QUARTER: Self = {
         #[inline(never)]
         fn font_awesome_solid_temperature_quarter(
             crate::IconProps {
@@ -26577,7 +26577,7 @@ impl IconData {
             html: font_awesome_solid_temperature_quarter,
         }
     };
-    const FONT_AWESOME_SOLID_TEMPERATURE_THREE_QUARTERS: Self = {
+    pub const FONT_AWESOME_SOLID_TEMPERATURE_THREE_QUARTERS: Self = {
         #[inline(never)]
         fn font_awesome_solid_temperature_three_quarters(
             crate::IconProps {
@@ -26599,7 +26599,7 @@ impl IconData {
             html: font_awesome_solid_temperature_three_quarters,
         }
     };
-    const FONT_AWESOME_SOLID_TENGE_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_TENGE_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_tenge_sign(
             crate::IconProps {
@@ -26621,7 +26621,7 @@ impl IconData {
             html: font_awesome_solid_tenge_sign,
         }
     };
-    const FONT_AWESOME_SOLID_TENT_ARROW_DOWN_TO_LINE: Self = {
+    pub const FONT_AWESOME_SOLID_TENT_ARROW_DOWN_TO_LINE: Self = {
         #[inline(never)]
         fn font_awesome_solid_tent_arrow_down_to_line(
             crate::IconProps {
@@ -26643,7 +26643,7 @@ impl IconData {
             html: font_awesome_solid_tent_arrow_down_to_line,
         }
     };
-    const FONT_AWESOME_SOLID_TENT_ARROW_LEFT_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_TENT_ARROW_LEFT_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_tent_arrow_left_right(
             crate::IconProps {
@@ -26665,7 +26665,7 @@ impl IconData {
             html: font_awesome_solid_tent_arrow_left_right,
         }
     };
-    const FONT_AWESOME_SOLID_TENT_ARROW_TURN_LEFT: Self = {
+    pub const FONT_AWESOME_SOLID_TENT_ARROW_TURN_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_solid_tent_arrow_turn_left(
             crate::IconProps {
@@ -26687,7 +26687,7 @@ impl IconData {
             html: font_awesome_solid_tent_arrow_turn_left,
         }
     };
-    const FONT_AWESOME_SOLID_TENT_ARROWS_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_TENT_ARROWS_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_tent_arrows_down(
             crate::IconProps {
@@ -26709,7 +26709,7 @@ impl IconData {
             html: font_awesome_solid_tent_arrows_down,
         }
     };
-    const FONT_AWESOME_SOLID_TENT: Self = {
+    pub const FONT_AWESOME_SOLID_TENT: Self = {
         #[inline(never)]
         fn font_awesome_solid_tent(
             crate::IconProps {
@@ -26731,7 +26731,7 @@ impl IconData {
             html: font_awesome_solid_tent,
         }
     };
-    const FONT_AWESOME_SOLID_TENTS: Self = {
+    pub const FONT_AWESOME_SOLID_TENTS: Self = {
         #[inline(never)]
         fn font_awesome_solid_tents(
             crate::IconProps {
@@ -26753,7 +26753,7 @@ impl IconData {
             html: font_awesome_solid_tents,
         }
     };
-    const FONT_AWESOME_SOLID_TERMINAL: Self = {
+    pub const FONT_AWESOME_SOLID_TERMINAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_terminal(
             crate::IconProps {
@@ -26775,7 +26775,7 @@ impl IconData {
             html: font_awesome_solid_terminal,
         }
     };
-    const FONT_AWESOME_SOLID_TEXT_HEIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_TEXT_HEIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_text_height(
             crate::IconProps {
@@ -26797,7 +26797,7 @@ impl IconData {
             html: font_awesome_solid_text_height,
         }
     };
-    const FONT_AWESOME_SOLID_TEXT_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_TEXT_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_text_slash(
             crate::IconProps {
@@ -26819,7 +26819,7 @@ impl IconData {
             html: font_awesome_solid_text_slash,
         }
     };
-    const FONT_AWESOME_SOLID_TEXT_WIDTH: Self = {
+    pub const FONT_AWESOME_SOLID_TEXT_WIDTH: Self = {
         #[inline(never)]
         fn font_awesome_solid_text_width(
             crate::IconProps {
@@ -26841,7 +26841,7 @@ impl IconData {
             html: font_awesome_solid_text_width,
         }
     };
-    const FONT_AWESOME_SOLID_THERMOMETER: Self = {
+    pub const FONT_AWESOME_SOLID_THERMOMETER: Self = {
         #[inline(never)]
         fn font_awesome_solid_thermometer(
             crate::IconProps {
@@ -26863,7 +26863,7 @@ impl IconData {
             html: font_awesome_solid_thermometer,
         }
     };
-    const FONT_AWESOME_SOLID_THUMBS_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_THUMBS_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_thumbs_down(
             crate::IconProps {
@@ -26885,7 +26885,7 @@ impl IconData {
             html: font_awesome_solid_thumbs_down,
         }
     };
-    const FONT_AWESOME_SOLID_THUMBS_UP: Self = {
+    pub const FONT_AWESOME_SOLID_THUMBS_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_thumbs_up(
             crate::IconProps {
@@ -26907,7 +26907,7 @@ impl IconData {
             html: font_awesome_solid_thumbs_up,
         }
     };
-    const FONT_AWESOME_SOLID_THUMBTACK: Self = {
+    pub const FONT_AWESOME_SOLID_THUMBTACK: Self = {
         #[inline(never)]
         fn font_awesome_solid_thumbtack(
             crate::IconProps {
@@ -26929,7 +26929,7 @@ impl IconData {
             html: font_awesome_solid_thumbtack,
         }
     };
-    const FONT_AWESOME_SOLID_TICKET_SIMPLE: Self = {
+    pub const FONT_AWESOME_SOLID_TICKET_SIMPLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_ticket_simple(
             crate::IconProps {
@@ -26951,7 +26951,7 @@ impl IconData {
             html: font_awesome_solid_ticket_simple,
         }
     };
-    const FONT_AWESOME_SOLID_TICKET: Self = {
+    pub const FONT_AWESOME_SOLID_TICKET: Self = {
         #[inline(never)]
         fn font_awesome_solid_ticket(
             crate::IconProps {
@@ -26973,7 +26973,7 @@ impl IconData {
             html: font_awesome_solid_ticket,
         }
     };
-    const FONT_AWESOME_SOLID_TIMELINE: Self = {
+    pub const FONT_AWESOME_SOLID_TIMELINE: Self = {
         #[inline(never)]
         fn font_awesome_solid_timeline(
             crate::IconProps {
@@ -26995,7 +26995,7 @@ impl IconData {
             html: font_awesome_solid_timeline,
         }
     };
-    const FONT_AWESOME_SOLID_TOGGLE_OFF: Self = {
+    pub const FONT_AWESOME_SOLID_TOGGLE_OFF: Self = {
         #[inline(never)]
         fn font_awesome_solid_toggle_off(
             crate::IconProps {
@@ -27017,7 +27017,7 @@ impl IconData {
             html: font_awesome_solid_toggle_off,
         }
     };
-    const FONT_AWESOME_SOLID_TOGGLE_ON: Self = {
+    pub const FONT_AWESOME_SOLID_TOGGLE_ON: Self = {
         #[inline(never)]
         fn font_awesome_solid_toggle_on(
             crate::IconProps {
@@ -27039,7 +27039,7 @@ impl IconData {
             html: font_awesome_solid_toggle_on,
         }
     };
-    const FONT_AWESOME_SOLID_TOILET_PAPER_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_TOILET_PAPER_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_toilet_paper_slash(
             crate::IconProps {
@@ -27061,7 +27061,7 @@ impl IconData {
             html: font_awesome_solid_toilet_paper_slash,
         }
     };
-    const FONT_AWESOME_SOLID_TOILET_PAPER: Self = {
+    pub const FONT_AWESOME_SOLID_TOILET_PAPER: Self = {
         #[inline(never)]
         fn font_awesome_solid_toilet_paper(
             crate::IconProps {
@@ -27083,7 +27083,7 @@ impl IconData {
             html: font_awesome_solid_toilet_paper,
         }
     };
-    const FONT_AWESOME_SOLID_TOILET_PORTABLE: Self = {
+    pub const FONT_AWESOME_SOLID_TOILET_PORTABLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_toilet_portable(
             crate::IconProps {
@@ -27105,7 +27105,7 @@ impl IconData {
             html: font_awesome_solid_toilet_portable,
         }
     };
-    const FONT_AWESOME_SOLID_TOILET: Self = {
+    pub const FONT_AWESOME_SOLID_TOILET: Self = {
         #[inline(never)]
         fn font_awesome_solid_toilet(
             crate::IconProps {
@@ -27127,7 +27127,7 @@ impl IconData {
             html: font_awesome_solid_toilet,
         }
     };
-    const FONT_AWESOME_SOLID_TOILETS_PORTABLE: Self = {
+    pub const FONT_AWESOME_SOLID_TOILETS_PORTABLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_toilets_portable(
             crate::IconProps {
@@ -27149,7 +27149,7 @@ impl IconData {
             html: font_awesome_solid_toilets_portable,
         }
     };
-    const FONT_AWESOME_SOLID_TOOLBOX: Self = {
+    pub const FONT_AWESOME_SOLID_TOOLBOX: Self = {
         #[inline(never)]
         fn font_awesome_solid_toolbox(
             crate::IconProps {
@@ -27171,7 +27171,7 @@ impl IconData {
             html: font_awesome_solid_toolbox,
         }
     };
-    const FONT_AWESOME_SOLID_TOOTH: Self = {
+    pub const FONT_AWESOME_SOLID_TOOTH: Self = {
         #[inline(never)]
         fn font_awesome_solid_tooth(
             crate::IconProps {
@@ -27193,7 +27193,7 @@ impl IconData {
             html: font_awesome_solid_tooth,
         }
     };
-    const FONT_AWESOME_SOLID_TORII_GATE: Self = {
+    pub const FONT_AWESOME_SOLID_TORII_GATE: Self = {
         #[inline(never)]
         fn font_awesome_solid_torii_gate(
             crate::IconProps {
@@ -27215,7 +27215,7 @@ impl IconData {
             html: font_awesome_solid_torii_gate,
         }
     };
-    const FONT_AWESOME_SOLID_TORNADO: Self = {
+    pub const FONT_AWESOME_SOLID_TORNADO: Self = {
         #[inline(never)]
         fn font_awesome_solid_tornado(
             crate::IconProps {
@@ -27237,7 +27237,7 @@ impl IconData {
             html: font_awesome_solid_tornado,
         }
     };
-    const FONT_AWESOME_SOLID_TOWER_BROADCAST: Self = {
+    pub const FONT_AWESOME_SOLID_TOWER_BROADCAST: Self = {
         #[inline(never)]
         fn font_awesome_solid_tower_broadcast(
             crate::IconProps {
@@ -27259,7 +27259,7 @@ impl IconData {
             html: font_awesome_solid_tower_broadcast,
         }
     };
-    const FONT_AWESOME_SOLID_TOWER_CELL: Self = {
+    pub const FONT_AWESOME_SOLID_TOWER_CELL: Self = {
         #[inline(never)]
         fn font_awesome_solid_tower_cell(
             crate::IconProps {
@@ -27281,7 +27281,7 @@ impl IconData {
             html: font_awesome_solid_tower_cell,
         }
     };
-    const FONT_AWESOME_SOLID_TOWER_OBSERVATION: Self = {
+    pub const FONT_AWESOME_SOLID_TOWER_OBSERVATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_tower_observation(
             crate::IconProps {
@@ -27303,7 +27303,7 @@ impl IconData {
             html: font_awesome_solid_tower_observation,
         }
     };
-    const FONT_AWESOME_SOLID_TRACTOR: Self = {
+    pub const FONT_AWESOME_SOLID_TRACTOR: Self = {
         #[inline(never)]
         fn font_awesome_solid_tractor(
             crate::IconProps {
@@ -27325,7 +27325,7 @@ impl IconData {
             html: font_awesome_solid_tractor,
         }
     };
-    const FONT_AWESOME_SOLID_TRADEMARK: Self = {
+    pub const FONT_AWESOME_SOLID_TRADEMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_trademark(
             crate::IconProps {
@@ -27347,7 +27347,7 @@ impl IconData {
             html: font_awesome_solid_trademark,
         }
     };
-    const FONT_AWESOME_SOLID_TRAFFIC_LIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_TRAFFIC_LIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_traffic_light(
             crate::IconProps {
@@ -27369,7 +27369,7 @@ impl IconData {
             html: font_awesome_solid_traffic_light,
         }
     };
-    const FONT_AWESOME_SOLID_TRAILER: Self = {
+    pub const FONT_AWESOME_SOLID_TRAILER: Self = {
         #[inline(never)]
         fn font_awesome_solid_trailer(
             crate::IconProps {
@@ -27391,7 +27391,7 @@ impl IconData {
             html: font_awesome_solid_trailer,
         }
     };
-    const FONT_AWESOME_SOLID_TRAIN_SUBWAY: Self = {
+    pub const FONT_AWESOME_SOLID_TRAIN_SUBWAY: Self = {
         #[inline(never)]
         fn font_awesome_solid_train_subway(
             crate::IconProps {
@@ -27413,7 +27413,7 @@ impl IconData {
             html: font_awesome_solid_train_subway,
         }
     };
-    const FONT_AWESOME_SOLID_TRAIN_TRAM: Self = {
+    pub const FONT_AWESOME_SOLID_TRAIN_TRAM: Self = {
         #[inline(never)]
         fn font_awesome_solid_train_tram(
             crate::IconProps {
@@ -27435,7 +27435,7 @@ impl IconData {
             html: font_awesome_solid_train_tram,
         }
     };
-    const FONT_AWESOME_SOLID_TRAIN: Self = {
+    pub const FONT_AWESOME_SOLID_TRAIN: Self = {
         #[inline(never)]
         fn font_awesome_solid_train(
             crate::IconProps {
@@ -27457,7 +27457,7 @@ impl IconData {
             html: font_awesome_solid_train,
         }
     };
-    const FONT_AWESOME_SOLID_TRANSGENDER: Self = {
+    pub const FONT_AWESOME_SOLID_TRANSGENDER: Self = {
         #[inline(never)]
         fn font_awesome_solid_transgender(
             crate::IconProps {
@@ -27479,7 +27479,7 @@ impl IconData {
             html: font_awesome_solid_transgender,
         }
     };
-    const FONT_AWESOME_SOLID_TRASH_ARROW_UP: Self = {
+    pub const FONT_AWESOME_SOLID_TRASH_ARROW_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_trash_arrow_up(
             crate::IconProps {
@@ -27501,7 +27501,7 @@ impl IconData {
             html: font_awesome_solid_trash_arrow_up,
         }
     };
-    const FONT_AWESOME_SOLID_TRASH_CAN_ARROW_UP: Self = {
+    pub const FONT_AWESOME_SOLID_TRASH_CAN_ARROW_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_trash_can_arrow_up(
             crate::IconProps {
@@ -27523,7 +27523,7 @@ impl IconData {
             html: font_awesome_solid_trash_can_arrow_up,
         }
     };
-    const FONT_AWESOME_SOLID_TRASH_CAN: Self = {
+    pub const FONT_AWESOME_SOLID_TRASH_CAN: Self = {
         #[inline(never)]
         fn font_awesome_solid_trash_can(
             crate::IconProps {
@@ -27545,7 +27545,7 @@ impl IconData {
             html: font_awesome_solid_trash_can,
         }
     };
-    const FONT_AWESOME_SOLID_TRASH: Self = {
+    pub const FONT_AWESOME_SOLID_TRASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_trash(
             crate::IconProps {
@@ -27567,7 +27567,7 @@ impl IconData {
             html: font_awesome_solid_trash,
         }
     };
-    const FONT_AWESOME_SOLID_TREE_CITY: Self = {
+    pub const FONT_AWESOME_SOLID_TREE_CITY: Self = {
         #[inline(never)]
         fn font_awesome_solid_tree_city(
             crate::IconProps {
@@ -27589,7 +27589,7 @@ impl IconData {
             html: font_awesome_solid_tree_city,
         }
     };
-    const FONT_AWESOME_SOLID_TREE: Self = {
+    pub const FONT_AWESOME_SOLID_TREE: Self = {
         #[inline(never)]
         fn font_awesome_solid_tree(
             crate::IconProps {
@@ -27611,7 +27611,7 @@ impl IconData {
             html: font_awesome_solid_tree,
         }
     };
-    const FONT_AWESOME_SOLID_TRIANGLE_EXCLAMATION: Self = {
+    pub const FONT_AWESOME_SOLID_TRIANGLE_EXCLAMATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_triangle_exclamation(
             crate::IconProps {
@@ -27633,7 +27633,7 @@ impl IconData {
             html: font_awesome_solid_triangle_exclamation,
         }
     };
-    const FONT_AWESOME_SOLID_TROPHY: Self = {
+    pub const FONT_AWESOME_SOLID_TROPHY: Self = {
         #[inline(never)]
         fn font_awesome_solid_trophy(
             crate::IconProps {
@@ -27655,7 +27655,7 @@ impl IconData {
             html: font_awesome_solid_trophy,
         }
     };
-    const FONT_AWESOME_SOLID_TROWEL_BRICKS: Self = {
+    pub const FONT_AWESOME_SOLID_TROWEL_BRICKS: Self = {
         #[inline(never)]
         fn font_awesome_solid_trowel_bricks(
             crate::IconProps {
@@ -27677,7 +27677,7 @@ impl IconData {
             html: font_awesome_solid_trowel_bricks,
         }
     };
-    const FONT_AWESOME_SOLID_TROWEL: Self = {
+    pub const FONT_AWESOME_SOLID_TROWEL: Self = {
         #[inline(never)]
         fn font_awesome_solid_trowel(
             crate::IconProps {
@@ -27699,7 +27699,7 @@ impl IconData {
             html: font_awesome_solid_trowel,
         }
     };
-    const FONT_AWESOME_SOLID_TRUCK_ARROW_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_TRUCK_ARROW_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_truck_arrow_right(
             crate::IconProps {
@@ -27721,7 +27721,7 @@ impl IconData {
             html: font_awesome_solid_truck_arrow_right,
         }
     };
-    const FONT_AWESOME_SOLID_TRUCK_DROPLET: Self = {
+    pub const FONT_AWESOME_SOLID_TRUCK_DROPLET: Self = {
         #[inline(never)]
         fn font_awesome_solid_truck_droplet(
             crate::IconProps {
@@ -27743,7 +27743,7 @@ impl IconData {
             html: font_awesome_solid_truck_droplet,
         }
     };
-    const FONT_AWESOME_SOLID_TRUCK_FAST: Self = {
+    pub const FONT_AWESOME_SOLID_TRUCK_FAST: Self = {
         #[inline(never)]
         fn font_awesome_solid_truck_fast(
             crate::IconProps {
@@ -27765,7 +27765,7 @@ impl IconData {
             html: font_awesome_solid_truck_fast,
         }
     };
-    const FONT_AWESOME_SOLID_TRUCK_FIELD_UN: Self = {
+    pub const FONT_AWESOME_SOLID_TRUCK_FIELD_UN: Self = {
         #[inline(never)]
         fn font_awesome_solid_truck_field_un(
             crate::IconProps {
@@ -27787,7 +27787,7 @@ impl IconData {
             html: font_awesome_solid_truck_field_un,
         }
     };
-    const FONT_AWESOME_SOLID_TRUCK_FIELD: Self = {
+    pub const FONT_AWESOME_SOLID_TRUCK_FIELD: Self = {
         #[inline(never)]
         fn font_awesome_solid_truck_field(
             crate::IconProps {
@@ -27809,7 +27809,7 @@ impl IconData {
             html: font_awesome_solid_truck_field,
         }
     };
-    const FONT_AWESOME_SOLID_TRUCK_FRONT: Self = {
+    pub const FONT_AWESOME_SOLID_TRUCK_FRONT: Self = {
         #[inline(never)]
         fn font_awesome_solid_truck_front(
             crate::IconProps {
@@ -27831,7 +27831,7 @@ impl IconData {
             html: font_awesome_solid_truck_front,
         }
     };
-    const FONT_AWESOME_SOLID_TRUCK_MEDICAL: Self = {
+    pub const FONT_AWESOME_SOLID_TRUCK_MEDICAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_truck_medical(
             crate::IconProps {
@@ -27853,7 +27853,7 @@ impl IconData {
             html: font_awesome_solid_truck_medical,
         }
     };
-    const FONT_AWESOME_SOLID_TRUCK_MONSTER: Self = {
+    pub const FONT_AWESOME_SOLID_TRUCK_MONSTER: Self = {
         #[inline(never)]
         fn font_awesome_solid_truck_monster(
             crate::IconProps {
@@ -27875,7 +27875,7 @@ impl IconData {
             html: font_awesome_solid_truck_monster,
         }
     };
-    const FONT_AWESOME_SOLID_TRUCK_MOVING: Self = {
+    pub const FONT_AWESOME_SOLID_TRUCK_MOVING: Self = {
         #[inline(never)]
         fn font_awesome_solid_truck_moving(
             crate::IconProps {
@@ -27897,7 +27897,7 @@ impl IconData {
             html: font_awesome_solid_truck_moving,
         }
     };
-    const FONT_AWESOME_SOLID_TRUCK_PICKUP: Self = {
+    pub const FONT_AWESOME_SOLID_TRUCK_PICKUP: Self = {
         #[inline(never)]
         fn font_awesome_solid_truck_pickup(
             crate::IconProps {
@@ -27919,7 +27919,7 @@ impl IconData {
             html: font_awesome_solid_truck_pickup,
         }
     };
-    const FONT_AWESOME_SOLID_TRUCK_PLANE: Self = {
+    pub const FONT_AWESOME_SOLID_TRUCK_PLANE: Self = {
         #[inline(never)]
         fn font_awesome_solid_truck_plane(
             crate::IconProps {
@@ -27941,7 +27941,7 @@ impl IconData {
             html: font_awesome_solid_truck_plane,
         }
     };
-    const FONT_AWESOME_SOLID_TRUCK_RAMP_BOX: Self = {
+    pub const FONT_AWESOME_SOLID_TRUCK_RAMP_BOX: Self = {
         #[inline(never)]
         fn font_awesome_solid_truck_ramp_box(
             crate::IconProps {
@@ -27963,7 +27963,7 @@ impl IconData {
             html: font_awesome_solid_truck_ramp_box,
         }
     };
-    const FONT_AWESOME_SOLID_TRUCK: Self = {
+    pub const FONT_AWESOME_SOLID_TRUCK: Self = {
         #[inline(never)]
         fn font_awesome_solid_truck(
             crate::IconProps {
@@ -27985,7 +27985,7 @@ impl IconData {
             html: font_awesome_solid_truck,
         }
     };
-    const FONT_AWESOME_SOLID_TTY: Self = {
+    pub const FONT_AWESOME_SOLID_TTY: Self = {
         #[inline(never)]
         fn font_awesome_solid_tty(
             crate::IconProps {
@@ -28007,7 +28007,7 @@ impl IconData {
             html: font_awesome_solid_tty,
         }
     };
-    const FONT_AWESOME_SOLID_TURKISH_LIRA_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_TURKISH_LIRA_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_turkish_lira_sign(
             crate::IconProps {
@@ -28029,7 +28029,7 @@ impl IconData {
             html: font_awesome_solid_turkish_lira_sign,
         }
     };
-    const FONT_AWESOME_SOLID_TURN_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_TURN_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_turn_down(
             crate::IconProps {
@@ -28051,7 +28051,7 @@ impl IconData {
             html: font_awesome_solid_turn_down,
         }
     };
-    const FONT_AWESOME_SOLID_TURN_UP: Self = {
+    pub const FONT_AWESOME_SOLID_TURN_UP: Self = {
         #[inline(never)]
         fn font_awesome_solid_turn_up(
             crate::IconProps {
@@ -28073,7 +28073,7 @@ impl IconData {
             html: font_awesome_solid_turn_up,
         }
     };
-    const FONT_AWESOME_SOLID_TV: Self = {
+    pub const FONT_AWESOME_SOLID_TV: Self = {
         #[inline(never)]
         fn font_awesome_solid_tv(
             crate::IconProps {
@@ -28095,7 +28095,7 @@ impl IconData {
             html: font_awesome_solid_tv,
         }
     };
-    const FONT_AWESOME_SOLID_U: Self = {
+    pub const FONT_AWESOME_SOLID_U: Self = {
         #[inline(never)]
         fn font_awesome_solid_u(
             crate::IconProps {
@@ -28117,7 +28117,7 @@ impl IconData {
             html: font_awesome_solid_u,
         }
     };
-    const FONT_AWESOME_SOLID_UMBRELLA_BEACH: Self = {
+    pub const FONT_AWESOME_SOLID_UMBRELLA_BEACH: Self = {
         #[inline(never)]
         fn font_awesome_solid_umbrella_beach(
             crate::IconProps {
@@ -28139,7 +28139,7 @@ impl IconData {
             html: font_awesome_solid_umbrella_beach,
         }
     };
-    const FONT_AWESOME_SOLID_UMBRELLA: Self = {
+    pub const FONT_AWESOME_SOLID_UMBRELLA: Self = {
         #[inline(never)]
         fn font_awesome_solid_umbrella(
             crate::IconProps {
@@ -28161,7 +28161,7 @@ impl IconData {
             html: font_awesome_solid_umbrella,
         }
     };
-    const FONT_AWESOME_SOLID_UNDERLINE: Self = {
+    pub const FONT_AWESOME_SOLID_UNDERLINE: Self = {
         #[inline(never)]
         fn font_awesome_solid_underline(
             crate::IconProps {
@@ -28183,7 +28183,7 @@ impl IconData {
             html: font_awesome_solid_underline,
         }
     };
-    const FONT_AWESOME_SOLID_UNIVERSAL_ACCESS: Self = {
+    pub const FONT_AWESOME_SOLID_UNIVERSAL_ACCESS: Self = {
         #[inline(never)]
         fn font_awesome_solid_universal_access(
             crate::IconProps {
@@ -28205,7 +28205,7 @@ impl IconData {
             html: font_awesome_solid_universal_access,
         }
     };
-    const FONT_AWESOME_SOLID_UNLOCK_KEYHOLE: Self = {
+    pub const FONT_AWESOME_SOLID_UNLOCK_KEYHOLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_unlock_keyhole(
             crate::IconProps {
@@ -28227,7 +28227,7 @@ impl IconData {
             html: font_awesome_solid_unlock_keyhole,
         }
     };
-    const FONT_AWESOME_SOLID_UNLOCK: Self = {
+    pub const FONT_AWESOME_SOLID_UNLOCK: Self = {
         #[inline(never)]
         fn font_awesome_solid_unlock(
             crate::IconProps {
@@ -28249,7 +28249,7 @@ impl IconData {
             html: font_awesome_solid_unlock,
         }
     };
-    const FONT_AWESOME_SOLID_UP_DOWN_LEFT_RIGHT: Self = {
+    pub const FONT_AWESOME_SOLID_UP_DOWN_LEFT_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_solid_up_down_left_right(
             crate::IconProps {
@@ -28271,7 +28271,7 @@ impl IconData {
             html: font_awesome_solid_up_down_left_right,
         }
     };
-    const FONT_AWESOME_SOLID_UP_DOWN: Self = {
+    pub const FONT_AWESOME_SOLID_UP_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_up_down(
             crate::IconProps {
@@ -28293,7 +28293,7 @@ impl IconData {
             html: font_awesome_solid_up_down,
         }
     };
-    const FONT_AWESOME_SOLID_UP_LONG: Self = {
+    pub const FONT_AWESOME_SOLID_UP_LONG: Self = {
         #[inline(never)]
         fn font_awesome_solid_up_long(
             crate::IconProps {
@@ -28315,7 +28315,7 @@ impl IconData {
             html: font_awesome_solid_up_long,
         }
     };
-    const FONT_AWESOME_SOLID_UP_RIGHT_AND_DOWN_LEFT_FROM_CENTER: Self = {
+    pub const FONT_AWESOME_SOLID_UP_RIGHT_AND_DOWN_LEFT_FROM_CENTER: Self = {
         #[inline(never)]
         fn font_awesome_solid_up_right_and_down_left_from_center(
             crate::IconProps {
@@ -28337,7 +28337,7 @@ impl IconData {
             html: font_awesome_solid_up_right_and_down_left_from_center,
         }
     };
-    const FONT_AWESOME_SOLID_UP_RIGHT_FROM_SQUARE: Self = {
+    pub const FONT_AWESOME_SOLID_UP_RIGHT_FROM_SQUARE: Self = {
         #[inline(never)]
         fn font_awesome_solid_up_right_from_square(
             crate::IconProps {
@@ -28359,7 +28359,7 @@ impl IconData {
             html: font_awesome_solid_up_right_from_square,
         }
     };
-    const FONT_AWESOME_SOLID_UPLOAD: Self = {
+    pub const FONT_AWESOME_SOLID_UPLOAD: Self = {
         #[inline(never)]
         fn font_awesome_solid_upload(
             crate::IconProps {
@@ -28381,7 +28381,7 @@ impl IconData {
             html: font_awesome_solid_upload,
         }
     };
-    const FONT_AWESOME_SOLID_USER_ASTRONAUT: Self = {
+    pub const FONT_AWESOME_SOLID_USER_ASTRONAUT: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_astronaut(
             crate::IconProps {
@@ -28403,7 +28403,7 @@ impl IconData {
             html: font_awesome_solid_user_astronaut,
         }
     };
-    const FONT_AWESOME_SOLID_USER_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_USER_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_check(
             crate::IconProps {
@@ -28425,7 +28425,7 @@ impl IconData {
             html: font_awesome_solid_user_check,
         }
     };
-    const FONT_AWESOME_SOLID_USER_CLOCK: Self = {
+    pub const FONT_AWESOME_SOLID_USER_CLOCK: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_clock(
             crate::IconProps {
@@ -28447,7 +28447,7 @@ impl IconData {
             html: font_awesome_solid_user_clock,
         }
     };
-    const FONT_AWESOME_SOLID_USER_DOCTOR: Self = {
+    pub const FONT_AWESOME_SOLID_USER_DOCTOR: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_doctor(
             crate::IconProps {
@@ -28469,7 +28469,7 @@ impl IconData {
             html: font_awesome_solid_user_doctor,
         }
     };
-    const FONT_AWESOME_SOLID_USER_GEAR: Self = {
+    pub const FONT_AWESOME_SOLID_USER_GEAR: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_gear(
             crate::IconProps {
@@ -28491,7 +28491,7 @@ impl IconData {
             html: font_awesome_solid_user_gear,
         }
     };
-    const FONT_AWESOME_SOLID_USER_GRADUATE: Self = {
+    pub const FONT_AWESOME_SOLID_USER_GRADUATE: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_graduate(
             crate::IconProps {
@@ -28513,7 +28513,7 @@ impl IconData {
             html: font_awesome_solid_user_graduate,
         }
     };
-    const FONT_AWESOME_SOLID_USER_GROUP: Self = {
+    pub const FONT_AWESOME_SOLID_USER_GROUP: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_group(
             crate::IconProps {
@@ -28535,7 +28535,7 @@ impl IconData {
             html: font_awesome_solid_user_group,
         }
     };
-    const FONT_AWESOME_SOLID_USER_INJURED: Self = {
+    pub const FONT_AWESOME_SOLID_USER_INJURED: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_injured(
             crate::IconProps {
@@ -28557,7 +28557,7 @@ impl IconData {
             html: font_awesome_solid_user_injured,
         }
     };
-    const FONT_AWESOME_SOLID_USER_LARGE_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_USER_LARGE_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_large_slash(
             crate::IconProps {
@@ -28579,7 +28579,7 @@ impl IconData {
             html: font_awesome_solid_user_large_slash,
         }
     };
-    const FONT_AWESOME_SOLID_USER_LARGE: Self = {
+    pub const FONT_AWESOME_SOLID_USER_LARGE: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_large(
             crate::IconProps {
@@ -28601,7 +28601,7 @@ impl IconData {
             html: font_awesome_solid_user_large,
         }
     };
-    const FONT_AWESOME_SOLID_USER_LOCK: Self = {
+    pub const FONT_AWESOME_SOLID_USER_LOCK: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_lock(
             crate::IconProps {
@@ -28623,7 +28623,7 @@ impl IconData {
             html: font_awesome_solid_user_lock,
         }
     };
-    const FONT_AWESOME_SOLID_USER_MINUS: Self = {
+    pub const FONT_AWESOME_SOLID_USER_MINUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_minus(
             crate::IconProps {
@@ -28645,7 +28645,7 @@ impl IconData {
             html: font_awesome_solid_user_minus,
         }
     };
-    const FONT_AWESOME_SOLID_USER_NINJA: Self = {
+    pub const FONT_AWESOME_SOLID_USER_NINJA: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_ninja(
             crate::IconProps {
@@ -28667,7 +28667,7 @@ impl IconData {
             html: font_awesome_solid_user_ninja,
         }
     };
-    const FONT_AWESOME_SOLID_USER_NURSE: Self = {
+    pub const FONT_AWESOME_SOLID_USER_NURSE: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_nurse(
             crate::IconProps {
@@ -28689,7 +28689,7 @@ impl IconData {
             html: font_awesome_solid_user_nurse,
         }
     };
-    const FONT_AWESOME_SOLID_USER_PEN: Self = {
+    pub const FONT_AWESOME_SOLID_USER_PEN: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_pen(
             crate::IconProps {
@@ -28711,7 +28711,7 @@ impl IconData {
             html: font_awesome_solid_user_pen,
         }
     };
-    const FONT_AWESOME_SOLID_USER_PLUS: Self = {
+    pub const FONT_AWESOME_SOLID_USER_PLUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_plus(
             crate::IconProps {
@@ -28733,7 +28733,7 @@ impl IconData {
             html: font_awesome_solid_user_plus,
         }
     };
-    const FONT_AWESOME_SOLID_USER_SECRET: Self = {
+    pub const FONT_AWESOME_SOLID_USER_SECRET: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_secret(
             crate::IconProps {
@@ -28755,7 +28755,7 @@ impl IconData {
             html: font_awesome_solid_user_secret,
         }
     };
-    const FONT_AWESOME_SOLID_USER_SHIELD: Self = {
+    pub const FONT_AWESOME_SOLID_USER_SHIELD: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_shield(
             crate::IconProps {
@@ -28777,7 +28777,7 @@ impl IconData {
             html: font_awesome_solid_user_shield,
         }
     };
-    const FONT_AWESOME_SOLID_USER_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_USER_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_slash(
             crate::IconProps {
@@ -28799,7 +28799,7 @@ impl IconData {
             html: font_awesome_solid_user_slash,
         }
     };
-    const FONT_AWESOME_SOLID_USER_TAG: Self = {
+    pub const FONT_AWESOME_SOLID_USER_TAG: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_tag(
             crate::IconProps {
@@ -28821,7 +28821,7 @@ impl IconData {
             html: font_awesome_solid_user_tag,
         }
     };
-    const FONT_AWESOME_SOLID_USER_TIE: Self = {
+    pub const FONT_AWESOME_SOLID_USER_TIE: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_tie(
             crate::IconProps {
@@ -28843,7 +28843,7 @@ impl IconData {
             html: font_awesome_solid_user_tie,
         }
     };
-    const FONT_AWESOME_SOLID_USER_XMARK: Self = {
+    pub const FONT_AWESOME_SOLID_USER_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_user_xmark(
             crate::IconProps {
@@ -28865,7 +28865,7 @@ impl IconData {
             html: font_awesome_solid_user_xmark,
         }
     };
-    const FONT_AWESOME_SOLID_USER: Self = {
+    pub const FONT_AWESOME_SOLID_USER: Self = {
         #[inline(never)]
         fn font_awesome_solid_user(
             crate::IconProps {
@@ -28887,7 +28887,7 @@ impl IconData {
             html: font_awesome_solid_user,
         }
     };
-    const FONT_AWESOME_SOLID_USERS_BETWEEN_LINES: Self = {
+    pub const FONT_AWESOME_SOLID_USERS_BETWEEN_LINES: Self = {
         #[inline(never)]
         fn font_awesome_solid_users_between_lines(
             crate::IconProps {
@@ -28909,7 +28909,7 @@ impl IconData {
             html: font_awesome_solid_users_between_lines,
         }
     };
-    const FONT_AWESOME_SOLID_USERS_GEAR: Self = {
+    pub const FONT_AWESOME_SOLID_USERS_GEAR: Self = {
         #[inline(never)]
         fn font_awesome_solid_users_gear(
             crate::IconProps {
@@ -28931,7 +28931,7 @@ impl IconData {
             html: font_awesome_solid_users_gear,
         }
     };
-    const FONT_AWESOME_SOLID_USERS_LINE: Self = {
+    pub const FONT_AWESOME_SOLID_USERS_LINE: Self = {
         #[inline(never)]
         fn font_awesome_solid_users_line(
             crate::IconProps {
@@ -28953,7 +28953,7 @@ impl IconData {
             html: font_awesome_solid_users_line,
         }
     };
-    const FONT_AWESOME_SOLID_USERS_RAYS: Self = {
+    pub const FONT_AWESOME_SOLID_USERS_RAYS: Self = {
         #[inline(never)]
         fn font_awesome_solid_users_rays(
             crate::IconProps {
@@ -28975,7 +28975,7 @@ impl IconData {
             html: font_awesome_solid_users_rays,
         }
     };
-    const FONT_AWESOME_SOLID_USERS_RECTANGLE: Self = {
+    pub const FONT_AWESOME_SOLID_USERS_RECTANGLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_users_rectangle(
             crate::IconProps {
@@ -28997,7 +28997,7 @@ impl IconData {
             html: font_awesome_solid_users_rectangle,
         }
     };
-    const FONT_AWESOME_SOLID_USERS_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_USERS_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_users_slash(
             crate::IconProps {
@@ -29019,7 +29019,7 @@ impl IconData {
             html: font_awesome_solid_users_slash,
         }
     };
-    const FONT_AWESOME_SOLID_USERS_VIEWFINDER: Self = {
+    pub const FONT_AWESOME_SOLID_USERS_VIEWFINDER: Self = {
         #[inline(never)]
         fn font_awesome_solid_users_viewfinder(
             crate::IconProps {
@@ -29041,7 +29041,7 @@ impl IconData {
             html: font_awesome_solid_users_viewfinder,
         }
     };
-    const FONT_AWESOME_SOLID_USERS: Self = {
+    pub const FONT_AWESOME_SOLID_USERS: Self = {
         #[inline(never)]
         fn font_awesome_solid_users(
             crate::IconProps {
@@ -29063,7 +29063,7 @@ impl IconData {
             html: font_awesome_solid_users,
         }
     };
-    const FONT_AWESOME_SOLID_UTENSILS: Self = {
+    pub const FONT_AWESOME_SOLID_UTENSILS: Self = {
         #[inline(never)]
         fn font_awesome_solid_utensils(
             crate::IconProps {
@@ -29085,7 +29085,7 @@ impl IconData {
             html: font_awesome_solid_utensils,
         }
     };
-    const FONT_AWESOME_SOLID_V: Self = {
+    pub const FONT_AWESOME_SOLID_V: Self = {
         #[inline(never)]
         fn font_awesome_solid_v(
             crate::IconProps {
@@ -29107,7 +29107,7 @@ impl IconData {
             html: font_awesome_solid_v,
         }
     };
-    const FONT_AWESOME_SOLID_VAN_SHUTTLE: Self = {
+    pub const FONT_AWESOME_SOLID_VAN_SHUTTLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_van_shuttle(
             crate::IconProps {
@@ -29129,7 +29129,7 @@ impl IconData {
             html: font_awesome_solid_van_shuttle,
         }
     };
-    const FONT_AWESOME_SOLID_VAULT: Self = {
+    pub const FONT_AWESOME_SOLID_VAULT: Self = {
         #[inline(never)]
         fn font_awesome_solid_vault(
             crate::IconProps {
@@ -29151,7 +29151,7 @@ impl IconData {
             html: font_awesome_solid_vault,
         }
     };
-    const FONT_AWESOME_SOLID_VECTOR_SQUARE: Self = {
+    pub const FONT_AWESOME_SOLID_VECTOR_SQUARE: Self = {
         #[inline(never)]
         fn font_awesome_solid_vector_square(
             crate::IconProps {
@@ -29173,7 +29173,7 @@ impl IconData {
             html: font_awesome_solid_vector_square,
         }
     };
-    const FONT_AWESOME_SOLID_VENUS_DOUBLE: Self = {
+    pub const FONT_AWESOME_SOLID_VENUS_DOUBLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_venus_double(
             crate::IconProps {
@@ -29195,7 +29195,7 @@ impl IconData {
             html: font_awesome_solid_venus_double,
         }
     };
-    const FONT_AWESOME_SOLID_VENUS_MARS: Self = {
+    pub const FONT_AWESOME_SOLID_VENUS_MARS: Self = {
         #[inline(never)]
         fn font_awesome_solid_venus_mars(
             crate::IconProps {
@@ -29217,7 +29217,7 @@ impl IconData {
             html: font_awesome_solid_venus_mars,
         }
     };
-    const FONT_AWESOME_SOLID_VENUS: Self = {
+    pub const FONT_AWESOME_SOLID_VENUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_venus(
             crate::IconProps {
@@ -29239,7 +29239,7 @@ impl IconData {
             html: font_awesome_solid_venus,
         }
     };
-    const FONT_AWESOME_SOLID_VEST_PATCHES: Self = {
+    pub const FONT_AWESOME_SOLID_VEST_PATCHES: Self = {
         #[inline(never)]
         fn font_awesome_solid_vest_patches(
             crate::IconProps {
@@ -29261,7 +29261,7 @@ impl IconData {
             html: font_awesome_solid_vest_patches,
         }
     };
-    const FONT_AWESOME_SOLID_VEST: Self = {
+    pub const FONT_AWESOME_SOLID_VEST: Self = {
         #[inline(never)]
         fn font_awesome_solid_vest(
             crate::IconProps {
@@ -29283,7 +29283,7 @@ impl IconData {
             html: font_awesome_solid_vest,
         }
     };
-    const FONT_AWESOME_SOLID_VIAL_CIRCLE_CHECK: Self = {
+    pub const FONT_AWESOME_SOLID_VIAL_CIRCLE_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_solid_vial_circle_check(
             crate::IconProps {
@@ -29305,7 +29305,7 @@ impl IconData {
             html: font_awesome_solid_vial_circle_check,
         }
     };
-    const FONT_AWESOME_SOLID_VIAL_VIRUS: Self = {
+    pub const FONT_AWESOME_SOLID_VIAL_VIRUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_vial_virus(
             crate::IconProps {
@@ -29327,7 +29327,7 @@ impl IconData {
             html: font_awesome_solid_vial_virus,
         }
     };
-    const FONT_AWESOME_SOLID_VIAL: Self = {
+    pub const FONT_AWESOME_SOLID_VIAL: Self = {
         #[inline(never)]
         fn font_awesome_solid_vial(
             crate::IconProps {
@@ -29349,7 +29349,7 @@ impl IconData {
             html: font_awesome_solid_vial,
         }
     };
-    const FONT_AWESOME_SOLID_VIALS: Self = {
+    pub const FONT_AWESOME_SOLID_VIALS: Self = {
         #[inline(never)]
         fn font_awesome_solid_vials(
             crate::IconProps {
@@ -29371,7 +29371,7 @@ impl IconData {
             html: font_awesome_solid_vials,
         }
     };
-    const FONT_AWESOME_SOLID_VIDEO_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_VIDEO_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_video_slash(
             crate::IconProps {
@@ -29393,7 +29393,7 @@ impl IconData {
             html: font_awesome_solid_video_slash,
         }
     };
-    const FONT_AWESOME_SOLID_VIDEO: Self = {
+    pub const FONT_AWESOME_SOLID_VIDEO: Self = {
         #[inline(never)]
         fn font_awesome_solid_video(
             crate::IconProps {
@@ -29415,7 +29415,7 @@ impl IconData {
             html: font_awesome_solid_video,
         }
     };
-    const FONT_AWESOME_SOLID_VIHARA: Self = {
+    pub const FONT_AWESOME_SOLID_VIHARA: Self = {
         #[inline(never)]
         fn font_awesome_solid_vihara(
             crate::IconProps {
@@ -29437,7 +29437,7 @@ impl IconData {
             html: font_awesome_solid_vihara,
         }
     };
-    const FONT_AWESOME_SOLID_VIRUS_COVID_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_VIRUS_COVID_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_virus_covid_slash(
             crate::IconProps {
@@ -29459,7 +29459,7 @@ impl IconData {
             html: font_awesome_solid_virus_covid_slash,
         }
     };
-    const FONT_AWESOME_SOLID_VIRUS_COVID: Self = {
+    pub const FONT_AWESOME_SOLID_VIRUS_COVID: Self = {
         #[inline(never)]
         fn font_awesome_solid_virus_covid(
             crate::IconProps {
@@ -29481,7 +29481,7 @@ impl IconData {
             html: font_awesome_solid_virus_covid,
         }
     };
-    const FONT_AWESOME_SOLID_VIRUS_SLASH: Self = {
+    pub const FONT_AWESOME_SOLID_VIRUS_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_solid_virus_slash(
             crate::IconProps {
@@ -29503,7 +29503,7 @@ impl IconData {
             html: font_awesome_solid_virus_slash,
         }
     };
-    const FONT_AWESOME_SOLID_VIRUS: Self = {
+    pub const FONT_AWESOME_SOLID_VIRUS: Self = {
         #[inline(never)]
         fn font_awesome_solid_virus(
             crate::IconProps {
@@ -29525,7 +29525,7 @@ impl IconData {
             html: font_awesome_solid_virus,
         }
     };
-    const FONT_AWESOME_SOLID_VIRUSES: Self = {
+    pub const FONT_AWESOME_SOLID_VIRUSES: Self = {
         #[inline(never)]
         fn font_awesome_solid_viruses(
             crate::IconProps {
@@ -29547,7 +29547,7 @@ impl IconData {
             html: font_awesome_solid_viruses,
         }
     };
-    const FONT_AWESOME_SOLID_VOICEMAIL: Self = {
+    pub const FONT_AWESOME_SOLID_VOICEMAIL: Self = {
         #[inline(never)]
         fn font_awesome_solid_voicemail(
             crate::IconProps {
@@ -29569,7 +29569,7 @@ impl IconData {
             html: font_awesome_solid_voicemail,
         }
     };
-    const FONT_AWESOME_SOLID_VOLCANO: Self = {
+    pub const FONT_AWESOME_SOLID_VOLCANO: Self = {
         #[inline(never)]
         fn font_awesome_solid_volcano(
             crate::IconProps {
@@ -29591,7 +29591,7 @@ impl IconData {
             html: font_awesome_solid_volcano,
         }
     };
-    const FONT_AWESOME_SOLID_VOLLEYBALL: Self = {
+    pub const FONT_AWESOME_SOLID_VOLLEYBALL: Self = {
         #[inline(never)]
         fn font_awesome_solid_volleyball(
             crate::IconProps {
@@ -29613,7 +29613,7 @@ impl IconData {
             html: font_awesome_solid_volleyball,
         }
     };
-    const FONT_AWESOME_SOLID_VOLUME_HIGH: Self = {
+    pub const FONT_AWESOME_SOLID_VOLUME_HIGH: Self = {
         #[inline(never)]
         fn font_awesome_solid_volume_high(
             crate::IconProps {
@@ -29635,7 +29635,7 @@ impl IconData {
             html: font_awesome_solid_volume_high,
         }
     };
-    const FONT_AWESOME_SOLID_VOLUME_LOW: Self = {
+    pub const FONT_AWESOME_SOLID_VOLUME_LOW: Self = {
         #[inline(never)]
         fn font_awesome_solid_volume_low(
             crate::IconProps {
@@ -29657,7 +29657,7 @@ impl IconData {
             html: font_awesome_solid_volume_low,
         }
     };
-    const FONT_AWESOME_SOLID_VOLUME_OFF: Self = {
+    pub const FONT_AWESOME_SOLID_VOLUME_OFF: Self = {
         #[inline(never)]
         fn font_awesome_solid_volume_off(
             crate::IconProps {
@@ -29679,7 +29679,7 @@ impl IconData {
             html: font_awesome_solid_volume_off,
         }
     };
-    const FONT_AWESOME_SOLID_VOLUME_XMARK: Self = {
+    pub const FONT_AWESOME_SOLID_VOLUME_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_volume_xmark(
             crate::IconProps {
@@ -29701,7 +29701,7 @@ impl IconData {
             html: font_awesome_solid_volume_xmark,
         }
     };
-    const FONT_AWESOME_SOLID_VR_CARDBOARD: Self = {
+    pub const FONT_AWESOME_SOLID_VR_CARDBOARD: Self = {
         #[inline(never)]
         fn font_awesome_solid_vr_cardboard(
             crate::IconProps {
@@ -29723,7 +29723,7 @@ impl IconData {
             html: font_awesome_solid_vr_cardboard,
         }
     };
-    const FONT_AWESOME_SOLID_W: Self = {
+    pub const FONT_AWESOME_SOLID_W: Self = {
         #[inline(never)]
         fn font_awesome_solid_w(
             crate::IconProps {
@@ -29745,7 +29745,7 @@ impl IconData {
             html: font_awesome_solid_w,
         }
     };
-    const FONT_AWESOME_SOLID_WALKIE_TALKIE: Self = {
+    pub const FONT_AWESOME_SOLID_WALKIE_TALKIE: Self = {
         #[inline(never)]
         fn font_awesome_solid_walkie_talkie(
             crate::IconProps {
@@ -29767,7 +29767,7 @@ impl IconData {
             html: font_awesome_solid_walkie_talkie,
         }
     };
-    const FONT_AWESOME_SOLID_WALLET: Self = {
+    pub const FONT_AWESOME_SOLID_WALLET: Self = {
         #[inline(never)]
         fn font_awesome_solid_wallet(
             crate::IconProps {
@@ -29789,7 +29789,7 @@ impl IconData {
             html: font_awesome_solid_wallet,
         }
     };
-    const FONT_AWESOME_SOLID_WAND_MAGIC_SPARKLES: Self = {
+    pub const FONT_AWESOME_SOLID_WAND_MAGIC_SPARKLES: Self = {
         #[inline(never)]
         fn font_awesome_solid_wand_magic_sparkles(
             crate::IconProps {
@@ -29811,7 +29811,7 @@ impl IconData {
             html: font_awesome_solid_wand_magic_sparkles,
         }
     };
-    const FONT_AWESOME_SOLID_WAND_MAGIC: Self = {
+    pub const FONT_AWESOME_SOLID_WAND_MAGIC: Self = {
         #[inline(never)]
         fn font_awesome_solid_wand_magic(
             crate::IconProps {
@@ -29833,7 +29833,7 @@ impl IconData {
             html: font_awesome_solid_wand_magic,
         }
     };
-    const FONT_AWESOME_SOLID_WAND_SPARKLES: Self = {
+    pub const FONT_AWESOME_SOLID_WAND_SPARKLES: Self = {
         #[inline(never)]
         fn font_awesome_solid_wand_sparkles(
             crate::IconProps {
@@ -29855,7 +29855,7 @@ impl IconData {
             html: font_awesome_solid_wand_sparkles,
         }
     };
-    const FONT_AWESOME_SOLID_WAREHOUSE: Self = {
+    pub const FONT_AWESOME_SOLID_WAREHOUSE: Self = {
         #[inline(never)]
         fn font_awesome_solid_warehouse(
             crate::IconProps {
@@ -29877,7 +29877,7 @@ impl IconData {
             html: font_awesome_solid_warehouse,
         }
     };
-    const FONT_AWESOME_SOLID_WATER_LADDER: Self = {
+    pub const FONT_AWESOME_SOLID_WATER_LADDER: Self = {
         #[inline(never)]
         fn font_awesome_solid_water_ladder(
             crate::IconProps {
@@ -29899,7 +29899,7 @@ impl IconData {
             html: font_awesome_solid_water_ladder,
         }
     };
-    const FONT_AWESOME_SOLID_WATER: Self = {
+    pub const FONT_AWESOME_SOLID_WATER: Self = {
         #[inline(never)]
         fn font_awesome_solid_water(
             crate::IconProps {
@@ -29921,7 +29921,7 @@ impl IconData {
             html: font_awesome_solid_water,
         }
     };
-    const FONT_AWESOME_SOLID_WAVE_SQUARE: Self = {
+    pub const FONT_AWESOME_SOLID_WAVE_SQUARE: Self = {
         #[inline(never)]
         fn font_awesome_solid_wave_square(
             crate::IconProps {
@@ -29943,7 +29943,7 @@ impl IconData {
             html: font_awesome_solid_wave_square,
         }
     };
-    const FONT_AWESOME_SOLID_WEIGHT_HANGING: Self = {
+    pub const FONT_AWESOME_SOLID_WEIGHT_HANGING: Self = {
         #[inline(never)]
         fn font_awesome_solid_weight_hanging(
             crate::IconProps {
@@ -29965,7 +29965,7 @@ impl IconData {
             html: font_awesome_solid_weight_hanging,
         }
     };
-    const FONT_AWESOME_SOLID_WEIGHT_SCALE: Self = {
+    pub const FONT_AWESOME_SOLID_WEIGHT_SCALE: Self = {
         #[inline(never)]
         fn font_awesome_solid_weight_scale(
             crate::IconProps {
@@ -29987,7 +29987,7 @@ impl IconData {
             html: font_awesome_solid_weight_scale,
         }
     };
-    const FONT_AWESOME_SOLID_WHEAT_AWN_CIRCLE_EXCLAMATION: Self = {
+    pub const FONT_AWESOME_SOLID_WHEAT_AWN_CIRCLE_EXCLAMATION: Self = {
         #[inline(never)]
         fn font_awesome_solid_wheat_awn_circle_exclamation(
             crate::IconProps {
@@ -30009,7 +30009,7 @@ impl IconData {
             html: font_awesome_solid_wheat_awn_circle_exclamation,
         }
     };
-    const FONT_AWESOME_SOLID_WHEAT_AWN: Self = {
+    pub const FONT_AWESOME_SOLID_WHEAT_AWN: Self = {
         #[inline(never)]
         fn font_awesome_solid_wheat_awn(
             crate::IconProps {
@@ -30031,7 +30031,7 @@ impl IconData {
             html: font_awesome_solid_wheat_awn,
         }
     };
-    const FONT_AWESOME_SOLID_WHEELCHAIR_MOVE: Self = {
+    pub const FONT_AWESOME_SOLID_WHEELCHAIR_MOVE: Self = {
         #[inline(never)]
         fn font_awesome_solid_wheelchair_move(
             crate::IconProps {
@@ -30053,7 +30053,7 @@ impl IconData {
             html: font_awesome_solid_wheelchair_move,
         }
     };
-    const FONT_AWESOME_SOLID_WHEELCHAIR: Self = {
+    pub const FONT_AWESOME_SOLID_WHEELCHAIR: Self = {
         #[inline(never)]
         fn font_awesome_solid_wheelchair(
             crate::IconProps {
@@ -30075,7 +30075,7 @@ impl IconData {
             html: font_awesome_solid_wheelchair,
         }
     };
-    const FONT_AWESOME_SOLID_WHISKEY_GLASS: Self = {
+    pub const FONT_AWESOME_SOLID_WHISKEY_GLASS: Self = {
         #[inline(never)]
         fn font_awesome_solid_whiskey_glass(
             crate::IconProps {
@@ -30097,7 +30097,7 @@ impl IconData {
             html: font_awesome_solid_whiskey_glass,
         }
     };
-    const FONT_AWESOME_SOLID_WIFI: Self = {
+    pub const FONT_AWESOME_SOLID_WIFI: Self = {
         #[inline(never)]
         fn font_awesome_solid_wifi(
             crate::IconProps {
@@ -30119,7 +30119,7 @@ impl IconData {
             html: font_awesome_solid_wifi,
         }
     };
-    const FONT_AWESOME_SOLID_WIND: Self = {
+    pub const FONT_AWESOME_SOLID_WIND: Self = {
         #[inline(never)]
         fn font_awesome_solid_wind(
             crate::IconProps {
@@ -30141,7 +30141,7 @@ impl IconData {
             html: font_awesome_solid_wind,
         }
     };
-    const FONT_AWESOME_SOLID_WINDOW_MAXIMIZE: Self = {
+    pub const FONT_AWESOME_SOLID_WINDOW_MAXIMIZE: Self = {
         #[inline(never)]
         fn font_awesome_solid_window_maximize(
             crate::IconProps {
@@ -30163,7 +30163,7 @@ impl IconData {
             html: font_awesome_solid_window_maximize,
         }
     };
-    const FONT_AWESOME_SOLID_WINDOW_MINIMIZE: Self = {
+    pub const FONT_AWESOME_SOLID_WINDOW_MINIMIZE: Self = {
         #[inline(never)]
         fn font_awesome_solid_window_minimize(
             crate::IconProps {
@@ -30185,7 +30185,7 @@ impl IconData {
             html: font_awesome_solid_window_minimize,
         }
     };
-    const FONT_AWESOME_SOLID_WINDOW_RESTORE: Self = {
+    pub const FONT_AWESOME_SOLID_WINDOW_RESTORE: Self = {
         #[inline(never)]
         fn font_awesome_solid_window_restore(
             crate::IconProps {
@@ -30207,7 +30207,7 @@ impl IconData {
             html: font_awesome_solid_window_restore,
         }
     };
-    const FONT_AWESOME_SOLID_WINE_BOTTLE: Self = {
+    pub const FONT_AWESOME_SOLID_WINE_BOTTLE: Self = {
         #[inline(never)]
         fn font_awesome_solid_wine_bottle(
             crate::IconProps {
@@ -30229,7 +30229,7 @@ impl IconData {
             html: font_awesome_solid_wine_bottle,
         }
     };
-    const FONT_AWESOME_SOLID_WINE_GLASS_EMPTY: Self = {
+    pub const FONT_AWESOME_SOLID_WINE_GLASS_EMPTY: Self = {
         #[inline(never)]
         fn font_awesome_solid_wine_glass_empty(
             crate::IconProps {
@@ -30251,7 +30251,7 @@ impl IconData {
             html: font_awesome_solid_wine_glass_empty,
         }
     };
-    const FONT_AWESOME_SOLID_WINE_GLASS: Self = {
+    pub const FONT_AWESOME_SOLID_WINE_GLASS: Self = {
         #[inline(never)]
         fn font_awesome_solid_wine_glass(
             crate::IconProps {
@@ -30273,7 +30273,7 @@ impl IconData {
             html: font_awesome_solid_wine_glass,
         }
     };
-    const FONT_AWESOME_SOLID_WON_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_WON_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_won_sign(
             crate::IconProps {
@@ -30295,7 +30295,7 @@ impl IconData {
             html: font_awesome_solid_won_sign,
         }
     };
-    const FONT_AWESOME_SOLID_WORM: Self = {
+    pub const FONT_AWESOME_SOLID_WORM: Self = {
         #[inline(never)]
         fn font_awesome_solid_worm(
             crate::IconProps {
@@ -30317,7 +30317,7 @@ impl IconData {
             html: font_awesome_solid_worm,
         }
     };
-    const FONT_AWESOME_SOLID_WRENCH: Self = {
+    pub const FONT_AWESOME_SOLID_WRENCH: Self = {
         #[inline(never)]
         fn font_awesome_solid_wrench(
             crate::IconProps {
@@ -30339,7 +30339,7 @@ impl IconData {
             html: font_awesome_solid_wrench,
         }
     };
-    const FONT_AWESOME_SOLID_X_RAY: Self = {
+    pub const FONT_AWESOME_SOLID_X_RAY: Self = {
         #[inline(never)]
         fn font_awesome_solid_x_ray(
             crate::IconProps {
@@ -30361,7 +30361,7 @@ impl IconData {
             html: font_awesome_solid_x_ray,
         }
     };
-    const FONT_AWESOME_SOLID_X: Self = {
+    pub const FONT_AWESOME_SOLID_X: Self = {
         #[inline(never)]
         fn font_awesome_solid_x(
             crate::IconProps {
@@ -30383,7 +30383,7 @@ impl IconData {
             html: font_awesome_solid_x,
         }
     };
-    const FONT_AWESOME_SOLID_XMARK: Self = {
+    pub const FONT_AWESOME_SOLID_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_solid_xmark(
             crate::IconProps {
@@ -30405,7 +30405,7 @@ impl IconData {
             html: font_awesome_solid_xmark,
         }
     };
-    const FONT_AWESOME_SOLID_XMARKS_LINES: Self = {
+    pub const FONT_AWESOME_SOLID_XMARKS_LINES: Self = {
         #[inline(never)]
         fn font_awesome_solid_xmarks_lines(
             crate::IconProps {
@@ -30427,7 +30427,7 @@ impl IconData {
             html: font_awesome_solid_xmarks_lines,
         }
     };
-    const FONT_AWESOME_SOLID_Y: Self = {
+    pub const FONT_AWESOME_SOLID_Y: Self = {
         #[inline(never)]
         fn font_awesome_solid_y(
             crate::IconProps {
@@ -30449,7 +30449,7 @@ impl IconData {
             html: font_awesome_solid_y,
         }
     };
-    const FONT_AWESOME_SOLID_YEN_SIGN: Self = {
+    pub const FONT_AWESOME_SOLID_YEN_SIGN: Self = {
         #[inline(never)]
         fn font_awesome_solid_yen_sign(
             crate::IconProps {
@@ -30471,7 +30471,7 @@ impl IconData {
             html: font_awesome_solid_yen_sign,
         }
     };
-    const FONT_AWESOME_SOLID_YIN_YANG: Self = {
+    pub const FONT_AWESOME_SOLID_YIN_YANG: Self = {
         #[inline(never)]
         fn font_awesome_solid_yin_yang(
             crate::IconProps {
@@ -30493,7 +30493,7 @@ impl IconData {
             html: font_awesome_solid_yin_yang,
         }
     };
-    const FONT_AWESOME_SOLID_Z: Self = {
+    pub const FONT_AWESOME_SOLID_Z: Self = {
         #[inline(never)]
         fn font_awesome_solid_z(
             crate::IconProps {

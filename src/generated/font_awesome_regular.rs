@@ -1,7 +1,7 @@
 // Generated file, do not edit by hand, see `src/generator.rs`
 
-impl IconData {
-    const FONT_AWESOME_REGULAR_ADDRESS_BOOK: Self = {
+impl crate::IconData {
+    pub const FONT_AWESOME_REGULAR_ADDRESS_BOOK: Self = {
         #[inline(never)]
         fn font_awesome_regular_address_book(
             crate::IconProps {
@@ -23,7 +23,7 @@ impl IconData {
             html: font_awesome_regular_address_book,
         }
     };
-    const FONT_AWESOME_REGULAR_ADDRESS_CARD: Self = {
+    pub const FONT_AWESOME_REGULAR_ADDRESS_CARD: Self = {
         #[inline(never)]
         fn font_awesome_regular_address_card(
             crate::IconProps {
@@ -45,7 +45,7 @@ impl IconData {
             html: font_awesome_regular_address_card,
         }
     };
-    const FONT_AWESOME_REGULAR_BELL_SLASH: Self = {
+    pub const FONT_AWESOME_REGULAR_BELL_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_regular_bell_slash(
             crate::IconProps {
@@ -67,7 +67,7 @@ impl IconData {
             html: font_awesome_regular_bell_slash,
         }
     };
-    const FONT_AWESOME_REGULAR_BELL: Self = {
+    pub const FONT_AWESOME_REGULAR_BELL: Self = {
         #[inline(never)]
         fn font_awesome_regular_bell(
             crate::IconProps {
@@ -89,7 +89,7 @@ impl IconData {
             html: font_awesome_regular_bell,
         }
     };
-    const FONT_AWESOME_REGULAR_BOOKMARK: Self = {
+    pub const FONT_AWESOME_REGULAR_BOOKMARK: Self = {
         #[inline(never)]
         fn font_awesome_regular_bookmark(
             crate::IconProps {
@@ -111,7 +111,7 @@ impl IconData {
             html: font_awesome_regular_bookmark,
         }
     };
-    const FONT_AWESOME_REGULAR_BUILDING: Self = {
+    pub const FONT_AWESOME_REGULAR_BUILDING: Self = {
         #[inline(never)]
         fn font_awesome_regular_building(
             crate::IconProps {
@@ -133,7 +133,7 @@ impl IconData {
             html: font_awesome_regular_building,
         }
     };
-    const FONT_AWESOME_REGULAR_CALENDAR_CHECK: Self = {
+    pub const FONT_AWESOME_REGULAR_CALENDAR_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_regular_calendar_check(
             crate::IconProps {
@@ -155,7 +155,7 @@ impl IconData {
             html: font_awesome_regular_calendar_check,
         }
     };
-    const FONT_AWESOME_REGULAR_CALENDAR_DAYS: Self = {
+    pub const FONT_AWESOME_REGULAR_CALENDAR_DAYS: Self = {
         #[inline(never)]
         fn font_awesome_regular_calendar_days(
             crate::IconProps {
@@ -177,7 +177,7 @@ impl IconData {
             html: font_awesome_regular_calendar_days,
         }
     };
-    const FONT_AWESOME_REGULAR_CALENDAR_MINUS: Self = {
+    pub const FONT_AWESOME_REGULAR_CALENDAR_MINUS: Self = {
         #[inline(never)]
         fn font_awesome_regular_calendar_minus(
             crate::IconProps {
@@ -199,7 +199,7 @@ impl IconData {
             html: font_awesome_regular_calendar_minus,
         }
     };
-    const FONT_AWESOME_REGULAR_CALENDAR_PLUS: Self = {
+    pub const FONT_AWESOME_REGULAR_CALENDAR_PLUS: Self = {
         #[inline(never)]
         fn font_awesome_regular_calendar_plus(
             crate::IconProps {
@@ -221,7 +221,7 @@ impl IconData {
             html: font_awesome_regular_calendar_plus,
         }
     };
-    const FONT_AWESOME_REGULAR_CALENDAR_XMARK: Self = {
+    pub const FONT_AWESOME_REGULAR_CALENDAR_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_regular_calendar_xmark(
             crate::IconProps {
@@ -243,7 +243,7 @@ impl IconData {
             html: font_awesome_regular_calendar_xmark,
         }
     };
-    const FONT_AWESOME_REGULAR_CALENDAR: Self = {
+    pub const FONT_AWESOME_REGULAR_CALENDAR: Self = {
         #[inline(never)]
         fn font_awesome_regular_calendar(
             crate::IconProps {
@@ -265,7 +265,7 @@ impl IconData {
             html: font_awesome_regular_calendar,
         }
     };
-    const FONT_AWESOME_REGULAR_CHART_BAR: Self = {
+    pub const FONT_AWESOME_REGULAR_CHART_BAR: Self = {
         #[inline(never)]
         fn font_awesome_regular_chart_bar(
             crate::IconProps {
@@ -287,7 +287,7 @@ impl IconData {
             html: font_awesome_regular_chart_bar,
         }
     };
-    const FONT_AWESOME_REGULAR_CHESS_BISHOP: Self = {
+    pub const FONT_AWESOME_REGULAR_CHESS_BISHOP: Self = {
         #[inline(never)]
         fn font_awesome_regular_chess_bishop(
             crate::IconProps {
@@ -309,7 +309,7 @@ impl IconData {
             html: font_awesome_regular_chess_bishop,
         }
     };
-    const FONT_AWESOME_REGULAR_CHESS_KING: Self = {
+    pub const FONT_AWESOME_REGULAR_CHESS_KING: Self = {
         #[inline(never)]
         fn font_awesome_regular_chess_king(
             crate::IconProps {
@@ -331,7 +331,7 @@ impl IconData {
             html: font_awesome_regular_chess_king,
         }
     };
-    const FONT_AWESOME_REGULAR_CHESS_KNIGHT: Self = {
+    pub const FONT_AWESOME_REGULAR_CHESS_KNIGHT: Self = {
         #[inline(never)]
         fn font_awesome_regular_chess_knight(
             crate::IconProps {
@@ -353,7 +353,7 @@ impl IconData {
             html: font_awesome_regular_chess_knight,
         }
     };
-    const FONT_AWESOME_REGULAR_CHESS_PAWN: Self = {
+    pub const FONT_AWESOME_REGULAR_CHESS_PAWN: Self = {
         #[inline(never)]
         fn font_awesome_regular_chess_pawn(
             crate::IconProps {
@@ -375,7 +375,7 @@ impl IconData {
             html: font_awesome_regular_chess_pawn,
         }
     };
-    const FONT_AWESOME_REGULAR_CHESS_QUEEN: Self = {
+    pub const FONT_AWESOME_REGULAR_CHESS_QUEEN: Self = {
         #[inline(never)]
         fn font_awesome_regular_chess_queen(
             crate::IconProps {
@@ -397,7 +397,7 @@ impl IconData {
             html: font_awesome_regular_chess_queen,
         }
     };
-    const FONT_AWESOME_REGULAR_CHESS_ROOK: Self = {
+    pub const FONT_AWESOME_REGULAR_CHESS_ROOK: Self = {
         #[inline(never)]
         fn font_awesome_regular_chess_rook(
             crate::IconProps {
@@ -419,7 +419,7 @@ impl IconData {
             html: font_awesome_regular_chess_rook,
         }
     };
-    const FONT_AWESOME_REGULAR_CIRCLE_CHECK: Self = {
+    pub const FONT_AWESOME_REGULAR_CIRCLE_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_regular_circle_check(
             crate::IconProps {
@@ -441,7 +441,7 @@ impl IconData {
             html: font_awesome_regular_circle_check,
         }
     };
-    const FONT_AWESOME_REGULAR_CIRCLE_DOT: Self = {
+    pub const FONT_AWESOME_REGULAR_CIRCLE_DOT: Self = {
         #[inline(never)]
         fn font_awesome_regular_circle_dot(
             crate::IconProps {
@@ -463,7 +463,7 @@ impl IconData {
             html: font_awesome_regular_circle_dot,
         }
     };
-    const FONT_AWESOME_REGULAR_CIRCLE_DOWN: Self = {
+    pub const FONT_AWESOME_REGULAR_CIRCLE_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_regular_circle_down(
             crate::IconProps {
@@ -485,7 +485,7 @@ impl IconData {
             html: font_awesome_regular_circle_down,
         }
     };
-    const FONT_AWESOME_REGULAR_CIRCLE_LEFT: Self = {
+    pub const FONT_AWESOME_REGULAR_CIRCLE_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_regular_circle_left(
             crate::IconProps {
@@ -507,7 +507,7 @@ impl IconData {
             html: font_awesome_regular_circle_left,
         }
     };
-    const FONT_AWESOME_REGULAR_CIRCLE_PAUSE: Self = {
+    pub const FONT_AWESOME_REGULAR_CIRCLE_PAUSE: Self = {
         #[inline(never)]
         fn font_awesome_regular_circle_pause(
             crate::IconProps {
@@ -529,7 +529,7 @@ impl IconData {
             html: font_awesome_regular_circle_pause,
         }
     };
-    const FONT_AWESOME_REGULAR_CIRCLE_PLAY: Self = {
+    pub const FONT_AWESOME_REGULAR_CIRCLE_PLAY: Self = {
         #[inline(never)]
         fn font_awesome_regular_circle_play(
             crate::IconProps {
@@ -551,7 +551,7 @@ impl IconData {
             html: font_awesome_regular_circle_play,
         }
     };
-    const FONT_AWESOME_REGULAR_CIRCLE_QUESTION: Self = {
+    pub const FONT_AWESOME_REGULAR_CIRCLE_QUESTION: Self = {
         #[inline(never)]
         fn font_awesome_regular_circle_question(
             crate::IconProps {
@@ -573,7 +573,7 @@ impl IconData {
             html: font_awesome_regular_circle_question,
         }
     };
-    const FONT_AWESOME_REGULAR_CIRCLE_RIGHT: Self = {
+    pub const FONT_AWESOME_REGULAR_CIRCLE_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_regular_circle_right(
             crate::IconProps {
@@ -595,7 +595,7 @@ impl IconData {
             html: font_awesome_regular_circle_right,
         }
     };
-    const FONT_AWESOME_REGULAR_CIRCLE_STOP: Self = {
+    pub const FONT_AWESOME_REGULAR_CIRCLE_STOP: Self = {
         #[inline(never)]
         fn font_awesome_regular_circle_stop(
             crate::IconProps {
@@ -617,7 +617,7 @@ impl IconData {
             html: font_awesome_regular_circle_stop,
         }
     };
-    const FONT_AWESOME_REGULAR_CIRCLE_UP: Self = {
+    pub const FONT_AWESOME_REGULAR_CIRCLE_UP: Self = {
         #[inline(never)]
         fn font_awesome_regular_circle_up(
             crate::IconProps {
@@ -639,7 +639,7 @@ impl IconData {
             html: font_awesome_regular_circle_up,
         }
     };
-    const FONT_AWESOME_REGULAR_CIRCLE_USER: Self = {
+    pub const FONT_AWESOME_REGULAR_CIRCLE_USER: Self = {
         #[inline(never)]
         fn font_awesome_regular_circle_user(
             crate::IconProps {
@@ -661,7 +661,7 @@ impl IconData {
             html: font_awesome_regular_circle_user,
         }
     };
-    const FONT_AWESOME_REGULAR_CIRCLE_XMARK: Self = {
+    pub const FONT_AWESOME_REGULAR_CIRCLE_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_regular_circle_xmark(
             crate::IconProps {
@@ -683,7 +683,7 @@ impl IconData {
             html: font_awesome_regular_circle_xmark,
         }
     };
-    const FONT_AWESOME_REGULAR_CIRCLE: Self = {
+    pub const FONT_AWESOME_REGULAR_CIRCLE: Self = {
         #[inline(never)]
         fn font_awesome_regular_circle(
             crate::IconProps {
@@ -705,7 +705,7 @@ impl IconData {
             html: font_awesome_regular_circle,
         }
     };
-    const FONT_AWESOME_REGULAR_CLIPBOARD: Self = {
+    pub const FONT_AWESOME_REGULAR_CLIPBOARD: Self = {
         #[inline(never)]
         fn font_awesome_regular_clipboard(
             crate::IconProps {
@@ -727,7 +727,7 @@ impl IconData {
             html: font_awesome_regular_clipboard,
         }
     };
-    const FONT_AWESOME_REGULAR_CLOCK: Self = {
+    pub const FONT_AWESOME_REGULAR_CLOCK: Self = {
         #[inline(never)]
         fn font_awesome_regular_clock(
             crate::IconProps {
@@ -749,7 +749,7 @@ impl IconData {
             html: font_awesome_regular_clock,
         }
     };
-    const FONT_AWESOME_REGULAR_CLONE: Self = {
+    pub const FONT_AWESOME_REGULAR_CLONE: Self = {
         #[inline(never)]
         fn font_awesome_regular_clone(
             crate::IconProps {
@@ -771,7 +771,7 @@ impl IconData {
             html: font_awesome_regular_clone,
         }
     };
-    const FONT_AWESOME_REGULAR_CLOSED_CAPTIONING: Self = {
+    pub const FONT_AWESOME_REGULAR_CLOSED_CAPTIONING: Self = {
         #[inline(never)]
         fn font_awesome_regular_closed_captioning(
             crate::IconProps {
@@ -793,7 +793,7 @@ impl IconData {
             html: font_awesome_regular_closed_captioning,
         }
     };
-    const FONT_AWESOME_REGULAR_COMMENT_DOTS: Self = {
+    pub const FONT_AWESOME_REGULAR_COMMENT_DOTS: Self = {
         #[inline(never)]
         fn font_awesome_regular_comment_dots(
             crate::IconProps {
@@ -815,7 +815,7 @@ impl IconData {
             html: font_awesome_regular_comment_dots,
         }
     };
-    const FONT_AWESOME_REGULAR_COMMENT: Self = {
+    pub const FONT_AWESOME_REGULAR_COMMENT: Self = {
         #[inline(never)]
         fn font_awesome_regular_comment(
             crate::IconProps {
@@ -837,7 +837,7 @@ impl IconData {
             html: font_awesome_regular_comment,
         }
     };
-    const FONT_AWESOME_REGULAR_COMMENTS: Self = {
+    pub const FONT_AWESOME_REGULAR_COMMENTS: Self = {
         #[inline(never)]
         fn font_awesome_regular_comments(
             crate::IconProps {
@@ -859,7 +859,7 @@ impl IconData {
             html: font_awesome_regular_comments,
         }
     };
-    const FONT_AWESOME_REGULAR_COMPASS: Self = {
+    pub const FONT_AWESOME_REGULAR_COMPASS: Self = {
         #[inline(never)]
         fn font_awesome_regular_compass(
             crate::IconProps {
@@ -881,7 +881,7 @@ impl IconData {
             html: font_awesome_regular_compass,
         }
     };
-    const FONT_AWESOME_REGULAR_COPY: Self = {
+    pub const FONT_AWESOME_REGULAR_COPY: Self = {
         #[inline(never)]
         fn font_awesome_regular_copy(
             crate::IconProps {
@@ -903,7 +903,7 @@ impl IconData {
             html: font_awesome_regular_copy,
         }
     };
-    const FONT_AWESOME_REGULAR_COPYRIGHT: Self = {
+    pub const FONT_AWESOME_REGULAR_COPYRIGHT: Self = {
         #[inline(never)]
         fn font_awesome_regular_copyright(
             crate::IconProps {
@@ -925,7 +925,7 @@ impl IconData {
             html: font_awesome_regular_copyright,
         }
     };
-    const FONT_AWESOME_REGULAR_CREDIT_CARD: Self = {
+    pub const FONT_AWESOME_REGULAR_CREDIT_CARD: Self = {
         #[inline(never)]
         fn font_awesome_regular_credit_card(
             crate::IconProps {
@@ -947,7 +947,7 @@ impl IconData {
             html: font_awesome_regular_credit_card,
         }
     };
-    const FONT_AWESOME_REGULAR_ENVELOPE_OPEN: Self = {
+    pub const FONT_AWESOME_REGULAR_ENVELOPE_OPEN: Self = {
         #[inline(never)]
         fn font_awesome_regular_envelope_open(
             crate::IconProps {
@@ -969,7 +969,7 @@ impl IconData {
             html: font_awesome_regular_envelope_open,
         }
     };
-    const FONT_AWESOME_REGULAR_ENVELOPE: Self = {
+    pub const FONT_AWESOME_REGULAR_ENVELOPE: Self = {
         #[inline(never)]
         fn font_awesome_regular_envelope(
             crate::IconProps {
@@ -991,7 +991,7 @@ impl IconData {
             html: font_awesome_regular_envelope,
         }
     };
-    const FONT_AWESOME_REGULAR_EYE_SLASH: Self = {
+    pub const FONT_AWESOME_REGULAR_EYE_SLASH: Self = {
         #[inline(never)]
         fn font_awesome_regular_eye_slash(
             crate::IconProps {
@@ -1013,7 +1013,7 @@ impl IconData {
             html: font_awesome_regular_eye_slash,
         }
     };
-    const FONT_AWESOME_REGULAR_EYE: Self = {
+    pub const FONT_AWESOME_REGULAR_EYE: Self = {
         #[inline(never)]
         fn font_awesome_regular_eye(
             crate::IconProps {
@@ -1035,7 +1035,7 @@ impl IconData {
             html: font_awesome_regular_eye,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_ANGRY: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_ANGRY: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_angry(
             crate::IconProps {
@@ -1057,7 +1057,7 @@ impl IconData {
             html: font_awesome_regular_face_angry,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_DIZZY: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_DIZZY: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_dizzy(
             crate::IconProps {
@@ -1079,7 +1079,7 @@ impl IconData {
             html: font_awesome_regular_face_dizzy,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_FLUSHED: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_FLUSHED: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_flushed(
             crate::IconProps {
@@ -1101,7 +1101,7 @@ impl IconData {
             html: font_awesome_regular_face_flushed,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_FROWN_OPEN: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_FROWN_OPEN: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_frown_open(
             crate::IconProps {
@@ -1123,7 +1123,7 @@ impl IconData {
             html: font_awesome_regular_face_frown_open,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_FROWN: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_FROWN: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_frown(
             crate::IconProps {
@@ -1145,7 +1145,7 @@ impl IconData {
             html: font_awesome_regular_face_frown,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_GRIMACE: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_GRIMACE: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_grimace(
             crate::IconProps {
@@ -1167,7 +1167,7 @@ impl IconData {
             html: font_awesome_regular_face_grimace,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_GRIN_BEAM_SWEAT: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_GRIN_BEAM_SWEAT: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_grin_beam_sweat(
             crate::IconProps {
@@ -1189,7 +1189,7 @@ impl IconData {
             html: font_awesome_regular_face_grin_beam_sweat,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_GRIN_BEAM: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_GRIN_BEAM: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_grin_beam(
             crate::IconProps {
@@ -1211,7 +1211,7 @@ impl IconData {
             html: font_awesome_regular_face_grin_beam,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_GRIN_HEARTS: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_GRIN_HEARTS: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_grin_hearts(
             crate::IconProps {
@@ -1233,7 +1233,7 @@ impl IconData {
             html: font_awesome_regular_face_grin_hearts,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_GRIN_SQUINT_TEARS: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_GRIN_SQUINT_TEARS: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_grin_squint_tears(
             crate::IconProps {
@@ -1255,7 +1255,7 @@ impl IconData {
             html: font_awesome_regular_face_grin_squint_tears,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_GRIN_SQUINT: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_GRIN_SQUINT: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_grin_squint(
             crate::IconProps {
@@ -1277,7 +1277,7 @@ impl IconData {
             html: font_awesome_regular_face_grin_squint,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_GRIN_STARS: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_GRIN_STARS: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_grin_stars(
             crate::IconProps {
@@ -1299,7 +1299,7 @@ impl IconData {
             html: font_awesome_regular_face_grin_stars,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_GRIN_TEARS: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_GRIN_TEARS: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_grin_tears(
             crate::IconProps {
@@ -1321,7 +1321,7 @@ impl IconData {
             html: font_awesome_regular_face_grin_tears,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_GRIN_TONGUE_SQUINT: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_GRIN_TONGUE_SQUINT: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_grin_tongue_squint(
             crate::IconProps {
@@ -1343,7 +1343,7 @@ impl IconData {
             html: font_awesome_regular_face_grin_tongue_squint,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_GRIN_TONGUE_WINK: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_GRIN_TONGUE_WINK: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_grin_tongue_wink(
             crate::IconProps {
@@ -1365,7 +1365,7 @@ impl IconData {
             html: font_awesome_regular_face_grin_tongue_wink,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_GRIN_TONGUE: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_GRIN_TONGUE: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_grin_tongue(
             crate::IconProps {
@@ -1387,7 +1387,7 @@ impl IconData {
             html: font_awesome_regular_face_grin_tongue,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_GRIN_WIDE: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_GRIN_WIDE: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_grin_wide(
             crate::IconProps {
@@ -1409,7 +1409,7 @@ impl IconData {
             html: font_awesome_regular_face_grin_wide,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_GRIN_WINK: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_GRIN_WINK: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_grin_wink(
             crate::IconProps {
@@ -1431,7 +1431,7 @@ impl IconData {
             html: font_awesome_regular_face_grin_wink,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_GRIN: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_GRIN: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_grin(
             crate::IconProps {
@@ -1453,7 +1453,7 @@ impl IconData {
             html: font_awesome_regular_face_grin,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_KISS_BEAM: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_KISS_BEAM: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_kiss_beam(
             crate::IconProps {
@@ -1475,7 +1475,7 @@ impl IconData {
             html: font_awesome_regular_face_kiss_beam,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_KISS_WINK_HEART: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_KISS_WINK_HEART: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_kiss_wink_heart(
             crate::IconProps {
@@ -1497,7 +1497,7 @@ impl IconData {
             html: font_awesome_regular_face_kiss_wink_heart,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_KISS: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_KISS: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_kiss(
             crate::IconProps {
@@ -1519,7 +1519,7 @@ impl IconData {
             html: font_awesome_regular_face_kiss,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_LAUGH_BEAM: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_LAUGH_BEAM: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_laugh_beam(
             crate::IconProps {
@@ -1541,7 +1541,7 @@ impl IconData {
             html: font_awesome_regular_face_laugh_beam,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_LAUGH_SQUINT: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_LAUGH_SQUINT: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_laugh_squint(
             crate::IconProps {
@@ -1563,7 +1563,7 @@ impl IconData {
             html: font_awesome_regular_face_laugh_squint,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_LAUGH_WINK: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_LAUGH_WINK: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_laugh_wink(
             crate::IconProps {
@@ -1585,7 +1585,7 @@ impl IconData {
             html: font_awesome_regular_face_laugh_wink,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_LAUGH: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_LAUGH: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_laugh(
             crate::IconProps {
@@ -1607,7 +1607,7 @@ impl IconData {
             html: font_awesome_regular_face_laugh,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_MEH_BLANK: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_MEH_BLANK: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_meh_blank(
             crate::IconProps {
@@ -1629,7 +1629,7 @@ impl IconData {
             html: font_awesome_regular_face_meh_blank,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_MEH: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_MEH: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_meh(
             crate::IconProps {
@@ -1651,7 +1651,7 @@ impl IconData {
             html: font_awesome_regular_face_meh,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_ROLLING_EYES: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_ROLLING_EYES: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_rolling_eyes(
             crate::IconProps {
@@ -1673,7 +1673,7 @@ impl IconData {
             html: font_awesome_regular_face_rolling_eyes,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_SAD_CRY: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_SAD_CRY: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_sad_cry(
             crate::IconProps {
@@ -1695,7 +1695,7 @@ impl IconData {
             html: font_awesome_regular_face_sad_cry,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_SAD_TEAR: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_SAD_TEAR: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_sad_tear(
             crate::IconProps {
@@ -1717,7 +1717,7 @@ impl IconData {
             html: font_awesome_regular_face_sad_tear,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_SMILE_BEAM: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_SMILE_BEAM: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_smile_beam(
             crate::IconProps {
@@ -1739,7 +1739,7 @@ impl IconData {
             html: font_awesome_regular_face_smile_beam,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_SMILE_WINK: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_SMILE_WINK: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_smile_wink(
             crate::IconProps {
@@ -1761,7 +1761,7 @@ impl IconData {
             html: font_awesome_regular_face_smile_wink,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_SMILE: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_SMILE: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_smile(
             crate::IconProps {
@@ -1783,7 +1783,7 @@ impl IconData {
             html: font_awesome_regular_face_smile,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_SURPRISE: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_SURPRISE: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_surprise(
             crate::IconProps {
@@ -1805,7 +1805,7 @@ impl IconData {
             html: font_awesome_regular_face_surprise,
         }
     };
-    const FONT_AWESOME_REGULAR_FACE_TIRED: Self = {
+    pub const FONT_AWESOME_REGULAR_FACE_TIRED: Self = {
         #[inline(never)]
         fn font_awesome_regular_face_tired(
             crate::IconProps {
@@ -1827,7 +1827,7 @@ impl IconData {
             html: font_awesome_regular_face_tired,
         }
     };
-    const FONT_AWESOME_REGULAR_FILE_AUDIO: Self = {
+    pub const FONT_AWESOME_REGULAR_FILE_AUDIO: Self = {
         #[inline(never)]
         fn font_awesome_regular_file_audio(
             crate::IconProps {
@@ -1849,7 +1849,7 @@ impl IconData {
             html: font_awesome_regular_file_audio,
         }
     };
-    const FONT_AWESOME_REGULAR_FILE_CODE: Self = {
+    pub const FONT_AWESOME_REGULAR_FILE_CODE: Self = {
         #[inline(never)]
         fn font_awesome_regular_file_code(
             crate::IconProps {
@@ -1871,7 +1871,7 @@ impl IconData {
             html: font_awesome_regular_file_code,
         }
     };
-    const FONT_AWESOME_REGULAR_FILE_EXCEL: Self = {
+    pub const FONT_AWESOME_REGULAR_FILE_EXCEL: Self = {
         #[inline(never)]
         fn font_awesome_regular_file_excel(
             crate::IconProps {
@@ -1893,7 +1893,7 @@ impl IconData {
             html: font_awesome_regular_file_excel,
         }
     };
-    const FONT_AWESOME_REGULAR_FILE_IMAGE: Self = {
+    pub const FONT_AWESOME_REGULAR_FILE_IMAGE: Self = {
         #[inline(never)]
         fn font_awesome_regular_file_image(
             crate::IconProps {
@@ -1915,7 +1915,7 @@ impl IconData {
             html: font_awesome_regular_file_image,
         }
     };
-    const FONT_AWESOME_REGULAR_FILE_LINES: Self = {
+    pub const FONT_AWESOME_REGULAR_FILE_LINES: Self = {
         #[inline(never)]
         fn font_awesome_regular_file_lines(
             crate::IconProps {
@@ -1937,7 +1937,7 @@ impl IconData {
             html: font_awesome_regular_file_lines,
         }
     };
-    const FONT_AWESOME_REGULAR_FILE_PDF: Self = {
+    pub const FONT_AWESOME_REGULAR_FILE_PDF: Self = {
         #[inline(never)]
         fn font_awesome_regular_file_pdf(
             crate::IconProps {
@@ -1959,7 +1959,7 @@ impl IconData {
             html: font_awesome_regular_file_pdf,
         }
     };
-    const FONT_AWESOME_REGULAR_FILE_POWERPOINT: Self = {
+    pub const FONT_AWESOME_REGULAR_FILE_POWERPOINT: Self = {
         #[inline(never)]
         fn font_awesome_regular_file_powerpoint(
             crate::IconProps {
@@ -1981,7 +1981,7 @@ impl IconData {
             html: font_awesome_regular_file_powerpoint,
         }
     };
-    const FONT_AWESOME_REGULAR_FILE_VIDEO: Self = {
+    pub const FONT_AWESOME_REGULAR_FILE_VIDEO: Self = {
         #[inline(never)]
         fn font_awesome_regular_file_video(
             crate::IconProps {
@@ -2003,7 +2003,7 @@ impl IconData {
             html: font_awesome_regular_file_video,
         }
     };
-    const FONT_AWESOME_REGULAR_FILE_WORD: Self = {
+    pub const FONT_AWESOME_REGULAR_FILE_WORD: Self = {
         #[inline(never)]
         fn font_awesome_regular_file_word(
             crate::IconProps {
@@ -2025,7 +2025,7 @@ impl IconData {
             html: font_awesome_regular_file_word,
         }
     };
-    const FONT_AWESOME_REGULAR_FILE_ZIPPER: Self = {
+    pub const FONT_AWESOME_REGULAR_FILE_ZIPPER: Self = {
         #[inline(never)]
         fn font_awesome_regular_file_zipper(
             crate::IconProps {
@@ -2047,7 +2047,7 @@ impl IconData {
             html: font_awesome_regular_file_zipper,
         }
     };
-    const FONT_AWESOME_REGULAR_FILE: Self = {
+    pub const FONT_AWESOME_REGULAR_FILE: Self = {
         #[inline(never)]
         fn font_awesome_regular_file(
             crate::IconProps {
@@ -2069,7 +2069,7 @@ impl IconData {
             html: font_awesome_regular_file,
         }
     };
-    const FONT_AWESOME_REGULAR_FLAG: Self = {
+    pub const FONT_AWESOME_REGULAR_FLAG: Self = {
         #[inline(never)]
         fn font_awesome_regular_flag(
             crate::IconProps {
@@ -2091,7 +2091,7 @@ impl IconData {
             html: font_awesome_regular_flag,
         }
     };
-    const FONT_AWESOME_REGULAR_FLOPPY_DISK: Self = {
+    pub const FONT_AWESOME_REGULAR_FLOPPY_DISK: Self = {
         #[inline(never)]
         fn font_awesome_regular_floppy_disk(
             crate::IconProps {
@@ -2113,7 +2113,7 @@ impl IconData {
             html: font_awesome_regular_floppy_disk,
         }
     };
-    const FONT_AWESOME_REGULAR_FOLDER_CLOSED: Self = {
+    pub const FONT_AWESOME_REGULAR_FOLDER_CLOSED: Self = {
         #[inline(never)]
         fn font_awesome_regular_folder_closed(
             crate::IconProps {
@@ -2135,7 +2135,7 @@ impl IconData {
             html: font_awesome_regular_folder_closed,
         }
     };
-    const FONT_AWESOME_REGULAR_FOLDER_OPEN: Self = {
+    pub const FONT_AWESOME_REGULAR_FOLDER_OPEN: Self = {
         #[inline(never)]
         fn font_awesome_regular_folder_open(
             crate::IconProps {
@@ -2157,7 +2157,7 @@ impl IconData {
             html: font_awesome_regular_folder_open,
         }
     };
-    const FONT_AWESOME_REGULAR_FOLDER: Self = {
+    pub const FONT_AWESOME_REGULAR_FOLDER: Self = {
         #[inline(never)]
         fn font_awesome_regular_folder(
             crate::IconProps {
@@ -2179,7 +2179,7 @@ impl IconData {
             html: font_awesome_regular_folder,
         }
     };
-    const FONT_AWESOME_REGULAR_FONT_AWESOME: Self = {
+    pub const FONT_AWESOME_REGULAR_FONT_AWESOME: Self = {
         #[inline(never)]
         fn font_awesome_regular_font_awesome(
             crate::IconProps {
@@ -2201,7 +2201,7 @@ impl IconData {
             html: font_awesome_regular_font_awesome,
         }
     };
-    const FONT_AWESOME_REGULAR_FUTBOL: Self = {
+    pub const FONT_AWESOME_REGULAR_FUTBOL: Self = {
         #[inline(never)]
         fn font_awesome_regular_futbol(
             crate::IconProps {
@@ -2223,7 +2223,7 @@ impl IconData {
             html: font_awesome_regular_futbol,
         }
     };
-    const FONT_AWESOME_REGULAR_GEM: Self = {
+    pub const FONT_AWESOME_REGULAR_GEM: Self = {
         #[inline(never)]
         fn font_awesome_regular_gem(
             crate::IconProps {
@@ -2245,7 +2245,7 @@ impl IconData {
             html: font_awesome_regular_gem,
         }
     };
-    const FONT_AWESOME_REGULAR_HAND_BACK_FIST: Self = {
+    pub const FONT_AWESOME_REGULAR_HAND_BACK_FIST: Self = {
         #[inline(never)]
         fn font_awesome_regular_hand_back_fist(
             crate::IconProps {
@@ -2267,7 +2267,7 @@ impl IconData {
             html: font_awesome_regular_hand_back_fist,
         }
     };
-    const FONT_AWESOME_REGULAR_HAND_LIZARD: Self = {
+    pub const FONT_AWESOME_REGULAR_HAND_LIZARD: Self = {
         #[inline(never)]
         fn font_awesome_regular_hand_lizard(
             crate::IconProps {
@@ -2289,7 +2289,7 @@ impl IconData {
             html: font_awesome_regular_hand_lizard,
         }
     };
-    const FONT_AWESOME_REGULAR_HAND_PEACE: Self = {
+    pub const FONT_AWESOME_REGULAR_HAND_PEACE: Self = {
         #[inline(never)]
         fn font_awesome_regular_hand_peace(
             crate::IconProps {
@@ -2311,7 +2311,7 @@ impl IconData {
             html: font_awesome_regular_hand_peace,
         }
     };
-    const FONT_AWESOME_REGULAR_HAND_POINT_DOWN: Self = {
+    pub const FONT_AWESOME_REGULAR_HAND_POINT_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_regular_hand_point_down(
             crate::IconProps {
@@ -2333,7 +2333,7 @@ impl IconData {
             html: font_awesome_regular_hand_point_down,
         }
     };
-    const FONT_AWESOME_REGULAR_HAND_POINT_LEFT: Self = {
+    pub const FONT_AWESOME_REGULAR_HAND_POINT_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_regular_hand_point_left(
             crate::IconProps {
@@ -2355,7 +2355,7 @@ impl IconData {
             html: font_awesome_regular_hand_point_left,
         }
     };
-    const FONT_AWESOME_REGULAR_HAND_POINT_RIGHT: Self = {
+    pub const FONT_AWESOME_REGULAR_HAND_POINT_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_regular_hand_point_right(
             crate::IconProps {
@@ -2377,7 +2377,7 @@ impl IconData {
             html: font_awesome_regular_hand_point_right,
         }
     };
-    const FONT_AWESOME_REGULAR_HAND_POINT_UP: Self = {
+    pub const FONT_AWESOME_REGULAR_HAND_POINT_UP: Self = {
         #[inline(never)]
         fn font_awesome_regular_hand_point_up(
             crate::IconProps {
@@ -2399,7 +2399,7 @@ impl IconData {
             html: font_awesome_regular_hand_point_up,
         }
     };
-    const FONT_AWESOME_REGULAR_HAND_POINTER: Self = {
+    pub const FONT_AWESOME_REGULAR_HAND_POINTER: Self = {
         #[inline(never)]
         fn font_awesome_regular_hand_pointer(
             crate::IconProps {
@@ -2421,7 +2421,7 @@ impl IconData {
             html: font_awesome_regular_hand_pointer,
         }
     };
-    const FONT_AWESOME_REGULAR_HAND_SCISSORS: Self = {
+    pub const FONT_AWESOME_REGULAR_HAND_SCISSORS: Self = {
         #[inline(never)]
         fn font_awesome_regular_hand_scissors(
             crate::IconProps {
@@ -2443,7 +2443,7 @@ impl IconData {
             html: font_awesome_regular_hand_scissors,
         }
     };
-    const FONT_AWESOME_REGULAR_HAND_SPOCK: Self = {
+    pub const FONT_AWESOME_REGULAR_HAND_SPOCK: Self = {
         #[inline(never)]
         fn font_awesome_regular_hand_spock(
             crate::IconProps {
@@ -2465,7 +2465,7 @@ impl IconData {
             html: font_awesome_regular_hand_spock,
         }
     };
-    const FONT_AWESOME_REGULAR_HAND: Self = {
+    pub const FONT_AWESOME_REGULAR_HAND: Self = {
         #[inline(never)]
         fn font_awesome_regular_hand(
             crate::IconProps {
@@ -2487,7 +2487,7 @@ impl IconData {
             html: font_awesome_regular_hand,
         }
     };
-    const FONT_AWESOME_REGULAR_HANDSHAKE: Self = {
+    pub const FONT_AWESOME_REGULAR_HANDSHAKE: Self = {
         #[inline(never)]
         fn font_awesome_regular_handshake(
             crate::IconProps {
@@ -2509,7 +2509,7 @@ impl IconData {
             html: font_awesome_regular_handshake,
         }
     };
-    const FONT_AWESOME_REGULAR_HARD_DRIVE: Self = {
+    pub const FONT_AWESOME_REGULAR_HARD_DRIVE: Self = {
         #[inline(never)]
         fn font_awesome_regular_hard_drive(
             crate::IconProps {
@@ -2531,7 +2531,7 @@ impl IconData {
             html: font_awesome_regular_hard_drive,
         }
     };
-    const FONT_AWESOME_REGULAR_HEART: Self = {
+    pub const FONT_AWESOME_REGULAR_HEART: Self = {
         #[inline(never)]
         fn font_awesome_regular_heart(
             crate::IconProps {
@@ -2553,7 +2553,7 @@ impl IconData {
             html: font_awesome_regular_heart,
         }
     };
-    const FONT_AWESOME_REGULAR_HOSPITAL: Self = {
+    pub const FONT_AWESOME_REGULAR_HOSPITAL: Self = {
         #[inline(never)]
         fn font_awesome_regular_hospital(
             crate::IconProps {
@@ -2575,7 +2575,7 @@ impl IconData {
             html: font_awesome_regular_hospital,
         }
     };
-    const FONT_AWESOME_REGULAR_HOURGLASS: Self = {
+    pub const FONT_AWESOME_REGULAR_HOURGLASS: Self = {
         #[inline(never)]
         fn font_awesome_regular_hourglass(
             crate::IconProps {
@@ -2597,7 +2597,7 @@ impl IconData {
             html: font_awesome_regular_hourglass,
         }
     };
-    const FONT_AWESOME_REGULAR_ID_BADGE: Self = {
+    pub const FONT_AWESOME_REGULAR_ID_BADGE: Self = {
         #[inline(never)]
         fn font_awesome_regular_id_badge(
             crate::IconProps {
@@ -2619,7 +2619,7 @@ impl IconData {
             html: font_awesome_regular_id_badge,
         }
     };
-    const FONT_AWESOME_REGULAR_ID_CARD: Self = {
+    pub const FONT_AWESOME_REGULAR_ID_CARD: Self = {
         #[inline(never)]
         fn font_awesome_regular_id_card(
             crate::IconProps {
@@ -2641,7 +2641,7 @@ impl IconData {
             html: font_awesome_regular_id_card,
         }
     };
-    const FONT_AWESOME_REGULAR_IMAGE: Self = {
+    pub const FONT_AWESOME_REGULAR_IMAGE: Self = {
         #[inline(never)]
         fn font_awesome_regular_image(
             crate::IconProps {
@@ -2663,7 +2663,7 @@ impl IconData {
             html: font_awesome_regular_image,
         }
     };
-    const FONT_AWESOME_REGULAR_IMAGES: Self = {
+    pub const FONT_AWESOME_REGULAR_IMAGES: Self = {
         #[inline(never)]
         fn font_awesome_regular_images(
             crate::IconProps {
@@ -2685,7 +2685,7 @@ impl IconData {
             html: font_awesome_regular_images,
         }
     };
-    const FONT_AWESOME_REGULAR_KEYBOARD: Self = {
+    pub const FONT_AWESOME_REGULAR_KEYBOARD: Self = {
         #[inline(never)]
         fn font_awesome_regular_keyboard(
             crate::IconProps {
@@ -2707,7 +2707,7 @@ impl IconData {
             html: font_awesome_regular_keyboard,
         }
     };
-    const FONT_AWESOME_REGULAR_LEMON: Self = {
+    pub const FONT_AWESOME_REGULAR_LEMON: Self = {
         #[inline(never)]
         fn font_awesome_regular_lemon(
             crate::IconProps {
@@ -2729,7 +2729,7 @@ impl IconData {
             html: font_awesome_regular_lemon,
         }
     };
-    const FONT_AWESOME_REGULAR_LIFE_RING: Self = {
+    pub const FONT_AWESOME_REGULAR_LIFE_RING: Self = {
         #[inline(never)]
         fn font_awesome_regular_life_ring(
             crate::IconProps {
@@ -2751,7 +2751,7 @@ impl IconData {
             html: font_awesome_regular_life_ring,
         }
     };
-    const FONT_AWESOME_REGULAR_LIGHTBULB: Self = {
+    pub const FONT_AWESOME_REGULAR_LIGHTBULB: Self = {
         #[inline(never)]
         fn font_awesome_regular_lightbulb(
             crate::IconProps {
@@ -2773,7 +2773,7 @@ impl IconData {
             html: font_awesome_regular_lightbulb,
         }
     };
-    const FONT_AWESOME_REGULAR_MAP: Self = {
+    pub const FONT_AWESOME_REGULAR_MAP: Self = {
         #[inline(never)]
         fn font_awesome_regular_map(
             crate::IconProps {
@@ -2795,7 +2795,7 @@ impl IconData {
             html: font_awesome_regular_map,
         }
     };
-    const FONT_AWESOME_REGULAR_MESSAGE: Self = {
+    pub const FONT_AWESOME_REGULAR_MESSAGE: Self = {
         #[inline(never)]
         fn font_awesome_regular_message(
             crate::IconProps {
@@ -2817,7 +2817,7 @@ impl IconData {
             html: font_awesome_regular_message,
         }
     };
-    const FONT_AWESOME_REGULAR_MONEY_BILL_1: Self = {
+    pub const FONT_AWESOME_REGULAR_MONEY_BILL_1: Self = {
         #[inline(never)]
         fn font_awesome_regular_money_bill_1(
             crate::IconProps {
@@ -2839,7 +2839,7 @@ impl IconData {
             html: font_awesome_regular_money_bill_1,
         }
     };
-    const FONT_AWESOME_REGULAR_MOON: Self = {
+    pub const FONT_AWESOME_REGULAR_MOON: Self = {
         #[inline(never)]
         fn font_awesome_regular_moon(
             crate::IconProps {
@@ -2861,7 +2861,7 @@ impl IconData {
             html: font_awesome_regular_moon,
         }
     };
-    const FONT_AWESOME_REGULAR_NEWSPAPER: Self = {
+    pub const FONT_AWESOME_REGULAR_NEWSPAPER: Self = {
         #[inline(never)]
         fn font_awesome_regular_newspaper(
             crate::IconProps {
@@ -2883,7 +2883,7 @@ impl IconData {
             html: font_awesome_regular_newspaper,
         }
     };
-    const FONT_AWESOME_REGULAR_NOTE_STICKY: Self = {
+    pub const FONT_AWESOME_REGULAR_NOTE_STICKY: Self = {
         #[inline(never)]
         fn font_awesome_regular_note_sticky(
             crate::IconProps {
@@ -2905,7 +2905,7 @@ impl IconData {
             html: font_awesome_regular_note_sticky,
         }
     };
-    const FONT_AWESOME_REGULAR_OBJECT_GROUP: Self = {
+    pub const FONT_AWESOME_REGULAR_OBJECT_GROUP: Self = {
         #[inline(never)]
         fn font_awesome_regular_object_group(
             crate::IconProps {
@@ -2927,7 +2927,7 @@ impl IconData {
             html: font_awesome_regular_object_group,
         }
     };
-    const FONT_AWESOME_REGULAR_OBJECT_UNGROUP: Self = {
+    pub const FONT_AWESOME_REGULAR_OBJECT_UNGROUP: Self = {
         #[inline(never)]
         fn font_awesome_regular_object_ungroup(
             crate::IconProps {
@@ -2949,7 +2949,7 @@ impl IconData {
             html: font_awesome_regular_object_ungroup,
         }
     };
-    const FONT_AWESOME_REGULAR_PAPER_PLANE: Self = {
+    pub const FONT_AWESOME_REGULAR_PAPER_PLANE: Self = {
         #[inline(never)]
         fn font_awesome_regular_paper_plane(
             crate::IconProps {
@@ -2971,7 +2971,7 @@ impl IconData {
             html: font_awesome_regular_paper_plane,
         }
     };
-    const FONT_AWESOME_REGULAR_PASTE: Self = {
+    pub const FONT_AWESOME_REGULAR_PASTE: Self = {
         #[inline(never)]
         fn font_awesome_regular_paste(
             crate::IconProps {
@@ -2993,7 +2993,7 @@ impl IconData {
             html: font_awesome_regular_paste,
         }
     };
-    const FONT_AWESOME_REGULAR_PEN_TO_SQUARE: Self = {
+    pub const FONT_AWESOME_REGULAR_PEN_TO_SQUARE: Self = {
         #[inline(never)]
         fn font_awesome_regular_pen_to_square(
             crate::IconProps {
@@ -3015,7 +3015,7 @@ impl IconData {
             html: font_awesome_regular_pen_to_square,
         }
     };
-    const FONT_AWESOME_REGULAR_RECTANGLE_LIST: Self = {
+    pub const FONT_AWESOME_REGULAR_RECTANGLE_LIST: Self = {
         #[inline(never)]
         fn font_awesome_regular_rectangle_list(
             crate::IconProps {
@@ -3037,7 +3037,7 @@ impl IconData {
             html: font_awesome_regular_rectangle_list,
         }
     };
-    const FONT_AWESOME_REGULAR_RECTANGLE_XMARK: Self = {
+    pub const FONT_AWESOME_REGULAR_RECTANGLE_XMARK: Self = {
         #[inline(never)]
         fn font_awesome_regular_rectangle_xmark(
             crate::IconProps {
@@ -3059,7 +3059,7 @@ impl IconData {
             html: font_awesome_regular_rectangle_xmark,
         }
     };
-    const FONT_AWESOME_REGULAR_REGISTERED: Self = {
+    pub const FONT_AWESOME_REGULAR_REGISTERED: Self = {
         #[inline(never)]
         fn font_awesome_regular_registered(
             crate::IconProps {
@@ -3081,7 +3081,7 @@ impl IconData {
             html: font_awesome_regular_registered,
         }
     };
-    const FONT_AWESOME_REGULAR_SHARE_FROM_SQUARE: Self = {
+    pub const FONT_AWESOME_REGULAR_SHARE_FROM_SQUARE: Self = {
         #[inline(never)]
         fn font_awesome_regular_share_from_square(
             crate::IconProps {
@@ -3103,7 +3103,7 @@ impl IconData {
             html: font_awesome_regular_share_from_square,
         }
     };
-    const FONT_AWESOME_REGULAR_SNOWFLAKE: Self = {
+    pub const FONT_AWESOME_REGULAR_SNOWFLAKE: Self = {
         #[inline(never)]
         fn font_awesome_regular_snowflake(
             crate::IconProps {
@@ -3125,7 +3125,7 @@ impl IconData {
             html: font_awesome_regular_snowflake,
         }
     };
-    const FONT_AWESOME_REGULAR_SQUARE_CARET_DOWN: Self = {
+    pub const FONT_AWESOME_REGULAR_SQUARE_CARET_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_regular_square_caret_down(
             crate::IconProps {
@@ -3147,7 +3147,7 @@ impl IconData {
             html: font_awesome_regular_square_caret_down,
         }
     };
-    const FONT_AWESOME_REGULAR_SQUARE_CARET_LEFT: Self = {
+    pub const FONT_AWESOME_REGULAR_SQUARE_CARET_LEFT: Self = {
         #[inline(never)]
         fn font_awesome_regular_square_caret_left(
             crate::IconProps {
@@ -3169,7 +3169,7 @@ impl IconData {
             html: font_awesome_regular_square_caret_left,
         }
     };
-    const FONT_AWESOME_REGULAR_SQUARE_CARET_RIGHT: Self = {
+    pub const FONT_AWESOME_REGULAR_SQUARE_CARET_RIGHT: Self = {
         #[inline(never)]
         fn font_awesome_regular_square_caret_right(
             crate::IconProps {
@@ -3191,7 +3191,7 @@ impl IconData {
             html: font_awesome_regular_square_caret_right,
         }
     };
-    const FONT_AWESOME_REGULAR_SQUARE_CARET_UP: Self = {
+    pub const FONT_AWESOME_REGULAR_SQUARE_CARET_UP: Self = {
         #[inline(never)]
         fn font_awesome_regular_square_caret_up(
             crate::IconProps {
@@ -3213,7 +3213,7 @@ impl IconData {
             html: font_awesome_regular_square_caret_up,
         }
     };
-    const FONT_AWESOME_REGULAR_SQUARE_CHECK: Self = {
+    pub const FONT_AWESOME_REGULAR_SQUARE_CHECK: Self = {
         #[inline(never)]
         fn font_awesome_regular_square_check(
             crate::IconProps {
@@ -3235,7 +3235,7 @@ impl IconData {
             html: font_awesome_regular_square_check,
         }
     };
-    const FONT_AWESOME_REGULAR_SQUARE_FULL: Self = {
+    pub const FONT_AWESOME_REGULAR_SQUARE_FULL: Self = {
         #[inline(never)]
         fn font_awesome_regular_square_full(
             crate::IconProps {
@@ -3257,7 +3257,7 @@ impl IconData {
             html: font_awesome_regular_square_full,
         }
     };
-    const FONT_AWESOME_REGULAR_SQUARE_MINUS: Self = {
+    pub const FONT_AWESOME_REGULAR_SQUARE_MINUS: Self = {
         #[inline(never)]
         fn font_awesome_regular_square_minus(
             crate::IconProps {
@@ -3279,7 +3279,7 @@ impl IconData {
             html: font_awesome_regular_square_minus,
         }
     };
-    const FONT_AWESOME_REGULAR_SQUARE_PLUS: Self = {
+    pub const FONT_AWESOME_REGULAR_SQUARE_PLUS: Self = {
         #[inline(never)]
         fn font_awesome_regular_square_plus(
             crate::IconProps {
@@ -3301,7 +3301,7 @@ impl IconData {
             html: font_awesome_regular_square_plus,
         }
     };
-    const FONT_AWESOME_REGULAR_SQUARE: Self = {
+    pub const FONT_AWESOME_REGULAR_SQUARE: Self = {
         #[inline(never)]
         fn font_awesome_regular_square(
             crate::IconProps {
@@ -3323,7 +3323,7 @@ impl IconData {
             html: font_awesome_regular_square,
         }
     };
-    const FONT_AWESOME_REGULAR_STAR_HALF_STROKE: Self = {
+    pub const FONT_AWESOME_REGULAR_STAR_HALF_STROKE: Self = {
         #[inline(never)]
         fn font_awesome_regular_star_half_stroke(
             crate::IconProps {
@@ -3345,7 +3345,7 @@ impl IconData {
             html: font_awesome_regular_star_half_stroke,
         }
     };
-    const FONT_AWESOME_REGULAR_STAR_HALF: Self = {
+    pub const FONT_AWESOME_REGULAR_STAR_HALF: Self = {
         #[inline(never)]
         fn font_awesome_regular_star_half(
             crate::IconProps {
@@ -3367,7 +3367,7 @@ impl IconData {
             html: font_awesome_regular_star_half,
         }
     };
-    const FONT_AWESOME_REGULAR_STAR: Self = {
+    pub const FONT_AWESOME_REGULAR_STAR: Self = {
         #[inline(never)]
         fn font_awesome_regular_star(
             crate::IconProps {
@@ -3389,7 +3389,7 @@ impl IconData {
             html: font_awesome_regular_star,
         }
     };
-    const FONT_AWESOME_REGULAR_SUN: Self = {
+    pub const FONT_AWESOME_REGULAR_SUN: Self = {
         #[inline(never)]
         fn font_awesome_regular_sun(
             crate::IconProps {
@@ -3411,7 +3411,7 @@ impl IconData {
             html: font_awesome_regular_sun,
         }
     };
-    const FONT_AWESOME_REGULAR_THUMBS_DOWN: Self = {
+    pub const FONT_AWESOME_REGULAR_THUMBS_DOWN: Self = {
         #[inline(never)]
         fn font_awesome_regular_thumbs_down(
             crate::IconProps {
@@ -3433,7 +3433,7 @@ impl IconData {
             html: font_awesome_regular_thumbs_down,
         }
     };
-    const FONT_AWESOME_REGULAR_THUMBS_UP: Self = {
+    pub const FONT_AWESOME_REGULAR_THUMBS_UP: Self = {
         #[inline(never)]
         fn font_awesome_regular_thumbs_up(
             crate::IconProps {
@@ -3455,7 +3455,7 @@ impl IconData {
             html: font_awesome_regular_thumbs_up,
         }
     };
-    const FONT_AWESOME_REGULAR_TRASH_CAN: Self = {
+    pub const FONT_AWESOME_REGULAR_TRASH_CAN: Self = {
         #[inline(never)]
         fn font_awesome_regular_trash_can(
             crate::IconProps {
@@ -3477,7 +3477,7 @@ impl IconData {
             html: font_awesome_regular_trash_can,
         }
     };
-    const FONT_AWESOME_REGULAR_USER: Self = {
+    pub const FONT_AWESOME_REGULAR_USER: Self = {
         #[inline(never)]
         fn font_awesome_regular_user(
             crate::IconProps {
@@ -3499,7 +3499,7 @@ impl IconData {
             html: font_awesome_regular_user,
         }
     };
-    const FONT_AWESOME_REGULAR_WINDOW_MAXIMIZE: Self = {
+    pub const FONT_AWESOME_REGULAR_WINDOW_MAXIMIZE: Self = {
         #[inline(never)]
         fn font_awesome_regular_window_maximize(
             crate::IconProps {
@@ -3521,7 +3521,7 @@ impl IconData {
             html: font_awesome_regular_window_maximize,
         }
     };
-    const FONT_AWESOME_REGULAR_WINDOW_MINIMIZE: Self = {
+    pub const FONT_AWESOME_REGULAR_WINDOW_MINIMIZE: Self = {
         #[inline(never)]
         fn font_awesome_regular_window_minimize(
             crate::IconProps {
@@ -3543,7 +3543,7 @@ impl IconData {
             html: font_awesome_regular_window_minimize,
         }
     };
-    const FONT_AWESOME_REGULAR_WINDOW_RESTORE: Self = {
+    pub const FONT_AWESOME_REGULAR_WINDOW_RESTORE: Self = {
         #[inline(never)]
         fn font_awesome_regular_window_restore(
             crate::IconProps {

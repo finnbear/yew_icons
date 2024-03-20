@@ -1,7 +1,7 @@
 // Generated file, do not edit by hand, see `src/generator.rs`
 
-impl IconData {
-    const LUCIDE_ACCESSIBILITY: Self = {
+impl crate::IconData {
+    pub const LUCIDE_ACCESSIBILITY: Self = {
         #[inline(never)]
         fn lucide_accessibility(
             crate::IconProps {
@@ -23,7 +23,7 @@ impl IconData {
             html: lucide_accessibility,
         }
     };
-    const LUCIDE_ACTIVITY: Self = {
+    pub const LUCIDE_ACTIVITY: Self = {
         #[inline(never)]
         fn lucide_activity(
             crate::IconProps {
@@ -45,7 +45,7 @@ impl IconData {
             html: lucide_activity,
         }
     };
-    const LUCIDE_AIR_VENT: Self = {
+    pub const LUCIDE_AIR_VENT: Self = {
         #[inline(never)]
         fn lucide_air_vent(
             crate::IconProps {
@@ -67,7 +67,7 @@ impl IconData {
             html: lucide_air_vent,
         }
     };
-    const LUCIDE_AIRPLAY: Self = {
+    pub const LUCIDE_AIRPLAY: Self = {
         #[inline(never)]
         fn lucide_airplay(
             crate::IconProps {
@@ -89,7 +89,7 @@ impl IconData {
             html: lucide_airplay,
         }
     };
-    const LUCIDE_ALARM_CHECK: Self = {
+    pub const LUCIDE_ALARM_CHECK: Self = {
         #[inline(never)]
         fn lucide_alarm_check(
             crate::IconProps {
@@ -111,7 +111,7 @@ impl IconData {
             html: lucide_alarm_check,
         }
     };
-    const LUCIDE_ALARM_CLOCK_OFF: Self = {
+    pub const LUCIDE_ALARM_CLOCK_OFF: Self = {
         #[inline(never)]
         fn lucide_alarm_clock_off(
             crate::IconProps {
@@ -133,7 +133,7 @@ impl IconData {
             html: lucide_alarm_clock_off,
         }
     };
-    const LUCIDE_ALARM_CLOCK: Self = {
+    pub const LUCIDE_ALARM_CLOCK: Self = {
         #[inline(never)]
         fn lucide_alarm_clock(
             crate::IconProps {
@@ -155,7 +155,7 @@ impl IconData {
             html: lucide_alarm_clock,
         }
     };
-    const LUCIDE_ALARM_MINUS: Self = {
+    pub const LUCIDE_ALARM_MINUS: Self = {
         #[inline(never)]
         fn lucide_alarm_minus(
             crate::IconProps {
@@ -177,7 +177,7 @@ impl IconData {
             html: lucide_alarm_minus,
         }
     };
-    const LUCIDE_ALARM_PLUS: Self = {
+    pub const LUCIDE_ALARM_PLUS: Self = {
         #[inline(never)]
         fn lucide_alarm_plus(
             crate::IconProps {
@@ -199,7 +199,7 @@ impl IconData {
             html: lucide_alarm_plus,
         }
     };
-    const LUCIDE_ALBUM: Self = {
+    pub const LUCIDE_ALBUM: Self = {
         #[inline(never)]
         fn lucide_album(
             crate::IconProps {
@@ -221,7 +221,7 @@ impl IconData {
             html: lucide_album,
         }
     };
-    const LUCIDE_ALERT_CIRCLE: Self = {
+    pub const LUCIDE_ALERT_CIRCLE: Self = {
         #[inline(never)]
         fn lucide_alert_circle(
             crate::IconProps {
@@ -243,7 +243,7 @@ impl IconData {
             html: lucide_alert_circle,
         }
     };
-    const LUCIDE_ALERT_OCTAGON: Self = {
+    pub const LUCIDE_ALERT_OCTAGON: Self = {
         #[inline(never)]
         fn lucide_alert_octagon(
             crate::IconProps {
@@ -265,7 +265,7 @@ impl IconData {
             html: lucide_alert_octagon,
         }
     };
-    const LUCIDE_ALERT_TRIANGLE: Self = {
+    pub const LUCIDE_ALERT_TRIANGLE: Self = {
         #[inline(never)]
         fn lucide_alert_triangle(
             crate::IconProps {
@@ -287,7 +287,7 @@ impl IconData {
             html: lucide_alert_triangle,
         }
     };
-    const LUCIDE_ALIGN_CENTER_HORIZONTAL: Self = {
+    pub const LUCIDE_ALIGN_CENTER_HORIZONTAL: Self = {
         #[inline(never)]
         fn lucide_align_center_horizontal(
             crate::IconProps {
@@ -309,7 +309,7 @@ impl IconData {
             html: lucide_align_center_horizontal,
         }
     };
-    const LUCIDE_ALIGN_CENTER_VERTICAL: Self = {
+    pub const LUCIDE_ALIGN_CENTER_VERTICAL: Self = {
         #[inline(never)]
         fn lucide_align_center_vertical(
             crate::IconProps {
@@ -331,7 +331,7 @@ impl IconData {
             html: lucide_align_center_vertical,
         }
     };
-    const LUCIDE_ALIGN_CENTER: Self = {
+    pub const LUCIDE_ALIGN_CENTER: Self = {
         #[inline(never)]
         fn lucide_align_center(
             crate::IconProps {
@@ -353,7 +353,7 @@ impl IconData {
             html: lucide_align_center,
         }
     };
-    const LUCIDE_ALIGN_END_HORIZONTAL: Self = {
+    pub const LUCIDE_ALIGN_END_HORIZONTAL: Self = {
         #[inline(never)]
         fn lucide_align_end_horizontal(
             crate::IconProps {
@@ -375,7 +375,7 @@ impl IconData {
             html: lucide_align_end_horizontal,
         }
     };
-    const LUCIDE_ALIGN_END_VERTICAL: Self = {
+    pub const LUCIDE_ALIGN_END_VERTICAL: Self = {
         #[inline(never)]
         fn lucide_align_end_vertical(
             crate::IconProps {
@@ -397,7 +397,7 @@ impl IconData {
             html: lucide_align_end_vertical,
         }
     };
-    const LUCIDE_ALIGN_HORIZONTAL_DISTRIBUTE_CENTER: Self = {
+    pub const LUCIDE_ALIGN_HORIZONTAL_DISTRIBUTE_CENTER: Self = {
         #[inline(never)]
         fn lucide_align_horizontal_distribute_center(
             crate::IconProps {
@@ -419,7 +419,7 @@ impl IconData {
             html: lucide_align_horizontal_distribute_center,
         }
     };
-    const LUCIDE_ALIGN_HORIZONTAL_DISTRIBUTE_END: Self = {
+    pub const LUCIDE_ALIGN_HORIZONTAL_DISTRIBUTE_END: Self = {
         #[inline(never)]
         fn lucide_align_horizontal_distribute_end(
             crate::IconProps {
@@ -441,7 +441,7 @@ impl IconData {
             html: lucide_align_horizontal_distribute_end,
         }
     };
-    const LUCIDE_ALIGN_HORIZONTAL_DISTRIBUTE_START: Self = {
+    pub const LUCIDE_ALIGN_HORIZONTAL_DISTRIBUTE_START: Self = {
         #[inline(never)]
         fn lucide_align_horizontal_distribute_start(
             crate::IconProps {
@@ -463,7 +463,7 @@ impl IconData {
             html: lucide_align_horizontal_distribute_start,
         }
     };
-    const LUCIDE_ALIGN_HORIZONTAL_JUSTIFY_CENTER: Self = {
+    pub const LUCIDE_ALIGN_HORIZONTAL_JUSTIFY_CENTER: Self = {
         #[inline(never)]
         fn lucide_align_horizontal_justify_center(
             crate::IconProps {
@@ -485,7 +485,7 @@ impl IconData {
             html: lucide_align_horizontal_justify_center,
         }
     };
-    const LUCIDE_ALIGN_HORIZONTAL_JUSTIFY_END: Self = {
+    pub const LUCIDE_ALIGN_HORIZONTAL_JUSTIFY_END: Self = {
         #[inline(never)]
         fn lucide_align_horizontal_justify_end(
             crate::IconProps {
@@ -507,7 +507,7 @@ impl IconData {
             html: lucide_align_horizontal_justify_end,
         }
     };
-    const LUCIDE_ALIGN_HORIZONTAL_JUSTIFY_START: Self = {
+    pub const LUCIDE_ALIGN_HORIZONTAL_JUSTIFY_START: Self = {
         #[inline(never)]
         fn lucide_align_horizontal_justify_start(
             crate::IconProps {
@@ -529,7 +529,7 @@ impl IconData {
             html: lucide_align_horizontal_justify_start,
         }
     };
-    const LUCIDE_ALIGN_HORIZONTAL_SPACE_AROUND: Self = {
+    pub const LUCIDE_ALIGN_HORIZONTAL_SPACE_AROUND: Self = {
         #[inline(never)]
         fn lucide_align_horizontal_space_around(
             crate::IconProps {
@@ -551,7 +551,7 @@ impl IconData {
             html: lucide_align_horizontal_space_around,
         }
     };
-    const LUCIDE_ALIGN_HORIZONTAL_SPACE_BETWEEN: Self = {
+    pub const LUCIDE_ALIGN_HORIZONTAL_SPACE_BETWEEN: Self = {
         #[inline(never)]
         fn lucide_align_horizontal_space_between(
             crate::IconProps {
@@ -573,7 +573,7 @@ impl IconData {
             html: lucide_align_horizontal_space_between,
         }
     };
-    const LUCIDE_ALIGN_JUSTIFY: Self = {
+    pub const LUCIDE_ALIGN_JUSTIFY: Self = {
         #[inline(never)]
         fn lucide_align_justify(
             crate::IconProps {
@@ -595,7 +595,7 @@ impl IconData {
             html: lucide_align_justify,
         }
     };
-    const LUCIDE_ALIGN_LEFT: Self = {
+    pub const LUCIDE_ALIGN_LEFT: Self = {
         #[inline(never)]
         fn lucide_align_left(
             crate::IconProps {
@@ -617,7 +617,7 @@ impl IconData {
             html: lucide_align_left,
         }
     };
-    const LUCIDE_ALIGN_RIGHT: Self = {
+    pub const LUCIDE_ALIGN_RIGHT: Self = {
         #[inline(never)]
         fn lucide_align_right(
             crate::IconProps {
@@ -639,7 +639,7 @@ impl IconData {
             html: lucide_align_right,
         }
     };
-    const LUCIDE_ALIGN_START_HORIZONTAL: Self = {
+    pub const LUCIDE_ALIGN_START_HORIZONTAL: Self = {
         #[inline(never)]
         fn lucide_align_start_horizontal(
             crate::IconProps {
@@ -661,7 +661,7 @@ impl IconData {
             html: lucide_align_start_horizontal,
         }
     };
-    const LUCIDE_ALIGN_START_VERTICAL: Self = {
+    pub const LUCIDE_ALIGN_START_VERTICAL: Self = {
         #[inline(never)]
         fn lucide_align_start_vertical(
             crate::IconProps {
@@ -683,7 +683,7 @@ impl IconData {
             html: lucide_align_start_vertical,
         }
     };
-    const LUCIDE_ALIGN_VERTICAL_DISTRIBUTE_CENTER: Self = {
+    pub const LUCIDE_ALIGN_VERTICAL_DISTRIBUTE_CENTER: Self = {
         #[inline(never)]
         fn lucide_align_vertical_distribute_center(
             crate::IconProps {
@@ -705,7 +705,7 @@ impl IconData {
             html: lucide_align_vertical_distribute_center,
         }
     };
-    const LUCIDE_ALIGN_VERTICAL_DISTRIBUTE_END: Self = {
+    pub const LUCIDE_ALIGN_VERTICAL_DISTRIBUTE_END: Self = {
         #[inline(never)]
         fn lucide_align_vertical_distribute_end(
             crate::IconProps {
@@ -727,7 +727,7 @@ impl IconData {
             html: lucide_align_vertical_distribute_end,
         }
     };
-    const LUCIDE_ALIGN_VERTICAL_DISTRIBUTE_START: Self = {
+    pub const LUCIDE_ALIGN_VERTICAL_DISTRIBUTE_START: Self = {
         #[inline(never)]
         fn lucide_align_vertical_distribute_start(
             crate::IconProps {
@@ -749,7 +749,7 @@ impl IconData {
             html: lucide_align_vertical_distribute_start,
         }
     };
-    const LUCIDE_ALIGN_VERTICAL_JUSTIFY_CENTER: Self = {
+    pub const LUCIDE_ALIGN_VERTICAL_JUSTIFY_CENTER: Self = {
         #[inline(never)]
         fn lucide_align_vertical_justify_center(
             crate::IconProps {
@@ -771,7 +771,7 @@ impl IconData {
             html: lucide_align_vertical_justify_center,
         }
     };
-    const LUCIDE_ALIGN_VERTICAL_JUSTIFY_END: Self = {
+    pub const LUCIDE_ALIGN_VERTICAL_JUSTIFY_END: Self = {
         #[inline(never)]
         fn lucide_align_vertical_justify_end(
             crate::IconProps {
@@ -793,7 +793,7 @@ impl IconData {
             html: lucide_align_vertical_justify_end,
         }
     };
-    const LUCIDE_ALIGN_VERTICAL_JUSTIFY_START: Self = {
+    pub const LUCIDE_ALIGN_VERTICAL_JUSTIFY_START: Self = {
         #[inline(never)]
         fn lucide_align_vertical_justify_start(
             crate::IconProps {
@@ -815,7 +815,7 @@ impl IconData {
             html: lucide_align_vertical_justify_start,
         }
     };
-    const LUCIDE_ALIGN_VERTICAL_SPACE_AROUND: Self = {
+    pub const LUCIDE_ALIGN_VERTICAL_SPACE_AROUND: Self = {
         #[inline(never)]
         fn lucide_align_vertical_space_around(
             crate::IconProps {
@@ -837,7 +837,7 @@ impl IconData {
             html: lucide_align_vertical_space_around,
         }
     };
-    const LUCIDE_ALIGN_VERTICAL_SPACE_BETWEEN: Self = {
+    pub const LUCIDE_ALIGN_VERTICAL_SPACE_BETWEEN: Self = {
         #[inline(never)]
         fn lucide_align_vertical_space_between(
             crate::IconProps {
@@ -859,7 +859,7 @@ impl IconData {
             html: lucide_align_vertical_space_between,
         }
     };
-    const LUCIDE_ANCHOR: Self = {
+    pub const LUCIDE_ANCHOR: Self = {
         #[inline(never)]
         fn lucide_anchor(
             crate::IconProps {
@@ -881,7 +881,7 @@ impl IconData {
             html: lucide_anchor,
         }
     };
-    const LUCIDE_ANGRY: Self = {
+    pub const LUCIDE_ANGRY: Self = {
         #[inline(never)]
         fn lucide_angry(
             crate::IconProps {
@@ -903,7 +903,7 @@ impl IconData {
             html: lucide_angry,
         }
     };
-    const LUCIDE_ANNOYED: Self = {
+    pub const LUCIDE_ANNOYED: Self = {
         #[inline(never)]
         fn lucide_annoyed(
             crate::IconProps {
@@ -925,7 +925,7 @@ impl IconData {
             html: lucide_annoyed,
         }
     };
-    const LUCIDE_APERTURE: Self = {
+    pub const LUCIDE_APERTURE: Self = {
         #[inline(never)]
         fn lucide_aperture(
             crate::IconProps {
@@ -947,7 +947,7 @@ impl IconData {
             html: lucide_aperture,
         }
     };
-    const LUCIDE_APPLE: Self = {
+    pub const LUCIDE_APPLE: Self = {
         #[inline(never)]
         fn lucide_apple(
             crate::IconProps {
@@ -969,7 +969,7 @@ impl IconData {
             html: lucide_apple,
         }
     };
-    const LUCIDE_ARCHIVE_RESTORE: Self = {
+    pub const LUCIDE_ARCHIVE_RESTORE: Self = {
         #[inline(never)]
         fn lucide_archive_restore(
             crate::IconProps {
@@ -991,7 +991,7 @@ impl IconData {
             html: lucide_archive_restore,
         }
     };
-    const LUCIDE_ARCHIVE: Self = {
+    pub const LUCIDE_ARCHIVE: Self = {
         #[inline(never)]
         fn lucide_archive(
             crate::IconProps {
@@ -1013,7 +1013,7 @@ impl IconData {
             html: lucide_archive,
         }
     };
-    const LUCIDE_ARMCHAIR: Self = {
+    pub const LUCIDE_ARMCHAIR: Self = {
         #[inline(never)]
         fn lucide_armchair(
             crate::IconProps {
@@ -1035,7 +1035,7 @@ impl IconData {
             html: lucide_armchair,
         }
     };
-    const LUCIDE_ARROW_BIG_DOWN: Self = {
+    pub const LUCIDE_ARROW_BIG_DOWN: Self = {
         #[inline(never)]
         fn lucide_arrow_big_down(
             crate::IconProps {
@@ -1057,7 +1057,7 @@ impl IconData {
             html: lucide_arrow_big_down,
         }
     };
-    const LUCIDE_ARROW_BIG_LEFT: Self = {
+    pub const LUCIDE_ARROW_BIG_LEFT: Self = {
         #[inline(never)]
         fn lucide_arrow_big_left(
             crate::IconProps {
@@ -1079,7 +1079,7 @@ impl IconData {
             html: lucide_arrow_big_left,
         }
     };
-    const LUCIDE_ARROW_BIG_RIGHT: Self = {
+    pub const LUCIDE_ARROW_BIG_RIGHT: Self = {
         #[inline(never)]
         fn lucide_arrow_big_right(
             crate::IconProps {
@@ -1101,7 +1101,7 @@ impl IconData {
             html: lucide_arrow_big_right,
         }
     };
-    const LUCIDE_ARROW_BIG_UP: Self = {
+    pub const LUCIDE_ARROW_BIG_UP: Self = {
         #[inline(never)]
         fn lucide_arrow_big_up(
             crate::IconProps {
@@ -1123,7 +1123,7 @@ impl IconData {
             html: lucide_arrow_big_up,
         }
     };
-    const LUCIDE_ARROW_DOWN_CIRCLE: Self = {
+    pub const LUCIDE_ARROW_DOWN_CIRCLE: Self = {
         #[inline(never)]
         fn lucide_arrow_down_circle(
             crate::IconProps {
@@ -1145,7 +1145,7 @@ impl IconData {
             html: lucide_arrow_down_circle,
         }
     };
-    const LUCIDE_ARROW_DOWN_LEFT: Self = {
+    pub const LUCIDE_ARROW_DOWN_LEFT: Self = {
         #[inline(never)]
         fn lucide_arrow_down_left(
             crate::IconProps {
@@ -1167,7 +1167,7 @@ impl IconData {
             html: lucide_arrow_down_left,
         }
     };
-    const LUCIDE_ARROW_DOWN_RIGHT: Self = {
+    pub const LUCIDE_ARROW_DOWN_RIGHT: Self = {
         #[inline(never)]
         fn lucide_arrow_down_right(
             crate::IconProps {
@@ -1189,7 +1189,7 @@ impl IconData {
             html: lucide_arrow_down_right,
         }
     };
-    const LUCIDE_ARROW_DOWN: Self = {
+    pub const LUCIDE_ARROW_DOWN: Self = {
         #[inline(never)]
         fn lucide_arrow_down(
             crate::IconProps {
@@ -1211,7 +1211,7 @@ impl IconData {
             html: lucide_arrow_down,
         }
     };
-    const LUCIDE_ARROW_LEFT_CIRCLE: Self = {
+    pub const LUCIDE_ARROW_LEFT_CIRCLE: Self = {
         #[inline(never)]
         fn lucide_arrow_left_circle(
             crate::IconProps {
@@ -1233,7 +1233,7 @@ impl IconData {
             html: lucide_arrow_left_circle,
         }
     };
-    const LUCIDE_ARROW_LEFT_RIGHT: Self = {
+    pub const LUCIDE_ARROW_LEFT_RIGHT: Self = {
         #[inline(never)]
         fn lucide_arrow_left_right(
             crate::IconProps {
@@ -1255,7 +1255,7 @@ impl IconData {
             html: lucide_arrow_left_right,
         }
     };
-    const LUCIDE_ARROW_LEFT: Self = {
+    pub const LUCIDE_ARROW_LEFT: Self = {
         #[inline(never)]
         fn lucide_arrow_left(
             crate::IconProps {
@@ -1277,7 +1277,7 @@ impl IconData {
             html: lucide_arrow_left,
         }
     };
-    const LUCIDE_ARROW_RIGHT_CIRCLE: Self = {
+    pub const LUCIDE_ARROW_RIGHT_CIRCLE: Self = {
         #[inline(never)]
         fn lucide_arrow_right_circle(
             crate::IconProps {
@@ -1299,7 +1299,7 @@ impl IconData {
             html: lucide_arrow_right_circle,
         }
     };
-    const LUCIDE_ARROW_RIGHT: Self = {
+    pub const LUCIDE_ARROW_RIGHT: Self = {
         #[inline(never)]
         fn lucide_arrow_right(
             crate::IconProps {
@@ -1321,7 +1321,7 @@ impl IconData {
             html: lucide_arrow_right,
         }
     };
-    const LUCIDE_ARROW_UP_CIRCLE: Self = {
+    pub const LUCIDE_ARROW_UP_CIRCLE: Self = {
         #[inline(never)]
         fn lucide_arrow_up_circle(
             crate::IconProps {
@@ -1343,7 +1343,7 @@ impl IconData {
             html: lucide_arrow_up_circle,
         }
     };
-    const LUCIDE_ARROW_UP_DOWN: Self = {
+    pub const LUCIDE_ARROW_UP_DOWN: Self = {
         #[inline(never)]
         fn lucide_arrow_up_down(
             crate::IconProps {
@@ -1365,7 +1365,7 @@ impl IconData {
             html: lucide_arrow_up_down,
         }
     };
-    const LUCIDE_ARROW_UP_LEFT: Self = {
+    pub const LUCIDE_ARROW_UP_LEFT: Self = {
         #[inline(never)]
         fn lucide_arrow_up_left(
             crate::IconProps {
@@ -1387,7 +1387,7 @@ impl IconData {
             html: lucide_arrow_up_left,
         }
     };
-    const LUCIDE_ARROW_UP_RIGHT: Self = {
+    pub const LUCIDE_ARROW_UP_RIGHT: Self = {
         #[inline(never)]
         fn lucide_arrow_up_right(
             crate::IconProps {
@@ -1409,7 +1409,7 @@ impl IconData {
             html: lucide_arrow_up_right,
         }
     };
-    const LUCIDE_ARROW_UP: Self = {
+    pub const LUCIDE_ARROW_UP: Self = {
         #[inline(never)]
         fn lucide_arrow_up(
             crate::IconProps {
@@ -1431,7 +1431,7 @@ impl IconData {
             html: lucide_arrow_up,
         }
     };
-    const LUCIDE_ASTERISK: Self = {
+    pub const LUCIDE_ASTERISK: Self = {
         #[inline(never)]
         fn lucide_asterisk(
             crate::IconProps {
@@ -1453,7 +1453,7 @@ impl IconData {
             html: lucide_asterisk,
         }
     };
-    const LUCIDE_AT_SIGN: Self = {
+    pub const LUCIDE_AT_SIGN: Self = {
         #[inline(never)]
         fn lucide_at_sign(
             crate::IconProps {
@@ -1475,7 +1475,7 @@ impl IconData {
             html: lucide_at_sign,
         }
     };
-    const LUCIDE_AWARD: Self = {
+    pub const LUCIDE_AWARD: Self = {
         #[inline(never)]
         fn lucide_award(
             crate::IconProps {
@@ -1497,7 +1497,7 @@ impl IconData {
             html: lucide_award,
         }
     };
-    const LUCIDE_AXE: Self = {
+    pub const LUCIDE_AXE: Self = {
         #[inline(never)]
         fn lucide_axe(
             crate::IconProps {
@@ -1519,7 +1519,7 @@ impl IconData {
             html: lucide_axe,
         }
     };
-    const LUCIDE_AXIS_3_D: Self = {
+    pub const LUCIDE_AXIS_3_D: Self = {
         #[inline(never)]
         fn lucide_axis_3_d(
             crate::IconProps {
@@ -1541,7 +1541,7 @@ impl IconData {
             html: lucide_axis_3_d,
         }
     };
-    const LUCIDE_BABY: Self = {
+    pub const LUCIDE_BABY: Self = {
         #[inline(never)]
         fn lucide_baby(
             crate::IconProps {
@@ -1563,7 +1563,7 @@ impl IconData {
             html: lucide_baby,
         }
     };
-    const LUCIDE_BACKPACK: Self = {
+    pub const LUCIDE_BACKPACK: Self = {
         #[inline(never)]
         fn lucide_backpack(
             crate::IconProps {
@@ -1585,7 +1585,7 @@ impl IconData {
             html: lucide_backpack,
         }
     };
-    const LUCIDE_BAGGAGE_CLAIM: Self = {
+    pub const LUCIDE_BAGGAGE_CLAIM: Self = {
         #[inline(never)]
         fn lucide_baggage_claim(
             crate::IconProps {
@@ -1607,7 +1607,7 @@ impl IconData {
             html: lucide_baggage_claim,
         }
     };
-    const LUCIDE_BANANA: Self = {
+    pub const LUCIDE_BANANA: Self = {
         #[inline(never)]
         fn lucide_banana(
             crate::IconProps {
@@ -1629,7 +1629,7 @@ impl IconData {
             html: lucide_banana,
         }
     };
-    const LUCIDE_BANKNOTE: Self = {
+    pub const LUCIDE_BANKNOTE: Self = {
         #[inline(never)]
         fn lucide_banknote(
             crate::IconProps {
@@ -1651,7 +1651,7 @@ impl IconData {
             html: lucide_banknote,
         }
     };
-    const LUCIDE_BAR_CHART_2: Self = {
+    pub const LUCIDE_BAR_CHART_2: Self = {
         #[inline(never)]
         fn lucide_bar_chart_2(
             crate::IconProps {
@@ -1673,7 +1673,7 @@ impl IconData {
             html: lucide_bar_chart_2,
         }
     };
-    const LUCIDE_BAR_CHART_3: Self = {
+    pub const LUCIDE_BAR_CHART_3: Self = {
         #[inline(never)]
         fn lucide_bar_chart_3(
             crate::IconProps {
@@ -1695,7 +1695,7 @@ impl IconData {
             html: lucide_bar_chart_3,
         }
     };
-    const LUCIDE_BAR_CHART_4: Self = {
+    pub const LUCIDE_BAR_CHART_4: Self = {
         #[inline(never)]
         fn lucide_bar_chart_4(
             crate::IconProps {
@@ -1717,7 +1717,7 @@ impl IconData {
             html: lucide_bar_chart_4,
         }
     };
-    const LUCIDE_BAR_CHART_HORIZONTAL: Self = {
+    pub const LUCIDE_BAR_CHART_HORIZONTAL: Self = {
         #[inline(never)]
         fn lucide_bar_chart_horizontal(
             crate::IconProps {
@@ -1739,7 +1739,7 @@ impl IconData {
             html: lucide_bar_chart_horizontal,
         }
     };
-    const LUCIDE_BAR_CHART: Self = {
+    pub const LUCIDE_BAR_CHART: Self = {
         #[inline(never)]
         fn lucide_bar_chart(
             crate::IconProps {
@@ -1761,7 +1761,7 @@ impl IconData {
             html: lucide_bar_chart,
         }
     };
-    const LUCIDE_BASELINE: Self = {
+    pub const LUCIDE_BASELINE: Self = {
         #[inline(never)]
         fn lucide_baseline(
             crate::IconProps {
@@ -1783,7 +1783,7 @@ impl IconData {
             html: lucide_baseline,
         }
     };
-    const LUCIDE_BATH: Self = {
+    pub const LUCIDE_BATH: Self = {
         #[inline(never)]
         fn lucide_bath(
             crate::IconProps {
@@ -1805,7 +1805,7 @@ impl IconData {
             html: lucide_bath,
         }
     };
-    const LUCIDE_BATTERY_CHARGING: Self = {
+    pub const LUCIDE_BATTERY_CHARGING: Self = {
         #[inline(never)]
         fn lucide_battery_charging(
             crate::IconProps {
@@ -1827,7 +1827,7 @@ impl IconData {
             html: lucide_battery_charging,
         }
     };
-    const LUCIDE_BATTERY_FULL: Self = {
+    pub const LUCIDE_BATTERY_FULL: Self = {
         #[inline(never)]
         fn lucide_battery_full(
             crate::IconProps {
@@ -1849,7 +1849,7 @@ impl IconData {
             html: lucide_battery_full,
         }
     };
-    const LUCIDE_BATTERY_LOW: Self = {
+    pub const LUCIDE_BATTERY_LOW: Self = {
         #[inline(never)]
         fn lucide_battery_low(
             crate::IconProps {
@@ -1871,7 +1871,7 @@ impl IconData {
             html: lucide_battery_low,
         }
     };
-    const LUCIDE_BATTERY_MEDIUM: Self = {
+    pub const LUCIDE_BATTERY_MEDIUM: Self = {
         #[inline(never)]
         fn lucide_battery_medium(
             crate::IconProps {
@@ -1893,7 +1893,7 @@ impl IconData {
             html: lucide_battery_medium,
         }
     };
-    const LUCIDE_BATTERY: Self = {
+    pub const LUCIDE_BATTERY: Self = {
         #[inline(never)]
         fn lucide_battery(
             crate::IconProps {
@@ -1915,7 +1915,7 @@ impl IconData {
             html: lucide_battery,
         }
     };
-    const LUCIDE_BEAKER: Self = {
+    pub const LUCIDE_BEAKER: Self = {
         #[inline(never)]
         fn lucide_beaker(
             crate::IconProps {
@@ -1937,7 +1937,7 @@ impl IconData {
             html: lucide_beaker,
         }
     };
-    const LUCIDE_BED_DOUBLE: Self = {
+    pub const LUCIDE_BED_DOUBLE: Self = {
         #[inline(never)]
         fn lucide_bed_double(
             crate::IconProps {
@@ -1959,7 +1959,7 @@ impl IconData {
             html: lucide_bed_double,
         }
     };
-    const LUCIDE_BED_SINGLE: Self = {
+    pub const LUCIDE_BED_SINGLE: Self = {
         #[inline(never)]
         fn lucide_bed_single(
             crate::IconProps {
@@ -1981,7 +1981,7 @@ impl IconData {
             html: lucide_bed_single,
         }
     };
-    const LUCIDE_BED: Self = {
+    pub const LUCIDE_BED: Self = {
         #[inline(never)]
         fn lucide_bed(
             crate::IconProps {
@@ -2003,7 +2003,7 @@ impl IconData {
             html: lucide_bed,
         }
     };
-    const LUCIDE_BEER: Self = {
+    pub const LUCIDE_BEER: Self = {
         #[inline(never)]
         fn lucide_beer(
             crate::IconProps {
@@ -2025,7 +2025,7 @@ impl IconData {
             html: lucide_beer,
         }
     };
-    const LUCIDE_BELL_MINUS: Self = {
+    pub const LUCIDE_BELL_MINUS: Self = {
         #[inline(never)]
         fn lucide_bell_minus(
             crate::IconProps {
@@ -2047,7 +2047,7 @@ impl IconData {
             html: lucide_bell_minus,
         }
     };
-    const LUCIDE_BELL_OFF: Self = {
+    pub const LUCIDE_BELL_OFF: Self = {
         #[inline(never)]
         fn lucide_bell_off(
             crate::IconProps {
@@ -2069,7 +2069,7 @@ impl IconData {
             html: lucide_bell_off,
         }
     };
-    const LUCIDE_BELL_PLUS: Self = {
+    pub const LUCIDE_BELL_PLUS: Self = {
         #[inline(never)]
         fn lucide_bell_plus(
             crate::IconProps {
@@ -2091,7 +2091,7 @@ impl IconData {
             html: lucide_bell_plus,
         }
     };
-    const LUCIDE_BELL_RING: Self = {
+    pub const LUCIDE_BELL_RING: Self = {
         #[inline(never)]
         fn lucide_bell_ring(
             crate::IconProps {
@@ -2113,7 +2113,7 @@ impl IconData {
             html: lucide_bell_ring,
         }
     };
-    const LUCIDE_BELL: Self = {
+    pub const LUCIDE_BELL: Self = {
         #[inline(never)]
         fn lucide_bell(
             crate::IconProps {
@@ -2135,7 +2135,7 @@ impl IconData {
             html: lucide_bell,
         }
     };
-    const LUCIDE_BIKE: Self = {
+    pub const LUCIDE_BIKE: Self = {
         #[inline(never)]
         fn lucide_bike(
             crate::IconProps {
@@ -2157,7 +2157,7 @@ impl IconData {
             html: lucide_bike,
         }
     };
-    const LUCIDE_BINARY: Self = {
+    pub const LUCIDE_BINARY: Self = {
         #[inline(never)]
         fn lucide_binary(
             crate::IconProps {
@@ -2179,7 +2179,7 @@ impl IconData {
             html: lucide_binary,
         }
     };
-    const LUCIDE_BITCOIN: Self = {
+    pub const LUCIDE_BITCOIN: Self = {
         #[inline(never)]
         fn lucide_bitcoin(
             crate::IconProps {
@@ -2201,7 +2201,7 @@ impl IconData {
             html: lucide_bitcoin,
         }
     };
-    const LUCIDE_BLUETOOTH_CONNECTED: Self = {
+    pub const LUCIDE_BLUETOOTH_CONNECTED: Self = {
         #[inline(never)]
         fn lucide_bluetooth_connected(
             crate::IconProps {
@@ -2223,7 +2223,7 @@ impl IconData {
             html: lucide_bluetooth_connected,
         }
     };
-    const LUCIDE_BLUETOOTH_OFF: Self = {
+    pub const LUCIDE_BLUETOOTH_OFF: Self = {
         #[inline(never)]
         fn lucide_bluetooth_off(
             crate::IconProps {
@@ -2245,7 +2245,7 @@ impl IconData {
             html: lucide_bluetooth_off,
         }
     };
-    const LUCIDE_BLUETOOTH_SEARCHING: Self = {
+    pub const LUCIDE_BLUETOOTH_SEARCHING: Self = {
         #[inline(never)]
         fn lucide_bluetooth_searching(
             crate::IconProps {
@@ -2267,7 +2267,7 @@ impl IconData {
             html: lucide_bluetooth_searching,
         }
     };
-    const LUCIDE_BLUETOOTH: Self = {
+    pub const LUCIDE_BLUETOOTH: Self = {
         #[inline(never)]
         fn lucide_bluetooth(
             crate::IconProps {
@@ -2289,7 +2289,7 @@ impl IconData {
             html: lucide_bluetooth,
         }
     };
-    const LUCIDE_BOLD: Self = {
+    pub const LUCIDE_BOLD: Self = {
         #[inline(never)]
         fn lucide_bold(
             crate::IconProps {
@@ -2311,7 +2311,7 @@ impl IconData {
             html: lucide_bold,
         }
     };
-    const LUCIDE_BOMB: Self = {
+    pub const LUCIDE_BOMB: Self = {
         #[inline(never)]
         fn lucide_bomb(
             crate::IconProps {
@@ -2333,7 +2333,7 @@ impl IconData {
             html: lucide_bomb,
         }
     };
-    const LUCIDE_BONE: Self = {
+    pub const LUCIDE_BONE: Self = {
         #[inline(never)]
         fn lucide_bone(
             crate::IconProps {
@@ -2355,7 +2355,7 @@ impl IconData {
             html: lucide_bone,
         }
     };
-    const LUCIDE_BOOK_OPEN_CHECK: Self = {
+    pub const LUCIDE_BOOK_OPEN_CHECK: Self = {
         #[inline(never)]
         fn lucide_book_open_check(
             crate::IconProps {
@@ -2377,7 +2377,7 @@ impl IconData {
             html: lucide_book_open_check,
         }
     };
-    const LUCIDE_BOOK_OPEN: Self = {
+    pub const LUCIDE_BOOK_OPEN: Self = {
         #[inline(never)]
         fn lucide_book_open(
             crate::IconProps {
@@ -2399,7 +2399,7 @@ impl IconData {
             html: lucide_book_open,
         }
     };
-    const LUCIDE_BOOK: Self = {
+    pub const LUCIDE_BOOK: Self = {
         #[inline(never)]
         fn lucide_book(
             crate::IconProps {
@@ -2421,7 +2421,7 @@ impl IconData {
             html: lucide_book,
         }
     };
-    const LUCIDE_BOOKMARK_MINUS: Self = {
+    pub const LUCIDE_BOOKMARK_MINUS: Self = {
         #[inline(never)]
         fn lucide_bookmark_minus(
             crate::IconProps {
@@ -2443,7 +2443,7 @@ impl IconData {
             html: lucide_bookmark_minus,
         }
     };
-    const LUCIDE_BOOKMARK_PLUS: Self = {
+    pub const LUCIDE_BOOKMARK_PLUS: Self = {
         #[inline(never)]
         fn lucide_bookmark_plus(
             crate::IconProps {
@@ -2465,7 +2465,7 @@ impl IconData {
             html: lucide_bookmark_plus,
         }
     };
-    const LUCIDE_BOOKMARK: Self = {
+    pub const LUCIDE_BOOKMARK: Self = {
         #[inline(never)]
         fn lucide_bookmark(
             crate::IconProps {
@@ -2487,7 +2487,7 @@ impl IconData {
             html: lucide_bookmark,
         }
     };
-    const LUCIDE_BOT: Self = {
+    pub const LUCIDE_BOT: Self = {
         #[inline(never)]
         fn lucide_bot(
             crate::IconProps {
@@ -2509,7 +2509,7 @@ impl IconData {
             html: lucide_bot,
         }
     };
-    const LUCIDE_BOX_SELECT: Self = {
+    pub const LUCIDE_BOX_SELECT: Self = {
         #[inline(never)]
         fn lucide_box_select(
             crate::IconProps {
@@ -2531,7 +2531,7 @@ impl IconData {
             html: lucide_box_select,
         }
     };
-    const LUCIDE_BOX: Self = {
+    pub const LUCIDE_BOX: Self = {
         #[inline(never)]
         fn lucide_box(
             crate::IconProps {
@@ -2553,7 +2553,7 @@ impl IconData {
             html: lucide_box,
         }
     };
-    const LUCIDE_BOXES: Self = {
+    pub const LUCIDE_BOXES: Self = {
         #[inline(never)]
         fn lucide_boxes(
             crate::IconProps {
@@ -2575,7 +2575,7 @@ impl IconData {
             html: lucide_boxes,
         }
     };
-    const LUCIDE_BRIEFCASE: Self = {
+    pub const LUCIDE_BRIEFCASE: Self = {
         #[inline(never)]
         fn lucide_briefcase(
             crate::IconProps {
@@ -2597,7 +2597,7 @@ impl IconData {
             html: lucide_briefcase,
         }
     };
-    const LUCIDE_BRUSH: Self = {
+    pub const LUCIDE_BRUSH: Self = {
         #[inline(never)]
         fn lucide_brush(
             crate::IconProps {
@@ -2619,7 +2619,7 @@ impl IconData {
             html: lucide_brush,
         }
     };
-    const LUCIDE_BUG: Self = {
+    pub const LUCIDE_BUG: Self = {
         #[inline(never)]
         fn lucide_bug(
             crate::IconProps {
@@ -2641,7 +2641,7 @@ impl IconData {
             html: lucide_bug,
         }
     };
-    const LUCIDE_BUILDING_2: Self = {
+    pub const LUCIDE_BUILDING_2: Self = {
         #[inline(never)]
         fn lucide_building_2(
             crate::IconProps {
@@ -2663,7 +2663,7 @@ impl IconData {
             html: lucide_building_2,
         }
     };
-    const LUCIDE_BUILDING: Self = {
+    pub const LUCIDE_BUILDING: Self = {
         #[inline(never)]
         fn lucide_building(
             crate::IconProps {
@@ -2685,7 +2685,7 @@ impl IconData {
             html: lucide_building,
         }
     };
-    const LUCIDE_BUS: Self = {
+    pub const LUCIDE_BUS: Self = {
         #[inline(never)]
         fn lucide_bus(
             crate::IconProps {
@@ -2707,7 +2707,7 @@ impl IconData {
             html: lucide_bus,
         }
     };
-    const LUCIDE_CAKE: Self = {
+    pub const LUCIDE_CAKE: Self = {
         #[inline(never)]
         fn lucide_cake(
             crate::IconProps {
@@ -2729,7 +2729,7 @@ impl IconData {
             html: lucide_cake,
         }
     };
-    const LUCIDE_CALCULATOR: Self = {
+    pub const LUCIDE_CALCULATOR: Self = {
         #[inline(never)]
         fn lucide_calculator(
             crate::IconProps {
@@ -2751,7 +2751,7 @@ impl IconData {
             html: lucide_calculator,
         }
     };
-    const LUCIDE_CALENDAR_CHECK_2: Self = {
+    pub const LUCIDE_CALENDAR_CHECK_2: Self = {
         #[inline(never)]
         fn lucide_calendar_check_2(
             crate::IconProps {
@@ -2773,7 +2773,7 @@ impl IconData {
             html: lucide_calendar_check_2,
         }
     };
-    const LUCIDE_CALENDAR_CHECK: Self = {
+    pub const LUCIDE_CALENDAR_CHECK: Self = {
         #[inline(never)]
         fn lucide_calendar_check(
             crate::IconProps {
@@ -2795,7 +2795,7 @@ impl IconData {
             html: lucide_calendar_check,
         }
     };
-    const LUCIDE_CALENDAR_CLOCK: Self = {
+    pub const LUCIDE_CALENDAR_CLOCK: Self = {
         #[inline(never)]
         fn lucide_calendar_clock(
             crate::IconProps {
@@ -2817,7 +2817,7 @@ impl IconData {
             html: lucide_calendar_clock,
         }
     };
-    const LUCIDE_CALENDAR_DAYS: Self = {
+    pub const LUCIDE_CALENDAR_DAYS: Self = {
         #[inline(never)]
         fn lucide_calendar_days(
             crate::IconProps {
@@ -2839,7 +2839,7 @@ impl IconData {
             html: lucide_calendar_days,
         }
     };
-    const LUCIDE_CALENDAR_HEART: Self = {
+    pub const LUCIDE_CALENDAR_HEART: Self = {
         #[inline(never)]
         fn lucide_calendar_heart(
             crate::IconProps {
@@ -2861,7 +2861,7 @@ impl IconData {
             html: lucide_calendar_heart,
         }
     };
-    const LUCIDE_CALENDAR_MINUS: Self = {
+    pub const LUCIDE_CALENDAR_MINUS: Self = {
         #[inline(never)]
         fn lucide_calendar_minus(
             crate::IconProps {
@@ -2883,7 +2883,7 @@ impl IconData {
             html: lucide_calendar_minus,
         }
     };
-    const LUCIDE_CALENDAR_OFF: Self = {
+    pub const LUCIDE_CALENDAR_OFF: Self = {
         #[inline(never)]
         fn lucide_calendar_off(
             crate::IconProps {
@@ -2905,7 +2905,7 @@ impl IconData {
             html: lucide_calendar_off,
         }
     };
-    const LUCIDE_CALENDAR_PLUS: Self = {
+    pub const LUCIDE_CALENDAR_PLUS: Self = {
         #[inline(never)]
         fn lucide_calendar_plus(
             crate::IconProps {
@@ -2927,7 +2927,7 @@ impl IconData {
             html: lucide_calendar_plus,
         }
     };
-    const LUCIDE_CALENDAR_RANGE: Self = {
+    pub const LUCIDE_CALENDAR_RANGE: Self = {
         #[inline(never)]
         fn lucide_calendar_range(
             crate::IconProps {
@@ -2949,7 +2949,7 @@ impl IconData {
             html: lucide_calendar_range,
         }
     };
-    const LUCIDE_CALENDAR_SEARCH: Self = {
+    pub const LUCIDE_CALENDAR_SEARCH: Self = {
         #[inline(never)]
         fn lucide_calendar_search(
             crate::IconProps {
@@ -2971,7 +2971,7 @@ impl IconData {
             html: lucide_calendar_search,
         }
     };
-    const LUCIDE_CALENDAR_X_2: Self = {
+    pub const LUCIDE_CALENDAR_X_2: Self = {
         #[inline(never)]
         fn lucide_calendar_x_2(
             crate::IconProps {
@@ -2993,7 +2993,7 @@ impl IconData {
             html: lucide_calendar_x_2,
         }
     };
-    const LUCIDE_CALENDAR_X: Self = {
+    pub const LUCIDE_CALENDAR_X: Self = {
         #[inline(never)]
         fn lucide_calendar_x(
             crate::IconProps {
@@ -3015,7 +3015,7 @@ impl IconData {
             html: lucide_calendar_x,
         }
     };
-    const LUCIDE_CALENDAR: Self = {
+    pub const LUCIDE_CALENDAR: Self = {
         #[inline(never)]
         fn lucide_calendar(
             crate::IconProps {
@@ -3037,7 +3037,7 @@ impl IconData {
             html: lucide_calendar,
         }
     };
-    const LUCIDE_CAMERA_OFF: Self = {
+    pub const LUCIDE_CAMERA_OFF: Self = {
         #[inline(never)]
         fn lucide_camera_off(
             crate::IconProps {
@@ -3059,7 +3059,7 @@ impl IconData {
             html: lucide_camera_off,
         }
     };
-    const LUCIDE_CAMERA: Self = {
+    pub const LUCIDE_CAMERA: Self = {
         #[inline(never)]
         fn lucide_camera(
             crate::IconProps {
@@ -3081,7 +3081,7 @@ impl IconData {
             html: lucide_camera,
         }
     };
-    const LUCIDE_CAR: Self = {
+    pub const LUCIDE_CAR: Self = {
         #[inline(never)]
         fn lucide_car(
             crate::IconProps {
@@ -3103,7 +3103,7 @@ impl IconData {
             html: lucide_car,
         }
     };
-    const LUCIDE_CARROT: Self = {
+    pub const LUCIDE_CARROT: Self = {
         #[inline(never)]
         fn lucide_carrot(
             crate::IconProps {
@@ -3125,7 +3125,7 @@ impl IconData {
             html: lucide_carrot,
         }
     };
-    const LUCIDE_CAST: Self = {
+    pub const LUCIDE_CAST: Self = {
         #[inline(never)]
         fn lucide_cast(
             crate::IconProps {
@@ -3147,7 +3147,7 @@ impl IconData {
             html: lucide_cast,
         }
     };
-    const LUCIDE_CHECK_CIRCLE_2: Self = {
+    pub const LUCIDE_CHECK_CIRCLE_2: Self = {
         #[inline(never)]
         fn lucide_check_circle_2(
             crate::IconProps {
@@ -3169,7 +3169,7 @@ impl IconData {
             html: lucide_check_circle_2,
         }
     };
-    const LUCIDE_CHECK_CIRCLE: Self = {
+    pub const LUCIDE_CHECK_CIRCLE: Self = {
         #[inline(never)]
         fn lucide_check_circle(
             crate::IconProps {
@@ -3191,7 +3191,7 @@ impl IconData {
             html: lucide_check_circle,
         }
     };
-    const LUCIDE_CHECK_SQUARE: Self = {
+    pub const LUCIDE_CHECK_SQUARE: Self = {
         #[inline(never)]
         fn lucide_check_square(
             crate::IconProps {
@@ -3213,7 +3213,7 @@ impl IconData {
             html: lucide_check_square,
         }
     };
-    const LUCIDE_CHECK: Self = {
+    pub const LUCIDE_CHECK: Self = {
         #[inline(never)]
         fn lucide_check(
             crate::IconProps {
@@ -3235,7 +3235,7 @@ impl IconData {
             html: lucide_check,
         }
     };
-    const LUCIDE_CHEF_HAT: Self = {
+    pub const LUCIDE_CHEF_HAT: Self = {
         #[inline(never)]
         fn lucide_chef_hat(
             crate::IconProps {
@@ -3257,7 +3257,7 @@ impl IconData {
             html: lucide_chef_hat,
         }
     };
-    const LUCIDE_CHERRY: Self = {
+    pub const LUCIDE_CHERRY: Self = {
         #[inline(never)]
         fn lucide_cherry(
             crate::IconProps {
@@ -3279,7 +3279,7 @@ impl IconData {
             html: lucide_cherry,
         }
     };
-    const LUCIDE_CHEVRON_DOWN: Self = {
+    pub const LUCIDE_CHEVRON_DOWN: Self = {
         #[inline(never)]
         fn lucide_chevron_down(
             crate::IconProps {
@@ -3301,7 +3301,7 @@ impl IconData {
             html: lucide_chevron_down,
         }
     };
-    const LUCIDE_CHEVRON_FIRST: Self = {
+    pub const LUCIDE_CHEVRON_FIRST: Self = {
         #[inline(never)]
         fn lucide_chevron_first(
             crate::IconProps {
@@ -3323,7 +3323,7 @@ impl IconData {
             html: lucide_chevron_first,
         }
     };
-    const LUCIDE_CHEVRON_LAST: Self = {
+    pub const LUCIDE_CHEVRON_LAST: Self = {
         #[inline(never)]
         fn lucide_chevron_last(
             crate::IconProps {
@@ -3345,7 +3345,7 @@ impl IconData {
             html: lucide_chevron_last,
         }
     };
-    const LUCIDE_CHEVRON_LEFT: Self = {
+    pub const LUCIDE_CHEVRON_LEFT: Self = {
         #[inline(never)]
         fn lucide_chevron_left(
             crate::IconProps {
@@ -3367,7 +3367,7 @@ impl IconData {
             html: lucide_chevron_left,
         }
     };
-    const LUCIDE_CHEVRON_RIGHT: Self = {
+    pub const LUCIDE_CHEVRON_RIGHT: Self = {
         #[inline(never)]
         fn lucide_chevron_right(
             crate::IconProps {
@@ -3389,7 +3389,7 @@ impl IconData {
             html: lucide_chevron_right,
         }
     };
-    const LUCIDE_CHEVRON_UP: Self = {
+    pub const LUCIDE_CHEVRON_UP: Self = {
         #[inline(never)]
         fn lucide_chevron_up(
             crate::IconProps {
@@ -3411,7 +3411,7 @@ impl IconData {
             html: lucide_chevron_up,
         }
     };
-    const LUCIDE_CHEVRONS_DOWN_UP: Self = {
+    pub const LUCIDE_CHEVRONS_DOWN_UP: Self = {
         #[inline(never)]
         fn lucide_chevrons_down_up(
             crate::IconProps {
@@ -3433,7 +3433,7 @@ impl IconData {
             html: lucide_chevrons_down_up,
         }
     };
-    const LUCIDE_CHEVRONS_DOWN: Self = {
+    pub const LUCIDE_CHEVRONS_DOWN: Self = {
         #[inline(never)]
         fn lucide_chevrons_down(
             crate::IconProps {
@@ -3455,7 +3455,7 @@ impl IconData {
             html: lucide_chevrons_down,
         }
     };
-    const LUCIDE_CHEVRONS_LEFT_RIGHT: Self = {
+    pub const LUCIDE_CHEVRONS_LEFT_RIGHT: Self = {
         #[inline(never)]
         fn lucide_chevrons_left_right(
             crate::IconProps {
@@ -3477,7 +3477,7 @@ impl IconData {
             html: lucide_chevrons_left_right,
         }
     };
-    const LUCIDE_CHEVRONS_LEFT: Self = {
+    pub const LUCIDE_CHEVRONS_LEFT: Self = {
         #[inline(never)]
         fn lucide_chevrons_left(
             crate::IconProps {
@@ -3499,7 +3499,7 @@ impl IconData {
             html: lucide_chevrons_left,
         }
     };
-    const LUCIDE_CHEVRONS_RIGHT_LEFT: Self = {
+    pub const LUCIDE_CHEVRONS_RIGHT_LEFT: Self = {
         #[inline(never)]
         fn lucide_chevrons_right_left(
             crate::IconProps {
@@ -3521,7 +3521,7 @@ impl IconData {
             html: lucide_chevrons_right_left,
         }
     };
-    const LUCIDE_CHEVRONS_RIGHT: Self = {
+    pub const LUCIDE_CHEVRONS_RIGHT: Self = {
         #[inline(never)]
         fn lucide_chevrons_right(
             crate::IconProps {
@@ -3543,7 +3543,7 @@ impl IconData {
             html: lucide_chevrons_right,
         }
     };
-    const LUCIDE_CHEVRONS_UP_DOWN: Self = {
+    pub const LUCIDE_CHEVRONS_UP_DOWN: Self = {
         #[inline(never)]
         fn lucide_chevrons_up_down(
             crate::IconProps {
@@ -3565,7 +3565,7 @@ impl IconData {
             html: lucide_chevrons_up_down,
         }
     };
-    const LUCIDE_CHEVRONS_UP: Self = {
+    pub const LUCIDE_CHEVRONS_UP: Self = {
         #[inline(never)]
         fn lucide_chevrons_up(
             crate::IconProps {
@@ -3587,7 +3587,7 @@ impl IconData {
             html: lucide_chevrons_up,
         }
     };
-    const LUCIDE_CHROME: Self = {
+    pub const LUCIDE_CHROME: Self = {
         #[inline(never)]
         fn lucide_chrome(
             crate::IconProps {
@@ -3609,7 +3609,7 @@ impl IconData {
             html: lucide_chrome,
         }
     };
-    const LUCIDE_CIGARETTE_OFF: Self = {
+    pub const LUCIDE_CIGARETTE_OFF: Self = {
         #[inline(never)]
         fn lucide_cigarette_off(
             crate::IconProps {
@@ -3631,7 +3631,7 @@ impl IconData {
             html: lucide_cigarette_off,
         }
     };
-    const LUCIDE_CIGARETTE: Self = {
+    pub const LUCIDE_CIGARETTE: Self = {
         #[inline(never)]
         fn lucide_cigarette(
             crate::IconProps {
@@ -3653,7 +3653,7 @@ impl IconData {
             html: lucide_cigarette,
         }
     };
-    const LUCIDE_CIRCLE_DOT: Self = {
+    pub const LUCIDE_CIRCLE_DOT: Self = {
         #[inline(never)]
         fn lucide_circle_dot(
             crate::IconProps {
@@ -3675,7 +3675,7 @@ impl IconData {
             html: lucide_circle_dot,
         }
     };
-    const LUCIDE_CIRCLE_ELLIPSIS: Self = {
+    pub const LUCIDE_CIRCLE_ELLIPSIS: Self = {
         #[inline(never)]
         fn lucide_circle_ellipsis(
             crate::IconProps {
@@ -3697,7 +3697,7 @@ impl IconData {
             html: lucide_circle_ellipsis,
         }
     };
-    const LUCIDE_CIRCLE_SLASHED: Self = {
+    pub const LUCIDE_CIRCLE_SLASHED: Self = {
         #[inline(never)]
         fn lucide_circle_slashed(
             crate::IconProps {
@@ -3719,7 +3719,7 @@ impl IconData {
             html: lucide_circle_slashed,
         }
     };
-    const LUCIDE_CIRCLE: Self = {
+    pub const LUCIDE_CIRCLE: Self = {
         #[inline(never)]
         fn lucide_circle(
             crate::IconProps {
@@ -3741,7 +3741,7 @@ impl IconData {
             html: lucide_circle,
         }
     };
-    const LUCIDE_CITRUS: Self = {
+    pub const LUCIDE_CITRUS: Self = {
         #[inline(never)]
         fn lucide_citrus(
             crate::IconProps {
@@ -3763,7 +3763,7 @@ impl IconData {
             html: lucide_citrus,
         }
     };
-    const LUCIDE_CLAPPERBOARD: Self = {
+    pub const LUCIDE_CLAPPERBOARD: Self = {
         #[inline(never)]
         fn lucide_clapperboard(
             crate::IconProps {
@@ -3785,7 +3785,7 @@ impl IconData {
             html: lucide_clapperboard,
         }
     };
-    const LUCIDE_CLIPBOARD_CHECK: Self = {
+    pub const LUCIDE_CLIPBOARD_CHECK: Self = {
         #[inline(never)]
         fn lucide_clipboard_check(
             crate::IconProps {
@@ -3807,7 +3807,7 @@ impl IconData {
             html: lucide_clipboard_check,
         }
     };
-    const LUCIDE_CLIPBOARD_COPY: Self = {
+    pub const LUCIDE_CLIPBOARD_COPY: Self = {
         #[inline(never)]
         fn lucide_clipboard_copy(
             crate::IconProps {
@@ -3829,7 +3829,7 @@ impl IconData {
             html: lucide_clipboard_copy,
         }
     };
-    const LUCIDE_CLIPBOARD_EDIT: Self = {
+    pub const LUCIDE_CLIPBOARD_EDIT: Self = {
         #[inline(never)]
         fn lucide_clipboard_edit(
             crate::IconProps {
@@ -3851,7 +3851,7 @@ impl IconData {
             html: lucide_clipboard_edit,
         }
     };
-    const LUCIDE_CLIPBOARD_LIST: Self = {
+    pub const LUCIDE_CLIPBOARD_LIST: Self = {
         #[inline(never)]
         fn lucide_clipboard_list(
             crate::IconProps {
@@ -3873,7 +3873,7 @@ impl IconData {
             html: lucide_clipboard_list,
         }
     };
-    const LUCIDE_CLIPBOARD_SIGNATURE: Self = {
+    pub const LUCIDE_CLIPBOARD_SIGNATURE: Self = {
         #[inline(never)]
         fn lucide_clipboard_signature(
             crate::IconProps {
@@ -3895,7 +3895,7 @@ impl IconData {
             html: lucide_clipboard_signature,
         }
     };
-    const LUCIDE_CLIPBOARD_TYPE: Self = {
+    pub const LUCIDE_CLIPBOARD_TYPE: Self = {
         #[inline(never)]
         fn lucide_clipboard_type(
             crate::IconProps {
@@ -3917,7 +3917,7 @@ impl IconData {
             html: lucide_clipboard_type,
         }
     };
-    const LUCIDE_CLIPBOARD_X: Self = {
+    pub const LUCIDE_CLIPBOARD_X: Self = {
         #[inline(never)]
         fn lucide_clipboard_x(
             crate::IconProps {
@@ -3939,7 +3939,7 @@ impl IconData {
             html: lucide_clipboard_x,
         }
     };
-    const LUCIDE_CLIPBOARD: Self = {
+    pub const LUCIDE_CLIPBOARD: Self = {
         #[inline(never)]
         fn lucide_clipboard(
             crate::IconProps {
@@ -3961,7 +3961,7 @@ impl IconData {
             html: lucide_clipboard,
         }
     };
-    const LUCIDE_CLOCK_1: Self = {
+    pub const LUCIDE_CLOCK_1: Self = {
         #[inline(never)]
         fn lucide_clock_1(
             crate::IconProps {
@@ -3983,7 +3983,7 @@ impl IconData {
             html: lucide_clock_1,
         }
     };
-    const LUCIDE_CLOCK_10: Self = {
+    pub const LUCIDE_CLOCK_10: Self = {
         #[inline(never)]
         fn lucide_clock_10(
             crate::IconProps {
@@ -4005,7 +4005,7 @@ impl IconData {
             html: lucide_clock_10,
         }
     };
-    const LUCIDE_CLOCK_11: Self = {
+    pub const LUCIDE_CLOCK_11: Self = {
         #[inline(never)]
         fn lucide_clock_11(
             crate::IconProps {
@@ -4027,7 +4027,7 @@ impl IconData {
             html: lucide_clock_11,
         }
     };
-    const LUCIDE_CLOCK_12: Self = {
+    pub const LUCIDE_CLOCK_12: Self = {
         #[inline(never)]
         fn lucide_clock_12(
             crate::IconProps {
@@ -4049,7 +4049,7 @@ impl IconData {
             html: lucide_clock_12,
         }
     };
-    const LUCIDE_CLOCK_2: Self = {
+    pub const LUCIDE_CLOCK_2: Self = {
         #[inline(never)]
         fn lucide_clock_2(
             crate::IconProps {
@@ -4071,7 +4071,7 @@ impl IconData {
             html: lucide_clock_2,
         }
     };
-    const LUCIDE_CLOCK_3: Self = {
+    pub const LUCIDE_CLOCK_3: Self = {
         #[inline(never)]
         fn lucide_clock_3(
             crate::IconProps {
@@ -4093,7 +4093,7 @@ impl IconData {
             html: lucide_clock_3,
         }
     };
-    const LUCIDE_CLOCK_4: Self = {
+    pub const LUCIDE_CLOCK_4: Self = {
         #[inline(never)]
         fn lucide_clock_4(
             crate::IconProps {
@@ -4115,7 +4115,7 @@ impl IconData {
             html: lucide_clock_4,
         }
     };
-    const LUCIDE_CLOCK_5: Self = {
+    pub const LUCIDE_CLOCK_5: Self = {
         #[inline(never)]
         fn lucide_clock_5(
             crate::IconProps {
@@ -4137,7 +4137,7 @@ impl IconData {
             html: lucide_clock_5,
         }
     };
-    const LUCIDE_CLOCK_6: Self = {
+    pub const LUCIDE_CLOCK_6: Self = {
         #[inline(never)]
         fn lucide_clock_6(
             crate::IconProps {
@@ -4159,7 +4159,7 @@ impl IconData {
             html: lucide_clock_6,
         }
     };
-    const LUCIDE_CLOCK_7: Self = {
+    pub const LUCIDE_CLOCK_7: Self = {
         #[inline(never)]
         fn lucide_clock_7(
             crate::IconProps {
@@ -4181,7 +4181,7 @@ impl IconData {
             html: lucide_clock_7,
         }
     };
-    const LUCIDE_CLOCK_8: Self = {
+    pub const LUCIDE_CLOCK_8: Self = {
         #[inline(never)]
         fn lucide_clock_8(
             crate::IconProps {
@@ -4203,7 +4203,7 @@ impl IconData {
             html: lucide_clock_8,
         }
     };
-    const LUCIDE_CLOCK_9: Self = {
+    pub const LUCIDE_CLOCK_9: Self = {
         #[inline(never)]
         fn lucide_clock_9(
             crate::IconProps {
@@ -4225,7 +4225,7 @@ impl IconData {
             html: lucide_clock_9,
         }
     };
-    const LUCIDE_CLOCK: Self = {
+    pub const LUCIDE_CLOCK: Self = {
         #[inline(never)]
         fn lucide_clock(
             crate::IconProps {
@@ -4247,7 +4247,7 @@ impl IconData {
             html: lucide_clock,
         }
     };
-    const LUCIDE_CLOUD_COG: Self = {
+    pub const LUCIDE_CLOUD_COG: Self = {
         #[inline(never)]
         fn lucide_cloud_cog(
             crate::IconProps {
@@ -4269,7 +4269,7 @@ impl IconData {
             html: lucide_cloud_cog,
         }
     };
-    const LUCIDE_CLOUD_DRIZZLE: Self = {
+    pub const LUCIDE_CLOUD_DRIZZLE: Self = {
         #[inline(never)]
         fn lucide_cloud_drizzle(
             crate::IconProps {
@@ -4291,7 +4291,7 @@ impl IconData {
             html: lucide_cloud_drizzle,
         }
     };
-    const LUCIDE_CLOUD_FOG: Self = {
+    pub const LUCIDE_CLOUD_FOG: Self = {
         #[inline(never)]
         fn lucide_cloud_fog(
             crate::IconProps {
@@ -4313,7 +4313,7 @@ impl IconData {
             html: lucide_cloud_fog,
         }
     };
-    const LUCIDE_CLOUD_HAIL: Self = {
+    pub const LUCIDE_CLOUD_HAIL: Self = {
         #[inline(never)]
         fn lucide_cloud_hail(
             crate::IconProps {
@@ -4335,7 +4335,7 @@ impl IconData {
             html: lucide_cloud_hail,
         }
     };
-    const LUCIDE_CLOUD_LIGHTNING: Self = {
+    pub const LUCIDE_CLOUD_LIGHTNING: Self = {
         #[inline(never)]
         fn lucide_cloud_lightning(
             crate::IconProps {
@@ -4357,7 +4357,7 @@ impl IconData {
             html: lucide_cloud_lightning,
         }
     };
-    const LUCIDE_CLOUD_MOON_RAIN: Self = {
+    pub const LUCIDE_CLOUD_MOON_RAIN: Self = {
         #[inline(never)]
         fn lucide_cloud_moon_rain(
             crate::IconProps {
@@ -4379,7 +4379,7 @@ impl IconData {
             html: lucide_cloud_moon_rain,
         }
     };
-    const LUCIDE_CLOUD_MOON: Self = {
+    pub const LUCIDE_CLOUD_MOON: Self = {
         #[inline(never)]
         fn lucide_cloud_moon(
             crate::IconProps {
@@ -4401,7 +4401,7 @@ impl IconData {
             html: lucide_cloud_moon,
         }
     };
-    const LUCIDE_CLOUD_OFF: Self = {
+    pub const LUCIDE_CLOUD_OFF: Self = {
         #[inline(never)]
         fn lucide_cloud_off(
             crate::IconProps {
@@ -4423,7 +4423,7 @@ impl IconData {
             html: lucide_cloud_off,
         }
     };
-    const LUCIDE_CLOUD_RAIN_WIND: Self = {
+    pub const LUCIDE_CLOUD_RAIN_WIND: Self = {
         #[inline(never)]
         fn lucide_cloud_rain_wind(
             crate::IconProps {
@@ -4445,7 +4445,7 @@ impl IconData {
             html: lucide_cloud_rain_wind,
         }
     };
-    const LUCIDE_CLOUD_RAIN: Self = {
+    pub const LUCIDE_CLOUD_RAIN: Self = {
         #[inline(never)]
         fn lucide_cloud_rain(
             crate::IconProps {
@@ -4467,7 +4467,7 @@ impl IconData {
             html: lucide_cloud_rain,
         }
     };
-    const LUCIDE_CLOUD_SNOW: Self = {
+    pub const LUCIDE_CLOUD_SNOW: Self = {
         #[inline(never)]
         fn lucide_cloud_snow(
             crate::IconProps {
@@ -4489,7 +4489,7 @@ impl IconData {
             html: lucide_cloud_snow,
         }
     };
-    const LUCIDE_CLOUD_SUN_RAIN: Self = {
+    pub const LUCIDE_CLOUD_SUN_RAIN: Self = {
         #[inline(never)]
         fn lucide_cloud_sun_rain(
             crate::IconProps {
@@ -4511,7 +4511,7 @@ impl IconData {
             html: lucide_cloud_sun_rain,
         }
     };
-    const LUCIDE_CLOUD_SUN: Self = {
+    pub const LUCIDE_CLOUD_SUN: Self = {
         #[inline(never)]
         fn lucide_cloud_sun(
             crate::IconProps {
@@ -4533,7 +4533,7 @@ impl IconData {
             html: lucide_cloud_sun,
         }
     };
-    const LUCIDE_CLOUD: Self = {
+    pub const LUCIDE_CLOUD: Self = {
         #[inline(never)]
         fn lucide_cloud(
             crate::IconProps {
@@ -4555,7 +4555,7 @@ impl IconData {
             html: lucide_cloud,
         }
     };
-    const LUCIDE_CLOUDY: Self = {
+    pub const LUCIDE_CLOUDY: Self = {
         #[inline(never)]
         fn lucide_cloudy(
             crate::IconProps {
@@ -4577,7 +4577,7 @@ impl IconData {
             html: lucide_cloudy,
         }
     };
-    const LUCIDE_CLOVER: Self = {
+    pub const LUCIDE_CLOVER: Self = {
         #[inline(never)]
         fn lucide_clover(
             crate::IconProps {
@@ -4599,7 +4599,7 @@ impl IconData {
             html: lucide_clover,
         }
     };
-    const LUCIDE_CODE_2: Self = {
+    pub const LUCIDE_CODE_2: Self = {
         #[inline(never)]
         fn lucide_code_2(
             crate::IconProps {
@@ -4621,7 +4621,7 @@ impl IconData {
             html: lucide_code_2,
         }
     };
-    const LUCIDE_CODE: Self = {
+    pub const LUCIDE_CODE: Self = {
         #[inline(never)]
         fn lucide_code(
             crate::IconProps {
@@ -4643,7 +4643,7 @@ impl IconData {
             html: lucide_code,
         }
     };
-    const LUCIDE_CODEPEN: Self = {
+    pub const LUCIDE_CODEPEN: Self = {
         #[inline(never)]
         fn lucide_codepen(
             crate::IconProps {
@@ -4665,7 +4665,7 @@ impl IconData {
             html: lucide_codepen,
         }
     };
-    const LUCIDE_CODESANDBOX: Self = {
+    pub const LUCIDE_CODESANDBOX: Self = {
         #[inline(never)]
         fn lucide_codesandbox(
             crate::IconProps {
@@ -4687,7 +4687,7 @@ impl IconData {
             html: lucide_codesandbox,
         }
     };
-    const LUCIDE_COFFEE: Self = {
+    pub const LUCIDE_COFFEE: Self = {
         #[inline(never)]
         fn lucide_coffee(
             crate::IconProps {
@@ -4709,7 +4709,7 @@ impl IconData {
             html: lucide_coffee,
         }
     };
-    const LUCIDE_COG: Self = {
+    pub const LUCIDE_COG: Self = {
         #[inline(never)]
         fn lucide_cog(
             crate::IconProps {
@@ -4731,7 +4731,7 @@ impl IconData {
             html: lucide_cog,
         }
     };
-    const LUCIDE_COINS: Self = {
+    pub const LUCIDE_COINS: Self = {
         #[inline(never)]
         fn lucide_coins(
             crate::IconProps {
@@ -4753,7 +4753,7 @@ impl IconData {
             html: lucide_coins,
         }
     };
-    const LUCIDE_COLUMNS: Self = {
+    pub const LUCIDE_COLUMNS: Self = {
         #[inline(never)]
         fn lucide_columns(
             crate::IconProps {
@@ -4775,7 +4775,7 @@ impl IconData {
             html: lucide_columns,
         }
     };
-    const LUCIDE_COMMAND: Self = {
+    pub const LUCIDE_COMMAND: Self = {
         #[inline(never)]
         fn lucide_command(
             crate::IconProps {
@@ -4797,7 +4797,7 @@ impl IconData {
             html: lucide_command,
         }
     };
-    const LUCIDE_COMPASS: Self = {
+    pub const LUCIDE_COMPASS: Self = {
         #[inline(never)]
         fn lucide_compass(
             crate::IconProps {
@@ -4819,7 +4819,7 @@ impl IconData {
             html: lucide_compass,
         }
     };
-    const LUCIDE_COMPONENT: Self = {
+    pub const LUCIDE_COMPONENT: Self = {
         #[inline(never)]
         fn lucide_component(
             crate::IconProps {
@@ -4841,7 +4841,7 @@ impl IconData {
             html: lucide_component,
         }
     };
-    const LUCIDE_CONCIERGE_BELL: Self = {
+    pub const LUCIDE_CONCIERGE_BELL: Self = {
         #[inline(never)]
         fn lucide_concierge_bell(
             crate::IconProps {
@@ -4863,7 +4863,7 @@ impl IconData {
             html: lucide_concierge_bell,
         }
     };
-    const LUCIDE_CONTACT: Self = {
+    pub const LUCIDE_CONTACT: Self = {
         #[inline(never)]
         fn lucide_contact(
             crate::IconProps {
@@ -4885,7 +4885,7 @@ impl IconData {
             html: lucide_contact,
         }
     };
-    const LUCIDE_CONTRAST: Self = {
+    pub const LUCIDE_CONTRAST: Self = {
         #[inline(never)]
         fn lucide_contrast(
             crate::IconProps {
@@ -4907,7 +4907,7 @@ impl IconData {
             html: lucide_contrast,
         }
     };
-    const LUCIDE_COOKIE: Self = {
+    pub const LUCIDE_COOKIE: Self = {
         #[inline(never)]
         fn lucide_cookie(
             crate::IconProps {
@@ -4929,7 +4929,7 @@ impl IconData {
             html: lucide_cookie,
         }
     };
-    const LUCIDE_COPY: Self = {
+    pub const LUCIDE_COPY: Self = {
         #[inline(never)]
         fn lucide_copy(
             crate::IconProps {
@@ -4951,7 +4951,7 @@ impl IconData {
             html: lucide_copy,
         }
     };
-    const LUCIDE_COPYLEFT: Self = {
+    pub const LUCIDE_COPYLEFT: Self = {
         #[inline(never)]
         fn lucide_copyleft(
             crate::IconProps {
@@ -4973,7 +4973,7 @@ impl IconData {
             html: lucide_copyleft,
         }
     };
-    const LUCIDE_COPYRIGHT: Self = {
+    pub const LUCIDE_COPYRIGHT: Self = {
         #[inline(never)]
         fn lucide_copyright(
             crate::IconProps {
@@ -4995,7 +4995,7 @@ impl IconData {
             html: lucide_copyright,
         }
     };
-    const LUCIDE_CORNER_DOWN_LEFT: Self = {
+    pub const LUCIDE_CORNER_DOWN_LEFT: Self = {
         #[inline(never)]
         fn lucide_corner_down_left(
             crate::IconProps {
@@ -5017,7 +5017,7 @@ impl IconData {
             html: lucide_corner_down_left,
         }
     };
-    const LUCIDE_CORNER_DOWN_RIGHT: Self = {
+    pub const LUCIDE_CORNER_DOWN_RIGHT: Self = {
         #[inline(never)]
         fn lucide_corner_down_right(
             crate::IconProps {
@@ -5039,7 +5039,7 @@ impl IconData {
             html: lucide_corner_down_right,
         }
     };
-    const LUCIDE_CORNER_LEFT_DOWN: Self = {
+    pub const LUCIDE_CORNER_LEFT_DOWN: Self = {
         #[inline(never)]
         fn lucide_corner_left_down(
             crate::IconProps {
@@ -5061,7 +5061,7 @@ impl IconData {
             html: lucide_corner_left_down,
         }
     };
-    const LUCIDE_CORNER_LEFT_UP: Self = {
+    pub const LUCIDE_CORNER_LEFT_UP: Self = {
         #[inline(never)]
         fn lucide_corner_left_up(
             crate::IconProps {
@@ -5083,7 +5083,7 @@ impl IconData {
             html: lucide_corner_left_up,
         }
     };
-    const LUCIDE_CORNER_RIGHT_DOWN: Self = {
+    pub const LUCIDE_CORNER_RIGHT_DOWN: Self = {
         #[inline(never)]
         fn lucide_corner_right_down(
             crate::IconProps {
@@ -5105,7 +5105,7 @@ impl IconData {
             html: lucide_corner_right_down,
         }
     };
-    const LUCIDE_CORNER_RIGHT_UP: Self = {
+    pub const LUCIDE_CORNER_RIGHT_UP: Self = {
         #[inline(never)]
         fn lucide_corner_right_up(
             crate::IconProps {
@@ -5127,7 +5127,7 @@ impl IconData {
             html: lucide_corner_right_up,
         }
     };
-    const LUCIDE_CORNER_UP_LEFT: Self = {
+    pub const LUCIDE_CORNER_UP_LEFT: Self = {
         #[inline(never)]
         fn lucide_corner_up_left(
             crate::IconProps {
@@ -5149,7 +5149,7 @@ impl IconData {
             html: lucide_corner_up_left,
         }
     };
-    const LUCIDE_CORNER_UP_RIGHT: Self = {
+    pub const LUCIDE_CORNER_UP_RIGHT: Self = {
         #[inline(never)]
         fn lucide_corner_up_right(
             crate::IconProps {
@@ -5171,7 +5171,7 @@ impl IconData {
             html: lucide_corner_up_right,
         }
     };
-    const LUCIDE_CPU: Self = {
+    pub const LUCIDE_CPU: Self = {
         #[inline(never)]
         fn lucide_cpu(
             crate::IconProps {
@@ -5193,7 +5193,7 @@ impl IconData {
             html: lucide_cpu,
         }
     };
-    const LUCIDE_CREDIT_CARD: Self = {
+    pub const LUCIDE_CREDIT_CARD: Self = {
         #[inline(never)]
         fn lucide_credit_card(
             crate::IconProps {
@@ -5215,7 +5215,7 @@ impl IconData {
             html: lucide_credit_card,
         }
     };
-    const LUCIDE_CROISSANT: Self = {
+    pub const LUCIDE_CROISSANT: Self = {
         #[inline(never)]
         fn lucide_croissant(
             crate::IconProps {
@@ -5237,7 +5237,7 @@ impl IconData {
             html: lucide_croissant,
         }
     };
-    const LUCIDE_CROP: Self = {
+    pub const LUCIDE_CROP: Self = {
         #[inline(never)]
         fn lucide_crop(
             crate::IconProps {
@@ -5259,7 +5259,7 @@ impl IconData {
             html: lucide_crop,
         }
     };
-    const LUCIDE_CROSS: Self = {
+    pub const LUCIDE_CROSS: Self = {
         #[inline(never)]
         fn lucide_cross(
             crate::IconProps {
@@ -5281,7 +5281,7 @@ impl IconData {
             html: lucide_cross,
         }
     };
-    const LUCIDE_CROSSHAIR: Self = {
+    pub const LUCIDE_CROSSHAIR: Self = {
         #[inline(never)]
         fn lucide_crosshair(
             crate::IconProps {
@@ -5303,7 +5303,7 @@ impl IconData {
             html: lucide_crosshair,
         }
     };
-    const LUCIDE_CROWN: Self = {
+    pub const LUCIDE_CROWN: Self = {
         #[inline(never)]
         fn lucide_crown(
             crate::IconProps {
@@ -5325,7 +5325,7 @@ impl IconData {
             html: lucide_crown,
         }
     };
-    const LUCIDE_CUP_SODA: Self = {
+    pub const LUCIDE_CUP_SODA: Self = {
         #[inline(never)]
         fn lucide_cup_soda(
             crate::IconProps {
@@ -5347,7 +5347,7 @@ impl IconData {
             html: lucide_cup_soda,
         }
     };
-    const LUCIDE_CURLY_BRACES: Self = {
+    pub const LUCIDE_CURLY_BRACES: Self = {
         #[inline(never)]
         fn lucide_curly_braces(
             crate::IconProps {
@@ -5369,7 +5369,7 @@ impl IconData {
             html: lucide_curly_braces,
         }
     };
-    const LUCIDE_CURRENCY: Self = {
+    pub const LUCIDE_CURRENCY: Self = {
         #[inline(never)]
         fn lucide_currency(
             crate::IconProps {
@@ -5391,7 +5391,7 @@ impl IconData {
             html: lucide_currency,
         }
     };
-    const LUCIDE_DATABASE: Self = {
+    pub const LUCIDE_DATABASE: Self = {
         #[inline(never)]
         fn lucide_database(
             crate::IconProps {
@@ -5413,7 +5413,7 @@ impl IconData {
             html: lucide_database,
         }
     };
-    const LUCIDE_DELETE: Self = {
+    pub const LUCIDE_DELETE: Self = {
         #[inline(never)]
         fn lucide_delete(
             crate::IconProps {
@@ -5435,7 +5435,7 @@ impl IconData {
             html: lucide_delete,
         }
     };
-    const LUCIDE_DIAMOND: Self = {
+    pub const LUCIDE_DIAMOND: Self = {
         #[inline(never)]
         fn lucide_diamond(
             crate::IconProps {
@@ -5457,7 +5457,7 @@ impl IconData {
             html: lucide_diamond,
         }
     };
-    const LUCIDE_DICE_1: Self = {
+    pub const LUCIDE_DICE_1: Self = {
         #[inline(never)]
         fn lucide_dice_1(
             crate::IconProps {
@@ -5479,7 +5479,7 @@ impl IconData {
             html: lucide_dice_1,
         }
     };
-    const LUCIDE_DICE_2: Self = {
+    pub const LUCIDE_DICE_2: Self = {
         #[inline(never)]
         fn lucide_dice_2(
             crate::IconProps {
@@ -5501,7 +5501,7 @@ impl IconData {
             html: lucide_dice_2,
         }
     };
-    const LUCIDE_DICE_3: Self = {
+    pub const LUCIDE_DICE_3: Self = {
         #[inline(never)]
         fn lucide_dice_3(
             crate::IconProps {
@@ -5523,7 +5523,7 @@ impl IconData {
             html: lucide_dice_3,
         }
     };
-    const LUCIDE_DICE_4: Self = {
+    pub const LUCIDE_DICE_4: Self = {
         #[inline(never)]
         fn lucide_dice_4(
             crate::IconProps {
@@ -5545,7 +5545,7 @@ impl IconData {
             html: lucide_dice_4,
         }
     };
-    const LUCIDE_DICE_5: Self = {
+    pub const LUCIDE_DICE_5: Self = {
         #[inline(never)]
         fn lucide_dice_5(
             crate::IconProps {
@@ -5567,7 +5567,7 @@ impl IconData {
             html: lucide_dice_5,
         }
     };
-    const LUCIDE_DICE_6: Self = {
+    pub const LUCIDE_DICE_6: Self = {
         #[inline(never)]
         fn lucide_dice_6(
             crate::IconProps {
@@ -5589,7 +5589,7 @@ impl IconData {
             html: lucide_dice_6,
         }
     };
-    const LUCIDE_DICES: Self = {
+    pub const LUCIDE_DICES: Self = {
         #[inline(never)]
         fn lucide_dices(
             crate::IconProps {
@@ -5611,7 +5611,7 @@ impl IconData {
             html: lucide_dices,
         }
     };
-    const LUCIDE_DIFF: Self = {
+    pub const LUCIDE_DIFF: Self = {
         #[inline(never)]
         fn lucide_diff(
             crate::IconProps {
@@ -5633,7 +5633,7 @@ impl IconData {
             html: lucide_diff,
         }
     };
-    const LUCIDE_DISC: Self = {
+    pub const LUCIDE_DISC: Self = {
         #[inline(never)]
         fn lucide_disc(
             crate::IconProps {
@@ -5655,7 +5655,7 @@ impl IconData {
             html: lucide_disc,
         }
     };
-    const LUCIDE_DIVIDE_CIRCLE: Self = {
+    pub const LUCIDE_DIVIDE_CIRCLE: Self = {
         #[inline(never)]
         fn lucide_divide_circle(
             crate::IconProps {
@@ -5677,7 +5677,7 @@ impl IconData {
             html: lucide_divide_circle,
         }
     };
-    const LUCIDE_DIVIDE_SQUARE: Self = {
+    pub const LUCIDE_DIVIDE_SQUARE: Self = {
         #[inline(never)]
         fn lucide_divide_square(
             crate::IconProps {
@@ -5699,7 +5699,7 @@ impl IconData {
             html: lucide_divide_square,
         }
     };
-    const LUCIDE_DIVIDE: Self = {
+    pub const LUCIDE_DIVIDE: Self = {
         #[inline(never)]
         fn lucide_divide(
             crate::IconProps {
@@ -5721,7 +5721,7 @@ impl IconData {
             html: lucide_divide,
         }
     };
-    const LUCIDE_DOLLAR_SIGN: Self = {
+    pub const LUCIDE_DOLLAR_SIGN: Self = {
         #[inline(never)]
         fn lucide_dollar_sign(
             crate::IconProps {
@@ -5743,7 +5743,7 @@ impl IconData {
             html: lucide_dollar_sign,
         }
     };
-    const LUCIDE_DOWNLOAD_CLOUD: Self = {
+    pub const LUCIDE_DOWNLOAD_CLOUD: Self = {
         #[inline(never)]
         fn lucide_download_cloud(
             crate::IconProps {
@@ -5765,7 +5765,7 @@ impl IconData {
             html: lucide_download_cloud,
         }
     };
-    const LUCIDE_DOWNLOAD: Self = {
+    pub const LUCIDE_DOWNLOAD: Self = {
         #[inline(never)]
         fn lucide_download(
             crate::IconProps {
@@ -5787,7 +5787,7 @@ impl IconData {
             html: lucide_download,
         }
     };
-    const LUCIDE_DRIBBBLE: Self = {
+    pub const LUCIDE_DRIBBBLE: Self = {
         #[inline(never)]
         fn lucide_dribbble(
             crate::IconProps {
@@ -5809,7 +5809,7 @@ impl IconData {
             html: lucide_dribbble,
         }
     };
-    const LUCIDE_DROPLET: Self = {
+    pub const LUCIDE_DROPLET: Self = {
         #[inline(never)]
         fn lucide_droplet(
             crate::IconProps {
@@ -5831,7 +5831,7 @@ impl IconData {
             html: lucide_droplet,
         }
     };
-    const LUCIDE_DROPLETS: Self = {
+    pub const LUCIDE_DROPLETS: Self = {
         #[inline(never)]
         fn lucide_droplets(
             crate::IconProps {
@@ -5853,7 +5853,7 @@ impl IconData {
             html: lucide_droplets,
         }
     };
-    const LUCIDE_DRUMSTICK: Self = {
+    pub const LUCIDE_DRUMSTICK: Self = {
         #[inline(never)]
         fn lucide_drumstick(
             crate::IconProps {
@@ -5875,7 +5875,7 @@ impl IconData {
             html: lucide_drumstick,
         }
     };
-    const LUCIDE_EAR_OFF: Self = {
+    pub const LUCIDE_EAR_OFF: Self = {
         #[inline(never)]
         fn lucide_ear_off(
             crate::IconProps {
@@ -5897,7 +5897,7 @@ impl IconData {
             html: lucide_ear_off,
         }
     };
-    const LUCIDE_EAR: Self = {
+    pub const LUCIDE_EAR: Self = {
         #[inline(never)]
         fn lucide_ear(
             crate::IconProps {
@@ -5919,7 +5919,7 @@ impl IconData {
             html: lucide_ear,
         }
     };
-    const LUCIDE_EDIT_2: Self = {
+    pub const LUCIDE_EDIT_2: Self = {
         #[inline(never)]
         fn lucide_edit_2(
             crate::IconProps {
@@ -5941,7 +5941,7 @@ impl IconData {
             html: lucide_edit_2,
         }
     };
-    const LUCIDE_EDIT_3: Self = {
+    pub const LUCIDE_EDIT_3: Self = {
         #[inline(never)]
         fn lucide_edit_3(
             crate::IconProps {
@@ -5963,7 +5963,7 @@ impl IconData {
             html: lucide_edit_3,
         }
     };
-    const LUCIDE_EDIT: Self = {
+    pub const LUCIDE_EDIT: Self = {
         #[inline(never)]
         fn lucide_edit(
             crate::IconProps {
@@ -5985,7 +5985,7 @@ impl IconData {
             html: lucide_edit,
         }
     };
-    const LUCIDE_EGG_FRIED: Self = {
+    pub const LUCIDE_EGG_FRIED: Self = {
         #[inline(never)]
         fn lucide_egg_fried(
             crate::IconProps {
@@ -6007,7 +6007,7 @@ impl IconData {
             html: lucide_egg_fried,
         }
     };
-    const LUCIDE_EGG: Self = {
+    pub const LUCIDE_EGG: Self = {
         #[inline(never)]
         fn lucide_egg(
             crate::IconProps {
@@ -6029,7 +6029,7 @@ impl IconData {
             html: lucide_egg,
         }
     };
-    const LUCIDE_EQUAL_NOT: Self = {
+    pub const LUCIDE_EQUAL_NOT: Self = {
         #[inline(never)]
         fn lucide_equal_not(
             crate::IconProps {
@@ -6051,7 +6051,7 @@ impl IconData {
             html: lucide_equal_not,
         }
     };
-    const LUCIDE_EQUAL: Self = {
+    pub const LUCIDE_EQUAL: Self = {
         #[inline(never)]
         fn lucide_equal(
             crate::IconProps {
@@ -6073,7 +6073,7 @@ impl IconData {
             html: lucide_equal,
         }
     };
-    const LUCIDE_ERASER: Self = {
+    pub const LUCIDE_ERASER: Self = {
         #[inline(never)]
         fn lucide_eraser(
             crate::IconProps {
@@ -6095,7 +6095,7 @@ impl IconData {
             html: lucide_eraser,
         }
     };
-    const LUCIDE_EURO: Self = {
+    pub const LUCIDE_EURO: Self = {
         #[inline(never)]
         fn lucide_euro(
             crate::IconProps {
@@ -6117,7 +6117,7 @@ impl IconData {
             html: lucide_euro,
         }
     };
-    const LUCIDE_EXPAND: Self = {
+    pub const LUCIDE_EXPAND: Self = {
         #[inline(never)]
         fn lucide_expand(
             crate::IconProps {
@@ -6139,7 +6139,7 @@ impl IconData {
             html: lucide_expand,
         }
     };
-    const LUCIDE_EXTERNAL_LINK: Self = {
+    pub const LUCIDE_EXTERNAL_LINK: Self = {
         #[inline(never)]
         fn lucide_external_link(
             crate::IconProps {
@@ -6161,7 +6161,7 @@ impl IconData {
             html: lucide_external_link,
         }
     };
-    const LUCIDE_EYE_OFF: Self = {
+    pub const LUCIDE_EYE_OFF: Self = {
         #[inline(never)]
         fn lucide_eye_off(
             crate::IconProps {
@@ -6183,7 +6183,7 @@ impl IconData {
             html: lucide_eye_off,
         }
     };
-    const LUCIDE_EYE: Self = {
+    pub const LUCIDE_EYE: Self = {
         #[inline(never)]
         fn lucide_eye(
             crate::IconProps {
@@ -6205,7 +6205,7 @@ impl IconData {
             html: lucide_eye,
         }
     };
-    const LUCIDE_FACEBOOK: Self = {
+    pub const LUCIDE_FACEBOOK: Self = {
         #[inline(never)]
         fn lucide_facebook(
             crate::IconProps {
@@ -6227,7 +6227,7 @@ impl IconData {
             html: lucide_facebook,
         }
     };
-    const LUCIDE_FACTORY: Self = {
+    pub const LUCIDE_FACTORY: Self = {
         #[inline(never)]
         fn lucide_factory(
             crate::IconProps {
@@ -6249,7 +6249,7 @@ impl IconData {
             html: lucide_factory,
         }
     };
-    const LUCIDE_FAN: Self = {
+    pub const LUCIDE_FAN: Self = {
         #[inline(never)]
         fn lucide_fan(
             crate::IconProps {
@@ -6271,7 +6271,7 @@ impl IconData {
             html: lucide_fan,
         }
     };
-    const LUCIDE_FAST_FORWARD: Self = {
+    pub const LUCIDE_FAST_FORWARD: Self = {
         #[inline(never)]
         fn lucide_fast_forward(
             crate::IconProps {
@@ -6293,7 +6293,7 @@ impl IconData {
             html: lucide_fast_forward,
         }
     };
-    const LUCIDE_FEATHER: Self = {
+    pub const LUCIDE_FEATHER: Self = {
         #[inline(never)]
         fn lucide_feather(
             crate::IconProps {
@@ -6315,7 +6315,7 @@ impl IconData {
             html: lucide_feather,
         }
     };
-    const LUCIDE_FIGMA: Self = {
+    pub const LUCIDE_FIGMA: Self = {
         #[inline(never)]
         fn lucide_figma(
             crate::IconProps {
@@ -6337,7 +6337,7 @@ impl IconData {
             html: lucide_figma,
         }
     };
-    const LUCIDE_FILE_ARCHIVE: Self = {
+    pub const LUCIDE_FILE_ARCHIVE: Self = {
         #[inline(never)]
         fn lucide_file_archive(
             crate::IconProps {
@@ -6359,7 +6359,7 @@ impl IconData {
             html: lucide_file_archive,
         }
     };
-    const LUCIDE_FILE_AUDIO_2: Self = {
+    pub const LUCIDE_FILE_AUDIO_2: Self = {
         #[inline(never)]
         fn lucide_file_audio_2(
             crate::IconProps {
@@ -6381,7 +6381,7 @@ impl IconData {
             html: lucide_file_audio_2,
         }
     };
-    const LUCIDE_FILE_AUDIO: Self = {
+    pub const LUCIDE_FILE_AUDIO: Self = {
         #[inline(never)]
         fn lucide_file_audio(
             crate::IconProps {
@@ -6403,7 +6403,7 @@ impl IconData {
             html: lucide_file_audio,
         }
     };
-    const LUCIDE_FILE_AXIS_3_D: Self = {
+    pub const LUCIDE_FILE_AXIS_3_D: Self = {
         #[inline(never)]
         fn lucide_file_axis_3_d(
             crate::IconProps {
@@ -6425,7 +6425,7 @@ impl IconData {
             html: lucide_file_axis_3_d,
         }
     };
-    const LUCIDE_FILE_BADGE_2: Self = {
+    pub const LUCIDE_FILE_BADGE_2: Self = {
         #[inline(never)]
         fn lucide_file_badge_2(
             crate::IconProps {
@@ -6447,7 +6447,7 @@ impl IconData {
             html: lucide_file_badge_2,
         }
     };
-    const LUCIDE_FILE_BADGE: Self = {
+    pub const LUCIDE_FILE_BADGE: Self = {
         #[inline(never)]
         fn lucide_file_badge(
             crate::IconProps {
@@ -6469,7 +6469,7 @@ impl IconData {
             html: lucide_file_badge,
         }
     };
-    const LUCIDE_FILE_BAR_CHART_2: Self = {
+    pub const LUCIDE_FILE_BAR_CHART_2: Self = {
         #[inline(never)]
         fn lucide_file_bar_chart_2(
             crate::IconProps {
@@ -6491,7 +6491,7 @@ impl IconData {
             html: lucide_file_bar_chart_2,
         }
     };
-    const LUCIDE_FILE_BAR_CHART: Self = {
+    pub const LUCIDE_FILE_BAR_CHART: Self = {
         #[inline(never)]
         fn lucide_file_bar_chart(
             crate::IconProps {
@@ -6513,7 +6513,7 @@ impl IconData {
             html: lucide_file_bar_chart,
         }
     };
-    const LUCIDE_FILE_BOX: Self = {
+    pub const LUCIDE_FILE_BOX: Self = {
         #[inline(never)]
         fn lucide_file_box(
             crate::IconProps {
@@ -6535,7 +6535,7 @@ impl IconData {
             html: lucide_file_box,
         }
     };
-    const LUCIDE_FILE_CHECK_2: Self = {
+    pub const LUCIDE_FILE_CHECK_2: Self = {
         #[inline(never)]
         fn lucide_file_check_2(
             crate::IconProps {
@@ -6557,7 +6557,7 @@ impl IconData {
             html: lucide_file_check_2,
         }
     };
-    const LUCIDE_FILE_CHECK: Self = {
+    pub const LUCIDE_FILE_CHECK: Self = {
         #[inline(never)]
         fn lucide_file_check(
             crate::IconProps {
@@ -6579,7 +6579,7 @@ impl IconData {
             html: lucide_file_check,
         }
     };
-    const LUCIDE_FILE_CLOCK: Self = {
+    pub const LUCIDE_FILE_CLOCK: Self = {
         #[inline(never)]
         fn lucide_file_clock(
             crate::IconProps {
@@ -6601,7 +6601,7 @@ impl IconData {
             html: lucide_file_clock,
         }
     };
-    const LUCIDE_FILE_CODE: Self = {
+    pub const LUCIDE_FILE_CODE: Self = {
         #[inline(never)]
         fn lucide_file_code(
             crate::IconProps {
@@ -6623,7 +6623,7 @@ impl IconData {
             html: lucide_file_code,
         }
     };
-    const LUCIDE_FILE_COG_2: Self = {
+    pub const LUCIDE_FILE_COG_2: Self = {
         #[inline(never)]
         fn lucide_file_cog_2(
             crate::IconProps {
@@ -6645,7 +6645,7 @@ impl IconData {
             html: lucide_file_cog_2,
         }
     };
-    const LUCIDE_FILE_COG: Self = {
+    pub const LUCIDE_FILE_COG: Self = {
         #[inline(never)]
         fn lucide_file_cog(
             crate::IconProps {
@@ -6667,7 +6667,7 @@ impl IconData {
             html: lucide_file_cog,
         }
     };
-    const LUCIDE_FILE_DIFF: Self = {
+    pub const LUCIDE_FILE_DIFF: Self = {
         #[inline(never)]
         fn lucide_file_diff(
             crate::IconProps {
@@ -6689,7 +6689,7 @@ impl IconData {
             html: lucide_file_diff,
         }
     };
-    const LUCIDE_FILE_DIGIT: Self = {
+    pub const LUCIDE_FILE_DIGIT: Self = {
         #[inline(never)]
         fn lucide_file_digit(
             crate::IconProps {
@@ -6711,7 +6711,7 @@ impl IconData {
             html: lucide_file_digit,
         }
     };
-    const LUCIDE_FILE_DOWN: Self = {
+    pub const LUCIDE_FILE_DOWN: Self = {
         #[inline(never)]
         fn lucide_file_down(
             crate::IconProps {
@@ -6733,7 +6733,7 @@ impl IconData {
             html: lucide_file_down,
         }
     };
-    const LUCIDE_FILE_EDIT: Self = {
+    pub const LUCIDE_FILE_EDIT: Self = {
         #[inline(never)]
         fn lucide_file_edit(
             crate::IconProps {
@@ -6755,7 +6755,7 @@ impl IconData {
             html: lucide_file_edit,
         }
     };
-    const LUCIDE_FILE_HEART: Self = {
+    pub const LUCIDE_FILE_HEART: Self = {
         #[inline(never)]
         fn lucide_file_heart(
             crate::IconProps {
@@ -6777,7 +6777,7 @@ impl IconData {
             html: lucide_file_heart,
         }
     };
-    const LUCIDE_FILE_IMAGE: Self = {
+    pub const LUCIDE_FILE_IMAGE: Self = {
         #[inline(never)]
         fn lucide_file_image(
             crate::IconProps {
@@ -6799,7 +6799,7 @@ impl IconData {
             html: lucide_file_image,
         }
     };
-    const LUCIDE_FILE_INPUT: Self = {
+    pub const LUCIDE_FILE_INPUT: Self = {
         #[inline(never)]
         fn lucide_file_input(
             crate::IconProps {
@@ -6821,7 +6821,7 @@ impl IconData {
             html: lucide_file_input,
         }
     };
-    const LUCIDE_FILE_JSON_2: Self = {
+    pub const LUCIDE_FILE_JSON_2: Self = {
         #[inline(never)]
         fn lucide_file_json_2(
             crate::IconProps {
@@ -6843,7 +6843,7 @@ impl IconData {
             html: lucide_file_json_2,
         }
     };
-    const LUCIDE_FILE_JSON: Self = {
+    pub const LUCIDE_FILE_JSON: Self = {
         #[inline(never)]
         fn lucide_file_json(
             crate::IconProps {
@@ -6865,7 +6865,7 @@ impl IconData {
             html: lucide_file_json,
         }
     };
-    const LUCIDE_FILE_KEY_2: Self = {
+    pub const LUCIDE_FILE_KEY_2: Self = {
         #[inline(never)]
         fn lucide_file_key_2(
             crate::IconProps {
@@ -6887,7 +6887,7 @@ impl IconData {
             html: lucide_file_key_2,
         }
     };
-    const LUCIDE_FILE_KEY: Self = {
+    pub const LUCIDE_FILE_KEY: Self = {
         #[inline(never)]
         fn lucide_file_key(
             crate::IconProps {
@@ -6909,7 +6909,7 @@ impl IconData {
             html: lucide_file_key,
         }
     };
-    const LUCIDE_FILE_LINE_CHART: Self = {
+    pub const LUCIDE_FILE_LINE_CHART: Self = {
         #[inline(never)]
         fn lucide_file_line_chart(
             crate::IconProps {
@@ -6931,7 +6931,7 @@ impl IconData {
             html: lucide_file_line_chart,
         }
     };
-    const LUCIDE_FILE_LOCK_2: Self = {
+    pub const LUCIDE_FILE_LOCK_2: Self = {
         #[inline(never)]
         fn lucide_file_lock_2(
             crate::IconProps {
@@ -6953,7 +6953,7 @@ impl IconData {
             html: lucide_file_lock_2,
         }
     };
-    const LUCIDE_FILE_LOCK: Self = {
+    pub const LUCIDE_FILE_LOCK: Self = {
         #[inline(never)]
         fn lucide_file_lock(
             crate::IconProps {
@@ -6975,7 +6975,7 @@ impl IconData {
             html: lucide_file_lock,
         }
     };
-    const LUCIDE_FILE_MINUS_2: Self = {
+    pub const LUCIDE_FILE_MINUS_2: Self = {
         #[inline(never)]
         fn lucide_file_minus_2(
             crate::IconProps {
@@ -6997,7 +6997,7 @@ impl IconData {
             html: lucide_file_minus_2,
         }
     };
-    const LUCIDE_FILE_MINUS: Self = {
+    pub const LUCIDE_FILE_MINUS: Self = {
         #[inline(never)]
         fn lucide_file_minus(
             crate::IconProps {
@@ -7019,7 +7019,7 @@ impl IconData {
             html: lucide_file_minus,
         }
     };
-    const LUCIDE_FILE_OUTPUT: Self = {
+    pub const LUCIDE_FILE_OUTPUT: Self = {
         #[inline(never)]
         fn lucide_file_output(
             crate::IconProps {
@@ -7041,7 +7041,7 @@ impl IconData {
             html: lucide_file_output,
         }
     };
-    const LUCIDE_FILE_PIE_CHART: Self = {
+    pub const LUCIDE_FILE_PIE_CHART: Self = {
         #[inline(never)]
         fn lucide_file_pie_chart(
             crate::IconProps {
@@ -7063,7 +7063,7 @@ impl IconData {
             html: lucide_file_pie_chart,
         }
     };
-    const LUCIDE_FILE_PLUS_2: Self = {
+    pub const LUCIDE_FILE_PLUS_2: Self = {
         #[inline(never)]
         fn lucide_file_plus_2(
             crate::IconProps {
@@ -7085,7 +7085,7 @@ impl IconData {
             html: lucide_file_plus_2,
         }
     };
-    const LUCIDE_FILE_PLUS: Self = {
+    pub const LUCIDE_FILE_PLUS: Self = {
         #[inline(never)]
         fn lucide_file_plus(
             crate::IconProps {
@@ -7107,7 +7107,7 @@ impl IconData {
             html: lucide_file_plus,
         }
     };
-    const LUCIDE_FILE_QUESTION: Self = {
+    pub const LUCIDE_FILE_QUESTION: Self = {
         #[inline(never)]
         fn lucide_file_question(
             crate::IconProps {
@@ -7129,7 +7129,7 @@ impl IconData {
             html: lucide_file_question,
         }
     };
-    const LUCIDE_FILE_SCAN: Self = {
+    pub const LUCIDE_FILE_SCAN: Self = {
         #[inline(never)]
         fn lucide_file_scan(
             crate::IconProps {
@@ -7151,7 +7151,7 @@ impl IconData {
             html: lucide_file_scan,
         }
     };
-    const LUCIDE_FILE_SEARCH_2: Self = {
+    pub const LUCIDE_FILE_SEARCH_2: Self = {
         #[inline(never)]
         fn lucide_file_search_2(
             crate::IconProps {
@@ -7173,7 +7173,7 @@ impl IconData {
             html: lucide_file_search_2,
         }
     };
-    const LUCIDE_FILE_SEARCH: Self = {
+    pub const LUCIDE_FILE_SEARCH: Self = {
         #[inline(never)]
         fn lucide_file_search(
             crate::IconProps {
@@ -7195,7 +7195,7 @@ impl IconData {
             html: lucide_file_search,
         }
     };
-    const LUCIDE_FILE_SIGNATURE: Self = {
+    pub const LUCIDE_FILE_SIGNATURE: Self = {
         #[inline(never)]
         fn lucide_file_signature(
             crate::IconProps {
@@ -7217,7 +7217,7 @@ impl IconData {
             html: lucide_file_signature,
         }
     };
-    const LUCIDE_FILE_SPREADSHEET: Self = {
+    pub const LUCIDE_FILE_SPREADSHEET: Self = {
         #[inline(never)]
         fn lucide_file_spreadsheet(
             crate::IconProps {
@@ -7239,7 +7239,7 @@ impl IconData {
             html: lucide_file_spreadsheet,
         }
     };
-    const LUCIDE_FILE_SYMLINK: Self = {
+    pub const LUCIDE_FILE_SYMLINK: Self = {
         #[inline(never)]
         fn lucide_file_symlink(
             crate::IconProps {
@@ -7261,7 +7261,7 @@ impl IconData {
             html: lucide_file_symlink,
         }
     };
-    const LUCIDE_FILE_TERMINAL: Self = {
+    pub const LUCIDE_FILE_TERMINAL: Self = {
         #[inline(never)]
         fn lucide_file_terminal(
             crate::IconProps {
@@ -7283,7 +7283,7 @@ impl IconData {
             html: lucide_file_terminal,
         }
     };
-    const LUCIDE_FILE_TEXT: Self = {
+    pub const LUCIDE_FILE_TEXT: Self = {
         #[inline(never)]
         fn lucide_file_text(
             crate::IconProps {
@@ -7305,7 +7305,7 @@ impl IconData {
             html: lucide_file_text,
         }
     };
-    const LUCIDE_FILE_TYPE_2: Self = {
+    pub const LUCIDE_FILE_TYPE_2: Self = {
         #[inline(never)]
         fn lucide_file_type_2(
             crate::IconProps {
@@ -7327,7 +7327,7 @@ impl IconData {
             html: lucide_file_type_2,
         }
     };
-    const LUCIDE_FILE_TYPE: Self = {
+    pub const LUCIDE_FILE_TYPE: Self = {
         #[inline(never)]
         fn lucide_file_type(
             crate::IconProps {
@@ -7349,7 +7349,7 @@ impl IconData {
             html: lucide_file_type,
         }
     };
-    const LUCIDE_FILE_UP: Self = {
+    pub const LUCIDE_FILE_UP: Self = {
         #[inline(never)]
         fn lucide_file_up(
             crate::IconProps {
@@ -7371,7 +7371,7 @@ impl IconData {
             html: lucide_file_up,
         }
     };
-    const LUCIDE_FILE_VIDEO_2: Self = {
+    pub const LUCIDE_FILE_VIDEO_2: Self = {
         #[inline(never)]
         fn lucide_file_video_2(
             crate::IconProps {
@@ -7393,7 +7393,7 @@ impl IconData {
             html: lucide_file_video_2,
         }
     };
-    const LUCIDE_FILE_VIDEO: Self = {
+    pub const LUCIDE_FILE_VIDEO: Self = {
         #[inline(never)]
         fn lucide_file_video(
             crate::IconProps {
@@ -7415,7 +7415,7 @@ impl IconData {
             html: lucide_file_video,
         }
     };
-    const LUCIDE_FILE_VOLUME_2: Self = {
+    pub const LUCIDE_FILE_VOLUME_2: Self = {
         #[inline(never)]
         fn lucide_file_volume_2(
             crate::IconProps {
@@ -7437,7 +7437,7 @@ impl IconData {
             html: lucide_file_volume_2,
         }
     };
-    const LUCIDE_FILE_VOLUME: Self = {
+    pub const LUCIDE_FILE_VOLUME: Self = {
         #[inline(never)]
         fn lucide_file_volume(
             crate::IconProps {
@@ -7459,7 +7459,7 @@ impl IconData {
             html: lucide_file_volume,
         }
     };
-    const LUCIDE_FILE_WARNING: Self = {
+    pub const LUCIDE_FILE_WARNING: Self = {
         #[inline(never)]
         fn lucide_file_warning(
             crate::IconProps {
@@ -7481,7 +7481,7 @@ impl IconData {
             html: lucide_file_warning,
         }
     };
-    const LUCIDE_FILE_X_2: Self = {
+    pub const LUCIDE_FILE_X_2: Self = {
         #[inline(never)]
         fn lucide_file_x_2(
             crate::IconProps {
@@ -7503,7 +7503,7 @@ impl IconData {
             html: lucide_file_x_2,
         }
     };
-    const LUCIDE_FILE_X: Self = {
+    pub const LUCIDE_FILE_X: Self = {
         #[inline(never)]
         fn lucide_file_x(
             crate::IconProps {
@@ -7525,7 +7525,7 @@ impl IconData {
             html: lucide_file_x,
         }
     };
-    const LUCIDE_FILE: Self = {
+    pub const LUCIDE_FILE: Self = {
         #[inline(never)]
         fn lucide_file(
             crate::IconProps {
@@ -7547,7 +7547,7 @@ impl IconData {
             html: lucide_file,
         }
     };
-    const LUCIDE_FILES: Self = {
+    pub const LUCIDE_FILES: Self = {
         #[inline(never)]
         fn lucide_files(
             crate::IconProps {
@@ -7569,7 +7569,7 @@ impl IconData {
             html: lucide_files,
         }
     };
-    const LUCIDE_FILM: Self = {
+    pub const LUCIDE_FILM: Self = {
         #[inline(never)]
         fn lucide_film(
             crate::IconProps {
@@ -7591,7 +7591,7 @@ impl IconData {
             html: lucide_film,
         }
     };
-    const LUCIDE_FILTER: Self = {
+    pub const LUCIDE_FILTER: Self = {
         #[inline(never)]
         fn lucide_filter(
             crate::IconProps {
@@ -7613,7 +7613,7 @@ impl IconData {
             html: lucide_filter,
         }
     };
-    const LUCIDE_FINGERPRINT: Self = {
+    pub const LUCIDE_FINGERPRINT: Self = {
         #[inline(never)]
         fn lucide_fingerprint(
             crate::IconProps {
@@ -7635,7 +7635,7 @@ impl IconData {
             html: lucide_fingerprint,
         }
     };
-    const LUCIDE_FLAG_OFF: Self = {
+    pub const LUCIDE_FLAG_OFF: Self = {
         #[inline(never)]
         fn lucide_flag_off(
             crate::IconProps {
@@ -7657,7 +7657,7 @@ impl IconData {
             html: lucide_flag_off,
         }
     };
-    const LUCIDE_FLAG_TRIANGLE_LEFT: Self = {
+    pub const LUCIDE_FLAG_TRIANGLE_LEFT: Self = {
         #[inline(never)]
         fn lucide_flag_triangle_left(
             crate::IconProps {
@@ -7679,7 +7679,7 @@ impl IconData {
             html: lucide_flag_triangle_left,
         }
     };
-    const LUCIDE_FLAG_TRIANGLE_RIGHT: Self = {
+    pub const LUCIDE_FLAG_TRIANGLE_RIGHT: Self = {
         #[inline(never)]
         fn lucide_flag_triangle_right(
             crate::IconProps {
@@ -7701,7 +7701,7 @@ impl IconData {
             html: lucide_flag_triangle_right,
         }
     };
-    const LUCIDE_FLAG: Self = {
+    pub const LUCIDE_FLAG: Self = {
         #[inline(never)]
         fn lucide_flag(
             crate::IconProps {
@@ -7723,7 +7723,7 @@ impl IconData {
             html: lucide_flag,
         }
     };
-    const LUCIDE_FLAME: Self = {
+    pub const LUCIDE_FLAME: Self = {
         #[inline(never)]
         fn lucide_flame(
             crate::IconProps {
@@ -7745,7 +7745,7 @@ impl IconData {
             html: lucide_flame,
         }
     };
-    const LUCIDE_FLASHLIGHT_OFF: Self = {
+    pub const LUCIDE_FLASHLIGHT_OFF: Self = {
         #[inline(never)]
         fn lucide_flashlight_off(
             crate::IconProps {
@@ -7767,7 +7767,7 @@ impl IconData {
             html: lucide_flashlight_off,
         }
     };
-    const LUCIDE_FLASHLIGHT: Self = {
+    pub const LUCIDE_FLASHLIGHT: Self = {
         #[inline(never)]
         fn lucide_flashlight(
             crate::IconProps {
@@ -7789,7 +7789,7 @@ impl IconData {
             html: lucide_flashlight,
         }
     };
-    const LUCIDE_FLASK_CONICAL: Self = {
+    pub const LUCIDE_FLASK_CONICAL: Self = {
         #[inline(never)]
         fn lucide_flask_conical(
             crate::IconProps {
@@ -7811,7 +7811,7 @@ impl IconData {
             html: lucide_flask_conical,
         }
     };
-    const LUCIDE_FLASK_ROUND: Self = {
+    pub const LUCIDE_FLASK_ROUND: Self = {
         #[inline(never)]
         fn lucide_flask_round(
             crate::IconProps {
@@ -7833,7 +7833,7 @@ impl IconData {
             html: lucide_flask_round,
         }
     };
-    const LUCIDE_FLIP_HORIZONTAL_2: Self = {
+    pub const LUCIDE_FLIP_HORIZONTAL_2: Self = {
         #[inline(never)]
         fn lucide_flip_horizontal_2(
             crate::IconProps {
@@ -7855,7 +7855,7 @@ impl IconData {
             html: lucide_flip_horizontal_2,
         }
     };
-    const LUCIDE_FLIP_HORIZONTAL: Self = {
+    pub const LUCIDE_FLIP_HORIZONTAL: Self = {
         #[inline(never)]
         fn lucide_flip_horizontal(
             crate::IconProps {
@@ -7877,7 +7877,7 @@ impl IconData {
             html: lucide_flip_horizontal,
         }
     };
-    const LUCIDE_FLIP_VERTICAL_2: Self = {
+    pub const LUCIDE_FLIP_VERTICAL_2: Self = {
         #[inline(never)]
         fn lucide_flip_vertical_2(
             crate::IconProps {
@@ -7899,7 +7899,7 @@ impl IconData {
             html: lucide_flip_vertical_2,
         }
     };
-    const LUCIDE_FLIP_VERTICAL: Self = {
+    pub const LUCIDE_FLIP_VERTICAL: Self = {
         #[inline(never)]
         fn lucide_flip_vertical(
             crate::IconProps {
@@ -7921,7 +7921,7 @@ impl IconData {
             html: lucide_flip_vertical,
         }
     };
-    const LUCIDE_FLOWER_2: Self = {
+    pub const LUCIDE_FLOWER_2: Self = {
         #[inline(never)]
         fn lucide_flower_2(
             crate::IconProps {
@@ -7943,7 +7943,7 @@ impl IconData {
             html: lucide_flower_2,
         }
     };
-    const LUCIDE_FLOWER: Self = {
+    pub const LUCIDE_FLOWER: Self = {
         #[inline(never)]
         fn lucide_flower(
             crate::IconProps {
@@ -7965,7 +7965,7 @@ impl IconData {
             html: lucide_flower,
         }
     };
-    const LUCIDE_FOCUS: Self = {
+    pub const LUCIDE_FOCUS: Self = {
         #[inline(never)]
         fn lucide_focus(
             crate::IconProps {
@@ -7987,7 +7987,7 @@ impl IconData {
             html: lucide_focus,
         }
     };
-    const LUCIDE_FOLDER_ARCHIVE: Self = {
+    pub const LUCIDE_FOLDER_ARCHIVE: Self = {
         #[inline(never)]
         fn lucide_folder_archive(
             crate::IconProps {
@@ -8009,7 +8009,7 @@ impl IconData {
             html: lucide_folder_archive,
         }
     };
-    const LUCIDE_FOLDER_CHECK: Self = {
+    pub const LUCIDE_FOLDER_CHECK: Self = {
         #[inline(never)]
         fn lucide_folder_check(
             crate::IconProps {
@@ -8031,7 +8031,7 @@ impl IconData {
             html: lucide_folder_check,
         }
     };
-    const LUCIDE_FOLDER_CLOCK: Self = {
+    pub const LUCIDE_FOLDER_CLOCK: Self = {
         #[inline(never)]
         fn lucide_folder_clock(
             crate::IconProps {
@@ -8053,7 +8053,7 @@ impl IconData {
             html: lucide_folder_clock,
         }
     };
-    const LUCIDE_FOLDER_CLOSED: Self = {
+    pub const LUCIDE_FOLDER_CLOSED: Self = {
         #[inline(never)]
         fn lucide_folder_closed(
             crate::IconProps {
@@ -8075,7 +8075,7 @@ impl IconData {
             html: lucide_folder_closed,
         }
     };
-    const LUCIDE_FOLDER_COG_2: Self = {
+    pub const LUCIDE_FOLDER_COG_2: Self = {
         #[inline(never)]
         fn lucide_folder_cog_2(
             crate::IconProps {
@@ -8097,7 +8097,7 @@ impl IconData {
             html: lucide_folder_cog_2,
         }
     };
-    const LUCIDE_FOLDER_COG: Self = {
+    pub const LUCIDE_FOLDER_COG: Self = {
         #[inline(never)]
         fn lucide_folder_cog(
             crate::IconProps {
@@ -8119,7 +8119,7 @@ impl IconData {
             html: lucide_folder_cog,
         }
     };
-    const LUCIDE_FOLDER_DOWN: Self = {
+    pub const LUCIDE_FOLDER_DOWN: Self = {
         #[inline(never)]
         fn lucide_folder_down(
             crate::IconProps {
@@ -8141,7 +8141,7 @@ impl IconData {
             html: lucide_folder_down,
         }
     };
-    const LUCIDE_FOLDER_EDIT: Self = {
+    pub const LUCIDE_FOLDER_EDIT: Self = {
         #[inline(never)]
         fn lucide_folder_edit(
             crate::IconProps {
@@ -8163,7 +8163,7 @@ impl IconData {
             html: lucide_folder_edit,
         }
     };
-    const LUCIDE_FOLDER_HEART: Self = {
+    pub const LUCIDE_FOLDER_HEART: Self = {
         #[inline(never)]
         fn lucide_folder_heart(
             crate::IconProps {
@@ -8185,7 +8185,7 @@ impl IconData {
             html: lucide_folder_heart,
         }
     };
-    const LUCIDE_FOLDER_INPUT: Self = {
+    pub const LUCIDE_FOLDER_INPUT: Self = {
         #[inline(never)]
         fn lucide_folder_input(
             crate::IconProps {
@@ -8207,7 +8207,7 @@ impl IconData {
             html: lucide_folder_input,
         }
     };
-    const LUCIDE_FOLDER_KEY: Self = {
+    pub const LUCIDE_FOLDER_KEY: Self = {
         #[inline(never)]
         fn lucide_folder_key(
             crate::IconProps {
@@ -8229,7 +8229,7 @@ impl IconData {
             html: lucide_folder_key,
         }
     };
-    const LUCIDE_FOLDER_LOCK: Self = {
+    pub const LUCIDE_FOLDER_LOCK: Self = {
         #[inline(never)]
         fn lucide_folder_lock(
             crate::IconProps {
@@ -8251,7 +8251,7 @@ impl IconData {
             html: lucide_folder_lock,
         }
     };
-    const LUCIDE_FOLDER_MINUS: Self = {
+    pub const LUCIDE_FOLDER_MINUS: Self = {
         #[inline(never)]
         fn lucide_folder_minus(
             crate::IconProps {
@@ -8273,7 +8273,7 @@ impl IconData {
             html: lucide_folder_minus,
         }
     };
-    const LUCIDE_FOLDER_OPEN: Self = {
+    pub const LUCIDE_FOLDER_OPEN: Self = {
         #[inline(never)]
         fn lucide_folder_open(
             crate::IconProps {
@@ -8295,7 +8295,7 @@ impl IconData {
             html: lucide_folder_open,
         }
     };
-    const LUCIDE_FOLDER_OUTPUT: Self = {
+    pub const LUCIDE_FOLDER_OUTPUT: Self = {
         #[inline(never)]
         fn lucide_folder_output(
             crate::IconProps {
@@ -8317,7 +8317,7 @@ impl IconData {
             html: lucide_folder_output,
         }
     };
-    const LUCIDE_FOLDER_PLUS: Self = {
+    pub const LUCIDE_FOLDER_PLUS: Self = {
         #[inline(never)]
         fn lucide_folder_plus(
             crate::IconProps {
@@ -8339,7 +8339,7 @@ impl IconData {
             html: lucide_folder_plus,
         }
     };
-    const LUCIDE_FOLDER_SEARCH_2: Self = {
+    pub const LUCIDE_FOLDER_SEARCH_2: Self = {
         #[inline(never)]
         fn lucide_folder_search_2(
             crate::IconProps {
@@ -8361,7 +8361,7 @@ impl IconData {
             html: lucide_folder_search_2,
         }
     };
-    const LUCIDE_FOLDER_SEARCH: Self = {
+    pub const LUCIDE_FOLDER_SEARCH: Self = {
         #[inline(never)]
         fn lucide_folder_search(
             crate::IconProps {
@@ -8383,7 +8383,7 @@ impl IconData {
             html: lucide_folder_search,
         }
     };
-    const LUCIDE_FOLDER_SYMLINK: Self = {
+    pub const LUCIDE_FOLDER_SYMLINK: Self = {
         #[inline(never)]
         fn lucide_folder_symlink(
             crate::IconProps {
@@ -8405,7 +8405,7 @@ impl IconData {
             html: lucide_folder_symlink,
         }
     };
-    const LUCIDE_FOLDER_TREE: Self = {
+    pub const LUCIDE_FOLDER_TREE: Self = {
         #[inline(never)]
         fn lucide_folder_tree(
             crate::IconProps {
@@ -8427,7 +8427,7 @@ impl IconData {
             html: lucide_folder_tree,
         }
     };
-    const LUCIDE_FOLDER_UP: Self = {
+    pub const LUCIDE_FOLDER_UP: Self = {
         #[inline(never)]
         fn lucide_folder_up(
             crate::IconProps {
@@ -8449,7 +8449,7 @@ impl IconData {
             html: lucide_folder_up,
         }
     };
-    const LUCIDE_FOLDER_X: Self = {
+    pub const LUCIDE_FOLDER_X: Self = {
         #[inline(never)]
         fn lucide_folder_x(
             crate::IconProps {
@@ -8471,7 +8471,7 @@ impl IconData {
             html: lucide_folder_x,
         }
     };
-    const LUCIDE_FOLDER: Self = {
+    pub const LUCIDE_FOLDER: Self = {
         #[inline(never)]
         fn lucide_folder(
             crate::IconProps {
@@ -8493,7 +8493,7 @@ impl IconData {
             html: lucide_folder,
         }
     };
-    const LUCIDE_FOLDERS: Self = {
+    pub const LUCIDE_FOLDERS: Self = {
         #[inline(never)]
         fn lucide_folders(
             crate::IconProps {
@@ -8515,7 +8515,7 @@ impl IconData {
             html: lucide_folders,
         }
     };
-    const LUCIDE_FORM_INPUT: Self = {
+    pub const LUCIDE_FORM_INPUT: Self = {
         #[inline(never)]
         fn lucide_form_input(
             crate::IconProps {
@@ -8537,7 +8537,7 @@ impl IconData {
             html: lucide_form_input,
         }
     };
-    const LUCIDE_FORWARD: Self = {
+    pub const LUCIDE_FORWARD: Self = {
         #[inline(never)]
         fn lucide_forward(
             crate::IconProps {
@@ -8559,7 +8559,7 @@ impl IconData {
             html: lucide_forward,
         }
     };
-    const LUCIDE_FRAME: Self = {
+    pub const LUCIDE_FRAME: Self = {
         #[inline(never)]
         fn lucide_frame(
             crate::IconProps {
@@ -8581,7 +8581,7 @@ impl IconData {
             html: lucide_frame,
         }
     };
-    const LUCIDE_FRAMER: Self = {
+    pub const LUCIDE_FRAMER: Self = {
         #[inline(never)]
         fn lucide_framer(
             crate::IconProps {
@@ -8603,7 +8603,7 @@ impl IconData {
             html: lucide_framer,
         }
     };
-    const LUCIDE_FROWN: Self = {
+    pub const LUCIDE_FROWN: Self = {
         #[inline(never)]
         fn lucide_frown(
             crate::IconProps {
@@ -8625,7 +8625,7 @@ impl IconData {
             html: lucide_frown,
         }
     };
-    const LUCIDE_FUEL: Self = {
+    pub const LUCIDE_FUEL: Self = {
         #[inline(never)]
         fn lucide_fuel(
             crate::IconProps {
@@ -8647,7 +8647,7 @@ impl IconData {
             html: lucide_fuel,
         }
     };
-    const LUCIDE_FUNCTION_SQUARE: Self = {
+    pub const LUCIDE_FUNCTION_SQUARE: Self = {
         #[inline(never)]
         fn lucide_function_square(
             crate::IconProps {
@@ -8669,7 +8669,7 @@ impl IconData {
             html: lucide_function_square,
         }
     };
-    const LUCIDE_GAMEPAD_2: Self = {
+    pub const LUCIDE_GAMEPAD_2: Self = {
         #[inline(never)]
         fn lucide_gamepad_2(
             crate::IconProps {
@@ -8691,7 +8691,7 @@ impl IconData {
             html: lucide_gamepad_2,
         }
     };
-    const LUCIDE_GAMEPAD: Self = {
+    pub const LUCIDE_GAMEPAD: Self = {
         #[inline(never)]
         fn lucide_gamepad(
             crate::IconProps {
@@ -8713,7 +8713,7 @@ impl IconData {
             html: lucide_gamepad,
         }
     };
-    const LUCIDE_GAUGE: Self = {
+    pub const LUCIDE_GAUGE: Self = {
         #[inline(never)]
         fn lucide_gauge(
             crate::IconProps {
@@ -8735,7 +8735,7 @@ impl IconData {
             html: lucide_gauge,
         }
     };
-    const LUCIDE_GAVEL: Self = {
+    pub const LUCIDE_GAVEL: Self = {
         #[inline(never)]
         fn lucide_gavel(
             crate::IconProps {
@@ -8757,7 +8757,7 @@ impl IconData {
             html: lucide_gavel,
         }
     };
-    const LUCIDE_GEM: Self = {
+    pub const LUCIDE_GEM: Self = {
         #[inline(never)]
         fn lucide_gem(
             crate::IconProps {
@@ -8779,7 +8779,7 @@ impl IconData {
             html: lucide_gem,
         }
     };
-    const LUCIDE_GHOST: Self = {
+    pub const LUCIDE_GHOST: Self = {
         #[inline(never)]
         fn lucide_ghost(
             crate::IconProps {
@@ -8801,7 +8801,7 @@ impl IconData {
             html: lucide_ghost,
         }
     };
-    const LUCIDE_GIFT: Self = {
+    pub const LUCIDE_GIFT: Self = {
         #[inline(never)]
         fn lucide_gift(
             crate::IconProps {
@@ -8823,7 +8823,7 @@ impl IconData {
             html: lucide_gift,
         }
     };
-    const LUCIDE_GIT_BRANCH_PLUS: Self = {
+    pub const LUCIDE_GIT_BRANCH_PLUS: Self = {
         #[inline(never)]
         fn lucide_git_branch_plus(
             crate::IconProps {
@@ -8845,7 +8845,7 @@ impl IconData {
             html: lucide_git_branch_plus,
         }
     };
-    const LUCIDE_GIT_BRANCH: Self = {
+    pub const LUCIDE_GIT_BRANCH: Self = {
         #[inline(never)]
         fn lucide_git_branch(
             crate::IconProps {
@@ -8867,7 +8867,7 @@ impl IconData {
             html: lucide_git_branch,
         }
     };
-    const LUCIDE_GIT_COMMIT: Self = {
+    pub const LUCIDE_GIT_COMMIT: Self = {
         #[inline(never)]
         fn lucide_git_commit(
             crate::IconProps {
@@ -8889,7 +8889,7 @@ impl IconData {
             html: lucide_git_commit,
         }
     };
-    const LUCIDE_GIT_COMPARE: Self = {
+    pub const LUCIDE_GIT_COMPARE: Self = {
         #[inline(never)]
         fn lucide_git_compare(
             crate::IconProps {
@@ -8911,7 +8911,7 @@ impl IconData {
             html: lucide_git_compare,
         }
     };
-    const LUCIDE_GIT_FORK: Self = {
+    pub const LUCIDE_GIT_FORK: Self = {
         #[inline(never)]
         fn lucide_git_fork(
             crate::IconProps {
@@ -8933,7 +8933,7 @@ impl IconData {
             html: lucide_git_fork,
         }
     };
-    const LUCIDE_GIT_MERGE: Self = {
+    pub const LUCIDE_GIT_MERGE: Self = {
         #[inline(never)]
         fn lucide_git_merge(
             crate::IconProps {
@@ -8955,7 +8955,7 @@ impl IconData {
             html: lucide_git_merge,
         }
     };
-    const LUCIDE_GIT_PULL_REQUEST_CLOSED: Self = {
+    pub const LUCIDE_GIT_PULL_REQUEST_CLOSED: Self = {
         #[inline(never)]
         fn lucide_git_pull_request_closed(
             crate::IconProps {
@@ -8977,7 +8977,7 @@ impl IconData {
             html: lucide_git_pull_request_closed,
         }
     };
-    const LUCIDE_GIT_PULL_REQUEST_DRAFT: Self = {
+    pub const LUCIDE_GIT_PULL_REQUEST_DRAFT: Self = {
         #[inline(never)]
         fn lucide_git_pull_request_draft(
             crate::IconProps {
@@ -8999,7 +8999,7 @@ impl IconData {
             html: lucide_git_pull_request_draft,
         }
     };
-    const LUCIDE_GIT_PULL_REQUEST: Self = {
+    pub const LUCIDE_GIT_PULL_REQUEST: Self = {
         #[inline(never)]
         fn lucide_git_pull_request(
             crate::IconProps {
@@ -9021,7 +9021,7 @@ impl IconData {
             html: lucide_git_pull_request,
         }
     };
-    const LUCIDE_GITHUB: Self = {
+    pub const LUCIDE_GITHUB: Self = {
         #[inline(never)]
         fn lucide_github(
             crate::IconProps {
@@ -9043,7 +9043,7 @@ impl IconData {
             html: lucide_github,
         }
     };
-    const LUCIDE_GITLAB: Self = {
+    pub const LUCIDE_GITLAB: Self = {
         #[inline(never)]
         fn lucide_gitlab(
             crate::IconProps {
@@ -9065,7 +9065,7 @@ impl IconData {
             html: lucide_gitlab,
         }
     };
-    const LUCIDE_GLASS_WATER: Self = {
+    pub const LUCIDE_GLASS_WATER: Self = {
         #[inline(never)]
         fn lucide_glass_water(
             crate::IconProps {
@@ -9087,7 +9087,7 @@ impl IconData {
             html: lucide_glass_water,
         }
     };
-    const LUCIDE_GLASSES: Self = {
+    pub const LUCIDE_GLASSES: Self = {
         #[inline(never)]
         fn lucide_glasses(
             crate::IconProps {
@@ -9109,7 +9109,7 @@ impl IconData {
             html: lucide_glasses,
         }
     };
-    const LUCIDE_GLOBE_2: Self = {
+    pub const LUCIDE_GLOBE_2: Self = {
         #[inline(never)]
         fn lucide_globe_2(
             crate::IconProps {
@@ -9131,7 +9131,7 @@ impl IconData {
             html: lucide_globe_2,
         }
     };
-    const LUCIDE_GLOBE: Self = {
+    pub const LUCIDE_GLOBE: Self = {
         #[inline(never)]
         fn lucide_globe(
             crate::IconProps {
@@ -9153,7 +9153,7 @@ impl IconData {
             html: lucide_globe,
         }
     };
-    const LUCIDE_GRAB: Self = {
+    pub const LUCIDE_GRAB: Self = {
         #[inline(never)]
         fn lucide_grab(
             crate::IconProps {
@@ -9175,7 +9175,7 @@ impl IconData {
             html: lucide_grab,
         }
     };
-    const LUCIDE_GRADUATION_CAP: Self = {
+    pub const LUCIDE_GRADUATION_CAP: Self = {
         #[inline(never)]
         fn lucide_graduation_cap(
             crate::IconProps {
@@ -9197,7 +9197,7 @@ impl IconData {
             html: lucide_graduation_cap,
         }
     };
-    const LUCIDE_GRAPE: Self = {
+    pub const LUCIDE_GRAPE: Self = {
         #[inline(never)]
         fn lucide_grape(
             crate::IconProps {
@@ -9219,7 +9219,7 @@ impl IconData {
             html: lucide_grape,
         }
     };
-    const LUCIDE_GRID: Self = {
+    pub const LUCIDE_GRID: Self = {
         #[inline(never)]
         fn lucide_grid(
             crate::IconProps {
@@ -9241,7 +9241,7 @@ impl IconData {
             html: lucide_grid,
         }
     };
-    const LUCIDE_GRIP_HORIZONTAL: Self = {
+    pub const LUCIDE_GRIP_HORIZONTAL: Self = {
         #[inline(never)]
         fn lucide_grip_horizontal(
             crate::IconProps {
@@ -9263,7 +9263,7 @@ impl IconData {
             html: lucide_grip_horizontal,
         }
     };
-    const LUCIDE_GRIP_VERTICAL: Self = {
+    pub const LUCIDE_GRIP_VERTICAL: Self = {
         #[inline(never)]
         fn lucide_grip_vertical(
             crate::IconProps {
@@ -9285,7 +9285,7 @@ impl IconData {
             html: lucide_grip_vertical,
         }
     };
-    const LUCIDE_HAMMER: Self = {
+    pub const LUCIDE_HAMMER: Self = {
         #[inline(never)]
         fn lucide_hammer(
             crate::IconProps {
@@ -9307,7 +9307,7 @@ impl IconData {
             html: lucide_hammer,
         }
     };
-    const LUCIDE_HAND_METAL: Self = {
+    pub const LUCIDE_HAND_METAL: Self = {
         #[inline(never)]
         fn lucide_hand_metal(
             crate::IconProps {
@@ -9329,7 +9329,7 @@ impl IconData {
             html: lucide_hand_metal,
         }
     };
-    const LUCIDE_HAND: Self = {
+    pub const LUCIDE_HAND: Self = {
         #[inline(never)]
         fn lucide_hand(
             crate::IconProps {
@@ -9351,7 +9351,7 @@ impl IconData {
             html: lucide_hand,
         }
     };
-    const LUCIDE_HARD_DRIVE: Self = {
+    pub const LUCIDE_HARD_DRIVE: Self = {
         #[inline(never)]
         fn lucide_hard_drive(
             crate::IconProps {
@@ -9373,7 +9373,7 @@ impl IconData {
             html: lucide_hard_drive,
         }
     };
-    const LUCIDE_HARD_HAT: Self = {
+    pub const LUCIDE_HARD_HAT: Self = {
         #[inline(never)]
         fn lucide_hard_hat(
             crate::IconProps {
@@ -9395,7 +9395,7 @@ impl IconData {
             html: lucide_hard_hat,
         }
     };
-    const LUCIDE_HASH: Self = {
+    pub const LUCIDE_HASH: Self = {
         #[inline(never)]
         fn lucide_hash(
             crate::IconProps {
@@ -9417,7 +9417,7 @@ impl IconData {
             html: lucide_hash,
         }
     };
-    const LUCIDE_HAZE: Self = {
+    pub const LUCIDE_HAZE: Self = {
         #[inline(never)]
         fn lucide_haze(
             crate::IconProps {
@@ -9439,7 +9439,7 @@ impl IconData {
             html: lucide_haze,
         }
     };
-    const LUCIDE_HEADPHONES: Self = {
+    pub const LUCIDE_HEADPHONES: Self = {
         #[inline(never)]
         fn lucide_headphones(
             crate::IconProps {
@@ -9461,7 +9461,7 @@ impl IconData {
             html: lucide_headphones,
         }
     };
-    const LUCIDE_HEART_CRACK: Self = {
+    pub const LUCIDE_HEART_CRACK: Self = {
         #[inline(never)]
         fn lucide_heart_crack(
             crate::IconProps {
@@ -9483,7 +9483,7 @@ impl IconData {
             html: lucide_heart_crack,
         }
     };
-    const LUCIDE_HEART_HANDSHAKE: Self = {
+    pub const LUCIDE_HEART_HANDSHAKE: Self = {
         #[inline(never)]
         fn lucide_heart_handshake(
             crate::IconProps {
@@ -9505,7 +9505,7 @@ impl IconData {
             html: lucide_heart_handshake,
         }
     };
-    const LUCIDE_HEART_OFF: Self = {
+    pub const LUCIDE_HEART_OFF: Self = {
         #[inline(never)]
         fn lucide_heart_off(
             crate::IconProps {
@@ -9527,7 +9527,7 @@ impl IconData {
             html: lucide_heart_off,
         }
     };
-    const LUCIDE_HEART_PULSE: Self = {
+    pub const LUCIDE_HEART_PULSE: Self = {
         #[inline(never)]
         fn lucide_heart_pulse(
             crate::IconProps {
@@ -9549,7 +9549,7 @@ impl IconData {
             html: lucide_heart_pulse,
         }
     };
-    const LUCIDE_HEART: Self = {
+    pub const LUCIDE_HEART: Self = {
         #[inline(never)]
         fn lucide_heart(
             crate::IconProps {
@@ -9571,7 +9571,7 @@ impl IconData {
             html: lucide_heart,
         }
     };
-    const LUCIDE_HELP_CIRCLE: Self = {
+    pub const LUCIDE_HELP_CIRCLE: Self = {
         #[inline(never)]
         fn lucide_help_circle(
             crate::IconProps {
@@ -9593,7 +9593,7 @@ impl IconData {
             html: lucide_help_circle,
         }
     };
-    const LUCIDE_HEXAGON: Self = {
+    pub const LUCIDE_HEXAGON: Self = {
         #[inline(never)]
         fn lucide_hexagon(
             crate::IconProps {
@@ -9615,7 +9615,7 @@ impl IconData {
             html: lucide_hexagon,
         }
     };
-    const LUCIDE_HIGHLIGHTER: Self = {
+    pub const LUCIDE_HIGHLIGHTER: Self = {
         #[inline(never)]
         fn lucide_highlighter(
             crate::IconProps {
@@ -9637,7 +9637,7 @@ impl IconData {
             html: lucide_highlighter,
         }
     };
-    const LUCIDE_HISTORY: Self = {
+    pub const LUCIDE_HISTORY: Self = {
         #[inline(never)]
         fn lucide_history(
             crate::IconProps {
@@ -9659,7 +9659,7 @@ impl IconData {
             html: lucide_history,
         }
     };
-    const LUCIDE_HOME: Self = {
+    pub const LUCIDE_HOME: Self = {
         #[inline(never)]
         fn lucide_home(
             crate::IconProps {
@@ -9681,7 +9681,7 @@ impl IconData {
             html: lucide_home,
         }
     };
-    const LUCIDE_HOURGLASS: Self = {
+    pub const LUCIDE_HOURGLASS: Self = {
         #[inline(never)]
         fn lucide_hourglass(
             crate::IconProps {
@@ -9703,7 +9703,7 @@ impl IconData {
             html: lucide_hourglass,
         }
     };
-    const LUCIDE_ICE_CREAM: Self = {
+    pub const LUCIDE_ICE_CREAM: Self = {
         #[inline(never)]
         fn lucide_ice_cream(
             crate::IconProps {
@@ -9725,7 +9725,7 @@ impl IconData {
             html: lucide_ice_cream,
         }
     };
-    const LUCIDE_IMAGE_MINUS: Self = {
+    pub const LUCIDE_IMAGE_MINUS: Self = {
         #[inline(never)]
         fn lucide_image_minus(
             crate::IconProps {
@@ -9747,7 +9747,7 @@ impl IconData {
             html: lucide_image_minus,
         }
     };
-    const LUCIDE_IMAGE_OFF: Self = {
+    pub const LUCIDE_IMAGE_OFF: Self = {
         #[inline(never)]
         fn lucide_image_off(
             crate::IconProps {
@@ -9769,7 +9769,7 @@ impl IconData {
             html: lucide_image_off,
         }
     };
-    const LUCIDE_IMAGE_PLUS: Self = {
+    pub const LUCIDE_IMAGE_PLUS: Self = {
         #[inline(never)]
         fn lucide_image_plus(
             crate::IconProps {
@@ -9791,7 +9791,7 @@ impl IconData {
             html: lucide_image_plus,
         }
     };
-    const LUCIDE_IMAGE: Self = {
+    pub const LUCIDE_IMAGE: Self = {
         #[inline(never)]
         fn lucide_image(
             crate::IconProps {
@@ -9813,7 +9813,7 @@ impl IconData {
             html: lucide_image,
         }
     };
-    const LUCIDE_IMPORT: Self = {
+    pub const LUCIDE_IMPORT: Self = {
         #[inline(never)]
         fn lucide_import(
             crate::IconProps {
@@ -9835,7 +9835,7 @@ impl IconData {
             html: lucide_import,
         }
     };
-    const LUCIDE_INBOX: Self = {
+    pub const LUCIDE_INBOX: Self = {
         #[inline(never)]
         fn lucide_inbox(
             crate::IconProps {
@@ -9857,7 +9857,7 @@ impl IconData {
             html: lucide_inbox,
         }
     };
-    const LUCIDE_INDENT: Self = {
+    pub const LUCIDE_INDENT: Self = {
         #[inline(never)]
         fn lucide_indent(
             crate::IconProps {
@@ -9879,7 +9879,7 @@ impl IconData {
             html: lucide_indent,
         }
     };
-    const LUCIDE_INDIAN_RUPEE: Self = {
+    pub const LUCIDE_INDIAN_RUPEE: Self = {
         #[inline(never)]
         fn lucide_indian_rupee(
             crate::IconProps {
@@ -9901,7 +9901,7 @@ impl IconData {
             html: lucide_indian_rupee,
         }
     };
-    const LUCIDE_INFINITY: Self = {
+    pub const LUCIDE_INFINITY: Self = {
         #[inline(never)]
         fn lucide_infinity(
             crate::IconProps {
@@ -9923,7 +9923,7 @@ impl IconData {
             html: lucide_infinity,
         }
     };
-    const LUCIDE_INFO: Self = {
+    pub const LUCIDE_INFO: Self = {
         #[inline(never)]
         fn lucide_info(
             crate::IconProps {
@@ -9945,7 +9945,7 @@ impl IconData {
             html: lucide_info,
         }
     };
-    const LUCIDE_INSPECT: Self = {
+    pub const LUCIDE_INSPECT: Self = {
         #[inline(never)]
         fn lucide_inspect(
             crate::IconProps {
@@ -9967,7 +9967,7 @@ impl IconData {
             html: lucide_inspect,
         }
     };
-    const LUCIDE_INSTAGRAM: Self = {
+    pub const LUCIDE_INSTAGRAM: Self = {
         #[inline(never)]
         fn lucide_instagram(
             crate::IconProps {
@@ -9989,7 +9989,7 @@ impl IconData {
             html: lucide_instagram,
         }
     };
-    const LUCIDE_ITALIC: Self = {
+    pub const LUCIDE_ITALIC: Self = {
         #[inline(never)]
         fn lucide_italic(
             crate::IconProps {
@@ -10011,7 +10011,7 @@ impl IconData {
             html: lucide_italic,
         }
     };
-    const LUCIDE_JAPANESE_YEN: Self = {
+    pub const LUCIDE_JAPANESE_YEN: Self = {
         #[inline(never)]
         fn lucide_japanese_yen(
             crate::IconProps {
@@ -10033,7 +10033,7 @@ impl IconData {
             html: lucide_japanese_yen,
         }
     };
-    const LUCIDE_JOYSTICK: Self = {
+    pub const LUCIDE_JOYSTICK: Self = {
         #[inline(never)]
         fn lucide_joystick(
             crate::IconProps {
@@ -10055,7 +10055,7 @@ impl IconData {
             html: lucide_joystick,
         }
     };
-    const LUCIDE_KEY: Self = {
+    pub const LUCIDE_KEY: Self = {
         #[inline(never)]
         fn lucide_key(
             crate::IconProps {
@@ -10077,7 +10077,7 @@ impl IconData {
             html: lucide_key,
         }
     };
-    const LUCIDE_KEYBOARD: Self = {
+    pub const LUCIDE_KEYBOARD: Self = {
         #[inline(never)]
         fn lucide_keyboard(
             crate::IconProps {
@@ -10099,7 +10099,7 @@ impl IconData {
             html: lucide_keyboard,
         }
     };
-    const LUCIDE_LAMP_CEILING: Self = {
+    pub const LUCIDE_LAMP_CEILING: Self = {
         #[inline(never)]
         fn lucide_lamp_ceiling(
             crate::IconProps {
@@ -10121,7 +10121,7 @@ impl IconData {
             html: lucide_lamp_ceiling,
         }
     };
-    const LUCIDE_LAMP_DESK: Self = {
+    pub const LUCIDE_LAMP_DESK: Self = {
         #[inline(never)]
         fn lucide_lamp_desk(
             crate::IconProps {
@@ -10143,7 +10143,7 @@ impl IconData {
             html: lucide_lamp_desk,
         }
     };
-    const LUCIDE_LAMP_FLOOR: Self = {
+    pub const LUCIDE_LAMP_FLOOR: Self = {
         #[inline(never)]
         fn lucide_lamp_floor(
             crate::IconProps {
@@ -10165,7 +10165,7 @@ impl IconData {
             html: lucide_lamp_floor,
         }
     };
-    const LUCIDE_LAMP_WALL_DOWN: Self = {
+    pub const LUCIDE_LAMP_WALL_DOWN: Self = {
         #[inline(never)]
         fn lucide_lamp_wall_down(
             crate::IconProps {
@@ -10187,7 +10187,7 @@ impl IconData {
             html: lucide_lamp_wall_down,
         }
     };
-    const LUCIDE_LAMP_WALL_UP: Self = {
+    pub const LUCIDE_LAMP_WALL_UP: Self = {
         #[inline(never)]
         fn lucide_lamp_wall_up(
             crate::IconProps {
@@ -10209,7 +10209,7 @@ impl IconData {
             html: lucide_lamp_wall_up,
         }
     };
-    const LUCIDE_LAMP: Self = {
+    pub const LUCIDE_LAMP: Self = {
         #[inline(never)]
         fn lucide_lamp(
             crate::IconProps {
@@ -10231,7 +10231,7 @@ impl IconData {
             html: lucide_lamp,
         }
     };
-    const LUCIDE_LANDMARK: Self = {
+    pub const LUCIDE_LANDMARK: Self = {
         #[inline(never)]
         fn lucide_landmark(
             crate::IconProps {
@@ -10253,7 +10253,7 @@ impl IconData {
             html: lucide_landmark,
         }
     };
-    const LUCIDE_LANGUAGES: Self = {
+    pub const LUCIDE_LANGUAGES: Self = {
         #[inline(never)]
         fn lucide_languages(
             crate::IconProps {
@@ -10275,7 +10275,7 @@ impl IconData {
             html: lucide_languages,
         }
     };
-    const LUCIDE_LAPTOP_2: Self = {
+    pub const LUCIDE_LAPTOP_2: Self = {
         #[inline(never)]
         fn lucide_laptop_2(
             crate::IconProps {
@@ -10297,7 +10297,7 @@ impl IconData {
             html: lucide_laptop_2,
         }
     };
-    const LUCIDE_LAPTOP: Self = {
+    pub const LUCIDE_LAPTOP: Self = {
         #[inline(never)]
         fn lucide_laptop(
             crate::IconProps {
@@ -10319,7 +10319,7 @@ impl IconData {
             html: lucide_laptop,
         }
     };
-    const LUCIDE_LASSO_SELECT: Self = {
+    pub const LUCIDE_LASSO_SELECT: Self = {
         #[inline(never)]
         fn lucide_lasso_select(
             crate::IconProps {
@@ -10341,7 +10341,7 @@ impl IconData {
             html: lucide_lasso_select,
         }
     };
-    const LUCIDE_LASSO: Self = {
+    pub const LUCIDE_LASSO: Self = {
         #[inline(never)]
         fn lucide_lasso(
             crate::IconProps {
@@ -10363,7 +10363,7 @@ impl IconData {
             html: lucide_lasso,
         }
     };
-    const LUCIDE_LAUGH: Self = {
+    pub const LUCIDE_LAUGH: Self = {
         #[inline(never)]
         fn lucide_laugh(
             crate::IconProps {
@@ -10385,7 +10385,7 @@ impl IconData {
             html: lucide_laugh,
         }
     };
-    const LUCIDE_LAYERS: Self = {
+    pub const LUCIDE_LAYERS: Self = {
         #[inline(never)]
         fn lucide_layers(
             crate::IconProps {
@@ -10407,7 +10407,7 @@ impl IconData {
             html: lucide_layers,
         }
     };
-    const LUCIDE_LAYOUT_DASHBOARD: Self = {
+    pub const LUCIDE_LAYOUT_DASHBOARD: Self = {
         #[inline(never)]
         fn lucide_layout_dashboard(
             crate::IconProps {
@@ -10429,7 +10429,7 @@ impl IconData {
             html: lucide_layout_dashboard,
         }
     };
-    const LUCIDE_LAYOUT_GRID: Self = {
+    pub const LUCIDE_LAYOUT_GRID: Self = {
         #[inline(never)]
         fn lucide_layout_grid(
             crate::IconProps {
@@ -10451,7 +10451,7 @@ impl IconData {
             html: lucide_layout_grid,
         }
     };
-    const LUCIDE_LAYOUT_LIST: Self = {
+    pub const LUCIDE_LAYOUT_LIST: Self = {
         #[inline(never)]
         fn lucide_layout_list(
             crate::IconProps {
@@ -10473,7 +10473,7 @@ impl IconData {
             html: lucide_layout_list,
         }
     };
-    const LUCIDE_LAYOUT_TEMPLATE: Self = {
+    pub const LUCIDE_LAYOUT_TEMPLATE: Self = {
         #[inline(never)]
         fn lucide_layout_template(
             crate::IconProps {
@@ -10495,7 +10495,7 @@ impl IconData {
             html: lucide_layout_template,
         }
     };
-    const LUCIDE_LAYOUT: Self = {
+    pub const LUCIDE_LAYOUT: Self = {
         #[inline(never)]
         fn lucide_layout(
             crate::IconProps {
@@ -10517,7 +10517,7 @@ impl IconData {
             html: lucide_layout,
         }
     };
-    const LUCIDE_LEAF: Self = {
+    pub const LUCIDE_LEAF: Self = {
         #[inline(never)]
         fn lucide_leaf(
             crate::IconProps {
@@ -10539,7 +10539,7 @@ impl IconData {
             html: lucide_leaf,
         }
     };
-    const LUCIDE_LIBRARY: Self = {
+    pub const LUCIDE_LIBRARY: Self = {
         #[inline(never)]
         fn lucide_library(
             crate::IconProps {
@@ -10561,7 +10561,7 @@ impl IconData {
             html: lucide_library,
         }
     };
-    const LUCIDE_LIFE_BUOY: Self = {
+    pub const LUCIDE_LIFE_BUOY: Self = {
         #[inline(never)]
         fn lucide_life_buoy(
             crate::IconProps {
@@ -10583,7 +10583,7 @@ impl IconData {
             html: lucide_life_buoy,
         }
     };
-    const LUCIDE_LIGHTBULB_OFF: Self = {
+    pub const LUCIDE_LIGHTBULB_OFF: Self = {
         #[inline(never)]
         fn lucide_lightbulb_off(
             crate::IconProps {
@@ -10605,7 +10605,7 @@ impl IconData {
             html: lucide_lightbulb_off,
         }
     };
-    const LUCIDE_LIGHTBULB: Self = {
+    pub const LUCIDE_LIGHTBULB: Self = {
         #[inline(never)]
         fn lucide_lightbulb(
             crate::IconProps {
@@ -10627,7 +10627,7 @@ impl IconData {
             html: lucide_lightbulb,
         }
     };
-    const LUCIDE_LINE_CHART: Self = {
+    pub const LUCIDE_LINE_CHART: Self = {
         #[inline(never)]
         fn lucide_line_chart(
             crate::IconProps {
@@ -10649,7 +10649,7 @@ impl IconData {
             html: lucide_line_chart,
         }
     };
-    const LUCIDE_LINK_2_OFF: Self = {
+    pub const LUCIDE_LINK_2_OFF: Self = {
         #[inline(never)]
         fn lucide_link_2_off(
             crate::IconProps {
@@ -10671,7 +10671,7 @@ impl IconData {
             html: lucide_link_2_off,
         }
     };
-    const LUCIDE_LINK_2: Self = {
+    pub const LUCIDE_LINK_2: Self = {
         #[inline(never)]
         fn lucide_link_2(
             crate::IconProps {
@@ -10693,7 +10693,7 @@ impl IconData {
             html: lucide_link_2,
         }
     };
-    const LUCIDE_LINK: Self = {
+    pub const LUCIDE_LINK: Self = {
         #[inline(never)]
         fn lucide_link(
             crate::IconProps {
@@ -10715,7 +10715,7 @@ impl IconData {
             html: lucide_link,
         }
     };
-    const LUCIDE_LINKEDIN: Self = {
+    pub const LUCIDE_LINKEDIN: Self = {
         #[inline(never)]
         fn lucide_linkedin(
             crate::IconProps {
@@ -10737,7 +10737,7 @@ impl IconData {
             html: lucide_linkedin,
         }
     };
-    const LUCIDE_LIST_CHECKS: Self = {
+    pub const LUCIDE_LIST_CHECKS: Self = {
         #[inline(never)]
         fn lucide_list_checks(
             crate::IconProps {
@@ -10759,7 +10759,7 @@ impl IconData {
             html: lucide_list_checks,
         }
     };
-    const LUCIDE_LIST_END: Self = {
+    pub const LUCIDE_LIST_END: Self = {
         #[inline(never)]
         fn lucide_list_end(
             crate::IconProps {
@@ -10781,7 +10781,7 @@ impl IconData {
             html: lucide_list_end,
         }
     };
-    const LUCIDE_LIST_MINUS: Self = {
+    pub const LUCIDE_LIST_MINUS: Self = {
         #[inline(never)]
         fn lucide_list_minus(
             crate::IconProps {
@@ -10803,7 +10803,7 @@ impl IconData {
             html: lucide_list_minus,
         }
     };
-    const LUCIDE_LIST_MUSIC: Self = {
+    pub const LUCIDE_LIST_MUSIC: Self = {
         #[inline(never)]
         fn lucide_list_music(
             crate::IconProps {
@@ -10825,7 +10825,7 @@ impl IconData {
             html: lucide_list_music,
         }
     };
-    const LUCIDE_LIST_ORDERED: Self = {
+    pub const LUCIDE_LIST_ORDERED: Self = {
         #[inline(never)]
         fn lucide_list_ordered(
             crate::IconProps {
@@ -10847,7 +10847,7 @@ impl IconData {
             html: lucide_list_ordered,
         }
     };
-    const LUCIDE_LIST_PLUS: Self = {
+    pub const LUCIDE_LIST_PLUS: Self = {
         #[inline(never)]
         fn lucide_list_plus(
             crate::IconProps {
@@ -10869,7 +10869,7 @@ impl IconData {
             html: lucide_list_plus,
         }
     };
-    const LUCIDE_LIST_START: Self = {
+    pub const LUCIDE_LIST_START: Self = {
         #[inline(never)]
         fn lucide_list_start(
             crate::IconProps {
@@ -10891,7 +10891,7 @@ impl IconData {
             html: lucide_list_start,
         }
     };
-    const LUCIDE_LIST_VIDEO: Self = {
+    pub const LUCIDE_LIST_VIDEO: Self = {
         #[inline(never)]
         fn lucide_list_video(
             crate::IconProps {
@@ -10913,7 +10913,7 @@ impl IconData {
             html: lucide_list_video,
         }
     };
-    const LUCIDE_LIST_X: Self = {
+    pub const LUCIDE_LIST_X: Self = {
         #[inline(never)]
         fn lucide_list_x(
             crate::IconProps {
@@ -10935,7 +10935,7 @@ impl IconData {
             html: lucide_list_x,
         }
     };
-    const LUCIDE_LIST: Self = {
+    pub const LUCIDE_LIST: Self = {
         #[inline(never)]
         fn lucide_list(
             crate::IconProps {
@@ -10957,7 +10957,7 @@ impl IconData {
             html: lucide_list,
         }
     };
-    const LUCIDE_LOADER_2: Self = {
+    pub const LUCIDE_LOADER_2: Self = {
         #[inline(never)]
         fn lucide_loader_2(
             crate::IconProps {
@@ -10979,7 +10979,7 @@ impl IconData {
             html: lucide_loader_2,
         }
     };
-    const LUCIDE_LOADER: Self = {
+    pub const LUCIDE_LOADER: Self = {
         #[inline(never)]
         fn lucide_loader(
             crate::IconProps {
@@ -11001,7 +11001,7 @@ impl IconData {
             html: lucide_loader,
         }
     };
-    const LUCIDE_LOCATE_FIXED: Self = {
+    pub const LUCIDE_LOCATE_FIXED: Self = {
         #[inline(never)]
         fn lucide_locate_fixed(
             crate::IconProps {
@@ -11023,7 +11023,7 @@ impl IconData {
             html: lucide_locate_fixed,
         }
     };
-    const LUCIDE_LOCATE_OFF: Self = {
+    pub const LUCIDE_LOCATE_OFF: Self = {
         #[inline(never)]
         fn lucide_locate_off(
             crate::IconProps {
@@ -11045,7 +11045,7 @@ impl IconData {
             html: lucide_locate_off,
         }
     };
-    const LUCIDE_LOCATE: Self = {
+    pub const LUCIDE_LOCATE: Self = {
         #[inline(never)]
         fn lucide_locate(
             crate::IconProps {
@@ -11067,7 +11067,7 @@ impl IconData {
             html: lucide_locate,
         }
     };
-    const LUCIDE_LOCK: Self = {
+    pub const LUCIDE_LOCK: Self = {
         #[inline(never)]
         fn lucide_lock(
             crate::IconProps {
@@ -11089,7 +11089,7 @@ impl IconData {
             html: lucide_lock,
         }
     };
-    const LUCIDE_LOG_IN: Self = {
+    pub const LUCIDE_LOG_IN: Self = {
         #[inline(never)]
         fn lucide_log_in(
             crate::IconProps {
@@ -11111,7 +11111,7 @@ impl IconData {
             html: lucide_log_in,
         }
     };
-    const LUCIDE_LOG_OUT: Self = {
+    pub const LUCIDE_LOG_OUT: Self = {
         #[inline(never)]
         fn lucide_log_out(
             crate::IconProps {
@@ -11133,7 +11133,7 @@ impl IconData {
             html: lucide_log_out,
         }
     };
-    const LUCIDE_LUGGAGE: Self = {
+    pub const LUCIDE_LUGGAGE: Self = {
         #[inline(never)]
         fn lucide_luggage(
             crate::IconProps {
@@ -11155,7 +11155,7 @@ impl IconData {
             html: lucide_luggage,
         }
     };
-    const LUCIDE_MAGNET: Self = {
+    pub const LUCIDE_MAGNET: Self = {
         #[inline(never)]
         fn lucide_magnet(
             crate::IconProps {
@@ -11177,7 +11177,7 @@ impl IconData {
             html: lucide_magnet,
         }
     };
-    const LUCIDE_MAIL_CHECK: Self = {
+    pub const LUCIDE_MAIL_CHECK: Self = {
         #[inline(never)]
         fn lucide_mail_check(
             crate::IconProps {
@@ -11199,7 +11199,7 @@ impl IconData {
             html: lucide_mail_check,
         }
     };
-    const LUCIDE_MAIL_MINUS: Self = {
+    pub const LUCIDE_MAIL_MINUS: Self = {
         #[inline(never)]
         fn lucide_mail_minus(
             crate::IconProps {
@@ -11221,7 +11221,7 @@ impl IconData {
             html: lucide_mail_minus,
         }
     };
-    const LUCIDE_MAIL_OPEN: Self = {
+    pub const LUCIDE_MAIL_OPEN: Self = {
         #[inline(never)]
         fn lucide_mail_open(
             crate::IconProps {
@@ -11243,7 +11243,7 @@ impl IconData {
             html: lucide_mail_open,
         }
     };
-    const LUCIDE_MAIL_PLUS: Self = {
+    pub const LUCIDE_MAIL_PLUS: Self = {
         #[inline(never)]
         fn lucide_mail_plus(
             crate::IconProps {
@@ -11265,7 +11265,7 @@ impl IconData {
             html: lucide_mail_plus,
         }
     };
-    const LUCIDE_MAIL_QUESTION: Self = {
+    pub const LUCIDE_MAIL_QUESTION: Self = {
         #[inline(never)]
         fn lucide_mail_question(
             crate::IconProps {
@@ -11287,7 +11287,7 @@ impl IconData {
             html: lucide_mail_question,
         }
     };
-    const LUCIDE_MAIL_SEARCH: Self = {
+    pub const LUCIDE_MAIL_SEARCH: Self = {
         #[inline(never)]
         fn lucide_mail_search(
             crate::IconProps {
@@ -11309,7 +11309,7 @@ impl IconData {
             html: lucide_mail_search,
         }
     };
-    const LUCIDE_MAIL_WARNING: Self = {
+    pub const LUCIDE_MAIL_WARNING: Self = {
         #[inline(never)]
         fn lucide_mail_warning(
             crate::IconProps {
@@ -11331,7 +11331,7 @@ impl IconData {
             html: lucide_mail_warning,
         }
     };
-    const LUCIDE_MAIL_X: Self = {
+    pub const LUCIDE_MAIL_X: Self = {
         #[inline(never)]
         fn lucide_mail_x(
             crate::IconProps {
@@ -11353,7 +11353,7 @@ impl IconData {
             html: lucide_mail_x,
         }
     };
-    const LUCIDE_MAIL: Self = {
+    pub const LUCIDE_MAIL: Self = {
         #[inline(never)]
         fn lucide_mail(
             crate::IconProps {
@@ -11375,7 +11375,7 @@ impl IconData {
             html: lucide_mail,
         }
     };
-    const LUCIDE_MAILS: Self = {
+    pub const LUCIDE_MAILS: Self = {
         #[inline(never)]
         fn lucide_mails(
             crate::IconProps {
@@ -11397,7 +11397,7 @@ impl IconData {
             html: lucide_mails,
         }
     };
-    const LUCIDE_MAP_PIN_OFF: Self = {
+    pub const LUCIDE_MAP_PIN_OFF: Self = {
         #[inline(never)]
         fn lucide_map_pin_off(
             crate::IconProps {
@@ -11419,7 +11419,7 @@ impl IconData {
             html: lucide_map_pin_off,
         }
     };
-    const LUCIDE_MAP_PIN: Self = {
+    pub const LUCIDE_MAP_PIN: Self = {
         #[inline(never)]
         fn lucide_map_pin(
             crate::IconProps {
@@ -11441,7 +11441,7 @@ impl IconData {
             html: lucide_map_pin,
         }
     };
-    const LUCIDE_MAP: Self = {
+    pub const LUCIDE_MAP: Self = {
         #[inline(never)]
         fn lucide_map(
             crate::IconProps {
@@ -11463,7 +11463,7 @@ impl IconData {
             html: lucide_map,
         }
     };
-    const LUCIDE_MARTINI: Self = {
+    pub const LUCIDE_MARTINI: Self = {
         #[inline(never)]
         fn lucide_martini(
             crate::IconProps {
@@ -11485,7 +11485,7 @@ impl IconData {
             html: lucide_martini,
         }
     };
-    const LUCIDE_MAXIMIZE_2: Self = {
+    pub const LUCIDE_MAXIMIZE_2: Self = {
         #[inline(never)]
         fn lucide_maximize_2(
             crate::IconProps {
@@ -11507,7 +11507,7 @@ impl IconData {
             html: lucide_maximize_2,
         }
     };
-    const LUCIDE_MAXIMIZE: Self = {
+    pub const LUCIDE_MAXIMIZE: Self = {
         #[inline(never)]
         fn lucide_maximize(
             crate::IconProps {
@@ -11529,7 +11529,7 @@ impl IconData {
             html: lucide_maximize,
         }
     };
-    const LUCIDE_MEDAL: Self = {
+    pub const LUCIDE_MEDAL: Self = {
         #[inline(never)]
         fn lucide_medal(
             crate::IconProps {
@@ -11551,7 +11551,7 @@ impl IconData {
             html: lucide_medal,
         }
     };
-    const LUCIDE_MEGAPHONE_OFF: Self = {
+    pub const LUCIDE_MEGAPHONE_OFF: Self = {
         #[inline(never)]
         fn lucide_megaphone_off(
             crate::IconProps {
@@ -11573,7 +11573,7 @@ impl IconData {
             html: lucide_megaphone_off,
         }
     };
-    const LUCIDE_MEGAPHONE: Self = {
+    pub const LUCIDE_MEGAPHONE: Self = {
         #[inline(never)]
         fn lucide_megaphone(
             crate::IconProps {
@@ -11595,7 +11595,7 @@ impl IconData {
             html: lucide_megaphone,
         }
     };
-    const LUCIDE_MEH: Self = {
+    pub const LUCIDE_MEH: Self = {
         #[inline(never)]
         fn lucide_meh(
             crate::IconProps {
@@ -11617,7 +11617,7 @@ impl IconData {
             html: lucide_meh,
         }
     };
-    const LUCIDE_MENU: Self = {
+    pub const LUCIDE_MENU: Self = {
         #[inline(never)]
         fn lucide_menu(
             crate::IconProps {
@@ -11639,7 +11639,7 @@ impl IconData {
             html: lucide_menu,
         }
     };
-    const LUCIDE_MESSAGE_CIRCLE: Self = {
+    pub const LUCIDE_MESSAGE_CIRCLE: Self = {
         #[inline(never)]
         fn lucide_message_circle(
             crate::IconProps {
@@ -11661,7 +11661,7 @@ impl IconData {
             html: lucide_message_circle,
         }
     };
-    const LUCIDE_MESSAGE_SQUARE: Self = {
+    pub const LUCIDE_MESSAGE_SQUARE: Self = {
         #[inline(never)]
         fn lucide_message_square(
             crate::IconProps {
@@ -11683,7 +11683,7 @@ impl IconData {
             html: lucide_message_square,
         }
     };
-    const LUCIDE_MIC_2: Self = {
+    pub const LUCIDE_MIC_2: Self = {
         #[inline(never)]
         fn lucide_mic_2(
             crate::IconProps {
@@ -11705,7 +11705,7 @@ impl IconData {
             html: lucide_mic_2,
         }
     };
-    const LUCIDE_MIC_OFF: Self = {
+    pub const LUCIDE_MIC_OFF: Self = {
         #[inline(never)]
         fn lucide_mic_off(
             crate::IconProps {
@@ -11727,7 +11727,7 @@ impl IconData {
             html: lucide_mic_off,
         }
     };
-    const LUCIDE_MIC: Self = {
+    pub const LUCIDE_MIC: Self = {
         #[inline(never)]
         fn lucide_mic(
             crate::IconProps {
@@ -11749,7 +11749,7 @@ impl IconData {
             html: lucide_mic,
         }
     };
-    const LUCIDE_MICROSCOPE: Self = {
+    pub const LUCIDE_MICROSCOPE: Self = {
         #[inline(never)]
         fn lucide_microscope(
             crate::IconProps {
@@ -11771,7 +11771,7 @@ impl IconData {
             html: lucide_microscope,
         }
     };
-    const LUCIDE_MICROWAVE: Self = {
+    pub const LUCIDE_MICROWAVE: Self = {
         #[inline(never)]
         fn lucide_microwave(
             crate::IconProps {
@@ -11793,7 +11793,7 @@ impl IconData {
             html: lucide_microwave,
         }
     };
-    const LUCIDE_MILESTONE: Self = {
+    pub const LUCIDE_MILESTONE: Self = {
         #[inline(never)]
         fn lucide_milestone(
             crate::IconProps {
@@ -11815,7 +11815,7 @@ impl IconData {
             html: lucide_milestone,
         }
     };
-    const LUCIDE_MINIMIZE_2: Self = {
+    pub const LUCIDE_MINIMIZE_2: Self = {
         #[inline(never)]
         fn lucide_minimize_2(
             crate::IconProps {
@@ -11837,7 +11837,7 @@ impl IconData {
             html: lucide_minimize_2,
         }
     };
-    const LUCIDE_MINIMIZE: Self = {
+    pub const LUCIDE_MINIMIZE: Self = {
         #[inline(never)]
         fn lucide_minimize(
             crate::IconProps {
@@ -11859,7 +11859,7 @@ impl IconData {
             html: lucide_minimize,
         }
     };
-    const LUCIDE_MINUS_CIRCLE: Self = {
+    pub const LUCIDE_MINUS_CIRCLE: Self = {
         #[inline(never)]
         fn lucide_minus_circle(
             crate::IconProps {
@@ -11881,7 +11881,7 @@ impl IconData {
             html: lucide_minus_circle,
         }
     };
-    const LUCIDE_MINUS_SQUARE: Self = {
+    pub const LUCIDE_MINUS_SQUARE: Self = {
         #[inline(never)]
         fn lucide_minus_square(
             crate::IconProps {
@@ -11903,7 +11903,7 @@ impl IconData {
             html: lucide_minus_square,
         }
     };
-    const LUCIDE_MINUS: Self = {
+    pub const LUCIDE_MINUS: Self = {
         #[inline(never)]
         fn lucide_minus(
             crate::IconProps {
@@ -11925,7 +11925,7 @@ impl IconData {
             html: lucide_minus,
         }
     };
-    const LUCIDE_MONITOR_OFF: Self = {
+    pub const LUCIDE_MONITOR_OFF: Self = {
         #[inline(never)]
         fn lucide_monitor_off(
             crate::IconProps {
@@ -11947,7 +11947,7 @@ impl IconData {
             html: lucide_monitor_off,
         }
     };
-    const LUCIDE_MONITOR_SPEAKER: Self = {
+    pub const LUCIDE_MONITOR_SPEAKER: Self = {
         #[inline(never)]
         fn lucide_monitor_speaker(
             crate::IconProps {
@@ -11969,7 +11969,7 @@ impl IconData {
             html: lucide_monitor_speaker,
         }
     };
-    const LUCIDE_MONITOR: Self = {
+    pub const LUCIDE_MONITOR: Self = {
         #[inline(never)]
         fn lucide_monitor(
             crate::IconProps {
@@ -11991,7 +11991,7 @@ impl IconData {
             html: lucide_monitor,
         }
     };
-    const LUCIDE_MOON: Self = {
+    pub const LUCIDE_MOON: Self = {
         #[inline(never)]
         fn lucide_moon(
             crate::IconProps {
@@ -12013,7 +12013,7 @@ impl IconData {
             html: lucide_moon,
         }
     };
-    const LUCIDE_MORE_HORIZONTAL: Self = {
+    pub const LUCIDE_MORE_HORIZONTAL: Self = {
         #[inline(never)]
         fn lucide_more_horizontal(
             crate::IconProps {
@@ -12035,7 +12035,7 @@ impl IconData {
             html: lucide_more_horizontal,
         }
     };
-    const LUCIDE_MORE_VERTICAL: Self = {
+    pub const LUCIDE_MORE_VERTICAL: Self = {
         #[inline(never)]
         fn lucide_more_vertical(
             crate::IconProps {
@@ -12057,7 +12057,7 @@ impl IconData {
             html: lucide_more_vertical,
         }
     };
-    const LUCIDE_MOUNTAIN_SNOW: Self = {
+    pub const LUCIDE_MOUNTAIN_SNOW: Self = {
         #[inline(never)]
         fn lucide_mountain_snow(
             crate::IconProps {
@@ -12079,7 +12079,7 @@ impl IconData {
             html: lucide_mountain_snow,
         }
     };
-    const LUCIDE_MOUNTAIN: Self = {
+    pub const LUCIDE_MOUNTAIN: Self = {
         #[inline(never)]
         fn lucide_mountain(
             crate::IconProps {
@@ -12101,7 +12101,7 @@ impl IconData {
             html: lucide_mountain,
         }
     };
-    const LUCIDE_MOUSE_POINTER_2: Self = {
+    pub const LUCIDE_MOUSE_POINTER_2: Self = {
         #[inline(never)]
         fn lucide_mouse_pointer_2(
             crate::IconProps {
@@ -12123,7 +12123,7 @@ impl IconData {
             html: lucide_mouse_pointer_2,
         }
     };
-    const LUCIDE_MOUSE_POINTER_CLICK: Self = {
+    pub const LUCIDE_MOUSE_POINTER_CLICK: Self = {
         #[inline(never)]
         fn lucide_mouse_pointer_click(
             crate::IconProps {
@@ -12145,7 +12145,7 @@ impl IconData {
             html: lucide_mouse_pointer_click,
         }
     };
-    const LUCIDE_MOUSE_POINTER: Self = {
+    pub const LUCIDE_MOUSE_POINTER: Self = {
         #[inline(never)]
         fn lucide_mouse_pointer(
             crate::IconProps {
@@ -12167,7 +12167,7 @@ impl IconData {
             html: lucide_mouse_pointer,
         }
     };
-    const LUCIDE_MOUSE: Self = {
+    pub const LUCIDE_MOUSE: Self = {
         #[inline(never)]
         fn lucide_mouse(
             crate::IconProps {
@@ -12189,7 +12189,7 @@ impl IconData {
             html: lucide_mouse,
         }
     };
-    const LUCIDE_MOVE_3_D: Self = {
+    pub const LUCIDE_MOVE_3_D: Self = {
         #[inline(never)]
         fn lucide_move_3_d(
             crate::IconProps {
@@ -12211,7 +12211,7 @@ impl IconData {
             html: lucide_move_3_d,
         }
     };
-    const LUCIDE_MOVE_DIAGONAL_2: Self = {
+    pub const LUCIDE_MOVE_DIAGONAL_2: Self = {
         #[inline(never)]
         fn lucide_move_diagonal_2(
             crate::IconProps {
@@ -12233,7 +12233,7 @@ impl IconData {
             html: lucide_move_diagonal_2,
         }
     };
-    const LUCIDE_MOVE_DIAGONAL: Self = {
+    pub const LUCIDE_MOVE_DIAGONAL: Self = {
         #[inline(never)]
         fn lucide_move_diagonal(
             crate::IconProps {
@@ -12255,7 +12255,7 @@ impl IconData {
             html: lucide_move_diagonal,
         }
     };
-    const LUCIDE_MOVE_HORIZONTAL: Self = {
+    pub const LUCIDE_MOVE_HORIZONTAL: Self = {
         #[inline(never)]
         fn lucide_move_horizontal(
             crate::IconProps {
@@ -12277,7 +12277,7 @@ impl IconData {
             html: lucide_move_horizontal,
         }
     };
-    const LUCIDE_MOVE_VERTICAL: Self = {
+    pub const LUCIDE_MOVE_VERTICAL: Self = {
         #[inline(never)]
         fn lucide_move_vertical(
             crate::IconProps {
@@ -12299,7 +12299,7 @@ impl IconData {
             html: lucide_move_vertical,
         }
     };
-    const LUCIDE_MOVE: Self = {
+    pub const LUCIDE_MOVE: Self = {
         #[inline(never)]
         fn lucide_move(
             crate::IconProps {
@@ -12321,7 +12321,7 @@ impl IconData {
             html: lucide_move,
         }
     };
-    const LUCIDE_MUSIC_2: Self = {
+    pub const LUCIDE_MUSIC_2: Self = {
         #[inline(never)]
         fn lucide_music_2(
             crate::IconProps {
@@ -12343,7 +12343,7 @@ impl IconData {
             html: lucide_music_2,
         }
     };
-    const LUCIDE_MUSIC_3: Self = {
+    pub const LUCIDE_MUSIC_3: Self = {
         #[inline(never)]
         fn lucide_music_3(
             crate::IconProps {
@@ -12365,7 +12365,7 @@ impl IconData {
             html: lucide_music_3,
         }
     };
-    const LUCIDE_MUSIC_4: Self = {
+    pub const LUCIDE_MUSIC_4: Self = {
         #[inline(never)]
         fn lucide_music_4(
             crate::IconProps {
@@ -12387,7 +12387,7 @@ impl IconData {
             html: lucide_music_4,
         }
     };
-    const LUCIDE_MUSIC: Self = {
+    pub const LUCIDE_MUSIC: Self = {
         #[inline(never)]
         fn lucide_music(
             crate::IconProps {
@@ -12409,7 +12409,7 @@ impl IconData {
             html: lucide_music,
         }
     };
-    const LUCIDE_NAVIGATION_2_OFF: Self = {
+    pub const LUCIDE_NAVIGATION_2_OFF: Self = {
         #[inline(never)]
         fn lucide_navigation_2_off(
             crate::IconProps {
@@ -12431,7 +12431,7 @@ impl IconData {
             html: lucide_navigation_2_off,
         }
     };
-    const LUCIDE_NAVIGATION_2: Self = {
+    pub const LUCIDE_NAVIGATION_2: Self = {
         #[inline(never)]
         fn lucide_navigation_2(
             crate::IconProps {
@@ -12453,7 +12453,7 @@ impl IconData {
             html: lucide_navigation_2,
         }
     };
-    const LUCIDE_NAVIGATION_OFF: Self = {
+    pub const LUCIDE_NAVIGATION_OFF: Self = {
         #[inline(never)]
         fn lucide_navigation_off(
             crate::IconProps {
@@ -12475,7 +12475,7 @@ impl IconData {
             html: lucide_navigation_off,
         }
     };
-    const LUCIDE_NAVIGATION: Self = {
+    pub const LUCIDE_NAVIGATION: Self = {
         #[inline(never)]
         fn lucide_navigation(
             crate::IconProps {
@@ -12497,7 +12497,7 @@ impl IconData {
             html: lucide_navigation,
         }
     };
-    const LUCIDE_NETWORK: Self = {
+    pub const LUCIDE_NETWORK: Self = {
         #[inline(never)]
         fn lucide_network(
             crate::IconProps {
@@ -12519,7 +12519,7 @@ impl IconData {
             html: lucide_network,
         }
     };
-    const LUCIDE_NEWSPAPER: Self = {
+    pub const LUCIDE_NEWSPAPER: Self = {
         #[inline(never)]
         fn lucide_newspaper(
             crate::IconProps {
@@ -12541,7 +12541,7 @@ impl IconData {
             html: lucide_newspaper,
         }
     };
-    const LUCIDE_OCTAGON: Self = {
+    pub const LUCIDE_OCTAGON: Self = {
         #[inline(never)]
         fn lucide_octagon(
             crate::IconProps {
@@ -12563,7 +12563,7 @@ impl IconData {
             html: lucide_octagon,
         }
     };
-    const LUCIDE_OPTION: Self = {
+    pub const LUCIDE_OPTION: Self = {
         #[inline(never)]
         fn lucide_option(
             crate::IconProps {
@@ -12585,7 +12585,7 @@ impl IconData {
             html: lucide_option,
         }
     };
-    const LUCIDE_OUTDENT: Self = {
+    pub const LUCIDE_OUTDENT: Self = {
         #[inline(never)]
         fn lucide_outdent(
             crate::IconProps {
@@ -12607,7 +12607,7 @@ impl IconData {
             html: lucide_outdent,
         }
     };
-    const LUCIDE_PACKAGE_2: Self = {
+    pub const LUCIDE_PACKAGE_2: Self = {
         #[inline(never)]
         fn lucide_package_2(
             crate::IconProps {
@@ -12629,7 +12629,7 @@ impl IconData {
             html: lucide_package_2,
         }
     };
-    const LUCIDE_PACKAGE_CHECK: Self = {
+    pub const LUCIDE_PACKAGE_CHECK: Self = {
         #[inline(never)]
         fn lucide_package_check(
             crate::IconProps {
@@ -12651,7 +12651,7 @@ impl IconData {
             html: lucide_package_check,
         }
     };
-    const LUCIDE_PACKAGE_MINUS: Self = {
+    pub const LUCIDE_PACKAGE_MINUS: Self = {
         #[inline(never)]
         fn lucide_package_minus(
             crate::IconProps {
@@ -12673,7 +12673,7 @@ impl IconData {
             html: lucide_package_minus,
         }
     };
-    const LUCIDE_PACKAGE_OPEN: Self = {
+    pub const LUCIDE_PACKAGE_OPEN: Self = {
         #[inline(never)]
         fn lucide_package_open(
             crate::IconProps {
@@ -12695,7 +12695,7 @@ impl IconData {
             html: lucide_package_open,
         }
     };
-    const LUCIDE_PACKAGE_PLUS: Self = {
+    pub const LUCIDE_PACKAGE_PLUS: Self = {
         #[inline(never)]
         fn lucide_package_plus(
             crate::IconProps {
@@ -12717,7 +12717,7 @@ impl IconData {
             html: lucide_package_plus,
         }
     };
-    const LUCIDE_PACKAGE_SEARCH: Self = {
+    pub const LUCIDE_PACKAGE_SEARCH: Self = {
         #[inline(never)]
         fn lucide_package_search(
             crate::IconProps {
@@ -12739,7 +12739,7 @@ impl IconData {
             html: lucide_package_search,
         }
     };
-    const LUCIDE_PACKAGE_X: Self = {
+    pub const LUCIDE_PACKAGE_X: Self = {
         #[inline(never)]
         fn lucide_package_x(
             crate::IconProps {
@@ -12761,7 +12761,7 @@ impl IconData {
             html: lucide_package_x,
         }
     };
-    const LUCIDE_PACKAGE: Self = {
+    pub const LUCIDE_PACKAGE: Self = {
         #[inline(never)]
         fn lucide_package(
             crate::IconProps {
@@ -12783,7 +12783,7 @@ impl IconData {
             html: lucide_package,
         }
     };
-    const LUCIDE_PAINT_BUCKET: Self = {
+    pub const LUCIDE_PAINT_BUCKET: Self = {
         #[inline(never)]
         fn lucide_paint_bucket(
             crate::IconProps {
@@ -12805,7 +12805,7 @@ impl IconData {
             html: lucide_paint_bucket,
         }
     };
-    const LUCIDE_PAINTBRUSH_2: Self = {
+    pub const LUCIDE_PAINTBRUSH_2: Self = {
         #[inline(never)]
         fn lucide_paintbrush_2(
             crate::IconProps {
@@ -12827,7 +12827,7 @@ impl IconData {
             html: lucide_paintbrush_2,
         }
     };
-    const LUCIDE_PAINTBRUSH: Self = {
+    pub const LUCIDE_PAINTBRUSH: Self = {
         #[inline(never)]
         fn lucide_paintbrush(
             crate::IconProps {
@@ -12849,7 +12849,7 @@ impl IconData {
             html: lucide_paintbrush,
         }
     };
-    const LUCIDE_PALETTE: Self = {
+    pub const LUCIDE_PALETTE: Self = {
         #[inline(never)]
         fn lucide_palette(
             crate::IconProps {
@@ -12871,7 +12871,7 @@ impl IconData {
             html: lucide_palette,
         }
     };
-    const LUCIDE_PALMTREE: Self = {
+    pub const LUCIDE_PALMTREE: Self = {
         #[inline(never)]
         fn lucide_palmtree(
             crate::IconProps {
@@ -12893,7 +12893,7 @@ impl IconData {
             html: lucide_palmtree,
         }
     };
-    const LUCIDE_PAPERCLIP: Self = {
+    pub const LUCIDE_PAPERCLIP: Self = {
         #[inline(never)]
         fn lucide_paperclip(
             crate::IconProps {
@@ -12915,7 +12915,7 @@ impl IconData {
             html: lucide_paperclip,
         }
     };
-    const LUCIDE_PARTY_POPPER: Self = {
+    pub const LUCIDE_PARTY_POPPER: Self = {
         #[inline(never)]
         fn lucide_party_popper(
             crate::IconProps {
@@ -12937,7 +12937,7 @@ impl IconData {
             html: lucide_party_popper,
         }
     };
-    const LUCIDE_PAUSE_CIRCLE: Self = {
+    pub const LUCIDE_PAUSE_CIRCLE: Self = {
         #[inline(never)]
         fn lucide_pause_circle(
             crate::IconProps {
@@ -12959,7 +12959,7 @@ impl IconData {
             html: lucide_pause_circle,
         }
     };
-    const LUCIDE_PAUSE_OCTAGON: Self = {
+    pub const LUCIDE_PAUSE_OCTAGON: Self = {
         #[inline(never)]
         fn lucide_pause_octagon(
             crate::IconProps {
@@ -12981,7 +12981,7 @@ impl IconData {
             html: lucide_pause_octagon,
         }
     };
-    const LUCIDE_PAUSE: Self = {
+    pub const LUCIDE_PAUSE: Self = {
         #[inline(never)]
         fn lucide_pause(
             crate::IconProps {
@@ -13003,7 +13003,7 @@ impl IconData {
             html: lucide_pause,
         }
     };
-    const LUCIDE_PEN_TOOL: Self = {
+    pub const LUCIDE_PEN_TOOL: Self = {
         #[inline(never)]
         fn lucide_pen_tool(
             crate::IconProps {
@@ -13025,7 +13025,7 @@ impl IconData {
             html: lucide_pen_tool,
         }
     };
-    const LUCIDE_PENCIL: Self = {
+    pub const LUCIDE_PENCIL: Self = {
         #[inline(never)]
         fn lucide_pencil(
             crate::IconProps {
@@ -13047,7 +13047,7 @@ impl IconData {
             html: lucide_pencil,
         }
     };
-    const LUCIDE_PERCENT: Self = {
+    pub const LUCIDE_PERCENT: Self = {
         #[inline(never)]
         fn lucide_percent(
             crate::IconProps {
@@ -13069,7 +13069,7 @@ impl IconData {
             html: lucide_percent,
         }
     };
-    const LUCIDE_PERSON_STANDING: Self = {
+    pub const LUCIDE_PERSON_STANDING: Self = {
         #[inline(never)]
         fn lucide_person_standing(
             crate::IconProps {
@@ -13091,7 +13091,7 @@ impl IconData {
             html: lucide_person_standing,
         }
     };
-    const LUCIDE_PHONE_CALL: Self = {
+    pub const LUCIDE_PHONE_CALL: Self = {
         #[inline(never)]
         fn lucide_phone_call(
             crate::IconProps {
@@ -13113,7 +13113,7 @@ impl IconData {
             html: lucide_phone_call,
         }
     };
-    const LUCIDE_PHONE_FORWARDED: Self = {
+    pub const LUCIDE_PHONE_FORWARDED: Self = {
         #[inline(never)]
         fn lucide_phone_forwarded(
             crate::IconProps {
@@ -13135,7 +13135,7 @@ impl IconData {
             html: lucide_phone_forwarded,
         }
     };
-    const LUCIDE_PHONE_INCOMING: Self = {
+    pub const LUCIDE_PHONE_INCOMING: Self = {
         #[inline(never)]
         fn lucide_phone_incoming(
             crate::IconProps {
@@ -13157,7 +13157,7 @@ impl IconData {
             html: lucide_phone_incoming,
         }
     };
-    const LUCIDE_PHONE_MISSED: Self = {
+    pub const LUCIDE_PHONE_MISSED: Self = {
         #[inline(never)]
         fn lucide_phone_missed(
             crate::IconProps {
@@ -13179,7 +13179,7 @@ impl IconData {
             html: lucide_phone_missed,
         }
     };
-    const LUCIDE_PHONE_OFF: Self = {
+    pub const LUCIDE_PHONE_OFF: Self = {
         #[inline(never)]
         fn lucide_phone_off(
             crate::IconProps {
@@ -13201,7 +13201,7 @@ impl IconData {
             html: lucide_phone_off,
         }
     };
-    const LUCIDE_PHONE_OUTGOING: Self = {
+    pub const LUCIDE_PHONE_OUTGOING: Self = {
         #[inline(never)]
         fn lucide_phone_outgoing(
             crate::IconProps {
@@ -13223,7 +13223,7 @@ impl IconData {
             html: lucide_phone_outgoing,
         }
     };
-    const LUCIDE_PHONE: Self = {
+    pub const LUCIDE_PHONE: Self = {
         #[inline(never)]
         fn lucide_phone(
             crate::IconProps {
@@ -13245,7 +13245,7 @@ impl IconData {
             html: lucide_phone,
         }
     };
-    const LUCIDE_PIE_CHART: Self = {
+    pub const LUCIDE_PIE_CHART: Self = {
         #[inline(never)]
         fn lucide_pie_chart(
             crate::IconProps {
@@ -13267,7 +13267,7 @@ impl IconData {
             html: lucide_pie_chart,
         }
     };
-    const LUCIDE_PIGGY_BANK: Self = {
+    pub const LUCIDE_PIGGY_BANK: Self = {
         #[inline(never)]
         fn lucide_piggy_bank(
             crate::IconProps {
@@ -13289,7 +13289,7 @@ impl IconData {
             html: lucide_piggy_bank,
         }
     };
-    const LUCIDE_PIN_OFF: Self = {
+    pub const LUCIDE_PIN_OFF: Self = {
         #[inline(never)]
         fn lucide_pin_off(
             crate::IconProps {
@@ -13311,7 +13311,7 @@ impl IconData {
             html: lucide_pin_off,
         }
     };
-    const LUCIDE_PIN: Self = {
+    pub const LUCIDE_PIN: Self = {
         #[inline(never)]
         fn lucide_pin(
             crate::IconProps {
@@ -13333,7 +13333,7 @@ impl IconData {
             html: lucide_pin,
         }
     };
-    const LUCIDE_PIPETTE: Self = {
+    pub const LUCIDE_PIPETTE: Self = {
         #[inline(never)]
         fn lucide_pipette(
             crate::IconProps {
@@ -13355,7 +13355,7 @@ impl IconData {
             html: lucide_pipette,
         }
     };
-    const LUCIDE_PIZZA: Self = {
+    pub const LUCIDE_PIZZA: Self = {
         #[inline(never)]
         fn lucide_pizza(
             crate::IconProps {
@@ -13377,7 +13377,7 @@ impl IconData {
             html: lucide_pizza,
         }
     };
-    const LUCIDE_PLANE: Self = {
+    pub const LUCIDE_PLANE: Self = {
         #[inline(never)]
         fn lucide_plane(
             crate::IconProps {
@@ -13399,7 +13399,7 @@ impl IconData {
             html: lucide_plane,
         }
     };
-    const LUCIDE_PLAY_CIRCLE: Self = {
+    pub const LUCIDE_PLAY_CIRCLE: Self = {
         #[inline(never)]
         fn lucide_play_circle(
             crate::IconProps {
@@ -13421,7 +13421,7 @@ impl IconData {
             html: lucide_play_circle,
         }
     };
-    const LUCIDE_PLAY: Self = {
+    pub const LUCIDE_PLAY: Self = {
         #[inline(never)]
         fn lucide_play(
             crate::IconProps {
@@ -13443,7 +13443,7 @@ impl IconData {
             html: lucide_play,
         }
     };
-    const LUCIDE_PLUG_2: Self = {
+    pub const LUCIDE_PLUG_2: Self = {
         #[inline(never)]
         fn lucide_plug_2(
             crate::IconProps {
@@ -13465,7 +13465,7 @@ impl IconData {
             html: lucide_plug_2,
         }
     };
-    const LUCIDE_PLUG_ZAP: Self = {
+    pub const LUCIDE_PLUG_ZAP: Self = {
         #[inline(never)]
         fn lucide_plug_zap(
             crate::IconProps {
@@ -13487,7 +13487,7 @@ impl IconData {
             html: lucide_plug_zap,
         }
     };
-    const LUCIDE_PLUG: Self = {
+    pub const LUCIDE_PLUG: Self = {
         #[inline(never)]
         fn lucide_plug(
             crate::IconProps {
@@ -13509,7 +13509,7 @@ impl IconData {
             html: lucide_plug,
         }
     };
-    const LUCIDE_PLUS_CIRCLE: Self = {
+    pub const LUCIDE_PLUS_CIRCLE: Self = {
         #[inline(never)]
         fn lucide_plus_circle(
             crate::IconProps {
@@ -13531,7 +13531,7 @@ impl IconData {
             html: lucide_plus_circle,
         }
     };
-    const LUCIDE_PLUS_SQUARE: Self = {
+    pub const LUCIDE_PLUS_SQUARE: Self = {
         #[inline(never)]
         fn lucide_plus_square(
             crate::IconProps {
@@ -13553,7 +13553,7 @@ impl IconData {
             html: lucide_plus_square,
         }
     };
-    const LUCIDE_PLUS: Self = {
+    pub const LUCIDE_PLUS: Self = {
         #[inline(never)]
         fn lucide_plus(
             crate::IconProps {
@@ -13575,7 +13575,7 @@ impl IconData {
             html: lucide_plus,
         }
     };
-    const LUCIDE_POCKET: Self = {
+    pub const LUCIDE_POCKET: Self = {
         #[inline(never)]
         fn lucide_pocket(
             crate::IconProps {
@@ -13597,7 +13597,7 @@ impl IconData {
             html: lucide_pocket,
         }
     };
-    const LUCIDE_PODCAST: Self = {
+    pub const LUCIDE_PODCAST: Self = {
         #[inline(never)]
         fn lucide_podcast(
             crate::IconProps {
@@ -13619,7 +13619,7 @@ impl IconData {
             html: lucide_podcast,
         }
     };
-    const LUCIDE_POINTER: Self = {
+    pub const LUCIDE_POINTER: Self = {
         #[inline(never)]
         fn lucide_pointer(
             crate::IconProps {
@@ -13641,7 +13641,7 @@ impl IconData {
             html: lucide_pointer,
         }
     };
-    const LUCIDE_POUND_STERLING: Self = {
+    pub const LUCIDE_POUND_STERLING: Self = {
         #[inline(never)]
         fn lucide_pound_sterling(
             crate::IconProps {
@@ -13663,7 +13663,7 @@ impl IconData {
             html: lucide_pound_sterling,
         }
     };
-    const LUCIDE_POWER_OFF: Self = {
+    pub const LUCIDE_POWER_OFF: Self = {
         #[inline(never)]
         fn lucide_power_off(
             crate::IconProps {
@@ -13685,7 +13685,7 @@ impl IconData {
             html: lucide_power_off,
         }
     };
-    const LUCIDE_POWER: Self = {
+    pub const LUCIDE_POWER: Self = {
         #[inline(never)]
         fn lucide_power(
             crate::IconProps {
@@ -13707,7 +13707,7 @@ impl IconData {
             html: lucide_power,
         }
     };
-    const LUCIDE_PRINTER: Self = {
+    pub const LUCIDE_PRINTER: Self = {
         #[inline(never)]
         fn lucide_printer(
             crate::IconProps {
@@ -13729,7 +13729,7 @@ impl IconData {
             html: lucide_printer,
         }
     };
-    const LUCIDE_PUZZLE: Self = {
+    pub const LUCIDE_PUZZLE: Self = {
         #[inline(never)]
         fn lucide_puzzle(
             crate::IconProps {
@@ -13751,7 +13751,7 @@ impl IconData {
             html: lucide_puzzle,
         }
     };
-    const LUCIDE_QR_CODE: Self = {
+    pub const LUCIDE_QR_CODE: Self = {
         #[inline(never)]
         fn lucide_qr_code(
             crate::IconProps {
@@ -13773,7 +13773,7 @@ impl IconData {
             html: lucide_qr_code,
         }
     };
-    const LUCIDE_QUOTE: Self = {
+    pub const LUCIDE_QUOTE: Self = {
         #[inline(never)]
         fn lucide_quote(
             crate::IconProps {
@@ -13795,7 +13795,7 @@ impl IconData {
             html: lucide_quote,
         }
     };
-    const LUCIDE_RADIO_RECEIVER: Self = {
+    pub const LUCIDE_RADIO_RECEIVER: Self = {
         #[inline(never)]
         fn lucide_radio_receiver(
             crate::IconProps {
@@ -13817,7 +13817,7 @@ impl IconData {
             html: lucide_radio_receiver,
         }
     };
-    const LUCIDE_RADIO: Self = {
+    pub const LUCIDE_RADIO: Self = {
         #[inline(never)]
         fn lucide_radio(
             crate::IconProps {
@@ -13839,7 +13839,7 @@ impl IconData {
             html: lucide_radio,
         }
     };
-    const LUCIDE_RECTANGLE_HORIZONTAL: Self = {
+    pub const LUCIDE_RECTANGLE_HORIZONTAL: Self = {
         #[inline(never)]
         fn lucide_rectangle_horizontal(
             crate::IconProps {
@@ -13861,7 +13861,7 @@ impl IconData {
             html: lucide_rectangle_horizontal,
         }
     };
-    const LUCIDE_RECTANGLE_VERTICAL: Self = {
+    pub const LUCIDE_RECTANGLE_VERTICAL: Self = {
         #[inline(never)]
         fn lucide_rectangle_vertical(
             crate::IconProps {
@@ -13883,7 +13883,7 @@ impl IconData {
             html: lucide_rectangle_vertical,
         }
     };
-    const LUCIDE_RECYCLE: Self = {
+    pub const LUCIDE_RECYCLE: Self = {
         #[inline(never)]
         fn lucide_recycle(
             crate::IconProps {
@@ -13905,7 +13905,7 @@ impl IconData {
             html: lucide_recycle,
         }
     };
-    const LUCIDE_REDO_2: Self = {
+    pub const LUCIDE_REDO_2: Self = {
         #[inline(never)]
         fn lucide_redo_2(
             crate::IconProps {
@@ -13927,7 +13927,7 @@ impl IconData {
             html: lucide_redo_2,
         }
     };
-    const LUCIDE_REDO: Self = {
+    pub const LUCIDE_REDO: Self = {
         #[inline(never)]
         fn lucide_redo(
             crate::IconProps {
@@ -13949,7 +13949,7 @@ impl IconData {
             html: lucide_redo,
         }
     };
-    const LUCIDE_REFRESH_CCW: Self = {
+    pub const LUCIDE_REFRESH_CCW: Self = {
         #[inline(never)]
         fn lucide_refresh_ccw(
             crate::IconProps {
@@ -13971,7 +13971,7 @@ impl IconData {
             html: lucide_refresh_ccw,
         }
     };
-    const LUCIDE_REFRESH_CW: Self = {
+    pub const LUCIDE_REFRESH_CW: Self = {
         #[inline(never)]
         fn lucide_refresh_cw(
             crate::IconProps {
@@ -13993,7 +13993,7 @@ impl IconData {
             html: lucide_refresh_cw,
         }
     };
-    const LUCIDE_REFRIGERATOR: Self = {
+    pub const LUCIDE_REFRIGERATOR: Self = {
         #[inline(never)]
         fn lucide_refrigerator(
             crate::IconProps {
@@ -14015,7 +14015,7 @@ impl IconData {
             html: lucide_refrigerator,
         }
     };
-    const LUCIDE_REGEX: Self = {
+    pub const LUCIDE_REGEX: Self = {
         #[inline(never)]
         fn lucide_regex(
             crate::IconProps {
@@ -14037,7 +14037,7 @@ impl IconData {
             html: lucide_regex,
         }
     };
-    const LUCIDE_REPEAT_1: Self = {
+    pub const LUCIDE_REPEAT_1: Self = {
         #[inline(never)]
         fn lucide_repeat_1(
             crate::IconProps {
@@ -14059,7 +14059,7 @@ impl IconData {
             html: lucide_repeat_1,
         }
     };
-    const LUCIDE_REPEAT: Self = {
+    pub const LUCIDE_REPEAT: Self = {
         #[inline(never)]
         fn lucide_repeat(
             crate::IconProps {
@@ -14081,7 +14081,7 @@ impl IconData {
             html: lucide_repeat,
         }
     };
-    const LUCIDE_REPLY_ALL: Self = {
+    pub const LUCIDE_REPLY_ALL: Self = {
         #[inline(never)]
         fn lucide_reply_all(
             crate::IconProps {
@@ -14103,7 +14103,7 @@ impl IconData {
             html: lucide_reply_all,
         }
     };
-    const LUCIDE_REPLY: Self = {
+    pub const LUCIDE_REPLY: Self = {
         #[inline(never)]
         fn lucide_reply(
             crate::IconProps {
@@ -14125,7 +14125,7 @@ impl IconData {
             html: lucide_reply,
         }
     };
-    const LUCIDE_REWIND: Self = {
+    pub const LUCIDE_REWIND: Self = {
         #[inline(never)]
         fn lucide_rewind(
             crate::IconProps {
@@ -14147,7 +14147,7 @@ impl IconData {
             html: lucide_rewind,
         }
     };
-    const LUCIDE_ROCKET: Self = {
+    pub const LUCIDE_ROCKET: Self = {
         #[inline(never)]
         fn lucide_rocket(
             crate::IconProps {
@@ -14169,7 +14169,7 @@ impl IconData {
             html: lucide_rocket,
         }
     };
-    const LUCIDE_ROCKING_CHAIR: Self = {
+    pub const LUCIDE_ROCKING_CHAIR: Self = {
         #[inline(never)]
         fn lucide_rocking_chair(
             crate::IconProps {
@@ -14191,7 +14191,7 @@ impl IconData {
             html: lucide_rocking_chair,
         }
     };
-    const LUCIDE_ROTATE_3_D: Self = {
+    pub const LUCIDE_ROTATE_3_D: Self = {
         #[inline(never)]
         fn lucide_rotate_3_d(
             crate::IconProps {
@@ -14213,7 +14213,7 @@ impl IconData {
             html: lucide_rotate_3_d,
         }
     };
-    const LUCIDE_ROTATE_CCW: Self = {
+    pub const LUCIDE_ROTATE_CCW: Self = {
         #[inline(never)]
         fn lucide_rotate_ccw(
             crate::IconProps {
@@ -14235,7 +14235,7 @@ impl IconData {
             html: lucide_rotate_ccw,
         }
     };
-    const LUCIDE_ROTATE_CW: Self = {
+    pub const LUCIDE_ROTATE_CW: Self = {
         #[inline(never)]
         fn lucide_rotate_cw(
             crate::IconProps {
@@ -14257,7 +14257,7 @@ impl IconData {
             html: lucide_rotate_cw,
         }
     };
-    const LUCIDE_RSS: Self = {
+    pub const LUCIDE_RSS: Self = {
         #[inline(never)]
         fn lucide_rss(
             crate::IconProps {
@@ -14279,7 +14279,7 @@ impl IconData {
             html: lucide_rss,
         }
     };
-    const LUCIDE_RULER: Self = {
+    pub const LUCIDE_RULER: Self = {
         #[inline(never)]
         fn lucide_ruler(
             crate::IconProps {
@@ -14301,7 +14301,7 @@ impl IconData {
             html: lucide_ruler,
         }
     };
-    const LUCIDE_RUSSIAN_RUBLE: Self = {
+    pub const LUCIDE_RUSSIAN_RUBLE: Self = {
         #[inline(never)]
         fn lucide_russian_ruble(
             crate::IconProps {
@@ -14323,7 +14323,7 @@ impl IconData {
             html: lucide_russian_ruble,
         }
     };
-    const LUCIDE_SAILBOAT: Self = {
+    pub const LUCIDE_SAILBOAT: Self = {
         #[inline(never)]
         fn lucide_sailboat(
             crate::IconProps {
@@ -14345,7 +14345,7 @@ impl IconData {
             html: lucide_sailboat,
         }
     };
-    const LUCIDE_SAVE: Self = {
+    pub const LUCIDE_SAVE: Self = {
         #[inline(never)]
         fn lucide_save(
             crate::IconProps {
@@ -14367,7 +14367,7 @@ impl IconData {
             html: lucide_save,
         }
     };
-    const LUCIDE_SCALE_3_D: Self = {
+    pub const LUCIDE_SCALE_3_D: Self = {
         #[inline(never)]
         fn lucide_scale_3_d(
             crate::IconProps {
@@ -14389,7 +14389,7 @@ impl IconData {
             html: lucide_scale_3_d,
         }
     };
-    const LUCIDE_SCALE: Self = {
+    pub const LUCIDE_SCALE: Self = {
         #[inline(never)]
         fn lucide_scale(
             crate::IconProps {
@@ -14411,7 +14411,7 @@ impl IconData {
             html: lucide_scale,
         }
     };
-    const LUCIDE_SCALING: Self = {
+    pub const LUCIDE_SCALING: Self = {
         #[inline(never)]
         fn lucide_scaling(
             crate::IconProps {
@@ -14433,7 +14433,7 @@ impl IconData {
             html: lucide_scaling,
         }
     };
-    const LUCIDE_SCAN_FACE: Self = {
+    pub const LUCIDE_SCAN_FACE: Self = {
         #[inline(never)]
         fn lucide_scan_face(
             crate::IconProps {
@@ -14455,7 +14455,7 @@ impl IconData {
             html: lucide_scan_face,
         }
     };
-    const LUCIDE_SCAN_LINE: Self = {
+    pub const LUCIDE_SCAN_LINE: Self = {
         #[inline(never)]
         fn lucide_scan_line(
             crate::IconProps {
@@ -14477,7 +14477,7 @@ impl IconData {
             html: lucide_scan_line,
         }
     };
-    const LUCIDE_SCAN: Self = {
+    pub const LUCIDE_SCAN: Self = {
         #[inline(never)]
         fn lucide_scan(
             crate::IconProps {
@@ -14499,7 +14499,7 @@ impl IconData {
             html: lucide_scan,
         }
     };
-    const LUCIDE_SCISSORS: Self = {
+    pub const LUCIDE_SCISSORS: Self = {
         #[inline(never)]
         fn lucide_scissors(
             crate::IconProps {
@@ -14521,7 +14521,7 @@ impl IconData {
             html: lucide_scissors,
         }
     };
-    const LUCIDE_SCREEN_SHARE_OFF: Self = {
+    pub const LUCIDE_SCREEN_SHARE_OFF: Self = {
         #[inline(never)]
         fn lucide_screen_share_off(
             crate::IconProps {
@@ -14543,7 +14543,7 @@ impl IconData {
             html: lucide_screen_share_off,
         }
     };
-    const LUCIDE_SCREEN_SHARE: Self = {
+    pub const LUCIDE_SCREEN_SHARE: Self = {
         #[inline(never)]
         fn lucide_screen_share(
             crate::IconProps {
@@ -14565,7 +14565,7 @@ impl IconData {
             html: lucide_screen_share,
         }
     };
-    const LUCIDE_SCROLL: Self = {
+    pub const LUCIDE_SCROLL: Self = {
         #[inline(never)]
         fn lucide_scroll(
             crate::IconProps {
@@ -14587,7 +14587,7 @@ impl IconData {
             html: lucide_scroll,
         }
     };
-    const LUCIDE_SEARCH: Self = {
+    pub const LUCIDE_SEARCH: Self = {
         #[inline(never)]
         fn lucide_search(
             crate::IconProps {
@@ -14609,7 +14609,7 @@ impl IconData {
             html: lucide_search,
         }
     };
-    const LUCIDE_SEND: Self = {
+    pub const LUCIDE_SEND: Self = {
         #[inline(never)]
         fn lucide_send(
             crate::IconProps {
@@ -14631,7 +14631,7 @@ impl IconData {
             html: lucide_send,
         }
     };
-    const LUCIDE_SEPARATOR_HORIZONTAL: Self = {
+    pub const LUCIDE_SEPARATOR_HORIZONTAL: Self = {
         #[inline(never)]
         fn lucide_separator_horizontal(
             crate::IconProps {
@@ -14653,7 +14653,7 @@ impl IconData {
             html: lucide_separator_horizontal,
         }
     };
-    const LUCIDE_SEPARATOR_VERTICAL: Self = {
+    pub const LUCIDE_SEPARATOR_VERTICAL: Self = {
         #[inline(never)]
         fn lucide_separator_vertical(
             crate::IconProps {
@@ -14675,7 +14675,7 @@ impl IconData {
             html: lucide_separator_vertical,
         }
     };
-    const LUCIDE_SERVER_COG: Self = {
+    pub const LUCIDE_SERVER_COG: Self = {
         #[inline(never)]
         fn lucide_server_cog(
             crate::IconProps {
@@ -14697,7 +14697,7 @@ impl IconData {
             html: lucide_server_cog,
         }
     };
-    const LUCIDE_SERVER_CRASH: Self = {
+    pub const LUCIDE_SERVER_CRASH: Self = {
         #[inline(never)]
         fn lucide_server_crash(
             crate::IconProps {
@@ -14719,7 +14719,7 @@ impl IconData {
             html: lucide_server_crash,
         }
     };
-    const LUCIDE_SERVER_OFF: Self = {
+    pub const LUCIDE_SERVER_OFF: Self = {
         #[inline(never)]
         fn lucide_server_off(
             crate::IconProps {
@@ -14741,7 +14741,7 @@ impl IconData {
             html: lucide_server_off,
         }
     };
-    const LUCIDE_SERVER: Self = {
+    pub const LUCIDE_SERVER: Self = {
         #[inline(never)]
         fn lucide_server(
             crate::IconProps {
@@ -14763,7 +14763,7 @@ impl IconData {
             html: lucide_server,
         }
     };
-    const LUCIDE_SETTINGS_2: Self = {
+    pub const LUCIDE_SETTINGS_2: Self = {
         #[inline(never)]
         fn lucide_settings_2(
             crate::IconProps {
@@ -14785,7 +14785,7 @@ impl IconData {
             html: lucide_settings_2,
         }
     };
-    const LUCIDE_SETTINGS: Self = {
+    pub const LUCIDE_SETTINGS: Self = {
         #[inline(never)]
         fn lucide_settings(
             crate::IconProps {
@@ -14807,7 +14807,7 @@ impl IconData {
             html: lucide_settings,
         }
     };
-    const LUCIDE_SHARE_2: Self = {
+    pub const LUCIDE_SHARE_2: Self = {
         #[inline(never)]
         fn lucide_share_2(
             crate::IconProps {
@@ -14829,7 +14829,7 @@ impl IconData {
             html: lucide_share_2,
         }
     };
-    const LUCIDE_SHARE: Self = {
+    pub const LUCIDE_SHARE: Self = {
         #[inline(never)]
         fn lucide_share(
             crate::IconProps {
@@ -14851,7 +14851,7 @@ impl IconData {
             html: lucide_share,
         }
     };
-    const LUCIDE_SHEET: Self = {
+    pub const LUCIDE_SHEET: Self = {
         #[inline(never)]
         fn lucide_sheet(
             crate::IconProps {
@@ -14873,7 +14873,7 @@ impl IconData {
             html: lucide_sheet,
         }
     };
-    const LUCIDE_SHIELD_ALERT: Self = {
+    pub const LUCIDE_SHIELD_ALERT: Self = {
         #[inline(never)]
         fn lucide_shield_alert(
             crate::IconProps {
@@ -14895,7 +14895,7 @@ impl IconData {
             html: lucide_shield_alert,
         }
     };
-    const LUCIDE_SHIELD_CHECK: Self = {
+    pub const LUCIDE_SHIELD_CHECK: Self = {
         #[inline(never)]
         fn lucide_shield_check(
             crate::IconProps {
@@ -14917,7 +14917,7 @@ impl IconData {
             html: lucide_shield_check,
         }
     };
-    const LUCIDE_SHIELD_CLOSE: Self = {
+    pub const LUCIDE_SHIELD_CLOSE: Self = {
         #[inline(never)]
         fn lucide_shield_close(
             crate::IconProps {
@@ -14939,7 +14939,7 @@ impl IconData {
             html: lucide_shield_close,
         }
     };
-    const LUCIDE_SHIELD_OFF: Self = {
+    pub const LUCIDE_SHIELD_OFF: Self = {
         #[inline(never)]
         fn lucide_shield_off(
             crate::IconProps {
@@ -14961,7 +14961,7 @@ impl IconData {
             html: lucide_shield_off,
         }
     };
-    const LUCIDE_SHIELD: Self = {
+    pub const LUCIDE_SHIELD: Self = {
         #[inline(never)]
         fn lucide_shield(
             crate::IconProps {
@@ -14983,7 +14983,7 @@ impl IconData {
             html: lucide_shield,
         }
     };
-    const LUCIDE_SHIRT: Self = {
+    pub const LUCIDE_SHIRT: Self = {
         #[inline(never)]
         fn lucide_shirt(
             crate::IconProps {
@@ -15005,7 +15005,7 @@ impl IconData {
             html: lucide_shirt,
         }
     };
-    const LUCIDE_SHOPPING_BAG: Self = {
+    pub const LUCIDE_SHOPPING_BAG: Self = {
         #[inline(never)]
         fn lucide_shopping_bag(
             crate::IconProps {
@@ -15027,7 +15027,7 @@ impl IconData {
             html: lucide_shopping_bag,
         }
     };
-    const LUCIDE_SHOPPING_CART: Self = {
+    pub const LUCIDE_SHOPPING_CART: Self = {
         #[inline(never)]
         fn lucide_shopping_cart(
             crate::IconProps {
@@ -15049,7 +15049,7 @@ impl IconData {
             html: lucide_shopping_cart,
         }
     };
-    const LUCIDE_SHOVEL: Self = {
+    pub const LUCIDE_SHOVEL: Self = {
         #[inline(never)]
         fn lucide_shovel(
             crate::IconProps {
@@ -15071,7 +15071,7 @@ impl IconData {
             html: lucide_shovel,
         }
     };
-    const LUCIDE_SHOWER_HEAD: Self = {
+    pub const LUCIDE_SHOWER_HEAD: Self = {
         #[inline(never)]
         fn lucide_shower_head(
             crate::IconProps {
@@ -15093,7 +15093,7 @@ impl IconData {
             html: lucide_shower_head,
         }
     };
-    const LUCIDE_SHRINK: Self = {
+    pub const LUCIDE_SHRINK: Self = {
         #[inline(never)]
         fn lucide_shrink(
             crate::IconProps {
@@ -15115,7 +15115,7 @@ impl IconData {
             html: lucide_shrink,
         }
     };
-    const LUCIDE_SHRUB: Self = {
+    pub const LUCIDE_SHRUB: Self = {
         #[inline(never)]
         fn lucide_shrub(
             crate::IconProps {
@@ -15137,7 +15137,7 @@ impl IconData {
             html: lucide_shrub,
         }
     };
-    const LUCIDE_SHUFFLE: Self = {
+    pub const LUCIDE_SHUFFLE: Self = {
         #[inline(never)]
         fn lucide_shuffle(
             crate::IconProps {
@@ -15159,7 +15159,7 @@ impl IconData {
             html: lucide_shuffle,
         }
     };
-    const LUCIDE_SIDEBAR_CLOSE: Self = {
+    pub const LUCIDE_SIDEBAR_CLOSE: Self = {
         #[inline(never)]
         fn lucide_sidebar_close(
             crate::IconProps {
@@ -15181,7 +15181,7 @@ impl IconData {
             html: lucide_sidebar_close,
         }
     };
-    const LUCIDE_SIDEBAR_OPEN: Self = {
+    pub const LUCIDE_SIDEBAR_OPEN: Self = {
         #[inline(never)]
         fn lucide_sidebar_open(
             crate::IconProps {
@@ -15203,7 +15203,7 @@ impl IconData {
             html: lucide_sidebar_open,
         }
     };
-    const LUCIDE_SIDEBAR: Self = {
+    pub const LUCIDE_SIDEBAR: Self = {
         #[inline(never)]
         fn lucide_sidebar(
             crate::IconProps {
@@ -15225,7 +15225,7 @@ impl IconData {
             html: lucide_sidebar,
         }
     };
-    const LUCIDE_SIGMA: Self = {
+    pub const LUCIDE_SIGMA: Self = {
         #[inline(never)]
         fn lucide_sigma(
             crate::IconProps {
@@ -15247,7 +15247,7 @@ impl IconData {
             html: lucide_sigma,
         }
     };
-    const LUCIDE_SIGNAL_HIGH: Self = {
+    pub const LUCIDE_SIGNAL_HIGH: Self = {
         #[inline(never)]
         fn lucide_signal_high(
             crate::IconProps {
@@ -15269,7 +15269,7 @@ impl IconData {
             html: lucide_signal_high,
         }
     };
-    const LUCIDE_SIGNAL_LOW: Self = {
+    pub const LUCIDE_SIGNAL_LOW: Self = {
         #[inline(never)]
         fn lucide_signal_low(
             crate::IconProps {
@@ -15291,7 +15291,7 @@ impl IconData {
             html: lucide_signal_low,
         }
     };
-    const LUCIDE_SIGNAL_MEDIUM: Self = {
+    pub const LUCIDE_SIGNAL_MEDIUM: Self = {
         #[inline(never)]
         fn lucide_signal_medium(
             crate::IconProps {
@@ -15313,7 +15313,7 @@ impl IconData {
             html: lucide_signal_medium,
         }
     };
-    const LUCIDE_SIGNAL_ZERO: Self = {
+    pub const LUCIDE_SIGNAL_ZERO: Self = {
         #[inline(never)]
         fn lucide_signal_zero(
             crate::IconProps {
@@ -15335,7 +15335,7 @@ impl IconData {
             html: lucide_signal_zero,
         }
     };
-    const LUCIDE_SIGNAL: Self = {
+    pub const LUCIDE_SIGNAL: Self = {
         #[inline(never)]
         fn lucide_signal(
             crate::IconProps {
@@ -15357,7 +15357,7 @@ impl IconData {
             html: lucide_signal,
         }
     };
-    const LUCIDE_SIREN: Self = {
+    pub const LUCIDE_SIREN: Self = {
         #[inline(never)]
         fn lucide_siren(
             crate::IconProps {
@@ -15379,7 +15379,7 @@ impl IconData {
             html: lucide_siren,
         }
     };
-    const LUCIDE_SKIP_BACK: Self = {
+    pub const LUCIDE_SKIP_BACK: Self = {
         #[inline(never)]
         fn lucide_skip_back(
             crate::IconProps {
@@ -15401,7 +15401,7 @@ impl IconData {
             html: lucide_skip_back,
         }
     };
-    const LUCIDE_SKIP_FORWARD: Self = {
+    pub const LUCIDE_SKIP_FORWARD: Self = {
         #[inline(never)]
         fn lucide_skip_forward(
             crate::IconProps {
@@ -15423,7 +15423,7 @@ impl IconData {
             html: lucide_skip_forward,
         }
     };
-    const LUCIDE_SKULL: Self = {
+    pub const LUCIDE_SKULL: Self = {
         #[inline(never)]
         fn lucide_skull(
             crate::IconProps {
@@ -15445,7 +15445,7 @@ impl IconData {
             html: lucide_skull,
         }
     };
-    const LUCIDE_SLACK: Self = {
+    pub const LUCIDE_SLACK: Self = {
         #[inline(never)]
         fn lucide_slack(
             crate::IconProps {
@@ -15467,7 +15467,7 @@ impl IconData {
             html: lucide_slack,
         }
     };
-    const LUCIDE_SLASH: Self = {
+    pub const LUCIDE_SLASH: Self = {
         #[inline(never)]
         fn lucide_slash(
             crate::IconProps {
@@ -15489,7 +15489,7 @@ impl IconData {
             html: lucide_slash,
         }
     };
-    const LUCIDE_SLICE: Self = {
+    pub const LUCIDE_SLICE: Self = {
         #[inline(never)]
         fn lucide_slice(
             crate::IconProps {
@@ -15511,7 +15511,7 @@ impl IconData {
             html: lucide_slice,
         }
     };
-    const LUCIDE_SLIDERS_HORIZONTAL: Self = {
+    pub const LUCIDE_SLIDERS_HORIZONTAL: Self = {
         #[inline(never)]
         fn lucide_sliders_horizontal(
             crate::IconProps {
@@ -15533,7 +15533,7 @@ impl IconData {
             html: lucide_sliders_horizontal,
         }
     };
-    const LUCIDE_SLIDERS: Self = {
+    pub const LUCIDE_SLIDERS: Self = {
         #[inline(never)]
         fn lucide_sliders(
             crate::IconProps {
@@ -15555,7 +15555,7 @@ impl IconData {
             html: lucide_sliders,
         }
     };
-    const LUCIDE_SMARTPHONE_CHARGING: Self = {
+    pub const LUCIDE_SMARTPHONE_CHARGING: Self = {
         #[inline(never)]
         fn lucide_smartphone_charging(
             crate::IconProps {
@@ -15577,7 +15577,7 @@ impl IconData {
             html: lucide_smartphone_charging,
         }
     };
-    const LUCIDE_SMARTPHONE: Self = {
+    pub const LUCIDE_SMARTPHONE: Self = {
         #[inline(never)]
         fn lucide_smartphone(
             crate::IconProps {
@@ -15599,7 +15599,7 @@ impl IconData {
             html: lucide_smartphone,
         }
     };
-    const LUCIDE_SMILE_PLUS: Self = {
+    pub const LUCIDE_SMILE_PLUS: Self = {
         #[inline(never)]
         fn lucide_smile_plus(
             crate::IconProps {
@@ -15621,7 +15621,7 @@ impl IconData {
             html: lucide_smile_plus,
         }
     };
-    const LUCIDE_SMILE: Self = {
+    pub const LUCIDE_SMILE: Self = {
         #[inline(never)]
         fn lucide_smile(
             crate::IconProps {
@@ -15643,7 +15643,7 @@ impl IconData {
             html: lucide_smile,
         }
     };
-    const LUCIDE_SNOWFLAKE: Self = {
+    pub const LUCIDE_SNOWFLAKE: Self = {
         #[inline(never)]
         fn lucide_snowflake(
             crate::IconProps {
@@ -15665,7 +15665,7 @@ impl IconData {
             html: lucide_snowflake,
         }
     };
-    const LUCIDE_SOFA: Self = {
+    pub const LUCIDE_SOFA: Self = {
         #[inline(never)]
         fn lucide_sofa(
             crate::IconProps {
@@ -15687,7 +15687,7 @@ impl IconData {
             html: lucide_sofa,
         }
     };
-    const LUCIDE_SORT_ASC: Self = {
+    pub const LUCIDE_SORT_ASC: Self = {
         #[inline(never)]
         fn lucide_sort_asc(
             crate::IconProps {
@@ -15709,7 +15709,7 @@ impl IconData {
             html: lucide_sort_asc,
         }
     };
-    const LUCIDE_SORT_DESC: Self = {
+    pub const LUCIDE_SORT_DESC: Self = {
         #[inline(never)]
         fn lucide_sort_desc(
             crate::IconProps {
@@ -15731,7 +15731,7 @@ impl IconData {
             html: lucide_sort_desc,
         }
     };
-    const LUCIDE_SPEAKER: Self = {
+    pub const LUCIDE_SPEAKER: Self = {
         #[inline(never)]
         fn lucide_speaker(
             crate::IconProps {
@@ -15753,7 +15753,7 @@ impl IconData {
             html: lucide_speaker,
         }
     };
-    const LUCIDE_SPROUT: Self = {
+    pub const LUCIDE_SPROUT: Self = {
         #[inline(never)]
         fn lucide_sprout(
             crate::IconProps {
@@ -15775,7 +15775,7 @@ impl IconData {
             html: lucide_sprout,
         }
     };
-    const LUCIDE_SQUARE: Self = {
+    pub const LUCIDE_SQUARE: Self = {
         #[inline(never)]
         fn lucide_square(
             crate::IconProps {
@@ -15797,7 +15797,7 @@ impl IconData {
             html: lucide_square,
         }
     };
-    const LUCIDE_STAR_HALF: Self = {
+    pub const LUCIDE_STAR_HALF: Self = {
         #[inline(never)]
         fn lucide_star_half(
             crate::IconProps {
@@ -15819,7 +15819,7 @@ impl IconData {
             html: lucide_star_half,
         }
     };
-    const LUCIDE_STAR_OFF: Self = {
+    pub const LUCIDE_STAR_OFF: Self = {
         #[inline(never)]
         fn lucide_star_off(
             crate::IconProps {
@@ -15841,7 +15841,7 @@ impl IconData {
             html: lucide_star_off,
         }
     };
-    const LUCIDE_STAR: Self = {
+    pub const LUCIDE_STAR: Self = {
         #[inline(never)]
         fn lucide_star(
             crate::IconProps {
@@ -15863,7 +15863,7 @@ impl IconData {
             html: lucide_star,
         }
     };
-    const LUCIDE_STETHOSCOPE: Self = {
+    pub const LUCIDE_STETHOSCOPE: Self = {
         #[inline(never)]
         fn lucide_stethoscope(
             crate::IconProps {
@@ -15885,7 +15885,7 @@ impl IconData {
             html: lucide_stethoscope,
         }
     };
-    const LUCIDE_STICKER: Self = {
+    pub const LUCIDE_STICKER: Self = {
         #[inline(never)]
         fn lucide_sticker(
             crate::IconProps {
@@ -15907,7 +15907,7 @@ impl IconData {
             html: lucide_sticker,
         }
     };
-    const LUCIDE_STICKY_NOTE: Self = {
+    pub const LUCIDE_STICKY_NOTE: Self = {
         #[inline(never)]
         fn lucide_sticky_note(
             crate::IconProps {
@@ -15929,7 +15929,7 @@ impl IconData {
             html: lucide_sticky_note,
         }
     };
-    const LUCIDE_STOP_CIRCLE: Self = {
+    pub const LUCIDE_STOP_CIRCLE: Self = {
         #[inline(never)]
         fn lucide_stop_circle(
             crate::IconProps {
@@ -15951,7 +15951,7 @@ impl IconData {
             html: lucide_stop_circle,
         }
     };
-    const LUCIDE_STRETCH_HORIZONTAL: Self = {
+    pub const LUCIDE_STRETCH_HORIZONTAL: Self = {
         #[inline(never)]
         fn lucide_stretch_horizontal(
             crate::IconProps {
@@ -15973,7 +15973,7 @@ impl IconData {
             html: lucide_stretch_horizontal,
         }
     };
-    const LUCIDE_STRETCH_VERTICAL: Self = {
+    pub const LUCIDE_STRETCH_VERTICAL: Self = {
         #[inline(never)]
         fn lucide_stretch_vertical(
             crate::IconProps {
@@ -15995,7 +15995,7 @@ impl IconData {
             html: lucide_stretch_vertical,
         }
     };
-    const LUCIDE_STRIKETHROUGH: Self = {
+    pub const LUCIDE_STRIKETHROUGH: Self = {
         #[inline(never)]
         fn lucide_strikethrough(
             crate::IconProps {
@@ -16017,7 +16017,7 @@ impl IconData {
             html: lucide_strikethrough,
         }
     };
-    const LUCIDE_SUBSCRIPT: Self = {
+    pub const LUCIDE_SUBSCRIPT: Self = {
         #[inline(never)]
         fn lucide_subscript(
             crate::IconProps {
@@ -16039,7 +16039,7 @@ impl IconData {
             html: lucide_subscript,
         }
     };
-    const LUCIDE_SUN_DIM: Self = {
+    pub const LUCIDE_SUN_DIM: Self = {
         #[inline(never)]
         fn lucide_sun_dim(
             crate::IconProps {
@@ -16061,7 +16061,7 @@ impl IconData {
             html: lucide_sun_dim,
         }
     };
-    const LUCIDE_SUN_MEDIUM: Self = {
+    pub const LUCIDE_SUN_MEDIUM: Self = {
         #[inline(never)]
         fn lucide_sun_medium(
             crate::IconProps {
@@ -16083,7 +16083,7 @@ impl IconData {
             html: lucide_sun_medium,
         }
     };
-    const LUCIDE_SUN_MOON: Self = {
+    pub const LUCIDE_SUN_MOON: Self = {
         #[inline(never)]
         fn lucide_sun_moon(
             crate::IconProps {
@@ -16105,7 +16105,7 @@ impl IconData {
             html: lucide_sun_moon,
         }
     };
-    const LUCIDE_SUN_SNOW: Self = {
+    pub const LUCIDE_SUN_SNOW: Self = {
         #[inline(never)]
         fn lucide_sun_snow(
             crate::IconProps {
@@ -16127,7 +16127,7 @@ impl IconData {
             html: lucide_sun_snow,
         }
     };
-    const LUCIDE_SUN: Self = {
+    pub const LUCIDE_SUN: Self = {
         #[inline(never)]
         fn lucide_sun(
             crate::IconProps {
@@ -16149,7 +16149,7 @@ impl IconData {
             html: lucide_sun,
         }
     };
-    const LUCIDE_SUNRISE: Self = {
+    pub const LUCIDE_SUNRISE: Self = {
         #[inline(never)]
         fn lucide_sunrise(
             crate::IconProps {
@@ -16171,7 +16171,7 @@ impl IconData {
             html: lucide_sunrise,
         }
     };
-    const LUCIDE_SUNSET: Self = {
+    pub const LUCIDE_SUNSET: Self = {
         #[inline(never)]
         fn lucide_sunset(
             crate::IconProps {
@@ -16193,7 +16193,7 @@ impl IconData {
             html: lucide_sunset,
         }
     };
-    const LUCIDE_SUPERSCRIPT: Self = {
+    pub const LUCIDE_SUPERSCRIPT: Self = {
         #[inline(never)]
         fn lucide_superscript(
             crate::IconProps {
@@ -16215,7 +16215,7 @@ impl IconData {
             html: lucide_superscript,
         }
     };
-    const LUCIDE_SWISS_FRANC: Self = {
+    pub const LUCIDE_SWISS_FRANC: Self = {
         #[inline(never)]
         fn lucide_swiss_franc(
             crate::IconProps {
@@ -16237,7 +16237,7 @@ impl IconData {
             html: lucide_swiss_franc,
         }
     };
-    const LUCIDE_SWITCH_CAMERA: Self = {
+    pub const LUCIDE_SWITCH_CAMERA: Self = {
         #[inline(never)]
         fn lucide_switch_camera(
             crate::IconProps {
@@ -16259,7 +16259,7 @@ impl IconData {
             html: lucide_switch_camera,
         }
     };
-    const LUCIDE_SWORD: Self = {
+    pub const LUCIDE_SWORD: Self = {
         #[inline(never)]
         fn lucide_sword(
             crate::IconProps {
@@ -16281,7 +16281,7 @@ impl IconData {
             html: lucide_sword,
         }
     };
-    const LUCIDE_SWORDS: Self = {
+    pub const LUCIDE_SWORDS: Self = {
         #[inline(never)]
         fn lucide_swords(
             crate::IconProps {
@@ -16303,7 +16303,7 @@ impl IconData {
             html: lucide_swords,
         }
     };
-    const LUCIDE_SYRINGE: Self = {
+    pub const LUCIDE_SYRINGE: Self = {
         #[inline(never)]
         fn lucide_syringe(
             crate::IconProps {
@@ -16325,7 +16325,7 @@ impl IconData {
             html: lucide_syringe,
         }
     };
-    const LUCIDE_TABLE_2: Self = {
+    pub const LUCIDE_TABLE_2: Self = {
         #[inline(never)]
         fn lucide_table_2(
             crate::IconProps {
@@ -16347,7 +16347,7 @@ impl IconData {
             html: lucide_table_2,
         }
     };
-    const LUCIDE_TABLE: Self = {
+    pub const LUCIDE_TABLE: Self = {
         #[inline(never)]
         fn lucide_table(
             crate::IconProps {
@@ -16369,7 +16369,7 @@ impl IconData {
             html: lucide_table,
         }
     };
-    const LUCIDE_TABLET: Self = {
+    pub const LUCIDE_TABLET: Self = {
         #[inline(never)]
         fn lucide_tablet(
             crate::IconProps {
@@ -16391,7 +16391,7 @@ impl IconData {
             html: lucide_tablet,
         }
     };
-    const LUCIDE_TAG: Self = {
+    pub const LUCIDE_TAG: Self = {
         #[inline(never)]
         fn lucide_tag(
             crate::IconProps {
@@ -16413,7 +16413,7 @@ impl IconData {
             html: lucide_tag,
         }
     };
-    const LUCIDE_TAGS: Self = {
+    pub const LUCIDE_TAGS: Self = {
         #[inline(never)]
         fn lucide_tags(
             crate::IconProps {
@@ -16435,7 +16435,7 @@ impl IconData {
             html: lucide_tags,
         }
     };
-    const LUCIDE_TARGET: Self = {
+    pub const LUCIDE_TARGET: Self = {
         #[inline(never)]
         fn lucide_target(
             crate::IconProps {
@@ -16457,7 +16457,7 @@ impl IconData {
             html: lucide_target,
         }
     };
-    const LUCIDE_TENT: Self = {
+    pub const LUCIDE_TENT: Self = {
         #[inline(never)]
         fn lucide_tent(
             crate::IconProps {
@@ -16479,7 +16479,7 @@ impl IconData {
             html: lucide_tent,
         }
     };
-    const LUCIDE_TERMINAL_SQUARE: Self = {
+    pub const LUCIDE_TERMINAL_SQUARE: Self = {
         #[inline(never)]
         fn lucide_terminal_square(
             crate::IconProps {
@@ -16501,7 +16501,7 @@ impl IconData {
             html: lucide_terminal_square,
         }
     };
-    const LUCIDE_TERMINAL: Self = {
+    pub const LUCIDE_TERMINAL: Self = {
         #[inline(never)]
         fn lucide_terminal(
             crate::IconProps {
@@ -16523,7 +16523,7 @@ impl IconData {
             html: lucide_terminal,
         }
     };
-    const LUCIDE_TEXT_CURSOR_INPUT: Self = {
+    pub const LUCIDE_TEXT_CURSOR_INPUT: Self = {
         #[inline(never)]
         fn lucide_text_cursor_input(
             crate::IconProps {
@@ -16545,7 +16545,7 @@ impl IconData {
             html: lucide_text_cursor_input,
         }
     };
-    const LUCIDE_TEXT_CURSOR: Self = {
+    pub const LUCIDE_TEXT_CURSOR: Self = {
         #[inline(never)]
         fn lucide_text_cursor(
             crate::IconProps {
@@ -16567,7 +16567,7 @@ impl IconData {
             html: lucide_text_cursor,
         }
     };
-    const LUCIDE_THERMOMETER_SNOWFLAKE: Self = {
+    pub const LUCIDE_THERMOMETER_SNOWFLAKE: Self = {
         #[inline(never)]
         fn lucide_thermometer_snowflake(
             crate::IconProps {
@@ -16589,7 +16589,7 @@ impl IconData {
             html: lucide_thermometer_snowflake,
         }
     };
-    const LUCIDE_THERMOMETER_SUN: Self = {
+    pub const LUCIDE_THERMOMETER_SUN: Self = {
         #[inline(never)]
         fn lucide_thermometer_sun(
             crate::IconProps {
@@ -16611,7 +16611,7 @@ impl IconData {
             html: lucide_thermometer_sun,
         }
     };
-    const LUCIDE_THERMOMETER: Self = {
+    pub const LUCIDE_THERMOMETER: Self = {
         #[inline(never)]
         fn lucide_thermometer(
             crate::IconProps {
@@ -16633,7 +16633,7 @@ impl IconData {
             html: lucide_thermometer,
         }
     };
-    const LUCIDE_THUMBS_DOWN: Self = {
+    pub const LUCIDE_THUMBS_DOWN: Self = {
         #[inline(never)]
         fn lucide_thumbs_down(
             crate::IconProps {
@@ -16655,7 +16655,7 @@ impl IconData {
             html: lucide_thumbs_down,
         }
     };
-    const LUCIDE_THUMBS_UP: Self = {
+    pub const LUCIDE_THUMBS_UP: Self = {
         #[inline(never)]
         fn lucide_thumbs_up(
             crate::IconProps {
@@ -16677,7 +16677,7 @@ impl IconData {
             html: lucide_thumbs_up,
         }
     };
-    const LUCIDE_TICKET: Self = {
+    pub const LUCIDE_TICKET: Self = {
         #[inline(never)]
         fn lucide_ticket(
             crate::IconProps {
@@ -16699,7 +16699,7 @@ impl IconData {
             html: lucide_ticket,
         }
     };
-    const LUCIDE_TIMER_OFF: Self = {
+    pub const LUCIDE_TIMER_OFF: Self = {
         #[inline(never)]
         fn lucide_timer_off(
             crate::IconProps {
@@ -16721,7 +16721,7 @@ impl IconData {
             html: lucide_timer_off,
         }
     };
-    const LUCIDE_TIMER_RESET: Self = {
+    pub const LUCIDE_TIMER_RESET: Self = {
         #[inline(never)]
         fn lucide_timer_reset(
             crate::IconProps {
@@ -16743,7 +16743,7 @@ impl IconData {
             html: lucide_timer_reset,
         }
     };
-    const LUCIDE_TIMER: Self = {
+    pub const LUCIDE_TIMER: Self = {
         #[inline(never)]
         fn lucide_timer(
             crate::IconProps {
@@ -16765,7 +16765,7 @@ impl IconData {
             html: lucide_timer,
         }
     };
-    const LUCIDE_TOGGLE_LEFT: Self = {
+    pub const LUCIDE_TOGGLE_LEFT: Self = {
         #[inline(never)]
         fn lucide_toggle_left(
             crate::IconProps {
@@ -16787,7 +16787,7 @@ impl IconData {
             html: lucide_toggle_left,
         }
     };
-    const LUCIDE_TOGGLE_RIGHT: Self = {
+    pub const LUCIDE_TOGGLE_RIGHT: Self = {
         #[inline(never)]
         fn lucide_toggle_right(
             crate::IconProps {
@@ -16809,7 +16809,7 @@ impl IconData {
             html: lucide_toggle_right,
         }
     };
-    const LUCIDE_TORNADO: Self = {
+    pub const LUCIDE_TORNADO: Self = {
         #[inline(never)]
         fn lucide_tornado(
             crate::IconProps {
@@ -16831,7 +16831,7 @@ impl IconData {
             html: lucide_tornado,
         }
     };
-    const LUCIDE_TOY_BRICK: Self = {
+    pub const LUCIDE_TOY_BRICK: Self = {
         #[inline(never)]
         fn lucide_toy_brick(
             crate::IconProps {
@@ -16853,7 +16853,7 @@ impl IconData {
             html: lucide_toy_brick,
         }
     };
-    const LUCIDE_TRAIN: Self = {
+    pub const LUCIDE_TRAIN: Self = {
         #[inline(never)]
         fn lucide_train(
             crate::IconProps {
@@ -16875,7 +16875,7 @@ impl IconData {
             html: lucide_train,
         }
     };
-    const LUCIDE_TRASH_2: Self = {
+    pub const LUCIDE_TRASH_2: Self = {
         #[inline(never)]
         fn lucide_trash_2(
             crate::IconProps {
@@ -16897,7 +16897,7 @@ impl IconData {
             html: lucide_trash_2,
         }
     };
-    const LUCIDE_TRASH: Self = {
+    pub const LUCIDE_TRASH: Self = {
         #[inline(never)]
         fn lucide_trash(
             crate::IconProps {
@@ -16919,7 +16919,7 @@ impl IconData {
             html: lucide_trash,
         }
     };
-    const LUCIDE_TREE_DECIDUOUS: Self = {
+    pub const LUCIDE_TREE_DECIDUOUS: Self = {
         #[inline(never)]
         fn lucide_tree_deciduous(
             crate::IconProps {
@@ -16941,7 +16941,7 @@ impl IconData {
             html: lucide_tree_deciduous,
         }
     };
-    const LUCIDE_TREE_PINE: Self = {
+    pub const LUCIDE_TREE_PINE: Self = {
         #[inline(never)]
         fn lucide_tree_pine(
             crate::IconProps {
@@ -16963,7 +16963,7 @@ impl IconData {
             html: lucide_tree_pine,
         }
     };
-    const LUCIDE_TREES: Self = {
+    pub const LUCIDE_TREES: Self = {
         #[inline(never)]
         fn lucide_trees(
             crate::IconProps {
@@ -16985,7 +16985,7 @@ impl IconData {
             html: lucide_trees,
         }
     };
-    const LUCIDE_TRELLO: Self = {
+    pub const LUCIDE_TRELLO: Self = {
         #[inline(never)]
         fn lucide_trello(
             crate::IconProps {
@@ -17007,7 +17007,7 @@ impl IconData {
             html: lucide_trello,
         }
     };
-    const LUCIDE_TRENDING_DOWN: Self = {
+    pub const LUCIDE_TRENDING_DOWN: Self = {
         #[inline(never)]
         fn lucide_trending_down(
             crate::IconProps {
@@ -17029,7 +17029,7 @@ impl IconData {
             html: lucide_trending_down,
         }
     };
-    const LUCIDE_TRENDING_UP: Self = {
+    pub const LUCIDE_TRENDING_UP: Self = {
         #[inline(never)]
         fn lucide_trending_up(
             crate::IconProps {
@@ -17051,7 +17051,7 @@ impl IconData {
             html: lucide_trending_up,
         }
     };
-    const LUCIDE_TRIANGLE: Self = {
+    pub const LUCIDE_TRIANGLE: Self = {
         #[inline(never)]
         fn lucide_triangle(
             crate::IconProps {
@@ -17073,7 +17073,7 @@ impl IconData {
             html: lucide_triangle,
         }
     };
-    const LUCIDE_TROPHY: Self = {
+    pub const LUCIDE_TROPHY: Self = {
         #[inline(never)]
         fn lucide_trophy(
             crate::IconProps {
@@ -17095,7 +17095,7 @@ impl IconData {
             html: lucide_trophy,
         }
     };
-    const LUCIDE_TRUCK: Self = {
+    pub const LUCIDE_TRUCK: Self = {
         #[inline(never)]
         fn lucide_truck(
             crate::IconProps {
@@ -17117,7 +17117,7 @@ impl IconData {
             html: lucide_truck,
         }
     };
-    const LUCIDE_TV_2: Self = {
+    pub const LUCIDE_TV_2: Self = {
         #[inline(never)]
         fn lucide_tv_2(
             crate::IconProps {
@@ -17139,7 +17139,7 @@ impl IconData {
             html: lucide_tv_2,
         }
     };
-    const LUCIDE_TV: Self = {
+    pub const LUCIDE_TV: Self = {
         #[inline(never)]
         fn lucide_tv(
             crate::IconProps {
@@ -17161,7 +17161,7 @@ impl IconData {
             html: lucide_tv,
         }
     };
-    const LUCIDE_TWITCH: Self = {
+    pub const LUCIDE_TWITCH: Self = {
         #[inline(never)]
         fn lucide_twitch(
             crate::IconProps {
@@ -17183,7 +17183,7 @@ impl IconData {
             html: lucide_twitch,
         }
     };
-    const LUCIDE_TWITTER: Self = {
+    pub const LUCIDE_TWITTER: Self = {
         #[inline(never)]
         fn lucide_twitter(
             crate::IconProps {
@@ -17205,7 +17205,7 @@ impl IconData {
             html: lucide_twitter,
         }
     };
-    const LUCIDE_TYPE: Self = {
+    pub const LUCIDE_TYPE: Self = {
         #[inline(never)]
         fn lucide_type(
             crate::IconProps {
@@ -17227,7 +17227,7 @@ impl IconData {
             html: lucide_type,
         }
     };
-    const LUCIDE_UMBRELLA: Self = {
+    pub const LUCIDE_UMBRELLA: Self = {
         #[inline(never)]
         fn lucide_umbrella(
             crate::IconProps {
@@ -17249,7 +17249,7 @@ impl IconData {
             html: lucide_umbrella,
         }
     };
-    const LUCIDE_UNDERLINE: Self = {
+    pub const LUCIDE_UNDERLINE: Self = {
         #[inline(never)]
         fn lucide_underline(
             crate::IconProps {
@@ -17271,7 +17271,7 @@ impl IconData {
             html: lucide_underline,
         }
     };
-    const LUCIDE_UNDO_2: Self = {
+    pub const LUCIDE_UNDO_2: Self = {
         #[inline(never)]
         fn lucide_undo_2(
             crate::IconProps {
@@ -17293,7 +17293,7 @@ impl IconData {
             html: lucide_undo_2,
         }
     };
-    const LUCIDE_UNDO: Self = {
+    pub const LUCIDE_UNDO: Self = {
         #[inline(never)]
         fn lucide_undo(
             crate::IconProps {
@@ -17315,7 +17315,7 @@ impl IconData {
             html: lucide_undo,
         }
     };
-    const LUCIDE_UNLINK_2: Self = {
+    pub const LUCIDE_UNLINK_2: Self = {
         #[inline(never)]
         fn lucide_unlink_2(
             crate::IconProps {
@@ -17337,7 +17337,7 @@ impl IconData {
             html: lucide_unlink_2,
         }
     };
-    const LUCIDE_UNLINK: Self = {
+    pub const LUCIDE_UNLINK: Self = {
         #[inline(never)]
         fn lucide_unlink(
             crate::IconProps {
@@ -17359,7 +17359,7 @@ impl IconData {
             html: lucide_unlink,
         }
     };
-    const LUCIDE_UNLOCK: Self = {
+    pub const LUCIDE_UNLOCK: Self = {
         #[inline(never)]
         fn lucide_unlock(
             crate::IconProps {
@@ -17381,7 +17381,7 @@ impl IconData {
             html: lucide_unlock,
         }
     };
-    const LUCIDE_UPLOAD_CLOUD: Self = {
+    pub const LUCIDE_UPLOAD_CLOUD: Self = {
         #[inline(never)]
         fn lucide_upload_cloud(
             crate::IconProps {
@@ -17403,7 +17403,7 @@ impl IconData {
             html: lucide_upload_cloud,
         }
     };
-    const LUCIDE_UPLOAD: Self = {
+    pub const LUCIDE_UPLOAD: Self = {
         #[inline(never)]
         fn lucide_upload(
             crate::IconProps {
@@ -17425,7 +17425,7 @@ impl IconData {
             html: lucide_upload,
         }
     };
-    const LUCIDE_USB: Self = {
+    pub const LUCIDE_USB: Self = {
         #[inline(never)]
         fn lucide_usb(
             crate::IconProps {
@@ -17447,7 +17447,7 @@ impl IconData {
             html: lucide_usb,
         }
     };
-    const LUCIDE_USER_CHECK: Self = {
+    pub const LUCIDE_USER_CHECK: Self = {
         #[inline(never)]
         fn lucide_user_check(
             crate::IconProps {
@@ -17469,7 +17469,7 @@ impl IconData {
             html: lucide_user_check,
         }
     };
-    const LUCIDE_USER_COG: Self = {
+    pub const LUCIDE_USER_COG: Self = {
         #[inline(never)]
         fn lucide_user_cog(
             crate::IconProps {
@@ -17491,7 +17491,7 @@ impl IconData {
             html: lucide_user_cog,
         }
     };
-    const LUCIDE_USER_MINUS: Self = {
+    pub const LUCIDE_USER_MINUS: Self = {
         #[inline(never)]
         fn lucide_user_minus(
             crate::IconProps {
@@ -17513,7 +17513,7 @@ impl IconData {
             html: lucide_user_minus,
         }
     };
-    const LUCIDE_USER_PLUS: Self = {
+    pub const LUCIDE_USER_PLUS: Self = {
         #[inline(never)]
         fn lucide_user_plus(
             crate::IconProps {
@@ -17535,7 +17535,7 @@ impl IconData {
             html: lucide_user_plus,
         }
     };
-    const LUCIDE_USER_X: Self = {
+    pub const LUCIDE_USER_X: Self = {
         #[inline(never)]
         fn lucide_user_x(
             crate::IconProps {
@@ -17557,7 +17557,7 @@ impl IconData {
             html: lucide_user_x,
         }
     };
-    const LUCIDE_USER: Self = {
+    pub const LUCIDE_USER: Self = {
         #[inline(never)]
         fn lucide_user(
             crate::IconProps {
@@ -17579,7 +17579,7 @@ impl IconData {
             html: lucide_user,
         }
     };
-    const LUCIDE_USERS: Self = {
+    pub const LUCIDE_USERS: Self = {
         #[inline(never)]
         fn lucide_users(
             crate::IconProps {
@@ -17601,7 +17601,7 @@ impl IconData {
             html: lucide_users,
         }
     };
-    const LUCIDE_UTENSILS_CROSSED: Self = {
+    pub const LUCIDE_UTENSILS_CROSSED: Self = {
         #[inline(never)]
         fn lucide_utensils_crossed(
             crate::IconProps {
@@ -17623,7 +17623,7 @@ impl IconData {
             html: lucide_utensils_crossed,
         }
     };
-    const LUCIDE_UTENSILS: Self = {
+    pub const LUCIDE_UTENSILS: Self = {
         #[inline(never)]
         fn lucide_utensils(
             crate::IconProps {
@@ -17645,7 +17645,7 @@ impl IconData {
             html: lucide_utensils,
         }
     };
-    const LUCIDE_VENETIAN_MASK: Self = {
+    pub const LUCIDE_VENETIAN_MASK: Self = {
         #[inline(never)]
         fn lucide_venetian_mask(
             crate::IconProps {
@@ -17667,7 +17667,7 @@ impl IconData {
             html: lucide_venetian_mask,
         }
     };
-    const LUCIDE_VERIFIED: Self = {
+    pub const LUCIDE_VERIFIED: Self = {
         #[inline(never)]
         fn lucide_verified(
             crate::IconProps {
@@ -17689,7 +17689,7 @@ impl IconData {
             html: lucide_verified,
         }
     };
-    const LUCIDE_VIBRATE_OFF: Self = {
+    pub const LUCIDE_VIBRATE_OFF: Self = {
         #[inline(never)]
         fn lucide_vibrate_off(
             crate::IconProps {
@@ -17711,7 +17711,7 @@ impl IconData {
             html: lucide_vibrate_off,
         }
     };
-    const LUCIDE_VIBRATE: Self = {
+    pub const LUCIDE_VIBRATE: Self = {
         #[inline(never)]
         fn lucide_vibrate(
             crate::IconProps {
@@ -17733,7 +17733,7 @@ impl IconData {
             html: lucide_vibrate,
         }
     };
-    const LUCIDE_VIDEO_OFF: Self = {
+    pub const LUCIDE_VIDEO_OFF: Self = {
         #[inline(never)]
         fn lucide_video_off(
             crate::IconProps {
@@ -17755,7 +17755,7 @@ impl IconData {
             html: lucide_video_off,
         }
     };
-    const LUCIDE_VIDEO: Self = {
+    pub const LUCIDE_VIDEO: Self = {
         #[inline(never)]
         fn lucide_video(
             crate::IconProps {
@@ -17777,7 +17777,7 @@ impl IconData {
             html: lucide_video,
         }
     };
-    const LUCIDE_VIEW: Self = {
+    pub const LUCIDE_VIEW: Self = {
         #[inline(never)]
         fn lucide_view(
             crate::IconProps {
@@ -17799,7 +17799,7 @@ impl IconData {
             html: lucide_view,
         }
     };
-    const LUCIDE_VOICEMAIL: Self = {
+    pub const LUCIDE_VOICEMAIL: Self = {
         #[inline(never)]
         fn lucide_voicemail(
             crate::IconProps {
@@ -17821,7 +17821,7 @@ impl IconData {
             html: lucide_voicemail,
         }
     };
-    const LUCIDE_VOLUME_1: Self = {
+    pub const LUCIDE_VOLUME_1: Self = {
         #[inline(never)]
         fn lucide_volume_1(
             crate::IconProps {
@@ -17843,7 +17843,7 @@ impl IconData {
             html: lucide_volume_1,
         }
     };
-    const LUCIDE_VOLUME_2: Self = {
+    pub const LUCIDE_VOLUME_2: Self = {
         #[inline(never)]
         fn lucide_volume_2(
             crate::IconProps {
@@ -17865,7 +17865,7 @@ impl IconData {
             html: lucide_volume_2,
         }
     };
-    const LUCIDE_VOLUME_X: Self = {
+    pub const LUCIDE_VOLUME_X: Self = {
         #[inline(never)]
         fn lucide_volume_x(
             crate::IconProps {
@@ -17887,7 +17887,7 @@ impl IconData {
             html: lucide_volume_x,
         }
     };
-    const LUCIDE_VOLUME: Self = {
+    pub const LUCIDE_VOLUME: Self = {
         #[inline(never)]
         fn lucide_volume(
             crate::IconProps {
@@ -17909,7 +17909,7 @@ impl IconData {
             html: lucide_volume,
         }
     };
-    const LUCIDE_WALLET: Self = {
+    pub const LUCIDE_WALLET: Self = {
         #[inline(never)]
         fn lucide_wallet(
             crate::IconProps {
@@ -17931,7 +17931,7 @@ impl IconData {
             html: lucide_wallet,
         }
     };
-    const LUCIDE_WAND_2: Self = {
+    pub const LUCIDE_WAND_2: Self = {
         #[inline(never)]
         fn lucide_wand_2(
             crate::IconProps {
@@ -17953,7 +17953,7 @@ impl IconData {
             html: lucide_wand_2,
         }
     };
-    const LUCIDE_WAND: Self = {
+    pub const LUCIDE_WAND: Self = {
         #[inline(never)]
         fn lucide_wand(
             crate::IconProps {
@@ -17975,7 +17975,7 @@ impl IconData {
             html: lucide_wand,
         }
     };
-    const LUCIDE_WATCH: Self = {
+    pub const LUCIDE_WATCH: Self = {
         #[inline(never)]
         fn lucide_watch(
             crate::IconProps {
@@ -17997,7 +17997,7 @@ impl IconData {
             html: lucide_watch,
         }
     };
-    const LUCIDE_WAVES: Self = {
+    pub const LUCIDE_WAVES: Self = {
         #[inline(never)]
         fn lucide_waves(
             crate::IconProps {
@@ -18019,7 +18019,7 @@ impl IconData {
             html: lucide_waves,
         }
     };
-    const LUCIDE_WEBCAM: Self = {
+    pub const LUCIDE_WEBCAM: Self = {
         #[inline(never)]
         fn lucide_webcam(
             crate::IconProps {
@@ -18041,7 +18041,7 @@ impl IconData {
             html: lucide_webcam,
         }
     };
-    const LUCIDE_WEBHOOK: Self = {
+    pub const LUCIDE_WEBHOOK: Self = {
         #[inline(never)]
         fn lucide_webhook(
             crate::IconProps {
@@ -18063,7 +18063,7 @@ impl IconData {
             html: lucide_webhook,
         }
     };
-    const LUCIDE_WIFI_OFF: Self = {
+    pub const LUCIDE_WIFI_OFF: Self = {
         #[inline(never)]
         fn lucide_wifi_off(
             crate::IconProps {
@@ -18085,7 +18085,7 @@ impl IconData {
             html: lucide_wifi_off,
         }
     };
-    const LUCIDE_WIFI: Self = {
+    pub const LUCIDE_WIFI: Self = {
         #[inline(never)]
         fn lucide_wifi(
             crate::IconProps {
@@ -18107,7 +18107,7 @@ impl IconData {
             html: lucide_wifi,
         }
     };
-    const LUCIDE_WIND: Self = {
+    pub const LUCIDE_WIND: Self = {
         #[inline(never)]
         fn lucide_wind(
             crate::IconProps {
@@ -18129,7 +18129,7 @@ impl IconData {
             html: lucide_wind,
         }
     };
-    const LUCIDE_WINE: Self = {
+    pub const LUCIDE_WINE: Self = {
         #[inline(never)]
         fn lucide_wine(
             crate::IconProps {
@@ -18151,7 +18151,7 @@ impl IconData {
             html: lucide_wine,
         }
     };
-    const LUCIDE_WRAP_TEXT: Self = {
+    pub const LUCIDE_WRAP_TEXT: Self = {
         #[inline(never)]
         fn lucide_wrap_text(
             crate::IconProps {
@@ -18173,7 +18173,7 @@ impl IconData {
             html: lucide_wrap_text,
         }
     };
-    const LUCIDE_WRENCH: Self = {
+    pub const LUCIDE_WRENCH: Self = {
         #[inline(never)]
         fn lucide_wrench(
             crate::IconProps {
@@ -18195,7 +18195,7 @@ impl IconData {
             html: lucide_wrench,
         }
     };
-    const LUCIDE_X_CIRCLE: Self = {
+    pub const LUCIDE_X_CIRCLE: Self = {
         #[inline(never)]
         fn lucide_x_circle(
             crate::IconProps {
@@ -18217,7 +18217,7 @@ impl IconData {
             html: lucide_x_circle,
         }
     };
-    const LUCIDE_X_OCTAGON: Self = {
+    pub const LUCIDE_X_OCTAGON: Self = {
         #[inline(never)]
         fn lucide_x_octagon(
             crate::IconProps {
@@ -18239,7 +18239,7 @@ impl IconData {
             html: lucide_x_octagon,
         }
     };
-    const LUCIDE_X_SQUARE: Self = {
+    pub const LUCIDE_X_SQUARE: Self = {
         #[inline(never)]
         fn lucide_x_square(
             crate::IconProps {
@@ -18261,7 +18261,7 @@ impl IconData {
             html: lucide_x_square,
         }
     };
-    const LUCIDE_X: Self = {
+    pub const LUCIDE_X: Self = {
         #[inline(never)]
         fn lucide_x(
             crate::IconProps {
@@ -18283,7 +18283,7 @@ impl IconData {
             html: lucide_x,
         }
     };
-    const LUCIDE_YOUTUBE: Self = {
+    pub const LUCIDE_YOUTUBE: Self = {
         #[inline(never)]
         fn lucide_youtube(
             crate::IconProps {
@@ -18305,7 +18305,7 @@ impl IconData {
             html: lucide_youtube,
         }
     };
-    const LUCIDE_ZAP_OFF: Self = {
+    pub const LUCIDE_ZAP_OFF: Self = {
         #[inline(never)]
         fn lucide_zap_off(
             crate::IconProps {
@@ -18327,7 +18327,7 @@ impl IconData {
             html: lucide_zap_off,
         }
     };
-    const LUCIDE_ZAP: Self = {
+    pub const LUCIDE_ZAP: Self = {
         #[inline(never)]
         fn lucide_zap(
             crate::IconProps {
@@ -18349,7 +18349,7 @@ impl IconData {
             html: lucide_zap,
         }
     };
-    const LUCIDE_ZOOM_IN: Self = {
+    pub const LUCIDE_ZOOM_IN: Self = {
         #[inline(never)]
         fn lucide_zoom_in(
             crate::IconProps {
@@ -18371,7 +18371,7 @@ impl IconData {
             html: lucide_zoom_in,
         }
     };
-    const LUCIDE_ZOOM_OUT: Self = {
+    pub const LUCIDE_ZOOM_OUT: Self = {
         #[inline(never)]
         fn lucide_zoom_out(
             crate::IconProps {

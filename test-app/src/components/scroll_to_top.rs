@@ -1,7 +1,7 @@
 use wasm_bindgen::{prelude::Closure, JsCast};
 use web_sys::{window, ScrollBehavior};
 use yew::prelude::*;
-use yew_icons::{Icon, IconId};
+use yew_icons::{Icon, IconData};
 
 #[derive(PartialEq, Properties)]
 pub struct ScrollToTopProps {

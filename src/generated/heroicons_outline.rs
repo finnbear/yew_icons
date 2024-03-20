@@ -1,7 +1,7 @@
 // Generated file, do not edit by hand, see `src/generator.rs`
 
-impl IconData {
-    const HEROICONS_OUTLINE_ACADEMIC_CAP: Self = {
+impl crate::IconData {
+    pub const HEROICONS_OUTLINE_ACADEMIC_CAP: Self = {
         #[inline(never)]
         fn heroicons_outline_academic_cap(
             crate::IconProps {
@@ -23,7 +23,7 @@ impl IconData {
             html: heroicons_outline_academic_cap,
         }
     };
-    const HEROICONS_OUTLINE_ADJUSTMENTS_HORIZONTAL: Self = {
+    pub const HEROICONS_OUTLINE_ADJUSTMENTS_HORIZONTAL: Self = {
         #[inline(never)]
         fn heroicons_outline_adjustments_horizontal(
             crate::IconProps {
@@ -45,7 +45,7 @@ impl IconData {
             html: heroicons_outline_adjustments_horizontal,
         }
     };
-    const HEROICONS_OUTLINE_ADJUSTMENTS_VERTICAL: Self = {
+    pub const HEROICONS_OUTLINE_ADJUSTMENTS_VERTICAL: Self = {
         #[inline(never)]
         fn heroicons_outline_adjustments_vertical(
             crate::IconProps {
@@ -67,7 +67,7 @@ impl IconData {
             html: heroicons_outline_adjustments_vertical,
         }
     };
-    const HEROICONS_OUTLINE_ARCHIVE_BOX_ARROW_DOWN: Self = {
+    pub const HEROICONS_OUTLINE_ARCHIVE_BOX_ARROW_DOWN: Self = {
         #[inline(never)]
         fn heroicons_outline_archive_box_arrow_down(
             crate::IconProps {
@@ -89,7 +89,7 @@ impl IconData {
             html: heroicons_outline_archive_box_arrow_down,
         }
     };
-    const HEROICONS_OUTLINE_ARCHIVE_BOX_X_MARK: Self = {
+    pub const HEROICONS_OUTLINE_ARCHIVE_BOX_X_MARK: Self = {
         #[inline(never)]
         fn heroicons_outline_archive_box_x_mark(
             crate::IconProps {
@@ -111,7 +111,7 @@ impl IconData {
             html: heroicons_outline_archive_box_x_mark,
         }
     };
-    const HEROICONS_OUTLINE_ARCHIVE_BOX: Self = {
+    pub const HEROICONS_OUTLINE_ARCHIVE_BOX: Self = {
         #[inline(never)]
         fn heroicons_outline_archive_box(
             crate::IconProps {
@@ -133,7 +133,7 @@ impl IconData {
             html: heroicons_outline_archive_box,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_DOWN_CIRCLE: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_DOWN_CIRCLE: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_down_circle(
             crate::IconProps {
@@ -155,7 +155,7 @@ impl IconData {
             html: heroicons_outline_arrow_down_circle,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_DOWN_LEFT: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_DOWN_LEFT: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_down_left(
             crate::IconProps {
@@ -177,7 +177,7 @@ impl IconData {
             html: heroicons_outline_arrow_down_left,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_DOWN_ON_SQUARE_STACK: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_DOWN_ON_SQUARE_STACK: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_down_on_square_stack(
             crate::IconProps {
@@ -199,7 +199,7 @@ impl IconData {
             html: heroicons_outline_arrow_down_on_square_stack,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_DOWN_ON_SQUARE: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_DOWN_ON_SQUARE: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_down_on_square(
             crate::IconProps {
@@ -221,7 +221,7 @@ impl IconData {
             html: heroicons_outline_arrow_down_on_square,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_DOWN_RIGHT: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_DOWN_RIGHT: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_down_right(
             crate::IconProps {
@@ -243,7 +243,7 @@ impl IconData {
             html: heroicons_outline_arrow_down_right,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_DOWN_TRAY: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_DOWN_TRAY: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_down_tray(
             crate::IconProps {
@@ -265,7 +265,7 @@ impl IconData {
             html: heroicons_outline_arrow_down_tray,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_DOWN: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_DOWN: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_down(
             crate::IconProps {
@@ -287,7 +287,7 @@ impl IconData {
             html: heroicons_outline_arrow_down,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_LEFT_CIRCLE: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_LEFT_CIRCLE: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_left_circle(
             crate::IconProps {
@@ -309,7 +309,7 @@ impl IconData {
             html: heroicons_outline_arrow_left_circle,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_LEFT_ON_RECTANGLE: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_LEFT_ON_RECTANGLE: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_left_on_rectangle(
             crate::IconProps {
@@ -331,7 +331,7 @@ impl IconData {
             html: heroicons_outline_arrow_left_on_rectangle,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_LEFT: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_LEFT: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_left(
             crate::IconProps {
@@ -353,7 +353,7 @@ impl IconData {
             html: heroicons_outline_arrow_left,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_LONG_DOWN: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_LONG_DOWN: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_long_down(
             crate::IconProps {
@@ -375,7 +375,7 @@ impl IconData {
             html: heroicons_outline_arrow_long_down,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_LONG_LEFT: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_LONG_LEFT: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_long_left(
             crate::IconProps {
@@ -397,7 +397,7 @@ impl IconData {
             html: heroicons_outline_arrow_long_left,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_LONG_RIGHT: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_LONG_RIGHT: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_long_right(
             crate::IconProps {
@@ -419,7 +419,7 @@ impl IconData {
             html: heroicons_outline_arrow_long_right,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_LONG_UP: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_LONG_UP: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_long_up(
             crate::IconProps {
@@ -441,7 +441,7 @@ impl IconData {
             html: heroicons_outline_arrow_long_up,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_PATH_ROUNDED_SQUARE: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_PATH_ROUNDED_SQUARE: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_path_rounded_square(
             crate::IconProps {
@@ -463,7 +463,7 @@ impl IconData {
             html: heroicons_outline_arrow_path_rounded_square,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_PATH: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_PATH: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_path(
             crate::IconProps {
@@ -485,7 +485,7 @@ impl IconData {
             html: heroicons_outline_arrow_path,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_RIGHT_CIRCLE: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_RIGHT_CIRCLE: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_right_circle(
             crate::IconProps {
@@ -507,7 +507,7 @@ impl IconData {
             html: heroicons_outline_arrow_right_circle,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_RIGHT_ON_RECTANGLE: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_RIGHT_ON_RECTANGLE: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_right_on_rectangle(
             crate::IconProps {
@@ -529,7 +529,7 @@ impl IconData {
             html: heroicons_outline_arrow_right_on_rectangle,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_RIGHT: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_RIGHT: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_right(
             crate::IconProps {
@@ -551,7 +551,7 @@ impl IconData {
             html: heroicons_outline_arrow_right,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_SMALL_DOWN: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_SMALL_DOWN: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_small_down(
             crate::IconProps {
@@ -573,7 +573,7 @@ impl IconData {
             html: heroicons_outline_arrow_small_down,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_SMALL_LEFT: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_SMALL_LEFT: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_small_left(
             crate::IconProps {
@@ -595,7 +595,7 @@ impl IconData {
             html: heroicons_outline_arrow_small_left,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_SMALL_RIGHT: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_SMALL_RIGHT: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_small_right(
             crate::IconProps {
@@ -617,7 +617,7 @@ impl IconData {
             html: heroicons_outline_arrow_small_right,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_SMALL_UP: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_SMALL_UP: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_small_up(
             crate::IconProps {
@@ -639,7 +639,7 @@ impl IconData {
             html: heroicons_outline_arrow_small_up,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_TOP_RIGHT_ON_SQUARE: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_TOP_RIGHT_ON_SQUARE: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_top_right_on_square(
             crate::IconProps {
@@ -661,7 +661,7 @@ impl IconData {
             html: heroicons_outline_arrow_top_right_on_square,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_TRENDING_DOWN: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_TRENDING_DOWN: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_trending_down(
             crate::IconProps {
@@ -683,7 +683,7 @@ impl IconData {
             html: heroicons_outline_arrow_trending_down,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_TRENDING_UP: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_TRENDING_UP: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_trending_up(
             crate::IconProps {
@@ -705,7 +705,7 @@ impl IconData {
             html: heroicons_outline_arrow_trending_up,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_UP_CIRCLE: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_UP_CIRCLE: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_up_circle(
             crate::IconProps {
@@ -727,7 +727,7 @@ impl IconData {
             html: heroicons_outline_arrow_up_circle,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_UP_LEFT: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_UP_LEFT: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_up_left(
             crate::IconProps {
@@ -749,7 +749,7 @@ impl IconData {
             html: heroicons_outline_arrow_up_left,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_UP_ON_SQUARE_STACK: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_UP_ON_SQUARE_STACK: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_up_on_square_stack(
             crate::IconProps {
@@ -771,7 +771,7 @@ impl IconData {
             html: heroicons_outline_arrow_up_on_square_stack,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_UP_ON_SQUARE: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_UP_ON_SQUARE: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_up_on_square(
             crate::IconProps {
@@ -793,7 +793,7 @@ impl IconData {
             html: heroicons_outline_arrow_up_on_square,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_UP_RIGHT: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_UP_RIGHT: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_up_right(
             crate::IconProps {
@@ -815,7 +815,7 @@ impl IconData {
             html: heroicons_outline_arrow_up_right,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_UP_TRAY: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_UP_TRAY: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_up_tray(
             crate::IconProps {
@@ -837,7 +837,7 @@ impl IconData {
             html: heroicons_outline_arrow_up_tray,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_UP: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_UP: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_up(
             crate::IconProps {
@@ -859,7 +859,7 @@ impl IconData {
             html: heroicons_outline_arrow_up,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_UTURN_DOWN: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_UTURN_DOWN: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_uturn_down(
             crate::IconProps {
@@ -881,7 +881,7 @@ impl IconData {
             html: heroicons_outline_arrow_uturn_down,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_UTURN_LEFT: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_UTURN_LEFT: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_uturn_left(
             crate::IconProps {
@@ -903,7 +903,7 @@ impl IconData {
             html: heroicons_outline_arrow_uturn_left,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_UTURN_RIGHT: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_UTURN_RIGHT: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_uturn_right(
             crate::IconProps {
@@ -925,7 +925,7 @@ impl IconData {
             html: heroicons_outline_arrow_uturn_right,
         }
     };
-    const HEROICONS_OUTLINE_ARROW_UTURN_UP: Self = {
+    pub const HEROICONS_OUTLINE_ARROW_UTURN_UP: Self = {
         #[inline(never)]
         fn heroicons_outline_arrow_uturn_up(
             crate::IconProps {
@@ -947,7 +947,7 @@ impl IconData {
             html: heroicons_outline_arrow_uturn_up,
         }
     };
-    const HEROICONS_OUTLINE_ARROWS_POINTING_IN: Self = {
+    pub const HEROICONS_OUTLINE_ARROWS_POINTING_IN: Self = {
         #[inline(never)]
         fn heroicons_outline_arrows_pointing_in(
             crate::IconProps {
@@ -969,7 +969,7 @@ impl IconData {
             html: heroicons_outline_arrows_pointing_in,
         }
     };
-    const HEROICONS_OUTLINE_ARROWS_POINTING_OUT: Self = {
+    pub const HEROICONS_OUTLINE_ARROWS_POINTING_OUT: Self = {
         #[inline(never)]
         fn heroicons_outline_arrows_pointing_out(
             crate::IconProps {
@@ -991,7 +991,7 @@ impl IconData {
             html: heroicons_outline_arrows_pointing_out,
         }
     };
-    const HEROICONS_OUTLINE_ARROWS_RIGHT_LEFT: Self = {
+    pub const HEROICONS_OUTLINE_ARROWS_RIGHT_LEFT: Self = {
         #[inline(never)]
         fn heroicons_outline_arrows_right_left(
             crate::IconProps {
@@ -1013,7 +1013,7 @@ impl IconData {
             html: heroicons_outline_arrows_right_left,
         }
     };
-    const HEROICONS_OUTLINE_ARROWS_UP_DOWN: Self = {
+    pub const HEROICONS_OUTLINE_ARROWS_UP_DOWN: Self = {
         #[inline(never)]
         fn heroicons_outline_arrows_up_down(
             crate::IconProps {
@@ -1035,7 +1035,7 @@ impl IconData {
             html: heroicons_outline_arrows_up_down,
         }
     };
-    const HEROICONS_OUTLINE_AT_SYMBOL: Self = {
+    pub const HEROICONS_OUTLINE_AT_SYMBOL: Self = {
         #[inline(never)]
         fn heroicons_outline_at_symbol(
             crate::IconProps {
@@ -1057,7 +1057,7 @@ impl IconData {
             html: heroicons_outline_at_symbol,
         }
     };
-    const HEROICONS_OUTLINE_BACKSPACE: Self = {
+    pub const HEROICONS_OUTLINE_BACKSPACE: Self = {
         #[inline(never)]
         fn heroicons_outline_backspace(
             crate::IconProps {
@@ -1079,7 +1079,7 @@ impl IconData {
             html: heroicons_outline_backspace,
         }
     };
-    const HEROICONS_OUTLINE_BACKWARD: Self = {
+    pub const HEROICONS_OUTLINE_BACKWARD: Self = {
         #[inline(never)]
         fn heroicons_outline_backward(
             crate::IconProps {
@@ -1101,7 +1101,7 @@ impl IconData {
             html: heroicons_outline_backward,
         }
     };
-    const HEROICONS_OUTLINE_BANKNOTES: Self = {
+    pub const HEROICONS_OUTLINE_BANKNOTES: Self = {
         #[inline(never)]
         fn heroicons_outline_banknotes(
             crate::IconProps {
@@ -1123,7 +1123,7 @@ impl IconData {
             html: heroicons_outline_banknotes,
         }
     };
-    const HEROICONS_OUTLINE_BARS_2: Self = {
+    pub const HEROICONS_OUTLINE_BARS_2: Self = {
         #[inline(never)]
         fn heroicons_outline_bars_2(
             crate::IconProps {
@@ -1145,7 +1145,7 @@ impl IconData {
             html: heroicons_outline_bars_2,
         }
     };
-    const HEROICONS_OUTLINE_BARS_3_BOTTOM_LEFT: Self = {
+    pub const HEROICONS_OUTLINE_BARS_3_BOTTOM_LEFT: Self = {
         #[inline(never)]
         fn heroicons_outline_bars_3_bottom_left(
             crate::IconProps {
@@ -1167,7 +1167,7 @@ impl IconData {
             html: heroicons_outline_bars_3_bottom_left,
         }
     };
-    const HEROICONS_OUTLINE_BARS_3_BOTTOM_RIGHT: Self = {
+    pub const HEROICONS_OUTLINE_BARS_3_BOTTOM_RIGHT: Self = {
         #[inline(never)]
         fn heroicons_outline_bars_3_bottom_right(
             crate::IconProps {
@@ -1189,7 +1189,7 @@ impl IconData {
             html: heroicons_outline_bars_3_bottom_right,
         }
     };
-    const HEROICONS_OUTLINE_BARS_3_CENTER_LEFT: Self = {
+    pub const HEROICONS_OUTLINE_BARS_3_CENTER_LEFT: Self = {
         #[inline(never)]
         fn heroicons_outline_bars_3_center_left(
             crate::IconProps {
@@ -1211,7 +1211,7 @@ impl IconData {
             html: heroicons_outline_bars_3_center_left,
         }
     };
-    const HEROICONS_OUTLINE_BARS_3: Self = {
+    pub const HEROICONS_OUTLINE_BARS_3: Self = {
         #[inline(never)]
         fn heroicons_outline_bars_3(
             crate::IconProps {
@@ -1233,7 +1233,7 @@ impl IconData {
             html: heroicons_outline_bars_3,
         }
     };
-    const HEROICONS_OUTLINE_BARS_4: Self = {
+    pub const HEROICONS_OUTLINE_BARS_4: Self = {
         #[inline(never)]
         fn heroicons_outline_bars_4(
             crate::IconProps {
@@ -1255,7 +1255,7 @@ impl IconData {
             html: heroicons_outline_bars_4,
         }
     };
-    const HEROICONS_OUTLINE_BARS_ARROW_DOWN: Self = {
+    pub const HEROICONS_OUTLINE_BARS_ARROW_DOWN: Self = {
         #[inline(never)]
         fn heroicons_outline_bars_arrow_down(
             crate::IconProps {
@@ -1277,7 +1277,7 @@ impl IconData {
             html: heroicons_outline_bars_arrow_down,
         }
     };
-    const HEROICONS_OUTLINE_BARS_ARROW_UP: Self = {
+    pub const HEROICONS_OUTLINE_BARS_ARROW_UP: Self = {
         #[inline(never)]
         fn heroicons_outline_bars_arrow_up(
             crate::IconProps {
@@ -1299,7 +1299,7 @@ impl IconData {
             html: heroicons_outline_bars_arrow_up,
         }
     };
-    const HEROICONS_OUTLINE_BATTERY_0: Self = {
+    pub const HEROICONS_OUTLINE_BATTERY_0: Self = {
         #[inline(never)]
         fn heroicons_outline_battery_0(
             crate::IconProps {
@@ -1321,7 +1321,7 @@ impl IconData {
             html: heroicons_outline_battery_0,
         }
     };
-    const HEROICONS_OUTLINE_BATTERY_100: Self = {
+    pub const HEROICONS_OUTLINE_BATTERY_100: Self = {
         #[inline(never)]
         fn heroicons_outline_battery_100(
             crate::IconProps {
@@ -1343,7 +1343,7 @@ impl IconData {
             html: heroicons_outline_battery_100,
         }
     };
-    const HEROICONS_OUTLINE_BATTERY_50: Self = {
+    pub const HEROICONS_OUTLINE_BATTERY_50: Self = {
         #[inline(never)]
         fn heroicons_outline_battery_50(
             crate::IconProps {
@@ -1365,7 +1365,7 @@ impl IconData {
             html: heroicons_outline_battery_50,
         }
     };
-    const HEROICONS_OUTLINE_BEAKER: Self = {
+    pub const HEROICONS_OUTLINE_BEAKER: Self = {
         #[inline(never)]
         fn heroicons_outline_beaker(
             crate::IconProps {
@@ -1387,7 +1387,7 @@ impl IconData {
             html: heroicons_outline_beaker,
         }
     };
-    const HEROICONS_OUTLINE_BELL_ALERT: Self = {
+    pub const HEROICONS_OUTLINE_BELL_ALERT: Self = {
         #[inline(never)]
         fn heroicons_outline_bell_alert(
             crate::IconProps {
@@ -1409,7 +1409,7 @@ impl IconData {
             html: heroicons_outline_bell_alert,
         }
     };
-    const HEROICONS_OUTLINE_BELL_SLASH: Self = {
+    pub const HEROICONS_OUTLINE_BELL_SLASH: Self = {
         #[inline(never)]
         fn heroicons_outline_bell_slash(
             crate::IconProps {
@@ -1431,7 +1431,7 @@ impl IconData {
             html: heroicons_outline_bell_slash,
         }
     };
-    const HEROICONS_OUTLINE_BELL_SNOOZE: Self = {
+    pub const HEROICONS_OUTLINE_BELL_SNOOZE: Self = {
         #[inline(never)]
         fn heroicons_outline_bell_snooze(
             crate::IconProps {
@@ -1453,7 +1453,7 @@ impl IconData {
             html: heroicons_outline_bell_snooze,
         }
     };
-    const HEROICONS_OUTLINE_BELL: Self = {
+    pub const HEROICONS_OUTLINE_BELL: Self = {
         #[inline(never)]
         fn heroicons_outline_bell(
             crate::IconProps {
@@ -1475,7 +1475,7 @@ impl IconData {
             html: heroicons_outline_bell,
         }
     };
-    const HEROICONS_OUTLINE_BOLT_SLASH: Self = {
+    pub const HEROICONS_OUTLINE_BOLT_SLASH: Self = {
         #[inline(never)]
         fn heroicons_outline_bolt_slash(
             crate::IconProps {
@@ -1497,7 +1497,7 @@ impl IconData {
             html: heroicons_outline_bolt_slash,
         }
     };
-    const HEROICONS_OUTLINE_BOLT: Self = {
+    pub const HEROICONS_OUTLINE_BOLT: Self = {
         #[inline(never)]
         fn heroicons_outline_bolt(
             crate::IconProps {
@@ -1519,7 +1519,7 @@ impl IconData {
             html: heroicons_outline_bolt,
         }
     };
-    const HEROICONS_OUTLINE_BOOK_OPEN: Self = {
+    pub const HEROICONS_OUTLINE_BOOK_OPEN: Self = {
         #[inline(never)]
         fn heroicons_outline_book_open(
             crate::IconProps {
@@ -1541,7 +1541,7 @@ impl IconData {
             html: heroicons_outline_book_open,
         }
     };
-    const HEROICONS_OUTLINE_BOOKMARK_SLASH: Self = {
+    pub const HEROICONS_OUTLINE_BOOKMARK_SLASH: Self = {
         #[inline(never)]
         fn heroicons_outline_bookmark_slash(
             crate::IconProps {
@@ -1563,7 +1563,7 @@ impl IconData {
             html: heroicons_outline_bookmark_slash,
         }
     };
-    const HEROICONS_OUTLINE_BOOKMARK_SQUARE: Self = {
+    pub const HEROICONS_OUTLINE_BOOKMARK_SQUARE: Self = {
         #[inline(never)]
         fn heroicons_outline_bookmark_square(
             crate::IconProps {
@@ -1585,7 +1585,7 @@ impl IconData {
             html: heroicons_outline_bookmark_square,
         }
     };
-    const HEROICONS_OUTLINE_BOOKMARK: Self = {
+    pub const HEROICONS_OUTLINE_BOOKMARK: Self = {
         #[inline(never)]
         fn heroicons_outline_bookmark(
             crate::IconProps {
@@ -1607,7 +1607,7 @@ impl IconData {
             html: heroicons_outline_bookmark,
         }
     };
-    const HEROICONS_OUTLINE_BRIEFCASE: Self = {
+    pub const HEROICONS_OUTLINE_BRIEFCASE: Self = {
         #[inline(never)]
         fn heroicons_outline_briefcase(
             crate::IconProps {
@@ -1629,7 +1629,7 @@ impl IconData {
             html: heroicons_outline_briefcase,
         }
     };
-    const HEROICONS_OUTLINE_BUG_ANT: Self = {
+    pub const HEROICONS_OUTLINE_BUG_ANT: Self = {
         #[inline(never)]
         fn heroicons_outline_bug_ant(
             crate::IconProps {
@@ -1651,7 +1651,7 @@ impl IconData {
             html: heroicons_outline_bug_ant,
         }
     };
-    const HEROICONS_OUTLINE_BUILDING_LIBRARY: Self = {
+    pub const HEROICONS_OUTLINE_BUILDING_LIBRARY: Self = {
         #[inline(never)]
         fn heroicons_outline_building_library(
             crate::IconProps {
@@ -1673,7 +1673,7 @@ impl IconData {
             html: heroicons_outline_building_library,
         }
     };
-    const HEROICONS_OUTLINE_BUILDING_OFFICE_2: Self = {
+    pub const HEROICONS_OUTLINE_BUILDING_OFFICE_2: Self = {
         #[inline(never)]
         fn heroicons_outline_building_office_2(
             crate::IconProps {
@@ -1695,7 +1695,7 @@ impl IconData {
             html: heroicons_outline_building_office_2,
         }
     };
-    const HEROICONS_OUTLINE_BUILDING_OFFICE: Self = {
+    pub const HEROICONS_OUTLINE_BUILDING_OFFICE: Self = {
         #[inline(never)]
         fn heroicons_outline_building_office(
             crate::IconProps {
@@ -1717,7 +1717,7 @@ impl IconData {
             html: heroicons_outline_building_office,
         }
     };
-    const HEROICONS_OUTLINE_BUILDING_STOREFRONT: Self = {
+    pub const HEROICONS_OUTLINE_BUILDING_STOREFRONT: Self = {
         #[inline(never)]
         fn heroicons_outline_building_storefront(
             crate::IconProps {
@@ -1739,7 +1739,7 @@ impl IconData {
             html: heroicons_outline_building_storefront,
         }
     };
-    const HEROICONS_OUTLINE_CAKE: Self = {
+    pub const HEROICONS_OUTLINE_CAKE: Self = {
         #[inline(never)]
         fn heroicons_outline_cake(
             crate::IconProps {
@@ -1761,7 +1761,7 @@ impl IconData {
             html: heroicons_outline_cake,
         }
     };
-    const HEROICONS_OUTLINE_CALCULATOR: Self = {
+    pub const HEROICONS_OUTLINE_CALCULATOR: Self = {
         #[inline(never)]
         fn heroicons_outline_calculator(
             crate::IconProps {
@@ -1783,7 +1783,7 @@ impl IconData {
             html: heroicons_outline_calculator,
         }
     };
-    const HEROICONS_OUTLINE_CALENDAR_DAYS: Self = {
+    pub const HEROICONS_OUTLINE_CALENDAR_DAYS: Self = {
         #[inline(never)]
         fn heroicons_outline_calendar_days(
             crate::IconProps {
@@ -1805,7 +1805,7 @@ impl IconData {
             html: heroicons_outline_calendar_days,
         }
     };
-    const HEROICONS_OUTLINE_CALENDAR: Self = {
+    pub const HEROICONS_OUTLINE_CALENDAR: Self = {
         #[inline(never)]
         fn heroicons_outline_calendar(
             crate::IconProps {
@@ -1827,7 +1827,7 @@ impl IconData {
             html: heroicons_outline_calendar,
         }
     };
-    const HEROICONS_OUTLINE_CAMERA: Self = {
+    pub const HEROICONS_OUTLINE_CAMERA: Self = {
         #[inline(never)]
         fn heroicons_outline_camera(
             crate::IconProps {
@@ -1849,7 +1849,7 @@ impl IconData {
             html: heroicons_outline_camera,
         }
     };
-    const HEROICONS_OUTLINE_CHART_BAR_SQUARE: Self = {
+    pub const HEROICONS_OUTLINE_CHART_BAR_SQUARE: Self = {
         #[inline(never)]
         fn heroicons_outline_chart_bar_square(
             crate::IconProps {
@@ -1871,7 +1871,7 @@ impl IconData {
             html: heroicons_outline_chart_bar_square,
         }
     };
-    const HEROICONS_OUTLINE_CHART_BAR: Self = {
+    pub const HEROICONS_OUTLINE_CHART_BAR: Self = {
         #[inline(never)]
         fn heroicons_outline_chart_bar(
             crate::IconProps {
@@ -1893,7 +1893,7 @@ impl IconData {
             html: heroicons_outline_chart_bar,
         }
     };
-    const HEROICONS_OUTLINE_CHART_PIE: Self = {
+    pub const HEROICONS_OUTLINE_CHART_PIE: Self = {
         #[inline(never)]
         fn heroicons_outline_chart_pie(
             crate::IconProps {
@@ -1915,7 +1915,7 @@ impl IconData {
             html: heroicons_outline_chart_pie,
         }
     };
-    const HEROICONS_OUTLINE_CHAT_BUBBLE_BOTTOM_CENTER_TEXT: Self = {
+    pub const HEROICONS_OUTLINE_CHAT_BUBBLE_BOTTOM_CENTER_TEXT: Self = {
         #[inline(never)]
         fn heroicons_outline_chat_bubble_bottom_center_text(
             crate::IconProps {
@@ -1937,7 +1937,7 @@ impl IconData {
             html: heroicons_outline_chat_bubble_bottom_center_text,
         }
     };
-    const HEROICONS_OUTLINE_CHAT_BUBBLE_BOTTOM_CENTER: Self = {
+    pub const HEROICONS_OUTLINE_CHAT_BUBBLE_BOTTOM_CENTER: Self = {
         #[inline(never)]
         fn heroicons_outline_chat_bubble_bottom_center(
             crate::IconProps {
@@ -1959,7 +1959,7 @@ impl IconData {
             html: heroicons_outline_chat_bubble_bottom_center,
         }
     };
-    const HEROICONS_OUTLINE_CHAT_BUBBLE_LEFT_ELLIPSIS: Self = {
+    pub const HEROICONS_OUTLINE_CHAT_BUBBLE_LEFT_ELLIPSIS: Self = {
         #[inline(never)]
         fn heroicons_outline_chat_bubble_left_ellipsis(
             crate::IconProps {
@@ -1981,7 +1981,7 @@ impl IconData {
             html: heroicons_outline_chat_bubble_left_ellipsis,
         }
     };
-    const HEROICONS_OUTLINE_CHAT_BUBBLE_LEFT_RIGHT: Self = {
+    pub const HEROICONS_OUTLINE_CHAT_BUBBLE_LEFT_RIGHT: Self = {
         #[inline(never)]
         fn heroicons_outline_chat_bubble_left_right(
             crate::IconProps {
@@ -2003,7 +2003,7 @@ impl IconData {
             html: heroicons_outline_chat_bubble_left_right,
         }
     };
-    const HEROICONS_OUTLINE_CHAT_BUBBLE_LEFT: Self = {
+    pub const HEROICONS_OUTLINE_CHAT_BUBBLE_LEFT: Self = {
         #[inline(never)]
         fn heroicons_outline_chat_bubble_left(
             crate::IconProps {
@@ -2025,7 +2025,7 @@ impl IconData {
             html: heroicons_outline_chat_bubble_left,
         }
     };
-    const HEROICONS_OUTLINE_CHAT_BUBBLE_OVAL_LEFT_ELLIPSIS: Self = {
+    pub const HEROICONS_OUTLINE_CHAT_BUBBLE_OVAL_LEFT_ELLIPSIS: Self = {
         #[inline(never)]
         fn heroicons_outline_chat_bubble_oval_left_ellipsis(
             crate::IconProps {
@@ -2047,7 +2047,7 @@ impl IconData {
             html: heroicons_outline_chat_bubble_oval_left_ellipsis,
         }
     };
-    const HEROICONS_OUTLINE_CHAT_BUBBLE_OVAL_LEFT: Self = {
+    pub const HEROICONS_OUTLINE_CHAT_BUBBLE_OVAL_LEFT: Self = {
         #[inline(never)]
         fn heroicons_outline_chat_bubble_oval_left(
             crate::IconProps {
@@ -2069,7 +2069,7 @@ impl IconData {
             html: heroicons_outline_chat_bubble_oval_left,
         }
     };
-    const HEROICONS_OUTLINE_CHECK_BADGE: Self = {
+    pub const HEROICONS_OUTLINE_CHECK_BADGE: Self = {
         #[inline(never)]
         fn heroicons_outline_check_badge(
             crate::IconProps {
@@ -2091,7 +2091,7 @@ impl IconData {
             html: heroicons_outline_check_badge,
         }
     };
-    const HEROICONS_OUTLINE_CHECK_CIRCLE: Self = {
+    pub const HEROICONS_OUTLINE_CHECK_CIRCLE: Self = {
         #[inline(never)]
         fn heroicons_outline_check_circle(
             crate::IconProps {
@@ -2113,7 +2113,7 @@ impl IconData {
             html: heroicons_outline_check_circle,
         }
     };
-    const HEROICONS_OUTLINE_CHECK: Self = {
+    pub const HEROICONS_OUTLINE_CHECK: Self = {
         #[inline(never)]
         fn heroicons_outline_check(
             crate::IconProps {
@@ -2135,7 +2135,7 @@ impl IconData {
             html: heroicons_outline_check,
         }
     };
-    const HEROICONS_OUTLINE_CHEVRON_DOUBLE_DOWN: Self = {
+    pub const HEROICONS_OUTLINE_CHEVRON_DOUBLE_DOWN: Self = {
         #[inline(never)]
         fn heroicons_outline_chevron_double_down(
             crate::IconProps {
@@ -2157,7 +2157,7 @@ impl IconData {
             html: heroicons_outline_chevron_double_down,
         }
     };
-    const HEROICONS_OUTLINE_CHEVRON_DOUBLE_LEFT: Self = {
+    pub const HEROICONS_OUTLINE_CHEVRON_DOUBLE_LEFT: Self = {
         #[inline(never)]
         fn heroicons_outline_chevron_double_left(
             crate::IconProps {
@@ -2179,7 +2179,7 @@ impl IconData {
             html: heroicons_outline_chevron_double_left,
         }
     };
-    const HEROICONS_OUTLINE_CHEVRON_DOUBLE_RIGHT: Self = {
+    pub const HEROICONS_OUTLINE_CHEVRON_DOUBLE_RIGHT: Self = {
         #[inline(never)]
         fn heroicons_outline_chevron_double_right(
             crate::IconProps {
@@ -2201,7 +2201,7 @@ impl IconData {
             html: heroicons_outline_chevron_double_right,
         }
     };
-    const HEROICONS_OUTLINE_CHEVRON_DOUBLE_UP: Self = {
+    pub const HEROICONS_OUTLINE_CHEVRON_DOUBLE_UP: Self = {
         #[inline(never)]
         fn heroicons_outline_chevron_double_up(
             crate::IconProps {
@@ -2223,7 +2223,7 @@ impl IconData {
             html: heroicons_outline_chevron_double_up,
         }
     };
-    const HEROICONS_OUTLINE_CHEVRON_DOWN: Self = {
+    pub const HEROICONS_OUTLINE_CHEVRON_DOWN: Self = {
         #[inline(never)]
         fn heroicons_outline_chevron_down(
             crate::IconProps {
@@ -2245,7 +2245,7 @@ impl IconData {
             html: heroicons_outline_chevron_down,
         }
     };
-    const HEROICONS_OUTLINE_CHEVRON_LEFT: Self = {
+    pub const HEROICONS_OUTLINE_CHEVRON_LEFT: Self = {
         #[inline(never)]
         fn heroicons_outline_chevron_left(
             crate::IconProps {
@@ -2267,7 +2267,7 @@ impl IconData {
             html: heroicons_outline_chevron_left,
         }
     };
-    const HEROICONS_OUTLINE_CHEVRON_RIGHT: Self = {
+    pub const HEROICONS_OUTLINE_CHEVRON_RIGHT: Self = {
         #[inline(never)]
         fn heroicons_outline_chevron_right(
             crate::IconProps {
@@ -2289,7 +2289,7 @@ impl IconData {
             html: heroicons_outline_chevron_right,
         }
     };
-    const HEROICONS_OUTLINE_CHEVRON_UP_DOWN: Self = {
+    pub const HEROICONS_OUTLINE_CHEVRON_UP_DOWN: Self = {
         #[inline(never)]
         fn heroicons_outline_chevron_up_down(
             crate::IconProps {
@@ -2311,7 +2311,7 @@ impl IconData {
             html: heroicons_outline_chevron_up_down,
         }
     };
-    const HEROICONS_OUTLINE_CHEVRON_UP: Self = {
+    pub const HEROICONS_OUTLINE_CHEVRON_UP: Self = {
         #[inline(never)]
         fn heroicons_outline_chevron_up(
             crate::IconProps {
@@ -2333,7 +2333,7 @@ impl IconData {
             html: heroicons_outline_chevron_up,
         }
     };
-    const HEROICONS_OUTLINE_CIRCLE_STACK: Self = {
+    pub const HEROICONS_OUTLINE_CIRCLE_STACK: Self = {
         #[inline(never)]
         fn heroicons_outline_circle_stack(
             crate::IconProps {
@@ -2355,7 +2355,7 @@ impl IconData {
             html: heroicons_outline_circle_stack,
         }
     };
-    const HEROICONS_OUTLINE_CLIPBOARD_DOCUMENT_CHECK: Self = {
+    pub const HEROICONS_OUTLINE_CLIPBOARD_DOCUMENT_CHECK: Self = {
         #[inline(never)]
         fn heroicons_outline_clipboard_document_check(
             crate::IconProps {
@@ -2377,7 +2377,7 @@ impl IconData {
             html: heroicons_outline_clipboard_document_check,
         }
     };
-    const HEROICONS_OUTLINE_CLIPBOARD_DOCUMENT_LIST: Self = {
+    pub const HEROICONS_OUTLINE_CLIPBOARD_DOCUMENT_LIST: Self = {
         #[inline(never)]
         fn heroicons_outline_clipboard_document_list(
             crate::IconProps {
@@ -2399,7 +2399,7 @@ impl IconData {
             html: heroicons_outline_clipboard_document_list,
         }
     };
-    const HEROICONS_OUTLINE_CLIPBOARD_DOCUMENT: Self = {
+    pub const HEROICONS_OUTLINE_CLIPBOARD_DOCUMENT: Self = {
         #[inline(never)]
         fn heroicons_outline_clipboard_document(
             crate::IconProps {
@@ -2421,7 +2421,7 @@ impl IconData {
             html: heroicons_outline_clipboard_document,
         }
     };
-    const HEROICONS_OUTLINE_CLIPBOARD: Self = {
+    pub const HEROICONS_OUTLINE_CLIPBOARD: Self = {
         #[inline(never)]
         fn heroicons_outline_clipboard(
             crate::IconProps {
@@ -2443,7 +2443,7 @@ impl IconData {
             html: heroicons_outline_clipboard,
         }
     };
-    const HEROICONS_OUTLINE_CLOCK: Self = {
+    pub const HEROICONS_OUTLINE_CLOCK: Self = {
         #[inline(never)]
         fn heroicons_outline_clock(
             crate::IconProps {
@@ -2465,7 +2465,7 @@ impl IconData {
             html: heroicons_outline_clock,
         }
     };
-    const HEROICONS_OUTLINE_CLOUD_ARROW_DOWN: Self = {
+    pub const HEROICONS_OUTLINE_CLOUD_ARROW_DOWN: Self = {
         #[inline(never)]
         fn heroicons_outline_cloud_arrow_down(
             crate::IconProps {
@@ -2487,7 +2487,7 @@ impl IconData {
             html: heroicons_outline_cloud_arrow_down,
         }
     };
-    const HEROICONS_OUTLINE_CLOUD_ARROW_UP: Self = {
+    pub const HEROICONS_OUTLINE_CLOUD_ARROW_UP: Self = {
         #[inline(never)]
         fn heroicons_outline_cloud_arrow_up(
             crate::IconProps {
@@ -2509,7 +2509,7 @@ impl IconData {
             html: heroicons_outline_cloud_arrow_up,
         }
     };
-    const HEROICONS_OUTLINE_CLOUD: Self = {
+    pub const HEROICONS_OUTLINE_CLOUD: Self = {
         #[inline(never)]
         fn heroicons_outline_cloud(
             crate::IconProps {
@@ -2531,7 +2531,7 @@ impl IconData {
             html: heroicons_outline_cloud,
         }
     };
-    const HEROICONS_OUTLINE_CODE_BRACKET_SQUARE: Self = {
+    pub const HEROICONS_OUTLINE_CODE_BRACKET_SQUARE: Self = {
         #[inline(never)]
         fn heroicons_outline_code_bracket_square(
             crate::IconProps {
@@ -2553,7 +2553,7 @@ impl IconData {
             html: heroicons_outline_code_bracket_square,
         }
     };
-    const HEROICONS_OUTLINE_CODE_BRACKET: Self = {
+    pub const HEROICONS_OUTLINE_CODE_BRACKET: Self = {
         #[inline(never)]
         fn heroicons_outline_code_bracket(
             crate::IconProps {
@@ -2575,7 +2575,7 @@ impl IconData {
             html: heroicons_outline_code_bracket,
         }
     };
-    const HEROICONS_OUTLINE_COG_6_TOOTH: Self = {
+    pub const HEROICONS_OUTLINE_COG_6_TOOTH: Self = {
         #[inline(never)]
         fn heroicons_outline_cog_6_tooth(
             crate::IconProps {
@@ -2597,7 +2597,7 @@ impl IconData {
             html: heroicons_outline_cog_6_tooth,
         }
     };
-    const HEROICONS_OUTLINE_COG_8_TOOTH: Self = {
+    pub const HEROICONS_OUTLINE_COG_8_TOOTH: Self = {
         #[inline(never)]
         fn heroicons_outline_cog_8_tooth(
             crate::IconProps {
@@ -2619,7 +2619,7 @@ impl IconData {
             html: heroicons_outline_cog_8_tooth,
         }
     };
-    const HEROICONS_OUTLINE_COG: Self = {
+    pub const HEROICONS_OUTLINE_COG: Self = {
         #[inline(never)]
         fn heroicons_outline_cog(
             crate::IconProps {
@@ -2641,7 +2641,7 @@ impl IconData {
             html: heroicons_outline_cog,
         }
     };
-    const HEROICONS_OUTLINE_COMMAND_LINE: Self = {
+    pub const HEROICONS_OUTLINE_COMMAND_LINE: Self = {
         #[inline(never)]
         fn heroicons_outline_command_line(
             crate::IconProps {
@@ -2663,7 +2663,7 @@ impl IconData {
             html: heroicons_outline_command_line,
         }
     };
-    const HEROICONS_OUTLINE_COMPUTER_DESKTOP: Self = {
+    pub const HEROICONS_OUTLINE_COMPUTER_DESKTOP: Self = {
         #[inline(never)]
         fn heroicons_outline_computer_desktop(
             crate::IconProps {
@@ -2685,7 +2685,7 @@ impl IconData {
             html: heroicons_outline_computer_desktop,
         }
     };
-    const HEROICONS_OUTLINE_CPU_CHIP: Self = {
+    pub const HEROICONS_OUTLINE_CPU_CHIP: Self = {
         #[inline(never)]
         fn heroicons_outline_cpu_chip(
             crate::IconProps {
@@ -2707,7 +2707,7 @@ impl IconData {
             html: heroicons_outline_cpu_chip,
         }
     };
-    const HEROICONS_OUTLINE_CREDIT_CARD: Self = {
+    pub const HEROICONS_OUTLINE_CREDIT_CARD: Self = {
         #[inline(never)]
         fn heroicons_outline_credit_card(
             crate::IconProps {
@@ -2729,7 +2729,7 @@ impl IconData {
             html: heroicons_outline_credit_card,
         }
     };
-    const HEROICONS_OUTLINE_CUBE_TRANSPARENT: Self = {
+    pub const HEROICONS_OUTLINE_CUBE_TRANSPARENT: Self = {
         #[inline(never)]
         fn heroicons_outline_cube_transparent(
             crate::IconProps {
@@ -2751,7 +2751,7 @@ impl IconData {
             html: heroicons_outline_cube_transparent,
         }
     };
-    const HEROICONS_OUTLINE_CUBE: Self = {
+    pub const HEROICONS_OUTLINE_CUBE: Self = {
         #[inline(never)]
         fn heroicons_outline_cube(
             crate::IconProps {
@@ -2773,7 +2773,7 @@ impl IconData {
             html: heroicons_outline_cube,
         }
     };
-    const HEROICONS_OUTLINE_CURRENCY_BANGLADESHI: Self = {
+    pub const HEROICONS_OUTLINE_CURRENCY_BANGLADESHI: Self = {
         #[inline(never)]
         fn heroicons_outline_currency_bangladeshi(
             crate::IconProps {
@@ -2795,7 +2795,7 @@ impl IconData {
             html: heroicons_outline_currency_bangladeshi,
         }
     };
-    const HEROICONS_OUTLINE_CURRENCY_DOLLAR: Self = {
+    pub const HEROICONS_OUTLINE_CURRENCY_DOLLAR: Self = {
         #[inline(never)]
         fn heroicons_outline_currency_dollar(
             crate::IconProps {
@@ -2817,7 +2817,7 @@ impl IconData {
             html: heroicons_outline_currency_dollar,
         }
     };
-    const HEROICONS_OUTLINE_CURRENCY_EURO: Self = {
+    pub const HEROICONS_OUTLINE_CURRENCY_EURO: Self = {
         #[inline(never)]
         fn heroicons_outline_currency_euro(
             crate::IconProps {
@@ -2839,7 +2839,7 @@ impl IconData {
             html: heroicons_outline_currency_euro,
         }
     };
-    const HEROICONS_OUTLINE_CURRENCY_POUND: Self = {
+    pub const HEROICONS_OUTLINE_CURRENCY_POUND: Self = {
         #[inline(never)]
         fn heroicons_outline_currency_pound(
             crate::IconProps {
@@ -2861,7 +2861,7 @@ impl IconData {
             html: heroicons_outline_currency_pound,
         }
     };
-    const HEROICONS_OUTLINE_CURRENCY_RUPEE: Self = {
+    pub const HEROICONS_OUTLINE_CURRENCY_RUPEE: Self = {
         #[inline(never)]
         fn heroicons_outline_currency_rupee(
             crate::IconProps {
@@ -2883,7 +2883,7 @@ impl IconData {
             html: heroicons_outline_currency_rupee,
         }
     };
-    const HEROICONS_OUTLINE_CURRENCY_YEN: Self = {
+    pub const HEROICONS_OUTLINE_CURRENCY_YEN: Self = {
         #[inline(never)]
         fn heroicons_outline_currency_yen(
             crate::IconProps {
@@ -2905,7 +2905,7 @@ impl IconData {
             html: heroicons_outline_currency_yen,
         }
     };
-    const HEROICONS_OUTLINE_CURSOR_ARROW_RAYS: Self = {
+    pub const HEROICONS_OUTLINE_CURSOR_ARROW_RAYS: Self = {
         #[inline(never)]
         fn heroicons_outline_cursor_arrow_rays(
             crate::IconProps {
@@ -2927,7 +2927,7 @@ impl IconData {
             html: heroicons_outline_cursor_arrow_rays,
         }
     };
-    const HEROICONS_OUTLINE_CURSOR_ARROW_RIPPLE: Self = {
+    pub const HEROICONS_OUTLINE_CURSOR_ARROW_RIPPLE: Self = {
         #[inline(never)]
         fn heroicons_outline_cursor_arrow_ripple(
             crate::IconProps {
@@ -2949,7 +2949,7 @@ impl IconData {
             html: heroicons_outline_cursor_arrow_ripple,
         }
     };
-    const HEROICONS_OUTLINE_DEVICE_PHONE_MOBILE: Self = {
+    pub const HEROICONS_OUTLINE_DEVICE_PHONE_MOBILE: Self = {
         #[inline(never)]
         fn heroicons_outline_device_phone_mobile(
             crate::IconProps {
@@ -2971,7 +2971,7 @@ impl IconData {
             html: heroicons_outline_device_phone_mobile,
         }
     };
-    const HEROICONS_OUTLINE_DEVICE_TABLET: Self = {
+    pub const HEROICONS_OUTLINE_DEVICE_TABLET: Self = {
         #[inline(never)]
         fn heroicons_outline_device_tablet(
             crate::IconProps {
@@ -2993,7 +2993,7 @@ impl IconData {
             html: heroicons_outline_device_tablet,
         }
     };
-    const HEROICONS_OUTLINE_DOCUMENT_ARROW_DOWN: Self = {
+    pub const HEROICONS_OUTLINE_DOCUMENT_ARROW_DOWN: Self = {
         #[inline(never)]
         fn heroicons_outline_document_arrow_down(
             crate::IconProps {
@@ -3015,7 +3015,7 @@ impl IconData {
             html: heroicons_outline_document_arrow_down,
         }
     };
-    const HEROICONS_OUTLINE_DOCUMENT_ARROW_UP: Self = {
+    pub const HEROICONS_OUTLINE_DOCUMENT_ARROW_UP: Self = {
         #[inline(never)]
         fn heroicons_outline_document_arrow_up(
             crate::IconProps {
@@ -3037,7 +3037,7 @@ impl IconData {
             html: heroicons_outline_document_arrow_up,
         }
     };
-    const HEROICONS_OUTLINE_DOCUMENT_CHART_BAR: Self = {
+    pub const HEROICONS_OUTLINE_DOCUMENT_CHART_BAR: Self = {
         #[inline(never)]
         fn heroicons_outline_document_chart_bar(
             crate::IconProps {
@@ -3059,7 +3059,7 @@ impl IconData {
             html: heroicons_outline_document_chart_bar,
         }
     };
-    const HEROICONS_OUTLINE_DOCUMENT_CHECK: Self = {
+    pub const HEROICONS_OUTLINE_DOCUMENT_CHECK: Self = {
         #[inline(never)]
         fn heroicons_outline_document_check(
             crate::IconProps {
@@ -3081,7 +3081,7 @@ impl IconData {
             html: heroicons_outline_document_check,
         }
     };
-    const HEROICONS_OUTLINE_DOCUMENT_DUPLICATE: Self = {
+    pub const HEROICONS_OUTLINE_DOCUMENT_DUPLICATE: Self = {
         #[inline(never)]
         fn heroicons_outline_document_duplicate(
             crate::IconProps {
@@ -3103,7 +3103,7 @@ impl IconData {
             html: heroicons_outline_document_duplicate,
         }
     };
-    const HEROICONS_OUTLINE_DOCUMENT_MAGNIFYING_GLASS: Self = {
+    pub const HEROICONS_OUTLINE_DOCUMENT_MAGNIFYING_GLASS: Self = {
         #[inline(never)]
         fn heroicons_outline_document_magnifying_glass(
             crate::IconProps {
@@ -3125,7 +3125,7 @@ impl IconData {
             html: heroicons_outline_document_magnifying_glass,
         }
     };
-    const HEROICONS_OUTLINE_DOCUMENT_MINUS: Self = {
+    pub const HEROICONS_OUTLINE_DOCUMENT_MINUS: Self = {
         #[inline(never)]
         fn heroicons_outline_document_minus(
             crate::IconProps {
@@ -3147,7 +3147,7 @@ impl IconData {
             html: heroicons_outline_document_minus,
         }
     };
-    const HEROICONS_OUTLINE_DOCUMENT_PLUS: Self = {
+    pub const HEROICONS_OUTLINE_DOCUMENT_PLUS: Self = {
         #[inline(never)]
         fn heroicons_outline_document_plus(
             crate::IconProps {
@@ -3169,7 +3169,7 @@ impl IconData {
             html: heroicons_outline_document_plus,
         }
     };
-    const HEROICONS_OUTLINE_DOCUMENT_TEXT: Self = {
+    pub const HEROICONS_OUTLINE_DOCUMENT_TEXT: Self = {
         #[inline(never)]
         fn heroicons_outline_document_text(
             crate::IconProps {
@@ -3191,7 +3191,7 @@ impl IconData {
             html: heroicons_outline_document_text,
         }
     };
-    const HEROICONS_OUTLINE_DOCUMENT: Self = {
+    pub const HEROICONS_OUTLINE_DOCUMENT: Self = {
         #[inline(never)]
         fn heroicons_outline_document(
             crate::IconProps {
@@ -3213,7 +3213,7 @@ impl IconData {
             html: heroicons_outline_document,
         }
     };
-    const HEROICONS_OUTLINE_ELLIPSIS_HORIZONTAL_CIRCLE: Self = {
+    pub const HEROICONS_OUTLINE_ELLIPSIS_HORIZONTAL_CIRCLE: Self = {
         #[inline(never)]
         fn heroicons_outline_ellipsis_horizontal_circle(
             crate::IconProps {
@@ -3235,7 +3235,7 @@ impl IconData {
             html: heroicons_outline_ellipsis_horizontal_circle,
         }
     };
-    const HEROICONS_OUTLINE_ELLIPSIS_HORIZONTAL: Self = {
+    pub const HEROICONS_OUTLINE_ELLIPSIS_HORIZONTAL: Self = {
         #[inline(never)]
         fn heroicons_outline_ellipsis_horizontal(
             crate::IconProps {
@@ -3257,7 +3257,7 @@ impl IconData {
             html: heroicons_outline_ellipsis_horizontal,
         }
     };
-    const HEROICONS_OUTLINE_ELLIPSIS_VERTICAL: Self = {
+    pub const HEROICONS_OUTLINE_ELLIPSIS_VERTICAL: Self = {
         #[inline(never)]
         fn heroicons_outline_ellipsis_vertical(
             crate::IconProps {
@@ -3279,7 +3279,7 @@ impl IconData {
             html: heroicons_outline_ellipsis_vertical,
         }
     };
-    const HEROICONS_OUTLINE_ENVELOPE_OPEN: Self = {
+    pub const HEROICONS_OUTLINE_ENVELOPE_OPEN: Self = {
         #[inline(never)]
         fn heroicons_outline_envelope_open(
             crate::IconProps {
@@ -3301,7 +3301,7 @@ impl IconData {
             html: heroicons_outline_envelope_open,
         }
     };
-    const HEROICONS_OUTLINE_ENVELOPE: Self = {
+    pub const HEROICONS_OUTLINE_ENVELOPE: Self = {
         #[inline(never)]
         fn heroicons_outline_envelope(
             crate::IconProps {
@@ -3323,7 +3323,7 @@ impl IconData {
             html: heroicons_outline_envelope,
         }
     };
-    const HEROICONS_OUTLINE_EXCLAMATION_CIRCLE: Self = {
+    pub const HEROICONS_OUTLINE_EXCLAMATION_CIRCLE: Self = {
         #[inline(never)]
         fn heroicons_outline_exclamation_circle(
             crate::IconProps {
@@ -3345,7 +3345,7 @@ impl IconData {
             html: heroicons_outline_exclamation_circle,
         }
     };
-    const HEROICONS_OUTLINE_EXCLAMATION_TRIANGLE: Self = {
+    pub const HEROICONS_OUTLINE_EXCLAMATION_TRIANGLE: Self = {
         #[inline(never)]
         fn heroicons_outline_exclamation_triangle(
             crate::IconProps {
@@ -3367,7 +3367,7 @@ impl IconData {
             html: heroicons_outline_exclamation_triangle,
         }
     };
-    const HEROICONS_OUTLINE_EYE_DROPPER: Self = {
+    pub const HEROICONS_OUTLINE_EYE_DROPPER: Self = {
         #[inline(never)]
         fn heroicons_outline_eye_dropper(
             crate::IconProps {
@@ -3389,7 +3389,7 @@ impl IconData {
             html: heroicons_outline_eye_dropper,
         }
     };
-    const HEROICONS_OUTLINE_EYE_SLASH: Self = {
+    pub const HEROICONS_OUTLINE_EYE_SLASH: Self = {
         #[inline(never)]
         fn heroicons_outline_eye_slash(
             crate::IconProps {
@@ -3411,7 +3411,7 @@ impl IconData {
             html: heroicons_outline_eye_slash,
         }
     };
-    const HEROICONS_OUTLINE_EYE: Self = {
+    pub const HEROICONS_OUTLINE_EYE: Self = {
         #[inline(never)]
         fn heroicons_outline_eye(
             crate::IconProps {
@@ -3433,7 +3433,7 @@ impl IconData {
             html: heroicons_outline_eye,
         }
     };
-    const HEROICONS_OUTLINE_FACE_FROWN: Self = {
+    pub const HEROICONS_OUTLINE_FACE_FROWN: Self = {
         #[inline(never)]
         fn heroicons_outline_face_frown(
             crate::IconProps {
@@ -3455,7 +3455,7 @@ impl IconData {
             html: heroicons_outline_face_frown,
         }
     };
-    const HEROICONS_OUTLINE_FACE_SMILE: Self = {
+    pub const HEROICONS_OUTLINE_FACE_SMILE: Self = {
         #[inline(never)]
         fn heroicons_outline_face_smile(
             crate::IconProps {
@@ -3477,7 +3477,7 @@ impl IconData {
             html: heroicons_outline_face_smile,
         }
     };
-    const HEROICONS_OUTLINE_FILM: Self = {
+    pub const HEROICONS_OUTLINE_FILM: Self = {
         #[inline(never)]
         fn heroicons_outline_film(
             crate::IconProps {
@@ -3499,7 +3499,7 @@ impl IconData {
             html: heroicons_outline_film,
         }
     };
-    const HEROICONS_OUTLINE_FINGER_PRINT: Self = {
+    pub const HEROICONS_OUTLINE_FINGER_PRINT: Self = {
         #[inline(never)]
         fn heroicons_outline_finger_print(
             crate::IconProps {
@@ -3521,7 +3521,7 @@ impl IconData {
             html: heroicons_outline_finger_print,
         }
     };
-    const HEROICONS_OUTLINE_FIRE: Self = {
+    pub const HEROICONS_OUTLINE_FIRE: Self = {
         #[inline(never)]
         fn heroicons_outline_fire(
             crate::IconProps {
@@ -3543,7 +3543,7 @@ impl IconData {
             html: heroicons_outline_fire,
         }
     };
-    const HEROICONS_OUTLINE_FLAG: Self = {
+    pub const HEROICONS_OUTLINE_FLAG: Self = {
         #[inline(never)]
         fn heroicons_outline_flag(
             crate::IconProps {
@@ -3565,7 +3565,7 @@ impl IconData {
             html: heroicons_outline_flag,
         }
     };
-    const HEROICONS_OUTLINE_FOLDER_ARROW_DOWN: Self = {
+    pub const HEROICONS_OUTLINE_FOLDER_ARROW_DOWN: Self = {
         #[inline(never)]
         fn heroicons_outline_folder_arrow_down(
             crate::IconProps {
@@ -3587,7 +3587,7 @@ impl IconData {
             html: heroicons_outline_folder_arrow_down,
         }
     };
-    const HEROICONS_OUTLINE_FOLDER_MINUS: Self = {
+    pub const HEROICONS_OUTLINE_FOLDER_MINUS: Self = {
         #[inline(never)]
         fn heroicons_outline_folder_minus(
             crate::IconProps {
@@ -3609,7 +3609,7 @@ impl IconData {
             html: heroicons_outline_folder_minus,
         }
     };
-    const HEROICONS_OUTLINE_FOLDER_OPEN: Self = {
+    pub const HEROICONS_OUTLINE_FOLDER_OPEN: Self = {
         #[inline(never)]
         fn heroicons_outline_folder_open(
             crate::IconProps {
@@ -3631,7 +3631,7 @@ impl IconData {
             html: heroicons_outline_folder_open,
         }
     };
-    const HEROICONS_OUTLINE_FOLDER_PLUS: Self = {
+    pub const HEROICONS_OUTLINE_FOLDER_PLUS: Self = {
         #[inline(never)]
         fn heroicons_outline_folder_plus(
             crate::IconProps {
@@ -3653,7 +3653,7 @@ impl IconData {
             html: heroicons_outline_folder_plus,
         }
     };
-    const HEROICONS_OUTLINE_FOLDER: Self = {
+    pub const HEROICONS_OUTLINE_FOLDER: Self = {
         #[inline(never)]
         fn heroicons_outline_folder(
             crate::IconProps {
@@ -3675,7 +3675,7 @@ impl IconData {
             html: heroicons_outline_folder,
         }
     };
-    const HEROICONS_OUTLINE_FORWARD: Self = {
+    pub const HEROICONS_OUTLINE_FORWARD: Self = {
         #[inline(never)]
         fn heroicons_outline_forward(
             crate::IconProps {
@@ -3697,7 +3697,7 @@ impl IconData {
             html: heroicons_outline_forward,
         }
     };
-    const HEROICONS_OUTLINE_FUNNEL: Self = {
+    pub const HEROICONS_OUTLINE_FUNNEL: Self = {
         #[inline(never)]
         fn heroicons_outline_funnel(
             crate::IconProps {
@@ -3719,7 +3719,7 @@ impl IconData {
             html: heroicons_outline_funnel,
         }
     };
-    const HEROICONS_OUTLINE_GIF: Self = {
+    pub const HEROICONS_OUTLINE_GIF: Self = {
         #[inline(never)]
         fn heroicons_outline_gif(
             crate::IconProps {
@@ -3741,7 +3741,7 @@ impl IconData {
             html: heroicons_outline_gif,
         }
     };
-    const HEROICONS_OUTLINE_GIFT_TOP: Self = {
+    pub const HEROICONS_OUTLINE_GIFT_TOP: Self = {
         #[inline(never)]
         fn heroicons_outline_gift_top(
             crate::IconProps {
@@ -3763,7 +3763,7 @@ impl IconData {
             html: heroicons_outline_gift_top,
         }
     };
-    const HEROICONS_OUTLINE_GIFT: Self = {
+    pub const HEROICONS_OUTLINE_GIFT: Self = {
         #[inline(never)]
         fn heroicons_outline_gift(
             crate::IconProps {
@@ -3785,7 +3785,7 @@ impl IconData {
             html: heroicons_outline_gift,
         }
     };
-    const HEROICONS_OUTLINE_GLOBE_ALT: Self = {
+    pub const HEROICONS_OUTLINE_GLOBE_ALT: Self = {
         #[inline(never)]
         fn heroicons_outline_globe_alt(
             crate::IconProps {
@@ -3807,7 +3807,7 @@ impl IconData {
             html: heroicons_outline_globe_alt,
         }
     };
-    const HEROICONS_OUTLINE_GLOBE_AMERICAS: Self = {
+    pub const HEROICONS_OUTLINE_GLOBE_AMERICAS: Self = {
         #[inline(never)]
         fn heroicons_outline_globe_americas(
             crate::IconProps {
@@ -3829,7 +3829,7 @@ impl IconData {
             html: heroicons_outline_globe_americas,
         }
     };
-    const HEROICONS_OUTLINE_GLOBE_ASIA_AUSTRALIA: Self = {
+    pub const HEROICONS_OUTLINE_GLOBE_ASIA_AUSTRALIA: Self = {
         #[inline(never)]
         fn heroicons_outline_globe_asia_australia(
             crate::IconProps {
@@ -3851,7 +3851,7 @@ impl IconData {
             html: heroicons_outline_globe_asia_australia,
         }
     };
-    const HEROICONS_OUTLINE_GLOBE_EUROPE_AFRICA: Self = {
+    pub const HEROICONS_OUTLINE_GLOBE_EUROPE_AFRICA: Self = {
         #[inline(never)]
         fn heroicons_outline_globe_europe_africa(
             crate::IconProps {
@@ -3873,7 +3873,7 @@ impl IconData {
             html: heroicons_outline_globe_europe_africa,
         }
     };
-    const HEROICONS_OUTLINE_HAND_RAISED: Self = {
+    pub const HEROICONS_OUTLINE_HAND_RAISED: Self = {
         #[inline(never)]
         fn heroicons_outline_hand_raised(
             crate::IconProps {
@@ -3895,7 +3895,7 @@ impl IconData {
             html: heroicons_outline_hand_raised,
         }
     };
-    const HEROICONS_OUTLINE_HAND_THUMB_DOWN: Self = {
+    pub const HEROICONS_OUTLINE_HAND_THUMB_DOWN: Self = {
         #[inline(never)]
         fn heroicons_outline_hand_thumb_down(
             crate::IconProps {
@@ -3917,7 +3917,7 @@ impl IconData {
             html: heroicons_outline_hand_thumb_down,
         }
     };
-    const HEROICONS_OUTLINE_HAND_THUMB_UP: Self = {
+    pub const HEROICONS_OUTLINE_HAND_THUMB_UP: Self = {
         #[inline(never)]
         fn heroicons_outline_hand_thumb_up(
             crate::IconProps {
@@ -3939,7 +3939,7 @@ impl IconData {
             html: heroicons_outline_hand_thumb_up,
         }
     };
-    const HEROICONS_OUTLINE_HASHTAG: Self = {
+    pub const HEROICONS_OUTLINE_HASHTAG: Self = {
         #[inline(never)]
         fn heroicons_outline_hashtag(
             crate::IconProps {
@@ -3961,7 +3961,7 @@ impl IconData {
             html: heroicons_outline_hashtag,
         }
     };
-    const HEROICONS_OUTLINE_HEART: Self = {
+    pub const HEROICONS_OUTLINE_HEART: Self = {
         #[inline(never)]
         fn heroicons_outline_heart(
             crate::IconProps {
@@ -3983,7 +3983,7 @@ impl IconData {
             html: heroicons_outline_heart,
         }
     };
-    const HEROICONS_OUTLINE_HOME_MODERN: Self = {
+    pub const HEROICONS_OUTLINE_HOME_MODERN: Self = {
         #[inline(never)]
         fn heroicons_outline_home_modern(
             crate::IconProps {
@@ -4005,7 +4005,7 @@ impl IconData {
             html: heroicons_outline_home_modern,
         }
     };
-    const HEROICONS_OUTLINE_HOME: Self = {
+    pub const HEROICONS_OUTLINE_HOME: Self = {
         #[inline(never)]
         fn heroicons_outline_home(
             crate::IconProps {
@@ -4027,7 +4027,7 @@ impl IconData {
             html: heroicons_outline_home,
         }
     };
-    const HEROICONS_OUTLINE_IDENTIFICATION: Self = {
+    pub const HEROICONS_OUTLINE_IDENTIFICATION: Self = {
         #[inline(never)]
         fn heroicons_outline_identification(
             crate::IconProps {
@@ -4049,7 +4049,7 @@ impl IconData {
             html: heroicons_outline_identification,
         }
     };
-    const HEROICONS_OUTLINE_INBOX_ARROW_DOWN: Self = {
+    pub const HEROICONS_OUTLINE_INBOX_ARROW_DOWN: Self = {
         #[inline(never)]
         fn heroicons_outline_inbox_arrow_down(
             crate::IconProps {
@@ -4071,7 +4071,7 @@ impl IconData {
             html: heroicons_outline_inbox_arrow_down,
         }
     };
-    const HEROICONS_OUTLINE_INBOX_STACK: Self = {
+    pub const HEROICONS_OUTLINE_INBOX_STACK: Self = {
         #[inline(never)]
         fn heroicons_outline_inbox_stack(
             crate::IconProps {
@@ -4093,7 +4093,7 @@ impl IconData {
             html: heroicons_outline_inbox_stack,
         }
     };
-    const HEROICONS_OUTLINE_INBOX: Self = {
+    pub const HEROICONS_OUTLINE_INBOX: Self = {
         #[inline(never)]
         fn heroicons_outline_inbox(
             crate::IconProps {
@@ -4115,7 +4115,7 @@ impl IconData {
             html: heroicons_outline_inbox,
         }
     };
-    const HEROICONS_OUTLINE_INFORMATION_CIRCLE: Self = {
+    pub const HEROICONS_OUTLINE_INFORMATION_CIRCLE: Self = {
         #[inline(never)]
         fn heroicons_outline_information_circle(
             crate::IconProps {
@@ -4137,7 +4137,7 @@ impl IconData {
             html: heroicons_outline_information_circle,
         }
     };
-    const HEROICONS_OUTLINE_KEY: Self = {
+    pub const HEROICONS_OUTLINE_KEY: Self = {
         #[inline(never)]
         fn heroicons_outline_key(
             crate::IconProps {
@@ -4159,7 +4159,7 @@ impl IconData {
             html: heroicons_outline_key,
         }
     };
-    const HEROICONS_OUTLINE_LANGUAGE: Self = {
+    pub const HEROICONS_OUTLINE_LANGUAGE: Self = {
         #[inline(never)]
         fn heroicons_outline_language(
             crate::IconProps {
@@ -4181,7 +4181,7 @@ impl IconData {
             html: heroicons_outline_language,
         }
     };
-    const HEROICONS_OUTLINE_LIFEBUOY: Self = {
+    pub const HEROICONS_OUTLINE_LIFEBUOY: Self = {
         #[inline(never)]
         fn heroicons_outline_lifebuoy(
             crate::IconProps {
@@ -4203,7 +4203,7 @@ impl IconData {
             html: heroicons_outline_lifebuoy,
         }
     };
-    const HEROICONS_OUTLINE_LIGHT_BULB: Self = {
+    pub const HEROICONS_OUTLINE_LIGHT_BULB: Self = {
         #[inline(never)]
         fn heroicons_outline_light_bulb(
             crate::IconProps {
@@ -4225,7 +4225,7 @@ impl IconData {
             html: heroicons_outline_light_bulb,
         }
     };
-    const HEROICONS_OUTLINE_LINK: Self = {
+    pub const HEROICONS_OUTLINE_LINK: Self = {
         #[inline(never)]
         fn heroicons_outline_link(
             crate::IconProps {
@@ -4247,7 +4247,7 @@ impl IconData {
             html: heroicons_outline_link,
         }
     };
-    const HEROICONS_OUTLINE_LIST_BULLET: Self = {
+    pub const HEROICONS_OUTLINE_LIST_BULLET: Self = {
         #[inline(never)]
         fn heroicons_outline_list_bullet(
             crate::IconProps {
@@ -4269,7 +4269,7 @@ impl IconData {
             html: heroicons_outline_list_bullet,
         }
     };
-    const HEROICONS_OUTLINE_LOCK_CLOSED: Self = {
+    pub const HEROICONS_OUTLINE_LOCK_CLOSED: Self = {
         #[inline(never)]
         fn heroicons_outline_lock_closed(
             crate::IconProps {
@@ -4291,7 +4291,7 @@ impl IconData {
             html: heroicons_outline_lock_closed,
         }
     };
-    const HEROICONS_OUTLINE_LOCK_OPEN: Self = {
+    pub const HEROICONS_OUTLINE_LOCK_OPEN: Self = {
         #[inline(never)]
         fn heroicons_outline_lock_open(
             crate::IconProps {
@@ -4313,7 +4313,7 @@ impl IconData {
             html: heroicons_outline_lock_open,
         }
     };
-    const HEROICONS_OUTLINE_MAGNIFYING_GLASS_CIRCLE: Self = {
+    pub const HEROICONS_OUTLINE_MAGNIFYING_GLASS_CIRCLE: Self = {
         #[inline(never)]
         fn heroicons_outline_magnifying_glass_circle(
             crate::IconProps {
@@ -4335,7 +4335,7 @@ impl IconData {
             html: heroicons_outline_magnifying_glass_circle,
         }
     };
-    const HEROICONS_OUTLINE_MAGNIFYING_GLASS_MINUS: Self = {
+    pub const HEROICONS_OUTLINE_MAGNIFYING_GLASS_MINUS: Self = {
         #[inline(never)]
         fn heroicons_outline_magnifying_glass_minus(
             crate::IconProps {
@@ -4357,7 +4357,7 @@ impl IconData {
             html: heroicons_outline_magnifying_glass_minus,
         }
     };
-    const HEROICONS_OUTLINE_MAGNIFYING_GLASS_PLUS: Self = {
+    pub const HEROICONS_OUTLINE_MAGNIFYING_GLASS_PLUS: Self = {
         #[inline(never)]
         fn heroicons_outline_magnifying_glass_plus(
             crate::IconProps {
@@ -4379,7 +4379,7 @@ impl IconData {
             html: heroicons_outline_magnifying_glass_plus,
         }
     };
-    const HEROICONS_OUTLINE_MAGNIFYING_GLASS: Self = {
+    pub const HEROICONS_OUTLINE_MAGNIFYING_GLASS: Self = {
         #[inline(never)]
         fn heroicons_outline_magnifying_glass(
             crate::IconProps {
@@ -4401,7 +4401,7 @@ impl IconData {
             html: heroicons_outline_magnifying_glass,
         }
     };
-    const HEROICONS_OUTLINE_MAP_PIN: Self = {
+    pub const HEROICONS_OUTLINE_MAP_PIN: Self = {
         #[inline(never)]
         fn heroicons_outline_map_pin(
             crate::IconProps {
@@ -4423,7 +4423,7 @@ impl IconData {
             html: heroicons_outline_map_pin,
         }
     };
-    const HEROICONS_OUTLINE_MAP: Self = {
+    pub const HEROICONS_OUTLINE_MAP: Self = {
         #[inline(never)]
         fn heroicons_outline_map(
             crate::IconProps {
@@ -4445,7 +4445,7 @@ impl IconData {
             html: heroicons_outline_map,
         }
     };
-    const HEROICONS_OUTLINE_MEGAPHONE: Self = {
+    pub const HEROICONS_OUTLINE_MEGAPHONE: Self = {
         #[inline(never)]
         fn heroicons_outline_megaphone(
             crate::IconProps {
@@ -4467,7 +4467,7 @@ impl IconData {
             html: heroicons_outline_megaphone,
         }
     };
-    const HEROICONS_OUTLINE_MICROPHONE: Self = {
+    pub const HEROICONS_OUTLINE_MICROPHONE: Self = {
         #[inline(never)]
         fn heroicons_outline_microphone(
             crate::IconProps {
@@ -4489,7 +4489,7 @@ impl IconData {
             html: heroicons_outline_microphone,
         }
     };
-    const HEROICONS_OUTLINE_MINUS_CIRCLE: Self = {
+    pub const HEROICONS_OUTLINE_MINUS_CIRCLE: Self = {
         #[inline(never)]
         fn heroicons_outline_minus_circle(
             crate::IconProps {
@@ -4511,7 +4511,7 @@ impl IconData {
             html: heroicons_outline_minus_circle,
         }
     };
-    const HEROICONS_OUTLINE_MINUS_SMALL: Self = {
+    pub const HEROICONS_OUTLINE_MINUS_SMALL: Self = {
         #[inline(never)]
         fn heroicons_outline_minus_small(
             crate::IconProps {
@@ -4533,7 +4533,7 @@ impl IconData {
             html: heroicons_outline_minus_small,
         }
     };
-    const HEROICONS_OUTLINE_MINUS: Self = {
+    pub const HEROICONS_OUTLINE_MINUS: Self = {
         #[inline(never)]
         fn heroicons_outline_minus(
             crate::IconProps {
@@ -4555,7 +4555,7 @@ impl IconData {
             html: heroicons_outline_minus,
         }
     };
-    const HEROICONS_OUTLINE_MOON: Self = {
+    pub const HEROICONS_OUTLINE_MOON: Self = {
         #[inline(never)]
         fn heroicons_outline_moon(
             crate::IconProps {
@@ -4577,7 +4577,7 @@ impl IconData {
             html: heroicons_outline_moon,
         }
     };
-    const HEROICONS_OUTLINE_MUSICAL_NOTE: Self = {
+    pub const HEROICONS_OUTLINE_MUSICAL_NOTE: Self = {
         #[inline(never)]
         fn heroicons_outline_musical_note(
             crate::IconProps {
@@ -4599,7 +4599,7 @@ impl IconData {
             html: heroicons_outline_musical_note,
         }
     };
-    const HEROICONS_OUTLINE_NEWSPAPER: Self = {
+    pub const HEROICONS_OUTLINE_NEWSPAPER: Self = {
         #[inline(never)]
         fn heroicons_outline_newspaper(
             crate::IconProps {
@@ -4621,7 +4621,7 @@ impl IconData {
             html: heroicons_outline_newspaper,
         }
     };
-    const HEROICONS_OUTLINE_NO_SYMBOL: Self = {
+    pub const HEROICONS_OUTLINE_NO_SYMBOL: Self = {
         #[inline(never)]
         fn heroicons_outline_no_symbol(
             crate::IconProps {
@@ -4643,7 +4643,7 @@ impl IconData {
             html: heroicons_outline_no_symbol,
         }
     };
-    const HEROICONS_OUTLINE_PAINT_BRUSH: Self = {
+    pub const HEROICONS_OUTLINE_PAINT_BRUSH: Self = {
         #[inline(never)]
         fn heroicons_outline_paint_brush(
             crate::IconProps {
@@ -4665,7 +4665,7 @@ impl IconData {
             html: heroicons_outline_paint_brush,
         }
     };
-    const HEROICONS_OUTLINE_PAPER_AIRPLANE: Self = {
+    pub const HEROICONS_OUTLINE_PAPER_AIRPLANE: Self = {
         #[inline(never)]
         fn heroicons_outline_paper_airplane(
             crate::IconProps {
@@ -4687,7 +4687,7 @@ impl IconData {
             html: heroicons_outline_paper_airplane,
         }
     };
-    const HEROICONS_OUTLINE_PAPER_CLIP: Self = {
+    pub const HEROICONS_OUTLINE_PAPER_CLIP: Self = {
         #[inline(never)]
         fn heroicons_outline_paper_clip(
             crate::IconProps {
@@ -4709,7 +4709,7 @@ impl IconData {
             html: heroicons_outline_paper_clip,
         }
     };
-    const HEROICONS_OUTLINE_PAUSE_CIRCLE: Self = {
+    pub const HEROICONS_OUTLINE_PAUSE_CIRCLE: Self = {
         #[inline(never)]
         fn heroicons_outline_pause_circle(
             crate::IconProps {
@@ -4731,7 +4731,7 @@ impl IconData {
             html: heroicons_outline_pause_circle,
         }
     };
-    const HEROICONS_OUTLINE_PAUSE: Self = {
+    pub const HEROICONS_OUTLINE_PAUSE: Self = {
         #[inline(never)]
         fn heroicons_outline_pause(
             crate::IconProps {
@@ -4753,7 +4753,7 @@ impl IconData {
             html: heroicons_outline_pause,
         }
     };
-    const HEROICONS_OUTLINE_PENCIL_SQUARE: Self = {
+    pub const HEROICONS_OUTLINE_PENCIL_SQUARE: Self = {
         #[inline(never)]
         fn heroicons_outline_pencil_square(
             crate::IconProps {
@@ -4775,7 +4775,7 @@ impl IconData {
             html: heroicons_outline_pencil_square,
         }
     };
-    const HEROICONS_OUTLINE_PENCIL: Self = {
+    pub const HEROICONS_OUTLINE_PENCIL: Self = {
         #[inline(never)]
         fn heroicons_outline_pencil(
             crate::IconProps {
@@ -4797,7 +4797,7 @@ impl IconData {
             html: heroicons_outline_pencil,
         }
     };
-    const HEROICONS_OUTLINE_PHONE_ARROW_DOWN_LEFT: Self = {
+    pub const HEROICONS_OUTLINE_PHONE_ARROW_DOWN_LEFT: Self = {
         #[inline(never)]
         fn heroicons_outline_phone_arrow_down_left(
             crate::IconProps {
@@ -4819,7 +4819,7 @@ impl IconData {
             html: heroicons_outline_phone_arrow_down_left,
         }
     };
-    const HEROICONS_OUTLINE_PHONE_ARROW_UP_RIGHT: Self = {
+    pub const HEROICONS_OUTLINE_PHONE_ARROW_UP_RIGHT: Self = {
         #[inline(never)]
         fn heroicons_outline_phone_arrow_up_right(
             crate::IconProps {
@@ -4841,7 +4841,7 @@ impl IconData {
             html: heroicons_outline_phone_arrow_up_right,
         }
     };
-    const HEROICONS_OUTLINE_PHONE_X_MARK: Self = {
+    pub const HEROICONS_OUTLINE_PHONE_X_MARK: Self = {
         #[inline(never)]
         fn heroicons_outline_phone_x_mark(
             crate::IconProps {
@@ -4863,7 +4863,7 @@ impl IconData {
             html: heroicons_outline_phone_x_mark,
         }
     };
-    const HEROICONS_OUTLINE_PHONE: Self = {
+    pub const HEROICONS_OUTLINE_PHONE: Self = {
         #[inline(never)]
         fn heroicons_outline_phone(
             crate::IconProps {
@@ -4885,7 +4885,7 @@ impl IconData {
             html: heroicons_outline_phone,
         }
     };
-    const HEROICONS_OUTLINE_PHOTO: Self = {
+    pub const HEROICONS_OUTLINE_PHOTO: Self = {
         #[inline(never)]
         fn heroicons_outline_photo(
             crate::IconProps {
@@ -4907,7 +4907,7 @@ impl IconData {
             html: heroicons_outline_photo,
         }
     };
-    const HEROICONS_OUTLINE_PLAY_CIRCLE: Self = {
+    pub const HEROICONS_OUTLINE_PLAY_CIRCLE: Self = {
         #[inline(never)]
         fn heroicons_outline_play_circle(
             crate::IconProps {
@@ -4929,7 +4929,7 @@ impl IconData {
             html: heroicons_outline_play_circle,
         }
     };
-    const HEROICONS_OUTLINE_PLAY_PAUSE: Self = {
+    pub const HEROICONS_OUTLINE_PLAY_PAUSE: Self = {
         #[inline(never)]
         fn heroicons_outline_play_pause(
             crate::IconProps {
@@ -4951,7 +4951,7 @@ impl IconData {
             html: heroicons_outline_play_pause,
         }
     };
-    const HEROICONS_OUTLINE_PLAY: Self = {
+    pub const HEROICONS_OUTLINE_PLAY: Self = {
         #[inline(never)]
         fn heroicons_outline_play(
             crate::IconProps {
@@ -4973,7 +4973,7 @@ impl IconData {
             html: heroicons_outline_play,
         }
     };
-    const HEROICONS_OUTLINE_PLUS_CIRCLE: Self = {
+    pub const HEROICONS_OUTLINE_PLUS_CIRCLE: Self = {
         #[inline(never)]
         fn heroicons_outline_plus_circle(
             crate::IconProps {
@@ -4995,7 +4995,7 @@ impl IconData {
             html: heroicons_outline_plus_circle,
         }
     };
-    const HEROICONS_OUTLINE_PLUS_SMALL: Self = {
+    pub const HEROICONS_OUTLINE_PLUS_SMALL: Self = {
         #[inline(never)]
         fn heroicons_outline_plus_small(
             crate::IconProps {
@@ -5017,7 +5017,7 @@ impl IconData {
             html: heroicons_outline_plus_small,
         }
     };
-    const HEROICONS_OUTLINE_PLUS: Self = {
+    pub const HEROICONS_OUTLINE_PLUS: Self = {
         #[inline(never)]
         fn heroicons_outline_plus(
             crate::IconProps {
@@ -5039,7 +5039,7 @@ impl IconData {
             html: heroicons_outline_plus,
         }
     };
-    const HEROICONS_OUTLINE_POWER: Self = {
+    pub const HEROICONS_OUTLINE_POWER: Self = {
         #[inline(never)]
         fn heroicons_outline_power(
             crate::IconProps {
@@ -5061,7 +5061,7 @@ impl IconData {
             html: heroicons_outline_power,
         }
     };
-    const HEROICONS_OUTLINE_PRESENTATION_CHART_BAR: Self = {
+    pub const HEROICONS_OUTLINE_PRESENTATION_CHART_BAR: Self = {
         #[inline(never)]
         fn heroicons_outline_presentation_chart_bar(
             crate::IconProps {
@@ -5083,7 +5083,7 @@ impl IconData {
             html: heroicons_outline_presentation_chart_bar,
         }
     };
-    const HEROICONS_OUTLINE_PRESENTATION_CHART_LINE: Self = {
+    pub const HEROICONS_OUTLINE_PRESENTATION_CHART_LINE: Self = {
         #[inline(never)]
         fn heroicons_outline_presentation_chart_line(
             crate::IconProps {
@@ -5105,7 +5105,7 @@ impl IconData {
             html: heroicons_outline_presentation_chart_line,
         }
     };
-    const HEROICONS_OUTLINE_PRINTER: Self = {
+    pub const HEROICONS_OUTLINE_PRINTER: Self = {
         #[inline(never)]
         fn heroicons_outline_printer(
             crate::IconProps {
@@ -5127,7 +5127,7 @@ impl IconData {
             html: heroicons_outline_printer,
         }
     };
-    const HEROICONS_OUTLINE_PUZZLE_PIECE: Self = {
+    pub const HEROICONS_OUTLINE_PUZZLE_PIECE: Self = {
         #[inline(never)]
         fn heroicons_outline_puzzle_piece(
             crate::IconProps {
@@ -5149,7 +5149,7 @@ impl IconData {
             html: heroicons_outline_puzzle_piece,
         }
     };
-    const HEROICONS_OUTLINE_QR_CODE: Self = {
+    pub const HEROICONS_OUTLINE_QR_CODE: Self = {
         #[inline(never)]
         fn heroicons_outline_qr_code(
             crate::IconProps {
@@ -5171,7 +5171,7 @@ impl IconData {
             html: heroicons_outline_qr_code,
         }
     };
-    const HEROICONS_OUTLINE_QUESTION_MARK_CIRCLE: Self = {
+    pub const HEROICONS_OUTLINE_QUESTION_MARK_CIRCLE: Self = {
         #[inline(never)]
         fn heroicons_outline_question_mark_circle(
             crate::IconProps {
@@ -5193,7 +5193,7 @@ impl IconData {
             html: heroicons_outline_question_mark_circle,
         }
     };
-    const HEROICONS_OUTLINE_QUEUE_LIST: Self = {
+    pub const HEROICONS_OUTLINE_QUEUE_LIST: Self = {
         #[inline(never)]
         fn heroicons_outline_queue_list(
             crate::IconProps {
@@ -5215,7 +5215,7 @@ impl IconData {
             html: heroicons_outline_queue_list,
         }
     };
-    const HEROICONS_OUTLINE_RADIO: Self = {
+    pub const HEROICONS_OUTLINE_RADIO: Self = {
         #[inline(never)]
         fn heroicons_outline_radio(
             crate::IconProps {
@@ -5237,7 +5237,7 @@ impl IconData {
             html: heroicons_outline_radio,
         }
     };
-    const HEROICONS_OUTLINE_RECEIPT_PERCENT: Self = {
+    pub const HEROICONS_OUTLINE_RECEIPT_PERCENT: Self = {
         #[inline(never)]
         fn heroicons_outline_receipt_percent(
             crate::IconProps {
@@ -5259,7 +5259,7 @@ impl IconData {
             html: heroicons_outline_receipt_percent,
         }
     };
-    const HEROICONS_OUTLINE_RECEIPT_REFUND: Self = {
+    pub const HEROICONS_OUTLINE_RECEIPT_REFUND: Self = {
         #[inline(never)]
         fn heroicons_outline_receipt_refund(
             crate::IconProps {
@@ -5281,7 +5281,7 @@ impl IconData {
             html: heroicons_outline_receipt_refund,
         }
     };
-    const HEROICONS_OUTLINE_RECTANGLE_GROUP: Self = {
+    pub const HEROICONS_OUTLINE_RECTANGLE_GROUP: Self = {
         #[inline(never)]
         fn heroicons_outline_rectangle_group(
             crate::IconProps {
@@ -5303,7 +5303,7 @@ impl IconData {
             html: heroicons_outline_rectangle_group,
         }
     };
-    const HEROICONS_OUTLINE_RECTANGLE_STACK: Self = {
+    pub const HEROICONS_OUTLINE_RECTANGLE_STACK: Self = {
         #[inline(never)]
         fn heroicons_outline_rectangle_stack(
             crate::IconProps {
@@ -5325,7 +5325,7 @@ impl IconData {
             html: heroicons_outline_rectangle_stack,
         }
     };
-    const HEROICONS_OUTLINE_ROCKET_LAUNCH: Self = {
+    pub const HEROICONS_OUTLINE_ROCKET_LAUNCH: Self = {
         #[inline(never)]
         fn heroicons_outline_rocket_launch(
             crate::IconProps {
@@ -5347,7 +5347,7 @@ impl IconData {
             html: heroicons_outline_rocket_launch,
         }
     };
-    const HEROICONS_OUTLINE_RSS: Self = {
+    pub const HEROICONS_OUTLINE_RSS: Self = {
         #[inline(never)]
         fn heroicons_outline_rss(
             crate::IconProps {
@@ -5369,7 +5369,7 @@ impl IconData {
             html: heroicons_outline_rss,
         }
     };
-    const HEROICONS_OUTLINE_SCALE: Self = {
+    pub const HEROICONS_OUTLINE_SCALE: Self = {
         #[inline(never)]
         fn heroicons_outline_scale(
             crate::IconProps {
@@ -5391,7 +5391,7 @@ impl IconData {
             html: heroicons_outline_scale,
         }
     };
-    const HEROICONS_OUTLINE_SCISSORS: Self = {
+    pub const HEROICONS_OUTLINE_SCISSORS: Self = {
         #[inline(never)]
         fn heroicons_outline_scissors(
             crate::IconProps {
@@ -5413,7 +5413,7 @@ impl IconData {
             html: heroicons_outline_scissors,
         }
     };
-    const HEROICONS_OUTLINE_SERVER_STACK: Self = {
+    pub const HEROICONS_OUTLINE_SERVER_STACK: Self = {
         #[inline(never)]
         fn heroicons_outline_server_stack(
             crate::IconProps {
@@ -5435,7 +5435,7 @@ impl IconData {
             html: heroicons_outline_server_stack,
         }
     };
-    const HEROICONS_OUTLINE_SERVER: Self = {
+    pub const HEROICONS_OUTLINE_SERVER: Self = {
         #[inline(never)]
         fn heroicons_outline_server(
             crate::IconProps {
@@ -5457,7 +5457,7 @@ impl IconData {
             html: heroicons_outline_server,
         }
     };
-    const HEROICONS_OUTLINE_SHARE: Self = {
+    pub const HEROICONS_OUTLINE_SHARE: Self = {
         #[inline(never)]
         fn heroicons_outline_share(
             crate::IconProps {
@@ -5479,7 +5479,7 @@ impl IconData {
             html: heroicons_outline_share,
         }
     };
-    const HEROICONS_OUTLINE_SHIELD_CHECK: Self = {
+    pub const HEROICONS_OUTLINE_SHIELD_CHECK: Self = {
         #[inline(never)]
         fn heroicons_outline_shield_check(
             crate::IconProps {
@@ -5501,7 +5501,7 @@ impl IconData {
             html: heroicons_outline_shield_check,
         }
     };
-    const HEROICONS_OUTLINE_SHIELD_EXCLAMATION: Self = {
+    pub const HEROICONS_OUTLINE_SHIELD_EXCLAMATION: Self = {
         #[inline(never)]
         fn heroicons_outline_shield_exclamation(
             crate::IconProps {
@@ -5523,7 +5523,7 @@ impl IconData {
             html: heroicons_outline_shield_exclamation,
         }
     };
-    const HEROICONS_OUTLINE_SHOPPING_BAG: Self = {
+    pub const HEROICONS_OUTLINE_SHOPPING_BAG: Self = {
         #[inline(never)]
         fn heroicons_outline_shopping_bag(
             crate::IconProps {
@@ -5545,7 +5545,7 @@ impl IconData {
             html: heroicons_outline_shopping_bag,
         }
     };
-    const HEROICONS_OUTLINE_SHOPPING_CART: Self = {
+    pub const HEROICONS_OUTLINE_SHOPPING_CART: Self = {
         #[inline(never)]
         fn heroicons_outline_shopping_cart(
             crate::IconProps {
@@ -5567,7 +5567,7 @@ impl IconData {
             html: heroicons_outline_shopping_cart,
         }
     };
-    const HEROICONS_OUTLINE_SIGNAL_SLASH: Self = {
+    pub const HEROICONS_OUTLINE_SIGNAL_SLASH: Self = {
         #[inline(never)]
         fn heroicons_outline_signal_slash(
             crate::IconProps {
@@ -5589,7 +5589,7 @@ impl IconData {
             html: heroicons_outline_signal_slash,
         }
     };
-    const HEROICONS_OUTLINE_SIGNAL: Self = {
+    pub const HEROICONS_OUTLINE_SIGNAL: Self = {
         #[inline(never)]
         fn heroicons_outline_signal(
             crate::IconProps {
@@ -5611,7 +5611,7 @@ impl IconData {
             html: heroicons_outline_signal,
         }
     };
-    const HEROICONS_OUTLINE_SPARKLES: Self = {
+    pub const HEROICONS_OUTLINE_SPARKLES: Self = {
         #[inline(never)]
         fn heroicons_outline_sparkles(
             crate::IconProps {
@@ -5633,7 +5633,7 @@ impl IconData {
             html: heroicons_outline_sparkles,
         }
     };
-    const HEROICONS_OUTLINE_SPEAKER_WAVE: Self = {
+    pub const HEROICONS_OUTLINE_SPEAKER_WAVE: Self = {
         #[inline(never)]
         fn heroicons_outline_speaker_wave(
             crate::IconProps {
@@ -5655,7 +5655,7 @@ impl IconData {
             html: heroicons_outline_speaker_wave,
         }
     };
-    const HEROICONS_OUTLINE_SPEAKER_X_MARK: Self = {
+    pub const HEROICONS_OUTLINE_SPEAKER_X_MARK: Self = {
         #[inline(never)]
         fn heroicons_outline_speaker_x_mark(
             crate::IconProps {
@@ -5677,7 +5677,7 @@ impl IconData {
             html: heroicons_outline_speaker_x_mark,
         }
     };
-    const HEROICONS_OUTLINE_SQUARE_2_STACK: Self = {
+    pub const HEROICONS_OUTLINE_SQUARE_2_STACK: Self = {
         #[inline(never)]
         fn heroicons_outline_square_2_stack(
             crate::IconProps {
@@ -5699,7 +5699,7 @@ impl IconData {
             html: heroicons_outline_square_2_stack,
         }
     };
-    const HEROICONS_OUTLINE_SQUARE_3_STACK_3_D: Self = {
+    pub const HEROICONS_OUTLINE_SQUARE_3_STACK_3_D: Self = {
         #[inline(never)]
         fn heroicons_outline_square_3_stack_3_d(
             crate::IconProps {
@@ -5721,7 +5721,7 @@ impl IconData {
             html: heroicons_outline_square_3_stack_3_d,
         }
     };
-    const HEROICONS_OUTLINE_SQUARES_2_X_2: Self = {
+    pub const HEROICONS_OUTLINE_SQUARES_2_X_2: Self = {
         #[inline(never)]
         fn heroicons_outline_squares_2_x_2(
             crate::IconProps {
@@ -5743,7 +5743,7 @@ impl IconData {
             html: heroicons_outline_squares_2_x_2,
         }
     };
-    const HEROICONS_OUTLINE_SQUARES_PLUS: Self = {
+    pub const HEROICONS_OUTLINE_SQUARES_PLUS: Self = {
         #[inline(never)]
         fn heroicons_outline_squares_plus(
             crate::IconProps {
@@ -5765,7 +5765,7 @@ impl IconData {
             html: heroicons_outline_squares_plus,
         }
     };
-    const HEROICONS_OUTLINE_STAR: Self = {
+    pub const HEROICONS_OUTLINE_STAR: Self = {
         #[inline(never)]
         fn heroicons_outline_star(
             crate::IconProps {
@@ -5787,7 +5787,7 @@ impl IconData {
             html: heroicons_outline_star,
         }
     };
-    const HEROICONS_OUTLINE_STOP_CIRCLE: Self = {
+    pub const HEROICONS_OUTLINE_STOP_CIRCLE: Self = {
         #[inline(never)]
         fn heroicons_outline_stop_circle(
             crate::IconProps {
@@ -5809,7 +5809,7 @@ impl IconData {
             html: heroicons_outline_stop_circle,
         }
     };
-    const HEROICONS_OUTLINE_STOP: Self = {
+    pub const HEROICONS_OUTLINE_STOP: Self = {
         #[inline(never)]
         fn heroicons_outline_stop(
             crate::IconProps {
@@ -5831,7 +5831,7 @@ impl IconData {
             html: heroicons_outline_stop,
         }
     };
-    const HEROICONS_OUTLINE_SUN: Self = {
+    pub const HEROICONS_OUTLINE_SUN: Self = {
         #[inline(never)]
         fn heroicons_outline_sun(
             crate::IconProps {
@@ -5853,7 +5853,7 @@ impl IconData {
             html: heroicons_outline_sun,
         }
     };
-    const HEROICONS_OUTLINE_SWATCH: Self = {
+    pub const HEROICONS_OUTLINE_SWATCH: Self = {
         #[inline(never)]
         fn heroicons_outline_swatch(
             crate::IconProps {
@@ -5875,7 +5875,7 @@ impl IconData {
             html: heroicons_outline_swatch,
         }
     };
-    const HEROICONS_OUTLINE_TABLE_CELLS: Self = {
+    pub const HEROICONS_OUTLINE_TABLE_CELLS: Self = {
         #[inline(never)]
         fn heroicons_outline_table_cells(
             crate::IconProps {
@@ -5897,7 +5897,7 @@ impl IconData {
             html: heroicons_outline_table_cells,
         }
     };
-    const HEROICONS_OUTLINE_TAG: Self = {
+    pub const HEROICONS_OUTLINE_TAG: Self = {
         #[inline(never)]
         fn heroicons_outline_tag(
             crate::IconProps {
@@ -5919,7 +5919,7 @@ impl IconData {
             html: heroicons_outline_tag,
         }
     };
-    const HEROICONS_OUTLINE_TICKET: Self = {
+    pub const HEROICONS_OUTLINE_TICKET: Self = {
         #[inline(never)]
         fn heroicons_outline_ticket(
             crate::IconProps {
@@ -5941,7 +5941,7 @@ impl IconData {
             html: heroicons_outline_ticket,
         }
     };
-    const HEROICONS_OUTLINE_TRASH: Self = {
+    pub const HEROICONS_OUTLINE_TRASH: Self = {
         #[inline(never)]
         fn heroicons_outline_trash(
             crate::IconProps {
@@ -5963,7 +5963,7 @@ impl IconData {
             html: heroicons_outline_trash,
         }
     };
-    const HEROICONS_OUTLINE_TROPHY: Self = {
+    pub const HEROICONS_OUTLINE_TROPHY: Self = {
         #[inline(never)]
         fn heroicons_outline_trophy(
             crate::IconProps {
@@ -5985,7 +5985,7 @@ impl IconData {
             html: heroicons_outline_trophy,
         }
     };
-    const HEROICONS_OUTLINE_TRUCK: Self = {
+    pub const HEROICONS_OUTLINE_TRUCK: Self = {
         #[inline(never)]
         fn heroicons_outline_truck(
             crate::IconProps {
@@ -6007,7 +6007,7 @@ impl IconData {
             html: heroicons_outline_truck,
         }
     };
-    const HEROICONS_OUTLINE_TV: Self = {
+    pub const HEROICONS_OUTLINE_TV: Self = {
         #[inline(never)]
         fn heroicons_outline_tv(
             crate::IconProps {
@@ -6029,7 +6029,7 @@ impl IconData {
             html: heroicons_outline_tv,
         }
     };
-    const HEROICONS_OUTLINE_USER_CIRCLE: Self = {
+    pub const HEROICONS_OUTLINE_USER_CIRCLE: Self = {
         #[inline(never)]
         fn heroicons_outline_user_circle(
             crate::IconProps {
@@ -6051,7 +6051,7 @@ impl IconData {
             html: heroicons_outline_user_circle,
         }
     };
-    const HEROICONS_OUTLINE_USER_GROUP: Self = {
+    pub const HEROICONS_OUTLINE_USER_GROUP: Self = {
         #[inline(never)]
         fn heroicons_outline_user_group(
             crate::IconProps {
@@ -6073,7 +6073,7 @@ impl IconData {
             html: heroicons_outline_user_group,
         }
     };
-    const HEROICONS_OUTLINE_USER_MINUS: Self = {
+    pub const HEROICONS_OUTLINE_USER_MINUS: Self = {
         #[inline(never)]
         fn heroicons_outline_user_minus(
             crate::IconProps {
@@ -6095,7 +6095,7 @@ impl IconData {
             html: heroicons_outline_user_minus,
         }
     };
-    const HEROICONS_OUTLINE_USER_PLUS: Self = {
+    pub const HEROICONS_OUTLINE_USER_PLUS: Self = {
         #[inline(never)]
         fn heroicons_outline_user_plus(
             crate::IconProps {
@@ -6117,7 +6117,7 @@ impl IconData {
             html: heroicons_outline_user_plus,
         }
     };
-    const HEROICONS_OUTLINE_USER: Self = {
+    pub const HEROICONS_OUTLINE_USER: Self = {
         #[inline(never)]
         fn heroicons_outline_user(
             crate::IconProps {
@@ -6139,7 +6139,7 @@ impl IconData {
             html: heroicons_outline_user,
         }
     };
-    const HEROICONS_OUTLINE_USERS: Self = {
+    pub const HEROICONS_OUTLINE_USERS: Self = {
         #[inline(never)]
         fn heroicons_outline_users(
             crate::IconProps {
@@ -6161,7 +6161,7 @@ impl IconData {
             html: heroicons_outline_users,
         }
     };
-    const HEROICONS_OUTLINE_VARIABLE: Self = {
+    pub const HEROICONS_OUTLINE_VARIABLE: Self = {
         #[inline(never)]
         fn heroicons_outline_variable(
             crate::IconProps {
@@ -6183,7 +6183,7 @@ impl IconData {
             html: heroicons_outline_variable,
         }
     };
-    const HEROICONS_OUTLINE_VIDEO_CAMERA_SLASH: Self = {
+    pub const HEROICONS_OUTLINE_VIDEO_CAMERA_SLASH: Self = {
         #[inline(never)]
         fn heroicons_outline_video_camera_slash(
             crate::IconProps {
@@ -6205,7 +6205,7 @@ impl IconData {
             html: heroicons_outline_video_camera_slash,
         }
     };
-    const HEROICONS_OUTLINE_VIDEO_CAMERA: Self = {
+    pub const HEROICONS_OUTLINE_VIDEO_CAMERA: Self = {
         #[inline(never)]
         fn heroicons_outline_video_camera(
             crate::IconProps {
@@ -6227,7 +6227,7 @@ impl IconData {
             html: heroicons_outline_video_camera,
         }
     };
-    const HEROICONS_OUTLINE_VIEW_COLUMNS: Self = {
+    pub const HEROICONS_OUTLINE_VIEW_COLUMNS: Self = {
         #[inline(never)]
         fn heroicons_outline_view_columns(
             crate::IconProps {
@@ -6249,7 +6249,7 @@ impl IconData {
             html: heroicons_outline_view_columns,
         }
     };
-    const HEROICONS_OUTLINE_VIEWFINDER_CIRCLE: Self = {
+    pub const HEROICONS_OUTLINE_VIEWFINDER_CIRCLE: Self = {
         #[inline(never)]
         fn heroicons_outline_viewfinder_circle(
             crate::IconProps {
@@ -6271,7 +6271,7 @@ impl IconData {
             html: heroicons_outline_viewfinder_circle,
         }
     };
-    const HEROICONS_OUTLINE_WALLET: Self = {
+    pub const HEROICONS_OUTLINE_WALLET: Self = {
         #[inline(never)]
         fn heroicons_outline_wallet(
             crate::IconProps {
@@ -6293,7 +6293,7 @@ impl IconData {
             html: heroicons_outline_wallet,
         }
     };
-    const HEROICONS_OUTLINE_WIFI: Self = {
+    pub const HEROICONS_OUTLINE_WIFI: Self = {
         #[inline(never)]
         fn heroicons_outline_wifi(
             crate::IconProps {
@@ -6315,7 +6315,7 @@ impl IconData {
             html: heroicons_outline_wifi,
         }
     };
-    const HEROICONS_OUTLINE_WINDOW: Self = {
+    pub const HEROICONS_OUTLINE_WINDOW: Self = {
         #[inline(never)]
         fn heroicons_outline_window(
             crate::IconProps {
@@ -6337,7 +6337,7 @@ impl IconData {
             html: heroicons_outline_window,
         }
     };
-    const HEROICONS_OUTLINE_WRENCH_SCREWDRIVER: Self = {
+    pub const HEROICONS_OUTLINE_WRENCH_SCREWDRIVER: Self = {
         #[inline(never)]
         fn heroicons_outline_wrench_screwdriver(
             crate::IconProps {
@@ -6359,7 +6359,7 @@ impl IconData {
             html: heroicons_outline_wrench_screwdriver,
         }
     };
-    const HEROICONS_OUTLINE_WRENCH: Self = {
+    pub const HEROICONS_OUTLINE_WRENCH: Self = {
         #[inline(never)]
         fn heroicons_outline_wrench(
             crate::IconProps {
@@ -6381,7 +6381,7 @@ impl IconData {
             html: heroicons_outline_wrench,
         }
     };
-    const HEROICONS_OUTLINE_X_CIRCLE: Self = {
+    pub const HEROICONS_OUTLINE_X_CIRCLE: Self = {
         #[inline(never)]
         fn heroicons_outline_x_circle(
             crate::IconProps {
@@ -6403,7 +6403,7 @@ impl IconData {
             html: heroicons_outline_x_circle,
         }
     };
-    const HEROICONS_OUTLINE_X_MARK: Self = {
+    pub const HEROICONS_OUTLINE_X_MARK: Self = {
         #[inline(never)]
         fn heroicons_outline_x_mark(
             crate::IconProps {

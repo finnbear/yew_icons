@@ -1,7 +1,7 @@
 // Generated file, do not edit by hand, see `src/generator.rs`
 
-impl IconData {
-    const BOOTSTRAP_123: Self = {
+impl crate::IconData {
+    pub const BOOTSTRAP_123: Self = {
         #[inline(never)]
         fn bootstrap_123(
             crate::IconProps {
@@ -23,7 +23,7 @@ impl IconData {
             html: bootstrap_123,
         }
     };
-    const BOOTSTRAP_ACTIVITY: Self = {
+    pub const BOOTSTRAP_ACTIVITY: Self = {
         #[inline(never)]
         fn bootstrap_activity(
             crate::IconProps {
@@ -45,7 +45,7 @@ impl IconData {
             html: bootstrap_activity,
         }
     };
-    const BOOTSTRAP_ALARM_FILL: Self = {
+    pub const BOOTSTRAP_ALARM_FILL: Self = {
         #[inline(never)]
         fn bootstrap_alarm_fill(
             crate::IconProps {
@@ -67,7 +67,7 @@ impl IconData {
             html: bootstrap_alarm_fill,
         }
     };
-    const BOOTSTRAP_ALARM: Self = {
+    pub const BOOTSTRAP_ALARM: Self = {
         #[inline(never)]
         fn bootstrap_alarm(
             crate::IconProps {
@@ -89,7 +89,7 @@ impl IconData {
             html: bootstrap_alarm,
         }
     };
-    const BOOTSTRAP_ALIGN_BOTTOM: Self = {
+    pub const BOOTSTRAP_ALIGN_BOTTOM: Self = {
         #[inline(never)]
         fn bootstrap_align_bottom(
             crate::IconProps {
@@ -111,7 +111,7 @@ impl IconData {
             html: bootstrap_align_bottom,
         }
     };
-    const BOOTSTRAP_ALIGN_CENTER: Self = {
+    pub const BOOTSTRAP_ALIGN_CENTER: Self = {
         #[inline(never)]
         fn bootstrap_align_center(
             crate::IconProps {
@@ -133,7 +133,7 @@ impl IconData {
             html: bootstrap_align_center,
         }
     };
-    const BOOTSTRAP_ALIGN_END: Self = {
+    pub const BOOTSTRAP_ALIGN_END: Self = {
         #[inline(never)]
         fn bootstrap_align_end(
             crate::IconProps {
@@ -155,7 +155,7 @@ impl IconData {
             html: bootstrap_align_end,
         }
     };
-    const BOOTSTRAP_ALIGN_MIDDLE: Self = {
+    pub const BOOTSTRAP_ALIGN_MIDDLE: Self = {
         #[inline(never)]
         fn bootstrap_align_middle(
             crate::IconProps {
@@ -177,7 +177,7 @@ impl IconData {
             html: bootstrap_align_middle,
         }
     };
-    const BOOTSTRAP_ALIGN_START: Self = {
+    pub const BOOTSTRAP_ALIGN_START: Self = {
         #[inline(never)]
         fn bootstrap_align_start(
             crate::IconProps {
@@ -199,7 +199,7 @@ impl IconData {
             html: bootstrap_align_start,
         }
     };
-    const BOOTSTRAP_ALIGN_TOP: Self = {
+    pub const BOOTSTRAP_ALIGN_TOP: Self = {
         #[inline(never)]
         fn bootstrap_align_top(
             crate::IconProps {
@@ -221,7 +221,7 @@ impl IconData {
             html: bootstrap_align_top,
         }
     };
-    const BOOTSTRAP_ALT: Self = {
+    pub const BOOTSTRAP_ALT: Self = {
         #[inline(never)]
         fn bootstrap_alt(
             crate::IconProps {
@@ -243,7 +243,7 @@ impl IconData {
             html: bootstrap_alt,
         }
     };
-    const BOOTSTRAP_APP_INDICATOR: Self = {
+    pub const BOOTSTRAP_APP_INDICATOR: Self = {
         #[inline(never)]
         fn bootstrap_app_indicator(
             crate::IconProps {
@@ -265,7 +265,7 @@ impl IconData {
             html: bootstrap_app_indicator,
         }
     };
-    const BOOTSTRAP_APP: Self = {
+    pub const BOOTSTRAP_APP: Self = {
         #[inline(never)]
         fn bootstrap_app(
             crate::IconProps {
@@ -287,7 +287,7 @@ impl IconData {
             html: bootstrap_app,
         }
     };
-    const BOOTSTRAP_APPLE: Self = {
+    pub const BOOTSTRAP_APPLE: Self = {
         #[inline(never)]
         fn bootstrap_apple(
             crate::IconProps {
@@ -309,7 +309,7 @@ impl IconData {
             html: bootstrap_apple,
         }
     };
-    const BOOTSTRAP_ARCHIVE_FILL: Self = {
+    pub const BOOTSTRAP_ARCHIVE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_archive_fill(
             crate::IconProps {
@@ -331,7 +331,7 @@ impl IconData {
             html: bootstrap_archive_fill,
         }
     };
-    const BOOTSTRAP_ARCHIVE: Self = {
+    pub const BOOTSTRAP_ARCHIVE: Self = {
         #[inline(never)]
         fn bootstrap_archive(
             crate::IconProps {
@@ -353,7 +353,7 @@ impl IconData {
             html: bootstrap_archive,
         }
     };
-    const BOOTSTRAP_ARROW_90_DEG_DOWN: Self = {
+    pub const BOOTSTRAP_ARROW_90_DEG_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_arrow_90_deg_down(
             crate::IconProps {
@@ -375,7 +375,7 @@ impl IconData {
             html: bootstrap_arrow_90_deg_down,
         }
     };
-    const BOOTSTRAP_ARROW_90_DEG_LEFT: Self = {
+    pub const BOOTSTRAP_ARROW_90_DEG_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_arrow_90_deg_left(
             crate::IconProps {
@@ -397,7 +397,7 @@ impl IconData {
             html: bootstrap_arrow_90_deg_left,
         }
     };
-    const BOOTSTRAP_ARROW_90_DEG_RIGHT: Self = {
+    pub const BOOTSTRAP_ARROW_90_DEG_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_arrow_90_deg_right(
             crate::IconProps {
@@ -419,7 +419,7 @@ impl IconData {
             html: bootstrap_arrow_90_deg_right,
         }
     };
-    const BOOTSTRAP_ARROW_90_DEG_UP: Self = {
+    pub const BOOTSTRAP_ARROW_90_DEG_UP: Self = {
         #[inline(never)]
         fn bootstrap_arrow_90_deg_up(
             crate::IconProps {
@@ -441,7 +441,7 @@ impl IconData {
             html: bootstrap_arrow_90_deg_up,
         }
     };
-    const BOOTSTRAP_ARROW_BAR_DOWN: Self = {
+    pub const BOOTSTRAP_ARROW_BAR_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_arrow_bar_down(
             crate::IconProps {
@@ -463,7 +463,7 @@ impl IconData {
             html: bootstrap_arrow_bar_down,
         }
     };
-    const BOOTSTRAP_ARROW_BAR_LEFT: Self = {
+    pub const BOOTSTRAP_ARROW_BAR_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_arrow_bar_left(
             crate::IconProps {
@@ -485,7 +485,7 @@ impl IconData {
             html: bootstrap_arrow_bar_left,
         }
     };
-    const BOOTSTRAP_ARROW_BAR_RIGHT: Self = {
+    pub const BOOTSTRAP_ARROW_BAR_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_arrow_bar_right(
             crate::IconProps {
@@ -507,7 +507,7 @@ impl IconData {
             html: bootstrap_arrow_bar_right,
         }
     };
-    const BOOTSTRAP_ARROW_BAR_UP: Self = {
+    pub const BOOTSTRAP_ARROW_BAR_UP: Self = {
         #[inline(never)]
         fn bootstrap_arrow_bar_up(
             crate::IconProps {
@@ -529,7 +529,7 @@ impl IconData {
             html: bootstrap_arrow_bar_up,
         }
     };
-    const BOOTSTRAP_ARROW_CLOCKWISE: Self = {
+    pub const BOOTSTRAP_ARROW_CLOCKWISE: Self = {
         #[inline(never)]
         fn bootstrap_arrow_clockwise(
             crate::IconProps {
@@ -551,7 +551,7 @@ impl IconData {
             html: bootstrap_arrow_clockwise,
         }
     };
-    const BOOTSTRAP_ARROW_COUNTERCLOCKWISE: Self = {
+    pub const BOOTSTRAP_ARROW_COUNTERCLOCKWISE: Self = {
         #[inline(never)]
         fn bootstrap_arrow_counterclockwise(
             crate::IconProps {
@@ -573,7 +573,7 @@ impl IconData {
             html: bootstrap_arrow_counterclockwise,
         }
     };
-    const BOOTSTRAP_ARROW_DOWN_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_ARROW_DOWN_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_arrow_down_circle_fill(
             crate::IconProps {
@@ -595,7 +595,7 @@ impl IconData {
             html: bootstrap_arrow_down_circle_fill,
         }
     };
-    const BOOTSTRAP_ARROW_DOWN_CIRCLE: Self = {
+    pub const BOOTSTRAP_ARROW_DOWN_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_arrow_down_circle(
             crate::IconProps {
@@ -617,7 +617,7 @@ impl IconData {
             html: bootstrap_arrow_down_circle,
         }
     };
-    const BOOTSTRAP_ARROW_DOWN_LEFT_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_ARROW_DOWN_LEFT_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_arrow_down_left_circle_fill(
             crate::IconProps {
@@ -639,7 +639,7 @@ impl IconData {
             html: bootstrap_arrow_down_left_circle_fill,
         }
     };
-    const BOOTSTRAP_ARROW_DOWN_LEFT_CIRCLE: Self = {
+    pub const BOOTSTRAP_ARROW_DOWN_LEFT_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_arrow_down_left_circle(
             crate::IconProps {
@@ -661,7 +661,7 @@ impl IconData {
             html: bootstrap_arrow_down_left_circle,
         }
     };
-    const BOOTSTRAP_ARROW_DOWN_LEFT_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_ARROW_DOWN_LEFT_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_arrow_down_left_square_fill(
             crate::IconProps {
@@ -683,7 +683,7 @@ impl IconData {
             html: bootstrap_arrow_down_left_square_fill,
         }
     };
-    const BOOTSTRAP_ARROW_DOWN_LEFT_SQUARE: Self = {
+    pub const BOOTSTRAP_ARROW_DOWN_LEFT_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_arrow_down_left_square(
             crate::IconProps {
@@ -705,7 +705,7 @@ impl IconData {
             html: bootstrap_arrow_down_left_square,
         }
     };
-    const BOOTSTRAP_ARROW_DOWN_LEFT: Self = {
+    pub const BOOTSTRAP_ARROW_DOWN_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_arrow_down_left(
             crate::IconProps {
@@ -727,7 +727,7 @@ impl IconData {
             html: bootstrap_arrow_down_left,
         }
     };
-    const BOOTSTRAP_ARROW_DOWN_RIGHT_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_ARROW_DOWN_RIGHT_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_arrow_down_right_circle_fill(
             crate::IconProps {
@@ -749,7 +749,7 @@ impl IconData {
             html: bootstrap_arrow_down_right_circle_fill,
         }
     };
-    const BOOTSTRAP_ARROW_DOWN_RIGHT_CIRCLE: Self = {
+    pub const BOOTSTRAP_ARROW_DOWN_RIGHT_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_arrow_down_right_circle(
             crate::IconProps {
@@ -771,7 +771,7 @@ impl IconData {
             html: bootstrap_arrow_down_right_circle,
         }
     };
-    const BOOTSTRAP_ARROW_DOWN_RIGHT_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_ARROW_DOWN_RIGHT_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_arrow_down_right_square_fill(
             crate::IconProps {
@@ -793,7 +793,7 @@ impl IconData {
             html: bootstrap_arrow_down_right_square_fill,
         }
     };
-    const BOOTSTRAP_ARROW_DOWN_RIGHT_SQUARE: Self = {
+    pub const BOOTSTRAP_ARROW_DOWN_RIGHT_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_arrow_down_right_square(
             crate::IconProps {
@@ -815,7 +815,7 @@ impl IconData {
             html: bootstrap_arrow_down_right_square,
         }
     };
-    const BOOTSTRAP_ARROW_DOWN_RIGHT: Self = {
+    pub const BOOTSTRAP_ARROW_DOWN_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_arrow_down_right(
             crate::IconProps {
@@ -837,7 +837,7 @@ impl IconData {
             html: bootstrap_arrow_down_right,
         }
     };
-    const BOOTSTRAP_ARROW_DOWN_SHORT: Self = {
+    pub const BOOTSTRAP_ARROW_DOWN_SHORT: Self = {
         #[inline(never)]
         fn bootstrap_arrow_down_short(
             crate::IconProps {
@@ -859,7 +859,7 @@ impl IconData {
             html: bootstrap_arrow_down_short,
         }
     };
-    const BOOTSTRAP_ARROW_DOWN_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_ARROW_DOWN_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_arrow_down_square_fill(
             crate::IconProps {
@@ -881,7 +881,7 @@ impl IconData {
             html: bootstrap_arrow_down_square_fill,
         }
     };
-    const BOOTSTRAP_ARROW_DOWN_SQUARE: Self = {
+    pub const BOOTSTRAP_ARROW_DOWN_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_arrow_down_square(
             crate::IconProps {
@@ -903,7 +903,7 @@ impl IconData {
             html: bootstrap_arrow_down_square,
         }
     };
-    const BOOTSTRAP_ARROW_DOWN_UP: Self = {
+    pub const BOOTSTRAP_ARROW_DOWN_UP: Self = {
         #[inline(never)]
         fn bootstrap_arrow_down_up(
             crate::IconProps {
@@ -925,7 +925,7 @@ impl IconData {
             html: bootstrap_arrow_down_up,
         }
     };
-    const BOOTSTRAP_ARROW_DOWN: Self = {
+    pub const BOOTSTRAP_ARROW_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_arrow_down(
             crate::IconProps {
@@ -947,7 +947,7 @@ impl IconData {
             html: bootstrap_arrow_down,
         }
     };
-    const BOOTSTRAP_ARROW_LEFT_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_ARROW_LEFT_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_arrow_left_circle_fill(
             crate::IconProps {
@@ -969,7 +969,7 @@ impl IconData {
             html: bootstrap_arrow_left_circle_fill,
         }
     };
-    const BOOTSTRAP_ARROW_LEFT_CIRCLE: Self = {
+    pub const BOOTSTRAP_ARROW_LEFT_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_arrow_left_circle(
             crate::IconProps {
@@ -991,7 +991,7 @@ impl IconData {
             html: bootstrap_arrow_left_circle,
         }
     };
-    const BOOTSTRAP_ARROW_LEFT_RIGHT: Self = {
+    pub const BOOTSTRAP_ARROW_LEFT_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_arrow_left_right(
             crate::IconProps {
@@ -1013,7 +1013,7 @@ impl IconData {
             html: bootstrap_arrow_left_right,
         }
     };
-    const BOOTSTRAP_ARROW_LEFT_SHORT: Self = {
+    pub const BOOTSTRAP_ARROW_LEFT_SHORT: Self = {
         #[inline(never)]
         fn bootstrap_arrow_left_short(
             crate::IconProps {
@@ -1035,7 +1035,7 @@ impl IconData {
             html: bootstrap_arrow_left_short,
         }
     };
-    const BOOTSTRAP_ARROW_LEFT_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_ARROW_LEFT_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_arrow_left_square_fill(
             crate::IconProps {
@@ -1057,7 +1057,7 @@ impl IconData {
             html: bootstrap_arrow_left_square_fill,
         }
     };
-    const BOOTSTRAP_ARROW_LEFT_SQUARE: Self = {
+    pub const BOOTSTRAP_ARROW_LEFT_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_arrow_left_square(
             crate::IconProps {
@@ -1079,7 +1079,7 @@ impl IconData {
             html: bootstrap_arrow_left_square,
         }
     };
-    const BOOTSTRAP_ARROW_LEFT: Self = {
+    pub const BOOTSTRAP_ARROW_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_arrow_left(
             crate::IconProps {
@@ -1101,7 +1101,7 @@ impl IconData {
             html: bootstrap_arrow_left,
         }
     };
-    const BOOTSTRAP_ARROW_REPEAT: Self = {
+    pub const BOOTSTRAP_ARROW_REPEAT: Self = {
         #[inline(never)]
         fn bootstrap_arrow_repeat(
             crate::IconProps {
@@ -1123,7 +1123,7 @@ impl IconData {
             html: bootstrap_arrow_repeat,
         }
     };
-    const BOOTSTRAP_ARROW_RETURN_LEFT: Self = {
+    pub const BOOTSTRAP_ARROW_RETURN_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_arrow_return_left(
             crate::IconProps {
@@ -1145,7 +1145,7 @@ impl IconData {
             html: bootstrap_arrow_return_left,
         }
     };
-    const BOOTSTRAP_ARROW_RETURN_RIGHT: Self = {
+    pub const BOOTSTRAP_ARROW_RETURN_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_arrow_return_right(
             crate::IconProps {
@@ -1167,7 +1167,7 @@ impl IconData {
             html: bootstrap_arrow_return_right,
         }
     };
-    const BOOTSTRAP_ARROW_RIGHT_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_ARROW_RIGHT_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_arrow_right_circle_fill(
             crate::IconProps {
@@ -1189,7 +1189,7 @@ impl IconData {
             html: bootstrap_arrow_right_circle_fill,
         }
     };
-    const BOOTSTRAP_ARROW_RIGHT_CIRCLE: Self = {
+    pub const BOOTSTRAP_ARROW_RIGHT_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_arrow_right_circle(
             crate::IconProps {
@@ -1211,7 +1211,7 @@ impl IconData {
             html: bootstrap_arrow_right_circle,
         }
     };
-    const BOOTSTRAP_ARROW_RIGHT_SHORT: Self = {
+    pub const BOOTSTRAP_ARROW_RIGHT_SHORT: Self = {
         #[inline(never)]
         fn bootstrap_arrow_right_short(
             crate::IconProps {
@@ -1233,7 +1233,7 @@ impl IconData {
             html: bootstrap_arrow_right_short,
         }
     };
-    const BOOTSTRAP_ARROW_RIGHT_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_ARROW_RIGHT_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_arrow_right_square_fill(
             crate::IconProps {
@@ -1255,7 +1255,7 @@ impl IconData {
             html: bootstrap_arrow_right_square_fill,
         }
     };
-    const BOOTSTRAP_ARROW_RIGHT_SQUARE: Self = {
+    pub const BOOTSTRAP_ARROW_RIGHT_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_arrow_right_square(
             crate::IconProps {
@@ -1277,7 +1277,7 @@ impl IconData {
             html: bootstrap_arrow_right_square,
         }
     };
-    const BOOTSTRAP_ARROW_RIGHT: Self = {
+    pub const BOOTSTRAP_ARROW_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_arrow_right(
             crate::IconProps {
@@ -1299,7 +1299,7 @@ impl IconData {
             html: bootstrap_arrow_right,
         }
     };
-    const BOOTSTRAP_ARROW_THROUGH_HEART_FILL: Self = {
+    pub const BOOTSTRAP_ARROW_THROUGH_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_arrow_through_heart_fill(
             crate::IconProps {
@@ -1321,7 +1321,7 @@ impl IconData {
             html: bootstrap_arrow_through_heart_fill,
         }
     };
-    const BOOTSTRAP_ARROW_THROUGH_HEART: Self = {
+    pub const BOOTSTRAP_ARROW_THROUGH_HEART: Self = {
         #[inline(never)]
         fn bootstrap_arrow_through_heart(
             crate::IconProps {
@@ -1343,7 +1343,7 @@ impl IconData {
             html: bootstrap_arrow_through_heart,
         }
     };
-    const BOOTSTRAP_ARROW_UP_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_ARROW_UP_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_arrow_up_circle_fill(
             crate::IconProps {
@@ -1365,7 +1365,7 @@ impl IconData {
             html: bootstrap_arrow_up_circle_fill,
         }
     };
-    const BOOTSTRAP_ARROW_UP_CIRCLE: Self = {
+    pub const BOOTSTRAP_ARROW_UP_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_arrow_up_circle(
             crate::IconProps {
@@ -1387,7 +1387,7 @@ impl IconData {
             html: bootstrap_arrow_up_circle,
         }
     };
-    const BOOTSTRAP_ARROW_UP_LEFT_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_ARROW_UP_LEFT_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_arrow_up_left_circle_fill(
             crate::IconProps {
@@ -1409,7 +1409,7 @@ impl IconData {
             html: bootstrap_arrow_up_left_circle_fill,
         }
     };
-    const BOOTSTRAP_ARROW_UP_LEFT_CIRCLE: Self = {
+    pub const BOOTSTRAP_ARROW_UP_LEFT_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_arrow_up_left_circle(
             crate::IconProps {
@@ -1431,7 +1431,7 @@ impl IconData {
             html: bootstrap_arrow_up_left_circle,
         }
     };
-    const BOOTSTRAP_ARROW_UP_LEFT_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_ARROW_UP_LEFT_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_arrow_up_left_square_fill(
             crate::IconProps {
@@ -1453,7 +1453,7 @@ impl IconData {
             html: bootstrap_arrow_up_left_square_fill,
         }
     };
-    const BOOTSTRAP_ARROW_UP_LEFT_SQUARE: Self = {
+    pub const BOOTSTRAP_ARROW_UP_LEFT_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_arrow_up_left_square(
             crate::IconProps {
@@ -1475,7 +1475,7 @@ impl IconData {
             html: bootstrap_arrow_up_left_square,
         }
     };
-    const BOOTSTRAP_ARROW_UP_LEFT: Self = {
+    pub const BOOTSTRAP_ARROW_UP_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_arrow_up_left(
             crate::IconProps {
@@ -1497,7 +1497,7 @@ impl IconData {
             html: bootstrap_arrow_up_left,
         }
     };
-    const BOOTSTRAP_ARROW_UP_RIGHT_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_ARROW_UP_RIGHT_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_arrow_up_right_circle_fill(
             crate::IconProps {
@@ -1519,7 +1519,7 @@ impl IconData {
             html: bootstrap_arrow_up_right_circle_fill,
         }
     };
-    const BOOTSTRAP_ARROW_UP_RIGHT_CIRCLE: Self = {
+    pub const BOOTSTRAP_ARROW_UP_RIGHT_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_arrow_up_right_circle(
             crate::IconProps {
@@ -1541,7 +1541,7 @@ impl IconData {
             html: bootstrap_arrow_up_right_circle,
         }
     };
-    const BOOTSTRAP_ARROW_UP_RIGHT_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_ARROW_UP_RIGHT_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_arrow_up_right_square_fill(
             crate::IconProps {
@@ -1563,7 +1563,7 @@ impl IconData {
             html: bootstrap_arrow_up_right_square_fill,
         }
     };
-    const BOOTSTRAP_ARROW_UP_RIGHT_SQUARE: Self = {
+    pub const BOOTSTRAP_ARROW_UP_RIGHT_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_arrow_up_right_square(
             crate::IconProps {
@@ -1585,7 +1585,7 @@ impl IconData {
             html: bootstrap_arrow_up_right_square,
         }
     };
-    const BOOTSTRAP_ARROW_UP_RIGHT: Self = {
+    pub const BOOTSTRAP_ARROW_UP_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_arrow_up_right(
             crate::IconProps {
@@ -1607,7 +1607,7 @@ impl IconData {
             html: bootstrap_arrow_up_right,
         }
     };
-    const BOOTSTRAP_ARROW_UP_SHORT: Self = {
+    pub const BOOTSTRAP_ARROW_UP_SHORT: Self = {
         #[inline(never)]
         fn bootstrap_arrow_up_short(
             crate::IconProps {
@@ -1629,7 +1629,7 @@ impl IconData {
             html: bootstrap_arrow_up_short,
         }
     };
-    const BOOTSTRAP_ARROW_UP_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_ARROW_UP_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_arrow_up_square_fill(
             crate::IconProps {
@@ -1651,7 +1651,7 @@ impl IconData {
             html: bootstrap_arrow_up_square_fill,
         }
     };
-    const BOOTSTRAP_ARROW_UP_SQUARE: Self = {
+    pub const BOOTSTRAP_ARROW_UP_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_arrow_up_square(
             crate::IconProps {
@@ -1673,7 +1673,7 @@ impl IconData {
             html: bootstrap_arrow_up_square,
         }
     };
-    const BOOTSTRAP_ARROW_UP: Self = {
+    pub const BOOTSTRAP_ARROW_UP: Self = {
         #[inline(never)]
         fn bootstrap_arrow_up(
             crate::IconProps {
@@ -1695,7 +1695,7 @@ impl IconData {
             html: bootstrap_arrow_up,
         }
     };
-    const BOOTSTRAP_ARROWS_ANGLE_CONTRACT: Self = {
+    pub const BOOTSTRAP_ARROWS_ANGLE_CONTRACT: Self = {
         #[inline(never)]
         fn bootstrap_arrows_angle_contract(
             crate::IconProps {
@@ -1717,7 +1717,7 @@ impl IconData {
             html: bootstrap_arrows_angle_contract,
         }
     };
-    const BOOTSTRAP_ARROWS_ANGLE_EXPAND: Self = {
+    pub const BOOTSTRAP_ARROWS_ANGLE_EXPAND: Self = {
         #[inline(never)]
         fn bootstrap_arrows_angle_expand(
             crate::IconProps {
@@ -1739,7 +1739,7 @@ impl IconData {
             html: bootstrap_arrows_angle_expand,
         }
     };
-    const BOOTSTRAP_ARROWS_COLLAPSE: Self = {
+    pub const BOOTSTRAP_ARROWS_COLLAPSE: Self = {
         #[inline(never)]
         fn bootstrap_arrows_collapse(
             crate::IconProps {
@@ -1761,7 +1761,7 @@ impl IconData {
             html: bootstrap_arrows_collapse,
         }
     };
-    const BOOTSTRAP_ARROWS_EXPAND: Self = {
+    pub const BOOTSTRAP_ARROWS_EXPAND: Self = {
         #[inline(never)]
         fn bootstrap_arrows_expand(
             crate::IconProps {
@@ -1783,7 +1783,7 @@ impl IconData {
             html: bootstrap_arrows_expand,
         }
     };
-    const BOOTSTRAP_ARROWS_FULLSCREEN: Self = {
+    pub const BOOTSTRAP_ARROWS_FULLSCREEN: Self = {
         #[inline(never)]
         fn bootstrap_arrows_fullscreen(
             crate::IconProps {
@@ -1805,7 +1805,7 @@ impl IconData {
             html: bootstrap_arrows_fullscreen,
         }
     };
-    const BOOTSTRAP_ARROWS_MOVE: Self = {
+    pub const BOOTSTRAP_ARROWS_MOVE: Self = {
         #[inline(never)]
         fn bootstrap_arrows_move(
             crate::IconProps {
@@ -1827,7 +1827,7 @@ impl IconData {
             html: bootstrap_arrows_move,
         }
     };
-    const BOOTSTRAP_ASPECT_RATIO_FILL: Self = {
+    pub const BOOTSTRAP_ASPECT_RATIO_FILL: Self = {
         #[inline(never)]
         fn bootstrap_aspect_ratio_fill(
             crate::IconProps {
@@ -1849,7 +1849,7 @@ impl IconData {
             html: bootstrap_aspect_ratio_fill,
         }
     };
-    const BOOTSTRAP_ASPECT_RATIO: Self = {
+    pub const BOOTSTRAP_ASPECT_RATIO: Self = {
         #[inline(never)]
         fn bootstrap_aspect_ratio(
             crate::IconProps {
@@ -1871,7 +1871,7 @@ impl IconData {
             html: bootstrap_aspect_ratio,
         }
     };
-    const BOOTSTRAP_ASTERISK: Self = {
+    pub const BOOTSTRAP_ASTERISK: Self = {
         #[inline(never)]
         fn bootstrap_asterisk(
             crate::IconProps {
@@ -1893,7 +1893,7 @@ impl IconData {
             html: bootstrap_asterisk,
         }
     };
-    const BOOTSTRAP_AT: Self = {
+    pub const BOOTSTRAP_AT: Self = {
         #[inline(never)]
         fn bootstrap_at(
             crate::IconProps {
@@ -1915,7 +1915,7 @@ impl IconData {
             html: bootstrap_at,
         }
     };
-    const BOOTSTRAP_AWARD_FILL: Self = {
+    pub const BOOTSTRAP_AWARD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_award_fill(
             crate::IconProps {
@@ -1937,7 +1937,7 @@ impl IconData {
             html: bootstrap_award_fill,
         }
     };
-    const BOOTSTRAP_AWARD: Self = {
+    pub const BOOTSTRAP_AWARD: Self = {
         #[inline(never)]
         fn bootstrap_award(
             crate::IconProps {
@@ -1959,7 +1959,7 @@ impl IconData {
             html: bootstrap_award,
         }
     };
-    const BOOTSTRAP_BACK: Self = {
+    pub const BOOTSTRAP_BACK: Self = {
         #[inline(never)]
         fn bootstrap_back(
             crate::IconProps {
@@ -1981,7 +1981,7 @@ impl IconData {
             html: bootstrap_back,
         }
     };
-    const BOOTSTRAP_BACKSPACE_FILL: Self = {
+    pub const BOOTSTRAP_BACKSPACE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_backspace_fill(
             crate::IconProps {
@@ -2003,7 +2003,7 @@ impl IconData {
             html: bootstrap_backspace_fill,
         }
     };
-    const BOOTSTRAP_BACKSPACE_REVERSE_FILL: Self = {
+    pub const BOOTSTRAP_BACKSPACE_REVERSE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_backspace_reverse_fill(
             crate::IconProps {
@@ -2025,7 +2025,7 @@ impl IconData {
             html: bootstrap_backspace_reverse_fill,
         }
     };
-    const BOOTSTRAP_BACKSPACE_REVERSE: Self = {
+    pub const BOOTSTRAP_BACKSPACE_REVERSE: Self = {
         #[inline(never)]
         fn bootstrap_backspace_reverse(
             crate::IconProps {
@@ -2047,7 +2047,7 @@ impl IconData {
             html: bootstrap_backspace_reverse,
         }
     };
-    const BOOTSTRAP_BACKSPACE: Self = {
+    pub const BOOTSTRAP_BACKSPACE: Self = {
         #[inline(never)]
         fn bootstrap_backspace(
             crate::IconProps {
@@ -2069,7 +2069,7 @@ impl IconData {
             html: bootstrap_backspace,
         }
     };
-    const BOOTSTRAP_BADGE_3_D_FILL: Self = {
+    pub const BOOTSTRAP_BADGE_3_D_FILL: Self = {
         #[inline(never)]
         fn bootstrap_badge_3_d_fill(
             crate::IconProps {
@@ -2091,7 +2091,7 @@ impl IconData {
             html: bootstrap_badge_3_d_fill,
         }
     };
-    const BOOTSTRAP_BADGE_3_D: Self = {
+    pub const BOOTSTRAP_BADGE_3_D: Self = {
         #[inline(never)]
         fn bootstrap_badge_3_d(
             crate::IconProps {
@@ -2113,7 +2113,7 @@ impl IconData {
             html: bootstrap_badge_3_d,
         }
     };
-    const BOOTSTRAP_BADGE_4_K_FILL: Self = {
+    pub const BOOTSTRAP_BADGE_4_K_FILL: Self = {
         #[inline(never)]
         fn bootstrap_badge_4_k_fill(
             crate::IconProps {
@@ -2135,7 +2135,7 @@ impl IconData {
             html: bootstrap_badge_4_k_fill,
         }
     };
-    const BOOTSTRAP_BADGE_4_K: Self = {
+    pub const BOOTSTRAP_BADGE_4_K: Self = {
         #[inline(never)]
         fn bootstrap_badge_4_k(
             crate::IconProps {
@@ -2157,7 +2157,7 @@ impl IconData {
             html: bootstrap_badge_4_k,
         }
     };
-    const BOOTSTRAP_BADGE_8_K_FILL: Self = {
+    pub const BOOTSTRAP_BADGE_8_K_FILL: Self = {
         #[inline(never)]
         fn bootstrap_badge_8_k_fill(
             crate::IconProps {
@@ -2179,7 +2179,7 @@ impl IconData {
             html: bootstrap_badge_8_k_fill,
         }
     };
-    const BOOTSTRAP_BADGE_8_K: Self = {
+    pub const BOOTSTRAP_BADGE_8_K: Self = {
         #[inline(never)]
         fn bootstrap_badge_8_k(
             crate::IconProps {
@@ -2201,7 +2201,7 @@ impl IconData {
             html: bootstrap_badge_8_k,
         }
     };
-    const BOOTSTRAP_BADGE_AD_FILL: Self = {
+    pub const BOOTSTRAP_BADGE_AD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_badge_ad_fill(
             crate::IconProps {
@@ -2223,7 +2223,7 @@ impl IconData {
             html: bootstrap_badge_ad_fill,
         }
     };
-    const BOOTSTRAP_BADGE_AD: Self = {
+    pub const BOOTSTRAP_BADGE_AD: Self = {
         #[inline(never)]
         fn bootstrap_badge_ad(
             crate::IconProps {
@@ -2245,7 +2245,7 @@ impl IconData {
             html: bootstrap_badge_ad,
         }
     };
-    const BOOTSTRAP_BADGE_AR_FILL: Self = {
+    pub const BOOTSTRAP_BADGE_AR_FILL: Self = {
         #[inline(never)]
         fn bootstrap_badge_ar_fill(
             crate::IconProps {
@@ -2267,7 +2267,7 @@ impl IconData {
             html: bootstrap_badge_ar_fill,
         }
     };
-    const BOOTSTRAP_BADGE_AR: Self = {
+    pub const BOOTSTRAP_BADGE_AR: Self = {
         #[inline(never)]
         fn bootstrap_badge_ar(
             crate::IconProps {
@@ -2289,7 +2289,7 @@ impl IconData {
             html: bootstrap_badge_ar,
         }
     };
-    const BOOTSTRAP_BADGE_CC_FILL: Self = {
+    pub const BOOTSTRAP_BADGE_CC_FILL: Self = {
         #[inline(never)]
         fn bootstrap_badge_cc_fill(
             crate::IconProps {
@@ -2311,7 +2311,7 @@ impl IconData {
             html: bootstrap_badge_cc_fill,
         }
     };
-    const BOOTSTRAP_BADGE_CC: Self = {
+    pub const BOOTSTRAP_BADGE_CC: Self = {
         #[inline(never)]
         fn bootstrap_badge_cc(
             crate::IconProps {
@@ -2333,7 +2333,7 @@ impl IconData {
             html: bootstrap_badge_cc,
         }
     };
-    const BOOTSTRAP_BADGE_HD_FILL: Self = {
+    pub const BOOTSTRAP_BADGE_HD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_badge_hd_fill(
             crate::IconProps {
@@ -2355,7 +2355,7 @@ impl IconData {
             html: bootstrap_badge_hd_fill,
         }
     };
-    const BOOTSTRAP_BADGE_HD: Self = {
+    pub const BOOTSTRAP_BADGE_HD: Self = {
         #[inline(never)]
         fn bootstrap_badge_hd(
             crate::IconProps {
@@ -2377,7 +2377,7 @@ impl IconData {
             html: bootstrap_badge_hd,
         }
     };
-    const BOOTSTRAP_BADGE_SD_FILL: Self = {
+    pub const BOOTSTRAP_BADGE_SD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_badge_sd_fill(
             crate::IconProps {
@@ -2399,7 +2399,7 @@ impl IconData {
             html: bootstrap_badge_sd_fill,
         }
     };
-    const BOOTSTRAP_BADGE_SD: Self = {
+    pub const BOOTSTRAP_BADGE_SD: Self = {
         #[inline(never)]
         fn bootstrap_badge_sd(
             crate::IconProps {
@@ -2421,7 +2421,7 @@ impl IconData {
             html: bootstrap_badge_sd,
         }
     };
-    const BOOTSTRAP_BADGE_TM_FILL: Self = {
+    pub const BOOTSTRAP_BADGE_TM_FILL: Self = {
         #[inline(never)]
         fn bootstrap_badge_tm_fill(
             crate::IconProps {
@@ -2443,7 +2443,7 @@ impl IconData {
             html: bootstrap_badge_tm_fill,
         }
     };
-    const BOOTSTRAP_BADGE_TM: Self = {
+    pub const BOOTSTRAP_BADGE_TM: Self = {
         #[inline(never)]
         fn bootstrap_badge_tm(
             crate::IconProps {
@@ -2465,7 +2465,7 @@ impl IconData {
             html: bootstrap_badge_tm,
         }
     };
-    const BOOTSTRAP_BADGE_VO_FILL: Self = {
+    pub const BOOTSTRAP_BADGE_VO_FILL: Self = {
         #[inline(never)]
         fn bootstrap_badge_vo_fill(
             crate::IconProps {
@@ -2487,7 +2487,7 @@ impl IconData {
             html: bootstrap_badge_vo_fill,
         }
     };
-    const BOOTSTRAP_BADGE_VO: Self = {
+    pub const BOOTSTRAP_BADGE_VO: Self = {
         #[inline(never)]
         fn bootstrap_badge_vo(
             crate::IconProps {
@@ -2509,7 +2509,7 @@ impl IconData {
             html: bootstrap_badge_vo,
         }
     };
-    const BOOTSTRAP_BADGE_VR_FILL: Self = {
+    pub const BOOTSTRAP_BADGE_VR_FILL: Self = {
         #[inline(never)]
         fn bootstrap_badge_vr_fill(
             crate::IconProps {
@@ -2531,7 +2531,7 @@ impl IconData {
             html: bootstrap_badge_vr_fill,
         }
     };
-    const BOOTSTRAP_BADGE_VR: Self = {
+    pub const BOOTSTRAP_BADGE_VR: Self = {
         #[inline(never)]
         fn bootstrap_badge_vr(
             crate::IconProps {
@@ -2553,7 +2553,7 @@ impl IconData {
             html: bootstrap_badge_vr,
         }
     };
-    const BOOTSTRAP_BADGE_WC_FILL: Self = {
+    pub const BOOTSTRAP_BADGE_WC_FILL: Self = {
         #[inline(never)]
         fn bootstrap_badge_wc_fill(
             crate::IconProps {
@@ -2575,7 +2575,7 @@ impl IconData {
             html: bootstrap_badge_wc_fill,
         }
     };
-    const BOOTSTRAP_BADGE_WC: Self = {
+    pub const BOOTSTRAP_BADGE_WC: Self = {
         #[inline(never)]
         fn bootstrap_badge_wc(
             crate::IconProps {
@@ -2597,7 +2597,7 @@ impl IconData {
             html: bootstrap_badge_wc,
         }
     };
-    const BOOTSTRAP_BAG_CHECK_FILL: Self = {
+    pub const BOOTSTRAP_BAG_CHECK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bag_check_fill(
             crate::IconProps {
@@ -2619,7 +2619,7 @@ impl IconData {
             html: bootstrap_bag_check_fill,
         }
     };
-    const BOOTSTRAP_BAG_CHECK: Self = {
+    pub const BOOTSTRAP_BAG_CHECK: Self = {
         #[inline(never)]
         fn bootstrap_bag_check(
             crate::IconProps {
@@ -2641,7 +2641,7 @@ impl IconData {
             html: bootstrap_bag_check,
         }
     };
-    const BOOTSTRAP_BAG_DASH_FILL: Self = {
+    pub const BOOTSTRAP_BAG_DASH_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bag_dash_fill(
             crate::IconProps {
@@ -2663,7 +2663,7 @@ impl IconData {
             html: bootstrap_bag_dash_fill,
         }
     };
-    const BOOTSTRAP_BAG_DASH: Self = {
+    pub const BOOTSTRAP_BAG_DASH: Self = {
         #[inline(never)]
         fn bootstrap_bag_dash(
             crate::IconProps {
@@ -2685,7 +2685,7 @@ impl IconData {
             html: bootstrap_bag_dash,
         }
     };
-    const BOOTSTRAP_BAG_FILL: Self = {
+    pub const BOOTSTRAP_BAG_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bag_fill(
             crate::IconProps {
@@ -2707,7 +2707,7 @@ impl IconData {
             html: bootstrap_bag_fill,
         }
     };
-    const BOOTSTRAP_BAG_HEART_FILL: Self = {
+    pub const BOOTSTRAP_BAG_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bag_heart_fill(
             crate::IconProps {
@@ -2729,7 +2729,7 @@ impl IconData {
             html: bootstrap_bag_heart_fill,
         }
     };
-    const BOOTSTRAP_BAG_HEART: Self = {
+    pub const BOOTSTRAP_BAG_HEART: Self = {
         #[inline(never)]
         fn bootstrap_bag_heart(
             crate::IconProps {
@@ -2751,7 +2751,7 @@ impl IconData {
             html: bootstrap_bag_heart,
         }
     };
-    const BOOTSTRAP_BAG_PLUS_FILL: Self = {
+    pub const BOOTSTRAP_BAG_PLUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bag_plus_fill(
             crate::IconProps {
@@ -2773,7 +2773,7 @@ impl IconData {
             html: bootstrap_bag_plus_fill,
         }
     };
-    const BOOTSTRAP_BAG_PLUS: Self = {
+    pub const BOOTSTRAP_BAG_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_bag_plus(
             crate::IconProps {
@@ -2795,7 +2795,7 @@ impl IconData {
             html: bootstrap_bag_plus,
         }
     };
-    const BOOTSTRAP_BAG_X_FILL: Self = {
+    pub const BOOTSTRAP_BAG_X_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bag_x_fill(
             crate::IconProps {
@@ -2817,7 +2817,7 @@ impl IconData {
             html: bootstrap_bag_x_fill,
         }
     };
-    const BOOTSTRAP_BAG_X: Self = {
+    pub const BOOTSTRAP_BAG_X: Self = {
         #[inline(never)]
         fn bootstrap_bag_x(
             crate::IconProps {
@@ -2839,7 +2839,7 @@ impl IconData {
             html: bootstrap_bag_x,
         }
     };
-    const BOOTSTRAP_BAG: Self = {
+    pub const BOOTSTRAP_BAG: Self = {
         #[inline(never)]
         fn bootstrap_bag(
             crate::IconProps {
@@ -2861,7 +2861,7 @@ impl IconData {
             html: bootstrap_bag,
         }
     };
-    const BOOTSTRAP_BALLOON_FILL: Self = {
+    pub const BOOTSTRAP_BALLOON_FILL: Self = {
         #[inline(never)]
         fn bootstrap_balloon_fill(
             crate::IconProps {
@@ -2883,7 +2883,7 @@ impl IconData {
             html: bootstrap_balloon_fill,
         }
     };
-    const BOOTSTRAP_BALLOON_HEART_FILL: Self = {
+    pub const BOOTSTRAP_BALLOON_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_balloon_heart_fill(
             crate::IconProps {
@@ -2905,7 +2905,7 @@ impl IconData {
             html: bootstrap_balloon_heart_fill,
         }
     };
-    const BOOTSTRAP_BALLOON_HEART: Self = {
+    pub const BOOTSTRAP_BALLOON_HEART: Self = {
         #[inline(never)]
         fn bootstrap_balloon_heart(
             crate::IconProps {
@@ -2927,7 +2927,7 @@ impl IconData {
             html: bootstrap_balloon_heart,
         }
     };
-    const BOOTSTRAP_BALLOON: Self = {
+    pub const BOOTSTRAP_BALLOON: Self = {
         #[inline(never)]
         fn bootstrap_balloon(
             crate::IconProps {
@@ -2949,7 +2949,7 @@ impl IconData {
             html: bootstrap_balloon,
         }
     };
-    const BOOTSTRAP_BANDAID_FILL: Self = {
+    pub const BOOTSTRAP_BANDAID_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bandaid_fill(
             crate::IconProps {
@@ -2971,7 +2971,7 @@ impl IconData {
             html: bootstrap_bandaid_fill,
         }
     };
-    const BOOTSTRAP_BANDAID: Self = {
+    pub const BOOTSTRAP_BANDAID: Self = {
         #[inline(never)]
         fn bootstrap_bandaid(
             crate::IconProps {
@@ -2993,7 +2993,7 @@ impl IconData {
             html: bootstrap_bandaid,
         }
     };
-    const BOOTSTRAP_BANK: Self = {
+    pub const BOOTSTRAP_BANK: Self = {
         #[inline(never)]
         fn bootstrap_bank(
             crate::IconProps {
@@ -3015,7 +3015,7 @@ impl IconData {
             html: bootstrap_bank,
         }
     };
-    const BOOTSTRAP_BANK_2: Self = {
+    pub const BOOTSTRAP_BANK_2: Self = {
         #[inline(never)]
         fn bootstrap_bank_2(
             crate::IconProps {
@@ -3037,7 +3037,7 @@ impl IconData {
             html: bootstrap_bank_2,
         }
     };
-    const BOOTSTRAP_BAR_CHART_FILL: Self = {
+    pub const BOOTSTRAP_BAR_CHART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bar_chart_fill(
             crate::IconProps {
@@ -3059,7 +3059,7 @@ impl IconData {
             html: bootstrap_bar_chart_fill,
         }
     };
-    const BOOTSTRAP_BAR_CHART_LINE_FILL: Self = {
+    pub const BOOTSTRAP_BAR_CHART_LINE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bar_chart_line_fill(
             crate::IconProps {
@@ -3081,7 +3081,7 @@ impl IconData {
             html: bootstrap_bar_chart_line_fill,
         }
     };
-    const BOOTSTRAP_BAR_CHART_LINE: Self = {
+    pub const BOOTSTRAP_BAR_CHART_LINE: Self = {
         #[inline(never)]
         fn bootstrap_bar_chart_line(
             crate::IconProps {
@@ -3103,7 +3103,7 @@ impl IconData {
             html: bootstrap_bar_chart_line,
         }
     };
-    const BOOTSTRAP_BAR_CHART_STEPS: Self = {
+    pub const BOOTSTRAP_BAR_CHART_STEPS: Self = {
         #[inline(never)]
         fn bootstrap_bar_chart_steps(
             crate::IconProps {
@@ -3125,7 +3125,7 @@ impl IconData {
             html: bootstrap_bar_chart_steps,
         }
     };
-    const BOOTSTRAP_BAR_CHART: Self = {
+    pub const BOOTSTRAP_BAR_CHART: Self = {
         #[inline(never)]
         fn bootstrap_bar_chart(
             crate::IconProps {
@@ -3147,7 +3147,7 @@ impl IconData {
             html: bootstrap_bar_chart,
         }
     };
-    const BOOTSTRAP_BASKET_FILL: Self = {
+    pub const BOOTSTRAP_BASKET_FILL: Self = {
         #[inline(never)]
         fn bootstrap_basket_fill(
             crate::IconProps {
@@ -3169,7 +3169,7 @@ impl IconData {
             html: bootstrap_basket_fill,
         }
     };
-    const BOOTSTRAP_BASKET: Self = {
+    pub const BOOTSTRAP_BASKET: Self = {
         #[inline(never)]
         fn bootstrap_basket(
             crate::IconProps {
@@ -3191,7 +3191,7 @@ impl IconData {
             html: bootstrap_basket,
         }
     };
-    const BOOTSTRAP_BASKET_2_FILL: Self = {
+    pub const BOOTSTRAP_BASKET_2_FILL: Self = {
         #[inline(never)]
         fn bootstrap_basket_2_fill(
             crate::IconProps {
@@ -3213,7 +3213,7 @@ impl IconData {
             html: bootstrap_basket_2_fill,
         }
     };
-    const BOOTSTRAP_BASKET_2: Self = {
+    pub const BOOTSTRAP_BASKET_2: Self = {
         #[inline(never)]
         fn bootstrap_basket_2(
             crate::IconProps {
@@ -3235,7 +3235,7 @@ impl IconData {
             html: bootstrap_basket_2,
         }
     };
-    const BOOTSTRAP_BASKET_3_FILL: Self = {
+    pub const BOOTSTRAP_BASKET_3_FILL: Self = {
         #[inline(never)]
         fn bootstrap_basket_3_fill(
             crate::IconProps {
@@ -3257,7 +3257,7 @@ impl IconData {
             html: bootstrap_basket_3_fill,
         }
     };
-    const BOOTSTRAP_BASKET_3: Self = {
+    pub const BOOTSTRAP_BASKET_3: Self = {
         #[inline(never)]
         fn bootstrap_basket_3(
             crate::IconProps {
@@ -3279,7 +3279,7 @@ impl IconData {
             html: bootstrap_basket_3,
         }
     };
-    const BOOTSTRAP_BATTERY_CHARGING: Self = {
+    pub const BOOTSTRAP_BATTERY_CHARGING: Self = {
         #[inline(never)]
         fn bootstrap_battery_charging(
             crate::IconProps {
@@ -3301,7 +3301,7 @@ impl IconData {
             html: bootstrap_battery_charging,
         }
     };
-    const BOOTSTRAP_BATTERY_FULL: Self = {
+    pub const BOOTSTRAP_BATTERY_FULL: Self = {
         #[inline(never)]
         fn bootstrap_battery_full(
             crate::IconProps {
@@ -3323,7 +3323,7 @@ impl IconData {
             html: bootstrap_battery_full,
         }
     };
-    const BOOTSTRAP_BATTERY_HALF: Self = {
+    pub const BOOTSTRAP_BATTERY_HALF: Self = {
         #[inline(never)]
         fn bootstrap_battery_half(
             crate::IconProps {
@@ -3345,7 +3345,7 @@ impl IconData {
             html: bootstrap_battery_half,
         }
     };
-    const BOOTSTRAP_BATTERY: Self = {
+    pub const BOOTSTRAP_BATTERY: Self = {
         #[inline(never)]
         fn bootstrap_battery(
             crate::IconProps {
@@ -3367,7 +3367,7 @@ impl IconData {
             html: bootstrap_battery,
         }
     };
-    const BOOTSTRAP_BEHANCE: Self = {
+    pub const BOOTSTRAP_BEHANCE: Self = {
         #[inline(never)]
         fn bootstrap_behance(
             crate::IconProps {
@@ -3389,7 +3389,7 @@ impl IconData {
             html: bootstrap_behance,
         }
     };
-    const BOOTSTRAP_BELL_FILL: Self = {
+    pub const BOOTSTRAP_BELL_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bell_fill(
             crate::IconProps {
@@ -3411,7 +3411,7 @@ impl IconData {
             html: bootstrap_bell_fill,
         }
     };
-    const BOOTSTRAP_BELL_SLASH_FILL: Self = {
+    pub const BOOTSTRAP_BELL_SLASH_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bell_slash_fill(
             crate::IconProps {
@@ -3433,7 +3433,7 @@ impl IconData {
             html: bootstrap_bell_slash_fill,
         }
     };
-    const BOOTSTRAP_BELL_SLASH: Self = {
+    pub const BOOTSTRAP_BELL_SLASH: Self = {
         #[inline(never)]
         fn bootstrap_bell_slash(
             crate::IconProps {
@@ -3455,7 +3455,7 @@ impl IconData {
             html: bootstrap_bell_slash,
         }
     };
-    const BOOTSTRAP_BELL: Self = {
+    pub const BOOTSTRAP_BELL: Self = {
         #[inline(never)]
         fn bootstrap_bell(
             crate::IconProps {
@@ -3477,7 +3477,7 @@ impl IconData {
             html: bootstrap_bell,
         }
     };
-    const BOOTSTRAP_BEZIER: Self = {
+    pub const BOOTSTRAP_BEZIER: Self = {
         #[inline(never)]
         fn bootstrap_bezier(
             crate::IconProps {
@@ -3499,7 +3499,7 @@ impl IconData {
             html: bootstrap_bezier,
         }
     };
-    const BOOTSTRAP_BEZIER_2: Self = {
+    pub const BOOTSTRAP_BEZIER_2: Self = {
         #[inline(never)]
         fn bootstrap_bezier_2(
             crate::IconProps {
@@ -3521,7 +3521,7 @@ impl IconData {
             html: bootstrap_bezier_2,
         }
     };
-    const BOOTSTRAP_BICYCLE: Self = {
+    pub const BOOTSTRAP_BICYCLE: Self = {
         #[inline(never)]
         fn bootstrap_bicycle(
             crate::IconProps {
@@ -3543,7 +3543,7 @@ impl IconData {
             html: bootstrap_bicycle,
         }
     };
-    const BOOTSTRAP_BINOCULARS_FILL: Self = {
+    pub const BOOTSTRAP_BINOCULARS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_binoculars_fill(
             crate::IconProps {
@@ -3565,7 +3565,7 @@ impl IconData {
             html: bootstrap_binoculars_fill,
         }
     };
-    const BOOTSTRAP_BINOCULARS: Self = {
+    pub const BOOTSTRAP_BINOCULARS: Self = {
         #[inline(never)]
         fn bootstrap_binoculars(
             crate::IconProps {
@@ -3587,7 +3587,7 @@ impl IconData {
             html: bootstrap_binoculars,
         }
     };
-    const BOOTSTRAP_BLOCKQUOTE_LEFT: Self = {
+    pub const BOOTSTRAP_BLOCKQUOTE_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_blockquote_left(
             crate::IconProps {
@@ -3609,7 +3609,7 @@ impl IconData {
             html: bootstrap_blockquote_left,
         }
     };
-    const BOOTSTRAP_BLOCKQUOTE_RIGHT: Self = {
+    pub const BOOTSTRAP_BLOCKQUOTE_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_blockquote_right(
             crate::IconProps {
@@ -3631,7 +3631,7 @@ impl IconData {
             html: bootstrap_blockquote_right,
         }
     };
-    const BOOTSTRAP_BLUETOOTH: Self = {
+    pub const BOOTSTRAP_BLUETOOTH: Self = {
         #[inline(never)]
         fn bootstrap_bluetooth(
             crate::IconProps {
@@ -3653,7 +3653,7 @@ impl IconData {
             html: bootstrap_bluetooth,
         }
     };
-    const BOOTSTRAP_BODY_TEXT: Self = {
+    pub const BOOTSTRAP_BODY_TEXT: Self = {
         #[inline(never)]
         fn bootstrap_body_text(
             crate::IconProps {
@@ -3675,7 +3675,7 @@ impl IconData {
             html: bootstrap_body_text,
         }
     };
-    const BOOTSTRAP_BOOK_FILL: Self = {
+    pub const BOOTSTRAP_BOOK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_book_fill(
             crate::IconProps {
@@ -3697,7 +3697,7 @@ impl IconData {
             html: bootstrap_book_fill,
         }
     };
-    const BOOTSTRAP_BOOK_HALF: Self = {
+    pub const BOOTSTRAP_BOOK_HALF: Self = {
         #[inline(never)]
         fn bootstrap_book_half(
             crate::IconProps {
@@ -3719,7 +3719,7 @@ impl IconData {
             html: bootstrap_book_half,
         }
     };
-    const BOOTSTRAP_BOOK: Self = {
+    pub const BOOTSTRAP_BOOK: Self = {
         #[inline(never)]
         fn bootstrap_book(
             crate::IconProps {
@@ -3741,7 +3741,7 @@ impl IconData {
             html: bootstrap_book,
         }
     };
-    const BOOTSTRAP_BOOKMARK_CHECK_FILL: Self = {
+    pub const BOOTSTRAP_BOOKMARK_CHECK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bookmark_check_fill(
             crate::IconProps {
@@ -3763,7 +3763,7 @@ impl IconData {
             html: bootstrap_bookmark_check_fill,
         }
     };
-    const BOOTSTRAP_BOOKMARK_CHECK: Self = {
+    pub const BOOTSTRAP_BOOKMARK_CHECK: Self = {
         #[inline(never)]
         fn bootstrap_bookmark_check(
             crate::IconProps {
@@ -3785,7 +3785,7 @@ impl IconData {
             html: bootstrap_bookmark_check,
         }
     };
-    const BOOTSTRAP_BOOKMARK_DASH_FILL: Self = {
+    pub const BOOTSTRAP_BOOKMARK_DASH_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bookmark_dash_fill(
             crate::IconProps {
@@ -3807,7 +3807,7 @@ impl IconData {
             html: bootstrap_bookmark_dash_fill,
         }
     };
-    const BOOTSTRAP_BOOKMARK_DASH: Self = {
+    pub const BOOTSTRAP_BOOKMARK_DASH: Self = {
         #[inline(never)]
         fn bootstrap_bookmark_dash(
             crate::IconProps {
@@ -3829,7 +3829,7 @@ impl IconData {
             html: bootstrap_bookmark_dash,
         }
     };
-    const BOOTSTRAP_BOOKMARK_FILL: Self = {
+    pub const BOOTSTRAP_BOOKMARK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bookmark_fill(
             crate::IconProps {
@@ -3851,7 +3851,7 @@ impl IconData {
             html: bootstrap_bookmark_fill,
         }
     };
-    const BOOTSTRAP_BOOKMARK_HEART_FILL: Self = {
+    pub const BOOTSTRAP_BOOKMARK_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bookmark_heart_fill(
             crate::IconProps {
@@ -3873,7 +3873,7 @@ impl IconData {
             html: bootstrap_bookmark_heart_fill,
         }
     };
-    const BOOTSTRAP_BOOKMARK_HEART: Self = {
+    pub const BOOTSTRAP_BOOKMARK_HEART: Self = {
         #[inline(never)]
         fn bootstrap_bookmark_heart(
             crate::IconProps {
@@ -3895,7 +3895,7 @@ impl IconData {
             html: bootstrap_bookmark_heart,
         }
     };
-    const BOOTSTRAP_BOOKMARK_PLUS_FILL: Self = {
+    pub const BOOTSTRAP_BOOKMARK_PLUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bookmark_plus_fill(
             crate::IconProps {
@@ -3917,7 +3917,7 @@ impl IconData {
             html: bootstrap_bookmark_plus_fill,
         }
     };
-    const BOOTSTRAP_BOOKMARK_PLUS: Self = {
+    pub const BOOTSTRAP_BOOKMARK_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_bookmark_plus(
             crate::IconProps {
@@ -3939,7 +3939,7 @@ impl IconData {
             html: bootstrap_bookmark_plus,
         }
     };
-    const BOOTSTRAP_BOOKMARK_STAR_FILL: Self = {
+    pub const BOOTSTRAP_BOOKMARK_STAR_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bookmark_star_fill(
             crate::IconProps {
@@ -3961,7 +3961,7 @@ impl IconData {
             html: bootstrap_bookmark_star_fill,
         }
     };
-    const BOOTSTRAP_BOOKMARK_STAR: Self = {
+    pub const BOOTSTRAP_BOOKMARK_STAR: Self = {
         #[inline(never)]
         fn bootstrap_bookmark_star(
             crate::IconProps {
@@ -3983,7 +3983,7 @@ impl IconData {
             html: bootstrap_bookmark_star,
         }
     };
-    const BOOTSTRAP_BOOKMARK_X_FILL: Self = {
+    pub const BOOTSTRAP_BOOKMARK_X_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bookmark_x_fill(
             crate::IconProps {
@@ -4005,7 +4005,7 @@ impl IconData {
             html: bootstrap_bookmark_x_fill,
         }
     };
-    const BOOTSTRAP_BOOKMARK_X: Self = {
+    pub const BOOTSTRAP_BOOKMARK_X: Self = {
         #[inline(never)]
         fn bootstrap_bookmark_x(
             crate::IconProps {
@@ -4027,7 +4027,7 @@ impl IconData {
             html: bootstrap_bookmark_x,
         }
     };
-    const BOOTSTRAP_BOOKMARK: Self = {
+    pub const BOOTSTRAP_BOOKMARK: Self = {
         #[inline(never)]
         fn bootstrap_bookmark(
             crate::IconProps {
@@ -4049,7 +4049,7 @@ impl IconData {
             html: bootstrap_bookmark,
         }
     };
-    const BOOTSTRAP_BOOKMARKS_FILL: Self = {
+    pub const BOOTSTRAP_BOOKMARKS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bookmarks_fill(
             crate::IconProps {
@@ -4071,7 +4071,7 @@ impl IconData {
             html: bootstrap_bookmarks_fill,
         }
     };
-    const BOOTSTRAP_BOOKMARKS: Self = {
+    pub const BOOTSTRAP_BOOKMARKS: Self = {
         #[inline(never)]
         fn bootstrap_bookmarks(
             crate::IconProps {
@@ -4093,7 +4093,7 @@ impl IconData {
             html: bootstrap_bookmarks,
         }
     };
-    const BOOTSTRAP_BOOKSHELF: Self = {
+    pub const BOOTSTRAP_BOOKSHELF: Self = {
         #[inline(never)]
         fn bootstrap_bookshelf(
             crate::IconProps {
@@ -4115,7 +4115,7 @@ impl IconData {
             html: bootstrap_bookshelf,
         }
     };
-    const BOOTSTRAP_BOOMBOX_FILL: Self = {
+    pub const BOOTSTRAP_BOOMBOX_FILL: Self = {
         #[inline(never)]
         fn bootstrap_boombox_fill(
             crate::IconProps {
@@ -4137,7 +4137,7 @@ impl IconData {
             html: bootstrap_boombox_fill,
         }
     };
-    const BOOTSTRAP_BOOMBOX: Self = {
+    pub const BOOTSTRAP_BOOMBOX: Self = {
         #[inline(never)]
         fn bootstrap_boombox(
             crate::IconProps {
@@ -4159,7 +4159,7 @@ impl IconData {
             html: bootstrap_boombox,
         }
     };
-    const BOOTSTRAP_BOOTSTRAP_FILL: Self = {
+    pub const BOOTSTRAP_BOOTSTRAP_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bootstrap_fill(
             crate::IconProps {
@@ -4181,7 +4181,7 @@ impl IconData {
             html: bootstrap_bootstrap_fill,
         }
     };
-    const BOOTSTRAP_BOOTSTRAP_REBOOT: Self = {
+    pub const BOOTSTRAP_BOOTSTRAP_REBOOT: Self = {
         #[inline(never)]
         fn bootstrap_bootstrap_reboot(
             crate::IconProps {
@@ -4203,7 +4203,7 @@ impl IconData {
             html: bootstrap_bootstrap_reboot,
         }
     };
-    const BOOTSTRAP_BOOTSTRAP: Self = {
+    pub const BOOTSTRAP_BOOTSTRAP: Self = {
         #[inline(never)]
         fn bootstrap_bootstrap(
             crate::IconProps {
@@ -4225,7 +4225,7 @@ impl IconData {
             html: bootstrap_bootstrap,
         }
     };
-    const BOOTSTRAP_BORDER_ALL: Self = {
+    pub const BOOTSTRAP_BORDER_ALL: Self = {
         #[inline(never)]
         fn bootstrap_border_all(
             crate::IconProps {
@@ -4247,7 +4247,7 @@ impl IconData {
             html: bootstrap_border_all,
         }
     };
-    const BOOTSTRAP_BORDER_BOTTOM: Self = {
+    pub const BOOTSTRAP_BORDER_BOTTOM: Self = {
         #[inline(never)]
         fn bootstrap_border_bottom(
             crate::IconProps {
@@ -4269,7 +4269,7 @@ impl IconData {
             html: bootstrap_border_bottom,
         }
     };
-    const BOOTSTRAP_BORDER_CENTER: Self = {
+    pub const BOOTSTRAP_BORDER_CENTER: Self = {
         #[inline(never)]
         fn bootstrap_border_center(
             crate::IconProps {
@@ -4291,7 +4291,7 @@ impl IconData {
             html: bootstrap_border_center,
         }
     };
-    const BOOTSTRAP_BORDER_INNER: Self = {
+    pub const BOOTSTRAP_BORDER_INNER: Self = {
         #[inline(never)]
         fn bootstrap_border_inner(
             crate::IconProps {
@@ -4313,7 +4313,7 @@ impl IconData {
             html: bootstrap_border_inner,
         }
     };
-    const BOOTSTRAP_BORDER_LEFT: Self = {
+    pub const BOOTSTRAP_BORDER_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_border_left(
             crate::IconProps {
@@ -4335,7 +4335,7 @@ impl IconData {
             html: bootstrap_border_left,
         }
     };
-    const BOOTSTRAP_BORDER_MIDDLE: Self = {
+    pub const BOOTSTRAP_BORDER_MIDDLE: Self = {
         #[inline(never)]
         fn bootstrap_border_middle(
             crate::IconProps {
@@ -4357,7 +4357,7 @@ impl IconData {
             html: bootstrap_border_middle,
         }
     };
-    const BOOTSTRAP_BORDER_OUTER: Self = {
+    pub const BOOTSTRAP_BORDER_OUTER: Self = {
         #[inline(never)]
         fn bootstrap_border_outer(
             crate::IconProps {
@@ -4379,7 +4379,7 @@ impl IconData {
             html: bootstrap_border_outer,
         }
     };
-    const BOOTSTRAP_BORDER_RIGHT: Self = {
+    pub const BOOTSTRAP_BORDER_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_border_right(
             crate::IconProps {
@@ -4401,7 +4401,7 @@ impl IconData {
             html: bootstrap_border_right,
         }
     };
-    const BOOTSTRAP_BORDER_STYLE: Self = {
+    pub const BOOTSTRAP_BORDER_STYLE: Self = {
         #[inline(never)]
         fn bootstrap_border_style(
             crate::IconProps {
@@ -4423,7 +4423,7 @@ impl IconData {
             html: bootstrap_border_style,
         }
     };
-    const BOOTSTRAP_BORDER_TOP: Self = {
+    pub const BOOTSTRAP_BORDER_TOP: Self = {
         #[inline(never)]
         fn bootstrap_border_top(
             crate::IconProps {
@@ -4445,7 +4445,7 @@ impl IconData {
             html: bootstrap_border_top,
         }
     };
-    const BOOTSTRAP_BORDER_WIDTH: Self = {
+    pub const BOOTSTRAP_BORDER_WIDTH: Self = {
         #[inline(never)]
         fn bootstrap_border_width(
             crate::IconProps {
@@ -4467,7 +4467,7 @@ impl IconData {
             html: bootstrap_border_width,
         }
     };
-    const BOOTSTRAP_BORDER: Self = {
+    pub const BOOTSTRAP_BORDER: Self = {
         #[inline(never)]
         fn bootstrap_border(
             crate::IconProps {
@@ -4489,7 +4489,7 @@ impl IconData {
             html: bootstrap_border,
         }
     };
-    const BOOTSTRAP_BOUNDING_BOX_CIRCLES: Self = {
+    pub const BOOTSTRAP_BOUNDING_BOX_CIRCLES: Self = {
         #[inline(never)]
         fn bootstrap_bounding_box_circles(
             crate::IconProps {
@@ -4511,7 +4511,7 @@ impl IconData {
             html: bootstrap_bounding_box_circles,
         }
     };
-    const BOOTSTRAP_BOUNDING_BOX: Self = {
+    pub const BOOTSTRAP_BOUNDING_BOX: Self = {
         #[inline(never)]
         fn bootstrap_bounding_box(
             crate::IconProps {
@@ -4533,7 +4533,7 @@ impl IconData {
             html: bootstrap_bounding_box,
         }
     };
-    const BOOTSTRAP_BOX_ARROW_DOWN_LEFT: Self = {
+    pub const BOOTSTRAP_BOX_ARROW_DOWN_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_box_arrow_down_left(
             crate::IconProps {
@@ -4555,7 +4555,7 @@ impl IconData {
             html: bootstrap_box_arrow_down_left,
         }
     };
-    const BOOTSTRAP_BOX_ARROW_DOWN_RIGHT: Self = {
+    pub const BOOTSTRAP_BOX_ARROW_DOWN_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_box_arrow_down_right(
             crate::IconProps {
@@ -4577,7 +4577,7 @@ impl IconData {
             html: bootstrap_box_arrow_down_right,
         }
     };
-    const BOOTSTRAP_BOX_ARROW_DOWN: Self = {
+    pub const BOOTSTRAP_BOX_ARROW_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_box_arrow_down(
             crate::IconProps {
@@ -4599,7 +4599,7 @@ impl IconData {
             html: bootstrap_box_arrow_down,
         }
     };
-    const BOOTSTRAP_BOX_ARROW_IN_DOWN_LEFT: Self = {
+    pub const BOOTSTRAP_BOX_ARROW_IN_DOWN_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_box_arrow_in_down_left(
             crate::IconProps {
@@ -4621,7 +4621,7 @@ impl IconData {
             html: bootstrap_box_arrow_in_down_left,
         }
     };
-    const BOOTSTRAP_BOX_ARROW_IN_DOWN_RIGHT: Self = {
+    pub const BOOTSTRAP_BOX_ARROW_IN_DOWN_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_box_arrow_in_down_right(
             crate::IconProps {
@@ -4643,7 +4643,7 @@ impl IconData {
             html: bootstrap_box_arrow_in_down_right,
         }
     };
-    const BOOTSTRAP_BOX_ARROW_IN_DOWN: Self = {
+    pub const BOOTSTRAP_BOX_ARROW_IN_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_box_arrow_in_down(
             crate::IconProps {
@@ -4665,7 +4665,7 @@ impl IconData {
             html: bootstrap_box_arrow_in_down,
         }
     };
-    const BOOTSTRAP_BOX_ARROW_IN_LEFT: Self = {
+    pub const BOOTSTRAP_BOX_ARROW_IN_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_box_arrow_in_left(
             crate::IconProps {
@@ -4687,7 +4687,7 @@ impl IconData {
             html: bootstrap_box_arrow_in_left,
         }
     };
-    const BOOTSTRAP_BOX_ARROW_IN_RIGHT: Self = {
+    pub const BOOTSTRAP_BOX_ARROW_IN_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_box_arrow_in_right(
             crate::IconProps {
@@ -4709,7 +4709,7 @@ impl IconData {
             html: bootstrap_box_arrow_in_right,
         }
     };
-    const BOOTSTRAP_BOX_ARROW_IN_UP_LEFT: Self = {
+    pub const BOOTSTRAP_BOX_ARROW_IN_UP_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_box_arrow_in_up_left(
             crate::IconProps {
@@ -4731,7 +4731,7 @@ impl IconData {
             html: bootstrap_box_arrow_in_up_left,
         }
     };
-    const BOOTSTRAP_BOX_ARROW_IN_UP_RIGHT: Self = {
+    pub const BOOTSTRAP_BOX_ARROW_IN_UP_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_box_arrow_in_up_right(
             crate::IconProps {
@@ -4753,7 +4753,7 @@ impl IconData {
             html: bootstrap_box_arrow_in_up_right,
         }
     };
-    const BOOTSTRAP_BOX_ARROW_IN_UP: Self = {
+    pub const BOOTSTRAP_BOX_ARROW_IN_UP: Self = {
         #[inline(never)]
         fn bootstrap_box_arrow_in_up(
             crate::IconProps {
@@ -4775,7 +4775,7 @@ impl IconData {
             html: bootstrap_box_arrow_in_up,
         }
     };
-    const BOOTSTRAP_BOX_ARROW_LEFT: Self = {
+    pub const BOOTSTRAP_BOX_ARROW_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_box_arrow_left(
             crate::IconProps {
@@ -4797,7 +4797,7 @@ impl IconData {
             html: bootstrap_box_arrow_left,
         }
     };
-    const BOOTSTRAP_BOX_ARROW_RIGHT: Self = {
+    pub const BOOTSTRAP_BOX_ARROW_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_box_arrow_right(
             crate::IconProps {
@@ -4819,7 +4819,7 @@ impl IconData {
             html: bootstrap_box_arrow_right,
         }
     };
-    const BOOTSTRAP_BOX_ARROW_UP_LEFT: Self = {
+    pub const BOOTSTRAP_BOX_ARROW_UP_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_box_arrow_up_left(
             crate::IconProps {
@@ -4841,7 +4841,7 @@ impl IconData {
             html: bootstrap_box_arrow_up_left,
         }
     };
-    const BOOTSTRAP_BOX_ARROW_UP_RIGHT: Self = {
+    pub const BOOTSTRAP_BOX_ARROW_UP_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_box_arrow_up_right(
             crate::IconProps {
@@ -4863,7 +4863,7 @@ impl IconData {
             html: bootstrap_box_arrow_up_right,
         }
     };
-    const BOOTSTRAP_BOX_ARROW_UP: Self = {
+    pub const BOOTSTRAP_BOX_ARROW_UP: Self = {
         #[inline(never)]
         fn bootstrap_box_arrow_up(
             crate::IconProps {
@@ -4885,7 +4885,7 @@ impl IconData {
             html: bootstrap_box_arrow_up,
         }
     };
-    const BOOTSTRAP_BOX_SEAM: Self = {
+    pub const BOOTSTRAP_BOX_SEAM: Self = {
         #[inline(never)]
         fn bootstrap_box_seam(
             crate::IconProps {
@@ -4907,7 +4907,7 @@ impl IconData {
             html: bootstrap_box_seam,
         }
     };
-    const BOOTSTRAP_BOX: Self = {
+    pub const BOOTSTRAP_BOX: Self = {
         #[inline(never)]
         fn bootstrap_box(
             crate::IconProps {
@@ -4929,7 +4929,7 @@ impl IconData {
             html: bootstrap_box,
         }
     };
-    const BOOTSTRAP_BOX_2_FILL: Self = {
+    pub const BOOTSTRAP_BOX_2_FILL: Self = {
         #[inline(never)]
         fn bootstrap_box_2_fill(
             crate::IconProps {
@@ -4951,7 +4951,7 @@ impl IconData {
             html: bootstrap_box_2_fill,
         }
     };
-    const BOOTSTRAP_BOX_2_HEART_FILL: Self = {
+    pub const BOOTSTRAP_BOX_2_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_box_2_heart_fill(
             crate::IconProps {
@@ -4973,7 +4973,7 @@ impl IconData {
             html: bootstrap_box_2_heart_fill,
         }
     };
-    const BOOTSTRAP_BOX_2_HEART: Self = {
+    pub const BOOTSTRAP_BOX_2_HEART: Self = {
         #[inline(never)]
         fn bootstrap_box_2_heart(
             crate::IconProps {
@@ -4995,7 +4995,7 @@ impl IconData {
             html: bootstrap_box_2_heart,
         }
     };
-    const BOOTSTRAP_BOX_2: Self = {
+    pub const BOOTSTRAP_BOX_2: Self = {
         #[inline(never)]
         fn bootstrap_box_2(
             crate::IconProps {
@@ -5017,7 +5017,7 @@ impl IconData {
             html: bootstrap_box_2,
         }
     };
-    const BOOTSTRAP_BOXES: Self = {
+    pub const BOOTSTRAP_BOXES: Self = {
         #[inline(never)]
         fn bootstrap_boxes(
             crate::IconProps {
@@ -5039,7 +5039,7 @@ impl IconData {
             html: bootstrap_boxes,
         }
     };
-    const BOOTSTRAP_BRACES_ASTERISK: Self = {
+    pub const BOOTSTRAP_BRACES_ASTERISK: Self = {
         #[inline(never)]
         fn bootstrap_braces_asterisk(
             crate::IconProps {
@@ -5061,7 +5061,7 @@ impl IconData {
             html: bootstrap_braces_asterisk,
         }
     };
-    const BOOTSTRAP_BRACES: Self = {
+    pub const BOOTSTRAP_BRACES: Self = {
         #[inline(never)]
         fn bootstrap_braces(
             crate::IconProps {
@@ -5083,7 +5083,7 @@ impl IconData {
             html: bootstrap_braces,
         }
     };
-    const BOOTSTRAP_BRICKS: Self = {
+    pub const BOOTSTRAP_BRICKS: Self = {
         #[inline(never)]
         fn bootstrap_bricks(
             crate::IconProps {
@@ -5105,7 +5105,7 @@ impl IconData {
             html: bootstrap_bricks,
         }
     };
-    const BOOTSTRAP_BRIEFCASE_FILL: Self = {
+    pub const BOOTSTRAP_BRIEFCASE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_briefcase_fill(
             crate::IconProps {
@@ -5127,7 +5127,7 @@ impl IconData {
             html: bootstrap_briefcase_fill,
         }
     };
-    const BOOTSTRAP_BRIEFCASE: Self = {
+    pub const BOOTSTRAP_BRIEFCASE: Self = {
         #[inline(never)]
         fn bootstrap_briefcase(
             crate::IconProps {
@@ -5149,7 +5149,7 @@ impl IconData {
             html: bootstrap_briefcase,
         }
     };
-    const BOOTSTRAP_BRIGHTNESS_ALT_HIGH_FILL: Self = {
+    pub const BOOTSTRAP_BRIGHTNESS_ALT_HIGH_FILL: Self = {
         #[inline(never)]
         fn bootstrap_brightness_alt_high_fill(
             crate::IconProps {
@@ -5171,7 +5171,7 @@ impl IconData {
             html: bootstrap_brightness_alt_high_fill,
         }
     };
-    const BOOTSTRAP_BRIGHTNESS_ALT_HIGH: Self = {
+    pub const BOOTSTRAP_BRIGHTNESS_ALT_HIGH: Self = {
         #[inline(never)]
         fn bootstrap_brightness_alt_high(
             crate::IconProps {
@@ -5193,7 +5193,7 @@ impl IconData {
             html: bootstrap_brightness_alt_high,
         }
     };
-    const BOOTSTRAP_BRIGHTNESS_ALT_LOW_FILL: Self = {
+    pub const BOOTSTRAP_BRIGHTNESS_ALT_LOW_FILL: Self = {
         #[inline(never)]
         fn bootstrap_brightness_alt_low_fill(
             crate::IconProps {
@@ -5215,7 +5215,7 @@ impl IconData {
             html: bootstrap_brightness_alt_low_fill,
         }
     };
-    const BOOTSTRAP_BRIGHTNESS_ALT_LOW: Self = {
+    pub const BOOTSTRAP_BRIGHTNESS_ALT_LOW: Self = {
         #[inline(never)]
         fn bootstrap_brightness_alt_low(
             crate::IconProps {
@@ -5237,7 +5237,7 @@ impl IconData {
             html: bootstrap_brightness_alt_low,
         }
     };
-    const BOOTSTRAP_BRIGHTNESS_HIGH_FILL: Self = {
+    pub const BOOTSTRAP_BRIGHTNESS_HIGH_FILL: Self = {
         #[inline(never)]
         fn bootstrap_brightness_high_fill(
             crate::IconProps {
@@ -5259,7 +5259,7 @@ impl IconData {
             html: bootstrap_brightness_high_fill,
         }
     };
-    const BOOTSTRAP_BRIGHTNESS_HIGH: Self = {
+    pub const BOOTSTRAP_BRIGHTNESS_HIGH: Self = {
         #[inline(never)]
         fn bootstrap_brightness_high(
             crate::IconProps {
@@ -5281,7 +5281,7 @@ impl IconData {
             html: bootstrap_brightness_high,
         }
     };
-    const BOOTSTRAP_BRIGHTNESS_LOW_FILL: Self = {
+    pub const BOOTSTRAP_BRIGHTNESS_LOW_FILL: Self = {
         #[inline(never)]
         fn bootstrap_brightness_low_fill(
             crate::IconProps {
@@ -5303,7 +5303,7 @@ impl IconData {
             html: bootstrap_brightness_low_fill,
         }
     };
-    const BOOTSTRAP_BRIGHTNESS_LOW: Self = {
+    pub const BOOTSTRAP_BRIGHTNESS_LOW: Self = {
         #[inline(never)]
         fn bootstrap_brightness_low(
             crate::IconProps {
@@ -5325,7 +5325,7 @@ impl IconData {
             html: bootstrap_brightness_low,
         }
     };
-    const BOOTSTRAP_BROADCAST_PIN: Self = {
+    pub const BOOTSTRAP_BROADCAST_PIN: Self = {
         #[inline(never)]
         fn bootstrap_broadcast_pin(
             crate::IconProps {
@@ -5347,7 +5347,7 @@ impl IconData {
             html: bootstrap_broadcast_pin,
         }
     };
-    const BOOTSTRAP_BROADCAST: Self = {
+    pub const BOOTSTRAP_BROADCAST: Self = {
         #[inline(never)]
         fn bootstrap_broadcast(
             crate::IconProps {
@@ -5369,7 +5369,7 @@ impl IconData {
             html: bootstrap_broadcast,
         }
     };
-    const BOOTSTRAP_BRUSH_FILL: Self = {
+    pub const BOOTSTRAP_BRUSH_FILL: Self = {
         #[inline(never)]
         fn bootstrap_brush_fill(
             crate::IconProps {
@@ -5391,7 +5391,7 @@ impl IconData {
             html: bootstrap_brush_fill,
         }
     };
-    const BOOTSTRAP_BRUSH: Self = {
+    pub const BOOTSTRAP_BRUSH: Self = {
         #[inline(never)]
         fn bootstrap_brush(
             crate::IconProps {
@@ -5413,7 +5413,7 @@ impl IconData {
             html: bootstrap_brush,
         }
     };
-    const BOOTSTRAP_BUCKET_FILL: Self = {
+    pub const BOOTSTRAP_BUCKET_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bucket_fill(
             crate::IconProps {
@@ -5435,7 +5435,7 @@ impl IconData {
             html: bootstrap_bucket_fill,
         }
     };
-    const BOOTSTRAP_BUCKET: Self = {
+    pub const BOOTSTRAP_BUCKET: Self = {
         #[inline(never)]
         fn bootstrap_bucket(
             crate::IconProps {
@@ -5457,7 +5457,7 @@ impl IconData {
             html: bootstrap_bucket,
         }
     };
-    const BOOTSTRAP_BUG_FILL: Self = {
+    pub const BOOTSTRAP_BUG_FILL: Self = {
         #[inline(never)]
         fn bootstrap_bug_fill(
             crate::IconProps {
@@ -5479,7 +5479,7 @@ impl IconData {
             html: bootstrap_bug_fill,
         }
     };
-    const BOOTSTRAP_BUG: Self = {
+    pub const BOOTSTRAP_BUG: Self = {
         #[inline(never)]
         fn bootstrap_bug(
             crate::IconProps {
@@ -5501,7 +5501,7 @@ impl IconData {
             html: bootstrap_bug,
         }
     };
-    const BOOTSTRAP_BUILDING: Self = {
+    pub const BOOTSTRAP_BUILDING: Self = {
         #[inline(never)]
         fn bootstrap_building(
             crate::IconProps {
@@ -5523,7 +5523,7 @@ impl IconData {
             html: bootstrap_building,
         }
     };
-    const BOOTSTRAP_BULLSEYE: Self = {
+    pub const BOOTSTRAP_BULLSEYE: Self = {
         #[inline(never)]
         fn bootstrap_bullseye(
             crate::IconProps {
@@ -5545,7 +5545,7 @@ impl IconData {
             html: bootstrap_bullseye,
         }
     };
-    const BOOTSTRAP_CALCULATOR_FILL: Self = {
+    pub const BOOTSTRAP_CALCULATOR_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calculator_fill(
             crate::IconProps {
@@ -5567,7 +5567,7 @@ impl IconData {
             html: bootstrap_calculator_fill,
         }
     };
-    const BOOTSTRAP_CALCULATOR: Self = {
+    pub const BOOTSTRAP_CALCULATOR: Self = {
         #[inline(never)]
         fn bootstrap_calculator(
             crate::IconProps {
@@ -5589,7 +5589,7 @@ impl IconData {
             html: bootstrap_calculator,
         }
     };
-    const BOOTSTRAP_CALENDAR_CHECK_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_CHECK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_check_fill(
             crate::IconProps {
@@ -5611,7 +5611,7 @@ impl IconData {
             html: bootstrap_calendar_check_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_CHECK: Self = {
+    pub const BOOTSTRAP_CALENDAR_CHECK: Self = {
         #[inline(never)]
         fn bootstrap_calendar_check(
             crate::IconProps {
@@ -5633,7 +5633,7 @@ impl IconData {
             html: bootstrap_calendar_check,
         }
     };
-    const BOOTSTRAP_CALENDAR_DATE_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_DATE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_date_fill(
             crate::IconProps {
@@ -5655,7 +5655,7 @@ impl IconData {
             html: bootstrap_calendar_date_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_DATE: Self = {
+    pub const BOOTSTRAP_CALENDAR_DATE: Self = {
         #[inline(never)]
         fn bootstrap_calendar_date(
             crate::IconProps {
@@ -5677,7 +5677,7 @@ impl IconData {
             html: bootstrap_calendar_date,
         }
     };
-    const BOOTSTRAP_CALENDAR_DAY_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_DAY_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_day_fill(
             crate::IconProps {
@@ -5699,7 +5699,7 @@ impl IconData {
             html: bootstrap_calendar_day_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_DAY: Self = {
+    pub const BOOTSTRAP_CALENDAR_DAY: Self = {
         #[inline(never)]
         fn bootstrap_calendar_day(
             crate::IconProps {
@@ -5721,7 +5721,7 @@ impl IconData {
             html: bootstrap_calendar_day,
         }
     };
-    const BOOTSTRAP_CALENDAR_EVENT_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_EVENT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_event_fill(
             crate::IconProps {
@@ -5743,7 +5743,7 @@ impl IconData {
             html: bootstrap_calendar_event_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_EVENT: Self = {
+    pub const BOOTSTRAP_CALENDAR_EVENT: Self = {
         #[inline(never)]
         fn bootstrap_calendar_event(
             crate::IconProps {
@@ -5765,7 +5765,7 @@ impl IconData {
             html: bootstrap_calendar_event,
         }
     };
-    const BOOTSTRAP_CALENDAR_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_fill(
             crate::IconProps {
@@ -5787,7 +5787,7 @@ impl IconData {
             html: bootstrap_calendar_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_HEART_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_heart_fill(
             crate::IconProps {
@@ -5809,7 +5809,7 @@ impl IconData {
             html: bootstrap_calendar_heart_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_HEART: Self = {
+    pub const BOOTSTRAP_CALENDAR_HEART: Self = {
         #[inline(never)]
         fn bootstrap_calendar_heart(
             crate::IconProps {
@@ -5831,7 +5831,7 @@ impl IconData {
             html: bootstrap_calendar_heart,
         }
     };
-    const BOOTSTRAP_CALENDAR_MINUS_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_MINUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_minus_fill(
             crate::IconProps {
@@ -5853,7 +5853,7 @@ impl IconData {
             html: bootstrap_calendar_minus_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_MINUS: Self = {
+    pub const BOOTSTRAP_CALENDAR_MINUS: Self = {
         #[inline(never)]
         fn bootstrap_calendar_minus(
             crate::IconProps {
@@ -5875,7 +5875,7 @@ impl IconData {
             html: bootstrap_calendar_minus,
         }
     };
-    const BOOTSTRAP_CALENDAR_MONTH_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_MONTH_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_month_fill(
             crate::IconProps {
@@ -5897,7 +5897,7 @@ impl IconData {
             html: bootstrap_calendar_month_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_MONTH: Self = {
+    pub const BOOTSTRAP_CALENDAR_MONTH: Self = {
         #[inline(never)]
         fn bootstrap_calendar_month(
             crate::IconProps {
@@ -5919,7 +5919,7 @@ impl IconData {
             html: bootstrap_calendar_month,
         }
     };
-    const BOOTSTRAP_CALENDAR_PLUS_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_PLUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_plus_fill(
             crate::IconProps {
@@ -5941,7 +5941,7 @@ impl IconData {
             html: bootstrap_calendar_plus_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_PLUS: Self = {
+    pub const BOOTSTRAP_CALENDAR_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_calendar_plus(
             crate::IconProps {
@@ -5963,7 +5963,7 @@ impl IconData {
             html: bootstrap_calendar_plus,
         }
     };
-    const BOOTSTRAP_CALENDAR_RANGE_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_RANGE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_range_fill(
             crate::IconProps {
@@ -5985,7 +5985,7 @@ impl IconData {
             html: bootstrap_calendar_range_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_RANGE: Self = {
+    pub const BOOTSTRAP_CALENDAR_RANGE: Self = {
         #[inline(never)]
         fn bootstrap_calendar_range(
             crate::IconProps {
@@ -6007,7 +6007,7 @@ impl IconData {
             html: bootstrap_calendar_range,
         }
     };
-    const BOOTSTRAP_CALENDAR_WEEK_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_WEEK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_week_fill(
             crate::IconProps {
@@ -6029,7 +6029,7 @@ impl IconData {
             html: bootstrap_calendar_week_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_WEEK: Self = {
+    pub const BOOTSTRAP_CALENDAR_WEEK: Self = {
         #[inline(never)]
         fn bootstrap_calendar_week(
             crate::IconProps {
@@ -6051,7 +6051,7 @@ impl IconData {
             html: bootstrap_calendar_week,
         }
     };
-    const BOOTSTRAP_CALENDAR_X_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_X_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_x_fill(
             crate::IconProps {
@@ -6073,7 +6073,7 @@ impl IconData {
             html: bootstrap_calendar_x_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_X: Self = {
+    pub const BOOTSTRAP_CALENDAR_X: Self = {
         #[inline(never)]
         fn bootstrap_calendar_x(
             crate::IconProps {
@@ -6095,7 +6095,7 @@ impl IconData {
             html: bootstrap_calendar_x,
         }
     };
-    const BOOTSTRAP_CALENDAR: Self = {
+    pub const BOOTSTRAP_CALENDAR: Self = {
         #[inline(never)]
         fn bootstrap_calendar(
             crate::IconProps {
@@ -6117,7 +6117,7 @@ impl IconData {
             html: bootstrap_calendar,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_CHECK_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_CHECK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_check_fill(
             crate::IconProps {
@@ -6139,7 +6139,7 @@ impl IconData {
             html: bootstrap_calendar_2_check_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_CHECK: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_CHECK: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_check(
             crate::IconProps {
@@ -6161,7 +6161,7 @@ impl IconData {
             html: bootstrap_calendar_2_check,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_DATE_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_DATE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_date_fill(
             crate::IconProps {
@@ -6183,7 +6183,7 @@ impl IconData {
             html: bootstrap_calendar_2_date_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_DATE: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_DATE: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_date(
             crate::IconProps {
@@ -6205,7 +6205,7 @@ impl IconData {
             html: bootstrap_calendar_2_date,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_DAY_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_DAY_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_day_fill(
             crate::IconProps {
@@ -6227,7 +6227,7 @@ impl IconData {
             html: bootstrap_calendar_2_day_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_DAY: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_DAY: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_day(
             crate::IconProps {
@@ -6249,7 +6249,7 @@ impl IconData {
             html: bootstrap_calendar_2_day,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_EVENT_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_EVENT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_event_fill(
             crate::IconProps {
@@ -6271,7 +6271,7 @@ impl IconData {
             html: bootstrap_calendar_2_event_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_EVENT: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_EVENT: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_event(
             crate::IconProps {
@@ -6293,7 +6293,7 @@ impl IconData {
             html: bootstrap_calendar_2_event,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_fill(
             crate::IconProps {
@@ -6315,7 +6315,7 @@ impl IconData {
             html: bootstrap_calendar_2_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_HEART_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_heart_fill(
             crate::IconProps {
@@ -6337,7 +6337,7 @@ impl IconData {
             html: bootstrap_calendar_2_heart_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_HEART: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_HEART: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_heart(
             crate::IconProps {
@@ -6359,7 +6359,7 @@ impl IconData {
             html: bootstrap_calendar_2_heart,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_MINUS_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_MINUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_minus_fill(
             crate::IconProps {
@@ -6381,7 +6381,7 @@ impl IconData {
             html: bootstrap_calendar_2_minus_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_MINUS: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_MINUS: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_minus(
             crate::IconProps {
@@ -6403,7 +6403,7 @@ impl IconData {
             html: bootstrap_calendar_2_minus,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_MONTH_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_MONTH_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_month_fill(
             crate::IconProps {
@@ -6425,7 +6425,7 @@ impl IconData {
             html: bootstrap_calendar_2_month_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_MONTH: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_MONTH: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_month(
             crate::IconProps {
@@ -6447,7 +6447,7 @@ impl IconData {
             html: bootstrap_calendar_2_month,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_PLUS_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_PLUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_plus_fill(
             crate::IconProps {
@@ -6469,7 +6469,7 @@ impl IconData {
             html: bootstrap_calendar_2_plus_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_PLUS: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_plus(
             crate::IconProps {
@@ -6491,7 +6491,7 @@ impl IconData {
             html: bootstrap_calendar_2_plus,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_RANGE_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_RANGE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_range_fill(
             crate::IconProps {
@@ -6513,7 +6513,7 @@ impl IconData {
             html: bootstrap_calendar_2_range_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_RANGE: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_RANGE: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_range(
             crate::IconProps {
@@ -6535,7 +6535,7 @@ impl IconData {
             html: bootstrap_calendar_2_range,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_WEEK_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_WEEK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_week_fill(
             crate::IconProps {
@@ -6557,7 +6557,7 @@ impl IconData {
             html: bootstrap_calendar_2_week_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_WEEK: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_WEEK: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_week(
             crate::IconProps {
@@ -6579,7 +6579,7 @@ impl IconData {
             html: bootstrap_calendar_2_week,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_X_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_X_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_x_fill(
             crate::IconProps {
@@ -6601,7 +6601,7 @@ impl IconData {
             html: bootstrap_calendar_2_x_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_2_X: Self = {
+    pub const BOOTSTRAP_CALENDAR_2_X: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2_x(
             crate::IconProps {
@@ -6623,7 +6623,7 @@ impl IconData {
             html: bootstrap_calendar_2_x,
         }
     };
-    const BOOTSTRAP_CALENDAR_2: Self = {
+    pub const BOOTSTRAP_CALENDAR_2: Self = {
         #[inline(never)]
         fn bootstrap_calendar_2(
             crate::IconProps {
@@ -6645,7 +6645,7 @@ impl IconData {
             html: bootstrap_calendar_2,
         }
     };
-    const BOOTSTRAP_CALENDAR_3_EVENT_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_3_EVENT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_3_event_fill(
             crate::IconProps {
@@ -6667,7 +6667,7 @@ impl IconData {
             html: bootstrap_calendar_3_event_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_3_EVENT: Self = {
+    pub const BOOTSTRAP_CALENDAR_3_EVENT: Self = {
         #[inline(never)]
         fn bootstrap_calendar_3_event(
             crate::IconProps {
@@ -6689,7 +6689,7 @@ impl IconData {
             html: bootstrap_calendar_3_event,
         }
     };
-    const BOOTSTRAP_CALENDAR_3_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_3_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_3_fill(
             crate::IconProps {
@@ -6711,7 +6711,7 @@ impl IconData {
             html: bootstrap_calendar_3_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_3_RANGE_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_3_RANGE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_3_range_fill(
             crate::IconProps {
@@ -6733,7 +6733,7 @@ impl IconData {
             html: bootstrap_calendar_3_range_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_3_RANGE: Self = {
+    pub const BOOTSTRAP_CALENDAR_3_RANGE: Self = {
         #[inline(never)]
         fn bootstrap_calendar_3_range(
             crate::IconProps {
@@ -6755,7 +6755,7 @@ impl IconData {
             html: bootstrap_calendar_3_range,
         }
     };
-    const BOOTSTRAP_CALENDAR_3_WEEK_FILL: Self = {
+    pub const BOOTSTRAP_CALENDAR_3_WEEK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_calendar_3_week_fill(
             crate::IconProps {
@@ -6777,7 +6777,7 @@ impl IconData {
             html: bootstrap_calendar_3_week_fill,
         }
     };
-    const BOOTSTRAP_CALENDAR_3_WEEK: Self = {
+    pub const BOOTSTRAP_CALENDAR_3_WEEK: Self = {
         #[inline(never)]
         fn bootstrap_calendar_3_week(
             crate::IconProps {
@@ -6799,7 +6799,7 @@ impl IconData {
             html: bootstrap_calendar_3_week,
         }
     };
-    const BOOTSTRAP_CALENDAR_3: Self = {
+    pub const BOOTSTRAP_CALENDAR_3: Self = {
         #[inline(never)]
         fn bootstrap_calendar_3(
             crate::IconProps {
@@ -6821,7 +6821,7 @@ impl IconData {
             html: bootstrap_calendar_3,
         }
     };
-    const BOOTSTRAP_CALENDAR_4_EVENT: Self = {
+    pub const BOOTSTRAP_CALENDAR_4_EVENT: Self = {
         #[inline(never)]
         fn bootstrap_calendar_4_event(
             crate::IconProps {
@@ -6843,7 +6843,7 @@ impl IconData {
             html: bootstrap_calendar_4_event,
         }
     };
-    const BOOTSTRAP_CALENDAR_4_RANGE: Self = {
+    pub const BOOTSTRAP_CALENDAR_4_RANGE: Self = {
         #[inline(never)]
         fn bootstrap_calendar_4_range(
             crate::IconProps {
@@ -6865,7 +6865,7 @@ impl IconData {
             html: bootstrap_calendar_4_range,
         }
     };
-    const BOOTSTRAP_CALENDAR_4_WEEK: Self = {
+    pub const BOOTSTRAP_CALENDAR_4_WEEK: Self = {
         #[inline(never)]
         fn bootstrap_calendar_4_week(
             crate::IconProps {
@@ -6887,7 +6887,7 @@ impl IconData {
             html: bootstrap_calendar_4_week,
         }
     };
-    const BOOTSTRAP_CALENDAR_4: Self = {
+    pub const BOOTSTRAP_CALENDAR_4: Self = {
         #[inline(never)]
         fn bootstrap_calendar_4(
             crate::IconProps {
@@ -6909,7 +6909,7 @@ impl IconData {
             html: bootstrap_calendar_4,
         }
     };
-    const BOOTSTRAP_CAMERA_FILL: Self = {
+    pub const BOOTSTRAP_CAMERA_FILL: Self = {
         #[inline(never)]
         fn bootstrap_camera_fill(
             crate::IconProps {
@@ -6931,7 +6931,7 @@ impl IconData {
             html: bootstrap_camera_fill,
         }
     };
-    const BOOTSTRAP_CAMERA_REELS_FILL: Self = {
+    pub const BOOTSTRAP_CAMERA_REELS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_camera_reels_fill(
             crate::IconProps {
@@ -6953,7 +6953,7 @@ impl IconData {
             html: bootstrap_camera_reels_fill,
         }
     };
-    const BOOTSTRAP_CAMERA_REELS: Self = {
+    pub const BOOTSTRAP_CAMERA_REELS: Self = {
         #[inline(never)]
         fn bootstrap_camera_reels(
             crate::IconProps {
@@ -6975,7 +6975,7 @@ impl IconData {
             html: bootstrap_camera_reels,
         }
     };
-    const BOOTSTRAP_CAMERA_VIDEO_FILL: Self = {
+    pub const BOOTSTRAP_CAMERA_VIDEO_FILL: Self = {
         #[inline(never)]
         fn bootstrap_camera_video_fill(
             crate::IconProps {
@@ -6997,7 +6997,7 @@ impl IconData {
             html: bootstrap_camera_video_fill,
         }
     };
-    const BOOTSTRAP_CAMERA_VIDEO_OFF_FILL: Self = {
+    pub const BOOTSTRAP_CAMERA_VIDEO_OFF_FILL: Self = {
         #[inline(never)]
         fn bootstrap_camera_video_off_fill(
             crate::IconProps {
@@ -7019,7 +7019,7 @@ impl IconData {
             html: bootstrap_camera_video_off_fill,
         }
     };
-    const BOOTSTRAP_CAMERA_VIDEO_OFF: Self = {
+    pub const BOOTSTRAP_CAMERA_VIDEO_OFF: Self = {
         #[inline(never)]
         fn bootstrap_camera_video_off(
             crate::IconProps {
@@ -7041,7 +7041,7 @@ impl IconData {
             html: bootstrap_camera_video_off,
         }
     };
-    const BOOTSTRAP_CAMERA_VIDEO: Self = {
+    pub const BOOTSTRAP_CAMERA_VIDEO: Self = {
         #[inline(never)]
         fn bootstrap_camera_video(
             crate::IconProps {
@@ -7063,7 +7063,7 @@ impl IconData {
             html: bootstrap_camera_video,
         }
     };
-    const BOOTSTRAP_CAMERA: Self = {
+    pub const BOOTSTRAP_CAMERA: Self = {
         #[inline(never)]
         fn bootstrap_camera(
             crate::IconProps {
@@ -7085,7 +7085,7 @@ impl IconData {
             html: bootstrap_camera,
         }
     };
-    const BOOTSTRAP_CAMERA_2: Self = {
+    pub const BOOTSTRAP_CAMERA_2: Self = {
         #[inline(never)]
         fn bootstrap_camera_2(
             crate::IconProps {
@@ -7107,7 +7107,7 @@ impl IconData {
             html: bootstrap_camera_2,
         }
     };
-    const BOOTSTRAP_CAPSLOCK_FILL: Self = {
+    pub const BOOTSTRAP_CAPSLOCK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_capslock_fill(
             crate::IconProps {
@@ -7129,7 +7129,7 @@ impl IconData {
             html: bootstrap_capslock_fill,
         }
     };
-    const BOOTSTRAP_CAPSLOCK: Self = {
+    pub const BOOTSTRAP_CAPSLOCK: Self = {
         #[inline(never)]
         fn bootstrap_capslock(
             crate::IconProps {
@@ -7151,7 +7151,7 @@ impl IconData {
             html: bootstrap_capslock,
         }
     };
-    const BOOTSTRAP_CARD_CHECKLIST: Self = {
+    pub const BOOTSTRAP_CARD_CHECKLIST: Self = {
         #[inline(never)]
         fn bootstrap_card_checklist(
             crate::IconProps {
@@ -7173,7 +7173,7 @@ impl IconData {
             html: bootstrap_card_checklist,
         }
     };
-    const BOOTSTRAP_CARD_HEADING: Self = {
+    pub const BOOTSTRAP_CARD_HEADING: Self = {
         #[inline(never)]
         fn bootstrap_card_heading(
             crate::IconProps {
@@ -7195,7 +7195,7 @@ impl IconData {
             html: bootstrap_card_heading,
         }
     };
-    const BOOTSTRAP_CARD_IMAGE: Self = {
+    pub const BOOTSTRAP_CARD_IMAGE: Self = {
         #[inline(never)]
         fn bootstrap_card_image(
             crate::IconProps {
@@ -7217,7 +7217,7 @@ impl IconData {
             html: bootstrap_card_image,
         }
     };
-    const BOOTSTRAP_CARD_LIST: Self = {
+    pub const BOOTSTRAP_CARD_LIST: Self = {
         #[inline(never)]
         fn bootstrap_card_list(
             crate::IconProps {
@@ -7239,7 +7239,7 @@ impl IconData {
             html: bootstrap_card_list,
         }
     };
-    const BOOTSTRAP_CARD_TEXT: Self = {
+    pub const BOOTSTRAP_CARD_TEXT: Self = {
         #[inline(never)]
         fn bootstrap_card_text(
             crate::IconProps {
@@ -7261,7 +7261,7 @@ impl IconData {
             html: bootstrap_card_text,
         }
     };
-    const BOOTSTRAP_CARET_DOWN_FILL: Self = {
+    pub const BOOTSTRAP_CARET_DOWN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_caret_down_fill(
             crate::IconProps {
@@ -7283,7 +7283,7 @@ impl IconData {
             html: bootstrap_caret_down_fill,
         }
     };
-    const BOOTSTRAP_CARET_DOWN_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_CARET_DOWN_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_caret_down_square_fill(
             crate::IconProps {
@@ -7305,7 +7305,7 @@ impl IconData {
             html: bootstrap_caret_down_square_fill,
         }
     };
-    const BOOTSTRAP_CARET_DOWN_SQUARE: Self = {
+    pub const BOOTSTRAP_CARET_DOWN_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_caret_down_square(
             crate::IconProps {
@@ -7327,7 +7327,7 @@ impl IconData {
             html: bootstrap_caret_down_square,
         }
     };
-    const BOOTSTRAP_CARET_DOWN: Self = {
+    pub const BOOTSTRAP_CARET_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_caret_down(
             crate::IconProps {
@@ -7349,7 +7349,7 @@ impl IconData {
             html: bootstrap_caret_down,
         }
     };
-    const BOOTSTRAP_CARET_LEFT_FILL: Self = {
+    pub const BOOTSTRAP_CARET_LEFT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_caret_left_fill(
             crate::IconProps {
@@ -7371,7 +7371,7 @@ impl IconData {
             html: bootstrap_caret_left_fill,
         }
     };
-    const BOOTSTRAP_CARET_LEFT_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_CARET_LEFT_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_caret_left_square_fill(
             crate::IconProps {
@@ -7393,7 +7393,7 @@ impl IconData {
             html: bootstrap_caret_left_square_fill,
         }
     };
-    const BOOTSTRAP_CARET_LEFT_SQUARE: Self = {
+    pub const BOOTSTRAP_CARET_LEFT_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_caret_left_square(
             crate::IconProps {
@@ -7415,7 +7415,7 @@ impl IconData {
             html: bootstrap_caret_left_square,
         }
     };
-    const BOOTSTRAP_CARET_LEFT: Self = {
+    pub const BOOTSTRAP_CARET_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_caret_left(
             crate::IconProps {
@@ -7437,7 +7437,7 @@ impl IconData {
             html: bootstrap_caret_left,
         }
     };
-    const BOOTSTRAP_CARET_RIGHT_FILL: Self = {
+    pub const BOOTSTRAP_CARET_RIGHT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_caret_right_fill(
             crate::IconProps {
@@ -7459,7 +7459,7 @@ impl IconData {
             html: bootstrap_caret_right_fill,
         }
     };
-    const BOOTSTRAP_CARET_RIGHT_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_CARET_RIGHT_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_caret_right_square_fill(
             crate::IconProps {
@@ -7481,7 +7481,7 @@ impl IconData {
             html: bootstrap_caret_right_square_fill,
         }
     };
-    const BOOTSTRAP_CARET_RIGHT_SQUARE: Self = {
+    pub const BOOTSTRAP_CARET_RIGHT_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_caret_right_square(
             crate::IconProps {
@@ -7503,7 +7503,7 @@ impl IconData {
             html: bootstrap_caret_right_square,
         }
     };
-    const BOOTSTRAP_CARET_RIGHT: Self = {
+    pub const BOOTSTRAP_CARET_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_caret_right(
             crate::IconProps {
@@ -7525,7 +7525,7 @@ impl IconData {
             html: bootstrap_caret_right,
         }
     };
-    const BOOTSTRAP_CARET_UP_FILL: Self = {
+    pub const BOOTSTRAP_CARET_UP_FILL: Self = {
         #[inline(never)]
         fn bootstrap_caret_up_fill(
             crate::IconProps {
@@ -7547,7 +7547,7 @@ impl IconData {
             html: bootstrap_caret_up_fill,
         }
     };
-    const BOOTSTRAP_CARET_UP_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_CARET_UP_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_caret_up_square_fill(
             crate::IconProps {
@@ -7569,7 +7569,7 @@ impl IconData {
             html: bootstrap_caret_up_square_fill,
         }
     };
-    const BOOTSTRAP_CARET_UP_SQUARE: Self = {
+    pub const BOOTSTRAP_CARET_UP_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_caret_up_square(
             crate::IconProps {
@@ -7591,7 +7591,7 @@ impl IconData {
             html: bootstrap_caret_up_square,
         }
     };
-    const BOOTSTRAP_CARET_UP: Self = {
+    pub const BOOTSTRAP_CARET_UP: Self = {
         #[inline(never)]
         fn bootstrap_caret_up(
             crate::IconProps {
@@ -7613,7 +7613,7 @@ impl IconData {
             html: bootstrap_caret_up,
         }
     };
-    const BOOTSTRAP_CART_CHECK_FILL: Self = {
+    pub const BOOTSTRAP_CART_CHECK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cart_check_fill(
             crate::IconProps {
@@ -7635,7 +7635,7 @@ impl IconData {
             html: bootstrap_cart_check_fill,
         }
     };
-    const BOOTSTRAP_CART_CHECK: Self = {
+    pub const BOOTSTRAP_CART_CHECK: Self = {
         #[inline(never)]
         fn bootstrap_cart_check(
             crate::IconProps {
@@ -7657,7 +7657,7 @@ impl IconData {
             html: bootstrap_cart_check,
         }
     };
-    const BOOTSTRAP_CART_DASH_FILL: Self = {
+    pub const BOOTSTRAP_CART_DASH_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cart_dash_fill(
             crate::IconProps {
@@ -7679,7 +7679,7 @@ impl IconData {
             html: bootstrap_cart_dash_fill,
         }
     };
-    const BOOTSTRAP_CART_DASH: Self = {
+    pub const BOOTSTRAP_CART_DASH: Self = {
         #[inline(never)]
         fn bootstrap_cart_dash(
             crate::IconProps {
@@ -7701,7 +7701,7 @@ impl IconData {
             html: bootstrap_cart_dash,
         }
     };
-    const BOOTSTRAP_CART_FILL: Self = {
+    pub const BOOTSTRAP_CART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cart_fill(
             crate::IconProps {
@@ -7723,7 +7723,7 @@ impl IconData {
             html: bootstrap_cart_fill,
         }
     };
-    const BOOTSTRAP_CART_PLUS_FILL: Self = {
+    pub const BOOTSTRAP_CART_PLUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cart_plus_fill(
             crate::IconProps {
@@ -7745,7 +7745,7 @@ impl IconData {
             html: bootstrap_cart_plus_fill,
         }
     };
-    const BOOTSTRAP_CART_PLUS: Self = {
+    pub const BOOTSTRAP_CART_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_cart_plus(
             crate::IconProps {
@@ -7767,7 +7767,7 @@ impl IconData {
             html: bootstrap_cart_plus,
         }
     };
-    const BOOTSTRAP_CART_X_FILL: Self = {
+    pub const BOOTSTRAP_CART_X_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cart_x_fill(
             crate::IconProps {
@@ -7789,7 +7789,7 @@ impl IconData {
             html: bootstrap_cart_x_fill,
         }
     };
-    const BOOTSTRAP_CART_X: Self = {
+    pub const BOOTSTRAP_CART_X: Self = {
         #[inline(never)]
         fn bootstrap_cart_x(
             crate::IconProps {
@@ -7811,7 +7811,7 @@ impl IconData {
             html: bootstrap_cart_x,
         }
     };
-    const BOOTSTRAP_CART: Self = {
+    pub const BOOTSTRAP_CART: Self = {
         #[inline(never)]
         fn bootstrap_cart(
             crate::IconProps {
@@ -7833,7 +7833,7 @@ impl IconData {
             html: bootstrap_cart,
         }
     };
-    const BOOTSTRAP_CART_2: Self = {
+    pub const BOOTSTRAP_CART_2: Self = {
         #[inline(never)]
         fn bootstrap_cart_2(
             crate::IconProps {
@@ -7855,7 +7855,7 @@ impl IconData {
             html: bootstrap_cart_2,
         }
     };
-    const BOOTSTRAP_CART_3: Self = {
+    pub const BOOTSTRAP_CART_3: Self = {
         #[inline(never)]
         fn bootstrap_cart_3(
             crate::IconProps {
@@ -7877,7 +7877,7 @@ impl IconData {
             html: bootstrap_cart_3,
         }
     };
-    const BOOTSTRAP_CART_4: Self = {
+    pub const BOOTSTRAP_CART_4: Self = {
         #[inline(never)]
         fn bootstrap_cart_4(
             crate::IconProps {
@@ -7899,7 +7899,7 @@ impl IconData {
             html: bootstrap_cart_4,
         }
     };
-    const BOOTSTRAP_CASH_COIN: Self = {
+    pub const BOOTSTRAP_CASH_COIN: Self = {
         #[inline(never)]
         fn bootstrap_cash_coin(
             crate::IconProps {
@@ -7921,7 +7921,7 @@ impl IconData {
             html: bootstrap_cash_coin,
         }
     };
-    const BOOTSTRAP_CASH_STACK: Self = {
+    pub const BOOTSTRAP_CASH_STACK: Self = {
         #[inline(never)]
         fn bootstrap_cash_stack(
             crate::IconProps {
@@ -7943,7 +7943,7 @@ impl IconData {
             html: bootstrap_cash_stack,
         }
     };
-    const BOOTSTRAP_CASH: Self = {
+    pub const BOOTSTRAP_CASH: Self = {
         #[inline(never)]
         fn bootstrap_cash(
             crate::IconProps {
@@ -7965,7 +7965,7 @@ impl IconData {
             html: bootstrap_cash,
         }
     };
-    const BOOTSTRAP_CAST: Self = {
+    pub const BOOTSTRAP_CAST: Self = {
         #[inline(never)]
         fn bootstrap_cast(
             crate::IconProps {
@@ -7987,7 +7987,7 @@ impl IconData {
             html: bootstrap_cast,
         }
     };
-    const BOOTSTRAP_CHAT_DOTS_FILL: Self = {
+    pub const BOOTSTRAP_CHAT_DOTS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_chat_dots_fill(
             crate::IconProps {
@@ -8009,7 +8009,7 @@ impl IconData {
             html: bootstrap_chat_dots_fill,
         }
     };
-    const BOOTSTRAP_CHAT_DOTS: Self = {
+    pub const BOOTSTRAP_CHAT_DOTS: Self = {
         #[inline(never)]
         fn bootstrap_chat_dots(
             crate::IconProps {
@@ -8031,7 +8031,7 @@ impl IconData {
             html: bootstrap_chat_dots,
         }
     };
-    const BOOTSTRAP_CHAT_FILL: Self = {
+    pub const BOOTSTRAP_CHAT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_chat_fill(
             crate::IconProps {
@@ -8053,7 +8053,7 @@ impl IconData {
             html: bootstrap_chat_fill,
         }
     };
-    const BOOTSTRAP_CHAT_HEART_FILL: Self = {
+    pub const BOOTSTRAP_CHAT_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_chat_heart_fill(
             crate::IconProps {
@@ -8075,7 +8075,7 @@ impl IconData {
             html: bootstrap_chat_heart_fill,
         }
     };
-    const BOOTSTRAP_CHAT_HEART: Self = {
+    pub const BOOTSTRAP_CHAT_HEART: Self = {
         #[inline(never)]
         fn bootstrap_chat_heart(
             crate::IconProps {
@@ -8097,7 +8097,7 @@ impl IconData {
             html: bootstrap_chat_heart,
         }
     };
-    const BOOTSTRAP_CHAT_LEFT_DOTS_FILL: Self = {
+    pub const BOOTSTRAP_CHAT_LEFT_DOTS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_chat_left_dots_fill(
             crate::IconProps {
@@ -8119,7 +8119,7 @@ impl IconData {
             html: bootstrap_chat_left_dots_fill,
         }
     };
-    const BOOTSTRAP_CHAT_LEFT_DOTS: Self = {
+    pub const BOOTSTRAP_CHAT_LEFT_DOTS: Self = {
         #[inline(never)]
         fn bootstrap_chat_left_dots(
             crate::IconProps {
@@ -8141,7 +8141,7 @@ impl IconData {
             html: bootstrap_chat_left_dots,
         }
     };
-    const BOOTSTRAP_CHAT_LEFT_FILL: Self = {
+    pub const BOOTSTRAP_CHAT_LEFT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_chat_left_fill(
             crate::IconProps {
@@ -8163,7 +8163,7 @@ impl IconData {
             html: bootstrap_chat_left_fill,
         }
     };
-    const BOOTSTRAP_CHAT_LEFT_HEART_FILL: Self = {
+    pub const BOOTSTRAP_CHAT_LEFT_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_chat_left_heart_fill(
             crate::IconProps {
@@ -8185,7 +8185,7 @@ impl IconData {
             html: bootstrap_chat_left_heart_fill,
         }
     };
-    const BOOTSTRAP_CHAT_LEFT_HEART: Self = {
+    pub const BOOTSTRAP_CHAT_LEFT_HEART: Self = {
         #[inline(never)]
         fn bootstrap_chat_left_heart(
             crate::IconProps {
@@ -8207,7 +8207,7 @@ impl IconData {
             html: bootstrap_chat_left_heart,
         }
     };
-    const BOOTSTRAP_CHAT_LEFT_QUOTE_FILL: Self = {
+    pub const BOOTSTRAP_CHAT_LEFT_QUOTE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_chat_left_quote_fill(
             crate::IconProps {
@@ -8229,7 +8229,7 @@ impl IconData {
             html: bootstrap_chat_left_quote_fill,
         }
     };
-    const BOOTSTRAP_CHAT_LEFT_QUOTE: Self = {
+    pub const BOOTSTRAP_CHAT_LEFT_QUOTE: Self = {
         #[inline(never)]
         fn bootstrap_chat_left_quote(
             crate::IconProps {
@@ -8251,7 +8251,7 @@ impl IconData {
             html: bootstrap_chat_left_quote,
         }
     };
-    const BOOTSTRAP_CHAT_LEFT_TEXT_FILL: Self = {
+    pub const BOOTSTRAP_CHAT_LEFT_TEXT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_chat_left_text_fill(
             crate::IconProps {
@@ -8273,7 +8273,7 @@ impl IconData {
             html: bootstrap_chat_left_text_fill,
         }
     };
-    const BOOTSTRAP_CHAT_LEFT_TEXT: Self = {
+    pub const BOOTSTRAP_CHAT_LEFT_TEXT: Self = {
         #[inline(never)]
         fn bootstrap_chat_left_text(
             crate::IconProps {
@@ -8295,7 +8295,7 @@ impl IconData {
             html: bootstrap_chat_left_text,
         }
     };
-    const BOOTSTRAP_CHAT_LEFT: Self = {
+    pub const BOOTSTRAP_CHAT_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_chat_left(
             crate::IconProps {
@@ -8317,7 +8317,7 @@ impl IconData {
             html: bootstrap_chat_left,
         }
     };
-    const BOOTSTRAP_CHAT_QUOTE_FILL: Self = {
+    pub const BOOTSTRAP_CHAT_QUOTE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_chat_quote_fill(
             crate::IconProps {
@@ -8339,7 +8339,7 @@ impl IconData {
             html: bootstrap_chat_quote_fill,
         }
     };
-    const BOOTSTRAP_CHAT_QUOTE: Self = {
+    pub const BOOTSTRAP_CHAT_QUOTE: Self = {
         #[inline(never)]
         fn bootstrap_chat_quote(
             crate::IconProps {
@@ -8361,7 +8361,7 @@ impl IconData {
             html: bootstrap_chat_quote,
         }
     };
-    const BOOTSTRAP_CHAT_RIGHT_DOTS_FILL: Self = {
+    pub const BOOTSTRAP_CHAT_RIGHT_DOTS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_chat_right_dots_fill(
             crate::IconProps {
@@ -8383,7 +8383,7 @@ impl IconData {
             html: bootstrap_chat_right_dots_fill,
         }
     };
-    const BOOTSTRAP_CHAT_RIGHT_DOTS: Self = {
+    pub const BOOTSTRAP_CHAT_RIGHT_DOTS: Self = {
         #[inline(never)]
         fn bootstrap_chat_right_dots(
             crate::IconProps {
@@ -8405,7 +8405,7 @@ impl IconData {
             html: bootstrap_chat_right_dots,
         }
     };
-    const BOOTSTRAP_CHAT_RIGHT_FILL: Self = {
+    pub const BOOTSTRAP_CHAT_RIGHT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_chat_right_fill(
             crate::IconProps {
@@ -8427,7 +8427,7 @@ impl IconData {
             html: bootstrap_chat_right_fill,
         }
     };
-    const BOOTSTRAP_CHAT_RIGHT_HEART_FILL: Self = {
+    pub const BOOTSTRAP_CHAT_RIGHT_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_chat_right_heart_fill(
             crate::IconProps {
@@ -8449,7 +8449,7 @@ impl IconData {
             html: bootstrap_chat_right_heart_fill,
         }
     };
-    const BOOTSTRAP_CHAT_RIGHT_HEART: Self = {
+    pub const BOOTSTRAP_CHAT_RIGHT_HEART: Self = {
         #[inline(never)]
         fn bootstrap_chat_right_heart(
             crate::IconProps {
@@ -8471,7 +8471,7 @@ impl IconData {
             html: bootstrap_chat_right_heart,
         }
     };
-    const BOOTSTRAP_CHAT_RIGHT_QUOTE_FILL: Self = {
+    pub const BOOTSTRAP_CHAT_RIGHT_QUOTE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_chat_right_quote_fill(
             crate::IconProps {
@@ -8493,7 +8493,7 @@ impl IconData {
             html: bootstrap_chat_right_quote_fill,
         }
     };
-    const BOOTSTRAP_CHAT_RIGHT_QUOTE: Self = {
+    pub const BOOTSTRAP_CHAT_RIGHT_QUOTE: Self = {
         #[inline(never)]
         fn bootstrap_chat_right_quote(
             crate::IconProps {
@@ -8515,7 +8515,7 @@ impl IconData {
             html: bootstrap_chat_right_quote,
         }
     };
-    const BOOTSTRAP_CHAT_RIGHT_TEXT_FILL: Self = {
+    pub const BOOTSTRAP_CHAT_RIGHT_TEXT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_chat_right_text_fill(
             crate::IconProps {
@@ -8537,7 +8537,7 @@ impl IconData {
             html: bootstrap_chat_right_text_fill,
         }
     };
-    const BOOTSTRAP_CHAT_RIGHT_TEXT: Self = {
+    pub const BOOTSTRAP_CHAT_RIGHT_TEXT: Self = {
         #[inline(never)]
         fn bootstrap_chat_right_text(
             crate::IconProps {
@@ -8559,7 +8559,7 @@ impl IconData {
             html: bootstrap_chat_right_text,
         }
     };
-    const BOOTSTRAP_CHAT_RIGHT: Self = {
+    pub const BOOTSTRAP_CHAT_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_chat_right(
             crate::IconProps {
@@ -8581,7 +8581,7 @@ impl IconData {
             html: bootstrap_chat_right,
         }
     };
-    const BOOTSTRAP_CHAT_SQUARE_DOTS_FILL: Self = {
+    pub const BOOTSTRAP_CHAT_SQUARE_DOTS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_chat_square_dots_fill(
             crate::IconProps {
@@ -8603,7 +8603,7 @@ impl IconData {
             html: bootstrap_chat_square_dots_fill,
         }
     };
-    const BOOTSTRAP_CHAT_SQUARE_DOTS: Self = {
+    pub const BOOTSTRAP_CHAT_SQUARE_DOTS: Self = {
         #[inline(never)]
         fn bootstrap_chat_square_dots(
             crate::IconProps {
@@ -8625,7 +8625,7 @@ impl IconData {
             html: bootstrap_chat_square_dots,
         }
     };
-    const BOOTSTRAP_CHAT_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_CHAT_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_chat_square_fill(
             crate::IconProps {
@@ -8647,7 +8647,7 @@ impl IconData {
             html: bootstrap_chat_square_fill,
         }
     };
-    const BOOTSTRAP_CHAT_SQUARE_HEART_FILL: Self = {
+    pub const BOOTSTRAP_CHAT_SQUARE_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_chat_square_heart_fill(
             crate::IconProps {
@@ -8669,7 +8669,7 @@ impl IconData {
             html: bootstrap_chat_square_heart_fill,
         }
     };
-    const BOOTSTRAP_CHAT_SQUARE_HEART: Self = {
+    pub const BOOTSTRAP_CHAT_SQUARE_HEART: Self = {
         #[inline(never)]
         fn bootstrap_chat_square_heart(
             crate::IconProps {
@@ -8691,7 +8691,7 @@ impl IconData {
             html: bootstrap_chat_square_heart,
         }
     };
-    const BOOTSTRAP_CHAT_SQUARE_QUOTE_FILL: Self = {
+    pub const BOOTSTRAP_CHAT_SQUARE_QUOTE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_chat_square_quote_fill(
             crate::IconProps {
@@ -8713,7 +8713,7 @@ impl IconData {
             html: bootstrap_chat_square_quote_fill,
         }
     };
-    const BOOTSTRAP_CHAT_SQUARE_QUOTE: Self = {
+    pub const BOOTSTRAP_CHAT_SQUARE_QUOTE: Self = {
         #[inline(never)]
         fn bootstrap_chat_square_quote(
             crate::IconProps {
@@ -8735,7 +8735,7 @@ impl IconData {
             html: bootstrap_chat_square_quote,
         }
     };
-    const BOOTSTRAP_CHAT_SQUARE_TEXT_FILL: Self = {
+    pub const BOOTSTRAP_CHAT_SQUARE_TEXT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_chat_square_text_fill(
             crate::IconProps {
@@ -8757,7 +8757,7 @@ impl IconData {
             html: bootstrap_chat_square_text_fill,
         }
     };
-    const BOOTSTRAP_CHAT_SQUARE_TEXT: Self = {
+    pub const BOOTSTRAP_CHAT_SQUARE_TEXT: Self = {
         #[inline(never)]
         fn bootstrap_chat_square_text(
             crate::IconProps {
@@ -8779,7 +8779,7 @@ impl IconData {
             html: bootstrap_chat_square_text,
         }
     };
-    const BOOTSTRAP_CHAT_SQUARE: Self = {
+    pub const BOOTSTRAP_CHAT_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_chat_square(
             crate::IconProps {
@@ -8801,7 +8801,7 @@ impl IconData {
             html: bootstrap_chat_square,
         }
     };
-    const BOOTSTRAP_CHAT_TEXT_FILL: Self = {
+    pub const BOOTSTRAP_CHAT_TEXT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_chat_text_fill(
             crate::IconProps {
@@ -8823,7 +8823,7 @@ impl IconData {
             html: bootstrap_chat_text_fill,
         }
     };
-    const BOOTSTRAP_CHAT_TEXT: Self = {
+    pub const BOOTSTRAP_CHAT_TEXT: Self = {
         #[inline(never)]
         fn bootstrap_chat_text(
             crate::IconProps {
@@ -8845,7 +8845,7 @@ impl IconData {
             html: bootstrap_chat_text,
         }
     };
-    const BOOTSTRAP_CHAT: Self = {
+    pub const BOOTSTRAP_CHAT: Self = {
         #[inline(never)]
         fn bootstrap_chat(
             crate::IconProps {
@@ -8867,7 +8867,7 @@ impl IconData {
             html: bootstrap_chat,
         }
     };
-    const BOOTSTRAP_CHECK_ALL: Self = {
+    pub const BOOTSTRAP_CHECK_ALL: Self = {
         #[inline(never)]
         fn bootstrap_check_all(
             crate::IconProps {
@@ -8889,7 +8889,7 @@ impl IconData {
             html: bootstrap_check_all,
         }
     };
-    const BOOTSTRAP_CHECK_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_CHECK_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_check_circle_fill(
             crate::IconProps {
@@ -8911,7 +8911,7 @@ impl IconData {
             html: bootstrap_check_circle_fill,
         }
     };
-    const BOOTSTRAP_CHECK_CIRCLE: Self = {
+    pub const BOOTSTRAP_CHECK_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_check_circle(
             crate::IconProps {
@@ -8933,7 +8933,7 @@ impl IconData {
             html: bootstrap_check_circle,
         }
     };
-    const BOOTSTRAP_CHECK_LG: Self = {
+    pub const BOOTSTRAP_CHECK_LG: Self = {
         #[inline(never)]
         fn bootstrap_check_lg(
             crate::IconProps {
@@ -8955,7 +8955,7 @@ impl IconData {
             html: bootstrap_check_lg,
         }
     };
-    const BOOTSTRAP_CHECK_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_CHECK_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_check_square_fill(
             crate::IconProps {
@@ -8977,7 +8977,7 @@ impl IconData {
             html: bootstrap_check_square_fill,
         }
     };
-    const BOOTSTRAP_CHECK_SQUARE: Self = {
+    pub const BOOTSTRAP_CHECK_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_check_square(
             crate::IconProps {
@@ -8999,7 +8999,7 @@ impl IconData {
             html: bootstrap_check_square,
         }
     };
-    const BOOTSTRAP_CHECK: Self = {
+    pub const BOOTSTRAP_CHECK: Self = {
         #[inline(never)]
         fn bootstrap_check(
             crate::IconProps {
@@ -9021,7 +9021,7 @@ impl IconData {
             html: bootstrap_check,
         }
     };
-    const BOOTSTRAP_CHECK_2_ALL: Self = {
+    pub const BOOTSTRAP_CHECK_2_ALL: Self = {
         #[inline(never)]
         fn bootstrap_check_2_all(
             crate::IconProps {
@@ -9043,7 +9043,7 @@ impl IconData {
             html: bootstrap_check_2_all,
         }
     };
-    const BOOTSTRAP_CHECK_2_CIRCLE: Self = {
+    pub const BOOTSTRAP_CHECK_2_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_check_2_circle(
             crate::IconProps {
@@ -9065,7 +9065,7 @@ impl IconData {
             html: bootstrap_check_2_circle,
         }
     };
-    const BOOTSTRAP_CHECK_2_SQUARE: Self = {
+    pub const BOOTSTRAP_CHECK_2_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_check_2_square(
             crate::IconProps {
@@ -9087,7 +9087,7 @@ impl IconData {
             html: bootstrap_check_2_square,
         }
     };
-    const BOOTSTRAP_CHECK_2: Self = {
+    pub const BOOTSTRAP_CHECK_2: Self = {
         #[inline(never)]
         fn bootstrap_check_2(
             crate::IconProps {
@@ -9109,7 +9109,7 @@ impl IconData {
             html: bootstrap_check_2,
         }
     };
-    const BOOTSTRAP_CHEVRON_BAR_CONTRACT: Self = {
+    pub const BOOTSTRAP_CHEVRON_BAR_CONTRACT: Self = {
         #[inline(never)]
         fn bootstrap_chevron_bar_contract(
             crate::IconProps {
@@ -9131,7 +9131,7 @@ impl IconData {
             html: bootstrap_chevron_bar_contract,
         }
     };
-    const BOOTSTRAP_CHEVRON_BAR_DOWN: Self = {
+    pub const BOOTSTRAP_CHEVRON_BAR_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_chevron_bar_down(
             crate::IconProps {
@@ -9153,7 +9153,7 @@ impl IconData {
             html: bootstrap_chevron_bar_down,
         }
     };
-    const BOOTSTRAP_CHEVRON_BAR_EXPAND: Self = {
+    pub const BOOTSTRAP_CHEVRON_BAR_EXPAND: Self = {
         #[inline(never)]
         fn bootstrap_chevron_bar_expand(
             crate::IconProps {
@@ -9175,7 +9175,7 @@ impl IconData {
             html: bootstrap_chevron_bar_expand,
         }
     };
-    const BOOTSTRAP_CHEVRON_BAR_LEFT: Self = {
+    pub const BOOTSTRAP_CHEVRON_BAR_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_chevron_bar_left(
             crate::IconProps {
@@ -9197,7 +9197,7 @@ impl IconData {
             html: bootstrap_chevron_bar_left,
         }
     };
-    const BOOTSTRAP_CHEVRON_BAR_RIGHT: Self = {
+    pub const BOOTSTRAP_CHEVRON_BAR_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_chevron_bar_right(
             crate::IconProps {
@@ -9219,7 +9219,7 @@ impl IconData {
             html: bootstrap_chevron_bar_right,
         }
     };
-    const BOOTSTRAP_CHEVRON_BAR_UP: Self = {
+    pub const BOOTSTRAP_CHEVRON_BAR_UP: Self = {
         #[inline(never)]
         fn bootstrap_chevron_bar_up(
             crate::IconProps {
@@ -9241,7 +9241,7 @@ impl IconData {
             html: bootstrap_chevron_bar_up,
         }
     };
-    const BOOTSTRAP_CHEVRON_COMPACT_DOWN: Self = {
+    pub const BOOTSTRAP_CHEVRON_COMPACT_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_chevron_compact_down(
             crate::IconProps {
@@ -9263,7 +9263,7 @@ impl IconData {
             html: bootstrap_chevron_compact_down,
         }
     };
-    const BOOTSTRAP_CHEVRON_COMPACT_LEFT: Self = {
+    pub const BOOTSTRAP_CHEVRON_COMPACT_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_chevron_compact_left(
             crate::IconProps {
@@ -9285,7 +9285,7 @@ impl IconData {
             html: bootstrap_chevron_compact_left,
         }
     };
-    const BOOTSTRAP_CHEVRON_COMPACT_RIGHT: Self = {
+    pub const BOOTSTRAP_CHEVRON_COMPACT_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_chevron_compact_right(
             crate::IconProps {
@@ -9307,7 +9307,7 @@ impl IconData {
             html: bootstrap_chevron_compact_right,
         }
     };
-    const BOOTSTRAP_CHEVRON_COMPACT_UP: Self = {
+    pub const BOOTSTRAP_CHEVRON_COMPACT_UP: Self = {
         #[inline(never)]
         fn bootstrap_chevron_compact_up(
             crate::IconProps {
@@ -9329,7 +9329,7 @@ impl IconData {
             html: bootstrap_chevron_compact_up,
         }
     };
-    const BOOTSTRAP_CHEVRON_CONTRACT: Self = {
+    pub const BOOTSTRAP_CHEVRON_CONTRACT: Self = {
         #[inline(never)]
         fn bootstrap_chevron_contract(
             crate::IconProps {
@@ -9351,7 +9351,7 @@ impl IconData {
             html: bootstrap_chevron_contract,
         }
     };
-    const BOOTSTRAP_CHEVRON_DOUBLE_DOWN: Self = {
+    pub const BOOTSTRAP_CHEVRON_DOUBLE_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_chevron_double_down(
             crate::IconProps {
@@ -9373,7 +9373,7 @@ impl IconData {
             html: bootstrap_chevron_double_down,
         }
     };
-    const BOOTSTRAP_CHEVRON_DOUBLE_LEFT: Self = {
+    pub const BOOTSTRAP_CHEVRON_DOUBLE_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_chevron_double_left(
             crate::IconProps {
@@ -9395,7 +9395,7 @@ impl IconData {
             html: bootstrap_chevron_double_left,
         }
     };
-    const BOOTSTRAP_CHEVRON_DOUBLE_RIGHT: Self = {
+    pub const BOOTSTRAP_CHEVRON_DOUBLE_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_chevron_double_right(
             crate::IconProps {
@@ -9417,7 +9417,7 @@ impl IconData {
             html: bootstrap_chevron_double_right,
         }
     };
-    const BOOTSTRAP_CHEVRON_DOUBLE_UP: Self = {
+    pub const BOOTSTRAP_CHEVRON_DOUBLE_UP: Self = {
         #[inline(never)]
         fn bootstrap_chevron_double_up(
             crate::IconProps {
@@ -9439,7 +9439,7 @@ impl IconData {
             html: bootstrap_chevron_double_up,
         }
     };
-    const BOOTSTRAP_CHEVRON_DOWN: Self = {
+    pub const BOOTSTRAP_CHEVRON_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_chevron_down(
             crate::IconProps {
@@ -9461,7 +9461,7 @@ impl IconData {
             html: bootstrap_chevron_down,
         }
     };
-    const BOOTSTRAP_CHEVRON_EXPAND: Self = {
+    pub const BOOTSTRAP_CHEVRON_EXPAND: Self = {
         #[inline(never)]
         fn bootstrap_chevron_expand(
             crate::IconProps {
@@ -9483,7 +9483,7 @@ impl IconData {
             html: bootstrap_chevron_expand,
         }
     };
-    const BOOTSTRAP_CHEVRON_LEFT: Self = {
+    pub const BOOTSTRAP_CHEVRON_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_chevron_left(
             crate::IconProps {
@@ -9505,7 +9505,7 @@ impl IconData {
             html: bootstrap_chevron_left,
         }
     };
-    const BOOTSTRAP_CHEVRON_RIGHT: Self = {
+    pub const BOOTSTRAP_CHEVRON_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_chevron_right(
             crate::IconProps {
@@ -9527,7 +9527,7 @@ impl IconData {
             html: bootstrap_chevron_right,
         }
     };
-    const BOOTSTRAP_CHEVRON_UP: Self = {
+    pub const BOOTSTRAP_CHEVRON_UP: Self = {
         #[inline(never)]
         fn bootstrap_chevron_up(
             crate::IconProps {
@@ -9549,7 +9549,7 @@ impl IconData {
             html: bootstrap_chevron_up,
         }
     };
-    const BOOTSTRAP_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_circle_fill(
             crate::IconProps {
@@ -9571,7 +9571,7 @@ impl IconData {
             html: bootstrap_circle_fill,
         }
     };
-    const BOOTSTRAP_CIRCLE_HALF: Self = {
+    pub const BOOTSTRAP_CIRCLE_HALF: Self = {
         #[inline(never)]
         fn bootstrap_circle_half(
             crate::IconProps {
@@ -9593,7 +9593,7 @@ impl IconData {
             html: bootstrap_circle_half,
         }
     };
-    const BOOTSTRAP_CIRCLE_SQUARE: Self = {
+    pub const BOOTSTRAP_CIRCLE_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_circle_square(
             crate::IconProps {
@@ -9615,7 +9615,7 @@ impl IconData {
             html: bootstrap_circle_square,
         }
     };
-    const BOOTSTRAP_CIRCLE: Self = {
+    pub const BOOTSTRAP_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_circle(
             crate::IconProps {
@@ -9637,7 +9637,7 @@ impl IconData {
             html: bootstrap_circle,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_CHECK_FILL: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_CHECK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_check_fill(
             crate::IconProps {
@@ -9659,7 +9659,7 @@ impl IconData {
             html: bootstrap_clipboard_check_fill,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_CHECK: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_CHECK: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_check(
             crate::IconProps {
@@ -9681,7 +9681,7 @@ impl IconData {
             html: bootstrap_clipboard_check,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_DATA_FILL: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_DATA_FILL: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_data_fill(
             crate::IconProps {
@@ -9703,7 +9703,7 @@ impl IconData {
             html: bootstrap_clipboard_data_fill,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_DATA: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_DATA: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_data(
             crate::IconProps {
@@ -9725,7 +9725,7 @@ impl IconData {
             html: bootstrap_clipboard_data,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_FILL: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_fill(
             crate::IconProps {
@@ -9747,7 +9747,7 @@ impl IconData {
             html: bootstrap_clipboard_fill,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_HEART_FILL: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_heart_fill(
             crate::IconProps {
@@ -9769,7 +9769,7 @@ impl IconData {
             html: bootstrap_clipboard_heart_fill,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_HEART: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_HEART: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_heart(
             crate::IconProps {
@@ -9791,7 +9791,7 @@ impl IconData {
             html: bootstrap_clipboard_heart,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_MINUS_FILL: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_MINUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_minus_fill(
             crate::IconProps {
@@ -9813,7 +9813,7 @@ impl IconData {
             html: bootstrap_clipboard_minus_fill,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_MINUS: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_MINUS: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_minus(
             crate::IconProps {
@@ -9835,7 +9835,7 @@ impl IconData {
             html: bootstrap_clipboard_minus,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_PLUS_FILL: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_PLUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_plus_fill(
             crate::IconProps {
@@ -9857,7 +9857,7 @@ impl IconData {
             html: bootstrap_clipboard_plus_fill,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_PLUS: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_plus(
             crate::IconProps {
@@ -9879,7 +9879,7 @@ impl IconData {
             html: bootstrap_clipboard_plus,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_PULSE: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_PULSE: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_pulse(
             crate::IconProps {
@@ -9901,7 +9901,7 @@ impl IconData {
             html: bootstrap_clipboard_pulse,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_X_FILL: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_X_FILL: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_x_fill(
             crate::IconProps {
@@ -9923,7 +9923,7 @@ impl IconData {
             html: bootstrap_clipboard_x_fill,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_X: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_X: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_x(
             crate::IconProps {
@@ -9945,7 +9945,7 @@ impl IconData {
             html: bootstrap_clipboard_x,
         }
     };
-    const BOOTSTRAP_CLIPBOARD: Self = {
+    pub const BOOTSTRAP_CLIPBOARD: Self = {
         #[inline(never)]
         fn bootstrap_clipboard(
             crate::IconProps {
@@ -9967,7 +9967,7 @@ impl IconData {
             html: bootstrap_clipboard,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_2_CHECK_FILL: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_2_CHECK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_2_check_fill(
             crate::IconProps {
@@ -9989,7 +9989,7 @@ impl IconData {
             html: bootstrap_clipboard_2_check_fill,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_2_CHECK: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_2_CHECK: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_2_check(
             crate::IconProps {
@@ -10011,7 +10011,7 @@ impl IconData {
             html: bootstrap_clipboard_2_check,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_2_DATA_FILL: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_2_DATA_FILL: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_2_data_fill(
             crate::IconProps {
@@ -10033,7 +10033,7 @@ impl IconData {
             html: bootstrap_clipboard_2_data_fill,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_2_DATA: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_2_DATA: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_2_data(
             crate::IconProps {
@@ -10055,7 +10055,7 @@ impl IconData {
             html: bootstrap_clipboard_2_data,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_2_FILL: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_2_FILL: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_2_fill(
             crate::IconProps {
@@ -10077,7 +10077,7 @@ impl IconData {
             html: bootstrap_clipboard_2_fill,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_2_HEART_FILL: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_2_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_2_heart_fill(
             crate::IconProps {
@@ -10099,7 +10099,7 @@ impl IconData {
             html: bootstrap_clipboard_2_heart_fill,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_2_HEART: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_2_HEART: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_2_heart(
             crate::IconProps {
@@ -10121,7 +10121,7 @@ impl IconData {
             html: bootstrap_clipboard_2_heart,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_2_MINUS_FILL: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_2_MINUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_2_minus_fill(
             crate::IconProps {
@@ -10143,7 +10143,7 @@ impl IconData {
             html: bootstrap_clipboard_2_minus_fill,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_2_MINUS: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_2_MINUS: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_2_minus(
             crate::IconProps {
@@ -10165,7 +10165,7 @@ impl IconData {
             html: bootstrap_clipboard_2_minus,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_2_PLUS_FILL: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_2_PLUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_2_plus_fill(
             crate::IconProps {
@@ -10187,7 +10187,7 @@ impl IconData {
             html: bootstrap_clipboard_2_plus_fill,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_2_PLUS: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_2_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_2_plus(
             crate::IconProps {
@@ -10209,7 +10209,7 @@ impl IconData {
             html: bootstrap_clipboard_2_plus,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_2_PULSE_FILL: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_2_PULSE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_2_pulse_fill(
             crate::IconProps {
@@ -10231,7 +10231,7 @@ impl IconData {
             html: bootstrap_clipboard_2_pulse_fill,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_2_PULSE: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_2_PULSE: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_2_pulse(
             crate::IconProps {
@@ -10253,7 +10253,7 @@ impl IconData {
             html: bootstrap_clipboard_2_pulse,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_2_X_FILL: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_2_X_FILL: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_2_x_fill(
             crate::IconProps {
@@ -10275,7 +10275,7 @@ impl IconData {
             html: bootstrap_clipboard_2_x_fill,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_2_X: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_2_X: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_2_x(
             crate::IconProps {
@@ -10297,7 +10297,7 @@ impl IconData {
             html: bootstrap_clipboard_2_x,
         }
     };
-    const BOOTSTRAP_CLIPBOARD_2: Self = {
+    pub const BOOTSTRAP_CLIPBOARD_2: Self = {
         #[inline(never)]
         fn bootstrap_clipboard_2(
             crate::IconProps {
@@ -10319,7 +10319,7 @@ impl IconData {
             html: bootstrap_clipboard_2,
         }
     };
-    const BOOTSTRAP_CLOCK_FILL: Self = {
+    pub const BOOTSTRAP_CLOCK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_clock_fill(
             crate::IconProps {
@@ -10341,7 +10341,7 @@ impl IconData {
             html: bootstrap_clock_fill,
         }
     };
-    const BOOTSTRAP_CLOCK_HISTORY: Self = {
+    pub const BOOTSTRAP_CLOCK_HISTORY: Self = {
         #[inline(never)]
         fn bootstrap_clock_history(
             crate::IconProps {
@@ -10363,7 +10363,7 @@ impl IconData {
             html: bootstrap_clock_history,
         }
     };
-    const BOOTSTRAP_CLOCK: Self = {
+    pub const BOOTSTRAP_CLOCK: Self = {
         #[inline(never)]
         fn bootstrap_clock(
             crate::IconProps {
@@ -10385,7 +10385,7 @@ impl IconData {
             html: bootstrap_clock,
         }
     };
-    const BOOTSTRAP_CLOUD_ARROW_DOWN_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_ARROW_DOWN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_arrow_down_fill(
             crate::IconProps {
@@ -10407,7 +10407,7 @@ impl IconData {
             html: bootstrap_cloud_arrow_down_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_ARROW_DOWN: Self = {
+    pub const BOOTSTRAP_CLOUD_ARROW_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_cloud_arrow_down(
             crate::IconProps {
@@ -10429,7 +10429,7 @@ impl IconData {
             html: bootstrap_cloud_arrow_down,
         }
     };
-    const BOOTSTRAP_CLOUD_ARROW_UP_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_ARROW_UP_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_arrow_up_fill(
             crate::IconProps {
@@ -10451,7 +10451,7 @@ impl IconData {
             html: bootstrap_cloud_arrow_up_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_ARROW_UP: Self = {
+    pub const BOOTSTRAP_CLOUD_ARROW_UP: Self = {
         #[inline(never)]
         fn bootstrap_cloud_arrow_up(
             crate::IconProps {
@@ -10473,7 +10473,7 @@ impl IconData {
             html: bootstrap_cloud_arrow_up,
         }
     };
-    const BOOTSTRAP_CLOUD_CHECK_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_CHECK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_check_fill(
             crate::IconProps {
@@ -10495,7 +10495,7 @@ impl IconData {
             html: bootstrap_cloud_check_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_CHECK: Self = {
+    pub const BOOTSTRAP_CLOUD_CHECK: Self = {
         #[inline(never)]
         fn bootstrap_cloud_check(
             crate::IconProps {
@@ -10517,7 +10517,7 @@ impl IconData {
             html: bootstrap_cloud_check,
         }
     };
-    const BOOTSTRAP_CLOUD_DOWNLOAD_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_DOWNLOAD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_download_fill(
             crate::IconProps {
@@ -10539,7 +10539,7 @@ impl IconData {
             html: bootstrap_cloud_download_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_DOWNLOAD: Self = {
+    pub const BOOTSTRAP_CLOUD_DOWNLOAD: Self = {
         #[inline(never)]
         fn bootstrap_cloud_download(
             crate::IconProps {
@@ -10561,7 +10561,7 @@ impl IconData {
             html: bootstrap_cloud_download,
         }
     };
-    const BOOTSTRAP_CLOUD_DRIZZLE_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_DRIZZLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_drizzle_fill(
             crate::IconProps {
@@ -10583,7 +10583,7 @@ impl IconData {
             html: bootstrap_cloud_drizzle_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_DRIZZLE: Self = {
+    pub const BOOTSTRAP_CLOUD_DRIZZLE: Self = {
         #[inline(never)]
         fn bootstrap_cloud_drizzle(
             crate::IconProps {
@@ -10605,7 +10605,7 @@ impl IconData {
             html: bootstrap_cloud_drizzle,
         }
     };
-    const BOOTSTRAP_CLOUD_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_fill(
             crate::IconProps {
@@ -10627,7 +10627,7 @@ impl IconData {
             html: bootstrap_cloud_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_FOG_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_FOG_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_fog_fill(
             crate::IconProps {
@@ -10649,7 +10649,7 @@ impl IconData {
             html: bootstrap_cloud_fog_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_FOG: Self = {
+    pub const BOOTSTRAP_CLOUD_FOG: Self = {
         #[inline(never)]
         fn bootstrap_cloud_fog(
             crate::IconProps {
@@ -10671,7 +10671,7 @@ impl IconData {
             html: bootstrap_cloud_fog,
         }
     };
-    const BOOTSTRAP_CLOUD_FOG_2_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_FOG_2_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_fog_2_fill(
             crate::IconProps {
@@ -10693,7 +10693,7 @@ impl IconData {
             html: bootstrap_cloud_fog_2_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_FOG_2: Self = {
+    pub const BOOTSTRAP_CLOUD_FOG_2: Self = {
         #[inline(never)]
         fn bootstrap_cloud_fog_2(
             crate::IconProps {
@@ -10715,7 +10715,7 @@ impl IconData {
             html: bootstrap_cloud_fog_2,
         }
     };
-    const BOOTSTRAP_CLOUD_HAIL_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_HAIL_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_hail_fill(
             crate::IconProps {
@@ -10737,7 +10737,7 @@ impl IconData {
             html: bootstrap_cloud_hail_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_HAIL: Self = {
+    pub const BOOTSTRAP_CLOUD_HAIL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_hail(
             crate::IconProps {
@@ -10759,7 +10759,7 @@ impl IconData {
             html: bootstrap_cloud_hail,
         }
     };
-    const BOOTSTRAP_CLOUD_HAZE_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_HAZE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_haze_fill(
             crate::IconProps {
@@ -10781,7 +10781,7 @@ impl IconData {
             html: bootstrap_cloud_haze_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_HAZE: Self = {
+    pub const BOOTSTRAP_CLOUD_HAZE: Self = {
         #[inline(never)]
         fn bootstrap_cloud_haze(
             crate::IconProps {
@@ -10803,7 +10803,7 @@ impl IconData {
             html: bootstrap_cloud_haze,
         }
     };
-    const BOOTSTRAP_CLOUD_HAZE_2_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_HAZE_2_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_haze_2_fill(
             crate::IconProps {
@@ -10825,7 +10825,7 @@ impl IconData {
             html: bootstrap_cloud_haze_2_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_HAZE_2: Self = {
+    pub const BOOTSTRAP_CLOUD_HAZE_2: Self = {
         #[inline(never)]
         fn bootstrap_cloud_haze_2(
             crate::IconProps {
@@ -10847,7 +10847,7 @@ impl IconData {
             html: bootstrap_cloud_haze_2,
         }
     };
-    const BOOTSTRAP_CLOUD_LIGHTNING_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_LIGHTNING_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_lightning_fill(
             crate::IconProps {
@@ -10869,7 +10869,7 @@ impl IconData {
             html: bootstrap_cloud_lightning_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_LIGHTNING_RAIN_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_LIGHTNING_RAIN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_lightning_rain_fill(
             crate::IconProps {
@@ -10891,7 +10891,7 @@ impl IconData {
             html: bootstrap_cloud_lightning_rain_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_LIGHTNING_RAIN: Self = {
+    pub const BOOTSTRAP_CLOUD_LIGHTNING_RAIN: Self = {
         #[inline(never)]
         fn bootstrap_cloud_lightning_rain(
             crate::IconProps {
@@ -10913,7 +10913,7 @@ impl IconData {
             html: bootstrap_cloud_lightning_rain,
         }
     };
-    const BOOTSTRAP_CLOUD_LIGHTNING: Self = {
+    pub const BOOTSTRAP_CLOUD_LIGHTNING: Self = {
         #[inline(never)]
         fn bootstrap_cloud_lightning(
             crate::IconProps {
@@ -10935,7 +10935,7 @@ impl IconData {
             html: bootstrap_cloud_lightning,
         }
     };
-    const BOOTSTRAP_CLOUD_MINUS_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_MINUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_minus_fill(
             crate::IconProps {
@@ -10957,7 +10957,7 @@ impl IconData {
             html: bootstrap_cloud_minus_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_MINUS: Self = {
+    pub const BOOTSTRAP_CLOUD_MINUS: Self = {
         #[inline(never)]
         fn bootstrap_cloud_minus(
             crate::IconProps {
@@ -10979,7 +10979,7 @@ impl IconData {
             html: bootstrap_cloud_minus,
         }
     };
-    const BOOTSTRAP_CLOUD_MOON_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_MOON_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_moon_fill(
             crate::IconProps {
@@ -11001,7 +11001,7 @@ impl IconData {
             html: bootstrap_cloud_moon_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_MOON: Self = {
+    pub const BOOTSTRAP_CLOUD_MOON: Self = {
         #[inline(never)]
         fn bootstrap_cloud_moon(
             crate::IconProps {
@@ -11023,7 +11023,7 @@ impl IconData {
             html: bootstrap_cloud_moon,
         }
     };
-    const BOOTSTRAP_CLOUD_PLUS_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_PLUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_plus_fill(
             crate::IconProps {
@@ -11045,7 +11045,7 @@ impl IconData {
             html: bootstrap_cloud_plus_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_PLUS: Self = {
+    pub const BOOTSTRAP_CLOUD_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_cloud_plus(
             crate::IconProps {
@@ -11067,7 +11067,7 @@ impl IconData {
             html: bootstrap_cloud_plus,
         }
     };
-    const BOOTSTRAP_CLOUD_RAIN_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_RAIN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_rain_fill(
             crate::IconProps {
@@ -11089,7 +11089,7 @@ impl IconData {
             html: bootstrap_cloud_rain_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_RAIN_HEAVY_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_RAIN_HEAVY_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_rain_heavy_fill(
             crate::IconProps {
@@ -11111,7 +11111,7 @@ impl IconData {
             html: bootstrap_cloud_rain_heavy_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_RAIN_HEAVY: Self = {
+    pub const BOOTSTRAP_CLOUD_RAIN_HEAVY: Self = {
         #[inline(never)]
         fn bootstrap_cloud_rain_heavy(
             crate::IconProps {
@@ -11133,7 +11133,7 @@ impl IconData {
             html: bootstrap_cloud_rain_heavy,
         }
     };
-    const BOOTSTRAP_CLOUD_RAIN: Self = {
+    pub const BOOTSTRAP_CLOUD_RAIN: Self = {
         #[inline(never)]
         fn bootstrap_cloud_rain(
             crate::IconProps {
@@ -11155,7 +11155,7 @@ impl IconData {
             html: bootstrap_cloud_rain,
         }
     };
-    const BOOTSTRAP_CLOUD_SLASH_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_SLASH_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_slash_fill(
             crate::IconProps {
@@ -11177,7 +11177,7 @@ impl IconData {
             html: bootstrap_cloud_slash_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_SLASH: Self = {
+    pub const BOOTSTRAP_CLOUD_SLASH: Self = {
         #[inline(never)]
         fn bootstrap_cloud_slash(
             crate::IconProps {
@@ -11199,7 +11199,7 @@ impl IconData {
             html: bootstrap_cloud_slash,
         }
     };
-    const BOOTSTRAP_CLOUD_SLEET_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_SLEET_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_sleet_fill(
             crate::IconProps {
@@ -11221,7 +11221,7 @@ impl IconData {
             html: bootstrap_cloud_sleet_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_SLEET: Self = {
+    pub const BOOTSTRAP_CLOUD_SLEET: Self = {
         #[inline(never)]
         fn bootstrap_cloud_sleet(
             crate::IconProps {
@@ -11243,7 +11243,7 @@ impl IconData {
             html: bootstrap_cloud_sleet,
         }
     };
-    const BOOTSTRAP_CLOUD_SNOW_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_SNOW_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_snow_fill(
             crate::IconProps {
@@ -11265,7 +11265,7 @@ impl IconData {
             html: bootstrap_cloud_snow_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_SNOW: Self = {
+    pub const BOOTSTRAP_CLOUD_SNOW: Self = {
         #[inline(never)]
         fn bootstrap_cloud_snow(
             crate::IconProps {
@@ -11287,7 +11287,7 @@ impl IconData {
             html: bootstrap_cloud_snow,
         }
     };
-    const BOOTSTRAP_CLOUD_SUN_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_SUN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_sun_fill(
             crate::IconProps {
@@ -11309,7 +11309,7 @@ impl IconData {
             html: bootstrap_cloud_sun_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_SUN: Self = {
+    pub const BOOTSTRAP_CLOUD_SUN: Self = {
         #[inline(never)]
         fn bootstrap_cloud_sun(
             crate::IconProps {
@@ -11331,7 +11331,7 @@ impl IconData {
             html: bootstrap_cloud_sun,
         }
     };
-    const BOOTSTRAP_CLOUD_UPLOAD_FILL: Self = {
+    pub const BOOTSTRAP_CLOUD_UPLOAD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloud_upload_fill(
             crate::IconProps {
@@ -11353,7 +11353,7 @@ impl IconData {
             html: bootstrap_cloud_upload_fill,
         }
     };
-    const BOOTSTRAP_CLOUD_UPLOAD: Self = {
+    pub const BOOTSTRAP_CLOUD_UPLOAD: Self = {
         #[inline(never)]
         fn bootstrap_cloud_upload(
             crate::IconProps {
@@ -11375,7 +11375,7 @@ impl IconData {
             html: bootstrap_cloud_upload,
         }
     };
-    const BOOTSTRAP_CLOUD: Self = {
+    pub const BOOTSTRAP_CLOUD: Self = {
         #[inline(never)]
         fn bootstrap_cloud(
             crate::IconProps {
@@ -11397,7 +11397,7 @@ impl IconData {
             html: bootstrap_cloud,
         }
     };
-    const BOOTSTRAP_CLOUDS_FILL: Self = {
+    pub const BOOTSTRAP_CLOUDS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_clouds_fill(
             crate::IconProps {
@@ -11419,7 +11419,7 @@ impl IconData {
             html: bootstrap_clouds_fill,
         }
     };
-    const BOOTSTRAP_CLOUDS: Self = {
+    pub const BOOTSTRAP_CLOUDS: Self = {
         #[inline(never)]
         fn bootstrap_clouds(
             crate::IconProps {
@@ -11441,7 +11441,7 @@ impl IconData {
             html: bootstrap_clouds,
         }
     };
-    const BOOTSTRAP_CLOUDY_FILL: Self = {
+    pub const BOOTSTRAP_CLOUDY_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cloudy_fill(
             crate::IconProps {
@@ -11463,7 +11463,7 @@ impl IconData {
             html: bootstrap_cloudy_fill,
         }
     };
-    const BOOTSTRAP_CLOUDY: Self = {
+    pub const BOOTSTRAP_CLOUDY: Self = {
         #[inline(never)]
         fn bootstrap_cloudy(
             crate::IconProps {
@@ -11485,7 +11485,7 @@ impl IconData {
             html: bootstrap_cloudy,
         }
     };
-    const BOOTSTRAP_CODE_SLASH: Self = {
+    pub const BOOTSTRAP_CODE_SLASH: Self = {
         #[inline(never)]
         fn bootstrap_code_slash(
             crate::IconProps {
@@ -11507,7 +11507,7 @@ impl IconData {
             html: bootstrap_code_slash,
         }
     };
-    const BOOTSTRAP_CODE_SQUARE: Self = {
+    pub const BOOTSTRAP_CODE_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_code_square(
             crate::IconProps {
@@ -11529,7 +11529,7 @@ impl IconData {
             html: bootstrap_code_square,
         }
     };
-    const BOOTSTRAP_CODE: Self = {
+    pub const BOOTSTRAP_CODE: Self = {
         #[inline(never)]
         fn bootstrap_code(
             crate::IconProps {
@@ -11551,7 +11551,7 @@ impl IconData {
             html: bootstrap_code,
         }
     };
-    const BOOTSTRAP_COIN: Self = {
+    pub const BOOTSTRAP_COIN: Self = {
         #[inline(never)]
         fn bootstrap_coin(
             crate::IconProps {
@@ -11573,7 +11573,7 @@ impl IconData {
             html: bootstrap_coin,
         }
     };
-    const BOOTSTRAP_COLLECTION_FILL: Self = {
+    pub const BOOTSTRAP_COLLECTION_FILL: Self = {
         #[inline(never)]
         fn bootstrap_collection_fill(
             crate::IconProps {
@@ -11595,7 +11595,7 @@ impl IconData {
             html: bootstrap_collection_fill,
         }
     };
-    const BOOTSTRAP_COLLECTION_PLAY_FILL: Self = {
+    pub const BOOTSTRAP_COLLECTION_PLAY_FILL: Self = {
         #[inline(never)]
         fn bootstrap_collection_play_fill(
             crate::IconProps {
@@ -11617,7 +11617,7 @@ impl IconData {
             html: bootstrap_collection_play_fill,
         }
     };
-    const BOOTSTRAP_COLLECTION_PLAY: Self = {
+    pub const BOOTSTRAP_COLLECTION_PLAY: Self = {
         #[inline(never)]
         fn bootstrap_collection_play(
             crate::IconProps {
@@ -11639,7 +11639,7 @@ impl IconData {
             html: bootstrap_collection_play,
         }
     };
-    const BOOTSTRAP_COLLECTION: Self = {
+    pub const BOOTSTRAP_COLLECTION: Self = {
         #[inline(never)]
         fn bootstrap_collection(
             crate::IconProps {
@@ -11661,7 +11661,7 @@ impl IconData {
             html: bootstrap_collection,
         }
     };
-    const BOOTSTRAP_COLUMNS_GAP: Self = {
+    pub const BOOTSTRAP_COLUMNS_GAP: Self = {
         #[inline(never)]
         fn bootstrap_columns_gap(
             crate::IconProps {
@@ -11683,7 +11683,7 @@ impl IconData {
             html: bootstrap_columns_gap,
         }
     };
-    const BOOTSTRAP_COLUMNS: Self = {
+    pub const BOOTSTRAP_COLUMNS: Self = {
         #[inline(never)]
         fn bootstrap_columns(
             crate::IconProps {
@@ -11705,7 +11705,7 @@ impl IconData {
             html: bootstrap_columns,
         }
     };
-    const BOOTSTRAP_COMMAND: Self = {
+    pub const BOOTSTRAP_COMMAND: Self = {
         #[inline(never)]
         fn bootstrap_command(
             crate::IconProps {
@@ -11727,7 +11727,7 @@ impl IconData {
             html: bootstrap_command,
         }
     };
-    const BOOTSTRAP_COMPASS_FILL: Self = {
+    pub const BOOTSTRAP_COMPASS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_compass_fill(
             crate::IconProps {
@@ -11749,7 +11749,7 @@ impl IconData {
             html: bootstrap_compass_fill,
         }
     };
-    const BOOTSTRAP_COMPASS: Self = {
+    pub const BOOTSTRAP_COMPASS: Self = {
         #[inline(never)]
         fn bootstrap_compass(
             crate::IconProps {
@@ -11771,7 +11771,7 @@ impl IconData {
             html: bootstrap_compass,
         }
     };
-    const BOOTSTRAP_CONE_STRIPED: Self = {
+    pub const BOOTSTRAP_CONE_STRIPED: Self = {
         #[inline(never)]
         fn bootstrap_cone_striped(
             crate::IconProps {
@@ -11793,7 +11793,7 @@ impl IconData {
             html: bootstrap_cone_striped,
         }
     };
-    const BOOTSTRAP_CONE: Self = {
+    pub const BOOTSTRAP_CONE: Self = {
         #[inline(never)]
         fn bootstrap_cone(
             crate::IconProps {
@@ -11815,7 +11815,7 @@ impl IconData {
             html: bootstrap_cone,
         }
     };
-    const BOOTSTRAP_CONTROLLER: Self = {
+    pub const BOOTSTRAP_CONTROLLER: Self = {
         #[inline(never)]
         fn bootstrap_controller(
             crate::IconProps {
@@ -11837,7 +11837,7 @@ impl IconData {
             html: bootstrap_controller,
         }
     };
-    const BOOTSTRAP_CPU_FILL: Self = {
+    pub const BOOTSTRAP_CPU_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cpu_fill(
             crate::IconProps {
@@ -11859,7 +11859,7 @@ impl IconData {
             html: bootstrap_cpu_fill,
         }
     };
-    const BOOTSTRAP_CPU: Self = {
+    pub const BOOTSTRAP_CPU: Self = {
         #[inline(never)]
         fn bootstrap_cpu(
             crate::IconProps {
@@ -11881,7 +11881,7 @@ impl IconData {
             html: bootstrap_cpu,
         }
     };
-    const BOOTSTRAP_CREDIT_CARD_2_BACK_FILL: Self = {
+    pub const BOOTSTRAP_CREDIT_CARD_2_BACK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_credit_card_2_back_fill(
             crate::IconProps {
@@ -11903,7 +11903,7 @@ impl IconData {
             html: bootstrap_credit_card_2_back_fill,
         }
     };
-    const BOOTSTRAP_CREDIT_CARD_2_BACK: Self = {
+    pub const BOOTSTRAP_CREDIT_CARD_2_BACK: Self = {
         #[inline(never)]
         fn bootstrap_credit_card_2_back(
             crate::IconProps {
@@ -11925,7 +11925,7 @@ impl IconData {
             html: bootstrap_credit_card_2_back,
         }
     };
-    const BOOTSTRAP_CREDIT_CARD_2_FRONT_FILL: Self = {
+    pub const BOOTSTRAP_CREDIT_CARD_2_FRONT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_credit_card_2_front_fill(
             crate::IconProps {
@@ -11947,7 +11947,7 @@ impl IconData {
             html: bootstrap_credit_card_2_front_fill,
         }
     };
-    const BOOTSTRAP_CREDIT_CARD_2_FRONT: Self = {
+    pub const BOOTSTRAP_CREDIT_CARD_2_FRONT: Self = {
         #[inline(never)]
         fn bootstrap_credit_card_2_front(
             crate::IconProps {
@@ -11969,7 +11969,7 @@ impl IconData {
             html: bootstrap_credit_card_2_front,
         }
     };
-    const BOOTSTRAP_CREDIT_CARD_FILL: Self = {
+    pub const BOOTSTRAP_CREDIT_CARD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_credit_card_fill(
             crate::IconProps {
@@ -11991,7 +11991,7 @@ impl IconData {
             html: bootstrap_credit_card_fill,
         }
     };
-    const BOOTSTRAP_CREDIT_CARD: Self = {
+    pub const BOOTSTRAP_CREDIT_CARD: Self = {
         #[inline(never)]
         fn bootstrap_credit_card(
             crate::IconProps {
@@ -12013,7 +12013,7 @@ impl IconData {
             html: bootstrap_credit_card,
         }
     };
-    const BOOTSTRAP_CROP: Self = {
+    pub const BOOTSTRAP_CROP: Self = {
         #[inline(never)]
         fn bootstrap_crop(
             crate::IconProps {
@@ -12035,7 +12035,7 @@ impl IconData {
             html: bootstrap_crop,
         }
     };
-    const BOOTSTRAP_CUP_FILL: Self = {
+    pub const BOOTSTRAP_CUP_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cup_fill(
             crate::IconProps {
@@ -12057,7 +12057,7 @@ impl IconData {
             html: bootstrap_cup_fill,
         }
     };
-    const BOOTSTRAP_CUP_STRAW: Self = {
+    pub const BOOTSTRAP_CUP_STRAW: Self = {
         #[inline(never)]
         fn bootstrap_cup_straw(
             crate::IconProps {
@@ -12079,7 +12079,7 @@ impl IconData {
             html: bootstrap_cup_straw,
         }
     };
-    const BOOTSTRAP_CUP: Self = {
+    pub const BOOTSTRAP_CUP: Self = {
         #[inline(never)]
         fn bootstrap_cup(
             crate::IconProps {
@@ -12101,7 +12101,7 @@ impl IconData {
             html: bootstrap_cup,
         }
     };
-    const BOOTSTRAP_CURRENCY_BITCOIN: Self = {
+    pub const BOOTSTRAP_CURRENCY_BITCOIN: Self = {
         #[inline(never)]
         fn bootstrap_currency_bitcoin(
             crate::IconProps {
@@ -12123,7 +12123,7 @@ impl IconData {
             html: bootstrap_currency_bitcoin,
         }
     };
-    const BOOTSTRAP_CURRENCY_DOLLAR: Self = {
+    pub const BOOTSTRAP_CURRENCY_DOLLAR: Self = {
         #[inline(never)]
         fn bootstrap_currency_dollar(
             crate::IconProps {
@@ -12145,7 +12145,7 @@ impl IconData {
             html: bootstrap_currency_dollar,
         }
     };
-    const BOOTSTRAP_CURRENCY_EURO: Self = {
+    pub const BOOTSTRAP_CURRENCY_EURO: Self = {
         #[inline(never)]
         fn bootstrap_currency_euro(
             crate::IconProps {
@@ -12167,7 +12167,7 @@ impl IconData {
             html: bootstrap_currency_euro,
         }
     };
-    const BOOTSTRAP_CURRENCY_EXCHANGE: Self = {
+    pub const BOOTSTRAP_CURRENCY_EXCHANGE: Self = {
         #[inline(never)]
         fn bootstrap_currency_exchange(
             crate::IconProps {
@@ -12189,7 +12189,7 @@ impl IconData {
             html: bootstrap_currency_exchange,
         }
     };
-    const BOOTSTRAP_CURRENCY_POUND: Self = {
+    pub const BOOTSTRAP_CURRENCY_POUND: Self = {
         #[inline(never)]
         fn bootstrap_currency_pound(
             crate::IconProps {
@@ -12211,7 +12211,7 @@ impl IconData {
             html: bootstrap_currency_pound,
         }
     };
-    const BOOTSTRAP_CURRENCY_YEN: Self = {
+    pub const BOOTSTRAP_CURRENCY_YEN: Self = {
         #[inline(never)]
         fn bootstrap_currency_yen(
             crate::IconProps {
@@ -12233,7 +12233,7 @@ impl IconData {
             html: bootstrap_currency_yen,
         }
     };
-    const BOOTSTRAP_CURSOR_FILL: Self = {
+    pub const BOOTSTRAP_CURSOR_FILL: Self = {
         #[inline(never)]
         fn bootstrap_cursor_fill(
             crate::IconProps {
@@ -12255,7 +12255,7 @@ impl IconData {
             html: bootstrap_cursor_fill,
         }
     };
-    const BOOTSTRAP_CURSOR_TEXT: Self = {
+    pub const BOOTSTRAP_CURSOR_TEXT: Self = {
         #[inline(never)]
         fn bootstrap_cursor_text(
             crate::IconProps {
@@ -12277,7 +12277,7 @@ impl IconData {
             html: bootstrap_cursor_text,
         }
     };
-    const BOOTSTRAP_CURSOR: Self = {
+    pub const BOOTSTRAP_CURSOR: Self = {
         #[inline(never)]
         fn bootstrap_cursor(
             crate::IconProps {
@@ -12299,7 +12299,7 @@ impl IconData {
             html: bootstrap_cursor,
         }
     };
-    const BOOTSTRAP_DASH_CIRCLE_DOTTED: Self = {
+    pub const BOOTSTRAP_DASH_CIRCLE_DOTTED: Self = {
         #[inline(never)]
         fn bootstrap_dash_circle_dotted(
             crate::IconProps {
@@ -12321,7 +12321,7 @@ impl IconData {
             html: bootstrap_dash_circle_dotted,
         }
     };
-    const BOOTSTRAP_DASH_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_DASH_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_dash_circle_fill(
             crate::IconProps {
@@ -12343,7 +12343,7 @@ impl IconData {
             html: bootstrap_dash_circle_fill,
         }
     };
-    const BOOTSTRAP_DASH_CIRCLE: Self = {
+    pub const BOOTSTRAP_DASH_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_dash_circle(
             crate::IconProps {
@@ -12365,7 +12365,7 @@ impl IconData {
             html: bootstrap_dash_circle,
         }
     };
-    const BOOTSTRAP_DASH_LG: Self = {
+    pub const BOOTSTRAP_DASH_LG: Self = {
         #[inline(never)]
         fn bootstrap_dash_lg(
             crate::IconProps {
@@ -12387,7 +12387,7 @@ impl IconData {
             html: bootstrap_dash_lg,
         }
     };
-    const BOOTSTRAP_DASH_SQUARE_DOTTED: Self = {
+    pub const BOOTSTRAP_DASH_SQUARE_DOTTED: Self = {
         #[inline(never)]
         fn bootstrap_dash_square_dotted(
             crate::IconProps {
@@ -12409,7 +12409,7 @@ impl IconData {
             html: bootstrap_dash_square_dotted,
         }
     };
-    const BOOTSTRAP_DASH_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_DASH_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_dash_square_fill(
             crate::IconProps {
@@ -12431,7 +12431,7 @@ impl IconData {
             html: bootstrap_dash_square_fill,
         }
     };
-    const BOOTSTRAP_DASH_SQUARE: Self = {
+    pub const BOOTSTRAP_DASH_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_dash_square(
             crate::IconProps {
@@ -12453,7 +12453,7 @@ impl IconData {
             html: bootstrap_dash_square,
         }
     };
-    const BOOTSTRAP_DASH: Self = {
+    pub const BOOTSTRAP_DASH: Self = {
         #[inline(never)]
         fn bootstrap_dash(
             crate::IconProps {
@@ -12475,7 +12475,7 @@ impl IconData {
             html: bootstrap_dash,
         }
     };
-    const BOOTSTRAP_DEVICE_HDD_FILL: Self = {
+    pub const BOOTSTRAP_DEVICE_HDD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_device_hdd_fill(
             crate::IconProps {
@@ -12497,7 +12497,7 @@ impl IconData {
             html: bootstrap_device_hdd_fill,
         }
     };
-    const BOOTSTRAP_DEVICE_HDD: Self = {
+    pub const BOOTSTRAP_DEVICE_HDD: Self = {
         #[inline(never)]
         fn bootstrap_device_hdd(
             crate::IconProps {
@@ -12519,7 +12519,7 @@ impl IconData {
             html: bootstrap_device_hdd,
         }
     };
-    const BOOTSTRAP_DEVICE_SSD_FILL: Self = {
+    pub const BOOTSTRAP_DEVICE_SSD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_device_ssd_fill(
             crate::IconProps {
@@ -12541,7 +12541,7 @@ impl IconData {
             html: bootstrap_device_ssd_fill,
         }
     };
-    const BOOTSTRAP_DEVICE_SSD: Self = {
+    pub const BOOTSTRAP_DEVICE_SSD: Self = {
         #[inline(never)]
         fn bootstrap_device_ssd(
             crate::IconProps {
@@ -12563,7 +12563,7 @@ impl IconData {
             html: bootstrap_device_ssd,
         }
     };
-    const BOOTSTRAP_DIAGRAM_2_FILL: Self = {
+    pub const BOOTSTRAP_DIAGRAM_2_FILL: Self = {
         #[inline(never)]
         fn bootstrap_diagram_2_fill(
             crate::IconProps {
@@ -12585,7 +12585,7 @@ impl IconData {
             html: bootstrap_diagram_2_fill,
         }
     };
-    const BOOTSTRAP_DIAGRAM_2: Self = {
+    pub const BOOTSTRAP_DIAGRAM_2: Self = {
         #[inline(never)]
         fn bootstrap_diagram_2(
             crate::IconProps {
@@ -12607,7 +12607,7 @@ impl IconData {
             html: bootstrap_diagram_2,
         }
     };
-    const BOOTSTRAP_DIAGRAM_3_FILL: Self = {
+    pub const BOOTSTRAP_DIAGRAM_3_FILL: Self = {
         #[inline(never)]
         fn bootstrap_diagram_3_fill(
             crate::IconProps {
@@ -12629,7 +12629,7 @@ impl IconData {
             html: bootstrap_diagram_3_fill,
         }
     };
-    const BOOTSTRAP_DIAGRAM_3: Self = {
+    pub const BOOTSTRAP_DIAGRAM_3: Self = {
         #[inline(never)]
         fn bootstrap_diagram_3(
             crate::IconProps {
@@ -12651,7 +12651,7 @@ impl IconData {
             html: bootstrap_diagram_3,
         }
     };
-    const BOOTSTRAP_DIAMOND_FILL: Self = {
+    pub const BOOTSTRAP_DIAMOND_FILL: Self = {
         #[inline(never)]
         fn bootstrap_diamond_fill(
             crate::IconProps {
@@ -12673,7 +12673,7 @@ impl IconData {
             html: bootstrap_diamond_fill,
         }
     };
-    const BOOTSTRAP_DIAMOND_HALF: Self = {
+    pub const BOOTSTRAP_DIAMOND_HALF: Self = {
         #[inline(never)]
         fn bootstrap_diamond_half(
             crate::IconProps {
@@ -12695,7 +12695,7 @@ impl IconData {
             html: bootstrap_diamond_half,
         }
     };
-    const BOOTSTRAP_DIAMOND: Self = {
+    pub const BOOTSTRAP_DIAMOND: Self = {
         #[inline(never)]
         fn bootstrap_diamond(
             crate::IconProps {
@@ -12717,7 +12717,7 @@ impl IconData {
             html: bootstrap_diamond,
         }
     };
-    const BOOTSTRAP_DICE_1_FILL: Self = {
+    pub const BOOTSTRAP_DICE_1_FILL: Self = {
         #[inline(never)]
         fn bootstrap_dice_1_fill(
             crate::IconProps {
@@ -12739,7 +12739,7 @@ impl IconData {
             html: bootstrap_dice_1_fill,
         }
     };
-    const BOOTSTRAP_DICE_1: Self = {
+    pub const BOOTSTRAP_DICE_1: Self = {
         #[inline(never)]
         fn bootstrap_dice_1(
             crate::IconProps {
@@ -12761,7 +12761,7 @@ impl IconData {
             html: bootstrap_dice_1,
         }
     };
-    const BOOTSTRAP_DICE_2_FILL: Self = {
+    pub const BOOTSTRAP_DICE_2_FILL: Self = {
         #[inline(never)]
         fn bootstrap_dice_2_fill(
             crate::IconProps {
@@ -12783,7 +12783,7 @@ impl IconData {
             html: bootstrap_dice_2_fill,
         }
     };
-    const BOOTSTRAP_DICE_2: Self = {
+    pub const BOOTSTRAP_DICE_2: Self = {
         #[inline(never)]
         fn bootstrap_dice_2(
             crate::IconProps {
@@ -12805,7 +12805,7 @@ impl IconData {
             html: bootstrap_dice_2,
         }
     };
-    const BOOTSTRAP_DICE_3_FILL: Self = {
+    pub const BOOTSTRAP_DICE_3_FILL: Self = {
         #[inline(never)]
         fn bootstrap_dice_3_fill(
             crate::IconProps {
@@ -12827,7 +12827,7 @@ impl IconData {
             html: bootstrap_dice_3_fill,
         }
     };
-    const BOOTSTRAP_DICE_3: Self = {
+    pub const BOOTSTRAP_DICE_3: Self = {
         #[inline(never)]
         fn bootstrap_dice_3(
             crate::IconProps {
@@ -12849,7 +12849,7 @@ impl IconData {
             html: bootstrap_dice_3,
         }
     };
-    const BOOTSTRAP_DICE_4_FILL: Self = {
+    pub const BOOTSTRAP_DICE_4_FILL: Self = {
         #[inline(never)]
         fn bootstrap_dice_4_fill(
             crate::IconProps {
@@ -12871,7 +12871,7 @@ impl IconData {
             html: bootstrap_dice_4_fill,
         }
     };
-    const BOOTSTRAP_DICE_4: Self = {
+    pub const BOOTSTRAP_DICE_4: Self = {
         #[inline(never)]
         fn bootstrap_dice_4(
             crate::IconProps {
@@ -12893,7 +12893,7 @@ impl IconData {
             html: bootstrap_dice_4,
         }
     };
-    const BOOTSTRAP_DICE_5_FILL: Self = {
+    pub const BOOTSTRAP_DICE_5_FILL: Self = {
         #[inline(never)]
         fn bootstrap_dice_5_fill(
             crate::IconProps {
@@ -12915,7 +12915,7 @@ impl IconData {
             html: bootstrap_dice_5_fill,
         }
     };
-    const BOOTSTRAP_DICE_5: Self = {
+    pub const BOOTSTRAP_DICE_5: Self = {
         #[inline(never)]
         fn bootstrap_dice_5(
             crate::IconProps {
@@ -12937,7 +12937,7 @@ impl IconData {
             html: bootstrap_dice_5,
         }
     };
-    const BOOTSTRAP_DICE_6_FILL: Self = {
+    pub const BOOTSTRAP_DICE_6_FILL: Self = {
         #[inline(never)]
         fn bootstrap_dice_6_fill(
             crate::IconProps {
@@ -12959,7 +12959,7 @@ impl IconData {
             html: bootstrap_dice_6_fill,
         }
     };
-    const BOOTSTRAP_DICE_6: Self = {
+    pub const BOOTSTRAP_DICE_6: Self = {
         #[inline(never)]
         fn bootstrap_dice_6(
             crate::IconProps {
@@ -12981,7 +12981,7 @@ impl IconData {
             html: bootstrap_dice_6,
         }
     };
-    const BOOTSTRAP_DISC_FILL: Self = {
+    pub const BOOTSTRAP_DISC_FILL: Self = {
         #[inline(never)]
         fn bootstrap_disc_fill(
             crate::IconProps {
@@ -13003,7 +13003,7 @@ impl IconData {
             html: bootstrap_disc_fill,
         }
     };
-    const BOOTSTRAP_DISC: Self = {
+    pub const BOOTSTRAP_DISC: Self = {
         #[inline(never)]
         fn bootstrap_disc(
             crate::IconProps {
@@ -13025,7 +13025,7 @@ impl IconData {
             html: bootstrap_disc,
         }
     };
-    const BOOTSTRAP_DISCORD: Self = {
+    pub const BOOTSTRAP_DISCORD: Self = {
         #[inline(never)]
         fn bootstrap_discord(
             crate::IconProps {
@@ -13047,7 +13047,7 @@ impl IconData {
             html: bootstrap_discord,
         }
     };
-    const BOOTSTRAP_DISPLAY_FILL: Self = {
+    pub const BOOTSTRAP_DISPLAY_FILL: Self = {
         #[inline(never)]
         fn bootstrap_display_fill(
             crate::IconProps {
@@ -13069,7 +13069,7 @@ impl IconData {
             html: bootstrap_display_fill,
         }
     };
-    const BOOTSTRAP_DISPLAY: Self = {
+    pub const BOOTSTRAP_DISPLAY: Self = {
         #[inline(never)]
         fn bootstrap_display(
             crate::IconProps {
@@ -13091,7 +13091,7 @@ impl IconData {
             html: bootstrap_display,
         }
     };
-    const BOOTSTRAP_DISPLAYPORT_FILL: Self = {
+    pub const BOOTSTRAP_DISPLAYPORT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_displayport_fill(
             crate::IconProps {
@@ -13113,7 +13113,7 @@ impl IconData {
             html: bootstrap_displayport_fill,
         }
     };
-    const BOOTSTRAP_DISPLAYPORT: Self = {
+    pub const BOOTSTRAP_DISPLAYPORT: Self = {
         #[inline(never)]
         fn bootstrap_displayport(
             crate::IconProps {
@@ -13135,7 +13135,7 @@ impl IconData {
             html: bootstrap_displayport,
         }
     };
-    const BOOTSTRAP_DISTRIBUTE_HORIZONTAL: Self = {
+    pub const BOOTSTRAP_DISTRIBUTE_HORIZONTAL: Self = {
         #[inline(never)]
         fn bootstrap_distribute_horizontal(
             crate::IconProps {
@@ -13157,7 +13157,7 @@ impl IconData {
             html: bootstrap_distribute_horizontal,
         }
     };
-    const BOOTSTRAP_DISTRIBUTE_VERTICAL: Self = {
+    pub const BOOTSTRAP_DISTRIBUTE_VERTICAL: Self = {
         #[inline(never)]
         fn bootstrap_distribute_vertical(
             crate::IconProps {
@@ -13179,7 +13179,7 @@ impl IconData {
             html: bootstrap_distribute_vertical,
         }
     };
-    const BOOTSTRAP_DOOR_CLOSED_FILL: Self = {
+    pub const BOOTSTRAP_DOOR_CLOSED_FILL: Self = {
         #[inline(never)]
         fn bootstrap_door_closed_fill(
             crate::IconProps {
@@ -13201,7 +13201,7 @@ impl IconData {
             html: bootstrap_door_closed_fill,
         }
     };
-    const BOOTSTRAP_DOOR_CLOSED: Self = {
+    pub const BOOTSTRAP_DOOR_CLOSED: Self = {
         #[inline(never)]
         fn bootstrap_door_closed(
             crate::IconProps {
@@ -13223,7 +13223,7 @@ impl IconData {
             html: bootstrap_door_closed,
         }
     };
-    const BOOTSTRAP_DOOR_OPEN_FILL: Self = {
+    pub const BOOTSTRAP_DOOR_OPEN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_door_open_fill(
             crate::IconProps {
@@ -13245,7 +13245,7 @@ impl IconData {
             html: bootstrap_door_open_fill,
         }
     };
-    const BOOTSTRAP_DOOR_OPEN: Self = {
+    pub const BOOTSTRAP_DOOR_OPEN: Self = {
         #[inline(never)]
         fn bootstrap_door_open(
             crate::IconProps {
@@ -13267,7 +13267,7 @@ impl IconData {
             html: bootstrap_door_open,
         }
     };
-    const BOOTSTRAP_DOT: Self = {
+    pub const BOOTSTRAP_DOT: Self = {
         #[inline(never)]
         fn bootstrap_dot(
             crate::IconProps {
@@ -13289,7 +13289,7 @@ impl IconData {
             html: bootstrap_dot,
         }
     };
-    const BOOTSTRAP_DOWNLOAD: Self = {
+    pub const BOOTSTRAP_DOWNLOAD: Self = {
         #[inline(never)]
         fn bootstrap_download(
             crate::IconProps {
@@ -13311,7 +13311,7 @@ impl IconData {
             html: bootstrap_download,
         }
     };
-    const BOOTSTRAP_DPAD_FILL: Self = {
+    pub const BOOTSTRAP_DPAD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_dpad_fill(
             crate::IconProps {
@@ -13333,7 +13333,7 @@ impl IconData {
             html: bootstrap_dpad_fill,
         }
     };
-    const BOOTSTRAP_DPAD: Self = {
+    pub const BOOTSTRAP_DPAD: Self = {
         #[inline(never)]
         fn bootstrap_dpad(
             crate::IconProps {
@@ -13355,7 +13355,7 @@ impl IconData {
             html: bootstrap_dpad,
         }
     };
-    const BOOTSTRAP_DRIBBBLE: Self = {
+    pub const BOOTSTRAP_DRIBBBLE: Self = {
         #[inline(never)]
         fn bootstrap_dribbble(
             crate::IconProps {
@@ -13377,7 +13377,7 @@ impl IconData {
             html: bootstrap_dribbble,
         }
     };
-    const BOOTSTRAP_DROPLET_FILL: Self = {
+    pub const BOOTSTRAP_DROPLET_FILL: Self = {
         #[inline(never)]
         fn bootstrap_droplet_fill(
             crate::IconProps {
@@ -13399,7 +13399,7 @@ impl IconData {
             html: bootstrap_droplet_fill,
         }
     };
-    const BOOTSTRAP_DROPLET_HALF: Self = {
+    pub const BOOTSTRAP_DROPLET_HALF: Self = {
         #[inline(never)]
         fn bootstrap_droplet_half(
             crate::IconProps {
@@ -13421,7 +13421,7 @@ impl IconData {
             html: bootstrap_droplet_half,
         }
     };
-    const BOOTSTRAP_DROPLET: Self = {
+    pub const BOOTSTRAP_DROPLET: Self = {
         #[inline(never)]
         fn bootstrap_droplet(
             crate::IconProps {
@@ -13443,7 +13443,7 @@ impl IconData {
             html: bootstrap_droplet,
         }
     };
-    const BOOTSTRAP_EAR_FILL: Self = {
+    pub const BOOTSTRAP_EAR_FILL: Self = {
         #[inline(never)]
         fn bootstrap_ear_fill(
             crate::IconProps {
@@ -13465,7 +13465,7 @@ impl IconData {
             html: bootstrap_ear_fill,
         }
     };
-    const BOOTSTRAP_EAR: Self = {
+    pub const BOOTSTRAP_EAR: Self = {
         #[inline(never)]
         fn bootstrap_ear(
             crate::IconProps {
@@ -13487,7 +13487,7 @@ impl IconData {
             html: bootstrap_ear,
         }
     };
-    const BOOTSTRAP_EARBUDS: Self = {
+    pub const BOOTSTRAP_EARBUDS: Self = {
         #[inline(never)]
         fn bootstrap_earbuds(
             crate::IconProps {
@@ -13509,7 +13509,7 @@ impl IconData {
             html: bootstrap_earbuds,
         }
     };
-    const BOOTSTRAP_EASEL_FILL: Self = {
+    pub const BOOTSTRAP_EASEL_FILL: Self = {
         #[inline(never)]
         fn bootstrap_easel_fill(
             crate::IconProps {
@@ -13531,7 +13531,7 @@ impl IconData {
             html: bootstrap_easel_fill,
         }
     };
-    const BOOTSTRAP_EASEL: Self = {
+    pub const BOOTSTRAP_EASEL: Self = {
         #[inline(never)]
         fn bootstrap_easel(
             crate::IconProps {
@@ -13553,7 +13553,7 @@ impl IconData {
             html: bootstrap_easel,
         }
     };
-    const BOOTSTRAP_EASEL_2_FILL: Self = {
+    pub const BOOTSTRAP_EASEL_2_FILL: Self = {
         #[inline(never)]
         fn bootstrap_easel_2_fill(
             crate::IconProps {
@@ -13575,7 +13575,7 @@ impl IconData {
             html: bootstrap_easel_2_fill,
         }
     };
-    const BOOTSTRAP_EASEL_2: Self = {
+    pub const BOOTSTRAP_EASEL_2: Self = {
         #[inline(never)]
         fn bootstrap_easel_2(
             crate::IconProps {
@@ -13597,7 +13597,7 @@ impl IconData {
             html: bootstrap_easel_2,
         }
     };
-    const BOOTSTRAP_EASEL_3_FILL: Self = {
+    pub const BOOTSTRAP_EASEL_3_FILL: Self = {
         #[inline(never)]
         fn bootstrap_easel_3_fill(
             crate::IconProps {
@@ -13619,7 +13619,7 @@ impl IconData {
             html: bootstrap_easel_3_fill,
         }
     };
-    const BOOTSTRAP_EASEL_3: Self = {
+    pub const BOOTSTRAP_EASEL_3: Self = {
         #[inline(never)]
         fn bootstrap_easel_3(
             crate::IconProps {
@@ -13641,7 +13641,7 @@ impl IconData {
             html: bootstrap_easel_3,
         }
     };
-    const BOOTSTRAP_EGG_FILL: Self = {
+    pub const BOOTSTRAP_EGG_FILL: Self = {
         #[inline(never)]
         fn bootstrap_egg_fill(
             crate::IconProps {
@@ -13663,7 +13663,7 @@ impl IconData {
             html: bootstrap_egg_fill,
         }
     };
-    const BOOTSTRAP_EGG_FRIED: Self = {
+    pub const BOOTSTRAP_EGG_FRIED: Self = {
         #[inline(never)]
         fn bootstrap_egg_fried(
             crate::IconProps {
@@ -13685,7 +13685,7 @@ impl IconData {
             html: bootstrap_egg_fried,
         }
     };
-    const BOOTSTRAP_EGG: Self = {
+    pub const BOOTSTRAP_EGG: Self = {
         #[inline(never)]
         fn bootstrap_egg(
             crate::IconProps {
@@ -13707,7 +13707,7 @@ impl IconData {
             html: bootstrap_egg,
         }
     };
-    const BOOTSTRAP_EJECT_FILL: Self = {
+    pub const BOOTSTRAP_EJECT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_eject_fill(
             crate::IconProps {
@@ -13729,7 +13729,7 @@ impl IconData {
             html: bootstrap_eject_fill,
         }
     };
-    const BOOTSTRAP_EJECT: Self = {
+    pub const BOOTSTRAP_EJECT: Self = {
         #[inline(never)]
         fn bootstrap_eject(
             crate::IconProps {
@@ -13751,7 +13751,7 @@ impl IconData {
             html: bootstrap_eject,
         }
     };
-    const BOOTSTRAP_EMOJI_ANGRY_FILL: Self = {
+    pub const BOOTSTRAP_EMOJI_ANGRY_FILL: Self = {
         #[inline(never)]
         fn bootstrap_emoji_angry_fill(
             crate::IconProps {
@@ -13773,7 +13773,7 @@ impl IconData {
             html: bootstrap_emoji_angry_fill,
         }
     };
-    const BOOTSTRAP_EMOJI_ANGRY: Self = {
+    pub const BOOTSTRAP_EMOJI_ANGRY: Self = {
         #[inline(never)]
         fn bootstrap_emoji_angry(
             crate::IconProps {
@@ -13795,7 +13795,7 @@ impl IconData {
             html: bootstrap_emoji_angry,
         }
     };
-    const BOOTSTRAP_EMOJI_DIZZY_FILL: Self = {
+    pub const BOOTSTRAP_EMOJI_DIZZY_FILL: Self = {
         #[inline(never)]
         fn bootstrap_emoji_dizzy_fill(
             crate::IconProps {
@@ -13817,7 +13817,7 @@ impl IconData {
             html: bootstrap_emoji_dizzy_fill,
         }
     };
-    const BOOTSTRAP_EMOJI_DIZZY: Self = {
+    pub const BOOTSTRAP_EMOJI_DIZZY: Self = {
         #[inline(never)]
         fn bootstrap_emoji_dizzy(
             crate::IconProps {
@@ -13839,7 +13839,7 @@ impl IconData {
             html: bootstrap_emoji_dizzy,
         }
     };
-    const BOOTSTRAP_EMOJI_EXPRESSIONLESS_FILL: Self = {
+    pub const BOOTSTRAP_EMOJI_EXPRESSIONLESS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_emoji_expressionless_fill(
             crate::IconProps {
@@ -13861,7 +13861,7 @@ impl IconData {
             html: bootstrap_emoji_expressionless_fill,
         }
     };
-    const BOOTSTRAP_EMOJI_EXPRESSIONLESS: Self = {
+    pub const BOOTSTRAP_EMOJI_EXPRESSIONLESS: Self = {
         #[inline(never)]
         fn bootstrap_emoji_expressionless(
             crate::IconProps {
@@ -13883,7 +13883,7 @@ impl IconData {
             html: bootstrap_emoji_expressionless,
         }
     };
-    const BOOTSTRAP_EMOJI_FROWN_FILL: Self = {
+    pub const BOOTSTRAP_EMOJI_FROWN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_emoji_frown_fill(
             crate::IconProps {
@@ -13905,7 +13905,7 @@ impl IconData {
             html: bootstrap_emoji_frown_fill,
         }
     };
-    const BOOTSTRAP_EMOJI_FROWN: Self = {
+    pub const BOOTSTRAP_EMOJI_FROWN: Self = {
         #[inline(never)]
         fn bootstrap_emoji_frown(
             crate::IconProps {
@@ -13927,7 +13927,7 @@ impl IconData {
             html: bootstrap_emoji_frown,
         }
     };
-    const BOOTSTRAP_EMOJI_HEART_EYES_FILL: Self = {
+    pub const BOOTSTRAP_EMOJI_HEART_EYES_FILL: Self = {
         #[inline(never)]
         fn bootstrap_emoji_heart_eyes_fill(
             crate::IconProps {
@@ -13949,7 +13949,7 @@ impl IconData {
             html: bootstrap_emoji_heart_eyes_fill,
         }
     };
-    const BOOTSTRAP_EMOJI_HEART_EYES: Self = {
+    pub const BOOTSTRAP_EMOJI_HEART_EYES: Self = {
         #[inline(never)]
         fn bootstrap_emoji_heart_eyes(
             crate::IconProps {
@@ -13971,7 +13971,7 @@ impl IconData {
             html: bootstrap_emoji_heart_eyes,
         }
     };
-    const BOOTSTRAP_EMOJI_KISS_FILL: Self = {
+    pub const BOOTSTRAP_EMOJI_KISS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_emoji_kiss_fill(
             crate::IconProps {
@@ -13993,7 +13993,7 @@ impl IconData {
             html: bootstrap_emoji_kiss_fill,
         }
     };
-    const BOOTSTRAP_EMOJI_KISS: Self = {
+    pub const BOOTSTRAP_EMOJI_KISS: Self = {
         #[inline(never)]
         fn bootstrap_emoji_kiss(
             crate::IconProps {
@@ -14015,7 +14015,7 @@ impl IconData {
             html: bootstrap_emoji_kiss,
         }
     };
-    const BOOTSTRAP_EMOJI_LAUGHING_FILL: Self = {
+    pub const BOOTSTRAP_EMOJI_LAUGHING_FILL: Self = {
         #[inline(never)]
         fn bootstrap_emoji_laughing_fill(
             crate::IconProps {
@@ -14037,7 +14037,7 @@ impl IconData {
             html: bootstrap_emoji_laughing_fill,
         }
     };
-    const BOOTSTRAP_EMOJI_LAUGHING: Self = {
+    pub const BOOTSTRAP_EMOJI_LAUGHING: Self = {
         #[inline(never)]
         fn bootstrap_emoji_laughing(
             crate::IconProps {
@@ -14059,7 +14059,7 @@ impl IconData {
             html: bootstrap_emoji_laughing,
         }
     };
-    const BOOTSTRAP_EMOJI_NEUTRAL_FILL: Self = {
+    pub const BOOTSTRAP_EMOJI_NEUTRAL_FILL: Self = {
         #[inline(never)]
         fn bootstrap_emoji_neutral_fill(
             crate::IconProps {
@@ -14081,7 +14081,7 @@ impl IconData {
             html: bootstrap_emoji_neutral_fill,
         }
     };
-    const BOOTSTRAP_EMOJI_NEUTRAL: Self = {
+    pub const BOOTSTRAP_EMOJI_NEUTRAL: Self = {
         #[inline(never)]
         fn bootstrap_emoji_neutral(
             crate::IconProps {
@@ -14103,7 +14103,7 @@ impl IconData {
             html: bootstrap_emoji_neutral,
         }
     };
-    const BOOTSTRAP_EMOJI_SMILE_FILL: Self = {
+    pub const BOOTSTRAP_EMOJI_SMILE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_emoji_smile_fill(
             crate::IconProps {
@@ -14125,7 +14125,7 @@ impl IconData {
             html: bootstrap_emoji_smile_fill,
         }
     };
-    const BOOTSTRAP_EMOJI_SMILE_UPSIDE_DOWN_FILL: Self = {
+    pub const BOOTSTRAP_EMOJI_SMILE_UPSIDE_DOWN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_emoji_smile_upside_down_fill(
             crate::IconProps {
@@ -14147,7 +14147,7 @@ impl IconData {
             html: bootstrap_emoji_smile_upside_down_fill,
         }
     };
-    const BOOTSTRAP_EMOJI_SMILE_UPSIDE_DOWN: Self = {
+    pub const BOOTSTRAP_EMOJI_SMILE_UPSIDE_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_emoji_smile_upside_down(
             crate::IconProps {
@@ -14169,7 +14169,7 @@ impl IconData {
             html: bootstrap_emoji_smile_upside_down,
         }
     };
-    const BOOTSTRAP_EMOJI_SMILE: Self = {
+    pub const BOOTSTRAP_EMOJI_SMILE: Self = {
         #[inline(never)]
         fn bootstrap_emoji_smile(
             crate::IconProps {
@@ -14191,7 +14191,7 @@ impl IconData {
             html: bootstrap_emoji_smile,
         }
     };
-    const BOOTSTRAP_EMOJI_SUNGLASSES_FILL: Self = {
+    pub const BOOTSTRAP_EMOJI_SUNGLASSES_FILL: Self = {
         #[inline(never)]
         fn bootstrap_emoji_sunglasses_fill(
             crate::IconProps {
@@ -14213,7 +14213,7 @@ impl IconData {
             html: bootstrap_emoji_sunglasses_fill,
         }
     };
-    const BOOTSTRAP_EMOJI_SUNGLASSES: Self = {
+    pub const BOOTSTRAP_EMOJI_SUNGLASSES: Self = {
         #[inline(never)]
         fn bootstrap_emoji_sunglasses(
             crate::IconProps {
@@ -14235,7 +14235,7 @@ impl IconData {
             html: bootstrap_emoji_sunglasses,
         }
     };
-    const BOOTSTRAP_EMOJI_WINK_FILL: Self = {
+    pub const BOOTSTRAP_EMOJI_WINK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_emoji_wink_fill(
             crate::IconProps {
@@ -14257,7 +14257,7 @@ impl IconData {
             html: bootstrap_emoji_wink_fill,
         }
     };
-    const BOOTSTRAP_EMOJI_WINK: Self = {
+    pub const BOOTSTRAP_EMOJI_WINK: Self = {
         #[inline(never)]
         fn bootstrap_emoji_wink(
             crate::IconProps {
@@ -14279,7 +14279,7 @@ impl IconData {
             html: bootstrap_emoji_wink,
         }
     };
-    const BOOTSTRAP_ENVELOPE_CHECK_FILL: Self = {
+    pub const BOOTSTRAP_ENVELOPE_CHECK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_envelope_check_fill(
             crate::IconProps {
@@ -14301,7 +14301,7 @@ impl IconData {
             html: bootstrap_envelope_check_fill,
         }
     };
-    const BOOTSTRAP_ENVELOPE_CHECK: Self = {
+    pub const BOOTSTRAP_ENVELOPE_CHECK: Self = {
         #[inline(never)]
         fn bootstrap_envelope_check(
             crate::IconProps {
@@ -14323,7 +14323,7 @@ impl IconData {
             html: bootstrap_envelope_check,
         }
     };
-    const BOOTSTRAP_ENVELOPE_DASH_FILL: Self = {
+    pub const BOOTSTRAP_ENVELOPE_DASH_FILL: Self = {
         #[inline(never)]
         fn bootstrap_envelope_dash_fill(
             crate::IconProps {
@@ -14345,7 +14345,7 @@ impl IconData {
             html: bootstrap_envelope_dash_fill,
         }
     };
-    const BOOTSTRAP_ENVELOPE_DASH: Self = {
+    pub const BOOTSTRAP_ENVELOPE_DASH: Self = {
         #[inline(never)]
         fn bootstrap_envelope_dash(
             crate::IconProps {
@@ -14367,7 +14367,7 @@ impl IconData {
             html: bootstrap_envelope_dash,
         }
     };
-    const BOOTSTRAP_ENVELOPE_EXCLAMATION_FILL: Self = {
+    pub const BOOTSTRAP_ENVELOPE_EXCLAMATION_FILL: Self = {
         #[inline(never)]
         fn bootstrap_envelope_exclamation_fill(
             crate::IconProps {
@@ -14389,7 +14389,7 @@ impl IconData {
             html: bootstrap_envelope_exclamation_fill,
         }
     };
-    const BOOTSTRAP_ENVELOPE_EXCLAMATION: Self = {
+    pub const BOOTSTRAP_ENVELOPE_EXCLAMATION: Self = {
         #[inline(never)]
         fn bootstrap_envelope_exclamation(
             crate::IconProps {
@@ -14411,7 +14411,7 @@ impl IconData {
             html: bootstrap_envelope_exclamation,
         }
     };
-    const BOOTSTRAP_ENVELOPE_FILL: Self = {
+    pub const BOOTSTRAP_ENVELOPE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_envelope_fill(
             crate::IconProps {
@@ -14433,7 +14433,7 @@ impl IconData {
             html: bootstrap_envelope_fill,
         }
     };
-    const BOOTSTRAP_ENVELOPE_HEART_FILL: Self = {
+    pub const BOOTSTRAP_ENVELOPE_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_envelope_heart_fill(
             crate::IconProps {
@@ -14455,7 +14455,7 @@ impl IconData {
             html: bootstrap_envelope_heart_fill,
         }
     };
-    const BOOTSTRAP_ENVELOPE_HEART: Self = {
+    pub const BOOTSTRAP_ENVELOPE_HEART: Self = {
         #[inline(never)]
         fn bootstrap_envelope_heart(
             crate::IconProps {
@@ -14477,7 +14477,7 @@ impl IconData {
             html: bootstrap_envelope_heart,
         }
     };
-    const BOOTSTRAP_ENVELOPE_OPEN_FILL: Self = {
+    pub const BOOTSTRAP_ENVELOPE_OPEN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_envelope_open_fill(
             crate::IconProps {
@@ -14499,7 +14499,7 @@ impl IconData {
             html: bootstrap_envelope_open_fill,
         }
     };
-    const BOOTSTRAP_ENVELOPE_OPEN_HEART_FILL: Self = {
+    pub const BOOTSTRAP_ENVELOPE_OPEN_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_envelope_open_heart_fill(
             crate::IconProps {
@@ -14521,7 +14521,7 @@ impl IconData {
             html: bootstrap_envelope_open_heart_fill,
         }
     };
-    const BOOTSTRAP_ENVELOPE_OPEN_HEART: Self = {
+    pub const BOOTSTRAP_ENVELOPE_OPEN_HEART: Self = {
         #[inline(never)]
         fn bootstrap_envelope_open_heart(
             crate::IconProps {
@@ -14543,7 +14543,7 @@ impl IconData {
             html: bootstrap_envelope_open_heart,
         }
     };
-    const BOOTSTRAP_ENVELOPE_OPEN: Self = {
+    pub const BOOTSTRAP_ENVELOPE_OPEN: Self = {
         #[inline(never)]
         fn bootstrap_envelope_open(
             crate::IconProps {
@@ -14565,7 +14565,7 @@ impl IconData {
             html: bootstrap_envelope_open,
         }
     };
-    const BOOTSTRAP_ENVELOPE_PAPER_FILL: Self = {
+    pub const BOOTSTRAP_ENVELOPE_PAPER_FILL: Self = {
         #[inline(never)]
         fn bootstrap_envelope_paper_fill(
             crate::IconProps {
@@ -14587,7 +14587,7 @@ impl IconData {
             html: bootstrap_envelope_paper_fill,
         }
     };
-    const BOOTSTRAP_ENVELOPE_PAPER_HEART_FILL: Self = {
+    pub const BOOTSTRAP_ENVELOPE_PAPER_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_envelope_paper_heart_fill(
             crate::IconProps {
@@ -14609,7 +14609,7 @@ impl IconData {
             html: bootstrap_envelope_paper_heart_fill,
         }
     };
-    const BOOTSTRAP_ENVELOPE_PAPER_HEART: Self = {
+    pub const BOOTSTRAP_ENVELOPE_PAPER_HEART: Self = {
         #[inline(never)]
         fn bootstrap_envelope_paper_heart(
             crate::IconProps {
@@ -14631,7 +14631,7 @@ impl IconData {
             html: bootstrap_envelope_paper_heart,
         }
     };
-    const BOOTSTRAP_ENVELOPE_PAPER: Self = {
+    pub const BOOTSTRAP_ENVELOPE_PAPER: Self = {
         #[inline(never)]
         fn bootstrap_envelope_paper(
             crate::IconProps {
@@ -14653,7 +14653,7 @@ impl IconData {
             html: bootstrap_envelope_paper,
         }
     };
-    const BOOTSTRAP_ENVELOPE_PLUS_FILL: Self = {
+    pub const BOOTSTRAP_ENVELOPE_PLUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_envelope_plus_fill(
             crate::IconProps {
@@ -14675,7 +14675,7 @@ impl IconData {
             html: bootstrap_envelope_plus_fill,
         }
     };
-    const BOOTSTRAP_ENVELOPE_PLUS: Self = {
+    pub const BOOTSTRAP_ENVELOPE_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_envelope_plus(
             crate::IconProps {
@@ -14697,7 +14697,7 @@ impl IconData {
             html: bootstrap_envelope_plus,
         }
     };
-    const BOOTSTRAP_ENVELOPE_SLASH_FILL: Self = {
+    pub const BOOTSTRAP_ENVELOPE_SLASH_FILL: Self = {
         #[inline(never)]
         fn bootstrap_envelope_slash_fill(
             crate::IconProps {
@@ -14719,7 +14719,7 @@ impl IconData {
             html: bootstrap_envelope_slash_fill,
         }
     };
-    const BOOTSTRAP_ENVELOPE_SLASH: Self = {
+    pub const BOOTSTRAP_ENVELOPE_SLASH: Self = {
         #[inline(never)]
         fn bootstrap_envelope_slash(
             crate::IconProps {
@@ -14741,7 +14741,7 @@ impl IconData {
             html: bootstrap_envelope_slash,
         }
     };
-    const BOOTSTRAP_ENVELOPE_X_FILL: Self = {
+    pub const BOOTSTRAP_ENVELOPE_X_FILL: Self = {
         #[inline(never)]
         fn bootstrap_envelope_x_fill(
             crate::IconProps {
@@ -14763,7 +14763,7 @@ impl IconData {
             html: bootstrap_envelope_x_fill,
         }
     };
-    const BOOTSTRAP_ENVELOPE_X: Self = {
+    pub const BOOTSTRAP_ENVELOPE_X: Self = {
         #[inline(never)]
         fn bootstrap_envelope_x(
             crate::IconProps {
@@ -14785,7 +14785,7 @@ impl IconData {
             html: bootstrap_envelope_x,
         }
     };
-    const BOOTSTRAP_ENVELOPE: Self = {
+    pub const BOOTSTRAP_ENVELOPE: Self = {
         #[inline(never)]
         fn bootstrap_envelope(
             crate::IconProps {
@@ -14807,7 +14807,7 @@ impl IconData {
             html: bootstrap_envelope,
         }
     };
-    const BOOTSTRAP_ERASER_FILL: Self = {
+    pub const BOOTSTRAP_ERASER_FILL: Self = {
         #[inline(never)]
         fn bootstrap_eraser_fill(
             crate::IconProps {
@@ -14829,7 +14829,7 @@ impl IconData {
             html: bootstrap_eraser_fill,
         }
     };
-    const BOOTSTRAP_ERASER: Self = {
+    pub const BOOTSTRAP_ERASER: Self = {
         #[inline(never)]
         fn bootstrap_eraser(
             crate::IconProps {
@@ -14851,7 +14851,7 @@ impl IconData {
             html: bootstrap_eraser,
         }
     };
-    const BOOTSTRAP_ETHERNET: Self = {
+    pub const BOOTSTRAP_ETHERNET: Self = {
         #[inline(never)]
         fn bootstrap_ethernet(
             crate::IconProps {
@@ -14873,7 +14873,7 @@ impl IconData {
             html: bootstrap_ethernet,
         }
     };
-    const BOOTSTRAP_EXCLAMATION_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_EXCLAMATION_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_exclamation_circle_fill(
             crate::IconProps {
@@ -14895,7 +14895,7 @@ impl IconData {
             html: bootstrap_exclamation_circle_fill,
         }
     };
-    const BOOTSTRAP_EXCLAMATION_CIRCLE: Self = {
+    pub const BOOTSTRAP_EXCLAMATION_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_exclamation_circle(
             crate::IconProps {
@@ -14917,7 +14917,7 @@ impl IconData {
             html: bootstrap_exclamation_circle,
         }
     };
-    const BOOTSTRAP_EXCLAMATION_DIAMOND_FILL: Self = {
+    pub const BOOTSTRAP_EXCLAMATION_DIAMOND_FILL: Self = {
         #[inline(never)]
         fn bootstrap_exclamation_diamond_fill(
             crate::IconProps {
@@ -14939,7 +14939,7 @@ impl IconData {
             html: bootstrap_exclamation_diamond_fill,
         }
     };
-    const BOOTSTRAP_EXCLAMATION_DIAMOND: Self = {
+    pub const BOOTSTRAP_EXCLAMATION_DIAMOND: Self = {
         #[inline(never)]
         fn bootstrap_exclamation_diamond(
             crate::IconProps {
@@ -14961,7 +14961,7 @@ impl IconData {
             html: bootstrap_exclamation_diamond,
         }
     };
-    const BOOTSTRAP_EXCLAMATION_LG: Self = {
+    pub const BOOTSTRAP_EXCLAMATION_LG: Self = {
         #[inline(never)]
         fn bootstrap_exclamation_lg(
             crate::IconProps {
@@ -14983,7 +14983,7 @@ impl IconData {
             html: bootstrap_exclamation_lg,
         }
     };
-    const BOOTSTRAP_EXCLAMATION_OCTAGON_FILL: Self = {
+    pub const BOOTSTRAP_EXCLAMATION_OCTAGON_FILL: Self = {
         #[inline(never)]
         fn bootstrap_exclamation_octagon_fill(
             crate::IconProps {
@@ -15005,7 +15005,7 @@ impl IconData {
             html: bootstrap_exclamation_octagon_fill,
         }
     };
-    const BOOTSTRAP_EXCLAMATION_OCTAGON: Self = {
+    pub const BOOTSTRAP_EXCLAMATION_OCTAGON: Self = {
         #[inline(never)]
         fn bootstrap_exclamation_octagon(
             crate::IconProps {
@@ -15027,7 +15027,7 @@ impl IconData {
             html: bootstrap_exclamation_octagon,
         }
     };
-    const BOOTSTRAP_EXCLAMATION_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_EXCLAMATION_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_exclamation_square_fill(
             crate::IconProps {
@@ -15049,7 +15049,7 @@ impl IconData {
             html: bootstrap_exclamation_square_fill,
         }
     };
-    const BOOTSTRAP_EXCLAMATION_SQUARE: Self = {
+    pub const BOOTSTRAP_EXCLAMATION_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_exclamation_square(
             crate::IconProps {
@@ -15071,7 +15071,7 @@ impl IconData {
             html: bootstrap_exclamation_square,
         }
     };
-    const BOOTSTRAP_EXCLAMATION_TRIANGLE_FILL: Self = {
+    pub const BOOTSTRAP_EXCLAMATION_TRIANGLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_exclamation_triangle_fill(
             crate::IconProps {
@@ -15093,7 +15093,7 @@ impl IconData {
             html: bootstrap_exclamation_triangle_fill,
         }
     };
-    const BOOTSTRAP_EXCLAMATION_TRIANGLE: Self = {
+    pub const BOOTSTRAP_EXCLAMATION_TRIANGLE: Self = {
         #[inline(never)]
         fn bootstrap_exclamation_triangle(
             crate::IconProps {
@@ -15115,7 +15115,7 @@ impl IconData {
             html: bootstrap_exclamation_triangle,
         }
     };
-    const BOOTSTRAP_EXCLAMATION: Self = {
+    pub const BOOTSTRAP_EXCLAMATION: Self = {
         #[inline(never)]
         fn bootstrap_exclamation(
             crate::IconProps {
@@ -15137,7 +15137,7 @@ impl IconData {
             html: bootstrap_exclamation,
         }
     };
-    const BOOTSTRAP_EXCLUDE: Self = {
+    pub const BOOTSTRAP_EXCLUDE: Self = {
         #[inline(never)]
         fn bootstrap_exclude(
             crate::IconProps {
@@ -15159,7 +15159,7 @@ impl IconData {
             html: bootstrap_exclude,
         }
     };
-    const BOOTSTRAP_EXPLICIT_FILL: Self = {
+    pub const BOOTSTRAP_EXPLICIT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_explicit_fill(
             crate::IconProps {
@@ -15181,7 +15181,7 @@ impl IconData {
             html: bootstrap_explicit_fill,
         }
     };
-    const BOOTSTRAP_EXPLICIT: Self = {
+    pub const BOOTSTRAP_EXPLICIT: Self = {
         #[inline(never)]
         fn bootstrap_explicit(
             crate::IconProps {
@@ -15203,7 +15203,7 @@ impl IconData {
             html: bootstrap_explicit,
         }
     };
-    const BOOTSTRAP_EYE_FILL: Self = {
+    pub const BOOTSTRAP_EYE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_eye_fill(
             crate::IconProps {
@@ -15225,7 +15225,7 @@ impl IconData {
             html: bootstrap_eye_fill,
         }
     };
-    const BOOTSTRAP_EYE_SLASH_FILL: Self = {
+    pub const BOOTSTRAP_EYE_SLASH_FILL: Self = {
         #[inline(never)]
         fn bootstrap_eye_slash_fill(
             crate::IconProps {
@@ -15247,7 +15247,7 @@ impl IconData {
             html: bootstrap_eye_slash_fill,
         }
     };
-    const BOOTSTRAP_EYE_SLASH: Self = {
+    pub const BOOTSTRAP_EYE_SLASH: Self = {
         #[inline(never)]
         fn bootstrap_eye_slash(
             crate::IconProps {
@@ -15269,7 +15269,7 @@ impl IconData {
             html: bootstrap_eye_slash,
         }
     };
-    const BOOTSTRAP_EYE: Self = {
+    pub const BOOTSTRAP_EYE: Self = {
         #[inline(never)]
         fn bootstrap_eye(
             crate::IconProps {
@@ -15291,7 +15291,7 @@ impl IconData {
             html: bootstrap_eye,
         }
     };
-    const BOOTSTRAP_EYEDROPPER: Self = {
+    pub const BOOTSTRAP_EYEDROPPER: Self = {
         #[inline(never)]
         fn bootstrap_eyedropper(
             crate::IconProps {
@@ -15313,7 +15313,7 @@ impl IconData {
             html: bootstrap_eyedropper,
         }
     };
-    const BOOTSTRAP_EYEGLASSES: Self = {
+    pub const BOOTSTRAP_EYEGLASSES: Self = {
         #[inline(never)]
         fn bootstrap_eyeglasses(
             crate::IconProps {
@@ -15335,7 +15335,7 @@ impl IconData {
             html: bootstrap_eyeglasses,
         }
     };
-    const BOOTSTRAP_FACEBOOK: Self = {
+    pub const BOOTSTRAP_FACEBOOK: Self = {
         #[inline(never)]
         fn bootstrap_facebook(
             crate::IconProps {
@@ -15357,7 +15357,7 @@ impl IconData {
             html: bootstrap_facebook,
         }
     };
-    const BOOTSTRAP_FAN: Self = {
+    pub const BOOTSTRAP_FAN: Self = {
         #[inline(never)]
         fn bootstrap_fan(
             crate::IconProps {
@@ -15379,7 +15379,7 @@ impl IconData {
             html: bootstrap_fan,
         }
     };
-    const BOOTSTRAP_FILE_ARROW_DOWN_FILL: Self = {
+    pub const BOOTSTRAP_FILE_ARROW_DOWN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_arrow_down_fill(
             crate::IconProps {
@@ -15401,7 +15401,7 @@ impl IconData {
             html: bootstrap_file_arrow_down_fill,
         }
     };
-    const BOOTSTRAP_FILE_ARROW_DOWN: Self = {
+    pub const BOOTSTRAP_FILE_ARROW_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_file_arrow_down(
             crate::IconProps {
@@ -15423,7 +15423,7 @@ impl IconData {
             html: bootstrap_file_arrow_down,
         }
     };
-    const BOOTSTRAP_FILE_ARROW_UP_FILL: Self = {
+    pub const BOOTSTRAP_FILE_ARROW_UP_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_arrow_up_fill(
             crate::IconProps {
@@ -15445,7 +15445,7 @@ impl IconData {
             html: bootstrap_file_arrow_up_fill,
         }
     };
-    const BOOTSTRAP_FILE_ARROW_UP: Self = {
+    pub const BOOTSTRAP_FILE_ARROW_UP: Self = {
         #[inline(never)]
         fn bootstrap_file_arrow_up(
             crate::IconProps {
@@ -15467,7 +15467,7 @@ impl IconData {
             html: bootstrap_file_arrow_up,
         }
     };
-    const BOOTSTRAP_FILE_BAR_GRAPH_FILL: Self = {
+    pub const BOOTSTRAP_FILE_BAR_GRAPH_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_bar_graph_fill(
             crate::IconProps {
@@ -15489,7 +15489,7 @@ impl IconData {
             html: bootstrap_file_bar_graph_fill,
         }
     };
-    const BOOTSTRAP_FILE_BAR_GRAPH: Self = {
+    pub const BOOTSTRAP_FILE_BAR_GRAPH: Self = {
         #[inline(never)]
         fn bootstrap_file_bar_graph(
             crate::IconProps {
@@ -15511,7 +15511,7 @@ impl IconData {
             html: bootstrap_file_bar_graph,
         }
     };
-    const BOOTSTRAP_FILE_BINARY_FILL: Self = {
+    pub const BOOTSTRAP_FILE_BINARY_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_binary_fill(
             crate::IconProps {
@@ -15533,7 +15533,7 @@ impl IconData {
             html: bootstrap_file_binary_fill,
         }
     };
-    const BOOTSTRAP_FILE_BINARY: Self = {
+    pub const BOOTSTRAP_FILE_BINARY: Self = {
         #[inline(never)]
         fn bootstrap_file_binary(
             crate::IconProps {
@@ -15555,7 +15555,7 @@ impl IconData {
             html: bootstrap_file_binary,
         }
     };
-    const BOOTSTRAP_FILE_BREAK_FILL: Self = {
+    pub const BOOTSTRAP_FILE_BREAK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_break_fill(
             crate::IconProps {
@@ -15577,7 +15577,7 @@ impl IconData {
             html: bootstrap_file_break_fill,
         }
     };
-    const BOOTSTRAP_FILE_BREAK: Self = {
+    pub const BOOTSTRAP_FILE_BREAK: Self = {
         #[inline(never)]
         fn bootstrap_file_break(
             crate::IconProps {
@@ -15599,7 +15599,7 @@ impl IconData {
             html: bootstrap_file_break,
         }
     };
-    const BOOTSTRAP_FILE_CHECK_FILL: Self = {
+    pub const BOOTSTRAP_FILE_CHECK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_check_fill(
             crate::IconProps {
@@ -15621,7 +15621,7 @@ impl IconData {
             html: bootstrap_file_check_fill,
         }
     };
-    const BOOTSTRAP_FILE_CHECK: Self = {
+    pub const BOOTSTRAP_FILE_CHECK: Self = {
         #[inline(never)]
         fn bootstrap_file_check(
             crate::IconProps {
@@ -15643,7 +15643,7 @@ impl IconData {
             html: bootstrap_file_check,
         }
     };
-    const BOOTSTRAP_FILE_CODE_FILL: Self = {
+    pub const BOOTSTRAP_FILE_CODE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_code_fill(
             crate::IconProps {
@@ -15665,7 +15665,7 @@ impl IconData {
             html: bootstrap_file_code_fill,
         }
     };
-    const BOOTSTRAP_FILE_CODE: Self = {
+    pub const BOOTSTRAP_FILE_CODE: Self = {
         #[inline(never)]
         fn bootstrap_file_code(
             crate::IconProps {
@@ -15687,7 +15687,7 @@ impl IconData {
             html: bootstrap_file_code,
         }
     };
-    const BOOTSTRAP_FILE_DIFF_FILL: Self = {
+    pub const BOOTSTRAP_FILE_DIFF_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_diff_fill(
             crate::IconProps {
@@ -15709,7 +15709,7 @@ impl IconData {
             html: bootstrap_file_diff_fill,
         }
     };
-    const BOOTSTRAP_FILE_DIFF: Self = {
+    pub const BOOTSTRAP_FILE_DIFF: Self = {
         #[inline(never)]
         fn bootstrap_file_diff(
             crate::IconProps {
@@ -15731,7 +15731,7 @@ impl IconData {
             html: bootstrap_file_diff,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_ARROW_DOWN_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_ARROW_DOWN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_arrow_down_fill(
             crate::IconProps {
@@ -15753,7 +15753,7 @@ impl IconData {
             html: bootstrap_file_earmark_arrow_down_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_ARROW_DOWN: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_ARROW_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_arrow_down(
             crate::IconProps {
@@ -15775,7 +15775,7 @@ impl IconData {
             html: bootstrap_file_earmark_arrow_down,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_ARROW_UP_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_ARROW_UP_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_arrow_up_fill(
             crate::IconProps {
@@ -15797,7 +15797,7 @@ impl IconData {
             html: bootstrap_file_earmark_arrow_up_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_ARROW_UP: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_ARROW_UP: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_arrow_up(
             crate::IconProps {
@@ -15819,7 +15819,7 @@ impl IconData {
             html: bootstrap_file_earmark_arrow_up,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_BAR_GRAPH_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_BAR_GRAPH_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_bar_graph_fill(
             crate::IconProps {
@@ -15841,7 +15841,7 @@ impl IconData {
             html: bootstrap_file_earmark_bar_graph_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_BAR_GRAPH: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_BAR_GRAPH: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_bar_graph(
             crate::IconProps {
@@ -15863,7 +15863,7 @@ impl IconData {
             html: bootstrap_file_earmark_bar_graph,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_BINARY_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_BINARY_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_binary_fill(
             crate::IconProps {
@@ -15885,7 +15885,7 @@ impl IconData {
             html: bootstrap_file_earmark_binary_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_BINARY: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_BINARY: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_binary(
             crate::IconProps {
@@ -15907,7 +15907,7 @@ impl IconData {
             html: bootstrap_file_earmark_binary,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_BREAK_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_BREAK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_break_fill(
             crate::IconProps {
@@ -15929,7 +15929,7 @@ impl IconData {
             html: bootstrap_file_earmark_break_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_BREAK: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_BREAK: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_break(
             crate::IconProps {
@@ -15951,7 +15951,7 @@ impl IconData {
             html: bootstrap_file_earmark_break,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_CHECK_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_CHECK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_check_fill(
             crate::IconProps {
@@ -15973,7 +15973,7 @@ impl IconData {
             html: bootstrap_file_earmark_check_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_CHECK: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_CHECK: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_check(
             crate::IconProps {
@@ -15995,7 +15995,7 @@ impl IconData {
             html: bootstrap_file_earmark_check,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_CODE_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_CODE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_code_fill(
             crate::IconProps {
@@ -16017,7 +16017,7 @@ impl IconData {
             html: bootstrap_file_earmark_code_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_CODE: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_CODE: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_code(
             crate::IconProps {
@@ -16039,7 +16039,7 @@ impl IconData {
             html: bootstrap_file_earmark_code,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_DIFF_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_DIFF_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_diff_fill(
             crate::IconProps {
@@ -16061,7 +16061,7 @@ impl IconData {
             html: bootstrap_file_earmark_diff_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_DIFF: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_DIFF: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_diff(
             crate::IconProps {
@@ -16083,7 +16083,7 @@ impl IconData {
             html: bootstrap_file_earmark_diff,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_EASEL_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_EASEL_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_easel_fill(
             crate::IconProps {
@@ -16105,7 +16105,7 @@ impl IconData {
             html: bootstrap_file_earmark_easel_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_EASEL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_EASEL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_easel(
             crate::IconProps {
@@ -16127,7 +16127,7 @@ impl IconData {
             html: bootstrap_file_earmark_easel,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_EXCEL_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_EXCEL_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_excel_fill(
             crate::IconProps {
@@ -16149,7 +16149,7 @@ impl IconData {
             html: bootstrap_file_earmark_excel_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_EXCEL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_EXCEL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_excel(
             crate::IconProps {
@@ -16171,7 +16171,7 @@ impl IconData {
             html: bootstrap_file_earmark_excel,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_fill(
             crate::IconProps {
@@ -16193,7 +16193,7 @@ impl IconData {
             html: bootstrap_file_earmark_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_FONT_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_FONT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_font_fill(
             crate::IconProps {
@@ -16215,7 +16215,7 @@ impl IconData {
             html: bootstrap_file_earmark_font_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_FONT: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_FONT: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_font(
             crate::IconProps {
@@ -16237,7 +16237,7 @@ impl IconData {
             html: bootstrap_file_earmark_font,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_IMAGE_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_IMAGE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_image_fill(
             crate::IconProps {
@@ -16259,7 +16259,7 @@ impl IconData {
             html: bootstrap_file_earmark_image_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_IMAGE: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_IMAGE: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_image(
             crate::IconProps {
@@ -16281,7 +16281,7 @@ impl IconData {
             html: bootstrap_file_earmark_image,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_LOCK_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_LOCK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_lock_fill(
             crate::IconProps {
@@ -16303,7 +16303,7 @@ impl IconData {
             html: bootstrap_file_earmark_lock_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_LOCK: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_LOCK: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_lock(
             crate::IconProps {
@@ -16325,7 +16325,7 @@ impl IconData {
             html: bootstrap_file_earmark_lock,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_LOCK_2_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_LOCK_2_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_lock_2_fill(
             crate::IconProps {
@@ -16347,7 +16347,7 @@ impl IconData {
             html: bootstrap_file_earmark_lock_2_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_LOCK_2: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_LOCK_2: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_lock_2(
             crate::IconProps {
@@ -16369,7 +16369,7 @@ impl IconData {
             html: bootstrap_file_earmark_lock_2,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_MEDICAL_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_MEDICAL_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_medical_fill(
             crate::IconProps {
@@ -16391,7 +16391,7 @@ impl IconData {
             html: bootstrap_file_earmark_medical_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_MEDICAL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_MEDICAL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_medical(
             crate::IconProps {
@@ -16413,7 +16413,7 @@ impl IconData {
             html: bootstrap_file_earmark_medical,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_MINUS_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_MINUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_minus_fill(
             crate::IconProps {
@@ -16435,7 +16435,7 @@ impl IconData {
             html: bootstrap_file_earmark_minus_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_MINUS: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_MINUS: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_minus(
             crate::IconProps {
@@ -16457,7 +16457,7 @@ impl IconData {
             html: bootstrap_file_earmark_minus,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_MUSIC_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_MUSIC_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_music_fill(
             crate::IconProps {
@@ -16479,7 +16479,7 @@ impl IconData {
             html: bootstrap_file_earmark_music_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_MUSIC: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_MUSIC: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_music(
             crate::IconProps {
@@ -16501,7 +16501,7 @@ impl IconData {
             html: bootstrap_file_earmark_music,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_PDF_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_PDF_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_pdf_fill(
             crate::IconProps {
@@ -16523,7 +16523,7 @@ impl IconData {
             html: bootstrap_file_earmark_pdf_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_PDF: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_PDF: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_pdf(
             crate::IconProps {
@@ -16545,7 +16545,7 @@ impl IconData {
             html: bootstrap_file_earmark_pdf,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_PERSON_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_PERSON_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_person_fill(
             crate::IconProps {
@@ -16567,7 +16567,7 @@ impl IconData {
             html: bootstrap_file_earmark_person_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_PERSON: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_PERSON: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_person(
             crate::IconProps {
@@ -16589,7 +16589,7 @@ impl IconData {
             html: bootstrap_file_earmark_person,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_PLAY_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_PLAY_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_play_fill(
             crate::IconProps {
@@ -16611,7 +16611,7 @@ impl IconData {
             html: bootstrap_file_earmark_play_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_PLAY: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_PLAY: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_play(
             crate::IconProps {
@@ -16633,7 +16633,7 @@ impl IconData {
             html: bootstrap_file_earmark_play,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_PLUS_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_PLUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_plus_fill(
             crate::IconProps {
@@ -16655,7 +16655,7 @@ impl IconData {
             html: bootstrap_file_earmark_plus_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_PLUS: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_plus(
             crate::IconProps {
@@ -16677,7 +16677,7 @@ impl IconData {
             html: bootstrap_file_earmark_plus,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_POST_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_POST_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_post_fill(
             crate::IconProps {
@@ -16699,7 +16699,7 @@ impl IconData {
             html: bootstrap_file_earmark_post_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_POST: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_POST: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_post(
             crate::IconProps {
@@ -16721,7 +16721,7 @@ impl IconData {
             html: bootstrap_file_earmark_post,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_PPT_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_PPT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_ppt_fill(
             crate::IconProps {
@@ -16743,7 +16743,7 @@ impl IconData {
             html: bootstrap_file_earmark_ppt_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_PPT: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_PPT: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_ppt(
             crate::IconProps {
@@ -16765,7 +16765,7 @@ impl IconData {
             html: bootstrap_file_earmark_ppt,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_RICHTEXT_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_RICHTEXT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_richtext_fill(
             crate::IconProps {
@@ -16787,7 +16787,7 @@ impl IconData {
             html: bootstrap_file_earmark_richtext_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_RICHTEXT: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_RICHTEXT: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_richtext(
             crate::IconProps {
@@ -16809,7 +16809,7 @@ impl IconData {
             html: bootstrap_file_earmark_richtext,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_RULED_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_RULED_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_ruled_fill(
             crate::IconProps {
@@ -16831,7 +16831,7 @@ impl IconData {
             html: bootstrap_file_earmark_ruled_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_RULED: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_RULED: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_ruled(
             crate::IconProps {
@@ -16853,7 +16853,7 @@ impl IconData {
             html: bootstrap_file_earmark_ruled,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_SLIDES_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_SLIDES_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_slides_fill(
             crate::IconProps {
@@ -16875,7 +16875,7 @@ impl IconData {
             html: bootstrap_file_earmark_slides_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_SLIDES: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_SLIDES: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_slides(
             crate::IconProps {
@@ -16897,7 +16897,7 @@ impl IconData {
             html: bootstrap_file_earmark_slides,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_SPREADSHEET_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_SPREADSHEET_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_spreadsheet_fill(
             crate::IconProps {
@@ -16919,7 +16919,7 @@ impl IconData {
             html: bootstrap_file_earmark_spreadsheet_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_SPREADSHEET: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_SPREADSHEET: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_spreadsheet(
             crate::IconProps {
@@ -16941,7 +16941,7 @@ impl IconData {
             html: bootstrap_file_earmark_spreadsheet,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_TEXT_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_TEXT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_text_fill(
             crate::IconProps {
@@ -16963,7 +16963,7 @@ impl IconData {
             html: bootstrap_file_earmark_text_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_TEXT: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_TEXT: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_text(
             crate::IconProps {
@@ -16985,7 +16985,7 @@ impl IconData {
             html: bootstrap_file_earmark_text,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_WORD_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_WORD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_word_fill(
             crate::IconProps {
@@ -17007,7 +17007,7 @@ impl IconData {
             html: bootstrap_file_earmark_word_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_WORD: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_WORD: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_word(
             crate::IconProps {
@@ -17029,7 +17029,7 @@ impl IconData {
             html: bootstrap_file_earmark_word,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_X_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_X_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_x_fill(
             crate::IconProps {
@@ -17051,7 +17051,7 @@ impl IconData {
             html: bootstrap_file_earmark_x_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_X: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_X: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_x(
             crate::IconProps {
@@ -17073,7 +17073,7 @@ impl IconData {
             html: bootstrap_file_earmark_x,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_ZIP_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_ZIP_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_zip_fill(
             crate::IconProps {
@@ -17095,7 +17095,7 @@ impl IconData {
             html: bootstrap_file_earmark_zip_fill,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK_ZIP: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK_ZIP: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark_zip(
             crate::IconProps {
@@ -17117,7 +17117,7 @@ impl IconData {
             html: bootstrap_file_earmark_zip,
         }
     };
-    const BOOTSTRAP_FILE_EARMARK: Self = {
+    pub const BOOTSTRAP_FILE_EARMARK: Self = {
         #[inline(never)]
         fn bootstrap_file_earmark(
             crate::IconProps {
@@ -17139,7 +17139,7 @@ impl IconData {
             html: bootstrap_file_earmark,
         }
     };
-    const BOOTSTRAP_FILE_EASEL_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EASEL_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_easel_fill(
             crate::IconProps {
@@ -17161,7 +17161,7 @@ impl IconData {
             html: bootstrap_file_easel_fill,
         }
     };
-    const BOOTSTRAP_FILE_EASEL: Self = {
+    pub const BOOTSTRAP_FILE_EASEL: Self = {
         #[inline(never)]
         fn bootstrap_file_easel(
             crate::IconProps {
@@ -17183,7 +17183,7 @@ impl IconData {
             html: bootstrap_file_easel,
         }
     };
-    const BOOTSTRAP_FILE_EXCEL_FILL: Self = {
+    pub const BOOTSTRAP_FILE_EXCEL_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_excel_fill(
             crate::IconProps {
@@ -17205,7 +17205,7 @@ impl IconData {
             html: bootstrap_file_excel_fill,
         }
     };
-    const BOOTSTRAP_FILE_EXCEL: Self = {
+    pub const BOOTSTRAP_FILE_EXCEL: Self = {
         #[inline(never)]
         fn bootstrap_file_excel(
             crate::IconProps {
@@ -17227,7 +17227,7 @@ impl IconData {
             html: bootstrap_file_excel,
         }
     };
-    const BOOTSTRAP_FILE_FILL: Self = {
+    pub const BOOTSTRAP_FILE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_fill(
             crate::IconProps {
@@ -17249,7 +17249,7 @@ impl IconData {
             html: bootstrap_file_fill,
         }
     };
-    const BOOTSTRAP_FILE_FONT_FILL: Self = {
+    pub const BOOTSTRAP_FILE_FONT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_font_fill(
             crate::IconProps {
@@ -17271,7 +17271,7 @@ impl IconData {
             html: bootstrap_file_font_fill,
         }
     };
-    const BOOTSTRAP_FILE_FONT: Self = {
+    pub const BOOTSTRAP_FILE_FONT: Self = {
         #[inline(never)]
         fn bootstrap_file_font(
             crate::IconProps {
@@ -17293,7 +17293,7 @@ impl IconData {
             html: bootstrap_file_font,
         }
     };
-    const BOOTSTRAP_FILE_IMAGE_FILL: Self = {
+    pub const BOOTSTRAP_FILE_IMAGE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_image_fill(
             crate::IconProps {
@@ -17315,7 +17315,7 @@ impl IconData {
             html: bootstrap_file_image_fill,
         }
     };
-    const BOOTSTRAP_FILE_IMAGE: Self = {
+    pub const BOOTSTRAP_FILE_IMAGE: Self = {
         #[inline(never)]
         fn bootstrap_file_image(
             crate::IconProps {
@@ -17337,7 +17337,7 @@ impl IconData {
             html: bootstrap_file_image,
         }
     };
-    const BOOTSTRAP_FILE_LOCK_FILL: Self = {
+    pub const BOOTSTRAP_FILE_LOCK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_lock_fill(
             crate::IconProps {
@@ -17359,7 +17359,7 @@ impl IconData {
             html: bootstrap_file_lock_fill,
         }
     };
-    const BOOTSTRAP_FILE_LOCK: Self = {
+    pub const BOOTSTRAP_FILE_LOCK: Self = {
         #[inline(never)]
         fn bootstrap_file_lock(
             crate::IconProps {
@@ -17381,7 +17381,7 @@ impl IconData {
             html: bootstrap_file_lock,
         }
     };
-    const BOOTSTRAP_FILE_LOCK_2_FILL: Self = {
+    pub const BOOTSTRAP_FILE_LOCK_2_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_lock_2_fill(
             crate::IconProps {
@@ -17403,7 +17403,7 @@ impl IconData {
             html: bootstrap_file_lock_2_fill,
         }
     };
-    const BOOTSTRAP_FILE_LOCK_2: Self = {
+    pub const BOOTSTRAP_FILE_LOCK_2: Self = {
         #[inline(never)]
         fn bootstrap_file_lock_2(
             crate::IconProps {
@@ -17425,7 +17425,7 @@ impl IconData {
             html: bootstrap_file_lock_2,
         }
     };
-    const BOOTSTRAP_FILE_MEDICAL_FILL: Self = {
+    pub const BOOTSTRAP_FILE_MEDICAL_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_medical_fill(
             crate::IconProps {
@@ -17447,7 +17447,7 @@ impl IconData {
             html: bootstrap_file_medical_fill,
         }
     };
-    const BOOTSTRAP_FILE_MEDICAL: Self = {
+    pub const BOOTSTRAP_FILE_MEDICAL: Self = {
         #[inline(never)]
         fn bootstrap_file_medical(
             crate::IconProps {
@@ -17469,7 +17469,7 @@ impl IconData {
             html: bootstrap_file_medical,
         }
     };
-    const BOOTSTRAP_FILE_MINUS_FILL: Self = {
+    pub const BOOTSTRAP_FILE_MINUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_minus_fill(
             crate::IconProps {
@@ -17491,7 +17491,7 @@ impl IconData {
             html: bootstrap_file_minus_fill,
         }
     };
-    const BOOTSTRAP_FILE_MINUS: Self = {
+    pub const BOOTSTRAP_FILE_MINUS: Self = {
         #[inline(never)]
         fn bootstrap_file_minus(
             crate::IconProps {
@@ -17513,7 +17513,7 @@ impl IconData {
             html: bootstrap_file_minus,
         }
     };
-    const BOOTSTRAP_FILE_MUSIC_FILL: Self = {
+    pub const BOOTSTRAP_FILE_MUSIC_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_music_fill(
             crate::IconProps {
@@ -17535,7 +17535,7 @@ impl IconData {
             html: bootstrap_file_music_fill,
         }
     };
-    const BOOTSTRAP_FILE_MUSIC: Self = {
+    pub const BOOTSTRAP_FILE_MUSIC: Self = {
         #[inline(never)]
         fn bootstrap_file_music(
             crate::IconProps {
@@ -17557,7 +17557,7 @@ impl IconData {
             html: bootstrap_file_music,
         }
     };
-    const BOOTSTRAP_FILE_PDF_FILL: Self = {
+    pub const BOOTSTRAP_FILE_PDF_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_pdf_fill(
             crate::IconProps {
@@ -17579,7 +17579,7 @@ impl IconData {
             html: bootstrap_file_pdf_fill,
         }
     };
-    const BOOTSTRAP_FILE_PDF: Self = {
+    pub const BOOTSTRAP_FILE_PDF: Self = {
         #[inline(never)]
         fn bootstrap_file_pdf(
             crate::IconProps {
@@ -17601,7 +17601,7 @@ impl IconData {
             html: bootstrap_file_pdf,
         }
     };
-    const BOOTSTRAP_FILE_PERSON_FILL: Self = {
+    pub const BOOTSTRAP_FILE_PERSON_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_person_fill(
             crate::IconProps {
@@ -17623,7 +17623,7 @@ impl IconData {
             html: bootstrap_file_person_fill,
         }
     };
-    const BOOTSTRAP_FILE_PERSON: Self = {
+    pub const BOOTSTRAP_FILE_PERSON: Self = {
         #[inline(never)]
         fn bootstrap_file_person(
             crate::IconProps {
@@ -17645,7 +17645,7 @@ impl IconData {
             html: bootstrap_file_person,
         }
     };
-    const BOOTSTRAP_FILE_PLAY_FILL: Self = {
+    pub const BOOTSTRAP_FILE_PLAY_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_play_fill(
             crate::IconProps {
@@ -17667,7 +17667,7 @@ impl IconData {
             html: bootstrap_file_play_fill,
         }
     };
-    const BOOTSTRAP_FILE_PLAY: Self = {
+    pub const BOOTSTRAP_FILE_PLAY: Self = {
         #[inline(never)]
         fn bootstrap_file_play(
             crate::IconProps {
@@ -17689,7 +17689,7 @@ impl IconData {
             html: bootstrap_file_play,
         }
     };
-    const BOOTSTRAP_FILE_PLUS_FILL: Self = {
+    pub const BOOTSTRAP_FILE_PLUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_plus_fill(
             crate::IconProps {
@@ -17711,7 +17711,7 @@ impl IconData {
             html: bootstrap_file_plus_fill,
         }
     };
-    const BOOTSTRAP_FILE_PLUS: Self = {
+    pub const BOOTSTRAP_FILE_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_file_plus(
             crate::IconProps {
@@ -17733,7 +17733,7 @@ impl IconData {
             html: bootstrap_file_plus,
         }
     };
-    const BOOTSTRAP_FILE_POST_FILL: Self = {
+    pub const BOOTSTRAP_FILE_POST_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_post_fill(
             crate::IconProps {
@@ -17755,7 +17755,7 @@ impl IconData {
             html: bootstrap_file_post_fill,
         }
     };
-    const BOOTSTRAP_FILE_POST: Self = {
+    pub const BOOTSTRAP_FILE_POST: Self = {
         #[inline(never)]
         fn bootstrap_file_post(
             crate::IconProps {
@@ -17777,7 +17777,7 @@ impl IconData {
             html: bootstrap_file_post,
         }
     };
-    const BOOTSTRAP_FILE_PPT_FILL: Self = {
+    pub const BOOTSTRAP_FILE_PPT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_ppt_fill(
             crate::IconProps {
@@ -17799,7 +17799,7 @@ impl IconData {
             html: bootstrap_file_ppt_fill,
         }
     };
-    const BOOTSTRAP_FILE_PPT: Self = {
+    pub const BOOTSTRAP_FILE_PPT: Self = {
         #[inline(never)]
         fn bootstrap_file_ppt(
             crate::IconProps {
@@ -17821,7 +17821,7 @@ impl IconData {
             html: bootstrap_file_ppt,
         }
     };
-    const BOOTSTRAP_FILE_RICHTEXT_FILL: Self = {
+    pub const BOOTSTRAP_FILE_RICHTEXT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_richtext_fill(
             crate::IconProps {
@@ -17843,7 +17843,7 @@ impl IconData {
             html: bootstrap_file_richtext_fill,
         }
     };
-    const BOOTSTRAP_FILE_RICHTEXT: Self = {
+    pub const BOOTSTRAP_FILE_RICHTEXT: Self = {
         #[inline(never)]
         fn bootstrap_file_richtext(
             crate::IconProps {
@@ -17865,7 +17865,7 @@ impl IconData {
             html: bootstrap_file_richtext,
         }
     };
-    const BOOTSTRAP_FILE_RULED_FILL: Self = {
+    pub const BOOTSTRAP_FILE_RULED_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_ruled_fill(
             crate::IconProps {
@@ -17887,7 +17887,7 @@ impl IconData {
             html: bootstrap_file_ruled_fill,
         }
     };
-    const BOOTSTRAP_FILE_RULED: Self = {
+    pub const BOOTSTRAP_FILE_RULED: Self = {
         #[inline(never)]
         fn bootstrap_file_ruled(
             crate::IconProps {
@@ -17909,7 +17909,7 @@ impl IconData {
             html: bootstrap_file_ruled,
         }
     };
-    const BOOTSTRAP_FILE_SLIDES_FILL: Self = {
+    pub const BOOTSTRAP_FILE_SLIDES_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_slides_fill(
             crate::IconProps {
@@ -17931,7 +17931,7 @@ impl IconData {
             html: bootstrap_file_slides_fill,
         }
     };
-    const BOOTSTRAP_FILE_SLIDES: Self = {
+    pub const BOOTSTRAP_FILE_SLIDES: Self = {
         #[inline(never)]
         fn bootstrap_file_slides(
             crate::IconProps {
@@ -17953,7 +17953,7 @@ impl IconData {
             html: bootstrap_file_slides,
         }
     };
-    const BOOTSTRAP_FILE_SPREADSHEET_FILL: Self = {
+    pub const BOOTSTRAP_FILE_SPREADSHEET_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_spreadsheet_fill(
             crate::IconProps {
@@ -17975,7 +17975,7 @@ impl IconData {
             html: bootstrap_file_spreadsheet_fill,
         }
     };
-    const BOOTSTRAP_FILE_SPREADSHEET: Self = {
+    pub const BOOTSTRAP_FILE_SPREADSHEET: Self = {
         #[inline(never)]
         fn bootstrap_file_spreadsheet(
             crate::IconProps {
@@ -17997,7 +17997,7 @@ impl IconData {
             html: bootstrap_file_spreadsheet,
         }
     };
-    const BOOTSTRAP_FILE_TEXT_FILL: Self = {
+    pub const BOOTSTRAP_FILE_TEXT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_text_fill(
             crate::IconProps {
@@ -18019,7 +18019,7 @@ impl IconData {
             html: bootstrap_file_text_fill,
         }
     };
-    const BOOTSTRAP_FILE_TEXT: Self = {
+    pub const BOOTSTRAP_FILE_TEXT: Self = {
         #[inline(never)]
         fn bootstrap_file_text(
             crate::IconProps {
@@ -18041,7 +18041,7 @@ impl IconData {
             html: bootstrap_file_text,
         }
     };
-    const BOOTSTRAP_FILE_WORD_FILL: Self = {
+    pub const BOOTSTRAP_FILE_WORD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_word_fill(
             crate::IconProps {
@@ -18063,7 +18063,7 @@ impl IconData {
             html: bootstrap_file_word_fill,
         }
     };
-    const BOOTSTRAP_FILE_WORD: Self = {
+    pub const BOOTSTRAP_FILE_WORD: Self = {
         #[inline(never)]
         fn bootstrap_file_word(
             crate::IconProps {
@@ -18085,7 +18085,7 @@ impl IconData {
             html: bootstrap_file_word,
         }
     };
-    const BOOTSTRAP_FILE_X_FILL: Self = {
+    pub const BOOTSTRAP_FILE_X_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_x_fill(
             crate::IconProps {
@@ -18107,7 +18107,7 @@ impl IconData {
             html: bootstrap_file_x_fill,
         }
     };
-    const BOOTSTRAP_FILE_X: Self = {
+    pub const BOOTSTRAP_FILE_X: Self = {
         #[inline(never)]
         fn bootstrap_file_x(
             crate::IconProps {
@@ -18129,7 +18129,7 @@ impl IconData {
             html: bootstrap_file_x,
         }
     };
-    const BOOTSTRAP_FILE_ZIP_FILL: Self = {
+    pub const BOOTSTRAP_FILE_ZIP_FILL: Self = {
         #[inline(never)]
         fn bootstrap_file_zip_fill(
             crate::IconProps {
@@ -18151,7 +18151,7 @@ impl IconData {
             html: bootstrap_file_zip_fill,
         }
     };
-    const BOOTSTRAP_FILE_ZIP: Self = {
+    pub const BOOTSTRAP_FILE_ZIP: Self = {
         #[inline(never)]
         fn bootstrap_file_zip(
             crate::IconProps {
@@ -18173,7 +18173,7 @@ impl IconData {
             html: bootstrap_file_zip,
         }
     };
-    const BOOTSTRAP_FILE: Self = {
+    pub const BOOTSTRAP_FILE: Self = {
         #[inline(never)]
         fn bootstrap_file(
             crate::IconProps {
@@ -18195,7 +18195,7 @@ impl IconData {
             html: bootstrap_file,
         }
     };
-    const BOOTSTRAP_FILES_ALT: Self = {
+    pub const BOOTSTRAP_FILES_ALT: Self = {
         #[inline(never)]
         fn bootstrap_files_alt(
             crate::IconProps {
@@ -18217,7 +18217,7 @@ impl IconData {
             html: bootstrap_files_alt,
         }
     };
-    const BOOTSTRAP_FILES: Self = {
+    pub const BOOTSTRAP_FILES: Self = {
         #[inline(never)]
         fn bootstrap_files(
             crate::IconProps {
@@ -18239,7 +18239,7 @@ impl IconData {
             html: bootstrap_files,
         }
     };
-    const BOOTSTRAP_FILETYPE_AAC: Self = {
+    pub const BOOTSTRAP_FILETYPE_AAC: Self = {
         #[inline(never)]
         fn bootstrap_filetype_aac(
             crate::IconProps {
@@ -18261,7 +18261,7 @@ impl IconData {
             html: bootstrap_filetype_aac,
         }
     };
-    const BOOTSTRAP_FILETYPE_AI: Self = {
+    pub const BOOTSTRAP_FILETYPE_AI: Self = {
         #[inline(never)]
         fn bootstrap_filetype_ai(
             crate::IconProps {
@@ -18283,7 +18283,7 @@ impl IconData {
             html: bootstrap_filetype_ai,
         }
     };
-    const BOOTSTRAP_FILETYPE_BMP: Self = {
+    pub const BOOTSTRAP_FILETYPE_BMP: Self = {
         #[inline(never)]
         fn bootstrap_filetype_bmp(
             crate::IconProps {
@@ -18305,7 +18305,7 @@ impl IconData {
             html: bootstrap_filetype_bmp,
         }
     };
-    const BOOTSTRAP_FILETYPE_CS: Self = {
+    pub const BOOTSTRAP_FILETYPE_CS: Self = {
         #[inline(never)]
         fn bootstrap_filetype_cs(
             crate::IconProps {
@@ -18327,7 +18327,7 @@ impl IconData {
             html: bootstrap_filetype_cs,
         }
     };
-    const BOOTSTRAP_FILETYPE_CSS: Self = {
+    pub const BOOTSTRAP_FILETYPE_CSS: Self = {
         #[inline(never)]
         fn bootstrap_filetype_css(
             crate::IconProps {
@@ -18349,7 +18349,7 @@ impl IconData {
             html: bootstrap_filetype_css,
         }
     };
-    const BOOTSTRAP_FILETYPE_CSV: Self = {
+    pub const BOOTSTRAP_FILETYPE_CSV: Self = {
         #[inline(never)]
         fn bootstrap_filetype_csv(
             crate::IconProps {
@@ -18371,7 +18371,7 @@ impl IconData {
             html: bootstrap_filetype_csv,
         }
     };
-    const BOOTSTRAP_FILETYPE_DOC: Self = {
+    pub const BOOTSTRAP_FILETYPE_DOC: Self = {
         #[inline(never)]
         fn bootstrap_filetype_doc(
             crate::IconProps {
@@ -18393,7 +18393,7 @@ impl IconData {
             html: bootstrap_filetype_doc,
         }
     };
-    const BOOTSTRAP_FILETYPE_DOCX: Self = {
+    pub const BOOTSTRAP_FILETYPE_DOCX: Self = {
         #[inline(never)]
         fn bootstrap_filetype_docx(
             crate::IconProps {
@@ -18415,7 +18415,7 @@ impl IconData {
             html: bootstrap_filetype_docx,
         }
     };
-    const BOOTSTRAP_FILETYPE_EXE: Self = {
+    pub const BOOTSTRAP_FILETYPE_EXE: Self = {
         #[inline(never)]
         fn bootstrap_filetype_exe(
             crate::IconProps {
@@ -18437,7 +18437,7 @@ impl IconData {
             html: bootstrap_filetype_exe,
         }
     };
-    const BOOTSTRAP_FILETYPE_GIF: Self = {
+    pub const BOOTSTRAP_FILETYPE_GIF: Self = {
         #[inline(never)]
         fn bootstrap_filetype_gif(
             crate::IconProps {
@@ -18459,7 +18459,7 @@ impl IconData {
             html: bootstrap_filetype_gif,
         }
     };
-    const BOOTSTRAP_FILETYPE_HEIC: Self = {
+    pub const BOOTSTRAP_FILETYPE_HEIC: Self = {
         #[inline(never)]
         fn bootstrap_filetype_heic(
             crate::IconProps {
@@ -18481,7 +18481,7 @@ impl IconData {
             html: bootstrap_filetype_heic,
         }
     };
-    const BOOTSTRAP_FILETYPE_HTML: Self = {
+    pub const BOOTSTRAP_FILETYPE_HTML: Self = {
         #[inline(never)]
         fn bootstrap_filetype_html(
             crate::IconProps {
@@ -18503,7 +18503,7 @@ impl IconData {
             html: bootstrap_filetype_html,
         }
     };
-    const BOOTSTRAP_FILETYPE_JAVA: Self = {
+    pub const BOOTSTRAP_FILETYPE_JAVA: Self = {
         #[inline(never)]
         fn bootstrap_filetype_java(
             crate::IconProps {
@@ -18525,7 +18525,7 @@ impl IconData {
             html: bootstrap_filetype_java,
         }
     };
-    const BOOTSTRAP_FILETYPE_JPG: Self = {
+    pub const BOOTSTRAP_FILETYPE_JPG: Self = {
         #[inline(never)]
         fn bootstrap_filetype_jpg(
             crate::IconProps {
@@ -18547,7 +18547,7 @@ impl IconData {
             html: bootstrap_filetype_jpg,
         }
     };
-    const BOOTSTRAP_FILETYPE_JS: Self = {
+    pub const BOOTSTRAP_FILETYPE_JS: Self = {
         #[inline(never)]
         fn bootstrap_filetype_js(
             crate::IconProps {
@@ -18569,7 +18569,7 @@ impl IconData {
             html: bootstrap_filetype_js,
         }
     };
-    const BOOTSTRAP_FILETYPE_JSON: Self = {
+    pub const BOOTSTRAP_FILETYPE_JSON: Self = {
         #[inline(never)]
         fn bootstrap_filetype_json(
             crate::IconProps {
@@ -18591,7 +18591,7 @@ impl IconData {
             html: bootstrap_filetype_json,
         }
     };
-    const BOOTSTRAP_FILETYPE_JSX: Self = {
+    pub const BOOTSTRAP_FILETYPE_JSX: Self = {
         #[inline(never)]
         fn bootstrap_filetype_jsx(
             crate::IconProps {
@@ -18613,7 +18613,7 @@ impl IconData {
             html: bootstrap_filetype_jsx,
         }
     };
-    const BOOTSTRAP_FILETYPE_KEY: Self = {
+    pub const BOOTSTRAP_FILETYPE_KEY: Self = {
         #[inline(never)]
         fn bootstrap_filetype_key(
             crate::IconProps {
@@ -18635,7 +18635,7 @@ impl IconData {
             html: bootstrap_filetype_key,
         }
     };
-    const BOOTSTRAP_FILETYPE_M_4_P: Self = {
+    pub const BOOTSTRAP_FILETYPE_M_4_P: Self = {
         #[inline(never)]
         fn bootstrap_filetype_m_4_p(
             crate::IconProps {
@@ -18657,7 +18657,7 @@ impl IconData {
             html: bootstrap_filetype_m_4_p,
         }
     };
-    const BOOTSTRAP_FILETYPE_MD: Self = {
+    pub const BOOTSTRAP_FILETYPE_MD: Self = {
         #[inline(never)]
         fn bootstrap_filetype_md(
             crate::IconProps {
@@ -18679,7 +18679,7 @@ impl IconData {
             html: bootstrap_filetype_md,
         }
     };
-    const BOOTSTRAP_FILETYPE_MDX: Self = {
+    pub const BOOTSTRAP_FILETYPE_MDX: Self = {
         #[inline(never)]
         fn bootstrap_filetype_mdx(
             crate::IconProps {
@@ -18701,7 +18701,7 @@ impl IconData {
             html: bootstrap_filetype_mdx,
         }
     };
-    const BOOTSTRAP_FILETYPE_MOV: Self = {
+    pub const BOOTSTRAP_FILETYPE_MOV: Self = {
         #[inline(never)]
         fn bootstrap_filetype_mov(
             crate::IconProps {
@@ -18723,7 +18723,7 @@ impl IconData {
             html: bootstrap_filetype_mov,
         }
     };
-    const BOOTSTRAP_FILETYPE_MP_3: Self = {
+    pub const BOOTSTRAP_FILETYPE_MP_3: Self = {
         #[inline(never)]
         fn bootstrap_filetype_mp_3(
             crate::IconProps {
@@ -18745,7 +18745,7 @@ impl IconData {
             html: bootstrap_filetype_mp_3,
         }
     };
-    const BOOTSTRAP_FILETYPE_MP_4: Self = {
+    pub const BOOTSTRAP_FILETYPE_MP_4: Self = {
         #[inline(never)]
         fn bootstrap_filetype_mp_4(
             crate::IconProps {
@@ -18767,7 +18767,7 @@ impl IconData {
             html: bootstrap_filetype_mp_4,
         }
     };
-    const BOOTSTRAP_FILETYPE_OTF: Self = {
+    pub const BOOTSTRAP_FILETYPE_OTF: Self = {
         #[inline(never)]
         fn bootstrap_filetype_otf(
             crate::IconProps {
@@ -18789,7 +18789,7 @@ impl IconData {
             html: bootstrap_filetype_otf,
         }
     };
-    const BOOTSTRAP_FILETYPE_PDF: Self = {
+    pub const BOOTSTRAP_FILETYPE_PDF: Self = {
         #[inline(never)]
         fn bootstrap_filetype_pdf(
             crate::IconProps {
@@ -18811,7 +18811,7 @@ impl IconData {
             html: bootstrap_filetype_pdf,
         }
     };
-    const BOOTSTRAP_FILETYPE_PHP: Self = {
+    pub const BOOTSTRAP_FILETYPE_PHP: Self = {
         #[inline(never)]
         fn bootstrap_filetype_php(
             crate::IconProps {
@@ -18833,7 +18833,7 @@ impl IconData {
             html: bootstrap_filetype_php,
         }
     };
-    const BOOTSTRAP_FILETYPE_PNG: Self = {
+    pub const BOOTSTRAP_FILETYPE_PNG: Self = {
         #[inline(never)]
         fn bootstrap_filetype_png(
             crate::IconProps {
@@ -18855,7 +18855,7 @@ impl IconData {
             html: bootstrap_filetype_png,
         }
     };
-    const BOOTSTRAP_FILETYPE_PPT: Self = {
+    pub const BOOTSTRAP_FILETYPE_PPT: Self = {
         #[inline(never)]
         fn bootstrap_filetype_ppt(
             crate::IconProps {
@@ -18877,7 +18877,7 @@ impl IconData {
             html: bootstrap_filetype_ppt,
         }
     };
-    const BOOTSTRAP_FILETYPE_PPTX: Self = {
+    pub const BOOTSTRAP_FILETYPE_PPTX: Self = {
         #[inline(never)]
         fn bootstrap_filetype_pptx(
             crate::IconProps {
@@ -18899,7 +18899,7 @@ impl IconData {
             html: bootstrap_filetype_pptx,
         }
     };
-    const BOOTSTRAP_FILETYPE_PSD: Self = {
+    pub const BOOTSTRAP_FILETYPE_PSD: Self = {
         #[inline(never)]
         fn bootstrap_filetype_psd(
             crate::IconProps {
@@ -18921,7 +18921,7 @@ impl IconData {
             html: bootstrap_filetype_psd,
         }
     };
-    const BOOTSTRAP_FILETYPE_PY: Self = {
+    pub const BOOTSTRAP_FILETYPE_PY: Self = {
         #[inline(never)]
         fn bootstrap_filetype_py(
             crate::IconProps {
@@ -18943,7 +18943,7 @@ impl IconData {
             html: bootstrap_filetype_py,
         }
     };
-    const BOOTSTRAP_FILETYPE_RAW: Self = {
+    pub const BOOTSTRAP_FILETYPE_RAW: Self = {
         #[inline(never)]
         fn bootstrap_filetype_raw(
             crate::IconProps {
@@ -18965,7 +18965,7 @@ impl IconData {
             html: bootstrap_filetype_raw,
         }
     };
-    const BOOTSTRAP_FILETYPE_RB: Self = {
+    pub const BOOTSTRAP_FILETYPE_RB: Self = {
         #[inline(never)]
         fn bootstrap_filetype_rb(
             crate::IconProps {
@@ -18987,7 +18987,7 @@ impl IconData {
             html: bootstrap_filetype_rb,
         }
     };
-    const BOOTSTRAP_FILETYPE_SASS: Self = {
+    pub const BOOTSTRAP_FILETYPE_SASS: Self = {
         #[inline(never)]
         fn bootstrap_filetype_sass(
             crate::IconProps {
@@ -19009,7 +19009,7 @@ impl IconData {
             html: bootstrap_filetype_sass,
         }
     };
-    const BOOTSTRAP_FILETYPE_SCSS: Self = {
+    pub const BOOTSTRAP_FILETYPE_SCSS: Self = {
         #[inline(never)]
         fn bootstrap_filetype_scss(
             crate::IconProps {
@@ -19031,7 +19031,7 @@ impl IconData {
             html: bootstrap_filetype_scss,
         }
     };
-    const BOOTSTRAP_FILETYPE_SH: Self = {
+    pub const BOOTSTRAP_FILETYPE_SH: Self = {
         #[inline(never)]
         fn bootstrap_filetype_sh(
             crate::IconProps {
@@ -19053,7 +19053,7 @@ impl IconData {
             html: bootstrap_filetype_sh,
         }
     };
-    const BOOTSTRAP_FILETYPE_SVG: Self = {
+    pub const BOOTSTRAP_FILETYPE_SVG: Self = {
         #[inline(never)]
         fn bootstrap_filetype_svg(
             crate::IconProps {
@@ -19075,7 +19075,7 @@ impl IconData {
             html: bootstrap_filetype_svg,
         }
     };
-    const BOOTSTRAP_FILETYPE_TIFF: Self = {
+    pub const BOOTSTRAP_FILETYPE_TIFF: Self = {
         #[inline(never)]
         fn bootstrap_filetype_tiff(
             crate::IconProps {
@@ -19097,7 +19097,7 @@ impl IconData {
             html: bootstrap_filetype_tiff,
         }
     };
-    const BOOTSTRAP_FILETYPE_TSX: Self = {
+    pub const BOOTSTRAP_FILETYPE_TSX: Self = {
         #[inline(never)]
         fn bootstrap_filetype_tsx(
             crate::IconProps {
@@ -19119,7 +19119,7 @@ impl IconData {
             html: bootstrap_filetype_tsx,
         }
     };
-    const BOOTSTRAP_FILETYPE_TTF: Self = {
+    pub const BOOTSTRAP_FILETYPE_TTF: Self = {
         #[inline(never)]
         fn bootstrap_filetype_ttf(
             crate::IconProps {
@@ -19141,7 +19141,7 @@ impl IconData {
             html: bootstrap_filetype_ttf,
         }
     };
-    const BOOTSTRAP_FILETYPE_TXT: Self = {
+    pub const BOOTSTRAP_FILETYPE_TXT: Self = {
         #[inline(never)]
         fn bootstrap_filetype_txt(
             crate::IconProps {
@@ -19163,7 +19163,7 @@ impl IconData {
             html: bootstrap_filetype_txt,
         }
     };
-    const BOOTSTRAP_FILETYPE_WAV: Self = {
+    pub const BOOTSTRAP_FILETYPE_WAV: Self = {
         #[inline(never)]
         fn bootstrap_filetype_wav(
             crate::IconProps {
@@ -19185,7 +19185,7 @@ impl IconData {
             html: bootstrap_filetype_wav,
         }
     };
-    const BOOTSTRAP_FILETYPE_WOFF: Self = {
+    pub const BOOTSTRAP_FILETYPE_WOFF: Self = {
         #[inline(never)]
         fn bootstrap_filetype_woff(
             crate::IconProps {
@@ -19207,7 +19207,7 @@ impl IconData {
             html: bootstrap_filetype_woff,
         }
     };
-    const BOOTSTRAP_FILETYPE_XLS: Self = {
+    pub const BOOTSTRAP_FILETYPE_XLS: Self = {
         #[inline(never)]
         fn bootstrap_filetype_xls(
             crate::IconProps {
@@ -19229,7 +19229,7 @@ impl IconData {
             html: bootstrap_filetype_xls,
         }
     };
-    const BOOTSTRAP_FILETYPE_XLSX: Self = {
+    pub const BOOTSTRAP_FILETYPE_XLSX: Self = {
         #[inline(never)]
         fn bootstrap_filetype_xlsx(
             crate::IconProps {
@@ -19251,7 +19251,7 @@ impl IconData {
             html: bootstrap_filetype_xlsx,
         }
     };
-    const BOOTSTRAP_FILETYPE_XML: Self = {
+    pub const BOOTSTRAP_FILETYPE_XML: Self = {
         #[inline(never)]
         fn bootstrap_filetype_xml(
             crate::IconProps {
@@ -19273,7 +19273,7 @@ impl IconData {
             html: bootstrap_filetype_xml,
         }
     };
-    const BOOTSTRAP_FILETYPE_YML: Self = {
+    pub const BOOTSTRAP_FILETYPE_YML: Self = {
         #[inline(never)]
         fn bootstrap_filetype_yml(
             crate::IconProps {
@@ -19295,7 +19295,7 @@ impl IconData {
             html: bootstrap_filetype_yml,
         }
     };
-    const BOOTSTRAP_FILM: Self = {
+    pub const BOOTSTRAP_FILM: Self = {
         #[inline(never)]
         fn bootstrap_film(
             crate::IconProps {
@@ -19317,7 +19317,7 @@ impl IconData {
             html: bootstrap_film,
         }
     };
-    const BOOTSTRAP_FILTER_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_FILTER_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_filter_circle_fill(
             crate::IconProps {
@@ -19339,7 +19339,7 @@ impl IconData {
             html: bootstrap_filter_circle_fill,
         }
     };
-    const BOOTSTRAP_FILTER_CIRCLE: Self = {
+    pub const BOOTSTRAP_FILTER_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_filter_circle(
             crate::IconProps {
@@ -19361,7 +19361,7 @@ impl IconData {
             html: bootstrap_filter_circle,
         }
     };
-    const BOOTSTRAP_FILTER_LEFT: Self = {
+    pub const BOOTSTRAP_FILTER_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_filter_left(
             crate::IconProps {
@@ -19383,7 +19383,7 @@ impl IconData {
             html: bootstrap_filter_left,
         }
     };
-    const BOOTSTRAP_FILTER_RIGHT: Self = {
+    pub const BOOTSTRAP_FILTER_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_filter_right(
             crate::IconProps {
@@ -19405,7 +19405,7 @@ impl IconData {
             html: bootstrap_filter_right,
         }
     };
-    const BOOTSTRAP_FILTER_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_FILTER_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_filter_square_fill(
             crate::IconProps {
@@ -19427,7 +19427,7 @@ impl IconData {
             html: bootstrap_filter_square_fill,
         }
     };
-    const BOOTSTRAP_FILTER_SQUARE: Self = {
+    pub const BOOTSTRAP_FILTER_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_filter_square(
             crate::IconProps {
@@ -19449,7 +19449,7 @@ impl IconData {
             html: bootstrap_filter_square,
         }
     };
-    const BOOTSTRAP_FILTER: Self = {
+    pub const BOOTSTRAP_FILTER: Self = {
         #[inline(never)]
         fn bootstrap_filter(
             crate::IconProps {
@@ -19471,7 +19471,7 @@ impl IconData {
             html: bootstrap_filter,
         }
     };
-    const BOOTSTRAP_FINGERPRINT: Self = {
+    pub const BOOTSTRAP_FINGERPRINT: Self = {
         #[inline(never)]
         fn bootstrap_fingerprint(
             crate::IconProps {
@@ -19493,7 +19493,7 @@ impl IconData {
             html: bootstrap_fingerprint,
         }
     };
-    const BOOTSTRAP_FLAG_FILL: Self = {
+    pub const BOOTSTRAP_FLAG_FILL: Self = {
         #[inline(never)]
         fn bootstrap_flag_fill(
             crate::IconProps {
@@ -19515,7 +19515,7 @@ impl IconData {
             html: bootstrap_flag_fill,
         }
     };
-    const BOOTSTRAP_FLAG: Self = {
+    pub const BOOTSTRAP_FLAG: Self = {
         #[inline(never)]
         fn bootstrap_flag(
             crate::IconProps {
@@ -19537,7 +19537,7 @@ impl IconData {
             html: bootstrap_flag,
         }
     };
-    const BOOTSTRAP_FLOWER_1: Self = {
+    pub const BOOTSTRAP_FLOWER_1: Self = {
         #[inline(never)]
         fn bootstrap_flower_1(
             crate::IconProps {
@@ -19559,7 +19559,7 @@ impl IconData {
             html: bootstrap_flower_1,
         }
     };
-    const BOOTSTRAP_FLOWER_2: Self = {
+    pub const BOOTSTRAP_FLOWER_2: Self = {
         #[inline(never)]
         fn bootstrap_flower_2(
             crate::IconProps {
@@ -19581,7 +19581,7 @@ impl IconData {
             html: bootstrap_flower_2,
         }
     };
-    const BOOTSTRAP_FLOWER_3: Self = {
+    pub const BOOTSTRAP_FLOWER_3: Self = {
         #[inline(never)]
         fn bootstrap_flower_3(
             crate::IconProps {
@@ -19603,7 +19603,7 @@ impl IconData {
             html: bootstrap_flower_3,
         }
     };
-    const BOOTSTRAP_FOLDER_CHECK: Self = {
+    pub const BOOTSTRAP_FOLDER_CHECK: Self = {
         #[inline(never)]
         fn bootstrap_folder_check(
             crate::IconProps {
@@ -19625,7 +19625,7 @@ impl IconData {
             html: bootstrap_folder_check,
         }
     };
-    const BOOTSTRAP_FOLDER_FILL: Self = {
+    pub const BOOTSTRAP_FOLDER_FILL: Self = {
         #[inline(never)]
         fn bootstrap_folder_fill(
             crate::IconProps {
@@ -19647,7 +19647,7 @@ impl IconData {
             html: bootstrap_folder_fill,
         }
     };
-    const BOOTSTRAP_FOLDER_MINUS: Self = {
+    pub const BOOTSTRAP_FOLDER_MINUS: Self = {
         #[inline(never)]
         fn bootstrap_folder_minus(
             crate::IconProps {
@@ -19669,7 +19669,7 @@ impl IconData {
             html: bootstrap_folder_minus,
         }
     };
-    const BOOTSTRAP_FOLDER_PLUS: Self = {
+    pub const BOOTSTRAP_FOLDER_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_folder_plus(
             crate::IconProps {
@@ -19691,7 +19691,7 @@ impl IconData {
             html: bootstrap_folder_plus,
         }
     };
-    const BOOTSTRAP_FOLDER_SYMLINK_FILL: Self = {
+    pub const BOOTSTRAP_FOLDER_SYMLINK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_folder_symlink_fill(
             crate::IconProps {
@@ -19713,7 +19713,7 @@ impl IconData {
             html: bootstrap_folder_symlink_fill,
         }
     };
-    const BOOTSTRAP_FOLDER_SYMLINK: Self = {
+    pub const BOOTSTRAP_FOLDER_SYMLINK: Self = {
         #[inline(never)]
         fn bootstrap_folder_symlink(
             crate::IconProps {
@@ -19735,7 +19735,7 @@ impl IconData {
             html: bootstrap_folder_symlink,
         }
     };
-    const BOOTSTRAP_FOLDER_X: Self = {
+    pub const BOOTSTRAP_FOLDER_X: Self = {
         #[inline(never)]
         fn bootstrap_folder_x(
             crate::IconProps {
@@ -19757,7 +19757,7 @@ impl IconData {
             html: bootstrap_folder_x,
         }
     };
-    const BOOTSTRAP_FOLDER: Self = {
+    pub const BOOTSTRAP_FOLDER: Self = {
         #[inline(never)]
         fn bootstrap_folder(
             crate::IconProps {
@@ -19779,7 +19779,7 @@ impl IconData {
             html: bootstrap_folder,
         }
     };
-    const BOOTSTRAP_FOLDER_2_OPEN: Self = {
+    pub const BOOTSTRAP_FOLDER_2_OPEN: Self = {
         #[inline(never)]
         fn bootstrap_folder_2_open(
             crate::IconProps {
@@ -19801,7 +19801,7 @@ impl IconData {
             html: bootstrap_folder_2_open,
         }
     };
-    const BOOTSTRAP_FOLDER_2: Self = {
+    pub const BOOTSTRAP_FOLDER_2: Self = {
         #[inline(never)]
         fn bootstrap_folder_2(
             crate::IconProps {
@@ -19823,7 +19823,7 @@ impl IconData {
             html: bootstrap_folder_2,
         }
     };
-    const BOOTSTRAP_FONTS: Self = {
+    pub const BOOTSTRAP_FONTS: Self = {
         #[inline(never)]
         fn bootstrap_fonts(
             crate::IconProps {
@@ -19845,7 +19845,7 @@ impl IconData {
             html: bootstrap_fonts,
         }
     };
-    const BOOTSTRAP_FORWARD_FILL: Self = {
+    pub const BOOTSTRAP_FORWARD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_forward_fill(
             crate::IconProps {
@@ -19867,7 +19867,7 @@ impl IconData {
             html: bootstrap_forward_fill,
         }
     };
-    const BOOTSTRAP_FORWARD: Self = {
+    pub const BOOTSTRAP_FORWARD: Self = {
         #[inline(never)]
         fn bootstrap_forward(
             crate::IconProps {
@@ -19889,7 +19889,7 @@ impl IconData {
             html: bootstrap_forward,
         }
     };
-    const BOOTSTRAP_FRONT: Self = {
+    pub const BOOTSTRAP_FRONT: Self = {
         #[inline(never)]
         fn bootstrap_front(
             crate::IconProps {
@@ -19911,7 +19911,7 @@ impl IconData {
             html: bootstrap_front,
         }
     };
-    const BOOTSTRAP_FULLSCREEN_EXIT: Self = {
+    pub const BOOTSTRAP_FULLSCREEN_EXIT: Self = {
         #[inline(never)]
         fn bootstrap_fullscreen_exit(
             crate::IconProps {
@@ -19933,7 +19933,7 @@ impl IconData {
             html: bootstrap_fullscreen_exit,
         }
     };
-    const BOOTSTRAP_FULLSCREEN: Self = {
+    pub const BOOTSTRAP_FULLSCREEN: Self = {
         #[inline(never)]
         fn bootstrap_fullscreen(
             crate::IconProps {
@@ -19955,7 +19955,7 @@ impl IconData {
             html: bootstrap_fullscreen,
         }
     };
-    const BOOTSTRAP_FUNNEL_FILL: Self = {
+    pub const BOOTSTRAP_FUNNEL_FILL: Self = {
         #[inline(never)]
         fn bootstrap_funnel_fill(
             crate::IconProps {
@@ -19977,7 +19977,7 @@ impl IconData {
             html: bootstrap_funnel_fill,
         }
     };
-    const BOOTSTRAP_FUNNEL: Self = {
+    pub const BOOTSTRAP_FUNNEL: Self = {
         #[inline(never)]
         fn bootstrap_funnel(
             crate::IconProps {
@@ -19999,7 +19999,7 @@ impl IconData {
             html: bootstrap_funnel,
         }
     };
-    const BOOTSTRAP_GEAR_FILL: Self = {
+    pub const BOOTSTRAP_GEAR_FILL: Self = {
         #[inline(never)]
         fn bootstrap_gear_fill(
             crate::IconProps {
@@ -20021,7 +20021,7 @@ impl IconData {
             html: bootstrap_gear_fill,
         }
     };
-    const BOOTSTRAP_GEAR_WIDE_CONNECTED: Self = {
+    pub const BOOTSTRAP_GEAR_WIDE_CONNECTED: Self = {
         #[inline(never)]
         fn bootstrap_gear_wide_connected(
             crate::IconProps {
@@ -20043,7 +20043,7 @@ impl IconData {
             html: bootstrap_gear_wide_connected,
         }
     };
-    const BOOTSTRAP_GEAR_WIDE: Self = {
+    pub const BOOTSTRAP_GEAR_WIDE: Self = {
         #[inline(never)]
         fn bootstrap_gear_wide(
             crate::IconProps {
@@ -20065,7 +20065,7 @@ impl IconData {
             html: bootstrap_gear_wide,
         }
     };
-    const BOOTSTRAP_GEAR: Self = {
+    pub const BOOTSTRAP_GEAR: Self = {
         #[inline(never)]
         fn bootstrap_gear(
             crate::IconProps {
@@ -20087,7 +20087,7 @@ impl IconData {
             html: bootstrap_gear,
         }
     };
-    const BOOTSTRAP_GEM: Self = {
+    pub const BOOTSTRAP_GEM: Self = {
         #[inline(never)]
         fn bootstrap_gem(
             crate::IconProps {
@@ -20109,7 +20109,7 @@ impl IconData {
             html: bootstrap_gem,
         }
     };
-    const BOOTSTRAP_GENDER_AMBIGUOUS: Self = {
+    pub const BOOTSTRAP_GENDER_AMBIGUOUS: Self = {
         #[inline(never)]
         fn bootstrap_gender_ambiguous(
             crate::IconProps {
@@ -20131,7 +20131,7 @@ impl IconData {
             html: bootstrap_gender_ambiguous,
         }
     };
-    const BOOTSTRAP_GENDER_FEMALE: Self = {
+    pub const BOOTSTRAP_GENDER_FEMALE: Self = {
         #[inline(never)]
         fn bootstrap_gender_female(
             crate::IconProps {
@@ -20153,7 +20153,7 @@ impl IconData {
             html: bootstrap_gender_female,
         }
     };
-    const BOOTSTRAP_GENDER_MALE: Self = {
+    pub const BOOTSTRAP_GENDER_MALE: Self = {
         #[inline(never)]
         fn bootstrap_gender_male(
             crate::IconProps {
@@ -20175,7 +20175,7 @@ impl IconData {
             html: bootstrap_gender_male,
         }
     };
-    const BOOTSTRAP_GENDER_TRANS: Self = {
+    pub const BOOTSTRAP_GENDER_TRANS: Self = {
         #[inline(never)]
         fn bootstrap_gender_trans(
             crate::IconProps {
@@ -20197,7 +20197,7 @@ impl IconData {
             html: bootstrap_gender_trans,
         }
     };
-    const BOOTSTRAP_GEO_ALT_FILL: Self = {
+    pub const BOOTSTRAP_GEO_ALT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_geo_alt_fill(
             crate::IconProps {
@@ -20219,7 +20219,7 @@ impl IconData {
             html: bootstrap_geo_alt_fill,
         }
     };
-    const BOOTSTRAP_GEO_ALT: Self = {
+    pub const BOOTSTRAP_GEO_ALT: Self = {
         #[inline(never)]
         fn bootstrap_geo_alt(
             crate::IconProps {
@@ -20241,7 +20241,7 @@ impl IconData {
             html: bootstrap_geo_alt,
         }
     };
-    const BOOTSTRAP_GEO_FILL: Self = {
+    pub const BOOTSTRAP_GEO_FILL: Self = {
         #[inline(never)]
         fn bootstrap_geo_fill(
             crate::IconProps {
@@ -20263,7 +20263,7 @@ impl IconData {
             html: bootstrap_geo_fill,
         }
     };
-    const BOOTSTRAP_GEO: Self = {
+    pub const BOOTSTRAP_GEO: Self = {
         #[inline(never)]
         fn bootstrap_geo(
             crate::IconProps {
@@ -20285,7 +20285,7 @@ impl IconData {
             html: bootstrap_geo,
         }
     };
-    const BOOTSTRAP_GIFT_FILL: Self = {
+    pub const BOOTSTRAP_GIFT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_gift_fill(
             crate::IconProps {
@@ -20307,7 +20307,7 @@ impl IconData {
             html: bootstrap_gift_fill,
         }
     };
-    const BOOTSTRAP_GIFT: Self = {
+    pub const BOOTSTRAP_GIFT: Self = {
         #[inline(never)]
         fn bootstrap_gift(
             crate::IconProps {
@@ -20329,7 +20329,7 @@ impl IconData {
             html: bootstrap_gift,
         }
     };
-    const BOOTSTRAP_GIT: Self = {
+    pub const BOOTSTRAP_GIT: Self = {
         #[inline(never)]
         fn bootstrap_git(
             crate::IconProps {
@@ -20351,7 +20351,7 @@ impl IconData {
             html: bootstrap_git,
         }
     };
-    const BOOTSTRAP_GITHUB: Self = {
+    pub const BOOTSTRAP_GITHUB: Self = {
         #[inline(never)]
         fn bootstrap_github(
             crate::IconProps {
@@ -20373,7 +20373,7 @@ impl IconData {
             html: bootstrap_github,
         }
     };
-    const BOOTSTRAP_GLOBE: Self = {
+    pub const BOOTSTRAP_GLOBE: Self = {
         #[inline(never)]
         fn bootstrap_globe(
             crate::IconProps {
@@ -20395,7 +20395,7 @@ impl IconData {
             html: bootstrap_globe,
         }
     };
-    const BOOTSTRAP_GLOBE_2: Self = {
+    pub const BOOTSTRAP_GLOBE_2: Self = {
         #[inline(never)]
         fn bootstrap_globe_2(
             crate::IconProps {
@@ -20417,7 +20417,7 @@ impl IconData {
             html: bootstrap_globe_2,
         }
     };
-    const BOOTSTRAP_GOOGLE: Self = {
+    pub const BOOTSTRAP_GOOGLE: Self = {
         #[inline(never)]
         fn bootstrap_google(
             crate::IconProps {
@@ -20439,7 +20439,7 @@ impl IconData {
             html: bootstrap_google,
         }
     };
-    const BOOTSTRAP_GPU_CARD: Self = {
+    pub const BOOTSTRAP_GPU_CARD: Self = {
         #[inline(never)]
         fn bootstrap_gpu_card(
             crate::IconProps {
@@ -20461,7 +20461,7 @@ impl IconData {
             html: bootstrap_gpu_card,
         }
     };
-    const BOOTSTRAP_GRAPH_DOWN_ARROW: Self = {
+    pub const BOOTSTRAP_GRAPH_DOWN_ARROW: Self = {
         #[inline(never)]
         fn bootstrap_graph_down_arrow(
             crate::IconProps {
@@ -20483,7 +20483,7 @@ impl IconData {
             html: bootstrap_graph_down_arrow,
         }
     };
-    const BOOTSTRAP_GRAPH_DOWN: Self = {
+    pub const BOOTSTRAP_GRAPH_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_graph_down(
             crate::IconProps {
@@ -20505,7 +20505,7 @@ impl IconData {
             html: bootstrap_graph_down,
         }
     };
-    const BOOTSTRAP_GRAPH_UP_ARROW: Self = {
+    pub const BOOTSTRAP_GRAPH_UP_ARROW: Self = {
         #[inline(never)]
         fn bootstrap_graph_up_arrow(
             crate::IconProps {
@@ -20527,7 +20527,7 @@ impl IconData {
             html: bootstrap_graph_up_arrow,
         }
     };
-    const BOOTSTRAP_GRAPH_UP: Self = {
+    pub const BOOTSTRAP_GRAPH_UP: Self = {
         #[inline(never)]
         fn bootstrap_graph_up(
             crate::IconProps {
@@ -20549,7 +20549,7 @@ impl IconData {
             html: bootstrap_graph_up,
         }
     };
-    const BOOTSTRAP_GRID_1_X_2_FILL: Self = {
+    pub const BOOTSTRAP_GRID_1_X_2_FILL: Self = {
         #[inline(never)]
         fn bootstrap_grid_1_x_2_fill(
             crate::IconProps {
@@ -20571,7 +20571,7 @@ impl IconData {
             html: bootstrap_grid_1_x_2_fill,
         }
     };
-    const BOOTSTRAP_GRID_1_X_2: Self = {
+    pub const BOOTSTRAP_GRID_1_X_2: Self = {
         #[inline(never)]
         fn bootstrap_grid_1_x_2(
             crate::IconProps {
@@ -20593,7 +20593,7 @@ impl IconData {
             html: bootstrap_grid_1_x_2,
         }
     };
-    const BOOTSTRAP_GRID_3_X_2_GAP_FILL: Self = {
+    pub const BOOTSTRAP_GRID_3_X_2_GAP_FILL: Self = {
         #[inline(never)]
         fn bootstrap_grid_3_x_2_gap_fill(
             crate::IconProps {
@@ -20615,7 +20615,7 @@ impl IconData {
             html: bootstrap_grid_3_x_2_gap_fill,
         }
     };
-    const BOOTSTRAP_GRID_3_X_2_GAP: Self = {
+    pub const BOOTSTRAP_GRID_3_X_2_GAP: Self = {
         #[inline(never)]
         fn bootstrap_grid_3_x_2_gap(
             crate::IconProps {
@@ -20637,7 +20637,7 @@ impl IconData {
             html: bootstrap_grid_3_x_2_gap,
         }
     };
-    const BOOTSTRAP_GRID_3_X_2: Self = {
+    pub const BOOTSTRAP_GRID_3_X_2: Self = {
         #[inline(never)]
         fn bootstrap_grid_3_x_2(
             crate::IconProps {
@@ -20659,7 +20659,7 @@ impl IconData {
             html: bootstrap_grid_3_x_2,
         }
     };
-    const BOOTSTRAP_GRID_3_X_3_GAP_FILL: Self = {
+    pub const BOOTSTRAP_GRID_3_X_3_GAP_FILL: Self = {
         #[inline(never)]
         fn bootstrap_grid_3_x_3_gap_fill(
             crate::IconProps {
@@ -20681,7 +20681,7 @@ impl IconData {
             html: bootstrap_grid_3_x_3_gap_fill,
         }
     };
-    const BOOTSTRAP_GRID_3_X_3_GAP: Self = {
+    pub const BOOTSTRAP_GRID_3_X_3_GAP: Self = {
         #[inline(never)]
         fn bootstrap_grid_3_x_3_gap(
             crate::IconProps {
@@ -20703,7 +20703,7 @@ impl IconData {
             html: bootstrap_grid_3_x_3_gap,
         }
     };
-    const BOOTSTRAP_GRID_3_X_3: Self = {
+    pub const BOOTSTRAP_GRID_3_X_3: Self = {
         #[inline(never)]
         fn bootstrap_grid_3_x_3(
             crate::IconProps {
@@ -20725,7 +20725,7 @@ impl IconData {
             html: bootstrap_grid_3_x_3,
         }
     };
-    const BOOTSTRAP_GRID_FILL: Self = {
+    pub const BOOTSTRAP_GRID_FILL: Self = {
         #[inline(never)]
         fn bootstrap_grid_fill(
             crate::IconProps {
@@ -20747,7 +20747,7 @@ impl IconData {
             html: bootstrap_grid_fill,
         }
     };
-    const BOOTSTRAP_GRID: Self = {
+    pub const BOOTSTRAP_GRID: Self = {
         #[inline(never)]
         fn bootstrap_grid(
             crate::IconProps {
@@ -20769,7 +20769,7 @@ impl IconData {
             html: bootstrap_grid,
         }
     };
-    const BOOTSTRAP_GRIP_HORIZONTAL: Self = {
+    pub const BOOTSTRAP_GRIP_HORIZONTAL: Self = {
         #[inline(never)]
         fn bootstrap_grip_horizontal(
             crate::IconProps {
@@ -20791,7 +20791,7 @@ impl IconData {
             html: bootstrap_grip_horizontal,
         }
     };
-    const BOOTSTRAP_GRIP_VERTICAL: Self = {
+    pub const BOOTSTRAP_GRIP_VERTICAL: Self = {
         #[inline(never)]
         fn bootstrap_grip_vertical(
             crate::IconProps {
@@ -20813,7 +20813,7 @@ impl IconData {
             html: bootstrap_grip_vertical,
         }
     };
-    const BOOTSTRAP_HAMMER: Self = {
+    pub const BOOTSTRAP_HAMMER: Self = {
         #[inline(never)]
         fn bootstrap_hammer(
             crate::IconProps {
@@ -20835,7 +20835,7 @@ impl IconData {
             html: bootstrap_hammer,
         }
     };
-    const BOOTSTRAP_HAND_INDEX_FILL: Self = {
+    pub const BOOTSTRAP_HAND_INDEX_FILL: Self = {
         #[inline(never)]
         fn bootstrap_hand_index_fill(
             crate::IconProps {
@@ -20857,7 +20857,7 @@ impl IconData {
             html: bootstrap_hand_index_fill,
         }
     };
-    const BOOTSTRAP_HAND_INDEX_THUMB_FILL: Self = {
+    pub const BOOTSTRAP_HAND_INDEX_THUMB_FILL: Self = {
         #[inline(never)]
         fn bootstrap_hand_index_thumb_fill(
             crate::IconProps {
@@ -20879,7 +20879,7 @@ impl IconData {
             html: bootstrap_hand_index_thumb_fill,
         }
     };
-    const BOOTSTRAP_HAND_INDEX_THUMB: Self = {
+    pub const BOOTSTRAP_HAND_INDEX_THUMB: Self = {
         #[inline(never)]
         fn bootstrap_hand_index_thumb(
             crate::IconProps {
@@ -20901,7 +20901,7 @@ impl IconData {
             html: bootstrap_hand_index_thumb,
         }
     };
-    const BOOTSTRAP_HAND_INDEX: Self = {
+    pub const BOOTSTRAP_HAND_INDEX: Self = {
         #[inline(never)]
         fn bootstrap_hand_index(
             crate::IconProps {
@@ -20923,7 +20923,7 @@ impl IconData {
             html: bootstrap_hand_index,
         }
     };
-    const BOOTSTRAP_HAND_THUMBS_DOWN_FILL: Self = {
+    pub const BOOTSTRAP_HAND_THUMBS_DOWN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_hand_thumbs_down_fill(
             crate::IconProps {
@@ -20945,7 +20945,7 @@ impl IconData {
             html: bootstrap_hand_thumbs_down_fill,
         }
     };
-    const BOOTSTRAP_HAND_THUMBS_DOWN: Self = {
+    pub const BOOTSTRAP_HAND_THUMBS_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_hand_thumbs_down(
             crate::IconProps {
@@ -20967,7 +20967,7 @@ impl IconData {
             html: bootstrap_hand_thumbs_down,
         }
     };
-    const BOOTSTRAP_HAND_THUMBS_UP_FILL: Self = {
+    pub const BOOTSTRAP_HAND_THUMBS_UP_FILL: Self = {
         #[inline(never)]
         fn bootstrap_hand_thumbs_up_fill(
             crate::IconProps {
@@ -20989,7 +20989,7 @@ impl IconData {
             html: bootstrap_hand_thumbs_up_fill,
         }
     };
-    const BOOTSTRAP_HAND_THUMBS_UP: Self = {
+    pub const BOOTSTRAP_HAND_THUMBS_UP: Self = {
         #[inline(never)]
         fn bootstrap_hand_thumbs_up(
             crate::IconProps {
@@ -21011,7 +21011,7 @@ impl IconData {
             html: bootstrap_hand_thumbs_up,
         }
     };
-    const BOOTSTRAP_HANDBAG_FILL: Self = {
+    pub const BOOTSTRAP_HANDBAG_FILL: Self = {
         #[inline(never)]
         fn bootstrap_handbag_fill(
             crate::IconProps {
@@ -21033,7 +21033,7 @@ impl IconData {
             html: bootstrap_handbag_fill,
         }
     };
-    const BOOTSTRAP_HANDBAG: Self = {
+    pub const BOOTSTRAP_HANDBAG: Self = {
         #[inline(never)]
         fn bootstrap_handbag(
             crate::IconProps {
@@ -21055,7 +21055,7 @@ impl IconData {
             html: bootstrap_handbag,
         }
     };
-    const BOOTSTRAP_HASH: Self = {
+    pub const BOOTSTRAP_HASH: Self = {
         #[inline(never)]
         fn bootstrap_hash(
             crate::IconProps {
@@ -21077,7 +21077,7 @@ impl IconData {
             html: bootstrap_hash,
         }
     };
-    const BOOTSTRAP_HDD_FILL: Self = {
+    pub const BOOTSTRAP_HDD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_hdd_fill(
             crate::IconProps {
@@ -21099,7 +21099,7 @@ impl IconData {
             html: bootstrap_hdd_fill,
         }
     };
-    const BOOTSTRAP_HDD_NETWORK_FILL: Self = {
+    pub const BOOTSTRAP_HDD_NETWORK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_hdd_network_fill(
             crate::IconProps {
@@ -21121,7 +21121,7 @@ impl IconData {
             html: bootstrap_hdd_network_fill,
         }
     };
-    const BOOTSTRAP_HDD_NETWORK: Self = {
+    pub const BOOTSTRAP_HDD_NETWORK: Self = {
         #[inline(never)]
         fn bootstrap_hdd_network(
             crate::IconProps {
@@ -21143,7 +21143,7 @@ impl IconData {
             html: bootstrap_hdd_network,
         }
     };
-    const BOOTSTRAP_HDD_RACK_FILL: Self = {
+    pub const BOOTSTRAP_HDD_RACK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_hdd_rack_fill(
             crate::IconProps {
@@ -21165,7 +21165,7 @@ impl IconData {
             html: bootstrap_hdd_rack_fill,
         }
     };
-    const BOOTSTRAP_HDD_RACK: Self = {
+    pub const BOOTSTRAP_HDD_RACK: Self = {
         #[inline(never)]
         fn bootstrap_hdd_rack(
             crate::IconProps {
@@ -21187,7 +21187,7 @@ impl IconData {
             html: bootstrap_hdd_rack,
         }
     };
-    const BOOTSTRAP_HDD_STACK_FILL: Self = {
+    pub const BOOTSTRAP_HDD_STACK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_hdd_stack_fill(
             crate::IconProps {
@@ -21209,7 +21209,7 @@ impl IconData {
             html: bootstrap_hdd_stack_fill,
         }
     };
-    const BOOTSTRAP_HDD_STACK: Self = {
+    pub const BOOTSTRAP_HDD_STACK: Self = {
         #[inline(never)]
         fn bootstrap_hdd_stack(
             crate::IconProps {
@@ -21231,7 +21231,7 @@ impl IconData {
             html: bootstrap_hdd_stack,
         }
     };
-    const BOOTSTRAP_HDD: Self = {
+    pub const BOOTSTRAP_HDD: Self = {
         #[inline(never)]
         fn bootstrap_hdd(
             crate::IconProps {
@@ -21253,7 +21253,7 @@ impl IconData {
             html: bootstrap_hdd,
         }
     };
-    const BOOTSTRAP_HDMI_FILL: Self = {
+    pub const BOOTSTRAP_HDMI_FILL: Self = {
         #[inline(never)]
         fn bootstrap_hdmi_fill(
             crate::IconProps {
@@ -21275,7 +21275,7 @@ impl IconData {
             html: bootstrap_hdmi_fill,
         }
     };
-    const BOOTSTRAP_HDMI: Self = {
+    pub const BOOTSTRAP_HDMI: Self = {
         #[inline(never)]
         fn bootstrap_hdmi(
             crate::IconProps {
@@ -21297,7 +21297,7 @@ impl IconData {
             html: bootstrap_hdmi,
         }
     };
-    const BOOTSTRAP_HEADPHONES: Self = {
+    pub const BOOTSTRAP_HEADPHONES: Self = {
         #[inline(never)]
         fn bootstrap_headphones(
             crate::IconProps {
@@ -21319,7 +21319,7 @@ impl IconData {
             html: bootstrap_headphones,
         }
     };
-    const BOOTSTRAP_HEADSET_VR: Self = {
+    pub const BOOTSTRAP_HEADSET_VR: Self = {
         #[inline(never)]
         fn bootstrap_headset_vr(
             crate::IconProps {
@@ -21341,7 +21341,7 @@ impl IconData {
             html: bootstrap_headset_vr,
         }
     };
-    const BOOTSTRAP_HEADSET: Self = {
+    pub const BOOTSTRAP_HEADSET: Self = {
         #[inline(never)]
         fn bootstrap_headset(
             crate::IconProps {
@@ -21363,7 +21363,7 @@ impl IconData {
             html: bootstrap_headset,
         }
     };
-    const BOOTSTRAP_HEART_ARROW: Self = {
+    pub const BOOTSTRAP_HEART_ARROW: Self = {
         #[inline(never)]
         fn bootstrap_heart_arrow(
             crate::IconProps {
@@ -21385,7 +21385,7 @@ impl IconData {
             html: bootstrap_heart_arrow,
         }
     };
-    const BOOTSTRAP_HEART_FILL: Self = {
+    pub const BOOTSTRAP_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_heart_fill(
             crate::IconProps {
@@ -21407,7 +21407,7 @@ impl IconData {
             html: bootstrap_heart_fill,
         }
     };
-    const BOOTSTRAP_HEART_HALF: Self = {
+    pub const BOOTSTRAP_HEART_HALF: Self = {
         #[inline(never)]
         fn bootstrap_heart_half(
             crate::IconProps {
@@ -21429,7 +21429,7 @@ impl IconData {
             html: bootstrap_heart_half,
         }
     };
-    const BOOTSTRAP_HEART_PULSE_FILL: Self = {
+    pub const BOOTSTRAP_HEART_PULSE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_heart_pulse_fill(
             crate::IconProps {
@@ -21451,7 +21451,7 @@ impl IconData {
             html: bootstrap_heart_pulse_fill,
         }
     };
-    const BOOTSTRAP_HEART_PULSE: Self = {
+    pub const BOOTSTRAP_HEART_PULSE: Self = {
         #[inline(never)]
         fn bootstrap_heart_pulse(
             crate::IconProps {
@@ -21473,7 +21473,7 @@ impl IconData {
             html: bootstrap_heart_pulse,
         }
     };
-    const BOOTSTRAP_HEART: Self = {
+    pub const BOOTSTRAP_HEART: Self = {
         #[inline(never)]
         fn bootstrap_heart(
             crate::IconProps {
@@ -21495,7 +21495,7 @@ impl IconData {
             html: bootstrap_heart,
         }
     };
-    const BOOTSTRAP_HEARTBREAK_FILL: Self = {
+    pub const BOOTSTRAP_HEARTBREAK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_heartbreak_fill(
             crate::IconProps {
@@ -21517,7 +21517,7 @@ impl IconData {
             html: bootstrap_heartbreak_fill,
         }
     };
-    const BOOTSTRAP_HEARTBREAK: Self = {
+    pub const BOOTSTRAP_HEARTBREAK: Self = {
         #[inline(never)]
         fn bootstrap_heartbreak(
             crate::IconProps {
@@ -21539,7 +21539,7 @@ impl IconData {
             html: bootstrap_heartbreak,
         }
     };
-    const BOOTSTRAP_HEARTS: Self = {
+    pub const BOOTSTRAP_HEARTS: Self = {
         #[inline(never)]
         fn bootstrap_hearts(
             crate::IconProps {
@@ -21561,7 +21561,7 @@ impl IconData {
             html: bootstrap_hearts,
         }
     };
-    const BOOTSTRAP_HEPTAGON_FILL: Self = {
+    pub const BOOTSTRAP_HEPTAGON_FILL: Self = {
         #[inline(never)]
         fn bootstrap_heptagon_fill(
             crate::IconProps {
@@ -21583,7 +21583,7 @@ impl IconData {
             html: bootstrap_heptagon_fill,
         }
     };
-    const BOOTSTRAP_HEPTAGON_HALF: Self = {
+    pub const BOOTSTRAP_HEPTAGON_HALF: Self = {
         #[inline(never)]
         fn bootstrap_heptagon_half(
             crate::IconProps {
@@ -21605,7 +21605,7 @@ impl IconData {
             html: bootstrap_heptagon_half,
         }
     };
-    const BOOTSTRAP_HEPTAGON: Self = {
+    pub const BOOTSTRAP_HEPTAGON: Self = {
         #[inline(never)]
         fn bootstrap_heptagon(
             crate::IconProps {
@@ -21627,7 +21627,7 @@ impl IconData {
             html: bootstrap_heptagon,
         }
     };
-    const BOOTSTRAP_HEXAGON_FILL: Self = {
+    pub const BOOTSTRAP_HEXAGON_FILL: Self = {
         #[inline(never)]
         fn bootstrap_hexagon_fill(
             crate::IconProps {
@@ -21649,7 +21649,7 @@ impl IconData {
             html: bootstrap_hexagon_fill,
         }
     };
-    const BOOTSTRAP_HEXAGON_HALF: Self = {
+    pub const BOOTSTRAP_HEXAGON_HALF: Self = {
         #[inline(never)]
         fn bootstrap_hexagon_half(
             crate::IconProps {
@@ -21671,7 +21671,7 @@ impl IconData {
             html: bootstrap_hexagon_half,
         }
     };
-    const BOOTSTRAP_HEXAGON: Self = {
+    pub const BOOTSTRAP_HEXAGON: Self = {
         #[inline(never)]
         fn bootstrap_hexagon(
             crate::IconProps {
@@ -21693,7 +21693,7 @@ impl IconData {
             html: bootstrap_hexagon,
         }
     };
-    const BOOTSTRAP_HOSPITAL_FILL: Self = {
+    pub const BOOTSTRAP_HOSPITAL_FILL: Self = {
         #[inline(never)]
         fn bootstrap_hospital_fill(
             crate::IconProps {
@@ -21715,7 +21715,7 @@ impl IconData {
             html: bootstrap_hospital_fill,
         }
     };
-    const BOOTSTRAP_HOSPITAL: Self = {
+    pub const BOOTSTRAP_HOSPITAL: Self = {
         #[inline(never)]
         fn bootstrap_hospital(
             crate::IconProps {
@@ -21737,7 +21737,7 @@ impl IconData {
             html: bootstrap_hospital,
         }
     };
-    const BOOTSTRAP_HOURGLASS_BOTTOM: Self = {
+    pub const BOOTSTRAP_HOURGLASS_BOTTOM: Self = {
         #[inline(never)]
         fn bootstrap_hourglass_bottom(
             crate::IconProps {
@@ -21759,7 +21759,7 @@ impl IconData {
             html: bootstrap_hourglass_bottom,
         }
     };
-    const BOOTSTRAP_HOURGLASS_SPLIT: Self = {
+    pub const BOOTSTRAP_HOURGLASS_SPLIT: Self = {
         #[inline(never)]
         fn bootstrap_hourglass_split(
             crate::IconProps {
@@ -21781,7 +21781,7 @@ impl IconData {
             html: bootstrap_hourglass_split,
         }
     };
-    const BOOTSTRAP_HOURGLASS_TOP: Self = {
+    pub const BOOTSTRAP_HOURGLASS_TOP: Self = {
         #[inline(never)]
         fn bootstrap_hourglass_top(
             crate::IconProps {
@@ -21803,7 +21803,7 @@ impl IconData {
             html: bootstrap_hourglass_top,
         }
     };
-    const BOOTSTRAP_HOURGLASS: Self = {
+    pub const BOOTSTRAP_HOURGLASS: Self = {
         #[inline(never)]
         fn bootstrap_hourglass(
             crate::IconProps {
@@ -21825,7 +21825,7 @@ impl IconData {
             html: bootstrap_hourglass,
         }
     };
-    const BOOTSTRAP_HOUSE_DOOR_FILL: Self = {
+    pub const BOOTSTRAP_HOUSE_DOOR_FILL: Self = {
         #[inline(never)]
         fn bootstrap_house_door_fill(
             crate::IconProps {
@@ -21847,7 +21847,7 @@ impl IconData {
             html: bootstrap_house_door_fill,
         }
     };
-    const BOOTSTRAP_HOUSE_DOOR: Self = {
+    pub const BOOTSTRAP_HOUSE_DOOR: Self = {
         #[inline(never)]
         fn bootstrap_house_door(
             crate::IconProps {
@@ -21869,7 +21869,7 @@ impl IconData {
             html: bootstrap_house_door,
         }
     };
-    const BOOTSTRAP_HOUSE_FILL: Self = {
+    pub const BOOTSTRAP_HOUSE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_house_fill(
             crate::IconProps {
@@ -21891,7 +21891,7 @@ impl IconData {
             html: bootstrap_house_fill,
         }
     };
-    const BOOTSTRAP_HOUSE_HEART_FILL: Self = {
+    pub const BOOTSTRAP_HOUSE_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_house_heart_fill(
             crate::IconProps {
@@ -21913,7 +21913,7 @@ impl IconData {
             html: bootstrap_house_heart_fill,
         }
     };
-    const BOOTSTRAP_HOUSE_HEART: Self = {
+    pub const BOOTSTRAP_HOUSE_HEART: Self = {
         #[inline(never)]
         fn bootstrap_house_heart(
             crate::IconProps {
@@ -21935,7 +21935,7 @@ impl IconData {
             html: bootstrap_house_heart,
         }
     };
-    const BOOTSTRAP_HOUSE: Self = {
+    pub const BOOTSTRAP_HOUSE: Self = {
         #[inline(never)]
         fn bootstrap_house(
             crate::IconProps {
@@ -21957,7 +21957,7 @@ impl IconData {
             html: bootstrap_house,
         }
     };
-    const BOOTSTRAP_HR: Self = {
+    pub const BOOTSTRAP_HR: Self = {
         #[inline(never)]
         fn bootstrap_hr(
             crate::IconProps {
@@ -21979,7 +21979,7 @@ impl IconData {
             html: bootstrap_hr,
         }
     };
-    const BOOTSTRAP_HURRICANE: Self = {
+    pub const BOOTSTRAP_HURRICANE: Self = {
         #[inline(never)]
         fn bootstrap_hurricane(
             crate::IconProps {
@@ -22001,7 +22001,7 @@ impl IconData {
             html: bootstrap_hurricane,
         }
     };
-    const BOOTSTRAP_HYPNOTIZE: Self = {
+    pub const BOOTSTRAP_HYPNOTIZE: Self = {
         #[inline(never)]
         fn bootstrap_hypnotize(
             crate::IconProps {
@@ -22023,7 +22023,7 @@ impl IconData {
             html: bootstrap_hypnotize,
         }
     };
-    const BOOTSTRAP_IMAGE_ALT: Self = {
+    pub const BOOTSTRAP_IMAGE_ALT: Self = {
         #[inline(never)]
         fn bootstrap_image_alt(
             crate::IconProps {
@@ -22045,7 +22045,7 @@ impl IconData {
             html: bootstrap_image_alt,
         }
     };
-    const BOOTSTRAP_IMAGE_FILL: Self = {
+    pub const BOOTSTRAP_IMAGE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_image_fill(
             crate::IconProps {
@@ -22067,7 +22067,7 @@ impl IconData {
             html: bootstrap_image_fill,
         }
     };
-    const BOOTSTRAP_IMAGE: Self = {
+    pub const BOOTSTRAP_IMAGE: Self = {
         #[inline(never)]
         fn bootstrap_image(
             crate::IconProps {
@@ -22089,7 +22089,7 @@ impl IconData {
             html: bootstrap_image,
         }
     };
-    const BOOTSTRAP_IMAGES: Self = {
+    pub const BOOTSTRAP_IMAGES: Self = {
         #[inline(never)]
         fn bootstrap_images(
             crate::IconProps {
@@ -22111,7 +22111,7 @@ impl IconData {
             html: bootstrap_images,
         }
     };
-    const BOOTSTRAP_INBOX_FILL: Self = {
+    pub const BOOTSTRAP_INBOX_FILL: Self = {
         #[inline(never)]
         fn bootstrap_inbox_fill(
             crate::IconProps {
@@ -22133,7 +22133,7 @@ impl IconData {
             html: bootstrap_inbox_fill,
         }
     };
-    const BOOTSTRAP_INBOX: Self = {
+    pub const BOOTSTRAP_INBOX: Self = {
         #[inline(never)]
         fn bootstrap_inbox(
             crate::IconProps {
@@ -22155,7 +22155,7 @@ impl IconData {
             html: bootstrap_inbox,
         }
     };
-    const BOOTSTRAP_INBOXES_FILL: Self = {
+    pub const BOOTSTRAP_INBOXES_FILL: Self = {
         #[inline(never)]
         fn bootstrap_inboxes_fill(
             crate::IconProps {
@@ -22177,7 +22177,7 @@ impl IconData {
             html: bootstrap_inboxes_fill,
         }
     };
-    const BOOTSTRAP_INBOXES: Self = {
+    pub const BOOTSTRAP_INBOXES: Self = {
         #[inline(never)]
         fn bootstrap_inboxes(
             crate::IconProps {
@@ -22199,7 +22199,7 @@ impl IconData {
             html: bootstrap_inboxes,
         }
     };
-    const BOOTSTRAP_INCOGNITO: Self = {
+    pub const BOOTSTRAP_INCOGNITO: Self = {
         #[inline(never)]
         fn bootstrap_incognito(
             crate::IconProps {
@@ -22221,7 +22221,7 @@ impl IconData {
             html: bootstrap_incognito,
         }
     };
-    const BOOTSTRAP_INFINITY: Self = {
+    pub const BOOTSTRAP_INFINITY: Self = {
         #[inline(never)]
         fn bootstrap_infinity(
             crate::IconProps {
@@ -22243,7 +22243,7 @@ impl IconData {
             html: bootstrap_infinity,
         }
     };
-    const BOOTSTRAP_INFO_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_INFO_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_info_circle_fill(
             crate::IconProps {
@@ -22265,7 +22265,7 @@ impl IconData {
             html: bootstrap_info_circle_fill,
         }
     };
-    const BOOTSTRAP_INFO_CIRCLE: Self = {
+    pub const BOOTSTRAP_INFO_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_info_circle(
             crate::IconProps {
@@ -22287,7 +22287,7 @@ impl IconData {
             html: bootstrap_info_circle,
         }
     };
-    const BOOTSTRAP_INFO_LG: Self = {
+    pub const BOOTSTRAP_INFO_LG: Self = {
         #[inline(never)]
         fn bootstrap_info_lg(
             crate::IconProps {
@@ -22309,7 +22309,7 @@ impl IconData {
             html: bootstrap_info_lg,
         }
     };
-    const BOOTSTRAP_INFO_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_INFO_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_info_square_fill(
             crate::IconProps {
@@ -22331,7 +22331,7 @@ impl IconData {
             html: bootstrap_info_square_fill,
         }
     };
-    const BOOTSTRAP_INFO_SQUARE: Self = {
+    pub const BOOTSTRAP_INFO_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_info_square(
             crate::IconProps {
@@ -22353,7 +22353,7 @@ impl IconData {
             html: bootstrap_info_square,
         }
     };
-    const BOOTSTRAP_INFO: Self = {
+    pub const BOOTSTRAP_INFO: Self = {
         #[inline(never)]
         fn bootstrap_info(
             crate::IconProps {
@@ -22375,7 +22375,7 @@ impl IconData {
             html: bootstrap_info,
         }
     };
-    const BOOTSTRAP_INPUT_CURSOR_TEXT: Self = {
+    pub const BOOTSTRAP_INPUT_CURSOR_TEXT: Self = {
         #[inline(never)]
         fn bootstrap_input_cursor_text(
             crate::IconProps {
@@ -22397,7 +22397,7 @@ impl IconData {
             html: bootstrap_input_cursor_text,
         }
     };
-    const BOOTSTRAP_INPUT_CURSOR: Self = {
+    pub const BOOTSTRAP_INPUT_CURSOR: Self = {
         #[inline(never)]
         fn bootstrap_input_cursor(
             crate::IconProps {
@@ -22419,7 +22419,7 @@ impl IconData {
             html: bootstrap_input_cursor,
         }
     };
-    const BOOTSTRAP_INSTAGRAM: Self = {
+    pub const BOOTSTRAP_INSTAGRAM: Self = {
         #[inline(never)]
         fn bootstrap_instagram(
             crate::IconProps {
@@ -22441,7 +22441,7 @@ impl IconData {
             html: bootstrap_instagram,
         }
     };
-    const BOOTSTRAP_INTERSECT: Self = {
+    pub const BOOTSTRAP_INTERSECT: Self = {
         #[inline(never)]
         fn bootstrap_intersect(
             crate::IconProps {
@@ -22463,7 +22463,7 @@ impl IconData {
             html: bootstrap_intersect,
         }
     };
-    const BOOTSTRAP_JOURNAL_ALBUM: Self = {
+    pub const BOOTSTRAP_JOURNAL_ALBUM: Self = {
         #[inline(never)]
         fn bootstrap_journal_album(
             crate::IconProps {
@@ -22485,7 +22485,7 @@ impl IconData {
             html: bootstrap_journal_album,
         }
     };
-    const BOOTSTRAP_JOURNAL_ARROW_DOWN: Self = {
+    pub const BOOTSTRAP_JOURNAL_ARROW_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_journal_arrow_down(
             crate::IconProps {
@@ -22507,7 +22507,7 @@ impl IconData {
             html: bootstrap_journal_arrow_down,
         }
     };
-    const BOOTSTRAP_JOURNAL_ARROW_UP: Self = {
+    pub const BOOTSTRAP_JOURNAL_ARROW_UP: Self = {
         #[inline(never)]
         fn bootstrap_journal_arrow_up(
             crate::IconProps {
@@ -22529,7 +22529,7 @@ impl IconData {
             html: bootstrap_journal_arrow_up,
         }
     };
-    const BOOTSTRAP_JOURNAL_BOOKMARK_FILL: Self = {
+    pub const BOOTSTRAP_JOURNAL_BOOKMARK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_journal_bookmark_fill(
             crate::IconProps {
@@ -22551,7 +22551,7 @@ impl IconData {
             html: bootstrap_journal_bookmark_fill,
         }
     };
-    const BOOTSTRAP_JOURNAL_BOOKMARK: Self = {
+    pub const BOOTSTRAP_JOURNAL_BOOKMARK: Self = {
         #[inline(never)]
         fn bootstrap_journal_bookmark(
             crate::IconProps {
@@ -22573,7 +22573,7 @@ impl IconData {
             html: bootstrap_journal_bookmark,
         }
     };
-    const BOOTSTRAP_JOURNAL_CHECK: Self = {
+    pub const BOOTSTRAP_JOURNAL_CHECK: Self = {
         #[inline(never)]
         fn bootstrap_journal_check(
             crate::IconProps {
@@ -22595,7 +22595,7 @@ impl IconData {
             html: bootstrap_journal_check,
         }
     };
-    const BOOTSTRAP_JOURNAL_CODE: Self = {
+    pub const BOOTSTRAP_JOURNAL_CODE: Self = {
         #[inline(never)]
         fn bootstrap_journal_code(
             crate::IconProps {
@@ -22617,7 +22617,7 @@ impl IconData {
             html: bootstrap_journal_code,
         }
     };
-    const BOOTSTRAP_JOURNAL_MEDICAL: Self = {
+    pub const BOOTSTRAP_JOURNAL_MEDICAL: Self = {
         #[inline(never)]
         fn bootstrap_journal_medical(
             crate::IconProps {
@@ -22639,7 +22639,7 @@ impl IconData {
             html: bootstrap_journal_medical,
         }
     };
-    const BOOTSTRAP_JOURNAL_MINUS: Self = {
+    pub const BOOTSTRAP_JOURNAL_MINUS: Self = {
         #[inline(never)]
         fn bootstrap_journal_minus(
             crate::IconProps {
@@ -22661,7 +22661,7 @@ impl IconData {
             html: bootstrap_journal_minus,
         }
     };
-    const BOOTSTRAP_JOURNAL_PLUS: Self = {
+    pub const BOOTSTRAP_JOURNAL_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_journal_plus(
             crate::IconProps {
@@ -22683,7 +22683,7 @@ impl IconData {
             html: bootstrap_journal_plus,
         }
     };
-    const BOOTSTRAP_JOURNAL_RICHTEXT: Self = {
+    pub const BOOTSTRAP_JOURNAL_RICHTEXT: Self = {
         #[inline(never)]
         fn bootstrap_journal_richtext(
             crate::IconProps {
@@ -22705,7 +22705,7 @@ impl IconData {
             html: bootstrap_journal_richtext,
         }
     };
-    const BOOTSTRAP_JOURNAL_TEXT: Self = {
+    pub const BOOTSTRAP_JOURNAL_TEXT: Self = {
         #[inline(never)]
         fn bootstrap_journal_text(
             crate::IconProps {
@@ -22727,7 +22727,7 @@ impl IconData {
             html: bootstrap_journal_text,
         }
     };
-    const BOOTSTRAP_JOURNAL_X: Self = {
+    pub const BOOTSTRAP_JOURNAL_X: Self = {
         #[inline(never)]
         fn bootstrap_journal_x(
             crate::IconProps {
@@ -22749,7 +22749,7 @@ impl IconData {
             html: bootstrap_journal_x,
         }
     };
-    const BOOTSTRAP_JOURNAL: Self = {
+    pub const BOOTSTRAP_JOURNAL: Self = {
         #[inline(never)]
         fn bootstrap_journal(
             crate::IconProps {
@@ -22771,7 +22771,7 @@ impl IconData {
             html: bootstrap_journal,
         }
     };
-    const BOOTSTRAP_JOURNALS: Self = {
+    pub const BOOTSTRAP_JOURNALS: Self = {
         #[inline(never)]
         fn bootstrap_journals(
             crate::IconProps {
@@ -22793,7 +22793,7 @@ impl IconData {
             html: bootstrap_journals,
         }
     };
-    const BOOTSTRAP_JOYSTICK: Self = {
+    pub const BOOTSTRAP_JOYSTICK: Self = {
         #[inline(never)]
         fn bootstrap_joystick(
             crate::IconProps {
@@ -22815,7 +22815,7 @@ impl IconData {
             html: bootstrap_joystick,
         }
     };
-    const BOOTSTRAP_JUSTIFY_LEFT: Self = {
+    pub const BOOTSTRAP_JUSTIFY_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_justify_left(
             crate::IconProps {
@@ -22837,7 +22837,7 @@ impl IconData {
             html: bootstrap_justify_left,
         }
     };
-    const BOOTSTRAP_JUSTIFY_RIGHT: Self = {
+    pub const BOOTSTRAP_JUSTIFY_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_justify_right(
             crate::IconProps {
@@ -22859,7 +22859,7 @@ impl IconData {
             html: bootstrap_justify_right,
         }
     };
-    const BOOTSTRAP_JUSTIFY: Self = {
+    pub const BOOTSTRAP_JUSTIFY: Self = {
         #[inline(never)]
         fn bootstrap_justify(
             crate::IconProps {
@@ -22881,7 +22881,7 @@ impl IconData {
             html: bootstrap_justify,
         }
     };
-    const BOOTSTRAP_KANBAN_FILL: Self = {
+    pub const BOOTSTRAP_KANBAN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_kanban_fill(
             crate::IconProps {
@@ -22903,7 +22903,7 @@ impl IconData {
             html: bootstrap_kanban_fill,
         }
     };
-    const BOOTSTRAP_KANBAN: Self = {
+    pub const BOOTSTRAP_KANBAN: Self = {
         #[inline(never)]
         fn bootstrap_kanban(
             crate::IconProps {
@@ -22925,7 +22925,7 @@ impl IconData {
             html: bootstrap_kanban,
         }
     };
-    const BOOTSTRAP_KEY_FILL: Self = {
+    pub const BOOTSTRAP_KEY_FILL: Self = {
         #[inline(never)]
         fn bootstrap_key_fill(
             crate::IconProps {
@@ -22947,7 +22947,7 @@ impl IconData {
             html: bootstrap_key_fill,
         }
     };
-    const BOOTSTRAP_KEY: Self = {
+    pub const BOOTSTRAP_KEY: Self = {
         #[inline(never)]
         fn bootstrap_key(
             crate::IconProps {
@@ -22969,7 +22969,7 @@ impl IconData {
             html: bootstrap_key,
         }
     };
-    const BOOTSTRAP_KEYBOARD_FILL: Self = {
+    pub const BOOTSTRAP_KEYBOARD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_keyboard_fill(
             crate::IconProps {
@@ -22991,7 +22991,7 @@ impl IconData {
             html: bootstrap_keyboard_fill,
         }
     };
-    const BOOTSTRAP_KEYBOARD: Self = {
+    pub const BOOTSTRAP_KEYBOARD: Self = {
         #[inline(never)]
         fn bootstrap_keyboard(
             crate::IconProps {
@@ -23013,7 +23013,7 @@ impl IconData {
             html: bootstrap_keyboard,
         }
     };
-    const BOOTSTRAP_LADDER: Self = {
+    pub const BOOTSTRAP_LADDER: Self = {
         #[inline(never)]
         fn bootstrap_ladder(
             crate::IconProps {
@@ -23035,7 +23035,7 @@ impl IconData {
             html: bootstrap_ladder,
         }
     };
-    const BOOTSTRAP_LAMP_FILL: Self = {
+    pub const BOOTSTRAP_LAMP_FILL: Self = {
         #[inline(never)]
         fn bootstrap_lamp_fill(
             crate::IconProps {
@@ -23057,7 +23057,7 @@ impl IconData {
             html: bootstrap_lamp_fill,
         }
     };
-    const BOOTSTRAP_LAMP: Self = {
+    pub const BOOTSTRAP_LAMP: Self = {
         #[inline(never)]
         fn bootstrap_lamp(
             crate::IconProps {
@@ -23079,7 +23079,7 @@ impl IconData {
             html: bootstrap_lamp,
         }
     };
-    const BOOTSTRAP_LAPTOP_FILL: Self = {
+    pub const BOOTSTRAP_LAPTOP_FILL: Self = {
         #[inline(never)]
         fn bootstrap_laptop_fill(
             crate::IconProps {
@@ -23101,7 +23101,7 @@ impl IconData {
             html: bootstrap_laptop_fill,
         }
     };
-    const BOOTSTRAP_LAPTOP: Self = {
+    pub const BOOTSTRAP_LAPTOP: Self = {
         #[inline(never)]
         fn bootstrap_laptop(
             crate::IconProps {
@@ -23123,7 +23123,7 @@ impl IconData {
             html: bootstrap_laptop,
         }
     };
-    const BOOTSTRAP_LAYER_BACKWARD: Self = {
+    pub const BOOTSTRAP_LAYER_BACKWARD: Self = {
         #[inline(never)]
         fn bootstrap_layer_backward(
             crate::IconProps {
@@ -23145,7 +23145,7 @@ impl IconData {
             html: bootstrap_layer_backward,
         }
     };
-    const BOOTSTRAP_LAYER_FORWARD: Self = {
+    pub const BOOTSTRAP_LAYER_FORWARD: Self = {
         #[inline(never)]
         fn bootstrap_layer_forward(
             crate::IconProps {
@@ -23167,7 +23167,7 @@ impl IconData {
             html: bootstrap_layer_forward,
         }
     };
-    const BOOTSTRAP_LAYERS_FILL: Self = {
+    pub const BOOTSTRAP_LAYERS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_layers_fill(
             crate::IconProps {
@@ -23189,7 +23189,7 @@ impl IconData {
             html: bootstrap_layers_fill,
         }
     };
-    const BOOTSTRAP_LAYERS_HALF: Self = {
+    pub const BOOTSTRAP_LAYERS_HALF: Self = {
         #[inline(never)]
         fn bootstrap_layers_half(
             crate::IconProps {
@@ -23211,7 +23211,7 @@ impl IconData {
             html: bootstrap_layers_half,
         }
     };
-    const BOOTSTRAP_LAYERS: Self = {
+    pub const BOOTSTRAP_LAYERS: Self = {
         #[inline(never)]
         fn bootstrap_layers(
             crate::IconProps {
@@ -23233,7 +23233,7 @@ impl IconData {
             html: bootstrap_layers,
         }
     };
-    const BOOTSTRAP_LAYOUT_SIDEBAR_INSET_REVERSE: Self = {
+    pub const BOOTSTRAP_LAYOUT_SIDEBAR_INSET_REVERSE: Self = {
         #[inline(never)]
         fn bootstrap_layout_sidebar_inset_reverse(
             crate::IconProps {
@@ -23255,7 +23255,7 @@ impl IconData {
             html: bootstrap_layout_sidebar_inset_reverse,
         }
     };
-    const BOOTSTRAP_LAYOUT_SIDEBAR_INSET: Self = {
+    pub const BOOTSTRAP_LAYOUT_SIDEBAR_INSET: Self = {
         #[inline(never)]
         fn bootstrap_layout_sidebar_inset(
             crate::IconProps {
@@ -23277,7 +23277,7 @@ impl IconData {
             html: bootstrap_layout_sidebar_inset,
         }
     };
-    const BOOTSTRAP_LAYOUT_SIDEBAR_REVERSE: Self = {
+    pub const BOOTSTRAP_LAYOUT_SIDEBAR_REVERSE: Self = {
         #[inline(never)]
         fn bootstrap_layout_sidebar_reverse(
             crate::IconProps {
@@ -23299,7 +23299,7 @@ impl IconData {
             html: bootstrap_layout_sidebar_reverse,
         }
     };
-    const BOOTSTRAP_LAYOUT_SIDEBAR: Self = {
+    pub const BOOTSTRAP_LAYOUT_SIDEBAR: Self = {
         #[inline(never)]
         fn bootstrap_layout_sidebar(
             crate::IconProps {
@@ -23321,7 +23321,7 @@ impl IconData {
             html: bootstrap_layout_sidebar,
         }
     };
-    const BOOTSTRAP_LAYOUT_SPLIT: Self = {
+    pub const BOOTSTRAP_LAYOUT_SPLIT: Self = {
         #[inline(never)]
         fn bootstrap_layout_split(
             crate::IconProps {
@@ -23343,7 +23343,7 @@ impl IconData {
             html: bootstrap_layout_split,
         }
     };
-    const BOOTSTRAP_LAYOUT_TEXT_SIDEBAR_REVERSE: Self = {
+    pub const BOOTSTRAP_LAYOUT_TEXT_SIDEBAR_REVERSE: Self = {
         #[inline(never)]
         fn bootstrap_layout_text_sidebar_reverse(
             crate::IconProps {
@@ -23365,7 +23365,7 @@ impl IconData {
             html: bootstrap_layout_text_sidebar_reverse,
         }
     };
-    const BOOTSTRAP_LAYOUT_TEXT_SIDEBAR: Self = {
+    pub const BOOTSTRAP_LAYOUT_TEXT_SIDEBAR: Self = {
         #[inline(never)]
         fn bootstrap_layout_text_sidebar(
             crate::IconProps {
@@ -23387,7 +23387,7 @@ impl IconData {
             html: bootstrap_layout_text_sidebar,
         }
     };
-    const BOOTSTRAP_LAYOUT_TEXT_WINDOW_REVERSE: Self = {
+    pub const BOOTSTRAP_LAYOUT_TEXT_WINDOW_REVERSE: Self = {
         #[inline(never)]
         fn bootstrap_layout_text_window_reverse(
             crate::IconProps {
@@ -23409,7 +23409,7 @@ impl IconData {
             html: bootstrap_layout_text_window_reverse,
         }
     };
-    const BOOTSTRAP_LAYOUT_TEXT_WINDOW: Self = {
+    pub const BOOTSTRAP_LAYOUT_TEXT_WINDOW: Self = {
         #[inline(never)]
         fn bootstrap_layout_text_window(
             crate::IconProps {
@@ -23431,7 +23431,7 @@ impl IconData {
             html: bootstrap_layout_text_window,
         }
     };
-    const BOOTSTRAP_LAYOUT_THREE_COLUMNS: Self = {
+    pub const BOOTSTRAP_LAYOUT_THREE_COLUMNS: Self = {
         #[inline(never)]
         fn bootstrap_layout_three_columns(
             crate::IconProps {
@@ -23453,7 +23453,7 @@ impl IconData {
             html: bootstrap_layout_three_columns,
         }
     };
-    const BOOTSTRAP_LAYOUT_WTF: Self = {
+    pub const BOOTSTRAP_LAYOUT_WTF: Self = {
         #[inline(never)]
         fn bootstrap_layout_wtf(
             crate::IconProps {
@@ -23475,7 +23475,7 @@ impl IconData {
             html: bootstrap_layout_wtf,
         }
     };
-    const BOOTSTRAP_LIFE_PRESERVER: Self = {
+    pub const BOOTSTRAP_LIFE_PRESERVER: Self = {
         #[inline(never)]
         fn bootstrap_life_preserver(
             crate::IconProps {
@@ -23497,7 +23497,7 @@ impl IconData {
             html: bootstrap_life_preserver,
         }
     };
-    const BOOTSTRAP_LIGHTBULB_FILL: Self = {
+    pub const BOOTSTRAP_LIGHTBULB_FILL: Self = {
         #[inline(never)]
         fn bootstrap_lightbulb_fill(
             crate::IconProps {
@@ -23519,7 +23519,7 @@ impl IconData {
             html: bootstrap_lightbulb_fill,
         }
     };
-    const BOOTSTRAP_LIGHTBULB_OFF_FILL: Self = {
+    pub const BOOTSTRAP_LIGHTBULB_OFF_FILL: Self = {
         #[inline(never)]
         fn bootstrap_lightbulb_off_fill(
             crate::IconProps {
@@ -23541,7 +23541,7 @@ impl IconData {
             html: bootstrap_lightbulb_off_fill,
         }
     };
-    const BOOTSTRAP_LIGHTBULB_OFF: Self = {
+    pub const BOOTSTRAP_LIGHTBULB_OFF: Self = {
         #[inline(never)]
         fn bootstrap_lightbulb_off(
             crate::IconProps {
@@ -23563,7 +23563,7 @@ impl IconData {
             html: bootstrap_lightbulb_off,
         }
     };
-    const BOOTSTRAP_LIGHTBULB: Self = {
+    pub const BOOTSTRAP_LIGHTBULB: Self = {
         #[inline(never)]
         fn bootstrap_lightbulb(
             crate::IconProps {
@@ -23585,7 +23585,7 @@ impl IconData {
             html: bootstrap_lightbulb,
         }
     };
-    const BOOTSTRAP_LIGHTNING_CHARGE_FILL: Self = {
+    pub const BOOTSTRAP_LIGHTNING_CHARGE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_lightning_charge_fill(
             crate::IconProps {
@@ -23607,7 +23607,7 @@ impl IconData {
             html: bootstrap_lightning_charge_fill,
         }
     };
-    const BOOTSTRAP_LIGHTNING_CHARGE: Self = {
+    pub const BOOTSTRAP_LIGHTNING_CHARGE: Self = {
         #[inline(never)]
         fn bootstrap_lightning_charge(
             crate::IconProps {
@@ -23629,7 +23629,7 @@ impl IconData {
             html: bootstrap_lightning_charge,
         }
     };
-    const BOOTSTRAP_LIGHTNING_FILL: Self = {
+    pub const BOOTSTRAP_LIGHTNING_FILL: Self = {
         #[inline(never)]
         fn bootstrap_lightning_fill(
             crate::IconProps {
@@ -23651,7 +23651,7 @@ impl IconData {
             html: bootstrap_lightning_fill,
         }
     };
-    const BOOTSTRAP_LIGHTNING: Self = {
+    pub const BOOTSTRAP_LIGHTNING: Self = {
         #[inline(never)]
         fn bootstrap_lightning(
             crate::IconProps {
@@ -23673,7 +23673,7 @@ impl IconData {
             html: bootstrap_lightning,
         }
     };
-    const BOOTSTRAP_LINE: Self = {
+    pub const BOOTSTRAP_LINE: Self = {
         #[inline(never)]
         fn bootstrap_line(
             crate::IconProps {
@@ -23695,7 +23695,7 @@ impl IconData {
             html: bootstrap_line,
         }
     };
-    const BOOTSTRAP_LINK_45_DEG: Self = {
+    pub const BOOTSTRAP_LINK_45_DEG: Self = {
         #[inline(never)]
         fn bootstrap_link_45_deg(
             crate::IconProps {
@@ -23717,7 +23717,7 @@ impl IconData {
             html: bootstrap_link_45_deg,
         }
     };
-    const BOOTSTRAP_LINK: Self = {
+    pub const BOOTSTRAP_LINK: Self = {
         #[inline(never)]
         fn bootstrap_link(
             crate::IconProps {
@@ -23739,7 +23739,7 @@ impl IconData {
             html: bootstrap_link,
         }
     };
-    const BOOTSTRAP_LINKEDIN: Self = {
+    pub const BOOTSTRAP_LINKEDIN: Self = {
         #[inline(never)]
         fn bootstrap_linkedin(
             crate::IconProps {
@@ -23761,7 +23761,7 @@ impl IconData {
             html: bootstrap_linkedin,
         }
     };
-    const BOOTSTRAP_LIST_CHECK: Self = {
+    pub const BOOTSTRAP_LIST_CHECK: Self = {
         #[inline(never)]
         fn bootstrap_list_check(
             crate::IconProps {
@@ -23783,7 +23783,7 @@ impl IconData {
             html: bootstrap_list_check,
         }
     };
-    const BOOTSTRAP_LIST_COLUMNS_REVERSE: Self = {
+    pub const BOOTSTRAP_LIST_COLUMNS_REVERSE: Self = {
         #[inline(never)]
         fn bootstrap_list_columns_reverse(
             crate::IconProps {
@@ -23805,7 +23805,7 @@ impl IconData {
             html: bootstrap_list_columns_reverse,
         }
     };
-    const BOOTSTRAP_LIST_COLUMNS: Self = {
+    pub const BOOTSTRAP_LIST_COLUMNS: Self = {
         #[inline(never)]
         fn bootstrap_list_columns(
             crate::IconProps {
@@ -23827,7 +23827,7 @@ impl IconData {
             html: bootstrap_list_columns,
         }
     };
-    const BOOTSTRAP_LIST_NESTED: Self = {
+    pub const BOOTSTRAP_LIST_NESTED: Self = {
         #[inline(never)]
         fn bootstrap_list_nested(
             crate::IconProps {
@@ -23849,7 +23849,7 @@ impl IconData {
             html: bootstrap_list_nested,
         }
     };
-    const BOOTSTRAP_LIST_OL: Self = {
+    pub const BOOTSTRAP_LIST_OL: Self = {
         #[inline(never)]
         fn bootstrap_list_ol(
             crate::IconProps {
@@ -23871,7 +23871,7 @@ impl IconData {
             html: bootstrap_list_ol,
         }
     };
-    const BOOTSTRAP_LIST_STARS: Self = {
+    pub const BOOTSTRAP_LIST_STARS: Self = {
         #[inline(never)]
         fn bootstrap_list_stars(
             crate::IconProps {
@@ -23893,7 +23893,7 @@ impl IconData {
             html: bootstrap_list_stars,
         }
     };
-    const BOOTSTRAP_LIST_TASK: Self = {
+    pub const BOOTSTRAP_LIST_TASK: Self = {
         #[inline(never)]
         fn bootstrap_list_task(
             crate::IconProps {
@@ -23915,7 +23915,7 @@ impl IconData {
             html: bootstrap_list_task,
         }
     };
-    const BOOTSTRAP_LIST_UL: Self = {
+    pub const BOOTSTRAP_LIST_UL: Self = {
         #[inline(never)]
         fn bootstrap_list_ul(
             crate::IconProps {
@@ -23937,7 +23937,7 @@ impl IconData {
             html: bootstrap_list_ul,
         }
     };
-    const BOOTSTRAP_LIST: Self = {
+    pub const BOOTSTRAP_LIST: Self = {
         #[inline(never)]
         fn bootstrap_list(
             crate::IconProps {
@@ -23959,7 +23959,7 @@ impl IconData {
             html: bootstrap_list,
         }
     };
-    const BOOTSTRAP_LOCK_FILL: Self = {
+    pub const BOOTSTRAP_LOCK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_lock_fill(
             crate::IconProps {
@@ -23981,7 +23981,7 @@ impl IconData {
             html: bootstrap_lock_fill,
         }
     };
-    const BOOTSTRAP_LOCK: Self = {
+    pub const BOOTSTRAP_LOCK: Self = {
         #[inline(never)]
         fn bootstrap_lock(
             crate::IconProps {
@@ -24003,7 +24003,7 @@ impl IconData {
             html: bootstrap_lock,
         }
     };
-    const BOOTSTRAP_MAGIC: Self = {
+    pub const BOOTSTRAP_MAGIC: Self = {
         #[inline(never)]
         fn bootstrap_magic(
             crate::IconProps {
@@ -24025,7 +24025,7 @@ impl IconData {
             html: bootstrap_magic,
         }
     };
-    const BOOTSTRAP_MAGNET_FILL: Self = {
+    pub const BOOTSTRAP_MAGNET_FILL: Self = {
         #[inline(never)]
         fn bootstrap_magnet_fill(
             crate::IconProps {
@@ -24047,7 +24047,7 @@ impl IconData {
             html: bootstrap_magnet_fill,
         }
     };
-    const BOOTSTRAP_MAGNET: Self = {
+    pub const BOOTSTRAP_MAGNET: Self = {
         #[inline(never)]
         fn bootstrap_magnet(
             crate::IconProps {
@@ -24069,7 +24069,7 @@ impl IconData {
             html: bootstrap_magnet,
         }
     };
-    const BOOTSTRAP_MAILBOX: Self = {
+    pub const BOOTSTRAP_MAILBOX: Self = {
         #[inline(never)]
         fn bootstrap_mailbox(
             crate::IconProps {
@@ -24091,7 +24091,7 @@ impl IconData {
             html: bootstrap_mailbox,
         }
     };
-    const BOOTSTRAP_MAILBOX_2: Self = {
+    pub const BOOTSTRAP_MAILBOX_2: Self = {
         #[inline(never)]
         fn bootstrap_mailbox_2(
             crate::IconProps {
@@ -24113,7 +24113,7 @@ impl IconData {
             html: bootstrap_mailbox_2,
         }
     };
-    const BOOTSTRAP_MAP_FILL: Self = {
+    pub const BOOTSTRAP_MAP_FILL: Self = {
         #[inline(never)]
         fn bootstrap_map_fill(
             crate::IconProps {
@@ -24135,7 +24135,7 @@ impl IconData {
             html: bootstrap_map_fill,
         }
     };
-    const BOOTSTRAP_MAP: Self = {
+    pub const BOOTSTRAP_MAP: Self = {
         #[inline(never)]
         fn bootstrap_map(
             crate::IconProps {
@@ -24157,7 +24157,7 @@ impl IconData {
             html: bootstrap_map,
         }
     };
-    const BOOTSTRAP_MARKDOWN_FILL: Self = {
+    pub const BOOTSTRAP_MARKDOWN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_markdown_fill(
             crate::IconProps {
@@ -24179,7 +24179,7 @@ impl IconData {
             html: bootstrap_markdown_fill,
         }
     };
-    const BOOTSTRAP_MARKDOWN: Self = {
+    pub const BOOTSTRAP_MARKDOWN: Self = {
         #[inline(never)]
         fn bootstrap_markdown(
             crate::IconProps {
@@ -24201,7 +24201,7 @@ impl IconData {
             html: bootstrap_markdown,
         }
     };
-    const BOOTSTRAP_MASK: Self = {
+    pub const BOOTSTRAP_MASK: Self = {
         #[inline(never)]
         fn bootstrap_mask(
             crate::IconProps {
@@ -24223,7 +24223,7 @@ impl IconData {
             html: bootstrap_mask,
         }
     };
-    const BOOTSTRAP_MASTODON: Self = {
+    pub const BOOTSTRAP_MASTODON: Self = {
         #[inline(never)]
         fn bootstrap_mastodon(
             crate::IconProps {
@@ -24245,7 +24245,7 @@ impl IconData {
             html: bootstrap_mastodon,
         }
     };
-    const BOOTSTRAP_MEDIUM: Self = {
+    pub const BOOTSTRAP_MEDIUM: Self = {
         #[inline(never)]
         fn bootstrap_medium(
             crate::IconProps {
@@ -24267,7 +24267,7 @@ impl IconData {
             html: bootstrap_medium,
         }
     };
-    const BOOTSTRAP_MEGAPHONE_FILL: Self = {
+    pub const BOOTSTRAP_MEGAPHONE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_megaphone_fill(
             crate::IconProps {
@@ -24289,7 +24289,7 @@ impl IconData {
             html: bootstrap_megaphone_fill,
         }
     };
-    const BOOTSTRAP_MEGAPHONE: Self = {
+    pub const BOOTSTRAP_MEGAPHONE: Self = {
         #[inline(never)]
         fn bootstrap_megaphone(
             crate::IconProps {
@@ -24311,7 +24311,7 @@ impl IconData {
             html: bootstrap_megaphone,
         }
     };
-    const BOOTSTRAP_MEMORY: Self = {
+    pub const BOOTSTRAP_MEMORY: Self = {
         #[inline(never)]
         fn bootstrap_memory(
             crate::IconProps {
@@ -24333,7 +24333,7 @@ impl IconData {
             html: bootstrap_memory,
         }
     };
-    const BOOTSTRAP_MENU_APP_FILL: Self = {
+    pub const BOOTSTRAP_MENU_APP_FILL: Self = {
         #[inline(never)]
         fn bootstrap_menu_app_fill(
             crate::IconProps {
@@ -24355,7 +24355,7 @@ impl IconData {
             html: bootstrap_menu_app_fill,
         }
     };
-    const BOOTSTRAP_MENU_APP: Self = {
+    pub const BOOTSTRAP_MENU_APP: Self = {
         #[inline(never)]
         fn bootstrap_menu_app(
             crate::IconProps {
@@ -24377,7 +24377,7 @@ impl IconData {
             html: bootstrap_menu_app,
         }
     };
-    const BOOTSTRAP_MENU_BUTTON_FILL: Self = {
+    pub const BOOTSTRAP_MENU_BUTTON_FILL: Self = {
         #[inline(never)]
         fn bootstrap_menu_button_fill(
             crate::IconProps {
@@ -24399,7 +24399,7 @@ impl IconData {
             html: bootstrap_menu_button_fill,
         }
     };
-    const BOOTSTRAP_MENU_BUTTON_WIDE_FILL: Self = {
+    pub const BOOTSTRAP_MENU_BUTTON_WIDE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_menu_button_wide_fill(
             crate::IconProps {
@@ -24421,7 +24421,7 @@ impl IconData {
             html: bootstrap_menu_button_wide_fill,
         }
     };
-    const BOOTSTRAP_MENU_BUTTON_WIDE: Self = {
+    pub const BOOTSTRAP_MENU_BUTTON_WIDE: Self = {
         #[inline(never)]
         fn bootstrap_menu_button_wide(
             crate::IconProps {
@@ -24443,7 +24443,7 @@ impl IconData {
             html: bootstrap_menu_button_wide,
         }
     };
-    const BOOTSTRAP_MENU_BUTTON: Self = {
+    pub const BOOTSTRAP_MENU_BUTTON: Self = {
         #[inline(never)]
         fn bootstrap_menu_button(
             crate::IconProps {
@@ -24465,7 +24465,7 @@ impl IconData {
             html: bootstrap_menu_button,
         }
     };
-    const BOOTSTRAP_MENU_DOWN: Self = {
+    pub const BOOTSTRAP_MENU_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_menu_down(
             crate::IconProps {
@@ -24487,7 +24487,7 @@ impl IconData {
             html: bootstrap_menu_down,
         }
     };
-    const BOOTSTRAP_MENU_UP: Self = {
+    pub const BOOTSTRAP_MENU_UP: Self = {
         #[inline(never)]
         fn bootstrap_menu_up(
             crate::IconProps {
@@ -24509,7 +24509,7 @@ impl IconData {
             html: bootstrap_menu_up,
         }
     };
-    const BOOTSTRAP_MESSENGER: Self = {
+    pub const BOOTSTRAP_MESSENGER: Self = {
         #[inline(never)]
         fn bootstrap_messenger(
             crate::IconProps {
@@ -24531,7 +24531,7 @@ impl IconData {
             html: bootstrap_messenger,
         }
     };
-    const BOOTSTRAP_META: Self = {
+    pub const BOOTSTRAP_META: Self = {
         #[inline(never)]
         fn bootstrap_meta(
             crate::IconProps {
@@ -24553,7 +24553,7 @@ impl IconData {
             html: bootstrap_meta,
         }
     };
-    const BOOTSTRAP_MIC_FILL: Self = {
+    pub const BOOTSTRAP_MIC_FILL: Self = {
         #[inline(never)]
         fn bootstrap_mic_fill(
             crate::IconProps {
@@ -24575,7 +24575,7 @@ impl IconData {
             html: bootstrap_mic_fill,
         }
     };
-    const BOOTSTRAP_MIC_MUTE_FILL: Self = {
+    pub const BOOTSTRAP_MIC_MUTE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_mic_mute_fill(
             crate::IconProps {
@@ -24597,7 +24597,7 @@ impl IconData {
             html: bootstrap_mic_mute_fill,
         }
     };
-    const BOOTSTRAP_MIC_MUTE: Self = {
+    pub const BOOTSTRAP_MIC_MUTE: Self = {
         #[inline(never)]
         fn bootstrap_mic_mute(
             crate::IconProps {
@@ -24619,7 +24619,7 @@ impl IconData {
             html: bootstrap_mic_mute,
         }
     };
-    const BOOTSTRAP_MIC: Self = {
+    pub const BOOTSTRAP_MIC: Self = {
         #[inline(never)]
         fn bootstrap_mic(
             crate::IconProps {
@@ -24641,7 +24641,7 @@ impl IconData {
             html: bootstrap_mic,
         }
     };
-    const BOOTSTRAP_MICROSOFT: Self = {
+    pub const BOOTSTRAP_MICROSOFT: Self = {
         #[inline(never)]
         fn bootstrap_microsoft(
             crate::IconProps {
@@ -24663,7 +24663,7 @@ impl IconData {
             html: bootstrap_microsoft,
         }
     };
-    const BOOTSTRAP_MINECART_LOADED: Self = {
+    pub const BOOTSTRAP_MINECART_LOADED: Self = {
         #[inline(never)]
         fn bootstrap_minecart_loaded(
             crate::IconProps {
@@ -24685,7 +24685,7 @@ impl IconData {
             html: bootstrap_minecart_loaded,
         }
     };
-    const BOOTSTRAP_MINECART: Self = {
+    pub const BOOTSTRAP_MINECART: Self = {
         #[inline(never)]
         fn bootstrap_minecart(
             crate::IconProps {
@@ -24707,7 +24707,7 @@ impl IconData {
             html: bootstrap_minecart,
         }
     };
-    const BOOTSTRAP_MODEM_FILL: Self = {
+    pub const BOOTSTRAP_MODEM_FILL: Self = {
         #[inline(never)]
         fn bootstrap_modem_fill(
             crate::IconProps {
@@ -24729,7 +24729,7 @@ impl IconData {
             html: bootstrap_modem_fill,
         }
     };
-    const BOOTSTRAP_MODEM: Self = {
+    pub const BOOTSTRAP_MODEM: Self = {
         #[inline(never)]
         fn bootstrap_modem(
             crate::IconProps {
@@ -24751,7 +24751,7 @@ impl IconData {
             html: bootstrap_modem,
         }
     };
-    const BOOTSTRAP_MOISTURE: Self = {
+    pub const BOOTSTRAP_MOISTURE: Self = {
         #[inline(never)]
         fn bootstrap_moisture(
             crate::IconProps {
@@ -24773,7 +24773,7 @@ impl IconData {
             html: bootstrap_moisture,
         }
     };
-    const BOOTSTRAP_MOON_FILL: Self = {
+    pub const BOOTSTRAP_MOON_FILL: Self = {
         #[inline(never)]
         fn bootstrap_moon_fill(
             crate::IconProps {
@@ -24795,7 +24795,7 @@ impl IconData {
             html: bootstrap_moon_fill,
         }
     };
-    const BOOTSTRAP_MOON_STARS_FILL: Self = {
+    pub const BOOTSTRAP_MOON_STARS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_moon_stars_fill(
             crate::IconProps {
@@ -24817,7 +24817,7 @@ impl IconData {
             html: bootstrap_moon_stars_fill,
         }
     };
-    const BOOTSTRAP_MOON_STARS: Self = {
+    pub const BOOTSTRAP_MOON_STARS: Self = {
         #[inline(never)]
         fn bootstrap_moon_stars(
             crate::IconProps {
@@ -24839,7 +24839,7 @@ impl IconData {
             html: bootstrap_moon_stars,
         }
     };
-    const BOOTSTRAP_MOON: Self = {
+    pub const BOOTSTRAP_MOON: Self = {
         #[inline(never)]
         fn bootstrap_moon(
             crate::IconProps {
@@ -24861,7 +24861,7 @@ impl IconData {
             html: bootstrap_moon,
         }
     };
-    const BOOTSTRAP_MORTARBOARD_FILL: Self = {
+    pub const BOOTSTRAP_MORTARBOARD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_mortarboard_fill(
             crate::IconProps {
@@ -24883,7 +24883,7 @@ impl IconData {
             html: bootstrap_mortarboard_fill,
         }
     };
-    const BOOTSTRAP_MORTARBOARD: Self = {
+    pub const BOOTSTRAP_MORTARBOARD: Self = {
         #[inline(never)]
         fn bootstrap_mortarboard(
             crate::IconProps {
@@ -24905,7 +24905,7 @@ impl IconData {
             html: bootstrap_mortarboard,
         }
     };
-    const BOOTSTRAP_MOTHERBOARD_FILL: Self = {
+    pub const BOOTSTRAP_MOTHERBOARD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_motherboard_fill(
             crate::IconProps {
@@ -24927,7 +24927,7 @@ impl IconData {
             html: bootstrap_motherboard_fill,
         }
     };
-    const BOOTSTRAP_MOTHERBOARD: Self = {
+    pub const BOOTSTRAP_MOTHERBOARD: Self = {
         #[inline(never)]
         fn bootstrap_motherboard(
             crate::IconProps {
@@ -24949,7 +24949,7 @@ impl IconData {
             html: bootstrap_motherboard,
         }
     };
-    const BOOTSTRAP_MOUSE_FILL: Self = {
+    pub const BOOTSTRAP_MOUSE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_mouse_fill(
             crate::IconProps {
@@ -24971,7 +24971,7 @@ impl IconData {
             html: bootstrap_mouse_fill,
         }
     };
-    const BOOTSTRAP_MOUSE: Self = {
+    pub const BOOTSTRAP_MOUSE: Self = {
         #[inline(never)]
         fn bootstrap_mouse(
             crate::IconProps {
@@ -24993,7 +24993,7 @@ impl IconData {
             html: bootstrap_mouse,
         }
     };
-    const BOOTSTRAP_MOUSE_2_FILL: Self = {
+    pub const BOOTSTRAP_MOUSE_2_FILL: Self = {
         #[inline(never)]
         fn bootstrap_mouse_2_fill(
             crate::IconProps {
@@ -25015,7 +25015,7 @@ impl IconData {
             html: bootstrap_mouse_2_fill,
         }
     };
-    const BOOTSTRAP_MOUSE_2: Self = {
+    pub const BOOTSTRAP_MOUSE_2: Self = {
         #[inline(never)]
         fn bootstrap_mouse_2(
             crate::IconProps {
@@ -25037,7 +25037,7 @@ impl IconData {
             html: bootstrap_mouse_2,
         }
     };
-    const BOOTSTRAP_MOUSE_3_FILL: Self = {
+    pub const BOOTSTRAP_MOUSE_3_FILL: Self = {
         #[inline(never)]
         fn bootstrap_mouse_3_fill(
             crate::IconProps {
@@ -25059,7 +25059,7 @@ impl IconData {
             html: bootstrap_mouse_3_fill,
         }
     };
-    const BOOTSTRAP_MOUSE_3: Self = {
+    pub const BOOTSTRAP_MOUSE_3: Self = {
         #[inline(never)]
         fn bootstrap_mouse_3(
             crate::IconProps {
@@ -25081,7 +25081,7 @@ impl IconData {
             html: bootstrap_mouse_3,
         }
     };
-    const BOOTSTRAP_MUSIC_NOTE_BEAMED: Self = {
+    pub const BOOTSTRAP_MUSIC_NOTE_BEAMED: Self = {
         #[inline(never)]
         fn bootstrap_music_note_beamed(
             crate::IconProps {
@@ -25103,7 +25103,7 @@ impl IconData {
             html: bootstrap_music_note_beamed,
         }
     };
-    const BOOTSTRAP_MUSIC_NOTE_LIST: Self = {
+    pub const BOOTSTRAP_MUSIC_NOTE_LIST: Self = {
         #[inline(never)]
         fn bootstrap_music_note_list(
             crate::IconProps {
@@ -25125,7 +25125,7 @@ impl IconData {
             html: bootstrap_music_note_list,
         }
     };
-    const BOOTSTRAP_MUSIC_NOTE: Self = {
+    pub const BOOTSTRAP_MUSIC_NOTE: Self = {
         #[inline(never)]
         fn bootstrap_music_note(
             crate::IconProps {
@@ -25147,7 +25147,7 @@ impl IconData {
             html: bootstrap_music_note,
         }
     };
-    const BOOTSTRAP_MUSIC_PLAYER_FILL: Self = {
+    pub const BOOTSTRAP_MUSIC_PLAYER_FILL: Self = {
         #[inline(never)]
         fn bootstrap_music_player_fill(
             crate::IconProps {
@@ -25169,7 +25169,7 @@ impl IconData {
             html: bootstrap_music_player_fill,
         }
     };
-    const BOOTSTRAP_MUSIC_PLAYER: Self = {
+    pub const BOOTSTRAP_MUSIC_PLAYER: Self = {
         #[inline(never)]
         fn bootstrap_music_player(
             crate::IconProps {
@@ -25191,7 +25191,7 @@ impl IconData {
             html: bootstrap_music_player,
         }
     };
-    const BOOTSTRAP_NEWSPAPER: Self = {
+    pub const BOOTSTRAP_NEWSPAPER: Self = {
         #[inline(never)]
         fn bootstrap_newspaper(
             crate::IconProps {
@@ -25213,7 +25213,7 @@ impl IconData {
             html: bootstrap_newspaper,
         }
     };
-    const BOOTSTRAP_NINTENDO_SWITCH: Self = {
+    pub const BOOTSTRAP_NINTENDO_SWITCH: Self = {
         #[inline(never)]
         fn bootstrap_nintendo_switch(
             crate::IconProps {
@@ -25235,7 +25235,7 @@ impl IconData {
             html: bootstrap_nintendo_switch,
         }
     };
-    const BOOTSTRAP_NODE_MINUS_FILL: Self = {
+    pub const BOOTSTRAP_NODE_MINUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_node_minus_fill(
             crate::IconProps {
@@ -25257,7 +25257,7 @@ impl IconData {
             html: bootstrap_node_minus_fill,
         }
     };
-    const BOOTSTRAP_NODE_MINUS: Self = {
+    pub const BOOTSTRAP_NODE_MINUS: Self = {
         #[inline(never)]
         fn bootstrap_node_minus(
             crate::IconProps {
@@ -25279,7 +25279,7 @@ impl IconData {
             html: bootstrap_node_minus,
         }
     };
-    const BOOTSTRAP_NODE_PLUS_FILL: Self = {
+    pub const BOOTSTRAP_NODE_PLUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_node_plus_fill(
             crate::IconProps {
@@ -25301,7 +25301,7 @@ impl IconData {
             html: bootstrap_node_plus_fill,
         }
     };
-    const BOOTSTRAP_NODE_PLUS: Self = {
+    pub const BOOTSTRAP_NODE_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_node_plus(
             crate::IconProps {
@@ -25323,7 +25323,7 @@ impl IconData {
             html: bootstrap_node_plus,
         }
     };
-    const BOOTSTRAP_NUT_FILL: Self = {
+    pub const BOOTSTRAP_NUT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_nut_fill(
             crate::IconProps {
@@ -25345,7 +25345,7 @@ impl IconData {
             html: bootstrap_nut_fill,
         }
     };
-    const BOOTSTRAP_NUT: Self = {
+    pub const BOOTSTRAP_NUT: Self = {
         #[inline(never)]
         fn bootstrap_nut(
             crate::IconProps {
@@ -25367,7 +25367,7 @@ impl IconData {
             html: bootstrap_nut,
         }
     };
-    const BOOTSTRAP_OCTAGON_FILL: Self = {
+    pub const BOOTSTRAP_OCTAGON_FILL: Self = {
         #[inline(never)]
         fn bootstrap_octagon_fill(
             crate::IconProps {
@@ -25389,7 +25389,7 @@ impl IconData {
             html: bootstrap_octagon_fill,
         }
     };
-    const BOOTSTRAP_OCTAGON_HALF: Self = {
+    pub const BOOTSTRAP_OCTAGON_HALF: Self = {
         #[inline(never)]
         fn bootstrap_octagon_half(
             crate::IconProps {
@@ -25411,7 +25411,7 @@ impl IconData {
             html: bootstrap_octagon_half,
         }
     };
-    const BOOTSTRAP_OCTAGON: Self = {
+    pub const BOOTSTRAP_OCTAGON: Self = {
         #[inline(never)]
         fn bootstrap_octagon(
             crate::IconProps {
@@ -25433,7 +25433,7 @@ impl IconData {
             html: bootstrap_octagon,
         }
     };
-    const BOOTSTRAP_OPTICAL_AUDIO_FILL: Self = {
+    pub const BOOTSTRAP_OPTICAL_AUDIO_FILL: Self = {
         #[inline(never)]
         fn bootstrap_optical_audio_fill(
             crate::IconProps {
@@ -25455,7 +25455,7 @@ impl IconData {
             html: bootstrap_optical_audio_fill,
         }
     };
-    const BOOTSTRAP_OPTICAL_AUDIO: Self = {
+    pub const BOOTSTRAP_OPTICAL_AUDIO: Self = {
         #[inline(never)]
         fn bootstrap_optical_audio(
             crate::IconProps {
@@ -25477,7 +25477,7 @@ impl IconData {
             html: bootstrap_optical_audio,
         }
     };
-    const BOOTSTRAP_OPTION: Self = {
+    pub const BOOTSTRAP_OPTION: Self = {
         #[inline(never)]
         fn bootstrap_option(
             crate::IconProps {
@@ -25499,7 +25499,7 @@ impl IconData {
             html: bootstrap_option,
         }
     };
-    const BOOTSTRAP_OUTLET: Self = {
+    pub const BOOTSTRAP_OUTLET: Self = {
         #[inline(never)]
         fn bootstrap_outlet(
             crate::IconProps {
@@ -25521,7 +25521,7 @@ impl IconData {
             html: bootstrap_outlet,
         }
     };
-    const BOOTSTRAP_PAINT_BUCKET: Self = {
+    pub const BOOTSTRAP_PAINT_BUCKET: Self = {
         #[inline(never)]
         fn bootstrap_paint_bucket(
             crate::IconProps {
@@ -25543,7 +25543,7 @@ impl IconData {
             html: bootstrap_paint_bucket,
         }
     };
-    const BOOTSTRAP_PALETTE_FILL: Self = {
+    pub const BOOTSTRAP_PALETTE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_palette_fill(
             crate::IconProps {
@@ -25565,7 +25565,7 @@ impl IconData {
             html: bootstrap_palette_fill,
         }
     };
-    const BOOTSTRAP_PALETTE: Self = {
+    pub const BOOTSTRAP_PALETTE: Self = {
         #[inline(never)]
         fn bootstrap_palette(
             crate::IconProps {
@@ -25587,7 +25587,7 @@ impl IconData {
             html: bootstrap_palette,
         }
     };
-    const BOOTSTRAP_PALETTE_2: Self = {
+    pub const BOOTSTRAP_PALETTE_2: Self = {
         #[inline(never)]
         fn bootstrap_palette_2(
             crate::IconProps {
@@ -25609,7 +25609,7 @@ impl IconData {
             html: bootstrap_palette_2,
         }
     };
-    const BOOTSTRAP_PAPERCLIP: Self = {
+    pub const BOOTSTRAP_PAPERCLIP: Self = {
         #[inline(never)]
         fn bootstrap_paperclip(
             crate::IconProps {
@@ -25631,7 +25631,7 @@ impl IconData {
             html: bootstrap_paperclip,
         }
     };
-    const BOOTSTRAP_PARAGRAPH: Self = {
+    pub const BOOTSTRAP_PARAGRAPH: Self = {
         #[inline(never)]
         fn bootstrap_paragraph(
             crate::IconProps {
@@ -25653,7 +25653,7 @@ impl IconData {
             html: bootstrap_paragraph,
         }
     };
-    const BOOTSTRAP_PATCH_CHECK_FILL: Self = {
+    pub const BOOTSTRAP_PATCH_CHECK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_patch_check_fill(
             crate::IconProps {
@@ -25675,7 +25675,7 @@ impl IconData {
             html: bootstrap_patch_check_fill,
         }
     };
-    const BOOTSTRAP_PATCH_CHECK: Self = {
+    pub const BOOTSTRAP_PATCH_CHECK: Self = {
         #[inline(never)]
         fn bootstrap_patch_check(
             crate::IconProps {
@@ -25697,7 +25697,7 @@ impl IconData {
             html: bootstrap_patch_check,
         }
     };
-    const BOOTSTRAP_PATCH_EXCLAMATION_FILL: Self = {
+    pub const BOOTSTRAP_PATCH_EXCLAMATION_FILL: Self = {
         #[inline(never)]
         fn bootstrap_patch_exclamation_fill(
             crate::IconProps {
@@ -25719,7 +25719,7 @@ impl IconData {
             html: bootstrap_patch_exclamation_fill,
         }
     };
-    const BOOTSTRAP_PATCH_EXCLAMATION: Self = {
+    pub const BOOTSTRAP_PATCH_EXCLAMATION: Self = {
         #[inline(never)]
         fn bootstrap_patch_exclamation(
             crate::IconProps {
@@ -25741,7 +25741,7 @@ impl IconData {
             html: bootstrap_patch_exclamation,
         }
     };
-    const BOOTSTRAP_PATCH_MINUS_FILL: Self = {
+    pub const BOOTSTRAP_PATCH_MINUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_patch_minus_fill(
             crate::IconProps {
@@ -25763,7 +25763,7 @@ impl IconData {
             html: bootstrap_patch_minus_fill,
         }
     };
-    const BOOTSTRAP_PATCH_MINUS: Self = {
+    pub const BOOTSTRAP_PATCH_MINUS: Self = {
         #[inline(never)]
         fn bootstrap_patch_minus(
             crate::IconProps {
@@ -25785,7 +25785,7 @@ impl IconData {
             html: bootstrap_patch_minus,
         }
     };
-    const BOOTSTRAP_PATCH_PLUS_FILL: Self = {
+    pub const BOOTSTRAP_PATCH_PLUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_patch_plus_fill(
             crate::IconProps {
@@ -25807,7 +25807,7 @@ impl IconData {
             html: bootstrap_patch_plus_fill,
         }
     };
-    const BOOTSTRAP_PATCH_PLUS: Self = {
+    pub const BOOTSTRAP_PATCH_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_patch_plus(
             crate::IconProps {
@@ -25829,7 +25829,7 @@ impl IconData {
             html: bootstrap_patch_plus,
         }
     };
-    const BOOTSTRAP_PATCH_QUESTION_FILL: Self = {
+    pub const BOOTSTRAP_PATCH_QUESTION_FILL: Self = {
         #[inline(never)]
         fn bootstrap_patch_question_fill(
             crate::IconProps {
@@ -25851,7 +25851,7 @@ impl IconData {
             html: bootstrap_patch_question_fill,
         }
     };
-    const BOOTSTRAP_PATCH_QUESTION: Self = {
+    pub const BOOTSTRAP_PATCH_QUESTION: Self = {
         #[inline(never)]
         fn bootstrap_patch_question(
             crate::IconProps {
@@ -25873,7 +25873,7 @@ impl IconData {
             html: bootstrap_patch_question,
         }
     };
-    const BOOTSTRAP_PAUSE_BTN_FILL: Self = {
+    pub const BOOTSTRAP_PAUSE_BTN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_pause_btn_fill(
             crate::IconProps {
@@ -25895,7 +25895,7 @@ impl IconData {
             html: bootstrap_pause_btn_fill,
         }
     };
-    const BOOTSTRAP_PAUSE_BTN: Self = {
+    pub const BOOTSTRAP_PAUSE_BTN: Self = {
         #[inline(never)]
         fn bootstrap_pause_btn(
             crate::IconProps {
@@ -25917,7 +25917,7 @@ impl IconData {
             html: bootstrap_pause_btn,
         }
     };
-    const BOOTSTRAP_PAUSE_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_PAUSE_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_pause_circle_fill(
             crate::IconProps {
@@ -25939,7 +25939,7 @@ impl IconData {
             html: bootstrap_pause_circle_fill,
         }
     };
-    const BOOTSTRAP_PAUSE_CIRCLE: Self = {
+    pub const BOOTSTRAP_PAUSE_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_pause_circle(
             crate::IconProps {
@@ -25961,7 +25961,7 @@ impl IconData {
             html: bootstrap_pause_circle,
         }
     };
-    const BOOTSTRAP_PAUSE_FILL: Self = {
+    pub const BOOTSTRAP_PAUSE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_pause_fill(
             crate::IconProps {
@@ -25983,7 +25983,7 @@ impl IconData {
             html: bootstrap_pause_fill,
         }
     };
-    const BOOTSTRAP_PAUSE: Self = {
+    pub const BOOTSTRAP_PAUSE: Self = {
         #[inline(never)]
         fn bootstrap_pause(
             crate::IconProps {
@@ -26005,7 +26005,7 @@ impl IconData {
             html: bootstrap_pause,
         }
     };
-    const BOOTSTRAP_PAYPAL: Self = {
+    pub const BOOTSTRAP_PAYPAL: Self = {
         #[inline(never)]
         fn bootstrap_paypal(
             crate::IconProps {
@@ -26027,7 +26027,7 @@ impl IconData {
             html: bootstrap_paypal,
         }
     };
-    const BOOTSTRAP_PC_DISPLAY_HORIZONTAL: Self = {
+    pub const BOOTSTRAP_PC_DISPLAY_HORIZONTAL: Self = {
         #[inline(never)]
         fn bootstrap_pc_display_horizontal(
             crate::IconProps {
@@ -26049,7 +26049,7 @@ impl IconData {
             html: bootstrap_pc_display_horizontal,
         }
     };
-    const BOOTSTRAP_PC_DISPLAY: Self = {
+    pub const BOOTSTRAP_PC_DISPLAY: Self = {
         #[inline(never)]
         fn bootstrap_pc_display(
             crate::IconProps {
@@ -26071,7 +26071,7 @@ impl IconData {
             html: bootstrap_pc_display,
         }
     };
-    const BOOTSTRAP_PC_HORIZONTAL: Self = {
+    pub const BOOTSTRAP_PC_HORIZONTAL: Self = {
         #[inline(never)]
         fn bootstrap_pc_horizontal(
             crate::IconProps {
@@ -26093,7 +26093,7 @@ impl IconData {
             html: bootstrap_pc_horizontal,
         }
     };
-    const BOOTSTRAP_PC: Self = {
+    pub const BOOTSTRAP_PC: Self = {
         #[inline(never)]
         fn bootstrap_pc(
             crate::IconProps {
@@ -26115,7 +26115,7 @@ impl IconData {
             html: bootstrap_pc,
         }
     };
-    const BOOTSTRAP_PCI_CARD: Self = {
+    pub const BOOTSTRAP_PCI_CARD: Self = {
         #[inline(never)]
         fn bootstrap_pci_card(
             crate::IconProps {
@@ -26137,7 +26137,7 @@ impl IconData {
             html: bootstrap_pci_card,
         }
     };
-    const BOOTSTRAP_PEACE_FILL: Self = {
+    pub const BOOTSTRAP_PEACE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_peace_fill(
             crate::IconProps {
@@ -26159,7 +26159,7 @@ impl IconData {
             html: bootstrap_peace_fill,
         }
     };
-    const BOOTSTRAP_PEACE: Self = {
+    pub const BOOTSTRAP_PEACE: Self = {
         #[inline(never)]
         fn bootstrap_peace(
             crate::IconProps {
@@ -26181,7 +26181,7 @@ impl IconData {
             html: bootstrap_peace,
         }
     };
-    const BOOTSTRAP_PEN_FILL: Self = {
+    pub const BOOTSTRAP_PEN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_pen_fill(
             crate::IconProps {
@@ -26203,7 +26203,7 @@ impl IconData {
             html: bootstrap_pen_fill,
         }
     };
-    const BOOTSTRAP_PEN: Self = {
+    pub const BOOTSTRAP_PEN: Self = {
         #[inline(never)]
         fn bootstrap_pen(
             crate::IconProps {
@@ -26225,7 +26225,7 @@ impl IconData {
             html: bootstrap_pen,
         }
     };
-    const BOOTSTRAP_PENCIL_FILL: Self = {
+    pub const BOOTSTRAP_PENCIL_FILL: Self = {
         #[inline(never)]
         fn bootstrap_pencil_fill(
             crate::IconProps {
@@ -26247,7 +26247,7 @@ impl IconData {
             html: bootstrap_pencil_fill,
         }
     };
-    const BOOTSTRAP_PENCIL_SQUARE: Self = {
+    pub const BOOTSTRAP_PENCIL_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_pencil_square(
             crate::IconProps {
@@ -26269,7 +26269,7 @@ impl IconData {
             html: bootstrap_pencil_square,
         }
     };
-    const BOOTSTRAP_PENCIL: Self = {
+    pub const BOOTSTRAP_PENCIL: Self = {
         #[inline(never)]
         fn bootstrap_pencil(
             crate::IconProps {
@@ -26291,7 +26291,7 @@ impl IconData {
             html: bootstrap_pencil,
         }
     };
-    const BOOTSTRAP_PENTAGON_FILL: Self = {
+    pub const BOOTSTRAP_PENTAGON_FILL: Self = {
         #[inline(never)]
         fn bootstrap_pentagon_fill(
             crate::IconProps {
@@ -26313,7 +26313,7 @@ impl IconData {
             html: bootstrap_pentagon_fill,
         }
     };
-    const BOOTSTRAP_PENTAGON_HALF: Self = {
+    pub const BOOTSTRAP_PENTAGON_HALF: Self = {
         #[inline(never)]
         fn bootstrap_pentagon_half(
             crate::IconProps {
@@ -26335,7 +26335,7 @@ impl IconData {
             html: bootstrap_pentagon_half,
         }
     };
-    const BOOTSTRAP_PENTAGON: Self = {
+    pub const BOOTSTRAP_PENTAGON: Self = {
         #[inline(never)]
         fn bootstrap_pentagon(
             crate::IconProps {
@@ -26357,7 +26357,7 @@ impl IconData {
             html: bootstrap_pentagon,
         }
     };
-    const BOOTSTRAP_PEOPLE_FILL: Self = {
+    pub const BOOTSTRAP_PEOPLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_people_fill(
             crate::IconProps {
@@ -26379,7 +26379,7 @@ impl IconData {
             html: bootstrap_people_fill,
         }
     };
-    const BOOTSTRAP_PEOPLE: Self = {
+    pub const BOOTSTRAP_PEOPLE: Self = {
         #[inline(never)]
         fn bootstrap_people(
             crate::IconProps {
@@ -26401,7 +26401,7 @@ impl IconData {
             html: bootstrap_people,
         }
     };
-    const BOOTSTRAP_PERCENT: Self = {
+    pub const BOOTSTRAP_PERCENT: Self = {
         #[inline(never)]
         fn bootstrap_percent(
             crate::IconProps {
@@ -26423,7 +26423,7 @@ impl IconData {
             html: bootstrap_percent,
         }
     };
-    const BOOTSTRAP_PERSON_BADGE_FILL: Self = {
+    pub const BOOTSTRAP_PERSON_BADGE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_person_badge_fill(
             crate::IconProps {
@@ -26445,7 +26445,7 @@ impl IconData {
             html: bootstrap_person_badge_fill,
         }
     };
-    const BOOTSTRAP_PERSON_BADGE: Self = {
+    pub const BOOTSTRAP_PERSON_BADGE: Self = {
         #[inline(never)]
         fn bootstrap_person_badge(
             crate::IconProps {
@@ -26467,7 +26467,7 @@ impl IconData {
             html: bootstrap_person_badge,
         }
     };
-    const BOOTSTRAP_PERSON_BOUNDING_BOX: Self = {
+    pub const BOOTSTRAP_PERSON_BOUNDING_BOX: Self = {
         #[inline(never)]
         fn bootstrap_person_bounding_box(
             crate::IconProps {
@@ -26489,7 +26489,7 @@ impl IconData {
             html: bootstrap_person_bounding_box,
         }
     };
-    const BOOTSTRAP_PERSON_CHECK_FILL: Self = {
+    pub const BOOTSTRAP_PERSON_CHECK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_person_check_fill(
             crate::IconProps {
@@ -26511,7 +26511,7 @@ impl IconData {
             html: bootstrap_person_check_fill,
         }
     };
-    const BOOTSTRAP_PERSON_CHECK: Self = {
+    pub const BOOTSTRAP_PERSON_CHECK: Self = {
         #[inline(never)]
         fn bootstrap_person_check(
             crate::IconProps {
@@ -26533,7 +26533,7 @@ impl IconData {
             html: bootstrap_person_check,
         }
     };
-    const BOOTSTRAP_PERSON_CIRCLE: Self = {
+    pub const BOOTSTRAP_PERSON_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_person_circle(
             crate::IconProps {
@@ -26555,7 +26555,7 @@ impl IconData {
             html: bootstrap_person_circle,
         }
     };
-    const BOOTSTRAP_PERSON_DASH_FILL: Self = {
+    pub const BOOTSTRAP_PERSON_DASH_FILL: Self = {
         #[inline(never)]
         fn bootstrap_person_dash_fill(
             crate::IconProps {
@@ -26577,7 +26577,7 @@ impl IconData {
             html: bootstrap_person_dash_fill,
         }
     };
-    const BOOTSTRAP_PERSON_DASH: Self = {
+    pub const BOOTSTRAP_PERSON_DASH: Self = {
         #[inline(never)]
         fn bootstrap_person_dash(
             crate::IconProps {
@@ -26599,7 +26599,7 @@ impl IconData {
             html: bootstrap_person_dash,
         }
     };
-    const BOOTSTRAP_PERSON_FILL: Self = {
+    pub const BOOTSTRAP_PERSON_FILL: Self = {
         #[inline(never)]
         fn bootstrap_person_fill(
             crate::IconProps {
@@ -26621,7 +26621,7 @@ impl IconData {
             html: bootstrap_person_fill,
         }
     };
-    const BOOTSTRAP_PERSON_HEART: Self = {
+    pub const BOOTSTRAP_PERSON_HEART: Self = {
         #[inline(never)]
         fn bootstrap_person_heart(
             crate::IconProps {
@@ -26643,7 +26643,7 @@ impl IconData {
             html: bootstrap_person_heart,
         }
     };
-    const BOOTSTRAP_PERSON_HEARTS: Self = {
+    pub const BOOTSTRAP_PERSON_HEARTS: Self = {
         #[inline(never)]
         fn bootstrap_person_hearts(
             crate::IconProps {
@@ -26665,7 +26665,7 @@ impl IconData {
             html: bootstrap_person_hearts,
         }
     };
-    const BOOTSTRAP_PERSON_LINES_FILL: Self = {
+    pub const BOOTSTRAP_PERSON_LINES_FILL: Self = {
         #[inline(never)]
         fn bootstrap_person_lines_fill(
             crate::IconProps {
@@ -26687,7 +26687,7 @@ impl IconData {
             html: bootstrap_person_lines_fill,
         }
     };
-    const BOOTSTRAP_PERSON_PLUS_FILL: Self = {
+    pub const BOOTSTRAP_PERSON_PLUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_person_plus_fill(
             crate::IconProps {
@@ -26709,7 +26709,7 @@ impl IconData {
             html: bootstrap_person_plus_fill,
         }
     };
-    const BOOTSTRAP_PERSON_PLUS: Self = {
+    pub const BOOTSTRAP_PERSON_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_person_plus(
             crate::IconProps {
@@ -26731,7 +26731,7 @@ impl IconData {
             html: bootstrap_person_plus,
         }
     };
-    const BOOTSTRAP_PERSON_ROLODEX: Self = {
+    pub const BOOTSTRAP_PERSON_ROLODEX: Self = {
         #[inline(never)]
         fn bootstrap_person_rolodex(
             crate::IconProps {
@@ -26753,7 +26753,7 @@ impl IconData {
             html: bootstrap_person_rolodex,
         }
     };
-    const BOOTSTRAP_PERSON_SQUARE: Self = {
+    pub const BOOTSTRAP_PERSON_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_person_square(
             crate::IconProps {
@@ -26775,7 +26775,7 @@ impl IconData {
             html: bootstrap_person_square,
         }
     };
-    const BOOTSTRAP_PERSON_VIDEO: Self = {
+    pub const BOOTSTRAP_PERSON_VIDEO: Self = {
         #[inline(never)]
         fn bootstrap_person_video(
             crate::IconProps {
@@ -26797,7 +26797,7 @@ impl IconData {
             html: bootstrap_person_video,
         }
     };
-    const BOOTSTRAP_PERSON_VIDEO_2: Self = {
+    pub const BOOTSTRAP_PERSON_VIDEO_2: Self = {
         #[inline(never)]
         fn bootstrap_person_video_2(
             crate::IconProps {
@@ -26819,7 +26819,7 @@ impl IconData {
             html: bootstrap_person_video_2,
         }
     };
-    const BOOTSTRAP_PERSON_VIDEO_3: Self = {
+    pub const BOOTSTRAP_PERSON_VIDEO_3: Self = {
         #[inline(never)]
         fn bootstrap_person_video_3(
             crate::IconProps {
@@ -26841,7 +26841,7 @@ impl IconData {
             html: bootstrap_person_video_3,
         }
     };
-    const BOOTSTRAP_PERSON_WORKSPACE: Self = {
+    pub const BOOTSTRAP_PERSON_WORKSPACE: Self = {
         #[inline(never)]
         fn bootstrap_person_workspace(
             crate::IconProps {
@@ -26863,7 +26863,7 @@ impl IconData {
             html: bootstrap_person_workspace,
         }
     };
-    const BOOTSTRAP_PERSON_X_FILL: Self = {
+    pub const BOOTSTRAP_PERSON_X_FILL: Self = {
         #[inline(never)]
         fn bootstrap_person_x_fill(
             crate::IconProps {
@@ -26885,7 +26885,7 @@ impl IconData {
             html: bootstrap_person_x_fill,
         }
     };
-    const BOOTSTRAP_PERSON_X: Self = {
+    pub const BOOTSTRAP_PERSON_X: Self = {
         #[inline(never)]
         fn bootstrap_person_x(
             crate::IconProps {
@@ -26907,7 +26907,7 @@ impl IconData {
             html: bootstrap_person_x,
         }
     };
-    const BOOTSTRAP_PERSON: Self = {
+    pub const BOOTSTRAP_PERSON: Self = {
         #[inline(never)]
         fn bootstrap_person(
             crate::IconProps {
@@ -26929,7 +26929,7 @@ impl IconData {
             html: bootstrap_person,
         }
     };
-    const BOOTSTRAP_PHONE_FILL: Self = {
+    pub const BOOTSTRAP_PHONE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_phone_fill(
             crate::IconProps {
@@ -26951,7 +26951,7 @@ impl IconData {
             html: bootstrap_phone_fill,
         }
     };
-    const BOOTSTRAP_PHONE_FLIP: Self = {
+    pub const BOOTSTRAP_PHONE_FLIP: Self = {
         #[inline(never)]
         fn bootstrap_phone_flip(
             crate::IconProps {
@@ -26973,7 +26973,7 @@ impl IconData {
             html: bootstrap_phone_flip,
         }
     };
-    const BOOTSTRAP_PHONE_LANDSCAPE_FILL: Self = {
+    pub const BOOTSTRAP_PHONE_LANDSCAPE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_phone_landscape_fill(
             crate::IconProps {
@@ -26995,7 +26995,7 @@ impl IconData {
             html: bootstrap_phone_landscape_fill,
         }
     };
-    const BOOTSTRAP_PHONE_LANDSCAPE: Self = {
+    pub const BOOTSTRAP_PHONE_LANDSCAPE: Self = {
         #[inline(never)]
         fn bootstrap_phone_landscape(
             crate::IconProps {
@@ -27017,7 +27017,7 @@ impl IconData {
             html: bootstrap_phone_landscape,
         }
     };
-    const BOOTSTRAP_PHONE_VIBRATE_FILL: Self = {
+    pub const BOOTSTRAP_PHONE_VIBRATE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_phone_vibrate_fill(
             crate::IconProps {
@@ -27039,7 +27039,7 @@ impl IconData {
             html: bootstrap_phone_vibrate_fill,
         }
     };
-    const BOOTSTRAP_PHONE_VIBRATE: Self = {
+    pub const BOOTSTRAP_PHONE_VIBRATE: Self = {
         #[inline(never)]
         fn bootstrap_phone_vibrate(
             crate::IconProps {
@@ -27061,7 +27061,7 @@ impl IconData {
             html: bootstrap_phone_vibrate,
         }
     };
-    const BOOTSTRAP_PHONE: Self = {
+    pub const BOOTSTRAP_PHONE: Self = {
         #[inline(never)]
         fn bootstrap_phone(
             crate::IconProps {
@@ -27083,7 +27083,7 @@ impl IconData {
             html: bootstrap_phone,
         }
     };
-    const BOOTSTRAP_PIE_CHART_FILL: Self = {
+    pub const BOOTSTRAP_PIE_CHART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_pie_chart_fill(
             crate::IconProps {
@@ -27105,7 +27105,7 @@ impl IconData {
             html: bootstrap_pie_chart_fill,
         }
     };
-    const BOOTSTRAP_PIE_CHART: Self = {
+    pub const BOOTSTRAP_PIE_CHART: Self = {
         #[inline(never)]
         fn bootstrap_pie_chart(
             crate::IconProps {
@@ -27127,7 +27127,7 @@ impl IconData {
             html: bootstrap_pie_chart,
         }
     };
-    const BOOTSTRAP_PIGGY_BANK_FILL: Self = {
+    pub const BOOTSTRAP_PIGGY_BANK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_piggy_bank_fill(
             crate::IconProps {
@@ -27149,7 +27149,7 @@ impl IconData {
             html: bootstrap_piggy_bank_fill,
         }
     };
-    const BOOTSTRAP_PIGGY_BANK: Self = {
+    pub const BOOTSTRAP_PIGGY_BANK: Self = {
         #[inline(never)]
         fn bootstrap_piggy_bank(
             crate::IconProps {
@@ -27171,7 +27171,7 @@ impl IconData {
             html: bootstrap_piggy_bank,
         }
     };
-    const BOOTSTRAP_PIN_ANGLE_FILL: Self = {
+    pub const BOOTSTRAP_PIN_ANGLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_pin_angle_fill(
             crate::IconProps {
@@ -27193,7 +27193,7 @@ impl IconData {
             html: bootstrap_pin_angle_fill,
         }
     };
-    const BOOTSTRAP_PIN_ANGLE: Self = {
+    pub const BOOTSTRAP_PIN_ANGLE: Self = {
         #[inline(never)]
         fn bootstrap_pin_angle(
             crate::IconProps {
@@ -27215,7 +27215,7 @@ impl IconData {
             html: bootstrap_pin_angle,
         }
     };
-    const BOOTSTRAP_PIN_FILL: Self = {
+    pub const BOOTSTRAP_PIN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_pin_fill(
             crate::IconProps {
@@ -27237,7 +27237,7 @@ impl IconData {
             html: bootstrap_pin_fill,
         }
     };
-    const BOOTSTRAP_PIN_MAP_FILL: Self = {
+    pub const BOOTSTRAP_PIN_MAP_FILL: Self = {
         #[inline(never)]
         fn bootstrap_pin_map_fill(
             crate::IconProps {
@@ -27259,7 +27259,7 @@ impl IconData {
             html: bootstrap_pin_map_fill,
         }
     };
-    const BOOTSTRAP_PIN_MAP: Self = {
+    pub const BOOTSTRAP_PIN_MAP: Self = {
         #[inline(never)]
         fn bootstrap_pin_map(
             crate::IconProps {
@@ -27281,7 +27281,7 @@ impl IconData {
             html: bootstrap_pin_map,
         }
     };
-    const BOOTSTRAP_PIN: Self = {
+    pub const BOOTSTRAP_PIN: Self = {
         #[inline(never)]
         fn bootstrap_pin(
             crate::IconProps {
@@ -27303,7 +27303,7 @@ impl IconData {
             html: bootstrap_pin,
         }
     };
-    const BOOTSTRAP_PINTEREST: Self = {
+    pub const BOOTSTRAP_PINTEREST: Self = {
         #[inline(never)]
         fn bootstrap_pinterest(
             crate::IconProps {
@@ -27325,7 +27325,7 @@ impl IconData {
             html: bootstrap_pinterest,
         }
     };
-    const BOOTSTRAP_PIP_FILL: Self = {
+    pub const BOOTSTRAP_PIP_FILL: Self = {
         #[inline(never)]
         fn bootstrap_pip_fill(
             crate::IconProps {
@@ -27347,7 +27347,7 @@ impl IconData {
             html: bootstrap_pip_fill,
         }
     };
-    const BOOTSTRAP_PIP: Self = {
+    pub const BOOTSTRAP_PIP: Self = {
         #[inline(never)]
         fn bootstrap_pip(
             crate::IconProps {
@@ -27369,7 +27369,7 @@ impl IconData {
             html: bootstrap_pip,
         }
     };
-    const BOOTSTRAP_PLAY_BTN_FILL: Self = {
+    pub const BOOTSTRAP_PLAY_BTN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_play_btn_fill(
             crate::IconProps {
@@ -27391,7 +27391,7 @@ impl IconData {
             html: bootstrap_play_btn_fill,
         }
     };
-    const BOOTSTRAP_PLAY_BTN: Self = {
+    pub const BOOTSTRAP_PLAY_BTN: Self = {
         #[inline(never)]
         fn bootstrap_play_btn(
             crate::IconProps {
@@ -27413,7 +27413,7 @@ impl IconData {
             html: bootstrap_play_btn,
         }
     };
-    const BOOTSTRAP_PLAY_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_PLAY_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_play_circle_fill(
             crate::IconProps {
@@ -27435,7 +27435,7 @@ impl IconData {
             html: bootstrap_play_circle_fill,
         }
     };
-    const BOOTSTRAP_PLAY_CIRCLE: Self = {
+    pub const BOOTSTRAP_PLAY_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_play_circle(
             crate::IconProps {
@@ -27457,7 +27457,7 @@ impl IconData {
             html: bootstrap_play_circle,
         }
     };
-    const BOOTSTRAP_PLAY_FILL: Self = {
+    pub const BOOTSTRAP_PLAY_FILL: Self = {
         #[inline(never)]
         fn bootstrap_play_fill(
             crate::IconProps {
@@ -27479,7 +27479,7 @@ impl IconData {
             html: bootstrap_play_fill,
         }
     };
-    const BOOTSTRAP_PLAY: Self = {
+    pub const BOOTSTRAP_PLAY: Self = {
         #[inline(never)]
         fn bootstrap_play(
             crate::IconProps {
@@ -27501,7 +27501,7 @@ impl IconData {
             html: bootstrap_play,
         }
     };
-    const BOOTSTRAP_PLAYSTATION: Self = {
+    pub const BOOTSTRAP_PLAYSTATION: Self = {
         #[inline(never)]
         fn bootstrap_playstation(
             crate::IconProps {
@@ -27523,7 +27523,7 @@ impl IconData {
             html: bootstrap_playstation,
         }
     };
-    const BOOTSTRAP_PLUG_FILL: Self = {
+    pub const BOOTSTRAP_PLUG_FILL: Self = {
         #[inline(never)]
         fn bootstrap_plug_fill(
             crate::IconProps {
@@ -27545,7 +27545,7 @@ impl IconData {
             html: bootstrap_plug_fill,
         }
     };
-    const BOOTSTRAP_PLUG: Self = {
+    pub const BOOTSTRAP_PLUG: Self = {
         #[inline(never)]
         fn bootstrap_plug(
             crate::IconProps {
@@ -27567,7 +27567,7 @@ impl IconData {
             html: bootstrap_plug,
         }
     };
-    const BOOTSTRAP_PLUGIN: Self = {
+    pub const BOOTSTRAP_PLUGIN: Self = {
         #[inline(never)]
         fn bootstrap_plugin(
             crate::IconProps {
@@ -27589,7 +27589,7 @@ impl IconData {
             html: bootstrap_plugin,
         }
     };
-    const BOOTSTRAP_PLUS_CIRCLE_DOTTED: Self = {
+    pub const BOOTSTRAP_PLUS_CIRCLE_DOTTED: Self = {
         #[inline(never)]
         fn bootstrap_plus_circle_dotted(
             crate::IconProps {
@@ -27611,7 +27611,7 @@ impl IconData {
             html: bootstrap_plus_circle_dotted,
         }
     };
-    const BOOTSTRAP_PLUS_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_PLUS_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_plus_circle_fill(
             crate::IconProps {
@@ -27633,7 +27633,7 @@ impl IconData {
             html: bootstrap_plus_circle_fill,
         }
     };
-    const BOOTSTRAP_PLUS_CIRCLE: Self = {
+    pub const BOOTSTRAP_PLUS_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_plus_circle(
             crate::IconProps {
@@ -27655,7 +27655,7 @@ impl IconData {
             html: bootstrap_plus_circle,
         }
     };
-    const BOOTSTRAP_PLUS_LG: Self = {
+    pub const BOOTSTRAP_PLUS_LG: Self = {
         #[inline(never)]
         fn bootstrap_plus_lg(
             crate::IconProps {
@@ -27677,7 +27677,7 @@ impl IconData {
             html: bootstrap_plus_lg,
         }
     };
-    const BOOTSTRAP_PLUS_SLASH_MINUS: Self = {
+    pub const BOOTSTRAP_PLUS_SLASH_MINUS: Self = {
         #[inline(never)]
         fn bootstrap_plus_slash_minus(
             crate::IconProps {
@@ -27699,7 +27699,7 @@ impl IconData {
             html: bootstrap_plus_slash_minus,
         }
     };
-    const BOOTSTRAP_PLUS_SQUARE_DOTTED: Self = {
+    pub const BOOTSTRAP_PLUS_SQUARE_DOTTED: Self = {
         #[inline(never)]
         fn bootstrap_plus_square_dotted(
             crate::IconProps {
@@ -27721,7 +27721,7 @@ impl IconData {
             html: bootstrap_plus_square_dotted,
         }
     };
-    const BOOTSTRAP_PLUS_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_PLUS_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_plus_square_fill(
             crate::IconProps {
@@ -27743,7 +27743,7 @@ impl IconData {
             html: bootstrap_plus_square_fill,
         }
     };
-    const BOOTSTRAP_PLUS_SQUARE: Self = {
+    pub const BOOTSTRAP_PLUS_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_plus_square(
             crate::IconProps {
@@ -27765,7 +27765,7 @@ impl IconData {
             html: bootstrap_plus_square,
         }
     };
-    const BOOTSTRAP_PLUS: Self = {
+    pub const BOOTSTRAP_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_plus(
             crate::IconProps {
@@ -27787,7 +27787,7 @@ impl IconData {
             html: bootstrap_plus,
         }
     };
-    const BOOTSTRAP_POSTAGE_FILL: Self = {
+    pub const BOOTSTRAP_POSTAGE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_postage_fill(
             crate::IconProps {
@@ -27809,7 +27809,7 @@ impl IconData {
             html: bootstrap_postage_fill,
         }
     };
-    const BOOTSTRAP_POSTAGE_HEART_FILL: Self = {
+    pub const BOOTSTRAP_POSTAGE_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_postage_heart_fill(
             crate::IconProps {
@@ -27831,7 +27831,7 @@ impl IconData {
             html: bootstrap_postage_heart_fill,
         }
     };
-    const BOOTSTRAP_POSTAGE_HEART: Self = {
+    pub const BOOTSTRAP_POSTAGE_HEART: Self = {
         #[inline(never)]
         fn bootstrap_postage_heart(
             crate::IconProps {
@@ -27853,7 +27853,7 @@ impl IconData {
             html: bootstrap_postage_heart,
         }
     };
-    const BOOTSTRAP_POSTAGE: Self = {
+    pub const BOOTSTRAP_POSTAGE: Self = {
         #[inline(never)]
         fn bootstrap_postage(
             crate::IconProps {
@@ -27875,7 +27875,7 @@ impl IconData {
             html: bootstrap_postage,
         }
     };
-    const BOOTSTRAP_POSTCARD_FILL: Self = {
+    pub const BOOTSTRAP_POSTCARD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_postcard_fill(
             crate::IconProps {
@@ -27897,7 +27897,7 @@ impl IconData {
             html: bootstrap_postcard_fill,
         }
     };
-    const BOOTSTRAP_POSTCARD_HEART_FILL: Self = {
+    pub const BOOTSTRAP_POSTCARD_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_postcard_heart_fill(
             crate::IconProps {
@@ -27919,7 +27919,7 @@ impl IconData {
             html: bootstrap_postcard_heart_fill,
         }
     };
-    const BOOTSTRAP_POSTCARD_HEART: Self = {
+    pub const BOOTSTRAP_POSTCARD_HEART: Self = {
         #[inline(never)]
         fn bootstrap_postcard_heart(
             crate::IconProps {
@@ -27941,7 +27941,7 @@ impl IconData {
             html: bootstrap_postcard_heart,
         }
     };
-    const BOOTSTRAP_POSTCARD: Self = {
+    pub const BOOTSTRAP_POSTCARD: Self = {
         #[inline(never)]
         fn bootstrap_postcard(
             crate::IconProps {
@@ -27963,7 +27963,7 @@ impl IconData {
             html: bootstrap_postcard,
         }
     };
-    const BOOTSTRAP_POWER: Self = {
+    pub const BOOTSTRAP_POWER: Self = {
         #[inline(never)]
         fn bootstrap_power(
             crate::IconProps {
@@ -27985,7 +27985,7 @@ impl IconData {
             html: bootstrap_power,
         }
     };
-    const BOOTSTRAP_PRINTER_FILL: Self = {
+    pub const BOOTSTRAP_PRINTER_FILL: Self = {
         #[inline(never)]
         fn bootstrap_printer_fill(
             crate::IconProps {
@@ -28007,7 +28007,7 @@ impl IconData {
             html: bootstrap_printer_fill,
         }
     };
-    const BOOTSTRAP_PRINTER: Self = {
+    pub const BOOTSTRAP_PRINTER: Self = {
         #[inline(never)]
         fn bootstrap_printer(
             crate::IconProps {
@@ -28029,7 +28029,7 @@ impl IconData {
             html: bootstrap_printer,
         }
     };
-    const BOOTSTRAP_PROJECTOR_FILL: Self = {
+    pub const BOOTSTRAP_PROJECTOR_FILL: Self = {
         #[inline(never)]
         fn bootstrap_projector_fill(
             crate::IconProps {
@@ -28051,7 +28051,7 @@ impl IconData {
             html: bootstrap_projector_fill,
         }
     };
-    const BOOTSTRAP_PROJECTOR: Self = {
+    pub const BOOTSTRAP_PROJECTOR: Self = {
         #[inline(never)]
         fn bootstrap_projector(
             crate::IconProps {
@@ -28073,7 +28073,7 @@ impl IconData {
             html: bootstrap_projector,
         }
     };
-    const BOOTSTRAP_PUZZLE_FILL: Self = {
+    pub const BOOTSTRAP_PUZZLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_puzzle_fill(
             crate::IconProps {
@@ -28095,7 +28095,7 @@ impl IconData {
             html: bootstrap_puzzle_fill,
         }
     };
-    const BOOTSTRAP_PUZZLE: Self = {
+    pub const BOOTSTRAP_PUZZLE: Self = {
         #[inline(never)]
         fn bootstrap_puzzle(
             crate::IconProps {
@@ -28117,7 +28117,7 @@ impl IconData {
             html: bootstrap_puzzle,
         }
     };
-    const BOOTSTRAP_QR_CODE_SCAN: Self = {
+    pub const BOOTSTRAP_QR_CODE_SCAN: Self = {
         #[inline(never)]
         fn bootstrap_qr_code_scan(
             crate::IconProps {
@@ -28139,7 +28139,7 @@ impl IconData {
             html: bootstrap_qr_code_scan,
         }
     };
-    const BOOTSTRAP_QR_CODE: Self = {
+    pub const BOOTSTRAP_QR_CODE: Self = {
         #[inline(never)]
         fn bootstrap_qr_code(
             crate::IconProps {
@@ -28161,7 +28161,7 @@ impl IconData {
             html: bootstrap_qr_code,
         }
     };
-    const BOOTSTRAP_QUESTION_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_QUESTION_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_question_circle_fill(
             crate::IconProps {
@@ -28183,7 +28183,7 @@ impl IconData {
             html: bootstrap_question_circle_fill,
         }
     };
-    const BOOTSTRAP_QUESTION_CIRCLE: Self = {
+    pub const BOOTSTRAP_QUESTION_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_question_circle(
             crate::IconProps {
@@ -28205,7 +28205,7 @@ impl IconData {
             html: bootstrap_question_circle,
         }
     };
-    const BOOTSTRAP_QUESTION_DIAMOND_FILL: Self = {
+    pub const BOOTSTRAP_QUESTION_DIAMOND_FILL: Self = {
         #[inline(never)]
         fn bootstrap_question_diamond_fill(
             crate::IconProps {
@@ -28227,7 +28227,7 @@ impl IconData {
             html: bootstrap_question_diamond_fill,
         }
     };
-    const BOOTSTRAP_QUESTION_DIAMOND: Self = {
+    pub const BOOTSTRAP_QUESTION_DIAMOND: Self = {
         #[inline(never)]
         fn bootstrap_question_diamond(
             crate::IconProps {
@@ -28249,7 +28249,7 @@ impl IconData {
             html: bootstrap_question_diamond,
         }
     };
-    const BOOTSTRAP_QUESTION_LG: Self = {
+    pub const BOOTSTRAP_QUESTION_LG: Self = {
         #[inline(never)]
         fn bootstrap_question_lg(
             crate::IconProps {
@@ -28271,7 +28271,7 @@ impl IconData {
             html: bootstrap_question_lg,
         }
     };
-    const BOOTSTRAP_QUESTION_OCTAGON_FILL: Self = {
+    pub const BOOTSTRAP_QUESTION_OCTAGON_FILL: Self = {
         #[inline(never)]
         fn bootstrap_question_octagon_fill(
             crate::IconProps {
@@ -28293,7 +28293,7 @@ impl IconData {
             html: bootstrap_question_octagon_fill,
         }
     };
-    const BOOTSTRAP_QUESTION_OCTAGON: Self = {
+    pub const BOOTSTRAP_QUESTION_OCTAGON: Self = {
         #[inline(never)]
         fn bootstrap_question_octagon(
             crate::IconProps {
@@ -28315,7 +28315,7 @@ impl IconData {
             html: bootstrap_question_octagon,
         }
     };
-    const BOOTSTRAP_QUESTION_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_QUESTION_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_question_square_fill(
             crate::IconProps {
@@ -28337,7 +28337,7 @@ impl IconData {
             html: bootstrap_question_square_fill,
         }
     };
-    const BOOTSTRAP_QUESTION_SQUARE: Self = {
+    pub const BOOTSTRAP_QUESTION_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_question_square(
             crate::IconProps {
@@ -28359,7 +28359,7 @@ impl IconData {
             html: bootstrap_question_square,
         }
     };
-    const BOOTSTRAP_QUESTION: Self = {
+    pub const BOOTSTRAP_QUESTION: Self = {
         #[inline(never)]
         fn bootstrap_question(
             crate::IconProps {
@@ -28381,7 +28381,7 @@ impl IconData {
             html: bootstrap_question,
         }
     };
-    const BOOTSTRAP_QUORA: Self = {
+    pub const BOOTSTRAP_QUORA: Self = {
         #[inline(never)]
         fn bootstrap_quora(
             crate::IconProps {
@@ -28403,7 +28403,7 @@ impl IconData {
             html: bootstrap_quora,
         }
     };
-    const BOOTSTRAP_QUOTE: Self = {
+    pub const BOOTSTRAP_QUOTE: Self = {
         #[inline(never)]
         fn bootstrap_quote(
             crate::IconProps {
@@ -28425,7 +28425,7 @@ impl IconData {
             html: bootstrap_quote,
         }
     };
-    const BOOTSTRAP_RADIOACTIVE: Self = {
+    pub const BOOTSTRAP_RADIOACTIVE: Self = {
         #[inline(never)]
         fn bootstrap_radioactive(
             crate::IconProps {
@@ -28447,7 +28447,7 @@ impl IconData {
             html: bootstrap_radioactive,
         }
     };
-    const BOOTSTRAP_RAINBOW: Self = {
+    pub const BOOTSTRAP_RAINBOW: Self = {
         #[inline(never)]
         fn bootstrap_rainbow(
             crate::IconProps {
@@ -28469,7 +28469,7 @@ impl IconData {
             html: bootstrap_rainbow,
         }
     };
-    const BOOTSTRAP_RECEIPT_CUTOFF: Self = {
+    pub const BOOTSTRAP_RECEIPT_CUTOFF: Self = {
         #[inline(never)]
         fn bootstrap_receipt_cutoff(
             crate::IconProps {
@@ -28491,7 +28491,7 @@ impl IconData {
             html: bootstrap_receipt_cutoff,
         }
     };
-    const BOOTSTRAP_RECEIPT: Self = {
+    pub const BOOTSTRAP_RECEIPT: Self = {
         #[inline(never)]
         fn bootstrap_receipt(
             crate::IconProps {
@@ -28513,7 +28513,7 @@ impl IconData {
             html: bootstrap_receipt,
         }
     };
-    const BOOTSTRAP_RECEPTION_0: Self = {
+    pub const BOOTSTRAP_RECEPTION_0: Self = {
         #[inline(never)]
         fn bootstrap_reception_0(
             crate::IconProps {
@@ -28535,7 +28535,7 @@ impl IconData {
             html: bootstrap_reception_0,
         }
     };
-    const BOOTSTRAP_RECEPTION_1: Self = {
+    pub const BOOTSTRAP_RECEPTION_1: Self = {
         #[inline(never)]
         fn bootstrap_reception_1(
             crate::IconProps {
@@ -28557,7 +28557,7 @@ impl IconData {
             html: bootstrap_reception_1,
         }
     };
-    const BOOTSTRAP_RECEPTION_2: Self = {
+    pub const BOOTSTRAP_RECEPTION_2: Self = {
         #[inline(never)]
         fn bootstrap_reception_2(
             crate::IconProps {
@@ -28579,7 +28579,7 @@ impl IconData {
             html: bootstrap_reception_2,
         }
     };
-    const BOOTSTRAP_RECEPTION_3: Self = {
+    pub const BOOTSTRAP_RECEPTION_3: Self = {
         #[inline(never)]
         fn bootstrap_reception_3(
             crate::IconProps {
@@ -28601,7 +28601,7 @@ impl IconData {
             html: bootstrap_reception_3,
         }
     };
-    const BOOTSTRAP_RECEPTION_4: Self = {
+    pub const BOOTSTRAP_RECEPTION_4: Self = {
         #[inline(never)]
         fn bootstrap_reception_4(
             crate::IconProps {
@@ -28623,7 +28623,7 @@ impl IconData {
             html: bootstrap_reception_4,
         }
     };
-    const BOOTSTRAP_RECORD_BTN_FILL: Self = {
+    pub const BOOTSTRAP_RECORD_BTN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_record_btn_fill(
             crate::IconProps {
@@ -28645,7 +28645,7 @@ impl IconData {
             html: bootstrap_record_btn_fill,
         }
     };
-    const BOOTSTRAP_RECORD_BTN: Self = {
+    pub const BOOTSTRAP_RECORD_BTN: Self = {
         #[inline(never)]
         fn bootstrap_record_btn(
             crate::IconProps {
@@ -28667,7 +28667,7 @@ impl IconData {
             html: bootstrap_record_btn,
         }
     };
-    const BOOTSTRAP_RECORD_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_RECORD_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_record_circle_fill(
             crate::IconProps {
@@ -28689,7 +28689,7 @@ impl IconData {
             html: bootstrap_record_circle_fill,
         }
     };
-    const BOOTSTRAP_RECORD_CIRCLE: Self = {
+    pub const BOOTSTRAP_RECORD_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_record_circle(
             crate::IconProps {
@@ -28711,7 +28711,7 @@ impl IconData {
             html: bootstrap_record_circle,
         }
     };
-    const BOOTSTRAP_RECORD_FILL: Self = {
+    pub const BOOTSTRAP_RECORD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_record_fill(
             crate::IconProps {
@@ -28733,7 +28733,7 @@ impl IconData {
             html: bootstrap_record_fill,
         }
     };
-    const BOOTSTRAP_RECORD: Self = {
+    pub const BOOTSTRAP_RECORD: Self = {
         #[inline(never)]
         fn bootstrap_record(
             crate::IconProps {
@@ -28755,7 +28755,7 @@ impl IconData {
             html: bootstrap_record,
         }
     };
-    const BOOTSTRAP_RECORD_2_FILL: Self = {
+    pub const BOOTSTRAP_RECORD_2_FILL: Self = {
         #[inline(never)]
         fn bootstrap_record_2_fill(
             crate::IconProps {
@@ -28777,7 +28777,7 @@ impl IconData {
             html: bootstrap_record_2_fill,
         }
     };
-    const BOOTSTRAP_RECORD_2: Self = {
+    pub const BOOTSTRAP_RECORD_2: Self = {
         #[inline(never)]
         fn bootstrap_record_2(
             crate::IconProps {
@@ -28799,7 +28799,7 @@ impl IconData {
             html: bootstrap_record_2,
         }
     };
-    const BOOTSTRAP_RECYCLE: Self = {
+    pub const BOOTSTRAP_RECYCLE: Self = {
         #[inline(never)]
         fn bootstrap_recycle(
             crate::IconProps {
@@ -28821,7 +28821,7 @@ impl IconData {
             html: bootstrap_recycle,
         }
     };
-    const BOOTSTRAP_REDDIT: Self = {
+    pub const BOOTSTRAP_REDDIT: Self = {
         #[inline(never)]
         fn bootstrap_reddit(
             crate::IconProps {
@@ -28843,7 +28843,7 @@ impl IconData {
             html: bootstrap_reddit,
         }
     };
-    const BOOTSTRAP_REPLY_ALL_FILL: Self = {
+    pub const BOOTSTRAP_REPLY_ALL_FILL: Self = {
         #[inline(never)]
         fn bootstrap_reply_all_fill(
             crate::IconProps {
@@ -28865,7 +28865,7 @@ impl IconData {
             html: bootstrap_reply_all_fill,
         }
     };
-    const BOOTSTRAP_REPLY_ALL: Self = {
+    pub const BOOTSTRAP_REPLY_ALL: Self = {
         #[inline(never)]
         fn bootstrap_reply_all(
             crate::IconProps {
@@ -28887,7 +28887,7 @@ impl IconData {
             html: bootstrap_reply_all,
         }
     };
-    const BOOTSTRAP_REPLY_FILL: Self = {
+    pub const BOOTSTRAP_REPLY_FILL: Self = {
         #[inline(never)]
         fn bootstrap_reply_fill(
             crate::IconProps {
@@ -28909,7 +28909,7 @@ impl IconData {
             html: bootstrap_reply_fill,
         }
     };
-    const BOOTSTRAP_REPLY: Self = {
+    pub const BOOTSTRAP_REPLY: Self = {
         #[inline(never)]
         fn bootstrap_reply(
             crate::IconProps {
@@ -28931,7 +28931,7 @@ impl IconData {
             html: bootstrap_reply,
         }
     };
-    const BOOTSTRAP_ROBOT: Self = {
+    pub const BOOTSTRAP_ROBOT: Self = {
         #[inline(never)]
         fn bootstrap_robot(
             crate::IconProps {
@@ -28953,7 +28953,7 @@ impl IconData {
             html: bootstrap_robot,
         }
     };
-    const BOOTSTRAP_ROUTER_FILL: Self = {
+    pub const BOOTSTRAP_ROUTER_FILL: Self = {
         #[inline(never)]
         fn bootstrap_router_fill(
             crate::IconProps {
@@ -28975,7 +28975,7 @@ impl IconData {
             html: bootstrap_router_fill,
         }
     };
-    const BOOTSTRAP_ROUTER: Self = {
+    pub const BOOTSTRAP_ROUTER: Self = {
         #[inline(never)]
         fn bootstrap_router(
             crate::IconProps {
@@ -28997,7 +28997,7 @@ impl IconData {
             html: bootstrap_router,
         }
     };
-    const BOOTSTRAP_RSS_FILL: Self = {
+    pub const BOOTSTRAP_RSS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_rss_fill(
             crate::IconProps {
@@ -29019,7 +29019,7 @@ impl IconData {
             html: bootstrap_rss_fill,
         }
     };
-    const BOOTSTRAP_RSS: Self = {
+    pub const BOOTSTRAP_RSS: Self = {
         #[inline(never)]
         fn bootstrap_rss(
             crate::IconProps {
@@ -29041,7 +29041,7 @@ impl IconData {
             html: bootstrap_rss,
         }
     };
-    const BOOTSTRAP_RULERS: Self = {
+    pub const BOOTSTRAP_RULERS: Self = {
         #[inline(never)]
         fn bootstrap_rulers(
             crate::IconProps {
@@ -29063,7 +29063,7 @@ impl IconData {
             html: bootstrap_rulers,
         }
     };
-    const BOOTSTRAP_SAFE_FILL: Self = {
+    pub const BOOTSTRAP_SAFE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_safe_fill(
             crate::IconProps {
@@ -29085,7 +29085,7 @@ impl IconData {
             html: bootstrap_safe_fill,
         }
     };
-    const BOOTSTRAP_SAFE: Self = {
+    pub const BOOTSTRAP_SAFE: Self = {
         #[inline(never)]
         fn bootstrap_safe(
             crate::IconProps {
@@ -29107,7 +29107,7 @@ impl IconData {
             html: bootstrap_safe,
         }
     };
-    const BOOTSTRAP_SAFE_2_FILL: Self = {
+    pub const BOOTSTRAP_SAFE_2_FILL: Self = {
         #[inline(never)]
         fn bootstrap_safe_2_fill(
             crate::IconProps {
@@ -29129,7 +29129,7 @@ impl IconData {
             html: bootstrap_safe_2_fill,
         }
     };
-    const BOOTSTRAP_SAFE_2: Self = {
+    pub const BOOTSTRAP_SAFE_2: Self = {
         #[inline(never)]
         fn bootstrap_safe_2(
             crate::IconProps {
@@ -29151,7 +29151,7 @@ impl IconData {
             html: bootstrap_safe_2,
         }
     };
-    const BOOTSTRAP_SAVE_FILL: Self = {
+    pub const BOOTSTRAP_SAVE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_save_fill(
             crate::IconProps {
@@ -29173,7 +29173,7 @@ impl IconData {
             html: bootstrap_save_fill,
         }
     };
-    const BOOTSTRAP_SAVE: Self = {
+    pub const BOOTSTRAP_SAVE: Self = {
         #[inline(never)]
         fn bootstrap_save(
             crate::IconProps {
@@ -29195,7 +29195,7 @@ impl IconData {
             html: bootstrap_save,
         }
     };
-    const BOOTSTRAP_SAVE_2_FILL: Self = {
+    pub const BOOTSTRAP_SAVE_2_FILL: Self = {
         #[inline(never)]
         fn bootstrap_save_2_fill(
             crate::IconProps {
@@ -29217,7 +29217,7 @@ impl IconData {
             html: bootstrap_save_2_fill,
         }
     };
-    const BOOTSTRAP_SAVE_2: Self = {
+    pub const BOOTSTRAP_SAVE_2: Self = {
         #[inline(never)]
         fn bootstrap_save_2(
             crate::IconProps {
@@ -29239,7 +29239,7 @@ impl IconData {
             html: bootstrap_save_2,
         }
     };
-    const BOOTSTRAP_SCISSORS: Self = {
+    pub const BOOTSTRAP_SCISSORS: Self = {
         #[inline(never)]
         fn bootstrap_scissors(
             crate::IconProps {
@@ -29261,7 +29261,7 @@ impl IconData {
             html: bootstrap_scissors,
         }
     };
-    const BOOTSTRAP_SCREWDRIVER: Self = {
+    pub const BOOTSTRAP_SCREWDRIVER: Self = {
         #[inline(never)]
         fn bootstrap_screwdriver(
             crate::IconProps {
@@ -29283,7 +29283,7 @@ impl IconData {
             html: bootstrap_screwdriver,
         }
     };
-    const BOOTSTRAP_SD_CARD_FILL: Self = {
+    pub const BOOTSTRAP_SD_CARD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_sd_card_fill(
             crate::IconProps {
@@ -29305,7 +29305,7 @@ impl IconData {
             html: bootstrap_sd_card_fill,
         }
     };
-    const BOOTSTRAP_SD_CARD: Self = {
+    pub const BOOTSTRAP_SD_CARD: Self = {
         #[inline(never)]
         fn bootstrap_sd_card(
             crate::IconProps {
@@ -29327,7 +29327,7 @@ impl IconData {
             html: bootstrap_sd_card,
         }
     };
-    const BOOTSTRAP_SEARCH_HEART_FILL: Self = {
+    pub const BOOTSTRAP_SEARCH_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_search_heart_fill(
             crate::IconProps {
@@ -29349,7 +29349,7 @@ impl IconData {
             html: bootstrap_search_heart_fill,
         }
     };
-    const BOOTSTRAP_SEARCH_HEART: Self = {
+    pub const BOOTSTRAP_SEARCH_HEART: Self = {
         #[inline(never)]
         fn bootstrap_search_heart(
             crate::IconProps {
@@ -29371,7 +29371,7 @@ impl IconData {
             html: bootstrap_search_heart,
         }
     };
-    const BOOTSTRAP_SEARCH: Self = {
+    pub const BOOTSTRAP_SEARCH: Self = {
         #[inline(never)]
         fn bootstrap_search(
             crate::IconProps {
@@ -29393,7 +29393,7 @@ impl IconData {
             html: bootstrap_search,
         }
     };
-    const BOOTSTRAP_SEGMENTED_NAV: Self = {
+    pub const BOOTSTRAP_SEGMENTED_NAV: Self = {
         #[inline(never)]
         fn bootstrap_segmented_nav(
             crate::IconProps {
@@ -29415,7 +29415,7 @@ impl IconData {
             html: bootstrap_segmented_nav,
         }
     };
-    const BOOTSTRAP_SEND_CHECK_FILL: Self = {
+    pub const BOOTSTRAP_SEND_CHECK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_send_check_fill(
             crate::IconProps {
@@ -29437,7 +29437,7 @@ impl IconData {
             html: bootstrap_send_check_fill,
         }
     };
-    const BOOTSTRAP_SEND_CHECK: Self = {
+    pub const BOOTSTRAP_SEND_CHECK: Self = {
         #[inline(never)]
         fn bootstrap_send_check(
             crate::IconProps {
@@ -29459,7 +29459,7 @@ impl IconData {
             html: bootstrap_send_check,
         }
     };
-    const BOOTSTRAP_SEND_DASH_FILL: Self = {
+    pub const BOOTSTRAP_SEND_DASH_FILL: Self = {
         #[inline(never)]
         fn bootstrap_send_dash_fill(
             crate::IconProps {
@@ -29481,7 +29481,7 @@ impl IconData {
             html: bootstrap_send_dash_fill,
         }
     };
-    const BOOTSTRAP_SEND_DASH: Self = {
+    pub const BOOTSTRAP_SEND_DASH: Self = {
         #[inline(never)]
         fn bootstrap_send_dash(
             crate::IconProps {
@@ -29503,7 +29503,7 @@ impl IconData {
             html: bootstrap_send_dash,
         }
     };
-    const BOOTSTRAP_SEND_EXCLAMATION_FILL: Self = {
+    pub const BOOTSTRAP_SEND_EXCLAMATION_FILL: Self = {
         #[inline(never)]
         fn bootstrap_send_exclamation_fill(
             crate::IconProps {
@@ -29525,7 +29525,7 @@ impl IconData {
             html: bootstrap_send_exclamation_fill,
         }
     };
-    const BOOTSTRAP_SEND_EXCLAMATION: Self = {
+    pub const BOOTSTRAP_SEND_EXCLAMATION: Self = {
         #[inline(never)]
         fn bootstrap_send_exclamation(
             crate::IconProps {
@@ -29547,7 +29547,7 @@ impl IconData {
             html: bootstrap_send_exclamation,
         }
     };
-    const BOOTSTRAP_SEND_FILL: Self = {
+    pub const BOOTSTRAP_SEND_FILL: Self = {
         #[inline(never)]
         fn bootstrap_send_fill(
             crate::IconProps {
@@ -29569,7 +29569,7 @@ impl IconData {
             html: bootstrap_send_fill,
         }
     };
-    const BOOTSTRAP_SEND_PLUS_FILL: Self = {
+    pub const BOOTSTRAP_SEND_PLUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_send_plus_fill(
             crate::IconProps {
@@ -29591,7 +29591,7 @@ impl IconData {
             html: bootstrap_send_plus_fill,
         }
     };
-    const BOOTSTRAP_SEND_PLUS: Self = {
+    pub const BOOTSTRAP_SEND_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_send_plus(
             crate::IconProps {
@@ -29613,7 +29613,7 @@ impl IconData {
             html: bootstrap_send_plus,
         }
     };
-    const BOOTSTRAP_SEND_SLASH_FILL: Self = {
+    pub const BOOTSTRAP_SEND_SLASH_FILL: Self = {
         #[inline(never)]
         fn bootstrap_send_slash_fill(
             crate::IconProps {
@@ -29635,7 +29635,7 @@ impl IconData {
             html: bootstrap_send_slash_fill,
         }
     };
-    const BOOTSTRAP_SEND_SLASH: Self = {
+    pub const BOOTSTRAP_SEND_SLASH: Self = {
         #[inline(never)]
         fn bootstrap_send_slash(
             crate::IconProps {
@@ -29657,7 +29657,7 @@ impl IconData {
             html: bootstrap_send_slash,
         }
     };
-    const BOOTSTRAP_SEND_X_FILL: Self = {
+    pub const BOOTSTRAP_SEND_X_FILL: Self = {
         #[inline(never)]
         fn bootstrap_send_x_fill(
             crate::IconProps {
@@ -29679,7 +29679,7 @@ impl IconData {
             html: bootstrap_send_x_fill,
         }
     };
-    const BOOTSTRAP_SEND_X: Self = {
+    pub const BOOTSTRAP_SEND_X: Self = {
         #[inline(never)]
         fn bootstrap_send_x(
             crate::IconProps {
@@ -29701,7 +29701,7 @@ impl IconData {
             html: bootstrap_send_x,
         }
     };
-    const BOOTSTRAP_SEND: Self = {
+    pub const BOOTSTRAP_SEND: Self = {
         #[inline(never)]
         fn bootstrap_send(
             crate::IconProps {
@@ -29723,7 +29723,7 @@ impl IconData {
             html: bootstrap_send,
         }
     };
-    const BOOTSTRAP_SERVER: Self = {
+    pub const BOOTSTRAP_SERVER: Self = {
         #[inline(never)]
         fn bootstrap_server(
             crate::IconProps {
@@ -29745,7 +29745,7 @@ impl IconData {
             html: bootstrap_server,
         }
     };
-    const BOOTSTRAP_SHARE_FILL: Self = {
+    pub const BOOTSTRAP_SHARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_share_fill(
             crate::IconProps {
@@ -29767,7 +29767,7 @@ impl IconData {
             html: bootstrap_share_fill,
         }
     };
-    const BOOTSTRAP_SHARE: Self = {
+    pub const BOOTSTRAP_SHARE: Self = {
         #[inline(never)]
         fn bootstrap_share(
             crate::IconProps {
@@ -29789,7 +29789,7 @@ impl IconData {
             html: bootstrap_share,
         }
     };
-    const BOOTSTRAP_SHIELD_CHECK: Self = {
+    pub const BOOTSTRAP_SHIELD_CHECK: Self = {
         #[inline(never)]
         fn bootstrap_shield_check(
             crate::IconProps {
@@ -29811,7 +29811,7 @@ impl IconData {
             html: bootstrap_shield_check,
         }
     };
-    const BOOTSTRAP_SHIELD_EXCLAMATION: Self = {
+    pub const BOOTSTRAP_SHIELD_EXCLAMATION: Self = {
         #[inline(never)]
         fn bootstrap_shield_exclamation(
             crate::IconProps {
@@ -29833,7 +29833,7 @@ impl IconData {
             html: bootstrap_shield_exclamation,
         }
     };
-    const BOOTSTRAP_SHIELD_FILL_CHECK: Self = {
+    pub const BOOTSTRAP_SHIELD_FILL_CHECK: Self = {
         #[inline(never)]
         fn bootstrap_shield_fill_check(
             crate::IconProps {
@@ -29855,7 +29855,7 @@ impl IconData {
             html: bootstrap_shield_fill_check,
         }
     };
-    const BOOTSTRAP_SHIELD_FILL_EXCLAMATION: Self = {
+    pub const BOOTSTRAP_SHIELD_FILL_EXCLAMATION: Self = {
         #[inline(never)]
         fn bootstrap_shield_fill_exclamation(
             crate::IconProps {
@@ -29877,7 +29877,7 @@ impl IconData {
             html: bootstrap_shield_fill_exclamation,
         }
     };
-    const BOOTSTRAP_SHIELD_FILL_MINUS: Self = {
+    pub const BOOTSTRAP_SHIELD_FILL_MINUS: Self = {
         #[inline(never)]
         fn bootstrap_shield_fill_minus(
             crate::IconProps {
@@ -29899,7 +29899,7 @@ impl IconData {
             html: bootstrap_shield_fill_minus,
         }
     };
-    const BOOTSTRAP_SHIELD_FILL_PLUS: Self = {
+    pub const BOOTSTRAP_SHIELD_FILL_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_shield_fill_plus(
             crate::IconProps {
@@ -29921,7 +29921,7 @@ impl IconData {
             html: bootstrap_shield_fill_plus,
         }
     };
-    const BOOTSTRAP_SHIELD_FILL_X: Self = {
+    pub const BOOTSTRAP_SHIELD_FILL_X: Self = {
         #[inline(never)]
         fn bootstrap_shield_fill_x(
             crate::IconProps {
@@ -29943,7 +29943,7 @@ impl IconData {
             html: bootstrap_shield_fill_x,
         }
     };
-    const BOOTSTRAP_SHIELD_FILL: Self = {
+    pub const BOOTSTRAP_SHIELD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_shield_fill(
             crate::IconProps {
@@ -29965,7 +29965,7 @@ impl IconData {
             html: bootstrap_shield_fill,
         }
     };
-    const BOOTSTRAP_SHIELD_LOCK_FILL: Self = {
+    pub const BOOTSTRAP_SHIELD_LOCK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_shield_lock_fill(
             crate::IconProps {
@@ -29987,7 +29987,7 @@ impl IconData {
             html: bootstrap_shield_lock_fill,
         }
     };
-    const BOOTSTRAP_SHIELD_LOCK: Self = {
+    pub const BOOTSTRAP_SHIELD_LOCK: Self = {
         #[inline(never)]
         fn bootstrap_shield_lock(
             crate::IconProps {
@@ -30009,7 +30009,7 @@ impl IconData {
             html: bootstrap_shield_lock,
         }
     };
-    const BOOTSTRAP_SHIELD_MINUS: Self = {
+    pub const BOOTSTRAP_SHIELD_MINUS: Self = {
         #[inline(never)]
         fn bootstrap_shield_minus(
             crate::IconProps {
@@ -30031,7 +30031,7 @@ impl IconData {
             html: bootstrap_shield_minus,
         }
     };
-    const BOOTSTRAP_SHIELD_PLUS: Self = {
+    pub const BOOTSTRAP_SHIELD_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_shield_plus(
             crate::IconProps {
@@ -30053,7 +30053,7 @@ impl IconData {
             html: bootstrap_shield_plus,
         }
     };
-    const BOOTSTRAP_SHIELD_SHADED: Self = {
+    pub const BOOTSTRAP_SHIELD_SHADED: Self = {
         #[inline(never)]
         fn bootstrap_shield_shaded(
             crate::IconProps {
@@ -30075,7 +30075,7 @@ impl IconData {
             html: bootstrap_shield_shaded,
         }
     };
-    const BOOTSTRAP_SHIELD_SLASH_FILL: Self = {
+    pub const BOOTSTRAP_SHIELD_SLASH_FILL: Self = {
         #[inline(never)]
         fn bootstrap_shield_slash_fill(
             crate::IconProps {
@@ -30097,7 +30097,7 @@ impl IconData {
             html: bootstrap_shield_slash_fill,
         }
     };
-    const BOOTSTRAP_SHIELD_SLASH: Self = {
+    pub const BOOTSTRAP_SHIELD_SLASH: Self = {
         #[inline(never)]
         fn bootstrap_shield_slash(
             crate::IconProps {
@@ -30119,7 +30119,7 @@ impl IconData {
             html: bootstrap_shield_slash,
         }
     };
-    const BOOTSTRAP_SHIELD_X: Self = {
+    pub const BOOTSTRAP_SHIELD_X: Self = {
         #[inline(never)]
         fn bootstrap_shield_x(
             crate::IconProps {
@@ -30141,7 +30141,7 @@ impl IconData {
             html: bootstrap_shield_x,
         }
     };
-    const BOOTSTRAP_SHIELD: Self = {
+    pub const BOOTSTRAP_SHIELD: Self = {
         #[inline(never)]
         fn bootstrap_shield(
             crate::IconProps {
@@ -30163,7 +30163,7 @@ impl IconData {
             html: bootstrap_shield,
         }
     };
-    const BOOTSTRAP_SHIFT_FILL: Self = {
+    pub const BOOTSTRAP_SHIFT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_shift_fill(
             crate::IconProps {
@@ -30185,7 +30185,7 @@ impl IconData {
             html: bootstrap_shift_fill,
         }
     };
-    const BOOTSTRAP_SHIFT: Self = {
+    pub const BOOTSTRAP_SHIFT: Self = {
         #[inline(never)]
         fn bootstrap_shift(
             crate::IconProps {
@@ -30207,7 +30207,7 @@ impl IconData {
             html: bootstrap_shift,
         }
     };
-    const BOOTSTRAP_SHOP_WINDOW: Self = {
+    pub const BOOTSTRAP_SHOP_WINDOW: Self = {
         #[inline(never)]
         fn bootstrap_shop_window(
             crate::IconProps {
@@ -30229,7 +30229,7 @@ impl IconData {
             html: bootstrap_shop_window,
         }
     };
-    const BOOTSTRAP_SHOP: Self = {
+    pub const BOOTSTRAP_SHOP: Self = {
         #[inline(never)]
         fn bootstrap_shop(
             crate::IconProps {
@@ -30251,7 +30251,7 @@ impl IconData {
             html: bootstrap_shop,
         }
     };
-    const BOOTSTRAP_SHUFFLE: Self = {
+    pub const BOOTSTRAP_SHUFFLE: Self = {
         #[inline(never)]
         fn bootstrap_shuffle(
             crate::IconProps {
@@ -30273,7 +30273,7 @@ impl IconData {
             html: bootstrap_shuffle,
         }
     };
-    const BOOTSTRAP_SIGNAL: Self = {
+    pub const BOOTSTRAP_SIGNAL: Self = {
         #[inline(never)]
         fn bootstrap_signal(
             crate::IconProps {
@@ -30295,7 +30295,7 @@ impl IconData {
             html: bootstrap_signal,
         }
     };
-    const BOOTSTRAP_SIGNPOST_2_FILL: Self = {
+    pub const BOOTSTRAP_SIGNPOST_2_FILL: Self = {
         #[inline(never)]
         fn bootstrap_signpost_2_fill(
             crate::IconProps {
@@ -30317,7 +30317,7 @@ impl IconData {
             html: bootstrap_signpost_2_fill,
         }
     };
-    const BOOTSTRAP_SIGNPOST_2: Self = {
+    pub const BOOTSTRAP_SIGNPOST_2: Self = {
         #[inline(never)]
         fn bootstrap_signpost_2(
             crate::IconProps {
@@ -30339,7 +30339,7 @@ impl IconData {
             html: bootstrap_signpost_2,
         }
     };
-    const BOOTSTRAP_SIGNPOST_FILL: Self = {
+    pub const BOOTSTRAP_SIGNPOST_FILL: Self = {
         #[inline(never)]
         fn bootstrap_signpost_fill(
             crate::IconProps {
@@ -30361,7 +30361,7 @@ impl IconData {
             html: bootstrap_signpost_fill,
         }
     };
-    const BOOTSTRAP_SIGNPOST_SPLIT_FILL: Self = {
+    pub const BOOTSTRAP_SIGNPOST_SPLIT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_signpost_split_fill(
             crate::IconProps {
@@ -30383,7 +30383,7 @@ impl IconData {
             html: bootstrap_signpost_split_fill,
         }
     };
-    const BOOTSTRAP_SIGNPOST_SPLIT: Self = {
+    pub const BOOTSTRAP_SIGNPOST_SPLIT: Self = {
         #[inline(never)]
         fn bootstrap_signpost_split(
             crate::IconProps {
@@ -30405,7 +30405,7 @@ impl IconData {
             html: bootstrap_signpost_split,
         }
     };
-    const BOOTSTRAP_SIGNPOST: Self = {
+    pub const BOOTSTRAP_SIGNPOST: Self = {
         #[inline(never)]
         fn bootstrap_signpost(
             crate::IconProps {
@@ -30427,7 +30427,7 @@ impl IconData {
             html: bootstrap_signpost,
         }
     };
-    const BOOTSTRAP_SIM_FILL: Self = {
+    pub const BOOTSTRAP_SIM_FILL: Self = {
         #[inline(never)]
         fn bootstrap_sim_fill(
             crate::IconProps {
@@ -30449,7 +30449,7 @@ impl IconData {
             html: bootstrap_sim_fill,
         }
     };
-    const BOOTSTRAP_SIM: Self = {
+    pub const BOOTSTRAP_SIM: Self = {
         #[inline(never)]
         fn bootstrap_sim(
             crate::IconProps {
@@ -30471,7 +30471,7 @@ impl IconData {
             html: bootstrap_sim,
         }
     };
-    const BOOTSTRAP_SKIP_BACKWARD_BTN_FILL: Self = {
+    pub const BOOTSTRAP_SKIP_BACKWARD_BTN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_skip_backward_btn_fill(
             crate::IconProps {
@@ -30493,7 +30493,7 @@ impl IconData {
             html: bootstrap_skip_backward_btn_fill,
         }
     };
-    const BOOTSTRAP_SKIP_BACKWARD_BTN: Self = {
+    pub const BOOTSTRAP_SKIP_BACKWARD_BTN: Self = {
         #[inline(never)]
         fn bootstrap_skip_backward_btn(
             crate::IconProps {
@@ -30515,7 +30515,7 @@ impl IconData {
             html: bootstrap_skip_backward_btn,
         }
     };
-    const BOOTSTRAP_SKIP_BACKWARD_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_SKIP_BACKWARD_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_skip_backward_circle_fill(
             crate::IconProps {
@@ -30537,7 +30537,7 @@ impl IconData {
             html: bootstrap_skip_backward_circle_fill,
         }
     };
-    const BOOTSTRAP_SKIP_BACKWARD_CIRCLE: Self = {
+    pub const BOOTSTRAP_SKIP_BACKWARD_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_skip_backward_circle(
             crate::IconProps {
@@ -30559,7 +30559,7 @@ impl IconData {
             html: bootstrap_skip_backward_circle,
         }
     };
-    const BOOTSTRAP_SKIP_BACKWARD_FILL: Self = {
+    pub const BOOTSTRAP_SKIP_BACKWARD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_skip_backward_fill(
             crate::IconProps {
@@ -30581,7 +30581,7 @@ impl IconData {
             html: bootstrap_skip_backward_fill,
         }
     };
-    const BOOTSTRAP_SKIP_BACKWARD: Self = {
+    pub const BOOTSTRAP_SKIP_BACKWARD: Self = {
         #[inline(never)]
         fn bootstrap_skip_backward(
             crate::IconProps {
@@ -30603,7 +30603,7 @@ impl IconData {
             html: bootstrap_skip_backward,
         }
     };
-    const BOOTSTRAP_SKIP_END_BTN_FILL: Self = {
+    pub const BOOTSTRAP_SKIP_END_BTN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_skip_end_btn_fill(
             crate::IconProps {
@@ -30625,7 +30625,7 @@ impl IconData {
             html: bootstrap_skip_end_btn_fill,
         }
     };
-    const BOOTSTRAP_SKIP_END_BTN: Self = {
+    pub const BOOTSTRAP_SKIP_END_BTN: Self = {
         #[inline(never)]
         fn bootstrap_skip_end_btn(
             crate::IconProps {
@@ -30647,7 +30647,7 @@ impl IconData {
             html: bootstrap_skip_end_btn,
         }
     };
-    const BOOTSTRAP_SKIP_END_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_SKIP_END_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_skip_end_circle_fill(
             crate::IconProps {
@@ -30669,7 +30669,7 @@ impl IconData {
             html: bootstrap_skip_end_circle_fill,
         }
     };
-    const BOOTSTRAP_SKIP_END_CIRCLE: Self = {
+    pub const BOOTSTRAP_SKIP_END_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_skip_end_circle(
             crate::IconProps {
@@ -30691,7 +30691,7 @@ impl IconData {
             html: bootstrap_skip_end_circle,
         }
     };
-    const BOOTSTRAP_SKIP_END_FILL: Self = {
+    pub const BOOTSTRAP_SKIP_END_FILL: Self = {
         #[inline(never)]
         fn bootstrap_skip_end_fill(
             crate::IconProps {
@@ -30713,7 +30713,7 @@ impl IconData {
             html: bootstrap_skip_end_fill,
         }
     };
-    const BOOTSTRAP_SKIP_END: Self = {
+    pub const BOOTSTRAP_SKIP_END: Self = {
         #[inline(never)]
         fn bootstrap_skip_end(
             crate::IconProps {
@@ -30735,7 +30735,7 @@ impl IconData {
             html: bootstrap_skip_end,
         }
     };
-    const BOOTSTRAP_SKIP_FORWARD_BTN_FILL: Self = {
+    pub const BOOTSTRAP_SKIP_FORWARD_BTN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_skip_forward_btn_fill(
             crate::IconProps {
@@ -30757,7 +30757,7 @@ impl IconData {
             html: bootstrap_skip_forward_btn_fill,
         }
     };
-    const BOOTSTRAP_SKIP_FORWARD_BTN: Self = {
+    pub const BOOTSTRAP_SKIP_FORWARD_BTN: Self = {
         #[inline(never)]
         fn bootstrap_skip_forward_btn(
             crate::IconProps {
@@ -30779,7 +30779,7 @@ impl IconData {
             html: bootstrap_skip_forward_btn,
         }
     };
-    const BOOTSTRAP_SKIP_FORWARD_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_SKIP_FORWARD_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_skip_forward_circle_fill(
             crate::IconProps {
@@ -30801,7 +30801,7 @@ impl IconData {
             html: bootstrap_skip_forward_circle_fill,
         }
     };
-    const BOOTSTRAP_SKIP_FORWARD_CIRCLE: Self = {
+    pub const BOOTSTRAP_SKIP_FORWARD_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_skip_forward_circle(
             crate::IconProps {
@@ -30823,7 +30823,7 @@ impl IconData {
             html: bootstrap_skip_forward_circle,
         }
     };
-    const BOOTSTRAP_SKIP_FORWARD_FILL: Self = {
+    pub const BOOTSTRAP_SKIP_FORWARD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_skip_forward_fill(
             crate::IconProps {
@@ -30845,7 +30845,7 @@ impl IconData {
             html: bootstrap_skip_forward_fill,
         }
     };
-    const BOOTSTRAP_SKIP_FORWARD: Self = {
+    pub const BOOTSTRAP_SKIP_FORWARD: Self = {
         #[inline(never)]
         fn bootstrap_skip_forward(
             crate::IconProps {
@@ -30867,7 +30867,7 @@ impl IconData {
             html: bootstrap_skip_forward,
         }
     };
-    const BOOTSTRAP_SKIP_START_BTN_FILL: Self = {
+    pub const BOOTSTRAP_SKIP_START_BTN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_skip_start_btn_fill(
             crate::IconProps {
@@ -30889,7 +30889,7 @@ impl IconData {
             html: bootstrap_skip_start_btn_fill,
         }
     };
-    const BOOTSTRAP_SKIP_START_BTN: Self = {
+    pub const BOOTSTRAP_SKIP_START_BTN: Self = {
         #[inline(never)]
         fn bootstrap_skip_start_btn(
             crate::IconProps {
@@ -30911,7 +30911,7 @@ impl IconData {
             html: bootstrap_skip_start_btn,
         }
     };
-    const BOOTSTRAP_SKIP_START_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_SKIP_START_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_skip_start_circle_fill(
             crate::IconProps {
@@ -30933,7 +30933,7 @@ impl IconData {
             html: bootstrap_skip_start_circle_fill,
         }
     };
-    const BOOTSTRAP_SKIP_START_CIRCLE: Self = {
+    pub const BOOTSTRAP_SKIP_START_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_skip_start_circle(
             crate::IconProps {
@@ -30955,7 +30955,7 @@ impl IconData {
             html: bootstrap_skip_start_circle,
         }
     };
-    const BOOTSTRAP_SKIP_START_FILL: Self = {
+    pub const BOOTSTRAP_SKIP_START_FILL: Self = {
         #[inline(never)]
         fn bootstrap_skip_start_fill(
             crate::IconProps {
@@ -30977,7 +30977,7 @@ impl IconData {
             html: bootstrap_skip_start_fill,
         }
     };
-    const BOOTSTRAP_SKIP_START: Self = {
+    pub const BOOTSTRAP_SKIP_START: Self = {
         #[inline(never)]
         fn bootstrap_skip_start(
             crate::IconProps {
@@ -30999,7 +30999,7 @@ impl IconData {
             html: bootstrap_skip_start,
         }
     };
-    const BOOTSTRAP_SKYPE: Self = {
+    pub const BOOTSTRAP_SKYPE: Self = {
         #[inline(never)]
         fn bootstrap_skype(
             crate::IconProps {
@@ -31021,7 +31021,7 @@ impl IconData {
             html: bootstrap_skype,
         }
     };
-    const BOOTSTRAP_SLACK: Self = {
+    pub const BOOTSTRAP_SLACK: Self = {
         #[inline(never)]
         fn bootstrap_slack(
             crate::IconProps {
@@ -31043,7 +31043,7 @@ impl IconData {
             html: bootstrap_slack,
         }
     };
-    const BOOTSTRAP_SLASH_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_SLASH_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_slash_circle_fill(
             crate::IconProps {
@@ -31065,7 +31065,7 @@ impl IconData {
             html: bootstrap_slash_circle_fill,
         }
     };
-    const BOOTSTRAP_SLASH_CIRCLE: Self = {
+    pub const BOOTSTRAP_SLASH_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_slash_circle(
             crate::IconProps {
@@ -31087,7 +31087,7 @@ impl IconData {
             html: bootstrap_slash_circle,
         }
     };
-    const BOOTSTRAP_SLASH_LG: Self = {
+    pub const BOOTSTRAP_SLASH_LG: Self = {
         #[inline(never)]
         fn bootstrap_slash_lg(
             crate::IconProps {
@@ -31109,7 +31109,7 @@ impl IconData {
             html: bootstrap_slash_lg,
         }
     };
-    const BOOTSTRAP_SLASH_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_SLASH_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_slash_square_fill(
             crate::IconProps {
@@ -31131,7 +31131,7 @@ impl IconData {
             html: bootstrap_slash_square_fill,
         }
     };
-    const BOOTSTRAP_SLASH_SQUARE: Self = {
+    pub const BOOTSTRAP_SLASH_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_slash_square(
             crate::IconProps {
@@ -31153,7 +31153,7 @@ impl IconData {
             html: bootstrap_slash_square,
         }
     };
-    const BOOTSTRAP_SLASH: Self = {
+    pub const BOOTSTRAP_SLASH: Self = {
         #[inline(never)]
         fn bootstrap_slash(
             crate::IconProps {
@@ -31175,7 +31175,7 @@ impl IconData {
             html: bootstrap_slash,
         }
     };
-    const BOOTSTRAP_SLIDERS: Self = {
+    pub const BOOTSTRAP_SLIDERS: Self = {
         #[inline(never)]
         fn bootstrap_sliders(
             crate::IconProps {
@@ -31197,7 +31197,7 @@ impl IconData {
             html: bootstrap_sliders,
         }
     };
-    const BOOTSTRAP_SLIDERS_2_VERTICAL: Self = {
+    pub const BOOTSTRAP_SLIDERS_2_VERTICAL: Self = {
         #[inline(never)]
         fn bootstrap_sliders_2_vertical(
             crate::IconProps {
@@ -31219,7 +31219,7 @@ impl IconData {
             html: bootstrap_sliders_2_vertical,
         }
     };
-    const BOOTSTRAP_SLIDERS_2: Self = {
+    pub const BOOTSTRAP_SLIDERS_2: Self = {
         #[inline(never)]
         fn bootstrap_sliders_2(
             crate::IconProps {
@@ -31241,7 +31241,7 @@ impl IconData {
             html: bootstrap_sliders_2,
         }
     };
-    const BOOTSTRAP_SMARTWATCH: Self = {
+    pub const BOOTSTRAP_SMARTWATCH: Self = {
         #[inline(never)]
         fn bootstrap_smartwatch(
             crate::IconProps {
@@ -31263,7 +31263,7 @@ impl IconData {
             html: bootstrap_smartwatch,
         }
     };
-    const BOOTSTRAP_SNAPCHAT: Self = {
+    pub const BOOTSTRAP_SNAPCHAT: Self = {
         #[inline(never)]
         fn bootstrap_snapchat(
             crate::IconProps {
@@ -31285,7 +31285,7 @@ impl IconData {
             html: bootstrap_snapchat,
         }
     };
-    const BOOTSTRAP_SNOW: Self = {
+    pub const BOOTSTRAP_SNOW: Self = {
         #[inline(never)]
         fn bootstrap_snow(
             crate::IconProps {
@@ -31307,7 +31307,7 @@ impl IconData {
             html: bootstrap_snow,
         }
     };
-    const BOOTSTRAP_SNOW_2: Self = {
+    pub const BOOTSTRAP_SNOW_2: Self = {
         #[inline(never)]
         fn bootstrap_snow_2(
             crate::IconProps {
@@ -31329,7 +31329,7 @@ impl IconData {
             html: bootstrap_snow_2,
         }
     };
-    const BOOTSTRAP_SNOW_3: Self = {
+    pub const BOOTSTRAP_SNOW_3: Self = {
         #[inline(never)]
         fn bootstrap_snow_3(
             crate::IconProps {
@@ -31351,7 +31351,7 @@ impl IconData {
             html: bootstrap_snow_3,
         }
     };
-    const BOOTSTRAP_SORT_ALPHA_DOWN_ALT: Self = {
+    pub const BOOTSTRAP_SORT_ALPHA_DOWN_ALT: Self = {
         #[inline(never)]
         fn bootstrap_sort_alpha_down_alt(
             crate::IconProps {
@@ -31373,7 +31373,7 @@ impl IconData {
             html: bootstrap_sort_alpha_down_alt,
         }
     };
-    const BOOTSTRAP_SORT_ALPHA_DOWN: Self = {
+    pub const BOOTSTRAP_SORT_ALPHA_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_sort_alpha_down(
             crate::IconProps {
@@ -31395,7 +31395,7 @@ impl IconData {
             html: bootstrap_sort_alpha_down,
         }
     };
-    const BOOTSTRAP_SORT_ALPHA_UP_ALT: Self = {
+    pub const BOOTSTRAP_SORT_ALPHA_UP_ALT: Self = {
         #[inline(never)]
         fn bootstrap_sort_alpha_up_alt(
             crate::IconProps {
@@ -31417,7 +31417,7 @@ impl IconData {
             html: bootstrap_sort_alpha_up_alt,
         }
     };
-    const BOOTSTRAP_SORT_ALPHA_UP: Self = {
+    pub const BOOTSTRAP_SORT_ALPHA_UP: Self = {
         #[inline(never)]
         fn bootstrap_sort_alpha_up(
             crate::IconProps {
@@ -31439,7 +31439,7 @@ impl IconData {
             html: bootstrap_sort_alpha_up,
         }
     };
-    const BOOTSTRAP_SORT_DOWN_ALT: Self = {
+    pub const BOOTSTRAP_SORT_DOWN_ALT: Self = {
         #[inline(never)]
         fn bootstrap_sort_down_alt(
             crate::IconProps {
@@ -31461,7 +31461,7 @@ impl IconData {
             html: bootstrap_sort_down_alt,
         }
     };
-    const BOOTSTRAP_SORT_DOWN: Self = {
+    pub const BOOTSTRAP_SORT_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_sort_down(
             crate::IconProps {
@@ -31483,7 +31483,7 @@ impl IconData {
             html: bootstrap_sort_down,
         }
     };
-    const BOOTSTRAP_SORT_NUMERIC_DOWN_ALT: Self = {
+    pub const BOOTSTRAP_SORT_NUMERIC_DOWN_ALT: Self = {
         #[inline(never)]
         fn bootstrap_sort_numeric_down_alt(
             crate::IconProps {
@@ -31505,7 +31505,7 @@ impl IconData {
             html: bootstrap_sort_numeric_down_alt,
         }
     };
-    const BOOTSTRAP_SORT_NUMERIC_DOWN: Self = {
+    pub const BOOTSTRAP_SORT_NUMERIC_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_sort_numeric_down(
             crate::IconProps {
@@ -31527,7 +31527,7 @@ impl IconData {
             html: bootstrap_sort_numeric_down,
         }
     };
-    const BOOTSTRAP_SORT_NUMERIC_UP_ALT: Self = {
+    pub const BOOTSTRAP_SORT_NUMERIC_UP_ALT: Self = {
         #[inline(never)]
         fn bootstrap_sort_numeric_up_alt(
             crate::IconProps {
@@ -31549,7 +31549,7 @@ impl IconData {
             html: bootstrap_sort_numeric_up_alt,
         }
     };
-    const BOOTSTRAP_SORT_NUMERIC_UP: Self = {
+    pub const BOOTSTRAP_SORT_NUMERIC_UP: Self = {
         #[inline(never)]
         fn bootstrap_sort_numeric_up(
             crate::IconProps {
@@ -31571,7 +31571,7 @@ impl IconData {
             html: bootstrap_sort_numeric_up,
         }
     };
-    const BOOTSTRAP_SORT_UP_ALT: Self = {
+    pub const BOOTSTRAP_SORT_UP_ALT: Self = {
         #[inline(never)]
         fn bootstrap_sort_up_alt(
             crate::IconProps {
@@ -31593,7 +31593,7 @@ impl IconData {
             html: bootstrap_sort_up_alt,
         }
     };
-    const BOOTSTRAP_SORT_UP: Self = {
+    pub const BOOTSTRAP_SORT_UP: Self = {
         #[inline(never)]
         fn bootstrap_sort_up(
             crate::IconProps {
@@ -31615,7 +31615,7 @@ impl IconData {
             html: bootstrap_sort_up,
         }
     };
-    const BOOTSTRAP_SOUNDWAVE: Self = {
+    pub const BOOTSTRAP_SOUNDWAVE: Self = {
         #[inline(never)]
         fn bootstrap_soundwave(
             crate::IconProps {
@@ -31637,7 +31637,7 @@ impl IconData {
             html: bootstrap_soundwave,
         }
     };
-    const BOOTSTRAP_SPEAKER_FILL: Self = {
+    pub const BOOTSTRAP_SPEAKER_FILL: Self = {
         #[inline(never)]
         fn bootstrap_speaker_fill(
             crate::IconProps {
@@ -31659,7 +31659,7 @@ impl IconData {
             html: bootstrap_speaker_fill,
         }
     };
-    const BOOTSTRAP_SPEAKER: Self = {
+    pub const BOOTSTRAP_SPEAKER: Self = {
         #[inline(never)]
         fn bootstrap_speaker(
             crate::IconProps {
@@ -31681,7 +31681,7 @@ impl IconData {
             html: bootstrap_speaker,
         }
     };
-    const BOOTSTRAP_SPEEDOMETER: Self = {
+    pub const BOOTSTRAP_SPEEDOMETER: Self = {
         #[inline(never)]
         fn bootstrap_speedometer(
             crate::IconProps {
@@ -31703,7 +31703,7 @@ impl IconData {
             html: bootstrap_speedometer,
         }
     };
-    const BOOTSTRAP_SPEEDOMETER_2: Self = {
+    pub const BOOTSTRAP_SPEEDOMETER_2: Self = {
         #[inline(never)]
         fn bootstrap_speedometer_2(
             crate::IconProps {
@@ -31725,7 +31725,7 @@ impl IconData {
             html: bootstrap_speedometer_2,
         }
     };
-    const BOOTSTRAP_SPELLCHECK: Self = {
+    pub const BOOTSTRAP_SPELLCHECK: Self = {
         #[inline(never)]
         fn bootstrap_spellcheck(
             crate::IconProps {
@@ -31747,7 +31747,7 @@ impl IconData {
             html: bootstrap_spellcheck,
         }
     };
-    const BOOTSTRAP_SPOTIFY: Self = {
+    pub const BOOTSTRAP_SPOTIFY: Self = {
         #[inline(never)]
         fn bootstrap_spotify(
             crate::IconProps {
@@ -31769,7 +31769,7 @@ impl IconData {
             html: bootstrap_spotify,
         }
     };
-    const BOOTSTRAP_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_square_fill(
             crate::IconProps {
@@ -31791,7 +31791,7 @@ impl IconData {
             html: bootstrap_square_fill,
         }
     };
-    const BOOTSTRAP_SQUARE_HALF: Self = {
+    pub const BOOTSTRAP_SQUARE_HALF: Self = {
         #[inline(never)]
         fn bootstrap_square_half(
             crate::IconProps {
@@ -31813,7 +31813,7 @@ impl IconData {
             html: bootstrap_square_half,
         }
     };
-    const BOOTSTRAP_SQUARE: Self = {
+    pub const BOOTSTRAP_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_square(
             crate::IconProps {
@@ -31835,7 +31835,7 @@ impl IconData {
             html: bootstrap_square,
         }
     };
-    const BOOTSTRAP_STACK_OVERFLOW: Self = {
+    pub const BOOTSTRAP_STACK_OVERFLOW: Self = {
         #[inline(never)]
         fn bootstrap_stack_overflow(
             crate::IconProps {
@@ -31857,7 +31857,7 @@ impl IconData {
             html: bootstrap_stack_overflow,
         }
     };
-    const BOOTSTRAP_STACK: Self = {
+    pub const BOOTSTRAP_STACK: Self = {
         #[inline(never)]
         fn bootstrap_stack(
             crate::IconProps {
@@ -31879,7 +31879,7 @@ impl IconData {
             html: bootstrap_stack,
         }
     };
-    const BOOTSTRAP_STAR_FILL: Self = {
+    pub const BOOTSTRAP_STAR_FILL: Self = {
         #[inline(never)]
         fn bootstrap_star_fill(
             crate::IconProps {
@@ -31901,7 +31901,7 @@ impl IconData {
             html: bootstrap_star_fill,
         }
     };
-    const BOOTSTRAP_STAR_HALF: Self = {
+    pub const BOOTSTRAP_STAR_HALF: Self = {
         #[inline(never)]
         fn bootstrap_star_half(
             crate::IconProps {
@@ -31923,7 +31923,7 @@ impl IconData {
             html: bootstrap_star_half,
         }
     };
-    const BOOTSTRAP_STAR: Self = {
+    pub const BOOTSTRAP_STAR: Self = {
         #[inline(never)]
         fn bootstrap_star(
             crate::IconProps {
@@ -31945,7 +31945,7 @@ impl IconData {
             html: bootstrap_star,
         }
     };
-    const BOOTSTRAP_STARS: Self = {
+    pub const BOOTSTRAP_STARS: Self = {
         #[inline(never)]
         fn bootstrap_stars(
             crate::IconProps {
@@ -31967,7 +31967,7 @@ impl IconData {
             html: bootstrap_stars,
         }
     };
-    const BOOTSTRAP_STEAM: Self = {
+    pub const BOOTSTRAP_STEAM: Self = {
         #[inline(never)]
         fn bootstrap_steam(
             crate::IconProps {
@@ -31989,7 +31989,7 @@ impl IconData {
             html: bootstrap_steam,
         }
     };
-    const BOOTSTRAP_STICKIES_FILL: Self = {
+    pub const BOOTSTRAP_STICKIES_FILL: Self = {
         #[inline(never)]
         fn bootstrap_stickies_fill(
             crate::IconProps {
@@ -32011,7 +32011,7 @@ impl IconData {
             html: bootstrap_stickies_fill,
         }
     };
-    const BOOTSTRAP_STICKIES: Self = {
+    pub const BOOTSTRAP_STICKIES: Self = {
         #[inline(never)]
         fn bootstrap_stickies(
             crate::IconProps {
@@ -32033,7 +32033,7 @@ impl IconData {
             html: bootstrap_stickies,
         }
     };
-    const BOOTSTRAP_STICKY_FILL: Self = {
+    pub const BOOTSTRAP_STICKY_FILL: Self = {
         #[inline(never)]
         fn bootstrap_sticky_fill(
             crate::IconProps {
@@ -32055,7 +32055,7 @@ impl IconData {
             html: bootstrap_sticky_fill,
         }
     };
-    const BOOTSTRAP_STICKY: Self = {
+    pub const BOOTSTRAP_STICKY: Self = {
         #[inline(never)]
         fn bootstrap_sticky(
             crate::IconProps {
@@ -32077,7 +32077,7 @@ impl IconData {
             html: bootstrap_sticky,
         }
     };
-    const BOOTSTRAP_STOP_BTN_FILL: Self = {
+    pub const BOOTSTRAP_STOP_BTN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_stop_btn_fill(
             crate::IconProps {
@@ -32099,7 +32099,7 @@ impl IconData {
             html: bootstrap_stop_btn_fill,
         }
     };
-    const BOOTSTRAP_STOP_BTN: Self = {
+    pub const BOOTSTRAP_STOP_BTN: Self = {
         #[inline(never)]
         fn bootstrap_stop_btn(
             crate::IconProps {
@@ -32121,7 +32121,7 @@ impl IconData {
             html: bootstrap_stop_btn,
         }
     };
-    const BOOTSTRAP_STOP_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_STOP_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_stop_circle_fill(
             crate::IconProps {
@@ -32143,7 +32143,7 @@ impl IconData {
             html: bootstrap_stop_circle_fill,
         }
     };
-    const BOOTSTRAP_STOP_CIRCLE: Self = {
+    pub const BOOTSTRAP_STOP_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_stop_circle(
             crate::IconProps {
@@ -32165,7 +32165,7 @@ impl IconData {
             html: bootstrap_stop_circle,
         }
     };
-    const BOOTSTRAP_STOP_FILL: Self = {
+    pub const BOOTSTRAP_STOP_FILL: Self = {
         #[inline(never)]
         fn bootstrap_stop_fill(
             crate::IconProps {
@@ -32187,7 +32187,7 @@ impl IconData {
             html: bootstrap_stop_fill,
         }
     };
-    const BOOTSTRAP_STOP: Self = {
+    pub const BOOTSTRAP_STOP: Self = {
         #[inline(never)]
         fn bootstrap_stop(
             crate::IconProps {
@@ -32209,7 +32209,7 @@ impl IconData {
             html: bootstrap_stop,
         }
     };
-    const BOOTSTRAP_STOPLIGHTS_FILL: Self = {
+    pub const BOOTSTRAP_STOPLIGHTS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_stoplights_fill(
             crate::IconProps {
@@ -32231,7 +32231,7 @@ impl IconData {
             html: bootstrap_stoplights_fill,
         }
     };
-    const BOOTSTRAP_STOPLIGHTS: Self = {
+    pub const BOOTSTRAP_STOPLIGHTS: Self = {
         #[inline(never)]
         fn bootstrap_stoplights(
             crate::IconProps {
@@ -32253,7 +32253,7 @@ impl IconData {
             html: bootstrap_stoplights,
         }
     };
-    const BOOTSTRAP_STOPWATCH_FILL: Self = {
+    pub const BOOTSTRAP_STOPWATCH_FILL: Self = {
         #[inline(never)]
         fn bootstrap_stopwatch_fill(
             crate::IconProps {
@@ -32275,7 +32275,7 @@ impl IconData {
             html: bootstrap_stopwatch_fill,
         }
     };
-    const BOOTSTRAP_STOPWATCH: Self = {
+    pub const BOOTSTRAP_STOPWATCH: Self = {
         #[inline(never)]
         fn bootstrap_stopwatch(
             crate::IconProps {
@@ -32297,7 +32297,7 @@ impl IconData {
             html: bootstrap_stopwatch,
         }
     };
-    const BOOTSTRAP_STRAVA: Self = {
+    pub const BOOTSTRAP_STRAVA: Self = {
         #[inline(never)]
         fn bootstrap_strava(
             crate::IconProps {
@@ -32319,7 +32319,7 @@ impl IconData {
             html: bootstrap_strava,
         }
     };
-    const BOOTSTRAP_SUBTRACT: Self = {
+    pub const BOOTSTRAP_SUBTRACT: Self = {
         #[inline(never)]
         fn bootstrap_subtract(
             crate::IconProps {
@@ -32341,7 +32341,7 @@ impl IconData {
             html: bootstrap_subtract,
         }
     };
-    const BOOTSTRAP_SUIT_CLUB_FILL: Self = {
+    pub const BOOTSTRAP_SUIT_CLUB_FILL: Self = {
         #[inline(never)]
         fn bootstrap_suit_club_fill(
             crate::IconProps {
@@ -32363,7 +32363,7 @@ impl IconData {
             html: bootstrap_suit_club_fill,
         }
     };
-    const BOOTSTRAP_SUIT_CLUB: Self = {
+    pub const BOOTSTRAP_SUIT_CLUB: Self = {
         #[inline(never)]
         fn bootstrap_suit_club(
             crate::IconProps {
@@ -32385,7 +32385,7 @@ impl IconData {
             html: bootstrap_suit_club,
         }
     };
-    const BOOTSTRAP_SUIT_DIAMOND_FILL: Self = {
+    pub const BOOTSTRAP_SUIT_DIAMOND_FILL: Self = {
         #[inline(never)]
         fn bootstrap_suit_diamond_fill(
             crate::IconProps {
@@ -32407,7 +32407,7 @@ impl IconData {
             html: bootstrap_suit_diamond_fill,
         }
     };
-    const BOOTSTRAP_SUIT_DIAMOND: Self = {
+    pub const BOOTSTRAP_SUIT_DIAMOND: Self = {
         #[inline(never)]
         fn bootstrap_suit_diamond(
             crate::IconProps {
@@ -32429,7 +32429,7 @@ impl IconData {
             html: bootstrap_suit_diamond,
         }
     };
-    const BOOTSTRAP_SUIT_HEART_FILL: Self = {
+    pub const BOOTSTRAP_SUIT_HEART_FILL: Self = {
         #[inline(never)]
         fn bootstrap_suit_heart_fill(
             crate::IconProps {
@@ -32451,7 +32451,7 @@ impl IconData {
             html: bootstrap_suit_heart_fill,
         }
     };
-    const BOOTSTRAP_SUIT_HEART: Self = {
+    pub const BOOTSTRAP_SUIT_HEART: Self = {
         #[inline(never)]
         fn bootstrap_suit_heart(
             crate::IconProps {
@@ -32473,7 +32473,7 @@ impl IconData {
             html: bootstrap_suit_heart,
         }
     };
-    const BOOTSTRAP_SUIT_SPADE_FILL: Self = {
+    pub const BOOTSTRAP_SUIT_SPADE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_suit_spade_fill(
             crate::IconProps {
@@ -32495,7 +32495,7 @@ impl IconData {
             html: bootstrap_suit_spade_fill,
         }
     };
-    const BOOTSTRAP_SUIT_SPADE: Self = {
+    pub const BOOTSTRAP_SUIT_SPADE: Self = {
         #[inline(never)]
         fn bootstrap_suit_spade(
             crate::IconProps {
@@ -32517,7 +32517,7 @@ impl IconData {
             html: bootstrap_suit_spade,
         }
     };
-    const BOOTSTRAP_SUN_FILL: Self = {
+    pub const BOOTSTRAP_SUN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_sun_fill(
             crate::IconProps {
@@ -32539,7 +32539,7 @@ impl IconData {
             html: bootstrap_sun_fill,
         }
     };
-    const BOOTSTRAP_SUN: Self = {
+    pub const BOOTSTRAP_SUN: Self = {
         #[inline(never)]
         fn bootstrap_sun(
             crate::IconProps {
@@ -32561,7 +32561,7 @@ impl IconData {
             html: bootstrap_sun,
         }
     };
-    const BOOTSTRAP_SUNGLASSES: Self = {
+    pub const BOOTSTRAP_SUNGLASSES: Self = {
         #[inline(never)]
         fn bootstrap_sunglasses(
             crate::IconProps {
@@ -32583,7 +32583,7 @@ impl IconData {
             html: bootstrap_sunglasses,
         }
     };
-    const BOOTSTRAP_SUNRISE_FILL: Self = {
+    pub const BOOTSTRAP_SUNRISE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_sunrise_fill(
             crate::IconProps {
@@ -32605,7 +32605,7 @@ impl IconData {
             html: bootstrap_sunrise_fill,
         }
     };
-    const BOOTSTRAP_SUNRISE: Self = {
+    pub const BOOTSTRAP_SUNRISE: Self = {
         #[inline(never)]
         fn bootstrap_sunrise(
             crate::IconProps {
@@ -32627,7 +32627,7 @@ impl IconData {
             html: bootstrap_sunrise,
         }
     };
-    const BOOTSTRAP_SUNSET_FILL: Self = {
+    pub const BOOTSTRAP_SUNSET_FILL: Self = {
         #[inline(never)]
         fn bootstrap_sunset_fill(
             crate::IconProps {
@@ -32649,7 +32649,7 @@ impl IconData {
             html: bootstrap_sunset_fill,
         }
     };
-    const BOOTSTRAP_SUNSET: Self = {
+    pub const BOOTSTRAP_SUNSET: Self = {
         #[inline(never)]
         fn bootstrap_sunset(
             crate::IconProps {
@@ -32671,7 +32671,7 @@ impl IconData {
             html: bootstrap_sunset,
         }
     };
-    const BOOTSTRAP_SYMMETRY_HORIZONTAL: Self = {
+    pub const BOOTSTRAP_SYMMETRY_HORIZONTAL: Self = {
         #[inline(never)]
         fn bootstrap_symmetry_horizontal(
             crate::IconProps {
@@ -32693,7 +32693,7 @@ impl IconData {
             html: bootstrap_symmetry_horizontal,
         }
     };
-    const BOOTSTRAP_SYMMETRY_VERTICAL: Self = {
+    pub const BOOTSTRAP_SYMMETRY_VERTICAL: Self = {
         #[inline(never)]
         fn bootstrap_symmetry_vertical(
             crate::IconProps {
@@ -32715,7 +32715,7 @@ impl IconData {
             html: bootstrap_symmetry_vertical,
         }
     };
-    const BOOTSTRAP_TABLE: Self = {
+    pub const BOOTSTRAP_TABLE: Self = {
         #[inline(never)]
         fn bootstrap_table(
             crate::IconProps {
@@ -32737,7 +32737,7 @@ impl IconData {
             html: bootstrap_table,
         }
     };
-    const BOOTSTRAP_TABLET_FILL: Self = {
+    pub const BOOTSTRAP_TABLET_FILL: Self = {
         #[inline(never)]
         fn bootstrap_tablet_fill(
             crate::IconProps {
@@ -32759,7 +32759,7 @@ impl IconData {
             html: bootstrap_tablet_fill,
         }
     };
-    const BOOTSTRAP_TABLET_LANDSCAPE_FILL: Self = {
+    pub const BOOTSTRAP_TABLET_LANDSCAPE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_tablet_landscape_fill(
             crate::IconProps {
@@ -32781,7 +32781,7 @@ impl IconData {
             html: bootstrap_tablet_landscape_fill,
         }
     };
-    const BOOTSTRAP_TABLET_LANDSCAPE: Self = {
+    pub const BOOTSTRAP_TABLET_LANDSCAPE: Self = {
         #[inline(never)]
         fn bootstrap_tablet_landscape(
             crate::IconProps {
@@ -32803,7 +32803,7 @@ impl IconData {
             html: bootstrap_tablet_landscape,
         }
     };
-    const BOOTSTRAP_TABLET: Self = {
+    pub const BOOTSTRAP_TABLET: Self = {
         #[inline(never)]
         fn bootstrap_tablet(
             crate::IconProps {
@@ -32825,7 +32825,7 @@ impl IconData {
             html: bootstrap_tablet,
         }
     };
-    const BOOTSTRAP_TAG_FILL: Self = {
+    pub const BOOTSTRAP_TAG_FILL: Self = {
         #[inline(never)]
         fn bootstrap_tag_fill(
             crate::IconProps {
@@ -32847,7 +32847,7 @@ impl IconData {
             html: bootstrap_tag_fill,
         }
     };
-    const BOOTSTRAP_TAG: Self = {
+    pub const BOOTSTRAP_TAG: Self = {
         #[inline(never)]
         fn bootstrap_tag(
             crate::IconProps {
@@ -32869,7 +32869,7 @@ impl IconData {
             html: bootstrap_tag,
         }
     };
-    const BOOTSTRAP_TAGS_FILL: Self = {
+    pub const BOOTSTRAP_TAGS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_tags_fill(
             crate::IconProps {
@@ -32891,7 +32891,7 @@ impl IconData {
             html: bootstrap_tags_fill,
         }
     };
-    const BOOTSTRAP_TAGS: Self = {
+    pub const BOOTSTRAP_TAGS: Self = {
         #[inline(never)]
         fn bootstrap_tags(
             crate::IconProps {
@@ -32913,7 +32913,7 @@ impl IconData {
             html: bootstrap_tags,
         }
     };
-    const BOOTSTRAP_TELEGRAM: Self = {
+    pub const BOOTSTRAP_TELEGRAM: Self = {
         #[inline(never)]
         fn bootstrap_telegram(
             crate::IconProps {
@@ -32935,7 +32935,7 @@ impl IconData {
             html: bootstrap_telegram,
         }
     };
-    const BOOTSTRAP_TELEPHONE_FILL: Self = {
+    pub const BOOTSTRAP_TELEPHONE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_telephone_fill(
             crate::IconProps {
@@ -32957,7 +32957,7 @@ impl IconData {
             html: bootstrap_telephone_fill,
         }
     };
-    const BOOTSTRAP_TELEPHONE_FORWARD_FILL: Self = {
+    pub const BOOTSTRAP_TELEPHONE_FORWARD_FILL: Self = {
         #[inline(never)]
         fn bootstrap_telephone_forward_fill(
             crate::IconProps {
@@ -32979,7 +32979,7 @@ impl IconData {
             html: bootstrap_telephone_forward_fill,
         }
     };
-    const BOOTSTRAP_TELEPHONE_FORWARD: Self = {
+    pub const BOOTSTRAP_TELEPHONE_FORWARD: Self = {
         #[inline(never)]
         fn bootstrap_telephone_forward(
             crate::IconProps {
@@ -33001,7 +33001,7 @@ impl IconData {
             html: bootstrap_telephone_forward,
         }
     };
-    const BOOTSTRAP_TELEPHONE_INBOUND_FILL: Self = {
+    pub const BOOTSTRAP_TELEPHONE_INBOUND_FILL: Self = {
         #[inline(never)]
         fn bootstrap_telephone_inbound_fill(
             crate::IconProps {
@@ -33023,7 +33023,7 @@ impl IconData {
             html: bootstrap_telephone_inbound_fill,
         }
     };
-    const BOOTSTRAP_TELEPHONE_INBOUND: Self = {
+    pub const BOOTSTRAP_TELEPHONE_INBOUND: Self = {
         #[inline(never)]
         fn bootstrap_telephone_inbound(
             crate::IconProps {
@@ -33045,7 +33045,7 @@ impl IconData {
             html: bootstrap_telephone_inbound,
         }
     };
-    const BOOTSTRAP_TELEPHONE_MINUS_FILL: Self = {
+    pub const BOOTSTRAP_TELEPHONE_MINUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_telephone_minus_fill(
             crate::IconProps {
@@ -33067,7 +33067,7 @@ impl IconData {
             html: bootstrap_telephone_minus_fill,
         }
     };
-    const BOOTSTRAP_TELEPHONE_MINUS: Self = {
+    pub const BOOTSTRAP_TELEPHONE_MINUS: Self = {
         #[inline(never)]
         fn bootstrap_telephone_minus(
             crate::IconProps {
@@ -33089,7 +33089,7 @@ impl IconData {
             html: bootstrap_telephone_minus,
         }
     };
-    const BOOTSTRAP_TELEPHONE_OUTBOUND_FILL: Self = {
+    pub const BOOTSTRAP_TELEPHONE_OUTBOUND_FILL: Self = {
         #[inline(never)]
         fn bootstrap_telephone_outbound_fill(
             crate::IconProps {
@@ -33111,7 +33111,7 @@ impl IconData {
             html: bootstrap_telephone_outbound_fill,
         }
     };
-    const BOOTSTRAP_TELEPHONE_OUTBOUND: Self = {
+    pub const BOOTSTRAP_TELEPHONE_OUTBOUND: Self = {
         #[inline(never)]
         fn bootstrap_telephone_outbound(
             crate::IconProps {
@@ -33133,7 +33133,7 @@ impl IconData {
             html: bootstrap_telephone_outbound,
         }
     };
-    const BOOTSTRAP_TELEPHONE_PLUS_FILL: Self = {
+    pub const BOOTSTRAP_TELEPHONE_PLUS_FILL: Self = {
         #[inline(never)]
         fn bootstrap_telephone_plus_fill(
             crate::IconProps {
@@ -33155,7 +33155,7 @@ impl IconData {
             html: bootstrap_telephone_plus_fill,
         }
     };
-    const BOOTSTRAP_TELEPHONE_PLUS: Self = {
+    pub const BOOTSTRAP_TELEPHONE_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_telephone_plus(
             crate::IconProps {
@@ -33177,7 +33177,7 @@ impl IconData {
             html: bootstrap_telephone_plus,
         }
     };
-    const BOOTSTRAP_TELEPHONE_X_FILL: Self = {
+    pub const BOOTSTRAP_TELEPHONE_X_FILL: Self = {
         #[inline(never)]
         fn bootstrap_telephone_x_fill(
             crate::IconProps {
@@ -33199,7 +33199,7 @@ impl IconData {
             html: bootstrap_telephone_x_fill,
         }
     };
-    const BOOTSTRAP_TELEPHONE_X: Self = {
+    pub const BOOTSTRAP_TELEPHONE_X: Self = {
         #[inline(never)]
         fn bootstrap_telephone_x(
             crate::IconProps {
@@ -33221,7 +33221,7 @@ impl IconData {
             html: bootstrap_telephone_x,
         }
     };
-    const BOOTSTRAP_TELEPHONE: Self = {
+    pub const BOOTSTRAP_TELEPHONE: Self = {
         #[inline(never)]
         fn bootstrap_telephone(
             crate::IconProps {
@@ -33243,7 +33243,7 @@ impl IconData {
             html: bootstrap_telephone,
         }
     };
-    const BOOTSTRAP_TERMINAL_DASH: Self = {
+    pub const BOOTSTRAP_TERMINAL_DASH: Self = {
         #[inline(never)]
         fn bootstrap_terminal_dash(
             crate::IconProps {
@@ -33265,7 +33265,7 @@ impl IconData {
             html: bootstrap_terminal_dash,
         }
     };
-    const BOOTSTRAP_TERMINAL_FILL: Self = {
+    pub const BOOTSTRAP_TERMINAL_FILL: Self = {
         #[inline(never)]
         fn bootstrap_terminal_fill(
             crate::IconProps {
@@ -33287,7 +33287,7 @@ impl IconData {
             html: bootstrap_terminal_fill,
         }
     };
-    const BOOTSTRAP_TERMINAL_PLUS: Self = {
+    pub const BOOTSTRAP_TERMINAL_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_terminal_plus(
             crate::IconProps {
@@ -33309,7 +33309,7 @@ impl IconData {
             html: bootstrap_terminal_plus,
         }
     };
-    const BOOTSTRAP_TERMINAL_SPLIT: Self = {
+    pub const BOOTSTRAP_TERMINAL_SPLIT: Self = {
         #[inline(never)]
         fn bootstrap_terminal_split(
             crate::IconProps {
@@ -33331,7 +33331,7 @@ impl IconData {
             html: bootstrap_terminal_split,
         }
     };
-    const BOOTSTRAP_TERMINAL_X: Self = {
+    pub const BOOTSTRAP_TERMINAL_X: Self = {
         #[inline(never)]
         fn bootstrap_terminal_x(
             crate::IconProps {
@@ -33353,7 +33353,7 @@ impl IconData {
             html: bootstrap_terminal_x,
         }
     };
-    const BOOTSTRAP_TERMINAL: Self = {
+    pub const BOOTSTRAP_TERMINAL: Self = {
         #[inline(never)]
         fn bootstrap_terminal(
             crate::IconProps {
@@ -33375,7 +33375,7 @@ impl IconData {
             html: bootstrap_terminal,
         }
     };
-    const BOOTSTRAP_TEXT_CENTER: Self = {
+    pub const BOOTSTRAP_TEXT_CENTER: Self = {
         #[inline(never)]
         fn bootstrap_text_center(
             crate::IconProps {
@@ -33397,7 +33397,7 @@ impl IconData {
             html: bootstrap_text_center,
         }
     };
-    const BOOTSTRAP_TEXT_INDENT_LEFT: Self = {
+    pub const BOOTSTRAP_TEXT_INDENT_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_text_indent_left(
             crate::IconProps {
@@ -33419,7 +33419,7 @@ impl IconData {
             html: bootstrap_text_indent_left,
         }
     };
-    const BOOTSTRAP_TEXT_INDENT_RIGHT: Self = {
+    pub const BOOTSTRAP_TEXT_INDENT_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_text_indent_right(
             crate::IconProps {
@@ -33441,7 +33441,7 @@ impl IconData {
             html: bootstrap_text_indent_right,
         }
     };
-    const BOOTSTRAP_TEXT_LEFT: Self = {
+    pub const BOOTSTRAP_TEXT_LEFT: Self = {
         #[inline(never)]
         fn bootstrap_text_left(
             crate::IconProps {
@@ -33463,7 +33463,7 @@ impl IconData {
             html: bootstrap_text_left,
         }
     };
-    const BOOTSTRAP_TEXT_PARAGRAPH: Self = {
+    pub const BOOTSTRAP_TEXT_PARAGRAPH: Self = {
         #[inline(never)]
         fn bootstrap_text_paragraph(
             crate::IconProps {
@@ -33485,7 +33485,7 @@ impl IconData {
             html: bootstrap_text_paragraph,
         }
     };
-    const BOOTSTRAP_TEXT_RIGHT: Self = {
+    pub const BOOTSTRAP_TEXT_RIGHT: Self = {
         #[inline(never)]
         fn bootstrap_text_right(
             crate::IconProps {
@@ -33507,7 +33507,7 @@ impl IconData {
             html: bootstrap_text_right,
         }
     };
-    const BOOTSTRAP_TEXTAREA_RESIZE: Self = {
+    pub const BOOTSTRAP_TEXTAREA_RESIZE: Self = {
         #[inline(never)]
         fn bootstrap_textarea_resize(
             crate::IconProps {
@@ -33529,7 +33529,7 @@ impl IconData {
             html: bootstrap_textarea_resize,
         }
     };
-    const BOOTSTRAP_TEXTAREA_T: Self = {
+    pub const BOOTSTRAP_TEXTAREA_T: Self = {
         #[inline(never)]
         fn bootstrap_textarea_t(
             crate::IconProps {
@@ -33551,7 +33551,7 @@ impl IconData {
             html: bootstrap_textarea_t,
         }
     };
-    const BOOTSTRAP_TEXTAREA: Self = {
+    pub const BOOTSTRAP_TEXTAREA: Self = {
         #[inline(never)]
         fn bootstrap_textarea(
             crate::IconProps {
@@ -33573,7 +33573,7 @@ impl IconData {
             html: bootstrap_textarea,
         }
     };
-    const BOOTSTRAP_THERMOMETER_HALF: Self = {
+    pub const BOOTSTRAP_THERMOMETER_HALF: Self = {
         #[inline(never)]
         fn bootstrap_thermometer_half(
             crate::IconProps {
@@ -33595,7 +33595,7 @@ impl IconData {
             html: bootstrap_thermometer_half,
         }
     };
-    const BOOTSTRAP_THERMOMETER_HIGH: Self = {
+    pub const BOOTSTRAP_THERMOMETER_HIGH: Self = {
         #[inline(never)]
         fn bootstrap_thermometer_high(
             crate::IconProps {
@@ -33617,7 +33617,7 @@ impl IconData {
             html: bootstrap_thermometer_high,
         }
     };
-    const BOOTSTRAP_THERMOMETER_LOW: Self = {
+    pub const BOOTSTRAP_THERMOMETER_LOW: Self = {
         #[inline(never)]
         fn bootstrap_thermometer_low(
             crate::IconProps {
@@ -33639,7 +33639,7 @@ impl IconData {
             html: bootstrap_thermometer_low,
         }
     };
-    const BOOTSTRAP_THERMOMETER_SNOW: Self = {
+    pub const BOOTSTRAP_THERMOMETER_SNOW: Self = {
         #[inline(never)]
         fn bootstrap_thermometer_snow(
             crate::IconProps {
@@ -33661,7 +33661,7 @@ impl IconData {
             html: bootstrap_thermometer_snow,
         }
     };
-    const BOOTSTRAP_THERMOMETER_SUN: Self = {
+    pub const BOOTSTRAP_THERMOMETER_SUN: Self = {
         #[inline(never)]
         fn bootstrap_thermometer_sun(
             crate::IconProps {
@@ -33683,7 +33683,7 @@ impl IconData {
             html: bootstrap_thermometer_sun,
         }
     };
-    const BOOTSTRAP_THERMOMETER: Self = {
+    pub const BOOTSTRAP_THERMOMETER: Self = {
         #[inline(never)]
         fn bootstrap_thermometer(
             crate::IconProps {
@@ -33705,7 +33705,7 @@ impl IconData {
             html: bootstrap_thermometer,
         }
     };
-    const BOOTSTRAP_THREE_DOTS_VERTICAL: Self = {
+    pub const BOOTSTRAP_THREE_DOTS_VERTICAL: Self = {
         #[inline(never)]
         fn bootstrap_three_dots_vertical(
             crate::IconProps {
@@ -33727,7 +33727,7 @@ impl IconData {
             html: bootstrap_three_dots_vertical,
         }
     };
-    const BOOTSTRAP_THREE_DOTS: Self = {
+    pub const BOOTSTRAP_THREE_DOTS: Self = {
         #[inline(never)]
         fn bootstrap_three_dots(
             crate::IconProps {
@@ -33749,7 +33749,7 @@ impl IconData {
             html: bootstrap_three_dots,
         }
     };
-    const BOOTSTRAP_THUNDERBOLT_FILL: Self = {
+    pub const BOOTSTRAP_THUNDERBOLT_FILL: Self = {
         #[inline(never)]
         fn bootstrap_thunderbolt_fill(
             crate::IconProps {
@@ -33771,7 +33771,7 @@ impl IconData {
             html: bootstrap_thunderbolt_fill,
         }
     };
-    const BOOTSTRAP_THUNDERBOLT: Self = {
+    pub const BOOTSTRAP_THUNDERBOLT: Self = {
         #[inline(never)]
         fn bootstrap_thunderbolt(
             crate::IconProps {
@@ -33793,7 +33793,7 @@ impl IconData {
             html: bootstrap_thunderbolt,
         }
     };
-    const BOOTSTRAP_TICKET_DETAILED_FILL: Self = {
+    pub const BOOTSTRAP_TICKET_DETAILED_FILL: Self = {
         #[inline(never)]
         fn bootstrap_ticket_detailed_fill(
             crate::IconProps {
@@ -33815,7 +33815,7 @@ impl IconData {
             html: bootstrap_ticket_detailed_fill,
         }
     };
-    const BOOTSTRAP_TICKET_DETAILED: Self = {
+    pub const BOOTSTRAP_TICKET_DETAILED: Self = {
         #[inline(never)]
         fn bootstrap_ticket_detailed(
             crate::IconProps {
@@ -33837,7 +33837,7 @@ impl IconData {
             html: bootstrap_ticket_detailed,
         }
     };
-    const BOOTSTRAP_TICKET_FILL: Self = {
+    pub const BOOTSTRAP_TICKET_FILL: Self = {
         #[inline(never)]
         fn bootstrap_ticket_fill(
             crate::IconProps {
@@ -33859,7 +33859,7 @@ impl IconData {
             html: bootstrap_ticket_fill,
         }
     };
-    const BOOTSTRAP_TICKET_PERFORATED_FILL: Self = {
+    pub const BOOTSTRAP_TICKET_PERFORATED_FILL: Self = {
         #[inline(never)]
         fn bootstrap_ticket_perforated_fill(
             crate::IconProps {
@@ -33881,7 +33881,7 @@ impl IconData {
             html: bootstrap_ticket_perforated_fill,
         }
     };
-    const BOOTSTRAP_TICKET_PERFORATED: Self = {
+    pub const BOOTSTRAP_TICKET_PERFORATED: Self = {
         #[inline(never)]
         fn bootstrap_ticket_perforated(
             crate::IconProps {
@@ -33903,7 +33903,7 @@ impl IconData {
             html: bootstrap_ticket_perforated,
         }
     };
-    const BOOTSTRAP_TICKET: Self = {
+    pub const BOOTSTRAP_TICKET: Self = {
         #[inline(never)]
         fn bootstrap_ticket(
             crate::IconProps {
@@ -33925,7 +33925,7 @@ impl IconData {
             html: bootstrap_ticket,
         }
     };
-    const BOOTSTRAP_TIKTOK: Self = {
+    pub const BOOTSTRAP_TIKTOK: Self = {
         #[inline(never)]
         fn bootstrap_tiktok(
             crate::IconProps {
@@ -33947,7 +33947,7 @@ impl IconData {
             html: bootstrap_tiktok,
         }
     };
-    const BOOTSTRAP_TOGGLE_OFF: Self = {
+    pub const BOOTSTRAP_TOGGLE_OFF: Self = {
         #[inline(never)]
         fn bootstrap_toggle_off(
             crate::IconProps {
@@ -33969,7 +33969,7 @@ impl IconData {
             html: bootstrap_toggle_off,
         }
     };
-    const BOOTSTRAP_TOGGLE_ON: Self = {
+    pub const BOOTSTRAP_TOGGLE_ON: Self = {
         #[inline(never)]
         fn bootstrap_toggle_on(
             crate::IconProps {
@@ -33991,7 +33991,7 @@ impl IconData {
             html: bootstrap_toggle_on,
         }
     };
-    const BOOTSTRAP_TOGGLE_2_OFF: Self = {
+    pub const BOOTSTRAP_TOGGLE_2_OFF: Self = {
         #[inline(never)]
         fn bootstrap_toggle_2_off(
             crate::IconProps {
@@ -34013,7 +34013,7 @@ impl IconData {
             html: bootstrap_toggle_2_off,
         }
     };
-    const BOOTSTRAP_TOGGLE_2_ON: Self = {
+    pub const BOOTSTRAP_TOGGLE_2_ON: Self = {
         #[inline(never)]
         fn bootstrap_toggle_2_on(
             crate::IconProps {
@@ -34035,7 +34035,7 @@ impl IconData {
             html: bootstrap_toggle_2_on,
         }
     };
-    const BOOTSTRAP_TOGGLES: Self = {
+    pub const BOOTSTRAP_TOGGLES: Self = {
         #[inline(never)]
         fn bootstrap_toggles(
             crate::IconProps {
@@ -34057,7 +34057,7 @@ impl IconData {
             html: bootstrap_toggles,
         }
     };
-    const BOOTSTRAP_TOGGLES_2: Self = {
+    pub const BOOTSTRAP_TOGGLES_2: Self = {
         #[inline(never)]
         fn bootstrap_toggles_2(
             crate::IconProps {
@@ -34079,7 +34079,7 @@ impl IconData {
             html: bootstrap_toggles_2,
         }
     };
-    const BOOTSTRAP_TOOLS: Self = {
+    pub const BOOTSTRAP_TOOLS: Self = {
         #[inline(never)]
         fn bootstrap_tools(
             crate::IconProps {
@@ -34101,7 +34101,7 @@ impl IconData {
             html: bootstrap_tools,
         }
     };
-    const BOOTSTRAP_TORNADO: Self = {
+    pub const BOOTSTRAP_TORNADO: Self = {
         #[inline(never)]
         fn bootstrap_tornado(
             crate::IconProps {
@@ -34123,7 +34123,7 @@ impl IconData {
             html: bootstrap_tornado,
         }
     };
-    const BOOTSTRAP_TRANSLATE: Self = {
+    pub const BOOTSTRAP_TRANSLATE: Self = {
         #[inline(never)]
         fn bootstrap_translate(
             crate::IconProps {
@@ -34145,7 +34145,7 @@ impl IconData {
             html: bootstrap_translate,
         }
     };
-    const BOOTSTRAP_TRASH_FILL: Self = {
+    pub const BOOTSTRAP_TRASH_FILL: Self = {
         #[inline(never)]
         fn bootstrap_trash_fill(
             crate::IconProps {
@@ -34167,7 +34167,7 @@ impl IconData {
             html: bootstrap_trash_fill,
         }
     };
-    const BOOTSTRAP_TRASH: Self = {
+    pub const BOOTSTRAP_TRASH: Self = {
         #[inline(never)]
         fn bootstrap_trash(
             crate::IconProps {
@@ -34189,7 +34189,7 @@ impl IconData {
             html: bootstrap_trash,
         }
     };
-    const BOOTSTRAP_TRASH_2_FILL: Self = {
+    pub const BOOTSTRAP_TRASH_2_FILL: Self = {
         #[inline(never)]
         fn bootstrap_trash_2_fill(
             crate::IconProps {
@@ -34211,7 +34211,7 @@ impl IconData {
             html: bootstrap_trash_2_fill,
         }
     };
-    const BOOTSTRAP_TRASH_2: Self = {
+    pub const BOOTSTRAP_TRASH_2: Self = {
         #[inline(never)]
         fn bootstrap_trash_2(
             crate::IconProps {
@@ -34233,7 +34233,7 @@ impl IconData {
             html: bootstrap_trash_2,
         }
     };
-    const BOOTSTRAP_TRASH_3_FILL: Self = {
+    pub const BOOTSTRAP_TRASH_3_FILL: Self = {
         #[inline(never)]
         fn bootstrap_trash_3_fill(
             crate::IconProps {
@@ -34255,7 +34255,7 @@ impl IconData {
             html: bootstrap_trash_3_fill,
         }
     };
-    const BOOTSTRAP_TRASH_3: Self = {
+    pub const BOOTSTRAP_TRASH_3: Self = {
         #[inline(never)]
         fn bootstrap_trash_3(
             crate::IconProps {
@@ -34277,7 +34277,7 @@ impl IconData {
             html: bootstrap_trash_3,
         }
     };
-    const BOOTSTRAP_TREE_FILL: Self = {
+    pub const BOOTSTRAP_TREE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_tree_fill(
             crate::IconProps {
@@ -34299,7 +34299,7 @@ impl IconData {
             html: bootstrap_tree_fill,
         }
     };
-    const BOOTSTRAP_TREE: Self = {
+    pub const BOOTSTRAP_TREE: Self = {
         #[inline(never)]
         fn bootstrap_tree(
             crate::IconProps {
@@ -34321,7 +34321,7 @@ impl IconData {
             html: bootstrap_tree,
         }
     };
-    const BOOTSTRAP_TRIANGLE_FILL: Self = {
+    pub const BOOTSTRAP_TRIANGLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_triangle_fill(
             crate::IconProps {
@@ -34343,7 +34343,7 @@ impl IconData {
             html: bootstrap_triangle_fill,
         }
     };
-    const BOOTSTRAP_TRIANGLE_HALF: Self = {
+    pub const BOOTSTRAP_TRIANGLE_HALF: Self = {
         #[inline(never)]
         fn bootstrap_triangle_half(
             crate::IconProps {
@@ -34365,7 +34365,7 @@ impl IconData {
             html: bootstrap_triangle_half,
         }
     };
-    const BOOTSTRAP_TRIANGLE: Self = {
+    pub const BOOTSTRAP_TRIANGLE: Self = {
         #[inline(never)]
         fn bootstrap_triangle(
             crate::IconProps {
@@ -34387,7 +34387,7 @@ impl IconData {
             html: bootstrap_triangle,
         }
     };
-    const BOOTSTRAP_TROPHY_FILL: Self = {
+    pub const BOOTSTRAP_TROPHY_FILL: Self = {
         #[inline(never)]
         fn bootstrap_trophy_fill(
             crate::IconProps {
@@ -34409,7 +34409,7 @@ impl IconData {
             html: bootstrap_trophy_fill,
         }
     };
-    const BOOTSTRAP_TROPHY: Self = {
+    pub const BOOTSTRAP_TROPHY: Self = {
         #[inline(never)]
         fn bootstrap_trophy(
             crate::IconProps {
@@ -34431,7 +34431,7 @@ impl IconData {
             html: bootstrap_trophy,
         }
     };
-    const BOOTSTRAP_TROPICAL_STORM: Self = {
+    pub const BOOTSTRAP_TROPICAL_STORM: Self = {
         #[inline(never)]
         fn bootstrap_tropical_storm(
             crate::IconProps {
@@ -34453,7 +34453,7 @@ impl IconData {
             html: bootstrap_tropical_storm,
         }
     };
-    const BOOTSTRAP_TRUCK_FLATBED: Self = {
+    pub const BOOTSTRAP_TRUCK_FLATBED: Self = {
         #[inline(never)]
         fn bootstrap_truck_flatbed(
             crate::IconProps {
@@ -34475,7 +34475,7 @@ impl IconData {
             html: bootstrap_truck_flatbed,
         }
     };
-    const BOOTSTRAP_TRUCK: Self = {
+    pub const BOOTSTRAP_TRUCK: Self = {
         #[inline(never)]
         fn bootstrap_truck(
             crate::IconProps {
@@ -34497,7 +34497,7 @@ impl IconData {
             html: bootstrap_truck,
         }
     };
-    const BOOTSTRAP_TSUNAMI: Self = {
+    pub const BOOTSTRAP_TSUNAMI: Self = {
         #[inline(never)]
         fn bootstrap_tsunami(
             crate::IconProps {
@@ -34519,7 +34519,7 @@ impl IconData {
             html: bootstrap_tsunami,
         }
     };
-    const BOOTSTRAP_TV_FILL: Self = {
+    pub const BOOTSTRAP_TV_FILL: Self = {
         #[inline(never)]
         fn bootstrap_tv_fill(
             crate::IconProps {
@@ -34541,7 +34541,7 @@ impl IconData {
             html: bootstrap_tv_fill,
         }
     };
-    const BOOTSTRAP_TV: Self = {
+    pub const BOOTSTRAP_TV: Self = {
         #[inline(never)]
         fn bootstrap_tv(
             crate::IconProps {
@@ -34563,7 +34563,7 @@ impl IconData {
             html: bootstrap_tv,
         }
     };
-    const BOOTSTRAP_TWITCH: Self = {
+    pub const BOOTSTRAP_TWITCH: Self = {
         #[inline(never)]
         fn bootstrap_twitch(
             crate::IconProps {
@@ -34585,7 +34585,7 @@ impl IconData {
             html: bootstrap_twitch,
         }
     };
-    const BOOTSTRAP_TWITTER: Self = {
+    pub const BOOTSTRAP_TWITTER: Self = {
         #[inline(never)]
         fn bootstrap_twitter(
             crate::IconProps {
@@ -34607,7 +34607,7 @@ impl IconData {
             html: bootstrap_twitter,
         }
     };
-    const BOOTSTRAP_TYPE_BOLD: Self = {
+    pub const BOOTSTRAP_TYPE_BOLD: Self = {
         #[inline(never)]
         fn bootstrap_type_bold(
             crate::IconProps {
@@ -34629,7 +34629,7 @@ impl IconData {
             html: bootstrap_type_bold,
         }
     };
-    const BOOTSTRAP_TYPE_H_1: Self = {
+    pub const BOOTSTRAP_TYPE_H_1: Self = {
         #[inline(never)]
         fn bootstrap_type_h_1(
             crate::IconProps {
@@ -34651,7 +34651,7 @@ impl IconData {
             html: bootstrap_type_h_1,
         }
     };
-    const BOOTSTRAP_TYPE_H_2: Self = {
+    pub const BOOTSTRAP_TYPE_H_2: Self = {
         #[inline(never)]
         fn bootstrap_type_h_2(
             crate::IconProps {
@@ -34673,7 +34673,7 @@ impl IconData {
             html: bootstrap_type_h_2,
         }
     };
-    const BOOTSTRAP_TYPE_H_3: Self = {
+    pub const BOOTSTRAP_TYPE_H_3: Self = {
         #[inline(never)]
         fn bootstrap_type_h_3(
             crate::IconProps {
@@ -34695,7 +34695,7 @@ impl IconData {
             html: bootstrap_type_h_3,
         }
     };
-    const BOOTSTRAP_TYPE_ITALIC: Self = {
+    pub const BOOTSTRAP_TYPE_ITALIC: Self = {
         #[inline(never)]
         fn bootstrap_type_italic(
             crate::IconProps {
@@ -34717,7 +34717,7 @@ impl IconData {
             html: bootstrap_type_italic,
         }
     };
-    const BOOTSTRAP_TYPE_STRIKETHROUGH: Self = {
+    pub const BOOTSTRAP_TYPE_STRIKETHROUGH: Self = {
         #[inline(never)]
         fn bootstrap_type_strikethrough(
             crate::IconProps {
@@ -34739,7 +34739,7 @@ impl IconData {
             html: bootstrap_type_strikethrough,
         }
     };
-    const BOOTSTRAP_TYPE_UNDERLINE: Self = {
+    pub const BOOTSTRAP_TYPE_UNDERLINE: Self = {
         #[inline(never)]
         fn bootstrap_type_underline(
             crate::IconProps {
@@ -34761,7 +34761,7 @@ impl IconData {
             html: bootstrap_type_underline,
         }
     };
-    const BOOTSTRAP_TYPE: Self = {
+    pub const BOOTSTRAP_TYPE: Self = {
         #[inline(never)]
         fn bootstrap_type(
             crate::IconProps {
@@ -34783,7 +34783,7 @@ impl IconData {
             html: bootstrap_type,
         }
     };
-    const BOOTSTRAP_UI_CHECKS_GRID: Self = {
+    pub const BOOTSTRAP_UI_CHECKS_GRID: Self = {
         #[inline(never)]
         fn bootstrap_ui_checks_grid(
             crate::IconProps {
@@ -34805,7 +34805,7 @@ impl IconData {
             html: bootstrap_ui_checks_grid,
         }
     };
-    const BOOTSTRAP_UI_CHECKS: Self = {
+    pub const BOOTSTRAP_UI_CHECKS: Self = {
         #[inline(never)]
         fn bootstrap_ui_checks(
             crate::IconProps {
@@ -34827,7 +34827,7 @@ impl IconData {
             html: bootstrap_ui_checks,
         }
     };
-    const BOOTSTRAP_UI_RADIOS_GRID: Self = {
+    pub const BOOTSTRAP_UI_RADIOS_GRID: Self = {
         #[inline(never)]
         fn bootstrap_ui_radios_grid(
             crate::IconProps {
@@ -34849,7 +34849,7 @@ impl IconData {
             html: bootstrap_ui_radios_grid,
         }
     };
-    const BOOTSTRAP_UI_RADIOS: Self = {
+    pub const BOOTSTRAP_UI_RADIOS: Self = {
         #[inline(never)]
         fn bootstrap_ui_radios(
             crate::IconProps {
@@ -34871,7 +34871,7 @@ impl IconData {
             html: bootstrap_ui_radios,
         }
     };
-    const BOOTSTRAP_UMBRELLA_FILL: Self = {
+    pub const BOOTSTRAP_UMBRELLA_FILL: Self = {
         #[inline(never)]
         fn bootstrap_umbrella_fill(
             crate::IconProps {
@@ -34893,7 +34893,7 @@ impl IconData {
             html: bootstrap_umbrella_fill,
         }
     };
-    const BOOTSTRAP_UMBRELLA: Self = {
+    pub const BOOTSTRAP_UMBRELLA: Self = {
         #[inline(never)]
         fn bootstrap_umbrella(
             crate::IconProps {
@@ -34915,7 +34915,7 @@ impl IconData {
             html: bootstrap_umbrella,
         }
     };
-    const BOOTSTRAP_UNION: Self = {
+    pub const BOOTSTRAP_UNION: Self = {
         #[inline(never)]
         fn bootstrap_union(
             crate::IconProps {
@@ -34937,7 +34937,7 @@ impl IconData {
             html: bootstrap_union,
         }
     };
-    const BOOTSTRAP_UNLOCK_FILL: Self = {
+    pub const BOOTSTRAP_UNLOCK_FILL: Self = {
         #[inline(never)]
         fn bootstrap_unlock_fill(
             crate::IconProps {
@@ -34959,7 +34959,7 @@ impl IconData {
             html: bootstrap_unlock_fill,
         }
     };
-    const BOOTSTRAP_UNLOCK: Self = {
+    pub const BOOTSTRAP_UNLOCK: Self = {
         #[inline(never)]
         fn bootstrap_unlock(
             crate::IconProps {
@@ -34981,7 +34981,7 @@ impl IconData {
             html: bootstrap_unlock,
         }
     };
-    const BOOTSTRAP_UPC_SCAN: Self = {
+    pub const BOOTSTRAP_UPC_SCAN: Self = {
         #[inline(never)]
         fn bootstrap_upc_scan(
             crate::IconProps {
@@ -35003,7 +35003,7 @@ impl IconData {
             html: bootstrap_upc_scan,
         }
     };
-    const BOOTSTRAP_UPC: Self = {
+    pub const BOOTSTRAP_UPC: Self = {
         #[inline(never)]
         fn bootstrap_upc(
             crate::IconProps {
@@ -35025,7 +35025,7 @@ impl IconData {
             html: bootstrap_upc,
         }
     };
-    const BOOTSTRAP_UPLOAD: Self = {
+    pub const BOOTSTRAP_UPLOAD: Self = {
         #[inline(never)]
         fn bootstrap_upload(
             crate::IconProps {
@@ -35047,7 +35047,7 @@ impl IconData {
             html: bootstrap_upload,
         }
     };
-    const BOOTSTRAP_USB_C_FILL: Self = {
+    pub const BOOTSTRAP_USB_C_FILL: Self = {
         #[inline(never)]
         fn bootstrap_usb_c_fill(
             crate::IconProps {
@@ -35069,7 +35069,7 @@ impl IconData {
             html: bootstrap_usb_c_fill,
         }
     };
-    const BOOTSTRAP_USB_C: Self = {
+    pub const BOOTSTRAP_USB_C: Self = {
         #[inline(never)]
         fn bootstrap_usb_c(
             crate::IconProps {
@@ -35091,7 +35091,7 @@ impl IconData {
             html: bootstrap_usb_c,
         }
     };
-    const BOOTSTRAP_USB_DRIVE_FILL: Self = {
+    pub const BOOTSTRAP_USB_DRIVE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_usb_drive_fill(
             crate::IconProps {
@@ -35113,7 +35113,7 @@ impl IconData {
             html: bootstrap_usb_drive_fill,
         }
     };
-    const BOOTSTRAP_USB_DRIVE: Self = {
+    pub const BOOTSTRAP_USB_DRIVE: Self = {
         #[inline(never)]
         fn bootstrap_usb_drive(
             crate::IconProps {
@@ -35135,7 +35135,7 @@ impl IconData {
             html: bootstrap_usb_drive,
         }
     };
-    const BOOTSTRAP_USB_FILL: Self = {
+    pub const BOOTSTRAP_USB_FILL: Self = {
         #[inline(never)]
         fn bootstrap_usb_fill(
             crate::IconProps {
@@ -35157,7 +35157,7 @@ impl IconData {
             html: bootstrap_usb_fill,
         }
     };
-    const BOOTSTRAP_USB_MICRO_FILL: Self = {
+    pub const BOOTSTRAP_USB_MICRO_FILL: Self = {
         #[inline(never)]
         fn bootstrap_usb_micro_fill(
             crate::IconProps {
@@ -35179,7 +35179,7 @@ impl IconData {
             html: bootstrap_usb_micro_fill,
         }
     };
-    const BOOTSTRAP_USB_MICRO: Self = {
+    pub const BOOTSTRAP_USB_MICRO: Self = {
         #[inline(never)]
         fn bootstrap_usb_micro(
             crate::IconProps {
@@ -35201,7 +35201,7 @@ impl IconData {
             html: bootstrap_usb_micro,
         }
     };
-    const BOOTSTRAP_USB_MINI_FILL: Self = {
+    pub const BOOTSTRAP_USB_MINI_FILL: Self = {
         #[inline(never)]
         fn bootstrap_usb_mini_fill(
             crate::IconProps {
@@ -35223,7 +35223,7 @@ impl IconData {
             html: bootstrap_usb_mini_fill,
         }
     };
-    const BOOTSTRAP_USB_MINI: Self = {
+    pub const BOOTSTRAP_USB_MINI: Self = {
         #[inline(never)]
         fn bootstrap_usb_mini(
             crate::IconProps {
@@ -35245,7 +35245,7 @@ impl IconData {
             html: bootstrap_usb_mini,
         }
     };
-    const BOOTSTRAP_USB_PLUG_FILL: Self = {
+    pub const BOOTSTRAP_USB_PLUG_FILL: Self = {
         #[inline(never)]
         fn bootstrap_usb_plug_fill(
             crate::IconProps {
@@ -35267,7 +35267,7 @@ impl IconData {
             html: bootstrap_usb_plug_fill,
         }
     };
-    const BOOTSTRAP_USB_PLUG: Self = {
+    pub const BOOTSTRAP_USB_PLUG: Self = {
         #[inline(never)]
         fn bootstrap_usb_plug(
             crate::IconProps {
@@ -35289,7 +35289,7 @@ impl IconData {
             html: bootstrap_usb_plug,
         }
     };
-    const BOOTSTRAP_USB_SYMBOL: Self = {
+    pub const BOOTSTRAP_USB_SYMBOL: Self = {
         #[inline(never)]
         fn bootstrap_usb_symbol(
             crate::IconProps {
@@ -35311,7 +35311,7 @@ impl IconData {
             html: bootstrap_usb_symbol,
         }
     };
-    const BOOTSTRAP_USB: Self = {
+    pub const BOOTSTRAP_USB: Self = {
         #[inline(never)]
         fn bootstrap_usb(
             crate::IconProps {
@@ -35333,7 +35333,7 @@ impl IconData {
             html: bootstrap_usb,
         }
     };
-    const BOOTSTRAP_VALENTINE: Self = {
+    pub const BOOTSTRAP_VALENTINE: Self = {
         #[inline(never)]
         fn bootstrap_valentine(
             crate::IconProps {
@@ -35355,7 +35355,7 @@ impl IconData {
             html: bootstrap_valentine,
         }
     };
-    const BOOTSTRAP_VALENTINE_2: Self = {
+    pub const BOOTSTRAP_VALENTINE_2: Self = {
         #[inline(never)]
         fn bootstrap_valentine_2(
             crate::IconProps {
@@ -35377,7 +35377,7 @@ impl IconData {
             html: bootstrap_valentine_2,
         }
     };
-    const BOOTSTRAP_VECTOR_PEN: Self = {
+    pub const BOOTSTRAP_VECTOR_PEN: Self = {
         #[inline(never)]
         fn bootstrap_vector_pen(
             crate::IconProps {
@@ -35399,7 +35399,7 @@ impl IconData {
             html: bootstrap_vector_pen,
         }
     };
-    const BOOTSTRAP_VIEW_LIST: Self = {
+    pub const BOOTSTRAP_VIEW_LIST: Self = {
         #[inline(never)]
         fn bootstrap_view_list(
             crate::IconProps {
@@ -35421,7 +35421,7 @@ impl IconData {
             html: bootstrap_view_list,
         }
     };
-    const BOOTSTRAP_VIEW_STACKED: Self = {
+    pub const BOOTSTRAP_VIEW_STACKED: Self = {
         #[inline(never)]
         fn bootstrap_view_stacked(
             crate::IconProps {
@@ -35443,7 +35443,7 @@ impl IconData {
             html: bootstrap_view_stacked,
         }
     };
-    const BOOTSTRAP_VIMEO: Self = {
+    pub const BOOTSTRAP_VIMEO: Self = {
         #[inline(never)]
         fn bootstrap_vimeo(
             crate::IconProps {
@@ -35465,7 +35465,7 @@ impl IconData {
             html: bootstrap_vimeo,
         }
     };
-    const BOOTSTRAP_VINYL_FILL: Self = {
+    pub const BOOTSTRAP_VINYL_FILL: Self = {
         #[inline(never)]
         fn bootstrap_vinyl_fill(
             crate::IconProps {
@@ -35487,7 +35487,7 @@ impl IconData {
             html: bootstrap_vinyl_fill,
         }
     };
-    const BOOTSTRAP_VINYL: Self = {
+    pub const BOOTSTRAP_VINYL: Self = {
         #[inline(never)]
         fn bootstrap_vinyl(
             crate::IconProps {
@@ -35509,7 +35509,7 @@ impl IconData {
             html: bootstrap_vinyl,
         }
     };
-    const BOOTSTRAP_VOICEMAIL: Self = {
+    pub const BOOTSTRAP_VOICEMAIL: Self = {
         #[inline(never)]
         fn bootstrap_voicemail(
             crate::IconProps {
@@ -35531,7 +35531,7 @@ impl IconData {
             html: bootstrap_voicemail,
         }
     };
-    const BOOTSTRAP_VOLUME_DOWN_FILL: Self = {
+    pub const BOOTSTRAP_VOLUME_DOWN_FILL: Self = {
         #[inline(never)]
         fn bootstrap_volume_down_fill(
             crate::IconProps {
@@ -35553,7 +35553,7 @@ impl IconData {
             html: bootstrap_volume_down_fill,
         }
     };
-    const BOOTSTRAP_VOLUME_DOWN: Self = {
+    pub const BOOTSTRAP_VOLUME_DOWN: Self = {
         #[inline(never)]
         fn bootstrap_volume_down(
             crate::IconProps {
@@ -35575,7 +35575,7 @@ impl IconData {
             html: bootstrap_volume_down,
         }
     };
-    const BOOTSTRAP_VOLUME_MUTE_FILL: Self = {
+    pub const BOOTSTRAP_VOLUME_MUTE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_volume_mute_fill(
             crate::IconProps {
@@ -35597,7 +35597,7 @@ impl IconData {
             html: bootstrap_volume_mute_fill,
         }
     };
-    const BOOTSTRAP_VOLUME_MUTE: Self = {
+    pub const BOOTSTRAP_VOLUME_MUTE: Self = {
         #[inline(never)]
         fn bootstrap_volume_mute(
             crate::IconProps {
@@ -35619,7 +35619,7 @@ impl IconData {
             html: bootstrap_volume_mute,
         }
     };
-    const BOOTSTRAP_VOLUME_OFF_FILL: Self = {
+    pub const BOOTSTRAP_VOLUME_OFF_FILL: Self = {
         #[inline(never)]
         fn bootstrap_volume_off_fill(
             crate::IconProps {
@@ -35641,7 +35641,7 @@ impl IconData {
             html: bootstrap_volume_off_fill,
         }
     };
-    const BOOTSTRAP_VOLUME_OFF: Self = {
+    pub const BOOTSTRAP_VOLUME_OFF: Self = {
         #[inline(never)]
         fn bootstrap_volume_off(
             crate::IconProps {
@@ -35663,7 +35663,7 @@ impl IconData {
             html: bootstrap_volume_off,
         }
     };
-    const BOOTSTRAP_VOLUME_UP_FILL: Self = {
+    pub const BOOTSTRAP_VOLUME_UP_FILL: Self = {
         #[inline(never)]
         fn bootstrap_volume_up_fill(
             crate::IconProps {
@@ -35685,7 +35685,7 @@ impl IconData {
             html: bootstrap_volume_up_fill,
         }
     };
-    const BOOTSTRAP_VOLUME_UP: Self = {
+    pub const BOOTSTRAP_VOLUME_UP: Self = {
         #[inline(never)]
         fn bootstrap_volume_up(
             crate::IconProps {
@@ -35707,7 +35707,7 @@ impl IconData {
             html: bootstrap_volume_up,
         }
     };
-    const BOOTSTRAP_VR: Self = {
+    pub const BOOTSTRAP_VR: Self = {
         #[inline(never)]
         fn bootstrap_vr(
             crate::IconProps {
@@ -35729,7 +35729,7 @@ impl IconData {
             html: bootstrap_vr,
         }
     };
-    const BOOTSTRAP_WALLET_FILL: Self = {
+    pub const BOOTSTRAP_WALLET_FILL: Self = {
         #[inline(never)]
         fn bootstrap_wallet_fill(
             crate::IconProps {
@@ -35751,7 +35751,7 @@ impl IconData {
             html: bootstrap_wallet_fill,
         }
     };
-    const BOOTSTRAP_WALLET: Self = {
+    pub const BOOTSTRAP_WALLET: Self = {
         #[inline(never)]
         fn bootstrap_wallet(
             crate::IconProps {
@@ -35773,7 +35773,7 @@ impl IconData {
             html: bootstrap_wallet,
         }
     };
-    const BOOTSTRAP_WALLET_2: Self = {
+    pub const BOOTSTRAP_WALLET_2: Self = {
         #[inline(never)]
         fn bootstrap_wallet_2(
             crate::IconProps {
@@ -35795,7 +35795,7 @@ impl IconData {
             html: bootstrap_wallet_2,
         }
     };
-    const BOOTSTRAP_WATCH: Self = {
+    pub const BOOTSTRAP_WATCH: Self = {
         #[inline(never)]
         fn bootstrap_watch(
             crate::IconProps {
@@ -35817,7 +35817,7 @@ impl IconData {
             html: bootstrap_watch,
         }
     };
-    const BOOTSTRAP_WATER: Self = {
+    pub const BOOTSTRAP_WATER: Self = {
         #[inline(never)]
         fn bootstrap_water(
             crate::IconProps {
@@ -35839,7 +35839,7 @@ impl IconData {
             html: bootstrap_water,
         }
     };
-    const BOOTSTRAP_WEBCAM_FILL: Self = {
+    pub const BOOTSTRAP_WEBCAM_FILL: Self = {
         #[inline(never)]
         fn bootstrap_webcam_fill(
             crate::IconProps {
@@ -35861,7 +35861,7 @@ impl IconData {
             html: bootstrap_webcam_fill,
         }
     };
-    const BOOTSTRAP_WEBCAM: Self = {
+    pub const BOOTSTRAP_WEBCAM: Self = {
         #[inline(never)]
         fn bootstrap_webcam(
             crate::IconProps {
@@ -35883,7 +35883,7 @@ impl IconData {
             html: bootstrap_webcam,
         }
     };
-    const BOOTSTRAP_WHATSAPP: Self = {
+    pub const BOOTSTRAP_WHATSAPP: Self = {
         #[inline(never)]
         fn bootstrap_whatsapp(
             crate::IconProps {
@@ -35905,7 +35905,7 @@ impl IconData {
             html: bootstrap_whatsapp,
         }
     };
-    const BOOTSTRAP_WIFI_1: Self = {
+    pub const BOOTSTRAP_WIFI_1: Self = {
         #[inline(never)]
         fn bootstrap_wifi_1(
             crate::IconProps {
@@ -35927,7 +35927,7 @@ impl IconData {
             html: bootstrap_wifi_1,
         }
     };
-    const BOOTSTRAP_WIFI_2: Self = {
+    pub const BOOTSTRAP_WIFI_2: Self = {
         #[inline(never)]
         fn bootstrap_wifi_2(
             crate::IconProps {
@@ -35949,7 +35949,7 @@ impl IconData {
             html: bootstrap_wifi_2,
         }
     };
-    const BOOTSTRAP_WIFI_OFF: Self = {
+    pub const BOOTSTRAP_WIFI_OFF: Self = {
         #[inline(never)]
         fn bootstrap_wifi_off(
             crate::IconProps {
@@ -35971,7 +35971,7 @@ impl IconData {
             html: bootstrap_wifi_off,
         }
     };
-    const BOOTSTRAP_WIFI: Self = {
+    pub const BOOTSTRAP_WIFI: Self = {
         #[inline(never)]
         fn bootstrap_wifi(
             crate::IconProps {
@@ -35993,7 +35993,7 @@ impl IconData {
             html: bootstrap_wifi,
         }
     };
-    const BOOTSTRAP_WIND: Self = {
+    pub const BOOTSTRAP_WIND: Self = {
         #[inline(never)]
         fn bootstrap_wind(
             crate::IconProps {
@@ -36015,7 +36015,7 @@ impl IconData {
             html: bootstrap_wind,
         }
     };
-    const BOOTSTRAP_WINDOW_DASH: Self = {
+    pub const BOOTSTRAP_WINDOW_DASH: Self = {
         #[inline(never)]
         fn bootstrap_window_dash(
             crate::IconProps {
@@ -36037,7 +36037,7 @@ impl IconData {
             html: bootstrap_window_dash,
         }
     };
-    const BOOTSTRAP_WINDOW_DESKTOP: Self = {
+    pub const BOOTSTRAP_WINDOW_DESKTOP: Self = {
         #[inline(never)]
         fn bootstrap_window_desktop(
             crate::IconProps {
@@ -36059,7 +36059,7 @@ impl IconData {
             html: bootstrap_window_desktop,
         }
     };
-    const BOOTSTRAP_WINDOW_DOCK: Self = {
+    pub const BOOTSTRAP_WINDOW_DOCK: Self = {
         #[inline(never)]
         fn bootstrap_window_dock(
             crate::IconProps {
@@ -36081,7 +36081,7 @@ impl IconData {
             html: bootstrap_window_dock,
         }
     };
-    const BOOTSTRAP_WINDOW_FULLSCREEN: Self = {
+    pub const BOOTSTRAP_WINDOW_FULLSCREEN: Self = {
         #[inline(never)]
         fn bootstrap_window_fullscreen(
             crate::IconProps {
@@ -36103,7 +36103,7 @@ impl IconData {
             html: bootstrap_window_fullscreen,
         }
     };
-    const BOOTSTRAP_WINDOW_PLUS: Self = {
+    pub const BOOTSTRAP_WINDOW_PLUS: Self = {
         #[inline(never)]
         fn bootstrap_window_plus(
             crate::IconProps {
@@ -36125,7 +36125,7 @@ impl IconData {
             html: bootstrap_window_plus,
         }
     };
-    const BOOTSTRAP_WINDOW_SIDEBAR: Self = {
+    pub const BOOTSTRAP_WINDOW_SIDEBAR: Self = {
         #[inline(never)]
         fn bootstrap_window_sidebar(
             crate::IconProps {
@@ -36147,7 +36147,7 @@ impl IconData {
             html: bootstrap_window_sidebar,
         }
     };
-    const BOOTSTRAP_WINDOW_SPLIT: Self = {
+    pub const BOOTSTRAP_WINDOW_SPLIT: Self = {
         #[inline(never)]
         fn bootstrap_window_split(
             crate::IconProps {
@@ -36169,7 +36169,7 @@ impl IconData {
             html: bootstrap_window_split,
         }
     };
-    const BOOTSTRAP_WINDOW_STACK: Self = {
+    pub const BOOTSTRAP_WINDOW_STACK: Self = {
         #[inline(never)]
         fn bootstrap_window_stack(
             crate::IconProps {
@@ -36191,7 +36191,7 @@ impl IconData {
             html: bootstrap_window_stack,
         }
     };
-    const BOOTSTRAP_WINDOW_X: Self = {
+    pub const BOOTSTRAP_WINDOW_X: Self = {
         #[inline(never)]
         fn bootstrap_window_x(
             crate::IconProps {
@@ -36213,7 +36213,7 @@ impl IconData {
             html: bootstrap_window_x,
         }
     };
-    const BOOTSTRAP_WINDOW: Self = {
+    pub const BOOTSTRAP_WINDOW: Self = {
         #[inline(never)]
         fn bootstrap_window(
             crate::IconProps {
@@ -36235,7 +36235,7 @@ impl IconData {
             html: bootstrap_window,
         }
     };
-    const BOOTSTRAP_WINDOWS: Self = {
+    pub const BOOTSTRAP_WINDOWS: Self = {
         #[inline(never)]
         fn bootstrap_windows(
             crate::IconProps {
@@ -36257,7 +36257,7 @@ impl IconData {
             html: bootstrap_windows,
         }
     };
-    const BOOTSTRAP_WORDPRESS: Self = {
+    pub const BOOTSTRAP_WORDPRESS: Self = {
         #[inline(never)]
         fn bootstrap_wordpress(
             crate::IconProps {
@@ -36279,7 +36279,7 @@ impl IconData {
             html: bootstrap_wordpress,
         }
     };
-    const BOOTSTRAP_WRENCH_ADJUSTABLE_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_WRENCH_ADJUSTABLE_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_wrench_adjustable_circle_fill(
             crate::IconProps {
@@ -36301,7 +36301,7 @@ impl IconData {
             html: bootstrap_wrench_adjustable_circle_fill,
         }
     };
-    const BOOTSTRAP_WRENCH_ADJUSTABLE_CIRCLE: Self = {
+    pub const BOOTSTRAP_WRENCH_ADJUSTABLE_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_wrench_adjustable_circle(
             crate::IconProps {
@@ -36323,7 +36323,7 @@ impl IconData {
             html: bootstrap_wrench_adjustable_circle,
         }
     };
-    const BOOTSTRAP_WRENCH_ADJUSTABLE: Self = {
+    pub const BOOTSTRAP_WRENCH_ADJUSTABLE: Self = {
         #[inline(never)]
         fn bootstrap_wrench_adjustable(
             crate::IconProps {
@@ -36345,7 +36345,7 @@ impl IconData {
             html: bootstrap_wrench_adjustable,
         }
     };
-    const BOOTSTRAP_WRENCH: Self = {
+    pub const BOOTSTRAP_WRENCH: Self = {
         #[inline(never)]
         fn bootstrap_wrench(
             crate::IconProps {
@@ -36367,7 +36367,7 @@ impl IconData {
             html: bootstrap_wrench,
         }
     };
-    const BOOTSTRAP_X_CIRCLE_FILL: Self = {
+    pub const BOOTSTRAP_X_CIRCLE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_x_circle_fill(
             crate::IconProps {
@@ -36389,7 +36389,7 @@ impl IconData {
             html: bootstrap_x_circle_fill,
         }
     };
-    const BOOTSTRAP_X_CIRCLE: Self = {
+    pub const BOOTSTRAP_X_CIRCLE: Self = {
         #[inline(never)]
         fn bootstrap_x_circle(
             crate::IconProps {
@@ -36411,7 +36411,7 @@ impl IconData {
             html: bootstrap_x_circle,
         }
     };
-    const BOOTSTRAP_X_DIAMOND_FILL: Self = {
+    pub const BOOTSTRAP_X_DIAMOND_FILL: Self = {
         #[inline(never)]
         fn bootstrap_x_diamond_fill(
             crate::IconProps {
@@ -36433,7 +36433,7 @@ impl IconData {
             html: bootstrap_x_diamond_fill,
         }
     };
-    const BOOTSTRAP_X_DIAMOND: Self = {
+    pub const BOOTSTRAP_X_DIAMOND: Self = {
         #[inline(never)]
         fn bootstrap_x_diamond(
             crate::IconProps {
@@ -36455,7 +36455,7 @@ impl IconData {
             html: bootstrap_x_diamond,
         }
     };
-    const BOOTSTRAP_X_LG: Self = {
+    pub const BOOTSTRAP_X_LG: Self = {
         #[inline(never)]
         fn bootstrap_x_lg(
             crate::IconProps {
@@ -36477,7 +36477,7 @@ impl IconData {
             html: bootstrap_x_lg,
         }
     };
-    const BOOTSTRAP_X_OCTAGON_FILL: Self = {
+    pub const BOOTSTRAP_X_OCTAGON_FILL: Self = {
         #[inline(never)]
         fn bootstrap_x_octagon_fill(
             crate::IconProps {
@@ -36499,7 +36499,7 @@ impl IconData {
             html: bootstrap_x_octagon_fill,
         }
     };
-    const BOOTSTRAP_X_OCTAGON: Self = {
+    pub const BOOTSTRAP_X_OCTAGON: Self = {
         #[inline(never)]
         fn bootstrap_x_octagon(
             crate::IconProps {
@@ -36521,7 +36521,7 @@ impl IconData {
             html: bootstrap_x_octagon,
         }
     };
-    const BOOTSTRAP_X_SQUARE_FILL: Self = {
+    pub const BOOTSTRAP_X_SQUARE_FILL: Self = {
         #[inline(never)]
         fn bootstrap_x_square_fill(
             crate::IconProps {
@@ -36543,7 +36543,7 @@ impl IconData {
             html: bootstrap_x_square_fill,
         }
     };
-    const BOOTSTRAP_X_SQUARE: Self = {
+    pub const BOOTSTRAP_X_SQUARE: Self = {
         #[inline(never)]
         fn bootstrap_x_square(
             crate::IconProps {
@@ -36565,7 +36565,7 @@ impl IconData {
             html: bootstrap_x_square,
         }
     };
-    const BOOTSTRAP_X: Self = {
+    pub const BOOTSTRAP_X: Self = {
         #[inline(never)]
         fn bootstrap_x(
             crate::IconProps {
@@ -36587,7 +36587,7 @@ impl IconData {
             html: bootstrap_x,
         }
     };
-    const BOOTSTRAP_XBOX: Self = {
+    pub const BOOTSTRAP_XBOX: Self = {
         #[inline(never)]
         fn bootstrap_xbox(
             crate::IconProps {
@@ -36609,7 +36609,7 @@ impl IconData {
             html: bootstrap_xbox,
         }
     };
-    const BOOTSTRAP_YIN_YANG: Self = {
+    pub const BOOTSTRAP_YIN_YANG: Self = {
         #[inline(never)]
         fn bootstrap_yin_yang(
             crate::IconProps {
@@ -36631,7 +36631,7 @@ impl IconData {
             html: bootstrap_yin_yang,
         }
     };
-    const BOOTSTRAP_YOUTUBE: Self = {
+    pub const BOOTSTRAP_YOUTUBE: Self = {
         #[inline(never)]
         fn bootstrap_youtube(
             crate::IconProps {
@@ -36653,7 +36653,7 @@ impl IconData {
             html: bootstrap_youtube,
         }
     };
-    const BOOTSTRAP_ZOOM_IN: Self = {
+    pub const BOOTSTRAP_ZOOM_IN: Self = {
         #[inline(never)]
         fn bootstrap_zoom_in(
             crate::IconProps {
@@ -36675,7 +36675,7 @@ impl IconData {
             html: bootstrap_zoom_in,
         }
     };
-    const BOOTSTRAP_ZOOM_OUT: Self = {
+    pub const BOOTSTRAP_ZOOM_OUT: Self = {
         #[inline(never)]
         fn bootstrap_zoom_out(
             crate::IconProps {

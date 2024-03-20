@@ -1,7 +1,7 @@
 // Generated file, do not edit by hand, see `src/generator.rs`
 
-impl IconData {
-    const FEATHER_ACTIVITY: Self = {
+impl crate::IconData {
+    pub const FEATHER_ACTIVITY: Self = {
         #[inline(never)]
         fn feather_activity(
             crate::IconProps {
@@ -23,7 +23,7 @@ impl IconData {
             html: feather_activity,
         }
     };
-    const FEATHER_AIRPLAY: Self = {
+    pub const FEATHER_AIRPLAY: Self = {
         #[inline(never)]
         fn feather_airplay(
             crate::IconProps {
@@ -45,7 +45,7 @@ impl IconData {
             html: feather_airplay,
         }
     };
-    const FEATHER_ALERT_CIRCLE: Self = {
+    pub const FEATHER_ALERT_CIRCLE: Self = {
         #[inline(never)]
         fn feather_alert_circle(
             crate::IconProps {
@@ -67,7 +67,7 @@ impl IconData {
             html: feather_alert_circle,
         }
     };
-    const FEATHER_ALERT_OCTAGON: Self = {
+    pub const FEATHER_ALERT_OCTAGON: Self = {
         #[inline(never)]
         fn feather_alert_octagon(
             crate::IconProps {
@@ -89,7 +89,7 @@ impl IconData {
             html: feather_alert_octagon,
         }
     };
-    const FEATHER_ALERT_TRIANGLE: Self = {
+    pub const FEATHER_ALERT_TRIANGLE: Self = {
         #[inline(never)]
         fn feather_alert_triangle(
             crate::IconProps {
@@ -111,7 +111,7 @@ impl IconData {
             html: feather_alert_triangle,
         }
     };
-    const FEATHER_ALIGN_CENTER: Self = {
+    pub const FEATHER_ALIGN_CENTER: Self = {
         #[inline(never)]
         fn feather_align_center(
             crate::IconProps {
@@ -133,7 +133,7 @@ impl IconData {
             html: feather_align_center,
         }
     };
-    const FEATHER_ALIGN_JUSTIFY: Self = {
+    pub const FEATHER_ALIGN_JUSTIFY: Self = {
         #[inline(never)]
         fn feather_align_justify(
             crate::IconProps {
@@ -155,7 +155,7 @@ impl IconData {
             html: feather_align_justify,
         }
     };
-    const FEATHER_ALIGN_LEFT: Self = {
+    pub const FEATHER_ALIGN_LEFT: Self = {
         #[inline(never)]
         fn feather_align_left(
             crate::IconProps {
@@ -177,7 +177,7 @@ impl IconData {
             html: feather_align_left,
         }
     };
-    const FEATHER_ALIGN_RIGHT: Self = {
+    pub const FEATHER_ALIGN_RIGHT: Self = {
         #[inline(never)]
         fn feather_align_right(
             crate::IconProps {
@@ -199,7 +199,7 @@ impl IconData {
             html: feather_align_right,
         }
     };
-    const FEATHER_ANCHOR: Self = {
+    pub const FEATHER_ANCHOR: Self = {
         #[inline(never)]
         fn feather_anchor(
             crate::IconProps {
@@ -221,7 +221,7 @@ impl IconData {
             html: feather_anchor,
         }
     };
-    const FEATHER_APERTURE: Self = {
+    pub const FEATHER_APERTURE: Self = {
         #[inline(never)]
         fn feather_aperture(
             crate::IconProps {
@@ -243,7 +243,7 @@ impl IconData {
             html: feather_aperture,
         }
     };
-    const FEATHER_ARCHIVE: Self = {
+    pub const FEATHER_ARCHIVE: Self = {
         #[inline(never)]
         fn feather_archive(
             crate::IconProps {
@@ -265,7 +265,7 @@ impl IconData {
             html: feather_archive,
         }
     };
-    const FEATHER_ARROW_DOWN_CIRCLE: Self = {
+    pub const FEATHER_ARROW_DOWN_CIRCLE: Self = {
         #[inline(never)]
         fn feather_arrow_down_circle(
             crate::IconProps {
@@ -287,7 +287,7 @@ impl IconData {
             html: feather_arrow_down_circle,
         }
     };
-    const FEATHER_ARROW_DOWN_LEFT: Self = {
+    pub const FEATHER_ARROW_DOWN_LEFT: Self = {
         #[inline(never)]
         fn feather_arrow_down_left(
             crate::IconProps {
@@ -309,7 +309,7 @@ impl IconData {
             html: feather_arrow_down_left,
         }
     };
-    const FEATHER_ARROW_DOWN_RIGHT: Self = {
+    pub const FEATHER_ARROW_DOWN_RIGHT: Self = {
         #[inline(never)]
         fn feather_arrow_down_right(
             crate::IconProps {
@@ -331,7 +331,7 @@ impl IconData {
             html: feather_arrow_down_right,
         }
     };
-    const FEATHER_ARROW_DOWN: Self = {
+    pub const FEATHER_ARROW_DOWN: Self = {
         #[inline(never)]
         fn feather_arrow_down(
             crate::IconProps {
@@ -353,7 +353,7 @@ impl IconData {
             html: feather_arrow_down,
         }
     };
-    const FEATHER_ARROW_LEFT_CIRCLE: Self = {
+    pub const FEATHER_ARROW_LEFT_CIRCLE: Self = {
         #[inline(never)]
         fn feather_arrow_left_circle(
             crate::IconProps {
@@ -375,7 +375,7 @@ impl IconData {
             html: feather_arrow_left_circle,
         }
     };
-    const FEATHER_ARROW_LEFT: Self = {
+    pub const FEATHER_ARROW_LEFT: Self = {
         #[inline(never)]
         fn feather_arrow_left(
             crate::IconProps {
@@ -397,7 +397,7 @@ impl IconData {
             html: feather_arrow_left,
         }
     };
-    const FEATHER_ARROW_RIGHT_CIRCLE: Self = {
+    pub const FEATHER_ARROW_RIGHT_CIRCLE: Self = {
         #[inline(never)]
         fn feather_arrow_right_circle(
             crate::IconProps {
@@ -419,7 +419,7 @@ impl IconData {
             html: feather_arrow_right_circle,
         }
     };
-    const FEATHER_ARROW_RIGHT: Self = {
+    pub const FEATHER_ARROW_RIGHT: Self = {
         #[inline(never)]
         fn feather_arrow_right(
             crate::IconProps {
@@ -441,7 +441,7 @@ impl IconData {
             html: feather_arrow_right,
         }
     };
-    const FEATHER_ARROW_UP_CIRCLE: Self = {
+    pub const FEATHER_ARROW_UP_CIRCLE: Self = {
         #[inline(never)]
         fn feather_arrow_up_circle(
             crate::IconProps {
@@ -463,7 +463,7 @@ impl IconData {
             html: feather_arrow_up_circle,
         }
     };
-    const FEATHER_ARROW_UP_LEFT: Self = {
+    pub const FEATHER_ARROW_UP_LEFT: Self = {
         #[inline(never)]
         fn feather_arrow_up_left(
             crate::IconProps {
@@ -485,7 +485,7 @@ impl IconData {
             html: feather_arrow_up_left,
         }
     };
-    const FEATHER_ARROW_UP_RIGHT: Self = {
+    pub const FEATHER_ARROW_UP_RIGHT: Self = {
         #[inline(never)]
         fn feather_arrow_up_right(
             crate::IconProps {
@@ -507,7 +507,7 @@ impl IconData {
             html: feather_arrow_up_right,
         }
     };
-    const FEATHER_ARROW_UP: Self = {
+    pub const FEATHER_ARROW_UP: Self = {
         #[inline(never)]
         fn feather_arrow_up(
             crate::IconProps {
@@ -529,7 +529,7 @@ impl IconData {
             html: feather_arrow_up,
         }
     };
-    const FEATHER_AT_SIGN: Self = {
+    pub const FEATHER_AT_SIGN: Self = {
         #[inline(never)]
         fn feather_at_sign(
             crate::IconProps {
@@ -551,7 +551,7 @@ impl IconData {
             html: feather_at_sign,
         }
     };
-    const FEATHER_AWARD: Self = {
+    pub const FEATHER_AWARD: Self = {
         #[inline(never)]
         fn feather_award(
             crate::IconProps {
@@ -573,7 +573,7 @@ impl IconData {
             html: feather_award,
         }
     };
-    const FEATHER_BAR_CHART_2: Self = {
+    pub const FEATHER_BAR_CHART_2: Self = {
         #[inline(never)]
         fn feather_bar_chart_2(
             crate::IconProps {
@@ -595,7 +595,7 @@ impl IconData {
             html: feather_bar_chart_2,
         }
     };
-    const FEATHER_BAR_CHART: Self = {
+    pub const FEATHER_BAR_CHART: Self = {
         #[inline(never)]
         fn feather_bar_chart(
             crate::IconProps {
@@ -617,7 +617,7 @@ impl IconData {
             html: feather_bar_chart,
         }
     };
-    const FEATHER_BATTERY_CHARGING: Self = {
+    pub const FEATHER_BATTERY_CHARGING: Self = {
         #[inline(never)]
         fn feather_battery_charging(
             crate::IconProps {
@@ -639,7 +639,7 @@ impl IconData {
             html: feather_battery_charging,
         }
     };
-    const FEATHER_BATTERY: Self = {
+    pub const FEATHER_BATTERY: Self = {
         #[inline(never)]
         fn feather_battery(
             crate::IconProps {
@@ -661,7 +661,7 @@ impl IconData {
             html: feather_battery,
         }
     };
-    const FEATHER_BELL_OFF: Self = {
+    pub const FEATHER_BELL_OFF: Self = {
         #[inline(never)]
         fn feather_bell_off(
             crate::IconProps {
@@ -683,7 +683,7 @@ impl IconData {
             html: feather_bell_off,
         }
     };
-    const FEATHER_BELL: Self = {
+    pub const FEATHER_BELL: Self = {
         #[inline(never)]
         fn feather_bell(
             crate::IconProps {
@@ -705,7 +705,7 @@ impl IconData {
             html: feather_bell,
         }
     };
-    const FEATHER_BLUETOOTH: Self = {
+    pub const FEATHER_BLUETOOTH: Self = {
         #[inline(never)]
         fn feather_bluetooth(
             crate::IconProps {
@@ -727,7 +727,7 @@ impl IconData {
             html: feather_bluetooth,
         }
     };
-    const FEATHER_BOLD: Self = {
+    pub const FEATHER_BOLD: Self = {
         #[inline(never)]
         fn feather_bold(
             crate::IconProps {
@@ -749,7 +749,7 @@ impl IconData {
             html: feather_bold,
         }
     };
-    const FEATHER_BOOK_OPEN: Self = {
+    pub const FEATHER_BOOK_OPEN: Self = {
         #[inline(never)]
         fn feather_book_open(
             crate::IconProps {
@@ -771,7 +771,7 @@ impl IconData {
             html: feather_book_open,
         }
     };
-    const FEATHER_BOOK: Self = {
+    pub const FEATHER_BOOK: Self = {
         #[inline(never)]
         fn feather_book(
             crate::IconProps {
@@ -793,7 +793,7 @@ impl IconData {
             html: feather_book,
         }
     };
-    const FEATHER_BOOKMARK: Self = {
+    pub const FEATHER_BOOKMARK: Self = {
         #[inline(never)]
         fn feather_bookmark(
             crate::IconProps {
@@ -815,7 +815,7 @@ impl IconData {
             html: feather_bookmark,
         }
     };
-    const FEATHER_BOX: Self = {
+    pub const FEATHER_BOX: Self = {
         #[inline(never)]
         fn feather_box(
             crate::IconProps {
@@ -837,7 +837,7 @@ impl IconData {
             html: feather_box,
         }
     };
-    const FEATHER_BRIEFCASE: Self = {
+    pub const FEATHER_BRIEFCASE: Self = {
         #[inline(never)]
         fn feather_briefcase(
             crate::IconProps {
@@ -859,7 +859,7 @@ impl IconData {
             html: feather_briefcase,
         }
     };
-    const FEATHER_CALENDAR: Self = {
+    pub const FEATHER_CALENDAR: Self = {
         #[inline(never)]
         fn feather_calendar(
             crate::IconProps {
@@ -881,7 +881,7 @@ impl IconData {
             html: feather_calendar,
         }
     };
-    const FEATHER_CAMERA_OFF: Self = {
+    pub const FEATHER_CAMERA_OFF: Self = {
         #[inline(never)]
         fn feather_camera_off(
             crate::IconProps {
@@ -903,7 +903,7 @@ impl IconData {
             html: feather_camera_off,
         }
     };
-    const FEATHER_CAMERA: Self = {
+    pub const FEATHER_CAMERA: Self = {
         #[inline(never)]
         fn feather_camera(
             crate::IconProps {
@@ -925,7 +925,7 @@ impl IconData {
             html: feather_camera,
         }
     };
-    const FEATHER_CAST: Self = {
+    pub const FEATHER_CAST: Self = {
         #[inline(never)]
         fn feather_cast(
             crate::IconProps {
@@ -947,7 +947,7 @@ impl IconData {
             html: feather_cast,
         }
     };
-    const FEATHER_CHECK_CIRCLE: Self = {
+    pub const FEATHER_CHECK_CIRCLE: Self = {
         #[inline(never)]
         fn feather_check_circle(
             crate::IconProps {
@@ -969,7 +969,7 @@ impl IconData {
             html: feather_check_circle,
         }
     };
-    const FEATHER_CHECK_SQUARE: Self = {
+    pub const FEATHER_CHECK_SQUARE: Self = {
         #[inline(never)]
         fn feather_check_square(
             crate::IconProps {
@@ -991,7 +991,7 @@ impl IconData {
             html: feather_check_square,
         }
     };
-    const FEATHER_CHECK: Self = {
+    pub const FEATHER_CHECK: Self = {
         #[inline(never)]
         fn feather_check(
             crate::IconProps {
@@ -1013,7 +1013,7 @@ impl IconData {
             html: feather_check,
         }
     };
-    const FEATHER_CHEVRON_DOWN: Self = {
+    pub const FEATHER_CHEVRON_DOWN: Self = {
         #[inline(never)]
         fn feather_chevron_down(
             crate::IconProps {
@@ -1035,7 +1035,7 @@ impl IconData {
             html: feather_chevron_down,
         }
     };
-    const FEATHER_CHEVRON_LEFT: Self = {
+    pub const FEATHER_CHEVRON_LEFT: Self = {
         #[inline(never)]
         fn feather_chevron_left(
             crate::IconProps {
@@ -1057,7 +1057,7 @@ impl IconData {
             html: feather_chevron_left,
         }
     };
-    const FEATHER_CHEVRON_RIGHT: Self = {
+    pub const FEATHER_CHEVRON_RIGHT: Self = {
         #[inline(never)]
         fn feather_chevron_right(
             crate::IconProps {
@@ -1079,7 +1079,7 @@ impl IconData {
             html: feather_chevron_right,
         }
     };
-    const FEATHER_CHEVRON_UP: Self = {
+    pub const FEATHER_CHEVRON_UP: Self = {
         #[inline(never)]
         fn feather_chevron_up(
             crate::IconProps {
@@ -1101,7 +1101,7 @@ impl IconData {
             html: feather_chevron_up,
         }
     };
-    const FEATHER_CHEVRONS_DOWN: Self = {
+    pub const FEATHER_CHEVRONS_DOWN: Self = {
         #[inline(never)]
         fn feather_chevrons_down(
             crate::IconProps {
@@ -1123,7 +1123,7 @@ impl IconData {
             html: feather_chevrons_down,
         }
     };
-    const FEATHER_CHEVRONS_LEFT: Self = {
+    pub const FEATHER_CHEVRONS_LEFT: Self = {
         #[inline(never)]
         fn feather_chevrons_left(
             crate::IconProps {
@@ -1145,7 +1145,7 @@ impl IconData {
             html: feather_chevrons_left,
         }
     };
-    const FEATHER_CHEVRONS_RIGHT: Self = {
+    pub const FEATHER_CHEVRONS_RIGHT: Self = {
         #[inline(never)]
         fn feather_chevrons_right(
             crate::IconProps {
@@ -1167,7 +1167,7 @@ impl IconData {
             html: feather_chevrons_right,
         }
     };
-    const FEATHER_CHEVRONS_UP: Self = {
+    pub const FEATHER_CHEVRONS_UP: Self = {
         #[inline(never)]
         fn feather_chevrons_up(
             crate::IconProps {
@@ -1189,7 +1189,7 @@ impl IconData {
             html: feather_chevrons_up,
         }
     };
-    const FEATHER_CHROME: Self = {
+    pub const FEATHER_CHROME: Self = {
         #[inline(never)]
         fn feather_chrome(
             crate::IconProps {
@@ -1211,7 +1211,7 @@ impl IconData {
             html: feather_chrome,
         }
     };
-    const FEATHER_CIRCLE: Self = {
+    pub const FEATHER_CIRCLE: Self = {
         #[inline(never)]
         fn feather_circle(
             crate::IconProps {
@@ -1233,7 +1233,7 @@ impl IconData {
             html: feather_circle,
         }
     };
-    const FEATHER_CLIPBOARD: Self = {
+    pub const FEATHER_CLIPBOARD: Self = {
         #[inline(never)]
         fn feather_clipboard(
             crate::IconProps {
@@ -1255,7 +1255,7 @@ impl IconData {
             html: feather_clipboard,
         }
     };
-    const FEATHER_CLOCK: Self = {
+    pub const FEATHER_CLOCK: Self = {
         #[inline(never)]
         fn feather_clock(
             crate::IconProps {
@@ -1277,7 +1277,7 @@ impl IconData {
             html: feather_clock,
         }
     };
-    const FEATHER_CLOUD_DRIZZLE: Self = {
+    pub const FEATHER_CLOUD_DRIZZLE: Self = {
         #[inline(never)]
         fn feather_cloud_drizzle(
             crate::IconProps {
@@ -1299,7 +1299,7 @@ impl IconData {
             html: feather_cloud_drizzle,
         }
     };
-    const FEATHER_CLOUD_LIGHTNING: Self = {
+    pub const FEATHER_CLOUD_LIGHTNING: Self = {
         #[inline(never)]
         fn feather_cloud_lightning(
             crate::IconProps {
@@ -1321,7 +1321,7 @@ impl IconData {
             html: feather_cloud_lightning,
         }
     };
-    const FEATHER_CLOUD_OFF: Self = {
+    pub const FEATHER_CLOUD_OFF: Self = {
         #[inline(never)]
         fn feather_cloud_off(
             crate::IconProps {
@@ -1343,7 +1343,7 @@ impl IconData {
             html: feather_cloud_off,
         }
     };
-    const FEATHER_CLOUD_RAIN: Self = {
+    pub const FEATHER_CLOUD_RAIN: Self = {
         #[inline(never)]
         fn feather_cloud_rain(
             crate::IconProps {
@@ -1365,7 +1365,7 @@ impl IconData {
             html: feather_cloud_rain,
         }
     };
-    const FEATHER_CLOUD_SNOW: Self = {
+    pub const FEATHER_CLOUD_SNOW: Self = {
         #[inline(never)]
         fn feather_cloud_snow(
             crate::IconProps {
@@ -1387,7 +1387,7 @@ impl IconData {
             html: feather_cloud_snow,
         }
     };
-    const FEATHER_CLOUD: Self = {
+    pub const FEATHER_CLOUD: Self = {
         #[inline(never)]
         fn feather_cloud(
             crate::IconProps {
@@ -1409,7 +1409,7 @@ impl IconData {
             html: feather_cloud,
         }
     };
-    const FEATHER_CODE: Self = {
+    pub const FEATHER_CODE: Self = {
         #[inline(never)]
         fn feather_code(
             crate::IconProps {
@@ -1431,7 +1431,7 @@ impl IconData {
             html: feather_code,
         }
     };
-    const FEATHER_CODEPEN: Self = {
+    pub const FEATHER_CODEPEN: Self = {
         #[inline(never)]
         fn feather_codepen(
             crate::IconProps {
@@ -1453,7 +1453,7 @@ impl IconData {
             html: feather_codepen,
         }
     };
-    const FEATHER_CODESANDBOX: Self = {
+    pub const FEATHER_CODESANDBOX: Self = {
         #[inline(never)]
         fn feather_codesandbox(
             crate::IconProps {
@@ -1475,7 +1475,7 @@ impl IconData {
             html: feather_codesandbox,
         }
     };
-    const FEATHER_COFFEE: Self = {
+    pub const FEATHER_COFFEE: Self = {
         #[inline(never)]
         fn feather_coffee(
             crate::IconProps {
@@ -1497,7 +1497,7 @@ impl IconData {
             html: feather_coffee,
         }
     };
-    const FEATHER_COLUMNS: Self = {
+    pub const FEATHER_COLUMNS: Self = {
         #[inline(never)]
         fn feather_columns(
             crate::IconProps {
@@ -1519,7 +1519,7 @@ impl IconData {
             html: feather_columns,
         }
     };
-    const FEATHER_COMMAND: Self = {
+    pub const FEATHER_COMMAND: Self = {
         #[inline(never)]
         fn feather_command(
             crate::IconProps {
@@ -1541,7 +1541,7 @@ impl IconData {
             html: feather_command,
         }
     };
-    const FEATHER_COMPASS: Self = {
+    pub const FEATHER_COMPASS: Self = {
         #[inline(never)]
         fn feather_compass(
             crate::IconProps {
@@ -1563,7 +1563,7 @@ impl IconData {
             html: feather_compass,
         }
     };
-    const FEATHER_COPY: Self = {
+    pub const FEATHER_COPY: Self = {
         #[inline(never)]
         fn feather_copy(
             crate::IconProps {
@@ -1585,7 +1585,7 @@ impl IconData {
             html: feather_copy,
         }
     };
-    const FEATHER_CORNER_DOWN_LEFT: Self = {
+    pub const FEATHER_CORNER_DOWN_LEFT: Self = {
         #[inline(never)]
         fn feather_corner_down_left(
             crate::IconProps {
@@ -1607,7 +1607,7 @@ impl IconData {
             html: feather_corner_down_left,
         }
     };
-    const FEATHER_CORNER_DOWN_RIGHT: Self = {
+    pub const FEATHER_CORNER_DOWN_RIGHT: Self = {
         #[inline(never)]
         fn feather_corner_down_right(
             crate::IconProps {
@@ -1629,7 +1629,7 @@ impl IconData {
             html: feather_corner_down_right,
         }
     };
-    const FEATHER_CORNER_LEFT_DOWN: Self = {
+    pub const FEATHER_CORNER_LEFT_DOWN: Self = {
         #[inline(never)]
         fn feather_corner_left_down(
             crate::IconProps {
@@ -1651,7 +1651,7 @@ impl IconData {
             html: feather_corner_left_down,
         }
     };
-    const FEATHER_CORNER_LEFT_UP: Self = {
+    pub const FEATHER_CORNER_LEFT_UP: Self = {
         #[inline(never)]
         fn feather_corner_left_up(
             crate::IconProps {
@@ -1673,7 +1673,7 @@ impl IconData {
             html: feather_corner_left_up,
         }
     };
-    const FEATHER_CORNER_RIGHT_DOWN: Self = {
+    pub const FEATHER_CORNER_RIGHT_DOWN: Self = {
         #[inline(never)]
         fn feather_corner_right_down(
             crate::IconProps {
@@ -1695,7 +1695,7 @@ impl IconData {
             html: feather_corner_right_down,
         }
     };
-    const FEATHER_CORNER_RIGHT_UP: Self = {
+    pub const FEATHER_CORNER_RIGHT_UP: Self = {
         #[inline(never)]
         fn feather_corner_right_up(
             crate::IconProps {
@@ -1717,7 +1717,7 @@ impl IconData {
             html: feather_corner_right_up,
         }
     };
-    const FEATHER_CORNER_UP_LEFT: Self = {
+    pub const FEATHER_CORNER_UP_LEFT: Self = {
         #[inline(never)]
         fn feather_corner_up_left(
             crate::IconProps {
@@ -1739,7 +1739,7 @@ impl IconData {
             html: feather_corner_up_left,
         }
     };
-    const FEATHER_CORNER_UP_RIGHT: Self = {
+    pub const FEATHER_CORNER_UP_RIGHT: Self = {
         #[inline(never)]
         fn feather_corner_up_right(
             crate::IconProps {
@@ -1761,7 +1761,7 @@ impl IconData {
             html: feather_corner_up_right,
         }
     };
-    const FEATHER_CPU: Self = {
+    pub const FEATHER_CPU: Self = {
         #[inline(never)]
         fn feather_cpu(
             crate::IconProps {
@@ -1783,7 +1783,7 @@ impl IconData {
             html: feather_cpu,
         }
     };
-    const FEATHER_CREDIT_CARD: Self = {
+    pub const FEATHER_CREDIT_CARD: Self = {
         #[inline(never)]
         fn feather_credit_card(
             crate::IconProps {
@@ -1805,7 +1805,7 @@ impl IconData {
             html: feather_credit_card,
         }
     };
-    const FEATHER_CROP: Self = {
+    pub const FEATHER_CROP: Self = {
         #[inline(never)]
         fn feather_crop(
             crate::IconProps {
@@ -1827,7 +1827,7 @@ impl IconData {
             html: feather_crop,
         }
     };
-    const FEATHER_CROSSHAIR: Self = {
+    pub const FEATHER_CROSSHAIR: Self = {
         #[inline(never)]
         fn feather_crosshair(
             crate::IconProps {
@@ -1849,7 +1849,7 @@ impl IconData {
             html: feather_crosshair,
         }
     };
-    const FEATHER_DATABASE: Self = {
+    pub const FEATHER_DATABASE: Self = {
         #[inline(never)]
         fn feather_database(
             crate::IconProps {
@@ -1871,7 +1871,7 @@ impl IconData {
             html: feather_database,
         }
     };
-    const FEATHER_DELETE: Self = {
+    pub const FEATHER_DELETE: Self = {
         #[inline(never)]
         fn feather_delete(
             crate::IconProps {
@@ -1893,7 +1893,7 @@ impl IconData {
             html: feather_delete,
         }
     };
-    const FEATHER_DISC: Self = {
+    pub const FEATHER_DISC: Self = {
         #[inline(never)]
         fn feather_disc(
             crate::IconProps {
@@ -1915,7 +1915,7 @@ impl IconData {
             html: feather_disc,
         }
     };
-    const FEATHER_DIVIDE_CIRCLE: Self = {
+    pub const FEATHER_DIVIDE_CIRCLE: Self = {
         #[inline(never)]
         fn feather_divide_circle(
             crate::IconProps {
@@ -1937,7 +1937,7 @@ impl IconData {
             html: feather_divide_circle,
         }
     };
-    const FEATHER_DIVIDE_SQUARE: Self = {
+    pub const FEATHER_DIVIDE_SQUARE: Self = {
         #[inline(never)]
         fn feather_divide_square(
             crate::IconProps {
@@ -1959,7 +1959,7 @@ impl IconData {
             html: feather_divide_square,
         }
     };
-    const FEATHER_DIVIDE: Self = {
+    pub const FEATHER_DIVIDE: Self = {
         #[inline(never)]
         fn feather_divide(
             crate::IconProps {
@@ -1981,7 +1981,7 @@ impl IconData {
             html: feather_divide,
         }
     };
-    const FEATHER_DOLLAR_SIGN: Self = {
+    pub const FEATHER_DOLLAR_SIGN: Self = {
         #[inline(never)]
         fn feather_dollar_sign(
             crate::IconProps {
@@ -2003,7 +2003,7 @@ impl IconData {
             html: feather_dollar_sign,
         }
     };
-    const FEATHER_DOWNLOAD_CLOUD: Self = {
+    pub const FEATHER_DOWNLOAD_CLOUD: Self = {
         #[inline(never)]
         fn feather_download_cloud(
             crate::IconProps {
@@ -2025,7 +2025,7 @@ impl IconData {
             html: feather_download_cloud,
         }
     };
-    const FEATHER_DOWNLOAD: Self = {
+    pub const FEATHER_DOWNLOAD: Self = {
         #[inline(never)]
         fn feather_download(
             crate::IconProps {
@@ -2047,7 +2047,7 @@ impl IconData {
             html: feather_download,
         }
     };
-    const FEATHER_DRIBBBLE: Self = {
+    pub const FEATHER_DRIBBBLE: Self = {
         #[inline(never)]
         fn feather_dribbble(
             crate::IconProps {
@@ -2069,7 +2069,7 @@ impl IconData {
             html: feather_dribbble,
         }
     };
-    const FEATHER_DROPLET: Self = {
+    pub const FEATHER_DROPLET: Self = {
         #[inline(never)]
         fn feather_droplet(
             crate::IconProps {
@@ -2091,7 +2091,7 @@ impl IconData {
             html: feather_droplet,
         }
     };
-    const FEATHER_EDIT_2: Self = {
+    pub const FEATHER_EDIT_2: Self = {
         #[inline(never)]
         fn feather_edit_2(
             crate::IconProps {
@@ -2113,7 +2113,7 @@ impl IconData {
             html: feather_edit_2,
         }
     };
-    const FEATHER_EDIT_3: Self = {
+    pub const FEATHER_EDIT_3: Self = {
         #[inline(never)]
         fn feather_edit_3(
             crate::IconProps {
@@ -2135,7 +2135,7 @@ impl IconData {
             html: feather_edit_3,
         }
     };
-    const FEATHER_EDIT: Self = {
+    pub const FEATHER_EDIT: Self = {
         #[inline(never)]
         fn feather_edit(
             crate::IconProps {
@@ -2157,7 +2157,7 @@ impl IconData {
             html: feather_edit,
         }
     };
-    const FEATHER_EXTERNAL_LINK: Self = {
+    pub const FEATHER_EXTERNAL_LINK: Self = {
         #[inline(never)]
         fn feather_external_link(
             crate::IconProps {
@@ -2179,7 +2179,7 @@ impl IconData {
             html: feather_external_link,
         }
     };
-    const FEATHER_EYE_OFF: Self = {
+    pub const FEATHER_EYE_OFF: Self = {
         #[inline(never)]
         fn feather_eye_off(
             crate::IconProps {
@@ -2201,7 +2201,7 @@ impl IconData {
             html: feather_eye_off,
         }
     };
-    const FEATHER_EYE: Self = {
+    pub const FEATHER_EYE: Self = {
         #[inline(never)]
         fn feather_eye(
             crate::IconProps {
@@ -2223,7 +2223,7 @@ impl IconData {
             html: feather_eye,
         }
     };
-    const FEATHER_FACEBOOK: Self = {
+    pub const FEATHER_FACEBOOK: Self = {
         #[inline(never)]
         fn feather_facebook(
             crate::IconProps {
@@ -2245,7 +2245,7 @@ impl IconData {
             html: feather_facebook,
         }
     };
-    const FEATHER_FAST_FORWARD: Self = {
+    pub const FEATHER_FAST_FORWARD: Self = {
         #[inline(never)]
         fn feather_fast_forward(
             crate::IconProps {
@@ -2267,7 +2267,7 @@ impl IconData {
             html: feather_fast_forward,
         }
     };
-    const FEATHER_FEATHER: Self = {
+    pub const FEATHER_FEATHER: Self = {
         #[inline(never)]
         fn feather_feather(
             crate::IconProps {
@@ -2289,7 +2289,7 @@ impl IconData {
             html: feather_feather,
         }
     };
-    const FEATHER_FIGMA: Self = {
+    pub const FEATHER_FIGMA: Self = {
         #[inline(never)]
         fn feather_figma(
             crate::IconProps {
@@ -2311,7 +2311,7 @@ impl IconData {
             html: feather_figma,
         }
     };
-    const FEATHER_FILE_MINUS: Self = {
+    pub const FEATHER_FILE_MINUS: Self = {
         #[inline(never)]
         fn feather_file_minus(
             crate::IconProps {
@@ -2333,7 +2333,7 @@ impl IconData {
             html: feather_file_minus,
         }
     };
-    const FEATHER_FILE_PLUS: Self = {
+    pub const FEATHER_FILE_PLUS: Self = {
         #[inline(never)]
         fn feather_file_plus(
             crate::IconProps {
@@ -2355,7 +2355,7 @@ impl IconData {
             html: feather_file_plus,
         }
     };
-    const FEATHER_FILE_TEXT: Self = {
+    pub const FEATHER_FILE_TEXT: Self = {
         #[inline(never)]
         fn feather_file_text(
             crate::IconProps {
@@ -2377,7 +2377,7 @@ impl IconData {
             html: feather_file_text,
         }
     };
-    const FEATHER_FILE: Self = {
+    pub const FEATHER_FILE: Self = {
         #[inline(never)]
         fn feather_file(
             crate::IconProps {
@@ -2399,7 +2399,7 @@ impl IconData {
             html: feather_file,
         }
     };
-    const FEATHER_FILM: Self = {
+    pub const FEATHER_FILM: Self = {
         #[inline(never)]
         fn feather_film(
             crate::IconProps {
@@ -2421,7 +2421,7 @@ impl IconData {
             html: feather_film,
         }
     };
-    const FEATHER_FILTER: Self = {
+    pub const FEATHER_FILTER: Self = {
         #[inline(never)]
         fn feather_filter(
             crate::IconProps {
@@ -2443,7 +2443,7 @@ impl IconData {
             html: feather_filter,
         }
     };
-    const FEATHER_FLAG: Self = {
+    pub const FEATHER_FLAG: Self = {
         #[inline(never)]
         fn feather_flag(
             crate::IconProps {
@@ -2465,7 +2465,7 @@ impl IconData {
             html: feather_flag,
         }
     };
-    const FEATHER_FOLDER_MINUS: Self = {
+    pub const FEATHER_FOLDER_MINUS: Self = {
         #[inline(never)]
         fn feather_folder_minus(
             crate::IconProps {
@@ -2487,7 +2487,7 @@ impl IconData {
             html: feather_folder_minus,
         }
     };
-    const FEATHER_FOLDER_PLUS: Self = {
+    pub const FEATHER_FOLDER_PLUS: Self = {
         #[inline(never)]
         fn feather_folder_plus(
             crate::IconProps {
@@ -2509,7 +2509,7 @@ impl IconData {
             html: feather_folder_plus,
         }
     };
-    const FEATHER_FOLDER: Self = {
+    pub const FEATHER_FOLDER: Self = {
         #[inline(never)]
         fn feather_folder(
             crate::IconProps {
@@ -2531,7 +2531,7 @@ impl IconData {
             html: feather_folder,
         }
     };
-    const FEATHER_FRAMER: Self = {
+    pub const FEATHER_FRAMER: Self = {
         #[inline(never)]
         fn feather_framer(
             crate::IconProps {
@@ -2553,7 +2553,7 @@ impl IconData {
             html: feather_framer,
         }
     };
-    const FEATHER_FROWN: Self = {
+    pub const FEATHER_FROWN: Self = {
         #[inline(never)]
         fn feather_frown(
             crate::IconProps {
@@ -2575,7 +2575,7 @@ impl IconData {
             html: feather_frown,
         }
     };
-    const FEATHER_GIFT: Self = {
+    pub const FEATHER_GIFT: Self = {
         #[inline(never)]
         fn feather_gift(
             crate::IconProps {
@@ -2597,7 +2597,7 @@ impl IconData {
             html: feather_gift,
         }
     };
-    const FEATHER_GIT_BRANCH: Self = {
+    pub const FEATHER_GIT_BRANCH: Self = {
         #[inline(never)]
         fn feather_git_branch(
             crate::IconProps {
@@ -2619,7 +2619,7 @@ impl IconData {
             html: feather_git_branch,
         }
     };
-    const FEATHER_GIT_COMMIT: Self = {
+    pub const FEATHER_GIT_COMMIT: Self = {
         #[inline(never)]
         fn feather_git_commit(
             crate::IconProps {
@@ -2641,7 +2641,7 @@ impl IconData {
             html: feather_git_commit,
         }
     };
-    const FEATHER_GIT_MERGE: Self = {
+    pub const FEATHER_GIT_MERGE: Self = {
         #[inline(never)]
         fn feather_git_merge(
             crate::IconProps {
@@ -2663,7 +2663,7 @@ impl IconData {
             html: feather_git_merge,
         }
     };
-    const FEATHER_GIT_PULL_REQUEST: Self = {
+    pub const FEATHER_GIT_PULL_REQUEST: Self = {
         #[inline(never)]
         fn feather_git_pull_request(
             crate::IconProps {
@@ -2685,7 +2685,7 @@ impl IconData {
             html: feather_git_pull_request,
         }
     };
-    const FEATHER_GITHUB: Self = {
+    pub const FEATHER_GITHUB: Self = {
         #[inline(never)]
         fn feather_github(
             crate::IconProps {
@@ -2707,7 +2707,7 @@ impl IconData {
             html: feather_github,
         }
     };
-    const FEATHER_GITLAB: Self = {
+    pub const FEATHER_GITLAB: Self = {
         #[inline(never)]
         fn feather_gitlab(
             crate::IconProps {
@@ -2729,7 +2729,7 @@ impl IconData {
             html: feather_gitlab,
         }
     };
-    const FEATHER_GLOBE: Self = {
+    pub const FEATHER_GLOBE: Self = {
         #[inline(never)]
         fn feather_globe(
             crate::IconProps {
@@ -2751,7 +2751,7 @@ impl IconData {
             html: feather_globe,
         }
     };
-    const FEATHER_GRID: Self = {
+    pub const FEATHER_GRID: Self = {
         #[inline(never)]
         fn feather_grid(
             crate::IconProps {
@@ -2773,7 +2773,7 @@ impl IconData {
             html: feather_grid,
         }
     };
-    const FEATHER_HARD_DRIVE: Self = {
+    pub const FEATHER_HARD_DRIVE: Self = {
         #[inline(never)]
         fn feather_hard_drive(
             crate::IconProps {
@@ -2795,7 +2795,7 @@ impl IconData {
             html: feather_hard_drive,
         }
     };
-    const FEATHER_HASH: Self = {
+    pub const FEATHER_HASH: Self = {
         #[inline(never)]
         fn feather_hash(
             crate::IconProps {
@@ -2817,7 +2817,7 @@ impl IconData {
             html: feather_hash,
         }
     };
-    const FEATHER_HEADPHONES: Self = {
+    pub const FEATHER_HEADPHONES: Self = {
         #[inline(never)]
         fn feather_headphones(
             crate::IconProps {
@@ -2839,7 +2839,7 @@ impl IconData {
             html: feather_headphones,
         }
     };
-    const FEATHER_HEART: Self = {
+    pub const FEATHER_HEART: Self = {
         #[inline(never)]
         fn feather_heart(
             crate::IconProps {
@@ -2861,7 +2861,7 @@ impl IconData {
             html: feather_heart,
         }
     };
-    const FEATHER_HELP_CIRCLE: Self = {
+    pub const FEATHER_HELP_CIRCLE: Self = {
         #[inline(never)]
         fn feather_help_circle(
             crate::IconProps {
@@ -2883,7 +2883,7 @@ impl IconData {
             html: feather_help_circle,
         }
     };
-    const FEATHER_HEXAGON: Self = {
+    pub const FEATHER_HEXAGON: Self = {
         #[inline(never)]
         fn feather_hexagon(
             crate::IconProps {
@@ -2905,7 +2905,7 @@ impl IconData {
             html: feather_hexagon,
         }
     };
-    const FEATHER_HOME: Self = {
+    pub const FEATHER_HOME: Self = {
         #[inline(never)]
         fn feather_home(
             crate::IconProps {
@@ -2927,7 +2927,7 @@ impl IconData {
             html: feather_home,
         }
     };
-    const FEATHER_IMAGE: Self = {
+    pub const FEATHER_IMAGE: Self = {
         #[inline(never)]
         fn feather_image(
             crate::IconProps {
@@ -2949,7 +2949,7 @@ impl IconData {
             html: feather_image,
         }
     };
-    const FEATHER_INBOX: Self = {
+    pub const FEATHER_INBOX: Self = {
         #[inline(never)]
         fn feather_inbox(
             crate::IconProps {
@@ -2971,7 +2971,7 @@ impl IconData {
             html: feather_inbox,
         }
     };
-    const FEATHER_INFO: Self = {
+    pub const FEATHER_INFO: Self = {
         #[inline(never)]
         fn feather_info(
             crate::IconProps {
@@ -2993,7 +2993,7 @@ impl IconData {
             html: feather_info,
         }
     };
-    const FEATHER_INSTAGRAM: Self = {
+    pub const FEATHER_INSTAGRAM: Self = {
         #[inline(never)]
         fn feather_instagram(
             crate::IconProps {
@@ -3015,7 +3015,7 @@ impl IconData {
             html: feather_instagram,
         }
     };
-    const FEATHER_ITALIC: Self = {
+    pub const FEATHER_ITALIC: Self = {
         #[inline(never)]
         fn feather_italic(
             crate::IconProps {
@@ -3037,7 +3037,7 @@ impl IconData {
             html: feather_italic,
         }
     };
-    const FEATHER_KEY: Self = {
+    pub const FEATHER_KEY: Self = {
         #[inline(never)]
         fn feather_key(
             crate::IconProps {
@@ -3059,7 +3059,7 @@ impl IconData {
             html: feather_key,
         }
     };
-    const FEATHER_LAYERS: Self = {
+    pub const FEATHER_LAYERS: Self = {
         #[inline(never)]
         fn feather_layers(
             crate::IconProps {
@@ -3081,7 +3081,7 @@ impl IconData {
             html: feather_layers,
         }
     };
-    const FEATHER_LAYOUT: Self = {
+    pub const FEATHER_LAYOUT: Self = {
         #[inline(never)]
         fn feather_layout(
             crate::IconProps {
@@ -3103,7 +3103,7 @@ impl IconData {
             html: feather_layout,
         }
     };
-    const FEATHER_LIFE_BUOY: Self = {
+    pub const FEATHER_LIFE_BUOY: Self = {
         #[inline(never)]
         fn feather_life_buoy(
             crate::IconProps {
@@ -3125,7 +3125,7 @@ impl IconData {
             html: feather_life_buoy,
         }
     };
-    const FEATHER_LINK_2: Self = {
+    pub const FEATHER_LINK_2: Self = {
         #[inline(never)]
         fn feather_link_2(
             crate::IconProps {
@@ -3147,7 +3147,7 @@ impl IconData {
             html: feather_link_2,
         }
     };
-    const FEATHER_LINK: Self = {
+    pub const FEATHER_LINK: Self = {
         #[inline(never)]
         fn feather_link(
             crate::IconProps {
@@ -3169,7 +3169,7 @@ impl IconData {
             html: feather_link,
         }
     };
-    const FEATHER_LINKEDIN: Self = {
+    pub const FEATHER_LINKEDIN: Self = {
         #[inline(never)]
         fn feather_linkedin(
             crate::IconProps {
@@ -3191,7 +3191,7 @@ impl IconData {
             html: feather_linkedin,
         }
     };
-    const FEATHER_LIST: Self = {
+    pub const FEATHER_LIST: Self = {
         #[inline(never)]
         fn feather_list(
             crate::IconProps {
@@ -3213,7 +3213,7 @@ impl IconData {
             html: feather_list,
         }
     };
-    const FEATHER_LOADER: Self = {
+    pub const FEATHER_LOADER: Self = {
         #[inline(never)]
         fn feather_loader(
             crate::IconProps {
@@ -3235,7 +3235,7 @@ impl IconData {
             html: feather_loader,
         }
     };
-    const FEATHER_LOCK: Self = {
+    pub const FEATHER_LOCK: Self = {
         #[inline(never)]
         fn feather_lock(
             crate::IconProps {
@@ -3257,7 +3257,7 @@ impl IconData {
             html: feather_lock,
         }
     };
-    const FEATHER_LOG_IN: Self = {
+    pub const FEATHER_LOG_IN: Self = {
         #[inline(never)]
         fn feather_log_in(
             crate::IconProps {
@@ -3279,7 +3279,7 @@ impl IconData {
             html: feather_log_in,
         }
     };
-    const FEATHER_LOG_OUT: Self = {
+    pub const FEATHER_LOG_OUT: Self = {
         #[inline(never)]
         fn feather_log_out(
             crate::IconProps {
@@ -3301,7 +3301,7 @@ impl IconData {
             html: feather_log_out,
         }
     };
-    const FEATHER_MAIL: Self = {
+    pub const FEATHER_MAIL: Self = {
         #[inline(never)]
         fn feather_mail(
             crate::IconProps {
@@ -3323,7 +3323,7 @@ impl IconData {
             html: feather_mail,
         }
     };
-    const FEATHER_MAP_PIN: Self = {
+    pub const FEATHER_MAP_PIN: Self = {
         #[inline(never)]
         fn feather_map_pin(
             crate::IconProps {
@@ -3345,7 +3345,7 @@ impl IconData {
             html: feather_map_pin,
         }
     };
-    const FEATHER_MAP: Self = {
+    pub const FEATHER_MAP: Self = {
         #[inline(never)]
         fn feather_map(
             crate::IconProps {
@@ -3367,7 +3367,7 @@ impl IconData {
             html: feather_map,
         }
     };
-    const FEATHER_MAXIMIZE_2: Self = {
+    pub const FEATHER_MAXIMIZE_2: Self = {
         #[inline(never)]
         fn feather_maximize_2(
             crate::IconProps {
@@ -3389,7 +3389,7 @@ impl IconData {
             html: feather_maximize_2,
         }
     };
-    const FEATHER_MAXIMIZE: Self = {
+    pub const FEATHER_MAXIMIZE: Self = {
         #[inline(never)]
         fn feather_maximize(
             crate::IconProps {
@@ -3411,7 +3411,7 @@ impl IconData {
             html: feather_maximize,
         }
     };
-    const FEATHER_MEH: Self = {
+    pub const FEATHER_MEH: Self = {
         #[inline(never)]
         fn feather_meh(
             crate::IconProps {
@@ -3433,7 +3433,7 @@ impl IconData {
             html: feather_meh,
         }
     };
-    const FEATHER_MENU: Self = {
+    pub const FEATHER_MENU: Self = {
         #[inline(never)]
         fn feather_menu(
             crate::IconProps {
@@ -3455,7 +3455,7 @@ impl IconData {
             html: feather_menu,
         }
     };
-    const FEATHER_MESSAGE_CIRCLE: Self = {
+    pub const FEATHER_MESSAGE_CIRCLE: Self = {
         #[inline(never)]
         fn feather_message_circle(
             crate::IconProps {
@@ -3477,7 +3477,7 @@ impl IconData {
             html: feather_message_circle,
         }
     };
-    const FEATHER_MESSAGE_SQUARE: Self = {
+    pub const FEATHER_MESSAGE_SQUARE: Self = {
         #[inline(never)]
         fn feather_message_square(
             crate::IconProps {
@@ -3499,7 +3499,7 @@ impl IconData {
             html: feather_message_square,
         }
     };
-    const FEATHER_MIC_OFF: Self = {
+    pub const FEATHER_MIC_OFF: Self = {
         #[inline(never)]
         fn feather_mic_off(
             crate::IconProps {
@@ -3521,7 +3521,7 @@ impl IconData {
             html: feather_mic_off,
         }
     };
-    const FEATHER_MIC: Self = {
+    pub const FEATHER_MIC: Self = {
         #[inline(never)]
         fn feather_mic(
             crate::IconProps {
@@ -3543,7 +3543,7 @@ impl IconData {
             html: feather_mic,
         }
     };
-    const FEATHER_MINIMIZE_2: Self = {
+    pub const FEATHER_MINIMIZE_2: Self = {
         #[inline(never)]
         fn feather_minimize_2(
             crate::IconProps {
@@ -3565,7 +3565,7 @@ impl IconData {
             html: feather_minimize_2,
         }
     };
-    const FEATHER_MINIMIZE: Self = {
+    pub const FEATHER_MINIMIZE: Self = {
         #[inline(never)]
         fn feather_minimize(
             crate::IconProps {
@@ -3587,7 +3587,7 @@ impl IconData {
             html: feather_minimize,
         }
     };
-    const FEATHER_MINUS_CIRCLE: Self = {
+    pub const FEATHER_MINUS_CIRCLE: Self = {
         #[inline(never)]
         fn feather_minus_circle(
             crate::IconProps {
@@ -3609,7 +3609,7 @@ impl IconData {
             html: feather_minus_circle,
         }
     };
-    const FEATHER_MINUS_SQUARE: Self = {
+    pub const FEATHER_MINUS_SQUARE: Self = {
         #[inline(never)]
         fn feather_minus_square(
             crate::IconProps {
@@ -3631,7 +3631,7 @@ impl IconData {
             html: feather_minus_square,
         }
     };
-    const FEATHER_MINUS: Self = {
+    pub const FEATHER_MINUS: Self = {
         #[inline(never)]
         fn feather_minus(
             crate::IconProps {
@@ -3653,7 +3653,7 @@ impl IconData {
             html: feather_minus,
         }
     };
-    const FEATHER_MONITOR: Self = {
+    pub const FEATHER_MONITOR: Self = {
         #[inline(never)]
         fn feather_monitor(
             crate::IconProps {
@@ -3675,7 +3675,7 @@ impl IconData {
             html: feather_monitor,
         }
     };
-    const FEATHER_MOON: Self = {
+    pub const FEATHER_MOON: Self = {
         #[inline(never)]
         fn feather_moon(
             crate::IconProps {
@@ -3697,7 +3697,7 @@ impl IconData {
             html: feather_moon,
         }
     };
-    const FEATHER_MORE_HORIZONTAL: Self = {
+    pub const FEATHER_MORE_HORIZONTAL: Self = {
         #[inline(never)]
         fn feather_more_horizontal(
             crate::IconProps {
@@ -3719,7 +3719,7 @@ impl IconData {
             html: feather_more_horizontal,
         }
     };
-    const FEATHER_MORE_VERTICAL: Self = {
+    pub const FEATHER_MORE_VERTICAL: Self = {
         #[inline(never)]
         fn feather_more_vertical(
             crate::IconProps {
@@ -3741,7 +3741,7 @@ impl IconData {
             html: feather_more_vertical,
         }
     };
-    const FEATHER_MOUSE_POINTER: Self = {
+    pub const FEATHER_MOUSE_POINTER: Self = {
         #[inline(never)]
         fn feather_mouse_pointer(
             crate::IconProps {
@@ -3763,7 +3763,7 @@ impl IconData {
             html: feather_mouse_pointer,
         }
     };
-    const FEATHER_MOVE: Self = {
+    pub const FEATHER_MOVE: Self = {
         #[inline(never)]
         fn feather_move(
             crate::IconProps {
@@ -3785,7 +3785,7 @@ impl IconData {
             html: feather_move,
         }
     };
-    const FEATHER_MUSIC: Self = {
+    pub const FEATHER_MUSIC: Self = {
         #[inline(never)]
         fn feather_music(
             crate::IconProps {
@@ -3807,7 +3807,7 @@ impl IconData {
             html: feather_music,
         }
     };
-    const FEATHER_NAVIGATION_2: Self = {
+    pub const FEATHER_NAVIGATION_2: Self = {
         #[inline(never)]
         fn feather_navigation_2(
             crate::IconProps {
@@ -3829,7 +3829,7 @@ impl IconData {
             html: feather_navigation_2,
         }
     };
-    const FEATHER_NAVIGATION: Self = {
+    pub const FEATHER_NAVIGATION: Self = {
         #[inline(never)]
         fn feather_navigation(
             crate::IconProps {
@@ -3851,7 +3851,7 @@ impl IconData {
             html: feather_navigation,
         }
     };
-    const FEATHER_OCTAGON: Self = {
+    pub const FEATHER_OCTAGON: Self = {
         #[inline(never)]
         fn feather_octagon(
             crate::IconProps {
@@ -3873,7 +3873,7 @@ impl IconData {
             html: feather_octagon,
         }
     };
-    const FEATHER_PACKAGE: Self = {
+    pub const FEATHER_PACKAGE: Self = {
         #[inline(never)]
         fn feather_package(
             crate::IconProps {
@@ -3895,7 +3895,7 @@ impl IconData {
             html: feather_package,
         }
     };
-    const FEATHER_PAPERCLIP: Self = {
+    pub const FEATHER_PAPERCLIP: Self = {
         #[inline(never)]
         fn feather_paperclip(
             crate::IconProps {
@@ -3917,7 +3917,7 @@ impl IconData {
             html: feather_paperclip,
         }
     };
-    const FEATHER_PAUSE_CIRCLE: Self = {
+    pub const FEATHER_PAUSE_CIRCLE: Self = {
         #[inline(never)]
         fn feather_pause_circle(
             crate::IconProps {
@@ -3939,7 +3939,7 @@ impl IconData {
             html: feather_pause_circle,
         }
     };
-    const FEATHER_PAUSE: Self = {
+    pub const FEATHER_PAUSE: Self = {
         #[inline(never)]
         fn feather_pause(
             crate::IconProps {
@@ -3961,7 +3961,7 @@ impl IconData {
             html: feather_pause,
         }
     };
-    const FEATHER_PEN_TOOL: Self = {
+    pub const FEATHER_PEN_TOOL: Self = {
         #[inline(never)]
         fn feather_pen_tool(
             crate::IconProps {
@@ -3983,7 +3983,7 @@ impl IconData {
             html: feather_pen_tool,
         }
     };
-    const FEATHER_PERCENT: Self = {
+    pub const FEATHER_PERCENT: Self = {
         #[inline(never)]
         fn feather_percent(
             crate::IconProps {
@@ -4005,7 +4005,7 @@ impl IconData {
             html: feather_percent,
         }
     };
-    const FEATHER_PHONE_CALL: Self = {
+    pub const FEATHER_PHONE_CALL: Self = {
         #[inline(never)]
         fn feather_phone_call(
             crate::IconProps {
@@ -4027,7 +4027,7 @@ impl IconData {
             html: feather_phone_call,
         }
     };
-    const FEATHER_PHONE_FORWARDED: Self = {
+    pub const FEATHER_PHONE_FORWARDED: Self = {
         #[inline(never)]
         fn feather_phone_forwarded(
             crate::IconProps {
@@ -4049,7 +4049,7 @@ impl IconData {
             html: feather_phone_forwarded,
         }
     };
-    const FEATHER_PHONE_INCOMING: Self = {
+    pub const FEATHER_PHONE_INCOMING: Self = {
         #[inline(never)]
         fn feather_phone_incoming(
             crate::IconProps {
@@ -4071,7 +4071,7 @@ impl IconData {
             html: feather_phone_incoming,
         }
     };
-    const FEATHER_PHONE_MISSED: Self = {
+    pub const FEATHER_PHONE_MISSED: Self = {
         #[inline(never)]
         fn feather_phone_missed(
             crate::IconProps {
@@ -4093,7 +4093,7 @@ impl IconData {
             html: feather_phone_missed,
         }
     };
-    const FEATHER_PHONE_OFF: Self = {
+    pub const FEATHER_PHONE_OFF: Self = {
         #[inline(never)]
         fn feather_phone_off(
             crate::IconProps {
@@ -4115,7 +4115,7 @@ impl IconData {
             html: feather_phone_off,
         }
     };
-    const FEATHER_PHONE_OUTGOING: Self = {
+    pub const FEATHER_PHONE_OUTGOING: Self = {
         #[inline(never)]
         fn feather_phone_outgoing(
             crate::IconProps {
@@ -4137,7 +4137,7 @@ impl IconData {
             html: feather_phone_outgoing,
         }
     };
-    const FEATHER_PHONE: Self = {
+    pub const FEATHER_PHONE: Self = {
         #[inline(never)]
         fn feather_phone(
             crate::IconProps {
@@ -4159,7 +4159,7 @@ impl IconData {
             html: feather_phone,
         }
     };
-    const FEATHER_PIE_CHART: Self = {
+    pub const FEATHER_PIE_CHART: Self = {
         #[inline(never)]
         fn feather_pie_chart(
             crate::IconProps {
@@ -4181,7 +4181,7 @@ impl IconData {
             html: feather_pie_chart,
         }
     };
-    const FEATHER_PLAY_CIRCLE: Self = {
+    pub const FEATHER_PLAY_CIRCLE: Self = {
         #[inline(never)]
         fn feather_play_circle(
             crate::IconProps {
@@ -4203,7 +4203,7 @@ impl IconData {
             html: feather_play_circle,
         }
     };
-    const FEATHER_PLAY: Self = {
+    pub const FEATHER_PLAY: Self = {
         #[inline(never)]
         fn feather_play(
             crate::IconProps {
@@ -4225,7 +4225,7 @@ impl IconData {
             html: feather_play,
         }
     };
-    const FEATHER_PLUS_CIRCLE: Self = {
+    pub const FEATHER_PLUS_CIRCLE: Self = {
         #[inline(never)]
         fn feather_plus_circle(
             crate::IconProps {
@@ -4247,7 +4247,7 @@ impl IconData {
             html: feather_plus_circle,
         }
     };
-    const FEATHER_PLUS_SQUARE: Self = {
+    pub const FEATHER_PLUS_SQUARE: Self = {
         #[inline(never)]
         fn feather_plus_square(
             crate::IconProps {
@@ -4269,7 +4269,7 @@ impl IconData {
             html: feather_plus_square,
         }
     };
-    const FEATHER_PLUS: Self = {
+    pub const FEATHER_PLUS: Self = {
         #[inline(never)]
         fn feather_plus(
             crate::IconProps {
@@ -4291,7 +4291,7 @@ impl IconData {
             html: feather_plus,
         }
     };
-    const FEATHER_POCKET: Self = {
+    pub const FEATHER_POCKET: Self = {
         #[inline(never)]
         fn feather_pocket(
             crate::IconProps {
@@ -4313,7 +4313,7 @@ impl IconData {
             html: feather_pocket,
         }
     };
-    const FEATHER_POWER: Self = {
+    pub const FEATHER_POWER: Self = {
         #[inline(never)]
         fn feather_power(
             crate::IconProps {
@@ -4335,7 +4335,7 @@ impl IconData {
             html: feather_power,
         }
     };
-    const FEATHER_PRINTER: Self = {
+    pub const FEATHER_PRINTER: Self = {
         #[inline(never)]
         fn feather_printer(
             crate::IconProps {
@@ -4357,7 +4357,7 @@ impl IconData {
             html: feather_printer,
         }
     };
-    const FEATHER_RADIO: Self = {
+    pub const FEATHER_RADIO: Self = {
         #[inline(never)]
         fn feather_radio(
             crate::IconProps {
@@ -4379,7 +4379,7 @@ impl IconData {
             html: feather_radio,
         }
     };
-    const FEATHER_REFRESH_CCW: Self = {
+    pub const FEATHER_REFRESH_CCW: Self = {
         #[inline(never)]
         fn feather_refresh_ccw(
             crate::IconProps {
@@ -4401,7 +4401,7 @@ impl IconData {
             html: feather_refresh_ccw,
         }
     };
-    const FEATHER_REFRESH_CW: Self = {
+    pub const FEATHER_REFRESH_CW: Self = {
         #[inline(never)]
         fn feather_refresh_cw(
             crate::IconProps {
@@ -4423,7 +4423,7 @@ impl IconData {
             html: feather_refresh_cw,
         }
     };
-    const FEATHER_REPEAT: Self = {
+    pub const FEATHER_REPEAT: Self = {
         #[inline(never)]
         fn feather_repeat(
             crate::IconProps {
@@ -4445,7 +4445,7 @@ impl IconData {
             html: feather_repeat,
         }
     };
-    const FEATHER_REWIND: Self = {
+    pub const FEATHER_REWIND: Self = {
         #[inline(never)]
         fn feather_rewind(
             crate::IconProps {
@@ -4467,7 +4467,7 @@ impl IconData {
             html: feather_rewind,
         }
     };
-    const FEATHER_ROTATE_CCW: Self = {
+    pub const FEATHER_ROTATE_CCW: Self = {
         #[inline(never)]
         fn feather_rotate_ccw(
             crate::IconProps {
@@ -4489,7 +4489,7 @@ impl IconData {
             html: feather_rotate_ccw,
         }
     };
-    const FEATHER_ROTATE_CW: Self = {
+    pub const FEATHER_ROTATE_CW: Self = {
         #[inline(never)]
         fn feather_rotate_cw(
             crate::IconProps {
@@ -4511,7 +4511,7 @@ impl IconData {
             html: feather_rotate_cw,
         }
     };
-    const FEATHER_RSS: Self = {
+    pub const FEATHER_RSS: Self = {
         #[inline(never)]
         fn feather_rss(
             crate::IconProps {
@@ -4533,7 +4533,7 @@ impl IconData {
             html: feather_rss,
         }
     };
-    const FEATHER_SAVE: Self = {
+    pub const FEATHER_SAVE: Self = {
         #[inline(never)]
         fn feather_save(
             crate::IconProps {
@@ -4555,7 +4555,7 @@ impl IconData {
             html: feather_save,
         }
     };
-    const FEATHER_SCISSORS: Self = {
+    pub const FEATHER_SCISSORS: Self = {
         #[inline(never)]
         fn feather_scissors(
             crate::IconProps {
@@ -4577,7 +4577,7 @@ impl IconData {
             html: feather_scissors,
         }
     };
-    const FEATHER_SEARCH: Self = {
+    pub const FEATHER_SEARCH: Self = {
         #[inline(never)]
         fn feather_search(
             crate::IconProps {
@@ -4599,7 +4599,7 @@ impl IconData {
             html: feather_search,
         }
     };
-    const FEATHER_SEND: Self = {
+    pub const FEATHER_SEND: Self = {
         #[inline(never)]
         fn feather_send(
             crate::IconProps {
@@ -4621,7 +4621,7 @@ impl IconData {
             html: feather_send,
         }
     };
-    const FEATHER_SERVER: Self = {
+    pub const FEATHER_SERVER: Self = {
         #[inline(never)]
         fn feather_server(
             crate::IconProps {
@@ -4643,7 +4643,7 @@ impl IconData {
             html: feather_server,
         }
     };
-    const FEATHER_SETTINGS: Self = {
+    pub const FEATHER_SETTINGS: Self = {
         #[inline(never)]
         fn feather_settings(
             crate::IconProps {
@@ -4665,7 +4665,7 @@ impl IconData {
             html: feather_settings,
         }
     };
-    const FEATHER_SHARE_2: Self = {
+    pub const FEATHER_SHARE_2: Self = {
         #[inline(never)]
         fn feather_share_2(
             crate::IconProps {
@@ -4687,7 +4687,7 @@ impl IconData {
             html: feather_share_2,
         }
     };
-    const FEATHER_SHARE: Self = {
+    pub const FEATHER_SHARE: Self = {
         #[inline(never)]
         fn feather_share(
             crate::IconProps {
@@ -4709,7 +4709,7 @@ impl IconData {
             html: feather_share,
         }
     };
-    const FEATHER_SHIELD_OFF: Self = {
+    pub const FEATHER_SHIELD_OFF: Self = {
         #[inline(never)]
         fn feather_shield_off(
             crate::IconProps {
@@ -4731,7 +4731,7 @@ impl IconData {
             html: feather_shield_off,
         }
     };
-    const FEATHER_SHIELD: Self = {
+    pub const FEATHER_SHIELD: Self = {
         #[inline(never)]
         fn feather_shield(
             crate::IconProps {
@@ -4753,7 +4753,7 @@ impl IconData {
             html: feather_shield,
         }
     };
-    const FEATHER_SHOPPING_BAG: Self = {
+    pub const FEATHER_SHOPPING_BAG: Self = {
         #[inline(never)]
         fn feather_shopping_bag(
             crate::IconProps {
@@ -4775,7 +4775,7 @@ impl IconData {
             html: feather_shopping_bag,
         }
     };
-    const FEATHER_SHOPPING_CART: Self = {
+    pub const FEATHER_SHOPPING_CART: Self = {
         #[inline(never)]
         fn feather_shopping_cart(
             crate::IconProps {
@@ -4797,7 +4797,7 @@ impl IconData {
             html: feather_shopping_cart,
         }
     };
-    const FEATHER_SHUFFLE: Self = {
+    pub const FEATHER_SHUFFLE: Self = {
         #[inline(never)]
         fn feather_shuffle(
             crate::IconProps {
@@ -4819,7 +4819,7 @@ impl IconData {
             html: feather_shuffle,
         }
     };
-    const FEATHER_SIDEBAR: Self = {
+    pub const FEATHER_SIDEBAR: Self = {
         #[inline(never)]
         fn feather_sidebar(
             crate::IconProps {
@@ -4841,7 +4841,7 @@ impl IconData {
             html: feather_sidebar,
         }
     };
-    const FEATHER_SKIP_BACK: Self = {
+    pub const FEATHER_SKIP_BACK: Self = {
         #[inline(never)]
         fn feather_skip_back(
             crate::IconProps {
@@ -4863,7 +4863,7 @@ impl IconData {
             html: feather_skip_back,
         }
     };
-    const FEATHER_SKIP_FORWARD: Self = {
+    pub const FEATHER_SKIP_FORWARD: Self = {
         #[inline(never)]
         fn feather_skip_forward(
             crate::IconProps {
@@ -4885,7 +4885,7 @@ impl IconData {
             html: feather_skip_forward,
         }
     };
-    const FEATHER_SLACK: Self = {
+    pub const FEATHER_SLACK: Self = {
         #[inline(never)]
         fn feather_slack(
             crate::IconProps {
@@ -4907,7 +4907,7 @@ impl IconData {
             html: feather_slack,
         }
     };
-    const FEATHER_SLASH: Self = {
+    pub const FEATHER_SLASH: Self = {
         #[inline(never)]
         fn feather_slash(
             crate::IconProps {
@@ -4929,7 +4929,7 @@ impl IconData {
             html: feather_slash,
         }
     };
-    const FEATHER_SLIDERS: Self = {
+    pub const FEATHER_SLIDERS: Self = {
         #[inline(never)]
         fn feather_sliders(
             crate::IconProps {
@@ -4951,7 +4951,7 @@ impl IconData {
             html: feather_sliders,
         }
     };
-    const FEATHER_SMARTPHONE: Self = {
+    pub const FEATHER_SMARTPHONE: Self = {
         #[inline(never)]
         fn feather_smartphone(
             crate::IconProps {
@@ -4973,7 +4973,7 @@ impl IconData {
             html: feather_smartphone,
         }
     };
-    const FEATHER_SMILE: Self = {
+    pub const FEATHER_SMILE: Self = {
         #[inline(never)]
         fn feather_smile(
             crate::IconProps {
@@ -4995,7 +4995,7 @@ impl IconData {
             html: feather_smile,
         }
     };
-    const FEATHER_SPEAKER: Self = {
+    pub const FEATHER_SPEAKER: Self = {
         #[inline(never)]
         fn feather_speaker(
             crate::IconProps {
@@ -5017,7 +5017,7 @@ impl IconData {
             html: feather_speaker,
         }
     };
-    const FEATHER_SQUARE: Self = {
+    pub const FEATHER_SQUARE: Self = {
         #[inline(never)]
         fn feather_square(
             crate::IconProps {
@@ -5039,7 +5039,7 @@ impl IconData {
             html: feather_square,
         }
     };
-    const FEATHER_STAR: Self = {
+    pub const FEATHER_STAR: Self = {
         #[inline(never)]
         fn feather_star(
             crate::IconProps {
@@ -5061,7 +5061,7 @@ impl IconData {
             html: feather_star,
         }
     };
-    const FEATHER_STOP_CIRCLE: Self = {
+    pub const FEATHER_STOP_CIRCLE: Self = {
         #[inline(never)]
         fn feather_stop_circle(
             crate::IconProps {
@@ -5083,7 +5083,7 @@ impl IconData {
             html: feather_stop_circle,
         }
     };
-    const FEATHER_SUN: Self = {
+    pub const FEATHER_SUN: Self = {
         #[inline(never)]
         fn feather_sun(
             crate::IconProps {
@@ -5105,7 +5105,7 @@ impl IconData {
             html: feather_sun,
         }
     };
-    const FEATHER_SUNRISE: Self = {
+    pub const FEATHER_SUNRISE: Self = {
         #[inline(never)]
         fn feather_sunrise(
             crate::IconProps {
@@ -5127,7 +5127,7 @@ impl IconData {
             html: feather_sunrise,
         }
     };
-    const FEATHER_SUNSET: Self = {
+    pub const FEATHER_SUNSET: Self = {
         #[inline(never)]
         fn feather_sunset(
             crate::IconProps {
@@ -5149,7 +5149,7 @@ impl IconData {
             html: feather_sunset,
         }
     };
-    const FEATHER_TABLE: Self = {
+    pub const FEATHER_TABLE: Self = {
         #[inline(never)]
         fn feather_table(
             crate::IconProps {
@@ -5171,7 +5171,7 @@ impl IconData {
             html: feather_table,
         }
     };
-    const FEATHER_TABLET: Self = {
+    pub const FEATHER_TABLET: Self = {
         #[inline(never)]
         fn feather_tablet(
             crate::IconProps {
@@ -5193,7 +5193,7 @@ impl IconData {
             html: feather_tablet,
         }
     };
-    const FEATHER_TAG: Self = {
+    pub const FEATHER_TAG: Self = {
         #[inline(never)]
         fn feather_tag(
             crate::IconProps {
@@ -5215,7 +5215,7 @@ impl IconData {
             html: feather_tag,
         }
     };
-    const FEATHER_TARGET: Self = {
+    pub const FEATHER_TARGET: Self = {
         #[inline(never)]
         fn feather_target(
             crate::IconProps {
@@ -5237,7 +5237,7 @@ impl IconData {
             html: feather_target,
         }
     };
-    const FEATHER_TERMINAL: Self = {
+    pub const FEATHER_TERMINAL: Self = {
         #[inline(never)]
         fn feather_terminal(
             crate::IconProps {
@@ -5259,7 +5259,7 @@ impl IconData {
             html: feather_terminal,
         }
     };
-    const FEATHER_THERMOMETER: Self = {
+    pub const FEATHER_THERMOMETER: Self = {
         #[inline(never)]
         fn feather_thermometer(
             crate::IconProps {
@@ -5281,7 +5281,7 @@ impl IconData {
             html: feather_thermometer,
         }
     };
-    const FEATHER_THUMBS_DOWN: Self = {
+    pub const FEATHER_THUMBS_DOWN: Self = {
         #[inline(never)]
         fn feather_thumbs_down(
             crate::IconProps {
@@ -5303,7 +5303,7 @@ impl IconData {
             html: feather_thumbs_down,
         }
     };
-    const FEATHER_THUMBS_UP: Self = {
+    pub const FEATHER_THUMBS_UP: Self = {
         #[inline(never)]
         fn feather_thumbs_up(
             crate::IconProps {
@@ -5325,7 +5325,7 @@ impl IconData {
             html: feather_thumbs_up,
         }
     };
-    const FEATHER_TOGGLE_LEFT: Self = {
+    pub const FEATHER_TOGGLE_LEFT: Self = {
         #[inline(never)]
         fn feather_toggle_left(
             crate::IconProps {
@@ -5347,7 +5347,7 @@ impl IconData {
             html: feather_toggle_left,
         }
     };
-    const FEATHER_TOGGLE_RIGHT: Self = {
+    pub const FEATHER_TOGGLE_RIGHT: Self = {
         #[inline(never)]
         fn feather_toggle_right(
             crate::IconProps {
@@ -5369,7 +5369,7 @@ impl IconData {
             html: feather_toggle_right,
         }
     };
-    const FEATHER_TOOL: Self = {
+    pub const FEATHER_TOOL: Self = {
         #[inline(never)]
         fn feather_tool(
             crate::IconProps {
@@ -5391,7 +5391,7 @@ impl IconData {
             html: feather_tool,
         }
     };
-    const FEATHER_TRASH_2: Self = {
+    pub const FEATHER_TRASH_2: Self = {
         #[inline(never)]
         fn feather_trash_2(
             crate::IconProps {
@@ -5413,7 +5413,7 @@ impl IconData {
             html: feather_trash_2,
         }
     };
-    const FEATHER_TRASH: Self = {
+    pub const FEATHER_TRASH: Self = {
         #[inline(never)]
         fn feather_trash(
             crate::IconProps {
@@ -5435,7 +5435,7 @@ impl IconData {
             html: feather_trash,
         }
     };
-    const FEATHER_TRELLO: Self = {
+    pub const FEATHER_TRELLO: Self = {
         #[inline(never)]
         fn feather_trello(
             crate::IconProps {
@@ -5457,7 +5457,7 @@ impl IconData {
             html: feather_trello,
         }
     };
-    const FEATHER_TRENDING_DOWN: Self = {
+    pub const FEATHER_TRENDING_DOWN: Self = {
         #[inline(never)]
         fn feather_trending_down(
             crate::IconProps {
@@ -5479,7 +5479,7 @@ impl IconData {
             html: feather_trending_down,
         }
     };
-    const FEATHER_TRENDING_UP: Self = {
+    pub const FEATHER_TRENDING_UP: Self = {
         #[inline(never)]
         fn feather_trending_up(
             crate::IconProps {
@@ -5501,7 +5501,7 @@ impl IconData {
             html: feather_trending_up,
         }
     };
-    const FEATHER_TRIANGLE: Self = {
+    pub const FEATHER_TRIANGLE: Self = {
         #[inline(never)]
         fn feather_triangle(
             crate::IconProps {
@@ -5523,7 +5523,7 @@ impl IconData {
             html: feather_triangle,
         }
     };
-    const FEATHER_TRUCK: Self = {
+    pub const FEATHER_TRUCK: Self = {
         #[inline(never)]
         fn feather_truck(
             crate::IconProps {
@@ -5545,7 +5545,7 @@ impl IconData {
             html: feather_truck,
         }
     };
-    const FEATHER_TV: Self = {
+    pub const FEATHER_TV: Self = {
         #[inline(never)]
         fn feather_tv(
             crate::IconProps {
@@ -5567,7 +5567,7 @@ impl IconData {
             html: feather_tv,
         }
     };
-    const FEATHER_TWITCH: Self = {
+    pub const FEATHER_TWITCH: Self = {
         #[inline(never)]
         fn feather_twitch(
             crate::IconProps {
@@ -5589,7 +5589,7 @@ impl IconData {
             html: feather_twitch,
         }
     };
-    const FEATHER_TWITTER: Self = {
+    pub const FEATHER_TWITTER: Self = {
         #[inline(never)]
         fn feather_twitter(
             crate::IconProps {
@@ -5611,7 +5611,7 @@ impl IconData {
             html: feather_twitter,
         }
     };
-    const FEATHER_TYPE: Self = {
+    pub const FEATHER_TYPE: Self = {
         #[inline(never)]
         fn feather_type(
             crate::IconProps {
@@ -5633,7 +5633,7 @@ impl IconData {
             html: feather_type,
         }
     };
-    const FEATHER_UMBRELLA: Self = {
+    pub const FEATHER_UMBRELLA: Self = {
         #[inline(never)]
         fn feather_umbrella(
             crate::IconProps {
@@ -5655,7 +5655,7 @@ impl IconData {
             html: feather_umbrella,
         }
     };
-    const FEATHER_UNDERLINE: Self = {
+    pub const FEATHER_UNDERLINE: Self = {
         #[inline(never)]
         fn feather_underline(
             crate::IconProps {
@@ -5677,7 +5677,7 @@ impl IconData {
             html: feather_underline,
         }
     };
-    const FEATHER_UNLOCK: Self = {
+    pub const FEATHER_UNLOCK: Self = {
         #[inline(never)]
         fn feather_unlock(
             crate::IconProps {
@@ -5699,7 +5699,7 @@ impl IconData {
             html: feather_unlock,
         }
     };
-    const FEATHER_UPLOAD_CLOUD: Self = {
+    pub const FEATHER_UPLOAD_CLOUD: Self = {
         #[inline(never)]
         fn feather_upload_cloud(
             crate::IconProps {
@@ -5721,7 +5721,7 @@ impl IconData {
             html: feather_upload_cloud,
         }
     };
-    const FEATHER_UPLOAD: Self = {
+    pub const FEATHER_UPLOAD: Self = {
         #[inline(never)]
         fn feather_upload(
             crate::IconProps {
@@ -5743,7 +5743,7 @@ impl IconData {
             html: feather_upload,
         }
     };
-    const FEATHER_USER_CHECK: Self = {
+    pub const FEATHER_USER_CHECK: Self = {
         #[inline(never)]
         fn feather_user_check(
             crate::IconProps {
@@ -5765,7 +5765,7 @@ impl IconData {
             html: feather_user_check,
         }
     };
-    const FEATHER_USER_MINUS: Self = {
+    pub const FEATHER_USER_MINUS: Self = {
         #[inline(never)]
         fn feather_user_minus(
             crate::IconProps {
@@ -5787,7 +5787,7 @@ impl IconData {
             html: feather_user_minus,
         }
     };
-    const FEATHER_USER_PLUS: Self = {
+    pub const FEATHER_USER_PLUS: Self = {
         #[inline(never)]
         fn feather_user_plus(
             crate::IconProps {
@@ -5809,7 +5809,7 @@ impl IconData {
             html: feather_user_plus,
         }
     };
-    const FEATHER_USER_X: Self = {
+    pub const FEATHER_USER_X: Self = {
         #[inline(never)]
         fn feather_user_x(
             crate::IconProps {
@@ -5831,7 +5831,7 @@ impl IconData {
             html: feather_user_x,
         }
     };
-    const FEATHER_USER: Self = {
+    pub const FEATHER_USER: Self = {
         #[inline(never)]
         fn feather_user(
             crate::IconProps {
@@ -5853,7 +5853,7 @@ impl IconData {
             html: feather_user,
         }
     };
-    const FEATHER_USERS: Self = {
+    pub const FEATHER_USERS: Self = {
         #[inline(never)]
         fn feather_users(
             crate::IconProps {
@@ -5875,7 +5875,7 @@ impl IconData {
             html: feather_users,
         }
     };
-    const FEATHER_VIDEO_OFF: Self = {
+    pub const FEATHER_VIDEO_OFF: Self = {
         #[inline(never)]
         fn feather_video_off(
             crate::IconProps {
@@ -5897,7 +5897,7 @@ impl IconData {
             html: feather_video_off,
         }
     };
-    const FEATHER_VIDEO: Self = {
+    pub const FEATHER_VIDEO: Self = {
         #[inline(never)]
         fn feather_video(
             crate::IconProps {
@@ -5919,7 +5919,7 @@ impl IconData {
             html: feather_video,
         }
     };
-    const FEATHER_VOICEMAIL: Self = {
+    pub const FEATHER_VOICEMAIL: Self = {
         #[inline(never)]
         fn feather_voicemail(
             crate::IconProps {
@@ -5941,7 +5941,7 @@ impl IconData {
             html: feather_voicemail,
         }
     };
-    const FEATHER_VOLUME_1: Self = {
+    pub const FEATHER_VOLUME_1: Self = {
         #[inline(never)]
         fn feather_volume_1(
             crate::IconProps {
@@ -5963,7 +5963,7 @@ impl IconData {
             html: feather_volume_1,
         }
     };
-    const FEATHER_VOLUME_2: Self = {
+    pub const FEATHER_VOLUME_2: Self = {
         #[inline(never)]
         fn feather_volume_2(
             crate::IconProps {
@@ -5985,7 +5985,7 @@ impl IconData {
             html: feather_volume_2,
         }
     };
-    const FEATHER_VOLUME_X: Self = {
+    pub const FEATHER_VOLUME_X: Self = {
         #[inline(never)]
         fn feather_volume_x(
             crate::IconProps {
@@ -6007,7 +6007,7 @@ impl IconData {
             html: feather_volume_x,
         }
     };
-    const FEATHER_VOLUME: Self = {
+    pub const FEATHER_VOLUME: Self = {
         #[inline(never)]
         fn feather_volume(
             crate::IconProps {
@@ -6029,7 +6029,7 @@ impl IconData {
             html: feather_volume,
         }
     };
-    const FEATHER_WATCH: Self = {
+    pub const FEATHER_WATCH: Self = {
         #[inline(never)]
         fn feather_watch(
             crate::IconProps {
@@ -6051,7 +6051,7 @@ impl IconData {
             html: feather_watch,
         }
     };
-    const FEATHER_WIFI_OFF: Self = {
+    pub const FEATHER_WIFI_OFF: Self = {
         #[inline(never)]
         fn feather_wifi_off(
             crate::IconProps {
@@ -6073,7 +6073,7 @@ impl IconData {
             html: feather_wifi_off,
         }
     };
-    const FEATHER_WIFI: Self = {
+    pub const FEATHER_WIFI: Self = {
         #[inline(never)]
         fn feather_wifi(
             crate::IconProps {
@@ -6095,7 +6095,7 @@ impl IconData {
             html: feather_wifi,
         }
     };
-    const FEATHER_WIND: Self = {
+    pub const FEATHER_WIND: Self = {
         #[inline(never)]
         fn feather_wind(
             crate::IconProps {
@@ -6117,7 +6117,7 @@ impl IconData {
             html: feather_wind,
         }
     };
-    const FEATHER_X_CIRCLE: Self = {
+    pub const FEATHER_X_CIRCLE: Self = {
         #[inline(never)]
         fn feather_x_circle(
             crate::IconProps {
@@ -6139,7 +6139,7 @@ impl IconData {
             html: feather_x_circle,
         }
     };
-    const FEATHER_X_OCTAGON: Self = {
+    pub const FEATHER_X_OCTAGON: Self = {
         #[inline(never)]
         fn feather_x_octagon(
             crate::IconProps {
@@ -6161,7 +6161,7 @@ impl IconData {
             html: feather_x_octagon,
         }
     };
-    const FEATHER_X_SQUARE: Self = {
+    pub const FEATHER_X_SQUARE: Self = {
         #[inline(never)]
         fn feather_x_square(
             crate::IconProps {
@@ -6183,7 +6183,7 @@ impl IconData {
             html: feather_x_square,
         }
     };
-    const FEATHER_X: Self = {
+    pub const FEATHER_X: Self = {
         #[inline(never)]
         fn feather_x(
             crate::IconProps {
@@ -6205,7 +6205,7 @@ impl IconData {
             html: feather_x,
         }
     };
-    const FEATHER_YOUTUBE: Self = {
+    pub const FEATHER_YOUTUBE: Self = {
         #[inline(never)]
         fn feather_youtube(
             crate::IconProps {
@@ -6227,7 +6227,7 @@ impl IconData {
             html: feather_youtube,
         }
     };
-    const FEATHER_ZAP_OFF: Self = {
+    pub const FEATHER_ZAP_OFF: Self = {
         #[inline(never)]
         fn feather_zap_off(
             crate::IconProps {
@@ -6249,7 +6249,7 @@ impl IconData {
             html: feather_zap_off,
         }
     };
-    const FEATHER_ZAP: Self = {
+    pub const FEATHER_ZAP: Self = {
         #[inline(never)]
         fn feather_zap(
             crate::IconProps {
@@ -6271,7 +6271,7 @@ impl IconData {
             html: feather_zap,
         }
     };
-    const FEATHER_ZOOM_IN: Self = {
+    pub const FEATHER_ZOOM_IN: Self = {
         #[inline(never)]
         fn feather_zoom_in(
             crate::IconProps {
@@ -6293,7 +6293,7 @@ impl IconData {
             html: feather_zoom_in,
         }
     };
-    const FEATHER_ZOOM_OUT: Self = {
+    pub const FEATHER_ZOOM_OUT: Self = {
         #[inline(never)]
         fn feather_zoom_out(
             crate::IconProps {

@@ -1,7 +1,7 @@
 // Generated file, do not edit by hand, see `src/generator.rs`
 
-impl IconData {
-    const OCTICONS_ACCESSIBILITY_16: Self = {
+impl crate::IconData {
+    pub const OCTICONS_ACCESSIBILITY_16: Self = {
         #[inline(never)]
         fn octicons_accessibility_16(
             crate::IconProps {
@@ -23,7 +23,7 @@ impl IconData {
             html: octicons_accessibility_16,
         }
     };
-    const OCTICONS_ALERT_16: Self = {
+    pub const OCTICONS_ALERT_16: Self = {
         #[inline(never)]
         fn octicons_alert_16(
             crate::IconProps {
@@ -45,7 +45,7 @@ impl IconData {
             html: octicons_alert_16,
         }
     };
-    const OCTICONS_ALERT_24: Self = {
+    pub const OCTICONS_ALERT_24: Self = {
         #[inline(never)]
         fn octicons_alert_24(
             crate::IconProps {
@@ -67,7 +67,7 @@ impl IconData {
             html: octicons_alert_24,
         }
     };
-    const OCTICONS_ALERT_FILL_12: Self = {
+    pub const OCTICONS_ALERT_FILL_12: Self = {
         #[inline(never)]
         fn octicons_alert_fill_12(
             crate::IconProps {
@@ -89,7 +89,7 @@ impl IconData {
             html: octicons_alert_fill_12,
         }
     };
-    const OCTICONS_APPS_16: Self = {
+    pub const OCTICONS_APPS_16: Self = {
         #[inline(never)]
         fn octicons_apps_16(
             crate::IconProps {
@@ -111,7 +111,7 @@ impl IconData {
             html: octicons_apps_16,
         }
     };
-    const OCTICONS_ARCHIVE_16: Self = {
+    pub const OCTICONS_ARCHIVE_16: Self = {
         #[inline(never)]
         fn octicons_archive_16(
             crate::IconProps {
@@ -133,7 +133,7 @@ impl IconData {
             html: octicons_archive_16,
         }
     };
-    const OCTICONS_ARCHIVE_24: Self = {
+    pub const OCTICONS_ARCHIVE_24: Self = {
         #[inline(never)]
         fn octicons_archive_24(
             crate::IconProps {
@@ -155,7 +155,7 @@ impl IconData {
             html: octicons_archive_24,
         }
     };
-    const OCTICONS_ARROW_BOTH_16: Self = {
+    pub const OCTICONS_ARROW_BOTH_16: Self = {
         #[inline(never)]
         fn octicons_arrow_both_16(
             crate::IconProps {
@@ -177,7 +177,7 @@ impl IconData {
             html: octicons_arrow_both_16,
         }
     };
-    const OCTICONS_ARROW_BOTH_24: Self = {
+    pub const OCTICONS_ARROW_BOTH_24: Self = {
         #[inline(never)]
         fn octicons_arrow_both_24(
             crate::IconProps {
@@ -199,7 +199,7 @@ impl IconData {
             html: octicons_arrow_both_24,
         }
     };
-    const OCTICONS_ARROW_DOWN_16: Self = {
+    pub const OCTICONS_ARROW_DOWN_16: Self = {
         #[inline(never)]
         fn octicons_arrow_down_16(
             crate::IconProps {
@@ -221,7 +221,7 @@ impl IconData {
             html: octicons_arrow_down_16,
         }
     };
-    const OCTICONS_ARROW_DOWN_24: Self = {
+    pub const OCTICONS_ARROW_DOWN_24: Self = {
         #[inline(never)]
         fn octicons_arrow_down_24(
             crate::IconProps {
@@ -243,7 +243,7 @@ impl IconData {
             html: octicons_arrow_down_24,
         }
     };
-    const OCTICONS_ARROW_DOWN_LEFT_24: Self = {
+    pub const OCTICONS_ARROW_DOWN_LEFT_24: Self = {
         #[inline(never)]
         fn octicons_arrow_down_left_24(
             crate::IconProps {
@@ -265,7 +265,7 @@ impl IconData {
             html: octicons_arrow_down_left_24,
         }
     };
-    const OCTICONS_ARROW_DOWN_RIGHT_24: Self = {
+    pub const OCTICONS_ARROW_DOWN_RIGHT_24: Self = {
         #[inline(never)]
         fn octicons_arrow_down_right_24(
             crate::IconProps {
@@ -287,7 +287,7 @@ impl IconData {
             html: octicons_arrow_down_right_24,
         }
     };
-    const OCTICONS_ARROW_LEFT_16: Self = {
+    pub const OCTICONS_ARROW_LEFT_16: Self = {
         #[inline(never)]
         fn octicons_arrow_left_16(
             crate::IconProps {
@@ -309,7 +309,7 @@ impl IconData {
             html: octicons_arrow_left_16,
         }
     };
-    const OCTICONS_ARROW_LEFT_24: Self = {
+    pub const OCTICONS_ARROW_LEFT_24: Self = {
         #[inline(never)]
         fn octicons_arrow_left_24(
             crate::IconProps {
@@ -331,7 +331,7 @@ impl IconData {
             html: octicons_arrow_left_24,
         }
     };
-    const OCTICONS_ARROW_RIGHT_16: Self = {
+    pub const OCTICONS_ARROW_RIGHT_16: Self = {
         #[inline(never)]
         fn octicons_arrow_right_16(
             crate::IconProps {
@@ -353,7 +353,7 @@ impl IconData {
             html: octicons_arrow_right_16,
         }
     };
-    const OCTICONS_ARROW_RIGHT_24: Self = {
+    pub const OCTICONS_ARROW_RIGHT_24: Self = {
         #[inline(never)]
         fn octicons_arrow_right_24(
             crate::IconProps {
@@ -375,7 +375,7 @@ impl IconData {
             html: octicons_arrow_right_24,
         }
     };
-    const OCTICONS_ARROW_SWITCH_16: Self = {
+    pub const OCTICONS_ARROW_SWITCH_16: Self = {
         #[inline(never)]
         fn octicons_arrow_switch_16(
             crate::IconProps {
@@ -397,7 +397,7 @@ impl IconData {
             html: octicons_arrow_switch_16,
         }
     };
-    const OCTICONS_ARROW_SWITCH_24: Self = {
+    pub const OCTICONS_ARROW_SWITCH_24: Self = {
         #[inline(never)]
         fn octicons_arrow_switch_24(
             crate::IconProps {
@@ -419,7 +419,7 @@ impl IconData {
             html: octicons_arrow_switch_24,
         }
     };
-    const OCTICONS_ARROW_UP_16: Self = {
+    pub const OCTICONS_ARROW_UP_16: Self = {
         #[inline(never)]
         fn octicons_arrow_up_16(
             crate::IconProps {
@@ -441,7 +441,7 @@ impl IconData {
             html: octicons_arrow_up_16,
         }
     };
-    const OCTICONS_ARROW_UP_24: Self = {
+    pub const OCTICONS_ARROW_UP_24: Self = {
         #[inline(never)]
         fn octicons_arrow_up_24(
             crate::IconProps {
@@ -463,7 +463,7 @@ impl IconData {
             html: octicons_arrow_up_24,
         }
     };
-    const OCTICONS_ARROW_UP_LEFT_24: Self = {
+    pub const OCTICONS_ARROW_UP_LEFT_24: Self = {
         #[inline(never)]
         fn octicons_arrow_up_left_24(
             crate::IconProps {
@@ -485,7 +485,7 @@ impl IconData {
             html: octicons_arrow_up_left_24,
         }
     };
-    const OCTICONS_ARROW_UP_RIGHT_24: Self = {
+    pub const OCTICONS_ARROW_UP_RIGHT_24: Self = {
         #[inline(never)]
         fn octicons_arrow_up_right_24(
             crate::IconProps {
@@ -507,7 +507,7 @@ impl IconData {
             html: octicons_arrow_up_right_24,
         }
     };
-    const OCTICONS_BEAKER_16: Self = {
+    pub const OCTICONS_BEAKER_16: Self = {
         #[inline(never)]
         fn octicons_beaker_16(
             crate::IconProps {
@@ -529,7 +529,7 @@ impl IconData {
             html: octicons_beaker_16,
         }
     };
-    const OCTICONS_BEAKER_24: Self = {
+    pub const OCTICONS_BEAKER_24: Self = {
         #[inline(never)]
         fn octicons_beaker_24(
             crate::IconProps {
@@ -551,7 +551,7 @@ impl IconData {
             html: octicons_beaker_24,
         }
     };
-    const OCTICONS_BELL_16: Self = {
+    pub const OCTICONS_BELL_16: Self = {
         #[inline(never)]
         fn octicons_bell_16(
             crate::IconProps {
@@ -573,7 +573,7 @@ impl IconData {
             html: octicons_bell_16,
         }
     };
-    const OCTICONS_BELL_24: Self = {
+    pub const OCTICONS_BELL_24: Self = {
         #[inline(never)]
         fn octicons_bell_24(
             crate::IconProps {
@@ -595,7 +595,7 @@ impl IconData {
             html: octicons_bell_24,
         }
     };
-    const OCTICONS_BELL_FILL_16: Self = {
+    pub const OCTICONS_BELL_FILL_16: Self = {
         #[inline(never)]
         fn octicons_bell_fill_16(
             crate::IconProps {
@@ -617,7 +617,7 @@ impl IconData {
             html: octicons_bell_fill_16,
         }
     };
-    const OCTICONS_BELL_FILL_24: Self = {
+    pub const OCTICONS_BELL_FILL_24: Self = {
         #[inline(never)]
         fn octicons_bell_fill_24(
             crate::IconProps {
@@ -639,7 +639,7 @@ impl IconData {
             html: octicons_bell_fill_24,
         }
     };
-    const OCTICONS_BELL_SLASH_16: Self = {
+    pub const OCTICONS_BELL_SLASH_16: Self = {
         #[inline(never)]
         fn octicons_bell_slash_16(
             crate::IconProps {
@@ -661,7 +661,7 @@ impl IconData {
             html: octicons_bell_slash_16,
         }
     };
-    const OCTICONS_BELL_SLASH_24: Self = {
+    pub const OCTICONS_BELL_SLASH_24: Self = {
         #[inline(never)]
         fn octicons_bell_slash_24(
             crate::IconProps {
@@ -683,7 +683,7 @@ impl IconData {
             html: octicons_bell_slash_24,
         }
     };
-    const OCTICONS_BLOCKED_16: Self = {
+    pub const OCTICONS_BLOCKED_16: Self = {
         #[inline(never)]
         fn octicons_blocked_16(
             crate::IconProps {
@@ -705,7 +705,7 @@ impl IconData {
             html: octicons_blocked_16,
         }
     };
-    const OCTICONS_BLOCKED_24: Self = {
+    pub const OCTICONS_BLOCKED_24: Self = {
         #[inline(never)]
         fn octicons_blocked_24(
             crate::IconProps {
@@ -727,7 +727,7 @@ impl IconData {
             html: octicons_blocked_24,
         }
     };
-    const OCTICONS_BOLD_16: Self = {
+    pub const OCTICONS_BOLD_16: Self = {
         #[inline(never)]
         fn octicons_bold_16(
             crate::IconProps {
@@ -749,7 +749,7 @@ impl IconData {
             html: octicons_bold_16,
         }
     };
-    const OCTICONS_BOLD_24: Self = {
+    pub const OCTICONS_BOLD_24: Self = {
         #[inline(never)]
         fn octicons_bold_24(
             crate::IconProps {
@@ -771,7 +771,7 @@ impl IconData {
             html: octicons_bold_24,
         }
     };
-    const OCTICONS_BOOK_16: Self = {
+    pub const OCTICONS_BOOK_16: Self = {
         #[inline(never)]
         fn octicons_book_16(
             crate::IconProps {
@@ -793,7 +793,7 @@ impl IconData {
             html: octicons_book_16,
         }
     };
-    const OCTICONS_BOOK_24: Self = {
+    pub const OCTICONS_BOOK_24: Self = {
         #[inline(never)]
         fn octicons_book_24(
             crate::IconProps {
@@ -815,7 +815,7 @@ impl IconData {
             html: octicons_book_24,
         }
     };
-    const OCTICONS_BOOKMARK_16: Self = {
+    pub const OCTICONS_BOOKMARK_16: Self = {
         #[inline(never)]
         fn octicons_bookmark_16(
             crate::IconProps {
@@ -837,7 +837,7 @@ impl IconData {
             html: octicons_bookmark_16,
         }
     };
-    const OCTICONS_BOOKMARK_24: Self = {
+    pub const OCTICONS_BOOKMARK_24: Self = {
         #[inline(never)]
         fn octicons_bookmark_24(
             crate::IconProps {
@@ -859,7 +859,7 @@ impl IconData {
             html: octicons_bookmark_24,
         }
     };
-    const OCTICONS_BOOKMARK_FILL_24: Self = {
+    pub const OCTICONS_BOOKMARK_FILL_24: Self = {
         #[inline(never)]
         fn octicons_bookmark_fill_24(
             crate::IconProps {
@@ -881,7 +881,7 @@ impl IconData {
             html: octicons_bookmark_fill_24,
         }
     };
-    const OCTICONS_BOOKMARK_SLASH_16: Self = {
+    pub const OCTICONS_BOOKMARK_SLASH_16: Self = {
         #[inline(never)]
         fn octicons_bookmark_slash_16(
             crate::IconProps {
@@ -903,7 +903,7 @@ impl IconData {
             html: octicons_bookmark_slash_16,
         }
     };
-    const OCTICONS_BOOKMARK_SLASH_24: Self = {
+    pub const OCTICONS_BOOKMARK_SLASH_24: Self = {
         #[inline(never)]
         fn octicons_bookmark_slash_24(
             crate::IconProps {
@@ -925,7 +925,7 @@ impl IconData {
             html: octicons_bookmark_slash_24,
         }
     };
-    const OCTICONS_BOOKMARK_SLASH_FILL_24: Self = {
+    pub const OCTICONS_BOOKMARK_SLASH_FILL_24: Self = {
         #[inline(never)]
         fn octicons_bookmark_slash_fill_24(
             crate::IconProps {
@@ -947,7 +947,7 @@ impl IconData {
             html: octicons_bookmark_slash_fill_24,
         }
     };
-    const OCTICONS_BRIEFCASE_16: Self = {
+    pub const OCTICONS_BRIEFCASE_16: Self = {
         #[inline(never)]
         fn octicons_briefcase_16(
             crate::IconProps {
@@ -969,7 +969,7 @@ impl IconData {
             html: octicons_briefcase_16,
         }
     };
-    const OCTICONS_BRIEFCASE_24: Self = {
+    pub const OCTICONS_BRIEFCASE_24: Self = {
         #[inline(never)]
         fn octicons_briefcase_24(
             crate::IconProps {
@@ -991,7 +991,7 @@ impl IconData {
             html: octicons_briefcase_24,
         }
     };
-    const OCTICONS_BROADCAST_16: Self = {
+    pub const OCTICONS_BROADCAST_16: Self = {
         #[inline(never)]
         fn octicons_broadcast_16(
             crate::IconProps {
@@ -1013,7 +1013,7 @@ impl IconData {
             html: octicons_broadcast_16,
         }
     };
-    const OCTICONS_BROADCAST_24: Self = {
+    pub const OCTICONS_BROADCAST_24: Self = {
         #[inline(never)]
         fn octicons_broadcast_24(
             crate::IconProps {
@@ -1035,7 +1035,7 @@ impl IconData {
             html: octicons_broadcast_24,
         }
     };
-    const OCTICONS_BROWSER_16: Self = {
+    pub const OCTICONS_BROWSER_16: Self = {
         #[inline(never)]
         fn octicons_browser_16(
             crate::IconProps {
@@ -1057,7 +1057,7 @@ impl IconData {
             html: octicons_browser_16,
         }
     };
-    const OCTICONS_BROWSER_24: Self = {
+    pub const OCTICONS_BROWSER_24: Self = {
         #[inline(never)]
         fn octicons_browser_24(
             crate::IconProps {
@@ -1079,7 +1079,7 @@ impl IconData {
             html: octicons_browser_24,
         }
     };
-    const OCTICONS_BUG_16: Self = {
+    pub const OCTICONS_BUG_16: Self = {
         #[inline(never)]
         fn octicons_bug_16(
             crate::IconProps {
@@ -1101,7 +1101,7 @@ impl IconData {
             html: octicons_bug_16,
         }
     };
-    const OCTICONS_BUG_24: Self = {
+    pub const OCTICONS_BUG_24: Self = {
         #[inline(never)]
         fn octicons_bug_24(
             crate::IconProps {
@@ -1123,7 +1123,7 @@ impl IconData {
             html: octicons_bug_24,
         }
     };
-    const OCTICONS_CALENDAR_16: Self = {
+    pub const OCTICONS_CALENDAR_16: Self = {
         #[inline(never)]
         fn octicons_calendar_16(
             crate::IconProps {
@@ -1145,7 +1145,7 @@ impl IconData {
             html: octicons_calendar_16,
         }
     };
-    const OCTICONS_CALENDAR_24: Self = {
+    pub const OCTICONS_CALENDAR_24: Self = {
         #[inline(never)]
         fn octicons_calendar_24(
             crate::IconProps {
@@ -1167,7 +1167,7 @@ impl IconData {
             html: octicons_calendar_24,
         }
     };
-    const OCTICONS_CHECK_16: Self = {
+    pub const OCTICONS_CHECK_16: Self = {
         #[inline(never)]
         fn octicons_check_16(
             crate::IconProps {
@@ -1189,7 +1189,7 @@ impl IconData {
             html: octicons_check_16,
         }
     };
-    const OCTICONS_CHECK_24: Self = {
+    pub const OCTICONS_CHECK_24: Self = {
         #[inline(never)]
         fn octicons_check_24(
             crate::IconProps {
@@ -1211,7 +1211,7 @@ impl IconData {
             html: octicons_check_24,
         }
     };
-    const OCTICONS_CHECK_CIRCLE_16: Self = {
+    pub const OCTICONS_CHECK_CIRCLE_16: Self = {
         #[inline(never)]
         fn octicons_check_circle_16(
             crate::IconProps {
@@ -1233,7 +1233,7 @@ impl IconData {
             html: octicons_check_circle_16,
         }
     };
-    const OCTICONS_CHECK_CIRCLE_24: Self = {
+    pub const OCTICONS_CHECK_CIRCLE_24: Self = {
         #[inline(never)]
         fn octicons_check_circle_24(
             crate::IconProps {
@@ -1255,7 +1255,7 @@ impl IconData {
             html: octicons_check_circle_24,
         }
     };
-    const OCTICONS_CHECK_CIRCLE_FILL_12: Self = {
+    pub const OCTICONS_CHECK_CIRCLE_FILL_12: Self = {
         #[inline(never)]
         fn octicons_check_circle_fill_12(
             crate::IconProps {
@@ -1277,7 +1277,7 @@ impl IconData {
             html: octicons_check_circle_fill_12,
         }
     };
-    const OCTICONS_CHECK_CIRCLE_FILL_16: Self = {
+    pub const OCTICONS_CHECK_CIRCLE_FILL_16: Self = {
         #[inline(never)]
         fn octicons_check_circle_fill_16(
             crate::IconProps {
@@ -1299,7 +1299,7 @@ impl IconData {
             html: octicons_check_circle_fill_16,
         }
     };
-    const OCTICONS_CHECK_CIRCLE_FILL_24: Self = {
+    pub const OCTICONS_CHECK_CIRCLE_FILL_24: Self = {
         #[inline(never)]
         fn octicons_check_circle_fill_24(
             crate::IconProps {
@@ -1321,7 +1321,7 @@ impl IconData {
             html: octicons_check_circle_fill_24,
         }
     };
-    const OCTICONS_CHECKLIST_16: Self = {
+    pub const OCTICONS_CHECKLIST_16: Self = {
         #[inline(never)]
         fn octicons_checklist_16(
             crate::IconProps {
@@ -1343,7 +1343,7 @@ impl IconData {
             html: octicons_checklist_16,
         }
     };
-    const OCTICONS_CHECKLIST_24: Self = {
+    pub const OCTICONS_CHECKLIST_24: Self = {
         #[inline(never)]
         fn octicons_checklist_24(
             crate::IconProps {
@@ -1365,7 +1365,7 @@ impl IconData {
             html: octicons_checklist_24,
         }
     };
-    const OCTICONS_CHEVRON_DOWN_16: Self = {
+    pub const OCTICONS_CHEVRON_DOWN_16: Self = {
         #[inline(never)]
         fn octicons_chevron_down_16(
             crate::IconProps {
@@ -1387,7 +1387,7 @@ impl IconData {
             html: octicons_chevron_down_16,
         }
     };
-    const OCTICONS_CHEVRON_DOWN_24: Self = {
+    pub const OCTICONS_CHEVRON_DOWN_24: Self = {
         #[inline(never)]
         fn octicons_chevron_down_24(
             crate::IconProps {
@@ -1409,7 +1409,7 @@ impl IconData {
             html: octicons_chevron_down_24,
         }
     };
-    const OCTICONS_CHEVRON_LEFT_16: Self = {
+    pub const OCTICONS_CHEVRON_LEFT_16: Self = {
         #[inline(never)]
         fn octicons_chevron_left_16(
             crate::IconProps {
@@ -1431,7 +1431,7 @@ impl IconData {
             html: octicons_chevron_left_16,
         }
     };
-    const OCTICONS_CHEVRON_LEFT_24: Self = {
+    pub const OCTICONS_CHEVRON_LEFT_24: Self = {
         #[inline(never)]
         fn octicons_chevron_left_24(
             crate::IconProps {
@@ -1453,7 +1453,7 @@ impl IconData {
             html: octicons_chevron_left_24,
         }
     };
-    const OCTICONS_CHEVRON_RIGHT_16: Self = {
+    pub const OCTICONS_CHEVRON_RIGHT_16: Self = {
         #[inline(never)]
         fn octicons_chevron_right_16(
             crate::IconProps {
@@ -1475,7 +1475,7 @@ impl IconData {
             html: octicons_chevron_right_16,
         }
     };
-    const OCTICONS_CHEVRON_RIGHT_24: Self = {
+    pub const OCTICONS_CHEVRON_RIGHT_24: Self = {
         #[inline(never)]
         fn octicons_chevron_right_24(
             crate::IconProps {
@@ -1497,7 +1497,7 @@ impl IconData {
             html: octicons_chevron_right_24,
         }
     };
-    const OCTICONS_CHEVRON_UP_16: Self = {
+    pub const OCTICONS_CHEVRON_UP_16: Self = {
         #[inline(never)]
         fn octicons_chevron_up_16(
             crate::IconProps {
@@ -1519,7 +1519,7 @@ impl IconData {
             html: octicons_chevron_up_16,
         }
     };
-    const OCTICONS_CHEVRON_UP_24: Self = {
+    pub const OCTICONS_CHEVRON_UP_24: Self = {
         #[inline(never)]
         fn octicons_chevron_up_24(
             crate::IconProps {
@@ -1541,7 +1541,7 @@ impl IconData {
             html: octicons_chevron_up_24,
         }
     };
-    const OCTICONS_CIRCLE_16: Self = {
+    pub const OCTICONS_CIRCLE_16: Self = {
         #[inline(never)]
         fn octicons_circle_16(
             crate::IconProps {
@@ -1563,7 +1563,7 @@ impl IconData {
             html: octicons_circle_16,
         }
     };
-    const OCTICONS_CIRCLE_24: Self = {
+    pub const OCTICONS_CIRCLE_24: Self = {
         #[inline(never)]
         fn octicons_circle_24(
             crate::IconProps {
@@ -1585,7 +1585,7 @@ impl IconData {
             html: octicons_circle_24,
         }
     };
-    const OCTICONS_CIRCLE_SLASH_16: Self = {
+    pub const OCTICONS_CIRCLE_SLASH_16: Self = {
         #[inline(never)]
         fn octicons_circle_slash_16(
             crate::IconProps {
@@ -1607,7 +1607,7 @@ impl IconData {
             html: octicons_circle_slash_16,
         }
     };
-    const OCTICONS_CIRCLE_SLASH_24: Self = {
+    pub const OCTICONS_CIRCLE_SLASH_24: Self = {
         #[inline(never)]
         fn octicons_circle_slash_24(
             crate::IconProps {
@@ -1629,7 +1629,7 @@ impl IconData {
             html: octicons_circle_slash_24,
         }
     };
-    const OCTICONS_CLOCK_16: Self = {
+    pub const OCTICONS_CLOCK_16: Self = {
         #[inline(never)]
         fn octicons_clock_16(
             crate::IconProps {
@@ -1651,7 +1651,7 @@ impl IconData {
             html: octicons_clock_16,
         }
     };
-    const OCTICONS_CLOCK_24: Self = {
+    pub const OCTICONS_CLOCK_24: Self = {
         #[inline(never)]
         fn octicons_clock_24(
             crate::IconProps {
@@ -1673,7 +1673,7 @@ impl IconData {
             html: octicons_clock_24,
         }
     };
-    const OCTICONS_CLOUD_16: Self = {
+    pub const OCTICONS_CLOUD_16: Self = {
         #[inline(never)]
         fn octicons_cloud_16(
             crate::IconProps {
@@ -1695,7 +1695,7 @@ impl IconData {
             html: octicons_cloud_16,
         }
     };
-    const OCTICONS_CLOUD_24: Self = {
+    pub const OCTICONS_CLOUD_24: Self = {
         #[inline(never)]
         fn octicons_cloud_24(
             crate::IconProps {
@@ -1717,7 +1717,7 @@ impl IconData {
             html: octicons_cloud_24,
         }
     };
-    const OCTICONS_CLOUD_OFFLINE_16: Self = {
+    pub const OCTICONS_CLOUD_OFFLINE_16: Self = {
         #[inline(never)]
         fn octicons_cloud_offline_16(
             crate::IconProps {
@@ -1739,7 +1739,7 @@ impl IconData {
             html: octicons_cloud_offline_16,
         }
     };
-    const OCTICONS_CLOUD_OFFLINE_24: Self = {
+    pub const OCTICONS_CLOUD_OFFLINE_24: Self = {
         #[inline(never)]
         fn octicons_cloud_offline_24(
             crate::IconProps {
@@ -1761,7 +1761,7 @@ impl IconData {
             html: octicons_cloud_offline_24,
         }
     };
-    const OCTICONS_CODE_16: Self = {
+    pub const OCTICONS_CODE_16: Self = {
         #[inline(never)]
         fn octicons_code_16(
             crate::IconProps {
@@ -1783,7 +1783,7 @@ impl IconData {
             html: octicons_code_16,
         }
     };
-    const OCTICONS_CODE_24: Self = {
+    pub const OCTICONS_CODE_24: Self = {
         #[inline(never)]
         fn octicons_code_24(
             crate::IconProps {
@@ -1805,7 +1805,7 @@ impl IconData {
             html: octicons_code_24,
         }
     };
-    const OCTICONS_CODE_OF_CONDUCT_16: Self = {
+    pub const OCTICONS_CODE_OF_CONDUCT_16: Self = {
         #[inline(never)]
         fn octicons_code_of_conduct_16(
             crate::IconProps {
@@ -1827,7 +1827,7 @@ impl IconData {
             html: octicons_code_of_conduct_16,
         }
     };
-    const OCTICONS_CODE_OF_CONDUCT_24: Self = {
+    pub const OCTICONS_CODE_OF_CONDUCT_24: Self = {
         #[inline(never)]
         fn octicons_code_of_conduct_24(
             crate::IconProps {
@@ -1849,7 +1849,7 @@ impl IconData {
             html: octicons_code_of_conduct_24,
         }
     };
-    const OCTICONS_CODE_REVIEW_16: Self = {
+    pub const OCTICONS_CODE_REVIEW_16: Self = {
         #[inline(never)]
         fn octicons_code_review_16(
             crate::IconProps {
@@ -1871,7 +1871,7 @@ impl IconData {
             html: octicons_code_review_16,
         }
     };
-    const OCTICONS_CODE_REVIEW_24: Self = {
+    pub const OCTICONS_CODE_REVIEW_24: Self = {
         #[inline(never)]
         fn octicons_code_review_24(
             crate::IconProps {
@@ -1893,7 +1893,7 @@ impl IconData {
             html: octicons_code_review_24,
         }
     };
-    const OCTICONS_CODE_SQUARE_16: Self = {
+    pub const OCTICONS_CODE_SQUARE_16: Self = {
         #[inline(never)]
         fn octicons_code_square_16(
             crate::IconProps {
@@ -1915,7 +1915,7 @@ impl IconData {
             html: octicons_code_square_16,
         }
     };
-    const OCTICONS_CODE_SQUARE_24: Self = {
+    pub const OCTICONS_CODE_SQUARE_24: Self = {
         #[inline(never)]
         fn octicons_code_square_24(
             crate::IconProps {
@@ -1937,7 +1937,7 @@ impl IconData {
             html: octicons_code_square_24,
         }
     };
-    const OCTICONS_CODESCAN_16: Self = {
+    pub const OCTICONS_CODESCAN_16: Self = {
         #[inline(never)]
         fn octicons_codescan_16(
             crate::IconProps {
@@ -1959,7 +1959,7 @@ impl IconData {
             html: octicons_codescan_16,
         }
     };
-    const OCTICONS_CODESCAN_24: Self = {
+    pub const OCTICONS_CODESCAN_24: Self = {
         #[inline(never)]
         fn octicons_codescan_24(
             crate::IconProps {
@@ -1981,7 +1981,7 @@ impl IconData {
             html: octicons_codescan_24,
         }
     };
-    const OCTICONS_CODESCAN_CHECKMARK_16: Self = {
+    pub const OCTICONS_CODESCAN_CHECKMARK_16: Self = {
         #[inline(never)]
         fn octicons_codescan_checkmark_16(
             crate::IconProps {
@@ -2003,7 +2003,7 @@ impl IconData {
             html: octicons_codescan_checkmark_16,
         }
     };
-    const OCTICONS_CODESCAN_CHECKMARK_24: Self = {
+    pub const OCTICONS_CODESCAN_CHECKMARK_24: Self = {
         #[inline(never)]
         fn octicons_codescan_checkmark_24(
             crate::IconProps {
@@ -2025,7 +2025,7 @@ impl IconData {
             html: octicons_codescan_checkmark_24,
         }
     };
-    const OCTICONS_CODESPACES_16: Self = {
+    pub const OCTICONS_CODESPACES_16: Self = {
         #[inline(never)]
         fn octicons_codespaces_16(
             crate::IconProps {
@@ -2047,7 +2047,7 @@ impl IconData {
             html: octicons_codespaces_16,
         }
     };
-    const OCTICONS_CODESPACES_24: Self = {
+    pub const OCTICONS_CODESPACES_24: Self = {
         #[inline(never)]
         fn octicons_codespaces_24(
             crate::IconProps {
@@ -2069,7 +2069,7 @@ impl IconData {
             html: octicons_codespaces_24,
         }
     };
-    const OCTICONS_COLUMNS_16: Self = {
+    pub const OCTICONS_COLUMNS_16: Self = {
         #[inline(never)]
         fn octicons_columns_16(
             crate::IconProps {
@@ -2091,7 +2091,7 @@ impl IconData {
             html: octicons_columns_16,
         }
     };
-    const OCTICONS_COLUMNS_24: Self = {
+    pub const OCTICONS_COLUMNS_24: Self = {
         #[inline(never)]
         fn octicons_columns_24(
             crate::IconProps {
@@ -2113,7 +2113,7 @@ impl IconData {
             html: octicons_columns_24,
         }
     };
-    const OCTICONS_COMMENT_16: Self = {
+    pub const OCTICONS_COMMENT_16: Self = {
         #[inline(never)]
         fn octicons_comment_16(
             crate::IconProps {
@@ -2135,7 +2135,7 @@ impl IconData {
             html: octicons_comment_16,
         }
     };
-    const OCTICONS_COMMENT_24: Self = {
+    pub const OCTICONS_COMMENT_24: Self = {
         #[inline(never)]
         fn octicons_comment_24(
             crate::IconProps {
@@ -2157,7 +2157,7 @@ impl IconData {
             html: octicons_comment_24,
         }
     };
-    const OCTICONS_COMMENT_DISCUSSION_16: Self = {
+    pub const OCTICONS_COMMENT_DISCUSSION_16: Self = {
         #[inline(never)]
         fn octicons_comment_discussion_16(
             crate::IconProps {
@@ -2179,7 +2179,7 @@ impl IconData {
             html: octicons_comment_discussion_16,
         }
     };
-    const OCTICONS_COMMENT_DISCUSSION_24: Self = {
+    pub const OCTICONS_COMMENT_DISCUSSION_24: Self = {
         #[inline(never)]
         fn octicons_comment_discussion_24(
             crate::IconProps {
@@ -2201,7 +2201,7 @@ impl IconData {
             html: octicons_comment_discussion_24,
         }
     };
-    const OCTICONS_COMMIT_24: Self = {
+    pub const OCTICONS_COMMIT_24: Self = {
         #[inline(never)]
         fn octicons_commit_24(
             crate::IconProps {
@@ -2223,7 +2223,7 @@ impl IconData {
             html: octicons_commit_24,
         }
     };
-    const OCTICONS_CONTAINER_16: Self = {
+    pub const OCTICONS_CONTAINER_16: Self = {
         #[inline(never)]
         fn octicons_container_16(
             crate::IconProps {
@@ -2245,7 +2245,7 @@ impl IconData {
             html: octicons_container_16,
         }
     };
-    const OCTICONS_CONTAINER_24: Self = {
+    pub const OCTICONS_CONTAINER_24: Self = {
         #[inline(never)]
         fn octicons_container_24(
             crate::IconProps {
@@ -2267,7 +2267,7 @@ impl IconData {
             html: octicons_container_24,
         }
     };
-    const OCTICONS_COPY_16: Self = {
+    pub const OCTICONS_COPY_16: Self = {
         #[inline(never)]
         fn octicons_copy_16(
             crate::IconProps {
@@ -2289,7 +2289,7 @@ impl IconData {
             html: octicons_copy_16,
         }
     };
-    const OCTICONS_COPY_24: Self = {
+    pub const OCTICONS_COPY_24: Self = {
         #[inline(never)]
         fn octicons_copy_24(
             crate::IconProps {
@@ -2311,7 +2311,7 @@ impl IconData {
             html: octicons_copy_24,
         }
     };
-    const OCTICONS_CPU_16: Self = {
+    pub const OCTICONS_CPU_16: Self = {
         #[inline(never)]
         fn octicons_cpu_16(
             crate::IconProps {
@@ -2333,7 +2333,7 @@ impl IconData {
             html: octicons_cpu_16,
         }
     };
-    const OCTICONS_CPU_24: Self = {
+    pub const OCTICONS_CPU_24: Self = {
         #[inline(never)]
         fn octicons_cpu_24(
             crate::IconProps {
@@ -2355,7 +2355,7 @@ impl IconData {
             html: octicons_cpu_24,
         }
     };
-    const OCTICONS_CREDIT_CARD_16: Self = {
+    pub const OCTICONS_CREDIT_CARD_16: Self = {
         #[inline(never)]
         fn octicons_credit_card_16(
             crate::IconProps {
@@ -2377,7 +2377,7 @@ impl IconData {
             html: octicons_credit_card_16,
         }
     };
-    const OCTICONS_CREDIT_CARD_24: Self = {
+    pub const OCTICONS_CREDIT_CARD_24: Self = {
         #[inline(never)]
         fn octicons_credit_card_24(
             crate::IconProps {
@@ -2399,7 +2399,7 @@ impl IconData {
             html: octicons_credit_card_24,
         }
     };
-    const OCTICONS_CROSS_REFERENCE_16: Self = {
+    pub const OCTICONS_CROSS_REFERENCE_16: Self = {
         #[inline(never)]
         fn octicons_cross_reference_16(
             crate::IconProps {
@@ -2421,7 +2421,7 @@ impl IconData {
             html: octicons_cross_reference_16,
         }
     };
-    const OCTICONS_CROSS_REFERENCE_24: Self = {
+    pub const OCTICONS_CROSS_REFERENCE_24: Self = {
         #[inline(never)]
         fn octicons_cross_reference_24(
             crate::IconProps {
@@ -2443,7 +2443,7 @@ impl IconData {
             html: octicons_cross_reference_24,
         }
     };
-    const OCTICONS_DASH_16: Self = {
+    pub const OCTICONS_DASH_16: Self = {
         #[inline(never)]
         fn octicons_dash_16(
             crate::IconProps {
@@ -2465,7 +2465,7 @@ impl IconData {
             html: octicons_dash_16,
         }
     };
-    const OCTICONS_DASH_24: Self = {
+    pub const OCTICONS_DASH_24: Self = {
         #[inline(never)]
         fn octicons_dash_24(
             crate::IconProps {
@@ -2487,7 +2487,7 @@ impl IconData {
             html: octicons_dash_24,
         }
     };
-    const OCTICONS_DATABASE_16: Self = {
+    pub const OCTICONS_DATABASE_16: Self = {
         #[inline(never)]
         fn octicons_database_16(
             crate::IconProps {
@@ -2509,7 +2509,7 @@ impl IconData {
             html: octicons_database_16,
         }
     };
-    const OCTICONS_DATABASE_24: Self = {
+    pub const OCTICONS_DATABASE_24: Self = {
         #[inline(never)]
         fn octicons_database_24(
             crate::IconProps {
@@ -2531,7 +2531,7 @@ impl IconData {
             html: octicons_database_24,
         }
     };
-    const OCTICONS_DEPENDABOT_16: Self = {
+    pub const OCTICONS_DEPENDABOT_16: Self = {
         #[inline(never)]
         fn octicons_dependabot_16(
             crate::IconProps {
@@ -2553,7 +2553,7 @@ impl IconData {
             html: octicons_dependabot_16,
         }
     };
-    const OCTICONS_DEPENDABOT_24: Self = {
+    pub const OCTICONS_DEPENDABOT_24: Self = {
         #[inline(never)]
         fn octicons_dependabot_24(
             crate::IconProps {
@@ -2575,7 +2575,7 @@ impl IconData {
             html: octicons_dependabot_24,
         }
     };
-    const OCTICONS_DESKTOP_DOWNLOAD_16: Self = {
+    pub const OCTICONS_DESKTOP_DOWNLOAD_16: Self = {
         #[inline(never)]
         fn octicons_desktop_download_16(
             crate::IconProps {
@@ -2597,7 +2597,7 @@ impl IconData {
             html: octicons_desktop_download_16,
         }
     };
-    const OCTICONS_DESKTOP_DOWNLOAD_24: Self = {
+    pub const OCTICONS_DESKTOP_DOWNLOAD_24: Self = {
         #[inline(never)]
         fn octicons_desktop_download_24(
             crate::IconProps {
@@ -2619,7 +2619,7 @@ impl IconData {
             html: octicons_desktop_download_24,
         }
     };
-    const OCTICONS_DEVICE_CAMERA_16: Self = {
+    pub const OCTICONS_DEVICE_CAMERA_16: Self = {
         #[inline(never)]
         fn octicons_device_camera_16(
             crate::IconProps {
@@ -2641,7 +2641,7 @@ impl IconData {
             html: octicons_device_camera_16,
         }
     };
-    const OCTICONS_DEVICE_CAMERA_VIDEO_16: Self = {
+    pub const OCTICONS_DEVICE_CAMERA_VIDEO_16: Self = {
         #[inline(never)]
         fn octicons_device_camera_video_16(
             crate::IconProps {
@@ -2663,7 +2663,7 @@ impl IconData {
             html: octicons_device_camera_video_16,
         }
     };
-    const OCTICONS_DEVICE_CAMERA_VIDEO_24: Self = {
+    pub const OCTICONS_DEVICE_CAMERA_VIDEO_24: Self = {
         #[inline(never)]
         fn octicons_device_camera_video_24(
             crate::IconProps {
@@ -2685,7 +2685,7 @@ impl IconData {
             html: octicons_device_camera_video_24,
         }
     };
-    const OCTICONS_DEVICE_DESKTOP_16: Self = {
+    pub const OCTICONS_DEVICE_DESKTOP_16: Self = {
         #[inline(never)]
         fn octicons_device_desktop_16(
             crate::IconProps {
@@ -2707,7 +2707,7 @@ impl IconData {
             html: octicons_device_desktop_16,
         }
     };
-    const OCTICONS_DEVICE_DESKTOP_24: Self = {
+    pub const OCTICONS_DEVICE_DESKTOP_24: Self = {
         #[inline(never)]
         fn octicons_device_desktop_24(
             crate::IconProps {
@@ -2729,7 +2729,7 @@ impl IconData {
             html: octicons_device_desktop_24,
         }
     };
-    const OCTICONS_DEVICE_MOBILE_16: Self = {
+    pub const OCTICONS_DEVICE_MOBILE_16: Self = {
         #[inline(never)]
         fn octicons_device_mobile_16(
             crate::IconProps {
@@ -2751,7 +2751,7 @@ impl IconData {
             html: octicons_device_mobile_16,
         }
     };
-    const OCTICONS_DEVICE_MOBILE_24: Self = {
+    pub const OCTICONS_DEVICE_MOBILE_24: Self = {
         #[inline(never)]
         fn octicons_device_mobile_24(
             crate::IconProps {
@@ -2773,7 +2773,7 @@ impl IconData {
             html: octicons_device_mobile_24,
         }
     };
-    const OCTICONS_DIAMOND_16: Self = {
+    pub const OCTICONS_DIAMOND_16: Self = {
         #[inline(never)]
         fn octicons_diamond_16(
             crate::IconProps {
@@ -2795,7 +2795,7 @@ impl IconData {
             html: octicons_diamond_16,
         }
     };
-    const OCTICONS_DIAMOND_24: Self = {
+    pub const OCTICONS_DIAMOND_24: Self = {
         #[inline(never)]
         fn octicons_diamond_24(
             crate::IconProps {
@@ -2817,7 +2817,7 @@ impl IconData {
             html: octicons_diamond_24,
         }
     };
-    const OCTICONS_DIFF_16: Self = {
+    pub const OCTICONS_DIFF_16: Self = {
         #[inline(never)]
         fn octicons_diff_16(
             crate::IconProps {
@@ -2839,7 +2839,7 @@ impl IconData {
             html: octicons_diff_16,
         }
     };
-    const OCTICONS_DIFF_24: Self = {
+    pub const OCTICONS_DIFF_24: Self = {
         #[inline(never)]
         fn octicons_diff_24(
             crate::IconProps {
@@ -2861,7 +2861,7 @@ impl IconData {
             html: octicons_diff_24,
         }
     };
-    const OCTICONS_DIFF_ADDED_16: Self = {
+    pub const OCTICONS_DIFF_ADDED_16: Self = {
         #[inline(never)]
         fn octicons_diff_added_16(
             crate::IconProps {
@@ -2883,7 +2883,7 @@ impl IconData {
             html: octicons_diff_added_16,
         }
     };
-    const OCTICONS_DIFF_IGNORED_16: Self = {
+    pub const OCTICONS_DIFF_IGNORED_16: Self = {
         #[inline(never)]
         fn octicons_diff_ignored_16(
             crate::IconProps {
@@ -2905,7 +2905,7 @@ impl IconData {
             html: octicons_diff_ignored_16,
         }
     };
-    const OCTICONS_DIFF_MODIFIED_16: Self = {
+    pub const OCTICONS_DIFF_MODIFIED_16: Self = {
         #[inline(never)]
         fn octicons_diff_modified_16(
             crate::IconProps {
@@ -2927,7 +2927,7 @@ impl IconData {
             html: octicons_diff_modified_16,
         }
     };
-    const OCTICONS_DIFF_REMOVED_16: Self = {
+    pub const OCTICONS_DIFF_REMOVED_16: Self = {
         #[inline(never)]
         fn octicons_diff_removed_16(
             crate::IconProps {
@@ -2949,7 +2949,7 @@ impl IconData {
             html: octicons_diff_removed_16,
         }
     };
-    const OCTICONS_DIFF_RENAMED_16: Self = {
+    pub const OCTICONS_DIFF_RENAMED_16: Self = {
         #[inline(never)]
         fn octicons_diff_renamed_16(
             crate::IconProps {
@@ -2971,7 +2971,7 @@ impl IconData {
             html: octicons_diff_renamed_16,
         }
     };
-    const OCTICONS_DOT_16: Self = {
+    pub const OCTICONS_DOT_16: Self = {
         #[inline(never)]
         fn octicons_dot_16(
             crate::IconProps {
@@ -2993,7 +2993,7 @@ impl IconData {
             html: octicons_dot_16,
         }
     };
-    const OCTICONS_DOT_24: Self = {
+    pub const OCTICONS_DOT_24: Self = {
         #[inline(never)]
         fn octicons_dot_24(
             crate::IconProps {
@@ -3015,7 +3015,7 @@ impl IconData {
             html: octicons_dot_24,
         }
     };
-    const OCTICONS_DOT_FILL_16: Self = {
+    pub const OCTICONS_DOT_FILL_16: Self = {
         #[inline(never)]
         fn octicons_dot_fill_16(
             crate::IconProps {
@@ -3037,7 +3037,7 @@ impl IconData {
             html: octicons_dot_fill_16,
         }
     };
-    const OCTICONS_DOT_FILL_24: Self = {
+    pub const OCTICONS_DOT_FILL_24: Self = {
         #[inline(never)]
         fn octicons_dot_fill_24(
             crate::IconProps {
@@ -3059,7 +3059,7 @@ impl IconData {
             html: octicons_dot_fill_24,
         }
     };
-    const OCTICONS_DOWNLOAD_16: Self = {
+    pub const OCTICONS_DOWNLOAD_16: Self = {
         #[inline(never)]
         fn octicons_download_16(
             crate::IconProps {
@@ -3081,7 +3081,7 @@ impl IconData {
             html: octicons_download_16,
         }
     };
-    const OCTICONS_DOWNLOAD_24: Self = {
+    pub const OCTICONS_DOWNLOAD_24: Self = {
         #[inline(never)]
         fn octicons_download_24(
             crate::IconProps {
@@ -3103,7 +3103,7 @@ impl IconData {
             html: octicons_download_24,
         }
     };
-    const OCTICONS_DUPLICATE_16: Self = {
+    pub const OCTICONS_DUPLICATE_16: Self = {
         #[inline(never)]
         fn octicons_duplicate_16(
             crate::IconProps {
@@ -3125,7 +3125,7 @@ impl IconData {
             html: octicons_duplicate_16,
         }
     };
-    const OCTICONS_DUPLICATE_24: Self = {
+    pub const OCTICONS_DUPLICATE_24: Self = {
         #[inline(never)]
         fn octicons_duplicate_24(
             crate::IconProps {
@@ -3147,7 +3147,7 @@ impl IconData {
             html: octicons_duplicate_24,
         }
     };
-    const OCTICONS_ELLIPSIS_16: Self = {
+    pub const OCTICONS_ELLIPSIS_16: Self = {
         #[inline(never)]
         fn octicons_ellipsis_16(
             crate::IconProps {
@@ -3169,7 +3169,7 @@ impl IconData {
             html: octicons_ellipsis_16,
         }
     };
-    const OCTICONS_EYE_16: Self = {
+    pub const OCTICONS_EYE_16: Self = {
         #[inline(never)]
         fn octicons_eye_16(
             crate::IconProps {
@@ -3191,7 +3191,7 @@ impl IconData {
             html: octicons_eye_16,
         }
     };
-    const OCTICONS_EYE_24: Self = {
+    pub const OCTICONS_EYE_24: Self = {
         #[inline(never)]
         fn octicons_eye_24(
             crate::IconProps {
@@ -3213,7 +3213,7 @@ impl IconData {
             html: octicons_eye_24,
         }
     };
-    const OCTICONS_EYE_CLOSED_16: Self = {
+    pub const OCTICONS_EYE_CLOSED_16: Self = {
         #[inline(never)]
         fn octicons_eye_closed_16(
             crate::IconProps {
@@ -3235,7 +3235,7 @@ impl IconData {
             html: octicons_eye_closed_16,
         }
     };
-    const OCTICONS_EYE_CLOSED_24: Self = {
+    pub const OCTICONS_EYE_CLOSED_24: Self = {
         #[inline(never)]
         fn octicons_eye_closed_24(
             crate::IconProps {
@@ -3257,7 +3257,7 @@ impl IconData {
             html: octicons_eye_closed_24,
         }
     };
-    const OCTICONS_FEED_DISCUSSION_16: Self = {
+    pub const OCTICONS_FEED_DISCUSSION_16: Self = {
         #[inline(never)]
         fn octicons_feed_discussion_16(
             crate::IconProps {
@@ -3279,7 +3279,7 @@ impl IconData {
             html: octicons_feed_discussion_16,
         }
     };
-    const OCTICONS_FEED_FORKED_16: Self = {
+    pub const OCTICONS_FEED_FORKED_16: Self = {
         #[inline(never)]
         fn octicons_feed_forked_16(
             crate::IconProps {
@@ -3301,7 +3301,7 @@ impl IconData {
             html: octicons_feed_forked_16,
         }
     };
-    const OCTICONS_FEED_HEART_16: Self = {
+    pub const OCTICONS_FEED_HEART_16: Self = {
         #[inline(never)]
         fn octicons_feed_heart_16(
             crate::IconProps {
@@ -3323,7 +3323,7 @@ impl IconData {
             html: octicons_feed_heart_16,
         }
     };
-    const OCTICONS_FEED_MERGED_16: Self = {
+    pub const OCTICONS_FEED_MERGED_16: Self = {
         #[inline(never)]
         fn octicons_feed_merged_16(
             crate::IconProps {
@@ -3345,7 +3345,7 @@ impl IconData {
             html: octicons_feed_merged_16,
         }
     };
-    const OCTICONS_FEED_PERSON_16: Self = {
+    pub const OCTICONS_FEED_PERSON_16: Self = {
         #[inline(never)]
         fn octicons_feed_person_16(
             crate::IconProps {
@@ -3367,7 +3367,7 @@ impl IconData {
             html: octicons_feed_person_16,
         }
     };
-    const OCTICONS_FEED_REPO_16: Self = {
+    pub const OCTICONS_FEED_REPO_16: Self = {
         #[inline(never)]
         fn octicons_feed_repo_16(
             crate::IconProps {
@@ -3389,7 +3389,7 @@ impl IconData {
             html: octicons_feed_repo_16,
         }
     };
-    const OCTICONS_FEED_ROCKET_16: Self = {
+    pub const OCTICONS_FEED_ROCKET_16: Self = {
         #[inline(never)]
         fn octicons_feed_rocket_16(
             crate::IconProps {
@@ -3411,7 +3411,7 @@ impl IconData {
             html: octicons_feed_rocket_16,
         }
     };
-    const OCTICONS_FEED_STAR_16: Self = {
+    pub const OCTICONS_FEED_STAR_16: Self = {
         #[inline(never)]
         fn octicons_feed_star_16(
             crate::IconProps {
@@ -3433,7 +3433,7 @@ impl IconData {
             html: octicons_feed_star_16,
         }
     };
-    const OCTICONS_FEED_TAG_16: Self = {
+    pub const OCTICONS_FEED_TAG_16: Self = {
         #[inline(never)]
         fn octicons_feed_tag_16(
             crate::IconProps {
@@ -3455,7 +3455,7 @@ impl IconData {
             html: octicons_feed_tag_16,
         }
     };
-    const OCTICONS_FEED_TROPHY_16: Self = {
+    pub const OCTICONS_FEED_TROPHY_16: Self = {
         #[inline(never)]
         fn octicons_feed_trophy_16(
             crate::IconProps {
@@ -3477,7 +3477,7 @@ impl IconData {
             html: octicons_feed_trophy_16,
         }
     };
-    const OCTICONS_FILE_16: Self = {
+    pub const OCTICONS_FILE_16: Self = {
         #[inline(never)]
         fn octicons_file_16(
             crate::IconProps {
@@ -3499,7 +3499,7 @@ impl IconData {
             html: octicons_file_16,
         }
     };
-    const OCTICONS_FILE_24: Self = {
+    pub const OCTICONS_FILE_24: Self = {
         #[inline(never)]
         fn octicons_file_24(
             crate::IconProps {
@@ -3521,7 +3521,7 @@ impl IconData {
             html: octicons_file_24,
         }
     };
-    const OCTICONS_FILE_BADGE_16: Self = {
+    pub const OCTICONS_FILE_BADGE_16: Self = {
         #[inline(never)]
         fn octicons_file_badge_16(
             crate::IconProps {
@@ -3543,7 +3543,7 @@ impl IconData {
             html: octicons_file_badge_16,
         }
     };
-    const OCTICONS_FILE_BINARY_16: Self = {
+    pub const OCTICONS_FILE_BINARY_16: Self = {
         #[inline(never)]
         fn octicons_file_binary_16(
             crate::IconProps {
@@ -3565,7 +3565,7 @@ impl IconData {
             html: octicons_file_binary_16,
         }
     };
-    const OCTICONS_FILE_BINARY_24: Self = {
+    pub const OCTICONS_FILE_BINARY_24: Self = {
         #[inline(never)]
         fn octicons_file_binary_24(
             crate::IconProps {
@@ -3587,7 +3587,7 @@ impl IconData {
             html: octicons_file_binary_24,
         }
     };
-    const OCTICONS_FILE_CODE_16: Self = {
+    pub const OCTICONS_FILE_CODE_16: Self = {
         #[inline(never)]
         fn octicons_file_code_16(
             crate::IconProps {
@@ -3609,7 +3609,7 @@ impl IconData {
             html: octicons_file_code_16,
         }
     };
-    const OCTICONS_FILE_CODE_24: Self = {
+    pub const OCTICONS_FILE_CODE_24: Self = {
         #[inline(never)]
         fn octicons_file_code_24(
             crate::IconProps {
@@ -3631,7 +3631,7 @@ impl IconData {
             html: octicons_file_code_24,
         }
     };
-    const OCTICONS_FILE_DIFF_16: Self = {
+    pub const OCTICONS_FILE_DIFF_16: Self = {
         #[inline(never)]
         fn octicons_file_diff_16(
             crate::IconProps {
@@ -3653,7 +3653,7 @@ impl IconData {
             html: octicons_file_diff_16,
         }
     };
-    const OCTICONS_FILE_DIFF_24: Self = {
+    pub const OCTICONS_FILE_DIFF_24: Self = {
         #[inline(never)]
         fn octicons_file_diff_24(
             crate::IconProps {
@@ -3675,7 +3675,7 @@ impl IconData {
             html: octicons_file_diff_24,
         }
     };
-    const OCTICONS_FILE_DIRECTORY_16: Self = {
+    pub const OCTICONS_FILE_DIRECTORY_16: Self = {
         #[inline(never)]
         fn octicons_file_directory_16(
             crate::IconProps {
@@ -3697,7 +3697,7 @@ impl IconData {
             html: octicons_file_directory_16,
         }
     };
-    const OCTICONS_FILE_DIRECTORY_24: Self = {
+    pub const OCTICONS_FILE_DIRECTORY_24: Self = {
         #[inline(never)]
         fn octicons_file_directory_24(
             crate::IconProps {
@@ -3719,7 +3719,7 @@ impl IconData {
             html: octicons_file_directory_24,
         }
     };
-    const OCTICONS_FILE_DIRECTORY_FILL_16: Self = {
+    pub const OCTICONS_FILE_DIRECTORY_FILL_16: Self = {
         #[inline(never)]
         fn octicons_file_directory_fill_16(
             crate::IconProps {
@@ -3741,7 +3741,7 @@ impl IconData {
             html: octicons_file_directory_fill_16,
         }
     };
-    const OCTICONS_FILE_DIRECTORY_FILL_24: Self = {
+    pub const OCTICONS_FILE_DIRECTORY_FILL_24: Self = {
         #[inline(never)]
         fn octicons_file_directory_fill_24(
             crate::IconProps {
@@ -3763,7 +3763,7 @@ impl IconData {
             html: octicons_file_directory_fill_24,
         }
     };
-    const OCTICONS_FILE_DIRECTORY_OPEN_FILL_16: Self = {
+    pub const OCTICONS_FILE_DIRECTORY_OPEN_FILL_16: Self = {
         #[inline(never)]
         fn octicons_file_directory_open_fill_16(
             crate::IconProps {
@@ -3785,7 +3785,7 @@ impl IconData {
             html: octicons_file_directory_open_fill_16,
         }
     };
-    const OCTICONS_FILE_MEDIA_24: Self = {
+    pub const OCTICONS_FILE_MEDIA_24: Self = {
         #[inline(never)]
         fn octicons_file_media_24(
             crate::IconProps {
@@ -3807,7 +3807,7 @@ impl IconData {
             html: octicons_file_media_24,
         }
     };
-    const OCTICONS_FILE_SUBMODULE_16: Self = {
+    pub const OCTICONS_FILE_SUBMODULE_16: Self = {
         #[inline(never)]
         fn octicons_file_submodule_16(
             crate::IconProps {
@@ -3829,7 +3829,7 @@ impl IconData {
             html: octicons_file_submodule_16,
         }
     };
-    const OCTICONS_FILE_SUBMODULE_24: Self = {
+    pub const OCTICONS_FILE_SUBMODULE_24: Self = {
         #[inline(never)]
         fn octicons_file_submodule_24(
             crate::IconProps {
@@ -3851,7 +3851,7 @@ impl IconData {
             html: octicons_file_submodule_24,
         }
     };
-    const OCTICONS_FILE_SYMLINK_FILE_16: Self = {
+    pub const OCTICONS_FILE_SYMLINK_FILE_16: Self = {
         #[inline(never)]
         fn octicons_file_symlink_file_16(
             crate::IconProps {
@@ -3873,7 +3873,7 @@ impl IconData {
             html: octicons_file_symlink_file_16,
         }
     };
-    const OCTICONS_FILE_SYMLINK_FILE_24: Self = {
+    pub const OCTICONS_FILE_SYMLINK_FILE_24: Self = {
         #[inline(never)]
         fn octicons_file_symlink_file_24(
             crate::IconProps {
@@ -3895,7 +3895,7 @@ impl IconData {
             html: octicons_file_symlink_file_24,
         }
     };
-    const OCTICONS_FILE_ZIP_16: Self = {
+    pub const OCTICONS_FILE_ZIP_16: Self = {
         #[inline(never)]
         fn octicons_file_zip_16(
             crate::IconProps {
@@ -3917,7 +3917,7 @@ impl IconData {
             html: octicons_file_zip_16,
         }
     };
-    const OCTICONS_FILE_ZIP_24: Self = {
+    pub const OCTICONS_FILE_ZIP_24: Self = {
         #[inline(never)]
         fn octicons_file_zip_24(
             crate::IconProps {
@@ -3939,7 +3939,7 @@ impl IconData {
             html: octicons_file_zip_24,
         }
     };
-    const OCTICONS_FILTER_16: Self = {
+    pub const OCTICONS_FILTER_16: Self = {
         #[inline(never)]
         fn octicons_filter_16(
             crate::IconProps {
@@ -3961,7 +3961,7 @@ impl IconData {
             html: octicons_filter_16,
         }
     };
-    const OCTICONS_FILTER_24: Self = {
+    pub const OCTICONS_FILTER_24: Self = {
         #[inline(never)]
         fn octicons_filter_24(
             crate::IconProps {
@@ -3983,7 +3983,7 @@ impl IconData {
             html: octicons_filter_24,
         }
     };
-    const OCTICONS_FLAME_16: Self = {
+    pub const OCTICONS_FLAME_16: Self = {
         #[inline(never)]
         fn octicons_flame_16(
             crate::IconProps {
@@ -4005,7 +4005,7 @@ impl IconData {
             html: octicons_flame_16,
         }
     };
-    const OCTICONS_FLAME_24: Self = {
+    pub const OCTICONS_FLAME_24: Self = {
         #[inline(never)]
         fn octicons_flame_24(
             crate::IconProps {
@@ -4027,7 +4027,7 @@ impl IconData {
             html: octicons_flame_24,
         }
     };
-    const OCTICONS_FOLD_16: Self = {
+    pub const OCTICONS_FOLD_16: Self = {
         #[inline(never)]
         fn octicons_fold_16(
             crate::IconProps {
@@ -4049,7 +4049,7 @@ impl IconData {
             html: octicons_fold_16,
         }
     };
-    const OCTICONS_FOLD_24: Self = {
+    pub const OCTICONS_FOLD_24: Self = {
         #[inline(never)]
         fn octicons_fold_24(
             crate::IconProps {
@@ -4071,7 +4071,7 @@ impl IconData {
             html: octicons_fold_24,
         }
     };
-    const OCTICONS_FOLD_DOWN_16: Self = {
+    pub const OCTICONS_FOLD_DOWN_16: Self = {
         #[inline(never)]
         fn octicons_fold_down_16(
             crate::IconProps {
@@ -4093,7 +4093,7 @@ impl IconData {
             html: octicons_fold_down_16,
         }
     };
-    const OCTICONS_FOLD_DOWN_24: Self = {
+    pub const OCTICONS_FOLD_DOWN_24: Self = {
         #[inline(never)]
         fn octicons_fold_down_24(
             crate::IconProps {
@@ -4115,7 +4115,7 @@ impl IconData {
             html: octicons_fold_down_24,
         }
     };
-    const OCTICONS_FOLD_UP_16: Self = {
+    pub const OCTICONS_FOLD_UP_16: Self = {
         #[inline(never)]
         fn octicons_fold_up_16(
             crate::IconProps {
@@ -4137,7 +4137,7 @@ impl IconData {
             html: octicons_fold_up_16,
         }
     };
-    const OCTICONS_FOLD_UP_24: Self = {
+    pub const OCTICONS_FOLD_UP_24: Self = {
         #[inline(never)]
         fn octicons_fold_up_24(
             crate::IconProps {
@@ -4159,7 +4159,7 @@ impl IconData {
             html: octicons_fold_up_24,
         }
     };
-    const OCTICONS_GEAR_16: Self = {
+    pub const OCTICONS_GEAR_16: Self = {
         #[inline(never)]
         fn octicons_gear_16(
             crate::IconProps {
@@ -4181,7 +4181,7 @@ impl IconData {
             html: octicons_gear_16,
         }
     };
-    const OCTICONS_GEAR_24: Self = {
+    pub const OCTICONS_GEAR_24: Self = {
         #[inline(never)]
         fn octicons_gear_24(
             crate::IconProps {
@@ -4203,7 +4203,7 @@ impl IconData {
             html: octicons_gear_24,
         }
     };
-    const OCTICONS_GIFT_16: Self = {
+    pub const OCTICONS_GIFT_16: Self = {
         #[inline(never)]
         fn octicons_gift_16(
             crate::IconProps {
@@ -4225,7 +4225,7 @@ impl IconData {
             html: octicons_gift_16,
         }
     };
-    const OCTICONS_GIFT_24: Self = {
+    pub const OCTICONS_GIFT_24: Self = {
         #[inline(never)]
         fn octicons_gift_24(
             crate::IconProps {
@@ -4247,7 +4247,7 @@ impl IconData {
             html: octicons_gift_24,
         }
     };
-    const OCTICONS_GIT_BRANCH_16: Self = {
+    pub const OCTICONS_GIT_BRANCH_16: Self = {
         #[inline(never)]
         fn octicons_git_branch_16(
             crate::IconProps {
@@ -4269,7 +4269,7 @@ impl IconData {
             html: octicons_git_branch_16,
         }
     };
-    const OCTICONS_GIT_BRANCH_24: Self = {
+    pub const OCTICONS_GIT_BRANCH_24: Self = {
         #[inline(never)]
         fn octicons_git_branch_24(
             crate::IconProps {
@@ -4291,7 +4291,7 @@ impl IconData {
             html: octicons_git_branch_24,
         }
     };
-    const OCTICONS_GIT_COMMIT_16: Self = {
+    pub const OCTICONS_GIT_COMMIT_16: Self = {
         #[inline(never)]
         fn octicons_git_commit_16(
             crate::IconProps {
@@ -4313,7 +4313,7 @@ impl IconData {
             html: octicons_git_commit_16,
         }
     };
-    const OCTICONS_GIT_COMMIT_24: Self = {
+    pub const OCTICONS_GIT_COMMIT_24: Self = {
         #[inline(never)]
         fn octicons_git_commit_24(
             crate::IconProps {
@@ -4335,7 +4335,7 @@ impl IconData {
             html: octicons_git_commit_24,
         }
     };
-    const OCTICONS_GIT_COMPARE_16: Self = {
+    pub const OCTICONS_GIT_COMPARE_16: Self = {
         #[inline(never)]
         fn octicons_git_compare_16(
             crate::IconProps {
@@ -4357,7 +4357,7 @@ impl IconData {
             html: octicons_git_compare_16,
         }
     };
-    const OCTICONS_GIT_COMPARE_24: Self = {
+    pub const OCTICONS_GIT_COMPARE_24: Self = {
         #[inline(never)]
         fn octicons_git_compare_24(
             crate::IconProps {
@@ -4379,7 +4379,7 @@ impl IconData {
             html: octicons_git_compare_24,
         }
     };
-    const OCTICONS_GIT_MERGE_16: Self = {
+    pub const OCTICONS_GIT_MERGE_16: Self = {
         #[inline(never)]
         fn octicons_git_merge_16(
             crate::IconProps {
@@ -4401,7 +4401,7 @@ impl IconData {
             html: octicons_git_merge_16,
         }
     };
-    const OCTICONS_GIT_MERGE_24: Self = {
+    pub const OCTICONS_GIT_MERGE_24: Self = {
         #[inline(never)]
         fn octicons_git_merge_24(
             crate::IconProps {
@@ -4423,7 +4423,7 @@ impl IconData {
             html: octicons_git_merge_24,
         }
     };
-    const OCTICONS_GIT_PULL_REQUEST_16: Self = {
+    pub const OCTICONS_GIT_PULL_REQUEST_16: Self = {
         #[inline(never)]
         fn octicons_git_pull_request_16(
             crate::IconProps {
@@ -4445,7 +4445,7 @@ impl IconData {
             html: octicons_git_pull_request_16,
         }
     };
-    const OCTICONS_GIT_PULL_REQUEST_24: Self = {
+    pub const OCTICONS_GIT_PULL_REQUEST_24: Self = {
         #[inline(never)]
         fn octicons_git_pull_request_24(
             crate::IconProps {
@@ -4467,7 +4467,7 @@ impl IconData {
             html: octicons_git_pull_request_24,
         }
     };
-    const OCTICONS_GIT_PULL_REQUEST_CLOSED_16: Self = {
+    pub const OCTICONS_GIT_PULL_REQUEST_CLOSED_16: Self = {
         #[inline(never)]
         fn octicons_git_pull_request_closed_16(
             crate::IconProps {
@@ -4489,7 +4489,7 @@ impl IconData {
             html: octicons_git_pull_request_closed_16,
         }
     };
-    const OCTICONS_GIT_PULL_REQUEST_CLOSED_24: Self = {
+    pub const OCTICONS_GIT_PULL_REQUEST_CLOSED_24: Self = {
         #[inline(never)]
         fn octicons_git_pull_request_closed_24(
             crate::IconProps {
@@ -4511,7 +4511,7 @@ impl IconData {
             html: octicons_git_pull_request_closed_24,
         }
     };
-    const OCTICONS_GIT_PULL_REQUEST_DRAFT_16: Self = {
+    pub const OCTICONS_GIT_PULL_REQUEST_DRAFT_16: Self = {
         #[inline(never)]
         fn octicons_git_pull_request_draft_16(
             crate::IconProps {
@@ -4533,7 +4533,7 @@ impl IconData {
             html: octicons_git_pull_request_draft_16,
         }
     };
-    const OCTICONS_GIT_PULL_REQUEST_DRAFT_24: Self = {
+    pub const OCTICONS_GIT_PULL_REQUEST_DRAFT_24: Self = {
         #[inline(never)]
         fn octicons_git_pull_request_draft_24(
             crate::IconProps {
@@ -4555,7 +4555,7 @@ impl IconData {
             html: octicons_git_pull_request_draft_24,
         }
     };
-    const OCTICONS_GLOBE_16: Self = {
+    pub const OCTICONS_GLOBE_16: Self = {
         #[inline(never)]
         fn octicons_globe_16(
             crate::IconProps {
@@ -4577,7 +4577,7 @@ impl IconData {
             html: octicons_globe_16,
         }
     };
-    const OCTICONS_GLOBE_24: Self = {
+    pub const OCTICONS_GLOBE_24: Self = {
         #[inline(never)]
         fn octicons_globe_24(
             crate::IconProps {
@@ -4599,7 +4599,7 @@ impl IconData {
             html: octicons_globe_24,
         }
     };
-    const OCTICONS_GRABBER_16: Self = {
+    pub const OCTICONS_GRABBER_16: Self = {
         #[inline(never)]
         fn octicons_grabber_16(
             crate::IconProps {
@@ -4621,7 +4621,7 @@ impl IconData {
             html: octicons_grabber_16,
         }
     };
-    const OCTICONS_GRABBER_24: Self = {
+    pub const OCTICONS_GRABBER_24: Self = {
         #[inline(never)]
         fn octicons_grabber_24(
             crate::IconProps {
@@ -4643,7 +4643,7 @@ impl IconData {
             html: octicons_grabber_24,
         }
     };
-    const OCTICONS_GRAPH_16: Self = {
+    pub const OCTICONS_GRAPH_16: Self = {
         #[inline(never)]
         fn octicons_graph_16(
             crate::IconProps {
@@ -4665,7 +4665,7 @@ impl IconData {
             html: octicons_graph_16,
         }
     };
-    const OCTICONS_GRAPH_24: Self = {
+    pub const OCTICONS_GRAPH_24: Self = {
         #[inline(never)]
         fn octicons_graph_24(
             crate::IconProps {
@@ -4687,7 +4687,7 @@ impl IconData {
             html: octicons_graph_24,
         }
     };
-    const OCTICONS_HASH_16: Self = {
+    pub const OCTICONS_HASH_16: Self = {
         #[inline(never)]
         fn octicons_hash_16(
             crate::IconProps {
@@ -4709,7 +4709,7 @@ impl IconData {
             html: octicons_hash_16,
         }
     };
-    const OCTICONS_HASH_24: Self = {
+    pub const OCTICONS_HASH_24: Self = {
         #[inline(never)]
         fn octicons_hash_24(
             crate::IconProps {
@@ -4731,7 +4731,7 @@ impl IconData {
             html: octicons_hash_24,
         }
     };
-    const OCTICONS_HEADING_16: Self = {
+    pub const OCTICONS_HEADING_16: Self = {
         #[inline(never)]
         fn octicons_heading_16(
             crate::IconProps {
@@ -4753,7 +4753,7 @@ impl IconData {
             html: octicons_heading_16,
         }
     };
-    const OCTICONS_HEADING_24: Self = {
+    pub const OCTICONS_HEADING_24: Self = {
         #[inline(never)]
         fn octicons_heading_24(
             crate::IconProps {
@@ -4775,7 +4775,7 @@ impl IconData {
             html: octicons_heading_24,
         }
     };
-    const OCTICONS_HEART_16: Self = {
+    pub const OCTICONS_HEART_16: Self = {
         #[inline(never)]
         fn octicons_heart_16(
             crate::IconProps {
@@ -4797,7 +4797,7 @@ impl IconData {
             html: octicons_heart_16,
         }
     };
-    const OCTICONS_HEART_24: Self = {
+    pub const OCTICONS_HEART_24: Self = {
         #[inline(never)]
         fn octicons_heart_24(
             crate::IconProps {
@@ -4819,7 +4819,7 @@ impl IconData {
             html: octicons_heart_24,
         }
     };
-    const OCTICONS_HEART_FILL_16: Self = {
+    pub const OCTICONS_HEART_FILL_16: Self = {
         #[inline(never)]
         fn octicons_heart_fill_16(
             crate::IconProps {
@@ -4841,7 +4841,7 @@ impl IconData {
             html: octicons_heart_fill_16,
         }
     };
-    const OCTICONS_HEART_FILL_24: Self = {
+    pub const OCTICONS_HEART_FILL_24: Self = {
         #[inline(never)]
         fn octicons_heart_fill_24(
             crate::IconProps {
@@ -4863,7 +4863,7 @@ impl IconData {
             html: octicons_heart_fill_24,
         }
     };
-    const OCTICONS_HISTORY_16: Self = {
+    pub const OCTICONS_HISTORY_16: Self = {
         #[inline(never)]
         fn octicons_history_16(
             crate::IconProps {
@@ -4885,7 +4885,7 @@ impl IconData {
             html: octicons_history_16,
         }
     };
-    const OCTICONS_HISTORY_24: Self = {
+    pub const OCTICONS_HISTORY_24: Self = {
         #[inline(never)]
         fn octicons_history_24(
             crate::IconProps {
@@ -4907,7 +4907,7 @@ impl IconData {
             html: octicons_history_24,
         }
     };
-    const OCTICONS_HOME_16: Self = {
+    pub const OCTICONS_HOME_16: Self = {
         #[inline(never)]
         fn octicons_home_16(
             crate::IconProps {
@@ -4929,7 +4929,7 @@ impl IconData {
             html: octicons_home_16,
         }
     };
-    const OCTICONS_HOME_24: Self = {
+    pub const OCTICONS_HOME_24: Self = {
         #[inline(never)]
         fn octicons_home_24(
             crate::IconProps {
@@ -4951,7 +4951,7 @@ impl IconData {
             html: octicons_home_24,
         }
     };
-    const OCTICONS_HOME_FILL_24: Self = {
+    pub const OCTICONS_HOME_FILL_24: Self = {
         #[inline(never)]
         fn octicons_home_fill_24(
             crate::IconProps {
@@ -4973,7 +4973,7 @@ impl IconData {
             html: octicons_home_fill_24,
         }
     };
-    const OCTICONS_HORIZONTAL_RULE_16: Self = {
+    pub const OCTICONS_HORIZONTAL_RULE_16: Self = {
         #[inline(never)]
         fn octicons_horizontal_rule_16(
             crate::IconProps {
@@ -4995,7 +4995,7 @@ impl IconData {
             html: octicons_horizontal_rule_16,
         }
     };
-    const OCTICONS_HORIZONTAL_RULE_24: Self = {
+    pub const OCTICONS_HORIZONTAL_RULE_24: Self = {
         #[inline(never)]
         fn octicons_horizontal_rule_24(
             crate::IconProps {
@@ -5017,7 +5017,7 @@ impl IconData {
             html: octicons_horizontal_rule_24,
         }
     };
-    const OCTICONS_HOURGLASS_16: Self = {
+    pub const OCTICONS_HOURGLASS_16: Self = {
         #[inline(never)]
         fn octicons_hourglass_16(
             crate::IconProps {
@@ -5039,7 +5039,7 @@ impl IconData {
             html: octicons_hourglass_16,
         }
     };
-    const OCTICONS_HOURGLASS_24: Self = {
+    pub const OCTICONS_HOURGLASS_24: Self = {
         #[inline(never)]
         fn octicons_hourglass_24(
             crate::IconProps {
@@ -5061,7 +5061,7 @@ impl IconData {
             html: octicons_hourglass_24,
         }
     };
-    const OCTICONS_HUBOT_16: Self = {
+    pub const OCTICONS_HUBOT_16: Self = {
         #[inline(never)]
         fn octicons_hubot_16(
             crate::IconProps {
@@ -5083,7 +5083,7 @@ impl IconData {
             html: octicons_hubot_16,
         }
     };
-    const OCTICONS_HUBOT_24: Self = {
+    pub const OCTICONS_HUBOT_24: Self = {
         #[inline(never)]
         fn octicons_hubot_24(
             crate::IconProps {
@@ -5105,7 +5105,7 @@ impl IconData {
             html: octicons_hubot_24,
         }
     };
-    const OCTICONS_ID_BADGE_16: Self = {
+    pub const OCTICONS_ID_BADGE_16: Self = {
         #[inline(never)]
         fn octicons_id_badge_16(
             crate::IconProps {
@@ -5127,7 +5127,7 @@ impl IconData {
             html: octicons_id_badge_16,
         }
     };
-    const OCTICONS_IMAGE_16: Self = {
+    pub const OCTICONS_IMAGE_16: Self = {
         #[inline(never)]
         fn octicons_image_16(
             crate::IconProps {
@@ -5149,7 +5149,7 @@ impl IconData {
             html: octicons_image_16,
         }
     };
-    const OCTICONS_IMAGE_24: Self = {
+    pub const OCTICONS_IMAGE_24: Self = {
         #[inline(never)]
         fn octicons_image_24(
             crate::IconProps {
@@ -5171,7 +5171,7 @@ impl IconData {
             html: octicons_image_24,
         }
     };
-    const OCTICONS_INBOX_16: Self = {
+    pub const OCTICONS_INBOX_16: Self = {
         #[inline(never)]
         fn octicons_inbox_16(
             crate::IconProps {
@@ -5193,7 +5193,7 @@ impl IconData {
             html: octicons_inbox_16,
         }
     };
-    const OCTICONS_INBOX_24: Self = {
+    pub const OCTICONS_INBOX_24: Self = {
         #[inline(never)]
         fn octicons_inbox_24(
             crate::IconProps {
@@ -5215,7 +5215,7 @@ impl IconData {
             html: octicons_inbox_24,
         }
     };
-    const OCTICONS_INFINITY_16: Self = {
+    pub const OCTICONS_INFINITY_16: Self = {
         #[inline(never)]
         fn octicons_infinity_16(
             crate::IconProps {
@@ -5237,7 +5237,7 @@ impl IconData {
             html: octicons_infinity_16,
         }
     };
-    const OCTICONS_INFINITY_24: Self = {
+    pub const OCTICONS_INFINITY_24: Self = {
         #[inline(never)]
         fn octicons_infinity_24(
             crate::IconProps {
@@ -5259,7 +5259,7 @@ impl IconData {
             html: octicons_infinity_24,
         }
     };
-    const OCTICONS_INFO_16: Self = {
+    pub const OCTICONS_INFO_16: Self = {
         #[inline(never)]
         fn octicons_info_16(
             crate::IconProps {
@@ -5281,7 +5281,7 @@ impl IconData {
             html: octicons_info_16,
         }
     };
-    const OCTICONS_INFO_24: Self = {
+    pub const OCTICONS_INFO_24: Self = {
         #[inline(never)]
         fn octicons_info_24(
             crate::IconProps {
@@ -5303,7 +5303,7 @@ impl IconData {
             html: octicons_info_24,
         }
     };
-    const OCTICONS_ISSUE_CLOSED_16: Self = {
+    pub const OCTICONS_ISSUE_CLOSED_16: Self = {
         #[inline(never)]
         fn octicons_issue_closed_16(
             crate::IconProps {
@@ -5325,7 +5325,7 @@ impl IconData {
             html: octicons_issue_closed_16,
         }
     };
-    const OCTICONS_ISSUE_CLOSED_24: Self = {
+    pub const OCTICONS_ISSUE_CLOSED_24: Self = {
         #[inline(never)]
         fn octicons_issue_closed_24(
             crate::IconProps {
@@ -5347,7 +5347,7 @@ impl IconData {
             html: octicons_issue_closed_24,
         }
     };
-    const OCTICONS_ISSUE_DRAFT_16: Self = {
+    pub const OCTICONS_ISSUE_DRAFT_16: Self = {
         #[inline(never)]
         fn octicons_issue_draft_16(
             crate::IconProps {
@@ -5369,7 +5369,7 @@ impl IconData {
             html: octicons_issue_draft_16,
         }
     };
-    const OCTICONS_ISSUE_DRAFT_24: Self = {
+    pub const OCTICONS_ISSUE_DRAFT_24: Self = {
         #[inline(never)]
         fn octicons_issue_draft_24(
             crate::IconProps {
@@ -5391,7 +5391,7 @@ impl IconData {
             html: octicons_issue_draft_24,
         }
     };
-    const OCTICONS_ISSUE_OPENED_16: Self = {
+    pub const OCTICONS_ISSUE_OPENED_16: Self = {
         #[inline(never)]
         fn octicons_issue_opened_16(
             crate::IconProps {
@@ -5413,7 +5413,7 @@ impl IconData {
             html: octicons_issue_opened_16,
         }
     };
-    const OCTICONS_ISSUE_OPENED_24: Self = {
+    pub const OCTICONS_ISSUE_OPENED_24: Self = {
         #[inline(never)]
         fn octicons_issue_opened_24(
             crate::IconProps {
@@ -5435,7 +5435,7 @@ impl IconData {
             html: octicons_issue_opened_24,
         }
     };
-    const OCTICONS_ISSUE_REOPENED_16: Self = {
+    pub const OCTICONS_ISSUE_REOPENED_16: Self = {
         #[inline(never)]
         fn octicons_issue_reopened_16(
             crate::IconProps {
@@ -5457,7 +5457,7 @@ impl IconData {
             html: octicons_issue_reopened_16,
         }
     };
-    const OCTICONS_ISSUE_REOPENED_24: Self = {
+    pub const OCTICONS_ISSUE_REOPENED_24: Self = {
         #[inline(never)]
         fn octicons_issue_reopened_24(
             crate::IconProps {
@@ -5479,7 +5479,7 @@ impl IconData {
             html: octicons_issue_reopened_24,
         }
     };
-    const OCTICONS_ITALIC_16: Self = {
+    pub const OCTICONS_ITALIC_16: Self = {
         #[inline(never)]
         fn octicons_italic_16(
             crate::IconProps {
@@ -5501,7 +5501,7 @@ impl IconData {
             html: octicons_italic_16,
         }
     };
-    const OCTICONS_ITALIC_24: Self = {
+    pub const OCTICONS_ITALIC_24: Self = {
         #[inline(never)]
         fn octicons_italic_24(
             crate::IconProps {
@@ -5523,7 +5523,7 @@ impl IconData {
             html: octicons_italic_24,
         }
     };
-    const OCTICONS_ITERATIONS_16: Self = {
+    pub const OCTICONS_ITERATIONS_16: Self = {
         #[inline(never)]
         fn octicons_iterations_16(
             crate::IconProps {
@@ -5545,7 +5545,7 @@ impl IconData {
             html: octicons_iterations_16,
         }
     };
-    const OCTICONS_ITERATIONS_24: Self = {
+    pub const OCTICONS_ITERATIONS_24: Self = {
         #[inline(never)]
         fn octicons_iterations_24(
             crate::IconProps {
@@ -5567,7 +5567,7 @@ impl IconData {
             html: octicons_iterations_24,
         }
     };
-    const OCTICONS_KEBAB_HORIZONTAL_16: Self = {
+    pub const OCTICONS_KEBAB_HORIZONTAL_16: Self = {
         #[inline(never)]
         fn octicons_kebab_horizontal_16(
             crate::IconProps {
@@ -5589,7 +5589,7 @@ impl IconData {
             html: octicons_kebab_horizontal_16,
         }
     };
-    const OCTICONS_KEBAB_HORIZONTAL_24: Self = {
+    pub const OCTICONS_KEBAB_HORIZONTAL_24: Self = {
         #[inline(never)]
         fn octicons_kebab_horizontal_24(
             crate::IconProps {
@@ -5611,7 +5611,7 @@ impl IconData {
             html: octicons_kebab_horizontal_24,
         }
     };
-    const OCTICONS_KEY_16: Self = {
+    pub const OCTICONS_KEY_16: Self = {
         #[inline(never)]
         fn octicons_key_16(
             crate::IconProps {
@@ -5633,7 +5633,7 @@ impl IconData {
             html: octicons_key_16,
         }
     };
-    const OCTICONS_KEY_24: Self = {
+    pub const OCTICONS_KEY_24: Self = {
         #[inline(never)]
         fn octicons_key_24(
             crate::IconProps {
@@ -5655,7 +5655,7 @@ impl IconData {
             html: octicons_key_24,
         }
     };
-    const OCTICONS_KEY_ASTERISK_16: Self = {
+    pub const OCTICONS_KEY_ASTERISK_16: Self = {
         #[inline(never)]
         fn octicons_key_asterisk_16(
             crate::IconProps {
@@ -5677,7 +5677,7 @@ impl IconData {
             html: octicons_key_asterisk_16,
         }
     };
-    const OCTICONS_LAW_16: Self = {
+    pub const OCTICONS_LAW_16: Self = {
         #[inline(never)]
         fn octicons_law_16(
             crate::IconProps {
@@ -5699,7 +5699,7 @@ impl IconData {
             html: octicons_law_16,
         }
     };
-    const OCTICONS_LAW_24: Self = {
+    pub const OCTICONS_LAW_24: Self = {
         #[inline(never)]
         fn octicons_law_24(
             crate::IconProps {
@@ -5721,7 +5721,7 @@ impl IconData {
             html: octicons_law_24,
         }
     };
-    const OCTICONS_LIGHT_BULB_16: Self = {
+    pub const OCTICONS_LIGHT_BULB_16: Self = {
         #[inline(never)]
         fn octicons_light_bulb_16(
             crate::IconProps {
@@ -5743,7 +5743,7 @@ impl IconData {
             html: octicons_light_bulb_16,
         }
     };
-    const OCTICONS_LIGHT_BULB_24: Self = {
+    pub const OCTICONS_LIGHT_BULB_24: Self = {
         #[inline(never)]
         fn octicons_light_bulb_24(
             crate::IconProps {
@@ -5765,7 +5765,7 @@ impl IconData {
             html: octicons_light_bulb_24,
         }
     };
-    const OCTICONS_LINK_16: Self = {
+    pub const OCTICONS_LINK_16: Self = {
         #[inline(never)]
         fn octicons_link_16(
             crate::IconProps {
@@ -5787,7 +5787,7 @@ impl IconData {
             html: octicons_link_16,
         }
     };
-    const OCTICONS_LINK_24: Self = {
+    pub const OCTICONS_LINK_24: Self = {
         #[inline(never)]
         fn octicons_link_24(
             crate::IconProps {
@@ -5809,7 +5809,7 @@ impl IconData {
             html: octicons_link_24,
         }
     };
-    const OCTICONS_LINK_EXTERNAL_16: Self = {
+    pub const OCTICONS_LINK_EXTERNAL_16: Self = {
         #[inline(never)]
         fn octicons_link_external_16(
             crate::IconProps {
@@ -5831,7 +5831,7 @@ impl IconData {
             html: octicons_link_external_16,
         }
     };
-    const OCTICONS_LINK_EXTERNAL_24: Self = {
+    pub const OCTICONS_LINK_EXTERNAL_24: Self = {
         #[inline(never)]
         fn octicons_link_external_24(
             crate::IconProps {
@@ -5853,7 +5853,7 @@ impl IconData {
             html: octicons_link_external_24,
         }
     };
-    const OCTICONS_LIST_ORDERED_16: Self = {
+    pub const OCTICONS_LIST_ORDERED_16: Self = {
         #[inline(never)]
         fn octicons_list_ordered_16(
             crate::IconProps {
@@ -5875,7 +5875,7 @@ impl IconData {
             html: octicons_list_ordered_16,
         }
     };
-    const OCTICONS_LIST_ORDERED_24: Self = {
+    pub const OCTICONS_LIST_ORDERED_24: Self = {
         #[inline(never)]
         fn octicons_list_ordered_24(
             crate::IconProps {
@@ -5897,7 +5897,7 @@ impl IconData {
             html: octicons_list_ordered_24,
         }
     };
-    const OCTICONS_LIST_UNORDERED_16: Self = {
+    pub const OCTICONS_LIST_UNORDERED_16: Self = {
         #[inline(never)]
         fn octicons_list_unordered_16(
             crate::IconProps {
@@ -5919,7 +5919,7 @@ impl IconData {
             html: octicons_list_unordered_16,
         }
     };
-    const OCTICONS_LIST_UNORDERED_24: Self = {
+    pub const OCTICONS_LIST_UNORDERED_24: Self = {
         #[inline(never)]
         fn octicons_list_unordered_24(
             crate::IconProps {
@@ -5941,7 +5941,7 @@ impl IconData {
             html: octicons_list_unordered_24,
         }
     };
-    const OCTICONS_LOCATION_16: Self = {
+    pub const OCTICONS_LOCATION_16: Self = {
         #[inline(never)]
         fn octicons_location_16(
             crate::IconProps {
@@ -5963,7 +5963,7 @@ impl IconData {
             html: octicons_location_16,
         }
     };
-    const OCTICONS_LOCATION_24: Self = {
+    pub const OCTICONS_LOCATION_24: Self = {
         #[inline(never)]
         fn octicons_location_24(
             crate::IconProps {
@@ -5985,7 +5985,7 @@ impl IconData {
             html: octicons_location_24,
         }
     };
-    const OCTICONS_LOCK_16: Self = {
+    pub const OCTICONS_LOCK_16: Self = {
         #[inline(never)]
         fn octicons_lock_16(
             crate::IconProps {
@@ -6007,7 +6007,7 @@ impl IconData {
             html: octicons_lock_16,
         }
     };
-    const OCTICONS_LOCK_24: Self = {
+    pub const OCTICONS_LOCK_24: Self = {
         #[inline(never)]
         fn octicons_lock_24(
             crate::IconProps {
@@ -6029,7 +6029,7 @@ impl IconData {
             html: octicons_lock_24,
         }
     };
-    const OCTICONS_LOG_16: Self = {
+    pub const OCTICONS_LOG_16: Self = {
         #[inline(never)]
         fn octicons_log_16(
             crate::IconProps {
@@ -6051,7 +6051,7 @@ impl IconData {
             html: octicons_log_16,
         }
     };
-    const OCTICONS_LOGO_GIST_16: Self = {
+    pub const OCTICONS_LOGO_GIST_16: Self = {
         #[inline(never)]
         fn octicons_logo_gist_16(
             crate::IconProps {
@@ -6073,7 +6073,7 @@ impl IconData {
             html: octicons_logo_gist_16,
         }
     };
-    const OCTICONS_LOGO_GITHUB_16: Self = {
+    pub const OCTICONS_LOGO_GITHUB_16: Self = {
         #[inline(never)]
         fn octicons_logo_github_16(
             crate::IconProps {
@@ -6095,7 +6095,7 @@ impl IconData {
             html: octicons_logo_github_16,
         }
     };
-    const OCTICONS_MAIL_16: Self = {
+    pub const OCTICONS_MAIL_16: Self = {
         #[inline(never)]
         fn octicons_mail_16(
             crate::IconProps {
@@ -6117,7 +6117,7 @@ impl IconData {
             html: octicons_mail_16,
         }
     };
-    const OCTICONS_MAIL_24: Self = {
+    pub const OCTICONS_MAIL_24: Self = {
         #[inline(never)]
         fn octicons_mail_24(
             crate::IconProps {
@@ -6139,7 +6139,7 @@ impl IconData {
             html: octicons_mail_24,
         }
     };
-    const OCTICONS_MARK_GITHUB_16: Self = {
+    pub const OCTICONS_MARK_GITHUB_16: Self = {
         #[inline(never)]
         fn octicons_mark_github_16(
             crate::IconProps {
@@ -6161,7 +6161,7 @@ impl IconData {
             html: octicons_mark_github_16,
         }
     };
-    const OCTICONS_MARKDOWN_16: Self = {
+    pub const OCTICONS_MARKDOWN_16: Self = {
         #[inline(never)]
         fn octicons_markdown_16(
             crate::IconProps {
@@ -6183,7 +6183,7 @@ impl IconData {
             html: octicons_markdown_16,
         }
     };
-    const OCTICONS_MEGAPHONE_16: Self = {
+    pub const OCTICONS_MEGAPHONE_16: Self = {
         #[inline(never)]
         fn octicons_megaphone_16(
             crate::IconProps {
@@ -6205,7 +6205,7 @@ impl IconData {
             html: octicons_megaphone_16,
         }
     };
-    const OCTICONS_MEGAPHONE_24: Self = {
+    pub const OCTICONS_MEGAPHONE_24: Self = {
         #[inline(never)]
         fn octicons_megaphone_24(
             crate::IconProps {
@@ -6227,7 +6227,7 @@ impl IconData {
             html: octicons_megaphone_24,
         }
     };
-    const OCTICONS_MENTION_16: Self = {
+    pub const OCTICONS_MENTION_16: Self = {
         #[inline(never)]
         fn octicons_mention_16(
             crate::IconProps {
@@ -6249,7 +6249,7 @@ impl IconData {
             html: octicons_mention_16,
         }
     };
-    const OCTICONS_MENTION_24: Self = {
+    pub const OCTICONS_MENTION_24: Self = {
         #[inline(never)]
         fn octicons_mention_24(
             crate::IconProps {
@@ -6271,7 +6271,7 @@ impl IconData {
             html: octicons_mention_24,
         }
     };
-    const OCTICONS_METER_16: Self = {
+    pub const OCTICONS_METER_16: Self = {
         #[inline(never)]
         fn octicons_meter_16(
             crate::IconProps {
@@ -6293,7 +6293,7 @@ impl IconData {
             html: octicons_meter_16,
         }
     };
-    const OCTICONS_MILESTONE_16: Self = {
+    pub const OCTICONS_MILESTONE_16: Self = {
         #[inline(never)]
         fn octicons_milestone_16(
             crate::IconProps {
@@ -6315,7 +6315,7 @@ impl IconData {
             html: octicons_milestone_16,
         }
     };
-    const OCTICONS_MILESTONE_24: Self = {
+    pub const OCTICONS_MILESTONE_24: Self = {
         #[inline(never)]
         fn octicons_milestone_24(
             crate::IconProps {
@@ -6337,7 +6337,7 @@ impl IconData {
             html: octicons_milestone_24,
         }
     };
-    const OCTICONS_MIRROR_16: Self = {
+    pub const OCTICONS_MIRROR_16: Self = {
         #[inline(never)]
         fn octicons_mirror_16(
             crate::IconProps {
@@ -6359,7 +6359,7 @@ impl IconData {
             html: octicons_mirror_16,
         }
     };
-    const OCTICONS_MIRROR_24: Self = {
+    pub const OCTICONS_MIRROR_24: Self = {
         #[inline(never)]
         fn octicons_mirror_24(
             crate::IconProps {
@@ -6381,7 +6381,7 @@ impl IconData {
             html: octicons_mirror_24,
         }
     };
-    const OCTICONS_MOON_16: Self = {
+    pub const OCTICONS_MOON_16: Self = {
         #[inline(never)]
         fn octicons_moon_16(
             crate::IconProps {
@@ -6403,7 +6403,7 @@ impl IconData {
             html: octicons_moon_16,
         }
     };
-    const OCTICONS_MOON_24: Self = {
+    pub const OCTICONS_MOON_24: Self = {
         #[inline(never)]
         fn octicons_moon_24(
             crate::IconProps {
@@ -6425,7 +6425,7 @@ impl IconData {
             html: octicons_moon_24,
         }
     };
-    const OCTICONS_MORTAR_BOARD_16: Self = {
+    pub const OCTICONS_MORTAR_BOARD_16: Self = {
         #[inline(never)]
         fn octicons_mortar_board_16(
             crate::IconProps {
@@ -6447,7 +6447,7 @@ impl IconData {
             html: octicons_mortar_board_16,
         }
     };
-    const OCTICONS_MORTAR_BOARD_24: Self = {
+    pub const OCTICONS_MORTAR_BOARD_24: Self = {
         #[inline(never)]
         fn octicons_mortar_board_24(
             crate::IconProps {
@@ -6469,7 +6469,7 @@ impl IconData {
             html: octicons_mortar_board_24,
         }
     };
-    const OCTICONS_MULTI_SELECT_16: Self = {
+    pub const OCTICONS_MULTI_SELECT_16: Self = {
         #[inline(never)]
         fn octicons_multi_select_16(
             crate::IconProps {
@@ -6491,7 +6491,7 @@ impl IconData {
             html: octicons_multi_select_16,
         }
     };
-    const OCTICONS_MULTI_SELECT_24: Self = {
+    pub const OCTICONS_MULTI_SELECT_24: Self = {
         #[inline(never)]
         fn octicons_multi_select_24(
             crate::IconProps {
@@ -6513,7 +6513,7 @@ impl IconData {
             html: octicons_multi_select_24,
         }
     };
-    const OCTICONS_MUTE_16: Self = {
+    pub const OCTICONS_MUTE_16: Self = {
         #[inline(never)]
         fn octicons_mute_16(
             crate::IconProps {
@@ -6535,7 +6535,7 @@ impl IconData {
             html: octicons_mute_16,
         }
     };
-    const OCTICONS_MUTE_24: Self = {
+    pub const OCTICONS_MUTE_24: Self = {
         #[inline(never)]
         fn octicons_mute_24(
             crate::IconProps {
@@ -6557,7 +6557,7 @@ impl IconData {
             html: octicons_mute_24,
         }
     };
-    const OCTICONS_NO_ENTRY_16: Self = {
+    pub const OCTICONS_NO_ENTRY_16: Self = {
         #[inline(never)]
         fn octicons_no_entry_16(
             crate::IconProps {
@@ -6579,7 +6579,7 @@ impl IconData {
             html: octicons_no_entry_16,
         }
     };
-    const OCTICONS_NO_ENTRY_24: Self = {
+    pub const OCTICONS_NO_ENTRY_24: Self = {
         #[inline(never)]
         fn octicons_no_entry_24(
             crate::IconProps {
@@ -6601,7 +6601,7 @@ impl IconData {
             html: octicons_no_entry_24,
         }
     };
-    const OCTICONS_NO_ENTRY_FILL_12: Self = {
+    pub const OCTICONS_NO_ENTRY_FILL_12: Self = {
         #[inline(never)]
         fn octicons_no_entry_fill_12(
             crate::IconProps {
@@ -6623,7 +6623,7 @@ impl IconData {
             html: octicons_no_entry_fill_12,
         }
     };
-    const OCTICONS_NORTH_STAR_16: Self = {
+    pub const OCTICONS_NORTH_STAR_16: Self = {
         #[inline(never)]
         fn octicons_north_star_16(
             crate::IconProps {
@@ -6645,7 +6645,7 @@ impl IconData {
             html: octicons_north_star_16,
         }
     };
-    const OCTICONS_NORTH_STAR_24: Self = {
+    pub const OCTICONS_NORTH_STAR_24: Self = {
         #[inline(never)]
         fn octicons_north_star_24(
             crate::IconProps {
@@ -6667,7 +6667,7 @@ impl IconData {
             html: octicons_north_star_24,
         }
     };
-    const OCTICONS_NOTE_16: Self = {
+    pub const OCTICONS_NOTE_16: Self = {
         #[inline(never)]
         fn octicons_note_16(
             crate::IconProps {
@@ -6689,7 +6689,7 @@ impl IconData {
             html: octicons_note_16,
         }
     };
-    const OCTICONS_NOTE_24: Self = {
+    pub const OCTICONS_NOTE_24: Self = {
         #[inline(never)]
         fn octicons_note_24(
             crate::IconProps {
@@ -6711,7 +6711,7 @@ impl IconData {
             html: octicons_note_24,
         }
     };
-    const OCTICONS_NUMBER_16: Self = {
+    pub const OCTICONS_NUMBER_16: Self = {
         #[inline(never)]
         fn octicons_number_16(
             crate::IconProps {
@@ -6733,7 +6733,7 @@ impl IconData {
             html: octicons_number_16,
         }
     };
-    const OCTICONS_NUMBER_24: Self = {
+    pub const OCTICONS_NUMBER_24: Self = {
         #[inline(never)]
         fn octicons_number_24(
             crate::IconProps {
@@ -6755,7 +6755,7 @@ impl IconData {
             html: octicons_number_24,
         }
     };
-    const OCTICONS_ORGANIZATION_16: Self = {
+    pub const OCTICONS_ORGANIZATION_16: Self = {
         #[inline(never)]
         fn octicons_organization_16(
             crate::IconProps {
@@ -6777,7 +6777,7 @@ impl IconData {
             html: octicons_organization_16,
         }
     };
-    const OCTICONS_ORGANIZATION_24: Self = {
+    pub const OCTICONS_ORGANIZATION_24: Self = {
         #[inline(never)]
         fn octicons_organization_24(
             crate::IconProps {
@@ -6799,7 +6799,7 @@ impl IconData {
             html: octicons_organization_24,
         }
     };
-    const OCTICONS_PACKAGE_16: Self = {
+    pub const OCTICONS_PACKAGE_16: Self = {
         #[inline(never)]
         fn octicons_package_16(
             crate::IconProps {
@@ -6821,7 +6821,7 @@ impl IconData {
             html: octicons_package_16,
         }
     };
-    const OCTICONS_PACKAGE_24: Self = {
+    pub const OCTICONS_PACKAGE_24: Self = {
         #[inline(never)]
         fn octicons_package_24(
             crate::IconProps {
@@ -6843,7 +6843,7 @@ impl IconData {
             html: octicons_package_24,
         }
     };
-    const OCTICONS_PACKAGE_DEPENDENCIES_16: Self = {
+    pub const OCTICONS_PACKAGE_DEPENDENCIES_16: Self = {
         #[inline(never)]
         fn octicons_package_dependencies_16(
             crate::IconProps {
@@ -6865,7 +6865,7 @@ impl IconData {
             html: octicons_package_dependencies_16,
         }
     };
-    const OCTICONS_PACKAGE_DEPENDENCIES_24: Self = {
+    pub const OCTICONS_PACKAGE_DEPENDENCIES_24: Self = {
         #[inline(never)]
         fn octicons_package_dependencies_24(
             crate::IconProps {
@@ -6887,7 +6887,7 @@ impl IconData {
             html: octicons_package_dependencies_24,
         }
     };
-    const OCTICONS_PACKAGE_DEPENDENTS_16: Self = {
+    pub const OCTICONS_PACKAGE_DEPENDENTS_16: Self = {
         #[inline(never)]
         fn octicons_package_dependents_16(
             crate::IconProps {
@@ -6909,7 +6909,7 @@ impl IconData {
             html: octicons_package_dependents_16,
         }
     };
-    const OCTICONS_PACKAGE_DEPENDENTS_24: Self = {
+    pub const OCTICONS_PACKAGE_DEPENDENTS_24: Self = {
         #[inline(never)]
         fn octicons_package_dependents_24(
             crate::IconProps {
@@ -6931,7 +6931,7 @@ impl IconData {
             html: octicons_package_dependents_24,
         }
     };
-    const OCTICONS_PAINTBRUSH_16: Self = {
+    pub const OCTICONS_PAINTBRUSH_16: Self = {
         #[inline(never)]
         fn octicons_paintbrush_16(
             crate::IconProps {
@@ -6953,7 +6953,7 @@ impl IconData {
             html: octicons_paintbrush_16,
         }
     };
-    const OCTICONS_PAPER_AIRPLANE_16: Self = {
+    pub const OCTICONS_PAPER_AIRPLANE_16: Self = {
         #[inline(never)]
         fn octicons_paper_airplane_16(
             crate::IconProps {
@@ -6975,7 +6975,7 @@ impl IconData {
             html: octicons_paper_airplane_16,
         }
     };
-    const OCTICONS_PAPER_AIRPLANE_24: Self = {
+    pub const OCTICONS_PAPER_AIRPLANE_24: Self = {
         #[inline(never)]
         fn octicons_paper_airplane_24(
             crate::IconProps {
@@ -6997,7 +6997,7 @@ impl IconData {
             html: octicons_paper_airplane_24,
         }
     };
-    const OCTICONS_PASTE_16: Self = {
+    pub const OCTICONS_PASTE_16: Self = {
         #[inline(never)]
         fn octicons_paste_16(
             crate::IconProps {
@@ -7019,7 +7019,7 @@ impl IconData {
             html: octicons_paste_16,
         }
     };
-    const OCTICONS_PASTE_24: Self = {
+    pub const OCTICONS_PASTE_24: Self = {
         #[inline(never)]
         fn octicons_paste_24(
             crate::IconProps {
@@ -7041,7 +7041,7 @@ impl IconData {
             html: octicons_paste_24,
         }
     };
-    const OCTICONS_PENCIL_16: Self = {
+    pub const OCTICONS_PENCIL_16: Self = {
         #[inline(never)]
         fn octicons_pencil_16(
             crate::IconProps {
@@ -7063,7 +7063,7 @@ impl IconData {
             html: octicons_pencil_16,
         }
     };
-    const OCTICONS_PENCIL_24: Self = {
+    pub const OCTICONS_PENCIL_24: Self = {
         #[inline(never)]
         fn octicons_pencil_24(
             crate::IconProps {
@@ -7085,7 +7085,7 @@ impl IconData {
             html: octicons_pencil_24,
         }
     };
-    const OCTICONS_PEOPLE_16: Self = {
+    pub const OCTICONS_PEOPLE_16: Self = {
         #[inline(never)]
         fn octicons_people_16(
             crate::IconProps {
@@ -7107,7 +7107,7 @@ impl IconData {
             html: octicons_people_16,
         }
     };
-    const OCTICONS_PEOPLE_24: Self = {
+    pub const OCTICONS_PEOPLE_24: Self = {
         #[inline(never)]
         fn octicons_people_24(
             crate::IconProps {
@@ -7129,7 +7129,7 @@ impl IconData {
             html: octicons_people_24,
         }
     };
-    const OCTICONS_PERSON_16: Self = {
+    pub const OCTICONS_PERSON_16: Self = {
         #[inline(never)]
         fn octicons_person_16(
             crate::IconProps {
@@ -7151,7 +7151,7 @@ impl IconData {
             html: octicons_person_16,
         }
     };
-    const OCTICONS_PERSON_24: Self = {
+    pub const OCTICONS_PERSON_24: Self = {
         #[inline(never)]
         fn octicons_person_24(
             crate::IconProps {
@@ -7173,7 +7173,7 @@ impl IconData {
             html: octicons_person_24,
         }
     };
-    const OCTICONS_PERSON_ADD_16: Self = {
+    pub const OCTICONS_PERSON_ADD_16: Self = {
         #[inline(never)]
         fn octicons_person_add_16(
             crate::IconProps {
@@ -7195,7 +7195,7 @@ impl IconData {
             html: octicons_person_add_16,
         }
     };
-    const OCTICONS_PERSON_ADD_24: Self = {
+    pub const OCTICONS_PERSON_ADD_24: Self = {
         #[inline(never)]
         fn octicons_person_add_24(
             crate::IconProps {
@@ -7217,7 +7217,7 @@ impl IconData {
             html: octicons_person_add_24,
         }
     };
-    const OCTICONS_PERSON_FILL_16: Self = {
+    pub const OCTICONS_PERSON_FILL_16: Self = {
         #[inline(never)]
         fn octicons_person_fill_16(
             crate::IconProps {
@@ -7239,7 +7239,7 @@ impl IconData {
             html: octicons_person_fill_16,
         }
     };
-    const OCTICONS_PERSON_FILL_24: Self = {
+    pub const OCTICONS_PERSON_FILL_24: Self = {
         #[inline(never)]
         fn octicons_person_fill_24(
             crate::IconProps {
@@ -7261,7 +7261,7 @@ impl IconData {
             html: octicons_person_fill_24,
         }
     };
-    const OCTICONS_PIN_16: Self = {
+    pub const OCTICONS_PIN_16: Self = {
         #[inline(never)]
         fn octicons_pin_16(
             crate::IconProps {
@@ -7283,7 +7283,7 @@ impl IconData {
             html: octicons_pin_16,
         }
     };
-    const OCTICONS_PIN_24: Self = {
+    pub const OCTICONS_PIN_24: Self = {
         #[inline(never)]
         fn octicons_pin_24(
             crate::IconProps {
@@ -7305,7 +7305,7 @@ impl IconData {
             html: octicons_pin_24,
         }
     };
-    const OCTICONS_PLAY_16: Self = {
+    pub const OCTICONS_PLAY_16: Self = {
         #[inline(never)]
         fn octicons_play_16(
             crate::IconProps {
@@ -7327,7 +7327,7 @@ impl IconData {
             html: octicons_play_16,
         }
     };
-    const OCTICONS_PLAY_24: Self = {
+    pub const OCTICONS_PLAY_24: Self = {
         #[inline(never)]
         fn octicons_play_24(
             crate::IconProps {
@@ -7349,7 +7349,7 @@ impl IconData {
             html: octicons_play_24,
         }
     };
-    const OCTICONS_PLUG_16: Self = {
+    pub const OCTICONS_PLUG_16: Self = {
         #[inline(never)]
         fn octicons_plug_16(
             crate::IconProps {
@@ -7371,7 +7371,7 @@ impl IconData {
             html: octicons_plug_16,
         }
     };
-    const OCTICONS_PLUG_24: Self = {
+    pub const OCTICONS_PLUG_24: Self = {
         #[inline(never)]
         fn octicons_plug_24(
             crate::IconProps {
@@ -7393,7 +7393,7 @@ impl IconData {
             html: octicons_plug_24,
         }
     };
-    const OCTICONS_PLUS_16: Self = {
+    pub const OCTICONS_PLUS_16: Self = {
         #[inline(never)]
         fn octicons_plus_16(
             crate::IconProps {
@@ -7415,7 +7415,7 @@ impl IconData {
             html: octicons_plus_16,
         }
     };
-    const OCTICONS_PLUS_24: Self = {
+    pub const OCTICONS_PLUS_24: Self = {
         #[inline(never)]
         fn octicons_plus_24(
             crate::IconProps {
@@ -7437,7 +7437,7 @@ impl IconData {
             html: octicons_plus_24,
         }
     };
-    const OCTICONS_PLUS_CIRCLE_16: Self = {
+    pub const OCTICONS_PLUS_CIRCLE_16: Self = {
         #[inline(never)]
         fn octicons_plus_circle_16(
             crate::IconProps {
@@ -7459,7 +7459,7 @@ impl IconData {
             html: octicons_plus_circle_16,
         }
     };
-    const OCTICONS_PLUS_CIRCLE_24: Self = {
+    pub const OCTICONS_PLUS_CIRCLE_24: Self = {
         #[inline(never)]
         fn octicons_plus_circle_24(
             crate::IconProps {
@@ -7481,7 +7481,7 @@ impl IconData {
             html: octicons_plus_circle_24,
         }
     };
-    const OCTICONS_PROJECT_16: Self = {
+    pub const OCTICONS_PROJECT_16: Self = {
         #[inline(never)]
         fn octicons_project_16(
             crate::IconProps {
@@ -7503,7 +7503,7 @@ impl IconData {
             html: octicons_project_16,
         }
     };
-    const OCTICONS_PROJECT_24: Self = {
+    pub const OCTICONS_PROJECT_24: Self = {
         #[inline(never)]
         fn octicons_project_24(
             crate::IconProps {
@@ -7525,7 +7525,7 @@ impl IconData {
             html: octicons_project_24,
         }
     };
-    const OCTICONS_PULSE_16: Self = {
+    pub const OCTICONS_PULSE_16: Self = {
         #[inline(never)]
         fn octicons_pulse_16(
             crate::IconProps {
@@ -7547,7 +7547,7 @@ impl IconData {
             html: octicons_pulse_16,
         }
     };
-    const OCTICONS_PULSE_24: Self = {
+    pub const OCTICONS_PULSE_24: Self = {
         #[inline(never)]
         fn octicons_pulse_24(
             crate::IconProps {
@@ -7569,7 +7569,7 @@ impl IconData {
             html: octicons_pulse_24,
         }
     };
-    const OCTICONS_QUESTION_16: Self = {
+    pub const OCTICONS_QUESTION_16: Self = {
         #[inline(never)]
         fn octicons_question_16(
             crate::IconProps {
@@ -7591,7 +7591,7 @@ impl IconData {
             html: octicons_question_16,
         }
     };
-    const OCTICONS_QUESTION_24: Self = {
+    pub const OCTICONS_QUESTION_24: Self = {
         #[inline(never)]
         fn octicons_question_24(
             crate::IconProps {
@@ -7613,7 +7613,7 @@ impl IconData {
             html: octicons_question_24,
         }
     };
-    const OCTICONS_QUOTE_16: Self = {
+    pub const OCTICONS_QUOTE_16: Self = {
         #[inline(never)]
         fn octicons_quote_16(
             crate::IconProps {
@@ -7635,7 +7635,7 @@ impl IconData {
             html: octicons_quote_16,
         }
     };
-    const OCTICONS_QUOTE_24: Self = {
+    pub const OCTICONS_QUOTE_24: Self = {
         #[inline(never)]
         fn octicons_quote_24(
             crate::IconProps {
@@ -7657,7 +7657,7 @@ impl IconData {
             html: octicons_quote_24,
         }
     };
-    const OCTICONS_REPLY_16: Self = {
+    pub const OCTICONS_REPLY_16: Self = {
         #[inline(never)]
         fn octicons_reply_16(
             crate::IconProps {
@@ -7679,7 +7679,7 @@ impl IconData {
             html: octicons_reply_16,
         }
     };
-    const OCTICONS_REPLY_24: Self = {
+    pub const OCTICONS_REPLY_24: Self = {
         #[inline(never)]
         fn octicons_reply_24(
             crate::IconProps {
@@ -7701,7 +7701,7 @@ impl IconData {
             html: octicons_reply_24,
         }
     };
-    const OCTICONS_REPO_16: Self = {
+    pub const OCTICONS_REPO_16: Self = {
         #[inline(never)]
         fn octicons_repo_16(
             crate::IconProps {
@@ -7723,7 +7723,7 @@ impl IconData {
             html: octicons_repo_16,
         }
     };
-    const OCTICONS_REPO_24: Self = {
+    pub const OCTICONS_REPO_24: Self = {
         #[inline(never)]
         fn octicons_repo_24(
             crate::IconProps {
@@ -7745,7 +7745,7 @@ impl IconData {
             html: octicons_repo_24,
         }
     };
-    const OCTICONS_REPO_CLONE_16: Self = {
+    pub const OCTICONS_REPO_CLONE_16: Self = {
         #[inline(never)]
         fn octicons_repo_clone_16(
             crate::IconProps {
@@ -7767,7 +7767,7 @@ impl IconData {
             html: octicons_repo_clone_16,
         }
     };
-    const OCTICONS_REPO_DELETED_16: Self = {
+    pub const OCTICONS_REPO_DELETED_16: Self = {
         #[inline(never)]
         fn octicons_repo_deleted_16(
             crate::IconProps {
@@ -7789,7 +7789,7 @@ impl IconData {
             html: octicons_repo_deleted_16,
         }
     };
-    const OCTICONS_REPO_FORKED_16: Self = {
+    pub const OCTICONS_REPO_FORKED_16: Self = {
         #[inline(never)]
         fn octicons_repo_forked_16(
             crate::IconProps {
@@ -7811,7 +7811,7 @@ impl IconData {
             html: octicons_repo_forked_16,
         }
     };
-    const OCTICONS_REPO_FORKED_24: Self = {
+    pub const OCTICONS_REPO_FORKED_24: Self = {
         #[inline(never)]
         fn octicons_repo_forked_24(
             crate::IconProps {
@@ -7833,7 +7833,7 @@ impl IconData {
             html: octicons_repo_forked_24,
         }
     };
-    const OCTICONS_REPO_LOCKED_16: Self = {
+    pub const OCTICONS_REPO_LOCKED_16: Self = {
         #[inline(never)]
         fn octicons_repo_locked_16(
             crate::IconProps {
@@ -7855,7 +7855,7 @@ impl IconData {
             html: octicons_repo_locked_16,
         }
     };
-    const OCTICONS_REPO_PULL_16: Self = {
+    pub const OCTICONS_REPO_PULL_16: Self = {
         #[inline(never)]
         fn octicons_repo_pull_16(
             crate::IconProps {
@@ -7877,7 +7877,7 @@ impl IconData {
             html: octicons_repo_pull_16,
         }
     };
-    const OCTICONS_REPO_PUSH_16: Self = {
+    pub const OCTICONS_REPO_PUSH_16: Self = {
         #[inline(never)]
         fn octicons_repo_push_16(
             crate::IconProps {
@@ -7899,7 +7899,7 @@ impl IconData {
             html: octicons_repo_push_16,
         }
     };
-    const OCTICONS_REPO_PUSH_24: Self = {
+    pub const OCTICONS_REPO_PUSH_24: Self = {
         #[inline(never)]
         fn octicons_repo_push_24(
             crate::IconProps {
@@ -7921,7 +7921,7 @@ impl IconData {
             html: octicons_repo_push_24,
         }
     };
-    const OCTICONS_REPO_TEMPLATE_16: Self = {
+    pub const OCTICONS_REPO_TEMPLATE_16: Self = {
         #[inline(never)]
         fn octicons_repo_template_16(
             crate::IconProps {
@@ -7943,7 +7943,7 @@ impl IconData {
             html: octicons_repo_template_16,
         }
     };
-    const OCTICONS_REPO_TEMPLATE_24: Self = {
+    pub const OCTICONS_REPO_TEMPLATE_24: Self = {
         #[inline(never)]
         fn octicons_repo_template_24(
             crate::IconProps {
@@ -7965,7 +7965,7 @@ impl IconData {
             html: octicons_repo_template_24,
         }
     };
-    const OCTICONS_REPORT_16: Self = {
+    pub const OCTICONS_REPORT_16: Self = {
         #[inline(never)]
         fn octicons_report_16(
             crate::IconProps {
@@ -7987,7 +7987,7 @@ impl IconData {
             html: octicons_report_16,
         }
     };
-    const OCTICONS_REPORT_24: Self = {
+    pub const OCTICONS_REPORT_24: Self = {
         #[inline(never)]
         fn octicons_report_24(
             crate::IconProps {
@@ -8009,7 +8009,7 @@ impl IconData {
             html: octicons_report_24,
         }
     };
-    const OCTICONS_ROCKET_16: Self = {
+    pub const OCTICONS_ROCKET_16: Self = {
         #[inline(never)]
         fn octicons_rocket_16(
             crate::IconProps {
@@ -8031,7 +8031,7 @@ impl IconData {
             html: octicons_rocket_16,
         }
     };
-    const OCTICONS_ROCKET_24: Self = {
+    pub const OCTICONS_ROCKET_24: Self = {
         #[inline(never)]
         fn octicons_rocket_24(
             crate::IconProps {
@@ -8053,7 +8053,7 @@ impl IconData {
             html: octicons_rocket_24,
         }
     };
-    const OCTICONS_ROWS_16: Self = {
+    pub const OCTICONS_ROWS_16: Self = {
         #[inline(never)]
         fn octicons_rows_16(
             crate::IconProps {
@@ -8075,7 +8075,7 @@ impl IconData {
             html: octicons_rows_16,
         }
     };
-    const OCTICONS_ROWS_24: Self = {
+    pub const OCTICONS_ROWS_24: Self = {
         #[inline(never)]
         fn octicons_rows_24(
             crate::IconProps {
@@ -8097,7 +8097,7 @@ impl IconData {
             html: octicons_rows_24,
         }
     };
-    const OCTICONS_RSS_16: Self = {
+    pub const OCTICONS_RSS_16: Self = {
         #[inline(never)]
         fn octicons_rss_16(
             crate::IconProps {
@@ -8119,7 +8119,7 @@ impl IconData {
             html: octicons_rss_16,
         }
     };
-    const OCTICONS_RSS_24: Self = {
+    pub const OCTICONS_RSS_24: Self = {
         #[inline(never)]
         fn octicons_rss_24(
             crate::IconProps {
@@ -8141,7 +8141,7 @@ impl IconData {
             html: octicons_rss_24,
         }
     };
-    const OCTICONS_RUBY_16: Self = {
+    pub const OCTICONS_RUBY_16: Self = {
         #[inline(never)]
         fn octicons_ruby_16(
             crate::IconProps {
@@ -8163,7 +8163,7 @@ impl IconData {
             html: octicons_ruby_16,
         }
     };
-    const OCTICONS_RUBY_24: Self = {
+    pub const OCTICONS_RUBY_24: Self = {
         #[inline(never)]
         fn octicons_ruby_24(
             crate::IconProps {
@@ -8185,7 +8185,7 @@ impl IconData {
             html: octicons_ruby_24,
         }
     };
-    const OCTICONS_SCREEN_FULL_16: Self = {
+    pub const OCTICONS_SCREEN_FULL_16: Self = {
         #[inline(never)]
         fn octicons_screen_full_16(
             crate::IconProps {
@@ -8207,7 +8207,7 @@ impl IconData {
             html: octicons_screen_full_16,
         }
     };
-    const OCTICONS_SCREEN_FULL_24: Self = {
+    pub const OCTICONS_SCREEN_FULL_24: Self = {
         #[inline(never)]
         fn octicons_screen_full_24(
             crate::IconProps {
@@ -8229,7 +8229,7 @@ impl IconData {
             html: octicons_screen_full_24,
         }
     };
-    const OCTICONS_SCREEN_NORMAL_16: Self = {
+    pub const OCTICONS_SCREEN_NORMAL_16: Self = {
         #[inline(never)]
         fn octicons_screen_normal_16(
             crate::IconProps {
@@ -8251,7 +8251,7 @@ impl IconData {
             html: octicons_screen_normal_16,
         }
     };
-    const OCTICONS_SCREEN_NORMAL_24: Self = {
+    pub const OCTICONS_SCREEN_NORMAL_24: Self = {
         #[inline(never)]
         fn octicons_screen_normal_24(
             crate::IconProps {
@@ -8273,7 +8273,7 @@ impl IconData {
             html: octicons_screen_normal_24,
         }
     };
-    const OCTICONS_SEARCH_16: Self = {
+    pub const OCTICONS_SEARCH_16: Self = {
         #[inline(never)]
         fn octicons_search_16(
             crate::IconProps {
@@ -8295,7 +8295,7 @@ impl IconData {
             html: octicons_search_16,
         }
     };
-    const OCTICONS_SEARCH_24: Self = {
+    pub const OCTICONS_SEARCH_24: Self = {
         #[inline(never)]
         fn octicons_search_24(
             crate::IconProps {
@@ -8317,7 +8317,7 @@ impl IconData {
             html: octicons_search_24,
         }
     };
-    const OCTICONS_SERVER_16: Self = {
+    pub const OCTICONS_SERVER_16: Self = {
         #[inline(never)]
         fn octicons_server_16(
             crate::IconProps {
@@ -8339,7 +8339,7 @@ impl IconData {
             html: octicons_server_16,
         }
     };
-    const OCTICONS_SERVER_24: Self = {
+    pub const OCTICONS_SERVER_24: Self = {
         #[inline(never)]
         fn octicons_server_24(
             crate::IconProps {
@@ -8361,7 +8361,7 @@ impl IconData {
             html: octicons_server_24,
         }
     };
-    const OCTICONS_SHARE_16: Self = {
+    pub const OCTICONS_SHARE_16: Self = {
         #[inline(never)]
         fn octicons_share_16(
             crate::IconProps {
@@ -8383,7 +8383,7 @@ impl IconData {
             html: octicons_share_16,
         }
     };
-    const OCTICONS_SHARE_24: Self = {
+    pub const OCTICONS_SHARE_24: Self = {
         #[inline(never)]
         fn octicons_share_24(
             crate::IconProps {
@@ -8405,7 +8405,7 @@ impl IconData {
             html: octicons_share_24,
         }
     };
-    const OCTICONS_SHARE_ANDROID_16: Self = {
+    pub const OCTICONS_SHARE_ANDROID_16: Self = {
         #[inline(never)]
         fn octicons_share_android_16(
             crate::IconProps {
@@ -8427,7 +8427,7 @@ impl IconData {
             html: octicons_share_android_16,
         }
     };
-    const OCTICONS_SHARE_ANDROID_24: Self = {
+    pub const OCTICONS_SHARE_ANDROID_24: Self = {
         #[inline(never)]
         fn octicons_share_android_24(
             crate::IconProps {
@@ -8449,7 +8449,7 @@ impl IconData {
             html: octicons_share_android_24,
         }
     };
-    const OCTICONS_SHIELD_16: Self = {
+    pub const OCTICONS_SHIELD_16: Self = {
         #[inline(never)]
         fn octicons_shield_16(
             crate::IconProps {
@@ -8471,7 +8471,7 @@ impl IconData {
             html: octicons_shield_16,
         }
     };
-    const OCTICONS_SHIELD_24: Self = {
+    pub const OCTICONS_SHIELD_24: Self = {
         #[inline(never)]
         fn octicons_shield_24(
             crate::IconProps {
@@ -8493,7 +8493,7 @@ impl IconData {
             html: octicons_shield_24,
         }
     };
-    const OCTICONS_SHIELD_CHECK_16: Self = {
+    pub const OCTICONS_SHIELD_CHECK_16: Self = {
         #[inline(never)]
         fn octicons_shield_check_16(
             crate::IconProps {
@@ -8515,7 +8515,7 @@ impl IconData {
             html: octicons_shield_check_16,
         }
     };
-    const OCTICONS_SHIELD_CHECK_24: Self = {
+    pub const OCTICONS_SHIELD_CHECK_24: Self = {
         #[inline(never)]
         fn octicons_shield_check_24(
             crate::IconProps {
@@ -8537,7 +8537,7 @@ impl IconData {
             html: octicons_shield_check_24,
         }
     };
-    const OCTICONS_SHIELD_LOCK_16: Self = {
+    pub const OCTICONS_SHIELD_LOCK_16: Self = {
         #[inline(never)]
         fn octicons_shield_lock_16(
             crate::IconProps {
@@ -8559,7 +8559,7 @@ impl IconData {
             html: octicons_shield_lock_16,
         }
     };
-    const OCTICONS_SHIELD_LOCK_24: Self = {
+    pub const OCTICONS_SHIELD_LOCK_24: Self = {
         #[inline(never)]
         fn octicons_shield_lock_24(
             crate::IconProps {
@@ -8581,7 +8581,7 @@ impl IconData {
             html: octicons_shield_lock_24,
         }
     };
-    const OCTICONS_SHIELD_X_16: Self = {
+    pub const OCTICONS_SHIELD_X_16: Self = {
         #[inline(never)]
         fn octicons_shield_x_16(
             crate::IconProps {
@@ -8603,7 +8603,7 @@ impl IconData {
             html: octicons_shield_x_16,
         }
     };
-    const OCTICONS_SHIELD_X_24: Self = {
+    pub const OCTICONS_SHIELD_X_24: Self = {
         #[inline(never)]
         fn octicons_shield_x_24(
             crate::IconProps {
@@ -8625,7 +8625,7 @@ impl IconData {
             html: octicons_shield_x_24,
         }
     };
-    const OCTICONS_SIDEBAR_COLLAPSE_16: Self = {
+    pub const OCTICONS_SIDEBAR_COLLAPSE_16: Self = {
         #[inline(never)]
         fn octicons_sidebar_collapse_16(
             crate::IconProps {
@@ -8647,7 +8647,7 @@ impl IconData {
             html: octicons_sidebar_collapse_16,
         }
     };
-    const OCTICONS_SIDEBAR_COLLAPSE_24: Self = {
+    pub const OCTICONS_SIDEBAR_COLLAPSE_24: Self = {
         #[inline(never)]
         fn octicons_sidebar_collapse_24(
             crate::IconProps {
@@ -8669,7 +8669,7 @@ impl IconData {
             html: octicons_sidebar_collapse_24,
         }
     };
-    const OCTICONS_SIDEBAR_EXPAND_16: Self = {
+    pub const OCTICONS_SIDEBAR_EXPAND_16: Self = {
         #[inline(never)]
         fn octicons_sidebar_expand_16(
             crate::IconProps {
@@ -8691,7 +8691,7 @@ impl IconData {
             html: octicons_sidebar_expand_16,
         }
     };
-    const OCTICONS_SIDEBAR_EXPAND_24: Self = {
+    pub const OCTICONS_SIDEBAR_EXPAND_24: Self = {
         #[inline(never)]
         fn octicons_sidebar_expand_24(
             crate::IconProps {
@@ -8713,7 +8713,7 @@ impl IconData {
             html: octicons_sidebar_expand_24,
         }
     };
-    const OCTICONS_SIGN_IN_16: Self = {
+    pub const OCTICONS_SIGN_IN_16: Self = {
         #[inline(never)]
         fn octicons_sign_in_16(
             crate::IconProps {
@@ -8735,7 +8735,7 @@ impl IconData {
             html: octicons_sign_in_16,
         }
     };
-    const OCTICONS_SIGN_IN_24: Self = {
+    pub const OCTICONS_SIGN_IN_24: Self = {
         #[inline(never)]
         fn octicons_sign_in_24(
             crate::IconProps {
@@ -8757,7 +8757,7 @@ impl IconData {
             html: octicons_sign_in_24,
         }
     };
-    const OCTICONS_SIGN_OUT_16: Self = {
+    pub const OCTICONS_SIGN_OUT_16: Self = {
         #[inline(never)]
         fn octicons_sign_out_16(
             crate::IconProps {
@@ -8779,7 +8779,7 @@ impl IconData {
             html: octicons_sign_out_16,
         }
     };
-    const OCTICONS_SIGN_OUT_24: Self = {
+    pub const OCTICONS_SIGN_OUT_24: Self = {
         #[inline(never)]
         fn octicons_sign_out_24(
             crate::IconProps {
@@ -8801,7 +8801,7 @@ impl IconData {
             html: octicons_sign_out_24,
         }
     };
-    const OCTICONS_SINGLE_SELECT_16: Self = {
+    pub const OCTICONS_SINGLE_SELECT_16: Self = {
         #[inline(never)]
         fn octicons_single_select_16(
             crate::IconProps {
@@ -8823,7 +8823,7 @@ impl IconData {
             html: octicons_single_select_16,
         }
     };
-    const OCTICONS_SINGLE_SELECT_24: Self = {
+    pub const OCTICONS_SINGLE_SELECT_24: Self = {
         #[inline(never)]
         fn octicons_single_select_24(
             crate::IconProps {
@@ -8845,7 +8845,7 @@ impl IconData {
             html: octicons_single_select_24,
         }
     };
-    const OCTICONS_SKIP_16: Self = {
+    pub const OCTICONS_SKIP_16: Self = {
         #[inline(never)]
         fn octicons_skip_16(
             crate::IconProps {
@@ -8867,7 +8867,7 @@ impl IconData {
             html: octicons_skip_16,
         }
     };
-    const OCTICONS_SKIP_24: Self = {
+    pub const OCTICONS_SKIP_24: Self = {
         #[inline(never)]
         fn octicons_skip_24(
             crate::IconProps {
@@ -8889,7 +8889,7 @@ impl IconData {
             html: octicons_skip_24,
         }
     };
-    const OCTICONS_SMILEY_16: Self = {
+    pub const OCTICONS_SMILEY_16: Self = {
         #[inline(never)]
         fn octicons_smiley_16(
             crate::IconProps {
@@ -8911,7 +8911,7 @@ impl IconData {
             html: octicons_smiley_16,
         }
     };
-    const OCTICONS_SMILEY_24: Self = {
+    pub const OCTICONS_SMILEY_24: Self = {
         #[inline(never)]
         fn octicons_smiley_24(
             crate::IconProps {
@@ -8933,7 +8933,7 @@ impl IconData {
             html: octicons_smiley_24,
         }
     };
-    const OCTICONS_SORT_ASC_16: Self = {
+    pub const OCTICONS_SORT_ASC_16: Self = {
         #[inline(never)]
         fn octicons_sort_asc_16(
             crate::IconProps {
@@ -8955,7 +8955,7 @@ impl IconData {
             html: octicons_sort_asc_16,
         }
     };
-    const OCTICONS_SORT_ASC_24: Self = {
+    pub const OCTICONS_SORT_ASC_24: Self = {
         #[inline(never)]
         fn octicons_sort_asc_24(
             crate::IconProps {
@@ -8977,7 +8977,7 @@ impl IconData {
             html: octicons_sort_asc_24,
         }
     };
-    const OCTICONS_SORT_DESC_16: Self = {
+    pub const OCTICONS_SORT_DESC_16: Self = {
         #[inline(never)]
         fn octicons_sort_desc_16(
             crate::IconProps {
@@ -8999,7 +8999,7 @@ impl IconData {
             html: octicons_sort_desc_16,
         }
     };
-    const OCTICONS_SORT_DESC_24: Self = {
+    pub const OCTICONS_SORT_DESC_24: Self = {
         #[inline(never)]
         fn octicons_sort_desc_24(
             crate::IconProps {
@@ -9021,7 +9021,7 @@ impl IconData {
             html: octicons_sort_desc_24,
         }
     };
-    const OCTICONS_SQUARE_16: Self = {
+    pub const OCTICONS_SQUARE_16: Self = {
         #[inline(never)]
         fn octicons_square_16(
             crate::IconProps {
@@ -9043,7 +9043,7 @@ impl IconData {
             html: octicons_square_16,
         }
     };
-    const OCTICONS_SQUARE_24: Self = {
+    pub const OCTICONS_SQUARE_24: Self = {
         #[inline(never)]
         fn octicons_square_24(
             crate::IconProps {
@@ -9065,7 +9065,7 @@ impl IconData {
             html: octicons_square_24,
         }
     };
-    const OCTICONS_SQUARE_FILL_16: Self = {
+    pub const OCTICONS_SQUARE_FILL_16: Self = {
         #[inline(never)]
         fn octicons_square_fill_16(
             crate::IconProps {
@@ -9087,7 +9087,7 @@ impl IconData {
             html: octicons_square_fill_16,
         }
     };
-    const OCTICONS_SQUARE_FILL_24: Self = {
+    pub const OCTICONS_SQUARE_FILL_24: Self = {
         #[inline(never)]
         fn octicons_square_fill_24(
             crate::IconProps {
@@ -9109,7 +9109,7 @@ impl IconData {
             html: octicons_square_fill_24,
         }
     };
-    const OCTICONS_SQUIRREL_16: Self = {
+    pub const OCTICONS_SQUIRREL_16: Self = {
         #[inline(never)]
         fn octicons_squirrel_16(
             crate::IconProps {
@@ -9131,7 +9131,7 @@ impl IconData {
             html: octicons_squirrel_16,
         }
     };
-    const OCTICONS_SQUIRREL_24: Self = {
+    pub const OCTICONS_SQUIRREL_24: Self = {
         #[inline(never)]
         fn octicons_squirrel_24(
             crate::IconProps {
@@ -9153,7 +9153,7 @@ impl IconData {
             html: octicons_squirrel_24,
         }
     };
-    const OCTICONS_STACK_16: Self = {
+    pub const OCTICONS_STACK_16: Self = {
         #[inline(never)]
         fn octicons_stack_16(
             crate::IconProps {
@@ -9175,7 +9175,7 @@ impl IconData {
             html: octicons_stack_16,
         }
     };
-    const OCTICONS_STACK_24: Self = {
+    pub const OCTICONS_STACK_24: Self = {
         #[inline(never)]
         fn octicons_stack_24(
             crate::IconProps {
@@ -9197,7 +9197,7 @@ impl IconData {
             html: octicons_stack_24,
         }
     };
-    const OCTICONS_STAR_16: Self = {
+    pub const OCTICONS_STAR_16: Self = {
         #[inline(never)]
         fn octicons_star_16(
             crate::IconProps {
@@ -9219,7 +9219,7 @@ impl IconData {
             html: octicons_star_16,
         }
     };
-    const OCTICONS_STAR_24: Self = {
+    pub const OCTICONS_STAR_24: Self = {
         #[inline(never)]
         fn octicons_star_24(
             crate::IconProps {
@@ -9241,7 +9241,7 @@ impl IconData {
             html: octicons_star_24,
         }
     };
-    const OCTICONS_STAR_FILL_16: Self = {
+    pub const OCTICONS_STAR_FILL_16: Self = {
         #[inline(never)]
         fn octicons_star_fill_16(
             crate::IconProps {
@@ -9263,7 +9263,7 @@ impl IconData {
             html: octicons_star_fill_16,
         }
     };
-    const OCTICONS_STAR_FILL_24: Self = {
+    pub const OCTICONS_STAR_FILL_24: Self = {
         #[inline(never)]
         fn octicons_star_fill_24(
             crate::IconProps {
@@ -9285,7 +9285,7 @@ impl IconData {
             html: octicons_star_fill_24,
         }
     };
-    const OCTICONS_STOP_16: Self = {
+    pub const OCTICONS_STOP_16: Self = {
         #[inline(never)]
         fn octicons_stop_16(
             crate::IconProps {
@@ -9307,7 +9307,7 @@ impl IconData {
             html: octicons_stop_16,
         }
     };
-    const OCTICONS_STOP_24: Self = {
+    pub const OCTICONS_STOP_24: Self = {
         #[inline(never)]
         fn octicons_stop_24(
             crate::IconProps {
@@ -9329,7 +9329,7 @@ impl IconData {
             html: octicons_stop_24,
         }
     };
-    const OCTICONS_STOPWATCH_16: Self = {
+    pub const OCTICONS_STOPWATCH_16: Self = {
         #[inline(never)]
         fn octicons_stopwatch_16(
             crate::IconProps {
@@ -9351,7 +9351,7 @@ impl IconData {
             html: octicons_stopwatch_16,
         }
     };
-    const OCTICONS_STOPWATCH_24: Self = {
+    pub const OCTICONS_STOPWATCH_24: Self = {
         #[inline(never)]
         fn octicons_stopwatch_24(
             crate::IconProps {
@@ -9373,7 +9373,7 @@ impl IconData {
             html: octicons_stopwatch_24,
         }
     };
-    const OCTICONS_STRIKETHROUGH_16: Self = {
+    pub const OCTICONS_STRIKETHROUGH_16: Self = {
         #[inline(never)]
         fn octicons_strikethrough_16(
             crate::IconProps {
@@ -9395,7 +9395,7 @@ impl IconData {
             html: octicons_strikethrough_16,
         }
     };
-    const OCTICONS_STRIKETHROUGH_24: Self = {
+    pub const OCTICONS_STRIKETHROUGH_24: Self = {
         #[inline(never)]
         fn octicons_strikethrough_24(
             crate::IconProps {
@@ -9417,7 +9417,7 @@ impl IconData {
             html: octicons_strikethrough_24,
         }
     };
-    const OCTICONS_SUN_16: Self = {
+    pub const OCTICONS_SUN_16: Self = {
         #[inline(never)]
         fn octicons_sun_16(
             crate::IconProps {
@@ -9439,7 +9439,7 @@ impl IconData {
             html: octicons_sun_16,
         }
     };
-    const OCTICONS_SUN_24: Self = {
+    pub const OCTICONS_SUN_24: Self = {
         #[inline(never)]
         fn octicons_sun_24(
             crate::IconProps {
@@ -9461,7 +9461,7 @@ impl IconData {
             html: octicons_sun_24,
         }
     };
-    const OCTICONS_SYNC_16: Self = {
+    pub const OCTICONS_SYNC_16: Self = {
         #[inline(never)]
         fn octicons_sync_16(
             crate::IconProps {
@@ -9483,7 +9483,7 @@ impl IconData {
             html: octicons_sync_16,
         }
     };
-    const OCTICONS_SYNC_24: Self = {
+    pub const OCTICONS_SYNC_24: Self = {
         #[inline(never)]
         fn octicons_sync_24(
             crate::IconProps {
@@ -9505,7 +9505,7 @@ impl IconData {
             html: octicons_sync_24,
         }
     };
-    const OCTICONS_TAB_24: Self = {
+    pub const OCTICONS_TAB_24: Self = {
         #[inline(never)]
         fn octicons_tab_24(
             crate::IconProps {
@@ -9527,7 +9527,7 @@ impl IconData {
             html: octicons_tab_24,
         }
     };
-    const OCTICONS_TAB_EXTERNAL_16: Self = {
+    pub const OCTICONS_TAB_EXTERNAL_16: Self = {
         #[inline(never)]
         fn octicons_tab_external_16(
             crate::IconProps {
@@ -9549,7 +9549,7 @@ impl IconData {
             html: octicons_tab_external_16,
         }
     };
-    const OCTICONS_TABLE_16: Self = {
+    pub const OCTICONS_TABLE_16: Self = {
         #[inline(never)]
         fn octicons_table_16(
             crate::IconProps {
@@ -9571,7 +9571,7 @@ impl IconData {
             html: octicons_table_16,
         }
     };
-    const OCTICONS_TABLE_24: Self = {
+    pub const OCTICONS_TABLE_24: Self = {
         #[inline(never)]
         fn octicons_table_24(
             crate::IconProps {
@@ -9593,7 +9593,7 @@ impl IconData {
             html: octicons_table_24,
         }
     };
-    const OCTICONS_TAG_16: Self = {
+    pub const OCTICONS_TAG_16: Self = {
         #[inline(never)]
         fn octicons_tag_16(
             crate::IconProps {
@@ -9615,7 +9615,7 @@ impl IconData {
             html: octicons_tag_16,
         }
     };
-    const OCTICONS_TAG_24: Self = {
+    pub const OCTICONS_TAG_24: Self = {
         #[inline(never)]
         fn octicons_tag_24(
             crate::IconProps {
@@ -9637,7 +9637,7 @@ impl IconData {
             html: octicons_tag_24,
         }
     };
-    const OCTICONS_TASKLIST_16: Self = {
+    pub const OCTICONS_TASKLIST_16: Self = {
         #[inline(never)]
         fn octicons_tasklist_16(
             crate::IconProps {
@@ -9659,7 +9659,7 @@ impl IconData {
             html: octicons_tasklist_16,
         }
     };
-    const OCTICONS_TASKLIST_24: Self = {
+    pub const OCTICONS_TASKLIST_24: Self = {
         #[inline(never)]
         fn octicons_tasklist_24(
             crate::IconProps {
@@ -9681,7 +9681,7 @@ impl IconData {
             html: octicons_tasklist_24,
         }
     };
-    const OCTICONS_TELESCOPE_16: Self = {
+    pub const OCTICONS_TELESCOPE_16: Self = {
         #[inline(never)]
         fn octicons_telescope_16(
             crate::IconProps {
@@ -9703,7 +9703,7 @@ impl IconData {
             html: octicons_telescope_16,
         }
     };
-    const OCTICONS_TELESCOPE_24: Self = {
+    pub const OCTICONS_TELESCOPE_24: Self = {
         #[inline(never)]
         fn octicons_telescope_24(
             crate::IconProps {
@@ -9725,7 +9725,7 @@ impl IconData {
             html: octicons_telescope_24,
         }
     };
-    const OCTICONS_TELESCOPE_FILL_16: Self = {
+    pub const OCTICONS_TELESCOPE_FILL_16: Self = {
         #[inline(never)]
         fn octicons_telescope_fill_16(
             crate::IconProps {
@@ -9747,7 +9747,7 @@ impl IconData {
             html: octicons_telescope_fill_16,
         }
     };
-    const OCTICONS_TELESCOPE_FILL_24: Self = {
+    pub const OCTICONS_TELESCOPE_FILL_24: Self = {
         #[inline(never)]
         fn octicons_telescope_fill_24(
             crate::IconProps {
@@ -9769,7 +9769,7 @@ impl IconData {
             html: octicons_telescope_fill_24,
         }
     };
-    const OCTICONS_TERMINAL_16: Self = {
+    pub const OCTICONS_TERMINAL_16: Self = {
         #[inline(never)]
         fn octicons_terminal_16(
             crate::IconProps {
@@ -9791,7 +9791,7 @@ impl IconData {
             html: octicons_terminal_16,
         }
     };
-    const OCTICONS_TERMINAL_24: Self = {
+    pub const OCTICONS_TERMINAL_24: Self = {
         #[inline(never)]
         fn octicons_terminal_24(
             crate::IconProps {
@@ -9813,7 +9813,7 @@ impl IconData {
             html: octicons_terminal_24,
         }
     };
-    const OCTICONS_THREE_BARS_16: Self = {
+    pub const OCTICONS_THREE_BARS_16: Self = {
         #[inline(never)]
         fn octicons_three_bars_16(
             crate::IconProps {
@@ -9835,7 +9835,7 @@ impl IconData {
             html: octicons_three_bars_16,
         }
     };
-    const OCTICONS_THUMBSDOWN_16: Self = {
+    pub const OCTICONS_THUMBSDOWN_16: Self = {
         #[inline(never)]
         fn octicons_thumbsdown_16(
             crate::IconProps {
@@ -9857,7 +9857,7 @@ impl IconData {
             html: octicons_thumbsdown_16,
         }
     };
-    const OCTICONS_THUMBSDOWN_24: Self = {
+    pub const OCTICONS_THUMBSDOWN_24: Self = {
         #[inline(never)]
         fn octicons_thumbsdown_24(
             crate::IconProps {
@@ -9879,7 +9879,7 @@ impl IconData {
             html: octicons_thumbsdown_24,
         }
     };
-    const OCTICONS_THUMBSUP_16: Self = {
+    pub const OCTICONS_THUMBSUP_16: Self = {
         #[inline(never)]
         fn octicons_thumbsup_16(
             crate::IconProps {
@@ -9901,7 +9901,7 @@ impl IconData {
             html: octicons_thumbsup_16,
         }
     };
-    const OCTICONS_THUMBSUP_24: Self = {
+    pub const OCTICONS_THUMBSUP_24: Self = {
         #[inline(never)]
         fn octicons_thumbsup_24(
             crate::IconProps {
@@ -9923,7 +9923,7 @@ impl IconData {
             html: octicons_thumbsup_24,
         }
     };
-    const OCTICONS_TOOLS_16: Self = {
+    pub const OCTICONS_TOOLS_16: Self = {
         #[inline(never)]
         fn octicons_tools_16(
             crate::IconProps {
@@ -9945,7 +9945,7 @@ impl IconData {
             html: octicons_tools_16,
         }
     };
-    const OCTICONS_TOOLS_24: Self = {
+    pub const OCTICONS_TOOLS_24: Self = {
         #[inline(never)]
         fn octicons_tools_24(
             crate::IconProps {
@@ -9967,7 +9967,7 @@ impl IconData {
             html: octicons_tools_24,
         }
     };
-    const OCTICONS_TRASH_16: Self = {
+    pub const OCTICONS_TRASH_16: Self = {
         #[inline(never)]
         fn octicons_trash_16(
             crate::IconProps {
@@ -9989,7 +9989,7 @@ impl IconData {
             html: octicons_trash_16,
         }
     };
-    const OCTICONS_TRASH_24: Self = {
+    pub const OCTICONS_TRASH_24: Self = {
         #[inline(never)]
         fn octicons_trash_24(
             crate::IconProps {
@@ -10011,7 +10011,7 @@ impl IconData {
             html: octicons_trash_24,
         }
     };
-    const OCTICONS_TRIANGLE_DOWN_16: Self = {
+    pub const OCTICONS_TRIANGLE_DOWN_16: Self = {
         #[inline(never)]
         fn octicons_triangle_down_16(
             crate::IconProps {
@@ -10033,7 +10033,7 @@ impl IconData {
             html: octicons_triangle_down_16,
         }
     };
-    const OCTICONS_TRIANGLE_DOWN_24: Self = {
+    pub const OCTICONS_TRIANGLE_DOWN_24: Self = {
         #[inline(never)]
         fn octicons_triangle_down_24(
             crate::IconProps {
@@ -10055,7 +10055,7 @@ impl IconData {
             html: octicons_triangle_down_24,
         }
     };
-    const OCTICONS_TRIANGLE_LEFT_16: Self = {
+    pub const OCTICONS_TRIANGLE_LEFT_16: Self = {
         #[inline(never)]
         fn octicons_triangle_left_16(
             crate::IconProps {
@@ -10077,7 +10077,7 @@ impl IconData {
             html: octicons_triangle_left_16,
         }
     };
-    const OCTICONS_TRIANGLE_LEFT_24: Self = {
+    pub const OCTICONS_TRIANGLE_LEFT_24: Self = {
         #[inline(never)]
         fn octicons_triangle_left_24(
             crate::IconProps {
@@ -10099,7 +10099,7 @@ impl IconData {
             html: octicons_triangle_left_24,
         }
     };
-    const OCTICONS_TRIANGLE_RIGHT_16: Self = {
+    pub const OCTICONS_TRIANGLE_RIGHT_16: Self = {
         #[inline(never)]
         fn octicons_triangle_right_16(
             crate::IconProps {
@@ -10121,7 +10121,7 @@ impl IconData {
             html: octicons_triangle_right_16,
         }
     };
-    const OCTICONS_TRIANGLE_RIGHT_24: Self = {
+    pub const OCTICONS_TRIANGLE_RIGHT_24: Self = {
         #[inline(never)]
         fn octicons_triangle_right_24(
             crate::IconProps {
@@ -10143,7 +10143,7 @@ impl IconData {
             html: octicons_triangle_right_24,
         }
     };
-    const OCTICONS_TRIANGLE_UP_16: Self = {
+    pub const OCTICONS_TRIANGLE_UP_16: Self = {
         #[inline(never)]
         fn octicons_triangle_up_16(
             crate::IconProps {
@@ -10165,7 +10165,7 @@ impl IconData {
             html: octicons_triangle_up_16,
         }
     };
-    const OCTICONS_TRIANGLE_UP_24: Self = {
+    pub const OCTICONS_TRIANGLE_UP_24: Self = {
         #[inline(never)]
         fn octicons_triangle_up_24(
             crate::IconProps {
@@ -10187,7 +10187,7 @@ impl IconData {
             html: octicons_triangle_up_24,
         }
     };
-    const OCTICONS_TROPHY_16: Self = {
+    pub const OCTICONS_TROPHY_16: Self = {
         #[inline(never)]
         fn octicons_trophy_16(
             crate::IconProps {
@@ -10209,7 +10209,7 @@ impl IconData {
             html: octicons_trophy_16,
         }
     };
-    const OCTICONS_TROPHY_24: Self = {
+    pub const OCTICONS_TROPHY_24: Self = {
         #[inline(never)]
         fn octicons_trophy_24(
             crate::IconProps {
@@ -10231,7 +10231,7 @@ impl IconData {
             html: octicons_trophy_24,
         }
     };
-    const OCTICONS_TYPOGRAPHY_16: Self = {
+    pub const OCTICONS_TYPOGRAPHY_16: Self = {
         #[inline(never)]
         fn octicons_typography_16(
             crate::IconProps {
@@ -10253,7 +10253,7 @@ impl IconData {
             html: octicons_typography_16,
         }
     };
-    const OCTICONS_TYPOGRAPHY_24: Self = {
+    pub const OCTICONS_TYPOGRAPHY_24: Self = {
         #[inline(never)]
         fn octicons_typography_24(
             crate::IconProps {
@@ -10275,7 +10275,7 @@ impl IconData {
             html: octicons_typography_24,
         }
     };
-    const OCTICONS_UNFOLD_16: Self = {
+    pub const OCTICONS_UNFOLD_16: Self = {
         #[inline(never)]
         fn octicons_unfold_16(
             crate::IconProps {
@@ -10297,7 +10297,7 @@ impl IconData {
             html: octicons_unfold_16,
         }
     };
-    const OCTICONS_UNFOLD_24: Self = {
+    pub const OCTICONS_UNFOLD_24: Self = {
         #[inline(never)]
         fn octicons_unfold_24(
             crate::IconProps {
@@ -10319,7 +10319,7 @@ impl IconData {
             html: octicons_unfold_24,
         }
     };
-    const OCTICONS_UNLOCK_16: Self = {
+    pub const OCTICONS_UNLOCK_16: Self = {
         #[inline(never)]
         fn octicons_unlock_16(
             crate::IconProps {
@@ -10341,7 +10341,7 @@ impl IconData {
             html: octicons_unlock_16,
         }
     };
-    const OCTICONS_UNLOCK_24: Self = {
+    pub const OCTICONS_UNLOCK_24: Self = {
         #[inline(never)]
         fn octicons_unlock_24(
             crate::IconProps {
@@ -10363,7 +10363,7 @@ impl IconData {
             html: octicons_unlock_24,
         }
     };
-    const OCTICONS_UNMUTE_16: Self = {
+    pub const OCTICONS_UNMUTE_16: Self = {
         #[inline(never)]
         fn octicons_unmute_16(
             crate::IconProps {
@@ -10385,7 +10385,7 @@ impl IconData {
             html: octicons_unmute_16,
         }
     };
-    const OCTICONS_UNMUTE_24: Self = {
+    pub const OCTICONS_UNMUTE_24: Self = {
         #[inline(never)]
         fn octicons_unmute_24(
             crate::IconProps {
@@ -10407,7 +10407,7 @@ impl IconData {
             html: octicons_unmute_24,
         }
     };
-    const OCTICONS_UNVERIFIED_16: Self = {
+    pub const OCTICONS_UNVERIFIED_16: Self = {
         #[inline(never)]
         fn octicons_unverified_16(
             crate::IconProps {
@@ -10429,7 +10429,7 @@ impl IconData {
             html: octicons_unverified_16,
         }
     };
-    const OCTICONS_UNVERIFIED_24: Self = {
+    pub const OCTICONS_UNVERIFIED_24: Self = {
         #[inline(never)]
         fn octicons_unverified_24(
             crate::IconProps {
@@ -10451,7 +10451,7 @@ impl IconData {
             html: octicons_unverified_24,
         }
     };
-    const OCTICONS_UPLOAD_16: Self = {
+    pub const OCTICONS_UPLOAD_16: Self = {
         #[inline(never)]
         fn octicons_upload_16(
             crate::IconProps {
@@ -10473,7 +10473,7 @@ impl IconData {
             html: octicons_upload_16,
         }
     };
-    const OCTICONS_UPLOAD_24: Self = {
+    pub const OCTICONS_UPLOAD_24: Self = {
         #[inline(never)]
         fn octicons_upload_24(
             crate::IconProps {
@@ -10495,7 +10495,7 @@ impl IconData {
             html: octicons_upload_24,
         }
     };
-    const OCTICONS_VERIFIED_16: Self = {
+    pub const OCTICONS_VERIFIED_16: Self = {
         #[inline(never)]
         fn octicons_verified_16(
             crate::IconProps {
@@ -10517,7 +10517,7 @@ impl IconData {
             html: octicons_verified_16,
         }
     };
-    const OCTICONS_VERIFIED_24: Self = {
+    pub const OCTICONS_VERIFIED_24: Self = {
         #[inline(never)]
         fn octicons_verified_24(
             crate::IconProps {
@@ -10539,7 +10539,7 @@ impl IconData {
             html: octicons_verified_24,
         }
     };
-    const OCTICONS_VERSIONS_16: Self = {
+    pub const OCTICONS_VERSIONS_16: Self = {
         #[inline(never)]
         fn octicons_versions_16(
             crate::IconProps {
@@ -10561,7 +10561,7 @@ impl IconData {
             html: octicons_versions_16,
         }
     };
-    const OCTICONS_VERSIONS_24: Self = {
+    pub const OCTICONS_VERSIONS_24: Self = {
         #[inline(never)]
         fn octicons_versions_24(
             crate::IconProps {
@@ -10583,7 +10583,7 @@ impl IconData {
             html: octicons_versions_24,
         }
     };
-    const OCTICONS_VIDEO_16: Self = {
+    pub const OCTICONS_VIDEO_16: Self = {
         #[inline(never)]
         fn octicons_video_16(
             crate::IconProps {
@@ -10605,7 +10605,7 @@ impl IconData {
             html: octicons_video_16,
         }
     };
-    const OCTICONS_VIDEO_24: Self = {
+    pub const OCTICONS_VIDEO_24: Self = {
         #[inline(never)]
         fn octicons_video_24(
             crate::IconProps {
@@ -10627,7 +10627,7 @@ impl IconData {
             html: octicons_video_24,
         }
     };
-    const OCTICONS_WEBHOOK_16: Self = {
+    pub const OCTICONS_WEBHOOK_16: Self = {
         #[inline(never)]
         fn octicons_webhook_16(
             crate::IconProps {
@@ -10649,7 +10649,7 @@ impl IconData {
             html: octicons_webhook_16,
         }
     };
-    const OCTICONS_WORKFLOW_16: Self = {
+    pub const OCTICONS_WORKFLOW_16: Self = {
         #[inline(never)]
         fn octicons_workflow_16(
             crate::IconProps {
@@ -10671,7 +10671,7 @@ impl IconData {
             html: octicons_workflow_16,
         }
     };
-    const OCTICONS_WORKFLOW_24: Self = {
+    pub const OCTICONS_WORKFLOW_24: Self = {
         #[inline(never)]
         fn octicons_workflow_24(
             crate::IconProps {
@@ -10693,7 +10693,7 @@ impl IconData {
             html: octicons_workflow_24,
         }
     };
-    const OCTICONS_X_16: Self = {
+    pub const OCTICONS_X_16: Self = {
         #[inline(never)]
         fn octicons_x_16(
             crate::IconProps {
@@ -10715,7 +10715,7 @@ impl IconData {
             html: octicons_x_16,
         }
     };
-    const OCTICONS_X_24: Self = {
+    pub const OCTICONS_X_24: Self = {
         #[inline(never)]
         fn octicons_x_24(
             crate::IconProps {
@@ -10737,7 +10737,7 @@ impl IconData {
             html: octicons_x_24,
         }
     };
-    const OCTICONS_X_CIRCLE_16: Self = {
+    pub const OCTICONS_X_CIRCLE_16: Self = {
         #[inline(never)]
         fn octicons_x_circle_16(
             crate::IconProps {
@@ -10759,7 +10759,7 @@ impl IconData {
             html: octicons_x_circle_16,
         }
     };
-    const OCTICONS_X_CIRCLE_24: Self = {
+    pub const OCTICONS_X_CIRCLE_24: Self = {
         #[inline(never)]
         fn octicons_x_circle_24(
             crate::IconProps {
@@ -10781,7 +10781,7 @@ impl IconData {
             html: octicons_x_circle_24,
         }
     };
-    const OCTICONS_X_CIRCLE_FILL_12: Self = {
+    pub const OCTICONS_X_CIRCLE_FILL_12: Self = {
         #[inline(never)]
         fn octicons_x_circle_fill_12(
             crate::IconProps {
@@ -10803,7 +10803,7 @@ impl IconData {
             html: octicons_x_circle_fill_12,
         }
     };
-    const OCTICONS_X_CIRCLE_FILL_16: Self = {
+    pub const OCTICONS_X_CIRCLE_FILL_16: Self = {
         #[inline(never)]
         fn octicons_x_circle_fill_16(
             crate::IconProps {
@@ -10825,7 +10825,7 @@ impl IconData {
             html: octicons_x_circle_fill_16,
         }
     };
-    const OCTICONS_X_CIRCLE_FILL_24: Self = {
+    pub const OCTICONS_X_CIRCLE_FILL_24: Self = {
         #[inline(never)]
         fn octicons_x_circle_fill_24(
             crate::IconProps {
@@ -10847,7 +10847,7 @@ impl IconData {
             html: octicons_x_circle_fill_24,
         }
     };
-    const OCTICONS_ZAP_16: Self = {
+    pub const OCTICONS_ZAP_16: Self = {
         #[inline(never)]
         fn octicons_zap_16(
             crate::IconProps {
@@ -10869,7 +10869,7 @@ impl IconData {
             html: octicons_zap_16,
         }
     };
-    const OCTICONS_ZAP_24: Self = {
+    pub const OCTICONS_ZAP_24: Self = {
         #[inline(never)]
         fn octicons_zap_24(
             crate::IconProps {

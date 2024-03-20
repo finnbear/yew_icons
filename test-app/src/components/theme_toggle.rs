@@ -1,7 +1,7 @@
 use gloo_storage::{LocalStorage, Storage};
 use web_sys::HtmlInputElement;
 use yew::prelude::*;
-use yew_icons::{Icon, IconId};
+use yew_icons::{Icon, IconData};
 
 #[function_component]
 pub fn ThemeToggle() -> Html {

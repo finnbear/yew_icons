@@ -46,6 +46,8 @@ fn main() {
                 panic!("never happens?");
             }
             let icon_name = file_name.split('.').next().unwrap();
+
+            // Would like to use collection::NAME but NAME might start with a number.
             let name = prefix.to_owned() + "-" + icon_name;
 
             let contents = read(&path).expect(&path);
@@ -138,7 +140,7 @@ fn main() {
             let function = to_ident(&function_name);
 
             icon_data.push(quote! {
-                const #constant: Self = {
+                pub const #constant: Self = {
                     #[inline(never)]
                     fn #function(crate::IconProps{data: _, title, width, height, onclick, oncontextmenu, class, style, role}: &crate::IconProps) -> yew::Html {
                         yew::html! {
@@ -155,7 +157,7 @@ fn main() {
 
             enumerate.push(quote! {
                 #[cfg(feature = #feature_name)]
-                #feature_ident::#constant,
+                Self::#constant,
             });
         }
 
@@ -165,7 +167,7 @@ fn main() {
         });
 
         let tokens = quote! {
-            impl IconData {
+            impl crate::IconData {
                 #(#icon_data)*
             }
         };
@@ -258,10 +260,12 @@ fn main() {
         #(#imports)*
 
         #[cfg(feature = "_enumerate_icon_data")]
-        #[doc(hidden)]
-        const ENUMERATE : &[Self] = &[
-            #(#enumerate)*
-        ];
+        impl crate::IconData {
+            #[doc(hidden)]
+            pub const ENUMERATE : &'static [Self] = &[
+                #(#enumerate)*
+            ];
+        }
     };
 
     let output = reformat(tokens.to_string(), false).unwrap();
