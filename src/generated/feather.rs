@@ -5,7 +5,7 @@ impl IconData {
         #[inline(never)]
         fn feather_activity(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27,7 +27,7 @@ impl IconData {
         #[inline(never)]
         fn feather_airplay(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -49,7 +49,7 @@ impl IconData {
         #[inline(never)]
         fn feather_alert_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -71,7 +71,7 @@ impl IconData {
         #[inline(never)]
         fn feather_alert_octagon(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -93,7 +93,7 @@ impl IconData {
         #[inline(never)]
         fn feather_alert_triangle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -115,7 +115,7 @@ impl IconData {
         #[inline(never)]
         fn feather_align_center(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -137,7 +137,7 @@ impl IconData {
         #[inline(never)]
         fn feather_align_justify(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -159,7 +159,7 @@ impl IconData {
         #[inline(never)]
         fn feather_align_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -181,7 +181,7 @@ impl IconData {
         #[inline(never)]
         fn feather_align_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -203,7 +203,7 @@ impl IconData {
         #[inline(never)]
         fn feather_anchor(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -225,7 +225,7 @@ impl IconData {
         #[inline(never)]
         fn feather_aperture(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -247,7 +247,7 @@ impl IconData {
         #[inline(never)]
         fn feather_archive(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -269,7 +269,7 @@ impl IconData {
         #[inline(never)]
         fn feather_arrow_down_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -291,7 +291,7 @@ impl IconData {
         #[inline(never)]
         fn feather_arrow_down_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -313,7 +313,7 @@ impl IconData {
         #[inline(never)]
         fn feather_arrow_down_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -335,7 +335,7 @@ impl IconData {
         #[inline(never)]
         fn feather_arrow_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -357,7 +357,7 @@ impl IconData {
         #[inline(never)]
         fn feather_arrow_left_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -379,7 +379,7 @@ impl IconData {
         #[inline(never)]
         fn feather_arrow_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -401,7 +401,7 @@ impl IconData {
         #[inline(never)]
         fn feather_arrow_right_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -423,7 +423,7 @@ impl IconData {
         #[inline(never)]
         fn feather_arrow_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -445,7 +445,7 @@ impl IconData {
         #[inline(never)]
         fn feather_arrow_up_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -467,7 +467,7 @@ impl IconData {
         #[inline(never)]
         fn feather_arrow_up_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -489,7 +489,7 @@ impl IconData {
         #[inline(never)]
         fn feather_arrow_up_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -511,7 +511,7 @@ impl IconData {
         #[inline(never)]
         fn feather_arrow_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -533,7 +533,7 @@ impl IconData {
         #[inline(never)]
         fn feather_at_sign(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -555,7 +555,7 @@ impl IconData {
         #[inline(never)]
         fn feather_award(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -577,7 +577,7 @@ impl IconData {
         #[inline(never)]
         fn feather_bar_chart_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -599,7 +599,7 @@ impl IconData {
         #[inline(never)]
         fn feather_bar_chart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -621,7 +621,7 @@ impl IconData {
         #[inline(never)]
         fn feather_battery_charging(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -643,7 +643,7 @@ impl IconData {
         #[inline(never)]
         fn feather_battery(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -665,7 +665,7 @@ impl IconData {
         #[inline(never)]
         fn feather_bell_off(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -687,7 +687,7 @@ impl IconData {
         #[inline(never)]
         fn feather_bell(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -709,7 +709,7 @@ impl IconData {
         #[inline(never)]
         fn feather_bluetooth(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -731,7 +731,7 @@ impl IconData {
         #[inline(never)]
         fn feather_bold(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -753,7 +753,7 @@ impl IconData {
         #[inline(never)]
         fn feather_book_open(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -775,7 +775,7 @@ impl IconData {
         #[inline(never)]
         fn feather_book(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -797,7 +797,7 @@ impl IconData {
         #[inline(never)]
         fn feather_bookmark(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -819,7 +819,7 @@ impl IconData {
         #[inline(never)]
         fn feather_box(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -841,7 +841,7 @@ impl IconData {
         #[inline(never)]
         fn feather_briefcase(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -863,7 +863,7 @@ impl IconData {
         #[inline(never)]
         fn feather_calendar(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -885,7 +885,7 @@ impl IconData {
         #[inline(never)]
         fn feather_camera_off(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -907,7 +907,7 @@ impl IconData {
         #[inline(never)]
         fn feather_camera(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -929,7 +929,7 @@ impl IconData {
         #[inline(never)]
         fn feather_cast(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -951,7 +951,7 @@ impl IconData {
         #[inline(never)]
         fn feather_check_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -973,7 +973,7 @@ impl IconData {
         #[inline(never)]
         fn feather_check_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -995,7 +995,7 @@ impl IconData {
         #[inline(never)]
         fn feather_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1017,7 +1017,7 @@ impl IconData {
         #[inline(never)]
         fn feather_chevron_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1039,7 +1039,7 @@ impl IconData {
         #[inline(never)]
         fn feather_chevron_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1061,7 +1061,7 @@ impl IconData {
         #[inline(never)]
         fn feather_chevron_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1083,7 +1083,7 @@ impl IconData {
         #[inline(never)]
         fn feather_chevron_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1105,7 +1105,7 @@ impl IconData {
         #[inline(never)]
         fn feather_chevrons_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1127,7 +1127,7 @@ impl IconData {
         #[inline(never)]
         fn feather_chevrons_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1149,7 +1149,7 @@ impl IconData {
         #[inline(never)]
         fn feather_chevrons_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1171,7 +1171,7 @@ impl IconData {
         #[inline(never)]
         fn feather_chevrons_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1193,7 +1193,7 @@ impl IconData {
         #[inline(never)]
         fn feather_chrome(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1215,7 +1215,7 @@ impl IconData {
         #[inline(never)]
         fn feather_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1237,7 +1237,7 @@ impl IconData {
         #[inline(never)]
         fn feather_clipboard(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1259,7 +1259,7 @@ impl IconData {
         #[inline(never)]
         fn feather_clock(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1281,7 +1281,7 @@ impl IconData {
         #[inline(never)]
         fn feather_cloud_drizzle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1303,7 +1303,7 @@ impl IconData {
         #[inline(never)]
         fn feather_cloud_lightning(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1325,7 +1325,7 @@ impl IconData {
         #[inline(never)]
         fn feather_cloud_off(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1347,7 +1347,7 @@ impl IconData {
         #[inline(never)]
         fn feather_cloud_rain(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1369,7 +1369,7 @@ impl IconData {
         #[inline(never)]
         fn feather_cloud_snow(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1391,7 +1391,7 @@ impl IconData {
         #[inline(never)]
         fn feather_cloud(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1413,7 +1413,7 @@ impl IconData {
         #[inline(never)]
         fn feather_code(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1435,7 +1435,7 @@ impl IconData {
         #[inline(never)]
         fn feather_codepen(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1457,7 +1457,7 @@ impl IconData {
         #[inline(never)]
         fn feather_codesandbox(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1479,7 +1479,7 @@ impl IconData {
         #[inline(never)]
         fn feather_coffee(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1501,7 +1501,7 @@ impl IconData {
         #[inline(never)]
         fn feather_columns(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1523,7 +1523,7 @@ impl IconData {
         #[inline(never)]
         fn feather_command(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1545,7 +1545,7 @@ impl IconData {
         #[inline(never)]
         fn feather_compass(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1567,7 +1567,7 @@ impl IconData {
         #[inline(never)]
         fn feather_copy(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1589,7 +1589,7 @@ impl IconData {
         #[inline(never)]
         fn feather_corner_down_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1611,7 +1611,7 @@ impl IconData {
         #[inline(never)]
         fn feather_corner_down_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1633,7 +1633,7 @@ impl IconData {
         #[inline(never)]
         fn feather_corner_left_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1655,7 +1655,7 @@ impl IconData {
         #[inline(never)]
         fn feather_corner_left_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1677,7 +1677,7 @@ impl IconData {
         #[inline(never)]
         fn feather_corner_right_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1699,7 +1699,7 @@ impl IconData {
         #[inline(never)]
         fn feather_corner_right_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1721,7 +1721,7 @@ impl IconData {
         #[inline(never)]
         fn feather_corner_up_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1743,7 +1743,7 @@ impl IconData {
         #[inline(never)]
         fn feather_corner_up_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1765,7 +1765,7 @@ impl IconData {
         #[inline(never)]
         fn feather_cpu(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1787,7 +1787,7 @@ impl IconData {
         #[inline(never)]
         fn feather_credit_card(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1809,7 +1809,7 @@ impl IconData {
         #[inline(never)]
         fn feather_crop(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1831,7 +1831,7 @@ impl IconData {
         #[inline(never)]
         fn feather_crosshair(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1853,7 +1853,7 @@ impl IconData {
         #[inline(never)]
         fn feather_database(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1875,7 +1875,7 @@ impl IconData {
         #[inline(never)]
         fn feather_delete(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1897,7 +1897,7 @@ impl IconData {
         #[inline(never)]
         fn feather_disc(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1919,7 +1919,7 @@ impl IconData {
         #[inline(never)]
         fn feather_divide_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1941,7 +1941,7 @@ impl IconData {
         #[inline(never)]
         fn feather_divide_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1963,7 +1963,7 @@ impl IconData {
         #[inline(never)]
         fn feather_divide(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1985,7 +1985,7 @@ impl IconData {
         #[inline(never)]
         fn feather_dollar_sign(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2007,7 +2007,7 @@ impl IconData {
         #[inline(never)]
         fn feather_download_cloud(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2029,7 +2029,7 @@ impl IconData {
         #[inline(never)]
         fn feather_download(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2051,7 +2051,7 @@ impl IconData {
         #[inline(never)]
         fn feather_dribbble(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2073,7 +2073,7 @@ impl IconData {
         #[inline(never)]
         fn feather_droplet(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2095,7 +2095,7 @@ impl IconData {
         #[inline(never)]
         fn feather_edit_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2117,7 +2117,7 @@ impl IconData {
         #[inline(never)]
         fn feather_edit_3(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2139,7 +2139,7 @@ impl IconData {
         #[inline(never)]
         fn feather_edit(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2161,7 +2161,7 @@ impl IconData {
         #[inline(never)]
         fn feather_external_link(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2183,7 +2183,7 @@ impl IconData {
         #[inline(never)]
         fn feather_eye_off(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2205,7 +2205,7 @@ impl IconData {
         #[inline(never)]
         fn feather_eye(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2227,7 +2227,7 @@ impl IconData {
         #[inline(never)]
         fn feather_facebook(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2249,7 +2249,7 @@ impl IconData {
         #[inline(never)]
         fn feather_fast_forward(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2271,7 +2271,7 @@ impl IconData {
         #[inline(never)]
         fn feather_feather(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2293,7 +2293,7 @@ impl IconData {
         #[inline(never)]
         fn feather_figma(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2315,7 +2315,7 @@ impl IconData {
         #[inline(never)]
         fn feather_file_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2337,7 +2337,7 @@ impl IconData {
         #[inline(never)]
         fn feather_file_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2359,7 +2359,7 @@ impl IconData {
         #[inline(never)]
         fn feather_file_text(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2381,7 +2381,7 @@ impl IconData {
         #[inline(never)]
         fn feather_file(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2403,7 +2403,7 @@ impl IconData {
         #[inline(never)]
         fn feather_film(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2425,7 +2425,7 @@ impl IconData {
         #[inline(never)]
         fn feather_filter(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2447,7 +2447,7 @@ impl IconData {
         #[inline(never)]
         fn feather_flag(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2469,7 +2469,7 @@ impl IconData {
         #[inline(never)]
         fn feather_folder_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2491,7 +2491,7 @@ impl IconData {
         #[inline(never)]
         fn feather_folder_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2513,7 +2513,7 @@ impl IconData {
         #[inline(never)]
         fn feather_folder(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2535,7 +2535,7 @@ impl IconData {
         #[inline(never)]
         fn feather_framer(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2557,7 +2557,7 @@ impl IconData {
         #[inline(never)]
         fn feather_frown(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2579,7 +2579,7 @@ impl IconData {
         #[inline(never)]
         fn feather_gift(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2601,7 +2601,7 @@ impl IconData {
         #[inline(never)]
         fn feather_git_branch(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2623,7 +2623,7 @@ impl IconData {
         #[inline(never)]
         fn feather_git_commit(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2645,7 +2645,7 @@ impl IconData {
         #[inline(never)]
         fn feather_git_merge(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2667,7 +2667,7 @@ impl IconData {
         #[inline(never)]
         fn feather_git_pull_request(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2689,7 +2689,7 @@ impl IconData {
         #[inline(never)]
         fn feather_github(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2711,7 +2711,7 @@ impl IconData {
         #[inline(never)]
         fn feather_gitlab(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2733,7 +2733,7 @@ impl IconData {
         #[inline(never)]
         fn feather_globe(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2755,7 +2755,7 @@ impl IconData {
         #[inline(never)]
         fn feather_grid(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2777,7 +2777,7 @@ impl IconData {
         #[inline(never)]
         fn feather_hard_drive(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2799,7 +2799,7 @@ impl IconData {
         #[inline(never)]
         fn feather_hash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2821,7 +2821,7 @@ impl IconData {
         #[inline(never)]
         fn feather_headphones(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2843,7 +2843,7 @@ impl IconData {
         #[inline(never)]
         fn feather_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2865,7 +2865,7 @@ impl IconData {
         #[inline(never)]
         fn feather_help_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2887,7 +2887,7 @@ impl IconData {
         #[inline(never)]
         fn feather_hexagon(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2909,7 +2909,7 @@ impl IconData {
         #[inline(never)]
         fn feather_home(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2931,7 +2931,7 @@ impl IconData {
         #[inline(never)]
         fn feather_image(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2953,7 +2953,7 @@ impl IconData {
         #[inline(never)]
         fn feather_inbox(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2975,7 +2975,7 @@ impl IconData {
         #[inline(never)]
         fn feather_info(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2997,7 +2997,7 @@ impl IconData {
         #[inline(never)]
         fn feather_instagram(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3019,7 +3019,7 @@ impl IconData {
         #[inline(never)]
         fn feather_italic(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3041,7 +3041,7 @@ impl IconData {
         #[inline(never)]
         fn feather_key(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3063,7 +3063,7 @@ impl IconData {
         #[inline(never)]
         fn feather_layers(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3085,7 +3085,7 @@ impl IconData {
         #[inline(never)]
         fn feather_layout(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3107,7 +3107,7 @@ impl IconData {
         #[inline(never)]
         fn feather_life_buoy(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3129,7 +3129,7 @@ impl IconData {
         #[inline(never)]
         fn feather_link_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3151,7 +3151,7 @@ impl IconData {
         #[inline(never)]
         fn feather_link(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3173,7 +3173,7 @@ impl IconData {
         #[inline(never)]
         fn feather_linkedin(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3195,7 +3195,7 @@ impl IconData {
         #[inline(never)]
         fn feather_list(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3217,7 +3217,7 @@ impl IconData {
         #[inline(never)]
         fn feather_loader(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3239,7 +3239,7 @@ impl IconData {
         #[inline(never)]
         fn feather_lock(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3261,7 +3261,7 @@ impl IconData {
         #[inline(never)]
         fn feather_log_in(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3283,7 +3283,7 @@ impl IconData {
         #[inline(never)]
         fn feather_log_out(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3305,7 +3305,7 @@ impl IconData {
         #[inline(never)]
         fn feather_mail(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3327,7 +3327,7 @@ impl IconData {
         #[inline(never)]
         fn feather_map_pin(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3349,7 +3349,7 @@ impl IconData {
         #[inline(never)]
         fn feather_map(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3371,7 +3371,7 @@ impl IconData {
         #[inline(never)]
         fn feather_maximize_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3393,7 +3393,7 @@ impl IconData {
         #[inline(never)]
         fn feather_maximize(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3415,7 +3415,7 @@ impl IconData {
         #[inline(never)]
         fn feather_meh(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3437,7 +3437,7 @@ impl IconData {
         #[inline(never)]
         fn feather_menu(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3459,7 +3459,7 @@ impl IconData {
         #[inline(never)]
         fn feather_message_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3481,7 +3481,7 @@ impl IconData {
         #[inline(never)]
         fn feather_message_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3503,7 +3503,7 @@ impl IconData {
         #[inline(never)]
         fn feather_mic_off(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3525,7 +3525,7 @@ impl IconData {
         #[inline(never)]
         fn feather_mic(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3547,7 +3547,7 @@ impl IconData {
         #[inline(never)]
         fn feather_minimize_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3569,7 +3569,7 @@ impl IconData {
         #[inline(never)]
         fn feather_minimize(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3591,7 +3591,7 @@ impl IconData {
         #[inline(never)]
         fn feather_minus_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3613,7 +3613,7 @@ impl IconData {
         #[inline(never)]
         fn feather_minus_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3635,7 +3635,7 @@ impl IconData {
         #[inline(never)]
         fn feather_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3657,7 +3657,7 @@ impl IconData {
         #[inline(never)]
         fn feather_monitor(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3679,7 +3679,7 @@ impl IconData {
         #[inline(never)]
         fn feather_moon(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3701,7 +3701,7 @@ impl IconData {
         #[inline(never)]
         fn feather_more_horizontal(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3723,7 +3723,7 @@ impl IconData {
         #[inline(never)]
         fn feather_more_vertical(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3745,7 +3745,7 @@ impl IconData {
         #[inline(never)]
         fn feather_mouse_pointer(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3767,7 +3767,7 @@ impl IconData {
         #[inline(never)]
         fn feather_move(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3789,7 +3789,7 @@ impl IconData {
         #[inline(never)]
         fn feather_music(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3811,7 +3811,7 @@ impl IconData {
         #[inline(never)]
         fn feather_navigation_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3833,7 +3833,7 @@ impl IconData {
         #[inline(never)]
         fn feather_navigation(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3855,7 +3855,7 @@ impl IconData {
         #[inline(never)]
         fn feather_octagon(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3877,7 +3877,7 @@ impl IconData {
         #[inline(never)]
         fn feather_package(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3899,7 +3899,7 @@ impl IconData {
         #[inline(never)]
         fn feather_paperclip(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3921,7 +3921,7 @@ impl IconData {
         #[inline(never)]
         fn feather_pause_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3943,7 +3943,7 @@ impl IconData {
         #[inline(never)]
         fn feather_pause(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3965,7 +3965,7 @@ impl IconData {
         #[inline(never)]
         fn feather_pen_tool(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3987,7 +3987,7 @@ impl IconData {
         #[inline(never)]
         fn feather_percent(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4009,7 +4009,7 @@ impl IconData {
         #[inline(never)]
         fn feather_phone_call(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4031,7 +4031,7 @@ impl IconData {
         #[inline(never)]
         fn feather_phone_forwarded(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4053,7 +4053,7 @@ impl IconData {
         #[inline(never)]
         fn feather_phone_incoming(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4075,7 +4075,7 @@ impl IconData {
         #[inline(never)]
         fn feather_phone_missed(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4097,7 +4097,7 @@ impl IconData {
         #[inline(never)]
         fn feather_phone_off(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4119,7 +4119,7 @@ impl IconData {
         #[inline(never)]
         fn feather_phone_outgoing(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4141,7 +4141,7 @@ impl IconData {
         #[inline(never)]
         fn feather_phone(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4163,7 +4163,7 @@ impl IconData {
         #[inline(never)]
         fn feather_pie_chart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4185,7 +4185,7 @@ impl IconData {
         #[inline(never)]
         fn feather_play_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4207,7 +4207,7 @@ impl IconData {
         #[inline(never)]
         fn feather_play(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4229,7 +4229,7 @@ impl IconData {
         #[inline(never)]
         fn feather_plus_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4251,7 +4251,7 @@ impl IconData {
         #[inline(never)]
         fn feather_plus_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4273,7 +4273,7 @@ impl IconData {
         #[inline(never)]
         fn feather_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4295,7 +4295,7 @@ impl IconData {
         #[inline(never)]
         fn feather_pocket(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4317,7 +4317,7 @@ impl IconData {
         #[inline(never)]
         fn feather_power(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4339,7 +4339,7 @@ impl IconData {
         #[inline(never)]
         fn feather_printer(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4361,7 +4361,7 @@ impl IconData {
         #[inline(never)]
         fn feather_radio(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4383,7 +4383,7 @@ impl IconData {
         #[inline(never)]
         fn feather_refresh_ccw(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4405,7 +4405,7 @@ impl IconData {
         #[inline(never)]
         fn feather_refresh_cw(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4427,7 +4427,7 @@ impl IconData {
         #[inline(never)]
         fn feather_repeat(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4449,7 +4449,7 @@ impl IconData {
         #[inline(never)]
         fn feather_rewind(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4471,7 +4471,7 @@ impl IconData {
         #[inline(never)]
         fn feather_rotate_ccw(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4493,7 +4493,7 @@ impl IconData {
         #[inline(never)]
         fn feather_rotate_cw(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4515,7 +4515,7 @@ impl IconData {
         #[inline(never)]
         fn feather_rss(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4537,7 +4537,7 @@ impl IconData {
         #[inline(never)]
         fn feather_save(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4559,7 +4559,7 @@ impl IconData {
         #[inline(never)]
         fn feather_scissors(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4581,7 +4581,7 @@ impl IconData {
         #[inline(never)]
         fn feather_search(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4603,7 +4603,7 @@ impl IconData {
         #[inline(never)]
         fn feather_send(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4625,7 +4625,7 @@ impl IconData {
         #[inline(never)]
         fn feather_server(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4647,7 +4647,7 @@ impl IconData {
         #[inline(never)]
         fn feather_settings(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4669,7 +4669,7 @@ impl IconData {
         #[inline(never)]
         fn feather_share_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4691,7 +4691,7 @@ impl IconData {
         #[inline(never)]
         fn feather_share(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4713,7 +4713,7 @@ impl IconData {
         #[inline(never)]
         fn feather_shield_off(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4735,7 +4735,7 @@ impl IconData {
         #[inline(never)]
         fn feather_shield(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4757,7 +4757,7 @@ impl IconData {
         #[inline(never)]
         fn feather_shopping_bag(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4779,7 +4779,7 @@ impl IconData {
         #[inline(never)]
         fn feather_shopping_cart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4801,7 +4801,7 @@ impl IconData {
         #[inline(never)]
         fn feather_shuffle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4823,7 +4823,7 @@ impl IconData {
         #[inline(never)]
         fn feather_sidebar(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4845,7 +4845,7 @@ impl IconData {
         #[inline(never)]
         fn feather_skip_back(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4867,7 +4867,7 @@ impl IconData {
         #[inline(never)]
         fn feather_skip_forward(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4889,7 +4889,7 @@ impl IconData {
         #[inline(never)]
         fn feather_slack(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4911,7 +4911,7 @@ impl IconData {
         #[inline(never)]
         fn feather_slash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4933,7 +4933,7 @@ impl IconData {
         #[inline(never)]
         fn feather_sliders(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4955,7 +4955,7 @@ impl IconData {
         #[inline(never)]
         fn feather_smartphone(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4977,7 +4977,7 @@ impl IconData {
         #[inline(never)]
         fn feather_smile(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4999,7 +4999,7 @@ impl IconData {
         #[inline(never)]
         fn feather_speaker(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5021,7 +5021,7 @@ impl IconData {
         #[inline(never)]
         fn feather_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5043,7 +5043,7 @@ impl IconData {
         #[inline(never)]
         fn feather_star(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5065,7 +5065,7 @@ impl IconData {
         #[inline(never)]
         fn feather_stop_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5087,7 +5087,7 @@ impl IconData {
         #[inline(never)]
         fn feather_sun(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5109,7 +5109,7 @@ impl IconData {
         #[inline(never)]
         fn feather_sunrise(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5131,7 +5131,7 @@ impl IconData {
         #[inline(never)]
         fn feather_sunset(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5153,7 +5153,7 @@ impl IconData {
         #[inline(never)]
         fn feather_table(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5175,7 +5175,7 @@ impl IconData {
         #[inline(never)]
         fn feather_tablet(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5197,7 +5197,7 @@ impl IconData {
         #[inline(never)]
         fn feather_tag(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5219,7 +5219,7 @@ impl IconData {
         #[inline(never)]
         fn feather_target(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5241,7 +5241,7 @@ impl IconData {
         #[inline(never)]
         fn feather_terminal(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5263,7 +5263,7 @@ impl IconData {
         #[inline(never)]
         fn feather_thermometer(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5285,7 +5285,7 @@ impl IconData {
         #[inline(never)]
         fn feather_thumbs_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5307,7 +5307,7 @@ impl IconData {
         #[inline(never)]
         fn feather_thumbs_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5329,7 +5329,7 @@ impl IconData {
         #[inline(never)]
         fn feather_toggle_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5351,7 +5351,7 @@ impl IconData {
         #[inline(never)]
         fn feather_toggle_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5373,7 +5373,7 @@ impl IconData {
         #[inline(never)]
         fn feather_tool(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5395,7 +5395,7 @@ impl IconData {
         #[inline(never)]
         fn feather_trash_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5417,7 +5417,7 @@ impl IconData {
         #[inline(never)]
         fn feather_trash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5439,7 +5439,7 @@ impl IconData {
         #[inline(never)]
         fn feather_trello(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5461,7 +5461,7 @@ impl IconData {
         #[inline(never)]
         fn feather_trending_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5483,7 +5483,7 @@ impl IconData {
         #[inline(never)]
         fn feather_trending_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5505,7 +5505,7 @@ impl IconData {
         #[inline(never)]
         fn feather_triangle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5527,7 +5527,7 @@ impl IconData {
         #[inline(never)]
         fn feather_truck(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5549,7 +5549,7 @@ impl IconData {
         #[inline(never)]
         fn feather_tv(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5571,7 +5571,7 @@ impl IconData {
         #[inline(never)]
         fn feather_twitch(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5593,7 +5593,7 @@ impl IconData {
         #[inline(never)]
         fn feather_twitter(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5615,7 +5615,7 @@ impl IconData {
         #[inline(never)]
         fn feather_type(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5637,7 +5637,7 @@ impl IconData {
         #[inline(never)]
         fn feather_umbrella(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5659,7 +5659,7 @@ impl IconData {
         #[inline(never)]
         fn feather_underline(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5681,7 +5681,7 @@ impl IconData {
         #[inline(never)]
         fn feather_unlock(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5703,7 +5703,7 @@ impl IconData {
         #[inline(never)]
         fn feather_upload_cloud(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5725,7 +5725,7 @@ impl IconData {
         #[inline(never)]
         fn feather_upload(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5747,7 +5747,7 @@ impl IconData {
         #[inline(never)]
         fn feather_user_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5769,7 +5769,7 @@ impl IconData {
         #[inline(never)]
         fn feather_user_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5791,7 +5791,7 @@ impl IconData {
         #[inline(never)]
         fn feather_user_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5813,7 +5813,7 @@ impl IconData {
         #[inline(never)]
         fn feather_user_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5835,7 +5835,7 @@ impl IconData {
         #[inline(never)]
         fn feather_user(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5857,7 +5857,7 @@ impl IconData {
         #[inline(never)]
         fn feather_users(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5879,7 +5879,7 @@ impl IconData {
         #[inline(never)]
         fn feather_video_off(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5901,7 +5901,7 @@ impl IconData {
         #[inline(never)]
         fn feather_video(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5923,7 +5923,7 @@ impl IconData {
         #[inline(never)]
         fn feather_voicemail(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5945,7 +5945,7 @@ impl IconData {
         #[inline(never)]
         fn feather_volume_1(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5967,7 +5967,7 @@ impl IconData {
         #[inline(never)]
         fn feather_volume_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5989,7 +5989,7 @@ impl IconData {
         #[inline(never)]
         fn feather_volume_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6011,7 +6011,7 @@ impl IconData {
         #[inline(never)]
         fn feather_volume(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6033,7 +6033,7 @@ impl IconData {
         #[inline(never)]
         fn feather_watch(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6055,7 +6055,7 @@ impl IconData {
         #[inline(never)]
         fn feather_wifi_off(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6077,7 +6077,7 @@ impl IconData {
         #[inline(never)]
         fn feather_wifi(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6099,7 +6099,7 @@ impl IconData {
         #[inline(never)]
         fn feather_wind(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6121,7 +6121,7 @@ impl IconData {
         #[inline(never)]
         fn feather_x_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6143,7 +6143,7 @@ impl IconData {
         #[inline(never)]
         fn feather_x_octagon(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6165,7 +6165,7 @@ impl IconData {
         #[inline(never)]
         fn feather_x_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6187,7 +6187,7 @@ impl IconData {
         #[inline(never)]
         fn feather_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6209,7 +6209,7 @@ impl IconData {
         #[inline(never)]
         fn feather_youtube(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6231,7 +6231,7 @@ impl IconData {
         #[inline(never)]
         fn feather_zap_off(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6253,7 +6253,7 @@ impl IconData {
         #[inline(never)]
         fn feather_zap(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6275,7 +6275,7 @@ impl IconData {
         #[inline(never)]
         fn feather_zoom_in(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6297,7 +6297,7 @@ impl IconData {
         #[inline(never)]
         fn feather_zoom_out(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,

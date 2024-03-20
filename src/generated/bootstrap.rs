@@ -5,7 +5,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_123(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27,7 +27,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_activity(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -49,7 +49,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_alarm_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -71,7 +71,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_alarm(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -93,7 +93,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_align_bottom(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -115,7 +115,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_align_center(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -137,7 +137,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_align_end(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -159,7 +159,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_align_middle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -181,7 +181,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_align_start(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -203,7 +203,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_align_top(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -225,7 +225,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_alt(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -247,7 +247,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_app_indicator(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -269,7 +269,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_app(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -291,7 +291,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_apple(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -313,7 +313,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_archive_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -335,7 +335,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_archive(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -357,7 +357,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_90_deg_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -379,7 +379,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_90_deg_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -401,7 +401,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_90_deg_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -423,7 +423,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_90_deg_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -445,7 +445,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_bar_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -467,7 +467,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_bar_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -489,7 +489,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_bar_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -511,7 +511,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_bar_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -533,7 +533,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_clockwise(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -555,7 +555,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_counterclockwise(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -577,7 +577,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_down_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -599,7 +599,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_down_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -621,7 +621,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_down_left_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -643,7 +643,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_down_left_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -665,7 +665,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_down_left_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -687,7 +687,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_down_left_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -709,7 +709,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_down_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -731,7 +731,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_down_right_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -753,7 +753,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_down_right_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -775,7 +775,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_down_right_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -797,7 +797,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_down_right_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -819,7 +819,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_down_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -841,7 +841,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_down_short(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -863,7 +863,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_down_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -885,7 +885,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_down_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -907,7 +907,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_down_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -929,7 +929,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -951,7 +951,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_left_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -973,7 +973,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_left_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -995,7 +995,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_left_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1017,7 +1017,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_left_short(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1039,7 +1039,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_left_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1061,7 +1061,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_left_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1083,7 +1083,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1105,7 +1105,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_repeat(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1127,7 +1127,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_return_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1149,7 +1149,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_return_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1171,7 +1171,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_right_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1193,7 +1193,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_right_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1215,7 +1215,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_right_short(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1237,7 +1237,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_right_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1259,7 +1259,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_right_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1281,7 +1281,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1303,7 +1303,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_through_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1325,7 +1325,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_through_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1347,7 +1347,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_up_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1369,7 +1369,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_up_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1391,7 +1391,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_up_left_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1413,7 +1413,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_up_left_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1435,7 +1435,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_up_left_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1457,7 +1457,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_up_left_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1479,7 +1479,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_up_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1501,7 +1501,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_up_right_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1523,7 +1523,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_up_right_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1545,7 +1545,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_up_right_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1567,7 +1567,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_up_right_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1589,7 +1589,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_up_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1611,7 +1611,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_up_short(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1633,7 +1633,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_up_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1655,7 +1655,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_up_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1677,7 +1677,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrow_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1699,7 +1699,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrows_angle_contract(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1721,7 +1721,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrows_angle_expand(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1743,7 +1743,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrows_collapse(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1765,7 +1765,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrows_expand(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1787,7 +1787,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrows_fullscreen(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1809,7 +1809,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_arrows_move(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1831,7 +1831,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_aspect_ratio_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1853,7 +1853,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_aspect_ratio(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1875,7 +1875,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_asterisk(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1897,7 +1897,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_at(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1919,7 +1919,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_award_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1941,7 +1941,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_award(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1963,7 +1963,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_back(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1985,7 +1985,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_backspace_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2007,7 +2007,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_backspace_reverse_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2029,7 +2029,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_backspace_reverse(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2051,7 +2051,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_backspace(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2073,7 +2073,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_3_d_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2095,7 +2095,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_3_d(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2117,7 +2117,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_4_k_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2139,7 +2139,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_4_k(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2161,7 +2161,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_8_k_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2183,7 +2183,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_8_k(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2205,7 +2205,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_ad_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2227,7 +2227,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_ad(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2249,7 +2249,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_ar_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2271,7 +2271,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_ar(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2293,7 +2293,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_cc_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2315,7 +2315,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_cc(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2337,7 +2337,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_hd_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2359,7 +2359,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_hd(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2381,7 +2381,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_sd_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2403,7 +2403,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_sd(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2425,7 +2425,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_tm_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2447,7 +2447,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_tm(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2469,7 +2469,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_vo_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2491,7 +2491,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_vo(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2513,7 +2513,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_vr_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2535,7 +2535,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_vr(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2557,7 +2557,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_wc_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2579,7 +2579,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_badge_wc(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2601,7 +2601,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bag_check_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2623,7 +2623,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bag_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2645,7 +2645,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bag_dash_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2667,7 +2667,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bag_dash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2689,7 +2689,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bag_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2711,7 +2711,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bag_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2733,7 +2733,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bag_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2755,7 +2755,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bag_plus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2777,7 +2777,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bag_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2799,7 +2799,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bag_x_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2821,7 +2821,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bag_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2843,7 +2843,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bag(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2865,7 +2865,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_balloon_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2887,7 +2887,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_balloon_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2909,7 +2909,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_balloon_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2931,7 +2931,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_balloon(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2953,7 +2953,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bandaid_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2975,7 +2975,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bandaid(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2997,7 +2997,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bank(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3019,7 +3019,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bank_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3041,7 +3041,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bar_chart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3063,7 +3063,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bar_chart_line_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3085,7 +3085,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bar_chart_line(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3107,7 +3107,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bar_chart_steps(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3129,7 +3129,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bar_chart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3151,7 +3151,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_basket_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3173,7 +3173,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_basket(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3195,7 +3195,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_basket_2_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3217,7 +3217,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_basket_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3239,7 +3239,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_basket_3_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3261,7 +3261,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_basket_3(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3283,7 +3283,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_battery_charging(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3305,7 +3305,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_battery_full(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3327,7 +3327,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_battery_half(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3349,7 +3349,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_battery(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3371,7 +3371,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_behance(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3393,7 +3393,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bell_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3415,7 +3415,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bell_slash_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3437,7 +3437,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bell_slash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3459,7 +3459,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bell(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3481,7 +3481,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bezier(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3503,7 +3503,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bezier_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3525,7 +3525,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bicycle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3547,7 +3547,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_binoculars_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3569,7 +3569,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_binoculars(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3591,7 +3591,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_blockquote_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3613,7 +3613,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_blockquote_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3635,7 +3635,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bluetooth(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3657,7 +3657,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_body_text(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3679,7 +3679,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_book_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3701,7 +3701,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_book_half(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3723,7 +3723,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_book(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3745,7 +3745,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bookmark_check_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3767,7 +3767,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bookmark_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3789,7 +3789,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bookmark_dash_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3811,7 +3811,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bookmark_dash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3833,7 +3833,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bookmark_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3855,7 +3855,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bookmark_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3877,7 +3877,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bookmark_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3899,7 +3899,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bookmark_plus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3921,7 +3921,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bookmark_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3943,7 +3943,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bookmark_star_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3965,7 +3965,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bookmark_star(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3987,7 +3987,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bookmark_x_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4009,7 +4009,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bookmark_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4031,7 +4031,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bookmark(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4053,7 +4053,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bookmarks_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4075,7 +4075,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bookmarks(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4097,7 +4097,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bookshelf(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4119,7 +4119,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_boombox_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4141,7 +4141,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_boombox(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4163,7 +4163,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bootstrap_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4185,7 +4185,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bootstrap_reboot(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4207,7 +4207,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bootstrap(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4229,7 +4229,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_border_all(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4251,7 +4251,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_border_bottom(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4273,7 +4273,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_border_center(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4295,7 +4295,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_border_inner(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4317,7 +4317,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_border_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4339,7 +4339,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_border_middle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4361,7 +4361,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_border_outer(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4383,7 +4383,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_border_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4405,7 +4405,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_border_style(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4427,7 +4427,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_border_top(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4449,7 +4449,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_border_width(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4471,7 +4471,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_border(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4493,7 +4493,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bounding_box_circles(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4515,7 +4515,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bounding_box(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4537,7 +4537,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box_arrow_down_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4559,7 +4559,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box_arrow_down_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4581,7 +4581,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box_arrow_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4603,7 +4603,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box_arrow_in_down_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4625,7 +4625,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box_arrow_in_down_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4647,7 +4647,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box_arrow_in_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4669,7 +4669,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box_arrow_in_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4691,7 +4691,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box_arrow_in_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4713,7 +4713,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box_arrow_in_up_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4735,7 +4735,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box_arrow_in_up_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4757,7 +4757,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box_arrow_in_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4779,7 +4779,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box_arrow_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4801,7 +4801,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box_arrow_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4823,7 +4823,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box_arrow_up_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4845,7 +4845,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box_arrow_up_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4867,7 +4867,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box_arrow_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4889,7 +4889,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box_seam(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4911,7 +4911,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4933,7 +4933,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box_2_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4955,7 +4955,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box_2_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4977,7 +4977,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box_2_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4999,7 +4999,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_box_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5021,7 +5021,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_boxes(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5043,7 +5043,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_braces_asterisk(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5065,7 +5065,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_braces(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5087,7 +5087,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bricks(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5109,7 +5109,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_briefcase_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5131,7 +5131,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_briefcase(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5153,7 +5153,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_brightness_alt_high_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5175,7 +5175,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_brightness_alt_high(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5197,7 +5197,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_brightness_alt_low_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5219,7 +5219,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_brightness_alt_low(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5241,7 +5241,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_brightness_high_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5263,7 +5263,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_brightness_high(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5285,7 +5285,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_brightness_low_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5307,7 +5307,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_brightness_low(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5329,7 +5329,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_broadcast_pin(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5351,7 +5351,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_broadcast(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5373,7 +5373,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_brush_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5395,7 +5395,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_brush(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5417,7 +5417,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bucket_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5439,7 +5439,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bucket(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5461,7 +5461,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bug_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5483,7 +5483,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bug(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5505,7 +5505,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_building(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5527,7 +5527,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_bullseye(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5549,7 +5549,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calculator_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5571,7 +5571,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calculator(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5593,7 +5593,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_check_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5615,7 +5615,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5637,7 +5637,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_date_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5659,7 +5659,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_date(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5681,7 +5681,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_day_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5703,7 +5703,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_day(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5725,7 +5725,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_event_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5747,7 +5747,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_event(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5769,7 +5769,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5791,7 +5791,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5813,7 +5813,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5835,7 +5835,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_minus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5857,7 +5857,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5879,7 +5879,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_month_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5901,7 +5901,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_month(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5923,7 +5923,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_plus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5945,7 +5945,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5967,7 +5967,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_range_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5989,7 +5989,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_range(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6011,7 +6011,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_week_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6033,7 +6033,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_week(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6055,7 +6055,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_x_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6077,7 +6077,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6099,7 +6099,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6121,7 +6121,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_check_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6143,7 +6143,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6165,7 +6165,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_date_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6187,7 +6187,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_date(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6209,7 +6209,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_day_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6231,7 +6231,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_day(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6253,7 +6253,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_event_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6275,7 +6275,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_event(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6297,7 +6297,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6319,7 +6319,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6341,7 +6341,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6363,7 +6363,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_minus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6385,7 +6385,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6407,7 +6407,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_month_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6429,7 +6429,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_month(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6451,7 +6451,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_plus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6473,7 +6473,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6495,7 +6495,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_range_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6517,7 +6517,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_range(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6539,7 +6539,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_week_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6561,7 +6561,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_week(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6583,7 +6583,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_x_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6605,7 +6605,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6627,7 +6627,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6649,7 +6649,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_3_event_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6671,7 +6671,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_3_event(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6693,7 +6693,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_3_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6715,7 +6715,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_3_range_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6737,7 +6737,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_3_range(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6759,7 +6759,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_3_week_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6781,7 +6781,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_3_week(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6803,7 +6803,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_3(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6825,7 +6825,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_4_event(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6847,7 +6847,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_4_range(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6869,7 +6869,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_4_week(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6891,7 +6891,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_calendar_4(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6913,7 +6913,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_camera_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6935,7 +6935,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_camera_reels_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6957,7 +6957,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_camera_reels(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6979,7 +6979,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_camera_video_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7001,7 +7001,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_camera_video_off_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7023,7 +7023,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_camera_video_off(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7045,7 +7045,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_camera_video(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7067,7 +7067,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_camera(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7089,7 +7089,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_camera_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7111,7 +7111,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_capslock_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7133,7 +7133,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_capslock(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7155,7 +7155,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_card_checklist(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7177,7 +7177,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_card_heading(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7199,7 +7199,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_card_image(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7221,7 +7221,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_card_list(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7243,7 +7243,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_card_text(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7265,7 +7265,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_caret_down_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7287,7 +7287,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_caret_down_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7309,7 +7309,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_caret_down_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7331,7 +7331,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_caret_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7353,7 +7353,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_caret_left_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7375,7 +7375,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_caret_left_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7397,7 +7397,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_caret_left_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7419,7 +7419,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_caret_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7441,7 +7441,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_caret_right_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7463,7 +7463,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_caret_right_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7485,7 +7485,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_caret_right_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7507,7 +7507,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_caret_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7529,7 +7529,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_caret_up_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7551,7 +7551,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_caret_up_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7573,7 +7573,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_caret_up_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7595,7 +7595,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_caret_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7617,7 +7617,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cart_check_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7639,7 +7639,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cart_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7661,7 +7661,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cart_dash_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7683,7 +7683,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cart_dash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7705,7 +7705,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7727,7 +7727,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cart_plus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7749,7 +7749,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cart_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7771,7 +7771,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cart_x_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7793,7 +7793,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cart_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7815,7 +7815,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7837,7 +7837,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cart_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7859,7 +7859,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cart_3(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7881,7 +7881,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cart_4(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7903,7 +7903,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cash_coin(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7925,7 +7925,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cash_stack(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7947,7 +7947,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7969,7 +7969,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cast(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -7991,7 +7991,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_dots_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8013,7 +8013,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_dots(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8035,7 +8035,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8057,7 +8057,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8079,7 +8079,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8101,7 +8101,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_left_dots_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8123,7 +8123,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_left_dots(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8145,7 +8145,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_left_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8167,7 +8167,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_left_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8189,7 +8189,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_left_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8211,7 +8211,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_left_quote_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8233,7 +8233,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_left_quote(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8255,7 +8255,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_left_text_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8277,7 +8277,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_left_text(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8299,7 +8299,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8321,7 +8321,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_quote_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8343,7 +8343,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_quote(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8365,7 +8365,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_right_dots_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8387,7 +8387,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_right_dots(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8409,7 +8409,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_right_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8431,7 +8431,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_right_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8453,7 +8453,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_right_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8475,7 +8475,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_right_quote_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8497,7 +8497,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_right_quote(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8519,7 +8519,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_right_text_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8541,7 +8541,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_right_text(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8563,7 +8563,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8585,7 +8585,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_square_dots_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8607,7 +8607,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_square_dots(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8629,7 +8629,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8651,7 +8651,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_square_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8673,7 +8673,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_square_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8695,7 +8695,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_square_quote_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8717,7 +8717,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_square_quote(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8739,7 +8739,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_square_text_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8761,7 +8761,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_square_text(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8783,7 +8783,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8805,7 +8805,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_text_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8827,7 +8827,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat_text(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8849,7 +8849,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chat(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8871,7 +8871,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_check_all(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8893,7 +8893,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_check_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8915,7 +8915,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_check_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8937,7 +8937,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_check_lg(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8959,7 +8959,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_check_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -8981,7 +8981,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_check_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9003,7 +9003,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9025,7 +9025,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_check_2_all(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9047,7 +9047,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_check_2_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9069,7 +9069,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_check_2_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9091,7 +9091,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_check_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9113,7 +9113,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chevron_bar_contract(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9135,7 +9135,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chevron_bar_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9157,7 +9157,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chevron_bar_expand(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9179,7 +9179,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chevron_bar_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9201,7 +9201,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chevron_bar_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9223,7 +9223,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chevron_bar_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9245,7 +9245,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chevron_compact_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9267,7 +9267,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chevron_compact_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9289,7 +9289,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chevron_compact_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9311,7 +9311,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chevron_compact_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9333,7 +9333,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chevron_contract(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9355,7 +9355,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chevron_double_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9377,7 +9377,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chevron_double_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9399,7 +9399,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chevron_double_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9421,7 +9421,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chevron_double_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9443,7 +9443,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chevron_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9465,7 +9465,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chevron_expand(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9487,7 +9487,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chevron_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9509,7 +9509,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chevron_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9531,7 +9531,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_chevron_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9553,7 +9553,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9575,7 +9575,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_circle_half(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9597,7 +9597,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_circle_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9619,7 +9619,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9641,7 +9641,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_check_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9663,7 +9663,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9685,7 +9685,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_data_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9707,7 +9707,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_data(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9729,7 +9729,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9751,7 +9751,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9773,7 +9773,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9795,7 +9795,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_minus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9817,7 +9817,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9839,7 +9839,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_plus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9861,7 +9861,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9883,7 +9883,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_pulse(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9905,7 +9905,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_x_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9927,7 +9927,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9949,7 +9949,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9971,7 +9971,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_2_check_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -9993,7 +9993,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_2_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10015,7 +10015,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_2_data_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10037,7 +10037,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_2_data(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10059,7 +10059,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_2_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10081,7 +10081,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_2_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10103,7 +10103,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_2_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10125,7 +10125,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_2_minus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10147,7 +10147,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_2_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10169,7 +10169,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_2_plus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10191,7 +10191,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_2_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10213,7 +10213,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_2_pulse_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10235,7 +10235,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_2_pulse(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10257,7 +10257,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_2_x_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10279,7 +10279,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_2_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10301,7 +10301,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clipboard_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10323,7 +10323,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clock_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10345,7 +10345,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clock_history(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10367,7 +10367,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clock(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10389,7 +10389,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_arrow_down_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10411,7 +10411,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_arrow_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10433,7 +10433,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_arrow_up_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10455,7 +10455,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_arrow_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10477,7 +10477,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_check_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10499,7 +10499,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10521,7 +10521,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_download_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10543,7 +10543,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_download(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10565,7 +10565,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_drizzle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10587,7 +10587,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_drizzle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10609,7 +10609,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10631,7 +10631,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_fog_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10653,7 +10653,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_fog(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10675,7 +10675,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_fog_2_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10697,7 +10697,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_fog_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10719,7 +10719,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_hail_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10741,7 +10741,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_hail(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10763,7 +10763,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_haze_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10785,7 +10785,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_haze(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10807,7 +10807,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_haze_2_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10829,7 +10829,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_haze_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10851,7 +10851,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_lightning_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10873,7 +10873,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_lightning_rain_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10895,7 +10895,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_lightning_rain(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10917,7 +10917,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_lightning(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10939,7 +10939,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_minus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10961,7 +10961,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -10983,7 +10983,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_moon_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11005,7 +11005,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_moon(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11027,7 +11027,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_plus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11049,7 +11049,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11071,7 +11071,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_rain_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11093,7 +11093,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_rain_heavy_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11115,7 +11115,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_rain_heavy(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11137,7 +11137,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_rain(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11159,7 +11159,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_slash_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11181,7 +11181,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_slash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11203,7 +11203,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_sleet_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11225,7 +11225,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_sleet(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11247,7 +11247,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_snow_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11269,7 +11269,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_snow(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11291,7 +11291,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_sun_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11313,7 +11313,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_sun(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11335,7 +11335,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_upload_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11357,7 +11357,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud_upload(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11379,7 +11379,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloud(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11401,7 +11401,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clouds_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11423,7 +11423,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_clouds(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11445,7 +11445,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloudy_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11467,7 +11467,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cloudy(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11489,7 +11489,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_code_slash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11511,7 +11511,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_code_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11533,7 +11533,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_code(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11555,7 +11555,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_coin(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11577,7 +11577,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_collection_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11599,7 +11599,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_collection_play_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11621,7 +11621,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_collection_play(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11643,7 +11643,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_collection(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11665,7 +11665,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_columns_gap(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11687,7 +11687,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_columns(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11709,7 +11709,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_command(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11731,7 +11731,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_compass_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11753,7 +11753,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_compass(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11775,7 +11775,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cone_striped(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11797,7 +11797,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cone(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11819,7 +11819,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_controller(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11841,7 +11841,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cpu_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11863,7 +11863,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cpu(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11885,7 +11885,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_credit_card_2_back_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11907,7 +11907,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_credit_card_2_back(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11929,7 +11929,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_credit_card_2_front_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11951,7 +11951,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_credit_card_2_front(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11973,7 +11973,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_credit_card_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -11995,7 +11995,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_credit_card(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12017,7 +12017,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_crop(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12039,7 +12039,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cup_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12061,7 +12061,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cup_straw(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12083,7 +12083,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cup(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12105,7 +12105,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_currency_bitcoin(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12127,7 +12127,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_currency_dollar(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12149,7 +12149,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_currency_euro(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12171,7 +12171,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_currency_exchange(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12193,7 +12193,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_currency_pound(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12215,7 +12215,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_currency_yen(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12237,7 +12237,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cursor_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12259,7 +12259,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cursor_text(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12281,7 +12281,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_cursor(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12303,7 +12303,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dash_circle_dotted(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12325,7 +12325,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dash_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12347,7 +12347,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dash_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12369,7 +12369,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dash_lg(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12391,7 +12391,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dash_square_dotted(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12413,7 +12413,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dash_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12435,7 +12435,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dash_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12457,7 +12457,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12479,7 +12479,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_device_hdd_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12501,7 +12501,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_device_hdd(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12523,7 +12523,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_device_ssd_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12545,7 +12545,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_device_ssd(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12567,7 +12567,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_diagram_2_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12589,7 +12589,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_diagram_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12611,7 +12611,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_diagram_3_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12633,7 +12633,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_diagram_3(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12655,7 +12655,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_diamond_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12677,7 +12677,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_diamond_half(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12699,7 +12699,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_diamond(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12721,7 +12721,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dice_1_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12743,7 +12743,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dice_1(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12765,7 +12765,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dice_2_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12787,7 +12787,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dice_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12809,7 +12809,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dice_3_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12831,7 +12831,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dice_3(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12853,7 +12853,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dice_4_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12875,7 +12875,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dice_4(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12897,7 +12897,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dice_5_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12919,7 +12919,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dice_5(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12941,7 +12941,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dice_6_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12963,7 +12963,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dice_6(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -12985,7 +12985,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_disc_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13007,7 +13007,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_disc(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13029,7 +13029,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_discord(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13051,7 +13051,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_display_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13073,7 +13073,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_display(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13095,7 +13095,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_displayport_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13117,7 +13117,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_displayport(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13139,7 +13139,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_distribute_horizontal(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13161,7 +13161,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_distribute_vertical(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13183,7 +13183,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_door_closed_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13205,7 +13205,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_door_closed(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13227,7 +13227,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_door_open_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13249,7 +13249,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_door_open(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13271,7 +13271,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dot(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13293,7 +13293,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_download(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13315,7 +13315,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dpad_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13337,7 +13337,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dpad(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13359,7 +13359,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_dribbble(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13381,7 +13381,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_droplet_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13403,7 +13403,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_droplet_half(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13425,7 +13425,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_droplet(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13447,7 +13447,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_ear_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13469,7 +13469,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_ear(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13491,7 +13491,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_earbuds(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13513,7 +13513,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_easel_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13535,7 +13535,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_easel(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13557,7 +13557,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_easel_2_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13579,7 +13579,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_easel_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13601,7 +13601,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_easel_3_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13623,7 +13623,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_easel_3(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13645,7 +13645,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_egg_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13667,7 +13667,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_egg_fried(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13689,7 +13689,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_egg(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13711,7 +13711,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_eject_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13733,7 +13733,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_eject(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13755,7 +13755,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_angry_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13777,7 +13777,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_angry(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13799,7 +13799,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_dizzy_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13821,7 +13821,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_dizzy(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13843,7 +13843,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_expressionless_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13865,7 +13865,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_expressionless(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13887,7 +13887,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_frown_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13909,7 +13909,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_frown(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13931,7 +13931,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_heart_eyes_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13953,7 +13953,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_heart_eyes(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13975,7 +13975,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_kiss_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -13997,7 +13997,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_kiss(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14019,7 +14019,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_laughing_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14041,7 +14041,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_laughing(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14063,7 +14063,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_neutral_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14085,7 +14085,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_neutral(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14107,7 +14107,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_smile_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14129,7 +14129,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_smile_upside_down_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14151,7 +14151,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_smile_upside_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14173,7 +14173,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_smile(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14195,7 +14195,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_sunglasses_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14217,7 +14217,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_sunglasses(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14239,7 +14239,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_wink_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14261,7 +14261,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_emoji_wink(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14283,7 +14283,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_check_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14305,7 +14305,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14327,7 +14327,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_dash_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14349,7 +14349,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_dash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14371,7 +14371,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_exclamation_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14393,7 +14393,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_exclamation(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14415,7 +14415,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14437,7 +14437,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14459,7 +14459,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14481,7 +14481,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_open_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14503,7 +14503,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_open_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14525,7 +14525,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_open_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14547,7 +14547,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_open(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14569,7 +14569,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_paper_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14591,7 +14591,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_paper_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14613,7 +14613,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_paper_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14635,7 +14635,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_paper(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14657,7 +14657,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_plus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14679,7 +14679,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14701,7 +14701,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_slash_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14723,7 +14723,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_slash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14745,7 +14745,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_x_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14767,7 +14767,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14789,7 +14789,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_envelope(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14811,7 +14811,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_eraser_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14833,7 +14833,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_eraser(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14855,7 +14855,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_ethernet(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14877,7 +14877,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_exclamation_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14899,7 +14899,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_exclamation_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14921,7 +14921,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_exclamation_diamond_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14943,7 +14943,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_exclamation_diamond(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14965,7 +14965,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_exclamation_lg(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -14987,7 +14987,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_exclamation_octagon_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15009,7 +15009,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_exclamation_octagon(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15031,7 +15031,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_exclamation_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15053,7 +15053,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_exclamation_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15075,7 +15075,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_exclamation_triangle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15097,7 +15097,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_exclamation_triangle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15119,7 +15119,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_exclamation(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15141,7 +15141,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_exclude(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15163,7 +15163,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_explicit_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15185,7 +15185,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_explicit(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15207,7 +15207,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_eye_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15229,7 +15229,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_eye_slash_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15251,7 +15251,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_eye_slash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15273,7 +15273,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_eye(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15295,7 +15295,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_eyedropper(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15317,7 +15317,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_eyeglasses(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15339,7 +15339,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_facebook(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15361,7 +15361,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_fan(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15383,7 +15383,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_arrow_down_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15405,7 +15405,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_arrow_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15427,7 +15427,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_arrow_up_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15449,7 +15449,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_arrow_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15471,7 +15471,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_bar_graph_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15493,7 +15493,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_bar_graph(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15515,7 +15515,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_binary_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15537,7 +15537,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_binary(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15559,7 +15559,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_break_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15581,7 +15581,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_break(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15603,7 +15603,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_check_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15625,7 +15625,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15647,7 +15647,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_code_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15669,7 +15669,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_code(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15691,7 +15691,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_diff_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15713,7 +15713,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_diff(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15735,7 +15735,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_arrow_down_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15757,7 +15757,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_arrow_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15779,7 +15779,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_arrow_up_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15801,7 +15801,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_arrow_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15823,7 +15823,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_bar_graph_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15845,7 +15845,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_bar_graph(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15867,7 +15867,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_binary_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15889,7 +15889,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_binary(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15911,7 +15911,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_break_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15933,7 +15933,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_break(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15955,7 +15955,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_check_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15977,7 +15977,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -15999,7 +15999,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_code_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16021,7 +16021,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_code(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16043,7 +16043,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_diff_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16065,7 +16065,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_diff(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16087,7 +16087,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_easel_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16109,7 +16109,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_easel(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16131,7 +16131,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_excel_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16153,7 +16153,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_excel(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16175,7 +16175,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16197,7 +16197,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_font_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16219,7 +16219,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_font(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16241,7 +16241,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_image_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16263,7 +16263,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_image(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16285,7 +16285,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_lock_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16307,7 +16307,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_lock(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16329,7 +16329,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_lock_2_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16351,7 +16351,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_lock_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16373,7 +16373,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_medical_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16395,7 +16395,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_medical(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16417,7 +16417,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_minus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16439,7 +16439,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16461,7 +16461,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_music_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16483,7 +16483,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_music(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16505,7 +16505,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_pdf_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16527,7 +16527,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_pdf(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16549,7 +16549,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_person_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16571,7 +16571,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_person(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16593,7 +16593,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_play_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16615,7 +16615,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_play(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16637,7 +16637,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_plus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16659,7 +16659,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16681,7 +16681,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_post_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16703,7 +16703,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_post(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16725,7 +16725,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_ppt_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16747,7 +16747,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_ppt(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16769,7 +16769,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_richtext_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16791,7 +16791,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_richtext(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16813,7 +16813,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_ruled_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16835,7 +16835,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_ruled(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16857,7 +16857,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_slides_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16879,7 +16879,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_slides(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16901,7 +16901,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_spreadsheet_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16923,7 +16923,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_spreadsheet(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16945,7 +16945,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_text_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16967,7 +16967,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_text(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -16989,7 +16989,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_word_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17011,7 +17011,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_word(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17033,7 +17033,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_x_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17055,7 +17055,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17077,7 +17077,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_zip_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17099,7 +17099,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark_zip(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17121,7 +17121,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_earmark(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17143,7 +17143,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_easel_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17165,7 +17165,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_easel(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17187,7 +17187,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_excel_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17209,7 +17209,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_excel(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17231,7 +17231,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17253,7 +17253,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_font_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17275,7 +17275,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_font(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17297,7 +17297,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_image_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17319,7 +17319,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_image(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17341,7 +17341,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_lock_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17363,7 +17363,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_lock(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17385,7 +17385,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_lock_2_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17407,7 +17407,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_lock_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17429,7 +17429,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_medical_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17451,7 +17451,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_medical(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17473,7 +17473,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_minus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17495,7 +17495,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17517,7 +17517,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_music_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17539,7 +17539,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_music(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17561,7 +17561,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_pdf_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17583,7 +17583,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_pdf(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17605,7 +17605,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_person_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17627,7 +17627,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_person(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17649,7 +17649,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_play_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17671,7 +17671,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_play(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17693,7 +17693,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_plus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17715,7 +17715,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17737,7 +17737,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_post_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17759,7 +17759,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_post(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17781,7 +17781,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_ppt_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17803,7 +17803,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_ppt(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17825,7 +17825,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_richtext_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17847,7 +17847,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_richtext(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17869,7 +17869,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_ruled_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17891,7 +17891,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_ruled(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17913,7 +17913,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_slides_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17935,7 +17935,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_slides(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17957,7 +17957,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_spreadsheet_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -17979,7 +17979,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_spreadsheet(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18001,7 +18001,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_text_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18023,7 +18023,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_text(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18045,7 +18045,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_word_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18067,7 +18067,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_word(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18089,7 +18089,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_x_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18111,7 +18111,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18133,7 +18133,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_zip_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18155,7 +18155,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file_zip(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18177,7 +18177,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_file(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18199,7 +18199,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_files_alt(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18221,7 +18221,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_files(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18243,7 +18243,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_aac(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18265,7 +18265,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_ai(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18287,7 +18287,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_bmp(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18309,7 +18309,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_cs(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18331,7 +18331,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_css(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18353,7 +18353,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_csv(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18375,7 +18375,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_doc(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18397,7 +18397,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_docx(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18419,7 +18419,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_exe(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18441,7 +18441,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_gif(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18463,7 +18463,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_heic(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18485,7 +18485,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_html(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18507,7 +18507,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_java(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18529,7 +18529,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_jpg(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18551,7 +18551,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_js(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18573,7 +18573,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_json(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18595,7 +18595,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_jsx(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18617,7 +18617,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_key(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18639,7 +18639,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_m_4_p(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18661,7 +18661,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_md(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18683,7 +18683,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_mdx(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18705,7 +18705,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_mov(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18727,7 +18727,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_mp_3(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18749,7 +18749,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_mp_4(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18771,7 +18771,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_otf(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18793,7 +18793,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_pdf(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18815,7 +18815,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_php(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18837,7 +18837,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_png(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18859,7 +18859,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_ppt(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18881,7 +18881,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_pptx(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18903,7 +18903,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_psd(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18925,7 +18925,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_py(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18947,7 +18947,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_raw(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18969,7 +18969,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_rb(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -18991,7 +18991,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_sass(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19013,7 +19013,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_scss(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19035,7 +19035,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_sh(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19057,7 +19057,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_svg(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19079,7 +19079,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_tiff(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19101,7 +19101,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_tsx(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19123,7 +19123,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_ttf(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19145,7 +19145,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_txt(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19167,7 +19167,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_wav(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19189,7 +19189,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_woff(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19211,7 +19211,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_xls(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19233,7 +19233,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_xlsx(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19255,7 +19255,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_xml(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19277,7 +19277,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filetype_yml(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19299,7 +19299,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_film(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19321,7 +19321,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filter_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19343,7 +19343,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filter_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19365,7 +19365,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filter_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19387,7 +19387,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filter_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19409,7 +19409,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filter_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19431,7 +19431,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filter_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19453,7 +19453,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_filter(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19475,7 +19475,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_fingerprint(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19497,7 +19497,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_flag_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19519,7 +19519,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_flag(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19541,7 +19541,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_flower_1(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19563,7 +19563,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_flower_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19585,7 +19585,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_flower_3(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19607,7 +19607,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_folder_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19629,7 +19629,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_folder_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19651,7 +19651,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_folder_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19673,7 +19673,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_folder_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19695,7 +19695,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_folder_symlink_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19717,7 +19717,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_folder_symlink(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19739,7 +19739,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_folder_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19761,7 +19761,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_folder(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19783,7 +19783,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_folder_2_open(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19805,7 +19805,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_folder_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19827,7 +19827,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_fonts(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19849,7 +19849,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_forward_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19871,7 +19871,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_forward(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19893,7 +19893,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_front(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19915,7 +19915,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_fullscreen_exit(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19937,7 +19937,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_fullscreen(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19959,7 +19959,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_funnel_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -19981,7 +19981,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_funnel(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20003,7 +20003,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_gear_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20025,7 +20025,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_gear_wide_connected(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20047,7 +20047,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_gear_wide(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20069,7 +20069,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_gear(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20091,7 +20091,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_gem(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20113,7 +20113,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_gender_ambiguous(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20135,7 +20135,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_gender_female(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20157,7 +20157,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_gender_male(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20179,7 +20179,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_gender_trans(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20201,7 +20201,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_geo_alt_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20223,7 +20223,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_geo_alt(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20245,7 +20245,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_geo_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20267,7 +20267,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_geo(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20289,7 +20289,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_gift_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20311,7 +20311,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_gift(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20333,7 +20333,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_git(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20355,7 +20355,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_github(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20377,7 +20377,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_globe(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20399,7 +20399,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_globe_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20421,7 +20421,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_google(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20443,7 +20443,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_gpu_card(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20465,7 +20465,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_graph_down_arrow(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20487,7 +20487,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_graph_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20509,7 +20509,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_graph_up_arrow(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20531,7 +20531,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_graph_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20553,7 +20553,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_grid_1_x_2_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20575,7 +20575,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_grid_1_x_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20597,7 +20597,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_grid_3_x_2_gap_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20619,7 +20619,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_grid_3_x_2_gap(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20641,7 +20641,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_grid_3_x_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20663,7 +20663,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_grid_3_x_3_gap_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20685,7 +20685,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_grid_3_x_3_gap(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20707,7 +20707,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_grid_3_x_3(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20729,7 +20729,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_grid_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20751,7 +20751,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_grid(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20773,7 +20773,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_grip_horizontal(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20795,7 +20795,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_grip_vertical(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20817,7 +20817,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hammer(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20839,7 +20839,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hand_index_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20861,7 +20861,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hand_index_thumb_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20883,7 +20883,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hand_index_thumb(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20905,7 +20905,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hand_index(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20927,7 +20927,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hand_thumbs_down_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20949,7 +20949,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hand_thumbs_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20971,7 +20971,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hand_thumbs_up_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -20993,7 +20993,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hand_thumbs_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21015,7 +21015,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_handbag_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21037,7 +21037,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_handbag(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21059,7 +21059,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21081,7 +21081,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hdd_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21103,7 +21103,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hdd_network_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21125,7 +21125,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hdd_network(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21147,7 +21147,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hdd_rack_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21169,7 +21169,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hdd_rack(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21191,7 +21191,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hdd_stack_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21213,7 +21213,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hdd_stack(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21235,7 +21235,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hdd(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21257,7 +21257,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hdmi_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21279,7 +21279,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hdmi(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21301,7 +21301,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_headphones(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21323,7 +21323,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_headset_vr(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21345,7 +21345,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_headset(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21367,7 +21367,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_heart_arrow(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21389,7 +21389,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21411,7 +21411,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_heart_half(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21433,7 +21433,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_heart_pulse_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21455,7 +21455,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_heart_pulse(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21477,7 +21477,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21499,7 +21499,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_heartbreak_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21521,7 +21521,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_heartbreak(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21543,7 +21543,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hearts(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21565,7 +21565,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_heptagon_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21587,7 +21587,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_heptagon_half(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21609,7 +21609,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_heptagon(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21631,7 +21631,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hexagon_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21653,7 +21653,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hexagon_half(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21675,7 +21675,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hexagon(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21697,7 +21697,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hospital_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21719,7 +21719,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hospital(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21741,7 +21741,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hourglass_bottom(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21763,7 +21763,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hourglass_split(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21785,7 +21785,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hourglass_top(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21807,7 +21807,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hourglass(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21829,7 +21829,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_house_door_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21851,7 +21851,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_house_door(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21873,7 +21873,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_house_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21895,7 +21895,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_house_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21917,7 +21917,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_house_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21939,7 +21939,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_house(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21961,7 +21961,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hr(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -21983,7 +21983,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hurricane(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22005,7 +22005,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_hypnotize(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22027,7 +22027,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_image_alt(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22049,7 +22049,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_image_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22071,7 +22071,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_image(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22093,7 +22093,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_images(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22115,7 +22115,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_inbox_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22137,7 +22137,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_inbox(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22159,7 +22159,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_inboxes_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22181,7 +22181,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_inboxes(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22203,7 +22203,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_incognito(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22225,7 +22225,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_infinity(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22247,7 +22247,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_info_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22269,7 +22269,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_info_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22291,7 +22291,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_info_lg(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22313,7 +22313,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_info_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22335,7 +22335,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_info_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22357,7 +22357,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_info(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22379,7 +22379,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_input_cursor_text(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22401,7 +22401,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_input_cursor(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22423,7 +22423,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_instagram(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22445,7 +22445,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_intersect(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22467,7 +22467,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_journal_album(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22489,7 +22489,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_journal_arrow_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22511,7 +22511,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_journal_arrow_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22533,7 +22533,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_journal_bookmark_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22555,7 +22555,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_journal_bookmark(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22577,7 +22577,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_journal_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22599,7 +22599,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_journal_code(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22621,7 +22621,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_journal_medical(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22643,7 +22643,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_journal_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22665,7 +22665,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_journal_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22687,7 +22687,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_journal_richtext(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22709,7 +22709,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_journal_text(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22731,7 +22731,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_journal_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22753,7 +22753,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_journal(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22775,7 +22775,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_journals(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22797,7 +22797,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_joystick(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22819,7 +22819,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_justify_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22841,7 +22841,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_justify_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22863,7 +22863,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_justify(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22885,7 +22885,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_kanban_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22907,7 +22907,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_kanban(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22929,7 +22929,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_key_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22951,7 +22951,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_key(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22973,7 +22973,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_keyboard_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -22995,7 +22995,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_keyboard(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23017,7 +23017,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_ladder(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23039,7 +23039,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_lamp_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23061,7 +23061,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_lamp(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23083,7 +23083,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_laptop_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23105,7 +23105,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_laptop(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23127,7 +23127,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_layer_backward(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23149,7 +23149,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_layer_forward(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23171,7 +23171,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_layers_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23193,7 +23193,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_layers_half(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23215,7 +23215,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_layers(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23237,7 +23237,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_layout_sidebar_inset_reverse(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23259,7 +23259,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_layout_sidebar_inset(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23281,7 +23281,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_layout_sidebar_reverse(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23303,7 +23303,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_layout_sidebar(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23325,7 +23325,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_layout_split(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23347,7 +23347,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_layout_text_sidebar_reverse(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23369,7 +23369,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_layout_text_sidebar(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23391,7 +23391,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_layout_text_window_reverse(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23413,7 +23413,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_layout_text_window(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23435,7 +23435,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_layout_three_columns(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23457,7 +23457,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_layout_wtf(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23479,7 +23479,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_life_preserver(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23501,7 +23501,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_lightbulb_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23523,7 +23523,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_lightbulb_off_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23545,7 +23545,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_lightbulb_off(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23567,7 +23567,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_lightbulb(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23589,7 +23589,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_lightning_charge_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23611,7 +23611,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_lightning_charge(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23633,7 +23633,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_lightning_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23655,7 +23655,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_lightning(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23677,7 +23677,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_line(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23699,7 +23699,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_link_45_deg(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23721,7 +23721,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_link(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23743,7 +23743,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_linkedin(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23765,7 +23765,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_list_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23787,7 +23787,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_list_columns_reverse(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23809,7 +23809,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_list_columns(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23831,7 +23831,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_list_nested(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23853,7 +23853,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_list_ol(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23875,7 +23875,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_list_stars(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23897,7 +23897,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_list_task(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23919,7 +23919,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_list_ul(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23941,7 +23941,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_list(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23963,7 +23963,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_lock_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -23985,7 +23985,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_lock(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24007,7 +24007,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_magic(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24029,7 +24029,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_magnet_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24051,7 +24051,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_magnet(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24073,7 +24073,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_mailbox(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24095,7 +24095,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_mailbox_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24117,7 +24117,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_map_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24139,7 +24139,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_map(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24161,7 +24161,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_markdown_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24183,7 +24183,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_markdown(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24205,7 +24205,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_mask(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24227,7 +24227,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_mastodon(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24249,7 +24249,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_medium(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24271,7 +24271,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_megaphone_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24293,7 +24293,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_megaphone(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24315,7 +24315,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_memory(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24337,7 +24337,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_menu_app_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24359,7 +24359,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_menu_app(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24381,7 +24381,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_menu_button_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24403,7 +24403,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_menu_button_wide_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24425,7 +24425,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_menu_button_wide(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24447,7 +24447,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_menu_button(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24469,7 +24469,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_menu_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24491,7 +24491,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_menu_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24513,7 +24513,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_messenger(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24535,7 +24535,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_meta(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24557,7 +24557,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_mic_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24579,7 +24579,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_mic_mute_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24601,7 +24601,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_mic_mute(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24623,7 +24623,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_mic(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24645,7 +24645,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_microsoft(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24667,7 +24667,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_minecart_loaded(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24689,7 +24689,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_minecart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24711,7 +24711,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_modem_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24733,7 +24733,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_modem(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24755,7 +24755,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_moisture(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24777,7 +24777,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_moon_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24799,7 +24799,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_moon_stars_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24821,7 +24821,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_moon_stars(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24843,7 +24843,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_moon(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24865,7 +24865,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_mortarboard_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24887,7 +24887,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_mortarboard(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24909,7 +24909,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_motherboard_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24931,7 +24931,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_motherboard(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24953,7 +24953,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_mouse_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24975,7 +24975,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_mouse(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -24997,7 +24997,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_mouse_2_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25019,7 +25019,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_mouse_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25041,7 +25041,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_mouse_3_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25063,7 +25063,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_mouse_3(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25085,7 +25085,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_music_note_beamed(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25107,7 +25107,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_music_note_list(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25129,7 +25129,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_music_note(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25151,7 +25151,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_music_player_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25173,7 +25173,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_music_player(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25195,7 +25195,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_newspaper(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25217,7 +25217,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_nintendo_switch(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25239,7 +25239,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_node_minus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25261,7 +25261,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_node_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25283,7 +25283,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_node_plus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25305,7 +25305,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_node_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25327,7 +25327,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_nut_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25349,7 +25349,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_nut(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25371,7 +25371,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_octagon_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25393,7 +25393,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_octagon_half(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25415,7 +25415,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_octagon(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25437,7 +25437,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_optical_audio_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25459,7 +25459,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_optical_audio(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25481,7 +25481,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_option(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25503,7 +25503,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_outlet(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25525,7 +25525,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_paint_bucket(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25547,7 +25547,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_palette_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25569,7 +25569,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_palette(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25591,7 +25591,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_palette_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25613,7 +25613,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_paperclip(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25635,7 +25635,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_paragraph(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25657,7 +25657,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_patch_check_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25679,7 +25679,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_patch_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25701,7 +25701,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_patch_exclamation_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25723,7 +25723,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_patch_exclamation(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25745,7 +25745,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_patch_minus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25767,7 +25767,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_patch_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25789,7 +25789,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_patch_plus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25811,7 +25811,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_patch_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25833,7 +25833,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_patch_question_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25855,7 +25855,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_patch_question(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25877,7 +25877,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pause_btn_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25899,7 +25899,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pause_btn(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25921,7 +25921,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pause_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25943,7 +25943,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pause_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25965,7 +25965,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pause_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -25987,7 +25987,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pause(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26009,7 +26009,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_paypal(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26031,7 +26031,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pc_display_horizontal(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26053,7 +26053,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pc_display(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26075,7 +26075,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pc_horizontal(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26097,7 +26097,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pc(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26119,7 +26119,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pci_card(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26141,7 +26141,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_peace_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26163,7 +26163,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_peace(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26185,7 +26185,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pen_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26207,7 +26207,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pen(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26229,7 +26229,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pencil_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26251,7 +26251,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pencil_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26273,7 +26273,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pencil(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26295,7 +26295,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pentagon_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26317,7 +26317,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pentagon_half(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26339,7 +26339,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pentagon(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26361,7 +26361,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_people_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26383,7 +26383,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_people(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26405,7 +26405,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_percent(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26427,7 +26427,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_badge_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26449,7 +26449,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_badge(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26471,7 +26471,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_bounding_box(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26493,7 +26493,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_check_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26515,7 +26515,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26537,7 +26537,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26559,7 +26559,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_dash_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26581,7 +26581,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_dash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26603,7 +26603,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26625,7 +26625,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26647,7 +26647,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_hearts(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26669,7 +26669,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_lines_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26691,7 +26691,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_plus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26713,7 +26713,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26735,7 +26735,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_rolodex(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26757,7 +26757,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26779,7 +26779,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_video(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26801,7 +26801,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_video_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26823,7 +26823,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_video_3(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26845,7 +26845,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_workspace(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26867,7 +26867,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_x_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26889,7 +26889,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26911,7 +26911,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_person(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26933,7 +26933,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_phone_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26955,7 +26955,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_phone_flip(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26977,7 +26977,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_phone_landscape_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -26999,7 +26999,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_phone_landscape(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27021,7 +27021,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_phone_vibrate_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27043,7 +27043,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_phone_vibrate(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27065,7 +27065,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_phone(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27087,7 +27087,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pie_chart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27109,7 +27109,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pie_chart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27131,7 +27131,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_piggy_bank_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27153,7 +27153,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_piggy_bank(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27175,7 +27175,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pin_angle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27197,7 +27197,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pin_angle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27219,7 +27219,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pin_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27241,7 +27241,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pin_map_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27263,7 +27263,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pin_map(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27285,7 +27285,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pin(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27307,7 +27307,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pinterest(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27329,7 +27329,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pip_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27351,7 +27351,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_pip(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27373,7 +27373,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_play_btn_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27395,7 +27395,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_play_btn(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27417,7 +27417,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_play_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27439,7 +27439,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_play_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27461,7 +27461,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_play_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27483,7 +27483,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_play(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27505,7 +27505,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_playstation(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27527,7 +27527,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_plug_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27549,7 +27549,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_plug(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27571,7 +27571,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_plugin(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27593,7 +27593,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_plus_circle_dotted(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27615,7 +27615,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_plus_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27637,7 +27637,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_plus_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27659,7 +27659,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_plus_lg(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27681,7 +27681,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_plus_slash_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27703,7 +27703,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_plus_square_dotted(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27725,7 +27725,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_plus_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27747,7 +27747,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_plus_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27769,7 +27769,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27791,7 +27791,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_postage_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27813,7 +27813,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_postage_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27835,7 +27835,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_postage_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27857,7 +27857,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_postage(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27879,7 +27879,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_postcard_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27901,7 +27901,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_postcard_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27923,7 +27923,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_postcard_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27945,7 +27945,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_postcard(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27967,7 +27967,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_power(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27989,7 +27989,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_printer_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28011,7 +28011,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_printer(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28033,7 +28033,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_projector_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28055,7 +28055,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_projector(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28077,7 +28077,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_puzzle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28099,7 +28099,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_puzzle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28121,7 +28121,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_qr_code_scan(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28143,7 +28143,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_qr_code(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28165,7 +28165,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_question_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28187,7 +28187,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_question_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28209,7 +28209,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_question_diamond_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28231,7 +28231,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_question_diamond(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28253,7 +28253,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_question_lg(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28275,7 +28275,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_question_octagon_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28297,7 +28297,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_question_octagon(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28319,7 +28319,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_question_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28341,7 +28341,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_question_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28363,7 +28363,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_question(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28385,7 +28385,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_quora(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28407,7 +28407,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_quote(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28429,7 +28429,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_radioactive(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28451,7 +28451,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_rainbow(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28473,7 +28473,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_receipt_cutoff(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28495,7 +28495,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_receipt(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28517,7 +28517,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_reception_0(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28539,7 +28539,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_reception_1(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28561,7 +28561,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_reception_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28583,7 +28583,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_reception_3(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28605,7 +28605,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_reception_4(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28627,7 +28627,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_record_btn_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28649,7 +28649,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_record_btn(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28671,7 +28671,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_record_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28693,7 +28693,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_record_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28715,7 +28715,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_record_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28737,7 +28737,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_record(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28759,7 +28759,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_record_2_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28781,7 +28781,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_record_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28803,7 +28803,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_recycle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28825,7 +28825,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_reddit(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28847,7 +28847,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_reply_all_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28869,7 +28869,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_reply_all(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28891,7 +28891,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_reply_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28913,7 +28913,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_reply(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28935,7 +28935,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_robot(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28957,7 +28957,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_router_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -28979,7 +28979,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_router(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29001,7 +29001,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_rss_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29023,7 +29023,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_rss(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29045,7 +29045,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_rulers(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29067,7 +29067,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_safe_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29089,7 +29089,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_safe(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29111,7 +29111,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_safe_2_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29133,7 +29133,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_safe_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29155,7 +29155,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_save_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29177,7 +29177,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_save(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29199,7 +29199,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_save_2_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29221,7 +29221,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_save_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29243,7 +29243,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_scissors(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29265,7 +29265,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_screwdriver(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29287,7 +29287,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sd_card_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29309,7 +29309,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sd_card(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29331,7 +29331,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_search_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29353,7 +29353,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_search_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29375,7 +29375,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_search(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29397,7 +29397,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_segmented_nav(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29419,7 +29419,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_send_check_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29441,7 +29441,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_send_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29463,7 +29463,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_send_dash_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29485,7 +29485,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_send_dash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29507,7 +29507,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_send_exclamation_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29529,7 +29529,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_send_exclamation(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29551,7 +29551,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_send_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29573,7 +29573,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_send_plus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29595,7 +29595,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_send_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29617,7 +29617,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_send_slash_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29639,7 +29639,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_send_slash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29661,7 +29661,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_send_x_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29683,7 +29683,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_send_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29705,7 +29705,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_send(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29727,7 +29727,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_server(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29749,7 +29749,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_share_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29771,7 +29771,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_share(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29793,7 +29793,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shield_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29815,7 +29815,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shield_exclamation(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29837,7 +29837,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shield_fill_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29859,7 +29859,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shield_fill_exclamation(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29881,7 +29881,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shield_fill_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29903,7 +29903,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shield_fill_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29925,7 +29925,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shield_fill_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29947,7 +29947,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shield_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29969,7 +29969,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shield_lock_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -29991,7 +29991,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shield_lock(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30013,7 +30013,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shield_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30035,7 +30035,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shield_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30057,7 +30057,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shield_shaded(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30079,7 +30079,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shield_slash_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30101,7 +30101,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shield_slash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30123,7 +30123,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shield_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30145,7 +30145,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shield(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30167,7 +30167,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shift_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30189,7 +30189,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shift(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30211,7 +30211,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shop_window(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30233,7 +30233,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shop(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30255,7 +30255,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_shuffle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30277,7 +30277,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_signal(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30299,7 +30299,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_signpost_2_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30321,7 +30321,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_signpost_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30343,7 +30343,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_signpost_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30365,7 +30365,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_signpost_split_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30387,7 +30387,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_signpost_split(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30409,7 +30409,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_signpost(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30431,7 +30431,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sim_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30453,7 +30453,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sim(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30475,7 +30475,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_backward_btn_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30497,7 +30497,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_backward_btn(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30519,7 +30519,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_backward_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30541,7 +30541,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_backward_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30563,7 +30563,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_backward_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30585,7 +30585,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_backward(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30607,7 +30607,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_end_btn_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30629,7 +30629,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_end_btn(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30651,7 +30651,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_end_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30673,7 +30673,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_end_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30695,7 +30695,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_end_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30717,7 +30717,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_end(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30739,7 +30739,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_forward_btn_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30761,7 +30761,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_forward_btn(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30783,7 +30783,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_forward_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30805,7 +30805,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_forward_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30827,7 +30827,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_forward_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30849,7 +30849,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_forward(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30871,7 +30871,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_start_btn_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30893,7 +30893,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_start_btn(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30915,7 +30915,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_start_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30937,7 +30937,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_start_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30959,7 +30959,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_start_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -30981,7 +30981,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skip_start(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31003,7 +31003,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_skype(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31025,7 +31025,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_slack(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31047,7 +31047,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_slash_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31069,7 +31069,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_slash_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31091,7 +31091,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_slash_lg(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31113,7 +31113,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_slash_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31135,7 +31135,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_slash_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31157,7 +31157,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_slash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31179,7 +31179,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sliders(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31201,7 +31201,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sliders_2_vertical(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31223,7 +31223,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sliders_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31245,7 +31245,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_smartwatch(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31267,7 +31267,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_snapchat(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31289,7 +31289,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_snow(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31311,7 +31311,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_snow_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31333,7 +31333,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_snow_3(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31355,7 +31355,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sort_alpha_down_alt(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31377,7 +31377,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sort_alpha_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31399,7 +31399,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sort_alpha_up_alt(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31421,7 +31421,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sort_alpha_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31443,7 +31443,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sort_down_alt(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31465,7 +31465,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sort_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31487,7 +31487,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sort_numeric_down_alt(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31509,7 +31509,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sort_numeric_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31531,7 +31531,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sort_numeric_up_alt(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31553,7 +31553,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sort_numeric_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31575,7 +31575,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sort_up_alt(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31597,7 +31597,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sort_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31619,7 +31619,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_soundwave(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31641,7 +31641,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_speaker_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31663,7 +31663,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_speaker(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31685,7 +31685,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_speedometer(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31707,7 +31707,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_speedometer_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31729,7 +31729,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_spellcheck(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31751,7 +31751,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_spotify(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31773,7 +31773,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31795,7 +31795,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_square_half(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31817,7 +31817,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31839,7 +31839,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_stack_overflow(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31861,7 +31861,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_stack(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31883,7 +31883,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_star_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31905,7 +31905,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_star_half(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31927,7 +31927,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_star(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31949,7 +31949,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_stars(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31971,7 +31971,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_steam(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -31993,7 +31993,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_stickies_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32015,7 +32015,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_stickies(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32037,7 +32037,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sticky_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32059,7 +32059,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sticky(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32081,7 +32081,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_stop_btn_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32103,7 +32103,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_stop_btn(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32125,7 +32125,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_stop_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32147,7 +32147,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_stop_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32169,7 +32169,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_stop_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32191,7 +32191,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_stop(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32213,7 +32213,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_stoplights_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32235,7 +32235,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_stoplights(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32257,7 +32257,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_stopwatch_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32279,7 +32279,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_stopwatch(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32301,7 +32301,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_strava(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32323,7 +32323,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_subtract(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32345,7 +32345,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_suit_club_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32367,7 +32367,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_suit_club(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32389,7 +32389,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_suit_diamond_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32411,7 +32411,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_suit_diamond(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32433,7 +32433,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_suit_heart_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32455,7 +32455,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_suit_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32477,7 +32477,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_suit_spade_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32499,7 +32499,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_suit_spade(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32521,7 +32521,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sun_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32543,7 +32543,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sun(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32565,7 +32565,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sunglasses(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32587,7 +32587,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sunrise_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32609,7 +32609,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sunrise(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32631,7 +32631,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sunset_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32653,7 +32653,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_sunset(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32675,7 +32675,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_symmetry_horizontal(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32697,7 +32697,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_symmetry_vertical(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32719,7 +32719,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_table(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32741,7 +32741,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_tablet_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32763,7 +32763,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_tablet_landscape_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32785,7 +32785,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_tablet_landscape(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32807,7 +32807,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_tablet(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32829,7 +32829,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_tag_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32851,7 +32851,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_tag(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32873,7 +32873,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_tags_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32895,7 +32895,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_tags(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32917,7 +32917,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_telegram(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32939,7 +32939,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_telephone_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32961,7 +32961,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_telephone_forward_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -32983,7 +32983,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_telephone_forward(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33005,7 +33005,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_telephone_inbound_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33027,7 +33027,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_telephone_inbound(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33049,7 +33049,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_telephone_minus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33071,7 +33071,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_telephone_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33093,7 +33093,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_telephone_outbound_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33115,7 +33115,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_telephone_outbound(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33137,7 +33137,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_telephone_plus_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33159,7 +33159,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_telephone_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33181,7 +33181,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_telephone_x_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33203,7 +33203,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_telephone_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33225,7 +33225,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_telephone(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33247,7 +33247,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_terminal_dash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33269,7 +33269,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_terminal_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33291,7 +33291,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_terminal_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33313,7 +33313,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_terminal_split(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33335,7 +33335,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_terminal_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33357,7 +33357,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_terminal(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33379,7 +33379,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_text_center(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33401,7 +33401,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_text_indent_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33423,7 +33423,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_text_indent_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33445,7 +33445,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_text_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33467,7 +33467,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_text_paragraph(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33489,7 +33489,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_text_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33511,7 +33511,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_textarea_resize(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33533,7 +33533,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_textarea_t(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33555,7 +33555,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_textarea(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33577,7 +33577,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_thermometer_half(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33599,7 +33599,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_thermometer_high(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33621,7 +33621,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_thermometer_low(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33643,7 +33643,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_thermometer_snow(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33665,7 +33665,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_thermometer_sun(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33687,7 +33687,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_thermometer(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33709,7 +33709,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_three_dots_vertical(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33731,7 +33731,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_three_dots(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33753,7 +33753,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_thunderbolt_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33775,7 +33775,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_thunderbolt(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33797,7 +33797,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_ticket_detailed_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33819,7 +33819,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_ticket_detailed(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33841,7 +33841,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_ticket_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33863,7 +33863,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_ticket_perforated_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33885,7 +33885,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_ticket_perforated(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33907,7 +33907,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_ticket(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33929,7 +33929,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_tiktok(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33951,7 +33951,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_toggle_off(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33973,7 +33973,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_toggle_on(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -33995,7 +33995,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_toggle_2_off(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34017,7 +34017,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_toggle_2_on(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34039,7 +34039,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_toggles(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34061,7 +34061,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_toggles_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34083,7 +34083,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_tools(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34105,7 +34105,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_tornado(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34127,7 +34127,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_translate(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34149,7 +34149,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_trash_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34171,7 +34171,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_trash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34193,7 +34193,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_trash_2_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34215,7 +34215,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_trash_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34237,7 +34237,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_trash_3_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34259,7 +34259,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_trash_3(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34281,7 +34281,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_tree_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34303,7 +34303,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_tree(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34325,7 +34325,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_triangle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34347,7 +34347,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_triangle_half(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34369,7 +34369,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_triangle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34391,7 +34391,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_trophy_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34413,7 +34413,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_trophy(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34435,7 +34435,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_tropical_storm(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34457,7 +34457,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_truck_flatbed(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34479,7 +34479,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_truck(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34501,7 +34501,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_tsunami(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34523,7 +34523,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_tv_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34545,7 +34545,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_tv(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34567,7 +34567,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_twitch(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34589,7 +34589,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_twitter(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34611,7 +34611,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_type_bold(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34633,7 +34633,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_type_h_1(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34655,7 +34655,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_type_h_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34677,7 +34677,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_type_h_3(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34699,7 +34699,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_type_italic(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34721,7 +34721,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_type_strikethrough(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34743,7 +34743,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_type_underline(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34765,7 +34765,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_type(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34787,7 +34787,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_ui_checks_grid(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34809,7 +34809,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_ui_checks(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34831,7 +34831,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_ui_radios_grid(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34853,7 +34853,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_ui_radios(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34875,7 +34875,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_umbrella_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34897,7 +34897,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_umbrella(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34919,7 +34919,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_union(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34941,7 +34941,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_unlock_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34963,7 +34963,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_unlock(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -34985,7 +34985,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_upc_scan(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35007,7 +35007,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_upc(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35029,7 +35029,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_upload(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35051,7 +35051,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_usb_c_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35073,7 +35073,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_usb_c(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35095,7 +35095,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_usb_drive_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35117,7 +35117,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_usb_drive(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35139,7 +35139,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_usb_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35161,7 +35161,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_usb_micro_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35183,7 +35183,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_usb_micro(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35205,7 +35205,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_usb_mini_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35227,7 +35227,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_usb_mini(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35249,7 +35249,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_usb_plug_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35271,7 +35271,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_usb_plug(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35293,7 +35293,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_usb_symbol(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35315,7 +35315,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_usb(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35337,7 +35337,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_valentine(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35359,7 +35359,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_valentine_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35381,7 +35381,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_vector_pen(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35403,7 +35403,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_view_list(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35425,7 +35425,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_view_stacked(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35447,7 +35447,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_vimeo(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35469,7 +35469,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_vinyl_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35491,7 +35491,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_vinyl(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35513,7 +35513,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_voicemail(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35535,7 +35535,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_volume_down_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35557,7 +35557,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_volume_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35579,7 +35579,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_volume_mute_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35601,7 +35601,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_volume_mute(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35623,7 +35623,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_volume_off_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35645,7 +35645,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_volume_off(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35667,7 +35667,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_volume_up_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35689,7 +35689,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_volume_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35711,7 +35711,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_vr(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35733,7 +35733,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_wallet_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35755,7 +35755,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_wallet(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35777,7 +35777,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_wallet_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35799,7 +35799,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_watch(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35821,7 +35821,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_water(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35843,7 +35843,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_webcam_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35865,7 +35865,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_webcam(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35887,7 +35887,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_whatsapp(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35909,7 +35909,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_wifi_1(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35931,7 +35931,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_wifi_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35953,7 +35953,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_wifi_off(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35975,7 +35975,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_wifi(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -35997,7 +35997,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_wind(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36019,7 +36019,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_window_dash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36041,7 +36041,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_window_desktop(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36063,7 +36063,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_window_dock(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36085,7 +36085,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_window_fullscreen(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36107,7 +36107,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_window_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36129,7 +36129,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_window_sidebar(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36151,7 +36151,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_window_split(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36173,7 +36173,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_window_stack(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36195,7 +36195,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_window_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36217,7 +36217,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_window(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36239,7 +36239,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_windows(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36261,7 +36261,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_wordpress(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36283,7 +36283,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_wrench_adjustable_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36305,7 +36305,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_wrench_adjustable_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36327,7 +36327,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_wrench_adjustable(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36349,7 +36349,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_wrench(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36371,7 +36371,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_x_circle_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36393,7 +36393,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_x_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36415,7 +36415,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_x_diamond_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36437,7 +36437,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_x_diamond(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36459,7 +36459,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_x_lg(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36481,7 +36481,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_x_octagon_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36503,7 +36503,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_x_octagon(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36525,7 +36525,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_x_square_fill(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36547,7 +36547,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_x_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36569,7 +36569,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_x(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36591,7 +36591,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_xbox(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36613,7 +36613,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_yin_yang(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36635,7 +36635,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_youtube(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36657,7 +36657,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_zoom_in(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -36679,7 +36679,7 @@ impl IconData {
         #[inline(never)]
         fn bootstrap_zoom_out(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,

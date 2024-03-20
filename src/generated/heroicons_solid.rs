@@ -5,7 +5,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_academic_cap(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27,7 +27,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_adjustments_horizontal(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -49,7 +49,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_adjustments_vertical(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -71,7 +71,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_archive_box_arrow_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -93,7 +93,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_archive_box_x_mark(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -115,7 +115,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_archive_box(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -137,7 +137,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_down_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -159,7 +159,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_down_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -181,7 +181,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_down_on_square_stack(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -203,7 +203,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_down_on_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -225,7 +225,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_down_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -247,7 +247,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_down_tray(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -269,7 +269,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -291,7 +291,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_left_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -313,7 +313,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_left_on_rectangle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -335,7 +335,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -357,7 +357,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_long_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -379,7 +379,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_long_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -401,7 +401,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_long_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -423,7 +423,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_long_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -445,7 +445,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_path_rounded_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -467,7 +467,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_path(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -489,7 +489,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_right_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -511,7 +511,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_right_on_rectangle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -533,7 +533,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -555,7 +555,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_small_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -577,7 +577,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_small_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -599,7 +599,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_small_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -621,7 +621,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_small_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -643,7 +643,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_top_right_on_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -665,7 +665,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_trending_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -687,7 +687,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_trending_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -709,7 +709,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_up_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -731,7 +731,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_up_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -753,7 +753,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_up_on_square_stack(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -775,7 +775,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_up_on_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -797,7 +797,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_up_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -819,7 +819,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_up_tray(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -841,7 +841,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -863,7 +863,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_uturn_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -885,7 +885,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_uturn_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -907,7 +907,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_uturn_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -929,7 +929,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrow_uturn_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -951,7 +951,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrows_pointing_in(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -973,7 +973,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrows_pointing_out(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -995,7 +995,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrows_right_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1017,7 +1017,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_arrows_up_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1039,7 +1039,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_at_symbol(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1061,7 +1061,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_backspace(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1083,7 +1083,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_backward(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1105,7 +1105,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_banknotes(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1127,7 +1127,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_bars_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1149,7 +1149,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_bars_3_bottom_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1171,7 +1171,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_bars_3_bottom_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1193,7 +1193,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_bars_3_center_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1215,7 +1215,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_bars_3(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1237,7 +1237,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_bars_4(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1259,7 +1259,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_bars_arrow_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1281,7 +1281,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_bars_arrow_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1303,7 +1303,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_battery_0(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1325,7 +1325,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_battery_100(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1347,7 +1347,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_battery_50(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1369,7 +1369,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_beaker(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1391,7 +1391,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_bell_alert(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1413,7 +1413,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_bell_slash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1435,7 +1435,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_bell_snooze(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1457,7 +1457,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_bell(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1479,7 +1479,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_bolt_slash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1501,7 +1501,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_bolt(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1523,7 +1523,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_book_open(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1545,7 +1545,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_bookmark_slash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1567,7 +1567,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_bookmark_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1589,7 +1589,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_bookmark(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1611,7 +1611,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_briefcase(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1633,7 +1633,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_bug_ant(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1655,7 +1655,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_building_library(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1677,7 +1677,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_building_office_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1699,7 +1699,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_building_office(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1721,7 +1721,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_building_storefront(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1743,7 +1743,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_cake(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1765,7 +1765,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_calculator(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1787,7 +1787,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_calendar_days(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1809,7 +1809,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_calendar(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1831,7 +1831,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_camera(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1853,7 +1853,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_chart_bar_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1875,7 +1875,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_chart_bar(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1897,7 +1897,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_chart_pie(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1919,7 +1919,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_chat_bubble_bottom_center_text(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1941,7 +1941,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_chat_bubble_bottom_center(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1963,7 +1963,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_chat_bubble_left_ellipsis(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1985,7 +1985,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_chat_bubble_left_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2007,7 +2007,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_chat_bubble_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2029,7 +2029,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_chat_bubble_oval_left_ellipsis(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2051,7 +2051,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_chat_bubble_oval_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2073,7 +2073,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_check_badge(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2095,7 +2095,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_check_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2117,7 +2117,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2139,7 +2139,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_chevron_double_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2161,7 +2161,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_chevron_double_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2183,7 +2183,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_chevron_double_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2205,7 +2205,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_chevron_double_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2227,7 +2227,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_chevron_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2249,7 +2249,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_chevron_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2271,7 +2271,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_chevron_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2293,7 +2293,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_chevron_up_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2315,7 +2315,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_chevron_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2337,7 +2337,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_circle_stack(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2359,7 +2359,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_clipboard_document_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2381,7 +2381,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_clipboard_document_list(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2403,7 +2403,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_clipboard_document(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2425,7 +2425,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_clipboard(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2447,7 +2447,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_clock(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2469,7 +2469,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_cloud_arrow_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2491,7 +2491,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_cloud_arrow_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2513,7 +2513,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_cloud(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2535,7 +2535,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_code_bracket_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2557,7 +2557,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_code_bracket(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2579,7 +2579,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_cog_6_tooth(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2601,7 +2601,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_cog_8_tooth(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2623,7 +2623,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_cog(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2645,7 +2645,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_command_line(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2667,7 +2667,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_computer_desktop(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2689,7 +2689,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_cpu_chip(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2711,7 +2711,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_credit_card(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2733,7 +2733,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_cube_transparent(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2755,7 +2755,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_cube(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2777,7 +2777,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_currency_bangladeshi(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2799,7 +2799,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_currency_dollar(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2821,7 +2821,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_currency_euro(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2843,7 +2843,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_currency_pound(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2865,7 +2865,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_currency_rupee(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2887,7 +2887,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_currency_yen(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2909,7 +2909,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_cursor_arrow_rays(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2931,7 +2931,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_cursor_arrow_ripple(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2953,7 +2953,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_device_phone_mobile(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2975,7 +2975,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_device_tablet(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2997,7 +2997,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_document_arrow_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3019,7 +3019,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_document_arrow_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3041,7 +3041,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_document_chart_bar(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3063,7 +3063,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_document_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3085,7 +3085,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_document_duplicate(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3107,7 +3107,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_document_magnifying_glass(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3129,7 +3129,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_document_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3151,7 +3151,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_document_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3173,7 +3173,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_document_text(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3195,7 +3195,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_document(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3217,7 +3217,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_ellipsis_horizontal_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3239,7 +3239,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_ellipsis_horizontal(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3261,7 +3261,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_ellipsis_vertical(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3283,7 +3283,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_envelope_open(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3305,7 +3305,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_envelope(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3327,7 +3327,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_exclamation_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3349,7 +3349,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_exclamation_triangle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3371,7 +3371,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_eye_dropper(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3393,7 +3393,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_eye_slash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3415,7 +3415,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_eye(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3437,7 +3437,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_face_frown(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3459,7 +3459,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_face_smile(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3481,7 +3481,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_film(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3503,7 +3503,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_finger_print(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3525,7 +3525,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_fire(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3547,7 +3547,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_flag(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3569,7 +3569,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_folder_arrow_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3591,7 +3591,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_folder_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3613,7 +3613,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_folder_open(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3635,7 +3635,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_folder_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3657,7 +3657,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_folder(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3679,7 +3679,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_forward(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3701,7 +3701,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_funnel(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3723,7 +3723,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_gif(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3745,7 +3745,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_gift_top(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3767,7 +3767,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_gift(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3789,7 +3789,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_globe_alt(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3811,7 +3811,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_globe_americas(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3833,7 +3833,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_globe_asia_australia(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3855,7 +3855,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_globe_europe_africa(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3877,7 +3877,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_hand_raised(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3899,7 +3899,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_hand_thumb_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3921,7 +3921,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_hand_thumb_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3943,7 +3943,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_hashtag(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3965,7 +3965,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3987,7 +3987,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_home_modern(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4009,7 +4009,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_home(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4031,7 +4031,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_identification(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4053,7 +4053,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_inbox_arrow_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4075,7 +4075,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_inbox_stack(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4097,7 +4097,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_inbox(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4119,7 +4119,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_information_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4141,7 +4141,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_key(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4163,7 +4163,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_language(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4185,7 +4185,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_lifebuoy(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4207,7 +4207,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_light_bulb(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4229,7 +4229,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_link(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4251,7 +4251,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_list_bullet(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4273,7 +4273,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_lock_closed(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4295,7 +4295,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_lock_open(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4317,7 +4317,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_magnifying_glass_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4339,7 +4339,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_magnifying_glass_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4361,7 +4361,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_magnifying_glass_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4383,7 +4383,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_magnifying_glass(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4405,7 +4405,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_map_pin(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4427,7 +4427,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_map(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4449,7 +4449,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_megaphone(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4471,7 +4471,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_microphone(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4493,7 +4493,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_minus_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4515,7 +4515,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_minus_small(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4537,7 +4537,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4559,7 +4559,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_moon(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4581,7 +4581,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_musical_note(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4603,7 +4603,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_newspaper(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4625,7 +4625,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_no_symbol(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4647,7 +4647,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_paint_brush(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4669,7 +4669,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_paper_airplane(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4691,7 +4691,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_paper_clip(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4713,7 +4713,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_pause_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4735,7 +4735,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_pause(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4757,7 +4757,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_pencil_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4779,7 +4779,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_pencil(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4801,7 +4801,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_phone_arrow_down_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4823,7 +4823,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_phone_arrow_up_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4845,7 +4845,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_phone_x_mark(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4867,7 +4867,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_phone(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4889,7 +4889,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_photo(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4911,7 +4911,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_play_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4933,7 +4933,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_play_pause(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4955,7 +4955,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_play(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4977,7 +4977,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_plus_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -4999,7 +4999,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_plus_small(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5021,7 +5021,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5043,7 +5043,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_power(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5065,7 +5065,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_presentation_chart_bar(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5087,7 +5087,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_presentation_chart_line(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5109,7 +5109,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_printer(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5131,7 +5131,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_puzzle_piece(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5153,7 +5153,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_qr_code(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5175,7 +5175,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_question_mark_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5197,7 +5197,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_queue_list(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5219,7 +5219,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_radio(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5241,7 +5241,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_receipt_percent(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5263,7 +5263,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_receipt_refund(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5285,7 +5285,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_rectangle_group(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5307,7 +5307,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_rectangle_stack(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5329,7 +5329,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_rocket_launch(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5351,7 +5351,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_rss(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5373,7 +5373,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_scale(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5395,7 +5395,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_scissors(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5417,7 +5417,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_server_stack(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5439,7 +5439,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_server(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5461,7 +5461,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_share(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5483,7 +5483,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_shield_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5505,7 +5505,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_shield_exclamation(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5527,7 +5527,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_shopping_bag(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5549,7 +5549,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_shopping_cart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5571,7 +5571,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_signal_slash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5593,7 +5593,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_signal(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5615,7 +5615,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_sparkles(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5637,7 +5637,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_speaker_wave(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5659,7 +5659,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_speaker_x_mark(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5681,7 +5681,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_square_2_stack(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5703,7 +5703,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_square_3_stack_3_d(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5725,7 +5725,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_squares_2_x_2(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5747,7 +5747,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_squares_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5769,7 +5769,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_star(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5791,7 +5791,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_stop_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5813,7 +5813,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_stop(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5835,7 +5835,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_sun(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5857,7 +5857,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_swatch(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5879,7 +5879,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_table_cells(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5901,7 +5901,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_tag(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5923,7 +5923,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_ticket(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5945,7 +5945,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_trash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5967,7 +5967,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_trophy(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -5989,7 +5989,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_truck(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6011,7 +6011,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_tv(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6033,7 +6033,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_user_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6055,7 +6055,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_user_group(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6077,7 +6077,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_user_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6099,7 +6099,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_user_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6121,7 +6121,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_user(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6143,7 +6143,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_users(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6165,7 +6165,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_variable(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6187,7 +6187,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_video_camera_slash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6209,7 +6209,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_video_camera(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6231,7 +6231,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_view_columns(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6253,7 +6253,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_viewfinder_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6275,7 +6275,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_wallet(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6297,7 +6297,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_wifi(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6319,7 +6319,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_window(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6341,7 +6341,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_wrench_screwdriver(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6363,7 +6363,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_wrench(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6385,7 +6385,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_x_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -6407,7 +6407,7 @@ impl IconData {
         #[inline(never)]
         fn heroicons_solid_x_mark(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,

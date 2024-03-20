@@ -5,7 +5,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_address_book(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -27,7 +27,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_address_card(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -49,7 +49,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_bell_slash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -71,7 +71,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_bell(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -93,7 +93,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_bookmark(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -115,7 +115,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_building(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -137,7 +137,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_calendar_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -159,7 +159,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_calendar_days(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -181,7 +181,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_calendar_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -203,7 +203,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_calendar_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -225,7 +225,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_calendar_xmark(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -247,7 +247,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_calendar(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -269,7 +269,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_chart_bar(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -291,7 +291,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_chess_bishop(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -313,7 +313,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_chess_king(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -335,7 +335,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_chess_knight(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -357,7 +357,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_chess_pawn(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -379,7 +379,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_chess_queen(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -401,7 +401,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_chess_rook(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -423,7 +423,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_circle_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -445,7 +445,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_circle_dot(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -467,7 +467,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_circle_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -489,7 +489,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_circle_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -511,7 +511,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_circle_pause(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -533,7 +533,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_circle_play(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -555,7 +555,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_circle_question(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -577,7 +577,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_circle_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -599,7 +599,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_circle_stop(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -621,7 +621,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_circle_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -643,7 +643,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_circle_user(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -665,7 +665,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_circle_xmark(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -687,7 +687,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_circle(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -709,7 +709,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_clipboard(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -731,7 +731,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_clock(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -753,7 +753,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_clone(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -775,7 +775,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_closed_captioning(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -797,7 +797,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_comment_dots(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -819,7 +819,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_comment(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -841,7 +841,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_comments(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -863,7 +863,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_compass(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -885,7 +885,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_copy(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -907,7 +907,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_copyright(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -929,7 +929,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_credit_card(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -951,7 +951,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_envelope_open(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -973,7 +973,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_envelope(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -995,7 +995,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_eye_slash(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1017,7 +1017,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_eye(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1039,7 +1039,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_angry(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1061,7 +1061,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_dizzy(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1083,7 +1083,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_flushed(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1105,7 +1105,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_frown_open(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1127,7 +1127,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_frown(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1149,7 +1149,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_grimace(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1171,7 +1171,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_grin_beam_sweat(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1193,7 +1193,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_grin_beam(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1215,7 +1215,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_grin_hearts(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1237,7 +1237,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_grin_squint_tears(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1259,7 +1259,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_grin_squint(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1281,7 +1281,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_grin_stars(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1303,7 +1303,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_grin_tears(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1325,7 +1325,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_grin_tongue_squint(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1347,7 +1347,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_grin_tongue_wink(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1369,7 +1369,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_grin_tongue(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1391,7 +1391,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_grin_wide(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1413,7 +1413,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_grin_wink(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1435,7 +1435,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_grin(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1457,7 +1457,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_kiss_beam(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1479,7 +1479,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_kiss_wink_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1501,7 +1501,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_kiss(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1523,7 +1523,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_laugh_beam(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1545,7 +1545,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_laugh_squint(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1567,7 +1567,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_laugh_wink(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1589,7 +1589,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_laugh(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1611,7 +1611,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_meh_blank(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1633,7 +1633,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_meh(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1655,7 +1655,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_rolling_eyes(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1677,7 +1677,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_sad_cry(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1699,7 +1699,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_sad_tear(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1721,7 +1721,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_smile_beam(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1743,7 +1743,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_smile_wink(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1765,7 +1765,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_smile(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1787,7 +1787,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_surprise(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1809,7 +1809,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_face_tired(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1831,7 +1831,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_file_audio(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1853,7 +1853,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_file_code(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1875,7 +1875,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_file_excel(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1897,7 +1897,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_file_image(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1919,7 +1919,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_file_lines(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1941,7 +1941,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_file_pdf(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1963,7 +1963,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_file_powerpoint(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -1985,7 +1985,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_file_video(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2007,7 +2007,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_file_word(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2029,7 +2029,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_file_zipper(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2051,7 +2051,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_file(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2073,7 +2073,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_flag(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2095,7 +2095,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_floppy_disk(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2117,7 +2117,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_folder_closed(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2139,7 +2139,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_folder_open(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2161,7 +2161,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_folder(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2183,7 +2183,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_font_awesome(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2205,7 +2205,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_futbol(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2227,7 +2227,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_gem(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2249,7 +2249,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_hand_back_fist(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2271,7 +2271,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_hand_lizard(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2293,7 +2293,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_hand_peace(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2315,7 +2315,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_hand_point_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2337,7 +2337,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_hand_point_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2359,7 +2359,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_hand_point_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2381,7 +2381,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_hand_point_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2403,7 +2403,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_hand_pointer(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2425,7 +2425,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_hand_scissors(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2447,7 +2447,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_hand_spock(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2469,7 +2469,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_hand(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2491,7 +2491,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_handshake(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2513,7 +2513,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_hard_drive(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2535,7 +2535,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_heart(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2557,7 +2557,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_hospital(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2579,7 +2579,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_hourglass(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2601,7 +2601,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_id_badge(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2623,7 +2623,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_id_card(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2645,7 +2645,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_image(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2667,7 +2667,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_images(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2689,7 +2689,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_keyboard(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2711,7 +2711,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_lemon(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2733,7 +2733,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_life_ring(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2755,7 +2755,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_lightbulb(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2777,7 +2777,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_map(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2799,7 +2799,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_message(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2821,7 +2821,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_money_bill_1(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2843,7 +2843,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_moon(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2865,7 +2865,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_newspaper(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2887,7 +2887,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_note_sticky(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2909,7 +2909,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_object_group(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2931,7 +2931,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_object_ungroup(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2953,7 +2953,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_paper_plane(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2975,7 +2975,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_paste(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -2997,7 +2997,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_pen_to_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3019,7 +3019,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_rectangle_list(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3041,7 +3041,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_rectangle_xmark(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3063,7 +3063,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_registered(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3085,7 +3085,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_share_from_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3107,7 +3107,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_snowflake(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3129,7 +3129,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_square_caret_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3151,7 +3151,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_square_caret_left(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3173,7 +3173,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_square_caret_right(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3195,7 +3195,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_square_caret_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3217,7 +3217,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_square_check(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3239,7 +3239,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_square_full(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3261,7 +3261,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_square_minus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3283,7 +3283,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_square_plus(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3305,7 +3305,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_square(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3327,7 +3327,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_star_half_stroke(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3349,7 +3349,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_star_half(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3371,7 +3371,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_star(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3393,7 +3393,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_sun(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3415,7 +3415,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_thumbs_down(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3437,7 +3437,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_thumbs_up(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3459,7 +3459,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_trash_can(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3481,7 +3481,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_user(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3503,7 +3503,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_window_maximize(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3525,7 +3525,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_window_minimize(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
@@ -3547,7 +3547,7 @@ impl IconData {
         #[inline(never)]
         fn font_awesome_regular_window_restore(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,

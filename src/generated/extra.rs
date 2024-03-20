@@ -5,7 +5,7 @@ impl IconData {
         #[inline(never)]
         fn extra_google_play(
             crate::IconProps {
-                icon_data: _,
+                data: _,
                 title,
                 width,
                 height,
