@@ -140,7 +140,7 @@ fn main() {
             icon_data.push(quote! {
                 const #constant: Self = {
                     #[inline(never)]
-                    fn #function(crate::IconProps{icon_id: _, title, width, height, onclick, oncontextmenu, class, style, role}: &crate::IconProps) -> yew::Html {
+                    fn #function(crate::IconProps{icon_data: _, title, width, height, onclick, oncontextmenu, class, style, role}: &crate::IconProps) -> yew::Html {
                         yew::html! {
                             #svg_tokens
                         }
