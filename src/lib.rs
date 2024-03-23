@@ -9,6 +9,8 @@ use yew::prelude::*;
 #[cfg(not(feature = "generator"))]
 use yew::virtual_dom::AttrValue;
 
+/// SVG icon design. Enable icon collections, consisting of
+/// associated constants, with feature flags.
 #[derive(Copy, Clone)]
 #[cfg(not(feature = "generator"))]
 pub struct IconData {
@@ -43,7 +45,7 @@ impl std::fmt::Debug for IconData {
     }
 }
 
-/// For customizing icon rendering. Only `icon_id` is required.
+/// For customizing icon rendering. Only `data` is required.
 #[cfg(not(feature = "generator"))]
 #[derive(Properties, PartialEq)]
 pub struct IconProps {

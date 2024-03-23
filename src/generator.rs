@@ -85,6 +85,7 @@ fn main() {
 
             let (first_tag, remainder) = svg.split_once('>').unwrap();
             let mut first_tag = first_tag.to_owned() + ">";
+            let (remainder, _last_tag) = remainder.rsplit_once('<').unwrap();
             let remainder = remainder.to_owned();
 
             assert!(first_tag.len() > 5, "{}", first_tag);
@@ -131,7 +132,10 @@ fn main() {
 
             let svg = first_tag
                 + "if let Some(title) = title.clone() { <title>{title}</title> }"
-                + &remainder;
+                + &remainder
+                // Would work if it weren't for XMLNS
+                // + &format!("{{yew::Html::from_html_unchecked(yew::virtual_dom::AttrValue::from(r##\"{remainder}\"##))}}")
+                + "</svg>";
             let svg_tokens = TokenStream::from_str(&svg).expect(&path);
 
             let constant_name = name.to_case(Case::UpperSnake);

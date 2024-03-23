@@ -42,5 +42,8 @@ yew_icons = { path = "..", features = [
     "heroicons_mini_solid",
     "lucide",
     "octicons",
+    #"lipis_flag_icons_1_x_1",
+    #"lipis_flag_icons_4_x_3"
+    #"simple_icons",
 ] }
 wasm-bindgen = "0.2.84"
