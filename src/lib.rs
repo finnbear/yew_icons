@@ -2,8 +2,6 @@
 
 #[cfg(not(feature = "generator"))]
 mod generated;
-#[cfg(not(feature = "generator"))]
-pub use generated::{get_svg, IconId};
 
 #[cfg(not(feature = "generator"))]
 use yew::prelude::*;
@@ -11,12 +9,48 @@ use yew::prelude::*;
 #[cfg(not(feature = "generator"))]
 use yew::virtual_dom::AttrValue;
 
-/// For customizing icon rendering. Only `icon_id` is required.
+/// SVG icon design. Enable icon collections, consisting of
+/// associated constants, with feature flags.
+#[derive(Copy, Clone)]
+#[cfg(not(feature = "generator"))]
+pub struct IconData {
+    name: &'static str,
+    html: fn(props: &IconProps) -> Html,
+}
+
+#[cfg(not(feature = "generator"))]
+impl PartialEq for IconData {
+    fn eq(&self, other: &Self) -> bool {
+        self.name.eq(other.name)
+    }
+}
+#[cfg(not(feature = "generator"))]
+impl Eq for IconData {}
+#[cfg(not(feature = "generator"))]
+impl Ord for IconData {
+    fn cmp(&self, other: &Self) -> std::cmp::Ordering {
+        self.name.cmp(other.name)
+    }
+}
+#[cfg(not(feature = "generator"))]
+impl PartialOrd for IconData {
+    fn partial_cmp(&self, other: &Self) -> Option<std::cmp::Ordering> {
+        Some(self.cmp(other))
+    }
+}
+#[cfg(not(feature = "generator"))]
+impl std::fmt::Debug for IconData {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        f.write_str(self.name)
+    }
+}
+
+/// For customizing icon rendering. Only `data` is required.
 #[cfg(not(feature = "generator"))]
 #[derive(Properties, PartialEq)]
 pub struct IconProps {
-    /// Which icon to render. Enable icons with feature flags.
-    pub icon_id: IconId,
+    /// Which icon to render. Enable icon collections with feature flags.
+    pub data: IconData,
     /// Tooltip text.
     #[prop_or(None)]
     pub title: Option<AttrValue>,
@@ -37,7 +71,8 @@ pub struct IconProps {
     pub class: Classes,
     /// For inline CSS.
     #[prop_or(None)]
-    pub style: Option<AttrValue>, 
+    pub style: Option<AttrValue>,
+    /// For accessibility.
     #[prop_or(None)]
     pub role: Option<AttrValue>,
 }
@@ -61,38 +96,34 @@ pub struct IconProps {
 #[cfg(not(feature = "generator"))]
 #[function_component(Icon)]
 pub fn icon(props: &IconProps) -> Html {
-    get_svg(props)
+    (props.data.html)(props)
 }
 
 #[cfg(test)]
 mod test {
-    use crate::{Icon, IconId, IconProps};
-    use enum_iterator::IntoEnumIterator;
+    use crate::{Icon, IconData, IconProps};
     use yew::prelude::*;
 
     #[tokio::test]
     async fn test() {
-        for icon_id in IconId::into_enum_iter() {
-            println!("rendering icon {:?}", icon_id);
-            let icon_id = icon_id.clone();
-            let renderer = yew::ServerRenderer::<Icon>::with_props(move || IconProps {
-                icon_id,
-                width: "2em".into(),
-                height: "3em".into(),
-                onclick: Some(Callback::from(|_e: MouseEvent| {})),
-                class: Classes::new(),
-                oncontextmenu: None,
-                style: None,
-                title: None,
-                role: Some("presentation".into()),
-            });
+        let data = IconData::HELLO_WORLD;
+        let renderer = yew::ServerRenderer::<Icon>::with_props(move || IconProps {
+            data,
+            width: "2em".into(),
+            height: "3em".into(),
+            onclick: Some(Callback::from(|_e: MouseEvent| {})),
+            class: Classes::new(),
+            oncontextmenu: None,
+            style: None,
+            title: None,
+            role: Some("presentation".into()),
+        });
 
-            let rendered = renderer.render().await;
+        let rendered = renderer.render().await;
 
-            assert!(rendered.contains("2em"), "{:?} {}", icon_id, rendered);
-            assert!(rendered.contains("3em"), "{:?} {}", icon_id, rendered);
+        assert!(rendered.contains("2em"), "{data:?} {}", rendered);
+        assert!(rendered.contains("3em"), "{data:?} {}", rendered);
 
-            //println!("{:?} => {}", icon_id, rendered);
-        }
+        //println!("{:?} => {}", icon_id, rendered);
     }
 }

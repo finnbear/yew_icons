@@ -1,7 +1,7 @@
 use wasm_bindgen::{prelude::Closure, JsCast};
 use web_sys::{window, ScrollBehavior};
 use yew::prelude::*;
-use yew_icons::{Icon, IconId};
+use yew_icons::{Icon, IconData};
 
 #[derive(PartialEq, Properties)]
 pub struct ScrollToTopProps {
@@ -59,7 +59,7 @@ pub fn ScrollToTop(props: &ScrollToTopProps) -> Html {
 
     html! {
         <button class="scroll-to-top-btn" onclick={scroll_to_top}>
-            <Icon icon_id={IconId::BootstrapArrowUpShort} />
+            <Icon data={IconData::BOOTSTRAP_ARROW_UP_SHORT} />
         </button>
     }
 }

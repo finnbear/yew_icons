@@ -8,15 +8,9 @@ use std::process::{Command, Stdio};
 use std::str::FromStr;
 
 fn main() {
-    struct Feature {
-        name: String,
-        children: Vec<String>,
-    }
-
-    let mut variants = Vec::new();
-    let mut cases = Vec::new();
     let mut features = Vec::new();
     let mut imports = Vec::new();
+    let mut enumerate: Vec<_> = Vec::new();
 
     let width_regex = Regex::new(r##"[^-]width="[0-9a-z]*""##).unwrap();
     let height_regex = Regex::new(r##"[^-]height="[0-9a-z]*""##).unwrap();
@@ -32,14 +26,9 @@ fn main() {
     create_dir_all("src/generated").unwrap();
 
     let mut generate = |prefix: &str, dir: &str, license: &str| {
-        let mut function_mods = Vec::new();
-
         let feature_name = prefix.to_case(Case::Snake);
         let feature_ident = to_ident(&feature_name);
-        let mut collection_feature = Feature {
-            name: feature_name.clone(),
-            children: Vec::new(),
-        };
+        let mut icon_data = Vec::new();
 
         let result = read_dir(dir);
         let mut paths: Vec<_> = result
@@ -51,14 +40,14 @@ fn main() {
 
         paths.sort();
 
-        create_dir_all(format!("src/generated/{}", feature_name)).unwrap();
-
         for path in paths {
             let file_name = path.split('/').last().unwrap();
             if !file_name.ends_with(".svg") {
                 panic!("never happens?");
             }
             let icon_name = file_name.split('.').next().unwrap();
+
+            // Would like to use collection::NAME but NAME might start with a number.
             let name = prefix.to_owned() + "-" + icon_name;
 
             let contents = read(&path).expect(&path);
@@ -96,6 +85,7 @@ fn main() {
 
             let (first_tag, remainder) = svg.split_once('>').unwrap();
             let mut first_tag = first_tag.to_owned() + ">";
+            let (remainder, _last_tag) = remainder.rsplit_once('<').unwrap();
             let remainder = remainder.to_owned();
 
             assert!(first_tag.len() > 5, "{}", first_tag);
@@ -142,80 +132,54 @@ fn main() {
 
             let svg = first_tag
                 + "if let Some(title) = title.clone() { <title>{title}</title> }"
-                + &remainder;
+                + &remainder
+                // Would work if it weren't for XMLNS
+                // + &format!("{{yew::Html::from_html_unchecked(yew::virtual_dom::AttrValue::from(r##\"{remainder}\"##))}}")
+                + "</svg>";
             let svg_tokens = TokenStream::from_str(&svg).expect(&path);
 
+            let constant_name = name.to_case(Case::UpperSnake);
+            let constant = to_ident(&constant_name);
             let function_name = name.to_case(Case::Snake);
-            let function_ident = to_ident(&function_name);
+            let function = to_ident(&function_name);
 
-            let variant_name = name.to_case(Case::UpperCamel);
-            let variant = to_ident(&variant_name);
-            variants.push(quote! {
-                #[cfg(feature = #variant_name)]
-                #variant
-            });
-
-            collection_feature.children.push(variant_name.clone());
-            features.push(Feature {
-                name: variant_name.clone(),
-                children: Vec::new(),
-            });
-
-            // Don't need when export separate mods #[cfg(feature = #variant_name)]
-            let tokens = quote! {
-                use crate::IconProps;
-
-                #[inline(never)]
-                pub fn #function_ident(IconProps{icon_id: _, title, width, height, onclick, oncontextmenu, class, style, role}: &IconProps) -> yew::Html {
-                    yew::html! {
-                        #svg_tokens
+            icon_data.push(quote! {
+                pub const #constant: Self = {
+                    #[inline(never)]
+                    fn #function(crate::IconProps{data: _, title, width, height, onclick, oncontextmenu, class, style, role}: &crate::IconProps) -> yew::Html {
+                        yew::html! {
+                            #svg_tokens
+                        }
                     }
-                }
-            };
 
-            let output = tokens.to_string(); // reformat(tokens.to_string(), true).unwrap();
-            write(
-                format!("src/generated/{}/{}.rs", feature_name, function_name),
-                output,
-            )
-            .unwrap();
-
-            function_mods.push(quote! {
-                #[cfg(feature = #variant_name)]
-                pub mod #function_ident;
+                    Self {
+                        name: #constant_name,
+                        html: #function,
+                    }
+                };
             });
 
-            cases.push(quote! {
-                #[cfg(feature = #variant_name)]
-                IconId::#variant => #feature_ident::#function_ident::#function_ident(props)
+            enumerate.push(quote! {
+                #[cfg(feature = #feature_name)]
+                Self::#constant,
             });
         }
 
-        let children: Vec<_> = collection_feature
-            .children
-            .iter()
-            .map(|f| {
-                quote! {
-                    feature = #f
-                }
-            })
-            .collect();
-
         imports.push(quote! {
-            #[cfg(any(
-                #(#children),*
-            ))]
+            #[cfg(feature = #feature_name)]
             mod #feature_ident;
         });
 
-        features.push(collection_feature);
-
         let tokens = quote! {
-            #(#function_mods)*
+            impl crate::IconData {
+                #(#icon_data)*
+            }
         };
 
         let output = reformat(tokens.to_string(), true).unwrap();
         write(format!("src/generated/{}.rs", feature_name), output).unwrap();
+
+        features.push(feature_name);
     };
 
     let font_awesome_license = r##"Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc."##;
@@ -294,50 +258,28 @@ fn main() {
         "simple-icons/icons",
         r##"From https://github.com/simple-icons/simple-icons - Licensed under CC0; check brand guidelines"##,
     );
-    generate(
-        "Extra",
-        "extra",
-        r##"Check brand guidelines"##,
-    );
+    generate("Extra", "extra", r##"Check brand guidelines"##);
 
     let tokens = quote! {
-        /// Identifies which icon to render. Variants are all disabled by default, but can be
-        /// enabled by adding the feature flag of the same name.
-        #[derive(Copy, Clone, Eq, PartialEq, Debug)]
-        #[cfg_attr(feature = "iterate_icon_id", derive(enum_iterator::IntoEnumIterator))]
-        #[non_exhaustive]
-        pub enum IconId {
-            #(#variants),*
-        }
-
-        /// Helper function to get SVG HTML. Made public just in case you don't want the overhead
-        /// of a component.
-        pub fn get_svg(props: &crate::IconProps) -> yew::Html {
-            match props.icon_id {
-                #(#cases),*
-            }
-        }
-
         #(#imports)*
+
+        #[cfg(feature = "_enumerate_icon_data")]
+        impl crate::IconData {
+            #[doc(hidden)]
+            pub const ENUMERATE : &'static [Self] = &[
+                #(#enumerate)*
+            ];
+        }
     };
 
     let output = reformat(tokens.to_string(), false).unwrap();
 
     write("src/generated.rs", output).unwrap();
 
-    features.sort_unstable_by_key(|feature| feature.name.clone());
+    features.sort_unstable_by_key(|feature| feature.clone());
 
     for feature in features {
-        println!(
-            r##"{} = [{}]"##,
-            feature.name,
-            feature
-                .children
-                .into_iter()
-                .map(|c| format!(r##""{}""##, c))
-                .collect::<Vec<_>>()
-                .join(", ")
-        )
+        println!(r##"{} = []"##, feature)
     }
 }
 
