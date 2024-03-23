@@ -72,6 +72,7 @@ pub struct IconProps {
     /// For inline CSS.
     #[prop_or(None)]
     pub style: Option<AttrValue>,
+    /// For accessibility.
     #[prop_or(None)]
     pub role: Option<AttrValue>,
 }

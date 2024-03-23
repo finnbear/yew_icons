@@ -36,20 +36,20 @@ Use the [gallery](https://finnbear.github.io/yew_icons/) to find icons you like,
 # If still using yew 0.20, use yew_icons 0.7.3
 
 [dependencies]
-yew_icons = {version = "0.8", features = ["LucideArrowLeftCircle", "LucideArrowRightCircle", "LucideArrowUpCircle"]}
+yew_icons = {version = "0.8", features = ["lucide"]}
 ```
 
-Then, add an `<Icon>` component with the corresponding icon id, optionally specifying a `width`, `height`, and/or `onclick` callback.
+Then, add an `<Icon>` component with the corresponding icon data, optionally specifying a `width`, `height`, and/or `onclick` callback.
 
 ```rust
 use yew::prelude::*;
-use yew_icons::{Icon, IconId};
+use yew_icons::{Icon, IconData};
 
 html!{
     <>
-        <Icon icon_id={IconId::LucideArrowLeftCircle}/>
-        <Icon icon_id={IconId::LucideArrowUpCircle} width={"2em".to_owned()} height={"2em".to_owned()}/>
-        <Icon icon_id={IconId::LucideArrowRightCircle} onclick={Callback::from(|_: MouseEvent| {})}/>
+        <Icon data={IconData::LUCIDE_ARROW_LEFT_CIRCLE}/>
+        <Icon data={IconData::LUCIDE_ARROW_UP_CIRCLE} width={"2em".to_owned()} height={"2em".to_owned()}/>
+        <Icon data={IconData::LUCIDE_ARROW_RIGHT_CIRCLE} onclick={Callback::from(|_: MouseEvent| {})}/>
     </>
 }
 ```
@@ -58,11 +58,13 @@ html!{
 
 Note: The icons will inherit their parent's CSS `color`.
 
+## 0.9.0 breaking change
+
+To comply with the [new feature flag limit](https://blog.rust-lang.org/2023/10/26/broken-badges-and-23k-keywords.html), `yew_icons` no longer uses a feature per `IconId` enum variant. Instead, use features to enable collections and then use associated constants of `IconData`.
+
 ## Feature Flags
 
 Each icon collection must be included with the corresponding feature flag, such as `lucide` or `font_awesome_solid`.
-
-To save binary size, individual icons can also be included by feature flag, such as `LucideZoomIn` or `FontAwesomeSolidAtom`.
 
 By default, no collections or icons are included. Be warned that including too many icons may result in a `.wasm` binary
 that some WebAssembly engines refuse to load, especially in debug mode (see <https://github.com/rustwasm/wasm-pack/issues/981>).
