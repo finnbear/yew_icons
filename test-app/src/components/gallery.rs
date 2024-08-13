@@ -62,13 +62,12 @@ fn GalleryItem(props: &GalleryItemProps) -> Html {
 
     let onclick = {
         let show_copied = show_copied.clone();
-        let window = window().unwrap();
-        window.navigator().clipboard().map(|clipboard| {
-            Callback::from(move |_: MouseEvent| {
-                log::info!("clicked {:?}", icon_id);
-                let _ = clipboard.write_text(&format!("{:?}", icon_id));
-                show_copied.set(true);
-            })
+        Callback::from(move |_: MouseEvent| {
+            log::info!("clicked {:?}", icon_id);
+            let window = window().unwrap();
+            let clipboard = window.navigator().clipboard();
+            let _ = clipboard.write_text(&format!("{:?}", icon_id));
+            show_copied.set(true);
         })
     };
 
