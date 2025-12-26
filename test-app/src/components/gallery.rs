@@ -1,8 +1,7 @@
-use enum_iterator::IntoEnumIterator;
 use wasm_bindgen::{prelude::Closure, JsCast};
 use web_sys::window;
 use yew::prelude::*;
-use yew_icons::{Icon, IconId};
+use yew_icons::{Icon, IconData};
 
 #[derive(Properties, PartialEq)]
 pub struct GalleryProps {
@@ -11,21 +10,26 @@ pub struct GalleryProps {
 
 #[function_component]
 pub fn Gallery(props: &GalleryProps) -> Html {
-    let initial_icons = use_memo((), |_| IconId::into_enum_iter().collect::<Vec<IconId>>());
+    let initial_icons = use_memo((), |_| {
+        IconData::ENUMERATE
+            .iter()
+            .copied()
+            .map(|data| (format!("{data:?}").to_ascii_uppercase(), data))
+            .collect::<Vec<(String, IconData)>>()
+    });
     let icons = use_memo(props.query.clone(), |query| {
+        let query = query.to_ascii_uppercase();
+        let words = query.split(' ').collect::<Vec<_>>();
         initial_icons
             .iter()
-            .filter(|icon_id| {
-                let title = format!("{:?}", icon_id);
-
-                query.to_ascii_lowercase().split(' ').all(|word| {
+            .map(|(title, data)| {
+                let show = words.iter().all(|word| {
                     title
-                        .to_ascii_lowercase()
-                        .contains(&word.to_ascii_lowercase())
-                })
+                        .contains(word)
+                });
+                (*data, show)
             })
-            .cloned()
-            .collect::<Vec<IconId>>()
+            .collect::<Vec<(IconData, bool)>>()
     });
 
     if icons.is_empty() {
@@ -37,11 +41,13 @@ pub fn Gallery(props: &GalleryProps) -> Html {
     html! {
         <div class="gallery">
             <>
-                {icons.iter().cloned().map(|icon_id| {
-                html_nested! {
-                    <GalleryItem {icon_id}/>
-                }
-            }).collect::<Html>()}
+                {icons.iter().copied().map(|(icon_data, show)| {
+                    html_nested! {
+                        <div style={if show { None } else { Some("display: none;") }}>
+                            <GalleryItem {icon_data}/>
+                        </div>
+                    }
+                }).collect::<Html>()}
             </>
         </div>
     }
@@ -49,24 +55,24 @@ pub fn Gallery(props: &GalleryProps) -> Html {
 
 #[derive(PartialEq, Properties)]
 struct GalleryItemProps {
-    icon_id: IconId,
+    icon_data: IconData,
 }
 
 #[function_component]
 fn GalleryItem(props: &GalleryItemProps) -> Html {
-    let icon_id = props.icon_id;
-    let title = format!("{:?}", icon_id);
+    let icon_data = props.icon_data;
+    let title = format!("{:?}", icon_data);
     let icon_name = title.clone();
     let timeout_ref = use_mut_ref(|| None);
     let show_copied = use_state(|| false);
 
     let onclick = {
+        let title = title.clone();
         let show_copied = show_copied.clone();
         Callback::from(move |_: MouseEvent| {
-            log::info!("clicked {:?}", icon_id);
             let window = window().unwrap();
             let clipboard = window.navigator().clipboard();
-            let _ = clipboard.write_text(&format!("{:?}", icon_id));
+            let _ = clipboard.write_text(&title);
             show_copied.set(true);
         })
     };
@@ -102,11 +108,11 @@ fn GalleryItem(props: &GalleryItemProps) -> Html {
     html! {
         <div class="icon">
             <Icon
-            {title}
-            {icon_id}
-            width={"24"}
-            height={"24"}
-            onclick={onclick}
+                {title}
+                data={icon_data}
+                width={"24"}
+                height={"24"}
+                onclick={onclick}
             />
             <p class="icon-name">{icon_name}</p>
 

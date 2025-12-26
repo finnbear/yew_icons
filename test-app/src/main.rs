@@ -4,7 +4,7 @@ pub use components::{Gallery, Header, ScrollToTop};
 use std::ops::Deref;
 use web_sys::{window, HtmlInputElement};
 use yew::prelude::*;
-use yew_icons::{Icon, IconId};
+use yew_icons::{Icon, IconData};
 
 #[function_component]
 fn App() -> Html {
@@ -25,7 +25,7 @@ fn App() -> Html {
                     <input type="text" placeholder="Search..." {oninput}/>
                     <Icon
                         class="search-icon"
-                        icon_id={IconId::BootstrapSearch}
+                        data={IconData::BOOTSTRAP_SEARCH}
                         width={"20"}
                         height={"20"}
                     />
@@ -35,7 +35,7 @@ fn App() -> Html {
            <>
                 <div style="padding: 10px;">
                     <div class="help-text">
-                        {"Hover/click to get the feature flag/IconId"}
+                        {"Hover/click to get the feature flag/IconData"}
                     </div>
                 </div>
 
@@ -47,7 +47,6 @@ fn App() -> Html {
 }
 
 fn main() {
-    wasm_logger::init(wasm_logger::Config::default());
     let document = window().unwrap().document().unwrap();
     let root = document.get_element_by_id("root").unwrap();
     yew::Renderer::<App>::with_root(root).render();

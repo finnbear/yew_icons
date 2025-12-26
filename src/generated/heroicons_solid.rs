@@ -1,586 +1,884 @@
 // Generated file, do not edit by hand, see `src/generator.rs`
 
-#[cfg(feature = "HeroiconsSolidAcademicCap")]
-pub mod heroicons_solid_academic_cap;
-#[cfg(feature = "HeroiconsSolidAdjustmentsHorizontal")]
-pub mod heroicons_solid_adjustments_horizontal;
-#[cfg(feature = "HeroiconsSolidAdjustmentsVertical")]
-pub mod heroicons_solid_adjustments_vertical;
-#[cfg(feature = "HeroiconsSolidArchiveBox")]
-pub mod heroicons_solid_archive_box;
-#[cfg(feature = "HeroiconsSolidArchiveBoxArrowDown")]
-pub mod heroicons_solid_archive_box_arrow_down;
-#[cfg(feature = "HeroiconsSolidArchiveBoxXMark")]
-pub mod heroicons_solid_archive_box_x_mark;
-#[cfg(feature = "HeroiconsSolidArrowDown")]
-pub mod heroicons_solid_arrow_down;
-#[cfg(feature = "HeroiconsSolidArrowDownCircle")]
-pub mod heroicons_solid_arrow_down_circle;
-#[cfg(feature = "HeroiconsSolidArrowDownLeft")]
-pub mod heroicons_solid_arrow_down_left;
-#[cfg(feature = "HeroiconsSolidArrowDownOnSquare")]
-pub mod heroicons_solid_arrow_down_on_square;
-#[cfg(feature = "HeroiconsSolidArrowDownOnSquareStack")]
-pub mod heroicons_solid_arrow_down_on_square_stack;
-#[cfg(feature = "HeroiconsSolidArrowDownRight")]
-pub mod heroicons_solid_arrow_down_right;
-#[cfg(feature = "HeroiconsSolidArrowDownTray")]
-pub mod heroicons_solid_arrow_down_tray;
-#[cfg(feature = "HeroiconsSolidArrowLeft")]
-pub mod heroicons_solid_arrow_left;
-#[cfg(feature = "HeroiconsSolidArrowLeftCircle")]
-pub mod heroicons_solid_arrow_left_circle;
-#[cfg(feature = "HeroiconsSolidArrowLeftOnRectangle")]
-pub mod heroicons_solid_arrow_left_on_rectangle;
-#[cfg(feature = "HeroiconsSolidArrowLongDown")]
-pub mod heroicons_solid_arrow_long_down;
-#[cfg(feature = "HeroiconsSolidArrowLongLeft")]
-pub mod heroicons_solid_arrow_long_left;
-#[cfg(feature = "HeroiconsSolidArrowLongRight")]
-pub mod heroicons_solid_arrow_long_right;
-#[cfg(feature = "HeroiconsSolidArrowLongUp")]
-pub mod heroicons_solid_arrow_long_up;
-#[cfg(feature = "HeroiconsSolidArrowPath")]
-pub mod heroicons_solid_arrow_path;
-#[cfg(feature = "HeroiconsSolidArrowPathRoundedSquare")]
-pub mod heroicons_solid_arrow_path_rounded_square;
-#[cfg(feature = "HeroiconsSolidArrowRight")]
-pub mod heroicons_solid_arrow_right;
-#[cfg(feature = "HeroiconsSolidArrowRightCircle")]
-pub mod heroicons_solid_arrow_right_circle;
-#[cfg(feature = "HeroiconsSolidArrowRightOnRectangle")]
-pub mod heroicons_solid_arrow_right_on_rectangle;
-#[cfg(feature = "HeroiconsSolidArrowSmallDown")]
-pub mod heroicons_solid_arrow_small_down;
-#[cfg(feature = "HeroiconsSolidArrowSmallLeft")]
-pub mod heroicons_solid_arrow_small_left;
-#[cfg(feature = "HeroiconsSolidArrowSmallRight")]
-pub mod heroicons_solid_arrow_small_right;
-#[cfg(feature = "HeroiconsSolidArrowSmallUp")]
-pub mod heroicons_solid_arrow_small_up;
-#[cfg(feature = "HeroiconsSolidArrowTopRightOnSquare")]
-pub mod heroicons_solid_arrow_top_right_on_square;
-#[cfg(feature = "HeroiconsSolidArrowTrendingDown")]
-pub mod heroicons_solid_arrow_trending_down;
-#[cfg(feature = "HeroiconsSolidArrowTrendingUp")]
-pub mod heroicons_solid_arrow_trending_up;
-#[cfg(feature = "HeroiconsSolidArrowUp")]
-pub mod heroicons_solid_arrow_up;
-#[cfg(feature = "HeroiconsSolidArrowUpCircle")]
-pub mod heroicons_solid_arrow_up_circle;
-#[cfg(feature = "HeroiconsSolidArrowUpLeft")]
-pub mod heroicons_solid_arrow_up_left;
-#[cfg(feature = "HeroiconsSolidArrowUpOnSquare")]
-pub mod heroicons_solid_arrow_up_on_square;
-#[cfg(feature = "HeroiconsSolidArrowUpOnSquareStack")]
-pub mod heroicons_solid_arrow_up_on_square_stack;
-#[cfg(feature = "HeroiconsSolidArrowUpRight")]
-pub mod heroicons_solid_arrow_up_right;
-#[cfg(feature = "HeroiconsSolidArrowUpTray")]
-pub mod heroicons_solid_arrow_up_tray;
-#[cfg(feature = "HeroiconsSolidArrowUturnDown")]
-pub mod heroicons_solid_arrow_uturn_down;
-#[cfg(feature = "HeroiconsSolidArrowUturnLeft")]
-pub mod heroicons_solid_arrow_uturn_left;
-#[cfg(feature = "HeroiconsSolidArrowUturnRight")]
-pub mod heroicons_solid_arrow_uturn_right;
-#[cfg(feature = "HeroiconsSolidArrowUturnUp")]
-pub mod heroicons_solid_arrow_uturn_up;
-#[cfg(feature = "HeroiconsSolidArrowsPointingIn")]
-pub mod heroicons_solid_arrows_pointing_in;
-#[cfg(feature = "HeroiconsSolidArrowsPointingOut")]
-pub mod heroicons_solid_arrows_pointing_out;
-#[cfg(feature = "HeroiconsSolidArrowsRightLeft")]
-pub mod heroicons_solid_arrows_right_left;
-#[cfg(feature = "HeroiconsSolidArrowsUpDown")]
-pub mod heroicons_solid_arrows_up_down;
-#[cfg(feature = "HeroiconsSolidAtSymbol")]
-pub mod heroicons_solid_at_symbol;
-#[cfg(feature = "HeroiconsSolidBackspace")]
-pub mod heroicons_solid_backspace;
-#[cfg(feature = "HeroiconsSolidBackward")]
-pub mod heroicons_solid_backward;
-#[cfg(feature = "HeroiconsSolidBanknotes")]
-pub mod heroicons_solid_banknotes;
-#[cfg(feature = "HeroiconsSolidBars2")]
-pub mod heroicons_solid_bars_2;
-#[cfg(feature = "HeroiconsSolidBars3")]
-pub mod heroicons_solid_bars_3;
-#[cfg(feature = "HeroiconsSolidBars3BottomLeft")]
-pub mod heroicons_solid_bars_3_bottom_left;
-#[cfg(feature = "HeroiconsSolidBars3BottomRight")]
-pub mod heroicons_solid_bars_3_bottom_right;
-#[cfg(feature = "HeroiconsSolidBars3CenterLeft")]
-pub mod heroicons_solid_bars_3_center_left;
-#[cfg(feature = "HeroiconsSolidBars4")]
-pub mod heroicons_solid_bars_4;
-#[cfg(feature = "HeroiconsSolidBarsArrowDown")]
-pub mod heroicons_solid_bars_arrow_down;
-#[cfg(feature = "HeroiconsSolidBarsArrowUp")]
-pub mod heroicons_solid_bars_arrow_up;
-#[cfg(feature = "HeroiconsSolidBattery0")]
-pub mod heroicons_solid_battery_0;
-#[cfg(feature = "HeroiconsSolidBattery100")]
-pub mod heroicons_solid_battery_100;
-#[cfg(feature = "HeroiconsSolidBattery50")]
-pub mod heroicons_solid_battery_50;
-#[cfg(feature = "HeroiconsSolidBeaker")]
-pub mod heroicons_solid_beaker;
-#[cfg(feature = "HeroiconsSolidBell")]
-pub mod heroicons_solid_bell;
-#[cfg(feature = "HeroiconsSolidBellAlert")]
-pub mod heroicons_solid_bell_alert;
-#[cfg(feature = "HeroiconsSolidBellSlash")]
-pub mod heroicons_solid_bell_slash;
-#[cfg(feature = "HeroiconsSolidBellSnooze")]
-pub mod heroicons_solid_bell_snooze;
-#[cfg(feature = "HeroiconsSolidBolt")]
-pub mod heroicons_solid_bolt;
-#[cfg(feature = "HeroiconsSolidBoltSlash")]
-pub mod heroicons_solid_bolt_slash;
-#[cfg(feature = "HeroiconsSolidBookOpen")]
-pub mod heroicons_solid_book_open;
-#[cfg(feature = "HeroiconsSolidBookmark")]
-pub mod heroicons_solid_bookmark;
-#[cfg(feature = "HeroiconsSolidBookmarkSlash")]
-pub mod heroicons_solid_bookmark_slash;
-#[cfg(feature = "HeroiconsSolidBookmarkSquare")]
-pub mod heroicons_solid_bookmark_square;
-#[cfg(feature = "HeroiconsSolidBriefcase")]
-pub mod heroicons_solid_briefcase;
-#[cfg(feature = "HeroiconsSolidBugAnt")]
-pub mod heroicons_solid_bug_ant;
-#[cfg(feature = "HeroiconsSolidBuildingLibrary")]
-pub mod heroicons_solid_building_library;
-#[cfg(feature = "HeroiconsSolidBuildingOffice")]
-pub mod heroicons_solid_building_office;
-#[cfg(feature = "HeroiconsSolidBuildingOffice2")]
-pub mod heroicons_solid_building_office_2;
-#[cfg(feature = "HeroiconsSolidBuildingStorefront")]
-pub mod heroicons_solid_building_storefront;
-#[cfg(feature = "HeroiconsSolidCake")]
-pub mod heroicons_solid_cake;
-#[cfg(feature = "HeroiconsSolidCalculator")]
-pub mod heroicons_solid_calculator;
-#[cfg(feature = "HeroiconsSolidCalendar")]
-pub mod heroicons_solid_calendar;
-#[cfg(feature = "HeroiconsSolidCalendarDays")]
-pub mod heroicons_solid_calendar_days;
-#[cfg(feature = "HeroiconsSolidCamera")]
-pub mod heroicons_solid_camera;
-#[cfg(feature = "HeroiconsSolidChartBar")]
-pub mod heroicons_solid_chart_bar;
-#[cfg(feature = "HeroiconsSolidChartBarSquare")]
-pub mod heroicons_solid_chart_bar_square;
-#[cfg(feature = "HeroiconsSolidChartPie")]
-pub mod heroicons_solid_chart_pie;
-#[cfg(feature = "HeroiconsSolidChatBubbleBottomCenter")]
-pub mod heroicons_solid_chat_bubble_bottom_center;
-#[cfg(feature = "HeroiconsSolidChatBubbleBottomCenterText")]
-pub mod heroicons_solid_chat_bubble_bottom_center_text;
-#[cfg(feature = "HeroiconsSolidChatBubbleLeft")]
-pub mod heroicons_solid_chat_bubble_left;
-#[cfg(feature = "HeroiconsSolidChatBubbleLeftEllipsis")]
-pub mod heroicons_solid_chat_bubble_left_ellipsis;
-#[cfg(feature = "HeroiconsSolidChatBubbleLeftRight")]
-pub mod heroicons_solid_chat_bubble_left_right;
-#[cfg(feature = "HeroiconsSolidChatBubbleOvalLeft")]
-pub mod heroicons_solid_chat_bubble_oval_left;
-#[cfg(feature = "HeroiconsSolidChatBubbleOvalLeftEllipsis")]
-pub mod heroicons_solid_chat_bubble_oval_left_ellipsis;
-#[cfg(feature = "HeroiconsSolidCheck")]
-pub mod heroicons_solid_check;
-#[cfg(feature = "HeroiconsSolidCheckBadge")]
-pub mod heroicons_solid_check_badge;
-#[cfg(feature = "HeroiconsSolidCheckCircle")]
-pub mod heroicons_solid_check_circle;
-#[cfg(feature = "HeroiconsSolidChevronDoubleDown")]
-pub mod heroicons_solid_chevron_double_down;
-#[cfg(feature = "HeroiconsSolidChevronDoubleLeft")]
-pub mod heroicons_solid_chevron_double_left;
-#[cfg(feature = "HeroiconsSolidChevronDoubleRight")]
-pub mod heroicons_solid_chevron_double_right;
-#[cfg(feature = "HeroiconsSolidChevronDoubleUp")]
-pub mod heroicons_solid_chevron_double_up;
-#[cfg(feature = "HeroiconsSolidChevronDown")]
-pub mod heroicons_solid_chevron_down;
-#[cfg(feature = "HeroiconsSolidChevronLeft")]
-pub mod heroicons_solid_chevron_left;
-#[cfg(feature = "HeroiconsSolidChevronRight")]
-pub mod heroicons_solid_chevron_right;
-#[cfg(feature = "HeroiconsSolidChevronUp")]
-pub mod heroicons_solid_chevron_up;
-#[cfg(feature = "HeroiconsSolidChevronUpDown")]
-pub mod heroicons_solid_chevron_up_down;
-#[cfg(feature = "HeroiconsSolidCircleStack")]
-pub mod heroicons_solid_circle_stack;
-#[cfg(feature = "HeroiconsSolidClipboard")]
-pub mod heroicons_solid_clipboard;
-#[cfg(feature = "HeroiconsSolidClipboardDocument")]
-pub mod heroicons_solid_clipboard_document;
-#[cfg(feature = "HeroiconsSolidClipboardDocumentCheck")]
-pub mod heroicons_solid_clipboard_document_check;
-#[cfg(feature = "HeroiconsSolidClipboardDocumentList")]
-pub mod heroicons_solid_clipboard_document_list;
-#[cfg(feature = "HeroiconsSolidClock")]
-pub mod heroicons_solid_clock;
-#[cfg(feature = "HeroiconsSolidCloud")]
-pub mod heroicons_solid_cloud;
-#[cfg(feature = "HeroiconsSolidCloudArrowDown")]
-pub mod heroicons_solid_cloud_arrow_down;
-#[cfg(feature = "HeroiconsSolidCloudArrowUp")]
-pub mod heroicons_solid_cloud_arrow_up;
-#[cfg(feature = "HeroiconsSolidCodeBracket")]
-pub mod heroicons_solid_code_bracket;
-#[cfg(feature = "HeroiconsSolidCodeBracketSquare")]
-pub mod heroicons_solid_code_bracket_square;
-#[cfg(feature = "HeroiconsSolidCog")]
-pub mod heroicons_solid_cog;
-#[cfg(feature = "HeroiconsSolidCog6Tooth")]
-pub mod heroicons_solid_cog_6_tooth;
-#[cfg(feature = "HeroiconsSolidCog8Tooth")]
-pub mod heroicons_solid_cog_8_tooth;
-#[cfg(feature = "HeroiconsSolidCommandLine")]
-pub mod heroicons_solid_command_line;
-#[cfg(feature = "HeroiconsSolidComputerDesktop")]
-pub mod heroicons_solid_computer_desktop;
-#[cfg(feature = "HeroiconsSolidCpuChip")]
-pub mod heroicons_solid_cpu_chip;
-#[cfg(feature = "HeroiconsSolidCreditCard")]
-pub mod heroicons_solid_credit_card;
-#[cfg(feature = "HeroiconsSolidCube")]
-pub mod heroicons_solid_cube;
-#[cfg(feature = "HeroiconsSolidCubeTransparent")]
-pub mod heroicons_solid_cube_transparent;
-#[cfg(feature = "HeroiconsSolidCurrencyBangladeshi")]
-pub mod heroicons_solid_currency_bangladeshi;
-#[cfg(feature = "HeroiconsSolidCurrencyDollar")]
-pub mod heroicons_solid_currency_dollar;
-#[cfg(feature = "HeroiconsSolidCurrencyEuro")]
-pub mod heroicons_solid_currency_euro;
-#[cfg(feature = "HeroiconsSolidCurrencyPound")]
-pub mod heroicons_solid_currency_pound;
-#[cfg(feature = "HeroiconsSolidCurrencyRupee")]
-pub mod heroicons_solid_currency_rupee;
-#[cfg(feature = "HeroiconsSolidCurrencyYen")]
-pub mod heroicons_solid_currency_yen;
-#[cfg(feature = "HeroiconsSolidCursorArrowRays")]
-pub mod heroicons_solid_cursor_arrow_rays;
-#[cfg(feature = "HeroiconsSolidCursorArrowRipple")]
-pub mod heroicons_solid_cursor_arrow_ripple;
-#[cfg(feature = "HeroiconsSolidDevicePhoneMobile")]
-pub mod heroicons_solid_device_phone_mobile;
-#[cfg(feature = "HeroiconsSolidDeviceTablet")]
-pub mod heroicons_solid_device_tablet;
-#[cfg(feature = "HeroiconsSolidDocument")]
-pub mod heroicons_solid_document;
-#[cfg(feature = "HeroiconsSolidDocumentArrowDown")]
-pub mod heroicons_solid_document_arrow_down;
-#[cfg(feature = "HeroiconsSolidDocumentArrowUp")]
-pub mod heroicons_solid_document_arrow_up;
-#[cfg(feature = "HeroiconsSolidDocumentChartBar")]
-pub mod heroicons_solid_document_chart_bar;
-#[cfg(feature = "HeroiconsSolidDocumentCheck")]
-pub mod heroicons_solid_document_check;
-#[cfg(feature = "HeroiconsSolidDocumentDuplicate")]
-pub mod heroicons_solid_document_duplicate;
-#[cfg(feature = "HeroiconsSolidDocumentMagnifyingGlass")]
-pub mod heroicons_solid_document_magnifying_glass;
-#[cfg(feature = "HeroiconsSolidDocumentMinus")]
-pub mod heroicons_solid_document_minus;
-#[cfg(feature = "HeroiconsSolidDocumentPlus")]
-pub mod heroicons_solid_document_plus;
-#[cfg(feature = "HeroiconsSolidDocumentText")]
-pub mod heroicons_solid_document_text;
-#[cfg(feature = "HeroiconsSolidEllipsisHorizontal")]
-pub mod heroicons_solid_ellipsis_horizontal;
-#[cfg(feature = "HeroiconsSolidEllipsisHorizontalCircle")]
-pub mod heroicons_solid_ellipsis_horizontal_circle;
-#[cfg(feature = "HeroiconsSolidEllipsisVertical")]
-pub mod heroicons_solid_ellipsis_vertical;
-#[cfg(feature = "HeroiconsSolidEnvelope")]
-pub mod heroicons_solid_envelope;
-#[cfg(feature = "HeroiconsSolidEnvelopeOpen")]
-pub mod heroicons_solid_envelope_open;
-#[cfg(feature = "HeroiconsSolidExclamationCircle")]
-pub mod heroicons_solid_exclamation_circle;
-#[cfg(feature = "HeroiconsSolidExclamationTriangle")]
-pub mod heroicons_solid_exclamation_triangle;
-#[cfg(feature = "HeroiconsSolidEye")]
-pub mod heroicons_solid_eye;
-#[cfg(feature = "HeroiconsSolidEyeDropper")]
-pub mod heroicons_solid_eye_dropper;
-#[cfg(feature = "HeroiconsSolidEyeSlash")]
-pub mod heroicons_solid_eye_slash;
-#[cfg(feature = "HeroiconsSolidFaceFrown")]
-pub mod heroicons_solid_face_frown;
-#[cfg(feature = "HeroiconsSolidFaceSmile")]
-pub mod heroicons_solid_face_smile;
-#[cfg(feature = "HeroiconsSolidFilm")]
-pub mod heroicons_solid_film;
-#[cfg(feature = "HeroiconsSolidFingerPrint")]
-pub mod heroicons_solid_finger_print;
-#[cfg(feature = "HeroiconsSolidFire")]
-pub mod heroicons_solid_fire;
-#[cfg(feature = "HeroiconsSolidFlag")]
-pub mod heroicons_solid_flag;
-#[cfg(feature = "HeroiconsSolidFolder")]
-pub mod heroicons_solid_folder;
-#[cfg(feature = "HeroiconsSolidFolderArrowDown")]
-pub mod heroicons_solid_folder_arrow_down;
-#[cfg(feature = "HeroiconsSolidFolderMinus")]
-pub mod heroicons_solid_folder_minus;
-#[cfg(feature = "HeroiconsSolidFolderOpen")]
-pub mod heroicons_solid_folder_open;
-#[cfg(feature = "HeroiconsSolidFolderPlus")]
-pub mod heroicons_solid_folder_plus;
-#[cfg(feature = "HeroiconsSolidForward")]
-pub mod heroicons_solid_forward;
-#[cfg(feature = "HeroiconsSolidFunnel")]
-pub mod heroicons_solid_funnel;
-#[cfg(feature = "HeroiconsSolidGif")]
-pub mod heroicons_solid_gif;
-#[cfg(feature = "HeroiconsSolidGift")]
-pub mod heroicons_solid_gift;
-#[cfg(feature = "HeroiconsSolidGiftTop")]
-pub mod heroicons_solid_gift_top;
-#[cfg(feature = "HeroiconsSolidGlobeAlt")]
-pub mod heroicons_solid_globe_alt;
-#[cfg(feature = "HeroiconsSolidGlobeAmericas")]
-pub mod heroicons_solid_globe_americas;
-#[cfg(feature = "HeroiconsSolidGlobeAsiaAustralia")]
-pub mod heroicons_solid_globe_asia_australia;
-#[cfg(feature = "HeroiconsSolidGlobeEuropeAfrica")]
-pub mod heroicons_solid_globe_europe_africa;
-#[cfg(feature = "HeroiconsSolidHandRaised")]
-pub mod heroicons_solid_hand_raised;
-#[cfg(feature = "HeroiconsSolidHandThumbDown")]
-pub mod heroicons_solid_hand_thumb_down;
-#[cfg(feature = "HeroiconsSolidHandThumbUp")]
-pub mod heroicons_solid_hand_thumb_up;
-#[cfg(feature = "HeroiconsSolidHashtag")]
-pub mod heroicons_solid_hashtag;
-#[cfg(feature = "HeroiconsSolidHeart")]
-pub mod heroicons_solid_heart;
-#[cfg(feature = "HeroiconsSolidHome")]
-pub mod heroicons_solid_home;
-#[cfg(feature = "HeroiconsSolidHomeModern")]
-pub mod heroicons_solid_home_modern;
-#[cfg(feature = "HeroiconsSolidIdentification")]
-pub mod heroicons_solid_identification;
-#[cfg(feature = "HeroiconsSolidInbox")]
-pub mod heroicons_solid_inbox;
-#[cfg(feature = "HeroiconsSolidInboxArrowDown")]
-pub mod heroicons_solid_inbox_arrow_down;
-#[cfg(feature = "HeroiconsSolidInboxStack")]
-pub mod heroicons_solid_inbox_stack;
-#[cfg(feature = "HeroiconsSolidInformationCircle")]
-pub mod heroicons_solid_information_circle;
-#[cfg(feature = "HeroiconsSolidKey")]
-pub mod heroicons_solid_key;
-#[cfg(feature = "HeroiconsSolidLanguage")]
-pub mod heroicons_solid_language;
-#[cfg(feature = "HeroiconsSolidLifebuoy")]
-pub mod heroicons_solid_lifebuoy;
-#[cfg(feature = "HeroiconsSolidLightBulb")]
-pub mod heroicons_solid_light_bulb;
-#[cfg(feature = "HeroiconsSolidLink")]
-pub mod heroicons_solid_link;
-#[cfg(feature = "HeroiconsSolidListBullet")]
-pub mod heroicons_solid_list_bullet;
-#[cfg(feature = "HeroiconsSolidLockClosed")]
-pub mod heroicons_solid_lock_closed;
-#[cfg(feature = "HeroiconsSolidLockOpen")]
-pub mod heroicons_solid_lock_open;
-#[cfg(feature = "HeroiconsSolidMagnifyingGlass")]
-pub mod heroicons_solid_magnifying_glass;
-#[cfg(feature = "HeroiconsSolidMagnifyingGlassCircle")]
-pub mod heroicons_solid_magnifying_glass_circle;
-#[cfg(feature = "HeroiconsSolidMagnifyingGlassMinus")]
-pub mod heroicons_solid_magnifying_glass_minus;
-#[cfg(feature = "HeroiconsSolidMagnifyingGlassPlus")]
-pub mod heroicons_solid_magnifying_glass_plus;
-#[cfg(feature = "HeroiconsSolidMap")]
-pub mod heroicons_solid_map;
-#[cfg(feature = "HeroiconsSolidMapPin")]
-pub mod heroicons_solid_map_pin;
-#[cfg(feature = "HeroiconsSolidMegaphone")]
-pub mod heroicons_solid_megaphone;
-#[cfg(feature = "HeroiconsSolidMicrophone")]
-pub mod heroicons_solid_microphone;
-#[cfg(feature = "HeroiconsSolidMinus")]
-pub mod heroicons_solid_minus;
-#[cfg(feature = "HeroiconsSolidMinusCircle")]
-pub mod heroicons_solid_minus_circle;
-#[cfg(feature = "HeroiconsSolidMinusSmall")]
-pub mod heroicons_solid_minus_small;
-#[cfg(feature = "HeroiconsSolidMoon")]
-pub mod heroicons_solid_moon;
-#[cfg(feature = "HeroiconsSolidMusicalNote")]
-pub mod heroicons_solid_musical_note;
-#[cfg(feature = "HeroiconsSolidNewspaper")]
-pub mod heroicons_solid_newspaper;
-#[cfg(feature = "HeroiconsSolidNoSymbol")]
-pub mod heroicons_solid_no_symbol;
-#[cfg(feature = "HeroiconsSolidPaintBrush")]
-pub mod heroicons_solid_paint_brush;
-#[cfg(feature = "HeroiconsSolidPaperAirplane")]
-pub mod heroicons_solid_paper_airplane;
-#[cfg(feature = "HeroiconsSolidPaperClip")]
-pub mod heroicons_solid_paper_clip;
-#[cfg(feature = "HeroiconsSolidPause")]
-pub mod heroicons_solid_pause;
-#[cfg(feature = "HeroiconsSolidPauseCircle")]
-pub mod heroicons_solid_pause_circle;
-#[cfg(feature = "HeroiconsSolidPencil")]
-pub mod heroicons_solid_pencil;
-#[cfg(feature = "HeroiconsSolidPencilSquare")]
-pub mod heroicons_solid_pencil_square;
-#[cfg(feature = "HeroiconsSolidPhone")]
-pub mod heroicons_solid_phone;
-#[cfg(feature = "HeroiconsSolidPhoneArrowDownLeft")]
-pub mod heroicons_solid_phone_arrow_down_left;
-#[cfg(feature = "HeroiconsSolidPhoneArrowUpRight")]
-pub mod heroicons_solid_phone_arrow_up_right;
-#[cfg(feature = "HeroiconsSolidPhoneXMark")]
-pub mod heroicons_solid_phone_x_mark;
-#[cfg(feature = "HeroiconsSolidPhoto")]
-pub mod heroicons_solid_photo;
-#[cfg(feature = "HeroiconsSolidPlay")]
-pub mod heroicons_solid_play;
-#[cfg(feature = "HeroiconsSolidPlayCircle")]
-pub mod heroicons_solid_play_circle;
-#[cfg(feature = "HeroiconsSolidPlayPause")]
-pub mod heroicons_solid_play_pause;
-#[cfg(feature = "HeroiconsSolidPlus")]
-pub mod heroicons_solid_plus;
-#[cfg(feature = "HeroiconsSolidPlusCircle")]
-pub mod heroicons_solid_plus_circle;
-#[cfg(feature = "HeroiconsSolidPlusSmall")]
-pub mod heroicons_solid_plus_small;
-#[cfg(feature = "HeroiconsSolidPower")]
-pub mod heroicons_solid_power;
-#[cfg(feature = "HeroiconsSolidPresentationChartBar")]
-pub mod heroicons_solid_presentation_chart_bar;
-#[cfg(feature = "HeroiconsSolidPresentationChartLine")]
-pub mod heroicons_solid_presentation_chart_line;
-#[cfg(feature = "HeroiconsSolidPrinter")]
-pub mod heroicons_solid_printer;
-#[cfg(feature = "HeroiconsSolidPuzzlePiece")]
-pub mod heroicons_solid_puzzle_piece;
-#[cfg(feature = "HeroiconsSolidQrCode")]
-pub mod heroicons_solid_qr_code;
-#[cfg(feature = "HeroiconsSolidQuestionMarkCircle")]
-pub mod heroicons_solid_question_mark_circle;
-#[cfg(feature = "HeroiconsSolidQueueList")]
-pub mod heroicons_solid_queue_list;
-#[cfg(feature = "HeroiconsSolidRadio")]
-pub mod heroicons_solid_radio;
-#[cfg(feature = "HeroiconsSolidReceiptPercent")]
-pub mod heroicons_solid_receipt_percent;
-#[cfg(feature = "HeroiconsSolidReceiptRefund")]
-pub mod heroicons_solid_receipt_refund;
-#[cfg(feature = "HeroiconsSolidRectangleGroup")]
-pub mod heroicons_solid_rectangle_group;
-#[cfg(feature = "HeroiconsSolidRectangleStack")]
-pub mod heroicons_solid_rectangle_stack;
-#[cfg(feature = "HeroiconsSolidRocketLaunch")]
-pub mod heroicons_solid_rocket_launch;
-#[cfg(feature = "HeroiconsSolidRss")]
-pub mod heroicons_solid_rss;
-#[cfg(feature = "HeroiconsSolidScale")]
-pub mod heroicons_solid_scale;
-#[cfg(feature = "HeroiconsSolidScissors")]
-pub mod heroicons_solid_scissors;
-#[cfg(feature = "HeroiconsSolidServer")]
-pub mod heroicons_solid_server;
-#[cfg(feature = "HeroiconsSolidServerStack")]
-pub mod heroicons_solid_server_stack;
-#[cfg(feature = "HeroiconsSolidShare")]
-pub mod heroicons_solid_share;
-#[cfg(feature = "HeroiconsSolidShieldCheck")]
-pub mod heroicons_solid_shield_check;
-#[cfg(feature = "HeroiconsSolidShieldExclamation")]
-pub mod heroicons_solid_shield_exclamation;
-#[cfg(feature = "HeroiconsSolidShoppingBag")]
-pub mod heroicons_solid_shopping_bag;
-#[cfg(feature = "HeroiconsSolidShoppingCart")]
-pub mod heroicons_solid_shopping_cart;
-#[cfg(feature = "HeroiconsSolidSignal")]
-pub mod heroicons_solid_signal;
-#[cfg(feature = "HeroiconsSolidSignalSlash")]
-pub mod heroicons_solid_signal_slash;
-#[cfg(feature = "HeroiconsSolidSparkles")]
-pub mod heroicons_solid_sparkles;
-#[cfg(feature = "HeroiconsSolidSpeakerWave")]
-pub mod heroicons_solid_speaker_wave;
-#[cfg(feature = "HeroiconsSolidSpeakerXMark")]
-pub mod heroicons_solid_speaker_x_mark;
-#[cfg(feature = "HeroiconsSolidSquare2Stack")]
-pub mod heroicons_solid_square_2_stack;
-#[cfg(feature = "HeroiconsSolidSquare3Stack3D")]
-pub mod heroicons_solid_square_3_stack_3_d;
-#[cfg(feature = "HeroiconsSolidSquares2X2")]
-pub mod heroicons_solid_squares_2_x_2;
-#[cfg(feature = "HeroiconsSolidSquaresPlus")]
-pub mod heroicons_solid_squares_plus;
-#[cfg(feature = "HeroiconsSolidStar")]
-pub mod heroicons_solid_star;
-#[cfg(feature = "HeroiconsSolidStop")]
-pub mod heroicons_solid_stop;
-#[cfg(feature = "HeroiconsSolidStopCircle")]
-pub mod heroicons_solid_stop_circle;
-#[cfg(feature = "HeroiconsSolidSun")]
-pub mod heroicons_solid_sun;
-#[cfg(feature = "HeroiconsSolidSwatch")]
-pub mod heroicons_solid_swatch;
-#[cfg(feature = "HeroiconsSolidTableCells")]
-pub mod heroicons_solid_table_cells;
-#[cfg(feature = "HeroiconsSolidTag")]
-pub mod heroicons_solid_tag;
-#[cfg(feature = "HeroiconsSolidTicket")]
-pub mod heroicons_solid_ticket;
-#[cfg(feature = "HeroiconsSolidTrash")]
-pub mod heroicons_solid_trash;
-#[cfg(feature = "HeroiconsSolidTrophy")]
-pub mod heroicons_solid_trophy;
-#[cfg(feature = "HeroiconsSolidTruck")]
-pub mod heroicons_solid_truck;
-#[cfg(feature = "HeroiconsSolidTv")]
-pub mod heroicons_solid_tv;
-#[cfg(feature = "HeroiconsSolidUser")]
-pub mod heroicons_solid_user;
-#[cfg(feature = "HeroiconsSolidUserCircle")]
-pub mod heroicons_solid_user_circle;
-#[cfg(feature = "HeroiconsSolidUserGroup")]
-pub mod heroicons_solid_user_group;
-#[cfg(feature = "HeroiconsSolidUserMinus")]
-pub mod heroicons_solid_user_minus;
-#[cfg(feature = "HeroiconsSolidUserPlus")]
-pub mod heroicons_solid_user_plus;
-#[cfg(feature = "HeroiconsSolidUsers")]
-pub mod heroicons_solid_users;
-#[cfg(feature = "HeroiconsSolidVariable")]
-pub mod heroicons_solid_variable;
-#[cfg(feature = "HeroiconsSolidVideoCamera")]
-pub mod heroicons_solid_video_camera;
-#[cfg(feature = "HeroiconsSolidVideoCameraSlash")]
-pub mod heroicons_solid_video_camera_slash;
-#[cfg(feature = "HeroiconsSolidViewColumns")]
-pub mod heroicons_solid_view_columns;
-#[cfg(feature = "HeroiconsSolidViewfinderCircle")]
-pub mod heroicons_solid_viewfinder_circle;
-#[cfg(feature = "HeroiconsSolidWallet")]
-pub mod heroicons_solid_wallet;
-#[cfg(feature = "HeroiconsSolidWifi")]
-pub mod heroicons_solid_wifi;
-#[cfg(feature = "HeroiconsSolidWindow")]
-pub mod heroicons_solid_window;
-#[cfg(feature = "HeroiconsSolidWrench")]
-pub mod heroicons_solid_wrench;
-#[cfg(feature = "HeroiconsSolidWrenchScrewdriver")]
-pub mod heroicons_solid_wrench_screwdriver;
-#[cfg(feature = "HeroiconsSolidXCircle")]
-pub mod heroicons_solid_x_circle;
-#[cfg(feature = "HeroiconsSolidXMark")]
-pub mod heroicons_solid_x_mark;
+static COLLECTION: crate::IconCollection = crate::IconCollection {
+    name: "HEROICONS_SOLID",
+    license: "From https://github.com/tailwindlabs/heroicons - Licensed under MIT",
+};
+impl crate::IconData {
+    pub const HEROICONS_SOLID_ACADEMIC_CAP: Self = {
+        Self { collection : & COLLECTION , name : "ACADEMIC_CAP" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M11.7 2.805a.75.75 0 0 1 .6 0A60.65 60.65 0 0 1 22.83 8.72a.75.75 0 0 1-.231 1.337 49.95 49.95 0 0 0-9.902 3.912l-.003.002-.34.18a.75.75 0 0 1-.707 0A50 50 0 0 0 7.5 12.174v-.224c0-.131.067-.248.172-.311a54.6 54.6 0 0 1 4.653-2.52.75.75 0 0 0-.65-1.352 56.1 56.1 0 0 0-4.78 2.589 1.858 1.858 0 0 0-.859 1.228 49.8 49.8 0 0 0-4.634-1.527.75.75 0 0 1-.231-1.337A60.65 60.65 0 0 1 11.7 2.805\"/><path d=\"M13.06 15.473a48.45 48.45 0 0 1 7.666-3.282c.134 1.414.22 2.843.255 4.285a.75.75 0 0 1-.46.71 47.9 47.9 0 0 0-8.105 4.342.75.75 0 0 1-.832 0 47.9 47.9 0 0 0-8.104-4.342.75.75 0 0 1-.461-.71c.035-1.442.121-2.87.255-4.286A48.4 48.4 0 0 1 6 13.18v1.27a1.5 1.5 0 0 0-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.661a6.73 6.73 0 0 0 .551-1.608 1.5 1.5 0 0 0 .14-2.67v-.645a48.6 48.6 0 0 1 3.44 1.668 2.25 2.25 0 0 0 2.12 0z\"/><path d=\"M4.462 19.462c.42-.419.753-.89 1-1.394.453.213.902.434 1.347.661a6.74 6.74 0 0 1-1.286 1.794.75.75 0 1 1-1.06-1.06z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ADJUSTMENTS_HORIZONTAL: Self = {
+        Self { collection : & COLLECTION , name : "ADJUSTMENTS_HORIZONTAL" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M18.75 12.75h1.5a.75.75 0 0 0 0-1.5h-1.5a.75.75 0 0 0 0 1.5M12 6a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 12 6m0 12a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 12 18M3.75 6.75h1.5a.75.75 0 1 0 0-1.5h-1.5a.75.75 0 0 0 0 1.5m1.5 12h-1.5a.75.75 0 0 1 0-1.5h1.5a.75.75 0 0 1 0 1.5M3 12a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 3 12m6-8.25a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5M12.75 12a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0M9 15.75a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ADJUSTMENTS_VERTICAL: Self = {
+        Self { collection : & COLLECTION , name : "ADJUSTMENTS_VERTICAL" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M6 12a.75.75 0 0 1-.75-.75v-7.5a.75.75 0 1 1 1.5 0v7.5A.75.75 0 0 1 6 12m12 0a.75.75 0 0 1-.75-.75v-7.5a.75.75 0 0 1 1.5 0v7.5A.75.75 0 0 1 18 12M6.75 20.25v-1.5a.75.75 0 0 0-1.5 0v1.5a.75.75 0 0 0 1.5 0m12-1.5v1.5a.75.75 0 0 1-1.5 0v-1.5a.75.75 0 0 1 1.5 0m-6-13.5v-1.5a.75.75 0 0 0-1.5 0v1.5a.75.75 0 0 0 1.5 0M12 21a.75.75 0 0 1-.75-.75v-7.5a.75.75 0 0 1 1.5 0v7.5A.75.75 0 0 1 12 21m-8.25-6a2.25 2.25 0 1 0 4.5 0 2.25 2.25 0 0 0-4.5 0M12 11.25a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5M15.75 15a2.25 2.25 0 1 0 4.5 0 2.25 2.25 0 0 0-4.5 0\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARCHIVE_BOX_ARROW_DOWN: Self = {
+        Self { collection : & COLLECTION , name : "ARCHIVE_BOX_ARROW_DOWN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M3.375 3C2.339 3 1.5 3.84 1.5 4.875v.75c0 1.036.84 1.875 1.875 1.875h17.25c1.035 0 1.875-.84 1.875-1.875v-.75C22.5 3.839 21.66 3 20.625 3z\"/><path fill-rule=\"evenodd\" d=\"m3.087 9 .54 9.176A3 3 0 0 0 6.62 21h10.757a3 3 0 0 0 2.995-2.824L20.913 9zM12 10.5a.75.75 0 0 1 .75.75v4.94l1.72-1.72a.75.75 0 1 1 1.06 1.06l-3 3a.75.75 0 0 1-1.06 0l-3-3a.75.75 0 1 1 1.06-1.06l1.72 1.72v-4.94a.75.75 0 0 1 .75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARCHIVE_BOX_X_MARK: Self = {
+        Self { collection : & COLLECTION , name : "ARCHIVE_BOX_X_MARK" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M3.375 3C2.339 3 1.5 3.84 1.5 4.875v.75c0 1.036.84 1.875 1.875 1.875h17.25c1.035 0 1.875-.84 1.875-1.875v-.75C22.5 3.839 21.66 3 20.625 3z\"/><path fill-rule=\"evenodd\" d=\"m3.087 9 .54 9.176A3 3 0 0 0 6.62 21h10.757a3 3 0 0 0 2.995-2.824L20.913 9zm6.133 2.845a.75.75 0 0 1 1.06 0l1.72 1.72 1.72-1.72a.75.75 0 1 1 1.06 1.06l-1.72 1.72 1.72 1.72a.75.75 0 1 1-1.06 1.06L12 15.685l-1.72 1.72a.75.75 0 1 1-1.06-1.06l1.72-1.72-1.72-1.72a.75.75 0 0 1 0-1.06\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARCHIVE_BOX: Self = {
+        Self { collection : & COLLECTION , name : "ARCHIVE_BOX" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M3.375 3C2.339 3 1.5 3.84 1.5 4.875v.75c0 1.036.84 1.875 1.875 1.875h17.25c1.035 0 1.875-.84 1.875-1.875v-.75C22.5 3.839 21.66 3 20.625 3z\"/><path fill-rule=\"evenodd\" d=\"m3.087 9 .54 9.176A3 3 0 0 0 6.62 21h10.757a3 3 0 0 0 2.995-2.824L20.913 9zm6.163 3.75A.75.75 0 0 1 10 12h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_DOWN_CIRCLE: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_DOWN_CIRCLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25m-.53 14.03a.75.75 0 0 0 1.06 0l3-3a.75.75 0 1 0-1.06-1.06l-1.72 1.72V8.25a.75.75 0 0 0-1.5 0v5.69l-1.72-1.72a.75.75 0 0 0-1.06 1.06z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_DOWN_LEFT: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_DOWN_LEFT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M20.03 3.97a.75.75 0 0 1 0 1.06L6.31 18.75h9.44a.75.75 0 0 1 0 1.5H4.5a.75.75 0 0 1-.75-.75V8.25a.75.75 0 0 1 1.5 0v9.44L18.97 3.97a.75.75 0 0 1 1.06 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_DOWN_ON_SQUARE_STACK: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_DOWN_ON_SQUARE_STACK" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M9.75 6.75h-3a3 3 0 0 0-3 3v7.5a3 3 0 0 0 3 3h7.5a3 3 0 0 0 3-3v-7.5a3 3 0 0 0-3-3h-3V1.5a.75.75 0 0 0-1.5 0zm0 0h1.5v5.69l1.72-1.72a.75.75 0 1 1 1.06 1.06l-3 3a.75.75 0 0 1-1.06 0l-3-3a.75.75 0 1 1 1.06-1.06l1.72 1.72z\" clip-rule=\"evenodd\"/><path d=\"M7.151 21.75a2.999 2.999 0 0 0 2.599 1.5h7.5a3 3 0 0 0 3-3v-7.5c0-1.11-.603-2.08-1.5-2.599v7.099a4.5 4.5 0 0 1-4.5 4.5z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_DOWN_ON_SQUARE: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_DOWN_ON_SQUARE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M12 1.5a.75.75 0 0 1 .75.75V7.5h-1.5V2.25A.75.75 0 0 1 12 1.5m-.75 6v5.69l-1.72-1.72a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l3-3a.75.75 0 1 0-1.06-1.06l-1.72 1.72V7.5h3.75a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-9a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_DOWN_RIGHT: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_DOWN_RIGHT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M3.97 3.97a.75.75 0 0 1 1.06 0l13.72 13.72V8.25a.75.75 0 0 1 1.5 0V19.5a.75.75 0 0 1-.75.75H8.25a.75.75 0 0 1 0-1.5h9.44L3.97 5.03a.75.75 0 0 1 0-1.06\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_DOWN_TRAY: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_DOWN_TRAY" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25a.75.75 0 0 1 .75.75v11.69l3.22-3.22a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 1 1 1.06-1.06l3.22 3.22V3a.75.75 0 0 1 .75-.75m-9 13.5a.75.75 0 0 1 .75.75v2.25a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V16.5a.75.75 0 0 1 1.5 0v2.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V16.5a.75.75 0 0 1 .75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_DOWN: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_DOWN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25a.75.75 0 0 1 .75.75v16.19l6.22-6.22a.75.75 0 1 1 1.06 1.06l-7.5 7.5a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 1 1 1.06-1.06l6.22 6.22V3a.75.75 0 0 1 .75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_LEFT_CIRCLE: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_LEFT_CIRCLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25m-4.28 9.22a.75.75 0 0 0 0 1.06l3 3a.75.75 0 1 0 1.06-1.06l-1.72-1.72h5.69a.75.75 0 0 0 0-1.5h-5.69l1.72-1.72a.75.75 0 0 0-1.06-1.06z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_LEFT_ON_RECTANGLE: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_LEFT_ON_RECTANGLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M7.5 3.75A1.5 1.5 0 0 0 6 5.25v13.5a1.5 1.5 0 0 0 1.5 1.5h6a1.5 1.5 0 0 0 1.5-1.5V15a.75.75 0 0 1 1.5 0v3.75a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3V5.25a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3V9A.75.75 0 0 1 15 9V5.25a1.5 1.5 0 0 0-1.5-1.5zm5.03 4.72a.75.75 0 0 1 0 1.06l-1.72 1.72h10.94a.75.75 0 0 1 0 1.5H10.81l1.72 1.72a.75.75 0 1 1-1.06 1.06l-3-3a.75.75 0 0 1 0-1.06l3-3a.75.75 0 0 1 1.06 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_LEFT: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_LEFT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M11.03 3.97a.75.75 0 0 1 0 1.06l-6.22 6.22H21a.75.75 0 0 1 0 1.5H4.81l6.22 6.22a.75.75 0 1 1-1.06 1.06l-7.5-7.5a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 0 1 1.06 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_LONG_DOWN: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_LONG_DOWN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25a.75.75 0 0 1 .75.75v16.19l2.47-2.47a.75.75 0 1 1 1.06 1.06l-3.75 3.75a.75.75 0 0 1-1.06 0l-3.75-3.75a.75.75 0 1 1 1.06-1.06l2.47 2.47V3a.75.75 0 0 1 .75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_LONG_LEFT: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_LONG_LEFT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M7.28 7.72a.75.75 0 0 1 0 1.06l-2.47 2.47H21a.75.75 0 0 1 0 1.5H4.81l2.47 2.47a.75.75 0 1 1-1.06 1.06l-3.75-3.75a.75.75 0 0 1 0-1.06l3.75-3.75a.75.75 0 0 1 1.06 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_LONG_RIGHT: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_LONG_RIGHT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_LONG_UP: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_LONG_UP" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M11.47 2.47a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1-1.06 1.06l-2.47-2.47V21a.75.75 0 0 1-1.5 0V4.81L8.78 7.28a.75.75 0 0 1-1.06-1.06z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_PATH_ROUNDED_SQUARE: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_PATH_ROUNDED_SQUARE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 5.25c1.213 0 2.415.046 3.605.135a3.256 3.256 0 0 1 3.01 3.01c.044.583.077 1.17.1 1.759L17.03 8.47a.75.75 0 1 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l3-3a.75.75 0 0 0-1.06-1.06l-1.752 1.751c-.023-.65-.06-1.296-.108-1.939a4.756 4.756 0 0 0-4.392-4.392 49.4 49.4 0 0 0-7.436 0A4.756 4.756 0 0 0 3.89 8.282a37 37 0 0 0-.046.672.75.75 0 1 0 1.497.092c.013-.217.028-.434.044-.651a3.256 3.256 0 0 1 3.01-3.01c1.19-.09 2.392-.135 3.605-.135m-6.97 6.22a.75.75 0 0 0-1.06 0l-3 3a.75.75 0 1 0 1.06 1.06l1.752-1.751c.023.65.06 1.296.108 1.939a4.756 4.756 0 0 0 4.392 4.392 49.4 49.4 0 0 0 7.436 0 4.756 4.756 0 0 0 4.392-4.392c.017-.223.032-.447.046-.672a.75.75 0 0 0-1.497-.092c-.013.217-.028.434-.044.651a3.256 3.256 0 0 1-3.01 3.01 47.95 47.95 0 0 1-7.21 0 3.256 3.256 0 0 1-3.01-3.01 48 48 0 0 1-.1-1.759L6.97 15.53a.75.75 0 0 0 1.06-1.06z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_PATH: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_PATH" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M4.755 10.059a7.5 7.5 0 0 1 12.548-3.364l1.903 1.903h-3.183a.75.75 0 1 0 0 1.5h4.992a.75.75 0 0 0 .75-.75V4.356a.75.75 0 0 0-1.5 0v3.18l-1.9-1.9A9 9 0 0 0 3.306 9.67a.75.75 0 1 0 1.45.388zm15.408 3.352a.75.75 0 0 0-.919.53 7.5 7.5 0 0 1-12.548 3.364l-1.902-1.903h3.183a.75.75 0 0 0 0-1.5H2.984a.75.75 0 0 0-.75.75v4.992a.75.75 0 0 0 1.5 0v-3.18l1.9 1.9a9 9 0 0 0 15.059-4.035.75.75 0 0 0-.53-.918\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_RIGHT_CIRCLE: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_RIGHT_CIRCLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25m4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_RIGHT_ON_RECTANGLE: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_RIGHT_ON_RECTANGLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M7.5 3.75A1.5 1.5 0 0 0 6 5.25v13.5a1.5 1.5 0 0 0 1.5 1.5h6a1.5 1.5 0 0 0 1.5-1.5V15a.75.75 0 0 1 1.5 0v3.75a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3V5.25a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3V9A.75.75 0 0 1 15 9V5.25a1.5 1.5 0 0 0-1.5-1.5zm10.72 4.72a.75.75 0 0 1 1.06 0l3 3a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 1 1-1.06-1.06l1.72-1.72H9a.75.75 0 0 1 0-1.5h10.94l-1.72-1.72a.75.75 0 0 1 0-1.06\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_RIGHT: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_RIGHT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_SMALL_DOWN: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_SMALL_DOWN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 3.75a.75.75 0 0 1 .75.75v13.19l5.47-5.47a.75.75 0 1 1 1.06 1.06l-6.75 6.75a.75.75 0 0 1-1.06 0l-6.75-6.75a.75.75 0 1 1 1.06-1.06l5.47 5.47V4.5a.75.75 0 0 1 .75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_SMALL_LEFT: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_SMALL_LEFT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M20.25 12a.75.75 0 0 1-.75.75H6.31l5.47 5.47a.75.75 0 1 1-1.06 1.06l-6.75-6.75a.75.75 0 0 1 0-1.06l6.75-6.75a.75.75 0 1 1 1.06 1.06l-5.47 5.47H19.5a.75.75 0 0 1 .75.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_SMALL_RIGHT: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_SMALL_RIGHT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M3.75 12a.75.75 0 0 1 .75-.75h13.19l-5.47-5.47a.75.75 0 0 1 1.06-1.06l6.75 6.75a.75.75 0 0 1 0 1.06l-6.75 6.75a.75.75 0 1 1-1.06-1.06l5.47-5.47H4.5a.75.75 0 0 1-.75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_SMALL_UP: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_SMALL_UP" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 20.25a.75.75 0 0 1-.75-.75V6.31l-5.47 5.47a.75.75 0 0 1-1.06-1.06l6.75-6.75a.75.75 0 0 1 1.06 0l6.75 6.75a.75.75 0 1 1-1.06 1.06l-5.47-5.47V19.5a.75.75 0 0 1-.75.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_TOP_RIGHT_ON_SQUARE: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_TOP_RIGHT_ON_SQUARE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M15.75 2.25H21a.75.75 0 0 1 .75.75v5.25a.75.75 0 0 1-1.5 0V4.81L8.03 17.03a.75.75 0 0 1-1.06-1.06L19.19 3.75h-3.44a.75.75 0 0 1 0-1.5m-10.5 4.5a1.5 1.5 0 0 0-1.5 1.5v10.5a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5V10.5a.75.75 0 0 1 1.5 0v8.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V8.25a3 3 0 0 1 3-3h8.25a.75.75 0 0 1 0 1.5z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_TRENDING_DOWN: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_TRENDING_DOWN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M1.72 5.47a.75.75 0 0 1 1.06 0L9 11.69l3.756-3.756a.75.75 0 0 1 .985-.066 12.698 12.698 0 0 1 4.575 6.832l.308 1.149 2.277-3.943a.75.75 0 1 1 1.299.75l-3.182 5.51a.75.75 0 0 1-1.025.275l-5.511-3.181a.75.75 0 0 1 .75-1.3l3.943 2.277-.308-1.149a11.194 11.194 0 0 0-3.528-5.617l-3.809 3.81a.75.75 0 0 1-1.06 0L1.72 6.53a.75.75 0 0 1 0-1.061z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_TRENDING_UP: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_TRENDING_UP" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M15.22 6.268a.75.75 0 0 1 .968-.432l5.942 2.28a.75.75 0 0 1 .431.97l-2.28 5.941a.75.75 0 1 1-1.4-.537l1.63-4.251-1.086.483a11.2 11.2 0 0 0-5.45 5.174.75.75 0 0 1-1.199.19L9 12.31l-6.22 6.22a.75.75 0 1 1-1.06-1.06l6.75-6.75a.75.75 0 0 1 1.06 0l3.606 3.605a12.694 12.694 0 0 1 5.68-4.973l1.086-.484-4.251-1.631a.75.75 0 0 1-.432-.97z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_UP_CIRCLE: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_UP_CIRCLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25m.53 5.47a.75.75 0 0 0-1.06 0l-3 3a.75.75 0 1 0 1.06 1.06l1.72-1.72v5.69a.75.75 0 0 0 1.5 0v-5.69l1.72 1.72a.75.75 0 1 0 1.06-1.06z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_UP_LEFT: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_UP_LEFT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M5.25 6.31v9.44a.75.75 0 0 1-1.5 0V4.5a.75.75 0 0 1 .75-.75h11.25a.75.75 0 0 1 0 1.5H6.31l13.72 13.72a.75.75 0 1 1-1.06 1.06z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_UP_ON_SQUARE_STACK: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_UP_ON_SQUARE_STACK" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M9.97.97a.75.75 0 0 1 1.06 0l3 3a.75.75 0 0 1-1.06 1.06l-1.72-1.72v3.44h-1.5V3.31L8.03 5.03a.75.75 0 0 1-1.06-1.06zm-.22 5.78v6a.75.75 0 0 0 1.5 0v-6h3a3 3 0 0 1 3 3v7.5a3 3 0 0 1-3 3h-7.5a3 3 0 0 1-3-3v-7.5a3 3 0 0 1 3-3z\"/><path d=\"M7.151 21.75a2.999 2.999 0 0 0 2.599 1.5h7.5a3 3 0 0 0 3-3v-7.5c0-1.11-.603-2.08-1.5-2.599v7.099a4.5 4.5 0 0 1-4.5 4.5z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_UP_ON_SQUARE: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_UP_ON_SQUARE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M11.47 1.72a.75.75 0 0 1 1.06 0l3 3a.75.75 0 0 1-1.06 1.06l-1.72-1.72V7.5h-1.5V4.06L9.53 5.78a.75.75 0 0 1-1.06-1.06zm-.22 5.78V15a.75.75 0 0 0 1.5 0V7.5h3.75a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-9a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_UP_RIGHT: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_UP_RIGHT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_UP_TRAY: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_UP_TRAY" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M11.47 2.47a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.06 1.06l-3.22-3.22V16.5a.75.75 0 0 1-1.5 0V4.81L8.03 8.03a.75.75 0 0 1-1.06-1.06zM3 15.75a.75.75 0 0 1 .75.75v2.25a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V16.5a.75.75 0 0 1 1.5 0v2.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V16.5a.75.75 0 0 1 .75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_UP: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_UP" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M11.47 2.47a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06l-6.22-6.22V21a.75.75 0 0 1-1.5 0V4.81l-6.22 6.22a.75.75 0 1 1-1.06-1.06z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_UTURN_DOWN: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_UTURN_DOWN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M15 3.75A5.25 5.25 0 0 0 9.75 9v10.19l4.72-4.72a.75.75 0 1 1 1.06 1.06l-6 6a.75.75 0 0 1-1.06 0l-6-6a.75.75 0 1 1 1.06-1.06l4.72 4.72V9a6.75 6.75 0 0 1 13.5 0v3a.75.75 0 0 1-1.5 0V9c0-2.9-2.35-5.25-5.25-5.25\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_UTURN_LEFT: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_UTURN_LEFT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M9.53 2.47a.75.75 0 0 1 0 1.06L4.81 8.25H15a6.75 6.75 0 0 1 0 13.5h-3a.75.75 0 0 1 0-1.5h3a5.25 5.25 0 1 0 0-10.5H4.81l4.72 4.72a.75.75 0 1 1-1.06 1.06l-6-6a.75.75 0 0 1 0-1.06l6-6a.75.75 0 0 1 1.06 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_UTURN_RIGHT: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_UTURN_RIGHT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M14.47 2.47a.75.75 0 0 1 1.06 0l6 6a.75.75 0 0 1 0 1.06l-6 6a.75.75 0 1 1-1.06-1.06l4.72-4.72H9a5.25 5.25 0 1 0 0 10.5h3a.75.75 0 0 1 0 1.5H9a6.75 6.75 0 0 1 0-13.5h10.19l-4.72-4.72a.75.75 0 0 1 0-1.06\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROW_UTURN_UP: Self = {
+        Self { collection : & COLLECTION , name : "ARROW_UTURN_UP" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M21.53 9.53a.75.75 0 0 1-1.06 0l-4.72-4.72V15a6.75 6.75 0 0 1-13.5 0v-3a.75.75 0 0 1 1.5 0v3a5.25 5.25 0 1 0 10.5 0V4.81L9.53 9.53a.75.75 0 0 1-1.06-1.06l6-6a.75.75 0 0 1 1.06 0l6 6a.75.75 0 0 1 0 1.06\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROWS_POINTING_IN: Self = {
+        Self { collection : & COLLECTION , name : "ARROWS_POINTING_IN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M3.22 3.22a.75.75 0 0 1 1.06 0l3.97 3.97V4.5a.75.75 0 0 1 1.5 0V9a.75.75 0 0 1-.75.75H4.5a.75.75 0 0 1 0-1.5h2.69L3.22 4.28a.75.75 0 0 1 0-1.06m17.56 0a.75.75 0 0 1 0 1.06l-3.97 3.97h2.69a.75.75 0 0 1 0 1.5H15a.75.75 0 0 1-.75-.75V4.5a.75.75 0 0 1 1.5 0v2.69l3.97-3.97a.75.75 0 0 1 1.06 0M3.75 15a.75.75 0 0 1 .75-.75H9a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0v-2.69l-3.97 3.97a.75.75 0 0 1-1.06-1.06l3.97-3.97H4.5a.75.75 0 0 1-.75-.75m10.5 0a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-2.69l3.97 3.97a.75.75 0 1 1-1.06 1.06l-3.97-3.97v2.69a.75.75 0 0 1-1.5 0z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROWS_POINTING_OUT: Self = {
+        Self { collection : & COLLECTION , name : "ARROWS_POINTING_OUT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M15 3.75a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0V5.56l-3.97 3.97a.75.75 0 1 1-1.06-1.06l3.97-3.97h-2.69a.75.75 0 0 1-.75-.75m-12 0A.75.75 0 0 1 3.75 3h4.5a.75.75 0 0 1 0 1.5H5.56l3.97 3.97a.75.75 0 0 1-1.06 1.06L4.5 5.56v2.69a.75.75 0 0 1-1.5 0zm11.47 11.78a.75.75 0 1 1 1.06-1.06l3.97 3.97v-2.69a.75.75 0 0 1 1.5 0v4.5a.75.75 0 0 1-.75.75h-4.5a.75.75 0 0 1 0-1.5h2.69zm-4.94-1.06a.75.75 0 0 1 0 1.06L5.56 19.5h2.69a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 1 1.5 0v2.69l3.97-3.97a.75.75 0 0 1 1.06 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROWS_RIGHT_LEFT: Self = {
+        Self { collection : & COLLECTION , name : "ARROWS_RIGHT_LEFT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M15.97 2.47a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1 0 1.06l-4.5 4.5a.75.75 0 1 1-1.06-1.06l3.22-3.22H7.5a.75.75 0 0 1 0-1.5h11.69l-3.22-3.22a.75.75 0 0 1 0-1.06m-7.94 9a.75.75 0 0 1 0 1.06l-3.22 3.22H16.5a.75.75 0 0 1 0 1.5H4.81l3.22 3.22a.75.75 0 1 1-1.06 1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 0 1 1.06 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ARROWS_UP_DOWN: Self = {
+        Self { collection : & COLLECTION , name : "ARROWS_UP_DOWN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M6.97 2.47a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.06 1.06L8.25 4.81V16.5a.75.75 0 0 1-1.5 0V4.81L3.53 8.03a.75.75 0 0 1-1.06-1.06zm9.53 4.28a.75.75 0 0 1 .75.75v11.69l3.22-3.22a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 1 1 1.06-1.06l3.22 3.22V7.5a.75.75 0 0 1 .75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_AT_SYMBOL: Self = {
+        Self { collection : & COLLECTION , name : "AT_SYMBOL" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M17.834 6.166a8.25 8.25 0 1 0 0 11.668.75.75 0 0 1 1.06 1.06c-3.807 3.808-9.98 3.808-13.788 0-3.808-3.807-3.808-9.98 0-13.788 3.807-3.808 9.98-3.808 13.788 0A9.722 9.722 0 0 1 21.75 12c0 .975-.296 1.887-.809 2.571-.514.685-1.28 1.179-2.191 1.179-.904 0-1.666-.487-2.18-1.164a5.25 5.25 0 1 1-.82-6.26V8.25a.75.75 0 0 1 1.5 0V12c0 .682.208 1.27.509 1.671.3.401.659.579.991.579s.69-.178.991-.579c.3-.4.509-.99.509-1.671a8.222 8.222 0 0 0-2.416-5.834M15.75 12a3.75 3.75 0 1 0-7.5 0 3.75 3.75 0 0 0 7.5 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BACKSPACE: Self = {
+        Self { collection : & COLLECTION , name : "BACKSPACE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M2.515 10.674a1.875 1.875 0 0 0 0 2.652L8.89 19.7c.352.351.829.549 1.326.549H19.5a3 3 0 0 0 3-3V6.75a3 3 0 0 0-3-3h-9.284c-.497 0-.974.198-1.326.55zM12.53 9.22a.75.75 0 1 0-1.06 1.06L13.19 12l-1.72 1.72a.75.75 0 1 0 1.06 1.06l1.72-1.72 1.72 1.72a.75.75 0 1 0 1.06-1.06L15.31 12l1.72-1.72a.75.75 0 1 0-1.06-1.06l-1.72 1.72z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BACKWARD: Self = {
+        Self { collection : & COLLECTION , name : "BACKWARD" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M9.195 18.44c1.25.713 2.805-.19 2.805-1.629v-2.34l6.945 3.968c1.25.714 2.805-.188 2.805-1.628V8.688c0-1.44-1.555-2.342-2.805-1.628L12 11.03V8.69c0-1.44-1.555-2.343-2.805-1.629l-7.108 4.062c-1.26.72-1.26 2.536 0 3.256z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BANKNOTES: Self = {
+        Self { collection : & COLLECTION , name : "BANKNOTES" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M12 7.5a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5\"/><path fill-rule=\"evenodd\" d=\"M1.5 4.875C1.5 3.839 2.34 3 3.375 3h17.25c1.035 0 1.875.84 1.875 1.875v9.75c0 1.036-.84 1.875-1.875 1.875H3.375A1.875 1.875 0 0 1 1.5 14.625zM8.25 9.75a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0M18.75 9a.75.75 0 0 0-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 0 0 .75-.75V9.75a.75.75 0 0 0-.75-.75zM4.5 9.75A.75.75 0 0 1 5.25 9h.008a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75H5.25a.75.75 0 0 1-.75-.75z\" clip-rule=\"evenodd\"/><path d=\"M2.25 18a.75.75 0 0 0 0 1.5c5.4 0 10.63.722 15.6 2.075 1.19.324 2.4-.558 2.4-1.82V18.75a.75.75 0 0 0-.75-.75z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BARS_2: Self = {
+        Self { collection : & COLLECTION , name : "BARS_2" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M3 9a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 9m0 6.75a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BARS_3_BOTTOM_LEFT: Self = {
+        Self { collection : & COLLECTION , name : "BARS_3_BOTTOM_LEFT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75M3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12m0 5.25a.75.75 0 0 1 .75-.75H12a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BARS_3_BOTTOM_RIGHT: Self = {
+        Self { collection : & COLLECTION , name : "BARS_3_BOTTOM_RIGHT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75M3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12m8.25 5.25a.75.75 0 0 1 .75-.75h8.25a.75.75 0 0 1 0 1.5H12a.75.75 0 0 1-.75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BARS_3_CENTER_LEFT: Self = {
+        Self { collection : & COLLECTION , name : "BARS_3_CENTER_LEFT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75M3 12a.75.75 0 0 1 .75-.75H12a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12m0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BARS_3: Self = {
+        Self { collection : & COLLECTION , name : "BARS_3" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75M3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12m0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BARS_4: Self = {
+        Self { collection : & COLLECTION , name : "BARS_4" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M3 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 5.25m0 4.5A.75.75 0 0 1 3.75 9h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 9.75m0 4.5a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75m0 4.5a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BARS_ARROW_DOWN: Self = {
+        Self { collection : & COLLECTION , name : "BARS_ARROW_DOWN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M2.25 4.5A.75.75 0 0 1 3 3.75h14.25a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75m0 4.5A.75.75 0 0 1 3 8.25h9.75a.75.75 0 0 1 0 1.5H3A.75.75 0 0 1 2.25 9m15-.75A.75.75 0 0 1 18 9v10.19l2.47-2.47a.75.75 0 1 1 1.06 1.06l-3.75 3.75a.75.75 0 0 1-1.06 0l-3.75-3.75a.75.75 0 1 1 1.06-1.06l2.47 2.47V9a.75.75 0 0 1 .75-.75m-15 5.25a.75.75 0 0 1 .75-.75h9.75a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BARS_ARROW_UP: Self = {
+        Self { collection : & COLLECTION , name : "BARS_ARROW_UP" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M2.25 4.5A.75.75 0 0 1 3 3.75h14.25a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75m14.47 3.97a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 1 1-1.06 1.06L18 10.81V21a.75.75 0 0 1-1.5 0V10.81l-2.47 2.47a.75.75 0 1 1-1.06-1.06zM2.25 9A.75.75 0 0 1 3 8.25h9.75a.75.75 0 0 1 0 1.5H3A.75.75 0 0 1 2.25 9m0 4.5a.75.75 0 0 1 .75-.75h5.25a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BATTERY_0: Self = {
+        Self { collection : & COLLECTION , name : "BATTERY_0" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M.75 9.75a3 3 0 0 1 3-3h15a3 3 0 0 1 3 3v.038c.856.173 1.5.93 1.5 1.837v2.25c0 .907-.644 1.664-1.5 1.838v.037a3 3 0 0 1-3 3h-15a3 3 0 0 1-3-3zm19.5 0a1.5 1.5 0 0 0-1.5-1.5h-15a1.5 1.5 0 0 0-1.5 1.5v6a1.5 1.5 0 0 0 1.5 1.5h15a1.5 1.5 0 0 0 1.5-1.5z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BATTERY_100: Self = {
+        Self { collection : & COLLECTION , name : "BATTERY_100" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M3.75 6.75a3 3 0 0 0-3 3v6a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3v-.037c.856-.174 1.5-.93 1.5-1.838v-2.25c0-.907-.644-1.664-1.5-1.837V9.75a3 3 0 0 0-3-3zm15 1.5a1.5 1.5 0 0 1 1.5 1.5v6a1.5 1.5 0 0 1-1.5 1.5h-15a1.5 1.5 0 0 1-1.5-1.5v-6a1.5 1.5 0 0 1 1.5-1.5zM4.5 9.75a.75.75 0 0 0-.75.75V15c0 .414.336.75.75.75H18a.75.75 0 0 0 .75-.75v-4.5a.75.75 0 0 0-.75-.75z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BATTERY_50: Self = {
+        Self { collection : & COLLECTION , name : "BATTERY_50" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M4.5 9.75a.75.75 0 0 0-.75.75V15c0 .414.336.75.75.75h6.75A.75.75 0 0 0 12 15v-4.5a.75.75 0 0 0-.75-.75z\"/><path fill-rule=\"evenodd\" d=\"M3.75 6.75a3 3 0 0 0-3 3v6a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3v-.037c.856-.174 1.5-.93 1.5-1.838v-2.25c0-.907-.644-1.664-1.5-1.837V9.75a3 3 0 0 0-3-3zm15 1.5a1.5 1.5 0 0 1 1.5 1.5v6a1.5 1.5 0 0 1-1.5 1.5h-15a1.5 1.5 0 0 1-1.5-1.5v-6a1.5 1.5 0 0 1 1.5-1.5z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BEAKER: Self = {
+        Self { collection : & COLLECTION , name : "BEAKER" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M10.5 3.798v5.02a3 3 0 0 1-.879 2.121l-2.377 2.377a9.845 9.845 0 0 1 5.091 1.013 8.315 8.315 0 0 0 5.713.636l.285-.071-3.954-3.955a3 3 0 0 1-.879-2.121v-5.02a23.6 23.6 0 0 0-3 0m4.5.138a.75.75 0 0 0 .093-1.495A24.8 24.8 0 0 0 12 2.25a25 25 0 0 0-3.093.191A.75.75 0 0 0 9 3.936v4.882a1.5 1.5 0 0 1-.44 1.06l-6.293 6.294c-1.62 1.621-.903 4.475 1.471 4.88 2.686.46 5.447.698 8.262.698 2.816 0 5.576-.239 8.262-.697 2.373-.406 3.092-3.26 1.47-4.881L15.44 9.879A1.5 1.5 0 0 1 15 8.818z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BELL_ALERT: Self = {
+        Self { collection : & COLLECTION , name : "BELL_ALERT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M5.85 3.5a.75.75 0 0 0-1.117-1 9.72 9.72 0 0 0-2.348 4.876.75.75 0 0 0 1.479.248A8.22 8.22 0 0 1 5.85 3.5m13.417-1a.75.75 0 1 0-1.118 1 8.22 8.22 0 0 1 1.987 4.124.75.75 0 0 0 1.48-.248 9.72 9.72 0 0 0-2.35-4.876z\"/><path fill-rule=\"evenodd\" d=\"M12 2.25A6.75 6.75 0 0 0 5.25 9v.75a8.217 8.217 0 0 1-2.119 5.52.75.75 0 0 0 .298 1.206c1.544.57 3.16.99 4.831 1.243a3.75 3.75 0 1 0 7.48 0 24.6 24.6 0 0 0 4.83-1.244.75.75 0 0 0 .298-1.205 8.217 8.217 0 0 1-2.118-5.52V9A6.75 6.75 0 0 0 12 2.25M9.75 18c0-.034 0-.067.002-.1a25.05 25.05 0 0 0 4.496 0l.002.1a2.25 2.25 0 1 1-4.5 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BELL_SLASH: Self = {
+        Self { collection : & COLLECTION , name : "BELL_SLASH" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M3.53 2.47a.75.75 0 0 0-1.06 1.06l18 18a.75.75 0 1 0 1.06-1.06zm17.04 14.006c-.223.082-.448.161-.674.238L7.319 4.137A6.75 6.75 0 0 1 18.75 9v.75c0 2.123.8 4.057 2.118 5.52a.75.75 0 0 1-.297 1.206z\"/><path fill-rule=\"evenodd\" d=\"M5.25 9c0-.184.007-.366.022-.546l10.384 10.384a3.751 3.751 0 0 1-7.396-1.119 24.6 24.6 0 0 1-4.831-1.244.75.75 0 0 1-.298-1.205A8.217 8.217 0 0 0 5.25 9.75zm4.502 8.9a2.25 2.25 0 1 0 4.496 0 25.06 25.06 0 0 1-4.496 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BELL_SNOOZE: Self = {
+        Self { collection : & COLLECTION , name : "BELL_SNOOZE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25A6.75 6.75 0 0 0 5.25 9v.75a8.217 8.217 0 0 1-2.119 5.52.75.75 0 0 0 .298 1.206c1.544.57 3.16.99 4.831 1.243a3.75 3.75 0 1 0 7.48 0 24.6 24.6 0 0 0 4.83-1.244.75.75 0 0 0 .298-1.205 8.217 8.217 0 0 1-2.118-5.52V9A6.75 6.75 0 0 0 12 2.25M9.75 18c0-.034 0-.067.002-.1a25.05 25.05 0 0 0 4.496 0l.002.1a2.25 2.25 0 1 1-4.5 0m.75-10.5a.75.75 0 0 0 0 1.5h1.599l-2.223 3.334A.75.75 0 0 0 10.5 13.5h3a.75.75 0 0 0 0-1.5h-1.599l2.223-3.334A.75.75 0 0 0 13.5 7.5z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BELL: Self = {
+        Self { collection : & COLLECTION , name : "BELL" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M5.25 9a6.75 6.75 0 0 1 13.5 0v.75c0 2.123.8 4.057 2.118 5.52a.75.75 0 0 1-.297 1.206c-1.544.57-3.16.99-4.831 1.243a3.75 3.75 0 1 1-7.48 0 24.6 24.6 0 0 1-4.831-1.244.75.75 0 0 1-.298-1.205A8.217 8.217 0 0 0 5.25 9.75zm4.502 8.9a2.25 2.25 0 1 0 4.496 0 25.06 25.06 0 0 1-4.496 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BOLT_SLASH: Self = {
+        Self { collection : & COLLECTION , name : "BOLT_SLASH" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"m20.798 11.012-3.188 3.416L9.462 6.28l4.24-4.542a.75.75 0 0 1 1.272.71L12.982 9.75h7.268a.75.75 0 0 1 .548 1.262M3.202 12.988 6.39 9.572l8.148 8.148-4.24 4.542a.75.75 0 0 1-1.272-.71l1.992-7.302H3.75a.75.75 0 0 1-.548-1.262M3.53 2.47a.75.75 0 0 0-1.06 1.06l18 18a.75.75 0 1 0 1.06-1.06z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BOLT: Self = {
+        Self { collection : & COLLECTION , name : "BOLT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M14.615 1.595a.75.75 0 0 1 .359.852L12.982 9.75h7.268a.75.75 0 0 1 .548 1.262l-10.5 11.25a.75.75 0 0 1-1.272-.71l1.992-7.302H3.75a.75.75 0 0 1-.548-1.262l10.5-11.25a.75.75 0 0 1 .913-.143\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BOOK_OPEN: Self = {
+        Self { collection : & COLLECTION , name : "BOOK_OPEN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M11.25 4.533A9.707 9.707 0 0 0 6 3a9.74 9.74 0 0 0-3.25.555.75.75 0 0 0-.5.707v14.25a.75.75 0 0 0 1 .707A8.24 8.24 0 0 1 6 18.75c1.995 0 3.823.707 5.25 1.886zm1.5 16.103A8.214 8.214 0 0 1 18 18.75c.966 0 1.89.166 2.75.47a.75.75 0 0 0 1-.708V4.262a.75.75 0 0 0-.5-.707A9.74 9.74 0 0 0 18 3a9.707 9.707 0 0 0-5.25 1.533z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BOOKMARK_SLASH: Self = {
+        Self { collection : & COLLECTION , name : "BOOKMARK_SLASH" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M3.53 2.47a.75.75 0 0 0-1.06 1.06l18 18a.75.75 0 1 0 1.06-1.06zm16.72 3.037v11.561L5.853 2.671c.15-.043.306-.075.467-.094a49.26 49.26 0 0 1 11.36 0c1.497.174 2.57 1.46 2.57 2.93M3.75 21V6.932l14.063 14.063L12 18.088l-7.165 3.583A.75.75 0 0 1 3.75 21\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BOOKMARK_SQUARE: Self = {
+        Self { collection : & COLLECTION , name : "BOOKMARK_SQUARE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M6 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3zm1.5 1.5a.75.75 0 0 0-.75.75V16.5a.75.75 0 0 0 1.085.67L12 15.089l4.165 2.083a.75.75 0 0 0 1.085-.671V5.25a.75.75 0 0 0-.75-.75z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BOOKMARK: Self = {
+        Self { collection : & COLLECTION , name : "BOOKMARK" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M6.32 2.577a49.26 49.26 0 0 1 11.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 0 1-1.085.67L12 18.089l-7.165 3.583A.75.75 0 0 1 3.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BRIEFCASE: Self = {
+        Self { collection : & COLLECTION , name : "BRIEFCASE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M7.5 5.25a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.73 24.73 0 0 1 12 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A49 49 0 0 1 7.5 5.455zm7.5 0v.09a49.5 49.5 0 0 0-6 0v-.09a1.5 1.5 0 0 1 1.5-1.5h3a1.5 1.5 0 0 1 1.5 1.5m-3 8.25a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5\" clip-rule=\"evenodd\"/><path d=\"M3 18.4v-2.796a4.3 4.3 0 0 0 .713.31A26.23 26.23 0 0 0 12 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.2 49.2 0 0 1-6.477-.427C4.047 21.128 3 19.852 3 18.4\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BUG_ANT: Self = {
+        Self { collection : & COLLECTION , name : "BUG_ANT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M8.478 1.6a.75.75 0 0 1 .273 1.025 3.72 3.72 0 0 0-.425 1.122c.058.057.118.114.18.168A4.491 4.491 0 0 1 12 2.25c1.413 0 2.673.651 3.497 1.668.06-.054.12-.11.178-.167a3.72 3.72 0 0 0-.426-1.126.75.75 0 1 1 1.298-.75 5.22 5.22 0 0 1 .671 2.045.75.75 0 0 1-.187.582c-.241.27-.505.52-.787.749a4.495 4.495 0 0 1 .216 2.1c-.106.792-.753 1.295-1.417 1.403-.182.03-.364.057-.547.081.152.227.273.476.359.741a23.1 23.1 0 0 0 3.832-.802 23.2 23.2 0 0 0-.345-2.634.75.75 0 0 1 1.474-.28c.21 1.115.348 2.256.404 3.418a.75.75 0 0 1-.516.749c-1.527.5-3.119.855-4.76 1.05-.074.38-.22.735-.423 1.05a24.6 24.6 0 0 1 5.943 1.358.75.75 0 0 1 .492.75 24.67 24.67 0 0 1-1.189 6.25.75.75 0 0 1-1.425-.47 23.14 23.14 0 0 0 1.077-5.307c-.5-.168-1.009-.32-1.524-.454.068.234.104.484.104.746 0 3.956-2.521 7.5-6 7.5-3.478 0-6-3.544-6-7.5 0-.262.037-.511.104-.746-.514.134-1.022.286-1.522.454a23.14 23.14 0 0 0 1.077 5.308.75.75 0 0 1-1.425.468 24.66 24.66 0 0 1-1.19-6.25.75.75 0 0 1 .493-.749 24.6 24.6 0 0 1 4.964-1.24h.01c.321-.046.644-.085.969-.118a2.98 2.98 0 0 1-.424-1.05 24.6 24.6 0 0 1-4.76-1.05.75.75 0 0 1-.516-.75c.057-1.161.194-2.302.405-3.417a.75.75 0 0 1 1.474.28c-.164.862-.28 1.74-.345 2.634 1.237.37 2.517.641 3.832.802.085-.265.207-.514.359-.74a19 19 0 0 1-.547-.082c-.664-.108-1.311-.611-1.417-1.403a4.535 4.535 0 0 1 .217-2.103 6.8 6.8 0 0 1-.788-.751.75.75 0 0 1-.187-.583 5.22 5.22 0 0 1 .67-2.04.75.75 0 0 1 1.026-.273z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BUILDING_LIBRARY: Self = {
+        Self { collection : & COLLECTION , name : "BUILDING_LIBRARY" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M11.584 2.376a.75.75 0 0 1 .832 0l9 6a.75.75 0 1 1-.832 1.248L12 3.901 3.416 9.624a.75.75 0 0 1-.832-1.248z\"/><path fill-rule=\"evenodd\" d=\"M20.25 10.332v9.918H21a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5h.75v-9.918a.75.75 0 0 1 .634-.74A49.1 49.1 0 0 1 12 9c2.59 0 5.134.202 7.616.592a.75.75 0 0 1 .634.74m-7.5 2.418a.75.75 0 0 0-1.5 0v6.75a.75.75 0 0 0 1.5 0zm3-.75a.75.75 0 0 1 .75.75v6.75a.75.75 0 0 1-1.5 0v-6.75a.75.75 0 0 1 .75-.75M9 12.75a.75.75 0 0 0-1.5 0v6.75a.75.75 0 0 0 1.5 0z\" clip-rule=\"evenodd\"/><path d=\"M12 7.875a1.125 1.125 0 1 0 0-2.25 1.125 1.125 0 0 0 0 2.25\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BUILDING_OFFICE_2: Self = {
+        Self { collection : & COLLECTION , name : "BUILDING_OFFICE_2" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M3 2.25a.75.75 0 0 0 0 1.5v16.5h-.75a.75.75 0 0 0 0 1.5H15v-18a.75.75 0 0 0 0-1.5zM6.75 19.5v-2.25a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-.75.75h-3a.75.75 0 0 1-.75-.75M6 6.75A.75.75 0 0 1 6.75 6h.75a.75.75 0 0 1 0 1.5h-.75A.75.75 0 0 1 6 6.75M6.75 9a.75.75 0 0 0 0 1.5h.75a.75.75 0 0 0 0-1.5zM6 12.75a.75.75 0 0 1 .75-.75h.75a.75.75 0 0 1 0 1.5h-.75a.75.75 0 0 1-.75-.75M10.5 6a.75.75 0 0 0 0 1.5h.75a.75.75 0 0 0 0-1.5zm-.75 3.75A.75.75 0 0 1 10.5 9h.75a.75.75 0 0 1 0 1.5h-.75a.75.75 0 0 1-.75-.75M10.5 12a.75.75 0 0 0 0 1.5h.75a.75.75 0 0 0 0-1.5zm6-5.25v15h5.25a.75.75 0 0 0 0-1.5H21v-12a.75.75 0 0 0 0-1.5zm1.5 4.5a.75.75 0 0 1 .75-.75h.008a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75h-.008a.75.75 0 0 1-.75-.75zm.75 2.25a.75.75 0 0 0-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 0 0 .75-.75v-.008a.75.75 0 0 0-.75-.75zM18 17.25a.75.75 0 0 1 .75-.75h.008a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75h-.008a.75.75 0 0 1-.75-.75z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BUILDING_OFFICE: Self = {
+        Self { collection : & COLLECTION , name : "BUILDING_OFFICE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M4.5 2.25a.75.75 0 0 0 0 1.5v16.5h-.75a.75.75 0 0 0 0 1.5h16.5a.75.75 0 0 0 0-1.5h-.75V3.75a.75.75 0 0 0 0-1.5zM9 6a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5zm-.75 3.75A.75.75 0 0 1 9 9h1.5a.75.75 0 0 1 0 1.5H9a.75.75 0 0 1-.75-.75M9 12a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5zm3.75-5.25A.75.75 0 0 1 13.5 6H15a.75.75 0 0 1 0 1.5h-1.5a.75.75 0 0 1-.75-.75M13.5 9a.75.75 0 0 0 0 1.5H15A.75.75 0 0 0 15 9zm-.75 3.75a.75.75 0 0 1 .75-.75H15a.75.75 0 0 1 0 1.5h-1.5a.75.75 0 0 1-.75-.75M9 19.5v-2.25a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-.75.75h-4.5A.75.75 0 0 1 9 19.5\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_BUILDING_STOREFRONT: Self = {
+        Self { collection : & COLLECTION , name : "BUILDING_STOREFRONT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M5.223 2.25c-.497 0-.974.198-1.325.55l-1.3 1.298A3.75 3.75 0 0 0 7.5 9.75c.627.47 1.406.75 2.25.75s1.624-.28 2.25-.75c.626.47 1.406.75 2.25.75s1.623-.28 2.25-.75a3.75 3.75 0 0 0 4.902-5.652l-1.3-1.299a1.875 1.875 0 0 0-1.325-.549z\"/><path fill-rule=\"evenodd\" d=\"M3 20.25v-8.755c1.42.674 3.08.673 4.5 0A5.234 5.234 0 0 0 9.75 12c.804 0 1.568-.182 2.25-.506a5.234 5.234 0 0 0 2.25.506c.804 0 1.567-.182 2.25-.506 1.42.674 3.08.675 4.5.001v8.755h.75a.75.75 0 0 1 0 1.5H2.25a.75.75 0 0 1 0-1.5zm3-6a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .75.75v3a.75.75 0 0 1-.75.75h-3a.75.75 0 0 1-.75-.75zm8.25-.75a.75.75 0 0 0-.75.75v5.25c0 .414.336.75.75.75h3a.75.75 0 0 0 .75-.75v-5.25a.75.75 0 0 0-.75-.75z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CAKE: Self = {
+        Self { collection : & COLLECTION , name : "CAKE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"m15 1.784-.796.796a1.125 1.125 0 1 0 1.591 0zm-3 0-.796.796a1.125 1.125 0 1 0 1.591 0zm-3 0-.796.796a1.125 1.125 0 1 0 1.591 0zm.75 5.763c.498-.02.998-.035 1.5-.042V6.75a.75.75 0 0 1 1.5 0v.755q.753.0105 1.5.042V6.75a.75.75 0 0 1 1.5 0v.88l.307.022c1.55.117 2.693 1.427 2.693 2.946v1.018a62.18 62.18 0 0 0-13.5 0v-1.018c0-1.519 1.143-2.829 2.693-2.946l.307-.022v-.88a.75.75 0 0 1 1.5 0zM12 12.75c-2.472 0-4.9.184-7.274.54-1.454.217-2.476 1.482-2.476 2.916v.384a4.104 4.104 0 0 1 2.585.364 2.605 2.605 0 0 0 2.33 0 4.104 4.104 0 0 1 3.67 0 2.605 2.605 0 0 0 2.33 0 4.104 4.104 0 0 1 3.67 0 2.605 2.605 0 0 0 2.33 0 4.104 4.104 0 0 1 2.585-.364v-.384c0-1.434-1.022-2.7-2.476-2.917A49.14 49.14 0 0 0 12 12.75m9.75 5.381a2.604 2.604 0 0 0-1.915.165 4.104 4.104 0 0 1-3.67 0 2.604 2.604 0 0 0-2.33 0 4.104 4.104 0 0 1-3.67 0 2.604 2.604 0 0 0-2.33 0 4.104 4.104 0 0 1-3.67 0 2.604 2.604 0 0 0-1.915-.165v2.494c0 1.036.84 1.875 1.875 1.875h15.75c1.035 0 1.875-.84 1.875-1.875z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CALCULATOR: Self = {
+        Self { collection : & COLLECTION , name : "CALCULATOR" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M6.32 1.827a49.26 49.26 0 0 1 11.36 0c1.497.174 2.57 1.46 2.57 2.93V19.5a3 3 0 0 1-3 3H6.75a3 3 0 0 1-3-3V4.757c0-1.47 1.073-2.756 2.57-2.93M7.5 11.25a.75.75 0 0 1 .75-.75h.008a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75H8.25a.75.75 0 0 1-.75-.75zm.75 1.5a.75.75 0 0 0-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75zm-.75 3a.75.75 0 0 1 .75-.75h.008a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75H8.25a.75.75 0 0 1-.75-.75zm.75 1.5a.75.75 0 0 0-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 0 0 .75-.75V18a.75.75 0 0 0-.75-.75zm1.748-6a.75.75 0 0 1 .75-.75h.007a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75h-.007a.75.75 0 0 1-.75-.75zm.75 1.5a.75.75 0 0 0-.75.75v.008c0 .414.335.75.75.75h.007a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75zm-.75 3a.75.75 0 0 1 .75-.75h.007a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75h-.007a.75.75 0 0 1-.75-.75zm.75 1.5a.75.75 0 0 0-.75.75v.008c0 .414.335.75.75.75h.007a.75.75 0 0 0 .75-.75V18a.75.75 0 0 0-.75-.75zm1.754-6a.75.75 0 0 1 .75-.75h.008a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75h-.008a.75.75 0 0 1-.75-.75zm.75 1.5a.75.75 0 0 0-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75zm-.75 3a.75.75 0 0 1 .75-.75h.008a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75h-.008a.75.75 0 0 1-.75-.75zm.75 1.5a.75.75 0 0 0-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 0 0 .75-.75V18a.75.75 0 0 0-.75-.75zm1.748-6a.75.75 0 0 1 .75-.75h.008a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75h-.008a.75.75 0 0 1-.75-.75zm.75 1.5a.75.75 0 0 0-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75zm-8.25-6A.75.75 0 0 1 8.25 6h7.5a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-.75.75h-7.5a.75.75 0 0 1-.75-.75zm9 9a.75.75 0 0 0-1.5 0V18a.75.75 0 0 0 1.5 0z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CALENDAR_DAYS: Self = {
+        Self { collection : & COLLECTION , name : "CALENDAR_DAYS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M12.75 12.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m-5.25 3a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5m.75 1.5a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m1.5-1.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5m.75 1.5a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m1.5-1.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5m.75 1.5a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m1.5-1.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5m.75 1.5a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m1.5-1.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5m-1.5-3a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m1.5.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5\"/><path fill-rule=\"evenodd\" d=\"M6.75 2.25A.75.75 0 0 1 7.5 3v1.5h9V3A.75.75 0 0 1 18 3v1.5h.75a3 3 0 0 1 3 3v11.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V7.5a3 3 0 0 1 3-3H6V3a.75.75 0 0 1 .75-.75m13.5 9a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CALENDAR: Self = {
+        Self { collection : & COLLECTION , name : "CALENDAR" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M6.75 2.25A.75.75 0 0 1 7.5 3v1.5h9V3A.75.75 0 0 1 18 3v1.5h.75a3 3 0 0 1 3 3v11.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V7.5a3 3 0 0 1 3-3H6V3a.75.75 0 0 1 .75-.75m13.5 9a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CAMERA: Self = {
+        Self { collection : & COLLECTION , name : "CAMERA" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M12 9a3.75 3.75 0 1 0 0 7.5A3.75 3.75 0 0 0 12 9\"/><path fill-rule=\"evenodd\" d=\"M9.344 3.071a49.5 49.5 0 0 1 5.312 0c.967.052 1.83.585 2.332 1.39l.821 1.317c.24.383.645.643 1.11.71q.579.081 1.152.177c1.432.239 2.429 1.493 2.429 2.909V18a3 3 0 0 1-3 3h-15a3 3 0 0 1-3-3V9.574c0-1.416.997-2.67 2.429-2.909.382-.064.766-.123 1.151-.178a1.56 1.56 0 0 0 1.11-.71l.822-1.315a2.942 2.942 0 0 1 2.332-1.39zM6.75 12.75a5.25 5.25 0 1 1 10.5 0 5.25 5.25 0 0 1-10.5 0m12-1.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHART_BAR_SQUARE: Self = {
+        Self { collection : & COLLECTION , name : "CHART_BAR_SQUARE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M3 6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3zm4.5 7.5a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0v-2.25a.75.75 0 0 1 .75-.75m3.75-1.5a.75.75 0 0 0-1.5 0v4.5a.75.75 0 0 0 1.5 0zm2.25-3a.75.75 0 0 1 .75.75v6.75a.75.75 0 0 1-1.5 0V9.75A.75.75 0 0 1 13.5 9m3.75-1.5a.75.75 0 0 0-1.5 0v9a.75.75 0 0 0 1.5 0z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHART_BAR: Self = {
+        Self { collection : & COLLECTION , name : "CHART_BAR" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875zM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 0 1-1.875-1.875zM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 0 1 3 19.875z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHART_PIE: Self = {
+        Self { collection : & COLLECTION , name : "CHART_PIE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M2.25 13.5a8.25 8.25 0 0 1 8.25-8.25.75.75 0 0 1 .75.75v6.75H18a.75.75 0 0 1 .75.75 8.25 8.25 0 0 1-16.5 0\" clip-rule=\"evenodd\"/><path fill-rule=\"evenodd\" d=\"M12.75 3a.75.75 0 0 1 .75-.75 8.25 8.25 0 0 1 8.25 8.25.75.75 0 0 1-.75.75h-7.5a.75.75 0 0 1-.75-.75z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHAT_BUBBLE_BOTTOM_CENTER_TEXT: Self = {
+        Self { collection : & COLLECTION , name : "CHAT_BUBBLE_BOTTOM_CENTER_TEXT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M4.848 2.771A49.14 49.14 0 0 1 12 2.25c2.43 0 4.817.178 7.152.52 1.978.292 3.348 2.024 3.348 3.97v6.02c0 1.946-1.37 3.678-3.348 3.97a49 49 0 0 1-3.476.383.39.39 0 0 0-.297.17l-2.755 4.133a.75.75 0 0 1-1.248 0l-2.755-4.133a.39.39 0 0 0-.297-.17 49 49 0 0 1-3.476-.384c-1.978-.29-3.348-2.024-3.348-3.97V6.741c0-1.946 1.37-3.68 3.348-3.97M6.75 8.25a.75.75 0 0 1 .75-.75h9a.75.75 0 0 1 0 1.5h-9a.75.75 0 0 1-.75-.75m.75 2.25a.75.75 0 0 0 0 1.5H12a.75.75 0 0 0 0-1.5z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHAT_BUBBLE_BOTTOM_CENTER: Self = {
+        Self { collection : & COLLECTION , name : "CHAT_BUBBLE_BOTTOM_CENTER" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M4.848 2.771A49.14 49.14 0 0 1 12 2.25c2.43 0 4.817.178 7.152.52 1.978.292 3.348 2.024 3.348 3.97v6.02c0 1.946-1.37 3.678-3.348 3.97a49 49 0 0 1-3.476.383.39.39 0 0 0-.297.17l-2.755 4.133a.75.75 0 0 1-1.248 0l-2.755-4.133a.39.39 0 0 0-.297-.17 49 49 0 0 1-3.476-.384c-1.978-.29-3.348-2.024-3.348-3.97V6.741c0-1.946 1.37-3.68 3.348-3.97\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHAT_BUBBLE_LEFT_ELLIPSIS: Self = {
+        Self { collection : & COLLECTION , name : "CHAT_BUBBLE_LEFT_ELLIPSIS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25c-2.429 0-4.817.178-7.152.521C2.87 3.061 1.5 4.795 1.5 6.741v6.018c0 1.946 1.37 3.68 3.348 3.97.877.129 1.761.234 2.652.316V21a.75.75 0 0 0 1.28.53l4.184-4.183a.39.39 0 0 1 .266-.112c2.006-.05 3.982-.22 5.922-.506 1.978-.29 3.348-2.023 3.348-3.97V6.741c0-1.947-1.37-3.68-3.348-3.97A49.15 49.15 0 0 0 12 2.25M8.25 8.625a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25m2.625 1.125a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0m4.875-1.125a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHAT_BUBBLE_LEFT_RIGHT: Self = {
+        Self { collection : & COLLECTION , name : "CHAT_BUBBLE_LEFT_RIGHT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M4.913 2.658c2.075-.27 4.19-.408 6.337-.408s4.262.139 6.337.408c1.922.25 3.291 1.861 3.405 3.727a4.4 4.4 0 0 0-1.032-.211 50.9 50.9 0 0 0-8.42 0c-2.358.196-4.04 2.19-4.04 4.434v4.286a4.47 4.47 0 0 0 2.433 3.984L7.28 21.53A.75.75 0 0 1 6 21v-4.03a49 49 0 0 1-1.087-.128C2.905 16.58 1.5 14.833 1.5 12.862V6.638c0-1.97 1.405-3.718 3.413-3.979z\"/><path d=\"M15.75 7.5c-1.376 0-2.739.057-4.086.169C10.124 7.797 9 9.103 9 10.609v4.285c0 1.507 1.128 2.814 2.67 2.94 1.243.102 2.5.157 3.768.165l2.782 2.781a.75.75 0 0 0 1.28-.53v-2.39l.33-.026c1.542-.125 2.67-1.433 2.67-2.94v-4.286c0-1.505-1.125-2.811-2.664-2.94A49.4 49.4 0 0 0 15.75 7.5\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHAT_BUBBLE_LEFT: Self = {
+        Self { collection : & COLLECTION , name : "CHAT_BUBBLE_LEFT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M4.848 2.771A49.14 49.14 0 0 1 12 2.25c2.43 0 4.817.178 7.152.52 1.978.292 3.348 2.024 3.348 3.97v6.02c0 1.946-1.37 3.678-3.348 3.97-1.94.284-3.916.455-5.922.505a.39.39 0 0 0-.266.112L8.78 21.53A.75.75 0 0 1 7.5 21v-3.955a49 49 0 0 1-2.652-.316c-1.978-.29-3.348-2.024-3.348-3.97V6.741c0-1.946 1.37-3.68 3.348-3.97\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHAT_BUBBLE_OVAL_LEFT_ELLIPSIS: Self = {
+        Self { collection : & COLLECTION , name : "CHAT_BUBBLE_OVAL_LEFT_ELLIPSIS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M4.804 21.644A6.7 6.7 0 0 0 6 21.75a6.72 6.72 0 0 0 3.583-1.029c.774.182 1.584.279 2.417.279 5.322 0 9.75-3.97 9.75-9S17.322 3 12 3s-9.75 3.97-9.75 9c0 2.409 1.025 4.587 2.674 6.192.232.226.277.428.254.543a3.73 3.73 0 0 1-.814 1.686.75.75 0 0 0 .44 1.223M8.25 10.875a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25M10.875 12a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0m4.875-1.125a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHAT_BUBBLE_OVAL_LEFT: Self = {
+        Self { collection : & COLLECTION , name : "CHAT_BUBBLE_OVAL_LEFT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M5.337 21.718a6.7 6.7 0 0 1-.533-.074.75.75 0 0 1-.44-1.223 3.73 3.73 0 0 0 .814-1.686c.023-.115-.022-.317-.254-.543C3.274 16.587 2.25 14.41 2.25 12c0-5.03 4.428-9 9.75-9s9.75 3.97 9.75 9-4.428 9-9.75 9c-.833 0-1.643-.097-2.417-.279a6.72 6.72 0 0 1-4.246.997\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHECK_BADGE: Self = {
+        Self { collection : & COLLECTION , name : "CHECK_BADGE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.49 4.49 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.49 4.49 0 0 1-1.307 3.497 4.49 4.49 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.49 4.49 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307m7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHECK_CIRCLE: Self = {
+        Self { collection : & COLLECTION , name : "CHECK_CIRCLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12m13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHECK: Self = {
+        Self { collection : & COLLECTION , name : "CHECK" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.739a.75.75 0 0 1 1.04-.208\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHEVRON_DOUBLE_DOWN: Self = {
+        Self { collection : & COLLECTION , name : "CHEVRON_DOUBLE_DOWN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M20.03 4.72a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 11.69l6.97-6.97a.75.75 0 0 1 1.06 0m0 6a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 1 1 1.06-1.06L12 17.69l6.97-6.97a.75.75 0 0 1 1.06 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHEVRON_DOUBLE_LEFT: Self = {
+        Self { collection : & COLLECTION , name : "CHEVRON_DOUBLE_LEFT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M13.28 3.97a.75.75 0 0 1 0 1.06L6.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 0 1 1.06 0m6 0a.75.75 0 0 1 0 1.06L12.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 0 1 1.06 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHEVRON_DOUBLE_RIGHT: Self = {
+        Self { collection : & COLLECTION , name : "CHEVRON_DOUBLE_RIGHT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M4.72 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L11.69 12 4.72 5.03a.75.75 0 0 1 0-1.06m6 0a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06L17.69 12l-6.97-6.97a.75.75 0 0 1 0-1.06\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHEVRON_DOUBLE_UP: Self = {
+        Self { collection : & COLLECTION , name : "CHEVRON_DOUBLE_UP" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M11.47 4.72a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 6.31l-6.97 6.97a.75.75 0 0 1-1.06-1.06zm.53 7.59-6.97 6.97a.75.75 0 0 1-1.06-1.06l7.5-7.5a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHEVRON_DOWN: Self = {
+        Self { collection : & COLLECTION , name : "CHEVRON_DOWN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHEVRON_LEFT: Self = {
+        Self { collection : & COLLECTION , name : "CHEVRON_LEFT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHEVRON_RIGHT: Self = {
+        Self { collection : & COLLECTION , name : "CHEVRON_RIGHT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M16.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 0 1 1.06-1.06z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHEVRON_UP_DOWN: Self = {
+        Self { collection : & COLLECTION , name : "CHEVRON_UP_DOWN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M11.47 4.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1-1.06 1.06L12 6.31 8.78 9.53a.75.75 0 0 1-1.06-1.06zm-3.75 9.75a.75.75 0 0 1 1.06 0L12 17.69l3.22-3.22a.75.75 0 1 1 1.06 1.06l-3.75 3.75a.75.75 0 0 1-1.06 0l-3.75-3.75a.75.75 0 0 1 0-1.06\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CHEVRON_UP: Self = {
+        Self { collection : & COLLECTION , name : "CHEVRON_UP" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M11.47 7.72a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 0 1-1.06-1.06z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CIRCLE_STACK: Self = {
+        Self { collection : & COLLECTION , name : "CIRCLE_STACK" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M21 6.375c0 2.692-4.03 4.875-9 4.875S3 9.067 3 6.375 7.03 1.5 12 1.5s9 2.183 9 4.875\"/><path d=\"M12 12.75c2.685 0 5.19-.586 7.078-1.609a8.28 8.28 0 0 0 1.897-1.384c.016.121.025.244.025.368C21 12.817 16.97 15 12 15s-9-2.183-9-4.875c0-.124.009-.247.025-.368a8.29 8.29 0 0 0 1.897 1.384C6.809 12.164 9.315 12.75 12 12.75\"/><path d=\"M12 16.5c2.685 0 5.19-.586 7.078-1.609a8.28 8.28 0 0 0 1.897-1.384c.016.121.025.244.025.368 0 2.692-4.03 4.875-9 4.875s-9-2.183-9-4.875c0-.124.009-.247.025-.368a8.28 8.28 0 0 0 1.897 1.384C6.809 15.914 9.315 16.5 12 16.5\"/><path d=\"M12 20.25c2.685 0 5.19-.586 7.078-1.609a8.28 8.28 0 0 0 1.897-1.384c.016.121.025.244.025.368 0 2.692-4.03 4.875-9 4.875s-9-2.183-9-4.875c0-.124.009-.247.025-.368a8.28 8.28 0 0 0 1.897 1.384C6.809 19.664 9.315 20.25 12 20.25\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CLIPBOARD_DOCUMENT_CHECK: Self = {
+        Self { collection : & COLLECTION , name : "CLIPBOARD_DOCUMENT_CHECK" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M7.502 6h7.128A3.375 3.375 0 0 1 18 9.375v9.375a3 3 0 0 0 3-3V6.108c0-1.505-1.125-2.811-2.664-2.94a49 49 0 0 0-.673-.05A3 3 0 0 0 15 1.5h-1.5a3 3 0 0 0-2.663 1.618c-.225.015-.45.032-.673.05C8.662 3.295 7.554 4.542 7.502 6M13.5 3A1.5 1.5 0 0 0 12 4.5h4.5A1.5 1.5 0 0 0 15 3z\" clip-rule=\"evenodd\"/><path fill-rule=\"evenodd\" d=\"M3 9.375C3 8.339 3.84 7.5 4.875 7.5h9.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 0 1 3 20.625zm9.586 4.594a.75.75 0 0 0-1.172-.938l-2.476 3.096-.908-.907a.75.75 0 0 0-1.06 1.06l1.5 1.5a.75.75 0 0 0 1.116-.062l3-3.75z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CLIPBOARD_DOCUMENT_LIST: Self = {
+        Self { collection : & COLLECTION , name : "CLIPBOARD_DOCUMENT_LIST" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M7.502 6h7.128A3.375 3.375 0 0 1 18 9.375v9.375a3 3 0 0 0 3-3V6.108c0-1.505-1.125-2.811-2.664-2.94a49 49 0 0 0-.673-.05A3 3 0 0 0 15 1.5h-1.5a3 3 0 0 0-2.663 1.618c-.225.015-.45.032-.673.05C8.662 3.295 7.554 4.542 7.502 6M13.5 3A1.5 1.5 0 0 0 12 4.5h4.5A1.5 1.5 0 0 0 15 3z\" clip-rule=\"evenodd\"/><path fill-rule=\"evenodd\" d=\"M3 9.375C3 8.339 3.84 7.5 4.875 7.5h9.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 0 1 3 20.625zM6 12a.75.75 0 0 1 .75-.75h.008a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75zm2.25 0a.75.75 0 0 1 .75-.75h3.75a.75.75 0 0 1 0 1.5H9a.75.75 0 0 1-.75-.75M6 15a.75.75 0 0 1 .75-.75h.008a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75zm2.25 0a.75.75 0 0 1 .75-.75h3.75a.75.75 0 0 1 0 1.5H9a.75.75 0 0 1-.75-.75M6 18a.75.75 0 0 1 .75-.75h.008a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75zm2.25 0a.75.75 0 0 1 .75-.75h3.75a.75.75 0 0 1 0 1.5H9a.75.75 0 0 1-.75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CLIPBOARD_DOCUMENT: Self = {
+        Self { collection : & COLLECTION , name : "CLIPBOARD_DOCUMENT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M17.663 3.118c.225.015.45.032.673.05C19.876 3.298 21 4.604 21 6.109v9.642a3 3 0 0 1-3 3V16.5c0-5.922-4.576-10.775-10.384-11.217.324-1.132 1.3-2.01 2.548-2.114.224-.019.448-.036.673-.051A3 3 0 0 1 13.5 1.5H15a3 3 0 0 1 2.663 1.618M12 4.5A1.5 1.5 0 0 1 13.5 3H15a1.5 1.5 0 0 1 1.5 1.5z\" clip-rule=\"evenodd\"/><path d=\"M3 8.625c0-1.036.84-1.875 1.875-1.875h.375A3.75 3.75 0 0 1 9 10.5v1.875c0 1.036.84 1.875 1.875 1.875h1.875A3.75 3.75 0 0 1 16.5 18v2.625c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 0 1 3 20.625z\"/><path d=\"M10.5 10.5a5.23 5.23 0 0 0-1.279-3.434 9.768 9.768 0 0 1 6.963 6.963 5.23 5.23 0 0 0-3.434-1.279h-1.875a.375.375 0 0 1-.375-.375z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CLIPBOARD: Self = {
+        Self { collection : & COLLECTION , name : "CLIPBOARD" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M10.5 3A1.501 1.501 0 0 0 9 4.5h6A1.5 1.5 0 0 0 13.5 3zm-2.693.178A3 3 0 0 1 10.5 1.5h3a3 3 0 0 1 2.694 1.678c.497.042.992.092 1.486.15 1.497.173 2.57 1.46 2.57 2.929V19.5a3 3 0 0 1-3 3H6.75a3 3 0 0 1-3-3V6.257c0-1.47 1.073-2.756 2.57-2.93.493-.057.989-.107 1.487-.15z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CLOCK: Self = {
+        Self { collection : & COLLECTION , name : "CLOCK" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25M12.75 6a.75.75 0 0 0-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 0 0 0-1.5h-3.75z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CLOUD_ARROW_DOWN: Self = {
+        Self { collection : & COLLECTION , name : "CLOUD_ARROW_DOWN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M10.5 3.75a6 6 0 0 0-5.98 6.496A5.25 5.25 0 0 0 6.75 20.25H18a4.5 4.5 0 0 0 2.206-8.423 3.75 3.75 0 0 0-4.133-4.303A6.001 6.001 0 0 0 10.5 3.75m2.25 6a.75.75 0 0 0-1.5 0v4.94l-1.72-1.72a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l3-3a.75.75 0 1 0-1.06-1.06l-1.72 1.72z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CLOUD_ARROW_UP: Self = {
+        Self { collection : & COLLECTION , name : "CLOUD_ARROW_UP" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M10.5 3.75a6 6 0 0 0-5.98 6.496A5.25 5.25 0 0 0 6.75 20.25H18a4.5 4.5 0 0 0 2.206-8.423 3.75 3.75 0 0 0-4.133-4.303A6.001 6.001 0 0 0 10.5 3.75m2.03 5.47a.75.75 0 0 0-1.06 0l-3 3a.75.75 0 1 0 1.06 1.06l1.72-1.72v4.94a.75.75 0 0 0 1.5 0v-4.94l1.72 1.72a.75.75 0 1 0 1.06-1.06z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CLOUD: Self = {
+        Self { collection : & COLLECTION , name : "CLOUD" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M4.5 9.75a6 6 0 0 1 11.573-2.226 3.75 3.75 0 0 1 4.133 4.303A4.5 4.5 0 0 1 18 20.25H6.75a5.25 5.25 0 0 1-2.23-10.004 6 6 0 0 1-.02-.496\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CODE_BRACKET_SQUARE: Self = {
+        Self { collection : & COLLECTION , name : "CODE_BRACKET_SQUARE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M3 6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3zm14.25 6a.75.75 0 0 1-.22.53l-2.25 2.25a.75.75 0 1 1-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 1 1 1.06-1.06l2.25 2.25c.141.14.22.331.22.53m-10.28-.53a.75.75 0 0 0 0 1.06l2.25 2.25a.75.75 0 1 0 1.06-1.06L8.56 12l1.72-1.72a.75.75 0 1 0-1.06-1.06z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CODE_BRACKET: Self = {
+        Self { collection : & COLLECTION , name : "CODE_BRACKET" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M14.447 3.027a.75.75 0 0 1 .527.92l-4.5 16.5a.75.75 0 0 1-1.448-.394l4.5-16.5a.75.75 0 0 1 .921-.526M16.72 6.22a.75.75 0 0 1 1.06 0l5.25 5.25a.75.75 0 0 1 0 1.06l-5.25 5.25a.75.75 0 1 1-1.06-1.06L21.44 12l-4.72-4.72a.75.75 0 0 1 0-1.06m-9.44 0a.75.75 0 0 1 0 1.06L2.56 12l4.72 4.72a.75.75 0 1 1-1.06 1.06L.97 12.53a.75.75 0 0 1 0-1.06l5.25-5.25a.75.75 0 0 1 1.06 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_COG_6_TOOTH: Self = {
+        Self { collection : & COLLECTION , name : "COG_6_TOOTH" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M11.078 2.25c-.917 0-1.699.663-1.85 1.567L9.05 4.889c-.02.12-.115.26-.297.348a7.5 7.5 0 0 0-.986.57c-.166.115-.334.126-.45.083L6.3 5.508a1.875 1.875 0 0 0-2.282.819l-.922 1.597a1.875 1.875 0 0 0 .432 2.385l.84.692c.095.078.17.229.154.43a7.6 7.6 0 0 0 0 1.139c.015.2-.059.352-.153.43l-.841.692a1.875 1.875 0 0 0-.432 2.385l.922 1.597a1.875 1.875 0 0 0 2.282.818l1.019-.382c.115-.043.283-.031.45.082.312.214.641.405.985.57.182.088.277.228.297.35l.178 1.071c.151.904.933 1.567 1.85 1.567h1.844c.916 0 1.699-.663 1.85-1.567l.178-1.072c.02-.12.114-.26.297-.349.344-.165.673-.356.985-.57.167-.114.335-.125.45-.082l1.02.382a1.875 1.875 0 0 0 2.28-.819l.923-1.597a1.875 1.875 0 0 0-.432-2.385l-.84-.692c-.095-.078-.17-.229-.154-.43a7.6 7.6 0 0 0 0-1.139c-.016-.2.059-.352.153-.43l.84-.692c.708-.582.891-1.59.433-2.385l-.922-1.597a1.875 1.875 0 0 0-2.282-.818l-1.02.382c-.114.043-.282.031-.449-.083a7.5 7.5 0 0 0-.985-.57c-.183-.087-.277-.227-.297-.348l-.179-1.072a1.875 1.875 0 0 0-1.85-1.567h-1.843zM12 15.75a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_COG_8_TOOTH: Self = {
+        Self { collection : & COLLECTION , name : "COG_8_TOOTH" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M11.828 2.25c-.916 0-1.699.663-1.85 1.567l-.091.549a.798.798 0 0 1-.517.608 7.5 7.5 0 0 0-.478.198.798.798 0 0 1-.796-.064l-.453-.324a1.875 1.875 0 0 0-2.416.2l-.243.243a1.875 1.875 0 0 0-.2 2.416l.324.453a.798.798 0 0 1 .064.796 7.5 7.5 0 0 0-.198.478.798.798 0 0 1-.608.517l-.55.092a1.875 1.875 0 0 0-1.566 1.849v.344c0 .916.663 1.699 1.567 1.85l.549.091c.281.047.508.25.608.517.06.162.127.321.198.478a.798.798 0 0 1-.064.796l-.324.453a1.875 1.875 0 0 0 .2 2.416l.243.243c.648.648 1.67.733 2.416.2l.453-.324a.798.798 0 0 1 .796-.064c.157.071.316.137.478.198.267.1.47.327.517.608l.092.55c.15.903.932 1.566 1.849 1.566h.344c.916 0 1.699-.663 1.85-1.567l.091-.549a.798.798 0 0 1 .517-.608 7.5 7.5 0 0 0 .478-.198.798.798 0 0 1 .796.064l.453.324a1.875 1.875 0 0 0 2.416-.2l.243-.243c.648-.648.733-1.67.2-2.416l-.324-.453a.798.798 0 0 1-.064-.796c.071-.157.137-.316.198-.478.1-.267.327-.47.608-.517l.55-.091a1.875 1.875 0 0 0 1.566-1.85v-.344c0-.916-.663-1.699-1.567-1.85l-.549-.091a.798.798 0 0 1-.608-.517 7.5 7.5 0 0 0-.198-.478.798.798 0 0 1 .064-.796l.324-.453a1.875 1.875 0 0 0-.2-2.416l-.243-.243a1.875 1.875 0 0 0-2.416-.2l-.453.324a.798.798 0 0 1-.796.064 7.5 7.5 0 0 0-.478-.198.798.798 0 0 1-.517-.608l-.091-.55a1.875 1.875 0 0 0-1.85-1.566zM12 15.75a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_COG: Self = {
+        Self { collection : & COLLECTION , name : "COG" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M17.004 10.407c.138.435-.216.842-.672.842h-3.465a.75.75 0 0 1-.65-.375l-1.732-3c-.229-.396-.053-.907.393-1.004a5.252 5.252 0 0 1 6.126 3.537M8.12 8.464c.307-.338.838-.235 1.066.16l1.732 3a.75.75 0 0 1 0 .75l-1.732 3.001c-.229.396-.76.498-1.067.16A5.23 5.23 0 0 1 6.75 12c0-1.362.519-2.603 1.37-3.536m2.758 8.666c-.447-.097-.623-.608-.394-1.003l1.733-3.003a.75.75 0 0 1 .65-.375h3.465c.457 0 .81.408.672.843a5.252 5.252 0 0 1-6.126 3.538\"/><path fill-rule=\"evenodd\" d=\"M21 12.75a.75.75 0 0 0 0-1.5h-.783a8.2 8.2 0 0 0-.237-1.357l.734-.267a.75.75 0 1 0-.513-1.41l-.735.268a8.24 8.24 0 0 0-.689-1.191l.6-.504a.75.75 0 1 0-.964-1.149l-.6.504a8.3 8.3 0 0 0-1.054-.885l.391-.678a.75.75 0 1 0-1.299-.75l-.39.677a8.2 8.2 0 0 0-1.295-.471l.136-.77a.75.75 0 0 0-1.477-.26l-.136.77a8.36 8.36 0 0 0-1.377 0l-.136-.77a.75.75 0 1 0-1.477.26l.136.77c-.448.121-.88.28-1.294.47l-.39-.676a.75.75 0 0 0-1.3.75l.392.678a8.3 8.3 0 0 0-1.054.885l-.6-.504a.75.75 0 0 0-.965 1.149l.6.503a8.24 8.24 0 0 0-.689 1.192L3.8 8.217a.75.75 0 1 0-.513 1.41l.735.267a8.2 8.2 0 0 0-.238 1.355h-.783a.75.75 0 0 0 0 1.5h.783c.042.464.122.917.238 1.356l-.735.268a.75.75 0 1 0 .513 1.41l.735-.268c.197.417.428.816.69 1.192l-.6.504a.75.75 0 1 0 .963 1.149l.601-.505c.326.323.679.62 1.054.885l-.392.68a.75.75 0 1 0 1.3.75l.39-.679c.414.192.847.35 1.294.471l-.136.771a.75.75 0 1 0 1.477.26l.137-.772a8.4 8.4 0 0 0 1.376 0l.136.773a.75.75 0 1 0 1.477-.26l-.136-.772a8.2 8.2 0 0 0 1.294-.47l.391.677a.75.75 0 1 0 1.3-.75l-.393-.679a8.3 8.3 0 0 0 1.054-.885l.601.504a.75.75 0 1 0 .964-1.15l-.6-.503a8.24 8.24 0 0 0 .69-1.191l.735.268a.75.75 0 1 0 .512-1.41l-.734-.268c.115-.438.195-.892.237-1.356h.784zm-2.657-3.06a6.74 6.74 0 0 0-1.19-2.053 6.78 6.78 0 0 0-1.82-1.51A6.704 6.704 0 0 0 12 5.25a6.8 6.8 0 0 0-1.225.111 6.7 6.7 0 0 0-2.15.792 6.784 6.784 0 0 0-2.952 3.489.8.8 0 0 1-.036.099A6.74 6.74 0 0 0 5.251 12a6.739 6.739 0 0 0 3.355 5.835l.01.006.01.005a6.7 6.7 0 0 0 2.203.802c.007 0 .014.002.021.004a6.79 6.79 0 0 0 2.301 0l.022-.004a6.71 6.71 0 0 0 2.228-.816 6.78 6.78 0 0 0 1.762-1.483l.009-.01.009-.012a6.74 6.74 0 0 0 1.18-2.064c.253-.708.39-1.47.39-2.264a6.74 6.74 0 0 0-.408-2.308z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_COMMAND_LINE: Self = {
+        Self { collection : & COLLECTION , name : "COMMAND_LINE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M2.25 6a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3zm3.97.97a.75.75 0 0 1 1.06 0l2.25 2.25a.75.75 0 0 1 0 1.06l-2.25 2.25a.75.75 0 0 1-1.06-1.06l1.72-1.72-1.72-1.72a.75.75 0 0 1 0-1.06m4.28 4.28a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_COMPUTER_DESKTOP: Self = {
+        Self { collection : & COLLECTION , name : "COMPUTER_DESKTOP" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M2.25 5.25a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3V15a3 3 0 0 1-3 3h-3v.257c0 .597.237 1.17.659 1.591l.621.622a.75.75 0 0 1-.53 1.28h-9a.75.75 0 0 1-.53-1.28l.621-.622a2.25 2.25 0 0 0 .659-1.59V18h-3a3 3 0 0 1-3-3zm1.5 0v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CPU_CHIP: Self = {
+        Self { collection : & COLLECTION , name : "CPU_CHIP" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M16.5 7.5h-9v9h9z\"/><path fill-rule=\"evenodd\" d=\"M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75M6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CREDIT_CARD: Self = {
+        Self { collection : & COLLECTION , name : "CREDIT_CARD" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M4.5 3.75a3 3 0 0 0-3 3v.75h21v-.75a3 3 0 0 0-3-3z\"/><path fill-rule=\"evenodd\" d=\"M22.5 9.75h-21v7.5a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3zm-18 3.75a.75.75 0 0 1 .75-.75h6a.75.75 0 0 1 0 1.5h-6a.75.75 0 0 1-.75-.75m.75 2.25a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CUBE_TRANSPARENT: Self = {
+        Self { collection : & COLLECTION , name : "CUBE_TRANSPARENT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M11.622 1.602a.75.75 0 0 1 .756 0l2.25 1.313a.75.75 0 0 1-.756 1.295L12 3.118 10.128 4.21a.75.75 0 1 1-.756-1.295zM5.898 5.81a.75.75 0 0 1-.27 1.025l-1.14.665 1.14.665a.75.75 0 1 1-.756 1.295L3.75 8.806v.944a.75.75 0 0 1-1.5 0V7.5a.75.75 0 0 1 .372-.648l2.25-1.312a.75.75 0 0 1 1.026.27m12.204 0a.75.75 0 0 1 1.026-.27l2.25 1.312a.75.75 0 0 1 .372.648v2.25a.75.75 0 0 1-1.5 0v-.944l-1.122.654a.75.75 0 1 1-.756-1.295l1.14-.665-1.14-.665a.75.75 0 0 1-.27-1.025m-9 5.25a.75.75 0 0 1 1.026-.27L12 11.882l1.872-1.092a.75.75 0 1 1 .756 1.295l-1.878 1.096V15a.75.75 0 0 1-1.5 0v-1.82l-1.878-1.095a.75.75 0 0 1-.27-1.025M3 13.5a.75.75 0 0 1 .75.75v1.82l1.878 1.095a.75.75 0 1 1-.756 1.295l-2.25-1.312a.75.75 0 0 1-.372-.648v-2.25A.75.75 0 0 1 3 13.5m18 0a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-.372.648l-2.25 1.312a.75.75 0 1 1-.756-1.295l1.878-1.096V14.25a.75.75 0 0 1 .75-.75m-9 5.25a.75.75 0 0 1 .75.75v.944l1.122-.654a.75.75 0 1 1 .756 1.295l-2.25 1.313a.75.75 0 0 1-.756 0l-2.25-1.313a.75.75 0 1 1 .756-1.295l1.122.654V19.5a.75.75 0 0 1 .75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CUBE: Self = {
+        Self { collection : & COLLECTION , name : "CUBE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M12.378 1.602a.75.75 0 0 0-.756 0L3 6.632l9 5.25 9-5.25zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 0 0 .372-.648zm-10.5 14.25v-9l-9-5.25v8.57a.75.75 0 0 0 .372.648l8.628 5.033z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CURRENCY_BANGLADESHI: Self = {
+        Self { collection : & COLLECTION , name : "CURRENCY_BANGLADESHI" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 21.75c5.385 0 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25 2.25 6.615 2.25 12s4.365 9.75 9.75 9.75M10.5 7.963a1.5 1.5 0 0 0-2.17-1.341l-.415.207a.75.75 0 0 0 .67 1.342L9 7.963V9.75h-.75a.75.75 0 1 0 0 1.5H9v4.688c0 .563.26 1.198.867 1.525A4.501 4.501 0 0 0 16.41 14.4c.199-.977-.636-1.649-1.415-1.649h-.745a.75.75 0 1 0 0 1.5h.656a3.002 3.002 0 0 1-4.327 1.893.113.113 0 0 1-.045-.051.336.336 0 0 1-.034-.154V11.25h5.25a.75.75 0 0 0 0-1.5H10.5z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CURRENCY_DOLLAR: Self = {
+        Self { collection : & COLLECTION , name : "CURRENCY_DOLLAR" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M10.464 8.746c.227-.18.497-.311.786-.394v2.795a2.25 2.25 0 0 1-.786-.393c-.394-.313-.546-.681-.546-1.004s.152-.691.546-1.004m2.286 6.916v-2.824c.347.085.664.228.921.421.427.32.579.686.579.991s-.152.671-.579.991a2.53 2.53 0 0 1-.921.42z\"/><path fill-rule=\"evenodd\" d=\"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25M12.75 6a.75.75 0 0 0-1.5 0v.816a3.836 3.836 0 0 0-1.72.756c-.712.566-1.112 1.35-1.112 2.178 0 .829.4 1.612 1.113 2.178.502.4 1.102.647 1.719.756v2.978a2.54 2.54 0 0 1-.921-.421l-.879-.66a.75.75 0 0 0-.9 1.2l.879.66c.533.4 1.169.645 1.821.75V18a.75.75 0 0 0 1.5 0v-.81a4.124 4.124 0 0 0 1.821-.749c.745-.559 1.179-1.344 1.179-2.191s-.434-1.632-1.179-2.191a4.12 4.12 0 0 0-1.821-.75V8.354c.29.082.559.213.786.393l.415.33a.75.75 0 0 0 .933-1.175l-.415-.33a3.836 3.836 0 0 0-1.719-.755z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CURRENCY_EURO: Self = {
+        Self { collection : & COLLECTION , name : "CURRENCY_EURO" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25m-1.902 7.098a3.75 3.75 0 0 1 3.903-.884.75.75 0 1 0 .498-1.415A5.25 5.25 0 0 0 8.005 9.75H7.5a.75.75 0 0 0 0 1.5h.054a5.28 5.28 0 0 0 0 1.5H7.5a.75.75 0 0 0 0 1.5h.505a5.25 5.25 0 0 0 6.494 2.701.75.75 0 0 0-.498-1.415 3.75 3.75 0 0 1-4.252-1.286h3.001a.75.75 0 0 0 0-1.5H9.075a3.77 3.77 0 0 1 0-1.5h3.675a.75.75 0 0 0 0-1.5h-3q.1575-.21.348-.402\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CURRENCY_POUND: Self = {
+        Self { collection : & COLLECTION , name : "CURRENCY_POUND" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25M9.763 9.51a2.25 2.25 0 0 1 3.828-1.351.75.75 0 0 0 1.06-1.06 3.75 3.75 0 0 0-6.38 2.252c-.033.307 0 .595.032.822l.154 1.077H8.25a.75.75 0 0 0 0 1.5h.421l.138.964a3.75 3.75 0 0 1-.358 2.208l-.122.242a.75.75 0 0 0 .908 1.047l1.539-.512a1.5 1.5 0 0 1 .948 0l.655.218a3 3 0 0 0 2.29-.163l.666-.333a.75.75 0 1 0-.67-1.342l-.667.333a1.5 1.5 0 0 1-1.145.082l-.654-.218a3 3 0 0 0-1.898 0l-.06.02a5.25 5.25 0 0 0 .053-1.794l-.108-.752H12a.75.75 0 0 0 0-1.5H9.972l-.184-1.29a1.86 1.86 0 0 1-.025-.45\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CURRENCY_RUPEE: Self = {
+        Self { collection : & COLLECTION , name : "CURRENCY_RUPEE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25M9 7.5A.75.75 0 0 0 9 9h1.5c.98 0 1.813.626 2.122 1.5H9A.75.75 0 0 0 9 12h3.622a2.251 2.251 0 0 1-2.122 1.5H9a.75.75 0 0 0-.53 1.28l3 3a.75.75 0 1 0 1.06-1.06l-1.73-1.732A3.752 3.752 0 0 0 14.175 12H15a.75.75 0 0 0 0-1.5h-.825A3.73 3.73 0 0 0 13.5 9H15a.75.75 0 0 0 0-1.5z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CURRENCY_YEN: Self = {
+        Self { collection : & COLLECTION , name : "CURRENCY_YEN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25M9.624 7.084a.75.75 0 0 0-1.248.832l2.223 3.334H9a.75.75 0 0 0 0 1.5h2.25v1.5H9a.75.75 0 0 0 0 1.5h2.25v1.5a.75.75 0 0 0 1.5 0v-1.5H15a.75.75 0 0 0 0-1.5h-2.25v-1.5H15a.75.75 0 0 0 0-1.5h-1.599l2.223-3.334a.75.75 0 1 0-1.248-.832L12 10.648z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CURSOR_ARROW_RAYS: Self = {
+        Self { collection : & COLLECTION , name : "CURSOR_ARROW_RAYS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 1.5a.75.75 0 0 1 .75.75V4.5a.75.75 0 0 1-1.5 0V2.25A.75.75 0 0 1 12 1.5M5.636 4.136a.75.75 0 0 1 1.06 0l1.592 1.591a.75.75 0 0 1-1.061 1.06l-1.591-1.59a.75.75 0 0 1 0-1.061m12.728 0a.75.75 0 0 1 0 1.06l-1.591 1.592a.75.75 0 0 1-1.06-1.061l1.59-1.591a.75.75 0 0 1 1.061 0m-6.816 4.496a.75.75 0 0 1 .82.311l5.228 7.917a.75.75 0 0 1-.777 1.148l-2.097-.43 1.045 3.9a.75.75 0 0 1-1.45.388l-1.044-3.899-1.601 1.42a.75.75 0 0 1-1.247-.606l.569-9.47a.75.75 0 0 1 .554-.68zM3 10.5a.75.75 0 0 1 .75-.75H6a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 10.5m14.25 0a.75.75 0 0 1 .75-.75h2.25a.75.75 0 0 1 0 1.5H18a.75.75 0 0 1-.75-.75m-8.962 3.712a.75.75 0 0 1 0 1.061l-1.591 1.591a.75.75 0 1 1-1.061-1.06l1.591-1.592a.75.75 0 0 1 1.06 0z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_CURSOR_ARROW_RIPPLE: Self = {
+        Self { collection : & COLLECTION , name : "CURSOR_ARROW_RIPPLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M17.303 5.197A7.5 7.5 0 0 0 6.697 15.803a.75.75 0 0 1-1.061 1.061A9 9 0 1 1 21 10.5a.75.75 0 0 1-1.5 0c0-1.92-.732-3.839-2.197-5.303m-2.121 2.121a4.5 4.5 0 0 0-6.364 6.364.75.75 0 1 1-1.06 1.06A6 6 0 1 1 18 10.5a.75.75 0 0 1-1.5 0c0-1.153-.44-2.303-1.318-3.182m-3.634 1.314a.75.75 0 0 1 .82.311l5.228 7.917a.75.75 0 0 1-.777 1.148l-2.097-.43 1.045 3.9a.75.75 0 0 1-1.45.388l-1.044-3.899-1.601 1.42a.75.75 0 0 1-1.247-.606l.569-9.47a.75.75 0 0 1 .554-.68z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_DEVICE_PHONE_MOBILE: Self = {
+        Self { collection : & COLLECTION , name : "DEVICE_PHONE_MOBILE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M10.5 18.75a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5z\"/><path fill-rule=\"evenodd\" d=\"M8.625.75A3.375 3.375 0 0 0 5.25 4.125v15.75a3.375 3.375 0 0 0 3.375 3.375h6.75a3.375 3.375 0 0 0 3.375-3.375V4.125A3.375 3.375 0 0 0 15.375.75zM7.5 4.125C7.5 3.504 8.004 3 8.625 3H9.75v.375c0 .621.504 1.125 1.125 1.125h2.25c.621 0 1.125-.504 1.125-1.125V3h1.125c.621 0 1.125.504 1.125 1.125v15.75c0 .621-.504 1.125-1.125 1.125h-6.75A1.125 1.125 0 0 1 7.5 19.875z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_DEVICE_TABLET: Self = {
+        Self { collection : & COLLECTION , name : "DEVICE_TABLET" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M10.5 18a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5z\"/><path fill-rule=\"evenodd\" d=\"M7.125 1.5A3.375 3.375 0 0 0 3.75 4.875v14.25A3.375 3.375 0 0 0 7.125 22.5h9.75a3.375 3.375 0 0 0 3.375-3.375V4.875A3.375 3.375 0 0 0 16.875 1.5zM6 4.875c0-.621.504-1.125 1.125-1.125h9.75c.621 0 1.125.504 1.125 1.125v14.25c0 .621-.504 1.125-1.125 1.125h-9.75A1.125 1.125 0 0 1 6 19.125z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_DOCUMENT_ARROW_DOWN: Self = {
+        Self { collection : & COLLECTION , name : "DOCUMENT_ARROW_DOWN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M5.625 1.5H9a3.75 3.75 0 0 1 3.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 0 1 3.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 0 1-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875m5.845 17.03a.75.75 0 0 0 1.06 0l3-3a.75.75 0 1 0-1.06-1.06l-1.72 1.72V12a.75.75 0 0 0-1.5 0v4.19l-1.72-1.72a.75.75 0 0 0-1.06 1.06z\" clip-rule=\"evenodd\"/><path d=\"M14.25 5.25a5.23 5.23 0 0 0-1.279-3.434 9.768 9.768 0 0 1 6.963 6.963A5.23 5.23 0 0 0 16.5 7.5h-1.875a.375.375 0 0 1-.375-.375z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_DOCUMENT_ARROW_UP: Self = {
+        Self { collection : & COLLECTION , name : "DOCUMENT_ARROW_UP" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M5.625 1.5H9a3.75 3.75 0 0 1 3.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 0 1 3.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 0 1-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875m6.905 9.97a.75.75 0 0 0-1.06 0l-3 3a.75.75 0 1 0 1.06 1.06l1.72-1.72V18a.75.75 0 0 0 1.5 0v-4.19l1.72 1.72a.75.75 0 1 0 1.06-1.06z\" clip-rule=\"evenodd\"/><path d=\"M14.25 5.25a5.23 5.23 0 0 0-1.279-3.434 9.768 9.768 0 0 1 6.963 6.963A5.23 5.23 0 0 0 16.5 7.5h-1.875a.375.375 0 0 1-.375-.375z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_DOCUMENT_CHART_BAR: Self = {
+        Self { collection : & COLLECTION , name : "DOCUMENT_CHART_BAR" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M5.625 1.5H9a3.75 3.75 0 0 1 3.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 0 1 3.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 0 1-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875M9.75 17.25a.75.75 0 0 0-1.5 0V18a.75.75 0 0 0 1.5 0zm2.25-3a.75.75 0 0 1 .75.75v3a.75.75 0 0 1-1.5 0v-3a.75.75 0 0 1 .75-.75m3.75-1.5a.75.75 0 0 0-1.5 0V18a.75.75 0 0 0 1.5 0z\" clip-rule=\"evenodd\"/><path d=\"M14.25 5.25a5.23 5.23 0 0 0-1.279-3.434 9.768 9.768 0 0 1 6.963 6.963A5.23 5.23 0 0 0 16.5 7.5h-1.875a.375.375 0 0 1-.375-.375z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_DOCUMENT_CHECK: Self = {
+        Self { collection : & COLLECTION , name : "DOCUMENT_CHECK" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M9 1.5H5.625c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0 0 16.5 9h-1.875a1.875 1.875 0 0 1-1.875-1.875V5.25A3.75 3.75 0 0 0 9 1.5m6.61 10.936a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 14.47a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094z\" clip-rule=\"evenodd\"/><path d=\"M12.971 1.816A5.23 5.23 0 0 1 14.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 0 1 3.434 1.279 9.768 9.768 0 0 0-6.963-6.963\"/>" , }
+    };
+    pub const HEROICONS_SOLID_DOCUMENT_DUPLICATE: Self = {
+        Self { collection : & COLLECTION , name : "DOCUMENT_DUPLICATE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 0 1 3.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0 1 21 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 0 1 7.5 16.125z\"/><path d=\"M15 5.25a5.23 5.23 0 0 0-1.279-3.434 9.768 9.768 0 0 1 6.963 6.963A5.23 5.23 0 0 0 17.25 7.5h-1.875A.375.375 0 0 1 15 7.125zM4.875 6H6v10.125A3.375 3.375 0 0 0 9.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 0 1 3 20.625V7.875C3 6.839 3.84 6 4.875 6\"/>" , }
+    };
+    pub const HEROICONS_SOLID_DOCUMENT_MAGNIFYING_GLASS: Self = {
+        Self { collection : & COLLECTION , name : "DOCUMENT_MAGNIFYING_GLASS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M11.625 16.5a1.875 1.875 0 1 0 0-3.75 1.875 1.875 0 0 0 0 3.75\"/><path fill-rule=\"evenodd\" d=\"M5.625 1.5H9a3.75 3.75 0 0 1 3.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 0 1 3.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 0 1-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875m6 16.5c.66 0 1.277-.19 1.797-.518l1.048 1.048a.75.75 0 0 0 1.06-1.06l-1.047-1.048A3.375 3.375 0 1 0 11.625 18\" clip-rule=\"evenodd\"/><path d=\"M14.25 5.25a5.23 5.23 0 0 0-1.279-3.434 9.768 9.768 0 0 1 6.963 6.963A5.23 5.23 0 0 0 16.5 7.5h-1.875a.375.375 0 0 1-.375-.375z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_DOCUMENT_MINUS: Self = {
+        Self { collection : & COLLECTION , name : "DOCUMENT_MINUS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M5.625 1.5H9a3.75 3.75 0 0 1 3.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 0 1 3.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 0 1-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875M9.75 14.25a.75.75 0 0 0 0 1.5H15a.75.75 0 0 0 0-1.5z\" clip-rule=\"evenodd\"/><path d=\"M14.25 5.25a5.23 5.23 0 0 0-1.279-3.434 9.768 9.768 0 0 1 6.963 6.963A5.23 5.23 0 0 0 16.5 7.5h-1.875a.375.375 0 0 1-.375-.375z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_DOCUMENT_PLUS: Self = {
+        Self { collection : & COLLECTION , name : "DOCUMENT_PLUS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M5.625 1.5H9a3.75 3.75 0 0 1 3.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 0 1 3.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 0 1-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875M12.75 12a.75.75 0 0 0-1.5 0v2.25H9a.75.75 0 0 0 0 1.5h2.25V18a.75.75 0 0 0 1.5 0v-2.25H15a.75.75 0 0 0 0-1.5h-2.25z\" clip-rule=\"evenodd\"/><path d=\"M14.25 5.25a5.23 5.23 0 0 0-1.279-3.434 9.768 9.768 0 0 1 6.963 6.963A5.23 5.23 0 0 0 16.5 7.5h-1.875a.375.375 0 0 1-.375-.375z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_DOCUMENT_TEXT: Self = {
+        Self { collection : & COLLECTION , name : "DOCUMENT_TEXT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M5.625 1.5c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0 0 16.5 9h-1.875a1.875 1.875 0 0 1-1.875-1.875V5.25A3.75 3.75 0 0 0 9 1.5zM7.5 15a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 7.5 15m.75 2.25a.75.75 0 0 0 0 1.5H12a.75.75 0 0 0 0-1.5z\" clip-rule=\"evenodd\"/><path d=\"M12.971 1.816A5.23 5.23 0 0 1 14.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 0 1 3.434 1.279 9.768 9.768 0 0 0-6.963-6.963\"/>" , }
+    };
+    pub const HEROICONS_SOLID_DOCUMENT: Self = {
+        Self { collection : & COLLECTION , name : "DOCUMENT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M5.625 1.5c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0 0 16.5 9h-1.875a1.875 1.875 0 0 1-1.875-1.875V5.25A3.75 3.75 0 0 0 9 1.5z\"/><path d=\"M12.971 1.816A5.23 5.23 0 0 1 14.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 0 1 3.434 1.279 9.768 9.768 0 0 0-6.963-6.963\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ELLIPSIS_HORIZONTAL_CIRCLE: Self = {
+        Self { collection : & COLLECTION , name : "ELLIPSIS_HORIZONTAL_CIRCLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25m0 8.625a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25M15.375 12a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0M7.5 10.875a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ELLIPSIS_HORIZONTAL: Self = {
+        Self { collection : & COLLECTION , name : "ELLIPSIS_HORIZONTAL" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M4.5 12a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0m6 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0m6 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ELLIPSIS_VERTICAL: Self = {
+        Self { collection : & COLLECTION , name : "ELLIPSIS_VERTICAL" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M10.5 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0m0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0m0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ENVELOPE_OPEN: Self = {
+        Self { collection : & COLLECTION , name : "ENVELOPE_OPEN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M19.5 22.5a3 3 0 0 0 3-3v-8.174l-6.879 4.022 3.485 1.876a.75.75 0 0 1-.712 1.321l-5.683-3.06a1.5 1.5 0 0 0-1.422 0l-5.683 3.06a.75.75 0 0 1-.712-1.32l3.485-1.877L1.5 11.326V19.5a3 3 0 0 0 3 3z\"/><path d=\"M1.5 9.589v-.745a3 3 0 0 1 1.578-2.641l7.5-4.039a3 3 0 0 1 2.844 0l7.5 4.039A3 3 0 0 1 22.5 8.844v.745l-8.426 4.926-.652-.35a3 3 0 0 0-2.844 0l-.652.35L1.5 9.59z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ENVELOPE: Self = {
+        Self { collection : & COLLECTION , name : "ENVELOPE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0z\"/><path d=\"M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_EXCLAMATION_CIRCLE: Self = {
+        Self { collection : & COLLECTION , name : "EXCLAMATION_CIRCLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12M12 8.25a.75.75 0 0 1 .75.75v3.75a.75.75 0 0 1-1.5 0V9a.75.75 0 0 1 .75-.75m0 8.25a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_EXCLAMATION_TRIANGLE: Self = {
+        Self { collection : & COLLECTION , name : "EXCLAMATION_TRIANGLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M9.401 3.003c1.155-2 4.043-2 5.197 0l7.355 12.748c1.154 2-.29 4.5-2.599 4.5H4.645c-2.309 0-3.752-2.5-2.598-4.5L9.4 3.003zM12 8.25a.75.75 0 0 1 .75.75v3.75a.75.75 0 0 1-1.5 0V9a.75.75 0 0 1 .75-.75m0 8.25a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_EYE_DROPPER: Self = {
+        Self { collection : & COLLECTION , name : "EYE_DROPPER" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M16.098 2.598a3.75 3.75 0 1 1 3.622 6.275l-1.72.46V12a.75.75 0 0 1-.22.53l-.75.75a.75.75 0 0 1-1.06 0l-.97-.97-7.94 7.94a2.56 2.56 0 0 1-1.81.75 1.06 1.06 0 0 0-.75.31l-.97.97a.75.75 0 0 1-1.06 0l-.75-.75a.75.75 0 0 1 0-1.06l.97-.97a1.06 1.06 0 0 0 .31-.75c0-.68.27-1.33.75-1.81L11.69 9l-.97-.97a.75.75 0 0 1 0-1.06l.75-.75A.75.75 0 0 1 12 6h2.666l.461-1.72c.165-.617.49-1.2.971-1.682m-3.348 7.463L4.81 18a1.06 1.06 0 0 0-.31.75c0 .318-.06.63-.172.922a2.56 2.56 0 0 1 .922-.172c.281 0 .551-.112.75-.31l7.94-7.94-1.19-1.19z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_EYE_SLASH: Self = {
+        Self { collection : & COLLECTION , name : "EYE_SLASH" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M3.53 2.47a.75.75 0 0 0-1.06 1.06l18 18a.75.75 0 1 0 1.06-1.06zm19.146 10.083a11.25 11.25 0 0 1-2.631 4.31l-3.099-3.099a5.25 5.25 0 0 0-6.71-6.71L7.759 4.577a11.22 11.22 0 0 1 4.242-.827c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113\"/><path d=\"M15.75 12c0 .18-.013.357-.037.53l-4.244-4.243A3.75 3.75 0 0 1 15.75 12m-3.22 3.713-4.243-4.244a3.75 3.75 0 0 0 4.243 4.243z\"/><path d=\"M6.75 12c0-.619.107-1.213.304-1.764l-3.1-3.1a11.25 11.25 0 0 0-2.63 4.31c-.12.362-.12.752 0 1.114 1.489 4.467 5.704 7.69 10.675 7.69 1.5 0 2.933-.294 4.242-.827l-2.477-2.477A5.25 5.25 0 0 1 6.75 12\"/>" , }
+    };
+    pub const HEROICONS_SOLID_EYE: Self = {
+        Self { collection : & COLLECTION , name : "EYE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6\"/><path fill-rule=\"evenodd\" d=\"M1.323 11.447C2.811 6.976 7.028 3.75 12.001 3.75c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113-1.487 4.471-5.705 7.697-10.677 7.697-4.97 0-9.186-3.223-10.675-7.69a1.762 1.762 0 0 1 0-1.113zM17.25 12a5.25 5.25 0 1 1-10.5 0 5.25 5.25 0 0 1 10.5 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_FACE_FROWN: Self = {
+        Self { collection : & COLLECTION , name : "FACE_FROWN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25m-2.625 6c-.54 0-.828.419-.936.634a1.96 1.96 0 0 0-.189.866c0 .298.059.605.189.866.108.215.395.634.936.634.54 0 .828-.419.936-.634.13-.26.189-.568.189-.866s-.059-.605-.189-.866c-.108-.215-.395-.634-.936-.634m4.314.634c.108-.215.395-.634.936-.634.54 0 .828.419.936.634.13.26.189.568.189.866s-.059.605-.189.866c-.108.215-.395.634-.936.634-.54 0-.828-.419-.936-.634a1.96 1.96 0 0 1-.189-.866c0-.298.059-.605.189-.866m-4.34 7.964a.75.75 0 0 1-1.061-1.06 5.236 5.236 0 0 1 3.73-1.538 5.236 5.236 0 0 1 3.695 1.538.75.75 0 1 1-1.061 1.06 3.736 3.736 0 0 0-2.639-1.098 3.736 3.736 0 0 0-2.664 1.098\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_FACE_SMILE: Self = {
+        Self { collection : & COLLECTION , name : "FACE_SMILE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25m-2.625 6c-.54 0-.828.419-.936.634a1.96 1.96 0 0 0-.189.866c0 .298.059.605.189.866.108.215.395.634.936.634.54 0 .828-.419.936-.634.13-.26.189-.568.189-.866s-.059-.605-.189-.866c-.108-.215-.395-.634-.936-.634m4.314.634c.108-.215.395-.634.936-.634.54 0 .828.419.936.634.13.26.189.568.189.866s-.059.605-.189.866c-.108.215-.395.634-.936.634-.54 0-.828-.419-.936-.634a1.96 1.96 0 0 1-.189-.866c0-.298.059-.605.189-.866m2.023 6.828a.75.75 0 1 0-1.06-1.06 3.75 3.75 0 0 1-5.304 0 .75.75 0 0 0-1.06 1.06 5.25 5.25 0 0 0 7.424 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_FILM: Self = {
+        Self { collection : & COLLECTION , name : "FILM" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M1.5 5.625c0-1.036.84-1.875 1.875-1.875h17.25c1.035 0 1.875.84 1.875 1.875v12.75c0 1.035-.84 1.875-1.875 1.875H3.375A1.875 1.875 0 0 1 1.5 18.375zm1.5 0v1.5c0 .207.168.375.375.375h1.5a.375.375 0 0 0 .375-.375v-1.5a.375.375 0 0 0-.375-.375h-1.5A.375.375 0 0 0 3 5.625m16.125-.375a.375.375 0 0 0-.375.375v1.5c0 .207.168.375.375.375h1.5A.375.375 0 0 0 21 7.125v-1.5a.375.375 0 0 0-.375-.375zM21 9.375A.375.375 0 0 0 20.625 9h-1.5a.375.375 0 0 0-.375.375v1.5c0 .207.168.375.375.375h1.5a.375.375 0 0 0 .375-.375zm0 3.75a.375.375 0 0 0-.375-.375h-1.5a.375.375 0 0 0-.375.375v1.5c0 .207.168.375.375.375h1.5a.375.375 0 0 0 .375-.375zm0 3.75a.375.375 0 0 0-.375-.375h-1.5a.375.375 0 0 0-.375.375v1.5c0 .207.168.375.375.375h1.5a.375.375 0 0 0 .375-.375zM4.875 18.75a.375.375 0 0 0 .375-.375v-1.5a.375.375 0 0 0-.375-.375h-1.5a.375.375 0 0 0-.375.375v1.5c0 .207.168.375.375.375zM3.375 15h1.5a.375.375 0 0 0 .375-.375v-1.5a.375.375 0 0 0-.375-.375h-1.5a.375.375 0 0 0-.375.375v1.5c0 .207.168.375.375.375m0-3.75h1.5a.375.375 0 0 0 .375-.375v-1.5A.375.375 0 0 0 4.875 9h-1.5A.375.375 0 0 0 3 9.375v1.5c0 .207.168.375.375.375m4.125 0a.75.75 0 0 0 0 1.5h9a.75.75 0 0 0 0-1.5z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_FINGER_PRINT: Self = {
+        Self { collection : & COLLECTION , name : "FINGER_PRINT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 3.75a6.715 6.715 0 0 0-3.722 1.118.75.75 0 1 1-.828-1.25 8.25 8.25 0 0 1 12.8 6.883c0 3.014-.574 5.897-1.62 8.543a.75.75 0 0 1-1.395-.551A21.69 21.69 0 0 0 18.75 10.5 6.75 6.75 0 0 0 12 3.75M6.157 5.739a.75.75 0 0 1 .21 1.04A6.715 6.715 0 0 0 5.25 10.5c0 1.613-.463 3.12-1.265 4.393a.75.75 0 0 1-1.27-.8A6.715 6.715 0 0 0 3.75 10.5c0-1.68.503-3.246 1.367-4.55a.75.75 0 0 1 1.04-.211M12 7.5a3 3 0 0 0-3 3c0 3.1-1.176 5.927-3.105 8.056a.75.75 0 1 1-1.112-1.008A10.46 10.46 0 0 0 7.5 10.5a4.5 4.5 0 1 1 9 0c0 .547-.022 1.09-.067 1.626a.75.75 0 0 1-1.495-.123c.041-.495.062-.996.062-1.503a3 3 0 0 0-3-3m0 2.25a.75.75 0 0 1 .75.75 15.69 15.69 0 0 1-3.78 10.238.75.75 0 0 1-1.14-.975 14.19 14.19 0 0 0 3.42-9.263.75.75 0 0 1 .75-.75m3.239 5.183a.75.75 0 0 1 .515.927 19.42 19.42 0 0 1-2.585 5.544.75.75 0 1 1-1.243-.84 17.91 17.91 0 0 0 2.386-5.116.75.75 0 0 1 .927-.515\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_FIRE: Self = {
+        Self { collection : & COLLECTION , name : "FIRE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12.963 2.286a.75.75 0 0 0-1.071-.136 9.742 9.742 0 0 0-3.539 6.177A7.55 7.55 0 0 1 6.648 6.61a.75.75 0 0 0-1.152-.082A9 9 0 1 0 15.68 4.534a7.46 7.46 0 0 1-2.717-2.248M15.75 14.25a3.75 3.75 0 1 1-7.313-1.172c.628.465 1.35.81 2.133 1a5.99 5.99 0 0 1 1.925-3.545 3.75 3.75 0 0 1 3.255 3.717\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_FLAG: Self = {
+        Self { collection : & COLLECTION , name : "FLAG" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M3 2.25a.75.75 0 0 1 .75.75v.54l1.838-.46a9.75 9.75 0 0 1 6.725.738l.108.054a8.25 8.25 0 0 0 5.58.652l3.109-.732a.75.75 0 0 1 .917.81 47.8 47.8 0 0 0 .005 10.337.75.75 0 0 1-.574.812l-3.114.733a9.75 9.75 0 0 1-6.594-.77l-.108-.054a8.25 8.25 0 0 0-5.69-.625l-2.202.55V21a.75.75 0 0 1-1.5 0V3A.75.75 0 0 1 3 2.25\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_FOLDER_ARROW_DOWN: Self = {
+        Self { collection : & COLLECTION , name : "FOLDER_ARROW_DOWN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M19.5 21a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3h-5.379a.75.75 0 0 1-.53-.22L11.47 3.66A2.25 2.25 0 0 0 9.879 3H4.5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3zm-6.75-10.5a.75.75 0 0 0-1.5 0v4.19l-1.72-1.72a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l3-3a.75.75 0 1 0-1.06-1.06l-1.72 1.72z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_FOLDER_MINUS: Self = {
+        Self { collection : & COLLECTION , name : "FOLDER_MINUS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M19.5 21a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3h-5.379a.75.75 0 0 1-.53-.22L11.47 3.66A2.25 2.25 0 0 0 9.879 3H4.5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3zM9 12.75a.75.75 0 0 0 0 1.5h6a.75.75 0 0 0 0-1.5z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_FOLDER_OPEN: Self = {
+        Self { collection : & COLLECTION , name : "FOLDER_OPEN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M19.906 9c.382 0 .749.057 1.094.162V9a3 3 0 0 0-3-3h-3.879a.75.75 0 0 1-.53-.22L11.47 3.66A2.25 2.25 0 0 0 9.879 3H6a3 3 0 0 0-3 3v3.162A3.76 3.76 0 0 1 4.094 9zM4.094 10.5a2.25 2.25 0 0 0-2.227 2.568l.857 6A2.25 2.25 0 0 0 4.951 21H19.05a2.25 2.25 0 0 0 2.227-1.932l.857-6a2.25 2.25 0 0 0-2.227-2.568z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_FOLDER_PLUS: Self = {
+        Self { collection : & COLLECTION , name : "FOLDER_PLUS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M19.5 21a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3h-5.379a.75.75 0 0 1-.53-.22L11.47 3.66A2.25 2.25 0 0 0 9.879 3H4.5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3zm-6.75-10.5a.75.75 0 0 0-1.5 0v2.25H9a.75.75 0 0 0 0 1.5h2.25v2.25a.75.75 0 0 0 1.5 0v-2.25H15a.75.75 0 0 0 0-1.5h-2.25z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_FOLDER: Self = {
+        Self { collection : & COLLECTION , name : "FOLDER" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M19.5 21a3 3 0 0 0 3-3v-4.5a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3V18a3 3 0 0 0 3 3zm-18-10.854V6a3 3 0 0 1 3-3h5.379a2.25 2.25 0 0 1 1.59.659l2.122 2.121c.14.141.331.22.53.22H19.5a3 3 0 0 1 3 3v1.146A4.483 4.483 0 0 0 19.5 9h-15a4.483 4.483 0 0 0-3 1.146\"/>" , }
+    };
+    pub const HEROICONS_SOLID_FORWARD: Self = {
+        Self { collection : & COLLECTION , name : "FORWARD" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M5.055 7.06c-1.25-.714-2.805.189-2.805 1.628v8.123c0 1.44 1.555 2.342 2.805 1.628L12 14.471v2.34c0 1.44 1.555 2.342 2.805 1.628l7.108-4.061c1.26-.72 1.26-2.536 0-3.256L14.805 7.06C13.555 6.346 12 7.25 12 8.688v2.34z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_FUNNEL: Self = {
+        Self { collection : & COLLECTION , name : "FUNNEL" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M3.792 2.938A49.07 49.07 0 0 1 12 2.25c2.797 0 5.54.236 8.209.688a1.857 1.857 0 0 1 1.541 1.836v1.044a3 3 0 0 1-.879 2.121l-6.182 6.182a1.5 1.5 0 0 0-.439 1.061v2.927a3 3 0 0 1-1.658 2.684l-1.757.878A.75.75 0 0 1 9.75 21v-5.818a1.5 1.5 0 0 0-.44-1.06L3.13 7.938a3 3 0 0 1-.879-2.121V4.774c0-.897.64-1.683 1.542-1.836z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_GIF: Self = {
+        Self { collection : & COLLECTION , name : "GIF" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M4.5 3.75a3 3 0 0 0-3 3v10.5a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V6.75a3 3 0 0 0-3-3zm9 4.5a.75.75 0 0 0-1.5 0v7.5a.75.75 0 0 0 1.5 0zm1.5 0a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 0 1.5H16.5v2.25H18a.75.75 0 0 1 0 1.5h-1.5v3a.75.75 0 0 1-1.5 0zM6.636 9.78c.404-.575.867-.78 1.25-.78s.846.205 1.25.78a.75.75 0 0 0 1.228-.863C9.738 8.027 8.853 7.5 7.886 7.5c-.966 0-1.852.527-2.478 1.417-.62.882-.908 2-.908 3.083s.288 2.201.909 3.083c.625.89 1.51 1.417 2.477 1.417s1.852-.527 2.478-1.417a.75.75 0 0 0 .136-.431V12a.75.75 0 0 0-.75-.75h-1.5a.75.75 0 0 0 0 1.5H9v1.648c-.37.44-.774.602-1.114.602-.383 0-.846-.205-1.25-.78C6.226 13.638 6 12.837 6 12s.226-1.638.636-2.22\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_GIFT_TOP: Self = {
+        Self { collection : & COLLECTION , name : "GIFT_TOP" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M11.25 3v4.046a3 3 0 0 0-4.277 4.204H1.5v-6A2.25 2.25 0 0 1 3.75 3zm1.5 0v4.011a3 3 0 0 1 4.239 4.239H22.5v-6A2.25 2.25 0 0 0 20.25 3zm9.75 9.75h-8.983a4.125 4.125 0 0 0 4.108 3.75.75.75 0 0 1 0 1.5 5.623 5.623 0 0 1-4.875-2.817V21h7.5a2.25 2.25 0 0 0 2.25-2.25zM11.25 21v-5.817A5.623 5.623 0 0 1 6.375 18a.75.75 0 0 1 0-1.5 4.126 4.126 0 0 0 4.108-3.75H1.5v6A2.25 2.25 0 0 0 3.75 21z\"/><path d=\"M11.085 10.354c.03.297.038.575.036.805a7.5 7.5 0 0 1-.805-.036c-.833-.084-1.677-.325-2.195-.843a1.5 1.5 0 0 1 2.122-2.12c.517.517.759 1.36.842 2.194m1.792 0c-.03.297-.038.575-.036.805.23.002.508-.006.805-.036.833-.084 1.677-.325 2.195-.843a1.5 1.5 0 0 0-2.121-2.12c-.518.518-.76 1.362-.843 2.194\"/>" , }
+    };
+    pub const HEROICONS_SOLID_GIFT: Self = {
+        Self { collection : & COLLECTION , name : "GIFT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M9.375 3a1.875 1.875 0 0 0 0 3.75h1.875v4.5H3.375A1.875 1.875 0 0 1 1.5 9.375v-.75c0-1.036.84-1.875 1.875-1.875h3.193A3.375 3.375 0 0 1 12 2.753a3.375 3.375 0 0 1 5.432 3.997h3.943c1.035 0 1.875.84 1.875 1.875v.75c0 1.036-.84 1.875-1.875 1.875H12.75v-4.5h1.875a1.875 1.875 0 1 0-1.875-1.875V6.75h-1.5V4.875C11.25 3.839 10.41 3 9.375 3m1.875 9.75H3v6.75a2.25 2.25 0 0 0 2.25 2.25h6zm1.5 0v9h6.75a2.25 2.25 0 0 0 2.25-2.25v-6.75z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_GLOBE_ALT: Self = {
+        Self { collection : & COLLECTION , name : "GLOBE_ALT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M21.721 12.752a9.71 9.71 0 0 0-.945-5.003 12.75 12.75 0 0 1-4.339 2.708 19 19 0 0 1-.214 4.772 17.17 17.17 0 0 0 5.498-2.477m-7.087 2.798a17.32 17.32 0 0 0 .332-4.647c-.952.227-1.945.347-2.966.347s-2.014-.12-2.966-.347a17.52 17.52 0 0 0 .332 4.647 17.39 17.39 0 0 0 5.268 0m-4.862 1.569a18.96 18.96 0 0 0 4.456 0A17.18 17.18 0 0 1 12 21.724a17.18 17.18 0 0 1-2.228-4.605M7.777 15.23a18.87 18.87 0 0 1-.214-4.774 12.75 12.75 0 0 1-4.34-2.708 9.71 9.71 0 0 0-.944 5.004 17.17 17.17 0 0 0 5.498 2.477zm13.579-.478a9.765 9.765 0 0 1-7.478 6.817 18.64 18.64 0 0 0 1.988-4.718 18.63 18.63 0 0 0 5.49-2.098zm-18.712 0c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 0 0 1.988 4.718 9.765 9.765 0 0 1-7.478-6.816zM13.878 2.43a9.755 9.755 0 0 1 6.116 3.986 11.27 11.27 0 0 1-3.746 2.504 18.63 18.63 0 0 0-2.37-6.49M12 2.276a17.15 17.15 0 0 1 2.805 7.121c-.897.23-1.837.353-2.805.353s-1.908-.122-2.805-.353A17.15 17.15 0 0 1 12 2.276m-1.878.154a18.63 18.63 0 0 0-2.37 6.49 11.27 11.27 0 0 1-3.746-2.504 9.754 9.754 0 0 1 6.116-3.985z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_GLOBE_AMERICAS: Self = {
+        Self { collection : & COLLECTION , name : "GLOBE_AMERICAS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25M6.262 6.072a8.25 8.25 0 1 0 10.562-.766 4.5 4.5 0 0 1-1.318 1.357L14.25 7.5l.165.33a.809.809 0 0 1-1.086 1.085l-.604-.302a1.125 1.125 0 0 0-1.298.21l-.132.131c-.439.44-.439 1.152 0 1.591l.296.296c.256.257.622.374.98.314l1.17-.195c.323-.054.654.036.905.245l1.33 1.108c.32.267.46.694.358 1.1a8.7 8.7 0 0 1-2.288 4.04l-.723.724a1.125 1.125 0 0 1-1.298.21l-.153-.076a1.125 1.125 0 0 1-.622-1.006v-1.089c0-.298-.119-.585-.33-.796l-1.347-1.347a1.125 1.125 0 0 1-.21-1.298L9.75 12l-1.64-1.64a6 6 0 0 1-1.676-3.257l-.172-1.03z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_GLOBE_ASIA_AUSTRALIA: Self = {
+        Self { collection : & COLLECTION , name : "GLOBE_ASIA_AUSTRALIA" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M15.75 8.25a.75.75 0 0 1 .75.75c0 1.12-.492 2.126-1.27 2.812a.75.75 0 1 1-.992-1.124A2.243 2.243 0 0 0 15 9a.75.75 0 0 1 .75-.75\"/><path fill-rule=\"evenodd\" d=\"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25M4.575 15.6a8.25 8.25 0 0 0 9.348 4.425 1.966 1.966 0 0 0-1.84-1.275.983.983 0 0 1-.97-.822l-.073-.437c-.094-.565.25-1.11.8-1.267l.99-.282c.427-.123.783-.418.982-.816l.036-.073a1.453 1.453 0 0 1 2.328-.377L16.5 15h.628a2.25 2.25 0 0 1 1.983 1.186 8.25 8.25 0 0 0-6.345-12.4c.044.262.18.503.389.676l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 0 1-1.161.886l-.143.048a1.107 1.107 0 0 0-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 0 1-1.652.928l-.679-.906a1.125 1.125 0 0 0-1.906.172z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_GLOBE_EUROPE_AFRICA: Self = {
+        Self { collection : & COLLECTION , name : "GLOBE_EUROPE_AFRICA" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25M8.547 4.505a8.25 8.25 0 1 0 11.672 8.214l-.46-.46a2.25 2.25 0 0 1-.422-.586l-1.08-2.16a.414.414 0 0 0-.663-.107.827.827 0 0 1-.812.21l-1.273-.363a.89.89 0 0 0-.738 1.595l.587.39c.59.395.674 1.23.172 1.732l-.2.2c-.211.212-.33.498-.33.796v.41c0 .409-.11.809-.32 1.158l-1.315 2.191a2.11 2.11 0 0 1-1.81 1.025 1.055 1.055 0 0 1-1.055-1.055v-1.172c0-.92-.56-1.747-1.414-2.089l-.654-.261a2.25 2.25 0 0 1-1.384-2.46l.007-.042a2.25 2.25 0 0 1 .29-.787l.09-.15a2.25 2.25 0 0 1 2.37-1.048l1.178.236a1.125 1.125 0 0 0 1.302-.795l.208-.73a1.125 1.125 0 0 0-.578-1.315l-.665-.332-.091.091a2.25 2.25 0 0 1-1.591.659h-.18c-.249 0-.487.1-.662.274a.931.931 0 0 1-1.458-1.137z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_HAND_RAISED: Self = {
+        Self { collection : & COLLECTION , name : "HAND_RAISED" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M10.5 1.875a1.125 1.125 0 0 1 2.25 0v8.219c.517.162 1.02.382 1.5.659V3.375a1.125 1.125 0 0 1 2.25 0v10.937a4.505 4.505 0 0 0-3.25 2.373 8.96 8.96 0 0 1 4-.935A.75.75 0 0 0 18 15v-2.266a3.368 3.368 0 0 1 .988-2.37 1.125 1.125 0 0 1 1.591 1.59 1.118 1.118 0 0 0-.329.79v3.006h-.005a6 6 0 0 1-1.752 4.007l-1.736 1.736a6 6 0 0 1-4.242 1.757H10.5a7.5 7.5 0 0 1-7.5-7.5V6.375a1.125 1.125 0 0 1 2.25 0v5.519c.46-.452.965-.832 1.5-1.141V3.375a1.125 1.125 0 0 1 2.25 0v6.526c.495-.1.997-.151 1.5-.151z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_HAND_THUMB_DOWN: Self = {
+        Self { collection : & COLLECTION , name : "HAND_THUMB_DOWN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M15.73 5.25h1.035A7.465 7.465 0 0 1 18 9.375a7.465 7.465 0 0 1-1.235 4.125h-.148c-.806 0-1.534.446-2.031 1.08a9.04 9.04 0 0 1-2.861 2.4c-.723.384-1.35.956-1.653 1.715a4.5 4.5 0 0 0-.322 1.672V21a.75.75 0 0 1-.75.75 2.25 2.25 0 0 1-2.25-2.25c0-1.152.26-2.243.723-3.218C7.74 15.724 7.366 15 6.748 15H3.622c-1.026 0-1.945-.694-2.054-1.715A12.1 12.1 0 0 1 1.5 12c0-2.848.992-5.464 2.649-7.521.388-.482.987-.729 1.605-.729H9.77a4.5 4.5 0 0 1 1.423.23l3.114 1.04a4.5 4.5 0 0 0 1.423.23m5.939 8.523c.536-1.362.831-2.845.831-4.398 0-1.22-.182-2.398-.52-3.507-.26-.85-1.084-1.368-1.973-1.368H19.1c-.445 0-.72.498-.523.898.591 1.2.924 2.55.924 3.977a8.96 8.96 0 0 1-1.302 4.666c-.245.403.028.959.5.959h1.053c.832 0 1.612-.453 1.918-1.227z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_HAND_THUMB_UP: Self = {
+        Self { collection : & COLLECTION , name : "HAND_THUMB_UP" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M7.493 18.75c-.425 0-.82-.236-.975-.632A7.48 7.48 0 0 1 6 15.375c0-1.75.599-3.358 1.602-4.634.151-.192.373-.309.6-.397.473-.183.89-.514 1.212-.924a9.04 9.04 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.5 4.5 0 0 0 .322-1.672V3a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H14.23c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.5 4.5 0 0 0-1.423-.23zm-5.162-7.773a11.97 11.97 0 0 0-.831 4.398 12 12 0 0 0 .52 3.507c.26.85 1.084 1.368 1.973 1.368H4.9c.445 0 .72-.498.523-.898a8.96 8.96 0 0 1-.924-3.977c0-1.708.476-3.305 1.302-4.666.245-.403-.028-.959-.5-.959H4.25c-.832 0-1.612.453-1.918 1.227z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_HASHTAG: Self = {
+        Self { collection : & COLLECTION , name : "HASHTAG" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M11.097 1.515a.75.75 0 0 1 .589.882L10.666 7.5h4.47l1.079-5.397a.75.75 0 1 1 1.47.294L16.665 7.5h3.585a.75.75 0 0 1 0 1.5h-3.885l-1.2 6h3.585a.75.75 0 0 1 0 1.5h-3.885l-1.08 5.397a.75.75 0 1 1-1.47-.294l1.02-5.103h-4.47l-1.08 5.397a.75.75 0 0 1-1.47-.294l1.02-5.103H3.75a.75.75 0 1 1 0-1.5h3.885l1.2-6H5.25a.75.75 0 0 1 0-1.5h3.885l1.08-5.397a.75.75 0 0 1 .882-.588M10.365 9l-1.2 6h4.47l1.2-6z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_HEART: Self = {
+        Self { collection : & COLLECTION , name : "HEART" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"m11.645 20.91-.007-.003-.022-.012a15 15 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.18 25.18 0 0 1-4.244 3.17 15 15 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_HOME_MODERN: Self = {
+        Self { collection : & COLLECTION , name : "HOME_MODERN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M19.006 3.705a.75.75 0 0 0-.512-1.41L6 6.838V3a.75.75 0 0 0-.75-.75h-1.5A.75.75 0 0 0 3 3v4.93l-1.006.365a.75.75 0 0 0 .512 1.41z\"/><path fill-rule=\"evenodd\" d=\"M3.019 11.115 18 5.667V9.09l4.006 1.456a.75.75 0 1 1-.512 1.41l-.494-.18v8.475h.75a.75.75 0 0 1 0 1.5H2.25a.75.75 0 0 1 0-1.5H3v-9.129l.019-.006zM18 20.25v-9.565l1.5.545v9.02zm-9-6a.75.75 0 0 0-.75.75v4.5c0 .414.336.75.75.75h3a.75.75 0 0 0 .75-.75V15a.75.75 0 0 0-.75-.75z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_HOME: Self = {
+        Self { collection : & COLLECTION , name : "HOME" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M11.47 3.84a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.06l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 0 0 1.061 1.06z\"/><path d=\"m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.3 2.3 0 0 0 .091-.086L12 5.43z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_IDENTIFICATION: Self = {
+        Self { collection : & COLLECTION , name : "IDENTIFICATION" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M4.5 3.75a3 3 0 0 0-3 3v10.5a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V6.75a3 3 0 0 0-3-3zm4.125 3a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5m-3.873 8.703a4.126 4.126 0 0 1 7.746 0 .75.75 0 0 1-.351.92 7.47 7.47 0 0 1-3.522.877 7.47 7.47 0 0 1-3.522-.877.75.75 0 0 1-.351-.92M15 8.25a.75.75 0 0 0 0 1.5h3.75a.75.75 0 0 0 0-1.5zM14.25 12a.75.75 0 0 1 .75-.75h3.75a.75.75 0 0 1 0 1.5H15a.75.75 0 0 1-.75-.75m.75 2.25a.75.75 0 0 0 0 1.5h3.75a.75.75 0 0 0 0-1.5z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_INBOX_ARROW_DOWN: Self = {
+        Self { collection : & COLLECTION , name : "INBOX_ARROW_DOWN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M5.478 5.559A1.5 1.5 0 0 1 6.912 4.5H9A.75.75 0 0 0 9 3H6.912a3 3 0 0 0-2.868 2.118l-2.411 7.838a3 3 0 0 0-.133.882V18a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3v-4.162c0-.299-.045-.596-.133-.882l-2.412-7.838A3 3 0 0 0 17.088 3H15a.75.75 0 0 0 0 1.5h2.088a1.5 1.5 0 0 1 1.434 1.059l2.213 7.191H17.89a3 3 0 0 0-2.684 1.658l-.256.513a1.5 1.5 0 0 1-1.342.829H10.39a1.5 1.5 0 0 1-1.342-.83l-.256-.512a3 3 0 0 0-2.684-1.658H3.265z\" clip-rule=\"evenodd\"/><path fill-rule=\"evenodd\" d=\"M12 2.25a.75.75 0 0 1 .75.75v6.44l1.72-1.72a.75.75 0 1 1 1.06 1.06l-3 3a.75.75 0 0 1-1.06 0l-3-3a.75.75 0 0 1 1.06-1.06l1.72 1.72V3a.75.75 0 0 1 .75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_INBOX_STACK: Self = {
+        Self { collection : & COLLECTION , name : "INBOX_STACK" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M1.5 9.832v1.793c0 1.036.84 1.875 1.875 1.875h17.25c1.035 0 1.875-.84 1.875-1.875V9.832a3 3 0 0 0-.722-1.952l-3.285-3.832A3 3 0 0 0 16.215 3h-8.43a3 3 0 0 0-2.278 1.048L2.222 7.88A3 3 0 0 0 1.5 9.832M7.785 4.5a1.5 1.5 0 0 0-1.139.524L3.881 8.25h3.165a3 3 0 0 1 2.496 1.336l.164.246a1.5 1.5 0 0 0 1.248.668h2.092a1.5 1.5 0 0 0 1.248-.668l.164-.246a3 3 0 0 1 2.496-1.336h3.165l-2.765-3.226a1.5 1.5 0 0 0-1.139-.524z\" clip-rule=\"evenodd\"/><path d=\"M2.813 15c-.725 0-1.313.588-1.313 1.313V18a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3v-1.688c0-.724-.588-1.312-1.313-1.312h-4.233a3 3 0 0 0-2.496 1.336l-.164.246a1.5 1.5 0 0 1-1.248.668h-2.092a1.5 1.5 0 0 1-1.248-.668l-.164-.246A3 3 0 0 0 7.046 15H2.812z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_INBOX: Self = {
+        Self { collection : & COLLECTION , name : "INBOX" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M6.912 3a3 3 0 0 0-2.868 2.118l-2.411 7.838a3 3 0 0 0-.133.882V18a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3v-4.162c0-.299-.045-.596-.133-.882l-2.412-7.838A3 3 0 0 0 17.088 3zm13.823 9.75-2.213-7.191A1.5 1.5 0 0 0 17.088 4.5H6.912a1.5 1.5 0 0 0-1.434 1.059L3.265 12.75H6.11a3 3 0 0 1 2.684 1.658l.256.513a1.5 1.5 0 0 0 1.342.829h3.218a1.5 1.5 0 0 0 1.342-.83l.256-.512a3 3 0 0 1 2.684-1.658h2.844z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_INFORMATION_CIRCLE: Self = {
+        Self { collection : & COLLECTION , name : "INFORMATION_CIRCLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12m8.706-1.442c1.146-.573 2.437.463 2.126 1.706l-.709 2.836.042-.02a.75.75 0 0 1 .67 1.34l-.04.022c-1.147.573-2.438-.463-2.127-1.706l.71-2.836-.042.02a.75.75 0 1 1-.671-1.34zM12 9a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_KEY: Self = {
+        Self { collection : & COLLECTION , name : "KEY" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M15.75 1.5a6.75 6.75 0 0 0-6.651 7.906c.067.39-.032.717-.221.906l-6.5 6.499a3 3 0 0 0-.878 2.121v2.818c0 .414.336.75.75.75H6a.75.75 0 0 0 .75-.75v-1.5h1.5A.75.75 0 0 0 9 19.5V18h1.5a.75.75 0 0 0 .53-.22l2.658-2.658c.19-.189.517-.288.906-.22A6.75 6.75 0 1 0 15.75 1.5m0 3a.75.75 0 0 0 0 1.5A2.25 2.25 0 0 1 18 8.25a.75.75 0 0 0 1.5 0 3.75 3.75 0 0 0-3.75-3.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_LANGUAGE: Self = {
+        Self { collection : & COLLECTION , name : "LANGUAGE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M9 2.25a.75.75 0 0 1 .75.75v1.506a49.4 49.4 0 0 1 5.343.371.75.75 0 1 1-.186 1.489c-.66-.083-1.323-.151-1.99-.206a18.67 18.67 0 0 1-2.969 6.323c.317.384.65.753.998 1.107a.75.75 0 1 1-1.07 1.052A19 19 0 0 1 9 13.687a18.82 18.82 0 0 1-5.656 4.482.75.75 0 1 1-.688-1.333 17.32 17.32 0 0 0 5.396-4.353A18.72 18.72 0 0 1 5.89 8.598a.75.75 0 0 1 1.388-.568A17.2 17.2 0 0 0 9 11.224a17.17 17.17 0 0 0 2.391-5.165 48.04 48.04 0 0 0-8.298.307.75.75 0 0 1-.186-1.489 49.2 49.2 0 0 1 5.343-.371V3A.75.75 0 0 1 9 2.25M15.75 9a.75.75 0 0 1 .68.433l5.25 11.25a.75.75 0 0 1-1.36.634l-1.198-2.567h-6.744l-1.198 2.567a.75.75 0 0 1-1.36-.634l5.25-11.25A.75.75 0 0 1 15.75 9m-2.672 8.25h5.344l-2.672-5.726z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_LIFEBUOY: Self = {
+        Self { collection : & COLLECTION , name : "LIFEBUOY" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M19.449 8.448 16.388 11a4.52 4.52 0 0 1 0 2.002l3.061 2.55a8.275 8.275 0 0 0 0-7.103zM15.552 19.45 13 16.388a4.52 4.52 0 0 1-2.002 0l-2.55 3.061a8.275 8.275 0 0 0 7.103 0zM4.55 15.552 7.612 13a4.52 4.52 0 0 1 0-2.002L4.551 8.45a8.275 8.275 0 0 0 0 7.103zM8.448 4.55 11 7.612a4.52 4.52 0 0 1 2.002 0l2.55-3.061a8.275 8.275 0 0 0-7.103 0zm8.657-.86a9.78 9.78 0 0 1 1.79 1.415 9.78 9.78 0 0 1 1.414 1.788 9.764 9.764 0 0 1 0 10.211 9.78 9.78 0 0 1-1.415 1.79 9.78 9.78 0 0 1-1.788 1.414 9.764 9.764 0 0 1-10.212 0 9.78 9.78 0 0 1-1.788-1.415 9.78 9.78 0 0 1-1.415-1.788 9.764 9.764 0 0 1 0-10.212 9.77 9.77 0 0 1 1.415-1.788A9.77 9.77 0 0 1 6.894 3.69a9.764 9.764 0 0 1 10.211 0m-2.984 6.19a2.985 2.985 0 0 0-1.11-.704 3.015 3.015 0 0 0-2.022 0 2.985 2.985 0 0 0-1.11.704c-.326.325-.56.705-.704 1.11a3.015 3.015 0 0 0 0 2.022c.144.405.378.785.704 1.11.325.326.705.56 1.11.704.652.233 1.37.233 2.022 0a2.985 2.985 0 0 0 1.11-.704c.326-.325.56-.705.704-1.11a3.016 3.016 0 0 0 0-2.022 2.985 2.985 0 0 0-.704-1.11\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_LIGHT_BULB: Self = {
+        Self { collection : & COLLECTION , name : "LIGHT_BULB" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M12 .75a8.25 8.25 0 0 0-4.135 15.39c.686.398 1.115 1.008 1.134 1.623a.75.75 0 0 0 .577.706q.528.1245 1.074.195c.323.041.6-.218.6-.544v-4.661a6.7 6.7 0 0 1-.937-.171.75.75 0 1 1 .374-1.453 5.26 5.26 0 0 0 2.626 0 .75.75 0 1 1 .374 1.452 6.7 6.7 0 0 1-.937.172v4.66c0 .327.277.586.6.545q.546-.0705 1.074-.195a.75.75 0 0 0 .577-.706c.02-.615.448-1.225 1.134-1.623A8.25 8.25 0 0 0 12 .75\"/><path fill-rule=\"evenodd\" d=\"M9.013 19.9a.75.75 0 0 1 .877-.597 11.32 11.32 0 0 0 4.22 0 .75.75 0 1 1 .28 1.473 12.82 12.82 0 0 1-4.78 0 .75.75 0 0 1-.597-.876m.741 2.444a.75.75 0 0 1 .824-.668 13.7 13.7 0 0 0 2.844 0 .75.75 0 1 1 .156 1.492 15.16 15.16 0 0 1-3.156 0 .75.75 0 0 1-.668-.824\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_LINK: Self = {
+        Self { collection : & COLLECTION , name : "LINK" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M19.902 4.098a3.75 3.75 0 0 0-5.304 0l-4.5 4.5a3.75 3.75 0 0 0 1.035 6.037.75.75 0 0 1-.646 1.353 5.25 5.25 0 0 1-1.449-8.45l4.5-4.5a5.25 5.25 0 1 1 7.424 7.424l-1.757 1.757a.75.75 0 1 1-1.06-1.06l1.757-1.757a3.75 3.75 0 0 0 0-5.304m-7.389 4.267a.75.75 0 0 1 1-.353 5.25 5.25 0 0 1 1.449 8.45l-4.5 4.5a5.25 5.25 0 1 1-7.424-7.424l1.757-1.757a.75.75 0 1 1 1.06 1.06l-1.757 1.757a3.75 3.75 0 1 0 5.304 5.304l4.5-4.5a3.75 3.75 0 0 0-1.035-6.037.75.75 0 0 1-.354-1\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_LIST_BULLET: Self = {
+        Self { collection : & COLLECTION , name : "LIST_BULLET" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M2.625 6.75a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0m4.875 0A.75.75 0 0 1 8.25 6h12a.75.75 0 0 1 0 1.5h-12a.75.75 0 0 1-.75-.75M2.625 12a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0M7.5 12a.75.75 0 0 1 .75-.75h12a.75.75 0 0 1 0 1.5h-12A.75.75 0 0 1 7.5 12m-4.875 5.25a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0m4.875 0a.75.75 0 0 1 .75-.75h12a.75.75 0 0 1 0 1.5h-12a.75.75 0 0 1-.75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_LOCK_CLOSED: Self = {
+        Self { collection : & COLLECTION , name : "LOCK_CLOSED" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 1.5a5.25 5.25 0 0 0-5.25 5.25v3a3 3 0 0 0-3 3v6.75a3 3 0 0 0 3 3h10.5a3 3 0 0 0 3-3v-6.75a3 3 0 0 0-3-3v-3c0-2.9-2.35-5.25-5.25-5.25m3.75 8.25v-3a3.75 3.75 0 1 0-7.5 0v3z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_LOCK_OPEN: Self = {
+        Self { collection : & COLLECTION , name : "LOCK_OPEN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M18 1.5c2.9 0 5.25 2.35 5.25 5.25v3.75a.75.75 0 0 1-1.5 0V6.75a3.75 3.75 0 1 0-7.5 0v3a3 3 0 0 1 3 3v6.75a3 3 0 0 1-3 3H3.75a3 3 0 0 1-3-3v-6.75a3 3 0 0 1 3-3h9v-3c0-2.9 2.35-5.25 5.25-5.25\"/>" , }
+    };
+    pub const HEROICONS_SOLID_MAGNIFYING_GLASS_CIRCLE: Self = {
+        Self { collection : & COLLECTION , name : "MAGNIFYING_GLASS_CIRCLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M8.25 10.875a2.625 2.625 0 1 1 5.25 0 2.625 2.625 0 0 1-5.25 0\"/><path fill-rule=\"evenodd\" d=\"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25m-1.125 4.5a4.125 4.125 0 1 0 2.338 7.524l2.007 2.006a.75.75 0 1 0 1.06-1.06l-2.006-2.007a4.125 4.125 0 0 0-3.399-6.463\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_MAGNIFYING_GLASS_MINUS: Self = {
+        Self { collection : & COLLECTION , name : "MAGNIFYING_GLASS_MINUS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5M2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5m4.5 0a.75.75 0 0 1 .75-.75h6a.75.75 0 0 1 0 1.5h-6a.75.75 0 0 1-.75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_MAGNIFYING_GLASS_PLUS: Self = {
+        Self { collection : & COLLECTION , name : "MAGNIFYING_GLASS_PLUS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5M2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5m8.25-3.75a.75.75 0 0 1 .75.75v2.25h2.25a.75.75 0 0 1 0 1.5h-2.25v2.25a.75.75 0 0 1-1.5 0v-2.25H7.5a.75.75 0 0 1 0-1.5h2.25V7.5a.75.75 0 0 1 .75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_MAGNIFYING_GLASS: Self = {
+        Self { collection : & COLLECTION , name : "MAGNIFYING_GLASS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5M2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_MAP_PIN: Self = {
+        Self { collection : & COLLECTION , name : "MAP_PIN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a17 17 0 0 0 1.144-.742 19.6 19.6 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.6 19.6 0 0 0 2.682 2.282 17 17 0 0 0 1.145.742M12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_MAP: Self = {
+        Self { collection : & COLLECTION , name : "MAP" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M8.161 2.58a1.875 1.875 0 0 1 1.678 0l4.993 2.498c.106.052.23.052.336 0l3.869-1.935A1.875 1.875 0 0 1 21.75 4.82v12.485c0 .71-.401 1.36-1.037 1.677l-4.875 2.437a1.875 1.875 0 0 1-1.676 0l-4.994-2.497a.375.375 0 0 0-.336 0l-3.868 1.935A1.875 1.875 0 0 1 2.25 19.18V6.695c0-.71.401-1.36 1.036-1.677l4.875-2.437zM9 6a.75.75 0 0 1 .75.75V15a.75.75 0 0 1-1.5 0V6.75A.75.75 0 0 1 9 6m6.75 3a.75.75 0 0 0-1.5 0v8.25a.75.75 0 0 0 1.5 0z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_MEGAPHONE: Self = {
+        Self { collection : & COLLECTION , name : "MEGAPHONE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M16.881 4.346A23.11 23.11 0 0 1 8.25 6H7.5a5.25 5.25 0 0 0-.88 10.427 21.6 21.6 0 0 0 1.378 3.94c.464 1.004 1.674 1.32 2.582.796l.657-.379c.88-.508 1.165-1.592.772-2.468a17.1 17.1 0 0 1-.628-1.607c1.918.258 3.76.75 5.5 1.446A21.73 21.73 0 0 0 18 11.25c0-2.413-.393-4.735-1.119-6.904m1.379-.606a23.22 23.22 0 0 1 1.24 7.51 23.22 23.22 0 0 1-1.24 7.51c-.055.161-.111.322-.17.482a.75.75 0 1 0 1.409.516 24.56 24.56 0 0 0 1.415-6.43 2.992 2.992 0 0 0 .836-2.078c0-.806-.319-1.54-.836-2.078a24.65 24.65 0 0 0-1.415-6.43.75.75 0 1 0-1.409.516c.059.16.116.321.17.483z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_MICROPHONE: Self = {
+        Self { collection : & COLLECTION , name : "MICROPHONE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M8.25 4.5a3.75 3.75 0 1 1 7.5 0v8.25a3.75 3.75 0 1 1-7.5 0z\"/><path d=\"M6 10.5a.75.75 0 0 1 .75.75v1.5a5.25 5.25 0 1 0 10.5 0v-1.5a.75.75 0 0 1 1.5 0v1.5a6.751 6.751 0 0 1-6 6.709v2.291h3a.75.75 0 0 1 0 1.5h-7.5a.75.75 0 0 1 0-1.5h3v-2.291a6.751 6.751 0 0 1-6-6.709v-1.5A.75.75 0 0 1 6 10.5\"/>" , }
+    };
+    pub const HEROICONS_SOLID_MINUS_CIRCLE: Self = {
+        Self { collection : & COLLECTION , name : "MINUS_CIRCLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25m3 10.5a.75.75 0 0 0 0-1.5H9a.75.75 0 0 0 0 1.5z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_MINUS_SMALL: Self = {
+        Self { collection : & COLLECTION , name : "MINUS_SMALL" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M5.25 12a.75.75 0 0 1 .75-.75h12a.75.75 0 0 1 0 1.5H6a.75.75 0 0 1-.75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_MINUS: Self = {
+        Self { collection : & COLLECTION , name : "MINUS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M3.75 12a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 0 1.5h-15a.75.75 0 0 1-.75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_MOON: Self = {
+        Self { collection : & COLLECTION , name : "MOON" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.701-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_MUSICAL_NOTE: Self = {
+        Self { collection : & COLLECTION , name : "MUSICAL_NOTE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M19.952 1.651a.75.75 0 0 1 .298.599v14.053a3 3 0 0 1-2.176 2.884l-1.32.377a2.553 2.553 0 1 1-1.403-4.909l2.311-.66a1.5 1.5 0 0 0 1.088-1.442V6.994l-9 2.572v9.737a3 3 0 0 1-2.176 2.884l-1.32.377a2.553 2.553 0 1 1-1.402-4.909l2.31-.66a1.5 1.5 0 0 0 1.088-1.442V5.25a.75.75 0 0 1 .544-.721l10.5-3a.75.75 0 0 1 .658.122\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_NEWSPAPER: Self = {
+        Self { collection : & COLLECTION , name : "NEWSPAPER" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M4.125 3C3.089 3 2.25 3.84 2.25 4.875V18a3 3 0 0 0 3 3h15a3 3 0 0 1-3-3V4.875C17.25 3.839 16.41 3 15.375 3zM12 9.75a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5zm-.75-2.25a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5H12a.75.75 0 0 1-.75-.75M6 12.75a.75.75 0 0 0 0 1.5h7.5a.75.75 0 0 0 0-1.5zm-.75 3.75a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5H6a.75.75 0 0 1-.75-.75M6 6.75a.75.75 0 0 0-.75.75v3c0 .414.336.75.75.75h3a.75.75 0 0 0 .75-.75v-3A.75.75 0 0 0 9 6.75z\" clip-rule=\"evenodd\"/><path d=\"M18.75 6.75h1.875c.621 0 1.125.504 1.125 1.125V18a1.5 1.5 0 0 1-3 0z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_NO_SYMBOL: Self = {
+        Self { collection : & COLLECTION , name : "NO_SYMBOL" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"m6.72 5.66 11.62 11.62A8.25 8.25 0 0 0 6.72 5.66m10.56 12.68L5.66 6.72a8.25 8.25 0 0 0 11.62 11.62M5.105 5.106c3.807-3.808 9.98-3.808 13.788 0 3.808 3.807 3.808 9.98 0 13.788-3.807 3.808-9.98 3.808-13.788 0-3.808-3.807-3.808-9.98 0-13.788\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PAINT_BRUSH: Self = {
+        Self { collection : & COLLECTION , name : "PAINT_BRUSH" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M20.599 1.5c-.376 0-.743.111-1.055.32l-5.08 3.385a18.75 18.75 0 0 0-3.471 2.987 10.04 10.04 0 0 1 4.815 4.815 18.75 18.75 0 0 0 2.987-3.472l3.386-5.079A1.902 1.902 0 0 0 20.599 1.5m-8.3 14.025a18.8 18.8 0 0 0 1.896-1.207 8.026 8.026 0 0 0-4.513-4.513A18.8 18.8 0 0 0 8.475 11.7l-.278.5a5.26 5.26 0 0 1 3.601 3.602l.502-.278zM6.75 13.5A3.75 3.75 0 0 0 3 17.25a1.5 1.5 0 0 1-1.601 1.497.75.75 0 0 0-.7 1.123 5.25 5.25 0 0 0 9.8-2.62 3.75 3.75 0 0 0-3.75-3.75z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PAPER_AIRPLANE: Self = {
+        Self { collection : & COLLECTION , name : "PAPER_AIRPLANE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M3.478 2.405a.75.75 0 0 0-.926.94l2.432 7.905H13.5a.75.75 0 0 1 0 1.5H4.984l-2.432 7.905a.75.75 0 0 0 .926.94 60.52 60.52 0 0 0 18.445-8.986.75.75 0 0 0 0-1.218A60.52 60.52 0 0 0 3.478 2.405\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PAPER_CLIP: Self = {
+        Self { collection : & COLLECTION , name : "PAPER_CLIP" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M18.97 3.659a2.25 2.25 0 0 0-3.182 0l-10.94 10.94a3.75 3.75 0 1 0 5.304 5.303l7.693-7.693a.75.75 0 0 1 1.06 1.06l-7.693 7.693a5.25 5.25 0 1 1-7.424-7.424l10.939-10.94a3.75 3.75 0 1 1 5.303 5.304L9.097 18.835l-.008.008-.007.007-.002.002-.003.002A2.25 2.25 0 0 1 5.91 15.66l7.81-7.81a.75.75 0 0 1 1.061 1.06l-7.81 7.81a.75.75 0 0 0 1.054 1.068L18.97 6.84a2.25 2.25 0 0 0 0-3.182z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PAUSE_CIRCLE: Self = {
+        Self { collection : & COLLECTION , name : "PAUSE_CIRCLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12M9 8.25a.75.75 0 0 0-.75.75v6c0 .414.336.75.75.75h.75a.75.75 0 0 0 .75-.75V9a.75.75 0 0 0-.75-.75zm5.25 0a.75.75 0 0 0-.75.75v6c0 .414.336.75.75.75H15a.75.75 0 0 0 .75-.75V9a.75.75 0 0 0-.75-.75z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PAUSE: Self = {
+        Self { collection : & COLLECTION , name : "PAUSE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M6.75 5.25a.75.75 0 0 1 .75-.75H9a.75.75 0 0 1 .75.75v13.5a.75.75 0 0 1-.75.75H7.5a.75.75 0 0 1-.75-.75zm7.5 0A.75.75 0 0 1 15 4.5h1.5a.75.75 0 0 1 .75.75v13.5a.75.75 0 0 1-.75.75H15a.75.75 0 0 1-.75-.75z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PENCIL_SQUARE: Self = {
+        Self { collection : & COLLECTION , name : "PENCIL_SQUARE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M21.731 2.269a2.625 2.625 0 0 0-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 0 0 0-3.712m-2.218 5.93-3.712-3.712-8.4 8.4a5.25 5.25 0 0 0-1.32 2.214l-.8 2.685a.75.75 0 0 0 .933.933l2.685-.8a5.25 5.25 0 0 0 2.214-1.32z\"/><path d=\"M5.25 5.25a3 3 0 0 0-3 3v10.5a3 3 0 0 0 3 3h10.5a3 3 0 0 0 3-3V13.5a.75.75 0 0 0-1.5 0v5.25a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5V8.25a1.5 1.5 0 0 1 1.5-1.5h5.25a.75.75 0 0 0 0-1.5z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PENCIL: Self = {
+        Self { collection : & COLLECTION , name : "PENCIL" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M21.731 2.269a2.625 2.625 0 0 0-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 0 0 0-3.712m-2.218 5.93-3.712-3.712-12.15 12.15a5.25 5.25 0 0 0-1.32 2.214l-.8 2.685a.75.75 0 0 0 .933.933l2.685-.8a5.25 5.25 0 0 0 2.214-1.32L19.513 8.2z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PHONE_ARROW_DOWN_LEFT: Self = {
+        Self { collection : & COLLECTION , name : "PHONE_ARROW_DOWN_LEFT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M19.5 9.75a.75.75 0 0 1-.75.75h-4.5a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 1 1.5 0v2.69l4.72-4.72a.75.75 0 1 1 1.06 1.06L16.06 9h2.69a.75.75 0 0 1 .75.75\" clip-rule=\"evenodd\"/><path fill-rule=\"evenodd\" d=\"M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PHONE_ARROW_UP_RIGHT: Self = {
+        Self { collection : & COLLECTION , name : "PHONE_ARROW_UP_RIGHT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M15 3.75a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0V5.56l-4.72 4.72a.75.75 0 1 1-1.06-1.06l4.72-4.72h-2.69a.75.75 0 0 1-.75-.75\" clip-rule=\"evenodd\"/><path fill-rule=\"evenodd\" d=\"M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PHONE_X_MARK: Self = {
+        Self { collection : & COLLECTION , name : "PHONE_X_MARK" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M15.22 3.22a.75.75 0 0 1 1.06 0L18 4.94l1.72-1.72a.75.75 0 1 1 1.06 1.06L19.06 6l1.72 1.72a.75.75 0 0 1-1.06 1.06L18 7.06l-1.72 1.72a.75.75 0 1 1-1.06-1.06L16.94 6l-1.72-1.72a.75.75 0 0 1 0-1.06M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PHONE: Self = {
+        Self { collection : & COLLECTION , name : "PHONE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PHOTO: Self = {
+        Self { collection : & COLLECTION , name : "PHOTO" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M1.5 6a2.25 2.25 0 0 1 2.25-2.25h16.5A2.25 2.25 0 0 1 22.5 6v12a2.25 2.25 0 0 1-2.25 2.25H3.75A2.25 2.25 0 0 1 1.5 18zM3 16.06V18c0 .414.336.75.75.75h16.5A.75.75 0 0 0 21 18v-1.94l-2.69-2.689a1.5 1.5 0 0 0-2.12 0l-.88.879.97.97a.75.75 0 1 1-1.06 1.06l-5.16-5.159a1.5 1.5 0 0 0-2.12 0L3 16.061zm10.125-7.81a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PLAY_CIRCLE: Self = {
+        Self { collection : & COLLECTION , name : "PLAY_CIRCLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12m14.024-.983a1.125 1.125 0 0 1 0 1.966l-5.603 3.113A1.125 1.125 0 0 1 9 15.113V8.887c0-.857.921-1.4 1.671-.983z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PLAY_PAUSE: Self = {
+        Self { collection : & COLLECTION , name : "PLAY_PAUSE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M15 6.75a.75.75 0 0 0-.75.75V18a.75.75 0 0 0 .75.75h.75a.75.75 0 0 0 .75-.75V7.5a.75.75 0 0 0-.75-.75zm5.25 0a.75.75 0 0 0-.75.75V18c0 .414.336.75.75.75H21a.75.75 0 0 0 .75-.75V7.5a.75.75 0 0 0-.75-.75zm-15.195.31c-1.25-.713-2.805.19-2.805 1.63v8.122c0 1.44 1.555 2.343 2.805 1.628l7.108-4.061c1.26-.72 1.26-2.536 0-3.256L5.055 7.061z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PLAY: Self = {
+        Self { collection : & COLLECTION , name : "PLAY" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PLUS_CIRCLE: Self = {
+        Self { collection : & COLLECTION , name : "PLUS_CIRCLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25M12.75 9a.75.75 0 0 0-1.5 0v2.25H9a.75.75 0 0 0 0 1.5h2.25V15a.75.75 0 0 0 1.5 0v-2.25H15a.75.75 0 0 0 0-1.5h-2.25z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PLUS_SMALL: Self = {
+        Self { collection : & COLLECTION , name : "PLUS_SMALL" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 5.25a.75.75 0 0 1 .75.75v5.25H18a.75.75 0 0 1 0 1.5h-5.25V18a.75.75 0 0 1-1.5 0v-5.25H6a.75.75 0 0 1 0-1.5h5.25V6a.75.75 0 0 1 .75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PLUS: Self = {
+        Self { collection : & COLLECTION , name : "PLUS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 3.75a.75.75 0 0 1 .75.75v6.75h6.75a.75.75 0 0 1 0 1.5h-6.75v6.75a.75.75 0 0 1-1.5 0v-6.75H4.5a.75.75 0 0 1 0-1.5h6.75V4.5a.75.75 0 0 1 .75-.75\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_POWER: Self = {
+        Self { collection : & COLLECTION , name : "POWER" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25a.75.75 0 0 1 .75.75v9a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75M6.166 5.106a.75.75 0 0 1 0 1.06 8.25 8.25 0 1 0 11.668 0 .75.75 0 1 1 1.06-1.06c3.808 3.807 3.808 9.98 0 13.788-3.807 3.808-9.98 3.808-13.788 0-3.808-3.807-3.808-9.98 0-13.788a.75.75 0 0 1 1.06 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PRESENTATION_CHART_BAR: Self = {
+        Self { collection : & COLLECTION , name : "PRESENTATION_CHART_BAR" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M2.25 2.25a.75.75 0 0 0 0 1.5H3v10.5a3 3 0 0 0 3 3h1.21l-1.172 3.513a.75.75 0 0 0 1.424.474l.329-.987h8.418l.33.987a.75.75 0 0 0 1.422-.474l-1.17-3.513H18a3 3 0 0 0 3-3V3.75h.75a.75.75 0 0 0 0-1.5zm6.04 16.5.5-1.5h6.42l.5 1.5zm7.46-12a.75.75 0 0 0-1.5 0v6a.75.75 0 0 0 1.5 0zm-3 2.25a.75.75 0 0 0-1.5 0v3.75a.75.75 0 0 0 1.5 0zm-3 2.25a.75.75 0 0 0-1.5 0v1.5a.75.75 0 0 0 1.5 0z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PRESENTATION_CHART_LINE: Self = {
+        Self { collection : & COLLECTION , name : "PRESENTATION_CHART_LINE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M2.25 2.25a.75.75 0 0 0 0 1.5H3v10.5a3 3 0 0 0 3 3h1.21l-1.172 3.513a.75.75 0 0 0 1.424.474l.329-.987h8.418l.33.987a.75.75 0 0 0 1.422-.474l-1.17-3.513H18a3 3 0 0 0 3-3V3.75h.75a.75.75 0 0 0 0-1.5zm6.54 15h6.42l.5 1.5H8.29zm8.085-8.995a.75.75 0 1 0-.75-1.299 12.81 12.81 0 0 0-3.558 3.05L11.03 8.47a.75.75 0 0 0-1.06 0l-3 3a.75.75 0 1 0 1.06 1.06l2.47-2.47 1.617 1.618a.75.75 0 0 0 1.146-.102 11.31 11.31 0 0 1 3.612-3.321\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PRINTER: Self = {
+        Self { collection : & COLLECTION , name : "PRINTER" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M7.875 1.5C6.839 1.5 6 2.34 6 3.375v2.99c-.426.053-.851.11-1.274.174-1.454.218-2.476 1.483-2.476 2.917v6.294a3 3 0 0 0 3 3h.27l-.155 1.705A1.875 1.875 0 0 0 7.232 22.5h9.536a1.875 1.875 0 0 0 1.867-2.045l-.155-1.705h.27a3 3 0 0 0 3-3V9.456c0-1.434-1.022-2.7-2.476-2.917A49 49 0 0 0 18 6.366V3.375c0-1.036-.84-1.875-1.875-1.875zM16.5 6.205v-2.83A.375.375 0 0 0 16.125 3h-8.25a.375.375 0 0 0-.375.375v2.83a49.35 49.35 0 0 1 9 0m-.217 8.265c.178.018.317.16.333.337l.526 5.784a.375.375 0 0 1-.374.409H7.232a.375.375 0 0 1-.374-.409l.526-5.784a.373.373 0 0 1 .333-.337 41.74 41.74 0 0 1 8.566 0m.967-3.97a.75.75 0 0 1 .75-.75h.008a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75H18a.75.75 0 0 1-.75-.75zM15 9.75a.75.75 0 0 0-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 0 0 .75-.75V10.5a.75.75 0 0 0-.75-.75z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_PUZZLE_PIECE: Self = {
+        Self { collection : & COLLECTION , name : "PUZZLE_PIECE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M11.25 5.337c0-.355-.186-.676-.401-.959a1.647 1.647 0 0 1-.349-1.003c0-1.036 1.007-1.875 2.25-1.875S15 2.34 15 3.375c0 .369-.128.713-.349 1.003-.215.283-.401.604-.401.959 0 .332.278.598.61.578 1.91-.114 3.79-.342 5.632-.676a.75.75 0 0 1 .878.645 49.2 49.2 0 0 1 .376 5.452.657.657 0 0 1-.66.664c-.354 0-.675-.186-.958-.401a1.647 1.647 0 0 0-1.003-.349c-1.035 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401.31 0 .557.262.534.571a48.8 48.8 0 0 1-.595 4.845.75.75 0 0 1-.61.61c-1.82.317-3.673.533-5.555.642a.58.58 0 0 1-.611-.581c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.035-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959a.641.641 0 0 1-.658.643 49.1 49.1 0 0 1-4.708-.36.75.75 0 0 1-.645-.878c.293-1.614.504-3.257.629-4.924A.53.53 0 0 0 5.337 15c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.036 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.369 0 .713.128 1.003.349.283.215.604.401.959.401a.656.656 0 0 0 .659-.663 47.7 47.7 0 0 0-.31-4.82.75.75 0 0 1 .83-.832c1.343.155 2.703.254 4.077.294a.64.64 0 0 0 .657-.642\"/>" , }
+    };
+    pub const HEROICONS_SOLID_QR_CODE: Self = {
+        Self { collection : & COLLECTION , name : "QR_CODE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M3 4.875C3 3.839 3.84 3 4.875 3h4.5c1.036 0 1.875.84 1.875 1.875v4.5c0 1.036-.84 1.875-1.875 1.875h-4.5A1.875 1.875 0 0 1 3 9.375zM4.875 4.5a.375.375 0 0 0-.375.375v4.5c0 .207.168.375.375.375h4.5a.375.375 0 0 0 .375-.375v-4.5a.375.375 0 0 0-.375-.375zm7.875.375c0-1.036.84-1.875 1.875-1.875h4.5C20.16 3 21 3.84 21 4.875v4.5c0 1.036-.84 1.875-1.875 1.875h-4.5a1.875 1.875 0 0 1-1.875-1.875zm1.875-.375a.375.375 0 0 0-.375.375v4.5c0 .207.168.375.375.375h4.5a.375.375 0 0 0 .375-.375v-4.5a.375.375 0 0 0-.375-.375zM6 6.75A.75.75 0 0 1 6.75 6h.75a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-.75.75h-.75A.75.75 0 0 1 6 7.5zm9.75 0A.75.75 0 0 1 16.5 6h.75a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-.75.75h-.75a.75.75 0 0 1-.75-.75zM3 14.625c0-1.036.84-1.875 1.875-1.875h4.5c1.036 0 1.875.84 1.875 1.875v4.5c0 1.035-.84 1.875-1.875 1.875h-4.5A1.875 1.875 0 0 1 3 19.125zm1.875-.375a.375.375 0 0 0-.375.375v4.5c0 .207.168.375.375.375h4.5a.375.375 0 0 0 .375-.375v-4.5a.375.375 0 0 0-.375-.375zm7.875-.75a.75.75 0 0 1 .75-.75h.75a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-.75.75h-.75a.75.75 0 0 1-.75-.75zm6 0a.75.75 0 0 1 .75-.75h.75a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-.75.75h-.75a.75.75 0 0 1-.75-.75zM6 16.5a.75.75 0 0 1 .75-.75h.75a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-.75.75h-.75a.75.75 0 0 1-.75-.75zm9.75 0a.75.75 0 0 1 .75-.75h.75a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-.75.75h-.75a.75.75 0 0 1-.75-.75zm-3 3a.75.75 0 0 1 .75-.75h.75a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-.75.75h-.75a.75.75 0 0 1-.75-.75zm6 0a.75.75 0 0 1 .75-.75h.75a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-.75.75h-.75a.75.75 0 0 1-.75-.75z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_QUESTION_MARK_CIRCLE: Self = {
+        Self { collection : & COLLECTION , name : "QUESTION_MARK_CIRCLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12m11.378-3.917c-.89-.777-2.366-.777-3.255 0a.75.75 0 0 1-.988-1.129c1.454-1.272 3.776-1.272 5.23 0 1.513 1.324 1.513 3.518 0 4.842a3.75 3.75 0 0 1-.837.552c-.676.328-1.028.774-1.028 1.152v.75a.75.75 0 0 1-1.5 0v-.75c0-1.279 1.06-2.107 1.875-2.502.182-.088.351-.199.503-.331.83-.727.83-1.857 0-2.584M12 18a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_QUEUE_LIST: Self = {
+        Self { collection : & COLLECTION , name : "QUEUE_LIST" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M5.625 3.75a2.625 2.625 0 1 0 0 5.25h12.75a2.625 2.625 0 0 0 0-5.25zm-1.875 7.5a.75.75 0 0 0 0 1.5h16.5a.75.75 0 0 0 0-1.5zM3 15.75a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75m.75 3a.75.75 0 0 0 0 1.5h16.5a.75.75 0 0 0 0-1.5z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_RADIO: Self = {
+        Self { collection : & COLLECTION , name : "RADIO" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M20.432 4.103a.75.75 0 0 0-.364-1.455L4.128 6.632l-.2.033C2.498 6.904 1.5 8.158 1.5 9.575v9.175a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V9.574c0-1.416-.997-2.67-2.429-2.909a49 49 0 0 0-7.255-.658zm-9.585 8.56a.75.75 0 0 1 0 1.06l-.005.006a.75.75 0 0 1-1.06 0l-.006-.005a.75.75 0 0 1 0-1.061l.005-.005a.75.75 0 0 1 1.06 0zM9.781 15.85a.75.75 0 0 0 1.061 0l.005-.005a.75.75 0 0 0 0-1.061l-.005-.005a.75.75 0 0 0-1.06 0l-.006.005a.75.75 0 0 0 0 1.06zm-1.055-1.066a.75.75 0 0 1 0 1.06l-.005.006a.75.75 0 0 1-1.061 0l-.005-.005a.75.75 0 0 1 0-1.06l.005-.006a.75.75 0 0 1 1.06 0zM7.66 13.73a.75.75 0 0 0 1.061 0l.005-.006a.75.75 0 0 0 0-1.06l-.005-.005a.75.75 0 0 0-1.06 0l-.006.005a.75.75 0 0 0 0 1.06zm1.595-3.98a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75h-.008a.75.75 0 0 1-.75-.75V10.5a.75.75 0 0 1 .75-.75zm3.624 3.28a.75.75 0 0 0 .275-1.025L13.15 12a.75.75 0 0 0-1.025-.275l-.006.004a.75.75 0 0 0-.275 1.024l.004.007a.75.75 0 0 0 1.024.274l.007-.003zm-1.38 5.126a.75.75 0 0 1-1.024-.274l-.004-.007a.75.75 0 0 1 .275-1.024l.006-.004a.75.75 0 0 1 1.025.274l.004.007a.75.75 0 0 1-.275 1.024l-.006.004zm.282-6.776a.75.75 0 0 0-.274-1.025l-.007-.003a.75.75 0 0 0-1.024.274l-.004.007a.75.75 0 0 0 .274 1.024l.007.004a.75.75 0 0 0 1.024-.274zm1.369 5.129a.75.75 0 0 1-1.025.274l-.006-.003a.75.75 0 0 1-.275-1.025l.004-.006a.75.75 0 0 1 1.025-.275l.006.004a.75.75 0 0 1 .275 1.024zm-.145-1.502a.75.75 0 0 0 .75-.75v-.007a.75.75 0 0 0-.75-.75h-.008a.75.75 0 0 0-.75.75v.008c0 .414.336.75.75.75h.008zm-3.75 2.243a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75h-.008a.75.75 0 0 1-.75-.75V18a.75.75 0 0 1 .75-.75zm-2.871-.47a.75.75 0 0 0 .274-1.025l-.003-.006a.75.75 0 0 0-1.025-.275l-.006.004a.75.75 0 0 0-.275 1.025l.004.006a.75.75 0 0 0 1.024.274zm1.366-5.12a.75.75 0 0 1-1.025-.274l-.004-.006a.75.75 0 0 1 .275-1.025l.006-.003a.75.75 0 0 1 1.025.274l.004.007a.75.75 0 0 1-.275 1.024l-.006.004zm.281 6.215a.75.75 0 0 0-.275-1.024l-.006-.004a.75.75 0 0 0-1.025.274l-.003.007a.75.75 0 0 0 .274 1.024l.007.004a.75.75 0 0 0 1.024-.274zM6.655 12.76a.75.75 0 0 1-1.025.274l-.006-.003a.75.75 0 0 1-.275-1.025L5.353 12a.75.75 0 0 1 1.025-.275l.006.004a.75.75 0 0 1 .275 1.024zm-1.15 2.248a.75.75 0 0 0 .75-.75v-.007a.75.75 0 0 0-.75-.75h-.008a.75.75 0 0 0-.75.75v.008c0 .414.336.75.75.75h.008zM17.25 10.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3m1.5 6a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_RECEIPT_PERCENT: Self = {
+        Self { collection : & COLLECTION , name : "RECEIPT_PERCENT" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 1.5c-1.921 0-3.816.111-5.68.327-1.497.174-2.57 1.46-2.57 2.93V21.75a.75.75 0 0 0 1.029.696l3.471-1.388 3.472 1.388a.75.75 0 0 0 .556 0l3.472-1.388 3.471 1.388a.75.75 0 0 0 1.029-.696V4.757c0-1.47-1.073-2.756-2.57-2.93A49.3 49.3 0 0 0 12 1.5m3.53 7.28a.75.75 0 0 0-1.06-1.06l-6 6a.75.75 0 1 0 1.06 1.06zM8.625 9a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0m5.625 3.375a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_RECEIPT_REFUND: Self = {
+        Self { collection : & COLLECTION , name : "RECEIPT_REFUND" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 1.5c-1.921 0-3.816.111-5.68.327-1.497.174-2.57 1.46-2.57 2.93V21.75a.75.75 0 0 0 1.029.696l3.471-1.388 3.472 1.388a.75.75 0 0 0 .556 0l3.472-1.388 3.471 1.388a.75.75 0 0 0 1.029-.696V4.757c0-1.47-1.073-2.756-2.57-2.93A49.3 49.3 0 0 0 12 1.5m-.97 6.53a.75.75 0 1 0-1.06-1.06L7.72 9.22a.75.75 0 0 0 0 1.06l2.25 2.25a.75.75 0 1 0 1.06-1.06l-.97-.97h3.065a1.875 1.875 0 0 1 0 3.75H12a.75.75 0 0 0 0 1.5h1.125a3.375 3.375 0 1 0 0-6.75h-3.064l.97-.97z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_RECTANGLE_GROUP: Self = {
+        Self { collection : & COLLECTION , name : "RECTANGLE_GROUP" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M1.5 7.125c0-1.036.84-1.875 1.875-1.875h6c1.036 0 1.875.84 1.875 1.875v3.75c0 1.036-.84 1.875-1.875 1.875h-6A1.875 1.875 0 0 1 1.5 10.875zm12 1.5c0-1.036.84-1.875 1.875-1.875h5.25c1.035 0 1.875.84 1.875 1.875v8.25c0 1.035-.84 1.875-1.875 1.875h-5.25a1.875 1.875 0 0 1-1.875-1.875zM3 16.125c0-1.036.84-1.875 1.875-1.875h5.25c1.036 0 1.875.84 1.875 1.875v2.25c0 1.035-.84 1.875-1.875 1.875h-5.25A1.875 1.875 0 0 1 3 18.375z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_RECTANGLE_STACK: Self = {
+        Self { collection : & COLLECTION , name : "RECTANGLE_STACK" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M5.566 4.657A4.5 4.5 0 0 1 6.75 4.5h10.5c.41 0 .806.055 1.183.157A3 3 0 0 0 15.75 3h-7.5a3 3 0 0 0-2.684 1.657M2.25 12a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3zm3-4.5c-.41 0-.806.055-1.184.157A3 3 0 0 1 6.75 6h10.5a3 3 0 0 1 2.683 1.657A4.5 4.5 0 0 0 18.75 7.5z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_ROCKET_LAUNCH: Self = {
+        Self { collection : & COLLECTION , name : "ROCKET_LAUNCH" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 0 1 .75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 0 1 9.75 22.5a.75.75 0 0 1-.75-.75v-4.131A15.84 15.84 0 0 1 6.382 15H2.25a.75.75 0 0 1-.75-.75 6.75 6.75 0 0 1 7.815-6.666M15 6.75a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5\" clip-rule=\"evenodd\"/><path d=\"M5.26 17.242a.75.75 0 1 0-.897-1.203 5.243 5.243 0 0 0-2.05 5.022.75.75 0 0 0 .625.627 5.243 5.243 0 0 0 5.022-2.051.75.75 0 1 0-1.202-.897 3.744 3.744 0 0 1-3.008 1.51c0-1.23.592-2.323 1.51-3.008\"/>" , }
+    };
+    pub const HEROICONS_SOLID_RSS: Self = {
+        Self { collection : & COLLECTION , name : "RSS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M3.75 4.5a.75.75 0 0 1 .75-.75h.75c8.284 0 15 6.716 15 15v.75a.75.75 0 0 1-.75.75h-.75a.75.75 0 0 1-.75-.75v-.75C18 11.708 12.292 6 5.25 6H4.5a.75.75 0 0 1-.75-.75zm0 6.75a.75.75 0 0 1 .75-.75h.75a8.25 8.25 0 0 1 8.25 8.25v.75a.75.75 0 0 1-.75.75H12a.75.75 0 0 1-.75-.75v-.75a6 6 0 0 0-6-6H4.5a.75.75 0 0 1-.75-.75zm0 7.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_SCALE: Self = {
+        Self { collection : & COLLECTION , name : "SCALE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25a.75.75 0 0 1 .75.75v.756a49.1 49.1 0 0 1 9.152 1 .75.75 0 0 1-.152 1.485h-1.918l2.474 10.124a.75.75 0 0 1-.375.84A6.72 6.72 0 0 1 18.75 18a6.72 6.72 0 0 1-3.181-.795.75.75 0 0 1-.375-.84l2.474-10.124H12.75v13.28c1.293.076 2.534.343 3.697.776a.75.75 0 0 1-.262 1.453h-8.37a.75.75 0 0 1-.262-1.453c1.162-.433 2.404-.7 3.697-.775V6.24H6.332l2.474 10.124a.75.75 0 0 1-.375.84A6.72 6.72 0 0 1 5.25 18a6.72 6.72 0 0 1-3.181-.795.75.75 0 0 1-.375-.84L4.168 6.241H2.25a.75.75 0 0 1-.152-1.485 49.1 49.1 0 0 1 9.152-1V3a.75.75 0 0 1 .75-.75m4.878 13.543 1.872-7.662 1.872 7.662zm-9.756 0L5.25 8.131l-1.872 7.662z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_SCISSORS: Self = {
+        Self { collection : & COLLECTION , name : "SCISSORS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M8.128 9.155a3.751 3.751 0 1 1 .713-1.321l1.136.656a.75.75 0 0 1 .222 1.104l-.006.007a.75.75 0 0 1-1.032.157 1.4 1.4 0 0 0-.113-.072zm-4.827-3.53a2.25 2.25 0 0 1 3.994 2.063.76.76 0 0 0-.122.23 2.25 2.25 0 0 1-3.872-2.293m10.047 2.647a5.073 5.073 0 0 0-3.428 3.57c-.101.387-.158.79-.165 1.202a1.415 1.415 0 0 1-.707 1.201l-.96.554a3.751 3.751 0 1 0 .734 1.309l13.729-7.926a.75.75 0 0 0-.181-1.374l-.803-.215a5.25 5.25 0 0 0-2.894.05zm-9.223 7.03a2.25 2.25 0 1 0 2.25 3.897 2.25 2.25 0 0 0-2.25-3.897M12 12.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5\" clip-rule=\"evenodd\"/><path d=\"M16.372 12.615a.75.75 0 0 1 .75 0l5.43 3.135a.75.75 0 0 1-.182 1.374l-.802.215a5.25 5.25 0 0 1-2.894-.051l-5.147-1.574a.75.75 0 0 1-.156-1.367l3-1.732z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_SERVER_STACK: Self = {
+        Self { collection : & COLLECTION , name : "SERVER_STACK" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M5.507 4.048A3 3 0 0 1 7.785 3h8.43a3 3 0 0 1 2.278 1.048l1.722 2.008A4.5 4.5 0 0 0 19.5 6h-15c-.243 0-.482.02-.715.056z\"/><path fill-rule=\"evenodd\" d=\"M1.5 10.5a3 3 0 0 1 3-3h15a3 3 0 1 1 0 6h-15a3 3 0 0 1-3-3m15 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m2.25.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5M4.5 15a3 3 0 1 0 0 6h15a3 3 0 1 0 0-6zm11.25 3.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5M19.5 18a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_SERVER: Self = {
+        Self { collection : & COLLECTION , name : "SERVER" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M4.08 5.227A3 3 0 0 1 6.979 3H17.02a3 3 0 0 1 2.9 2.227l2.113 7.926A5.228 5.228 0 0 0 18.75 12H5.25a5.228 5.228 0 0 0-3.284 1.153z\"/><path fill-rule=\"evenodd\" d=\"M5.25 13.5a3.75 3.75 0 1 0 0 7.5h13.5a3.75 3.75 0 1 0 0-7.5zm10.5 4.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5m3.75-.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_SHARE: Self = {
+        Self { collection : & COLLECTION , name : "SHARE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M15.75 4.5a3 3 0 1 1 .825 2.066l-8.421 4.679a3 3 0 0 1 0 1.51l8.421 4.679a3 3 0 1 1-.729 1.31l-8.421-4.678a3 3 0 1 1 0-4.132l8.421-4.679a3 3 0 0 1-.096-.755\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_SHIELD_CHECK: Self = {
+        Self { collection : & COLLECTION , name : "SHIELD_CHECK" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12.516 2.17a.75.75 0 0 0-1.032 0 11.21 11.21 0 0 1-7.877 3.08.75.75 0 0 0-.722.515A12.74 12.74 0 0 0 2.25 9.75c0 5.942 4.064 10.933 9.563 12.348a.75.75 0 0 0 .374 0c5.499-1.415 9.563-6.406 9.563-12.348 0-1.39-.223-2.73-.635-3.985a.75.75 0 0 0-.722-.516l-.143.001c-2.996 0-5.717-1.17-7.734-3.08m3.094 8.016a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_SHIELD_EXCLAMATION: Self = {
+        Self { collection : & COLLECTION , name : "SHIELD_EXCLAMATION" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M11.484 2.17a.75.75 0 0 1 1.032 0 11.21 11.21 0 0 0 7.877 3.08.75.75 0 0 1 .722.515 12.74 12.74 0 0 1 .635 3.985c0 5.942-4.064 10.933-9.563 12.348a.75.75 0 0 1-.374 0C6.314 20.683 2.25 15.692 2.25 9.75c0-1.39.223-2.73.635-3.985a.75.75 0 0 1 .722-.516l.143.001c2.996 0 5.718-1.17 7.734-3.08M12 8.25a.75.75 0 0 1 .75.75v3.75a.75.75 0 0 1-1.5 0V9a.75.75 0 0 1 .75-.75M12 15a.75.75 0 0 0-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 0 0 .75-.75v-.008a.75.75 0 0 0-.75-.75z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_SHOPPING_BAG: Self = {
+        Self { collection : & COLLECTION , name : "SHOPPING_BAG" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M7.5 6v.75H5.513c-.96 0-1.764.724-1.865 1.679l-1.263 12A1.875 1.875 0 0 0 4.25 22.5h15.5a1.875 1.875 0 0 0 1.865-2.071l-1.263-12a1.875 1.875 0 0 0-1.865-1.679H16.5V6a4.5 4.5 0 1 0-9 0M12 3a3 3 0 0 0-3 3v.75h6V6a3 3 0 0 0-3-3m-3 8.25a3 3 0 1 0 6 0v-.75a.75.75 0 0 1 1.5 0v.75a4.5 4.5 0 1 1-9 0v-.75a.75.75 0 0 1 1.5 0z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_SHOPPING_CART: Self = {
+        Self { collection : & COLLECTION , name : "SHOPPING_CART" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M2.25 2.25a.75.75 0 0 0 0 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 0 0-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 0 0 0-1.5H5.378A2.25 2.25 0 0 1 7.5 15h11.218a.75.75 0 0 0 .674-.421 60.4 60.4 0 0 0 2.96-7.228.75.75 0 0 0-.525-.965A60.86 60.86 0 0 0 5.68 4.509l-.232-.867A1.875 1.875 0 0 0 3.636 2.25zm1.5 18a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0m12.75 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0\"/>" , }
+    };
+    pub const HEROICONS_SOLID_SIGNAL_SLASH: Self = {
+        Self { collection : & COLLECTION , name : "SIGNAL_SLASH" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M2.47 2.47a.75.75 0 0 1 1.06 0l8.407 8.407a1.125 1.125 0 0 1 1.186 1.186l1.462 1.461a3.001 3.001 0 0 0-.464-3.645.75.75 0 1 1 1.061-1.061 4.501 4.501 0 0 1 .486 5.79l1.072 1.072a6.001 6.001 0 0 0-.497-7.923.75.75 0 0 1 1.06-1.06 7.501 7.501 0 0 1 .505 10.05l1.064 1.065a9 9 0 0 0-.508-12.176.75.75 0 0 1 1.06-1.06c3.923 3.922 4.093 10.175.512 14.3l1.594 1.594a.75.75 0 1 1-1.06 1.06l-2.106-2.105-2.121-2.122h-.001l-4.705-4.706a.75.75 0 0 1-.127-.126L2.47 3.53a.75.75 0 0 1 0-1.061zm1.189 4.422a.75.75 0 0 1 .326 1.01 9.004 9.004 0 0 0 1.651 10.462.75.75 0 1 1-1.06 1.06C1.27 16.12.63 11.165 2.648 7.219a.75.75 0 0 1 1.01-.326zM5.84 9.134a.75.75 0 0 1 .472.95 6 6 0 0 0 1.444 6.159.75.75 0 0 1-1.06 1.06A7.5 7.5 0 0 1 4.89 9.606a.75.75 0 0 1 .95-.472m2.341 2.653a.75.75 0 0 1 .848.638c.088.62.37 1.218.849 1.696a.75.75 0 0 1-1.061 1.061 4.483 4.483 0 0 1-1.273-2.546.75.75 0 0 1 .637-.848z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_SIGNAL: Self = {
+        Self { collection : & COLLECTION , name : "SIGNAL" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M5.636 4.575a.75.75 0 0 1 0 1.06 9 9 0 0 0 0 12.729.75.75 0 0 1-1.06 1.06c-4.101-4.1-4.101-10.748 0-14.849a.75.75 0 0 1 1.06 0m12.728 0a.75.75 0 0 1 1.06 0c4.101 4.1 4.101 10.749 0 14.85a.75.75 0 1 1-1.06-1.061 9 9 0 0 0 0-12.728.75.75 0 0 1 0-1.06zM7.757 6.696a.75.75 0 0 1 0 1.061 6 6 0 0 0 0 8.485.75.75 0 0 1-1.06 1.061 7.5 7.5 0 0 1 0-10.607.75.75 0 0 1 1.06 0m8.486 0a.75.75 0 0 1 1.06 0 7.5 7.5 0 0 1 0 10.607.75.75 0 0 1-1.06-1.06 6 6 0 0 0 0-8.486.75.75 0 0 1 0-1.06zM9.879 8.818a.75.75 0 0 1 0 1.06 3 3 0 0 0 0 4.243.75.75 0 1 1-1.061 1.06 4.5 4.5 0 0 1 0-6.363.75.75 0 0 1 1.06 0zm4.242 0a.75.75 0 0 1 1.061 0 4.5 4.5 0 0 1 0 6.364.75.75 0 0 1-1.06-1.06 3 3 0 0 0 0-4.244.75.75 0 0 1 0-1.06zM10.875 12a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_SPARKLES: Self = {
+        Self { collection : & COLLECTION , name : "SPARKLES" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M9 4.5a.75.75 0 0 1 .721.544l.813 2.846a3.75 3.75 0 0 0 2.576 2.576l2.846.813a.75.75 0 0 1 0 1.442l-2.846.813a3.75 3.75 0 0 0-2.576 2.576l-.813 2.846a.75.75 0 0 1-1.442 0l-.813-2.846a3.75 3.75 0 0 0-2.576-2.576l-2.846-.813a.75.75 0 0 1 0-1.442l2.846-.813A3.75 3.75 0 0 0 7.466 7.89l.813-2.846A.75.75 0 0 1 9 4.5m9-3a.75.75 0 0 1 .728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 0 1 0 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 0 1-1.456 0l-.258-1.036a2.625 2.625 0 0 0-1.91-1.91l-1.036-.258a.75.75 0 0 1 0-1.456l1.036-.258a2.625 2.625 0 0 0 1.91-1.91l.258-1.036A.75.75 0 0 1 18 1.5M16.5 15a.75.75 0 0 1 .712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 0 1 0 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 0 1-1.422 0l-.395-1.183a1.5 1.5 0 0 0-.948-.948l-1.183-.395a.75.75 0 0 1 0-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0 1 16.5 15\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_SPEAKER_WAVE: Self = {
+        Self { collection : & COLLECTION , name : "SPEAKER_WAVE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M13.5 4.06c0-1.336-1.616-2.005-2.56-1.06l-4.5 4.5H4.508c-1.141 0-2.318.664-2.66 1.905A9.76 9.76 0 0 0 1.5 12c0 .898.121 1.768.35 2.595.341 1.24 1.518 1.905 2.659 1.905h1.93l4.5 4.5c.945.945 2.561.276 2.561-1.06zm5.084 1.046a.75.75 0 0 1 1.06 0c3.808 3.807 3.808 9.98 0 13.788a.75.75 0 1 1-1.06-1.06 8.25 8.25 0 0 0 0-11.668.75.75 0 0 1 0-1.06\"/><path d=\"M15.932 7.757a.75.75 0 0 1 1.061 0 6 6 0 0 1 0 8.486.75.75 0 0 1-1.06-1.061 4.5 4.5 0 0 0 0-6.364.75.75 0 0 1 0-1.06z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_SPEAKER_X_MARK: Self = {
+        Self { collection : & COLLECTION , name : "SPEAKER_X_MARK" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M13.5 4.06c0-1.336-1.616-2.005-2.56-1.06l-4.5 4.5H4.508c-1.141 0-2.318.664-2.66 1.905A9.76 9.76 0 0 0 1.5 12c0 .898.121 1.768.35 2.595.341 1.24 1.518 1.905 2.659 1.905h1.93l4.5 4.5c.945.945 2.561.276 2.561-1.06zm4.28 5.16a.75.75 0 1 0-1.06 1.06L18.44 12l-1.72 1.72a.75.75 0 0 0 1.06 1.06l1.72-1.72 1.72 1.72a.75.75 0 1 0 1.06-1.06L20.56 12l1.72-1.72a.75.75 0 0 0-1.06-1.06l-1.72 1.72z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_SQUARE_2_STACK: Self = {
+        Self { collection : & COLLECTION , name : "SQUARE_2_STACK" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M16.5 6a3 3 0 0 0-3-3H6a3 3 0 0 0-3 3v7.5a3 3 0 0 0 3 3v-6A4.5 4.5 0 0 1 10.5 6z\"/><path d=\"M18 7.5a3 3 0 0 1 3 3V18a3 3 0 0 1-3 3h-7.5a3 3 0 0 1-3-3v-7.5a3 3 0 0 1 3-3z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_SQUARE_3_STACK_3_D: Self = {
+        Self { collection : & COLLECTION , name : "SQUARE_3_STACK_3_D" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M11.644 1.59a.75.75 0 0 1 .712 0l9.75 5.25a.75.75 0 0 1 0 1.32l-9.75 5.25a.75.75 0 0 1-.712 0l-9.75-5.25a.75.75 0 0 1 0-1.32z\"/><path d=\"m3.265 10.602 7.668 4.129a2.25 2.25 0 0 0 2.134 0l7.668-4.13 1.37.739a.75.75 0 0 1 0 1.32l-9.75 5.25a.75.75 0 0 1-.71 0l-9.75-5.25a.75.75 0 0 1 0-1.32z\"/><path d=\"m10.933 19.231-7.668-4.13-1.37.739a.75.75 0 0 0 0 1.32l9.75 5.25c.221.12.489.12.71 0l9.75-5.25a.75.75 0 0 0 0-1.32l-1.37-.738-7.668 4.13a2.25 2.25 0 0 1-2.134-.001\"/>" , }
+    };
+    pub const HEROICONS_SOLID_SQUARES_2_X_2: Self = {
+        Self { collection : & COLLECTION , name : "SQUARES_2_X_2" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M3 6a3 3 0 0 1 3-3h2.25a3 3 0 0 1 3 3v2.25a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3zm9.75 0a3 3 0 0 1 3-3H18a3 3 0 0 1 3 3v2.25a3 3 0 0 1-3 3h-2.25a3 3 0 0 1-3-3zM3 15.75a3 3 0 0 1 3-3h2.25a3 3 0 0 1 3 3V18a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3zm9.75 0a3 3 0 0 1 3-3H18a3 3 0 0 1 3 3V18a3 3 0 0 1-3 3h-2.25a3 3 0 0 1-3-3z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_SQUARES_PLUS: Self = {
+        Self { collection : & COLLECTION , name : "SQUARES_PLUS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M6 3a3 3 0 0 0-3 3v2.25a3 3 0 0 0 3 3h2.25a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3zm9.75 0a3 3 0 0 0-3 3v2.25a3 3 0 0 0 3 3H18a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3zM6 12.75a3 3 0 0 0-3 3V18a3 3 0 0 0 3 3h2.25a3 3 0 0 0 3-3v-2.25a3 3 0 0 0-3-3zm11.625.75a.75.75 0 0 0-1.5 0v2.625H13.5a.75.75 0 0 0 0 1.5h2.625v2.625a.75.75 0 0 0 1.5 0v-2.625h2.625a.75.75 0 0 0 0-1.5h-2.625z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_STAR: Self = {
+        Self { collection : & COLLECTION , name : "STAR" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_STOP_CIRCLE: Self = {
+        Self { collection : & COLLECTION , name : "STOP_CIRCLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12m6-2.438c0-.724.588-1.312 1.313-1.312h4.874c.725 0 1.313.588 1.313 1.313v4.874c0 .725-.588 1.313-1.313 1.313H9.564a1.312 1.312 0 0 1-1.313-1.313V9.564z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_STOP: Self = {
+        Self { collection : & COLLECTION , name : "STOP" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M4.5 7.5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-9a3 3 0 0 1-3-3z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_SUN: Self = {
+        Self { collection : & COLLECTION , name : "SUN" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75M7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0m11.394-5.834a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59zM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75m-3.916 6.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591zM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18m-4.242-.697a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59zM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12m.697-4.243a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_SWATCH: Self = {
+        Self { collection : & COLLECTION , name : "SWATCH" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M2.25 4.125c0-1.036.84-1.875 1.875-1.875h5.25c1.036 0 1.875.84 1.875 1.875V17.25a4.5 4.5 0 1 1-9 0zm4.5 14.25a1.125 1.125 0 1 0 0-2.25 1.125 1.125 0 0 0 0 2.25\" clip-rule=\"evenodd\"/><path d=\"M10.719 21.75h9.156c1.036 0 1.875-.84 1.875-1.875v-5.25c0-1.036-.84-1.875-1.875-1.875h-.14l-8.742 8.743a6 6 0 0 1-.274.257m2.019-4.125 6.474-6.474a1.875 1.875 0 0 0 0-2.651L15.5 4.787a1.875 1.875 0 0 0-2.651 0l-.1.099V17.25c0 .126-.003.251-.01.375z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_TABLE_CELLS: Self = {
+        Self { collection : & COLLECTION , name : "TABLE_CELLS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M1.5 5.625c0-1.036.84-1.875 1.875-1.875h17.25c1.035 0 1.875.84 1.875 1.875v12.75c0 1.035-.84 1.875-1.875 1.875H3.375A1.875 1.875 0 0 1 1.5 18.375zM21 9.375A.375.375 0 0 0 20.625 9h-7.5a.375.375 0 0 0-.375.375v1.5c0 .207.168.375.375.375h7.5a.375.375 0 0 0 .375-.375zm0 3.75a.375.375 0 0 0-.375-.375h-7.5a.375.375 0 0 0-.375.375v1.5c0 .207.168.375.375.375h7.5a.375.375 0 0 0 .375-.375zm0 3.75a.375.375 0 0 0-.375-.375h-7.5a.375.375 0 0 0-.375.375v1.5c0 .207.168.375.375.375h7.5a.375.375 0 0 0 .375-.375zM10.875 18.75a.375.375 0 0 0 .375-.375v-1.5a.375.375 0 0 0-.375-.375h-7.5a.375.375 0 0 0-.375.375v1.5c0 .207.168.375.375.375zM3.375 15h7.5a.375.375 0 0 0 .375-.375v-1.5a.375.375 0 0 0-.375-.375h-7.5a.375.375 0 0 0-.375.375v1.5c0 .207.168.375.375.375m0-3.75h7.5a.375.375 0 0 0 .375-.375v-1.5A.375.375 0 0 0 10.875 9h-7.5A.375.375 0 0 0 3 9.375v1.5c0 .207.168.375.375.375\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_TAG: Self = {
+        Self { collection : & COLLECTION , name : "TAG" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M5.25 2.25a3 3 0 0 0-3 3v4.318a3 3 0 0 0 .879 2.121l9.58 9.581c.92.92 2.39 1.186 3.548.428a18.85 18.85 0 0 0 5.441-5.44c.758-1.16.492-2.629-.428-3.548l-9.58-9.581a3 3 0 0 0-2.122-.879zM6.375 7.5a1.125 1.125 0 1 0 0-2.25 1.125 1.125 0 0 0 0 2.25\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_TICKET: Self = {
+        Self { collection : & COLLECTION , name : "TICKET" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M1.5 6.375c0-1.036.84-1.875 1.875-1.875h17.25c1.035 0 1.875.84 1.875 1.875v3.026a.75.75 0 0 1-.375.65 2.249 2.249 0 0 0 0 3.898.75.75 0 0 1 .375.65v3.026c0 1.035-.84 1.875-1.875 1.875H3.375A1.875 1.875 0 0 1 1.5 17.625v-3.026a.75.75 0 0 1 .374-.65 2.249 2.249 0 0 0 0-3.898.75.75 0 0 1-.374-.65zm15-1.125a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-1.5 0V6a.75.75 0 0 1 .75-.75m.75 4.5a.75.75 0 0 0-1.5 0v.75a.75.75 0 0 0 1.5 0zm-.75 3a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-1.5 0v-.75a.75.75 0 0 1 .75-.75m.75 4.5a.75.75 0 0 0-1.5 0V18a.75.75 0 0 0 1.5 0zM6 12a.75.75 0 0 1 .75-.75H12a.75.75 0 0 1 0 1.5H6.75A.75.75 0 0 1 6 12m.75 2.25a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_TRASH: Self = {
+        Self { collection : & COLLECTION , name : "TRASH" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M16.5 4.478v.227a48.8 48.8 0 0 1 3.878.512.75.75 0 1 1-.256 1.478l-.209-.035-1.005 13.07a3 3 0 0 1-2.991 2.77H8.084a3 3 0 0 1-2.991-2.77L4.087 6.66l-.209.035a.75.75 0 0 1-.256-1.478A48.6 48.6 0 0 1 7.5 4.705v-.227c0-1.564 1.213-2.9 2.816-2.951a52.7 52.7 0 0 1 3.369 0c1.603.051 2.815 1.387 2.815 2.951m-6.136-1.452a51.2 51.2 0 0 1 3.273 0C14.39 3.05 15 3.684 15 4.478v.113a49.5 49.5 0 0 0-6 0v-.113c0-.794.609-1.428 1.364-1.452m-.355 5.945a.75.75 0 1 0-1.5.058l.347 9a.75.75 0 1 0 1.499-.058zm5.48.058a.75.75 0 1 0-1.498-.058l-.347 9a.75.75 0 0 0 1.5.058z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_TROPHY: Self = {
+        Self { collection : & COLLECTION , name : "TROPHY" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M5.166 2.621v.858a47.7 47.7 0 0 0-3.071.543.75.75 0 0 0-.584.859 6.753 6.753 0 0 0 6.138 5.6 6.73 6.73 0 0 0 2.743 1.346A6.71 6.71 0 0 1 9.279 15H8.54c-1.036 0-1.875.84-1.875 1.875V19.5h-.75a2.25 2.25 0 0 0-2.25 2.25c0 .414.336.75.75.75h15a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-2.25-2.25h-.75v-2.625c0-1.036-.84-1.875-1.875-1.875h-.739a6.706 6.706 0 0 1-1.112-3.173 6.73 6.73 0 0 0 2.743-1.347 6.753 6.753 0 0 0 6.139-5.6.75.75 0 0 0-.585-.858 47 47 0 0 0-3.07-.543V2.62a.75.75 0 0 0-.658-.744 49.2 49.2 0 0 0-6.093-.377c-2.063 0-4.096.128-6.093.377a.75.75 0 0 0-.657.744zm0 2.629c0 1.196.312 2.32.857 3.294A5.266 5.266 0 0 1 3.16 5.337a46 46 0 0 1 2.006-.343zm13.5 0v-.256c.674.1 1.343.214 2.006.343a5.265 5.265 0 0 1-2.863 3.207 6.72 6.72 0 0 0 .857-3.294\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_TRUCK: Self = {
+        Self { collection : & COLLECTION , name : "TRUCK" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M3.375 4.5C2.339 4.5 1.5 5.34 1.5 6.375V13.5h12V6.375c0-1.036-.84-1.875-1.875-1.875zM13.5 15h-12v2.625c0 1.035.84 1.875 1.875 1.875h.375a3 3 0 1 1 6 0h3a.75.75 0 0 0 .75-.75z\"/><path d=\"M8.25 19.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0m7.5-12.75a.75.75 0 0 0-.75.75v11.25c0 .087.015.17.042.248a3 3 0 0 1 5.958.464c.853-.175 1.522-.935 1.464-1.883a18.66 18.66 0 0 0-3.732-10.104 1.837 1.837 0 0 0-1.47-.725z\"/><path d=\"M19.5 19.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0\"/>" , }
+    };
+    pub const HEROICONS_SOLID_TV: Self = {
+        Self { collection : & COLLECTION , name : "TV" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M19.5 6h-15v9h15z\"/><path fill-rule=\"evenodd\" d=\"M3.375 3C2.339 3 1.5 3.84 1.5 4.875v11.25C1.5 17.16 2.34 18 3.375 18H9.75v1.5H6A.75.75 0 0 0 6 21h12a.75.75 0 0 0 0-1.5h-3.75V18h6.375c1.035 0 1.875-.84 1.875-1.875V4.875C22.5 3.839 21.66 3 20.625 3zm0 13.5h17.25a.375.375 0 0 0 .375-.375V4.875a.375.375 0 0 0-.375-.375H3.375A.375.375 0 0 0 3 4.875v11.25c0 .207.168.375.375.375\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_USER_CIRCLE: Self = {
+        Self { collection : & COLLECTION , name : "USER_CIRCLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M18.685 19.097A9.723 9.723 0 0 0 21.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 0 0 3.065 7.097A9.716 9.716 0 0 0 12 21.75a9.716 9.716 0 0 0 6.685-2.653m-12.54-1.285A7.486 7.486 0 0 1 12 15a7.486 7.486 0 0 1 5.855 2.812A8.224 8.224 0 0 1 12 20.25a8.224 8.224 0 0 1-5.855-2.438M15.75 9a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_USER_GROUP: Self = {
+        Self { collection : & COLLECTION , name : "USER_GROUP" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M8.25 6.75a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0m7.5 3a3 3 0 1 1 6 0 3 3 0 0 1-6 0m-13.5 0a3 3 0 1 1 6 0 3 3 0 0 1-6 0m4.06 5.367A6.745 6.745 0 0 1 12 12a6.745 6.745 0 0 1 6.709 7.498.75.75 0 0 1-.372.568A12.696 12.696 0 0 1 12 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 0 1-.372-.568 6.787 6.787 0 0 1 1.019-4.38z\" clip-rule=\"evenodd\"/><path d=\"M5.082 14.254a8.287 8.287 0 0 0-1.308 5.135 9.7 9.7 0 0 1-1.764-.44l-.115-.04a.563.563 0 0 1-.373-.487l-.01-.121a3.75 3.75 0 0 1 3.57-4.047m15.144 5.135a8.287 8.287 0 0 0-1.308-5.135 3.75 3.75 0 0 1 3.57 4.047l-.01.121a.563.563 0 0 1-.373.486l-.115.04c-.567.2-1.156.349-1.764.441\"/>" , }
+    };
+    pub const HEROICONS_SOLID_USER_MINUS: Self = {
+        Self { collection : & COLLECTION , name : "USER_MINUS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M10.375 2.25a4.125 4.125 0 1 0 0 8.25 4.125 4.125 0 0 0 0-8.25m0 9.75a7.125 7.125 0 0 0-7.124 7.247.75.75 0 0 0 .363.63 13.067 13.067 0 0 0 6.761 1.873c2.472 0 4.786-.684 6.76-1.873a.75.75 0 0 0 .364-.63l.001-.12v-.002A7.125 7.125 0 0 0 10.375 12M16 9.75a.75.75 0 0 0 0 1.5h6a.75.75 0 0 0 0-1.5z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_USER_PLUS: Self = {
+        Self { collection : & COLLECTION , name : "USER_PLUS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M6.25 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0m-3 12.75a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63zM19.75 7.5a.75.75 0 0 0-1.5 0v2.25H16a.75.75 0 0 0 0 1.5h2.25v2.25a.75.75 0 0 0 1.5 0v-2.25H22a.75.75 0 0 0 0-1.5h-2.25z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_USER: Self = {
+        Self { collection : & COLLECTION , name : "USER" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0M3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.68 18.68 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_USERS: Self = {
+        Self { collection : & COLLECTION , name : "USERS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0m9.75 2.25a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0M1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63zm15.75.003-.001.144a2.25 2.25 0 0 1-.233.96 10.09 10.09 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157v.003z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_VARIABLE: Self = {
+        Self { collection : & COLLECTION , name : "VARIABLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M19.253 2.292a.75.75 0 0 1 .955.461A28.12 28.12 0 0 1 21.75 12c0 3.266-.547 6.388-1.542 9.247a.75.75 0 1 1-1.416-.494c.94-2.7 1.458-5.654 1.458-8.753s-.519-6.054-1.458-8.754a.75.75 0 0 1 .461-.954m-14.227.013a.75.75 0 0 1 .414.976A23.18 23.18 0 0 0 3.75 12c0 3.085.6 6.027 1.69 8.718a.75.75 0 0 1-1.39.563c-1.161-2.867-1.8-6-1.8-9.281 0-3.28.639-6.414 1.8-9.281a.75.75 0 0 1 .976-.414m4.275 5.052a1.5 1.5 0 0 1 2.21.803l.716 2.148L13.6 8.246a2.438 2.438 0 0 1 2.978-.892l.213.09a.75.75 0 1 1-.584 1.381l-.214-.09a.937.937 0 0 0-1.145.343l-2.021 3.033 1.084 3.255 1.445-.89a.75.75 0 1 1 .786 1.278l-1.444.889a1.5 1.5 0 0 1-2.21-.803l-.716-2.148-1.374 2.062a2.437 2.437 0 0 1-2.978.892l-.213-.09a.75.75 0 0 1 .584-1.381l.214.09a.938.938 0 0 0 1.145-.344l2.021-3.032-1.084-3.255-1.445.89a.75.75 0 1 1-.786-1.278l1.444-.89z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_VIDEO_CAMERA_SLASH: Self = {
+        Self { collection : & COLLECTION , name : "VIDEO_CAMERA_SLASH" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M3.53 2.47a.75.75 0 0 0-1.06 1.06l18 18a.75.75 0 1 0 1.06-1.06zM22.5 17.69c0 .471-.202.86-.504 1.124l-4.746-4.746V7.939l2.69-2.689c.944-.945 2.56-.276 2.56 1.06zM15.75 7.5v5.068L7.682 4.5h5.068a3 3 0 0 1 3 3M1.5 7.5c0-.782.3-1.494.79-2.028l12.846 12.846A2.995 2.995 0 0 1 12.75 19.5H4.5a3 3 0 0 1-3-3z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_VIDEO_CAMERA: Self = {
+        Self { collection : & COLLECTION , name : "VIDEO_CAMERA" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M4.5 4.5a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h8.25a3 3 0 0 0 3-3v-9a3 3 0 0 0-3-3zm15.44 14.25-2.69-2.69V7.94l2.69-2.69c.944-.945 2.56-.276 2.56 1.06v11.38c0 1.336-1.616 2.005-2.56 1.06\"/>" , }
+    };
+    pub const HEROICONS_SOLID_VIEW_COLUMNS: Self = {
+        Self { collection : & COLLECTION , name : "VIEW_COLUMNS" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M15 3.75H9v16.5h6zm1.5 16.5h3.375c1.035 0 1.875-.84 1.875-1.875V5.625c0-1.036-.84-1.875-1.875-1.875H16.5zM4.125 3.75H7.5v16.5H4.125a1.875 1.875 0 0 1-1.875-1.875V5.625c0-1.036.84-1.875 1.875-1.875\"/>" , }
+    };
+    pub const HEROICONS_SOLID_VIEWFINDER_CIRCLE: Self = {
+        Self { collection : & COLLECTION , name : "VIEWFINDER_CIRCLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M6 3a3 3 0 0 0-3 3v1.5a.75.75 0 0 0 1.5 0V6A1.5 1.5 0 0 1 6 4.5h1.5a.75.75 0 0 0 0-1.5zm10.5 0a.75.75 0 0 0 0 1.5H18A1.5 1.5 0 0 1 19.5 6v1.5a.75.75 0 0 0 1.5 0V6a3 3 0 0 0-3-3zM12 8.25a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5M4.5 16.5a.75.75 0 0 0-1.5 0V18a3 3 0 0 0 3 3h1.5a.75.75 0 0 0 0-1.5H6A1.5 1.5 0 0 1 4.5 18zm16.5 0a.75.75 0 0 0-1.5 0V18a1.5 1.5 0 0 1-1.5 1.5h-1.5a.75.75 0 0 0 0 1.5H18a3 3 0 0 0 3-3z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_WALLET: Self = {
+        Self { collection : & COLLECTION , name : "WALLET" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path d=\"M2.273 5.625A4.483 4.483 0 0 1 5.25 4.5h13.5c1.141 0 2.183.425 2.977 1.125A3 3 0 0 0 18.75 3H5.25a3 3 0 0 0-2.977 2.625m0 3A4.483 4.483 0 0 1 5.25 7.5h13.5c1.141 0 2.183.425 2.977 1.125A3 3 0 0 0 18.75 6H5.25a3 3 0 0 0-2.977 2.625M5.25 9a3 3 0 0 0-3 3v6a3 3 0 0 0 3 3h13.5a3 3 0 0 0 3-3v-6a3 3 0 0 0-3-3H15a.75.75 0 0 0-.75.75 2.25 2.25 0 0 1-4.5 0A.75.75 0 0 0 9 9z\"/>" , }
+    };
+    pub const HEROICONS_SOLID_WIFI: Self = {
+        Self { collection : & COLLECTION , name : "WIFI" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M1.371 8.143c5.858-5.857 15.356-5.857 21.213 0a.75.75 0 0 1 0 1.061l-.53.53a.75.75 0 0 1-1.06 0c-4.98-4.979-13.053-4.979-18.032 0a.75.75 0 0 1-1.06 0l-.53-.53a.75.75 0 0 1 0-1.06zm3.182 3.182c4.1-4.1 10.749-4.1 14.85 0a.75.75 0 0 1 0 1.061l-.53.53a.75.75 0 0 1-1.062 0 8.25 8.25 0 0 0-11.667 0 .75.75 0 0 1-1.06 0l-.53-.53a.75.75 0 0 1 0-1.06zm3.204 3.182a6 6 0 0 1 8.486 0 .75.75 0 0 1 0 1.061l-.53.53a.75.75 0 0 1-1.061 0 3.75 3.75 0 0 0-5.304 0 .75.75 0 0 1-1.06 0l-.53-.53a.75.75 0 0 1 0-1.06zm3.182 3.182a1.5 1.5 0 0 1 2.122 0 .75.75 0 0 1 0 1.061l-.53.53a.75.75 0 0 1-1.061 0l-.53-.53a.75.75 0 0 1 0-1.06z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_WINDOW: Self = {
+        Self { collection : & COLLECTION , name : "WINDOW" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M2.25 6a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3zm18 3H3.75v9a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5zm-15-3.75A.75.75 0 0 0 4.5 6v.008c0 .414.336.75.75.75h.008a.75.75 0 0 0 .75-.75V6a.75.75 0 0 0-.75-.75zm1.5.75a.75.75 0 0 1 .75-.75h.008a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75H7.5a.75.75 0 0 1-.75-.75zm3-.75A.75.75 0 0 0 9 6v.008c0 .414.336.75.75.75h.008a.75.75 0 0 0 .75-.75V6a.75.75 0 0 0-.75-.75z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_WRENCH_SCREWDRIVER: Self = {
+        Self { collection : & COLLECTION , name : "WRENCH_SCREWDRIVER" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 6.75a5.25 5.25 0 0 1 6.775-5.025.75.75 0 0 1 .313 1.248l-3.32 3.319c.063.475.276.934.641 1.299s.824.578 1.3.64l3.318-3.319a.75.75 0 0 1 1.248.313 5.25 5.25 0 0 1-5.472 6.756c-1.018-.086-1.87.1-2.309.634L7.344 21.3A3.298 3.298 0 1 1 2.7 16.657l8.684-7.151c.533-.44.72-1.291.634-2.309A5.3 5.3 0 0 1 12 6.75M4.117 19.125a.75.75 0 0 1 .75-.75h.008a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75h-.008a.75.75 0 0 1-.75-.75z\" clip-rule=\"evenodd\"/><path d=\"m10.076 8.64-2.201-2.2V4.874a.75.75 0 0 0-.364-.643l-3.75-2.25a.75.75 0 0 0-.916.113l-.75.75a.75.75 0 0 0-.113.916l2.25 3.75a.75.75 0 0 0 .643.364h1.564l2.062 2.062 1.575-1.297z\"/><path fill-rule=\"evenodd\" d=\"m12.556 17.329 4.183 4.182a3.375 3.375 0 0 0 4.773-4.773l-3.306-3.305a6.8 6.8 0 0 1-1.53.043c-.394-.034-.682-.006-.867.042a.59.59 0 0 0-.167.063zm3.414-1.36a.75.75 0 0 1 1.06 0l1.875 1.876a.75.75 0 1 1-1.06 1.06L15.97 17.03a.75.75 0 0 1 0-1.06z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_WRENCH: Self = {
+        Self { collection : & COLLECTION , name : "WRENCH" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 6.75a5.25 5.25 0 0 1 6.775-5.025.75.75 0 0 1 .313 1.248l-3.32 3.319c.063.475.276.934.641 1.299s.824.578 1.3.64l3.318-3.319a.75.75 0 0 1 1.248.313 5.25 5.25 0 0 1-5.472 6.756c-1.018-.086-1.87.1-2.309.634L7.344 21.3A3.298 3.298 0 1 1 2.7 16.657l8.684-7.151c.533-.44.72-1.291.634-2.309A5.3 5.3 0 0 1 12 6.75M4.117 19.125a.75.75 0 0 1 .75-.75h.008a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75h-.008a.75.75 0 0 1-.75-.75z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_X_CIRCLE: Self = {
+        Self { collection : & COLLECTION , name : "X_CIRCLE" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25m-1.72 6.97a.75.75 0 1 0-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 1 0 1.06 1.06L12 13.06l1.72 1.72a.75.75 0 1 0 1.06-1.06L13.06 12l1.72-1.72a.75.75 0 1 0-1.06-1.06L12 10.94z\" clip-rule=\"evenodd\"/>" , }
+    };
+    pub const HEROICONS_SOLID_X_MARK: Self = {
+        Self { collection : & COLLECTION , name : "X_MARK" , view_box : Some ("0 0 24 24") , fill : Some ("currentColor") , stroke : None , stroke_width : None , stroke_linecap : None , stroke_linejoin : None , src : "<path fill-rule=\"evenodd\" d=\"M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06\" clip-rule=\"evenodd\"/>" , }
+    };
+}

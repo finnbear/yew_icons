@@ -1,6 +1,6 @@
 use crate::components::ThemeToggle;
 pub use yew::prelude::*;
-use yew_icons::{Icon, IconId};
+use yew_icons::{Icon, IconData};
 
 #[function_component]
 pub fn Header() -> Html {
@@ -19,7 +19,7 @@ pub fn Header() -> Html {
                     <Icon
                         class="github"
                         title={"GitHub"}
-                        icon_id={IconId::BootstrapGithub}
+                        data={IconData::BOOTSTRAP_GITHUB}
                         height={"30"}
                         width={"30"}
                     />

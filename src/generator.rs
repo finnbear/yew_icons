@@ -1,22 +1,17 @@
 use convert_case::{Case, Casing};
+use indicatif::{ProgressBar, ProgressStyle};
 use proc_macro2::{Ident, Span, TokenStream};
 use quote::quote;
+use rayon::iter::{IntoParallelIterator, ParallelIterator};
 use regex::Regex;
 use std::fs::{create_dir_all, read, read_dir, remove_dir_all, write};
-use std::io::Write;
+use std::io::{Read, Write};
 use std::process::{Command, Stdio};
-use std::str::FromStr;
 
 fn main() {
-    struct Feature {
-        name: String,
-        children: Vec<String>,
-    }
-
-    let mut variants = Vec::new();
-    let mut cases = Vec::new();
     let mut features = Vec::new();
     let mut imports = Vec::new();
+    let mut enumerate: Vec<_> = Vec::new();
 
     let width_regex = Regex::new(r##"[^-]width="[0-9a-z]*""##).unwrap();
     let height_regex = Regex::new(r##"[^-]height="[0-9a-z]*""##).unwrap();
@@ -31,15 +26,13 @@ fn main() {
     remove_dir_all("src/generated").unwrap();
     create_dir_all("src/generated").unwrap();
 
-    let mut generate = |prefix: &str, dir: &str, license: &str| {
-        let mut function_mods = Vec::new();
+    let mb = indicatif::MultiProgress::new();
 
+    let mut generate = |prefix: &str, dir: &str, license: &str| {
         let feature_name = prefix.to_case(Case::Snake);
+
         let feature_ident = to_ident(&feature_name);
-        let mut collection_feature = Feature {
-            name: feature_name.clone(),
-            children: Vec::new(),
-        };
+        let mut icon_data = Vec::new();
 
         let result = read_dir(dir);
         let mut paths: Vec<_> = result
@@ -51,171 +44,220 @@ fn main() {
 
         paths.sort();
 
-        create_dir_all(format!("src/generated/{}", feature_name)).unwrap();
+        let bar = ProgressBar::new(paths.len() as u64)
+            .with_message(feature_name.clone())
+            .with_style(ProgressStyle::with_template("{msg} {wide_bar} {pos}/{len}").unwrap());
+        let bar = mb.add(bar);
 
-        for path in paths {
-            let file_name = path.split('/').last().unwrap();
-            if !file_name.ends_with(".svg") {
-                panic!("never happens?");
-            }
-            let icon_name = file_name.split('.').next().unwrap();
-            let name = prefix.to_owned() + "-" + icon_name;
+        let items = paths.into_par_iter()
+            .map(|path| {
+                let file_name = path.split('/').last().unwrap();
+                if !file_name.ends_with(".svg") {
+                    panic!("never happens?");
+                }
+                let icon_name = file_name.split('.').next().unwrap();
 
-            let contents = read(&path).expect(&path);
-            let svg = std::str::from_utf8(&contents).unwrap();
+                // Would like to use collection::NAME but NAME might start with a number.
+                let name = prefix.to_owned() + "-" + icon_name;
 
-            let svg = class_regex.replace_all(&svg, "");
+                let contents = read(&path).expect(&path);
+                let svg = std::str::from_utf8(&contents).unwrap();
 
-            assert!(!svg.contains(r#"title="#), "already had title: {}", path);
-            assert!(
-                !svg.contains(r#"class="#),
-                "already had class despite regex: {}",
-                path
-            );
+                let svg = class_regex.replace_all(&svg, "");
 
-            // Ids not supported in HTML context.
-            let svg = clip_path_regex.replace_all(&svg, " ").into_owned();
+                assert!(!svg.contains(r#"title="#), "already had title: {}", path);
+                assert!(
+                    !svg.contains(r#"class="#),
+                    "already had class despite regex: {}",
+                    path
+                );
 
-            // https://github.com/yammadev/flag-icons/blob/bd4bcf4f4829002cd10416029e05ba89a7554af4/svg/AE.svg
-            let svg = svg.replace(r##"<?xml version="1.0" encoding="UTF-8"?>"##, "");
+                // Ids not supported in HTML context.
+                let svg = clip_path_regex.replace_all(&svg, " ").into_owned();
 
-            // https://github.com/yammadev/flag-icons/blob/bd4bcf4f4829002cd10416029e05ba89a7554af4/svg/CSA.svg
-            let svg = svg.replace(
-                r##"<?xml version="1.0" encoding="UTF-8" standalone="no"?>"##,
-                "",
-            );
+                // https://github.com/yammadev/flag-icons/blob/bd4bcf4f4829002cd10416029e05ba89a7554af4/svg/AE.svg
+                let svg = svg.replace(r##"<?xml version="1.0" encoding="UTF-8"?>"##, "");
 
-            // https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href
-            let svg = svg.replace("xlink:href", "href");
-            let svg = svg.replace(r#"xmlns:xlink="http://www.w3.org/1999/xlink""#, "");
+                // https://github.com/yammadev/flag-icons/blob/bd4bcf4f4829002cd10416029e05ba89a7554af4/svg/CSA.svg
+                let svg = svg.replace(
+                    r##"<?xml version="1.0" encoding="UTF-8" standalone="no"?>"##,
+                    "",
+                );
 
-            // warning: The tag 'clipPath' is not matching its normalized form 'clippath'. If you
-            // want to keep this form, change this to a dynamic tag `@{"clipPath"}`.
-            let svg = svg.replace("<clipPath ", "<clippath ");
-            let svg = svg.replace("</clipPath>", "</clippath>");
+                // https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href
+                let svg = svg.replace("xlink:href", "href");
+                let svg = svg.replace(r#"xmlns:xlink="http://www.w3.org/1999/xlink""#, "");
 
-            let (first_tag, remainder) = svg.split_once('>').unwrap();
-            let mut first_tag = first_tag.to_owned() + ">";
-            let remainder = remainder.to_owned();
-
-            assert!(first_tag.len() > 5, "{}", first_tag);
-
-            if first_tag.contains(" width=") {
-                first_tag = width_regex.replace(&first_tag, "").into_owned();
-            }
-            if first_tag.contains(" height=") {
-                first_tag = height_regex.replace(&first_tag, "").into_owned();
-            }
-            if first_tag.contains(" role=") {
-                first_tag = role_regex.replace(&first_tag, "").into_owned();
-            }
-
-            let remainder = title_regex.replace_all(&remainder, "").into_owned();
-            let remainder = desc_regex.replace_all(&remainder, "").into_owned();
-
-            // Yew's [`html!`] macro doesn't support comments.
-            let remainder = comment_regex.replace_all(&remainder, "").into_owned();
-
-            // Yew's [`html!`] macro requires quoted, bracketed strings.
-            let remainder = text_regex
-                .replace_all(&remainder, r##">{"$1"}<"##)
-                .into_owned();
-
-            let mut replacement = format!(
-                r#"xmlns="http://www.w3.org/2000/svg" data-license="{}" width={{width.clone()}} height={{height.clone()}} onclick={{onclick.clone()}} oncontextmenu={{oncontextmenu.clone()}} class={{class.clone()}} style={{style.clone()}} role={{role.clone()}}"#,
-                license
-            );
-
-            if !svg.contains("stroke=") && !svg.contains("fill=") {
-                replacement += r#" fill="currentColor""#;
-
-                /*
-                if svg.contains("fill-rule") || prefix == "Octicons" {
-                    replacement += r#" fill="currentColor""#;
+                let svg = if true || feature_name == "lucide" {
+                    optimize(&svg)
                 } else {
-                    replacement += r#" stroke="currentColor""#;
+                    svg
+                };
+
+                bar.inc(1);
+
+                // warning: The tag 'clipPath' is not matching its normalized form 'clippath'. If you
+                // want to keep this form, change this to a dynamic tag `@{"clipPath"}`.
+                //let svg = svg.replace("<clipPath ", "<clippath ");
+                //let svg = svg.replace("</clipPath>", "</clippath>");
+
+                let (first_tag, remainder) = svg.split_once('>').unwrap();
+                let mut first_tag = first_tag.to_owned() + ">";
+                let (remainder, _last_tag) = remainder.rsplit_once('<').unwrap();
+                let remainder = remainder.to_owned();
+
+                assert!(first_tag.len() > 5, "{}", first_tag);
+
+                if first_tag.contains(" width=") {
+                    first_tag = width_regex.replace(&first_tag, "").into_owned();
                 }
-                 */
-            }
+                if first_tag.contains(" height=") {
+                    first_tag = height_regex.replace(&first_tag, "").into_owned();
+                }
+                if first_tag.contains(" role=") {
+                    first_tag = role_regex.replace(&first_tag, "").into_owned();
+                }
 
-            first_tag = first_tag.replace(r#"xmlns="http://www.w3.org/2000/svg""#, &replacement);
+                let remainder = title_regex.replace_all(&remainder, "").into_owned();
+                let remainder = desc_regex.replace_all(&remainder, "").into_owned();
 
-            let svg = first_tag
-                + "if let Some(title) = title.clone() { <title>{title}</title> }"
-                + &remainder;
-            let svg_tokens = TokenStream::from_str(&svg).expect(&path);
+                // Yew's [`html!`] macro doesn't support comments.
+                let remainder = comment_regex.replace_all(&remainder, "").into_owned();
 
-            let function_name = name.to_case(Case::Snake);
-            let function_ident = to_ident(&function_name);
+                // Yew's [`html!`] macro requires quoted, bracketed strings.
+                let remainder = text_regex
+                    .replace_all(&remainder, r##">{"$1"}<"##)
+                    .into_owned();
 
-            let variant_name = name.to_case(Case::UpperCamel);
-            let variant = to_ident(&variant_name);
-            variants.push(quote! {
-                #[cfg(feature = #variant_name)]
-                #variant
-            });
+                let mut replacement = format!(
+                    r#"xmlns="http://www.w3.org/2000/svg""#,
+                );
 
-            collection_feature.children.push(variant_name.clone());
-            features.push(Feature {
-                name: variant_name.clone(),
-                children: Vec::new(),
-            });
+                if !svg.contains("stroke=") && !svg.contains("fill=") {
+                    replacement += r#" fill="currentColor""#;
 
-            // Don't need when export separate mods #[cfg(feature = #variant_name)]
-            let tokens = quote! {
-                use crate::IconProps;
-
-                #[inline(never)]
-                pub fn #function_ident(IconProps{icon_id: _, title, width, height, onclick, oncontextmenu, class, style, role}: &IconProps) -> yew::Html {
-                    yew::html! {
-                        #svg_tokens
+                    /*
+                    if svg.contains("fill-rule") || prefix == "Octicons" {
+                        replacement += r#" fill="currentColor""#;
+                    } else {
+                        replacement += r#" stroke="currentColor""#;
                     }
+                    */
                 }
-            };
 
-            let output = tokens.to_string(); // reformat(tokens.to_string(), true).unwrap();
-            write(
-                format!("src/generated/{}/{}.rs", feature_name, function_name),
-                output,
-            )
-            .unwrap();
+                first_tag = first_tag.replace(r#"xmlns="http://www.w3.org/2000/svg""#, &replacement);
 
-            function_mods.push(quote! {
-                #[cfg(feature = #variant_name)]
-                pub mod #function_ident;
-            });
+                let feature_name = feature_name.clone();
 
-            cases.push(quote! {
-                #[cfg(feature = #variant_name)]
-                IconId::#variant => #feature_ident::#function_ident::#function_ident(props)
-            });
+                let icon_name = icon_name.to_case(Case::UpperSnake);
+
+                let constant_name = name.to_case(Case::UpperSnake);
+
+                let ret: Box<dyn Fn() -> (TokenStream, TokenStream) + Send> = Box::new(move || {
+                    let mut parse: &str = first_tag.as_str();
+                    parse = parse.strip_prefix("<svg").unwrap();
+                    parse = parse.strip_suffix(">").unwrap();
+    
+                    let mut view_box_attr = quote!{None};
+                    let mut fill_attr = quote!{None};
+                    let mut stroke_attr = quote!{None};
+                    let mut stroke_width_attr = quote!{None};
+                    let mut stroke_linecap_attr = quote!{None};
+                    let mut stroke_linejoin_attr = quote!{None};
+                    let src_attr = remainder.trim();
+    
+                    loop {
+                        if parse.is_empty() {
+                            break;
+                        }
+                        let (k, next) = parse.split_once('=').expect(parse);
+                        let key = k.trim();
+                        parse = next.trim().strip_prefix("\"").unwrap();
+    
+                        let (value, next) = parse.split_once('"').expect(parse);
+                        parse = next.trim();
+    
+                        let attr = match key {
+                            "xmlns" => {
+                                assert_eq!(value, "http://www.w3.org/2000/svg");
+                                None
+                            }
+                            "viewBox" => Some(&mut view_box_attr),
+                            "fill" => Some(&mut fill_attr),
+                            "stroke" => Some(&mut stroke_attr),
+                            "stroke-width" => Some(&mut stroke_width_attr),
+                            "stroke-linecap" => Some(&mut stroke_linecap_attr),
+                            "stroke-linejoin" => Some(&mut stroke_linejoin_attr),
+                            "id" | "version" | "aria-hidden" => {
+                                None
+                            }
+                            _ => panic!("{key}")
+                        };
+    
+                        if let Some(attr) = attr {
+                            *attr = quote!{Some(#value)};
+                        }
+                    }
+    
+                    let constant = to_ident(&constant_name);
+
+                    let icon_data_item = quote! {
+                        pub const #constant: Self = {
+                            Self {
+                                collection: &COLLECTION,
+                                name: #icon_name,
+                                view_box: #view_box_attr,
+                                fill: #fill_attr,
+                                stroke: #stroke_attr,
+                                stroke_width: #stroke_width_attr,
+                                stroke_linecap: #stroke_linecap_attr,
+                                stroke_linejoin: #stroke_linejoin_attr,
+                                src: #src_attr,
+                            }
+                        };
+                    };
+    
+                    let enumerate_item = quote! {
+                        #[cfg(feature = #feature_name)]
+                        Self::#constant,
+                    };
+    
+                    (icon_data_item, enumerate_item)
+                });
+                ret
+            })
+            .collect::<Vec<Box<dyn Fn() -> (TokenStream, TokenStream) + Send>>>();
+
+        bar.finish();
+
+        for func in items {
+            let (icon_data_item, enumerate_item) = func();
+            icon_data.push(icon_data_item);
+            enumerate.push(enumerate_item);
         }
 
-        let children: Vec<_> = collection_feature
-            .children
-            .iter()
-            .map(|f| {
-                quote! {
-                    feature = #f
-                }
-            })
-            .collect();
-
         imports.push(quote! {
-            #[cfg(any(
-                #(#children),*
-            ))]
+            #[cfg(feature = #feature_name)]
             mod #feature_ident;
         });
 
-        features.push(collection_feature);
+        let collection_name = feature_name.to_case(Case::UpperSnake);
 
         let tokens = quote! {
-            #(#function_mods)*
+            static COLLECTION: crate::IconCollection = crate::IconCollection{
+                name: #collection_name,
+                license: #license,
+            };
+
+            impl crate::IconData {
+                #(#icon_data)*
+            }
         };
 
         let output = reformat(tokens.to_string(), true).unwrap();
         write(format!("src/generated/{}.rs", feature_name), output).unwrap();
+
+        features.push(feature_name);
     };
 
     let font_awesome_license = r##"Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc."##;
@@ -294,50 +336,28 @@ fn main() {
         "simple-icons/icons",
         r##"From https://github.com/simple-icons/simple-icons - Licensed under CC0; check brand guidelines"##,
     );
-    generate(
-        "Extra",
-        "extra",
-        r##"Check brand guidelines"##,
-    );
+    generate("Extra", "extra", r##"Check brand guidelines"##);
 
     let tokens = quote! {
-        /// Identifies which icon to render. Variants are all disabled by default, but can be
-        /// enabled by adding the feature flag of the same name.
-        #[derive(Copy, Clone, Eq, PartialEq, Debug)]
-        #[cfg_attr(feature = "iterate_icon_id", derive(enum_iterator::IntoEnumIterator))]
-        #[non_exhaustive]
-        pub enum IconId {
-            #(#variants),*
-        }
-
-        /// Helper function to get SVG HTML. Made public just in case you don't want the overhead
-        /// of a component.
-        pub fn get_svg(props: &crate::IconProps) -> yew::Html {
-            match props.icon_id {
-                #(#cases),*
-            }
-        }
-
         #(#imports)*
+
+        #[cfg(feature = "_enumerate_icon_data")]
+        impl crate::IconData {
+            #[doc(hidden)]
+            pub const ENUMERATE : &'static [Self] = &[
+                #(#enumerate)*
+            ];
+        }
     };
 
     let output = reformat(tokens.to_string(), false).unwrap();
 
     write("src/generated.rs", output).unwrap();
 
-    features.sort_unstable_by_key(|feature| feature.name.clone());
+    features.sort_unstable_by_key(|feature| feature.clone());
 
     for feature in features {
-        println!(
-            r##"{} = [{}]"##,
-            feature.name,
-            feature
-                .children
-                .into_iter()
-                .map(|c| format!(r##""{}""##, c))
-                .collect::<Vec<_>>()
-                .join(", ")
-        )
+        println!(r##"{} = []"##, feature)
     }
 }
 
@@ -358,4 +378,35 @@ fn reformat(text: impl std::fmt::Display, included: bool) -> Result<String, Stri
     let preamble = "Generated file, do not edit by hand, see `src/generator.rs`";
     let prefix = if included { "//" } else { "//!" };
     Ok(format!("{} {}\n\n{}", prefix, preamble, stdout))
+}
+
+fn optimize(svg: &str) -> String {
+    let mut input = tempfile::NamedTempFile::new().unwrap();
+    let output = tempfile::NamedTempFile::new().unwrap();
+
+    input.as_file_mut().write_all(svg.as_bytes()).unwrap();
+    //input.as_file_mut().flush().unwrap();
+
+    let mut command = Command::new("svgo");
+    command
+        .arg("--config")
+        .arg("./svgo.config.js")
+        .arg("--input")
+        .arg(input.path())
+        .arg("-p")
+        .arg("4")
+        .arg("--multipass")
+        .arg("--output")
+        .arg(output.path());
+
+    let result = command.output().unwrap();
+
+    drop(input);
+
+    assert!(result.status.success(), "{}", String::from_utf8_lossy(&result.stderr));
+
+    let mut ret = String::new();
+    output.as_file().read_to_string(&mut ret).unwrap();
+    //println!("{ret}");
+    ret
 }

@@ -1,43 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Yew Icons</title>
-    <link data-trunk rel="scss" href="/styles/main.scss" />
-    <link data-trunk rel="scss" href="/styles/switch.scss" />
-    <link data-trunk rel="scss" href="/styles/scroll_to_top.scss" />
-    <link data-trunk rel="copy-file" href="/js/loadingIndicator.js" />
-  </head>
-  <body>
-    <!-- Loading indicator -->
-    <div id="loading">
-      <span>Loading...</span>
-    </div>
 
-    <!-- 
-      The current version of Trunk 0.16.0 is not including the scripts correctly,
-      when the version that patched this error come out, we should include it directly:
-      https://github.com/thedodd/trunk/issues/415
-    -->
-    <script data-trunk src="/yew_icons/loadingIndicator.js"></script>
+<head>
+  <meta charset="utf-8" />
+  <title>Yew Icons</title>
+  <link data-trunk rel="scss" href="/styles/main.scss" />
+  <link data-trunk rel="scss" href="/styles/switch.scss" />
+  <link data-trunk rel="scss" href="/styles/scroll_to_top.scss" />
+</head>
 
-    <!-- Script to manage dark mode -->
-    <script>
-      const dark = localStorage.getItem("dark");
-      const prefersDarkMode = window.matchMedia(
-        "(prefers-color-scheme: dark)"
-      ).matches;
-      const useDarkMode = dark === "true" || (dark == null && prefersDarkMode);
+<body>
+  <!-- Loading indicator -->
+  <div id="loading">
+    <span>Loading...</span>
+  </div>
 
-      if (useDarkMode) {
-        document.body.classList.add("dark");
-      }
-    </script>
+  <script data-trunk src="/js/loadingIndicator.js"></script>
 
-    <!-- Entry point -->
-    <div id="root"></div>
+  <!-- Script to manage dark mode -->
+  <script>
+    const dark = localStorage.getItem("dark");
+    const prefersDarkMode = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    ).matches;
+    const useDarkMode = dark === "true" || (dark == null && prefersDarkMode);
 
-    <!-- No JS? -->
-    <noscript>Enable Javascript to see this page</noscript>
-  </body>
+    if (useDarkMode) {
+      document.body.classList.add("dark");
+    }
+  </script>
+
+  <!-- Entry point -->
+  <div id="root"></div>
+
+  <!-- No JS? -->
+  <noscript>Enable Javascript to see this page</noscript>
+</body>
+
 </html>
