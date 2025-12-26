@@ -25,7 +25,7 @@ path = "src/generator.rs"
 required-features = ["generator"]
 
 [dependencies]
-yew = { version = "0.21", features = [
+yew = { version = "0.22", features = [
     "csr",
 ] } #git = "https://github.com/yewstack/yew"}
 quote = { version = "1.0", optional = true }
