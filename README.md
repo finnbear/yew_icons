@@ -34,9 +34,10 @@ Use the [gallery](https://finnbear.github.io/yew_icons/) to find icons you like,
 ```toml
 # If still using yew 0.19, use yew_icons 0.6.1
 # If still using yew 0.20, use yew_icons 0.7.3
+# If still using yew 0.21, use yew_icons 0.8.0
 
 [dependencies]
-yew_icons = {version = "0.8", features = ["lucide"]}
+yew_icons = {version = "0.9", features = ["lucide"]}
 ```
 
 Then, add an `<Icon>` component with the corresponding icon data, optionally specifying a `width`, `height`, and/or `onclick` callback.
@@ -45,13 +46,13 @@ Then, add an `<Icon>` component with the corresponding icon data, optionally spe
 use yew::prelude::*;
 use yew_icons::{Icon, IconData};
 
-html!{
+let _ = html!{
     <>
         <Icon data={IconData::LUCIDE_ARROW_LEFT_CIRCLE}/>
         <Icon data={IconData::LUCIDE_ARROW_UP_CIRCLE} width={"2em".to_owned()} height={"2em".to_owned()}/>
         <Icon data={IconData::LUCIDE_ARROW_RIGHT_CIRCLE} onclick={Callback::from(|_: MouseEvent| {})}/>
     </>
-}
+};
 ```
 
 ![example image](assets/example.png)

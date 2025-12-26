@@ -47,7 +47,6 @@ fn App() -> Html {
 }
 
 fn main() {
-    wasm_logger::init(wasm_logger::Config::default());
     let document = window().unwrap().document().unwrap();
     let root = document.get_element_by_id("root").unwrap();
     yew::Renderer::<App>::with_root(root).render();

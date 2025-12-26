@@ -11,9 +11,9 @@ incremental = true
 opt-level = "s"
 
 [dependencies]
-yew = { version = "0" }
+yew = { version = "0.22" }
 enum-iterator = "0.7"
-web-sys = { version = "0", features = [
+web-sys = { version = "0.3.70", features = [
     "Clipboard",
     "Navigator",
     "HtmlInputElement",
@@ -23,18 +23,16 @@ web-sys = { version = "0", features = [
     "ScrollToOptions",
     "ScrollBehavior",
 ] }
-log = "0.4"
-wasm-logger = "0.2"
 gloo-storage = "0.2.2"
 
 # Note: This dependency is specific to the test app, because it contains the `path = ".."` attribute. In your own project,
 # you must omit that attribute e.g. import `yew_icons = {version = "0.1.1", features = ["FeatherArrowDownCircle"]}`.
 # That way, cargo will download the crate instead of looking in a directory where it doesn't exist.
-yew_icons = { path = "..", features = [
+yew_icons = { path = "..", default-features = false, features = [
     "_enumerate_icon_data",
     "bootstrap",
     "extra",
-    "feather",
+    #"feather",
     "font_awesome_regular",
     "font_awesome_solid",
     "heroicons_solid",
@@ -43,7 +41,7 @@ yew_icons = { path = "..", features = [
     "lucide",
     "octicons",
     #"lipis_flag_icons_1_x_1",
-    #"lipis_flag_icons_4_x_3"
-    #"simple_icons",
+    "lipis_flag_icons_4_x_3",
+    "simple_icons",
 ] }
 wasm-bindgen = "0.2.84"

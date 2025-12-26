@@ -7,7 +7,6 @@
   <link data-trunk rel="scss" href="/styles/main.scss" />
   <link data-trunk rel="scss" href="/styles/switch.scss" />
   <link data-trunk rel="scss" href="/styles/scroll_to_top.scss" />
-  <link data-trunk rel="copy-file" href="/js/loadingIndicator.js" />
 </head>
 
 <body>
@@ -16,12 +15,7 @@
     <span>Loading...</span>
   </div>
 
-  <!-- 
-      The current version of Trunk 0.16.0 is not including the scripts correctly,
-      when the version that patched this error come out, we should include it directly:
-      https://github.com/thedodd/trunk/issues/415
-    -->
-  <script data-trunk src="/yew_icons/loadingIndicator.js"></script>
+  <script data-trunk src="/js/loadingIndicator.js"></script>
 
   <!-- Script to manage dark mode -->
   <script>

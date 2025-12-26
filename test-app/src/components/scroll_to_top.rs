@@ -15,8 +15,9 @@ pub fn ScrollToTop(props: &ScrollToTopProps) -> Html {
 
     let scroll_to_top = Callback::from(|_| {
         let window = window().unwrap();
-        let mut options = web_sys::ScrollToOptions::new();
-        options.top(0.0).behavior(ScrollBehavior::Smooth);
+        let options = web_sys::ScrollToOptions::new();
+        options.set_top(0.0);
+        options.set_behavior(ScrollBehavior::Smooth);
 
         window.scroll_with_scroll_to_options(&options);
     });

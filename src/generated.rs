@@ -31,13 +31,103 @@ impl crate::IconData {
     #[doc(hidden)]
     pub const ENUMERATE: &'static [Self] = &[
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_0_CIRCLE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_0_CIRCLE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_0_SQUARE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_0_SQUARE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_1_CIRCLE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_1_CIRCLE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_1_SQUARE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_1_SQUARE,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_123,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_2_CIRCLE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_2_CIRCLE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_2_SQUARE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_2_SQUARE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_3_CIRCLE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_3_CIRCLE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_3_SQUARE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_3_SQUARE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_4_CIRCLE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_4_CIRCLE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_4_SQUARE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_4_SQUARE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_5_CIRCLE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_5_CIRCLE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_5_SQUARE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_5_SQUARE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_6_CIRCLE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_6_CIRCLE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_6_SQUARE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_6_SQUARE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_7_CIRCLE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_7_CIRCLE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_7_SQUARE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_7_SQUARE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_8_CIRCLE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_8_CIRCLE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_8_SQUARE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_8_SQUARE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_9_CIRCLE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_9_CIRCLE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_9_SQUARE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_9_SQUARE,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_ACTIVITY,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_AIRPLANE_ENGINES_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_AIRPLANE_ENGINES,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_AIRPLANE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_AIRPLANE,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_ALARM_FILL,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_ALARM,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_ALEXA,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_ALIGN_BOTTOM,
         #[cfg(feature = "bootstrap")]
@@ -51,7 +141,15 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_ALIGN_TOP,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_ALIPAY,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_ALT,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_AMD,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_ANDROID,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_ANDROID_2,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_APP_INDICATOR,
         #[cfg(feature = "bootstrap")]
@@ -475,6 +573,10 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_BOX_ARROW_UP,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BOX_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BOX_SEAM_FILL,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_BOX_SEAM,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_BOX,
@@ -519,6 +621,14 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_BROADCAST,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BROWSER_CHROME,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BROWSER_EDGE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BROWSER_FIREFOX,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BROWSER_SAFARI,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_BRUSH_FILL,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_BRUSH,
@@ -531,9 +641,67 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_BUG,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDING_ADD,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDING_CHECK,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDING_DASH,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDING_DOWN,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDING_EXCLAMATION,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDING_FILL_ADD,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDING_FILL_CHECK,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDING_FILL_DASH,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDING_FILL_DOWN,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDING_FILL_EXCLAMATION,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDING_FILL_GEAR,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDING_FILL_LOCK,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDING_FILL_SLASH,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDING_FILL_UP,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDING_FILL_X,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDING_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDING_GEAR,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDING_LOCK,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDING_SLASH,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDING_UP,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDING_X,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_BUILDING,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDINGS_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUILDINGS,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_BULLSEYE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUS_FRONT_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_BUS_FRONT,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_C_CIRCLE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_C_CIRCLE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_C_SQUARE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_C_SQUARE,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_CALCULATOR_FILL,
         #[cfg(feature = "bootstrap")]
@@ -681,6 +849,14 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_CAPSLOCK,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_CAPSULE_PILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_CAPSULE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_CAR_FRONT_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_CAR_FRONT,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_CARD_CHECKLIST,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_CARD_HEADING,
@@ -755,7 +931,19 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_CASH,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_CASSETTE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_CASSETTE,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_CAST,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_CC_CIRCLE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_CC_CIRCLE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_CC_SQUARE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_CC_SQUARE,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_CHAT_DOTS_FILL,
         #[cfg(feature = "bootstrap")]
@@ -1127,6 +1315,10 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_CUP_FILL,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_CUP_HOT_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_CUP_HOT,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_CUP_STRAW,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_CUP,
@@ -1140,6 +1332,8 @@ impl crate::IconData {
         Self::BOOTSTRAP_CURRENCY_EXCHANGE,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_CURRENCY_POUND,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_CURRENCY_RUPEE,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_CURRENCY_YEN,
         #[cfg(feature = "bootstrap")]
@@ -1164,6 +1358,50 @@ impl crate::IconData {
         Self::BOOTSTRAP_DASH_SQUARE,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_DASH,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE_ADD,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE_CHECK,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE_DASH,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE_DOWN,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE_EXCLAMATION,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE_FILL_ADD,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE_FILL_CHECK,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE_FILL_DASH,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE_FILL_DOWN,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE_FILL_EXCLAMATION,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE_FILL_GEAR,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE_FILL_LOCK,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE_FILL_SLASH,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE_FILL_UP,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE_FILL_X,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE_GEAR,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE_LOCK,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE_SLASH,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE_UP,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE_X,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DATABASE,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_DEVICE_HDD_FILL,
         #[cfg(feature = "bootstrap")]
@@ -1247,6 +1485,8 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_DRIBBBLE,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_DROPBOX,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_DROPLET_FILL,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_DROPLET_HALF,
@@ -1329,6 +1569,10 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_EMOJI_WINK,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_ENVELOPE_AT_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_ENVELOPE_AT,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_ENVELOPE_CHECK_FILL,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_ENVELOPE_CHECK,
@@ -1381,7 +1625,17 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_ERASER,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_ESCAPE,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_ETHERNET,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_EV_FRONT_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_EV_FRONT,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_EV_STATION_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_EV_STATION,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_EXCLAMATION_CIRCLE_FILL,
         #[cfg(feature = "bootstrap")]
@@ -1428,6 +1682,18 @@ impl crate::IconData {
         Self::BOOTSTRAP_FACEBOOK,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_FAN,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_FAST_FORWARD_BTN_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_FAST_FORWARD_BTN,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_FAST_FORWARD_CIRCLE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_FAST_FORWARD_CIRCLE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_FAST_FORWARD_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_FAST_FORWARD,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_FILE_ARROW_DOWN_FILL,
         #[cfg(feature = "bootstrap")]
@@ -1763,6 +2029,8 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_FILETYPE_SH,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_FILETYPE_SQL,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_FILETYPE_SVG,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_FILETYPE_TIFF,
@@ -1803,6 +2071,8 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_FINGERPRINT,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_FIRE,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_FLAG_FILL,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_FLAG,
@@ -1840,6 +2110,14 @@ impl crate::IconData {
         Self::BOOTSTRAP_FORWARD,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_FRONT,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_FUEL_PUMP_DIESEL_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_FUEL_PUMP_DIESEL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_FUEL_PUMP_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_FUEL_PUMP,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_FULLSCREEN_EXIT,
         #[cfg(feature = "bootstrap")]
@@ -1883,9 +2161,19 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_GITHUB,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_GLOBE_AMERICAS,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_GLOBE_ASIA_AUSTRALIA,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_GLOBE_CENTRAL_SOUTH_ASIA,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_GLOBE_EUROPE_AFRICA,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_GLOBE,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_GLOBE_2,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_GOOGLE_PLAY,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_GOOGLE,
         #[cfg(feature = "bootstrap")]
@@ -1922,6 +2210,14 @@ impl crate::IconData {
         Self::BOOTSTRAP_GRIP_HORIZONTAL,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_GRIP_VERTICAL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_H_CIRCLE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_H_CIRCLE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_H_SQUARE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_H_SQUARE,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_HAMMER,
         #[cfg(feature = "bootstrap")]
@@ -2015,17 +2311,61 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_HOURGLASS,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSE_ADD_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSE_ADD,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSE_CHECK_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSE_CHECK,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSE_DASH_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSE_DASH,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_HOUSE_DOOR_FILL,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_HOUSE_DOOR,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSE_DOWN_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSE_DOWN,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSE_EXCLAMATION_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSE_EXCLAMATION,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_HOUSE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSE_GEAR_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSE_GEAR,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_HOUSE_HEART_FILL,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_HOUSE_HEART,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSE_LOCK_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSE_LOCK,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSE_SLASH_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSE_SLASH,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSE_UP_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSE_UP,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSE_X_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSE_X,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_HOUSE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSES_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_HOUSES,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_HR,
         #[cfg(feature = "bootstrap")]
@@ -2050,6 +2390,8 @@ impl crate::IconData {
         Self::BOOTSTRAP_INBOXES,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_INCOGNITO,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_INDENT,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_INFINITY,
         #[cfg(feature = "bootstrap")]
@@ -2213,6 +2555,10 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_LOCK,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_LUNGS_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_LUNGS,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_MAGIC,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_MAGNET_FILL,
@@ -2270,6 +2616,8 @@ impl crate::IconData {
         Self::BOOTSTRAP_MIC_MUTE,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_MIC,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_MICROSOFT_TEAMS,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_MICROSOFT,
         #[cfg(feature = "bootstrap")]
@@ -2337,6 +2685,8 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_NUT,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_NVIDIA,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_OCTAGON_FILL,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_OCTAGON_HALF,
@@ -2351,6 +2701,14 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_OUTLET,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_P_CIRCLE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_P_CIRCLE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_P_SQUARE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_P_SQUARE,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_PAINT_BUCKET,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_PALETTE_FILL,
@@ -2362,6 +2720,10 @@ impl crate::IconData {
         Self::BOOTSTRAP_PAPERCLIP,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_PARAGRAPH,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PASS_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PASS,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_PATCH_CHECK_FILL,
         #[cfg(feature = "bootstrap")]
@@ -2433,6 +2795,8 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_PERCENT,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PERSON_ADD,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_PERSON_BADGE_FILL,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_PERSON_BADGE,
@@ -2449,7 +2813,33 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_PERSON_DASH,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PERSON_DOWN,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PERSON_EXCLAMATION,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PERSON_FILL_ADD,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PERSON_FILL_CHECK,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PERSON_FILL_DASH,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PERSON_FILL_DOWN,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PERSON_FILL_EXCLAMATION,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PERSON_FILL_GEAR,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PERSON_FILL_LOCK,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PERSON_FILL_SLASH,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PERSON_FILL_UP,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PERSON_FILL_X,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_PERSON_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PERSON_GEAR,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_PERSON_HEART,
         #[cfg(feature = "bootstrap")]
@@ -2457,13 +2847,23 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_PERSON_LINES_FILL,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PERSON_LOCK,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_PERSON_PLUS_FILL,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_PERSON_PLUS,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_PERSON_ROLODEX,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PERSON_SLASH,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_PERSON_SQUARE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PERSON_UP,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PERSON_VCARD_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PERSON_VCARD,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_PERSON_VIDEO,
         #[cfg(feature = "bootstrap")]
@@ -2575,6 +2975,10 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_POWER,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PRESCRIPTION,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_PRESCRIPTION_2,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_PRINTER_FILL,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_PRINTER,
@@ -2615,6 +3019,14 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_QUOTE,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_R_CIRCLE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_R_CIRCLE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_R_SQUARE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_R_SQUARE,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_RADIOACTIVE,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_RAINBOW,
@@ -2653,6 +3065,12 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_REDDIT,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_REGEX,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_REPEAT_1,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_REPEAT,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_REPLY_ALL_FILL,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_REPLY_ALL,
@@ -2661,7 +3079,27 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_REPLY,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_REWIND_BTN_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_REWIND_BTN,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_REWIND_CIRCLE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_REWIND_CIRCLE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_REWIND_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_REWIND,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_ROBOT,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_ROCKET_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_ROCKET_TAKEOFF_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_ROCKET_TAKEOFF,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_ROCKET,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_ROUTER_FILL,
         #[cfg(feature = "bootstrap")]
@@ -2690,6 +3128,8 @@ impl crate::IconData {
         Self::BOOTSTRAP_SAVE_2,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_SCISSORS,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SCOOTER,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_SCREWDRIVER,
         #[cfg(feature = "bootstrap")]
@@ -2783,6 +3223,82 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_SHUFFLE,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_DEAD_END_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_DEAD_END,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_DO_NOT_ENTER_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_DO_NOT_ENTER,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_INTERSECTION_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_INTERSECTION_SIDE_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_INTERSECTION_SIDE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_INTERSECTION_T_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_INTERSECTION_T,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_INTERSECTION_Y_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_INTERSECTION_Y,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_INTERSECTION,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_MERGE_LEFT_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_MERGE_LEFT,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_MERGE_RIGHT_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_MERGE_RIGHT,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_NO_LEFT_TURN_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_NO_LEFT_TURN,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_NO_PARKING_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_NO_PARKING,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_NO_RIGHT_TURN_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_NO_RIGHT_TURN,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_RAILROAD_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_RAILROAD,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_STOP_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_STOP_LIGHTS_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_STOP_LIGHTS,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_STOP,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_TURN_LEFT_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_TURN_LEFT,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_TURN_RIGHT_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_TURN_RIGHT,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_TURN_SLIGHT_LEFT_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_TURN_SLIGHT_LEFT,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_TURN_SLIGHT_RIGHT_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_TURN_SLIGHT_RIGHT,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_YIELD_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SIGN_YIELD,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_SIGNAL,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_SIGNPOST_2_FILL,
@@ -2800,6 +3316,8 @@ impl crate::IconData {
         Self::BOOTSTRAP_SIM_FILL,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_SIM,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SINA_WEIBO,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_SKIP_BACKWARD_BTN_FILL,
         #[cfg(feature = "bootstrap")]
@@ -2969,6 +3487,10 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_STRAVA,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_STRIPE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SUBSCRIPT,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_SUBTRACT,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_SUIT_CLUB_FILL,
@@ -3001,6 +3523,8 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_SUNSET,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_SUPERSCRIPT,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_SYMMETRY_HORIZONTAL,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_SYMMETRY_VERTICAL,
@@ -3022,6 +3546,10 @@ impl crate::IconData {
         Self::BOOTSTRAP_TAGS_FILL,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_TAGS,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_TAXI_FRONT_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_TAXI_FRONT,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_TELEGRAM,
         #[cfg(feature = "bootstrap")]
@@ -3053,6 +3581,8 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_TELEPHONE,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_TENCENT_QQ,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_TERMINAL_DASH,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_TERMINAL_FILL,
@@ -3076,6 +3606,8 @@ impl crate::IconData {
         Self::BOOTSTRAP_TEXT_PARAGRAPH,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_TEXT_RIGHT,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_TEXT_WRAP,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_TEXTAREA_RESIZE,
         #[cfg(feature = "bootstrap")]
@@ -3133,6 +3665,18 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_TORNADO,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_TRAIN_FREIGHT_FRONT_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_TRAIN_FREIGHT_FRONT,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_TRAIN_FRONT_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_TRAIN_FRONT,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_TRAIN_LIGHTRAIL_FRONT_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_TRAIN_LIGHTRAIL_FRONT,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_TRANSLATE,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_TRASH_FILL,
@@ -3151,6 +3695,8 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_TREE,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_TRELLO,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_TRIANGLE_FILL,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_TRIANGLE_HALF,
@@ -3164,6 +3710,10 @@ impl crate::IconData {
         Self::BOOTSTRAP_TROPICAL_STORM,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_TRUCK_FLATBED,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_TRUCK_FRONT_FILL,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_TRUCK_FRONT,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_TRUCK,
         #[cfg(feature = "bootstrap")]
@@ -3193,6 +3743,8 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_TYPE,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_UBUNTU,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_UI_CHECKS_GRID,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_UI_CHECKS,
@@ -3205,7 +3757,15 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_UMBRELLA,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_UNINDENT,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_UNION,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_UNITY,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_UNIVERSAL_ACCESS_CIRCLE,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_UNIVERSAL_ACCESS,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_UNLOCK_FILL,
         #[cfg(feature = "bootstrap")]
@@ -3259,6 +3819,10 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_VINYL,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_VIRUS,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_VIRUS_2,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_VOICEMAIL,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_VOLUME_DOWN_FILL,
@@ -3293,6 +3857,8 @@ impl crate::IconData {
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_WEBCAM,
         #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_WECHAT,
+        #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_WHATSAPP,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_WIFI_1,
@@ -3302,6 +3868,8 @@ impl crate::IconData {
         Self::BOOTSTRAP_WIFI_OFF,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_WIFI,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_WIKIPEDIA,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_WIND,
         #[cfg(feature = "bootstrap")]
@@ -3358,6 +3926,8 @@ impl crate::IconData {
         Self::BOOTSTRAP_X,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_XBOX,
+        #[cfg(feature = "bootstrap")]
+        Self::BOOTSTRAP_YELP,
         #[cfg(feature = "bootstrap")]
         Self::BOOTSTRAP_YIN_YANG,
         #[cfg(feature = "bootstrap")]
