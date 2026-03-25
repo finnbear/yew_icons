@@ -175,6 +175,6 @@ mod test {
         assert!(rendered.contains("2em"), "{data:?} {}", rendered);
         assert!(rendered.contains("3em"), "{data:?} {}", rendered);
 
-        //println!("{:?} => {}", icon_id, rendered);
+        // println!("{} => {}", data.name, rendered);
     }
 }
