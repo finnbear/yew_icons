@@ -35,9 +35,10 @@ Use the [gallery](https://finnbear.github.io/yew_icons/) to find icons you like,
 # If still using yew 0.19, use yew_icons 0.6.1
 # If still using yew 0.20, use yew_icons 0.7.3
 # If still using yew 0.21, use yew_icons 0.8.0
+# If still using yew 0.22, use yew_icons 0.9.0
 
 [dependencies]
-yew_icons = {version = "0.9", features = ["lucide"]}
+yew_icons = {version = "0.10", features = ["lucide"]}
 ```
 
 Then, add an `<Icon>` component with the corresponding icon data, optionally specifying a `width`, `height`, and/or `onclick` callback.
@@ -111,15 +112,3 @@ cargo run --features="generator" > generated_feature_flags.txt
 ```
 
 PR's ideally shouldn't include non-trivial amounts of generated file diffs. Merging and then generating is much easier to review than thousands of generated files.
-
-### Running tests
-
-```shell
-# 1. uncomment the "testing" feature flag in Cargo.toml
-
-# 2. for each icon set to test, run:
-cargo test test --features "enum-iterator testing [icon collection to test]"
-# (the test name is "test", which we specify to skip the doc tests)
-# icon collection options are: bootstrap feather font_awesome_regular font_awesome_solid heroicons_mini_solid heroicons_outline heroicons_solid lipis_flag_icons_1_x_1 lipis_flag_icons_4_x_3 lucide octicons simple_icons
-# if testing all icon sets at once, the prokio-runtime-worker may overflow its stack
-```
